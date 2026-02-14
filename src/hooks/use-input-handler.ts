@@ -3,9 +3,16 @@ import { useInput } from "ink";
 import { GrokAgent, ChatEntry } from "../agent/grok-agent.js";
 import { ConfirmationService } from "../utils/confirmation-service.js";
 import { useEnhancedInput, Key } from "./use-enhanced-input.js";
+import { promises as fs } from "fs";
+import path from "path";
+import { UserContent, UserContentPart } from "../grok/client.js";
 
 import { filterCommandSuggestions } from "../ui/components/command-suggestions.js";
 import { loadModelConfig, updateCurrentModel } from "../utils/model-config.js";
+import { getClipboardImageSync } from "../utils/clipboard-image.js";
+
+/** Pasted content longer than this is treated as text; clipboard image check is skipped. */
+const PASTE_TEXT_THRESHOLD = 1000;
 
 interface UseInputHandlerProps {
   agent: GrokAgent;
@@ -30,6 +37,16 @@ interface ModelOption {
   model: string;
 }
 
+interface PendingImageAttachment {
+  imageUrl: string;
+  label: string;
+}
+
+const MAX_IMAGE_SIZE_BYTES = 20 * 1024 * 1024;
+const IMAGE_EXTENSIONS = new Set([".png", ".jpg", ".jpeg"]);
+const IMAGE_URL_REGEX =
+  /https?:\/\/[^\s]+\.(?:png|jpe?g|gif|webp)(?:\?[^\s]*)?/gi;
+
 export function useInputHandler({
   agent,
   chatHistory,
@@ -52,11 +69,104 @@ export function useInputHandler({
     const sessionFlags = confirmationService.getSessionFlags();
     return sessionFlags.allOperations;
   });
+  const [pendingImageAttachments, setPendingImageAttachments] = useState<
+    PendingImageAttachment[]
+  >([]);
 
-  const handleSpecialKey = (key: Key): boolean => {
+  const parseImageUrlsFromText = (
+    inputText: string
+  ): { imageUrls: string[]; cleanedText: string } => {
+    const matches = inputText.match(IMAGE_URL_REGEX) || [];
+    const cleanedText = inputText
+      .replace(IMAGE_URL_REGEX, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+    return { imageUrls: [...new Set(matches)], cleanedText };
+  };
+
+  const buildUserContent = (userInput: string): UserContent => {
+    const { imageUrls, cleanedText } = parseImageUrlsFromText(userInput);
+    const parts: UserContentPart[] = [
+      ...pendingImageAttachments.map((attachment) => ({
+        type: "input_image" as const,
+        image_url: attachment.imageUrl,
+        detail: "high" as const,
+      })),
+      ...imageUrls.map((url) => ({
+        type: "input_image" as const,
+        image_url: url,
+        detail: "high" as const,
+      })),
+    ];
+
+    if (parts.length === 0) {
+      return userInput;
+    }
+
+    if (cleanedText.length > 0) {
+      parts.push({ type: "input_text", text: cleanedText });
+    }
+
+    return parts;
+  };
+
+  const readLocalImageAsDataUrl = async (
+    filePathArg: string
+  ): Promise<PendingImageAttachment> => {
+    const unquotedPath = filePathArg.replace(/^["']|["']$/g, "");
+    const absolutePath = path.isAbsolute(unquotedPath)
+      ? unquotedPath
+      : path.resolve(process.cwd(), unquotedPath);
+    const extension = path.extname(absolutePath).toLowerCase();
+
+    if (!IMAGE_EXTENSIONS.has(extension)) {
+      throw new Error("Only .png, .jpg, and .jpeg files are supported");
+    }
+
+    const stats = await fs.stat(absolutePath);
+    if (stats.size > MAX_IMAGE_SIZE_BYTES) {
+      throw new Error("Image must be 20MiB or smaller");
+    }
+
+    const imageBuffer = await fs.readFile(absolutePath);
+    const mimeType = extension === ".png" ? "image/png" : "image/jpeg";
+    const imageUrl = `data:${mimeType};base64,${imageBuffer.toString("base64")}`;
+
+    return {
+      imageUrl,
+      label: path.basename(absolutePath),
+    };
+  };
+
+  const handleSpecialKey = (key: Key, pasteText?: string): boolean => {
     // Don't handle input if confirmation dialog is active
     if (isConfirmationActive) {
       return true; // Prevent default handling
+    }
+
+    // Paste: skip slow clipboard image check when pasted content is clearly text (long string)
+    if (key.paste) {
+      if (pasteText != null && pasteText.length > PASTE_TEXT_THRESHOLD) {
+        return false; // Let default handling insert pasted text immediately
+      }
+      const image = getClipboardImageSync();
+      if (image) {
+        const imageUrl = `data:${image.mimeType};base64,${image.base64}`;
+        setPendingImageAttachments((prev) => [
+          ...prev,
+          { imageUrl, label: "Pasted image" },
+        ]);
+        setChatHistory((prev) => [
+          ...prev,
+          {
+            type: "assistant",
+            content: "Pasted 1 image.",
+            timestamp: new Date(),
+          },
+        ]);
+        return true;
+      }
+      return false; // let default handling insert pasted text
     }
 
     // Handle shift+tab to toggle auto-edit mode
@@ -223,6 +333,8 @@ export function useInputHandler({
     { command: "/help", description: "Show help information" },
     { command: "/clear", description: "Clear chat history" },
     { command: "/models", description: "Switch Grok Model" },
+    { command: "/attach", description: "Attach image for next message" },
+    { command: "/attach-clear", description: "Clear attached images" },
     { command: "/commit-and-push", description: "AI commit & push to remote" },
     { command: "/exit", description: "Exit the application" },
   ];
@@ -238,6 +350,7 @@ export function useInputHandler({
     if (trimmedInput === "/clear") {
       // Reset chat history
       setChatHistory([]);
+      setPendingImageAttachments([]);
 
       // Reset processing states
       setIsProcessing(false);
@@ -264,6 +377,8 @@ Built-in Commands:
   /clear      - Clear chat history
   /help       - Show this help
   /models     - Switch between available models
+  /attach     - Attach an image for your next message
+  /attach-clear - Clear pending image attachments
   /exit       - Exit application
   exit, quit  - Exit application
 
@@ -272,6 +387,7 @@ Git Commands:
 
 Enhanced Input Features:
   ↑/↓ Arrow   - Navigate command history
+  Ctrl+V / Cmd+V - Paste image from clipboard to attach (or paste text)
   Ctrl+C      - Clear input (press twice to exit)
   Ctrl+←/→    - Move by word
   Ctrl+A/E    - Move to line start/end
@@ -337,6 +453,54 @@ Available models: ${modelNames.join(", ")}`,
           timestamp: new Date(),
         };
         setChatHistory((prev) => [...prev, errorEntry]);
+      }
+
+      clearInput();
+      return true;
+    }
+
+    if (trimmedInput === "/attach") {
+      const attachHelpEntry: ChatEntry = {
+        type: "assistant",
+        content:
+          "Usage: /attach <image-path>\nSupported formats: .png, .jpg, .jpeg (max 20MiB)\nUse /attach-clear to remove queued images.",
+        timestamp: new Date(),
+      };
+      setChatHistory((prev) => [...prev, attachHelpEntry]);
+      clearInput();
+      return true;
+    }
+
+    if (trimmedInput === "/attach-clear") {
+      setPendingImageAttachments([]);
+      const clearedEntry: ChatEntry = {
+        type: "assistant",
+        content: "Cleared pending image attachments.",
+        timestamp: new Date(),
+      };
+      setChatHistory((prev) => [...prev, clearedEntry]);
+      clearInput();
+      return true;
+    }
+
+    if (trimmedInput.startsWith("/attach ")) {
+      const fileArg = trimmedInput.slice("/attach ".length).trim();
+      try {
+        const attachment = await readLocalImageAsDataUrl(fileArg);
+        setPendingImageAttachments((prev) => [...prev, attachment]);
+        const attachedEntry: ChatEntry = {
+          type: "assistant",
+          content: `Attached image: ${attachment.label}`,
+          timestamp: new Date(),
+        };
+        setChatHistory((prev) => [...prev, attachedEntry]);
+      } catch (error: any) {
+        const attachErrorEntry: ChatEntry = {
+          type: "assistant",
+          content: `Attach failed: ${error.message}`,
+          timestamp: new Date(),
+        };
+        setChatHistory((prev) => [...prev, attachErrorEntry]);
       }
 
       clearInput();
@@ -608,21 +772,23 @@ Respond with ONLY the commit message, no additional text.`;
   };
 
   const processUserMessage = async (userInput: string) => {
+    const userContent = buildUserContent(userInput);
     const userEntry: ChatEntry = {
       type: "user",
-      content: userInput,
+      content: userContent,
       timestamp: new Date(),
     };
     setChatHistory((prev) => [...prev, userEntry]);
 
     setIsProcessing(true);
     clearInput();
+    setPendingImageAttachments([]);
 
     try {
       setIsStreaming(true);
       let streamingEntry: ChatEntry | null = null;
 
-      for await (const chunk of agent.processUserMessageStream(userInput)) {
+      for await (const chunk of agent.processUserMessageStream(userContent)) {
         switch (chunk.type) {
           case "content":
             if (chunk.content) {
@@ -639,7 +805,13 @@ Respond with ONLY the commit message, no additional text.`;
                 setChatHistory((prev) =>
                   prev.map((entry, idx) =>
                     idx === prev.length - 1 && entry.isStreaming
-                      ? { ...entry, content: entry.content + chunk.content }
+                      ? {
+                          ...entry,
+                          content:
+                            (typeof entry.content === "string"
+                              ? entry.content
+                              : "") + chunk.content,
+                        }
                       : entry
                   )
                 );
@@ -748,5 +920,6 @@ Respond with ONLY the commit message, no additional text.`;
     availableModels,
     agent,
     autoEditEnabled,
+    pendingImageCount: pendingImageAttachments.length,
   };
 }

@@ -6,9 +6,10 @@ import * as dotenv from "dotenv";
 import { GrokAgent } from "./agent/grok-agent.js";
 import ChatInterface from "./ui/components/chat-interface.js";
 import { getSettingsManager } from "./utils/settings-manager.js";
+import { loadModelConfig } from "./utils/model-config.js";
 import { ConfirmationService } from "./utils/confirmation-service.js";
 import { createMCPCommand } from "./commands/mcp.js";
-import type { ChatCompletionMessageParam } from "openai/resources/chat";
+import { UserContentPart } from "./grok/client.js";
 
 // Load environment variables
 dotenv.config();
@@ -106,6 +107,85 @@ function loadModel(): string | undefined {
   return model;
 }
 
+function listModelsAndExit(selectedModel?: string): never {
+  const availableModels = loadModelConfig();
+
+  if (availableModels.length === 0) {
+    console.log("No models configured.");
+    process.exit(0);
+  }
+
+  const rows = availableModels.map((item) => ({
+    current: selectedModel && selectedModel === item.model ? "*" : "",
+    model: item.model,
+    context: item.contextWindow,
+    reasoning: item.reasoning ? "yes" : "no",
+    api: item.recommendedApi,
+    webSearch: item.webSearchSupport ? "yes" : "no",
+  }));
+
+  const widths = {
+    current: 1,
+    model: Math.max(
+      "Model".length,
+      ...rows.map((row) => row.model.length)
+    ),
+    context: Math.max(
+      "Context".length,
+      ...rows.map((row) => row.context.length)
+    ),
+    reasoning: Math.max(
+      "Reasoning".length,
+      ...rows.map((row) => row.reasoning.length)
+    ),
+    api: Math.max("API".length, ...rows.map((row) => row.api.length)),
+    webSearch: Math.max(
+      "WebSearch".length,
+      ...rows.map((row) => row.webSearch.length)
+    ),
+  };
+
+  const pad = (value: string, width: number) => value.padEnd(width, " ");
+  const header = [
+    pad("", widths.current),
+    pad("Model", widths.model),
+    pad("Context", widths.context),
+    pad("Reasoning", widths.reasoning),
+    pad("API", widths.api),
+    pad("WebSearch", widths.webSearch),
+  ].join("  ");
+  const divider = [
+    "-".repeat(widths.current),
+    "-".repeat(widths.model),
+    "-".repeat(widths.context),
+    "-".repeat(widths.reasoning),
+    "-".repeat(widths.api),
+    "-".repeat(widths.webSearch),
+  ].join("  ");
+
+  console.log("Available models:");
+  console.log(header);
+  console.log(divider);
+  for (const row of rows) {
+    console.log(
+      [
+        pad(row.current, widths.current),
+        pad(row.model, widths.model),
+        pad(row.context, widths.context),
+        pad(row.reasoning, widths.reasoning),
+        pad(row.api, widths.api),
+        pad(row.webSearch, widths.webSearch),
+      ].join("  ")
+    );
+  }
+
+  if (selectedModel) {
+    console.log('\n* currently selected model');
+  }
+
+  process.exit(0);
+}
+
 // Handle commit-and-push command in headless mode
 async function handleCommitAndPushHeadless(
   apiKey: string,
@@ -169,7 +249,11 @@ Respond with ONLY the commit message, no additional text.`;
 
     // Extract the commit message from the AI response
     for (const entry of commitMessageEntries) {
-      if (entry.type === "assistant" && entry.content.trim()) {
+      if (
+        entry.type === "assistant" &&
+        typeof entry.content === "string" &&
+        entry.content.trim()
+      ) {
         commitMessage = entry.content.trim();
         break;
       }
@@ -245,22 +329,46 @@ async function processPromptHeadless(
     // Process the user message
     const chatEntries = await agent.processUserMessage(prompt);
 
-    // Convert chat entries to OpenAI compatible message objects
-    const messages: ChatCompletionMessageParam[] = [];
+    const toOpenAIUserContent = (
+      content: string | UserContentPart[]
+    ): string | Array<{ type: "text"; text: string } | { type: "image_url"; image_url: { url: string } }> => {
+      if (typeof content === "string") {
+        return content;
+      }
+
+      return content.map((part) =>
+        part.type === "input_text"
+          ? { type: "text", text: part.text }
+          : { type: "image_url", image_url: { url: part.image_url } }
+      );
+    };
+
+    const toTextContent = (content: string | UserContentPart[]): string => {
+      if (typeof content === "string") {
+        return content;
+      }
+      return content
+        .map((part) => (part.type === "input_text" ? part.text : "[Image]"))
+        .join(" ")
+        .trim();
+    };
+
+    // Convert chat entries to OpenAI-compatible message objects
+    const messages: any[] = [];
 
     for (const entry of chatEntries) {
       switch (entry.type) {
         case "user":
           messages.push({
             role: "user",
-            content: entry.content,
+            content: toOpenAIUserContent(entry.content),
           });
           break;
 
         case "assistant":
-          const assistantMessage: ChatCompletionMessageParam = {
+          const assistantMessage: any = {
             role: "assistant",
-            content: entry.content,
+            content: toTextContent(entry.content),
           };
 
           // Add tool calls if present
@@ -283,7 +391,7 @@ async function processPromptHeadless(
             messages.push({
               role: "tool",
               tool_call_id: entry.toolCall.id,
-              content: entry.content,
+              content: toTextContent(entry.content),
             });
           }
           break;
@@ -332,6 +440,7 @@ program
     "maximum number of tool execution rounds (default: 400)",
     "400"
   )
+  .option("--list-models", "list configured models and exit")
   .action(async (message, options) => {
     if (options.directory) {
       try {
@@ -351,6 +460,10 @@ program
       const baseURL = options.baseUrl || loadBaseURL();
       const model = options.model || loadModel();
       const maxToolRounds = parseInt(options.maxToolRounds) || 400;
+
+      if (options.listModels) {
+        listModelsAndExit(model);
+      }
 
       if (!apiKey) {
         console.error(

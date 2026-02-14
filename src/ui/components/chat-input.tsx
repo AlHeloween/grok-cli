@@ -6,6 +6,7 @@ interface ChatInputProps {
   cursorPosition: number;
   isProcessing: boolean;
   isStreaming: boolean;
+  pendingImageCount?: number;
 }
 
 export function ChatInput({
@@ -13,6 +14,7 @@ export function ChatInput({
   cursorPosition,
   isProcessing,
   isStreaming,
+  pendingImageCount = 0,
 }: ChatInputProps) {
   const beforeCursor = input.slice(0, cursorPosition);
   const afterCursor = input.slice(cursorPosition);
@@ -45,46 +47,48 @@ export function ChatInput({
 
   if (isMultiline) {
     return (
-      <Box
-        borderStyle="round"
-        borderColor={borderColor}
-        paddingY={0}
-        marginTop={1}
-      >
-        {lines.map((line, index) => {
-          const isCurrentLine = index === currentLineIndex;
-          const promptChar = index === 0 ? "❯" : "│";
+      <Box flexDirection="column" marginTop={1}>
+        {pendingImageCount > 0 && (
+          <Text color="yellow">
+            {pendingImageCount} image{pendingImageCount === 1 ? "" : "s"} attached
+          </Text>
+        )}
+        <Box borderStyle="round" borderColor={borderColor} paddingY={0}>
+          {lines.map((line, index) => {
+            const isCurrentLine = index === currentLineIndex;
+            const promptChar = index === 0 ? "❯" : "│";
 
-          if (isCurrentLine) {
-            const beforeCursorInLine = line.slice(0, currentCharIndex);
-            const cursorChar =
-              line.slice(currentCharIndex, currentCharIndex + 1) || " ";
-            const afterCursorInLine = line.slice(currentCharIndex + 1);
+            if (isCurrentLine) {
+              const beforeCursorInLine = line.slice(0, currentCharIndex);
+              const cursorChar =
+                line.slice(currentCharIndex, currentCharIndex + 1) || " ";
+              const afterCursorInLine = line.slice(currentCharIndex + 1);
 
-            return (
-              <Box key={index}>
-                <Text color={promptColor}>{promptChar} </Text>
-                <Text>
-                  {beforeCursorInLine}
-                  {showCursor && (
-                    <Text backgroundColor="white" color="black">
-                      {cursorChar}
-                    </Text>
-                  )}
-                  {!showCursor && cursorChar !== " " && cursorChar}
-                  {afterCursorInLine}
-                </Text>
-              </Box>
-            );
-          } else {
-            return (
-              <Box key={index}>
-                <Text color={promptColor}>{promptChar} </Text>
-                <Text>{line}</Text>
-              </Box>
-            );
-          }
-        })}
+              return (
+                <Box key={index}>
+                  <Text color={promptColor}>{promptChar} </Text>
+                  <Text>
+                    {beforeCursorInLine}
+                    {showCursor && (
+                      <Text backgroundColor="white" color="black">
+                        {cursorChar}
+                      </Text>
+                    )}
+                    {!showCursor && cursorChar !== " " && cursorChar}
+                    {afterCursorInLine}
+                  </Text>
+                </Box>
+              );
+            } else {
+              return (
+                <Box key={index}>
+                  <Text color={promptColor}>{promptChar} </Text>
+                  <Text>{line}</Text>
+                </Box>
+              );
+            }
+          })}
+        </Box>
       </Box>
     );
   }
@@ -94,38 +98,39 @@ export function ChatInput({
   const afterCursorText = input.slice(cursorPosition + 1);
 
   return (
-    <Box
-      borderStyle="round"
-      borderColor={borderColor}
-      paddingX={1}
-      paddingY={0}
-      marginTop={1}
-    >
-      <Box>
-        <Text color={promptColor}>❯ </Text>
-        {isPlaceholder ? (
-          <>
-            <Text color="gray" dimColor>
-              {placeholderText}
+    <Box flexDirection="column" marginTop={1}>
+      {pendingImageCount > 0 && (
+        <Text color="yellow">
+          {pendingImageCount} image{pendingImageCount === 1 ? "" : "s"} attached
+        </Text>
+      )}
+      <Box borderStyle="round" borderColor={borderColor} paddingX={1} paddingY={0}>
+        <Box>
+          <Text color={promptColor}>❯ </Text>
+          {isPlaceholder ? (
+            <>
+              <Text color="gray" dimColor>
+                {placeholderText}
+              </Text>
+              {showCursor && (
+                <Text backgroundColor="white" color="black">
+                  {" "}
+                </Text>
+              )}
+            </>
+          ) : (
+            <Text>
+              {beforeCursor}
+              {showCursor && (
+                <Text backgroundColor="white" color="black">
+                  {cursorChar}
+                </Text>
+              )}
+              {!showCursor && cursorChar !== " " && cursorChar}
+              {afterCursorText}
             </Text>
-            {showCursor && (
-              <Text backgroundColor="white" color="black">
-                {" "}
-              </Text>
-            )}
-          </>
-        ) : (
-          <Text>
-            {beforeCursor}
-            {showCursor && (
-              <Text backgroundColor="white" color="black">
-                {cursorChar}
-              </Text>
-            )}
-            {!showCursor && cursorChar !== " " && cursorChar}
-            {afterCursorText}
-          </Text>
-        )}
+          )}
+        </Box>
       </Box>
     </Box>
   );

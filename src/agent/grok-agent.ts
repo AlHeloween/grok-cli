@@ -1,4 +1,11 @@
-import { GrokClient, GrokMessage, GrokToolCall } from "../grok/client.js";
+import {
+  AgentToolResponse,
+  GrokClient,
+  GrokMessage,
+  GrokToolCall,
+  UserContent,
+  UserContentPart,
+} from "../grok/client.js";
 import {
   GROK_TOOLS,
   addMCPToolsToGrokTools,
@@ -23,7 +30,7 @@ import { getSettingsManager } from "../utils/settings-manager.js";
 
 export interface ChatEntry {
   type: "user" | "assistant" | "tool_result" | "tool_call";
-  content: string;
+  content: string | UserContentPart[];
   timestamp: Date;
   toolCalls?: GrokToolCall[];
   toolCall?: GrokToolCall;
@@ -200,7 +207,68 @@ Current working directory: ${process.cwd()}`,
     return false;
   }
 
-  async processUserMessage(message: string): Promise<ChatEntry[]> {
+  private shouldUseAgentToolsForMessage(message: string): boolean {
+    return this.isGrokModel() && this.shouldUseSearchFor(message);
+  }
+
+  private getUserContentText(content: UserContent): string {
+    if (typeof content === "string") {
+      return content;
+    }
+
+    return content
+      .map((part) =>
+        part.type === "input_text"
+          ? part.text
+          : `[image:${part.image_url.slice(0, 128)}]`
+      )
+      .join(" ");
+  }
+
+  private isGrok41FastModel(): boolean {
+    const currentModel = this.grokClient.getCurrentModel().toLowerCase();
+    return currentModel.includes("grok-4-1-fast");
+  }
+
+  private getAgentToolCalls(response: AgentToolResponse): GrokToolCall[] {
+    const output = Array.isArray(response.output) ? response.output : [];
+    return output
+      .filter((item: any) => item?.type === "function_call" && item?.name)
+      .map((item: any) => ({
+        id: item.call_id || item.id || `call_${Date.now()}`,
+        type: "function",
+        function: {
+          name: item.name,
+          arguments: item.arguments || "{}",
+        },
+      }));
+  }
+
+  private getAgentAssistantText(response: AgentToolResponse): string {
+    if (typeof response.output_text === "string" && response.output_text.trim()) {
+      return response.output_text;
+    }
+    const output = Array.isArray(response.output) ? response.output : [];
+    const messageTexts: string[] = [];
+    for (const item of output as any[]) {
+      if (item?.type !== "message" || !Array.isArray(item.content)) {
+        continue;
+      }
+      for (const part of item.content) {
+        if (
+          part &&
+          (part.type === "output_text" || part.type === "text") &&
+          typeof part.text === "string"
+        ) {
+          messageTexts.push(part.text);
+        }
+      }
+    }
+    return messageTexts.join("\n").trim();
+  }
+
+  async processUserMessage(message: UserContent): Promise<ChatEntry[]> {
+    const messageText = this.getUserContentText(message);
     // Add user message to conversation
     const userEntry: ChatEntry = {
       type: "user",
@@ -216,18 +284,26 @@ Current working directory: ${process.cwd()}`,
 
     try {
       const tools = await getAllGrokTools();
-      let currentResponse = await this.grokClient.chat(
-        this.messages,
-        tools,
-        undefined,
-        this.isGrokModel() && this.shouldUseSearchFor(message)
-          ? { search_parameters: { mode: "auto" } }
-          : { search_parameters: { mode: "off" } }
-      );
+      const includeWebSearch = this.shouldUseSearchFor(messageText);
+      const useAgentTools =
+        this.isGrok41FastModel() || this.shouldUseAgentToolsForMessage(messageText);
+      let currentResponse = useAgentTools
+        ? await this.grokClient.chatWithAgentTools(
+            this.messages,
+            tools,
+            undefined,
+            includeWebSearch
+          )
+        : await this.grokClient.chat(this.messages, tools, undefined);
 
       // Agent loop - continue until no more tool calls or max rounds reached
       while (toolRounds < maxToolRounds) {
-        const assistantMessage = currentResponse.choices[0]?.message;
+        const assistantMessage = useAgentTools
+          ? {
+              content: this.getAgentAssistantText(currentResponse as AgentToolResponse),
+              tool_calls: this.getAgentToolCalls(currentResponse as AgentToolResponse),
+            }
+          : (currentResponse as any).choices?.[0]?.message;
 
         if (!assistantMessage) {
           throw new Error("No response from Grok");
@@ -270,6 +346,8 @@ Current working directory: ${process.cwd()}`,
           });
 
           // Execute tool calls and update the entries
+          const toolResultsForAgentTools: Array<{ callId: string; output: string }> =
+            [];
           for (const toolCall of assistantMessage.tool_calls) {
             const result = await this.executeTool(toolCall);
 
@@ -309,17 +387,34 @@ Current working directory: ${process.cwd()}`,
                 : result.error || "Error",
               tool_call_id: toolCall.id,
             });
+
+            if (useAgentTools) {
+              toolResultsForAgentTools.push({
+                callId: toolCall.id,
+                output: result.success
+                  ? result.output || "Success"
+                  : result.error || "Error",
+              });
+            }
           }
 
           // Get next response - this might contain more tool calls
-          currentResponse = await this.grokClient.chat(
-            this.messages,
-            tools,
-            undefined,
-            this.isGrokModel() && this.shouldUseSearchFor(message)
-              ? { search_parameters: { mode: "auto" } }
-              : { search_parameters: { mode: "off" } }
-          );
+          if (useAgentTools) {
+            const responseId = (currentResponse as AgentToolResponse).id;
+            currentResponse = await this.grokClient.continueAgentToolsChat(
+              responseId,
+              toolResultsForAgentTools,
+              tools,
+              undefined,
+              includeWebSearch
+            );
+          } else {
+            currentResponse = await this.grokClient.chat(
+              this.messages,
+              tools,
+              undefined
+            );
+          }
         } else {
           // No more tool calls, add final response
           const finalEntry: ChatEntry = {
@@ -392,9 +487,138 @@ Current working directory: ${process.cwd()}`,
     return reduce(previous, item.choices[0]?.delta || {});
   }
 
-  async *processUserMessageStream(
-    message: string
+  private async *processUserMessageStreamWithAgentTools(
+    inputTokens: number,
+    includeWebSearch: boolean
   ): AsyncGenerator<StreamingChunk, void, unknown> {
+    const maxToolRounds = this.maxToolRounds;
+    let toolRounds = 0;
+    let totalOutputTokens = 0;
+
+    const tools = await getAllGrokTools();
+    let currentResponse = await this.grokClient.chatWithAgentTools(
+      this.messages,
+      tools,
+      undefined,
+      includeWebSearch
+    );
+
+    while (toolRounds < maxToolRounds) {
+      if (this.abortController?.signal.aborted) {
+        yield {
+          type: "content",
+          content: "\n\n[Operation cancelled by user]",
+        };
+        yield { type: "done" };
+        return;
+      }
+
+      const assistantContent = this.getAgentAssistantText(currentResponse);
+      const toolCalls = this.getAgentToolCalls(currentResponse);
+
+      // Keep local history aligned with regular chat.completions flow.
+      this.messages.push({
+        role: "assistant",
+        content: assistantContent || "",
+        tool_calls: toolCalls.length > 0 ? (toolCalls as any) : undefined,
+      } as any);
+
+      this.chatHistory.push({
+        type: "assistant",
+        content: assistantContent || "Using tools to help you...",
+        timestamp: new Date(),
+        toolCalls: toolCalls.length > 0 ? toolCalls : undefined,
+      });
+
+      if (assistantContent) {
+        totalOutputTokens += this.tokenCounter.countTokens(assistantContent);
+        yield { type: "content", content: assistantContent };
+        yield {
+          type: "token_count",
+          tokenCount: inputTokens + totalOutputTokens,
+        };
+      }
+
+      if (toolCalls.length === 0) {
+        break;
+      }
+
+      toolRounds++;
+      yield { type: "tool_calls", toolCalls };
+
+      const toolResultsForAgentTools: Array<{ callId: string; output: string }> =
+        [];
+      for (const toolCall of toolCalls) {
+        if (this.abortController?.signal.aborted) {
+          yield {
+            type: "content",
+            content: "\n\n[Operation cancelled by user]",
+          };
+          yield { type: "done" };
+          return;
+        }
+
+        const result = await this.executeTool(toolCall);
+        const outputText = result.success
+          ? result.output || "Success"
+          : result.error || "Error";
+
+        this.messages.push({
+          role: "tool",
+          content: outputText,
+          tool_call_id: toolCall.id,
+        });
+
+        this.chatHistory.push({
+          type: "tool_result",
+          content: outputText,
+          timestamp: new Date(),
+          toolCall,
+          toolResult: result,
+        });
+
+        toolResultsForAgentTools.push({
+          callId: toolCall.id,
+          output: outputText,
+        });
+
+        yield {
+          type: "tool_result",
+          toolCall,
+          toolResult: result,
+        };
+      }
+
+      inputTokens = this.tokenCounter.countMessageTokens(this.messages as any);
+      yield {
+        type: "token_count",
+        tokenCount: inputTokens + totalOutputTokens,
+      };
+
+      currentResponse = await this.grokClient.continueAgentToolsChat(
+        currentResponse.id,
+        toolResultsForAgentTools,
+        tools,
+        undefined,
+        includeWebSearch
+      );
+    }
+
+    if (toolRounds >= maxToolRounds) {
+      yield {
+        type: "content",
+        content:
+          "\n\nMaximum tool execution rounds reached. Stopping to prevent infinite loops.",
+      };
+    }
+
+    yield { type: "done" };
+  }
+
+  async *processUserMessageStream(
+    message: UserContent
+  ): AsyncGenerator<StreamingChunk, void, unknown> {
+    const messageText = this.getUserContentText(message);
     // Create new abort controller for this request
     this.abortController = new AbortController();
 
@@ -415,6 +639,37 @@ Current working directory: ${process.cwd()}`,
       type: "token_count",
       tokenCount: inputTokens,
     };
+
+    const includeWebSearch = this.shouldUseSearchFor(messageText);
+    const useAgentTools =
+      this.isGrok41FastModel() || this.shouldUseAgentToolsForMessage(messageText);
+
+    if (useAgentTools) {
+      try {
+        yield* this.processUserMessageStreamWithAgentTools(
+          inputTokens,
+          includeWebSearch
+        );
+      } catch (error: any) {
+        const errorEntry: ChatEntry = {
+          type: "assistant",
+          content: `Sorry, I encountered an error: ${error.message}`,
+          timestamp: new Date(),
+        };
+        this.chatHistory.push(errorEntry);
+        yield {
+          type: "content",
+          content:
+            typeof errorEntry.content === "string"
+              ? errorEntry.content
+              : "Sorry, I encountered an error.",
+        };
+        yield { type: "done" };
+      } finally {
+        this.abortController = null;
+      }
+      return;
+    }
 
     const maxToolRounds = this.maxToolRounds; // Prevent infinite loops
     let toolRounds = 0;
@@ -439,10 +694,7 @@ Current working directory: ${process.cwd()}`,
         const stream = this.grokClient.chatStream(
           this.messages,
           tools,
-          undefined,
-          this.isGrokModel() && this.shouldUseSearchFor(message)
-            ? { search_parameters: { mode: "auto" } }
-            : { search_parameters: { mode: "off" } }
+          undefined
         );
         let accumulatedMessage: any = {};
         let accumulatedContent = "";
@@ -624,7 +876,10 @@ Current working directory: ${process.cwd()}`,
       this.chatHistory.push(errorEntry);
       yield {
         type: "content",
-        content: errorEntry.content,
+        content:
+          typeof errorEntry.content === "string"
+            ? errorEntry.content
+            : "Sorry, I encountered an error.",
       };
       yield { type: "done" };
     } finally {

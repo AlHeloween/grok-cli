@@ -51,6 +51,7 @@ function ChatInterfaceWithAgent({
     commandSuggestions,
     availableModels,
     autoEditEnabled,
+    pendingImageCount,
   } = useInputHandler({
     agent,
     chatHistory,
@@ -141,7 +142,13 @@ function ChatInterfaceWithAgent({
                     setChatHistory((prev) =>
                       prev.map((entry, idx) =>
                         idx === prev.length - 1 && entry.isStreaming
-                          ? { ...entry, content: entry.content + chunk.content }
+                          ? {
+                              ...entry,
+                              content:
+                                (typeof entry.content === "string"
+                                  ? entry.content
+                                  : "") + chunk.content,
+                            }
                           : entry
                       )
                     );
@@ -351,6 +358,7 @@ function ChatInterfaceWithAgent({
             cursorPosition={cursorPosition}
             isProcessing={isProcessing}
             isStreaming={isStreaming}
+            pendingImageCount={pendingImageCount}
           />
 
           <Box flexDirection="row" marginTop={1}>

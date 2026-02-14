@@ -4,6 +4,12 @@ export class TokenCounter {
   private encoder: Tiktoken;
 
   constructor(model: string = 'gpt-4') {
+    if (model && model.toLowerCase().includes('grok')) {
+      // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
+      this.encoder = get_encoding('cl100k_base');
+      return;
+    }
+
     try {
       // Try to get encoding for specific model
       this.encoder = encoding_for_model(model as any);

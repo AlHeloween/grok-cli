@@ -35,23 +35,20 @@ export interface ProjectSettings {
 const DEFAULT_USER_SETTINGS: Partial<UserSettings> = {
   baseURL: "https://api.x.ai/v1",
   defaultModel: "grok-code-fast-1",
+  // Models from official xAI docs (docs.x.ai/docs/models); aliases -latest/-fast follow docs
   models: [
-    // Grok 4.1 Fast models (2M context, latest - November 2025)
     "grok-4-1-fast-reasoning",
     "grok-4-1-fast-non-reasoning",
-    // Grok 4 Fast models (2M context)
     "grok-4-fast-reasoning",
     "grok-4-fast-non-reasoning",
-    // Grok 4 flagship (256K context)
+    "grok-code-fast-1",
+    "grok-4-0709",
     "grok-4",
     "grok-4-latest",
-    // Grok Code (optimized for coding, 256K context)
-    "grok-code-fast-1",
-    // Grok 3 models (131K context)
     "grok-3",
+    "grok-3-mini",
     "grok-3-latest",
     "grok-3-fast",
-    "grok-3-mini",
     "grok-3-mini-fast",
   ],
 };

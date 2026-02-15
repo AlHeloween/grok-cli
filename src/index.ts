@@ -3,6 +3,8 @@ import React from "react";
 import { render } from "ink";
 import { program } from "commander";
 import * as dotenv from "dotenv";
+import * as fs from "fs";
+import * as path from "path";
 import { GrokAgent } from "./agent/grok-agent.js";
 import ChatInterface from "./ui/components/chat-interface.js";
 import { ThemeProvider } from "./ui/context/theme-context.js";
@@ -12,6 +14,10 @@ import { ConfirmationService } from "./utils/confirmation-service.js";
 import { createMCPCommand } from "./commands/mcp.js";
 import { UserContentPart } from "./grok/client.js";
 import { isThemeId, listThemes } from "./ui/utils/theme.js";
+import { indexProject } from "./rag/indexer.js";
+import { VectorDb } from "./rag/vector-db.js";
+import { getEffectiveConfig, maskSecret } from "./config/effective-config.js";
+import { findConfigKey } from "./config/registry.js";
 
 // Load environment variables
 dotenv.config();
@@ -593,5 +599,278 @@ gitCommand
 
 // MCP command
 program.addCommand(createMCPCommand());
+
+// RAG command
+const ragCommand = program
+  .command("rag")
+  .description("Local RAG (retrieval) indexing and status");
+
+ragCommand
+  .command("index")
+  .description("Index current project into .grok/rag.db")
+  .option("-d, --directory <dir>", "set working directory", process.cwd())
+  .option("--force", "recreate the index from scratch", false)
+  .option("--chunk-lines <n>", "lines per chunk (default: 200)", "200")
+  .option("--overlap-lines <n>", "overlap lines between chunks (default: 20)", "20")
+  .option(
+    "--max-file-bytes <n>",
+    "skip files larger than this (default: 524288)",
+    String(512 * 1024)
+  )
+  .option("--batch-size <n>", "embedding batch size (default: 32)", "32")
+  .option("--quantize", "quantize vectors after indexing", false)
+  .option("--preload", "preload quantized vectors (faster search, more memory)", false)
+  .action(async (options) => {
+    if (options.directory) {
+      try {
+        process.chdir(options.directory);
+      } catch (error: any) {
+        console.error(
+          `Error changing directory to ${options.directory}:`,
+          error.message
+        );
+        process.exit(1);
+      }
+    }
+
+    try {
+      const res = await indexProject({
+        cwd: process.cwd(),
+        force: !!options.force,
+        chunkLines: parseInt(options.chunkLines, 10) || 200,
+        overlapLines: parseInt(options.overlapLines, 10) || 20,
+        maxFileSizeBytes: parseInt(options.maxFileBytes, 10) || 512 * 1024,
+        batchSize: parseInt(options.batchSize, 10) || 32,
+        quantize: !!options.quantize,
+        quantizePreload: !!options.preload,
+      });
+      console.log(`✅ RAG index written to ${res.dbPath}`);
+      console.log(`✅ Files indexed: ${res.filesIndexed}`);
+      console.log(`✅ Chunks indexed: ${res.chunksIndexed}`);
+    } catch (error: any) {
+      console.error("❌ RAG indexing failed:", error.message);
+      process.exit(1);
+    }
+  });
+
+ragCommand
+  .command("status")
+  .description("Show RAG status for the current project")
+  .option("-d, --directory <dir>", "set working directory", process.cwd())
+  .action(async (options) => {
+    if (options.directory) {
+      try {
+        process.chdir(options.directory);
+      } catch (error: any) {
+        console.error(
+          `Error changing directory to ${options.directory}:`,
+          error.message
+        );
+        process.exit(1);
+      }
+    }
+
+    const manager = getSettingsManager();
+    const enabled = manager.isRagEnabled();
+    const topK = manager.getRagTopK();
+    const dbPath = manager.getRagDbPath();
+
+    let chunks = 0;
+    if (fs.existsSync(dbPath)) {
+      try {
+        const db = await VectorDb.open(dbPath);
+        chunks = db.getChunkCount();
+        db.close();
+      } catch {
+        chunks = 0;
+      }
+    }
+
+    console.log(`RAG enabled: ${enabled ? "yes" : "no"}`);
+    console.log(`RAG topK: ${topK}`);
+    console.log(`RAG db: ${dbPath}`);
+    console.log(`Indexed chunks: ${chunks}`);
+  });
+
+// Config command
+const configCommand = program
+  .command("config")
+  .description("Configure Grok CLI (list/get/set/init)");
+
+configCommand
+  .command("list")
+  .description("List effective configuration (and its source)")
+  .option("--json", "output JSON", false)
+  .option("--show-secrets", "do not mask secrets", false)
+  .action((options) => {
+    const items = getEffectiveConfig();
+    const showSecrets = !!options.showSecrets;
+    if (options.json) {
+      const out = items.map((it) => ({
+        ...it,
+        value:
+          !showSecrets && String(it.key).toLowerCase().includes("key")
+            ? maskSecret(it.value)
+            : it.value,
+      }));
+      console.log(JSON.stringify(out, null, 2));
+      return;
+    }
+
+    for (const it of items) {
+      const value =
+        !showSecrets && String(it.key).toLowerCase().includes("key")
+          ? maskSecret(it.value)
+          : it.value;
+      const note = it.note ? ` (${it.note})` : "";
+      console.log(`${it.key} = ${String(value)}  [${it.source}]${note}`);
+    }
+  });
+
+configCommand
+  .command("get <key>")
+  .description("Get a config value")
+  .option("--json", "output JSON", false)
+  .action((key: string, options) => {
+    const items = getEffectiveConfig();
+    const found = items.find((i) => i.key === key);
+    if (!found) {
+      console.error(`Unknown key: ${key}`);
+      process.exit(1);
+    }
+    if (options.json) {
+      console.log(JSON.stringify(found, null, 2));
+      return;
+    }
+    console.log(String(found.value ?? ""));
+  });
+
+configCommand
+  .command("set <key> <value>")
+  .description("Set a config value (writes to settings files)")
+  .action((key: string, value: string) => {
+    const def = findConfigKey(key);
+    if (!def) {
+      console.error(`Unknown key: ${key}`);
+      process.exit(1);
+    }
+    const manager = getSettingsManager();
+    const project = manager.loadProjectSettings();
+    const user = manager.loadUserSettings();
+
+    const trimmed = String(value ?? "").trim();
+    if (!trimmed) {
+      console.error("Value cannot be empty.");
+      process.exit(1);
+    }
+
+    switch (key) {
+      case "user.apiKey":
+        manager.updateUserSetting("apiKey", trimmed);
+        break;
+      case "user.baseURL":
+        manager.updateUserSetting("baseURL", trimmed);
+        break;
+      case "project.model":
+        manager.updateProjectSetting("model", trimmed);
+        break;
+      case "user.defaultModel":
+        manager.updateUserSetting("defaultModel", trimmed);
+        break;
+      case "user.maxTokens": {
+        const n = Number(trimmed);
+        if (!Number.isFinite(n) || n <= 0) {
+          console.error("maxTokens must be a positive number.");
+          process.exit(1);
+        }
+        manager.updateUserSetting("maxTokens", n);
+        break;
+      }
+      case "user.models": {
+        const list = trimmed
+          .split(",")
+          .map((s) => s.trim())
+          .filter(Boolean);
+        if (list.length === 0) {
+          console.error("models list cannot be empty.");
+          process.exit(1);
+        }
+        manager.updateUserSetting("models", list);
+        break;
+      }
+      case "user.theme":
+        if (!isThemeId(trimmed)) {
+          console.error(`Invalid theme id: ${trimmed}`);
+          process.exit(1);
+        }
+        manager.updateUserSetting("theme", trimmed);
+        break;
+      case "project.rag.enabled": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        manager.updateProjectSetting("rag", { ...(project.rag || {}), enabled });
+        break;
+      }
+      case "project.rag.topK": {
+        const k = Number(trimmed);
+        if (!Number.isFinite(k) || k <= 0) {
+          console.error("topK must be a positive number.");
+          process.exit(1);
+        }
+        manager.updateProjectSetting("rag", { ...(project.rag || {}), topK: k });
+        break;
+      }
+      case "user.embeddings.model":
+        manager.updateUserSetting("embeddings", {
+          ...(user.embeddings || {}),
+          model: trimmed,
+        });
+        break;
+      case "user.embeddings.baseURL":
+        manager.updateUserSetting("embeddings", {
+          ...(user.embeddings || {}),
+          baseURL: trimmed,
+        });
+        break;
+      case "user.morphApiKey":
+        manager.updateUserSetting("morphApiKey", trimmed);
+        break;
+      default:
+        console.error(`Setting not implemented yet: ${key}`);
+        process.exit(1);
+    }
+
+    console.log(`✓ Saved ${key}`);
+  });
+
+configCommand
+  .command("init")
+  .description("Initialize template config files if missing")
+  .action(() => {
+    const manager = getSettingsManager();
+    // Ensure user settings exist (will create defaults if missing)
+    manager.loadUserSettings();
+    // Ensure project settings exist (will create defaults if missing)
+    manager.loadProjectSettings();
+
+    const ragIgnorePath = path.join(process.cwd(), ".grok", "ragignore");
+    if (!fs.existsSync(ragIgnorePath)) {
+      fs.mkdirSync(path.dirname(ragIgnorePath), { recursive: true });
+      fs.writeFileSync(
+        ragIgnorePath,
+        [
+          "# .grok/ragignore",
+          "# One rule per line. v1 semantics: simple substring match on relative paths.",
+          "node_modules/",
+          "dist/",
+          "build/",
+          ".git/",
+        ].join("\n") + "\n"
+      );
+      console.log(`✓ Created ${ragIgnorePath}`);
+    } else {
+      console.log(`✓ ${ragIgnorePath} already exists`);
+    }
+    console.log("✓ Config initialized");
+  });
 
 program.parse();

@@ -1,6 +1,7 @@
 import { GrokTool } from "./client.js";
 import { MCPManager, MCPTool } from "../mcp/client.js";
 import { loadMCPConfig } from "../mcp/config.js";
+import { getSettingsManager } from "../utils/settings-manager.js";
 
 const BASE_GROK_TOOLS: GrokTool[] = [
   {
@@ -275,7 +276,8 @@ function buildGrokTools(): GrokTool[] {
   const tools = [...BASE_GROK_TOOLS];
   
   // Add Morph Fast Apply tool if API key is available
-  if (process.env.MORPH_API_KEY) {
+  const morphKey = process.env.MORPH_API_KEY || getSettingsManager().getMorphApiKey();
+  if (morphKey) {
     tools.splice(3, 0, MORPH_EDIT_TOOL); // Insert after str_replace_editor
   }
   
@@ -371,5 +373,5 @@ export async function getAllGrokTools(): Promise<GrokTool[]> {
   manager.ensureServersInitialized().catch(() => {
     // Ignore initialization errors to avoid blocking
   });
-  return addMCPToolsToGrokTools(GROK_TOOLS);
+  return addMCPToolsToGrokTools(buildGrokTools());
 }

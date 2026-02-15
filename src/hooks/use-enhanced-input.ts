@@ -88,6 +88,14 @@ export function useEnhancedInput({
   const pasteDrainingRef = useRef(false);
   const insertAtCursorRef = useRef<(text: string) => void>(() => {});
 
+  // Refs for stable setInput/setCursorPosition: avoid changing callback identity on every
+  // keystroke/cursor move so parents (e.g. chat-interface) don't re-render and flash when
+  // there is heavy output (e.g. search over many files).
+  const inputRef = useRef(input);
+  const cursorPositionRef = useRef(cursorPosition);
+  inputRef.current = input;
+  cursorPositionRef.current = cursorPosition;
+
   const {
     addToHistory,
     navigateHistory,
@@ -96,17 +104,24 @@ export function useEnhancedInput({
     isNavigatingHistory,
   } = useInputHistory();
 
+  const setOriginalInputRef = useRef(setOriginalInput);
+  const isNavigatingHistoryRef = useRef(isNavigatingHistory);
+  setOriginalInputRef.current = setOriginalInput;
+  isNavigatingHistoryRef.current = isNavigatingHistory;
+
   const setInput = useCallback((text: string) => {
+    const cur = cursorPositionRef.current;
     setInputState(text);
-    setCursorPositionState(Math.min(text.length, cursorPosition));
-    if (!isNavigatingHistory()) {
-      setOriginalInput(text);
+    setCursorPositionState(Math.min(text.length, cur));
+    if (!isNavigatingHistoryRef.current()) {
+      setOriginalInputRef.current(text);
     }
-  }, [cursorPosition, isNavigatingHistory, setOriginalInput]);
+  }, []);
 
   const setCursorPosition = useCallback((position: number) => {
-    setCursorPositionState(Math.max(0, Math.min(input.length, position)));
-  }, [input.length]);
+    const len = inputRef.current.length;
+    setCursorPositionState(Math.max(0, Math.min(len, position)));
+  }, []);
 
   const clearInput = useCallback(() => {
     setInputState("");
@@ -125,6 +140,8 @@ export function useEnhancedInput({
   insertAtCursorRef.current = insertAtCursor;
 
   const drainPasteQueue = useCallback(() => {
+    // Intentionally process at most one paste per tick. This gives React a chance to commit state updates
+    // so the next drain uses the latest `insertAtCursorRef.current` (and avoids stale cursor/input state).
     if (pasteDrainingRef.current || pendingPasteQueueRef.current.length === 0) return;
     pasteDrainingRef.current = true;
     const text = pendingPasteQueueRef.current.shift()!;

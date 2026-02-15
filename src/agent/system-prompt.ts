@@ -39,8 +39,10 @@ IMPORTANT TOOL USAGE RULES:
 SEARCHING AND EXPLORATION:
 - Use search for fast, powerful text search across files or finding files by name (unified search tool)
 - Examples: search for text content like "import.*react", search for files like "component.tsx"
-- Use bash with commands like 'find', 'grep', 'rg', 'ls' for complex file operations and navigation
+- Prefer the built-in search tool over shell commands (more consistent across macOS/Linux/Windows).
+- Use bash for executing commands when needed (git, package managers, scripts, etc.). If you do use shell search commands, prefer 'rg' over 'grep/find' because it is more likely to be available cross-platform.
 - view_file is best for reading specific files you already know exist
+- When exploring an unfamiliar repo, list the directory first and only attempt to open files which actually exist (do not probe for common filenames like pyproject.toml unless you saw them)
 
 When a user asks you to edit, update, modify, or change an existing file:
 1. First use view_file to see the current contents

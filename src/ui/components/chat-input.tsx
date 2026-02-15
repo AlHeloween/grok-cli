@@ -8,6 +8,8 @@ interface ChatInputProps {
   isProcessing: boolean;
   isStreaming: boolean;
   pendingImageCount?: number;
+  placeholderText?: string;
+  maskInput?: boolean;
 }
 
 export function ChatInput({
@@ -16,14 +18,17 @@ export function ChatInput({
   isProcessing,
   isStreaming,
   pendingImageCount = 0,
+  placeholderText = "Ask me anything...",
+  maskInput = false,
 }: ChatInputProps) {
   const { theme } = useTheme();
   const colors = theme.colors;
-  const beforeCursor = input.slice(0, cursorPosition);
+  const display = maskInput && input ? "•".repeat(input.length) : input;
+  const beforeCursor = display.slice(0, cursorPosition);
   const _afterCursor = input.slice(cursorPosition);
 
   // Handle multiline input display
-  const lines = input.split("\n");
+  const lines = display.split("\n");
   const isMultiline = lines.length > 1;
 
   // Calculate cursor position across lines
@@ -45,8 +50,7 @@ export function ChatInput({
   const promptColor = colors.prompt;
 
   // Display placeholder when input is empty
-  const placeholderText = "Ask me anything...";
-  const isPlaceholder = !input;
+  const isPlaceholder = !display;
 
   if (isMultiline) {
     return (
@@ -97,8 +101,8 @@ export function ChatInput({
   }
 
   // Single line input box
-  const cursorChar = input.slice(cursorPosition, cursorPosition + 1) || " ";
-  const afterCursorText = input.slice(cursorPosition + 1);
+  const cursorChar = display.slice(cursorPosition, cursorPosition + 1) || " ";
+  const afterCursorText = display.slice(cursorPosition + 1);
 
   return (
     <Box flexDirection="column" marginTop={1}>

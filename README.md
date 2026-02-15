@@ -15,6 +15,11 @@ A conversational AI CLI tool powered by Grok with intelligent text editor capabi
 - **💬 Interactive UI**: Beautiful terminal interface built with Ink
 - **🌍 Global Installation**: Install and use anywhere with `bun add -g @vibe-kit/grok-cli`
 
+## Documentation
+
+- **[Application scheme](docs/APPLICATION-SCHEME.md)** — Module map, file roles, and architecture (entry, UI, agent, Grok API, RAG, config, MCP, tools).
+- **[Agent overview](docs/AGENT.md)** — How the GrokAgent works: message flow, tools, RAG injection, config, and MCP.
+
 ## Installation
 
 ### Prerequisites
@@ -144,11 +149,16 @@ This file stores **project-specific settings** in your current working directory
 
 - **Current Model**: The model currently in use for this project
 - **MCP Servers**: Model Context Protocol server configurations
+- **RAG**: Optional local retrieval settings (see “Local RAG (sqlite-vector)” below)
 
 **Example:**
 ```json
 {
   "model": "grok-3-fast",
+  "rag": {
+    "enabled": false,
+    "topK": 6
+  },
   "mcpServers": {
     "linear": {
       "name": "linear",
@@ -168,6 +178,50 @@ This file stores **project-specific settings** in your current working directory
 4. **Fallback Logic**: Project model → User default model → System default (`grok-code-fast-1`)
 
 This means you can have different models for different projects while maintaining consistent global settings like your API key.
+
+## Local RAG (sqlite-vector)
+
+Grok CLI can optionally retrieve relevant code snippets from your project and inject them into the system context before each response (RAG).
+
+### Enable RAG for a project
+
+1. Add to your project’s `.grok/settings.json`:
+
+```json
+{
+  "rag": {
+    "enabled": true,
+    "topK": 6
+  }
+}
+```
+
+2. Build the local index:
+
+```bash
+grok rag index
+```
+
+3. Check status:
+
+```bash
+grok rag status
+```
+
+### Ignore files
+
+Optionally create `.grok/ragignore` (one rule per line). In v1, rules are simple **substring matches** against relative paths.
+
+### Embeddings configuration
+
+By default, embeddings use the same API key/base URL as chat (`GROK_API_KEY` / `GROK_BASE_URL`) and model `text-embedding-3-small`.
+
+- Override embeddings endpoint: `GROK_EMBEDDINGS_BASE_URL`
+- Override embeddings model: `GROK_EMBEDDINGS_MODEL`
+
+### License note
+
+Local RAG uses `@sqliteai/sqlite-wasm` (bundles sqlite-vector). It is licensed under **Elastic License 2.0** (non-production use permitted). For production/managed service use, a commercial license may be required.
 
 ### Using Other API Providers
 

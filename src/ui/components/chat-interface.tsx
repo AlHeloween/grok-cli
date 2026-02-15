@@ -5,6 +5,8 @@ import { useInputHandler } from "../../hooks/use-input-handler.js";
 import { LoadingSpinner } from "./loading-spinner.js";
 import { CommandSuggestions } from "./command-suggestions.js";
 import { ModelSelection } from "./model-selection.js";
+import { ThemeSelection } from "./theme-selection.js";
+import { ConfigMenu } from "./config-menu.js";
 import { ChatHistory } from "./chat-history.js";
 import { ChatInput } from "./chat-input.js";
 import { MCPStatus } from "./mcp-status.js";
@@ -51,8 +53,17 @@ function ChatInterfaceWithAgent({
     selectedCommandIndex,
     showModelSelection,
     selectedModelIndex,
+    showThemeSelection,
+    selectedThemeIndex,
+    showConfigMenu,
+    configMenuTitle,
+    configMenuItems,
+    selectedConfigIndex,
+    configInputPrompt,
+    configInputMask,
     commandSuggestions,
     availableModels,
+    availableThemes,
     autoEditEnabled,
     pendingImageCount,
   } = useInputHandler({
@@ -364,6 +375,8 @@ function ChatInterfaceWithAgent({
             isProcessing={isProcessing}
             isStreaming={isStreaming}
             pendingImageCount={pendingImageCount}
+            placeholderText={configInputPrompt || undefined}
+            maskInput={!!configInputMask}
           />
 
           <Box flexDirection="row" marginTop={1}>
@@ -395,6 +408,20 @@ function ChatInterfaceWithAgent({
             selectedIndex={selectedModelIndex}
             isVisible={showModelSelection}
             currentModel={agent.getCurrentModel()}
+          />
+
+          <ThemeSelection
+            themes={availableThemes}
+            selectedIndex={selectedThemeIndex}
+            isVisible={showThemeSelection}
+            currentThemeId={theme.id}
+          />
+
+          <ConfigMenu
+            title={configMenuTitle}
+            items={configMenuItems}
+            selectedIndex={selectedConfigIndex}
+            isVisible={showConfigMenu}
           />
         </>
       )}

@@ -51,6 +51,8 @@ export class SearchTool {
     } = {}
   ): Promise<ToolResult> {
     try {
+      // Keep directory aligned with the actual process cwd (e.g. after `bash` tool runs `cd`).
+      this.currentDirectory = process.cwd();
       const searchType = options.searchType || "both";
       const results: UnifiedSearchResult[] = [];
 
@@ -123,6 +125,8 @@ export class SearchTool {
     }
   ): Promise<SearchResult[]> {
     return new Promise((resolve, reject) => {
+      // Ensure we're always searching the active working directory.
+      const cwd = this.currentDirectory || process.cwd();
       const args = [
         "--json",
         "--with-filename",
@@ -191,7 +195,7 @@ export class SearchTool {
       );
 
       // Add query and search directory
-      args.push(query, this.currentDirectory);
+      args.push(query, cwd);
 
       const rg = spawn("rg", args);
       let output = "";
@@ -267,6 +271,7 @@ export class SearchTool {
     const files: FileSearchResult[] = [];
     const maxResults = options.maxResults || 50;
     const searchPattern = pattern.toLowerCase();
+    const baseDir = this.currentDirectory || process.cwd();
 
     const walkDir = async (dir: string, depth: number = 0): Promise<void> => {
       if (depth > 10 || files.length >= maxResults) return; // Prevent infinite recursion and limit results
@@ -278,7 +283,7 @@ export class SearchTool {
           if (files.length >= maxResults) break;
 
           const fullPath = path.join(dir, entry.name);
-          const relativePath = path.relative(this.currentDirectory, fullPath);
+          const relativePath = path.relative(baseDir, fullPath);
 
           // Skip hidden files unless explicitly included
           if (!options.includeHidden && entry.name.startsWith(".")) {
@@ -332,7 +337,7 @@ export class SearchTool {
       }
     };
 
-    await walkDir(this.currentDirectory);
+    await walkDir(baseDir);
 
     // Sort by score (descending) and return top results
     return files.sort((a, b) => b.score - a.score).slice(0, maxResults);

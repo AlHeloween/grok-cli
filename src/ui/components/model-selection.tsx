@@ -23,6 +23,11 @@ export function ModelSelection({
   const colors = theme.colors;
   if (!isVisible) return null;
 
+  const modelWidth = models.reduce(
+    (max, m) => Math.max(max, m.model.length),
+    0
+  );
+
   return (
     <Box marginTop={1} flexDirection="column">
       <Box marginBottom={1}>
@@ -34,7 +39,7 @@ export function ModelSelection({
             color={index === selectedIndex ? colors.selectionFg : colors.text}
             backgroundColor={index === selectedIndex ? colors.selectionBg : undefined}
           >
-            {modelOption.model}
+            {modelOption.model.padEnd(modelWidth, " ")}
           </Text>
         </Box>
       ))}

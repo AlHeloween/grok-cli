@@ -15,6 +15,9 @@ import {
 } from "../utils/attachment-utils.js";
 import { isThemeId, listThemes } from "../ui/utils/theme.js";
 import { useTheme } from "../ui/context/theme-context.js";
+import { getSettingsManager } from "../utils/settings-manager.js";
+import { getConfigCategories, getConfigRegistry } from "../config/registry.js";
+import { maskSecret } from "../config/effective-config.js";
 
 /** Pasted content longer than this is treated as text; clipboard image check is skipped. */
 const PASTE_TEXT_THRESHOLD = 1000;
@@ -42,6 +45,13 @@ interface ModelOption {
   model: string;
 }
 
+interface ConfigMenuItem {
+  id: string;
+  label: string;
+  value?: string;
+  hint?: string;
+}
+
 export function useInputHandler({
   agent,
   chatHistory: _chatHistory,
@@ -60,6 +70,19 @@ export function useInputHandler({
   const [selectedCommandIndex, setSelectedCommandIndex] = useState(0);
   const [showModelSelection, setShowModelSelection] = useState(false);
   const [selectedModelIndex, setSelectedModelIndex] = useState(0);
+  const [showThemeSelection, setShowThemeSelection] = useState(false);
+  const [selectedThemeIndex, setSelectedThemeIndex] = useState(0);
+  const [settingsNonce, setSettingsNonce] = useState(0);
+  const [showConfigMenu, setShowConfigMenu] = useState(false);
+  const [configMenuTitle, setConfigMenuTitle] = useState("Configuration");
+  const [configMenuItems, setConfigMenuItems] = useState<ConfigMenuItem[]>([]);
+  const [selectedConfigIndex, setSelectedConfigIndex] = useState(0);
+  const [configMenuStack, setConfigMenuStack] = useState<
+    Array<{ title: string; items: ConfigMenuItem[]; index: number }>
+  >([]);
+  const [configInputPrompt, setConfigInputPrompt] = useState<string | null>(null);
+  const [configInputKey, setConfigInputKey] = useState<string | null>(null);
+  const [configInputMask, setConfigInputMask] = useState(false);
   const [autoEditEnabled, setAutoEditEnabled] = useState(() => {
     const confirmationService = ConfirmationService.getInstance();
     const sessionFlags = confirmationService.getSessionFlags();
@@ -72,10 +95,408 @@ export function useInputHandler({
   const buildUserContentWithAttachments = (userInput: string): UserContent =>
     buildUserContent(userInput, pendingImageAttachments);
 
-  const handleSpecialKey = (key: Key, pasteText?: string): boolean | Promise<boolean> => {
+  const settingsManager = getSettingsManager();
+
+  const getConfigValueLabel = (key: string): string => {
+    const user = settingsManager.loadUserSettings();
+    const project = settingsManager.loadProjectSettings();
+    switch (key) {
+      case "user.apiKey":
+        return user.apiKey ? maskSecret(user.apiKey) : "(not set)";
+      case "user.baseURL":
+        return user.baseURL || "(default)";
+      case "project.model":
+        return project.model || "(default)";
+      case "user.defaultModel":
+        return user.defaultModel || "(default)";
+      case "user.maxTokens":
+        return String(user.maxTokens ?? "(default)");
+      case "user.models":
+        return Array.isArray(user.models) ? `${user.models.length} models` : "(default list)";
+      case "user.theme":
+        return user.theme || "(default)";
+      case "project.rag.enabled":
+        return project.rag?.enabled ? "enabled" : "disabled";
+      case "project.rag.topK":
+        return String(project.rag?.topK ?? 6);
+      case "user.embeddings.model":
+        return user.embeddings?.model || "text-embedding-3-small";
+      case "user.embeddings.baseURL":
+        return user.embeddings?.baseURL || "(same as baseURL)";
+      case "user.morphApiKey":
+        return user.morphApiKey ? maskSecret(user.morphApiKey) : "(not set)";
+      default:
+        return "";
+    }
+  };
+
+  const openConfigRootMenu = (): void => {
+    const categories = getConfigCategories();
+    const items: ConfigMenuItem[] = [
+      ...categories.map((c) => ({ id: `cat:${c}`, label: c })),
+      { id: "action:showEffective", label: "Show effective config (with sources)" },
+      { id: "action:mcpHelp", label: "MCP servers (manage via grok mcp …)" },
+      { id: "action:ragHelp", label: "RAG actions (grok rag index/status)" },
+      { id: "action:close", label: "Close" },
+    ];
+    setConfigMenuTitle("Configuration");
+    setConfigMenuItems(items);
+    setSelectedConfigIndex(0);
+    setConfigMenuStack([]);
+    setShowConfigMenu(true);
+  };
+
+  const openConfigCategoryMenu = (category: string): void => {
+    const defs = getConfigRegistry().filter((d) => d.category === category);
+    const items: ConfigMenuItem[] = defs.map((d) => ({
+      id: `key:${d.key}`,
+      label: d.key,
+      value: getConfigValueLabel(d.key),
+      hint: d.description,
+    }));
+    items.push({ id: "nav:back", label: "Back" });
+    setConfigMenuTitle(`Config: ${category}`);
+    setConfigMenuItems(items);
+    setSelectedConfigIndex(0);
+    setShowConfigMenu(true);
+  };
+
+  const beginConfigInput = (key: string, prompt: string, mask: boolean): void => {
+    setConfigInputKey(key);
+    setConfigInputPrompt(prompt);
+    setConfigInputMask(mask);
+    clearInput();
+  };
+
+  const applyConfigValue = async (key: string, raw: string): Promise<void> => {
+    const trimmed = raw.trim();
+    const user = settingsManager.loadUserSettings();
+    const project = settingsManager.loadProjectSettings();
+
+    const push = (content: string) =>
+      setChatHistory((prev) => [
+        ...prev,
+        { type: "assistant", content, timestamp: new Date() },
+      ]);
+
+    switch (key) {
+      case "user.apiKey": {
+        if (!trimmed) {
+          push("✗ API key not changed (empty).");
+          return;
+        }
+        settingsManager.updateUserSetting("apiKey", trimmed);
+        agent.reconfigureConnection({ apiKey: trimmed });
+        push("✓ API key saved.");
+        return;
+      }
+      case "user.baseURL": {
+        if (!trimmed) {
+          push("✗ baseURL not changed (empty).");
+          return;
+        }
+        settingsManager.updateUserSetting("baseURL", trimmed);
+        agent.reconfigureConnection({ baseURL: trimmed });
+        push(`✓ baseURL saved: ${trimmed}`);
+        return;
+      }
+      case "project.model": {
+        if (!trimmed) return;
+        agent.setModel(trimmed);
+        updateCurrentModel(trimmed);
+        push(`✓ Project model set: ${trimmed}`);
+        return;
+      }
+      case "user.defaultModel": {
+        if (!trimmed) return;
+        settingsManager.updateUserSetting("defaultModel", trimmed);
+        setSettingsNonce((n) => n + 1);
+        push(`✓ Default model set: ${trimmed}`);
+        return;
+      }
+      case "user.maxTokens": {
+        const n = Number(trimmed);
+        if (!Number.isFinite(n) || n <= 0) {
+          push("✗ maxTokens must be a positive number.");
+          return;
+        }
+        settingsManager.updateUserSetting("maxTokens", n);
+        agent.reconfigureConnection({ maxTokens: n });
+        push(`✓ maxTokens saved: ${n}`);
+        return;
+      }
+      case "user.models": {
+        const list = trimmed
+          .split(",")
+          .map((s) => s.trim())
+          .filter(Boolean);
+        if (list.length === 0) {
+          push("✗ models list cannot be empty.");
+          return;
+        }
+        settingsManager.updateUserSetting("models", list);
+        setSettingsNonce((n) => n + 1);
+        push(`✓ Saved ${list.length} models.`);
+        return;
+      }
+      case "user.theme": {
+        if (isThemeId(trimmed)) {
+          setThemeId(trimmed);
+          push(`✓ Theme set: ${trimmed}`);
+        } else {
+          push("✗ Invalid theme id.");
+        }
+        return;
+      }
+      case "project.rag.enabled": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          enabled,
+        });
+        push(`✓ RAG is now ${enabled ? "enabled" : "disabled"} for this project.`);
+        return;
+      }
+      case "project.rag.topK": {
+        const k = Number(trimmed);
+        if (!Number.isFinite(k) || k <= 0) {
+          push("✗ topK must be a positive number.");
+          return;
+        }
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          topK: k,
+        });
+        push(`✓ RAG topK saved: ${k}`);
+        return;
+      }
+      case "user.embeddings.model": {
+        if (!trimmed) return;
+        settingsManager.updateUserSetting("embeddings", {
+          ...(user.embeddings || {}),
+          model: trimmed,
+        });
+        push(`✓ Embeddings model saved: ${trimmed}`);
+        return;
+      }
+      case "user.embeddings.baseURL": {
+        if (!trimmed) return;
+        settingsManager.updateUserSetting("embeddings", {
+          ...(user.embeddings || {}),
+          baseURL: trimmed,
+        });
+        push(`✓ Embeddings baseURL saved: ${trimmed}`);
+        return;
+      }
+      case "user.morphApiKey": {
+        if (!trimmed) {
+          push("✗ Morph API key not changed (empty).");
+          return;
+        }
+        settingsManager.updateUserSetting("morphApiKey", trimmed);
+        agent.refreshMorphEditor();
+        push("✓ Morph API key saved. Morph editing is now available (if supported by your model/tools).");
+        return;
+      }
+      default:
+        push(`✗ Unknown config key: ${key}`);
+    }
+  };
+
+  const handleSpecialKey = async (
+    key: Key,
+    pasteText?: string
+  ): Promise<boolean> => {
     // Don't handle input if confirmation dialog is active
     if (isConfirmationActive) {
       return true; // Prevent default handling
+    }
+
+    // Config menu navigation
+    if (showConfigMenu) {
+      if (key.escape) {
+        const stack = configMenuStack;
+        if (stack.length > 0) {
+          const prev = stack[stack.length - 1];
+          setConfigMenuTitle(prev.title);
+          setConfigMenuItems(prev.items);
+          setSelectedConfigIndex(prev.index);
+          setConfigMenuStack(stack.slice(0, -1));
+          return true;
+        }
+        setShowConfigMenu(false);
+        setSelectedConfigIndex(0);
+        return true;
+      }
+      if (key.upArrow || key.name === "up") {
+        setSelectedConfigIndex((prev) =>
+          prev === 0 ? configMenuItems.length - 1 : prev - 1
+        );
+        return true;
+      }
+      if (key.downArrow || key.name === "down") {
+        setSelectedConfigIndex((prev) => (prev + 1) % configMenuItems.length);
+        return true;
+      }
+      if (key.tab || key.return || key.name === "return") {
+        const item = configMenuItems[selectedConfigIndex];
+        if (!item) return true;
+
+        if (item.id === "action:close") {
+          setShowConfigMenu(false);
+          setSelectedConfigIndex(0);
+          return true;
+        }
+        if (item.id === "action:showEffective") {
+          const { getEffectiveConfig, maskSecret } = await import(
+            "../config/effective-config.js"
+          );
+          const rows = getEffectiveConfig()
+            .map((it: any) => {
+              const isSecret = String(it.key).toLowerCase().includes("key");
+              const val = isSecret ? maskSecret(it.value) : it.value;
+              const note = it.note ? ` (${it.note})` : "";
+              return `${it.key} = ${String(val)}  [${it.source}]${note}`;
+            })
+            .join("\n");
+          setChatHistory((prev) => [
+            ...prev,
+            { type: "assistant", content: rows, timestamp: new Date() },
+          ]);
+          setShowConfigMenu(false);
+          return true;
+        }
+        if (item.id === "action:mcpHelp") {
+          setChatHistory((prev) => [
+            ...prev,
+            {
+              type: "assistant",
+              content:
+                "MCP is managed via CLI:\n\n- grok mcp list\n- grok mcp add <name> [options]\n- grok mcp remove <name>\n- grok mcp test <name>\n\nProject settings are stored in .grok/settings.json under mcpServers.",
+              timestamp: new Date(),
+            },
+          ]);
+          setShowConfigMenu(false);
+          return true;
+        }
+        if (item.id === "action:ragHelp") {
+          setChatHistory((prev) => [
+            ...prev,
+            {
+              type: "assistant",
+              content:
+                "RAG commands:\n\n- grok rag index\n- grok rag status\n\nRAG settings live in .grok/settings.json under rag.enabled and rag.topK.",
+              timestamp: new Date(),
+            },
+          ]);
+          setShowConfigMenu(false);
+          return true;
+        }
+        if (item.id === "nav:back") {
+          if (configMenuStack.length > 0) {
+            const prev = configMenuStack[configMenuStack.length - 1];
+            setConfigMenuTitle(prev.title);
+            setConfigMenuItems(prev.items);
+            setSelectedConfigIndex(prev.index);
+            setConfigMenuStack(configMenuStack.slice(0, -1));
+          } else {
+            openConfigRootMenu();
+          }
+          return true;
+        }
+        if (item.id.startsWith("cat:")) {
+          const category = item.id.slice("cat:".length);
+          setConfigMenuStack((prev) => [
+            ...prev,
+            { title: configMenuTitle, items: configMenuItems, index: selectedConfigIndex },
+          ]);
+          openConfigCategoryMenu(category);
+          return true;
+        }
+        if (item.id.startsWith("key:")) {
+          const configKey = item.id.slice("key:".length);
+          const def = getConfigRegistry().find((d) => d.key === configKey);
+          if (!def) return true;
+
+          const opts = def.options?.() || [];
+          if (opts.length > 0) {
+            // Present options as another menu level.
+            setConfigMenuStack((prev) => [
+              ...prev,
+              { title: configMenuTitle, items: configMenuItems, index: selectedConfigIndex },
+            ]);
+            setConfigMenuTitle(`Set: ${def.key}`);
+            setConfigMenuItems(
+              opts.map((o) => ({
+                id: `opt:${def.key}:${o.value}`,
+                label: o.label,
+              })).concat([{ id: "nav:back", label: "Back" }])
+            );
+            setSelectedConfigIndex(0);
+            return true;
+          }
+
+          beginConfigInput(
+            def.key,
+            `Enter value for ${def.key} (template: ${def.template || "n/a"}):`,
+            def.type === "secret"
+          );
+          setShowConfigMenu(false);
+          return true;
+        }
+        if (item.id.startsWith("opt:")) {
+          const parts = item.id.split(":");
+          // opt:<key>:<value> (key itself may contain dots but not colons)
+          const configKey = parts[1];
+          const value = parts.slice(2).join(":");
+          if (value === "__custom__") {
+            const def = getConfigRegistry().find((d) => d.key === configKey);
+            beginConfigInput(
+              configKey,
+              `Enter custom value for ${configKey} (template: ${def?.template || "n/a"}):`,
+              def?.type === "secret"
+            );
+            setShowConfigMenu(false);
+            return true;
+          }
+          if (value === "__same_as_baseURL__") {
+            settingsManager.updateUserSetting("embeddings", {
+              ...(settingsManager.loadUserSettings().embeddings || {}),
+              baseURL: undefined,
+            });
+            setChatHistory((prev) => [
+              ...prev,
+              {
+                type: "assistant",
+                content: "✓ Embeddings baseURL set to: same as baseURL",
+                timestamp: new Date(),
+              },
+            ]);
+            // Refresh current menu values
+            setShowConfigMenu(false);
+            return true;
+          }
+          await applyConfigValue(configKey, value);
+          setShowConfigMenu(false);
+          return true;
+        }
+      }
+      return true;
+    }
+
+    // Config input prompt: Escape cancels input mode.
+    if (configInputKey && configInputPrompt) {
+      if (key.escape) {
+        setConfigInputKey(null);
+        setConfigInputPrompt(null);
+        setConfigInputMask(false);
+        clearInput();
+        setChatHistory((prev) => [
+          ...prev,
+          { type: "assistant", content: "Config change cancelled.", timestamp: new Date() },
+        ]);
+        return true;
+      }
     }
 
     // Paste: skip clipboard image check when pasted content is clearly text (long string)
@@ -83,27 +504,28 @@ export function useInputHandler({
       if (pasteText != null && pasteText.length > PASTE_TEXT_THRESHOLD) {
         return false; // Let default handling insert pasted text immediately
       }
-      return getClipboardImage()
-        .then((image) => {
-          if (image) {
-            const imageUrl = `data:${image.mimeType};base64,${image.base64}`;
-            setPendingImageAttachments((prev) => [
-              ...prev,
-              { imageUrl, label: "Pasted image" },
-            ]);
-            setChatHistory((prev) => [
-              ...prev,
-              {
-                type: "assistant",
-                content: "Pasted 1 image.",
-                timestamp: new Date(),
-              },
-            ]);
-            return true;
-          }
-          return false; // let default handling insert pasted text when promise resolves
-        })
-        .catch(() => false); // on rejection (e.g. timeout), treat as text paste
+      try {
+        const image = await getClipboardImage();
+        if (image) {
+          const imageUrl = `data:${image.mimeType};base64,${image.base64}`;
+          setPendingImageAttachments((prev) => [
+            ...prev,
+            { imageUrl, label: "Pasted image" },
+          ]);
+          setChatHistory((prev) => [
+            ...prev,
+            {
+              type: "assistant",
+              content: "Pasted 1 image.",
+              timestamp: new Date(),
+            },
+          ]);
+          return true;
+        }
+        return false; // let default handling insert pasted text
+      } catch {
+        return false; // treat as text paste
+      }
     }
 
     // Handle shift+tab to toggle auto-edit mode
@@ -127,6 +549,11 @@ export function useInputHandler({
       if (showCommandSuggestions) {
         setShowCommandSuggestions(false);
         setSelectedCommandIndex(0);
+        return true;
+      }
+      if (showThemeSelection) {
+        setShowThemeSelection(false);
+        setSelectedThemeIndex(0);
         return true;
       }
       if (showModelSelection) {
@@ -170,6 +597,18 @@ export function useInputHandler({
           );
           return true;
         }
+        // If the user already typed the full command, Enter should execute it (submit),
+        // not autocomplete it (avoids needing two Enters to run /theme, /models, etc.).
+        const safeIndex = Math.min(
+          selectedCommandIndex,
+          filteredSuggestions.length - 1
+        );
+        const selectedCommand = filteredSuggestions[safeIndex];
+        const isExactCommand =
+          !!selectedCommand && selectedCommand.command === input.trim();
+        if (key.return && isExactCommand) {
+          return false;
+        }
         if (key.tab || key.return) {
           const safeIndex = Math.min(
             selectedCommandIndex,
@@ -188,17 +627,17 @@ export function useInputHandler({
 
     // Handle model selection navigation
     if (showModelSelection) {
-      if (key.upArrow) {
+      if (key.upArrow || key.name === "up") {
         setSelectedModelIndex((prev) =>
           prev === 0 ? availableModels.length - 1 : prev - 1
         );
         return true;
       }
-      if (key.downArrow) {
+      if (key.downArrow || key.name === "down") {
         setSelectedModelIndex((prev) => (prev + 1) % availableModels.length);
         return true;
       }
-      if (key.tab || key.return) {
+      if (key.tab || key.return || key.name === "return") {
         const selectedModel = availableModels[selectedModelIndex];
         agent.setModel(selectedModel.model);
         updateCurrentModel(selectedModel.model);
@@ -214,12 +653,51 @@ export function useInputHandler({
       }
     }
 
+    // Handle theme selection navigation
+    if (showThemeSelection) {
+      if (key.upArrow || key.name === "up") {
+        setSelectedThemeIndex((prev) =>
+          prev === 0 ? availableThemes.length - 1 : prev - 1
+        );
+        return true;
+      }
+      if (key.downArrow || key.name === "down") {
+        setSelectedThemeIndex((prev) => (prev + 1) % availableThemes.length);
+        return true;
+      }
+      if (key.tab || key.return || key.name === "return") {
+        const selectedTheme = availableThemes[selectedThemeIndex];
+        if (selectedTheme && isThemeId(selectedTheme.id)) {
+          setThemeId(selectedTheme.id);
+          const confirmEntry: ChatEntry = {
+            type: "assistant",
+            content: `✓ Switched to theme: ${selectedTheme.name} (${selectedTheme.id})`,
+            timestamp: new Date(),
+          };
+          setChatHistory((prev) => [...prev, confirmEntry]);
+        }
+        setShowThemeSelection(false);
+        setSelectedThemeIndex(0);
+        return true;
+      }
+    }
+
     return false; // Let default handling proceed
   };
 
   const handleInputSubmit = async (userInput: string) => {
     if (userInput === "exit" || userInput === "quit") {
       process.exit(0);
+      return;
+    }
+
+    if (configInputKey && configInputPrompt) {
+      const key = configInputKey;
+      setConfigInputKey(null);
+      setConfigInputPrompt(null);
+      setConfigInputMask(false);
+      await applyConfigValue(key, userInput);
+      clearInput();
       return;
     }
 
@@ -281,6 +759,7 @@ export function useInputHandler({
     { command: "/clear", description: "Clear chat history" },
     { command: "/models", description: "Switch Grok Model" },
     { command: "/theme", description: "Switch VS Code-inspired color theme" },
+    { command: "/config", description: "Configure Grok CLI (interactive)" },
     { command: "/attach", description: "Attach image for next message" },
     { command: "/attach-clear", description: "Clear attached images" },
     { command: "/commit-and-push", description: "AI commit & push to remote" },
@@ -290,6 +769,10 @@ export function useInputHandler({
   // Load models from configuration with fallback to defaults
   const availableModels: ModelOption[] = useMemo(() => {
     return loadModelConfig(); // Return directly, interface already matches
+  }, [settingsNonce]);
+
+  const availableThemes = useMemo(() => {
+    return listThemes().map((t) => ({ id: t.id, name: t.name }));
   }, []);
 
   const handleDirectCommand = async (input: string): Promise<boolean> => {
@@ -326,6 +809,7 @@ Built-in Commands:
   /help       - Show this help
   /models     - Switch between available models
   /theme      - Switch between VS Code-inspired color themes
+  /config     - Configure Grok CLI (interactive)
   /attach     - Attach an image for your next message
   /attach-clear - Clear pending image attachments
   /exit       - Exit application
@@ -353,8 +837,8 @@ Direct Commands (executed immediately):
   mkdir <dir> - Create directory
   touch <file>- Create empty file
 
-Model Configuration:
-  Edit ~/.grok/models.json to add custom models (Claude, GPT, Gemini, etc.)
+Configuration:
+  Use /config (recommended) or edit ~/.grok/user-settings.json as a fallback.
 
 For complex operations, just describe what you want in natural language.
 Examples:
@@ -381,35 +865,49 @@ Examples:
     }
 
     if (trimmedInput === "/theme") {
-      const themes = listThemes();
-      const themeList = themes
-        .map((theme) => `  - ${theme.id} (${theme.name})`)
-        .join("\n");
-      const infoEntry: ChatEntry = {
-        type: "assistant",
-        content: `Current theme: ${themeId}\n\nAvailable themes:\n${themeList}\n\nUse /theme <id> to switch.`,
-        timestamp: new Date(),
-      };
-      setChatHistory((prev) => [...prev, infoEntry]);
+      setShowThemeSelection(true);
+      const idx = availableThemes.findIndex((t) => t.id === themeId);
+      setSelectedThemeIndex(idx >= 0 ? idx : 0);
+      clearInput();
+      return true;
+    }
+
+    if (trimmedInput === "/config") {
+      setShowCommandSuggestions(false);
+      setSelectedCommandIndex(0);
+      setShowModelSelection(false);
+      setSelectedModelIndex(0);
+      setShowThemeSelection(false);
+      setSelectedThemeIndex(0);
+      openConfigRootMenu();
       clearInput();
       return true;
     }
 
     if (trimmedInput.startsWith("/theme ")) {
       const themeArg = trimmedInput.slice("/theme ".length).trim();
-      if (isThemeId(themeArg)) {
-        setThemeId(themeArg);
+      const themes = listThemes();
+      const byId = themes.find((t) => t.id === themeArg);
+      const byName =
+        themes.find((t) => t.name.toLowerCase() === themeArg.toLowerCase()) ||
+        themes.find((t) => t.name.toLowerCase().includes(themeArg.toLowerCase()));
+      const chosen = byId || byName;
+
+      if (chosen && isThemeId(chosen.id)) {
+        setThemeId(chosen.id);
         const changedEntry: ChatEntry = {
           type: "assistant",
-          content: `✓ Switched to theme: ${themeArg}`,
+          content: `✓ Switched to theme: ${chosen.name} (${chosen.id})`,
           timestamp: new Date(),
         };
         setChatHistory((prev) => [...prev, changedEntry]);
       } else {
-        const validThemeIds = listThemes().map((theme) => theme.id).join(", ");
+        const rows = themes
+          .map((t) => `- ${t.name} (${t.id})`)
+          .join("\n");
         const invalidEntry: ChatEntry = {
           type: "assistant",
-          content: `Invalid theme: ${themeArg}\n\nAvailable themes: ${validThemeIds}`,
+          content: `Invalid theme: ${themeArg}\n\nAvailable themes:\n${rows}`,
           timestamp: new Date(),
         };
         setChatHistory((prev) => [...prev, invalidEntry]);
@@ -905,8 +1403,17 @@ Respond with ONLY the commit message, no additional text.`;
     selectedCommandIndex,
     showModelSelection,
     selectedModelIndex,
+    showThemeSelection,
+    selectedThemeIndex,
+    showConfigMenu,
+    configMenuTitle,
+    configMenuItems,
+    selectedConfigIndex,
+    configInputPrompt,
+    configInputMask,
     commandSuggestions,
     availableModels,
+    availableThemes,
     agent,
     autoEditEnabled,
     pendingImageCount: pendingImageAttachments.length,

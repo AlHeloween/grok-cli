@@ -90,8 +90,9 @@ export class GrokClient {
    * @param apiKey - X.AI API key
    * @param model - Optional model id (default grok-4-1-fast-non-reasoning)
    * @param baseURL - Optional base URL (default from GROK_BASE_URL or https://api.x.ai/v1)
+   * @param maxTokens - Optional max output tokens override (chat.completions)
    */
-  constructor(apiKey: string, model?: string, baseURL?: string) {
+  constructor(apiKey: string, model?: string, baseURL?: string, maxTokens?: number) {
     const selectedModel = model || this.currentModel;
     this.currentModel = selectedModel;
     const timeout = GrokClient.isReasoningModel(selectedModel)
@@ -103,8 +104,14 @@ export class GrokClient {
       baseURL: baseURL || process.env.GROK_BASE_URL || "https://api.x.ai/v1",
       timeout,
     });
-    const envMax = Number(process.env.GROK_MAX_TOKENS);
-    this.defaultMaxTokens = Number.isFinite(envMax) && envMax > 0 ? envMax : 1536;
+    const parsed = Number(maxTokens);
+    if (Number.isFinite(parsed) && parsed > 0) {
+      this.defaultMaxTokens = parsed;
+    } else {
+      const envMax = Number(process.env.GROK_MAX_TOKENS);
+      this.defaultMaxTokens =
+        Number.isFinite(envMax) && envMax > 0 ? envMax : 1536;
+    }
   }
 
   /** Set the model used for subsequent requests. */

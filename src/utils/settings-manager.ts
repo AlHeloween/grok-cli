@@ -6,7 +6,7 @@ import * as os from "os";
  * Current settings version - increment this when adding new models or changing settings structure
  * This triggers automatic migration for existing users
  */
-const SETTINGS_VERSION = 2;
+const SETTINGS_VERSION = 3;
 
 /**
  * User-level settings stored in ~/.grok/user-settings.json
@@ -18,6 +18,9 @@ export interface UserSettings {
   defaultModel?: string; // User's preferred default model
   models?: string[]; // Available models list
   theme?: string; // Preferred UI theme id
+  maxTokens?: number; // Max output tokens for chat.completions
+  embeddings?: EmbeddingsSettings; // Embeddings settings (used by local RAG)
+  morphApiKey?: string; // Morph API key (enables Morph Fast Apply)
   settingsVersion?: number; // Version for migration tracking
 }
 
@@ -28,6 +31,18 @@ export interface UserSettings {
 export interface ProjectSettings {
   model?: string; // Current model for this project
   mcpServers?: Record<string, any>; // MCP server configurations
+  rag?: RagSettings; // Optional RAG (retrieval) settings
+}
+
+export interface EmbeddingsSettings {
+  baseURL?: string;
+  model?: string;
+}
+
+export interface RagSettings {
+  enabled?: boolean;
+  topK?: number;
+  embeddings?: EmbeddingsSettings;
 }
 
 /**
@@ -37,6 +52,9 @@ const DEFAULT_USER_SETTINGS: Partial<UserSettings> = {
   baseURL: "https://api.x.ai/v1",
   defaultModel: "grok-code-fast-1",
   theme: "vscode-dark-plus",
+  embeddings: {
+    model: "text-embedding-3-small",
+  },
   // Models from official xAI docs (docs.x.ai/docs/models); aliases -latest/-fast follow docs
   models: [
     "grok-4-1-fast-reasoning",
@@ -60,6 +78,10 @@ const DEFAULT_USER_SETTINGS: Partial<UserSettings> = {
  */
 const DEFAULT_PROJECT_SETTINGS: Partial<ProjectSettings> = {
   model: "grok-code-fast-1",
+  rag: {
+    enabled: false,
+    topK: 6,
+  },
 };
 
 /**
@@ -74,9 +96,9 @@ export class SettingsManager {
   private static instance: SettingsManager;
 
   private userSettingsPath: string;
-  private projectSettingsPath: string;
   private userSettingsCache: CachedSettings<UserSettings> | null = null;
-  private projectSettingsCache: CachedSettings<ProjectSettings> | null = null;
+  private projectSettingsCacheByPath: Map<string, CachedSettings<ProjectSettings>> =
+    new Map();
 
   private constructor() {
     // User settings path: ~/.grok/user-settings.json
@@ -85,13 +107,21 @@ export class SettingsManager {
       ".grok",
       "user-settings.json"
     );
+  }
 
-    // Project settings path: .grok/settings.json (in current working directory)
-    this.projectSettingsPath = path.join(
-      process.cwd(),
-      ".grok",
-      "settings.json"
-    );
+  /**
+   * Project settings path: .grok/settings.json (in the current working directory).
+   * Note: we intentionally derive this dynamically so `cd` at runtime changes the active project.
+   */
+  private getProjectSettingsPath(cwd: string = process.cwd()): string {
+    return path.join(cwd, ".grok", "settings.json");
+  }
+
+  /**
+   * Project RAG DB path: .grok/rag.db (in the current working directory).
+   */
+  public getRagDbPath(cwd: string = process.cwd()): string {
+    return path.join(cwd, ".grok", "rag.db");
   }
 
   /**
@@ -151,6 +181,10 @@ export class SettingsManager {
       }
 
       result = { ...DEFAULT_USER_SETTINGS, ...settings };
+      result.embeddings = {
+        ...(DEFAULT_USER_SETTINGS.embeddings || {}),
+        ...(settings.embeddings || {}),
+      };
       this.userSettingsCache = { settings: result, mtimeMs };
       return result;
     } catch (error) {
@@ -180,6 +214,14 @@ export class SettingsManager {
       migrated.models = [...newModels, ...(migrated.models || [])];
     }
 
+    // Migration from version 2 to 3: add embeddings defaults (preserve existing values)
+    if (fromVersion < 3) {
+      migrated.embeddings = {
+        ...(DEFAULT_USER_SETTINGS.embeddings || {}),
+        ...(migrated.embeddings || {}),
+      };
+    }
+
     // Add future migrations here:
     // if (fromVersion < 3) { ... }
 
@@ -201,13 +243,23 @@ export class SettingsManager {
           const content = fs.readFileSync(this.userSettingsPath, "utf-8");
           const parsed = JSON.parse(content);
           existingSettings = { ...DEFAULT_USER_SETTINGS, ...parsed };
+          existingSettings.embeddings = {
+            ...(DEFAULT_USER_SETTINGS.embeddings || {}),
+            ...(parsed.embeddings || {}),
+          };
         } catch {
           // If file is corrupted, use defaults
           console.warn("Corrupted user settings file, using defaults");
         }
       }
 
-      const mergedSettings = { ...existingSettings, ...settings };
+      const mergedSettings: UserSettings = { ...existingSettings, ...settings };
+      if (settings.embeddings) {
+        mergedSettings.embeddings = {
+          ...(existingSettings.embeddings || {}),
+          ...(settings.embeddings || {}),
+        };
+      }
 
       fs.writeFileSync(
         this.userSettingsPath,
@@ -248,23 +300,41 @@ export class SettingsManager {
    * Load project settings from .grok/settings.json.
    * Uses in-memory cache when the file mtime is unchanged.
    */
-  public loadProjectSettings(): ProjectSettings {
+  public loadProjectSettings(cwd: string = process.cwd()): ProjectSettings {
     try {
-      if (!fs.existsSync(this.projectSettingsPath)) {
-        this.saveProjectSettings(DEFAULT_PROJECT_SETTINGS);
+      const projectSettingsPath = this.getProjectSettingsPath(cwd);
+
+      if (!fs.existsSync(projectSettingsPath)) {
+        this.saveProjectSettings(DEFAULT_PROJECT_SETTINGS, cwd);
         return { ...DEFAULT_PROJECT_SETTINGS };
       }
 
-      const stat = fs.statSync(this.projectSettingsPath);
+      const stat = fs.statSync(projectSettingsPath);
       const mtimeMs = stat.mtimeMs;
-      if (this.projectSettingsCache && this.projectSettingsCache.mtimeMs === mtimeMs) {
-        return this.projectSettingsCache.settings;
+      const cached = this.projectSettingsCacheByPath.get(projectSettingsPath);
+      if (cached && cached.mtimeMs === mtimeMs) {
+        return cached.settings;
       }
 
-      const content = fs.readFileSync(this.projectSettingsPath, "utf-8");
+      const content = fs.readFileSync(projectSettingsPath, "utf-8");
       const settings = JSON.parse(content);
-      const result = { ...DEFAULT_PROJECT_SETTINGS, ...settings };
-      this.projectSettingsCache = { settings: result, mtimeMs };
+      const result: ProjectSettings = { ...DEFAULT_PROJECT_SETTINGS, ...settings };
+      // Ensure nested defaults are preserved when the top-level object exists.
+      const rag: RagSettings = {
+        ...(DEFAULT_PROJECT_SETTINGS.rag || {}),
+        ...(settings.rag || {}),
+      };
+      result.rag = rag;
+      if (settings.rag?.embeddings) {
+        rag.embeddings = {
+          ...(DEFAULT_PROJECT_SETTINGS.rag?.embeddings || {}),
+          ...(settings.rag.embeddings || {}),
+        };
+      }
+      this.projectSettingsCacheByPath.set(projectSettingsPath, {
+        settings: result,
+        mtimeMs,
+      });
       return result;
     } catch (error) {
       console.warn(
@@ -278,31 +348,62 @@ export class SettingsManager {
   /**
    * Save project settings to .grok/settings.json
    */
-  public saveProjectSettings(settings: Partial<ProjectSettings>): void {
+  public saveProjectSettings(
+    settings: Partial<ProjectSettings>,
+    cwd: string = process.cwd()
+  ): void {
     try {
-      this.ensureDirectoryExists(this.projectSettingsPath);
+      const projectSettingsPath = this.getProjectSettingsPath(cwd);
+      this.ensureDirectoryExists(projectSettingsPath);
 
       // Read existing settings directly to avoid recursion
       let existingSettings: ProjectSettings = { ...DEFAULT_PROJECT_SETTINGS };
-      if (fs.existsSync(this.projectSettingsPath)) {
+      if (fs.existsSync(projectSettingsPath)) {
         try {
-          const content = fs.readFileSync(this.projectSettingsPath, "utf-8");
+          const content = fs.readFileSync(projectSettingsPath, "utf-8");
           const parsed = JSON.parse(content);
           existingSettings = { ...DEFAULT_PROJECT_SETTINGS, ...parsed };
+          const rag: RagSettings = {
+            ...(DEFAULT_PROJECT_SETTINGS.rag || {}),
+            ...(parsed.rag || {}),
+          };
+          existingSettings.rag = rag;
+          if (parsed.rag?.embeddings) {
+            rag.embeddings = {
+              ...(DEFAULT_PROJECT_SETTINGS.rag?.embeddings || {}),
+              ...(parsed.rag.embeddings || {}),
+            };
+          }
         } catch {
           // If file is corrupted, use defaults
           console.warn("Corrupted project settings file, using defaults");
         }
       }
 
-      const mergedSettings = { ...existingSettings, ...settings };
+      const mergedSettings: ProjectSettings = { ...existingSettings, ...settings };
+      if (settings.rag) {
+        const rag: RagSettings = {
+          ...(existingSettings.rag || {}),
+          ...(settings.rag || {}),
+        };
+        mergedSettings.rag = rag;
+        if (settings.rag.embeddings) {
+          rag.embeddings = {
+            ...(existingSettings.rag?.embeddings || {}),
+            ...(settings.rag.embeddings || {}),
+          };
+        }
+      }
 
       fs.writeFileSync(
-        this.projectSettingsPath,
+        projectSettingsPath,
         JSON.stringify(mergedSettings, null, 2)
       );
-      const stat = fs.statSync(this.projectSettingsPath);
-      this.projectSettingsCache = { settings: mergedSettings as ProjectSettings, mtimeMs: stat.mtimeMs };
+      const stat = fs.statSync(projectSettingsPath);
+      this.projectSettingsCacheByPath.set(projectSettingsPath, {
+        settings: mergedSettings as ProjectSettings,
+        mtimeMs: stat.mtimeMs,
+      });
     } catch (error) {
       console.error(
         "Failed to save project settings:",
@@ -353,6 +454,16 @@ export class SettingsManager {
     return DEFAULT_PROJECT_SETTINGS.model || "grok-code-fast-1";
   }
 
+  public isRagEnabled(cwd: string = process.cwd()): boolean {
+    const settings = this.loadProjectSettings(cwd);
+    return !!settings.rag?.enabled;
+  }
+
+  public getRagTopK(cwd: string = process.cwd()): number {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.topK ?? (DEFAULT_PROJECT_SETTINGS.rag?.topK ?? 6);
+  }
+
   /**
    * Set the current model for the project
    */
@@ -366,6 +477,10 @@ export class SettingsManager {
   public getAvailableModels(): string[] {
     const models = this.getUserSetting("models");
     return models || DEFAULT_USER_SETTINGS.models || [];
+  }
+
+  public getDefaultModels(): string[] {
+    return DEFAULT_USER_SETTINGS.models || [];
   }
 
   /**
@@ -397,6 +512,45 @@ export class SettingsManager {
     return (
       userBaseURL || DEFAULT_USER_SETTINGS.baseURL || "https://api.x.ai/v1"
     );
+  }
+
+  public getMaxTokens(): number {
+    const envMax = Number(process.env.GROK_MAX_TOKENS);
+    if (Number.isFinite(envMax) && envMax > 0) return envMax;
+
+    const settings = this.loadUserSettings();
+    const v = settings.maxTokens;
+    return Number.isFinite(v) && (v as number) > 0 ? (v as number) : 1536;
+  }
+
+  public getMorphApiKey(): string | undefined {
+    const envKey = process.env.MORPH_API_KEY;
+    if (envKey && envKey.trim()) return envKey.trim();
+    const settings = this.loadUserSettings();
+    return settings.morphApiKey;
+  }
+
+  public getEmbeddingsSettings(cwd: string = process.cwd()): EmbeddingsSettings {
+    const envBaseURL = process.env.GROK_EMBEDDINGS_BASE_URL?.trim();
+    const envModel = process.env.GROK_EMBEDDINGS_MODEL?.trim();
+
+    const user = this.loadUserSettings();
+    const project = this.loadProjectSettings(cwd);
+
+    const baseURL =
+      envBaseURL ||
+      project.rag?.embeddings?.baseURL ||
+      user.embeddings?.baseURL ||
+      this.getBaseURL();
+
+    const model =
+      envModel ||
+      project.rag?.embeddings?.model ||
+      user.embeddings?.model ||
+      DEFAULT_USER_SETTINGS.embeddings?.model ||
+      "text-embedding-3-small";
+
+    return { baseURL, model };
   }
 }
 

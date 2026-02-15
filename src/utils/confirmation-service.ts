@@ -109,10 +109,12 @@ export class ConfirmationService extends EventEmitter {
   private async openInVSCode(filename: string): Promise<void> {
     // Try different VS Code commands
     const commands = ["code", "code-insiders", "codium"];
+    const isWindows = process.platform === "win32";
 
     for (const cmd of commands) {
       try {
-        await execAsync(`which ${cmd}`);
+        // On Windows, `which` is usually unavailable; `where` is the native equivalent.
+        await execAsync(isWindows ? `where ${cmd}` : `which ${cmd}`);
         await execAsync(`${cmd} "${filename}"`);
         return;
       } catch {

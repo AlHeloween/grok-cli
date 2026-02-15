@@ -26,6 +26,7 @@ import { loadCustomInstructions } from "../utils/custom-instructions.js";
 import { getSettingsManager } from "../utils/settings-manager.js";
 import { getSystemPrompt } from "./system-prompt.js";
 import { executeTool as executeToolCall, type ToolExecutorContext } from "./tool-executor.js";
+import { formatRagChunksForPrompt, retrieveTopK } from "../rag/retriever.js";
 
 export interface ChatEntry {
   type: "user" | "assistant" | "tool_result" | "tool_call";
@@ -56,6 +57,7 @@ export class GrokAgent extends EventEmitter {
   private search: SearchTool;
   private chatHistory: ChatEntry[] = [];
   private messages: GrokMessage[] = [];
+  private baseSystemPrompt: string;
   private tokenCounter: TokenCounter;
   private abortController: AbortController | null = null;
   private mcpInitialized: boolean = false;
@@ -81,16 +83,19 @@ export class GrokAgent extends EventEmitter {
     apiKey: string,
     baseURL?: string,
     model?: string,
-    maxToolRounds?: number
+    maxToolRounds?: number,
+    maxTokens?: number
   ) {
     super();
     const manager = getSettingsManager();
     const savedModel = manager.getCurrentModel();
     const modelToUse = model || savedModel || "grok-code-fast-1";
     this.maxToolRounds = maxToolRounds || 400;
-    this.grokClient = new GrokClient(apiKey, modelToUse, baseURL);
+    const tokensToUse = maxTokens ?? manager.getMaxTokens();
+    this.grokClient = new GrokClient(apiKey, modelToUse, baseURL, tokensToUse);
     this.textEditor = new TextEditorTool();
-    this.morphEditor = process.env.MORPH_API_KEY ? new MorphEditorTool() : null;
+    const morphKey = manager.getMorphApiKey();
+    this.morphEditor = morphKey ? new MorphEditorTool(morphKey) : null;
     this.bash = new BashTool();
     this.todoTool = new TodoTool();
     this.confirmationTool = new ConfirmationTool();
@@ -102,13 +107,78 @@ export class GrokAgent extends EventEmitter {
 
     // Initialize with system message
     const customInstructions = loadCustomInstructions();
-    this.messages.push({
-      role: "system",
-      content: getSystemPrompt({
-        hasMorphEditor: !!this.morphEditor,
-        customInstructions: customInstructions ?? undefined,
-      }),
+    this.baseSystemPrompt = getSystemPrompt({
+      hasMorphEditor: !!this.morphEditor,
+      customInstructions: customInstructions ?? undefined,
     });
+    this.messages.push({ role: "system", content: this.baseSystemPrompt });
+  }
+
+  /**
+   * Reconfigure API connection at runtime (used by /config).
+   * Keeps history/messages but replaces the underlying Grok client.
+   */
+  public reconfigureConnection(options: {
+    apiKey?: string;
+    baseURL?: string;
+    maxTokens?: number;
+  }): void {
+    const manager = getSettingsManager();
+    const apiKey = options.apiKey || manager.getApiKey();
+    if (!apiKey) return;
+    const baseURL = options.baseURL || manager.getBaseURL();
+    const maxTokens = options.maxTokens ?? manager.getMaxTokens();
+    const model = this.grokClient.getCurrentModel();
+    this.grokClient = new GrokClient(apiKey, model, baseURL, maxTokens);
+  }
+
+  /** Refresh Morph availability and system prompt (used by /config). */
+  public refreshMorphEditor(): void {
+    const manager = getSettingsManager();
+    const morphKey = manager.getMorphApiKey();
+    this.morphEditor = morphKey ? new MorphEditorTool(morphKey) : null;
+
+    const customInstructions = loadCustomInstructions();
+    this.baseSystemPrompt = getSystemPrompt({
+      hasMorphEditor: !!this.morphEditor,
+      customInstructions: customInstructions ?? undefined,
+    });
+    if (this.messages[0]?.role === "system") {
+      this.messages[0].content = this.baseSystemPrompt;
+    }
+  }
+
+  private async maybeInjectRagContext(userMessageText: string): Promise<void> {
+    // Always reset system prompt each turn to avoid accumulating context.
+    if (this.messages[0]?.role === "system") {
+      this.messages[0].content = this.baseSystemPrompt;
+    }
+
+    const settings = getSettingsManager();
+    if (!settings.isRagEnabled()) return;
+
+    try {
+      const rows = await retrieveTopK(userMessageText, {
+        cwd: process.cwd(),
+        topK: settings.getRagTopK(),
+      });
+      if (!rows.length) return;
+
+      const formatted = formatRagChunksForPrompt(rows);
+      if (!formatted) return;
+
+      if (this.messages[0]?.role === "system") {
+        this.messages[0].content =
+          this.baseSystemPrompt +
+          "\n\nRELEVANT PROJECT CONTEXT (use when answering; prefer citing file paths):\n" +
+          formatted;
+      }
+    } catch {
+      // Best-effort only: if RAG fails, proceed without it.
+      if (this.messages[0]?.role === "system") {
+        this.messages[0].content = this.baseSystemPrompt;
+      }
+    }
   }
 
   private getToolExecutorContext(): ToolExecutorContext {
@@ -590,6 +660,7 @@ export class GrokAgent extends EventEmitter {
     const messageText = this.getUserContentText(message);
     // Create new abort controller for this request
     this.abortController = new AbortController();
+    await this.maybeInjectRagContext(messageText);
 
     // Add user message to conversation
     const userEntry: ChatEntry = {

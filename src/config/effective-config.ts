@@ -110,6 +110,20 @@ export function getEffectiveConfig(): EffectiveConfigItem[] {
       source: typeof project.rag?.topK === "number" ? "project" : "default",
     },
     {
+      key: "project.rag.useKMedoids",
+      value: !!project.rag?.useKMedoids,
+      source: typeof project.rag?.useKMedoids === "boolean" ? "project" : "default",
+    },
+    {
+      key: "project.rag.candidateCount",
+      value:
+        typeof project.rag?.candidateCount === "number"
+          ? project.rag.candidateCount
+          : Math.min(50, 3 * (project.rag?.topK ?? 6)),
+      source: typeof project.rag?.candidateCount === "number" ? "project" : "default",
+      note: "used when k-medoids is enabled",
+    },
+    {
       key: "project.rag.embeddings.model",
       value: embeddingsModel,
       source: embeddingsModelEnv

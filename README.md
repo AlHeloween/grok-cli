@@ -220,6 +220,16 @@ By default, embeddings use the same API key/base URL as chat (`GROK_API_KEY` / `
 - Override embeddings endpoint: `GROK_EMBEDDINGS_BASE_URL`
 - Override embeddings model: `GROK_EMBEDDINGS_MODEL`
 
+### Optional: k-medoids for more diverse context
+
+By default the retriever returns the top-k nearest chunks. For more diverse, less redundant context you can enable **k-medoids**: the retriever fetches a larger candidate set and picks k representative chunks.
+
+- **In chat**: `/config` → RAG → enable **Use k-medoids** (and optionally set **Candidate count**).
+- **CLI**: `grok config set project.rag.useKMedoids true` and optionally `project.rag.candidateCount 20`.
+- **JSON**: In `.grok/settings.json`, set `"rag": { "useKMedoids": true, "candidateCount": 20 }` (alongside `enabled`, `topK`, etc.).
+
+All RAG keys and defaults are documented in **`docs/settings.json.md`**.
+
 ### License note
 
 Local RAG uses `@sqliteai/sqlite-wasm` (bundles sqlite-vector). It is licensed under **Elastic License 2.0** (non-production use permitted). For production/managed service use, a commercial license may be required.

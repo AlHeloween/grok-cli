@@ -88,6 +88,17 @@ export class VectorDb {
     return this.dbPath;
   }
 
+  getDistanceMetric(): RagDistanceMetric {
+    const v = this.getMeta("distance");
+    return (v as RagDistanceMetric) || "COSINE";
+  }
+
+  getDimension(): number | undefined {
+    const v = this.getMeta("dimension");
+    const n = v != null ? Number(v) : undefined;
+    return Number.isFinite(n) && (n as number) > 0 ? (n as number) : undefined;
+  }
+
   initializeSchema(): void {
     this.db.exec(`
       PRAGMA foreign_keys=ON;
@@ -203,5 +214,63 @@ export class VectorDb {
     );
     return (rows || []) as RagChunkRow[];
   }
+
+  queryTopN(vector: number[], n: number): RagChunkRow[] {
+    return this.queryTopK(vector, n);
+  }
+
+  getChunkVectorsByIds(ids: number[]): Map<number, Float32Array> {
+    const out = new Map<number, Float32Array>();
+    const uniq = Array.from(new Set(ids.filter((x) => Number.isFinite(x) && x > 0)));
+    if (uniq.length === 0) return out;
+
+    const placeholders = uniq.map(() => "?").join(", ");
+    const rows = this.db.selectObjects(
+      `SELECT id, vector FROM chunks WHERE id IN (${placeholders})`,
+      uniq
+    ) as Array<{ id: number; vector: any }>;
+
+    for (const r of rows || []) {
+      const id = Number(r.id);
+      const blob = (r as any).vector;
+      const vec = decodeFloat32Blob(blob);
+      if (Number.isFinite(id) && vec) out.set(id, vec);
+    }
+    return out;
+  }
+}
+
+function decodeFloat32Blob(blob: any): Float32Array | null {
+  if (!blob) return null;
+
+  // Node Buffer
+  if (typeof Buffer !== "undefined" && Buffer.isBuffer(blob)) {
+    const b: Buffer = blob;
+    const len = Math.floor(b.byteLength / 4);
+    return new Float32Array(b.buffer, b.byteOffset, len);
+  }
+
+  // sqlite-wasm commonly returns Uint8Array for blobs
+  if (blob instanceof Uint8Array) {
+    const len = Math.floor(blob.byteLength / 4);
+    return new Float32Array(blob.buffer, blob.byteOffset, len);
+  }
+
+  if (blob instanceof ArrayBuffer) {
+    return new Float32Array(blob);
+  }
+
+  // Some bindings return {buffer: ArrayBuffer, byteOffset, byteLength}
+  if (
+    typeof blob === "object" &&
+    blob.buffer instanceof ArrayBuffer &&
+    typeof blob.byteOffset === "number" &&
+    typeof blob.byteLength === "number"
+  ) {
+    const len = Math.floor(blob.byteLength / 4);
+    return new Float32Array(blob.buffer, blob.byteOffset, len);
+  }
+
+  return null;
 }
 

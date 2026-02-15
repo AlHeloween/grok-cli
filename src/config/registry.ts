@@ -121,6 +121,26 @@ export function getConfigRegistry(): ConfigKeyDef[] {
       template: "6",
     },
     {
+      key: "project.rag.useKMedoids",
+      scope: "project",
+      type: "boolean",
+      category: "RAG",
+      description: "Select RAG context using k-medoids over a larger candidate set.",
+      options: () => [
+        { value: "false", label: "Disabled (default) — use plain top-k" },
+        { value: "true", label: "Enabled — use k-medoids representatives" },
+      ],
+    },
+    {
+      key: "project.rag.candidateCount",
+      scope: "project",
+      type: "number",
+      category: "RAG",
+      description:
+        "How many candidates to retrieve before k-medoids selection (must be >= topK).",
+      template: "18",
+    },
+    {
       key: "project.rag.embeddings.model",
       scope: "project",
       type: "string",

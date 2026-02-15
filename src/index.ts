@@ -819,6 +819,31 @@ configCommand
         manager.updateProjectSetting("rag", { ...(project.rag || {}), topK: k });
         break;
       }
+      case "project.rag.useKMedoids": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          useKMedoids: enabled,
+        });
+        break;
+      }
+      case "project.rag.candidateCount": {
+        const n = Number(trimmed);
+        const topK = manager.getRagTopK();
+        if (!Number.isFinite(n) || n <= 0) {
+          console.error("candidateCount must be a positive number.");
+          process.exit(1);
+        }
+        if (n < topK) {
+          console.error(`candidateCount must be >= topK (${topK}).`);
+          process.exit(1);
+        }
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          candidateCount: Math.floor(n),
+        });
+        break;
+      }
       case "user.embeddings.model":
         manager.updateUserSetting("embeddings", {
           ...(user.embeddings || {}),

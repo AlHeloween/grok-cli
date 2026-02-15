@@ -270,6 +270,33 @@ export function useInputHandler({
         push(`✓ RAG topK saved: ${k}`);
         return;
       }
+      case "project.rag.useKMedoids": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          useKMedoids: enabled,
+        });
+        push(`✓ RAG k-medoids is now ${enabled ? "enabled" : "disabled"} for this project.`);
+        return;
+      }
+      case "project.rag.candidateCount": {
+        const n = Number(trimmed);
+        const topK = settingsManager.getRagTopK();
+        if (!Number.isFinite(n) || n <= 0) {
+          push("✗ candidateCount must be a positive number.");
+          return;
+        }
+        if (n < topK) {
+          push(`✗ candidateCount must be >= topK (${topK}).`);
+          return;
+        }
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          candidateCount: Math.floor(n),
+        });
+        push(`✓ RAG candidateCount saved: ${Math.floor(n)}`);
+        return;
+      }
       case "project.rag.embeddings.model": {
         if (!trimmed) return;
         settingsManager.updateProjectSetting("rag", {

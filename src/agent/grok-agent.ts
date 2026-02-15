@@ -161,6 +161,8 @@ export class GrokAgent extends EventEmitter {
       const rows = await retrieveTopK(userMessageText, {
         cwd: process.cwd(),
         topK: settings.getRagTopK(),
+        useKMedoids: settings.getRagUseKMedoids(),
+        candidateCount: settings.getRagCandidateCount(),
       });
       if (!rows.length) return;
 

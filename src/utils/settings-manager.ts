@@ -43,6 +43,10 @@ export interface RagSettings {
   enabled?: boolean;
   topK?: number;
   embeddings?: EmbeddingsSettings;
+  /** If true, select RAG context via k-medoids over a larger candidate set. */
+  useKMedoids?: boolean;
+  /** Candidate count to retrieve before k-medoids (must be >= topK). */
+  candidateCount?: number;
 }
 
 /**
@@ -81,6 +85,8 @@ const DEFAULT_PROJECT_SETTINGS: Partial<ProjectSettings> = {
   rag: {
     enabled: false,
     topK: 6,
+    useKMedoids: false,
+    candidateCount: 18,
   },
 };
 
@@ -462,6 +468,21 @@ export class SettingsManager {
   public getRagTopK(cwd: string = process.cwd()): number {
     const settings = this.loadProjectSettings(cwd);
     return settings.rag?.topK ?? (DEFAULT_PROJECT_SETTINGS.rag?.topK ?? 6);
+  }
+
+  public getRagUseKMedoids(cwd: string = process.cwd()): boolean {
+    const settings = this.loadProjectSettings(cwd);
+    return !!settings.rag?.useKMedoids;
+  }
+
+  public getRagCandidateCount(cwd: string = process.cwd()): number {
+    const settings = this.loadProjectSettings(cwd);
+    const topK = this.getRagTopK(cwd);
+    const defaultCount = Math.min(50, Math.max(topK, 3 * topK));
+    const raw = settings.rag?.candidateCount;
+    const n =
+      typeof raw === "number" && Number.isFinite(raw) ? Math.floor(raw) : defaultCount;
+    return Math.max(topK, Math.min(200, n));
   }
 
   /**

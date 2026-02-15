@@ -110,6 +110,30 @@ export function getEffectiveConfig(): EffectiveConfigItem[] {
       source: typeof project.rag?.topK === "number" ? "project" : "default",
     },
     {
+      key: "project.rag.embeddings.model",
+      value: embeddingsModel,
+      source: embeddingsModelEnv
+        ? "env"
+        : project.rag?.embeddings?.model
+          ? "project"
+          : user.embeddings?.model
+            ? "user"
+            : "default",
+      note: project.rag?.embeddings?.model ? "project override" : undefined,
+    },
+    {
+      key: "project.rag.embeddings.baseURL",
+      value: embeddingsBaseURL,
+      source: embeddingsBaseURLEnv
+        ? "env"
+        : project.rag?.embeddings?.baseURL
+          ? "project"
+          : user.embeddings?.baseURL
+            ? "user"
+            : "default",
+      note: project.rag?.embeddings?.baseURL ? "project override" : undefined,
+    },
+    {
       key: "user.embeddings.model",
       value: embeddingsModel,
       source: embeddingsModelEnv

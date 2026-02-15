@@ -121,6 +121,34 @@ export function getConfigRegistry(): ConfigKeyDef[] {
       template: "6",
     },
     {
+      key: "project.rag.embeddings.model",
+      scope: "project",
+      type: "string",
+      category: "RAG",
+      description: "Embeddings model override for local RAG (project-level).",
+      options: () => [
+        { value: "text-embedding-3-small", label: "text-embedding-3-small (default)" },
+        { value: "text-embedding-3-large", label: "text-embedding-3-large" },
+        { value: "__custom__", label: "Custom..." },
+      ],
+      template: "text-embedding-3-small",
+    },
+    {
+      key: "project.rag.embeddings.baseURL",
+      scope: "project",
+      type: "string",
+      category: "RAG",
+      description:
+        "Embeddings base URL override for local RAG (project-level; defaults to user.baseURL when unset).",
+      options: () => [
+        { value: "__same_as_baseURL__", label: "Same as baseURL (recommended)" },
+        { value: "https://api.x.ai/v1", label: "xAI — https://api.x.ai/v1" },
+        { value: "https://api.openai.com/v1", label: "OpenAI — https://api.openai.com/v1" },
+        { value: "__custom__", label: "Custom..." },
+      ],
+      template: "https://api.x.ai/v1",
+    },
+    {
       key: "user.embeddings.model",
       scope: "user",
       type: "string",

@@ -19,6 +19,7 @@ A conversational AI CLI tool powered by Grok with intelligent text editor capabi
 
 - **[Application scheme](docs/APPLICATION-SCHEME.md)** — Module map, file roles, and architecture (entry, UI, agent, Grok API, RAG, config, MCP, tools).
 - **[Agent overview](docs/AGENT.md)** — How the GrokAgent works: message flow, tools, RAG injection, config, and MCP.
+- **[Settings guide](docs/settings.json.md)** — Every setting, its defaults, env overrides, and how to edit via `/config` or `grok config`.
 
 ## Installation
 

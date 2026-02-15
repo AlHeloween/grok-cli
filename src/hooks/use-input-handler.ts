@@ -270,6 +270,30 @@ export function useInputHandler({
         push(`✓ RAG topK saved: ${k}`);
         return;
       }
+      case "project.rag.embeddings.model": {
+        if (!trimmed) return;
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          embeddings: {
+            ...((project.rag || {}).embeddings || {}),
+            model: trimmed,
+          },
+        });
+        push(`✓ Project embeddings model saved: ${trimmed}`);
+        return;
+      }
+      case "project.rag.embeddings.baseURL": {
+        if (!trimmed) return;
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          embeddings: {
+            ...((project.rag || {}).embeddings || {}),
+            baseURL: trimmed,
+          },
+        });
+        push(`✓ Project embeddings baseURL saved: ${trimmed}`);
+        return;
+      }
       case "user.embeddings.model": {
         if (!trimmed) return;
         settingsManager.updateUserSetting("embeddings", {
@@ -460,21 +484,42 @@ export function useInputHandler({
             return true;
           }
           if (value === "__same_as_baseURL__") {
-            settingsManager.updateUserSetting("embeddings", {
-              ...(settingsManager.loadUserSettings().embeddings || {}),
-              baseURL: undefined,
+          const keyDef = getConfigRegistry().find((d) => d.key === configKey);
+          if (keyDef?.scope === "project") {
+            const proj = settingsManager.loadProjectSettings();
+            settingsManager.updateProjectSetting("rag", {
+              ...(proj.rag || {}),
+              embeddings: {
+                ...((proj.rag || {}).embeddings || {}),
+                baseURL: undefined,
+              },
             });
             setChatHistory((prev) => [
               ...prev,
               {
                 type: "assistant",
-                content: "✓ Embeddings baseURL set to: same as baseURL",
+                content: "✓ Project embeddings baseURL set to: same as baseURL",
                 timestamp: new Date(),
               },
             ]);
-            // Refresh current menu values
             setShowConfigMenu(false);
             return true;
+          }
+
+          settingsManager.updateUserSetting("embeddings", {
+            ...(settingsManager.loadUserSettings().embeddings || {}),
+            baseURL: undefined,
+          });
+          setChatHistory((prev) => [
+            ...prev,
+            {
+              type: "assistant",
+              content: "✓ Embeddings baseURL set to: same as baseURL",
+              timestamp: new Date(),
+            },
+          ]);
+          setShowConfigMenu(false);
+          return true;
           }
           await applyConfigValue(configKey, value);
           setShowConfigMenu(false);

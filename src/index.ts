@@ -826,9 +826,44 @@ configCommand
         });
         break;
       case "user.embeddings.baseURL":
+        if (trimmed === "__same_as_baseURL__") {
+          manager.updateUserSetting("embeddings", {
+            ...(user.embeddings || {}),
+            baseURL: undefined,
+          });
+          break;
+        }
         manager.updateUserSetting("embeddings", {
           ...(user.embeddings || {}),
           baseURL: trimmed,
+        });
+        break;
+      case "project.rag.embeddings.model":
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          embeddings: {
+            ...((project.rag || {}).embeddings || {}),
+            model: trimmed,
+          },
+        });
+        break;
+      case "project.rag.embeddings.baseURL":
+        if (trimmed === "__same_as_baseURL__") {
+          manager.updateProjectSetting("rag", {
+            ...(project.rag || {}),
+            embeddings: {
+              ...((project.rag || {}).embeddings || {}),
+              baseURL: undefined,
+            },
+          });
+          break;
+        }
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          embeddings: {
+            ...((project.rag || {}).embeddings || {}),
+            baseURL: trimmed,
+          },
         });
         break;
       case "user.morphApiKey":

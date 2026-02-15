@@ -59,15 +59,38 @@ export interface AgentToolResponse {
   output?: any[];
 }
 
+/**
+ * Client for the Grok API (X.AI). Supports legacy Chat Completions and the Responses API with Agent Tools (e.g. web search).
+ */
+/** Default model when none is specified (4.1 Fast non-reasoning for balance of speed and capability). */
+const DEFAULT_MODEL = "grok-4-1-fast-non-reasoning";
+
 export class GrokClient {
   private client: OpenAI;
-  private currentModel: string = "grok-code-fast-1";
+  private currentModel: string = DEFAULT_MODEL;
   private defaultMaxTokens: number;
 
   private static isReasoningModel(model: string): boolean {
     return model.toLowerCase().includes("reasoning");
   }
 
+  private static isGrok41FastModel(model: string): boolean {
+    return model.toLowerCase().includes("grok-4-1-fast");
+  }
+
+  private getMaxOutputTokens(model: string): number {
+    const m = model || this.currentModel;
+    if (GrokClient.isGrok41FastModel(m)) {
+      return 8192;
+    }
+    return this.defaultMaxTokens;
+  }
+
+  /**
+   * @param apiKey - X.AI API key
+   * @param model - Optional model id (default grok-4-1-fast-non-reasoning)
+   * @param baseURL - Optional base URL (default from GROK_BASE_URL or https://api.x.ai/v1)
+   */
   constructor(apiKey: string, model?: string, baseURL?: string) {
     const selectedModel = model || this.currentModel;
     this.currentModel = selectedModel;
@@ -84,10 +107,12 @@ export class GrokClient {
     this.defaultMaxTokens = Number.isFinite(envMax) && envMax > 0 ? envMax : 1536;
   }
 
+  /** Set the model used for subsequent requests. */
   setModel(model: string): void {
     this.currentModel = model;
   }
 
+  /** Return the currently selected model id. */
   getCurrentModel(): string {
     return this.currentModel;
   }
@@ -128,10 +153,16 @@ export class GrokClient {
     });
   }
 
+  /**
+   * Legacy Chat Completions API. Does not support web search (no search_parameters).
+   * For web search, use chatWithAgentTools/continueAgentToolsChat (Responses API + web_search tool).
+   * @param signal - Optional AbortSignal to cancel the request (e.g. when user cancels).
+   */
   async chat(
     messages: GrokMessage[],
     tools?: GrokTool[],
-    model?: string
+    model?: string,
+    signal?: AbortSignal
   ): Promise<GrokResponse> {
     try {
       const requestPayload: any = {
@@ -141,6 +172,7 @@ export class GrokClient {
         tool_choice: tools && tools.length > 0 ? "auto" : undefined,
         temperature: 0.7,
         max_tokens: this.defaultMaxTokens,
+        ...(signal && { signal }),
       };
 
       const response =
@@ -152,10 +184,14 @@ export class GrokClient {
     }
   }
 
+  /**
+   * @param signal - Optional AbortSignal to cancel the stream (e.g. when user cancels).
+   */
   async *chatStream(
     messages: GrokMessage[],
     tools?: GrokTool[],
-    model?: string
+    model?: string,
+    signal?: AbortSignal
   ): AsyncGenerator<any, void, unknown> {
     try {
       const requestPayload: any = {
@@ -166,6 +202,7 @@ export class GrokClient {
         temperature: 0.7,
         max_tokens: this.defaultMaxTokens,
         stream: true,
+        ...(signal && { signal }),
       };
 
       const stream = (await this.client.chat.completions.create(
@@ -254,11 +291,17 @@ export class GrokClient {
     return input;
   }
 
+  /**
+   * Start a conversation using the Responses API with optional tools and web search.
+   * @param includeWebSearch - When true, adds the web_search tool so the model can search the web.
+   * @param signal - Optional AbortSignal to cancel the request.
+   */
   async chatWithAgentTools(
     messages: GrokMessage[],
     tools?: GrokTool[],
     model?: string,
-    includeWebSearch: boolean = true
+    includeWebSearch: boolean = true,
+    signal?: AbortSignal
   ): Promise<AgentToolResponse> {
     try {
       const requestTools = this.convertToolsToResponsesFormat(tools);
@@ -266,14 +309,20 @@ export class GrokClient {
         requestTools.unshift({ type: "web_search" });
       }
 
-      const response = await this.client.responses.create({
-        model: model || this.currentModel,
+      const currentModel = model || this.currentModel;
+      const payload: any = {
+        model: currentModel,
         input: this.convertMessagesToResponsesInput(messages),
         tools: requestTools,
         temperature: 0.7,
-        max_output_tokens: this.defaultMaxTokens,
+        max_output_tokens: this.getMaxOutputTokens(currentModel),
         parallel_tool_calls: true,
-      } as any);
+        ...(signal && { signal }),
+      };
+      if (GrokClient.isReasoningModel(currentModel)) {
+        payload.include = ["reasoning.encrypted_content"];
+      }
+      const response = await this.client.responses.create(payload);
 
       return response as AgentToolResponse;
     } catch (error: any) {
@@ -281,12 +330,19 @@ export class GrokClient {
     }
   }
 
+  /**
+   * Continue an Agent Tools conversation with tool results (Responses API).
+   * @param previousResponseId - Id from the previous chatWithAgentTools or continueAgentToolsChat response.
+   * @param includeWebSearch - When true, web_search remains available for follow-up.
+   * @param signal - Optional AbortSignal to cancel the request.
+   */
   async continueAgentToolsChat(
     previousResponseId: string,
     toolResults: Array<{ callId: string; output: string }>,
     tools?: GrokTool[],
     model?: string,
-    includeWebSearch: boolean = true
+    includeWebSearch: boolean = true,
+    signal?: AbortSignal
   ): Promise<AgentToolResponse> {
     try {
       const requestTools = this.convertToolsToResponsesFormat(tools);
@@ -300,15 +356,21 @@ export class GrokClient {
         output: result.output,
       }));
 
-      const response = await this.client.responses.create({
-        model: model || this.currentModel,
+      const currentModel = model || this.currentModel;
+      const payload: any = {
+        model: currentModel,
         previous_response_id: previousResponseId,
         input,
         tools: requestTools,
         temperature: 0.7,
-        max_output_tokens: this.defaultMaxTokens,
+        max_output_tokens: this.getMaxOutputTokens(currentModel),
         parallel_tool_calls: true,
-      } as any);
+        ...(signal && { signal }),
+      };
+      if (GrokClient.isReasoningModel(currentModel)) {
+        payload.include = ["reasoning.encrypted_content"];
+      }
+      const response = await this.client.responses.create(payload);
 
       return response as AgentToolResponse;
     } catch (error: any) {
@@ -316,6 +378,7 @@ export class GrokClient {
     }
   }
 
+  /** Run a single query with web search enabled (convenience wrapper around chatWithAgentTools). */
   async search(query: string): Promise<AgentToolResponse> {
     const searchMessage: GrokMessage = {
       role: "user",

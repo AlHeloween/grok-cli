@@ -2,12 +2,15 @@ import React, { useState } from "react";
 import { Box, Text, useInput, useApp } from "ink";
 import { GrokAgent } from "../../agent/grok-agent.js";
 import { getSettingsManager } from "../../utils/settings-manager.js";
+import { useTheme } from "../context/theme-context.js";
 
 interface ApiKeyInputProps {
   onApiKeySet: (agent: GrokAgent) => void;
 }
 
 export default function ApiKeyInput({ onApiKeySet }: ApiKeyInputProps) {
+  const { theme } = useTheme();
+  const colors = theme.colors;
   const [input, setInput] = useState("");
   const [error, setError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -59,13 +62,13 @@ export default function ApiKeyInput({ onApiKeySet }: ApiKeyInputProps) {
         const manager = getSettingsManager();
         manager.updateUserSetting('apiKey', apiKey);
         console.log(`\n✅ API key saved to ~/.grok/user-settings.json`);
-      } catch (error) {
+      } catch {
         console.log('\n⚠️ Could not save API key to settings file');
         console.log('API key set for current session only');
       }
       
       onApiKeySet(agent);
-    } catch (error: any) {
+    } catch {
       setError("Invalid API key format");
       setIsSubmitting(false);
     }
@@ -77,31 +80,31 @@ export default function ApiKeyInput({ onApiKeySet }: ApiKeyInputProps) {
 
   return (
     <Box flexDirection="column" paddingX={2} paddingY={1}>
-      <Text color="yellow">🔑 Grok API Key Required</Text>
+      <Text color={colors.warning}>🔑 Grok API Key Required</Text>
       <Box marginBottom={1}>
-        <Text color="gray">Please enter your Grok API key to continue:</Text>
+        <Text color={colors.textDim}>Please enter your Grok API key to continue:</Text>
       </Box>
       
-      <Box borderStyle="round" borderColor="blue" paddingX={1} marginBottom={1}>
-        <Text color="gray">❯ </Text>
+      <Box borderStyle="round" borderColor={colors.border} paddingX={1} marginBottom={1}>
+        <Text color={colors.prompt}>❯ </Text>
         <Text>{displayText}</Text>
       </Box>
 
       {error ? (
         <Box marginBottom={1}>
-          <Text color="red">❌ {error}</Text>
+          <Text color={colors.error}>❌ {error}</Text>
         </Box>
       ) : null}
 
       <Box flexDirection="column" marginTop={1}>
-        <Text color="gray" dimColor>• Press Enter to submit</Text>
-        <Text color="gray" dimColor>• Press Ctrl+C to exit</Text>
-        <Text color="gray" dimColor>Note: API key will be saved to ~/.grok/user-settings.json</Text>
+        <Text color={colors.textDim} dimColor>• Press Enter to submit</Text>
+        <Text color={colors.textDim} dimColor>• Press Ctrl+C to exit</Text>
+        <Text color={colors.textDim} dimColor>Note: API key will be saved to ~/.grok/user-settings.json</Text>
       </Box>
 
       {isSubmitting ? (
         <Box marginTop={1}>
-          <Text color="yellow">🔄 Validating API key...</Text>
+          <Text color={colors.warning}>🔄 Validating API key...</Text>
         </Box>
       ) : null}
     </Box>

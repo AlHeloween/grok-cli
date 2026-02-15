@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Text } from "ink";
+import { useTheme } from "../context/theme-context.js";
 
 interface ChatInputProps {
   input: string;
@@ -16,8 +17,10 @@ export function ChatInput({
   isStreaming,
   pendingImageCount = 0,
 }: ChatInputProps) {
+  const { theme } = useTheme();
+  const colors = theme.colors;
   const beforeCursor = input.slice(0, cursorPosition);
-  const afterCursor = input.slice(cursorPosition);
+  const _afterCursor = input.slice(cursorPosition);
 
   // Handle multiline input display
   const lines = input.split("\n");
@@ -38,8 +41,8 @@ export function ChatInput({
   }
 
   const showCursor = !isProcessing && !isStreaming;
-  const borderColor = isProcessing || isStreaming ? "yellow" : "blue";
-  const promptColor = "cyan";
+  const borderColor = isProcessing || isStreaming ? colors.borderActive : colors.border;
+  const promptColor = colors.prompt;
 
   // Display placeholder when input is empty
   const placeholderText = "Ask me anything...";
@@ -49,7 +52,7 @@ export function ChatInput({
     return (
       <Box flexDirection="column" marginTop={1}>
         {pendingImageCount > 0 && (
-          <Text color="yellow">
+          <Text color={colors.warning}>
             {pendingImageCount} image{pendingImageCount === 1 ? "" : "s"} attached
           </Text>
         )}
@@ -70,7 +73,7 @@ export function ChatInput({
                   <Text>
                     {beforeCursorInLine}
                     {showCursor && (
-                      <Text backgroundColor="white" color="black">
+                      <Text backgroundColor={colors.cursorBg} color={colors.cursorFg}>
                         {cursorChar}
                       </Text>
                     )}
@@ -100,7 +103,7 @@ export function ChatInput({
   return (
     <Box flexDirection="column" marginTop={1}>
       {pendingImageCount > 0 && (
-        <Text color="yellow">
+          <Text color={colors.warning}>
           {pendingImageCount} image{pendingImageCount === 1 ? "" : "s"} attached
         </Text>
       )}
@@ -109,11 +112,11 @@ export function ChatInput({
           <Text color={promptColor}>❯ </Text>
           {isPlaceholder ? (
             <>
-              <Text color="gray" dimColor>
+              <Text color={colors.textDim} dimColor>
                 {placeholderText}
               </Text>
               {showCursor && (
-                <Text backgroundColor="white" color="black">
+                <Text backgroundColor={colors.cursorBg} color={colors.cursorFg}>
                   {" "}
                 </Text>
               )}
@@ -122,7 +125,7 @@ export function ChatInput({
             <Text>
               {beforeCursor}
               {showCursor && (
-                <Text backgroundColor="white" color="black">
+                <Text backgroundColor={colors.cursorBg} color={colors.cursorFg}>
                   {cursorChar}
                 </Text>
               )}

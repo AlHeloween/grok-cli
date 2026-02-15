@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Box, Text } from "ink";
 import { formatTokenCount } from "../../utils/token-counter.js";
+import { useTheme } from "../context/theme-context.js";
 
 interface LoadingSpinnerProps {
   isActive: boolean;
@@ -30,6 +31,8 @@ export function LoadingSpinner({
   processingTime,
   tokenCount,
 }: LoadingSpinnerProps) {
+  const { theme } = useTheme();
+  const colors = theme.colors;
   const [spinnerFrame, setSpinnerFrame] = useState(0);
   const [loadingTextIndex, setLoadingTextIndex] = useState(0);
 
@@ -64,10 +67,10 @@ export function LoadingSpinner({
 
   return (
     <Box marginTop={1}>
-      <Text color="cyan">
+      <Text color={colors.accent}>
         {spinnerFrames[spinnerFrame]} {loadingTexts[loadingTextIndex]}{" "}
       </Text>
-      <Text color="gray">
+      <Text color={colors.textDim}>
         ({processingTime}s · ↑ {formatTokenCount(tokenCount)} tokens · esc to
         interrupt)
       </Text>

@@ -3,13 +3,18 @@ import { useInput } from "ink";
 import { GrokAgent, ChatEntry } from "../agent/grok-agent.js";
 import { ConfirmationService } from "../utils/confirmation-service.js";
 import { useEnhancedInput, Key } from "./use-enhanced-input.js";
-import { promises as fs } from "fs";
-import path from "path";
-import { UserContent, UserContentPart } from "../grok/client.js";
+import { UserContent } from "../grok/client.js";
 
 import { filterCommandSuggestions } from "../ui/components/command-suggestions.js";
 import { loadModelConfig, updateCurrentModel } from "../utils/model-config.js";
-import { getClipboardImageSync } from "../utils/clipboard-image.js";
+import { getClipboardImage } from "../utils/clipboard-image.js";
+import {
+  buildUserContent,
+  readLocalImageAsDataUrl,
+  type PendingImageAttachment,
+} from "../utils/attachment-utils.js";
+import { isThemeId, listThemes } from "../ui/utils/theme.js";
+import { useTheme } from "../ui/context/theme-context.js";
 
 /** Pasted content longer than this is treated as text; clipboard image check is skipped. */
 const PASTE_TEXT_THRESHOLD = 1000;
@@ -37,19 +42,9 @@ interface ModelOption {
   model: string;
 }
 
-interface PendingImageAttachment {
-  imageUrl: string;
-  label: string;
-}
-
-const MAX_IMAGE_SIZE_BYTES = 20 * 1024 * 1024;
-const IMAGE_EXTENSIONS = new Set([".png", ".jpg", ".jpeg"]);
-const IMAGE_URL_REGEX =
-  /https?:\/\/[^\s]+\.(?:png|jpe?g|gif|webp)(?:\?[^\s]*)?/gi;
-
 export function useInputHandler({
   agent,
-  chatHistory,
+  chatHistory: _chatHistory,
   setChatHistory,
   setIsProcessing,
   setIsStreaming,
@@ -60,6 +55,7 @@ export function useInputHandler({
   isStreaming,
   isConfirmationActive = false,
 }: UseInputHandlerProps) {
+  const { themeId, setThemeId } = useTheme();
   const [showCommandSuggestions, setShowCommandSuggestions] = useState(false);
   const [selectedCommandIndex, setSelectedCommandIndex] = useState(0);
   const [showModelSelection, setShowModelSelection] = useState(false);
@@ -73,100 +69,41 @@ export function useInputHandler({
     PendingImageAttachment[]
   >([]);
 
-  const parseImageUrlsFromText = (
-    inputText: string
-  ): { imageUrls: string[]; cleanedText: string } => {
-    const matches = inputText.match(IMAGE_URL_REGEX) || [];
-    const cleanedText = inputText
-      .replace(IMAGE_URL_REGEX, " ")
-      .replace(/\s+/g, " ")
-      .trim();
-    return { imageUrls: [...new Set(matches)], cleanedText };
-  };
+  const buildUserContentWithAttachments = (userInput: string): UserContent =>
+    buildUserContent(userInput, pendingImageAttachments);
 
-  const buildUserContent = (userInput: string): UserContent => {
-    const { imageUrls, cleanedText } = parseImageUrlsFromText(userInput);
-    const parts: UserContentPart[] = [
-      ...pendingImageAttachments.map((attachment) => ({
-        type: "input_image" as const,
-        image_url: attachment.imageUrl,
-        detail: "high" as const,
-      })),
-      ...imageUrls.map((url) => ({
-        type: "input_image" as const,
-        image_url: url,
-        detail: "high" as const,
-      })),
-    ];
-
-    if (parts.length === 0) {
-      return userInput;
-    }
-
-    if (cleanedText.length > 0) {
-      parts.push({ type: "input_text", text: cleanedText });
-    }
-
-    return parts;
-  };
-
-  const readLocalImageAsDataUrl = async (
-    filePathArg: string
-  ): Promise<PendingImageAttachment> => {
-    const unquotedPath = filePathArg.replace(/^["']|["']$/g, "");
-    const absolutePath = path.isAbsolute(unquotedPath)
-      ? unquotedPath
-      : path.resolve(process.cwd(), unquotedPath);
-    const extension = path.extname(absolutePath).toLowerCase();
-
-    if (!IMAGE_EXTENSIONS.has(extension)) {
-      throw new Error("Only .png, .jpg, and .jpeg files are supported");
-    }
-
-    const stats = await fs.stat(absolutePath);
-    if (stats.size > MAX_IMAGE_SIZE_BYTES) {
-      throw new Error("Image must be 20MiB or smaller");
-    }
-
-    const imageBuffer = await fs.readFile(absolutePath);
-    const mimeType = extension === ".png" ? "image/png" : "image/jpeg";
-    const imageUrl = `data:${mimeType};base64,${imageBuffer.toString("base64")}`;
-
-    return {
-      imageUrl,
-      label: path.basename(absolutePath),
-    };
-  };
-
-  const handleSpecialKey = (key: Key, pasteText?: string): boolean => {
+  const handleSpecialKey = (key: Key, pasteText?: string): boolean | Promise<boolean> => {
     // Don't handle input if confirmation dialog is active
     if (isConfirmationActive) {
       return true; // Prevent default handling
     }
 
-    // Paste: skip slow clipboard image check when pasted content is clearly text (long string)
+    // Paste: skip clipboard image check when pasted content is clearly text (long string)
     if (key.paste) {
       if (pasteText != null && pasteText.length > PASTE_TEXT_THRESHOLD) {
         return false; // Let default handling insert pasted text immediately
       }
-      const image = getClipboardImageSync();
-      if (image) {
-        const imageUrl = `data:${image.mimeType};base64,${image.base64}`;
-        setPendingImageAttachments((prev) => [
-          ...prev,
-          { imageUrl, label: "Pasted image" },
-        ]);
-        setChatHistory((prev) => [
-          ...prev,
-          {
-            type: "assistant",
-            content: "Pasted 1 image.",
-            timestamp: new Date(),
-          },
-        ]);
-        return true;
-      }
-      return false; // let default handling insert pasted text
+      return getClipboardImage()
+        .then((image) => {
+          if (image) {
+            const imageUrl = `data:${image.mimeType};base64,${image.base64}`;
+            setPendingImageAttachments((prev) => [
+              ...prev,
+              { imageUrl, label: "Pasted image" },
+            ]);
+            setChatHistory((prev) => [
+              ...prev,
+              {
+                type: "assistant",
+                content: "Pasted 1 image.",
+                timestamp: new Date(),
+              },
+            ]);
+            return true;
+          }
+          return false; // let default handling insert pasted text when promise resolves
+        })
+        .catch(() => false); // on rejection (e.g. timeout), treat as text paste
     }
 
     // Handle shift+tab to toggle auto-edit mode
@@ -316,6 +253,16 @@ export function useInputHandler({
   } = useEnhancedInput({
     onSubmit: handleInputSubmit,
     onSpecialKey: handleSpecialKey,
+    onTruncated: (trimmedCount) => {
+      setChatHistory((prev) => [
+        ...prev,
+        {
+          type: "assistant",
+          content: `Input truncated to 100,000 characters (${trimmedCount.toLocaleString()} characters removed).`,
+          timestamp: new Date(),
+        },
+      ]);
+    },
     disabled: isConfirmationActive,
   });
 
@@ -333,6 +280,7 @@ export function useInputHandler({
     { command: "/help", description: "Show help information" },
     { command: "/clear", description: "Clear chat history" },
     { command: "/models", description: "Switch Grok Model" },
+    { command: "/theme", description: "Switch VS Code-inspired color theme" },
     { command: "/attach", description: "Attach image for next message" },
     { command: "/attach-clear", description: "Clear attached images" },
     { command: "/commit-and-push", description: "AI commit & push to remote" },
@@ -377,6 +325,7 @@ Built-in Commands:
   /clear      - Clear chat history
   /help       - Show this help
   /models     - Switch between available models
+  /theme      - Switch between VS Code-inspired color themes
   /attach     - Attach an image for your next message
   /attach-clear - Clear pending image attachments
   /exit       - Exit application
@@ -427,6 +376,44 @@ Examples:
     if (trimmedInput === "/models") {
       setShowModelSelection(true);
       setSelectedModelIndex(0);
+      clearInput();
+      return true;
+    }
+
+    if (trimmedInput === "/theme") {
+      const themes = listThemes();
+      const themeList = themes
+        .map((theme) => `  - ${theme.id} (${theme.name})`)
+        .join("\n");
+      const infoEntry: ChatEntry = {
+        type: "assistant",
+        content: `Current theme: ${themeId}\n\nAvailable themes:\n${themeList}\n\nUse /theme <id> to switch.`,
+        timestamp: new Date(),
+      };
+      setChatHistory((prev) => [...prev, infoEntry]);
+      clearInput();
+      return true;
+    }
+
+    if (trimmedInput.startsWith("/theme ")) {
+      const themeArg = trimmedInput.slice("/theme ".length).trim();
+      if (isThemeId(themeArg)) {
+        setThemeId(themeArg);
+        const changedEntry: ChatEntry = {
+          type: "assistant",
+          content: `✓ Switched to theme: ${themeArg}`,
+          timestamp: new Date(),
+        };
+        setChatHistory((prev) => [...prev, changedEntry]);
+      } else {
+        const validThemeIds = listThemes().map((theme) => theme.id).join(", ");
+        const invalidEntry: ChatEntry = {
+          type: "assistant",
+          content: `Invalid theme: ${themeArg}\n\nAvailable themes: ${validThemeIds}`,
+          timestamp: new Date(),
+        };
+        setChatHistory((prev) => [...prev, invalidEntry]);
+      }
       clearInput();
       return true;
     }
@@ -772,7 +759,7 @@ Respond with ONLY the commit message, no additional text.`;
   };
 
   const processUserMessage = async (userInput: string) => {
-    const userContent = buildUserContent(userInput);
+    const userContent = buildUserContentWithAttachments(userInput);
     const userEntry: ChatEntry = {
       type: "user",
       content: userContent,
@@ -854,8 +841,9 @@ Respond with ONLY the commit message, no additional text.`;
             }
             break;
 
-          case "tool_result":
-            if (chunk.toolCall && chunk.toolResult) {
+          case "tool_result": {
+            const toolResult = chunk.toolResult;
+            if (chunk.toolCall && toolResult) {
               setChatHistory((prev) =>
                 prev.map((entry) => {
                   if (entry.isStreaming) {
@@ -869,10 +857,10 @@ Respond with ONLY the commit message, no additional text.`;
                     return {
                       ...entry,
                       type: "tool_result",
-                      content: chunk.toolResult.success
-                        ? chunk.toolResult.output || "Success"
-                        : chunk.toolResult.error || "Error occurred",
-                      toolResult: chunk.toolResult,
+                      content: toolResult.success
+                        ? toolResult.output || "Success"
+                        : toolResult.error || "Error occurred",
+                      toolResult,
                     };
                   }
                   return entry;
@@ -880,6 +868,7 @@ Respond with ONLY the commit message, no additional text.`;
               );
               streamingEntry = null;
             }
+          }
             break;
 
           case "done":

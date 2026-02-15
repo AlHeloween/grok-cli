@@ -17,9 +17,11 @@ const MAX_INPUT_LENGTH = 100_000;
 
 function capToMaxLength(
   text: string,
-  position: number
+  position: number,
+  onTruncated?: (trimmedCount: number) => void
 ): { text: string; position: number } {
   if (text.length <= MAX_INPUT_LENGTH) return { text, position };
+  onTruncated?.(text.length - MAX_INPUT_LENGTH);
   return {
     text: text.slice(0, MAX_INPUT_LENGTH),
     position: Math.min(position, MAX_INPUT_LENGTH),
@@ -44,6 +46,7 @@ export interface Key {
   delete?: boolean;
 }
 
+/** Return value of useEnhancedInput: state and handlers for a single-line or multiline text input with history. */
 export interface EnhancedInputHook {
   input: string;
   cursorPosition: number;
@@ -59,22 +62,32 @@ export interface EnhancedInputHook {
 interface UseEnhancedInputProps {
   onSubmit?: (text: string) => void;
   onEscape?: () => void;
-  onSpecialKey?: (key: Key, pasteText?: string) => boolean; // Return true to prevent default handling; pasteText set when key.paste
+  /** Return true to prevent default (e.g. swallow paste); false to let input be inserted. May return Promise<boolean> for async paste (e.g. clipboard image check). */
+  onSpecialKey?: (key: Key, pasteText?: string) => boolean | Promise<boolean>;
+  onTruncated?: (trimmedCount: number) => void;
   disabled?: boolean;
   multiline?: boolean;
 }
 
+/**
+ * Hook for enhanced terminal input: history, cursor, paste handling, and optional special-key handler.
+ * Input is capped at 100k characters; use onTruncated to show a message when truncation occurs.
+ */
 export function useEnhancedInput({
   onSubmit,
   onEscape,
   onSpecialKey,
+  onTruncated,
   disabled = false,
   multiline = false,
 }: UseEnhancedInputProps = {}): EnhancedInputHook {
   const [input, setInputState] = useState("");
   const [cursorPosition, setCursorPositionState] = useState(0);
   const isMultilineRef = useRef(multiline);
-  
+  const pendingPasteQueueRef = useRef<string[]>([]);
+  const pasteDrainingRef = useRef(false);
+  const insertAtCursorRef = useRef<(text: string) => void>(() => {});
+
   const {
     addToHistory,
     navigateHistory,
@@ -103,11 +116,24 @@ export function useEnhancedInput({
 
   const insertAtCursor = useCallback((text: string) => {
     const result = insertText(input, cursorPosition, text);
-    const { text: capped, position } = capToMaxLength(result.text, result.position);
+    const { text: capped, position } = capToMaxLength(result.text, result.position, onTruncated);
     setInputState(capped);
     setCursorPositionState(position);
     setOriginalInput(capped);
-  }, [input, cursorPosition, setOriginalInput]);
+  }, [input, cursorPosition, setOriginalInput, onTruncated]);
+
+  insertAtCursorRef.current = insertAtCursor;
+
+  const drainPasteQueue = useCallback(() => {
+    if (pasteDrainingRef.current || pendingPasteQueueRef.current.length === 0) return;
+    pasteDrainingRef.current = true;
+    const text = pendingPasteQueueRef.current.shift()!;
+    insertAtCursorRef.current(text);
+    pasteDrainingRef.current = false;
+    if (pendingPasteQueueRef.current.length > 0) {
+      setTimeout(drainPasteQueue, 0);
+    }
+  }, []);
 
   const handleSubmit = useCallback(() => {
     if (input.trim()) {
@@ -129,8 +155,20 @@ export function useEnhancedInput({
     }
 
     // Allow special key handler to override default behavior (e.g. paste → clipboard image when key.paste is true)
-    if (onSpecialKey?.(key, key.paste ? inputChar : undefined)) {
-      return;
+    const specialResult = onSpecialKey?.(key, key.paste ? inputChar : undefined);
+    if (specialResult !== undefined && specialResult !== null) {
+      const isPromise =
+        typeof (specialResult as Promise<boolean>).then === "function";
+      if (isPromise) {
+        (specialResult as Promise<boolean>).then((handled) => {
+          if (!handled && key.paste && inputChar) {
+            pendingPasteQueueRef.current.push(inputChar);
+            drainPasteQueue();
+          }
+        });
+        return;
+      }
+      if (specialResult) return;
     }
 
     // Handle Escape
@@ -144,7 +182,7 @@ export function useEnhancedInput({
       if (multiline && key.shift) {
         // Shift+Enter in multiline mode inserts newline
         const result = insertText(input, cursorPosition, "\n");
-        const { text: capped, position } = capToMaxLength(result.text, result.position);
+        const { text: capped, position } = capToMaxLength(result.text, result.position, onTruncated);
         setInputState(capped);
         setCursorPositionState(position);
         setOriginalInput(capped);
@@ -294,12 +332,12 @@ export function useEnhancedInput({
     // Handle regular character input
     if (inputChar && !key.ctrl && !key.meta) {
       const result = insertText(input, cursorPosition, inputChar);
-      const { text: capped, position } = capToMaxLength(result.text, result.position);
+      const { text: capped, position } = capToMaxLength(result.text, result.position, onTruncated);
       setInputState(capped);
       setCursorPositionState(position);
       setOriginalInput(capped);
     }
-  }, [disabled, onSpecialKey, input, cursorPosition, multiline, handleSubmit, navigateHistory, setOriginalInput]);
+  }, [disabled, onSpecialKey, onTruncated, input, cursorPosition, multiline, handleSubmit, navigateHistory, setOriginalInput]);
 
   return {
     input,

@@ -15,6 +15,7 @@ import {
 } from "../../utils/confirmation-service.js";
 import ApiKeyInput from "./api-key-input.js";
 import cfonts from "cfonts";
+import { useTheme } from "../context/theme-context.js";
 
 interface ChatInterfaceProps {
   agent?: GrokAgent;
@@ -29,6 +30,8 @@ function ChatInterfaceWithAgent({
   agent: GrokAgent;
   initialMessage?: string;
 }) {
+  const { theme } = useTheme();
+  const colors = theme.colors;
   const [chatHistory, setChatHistory] = useState<ChatEntry[]>([]);
   const [isProcessing, setIsProcessing] = useState(false);
   const [processingTime, setProcessingTime] = useState(0);
@@ -188,8 +191,9 @@ function ChatInterfaceWithAgent({
                   });
                 }
                 break;
-              case "tool_result":
-                if (chunk.toolCall && chunk.toolResult) {
+              case "tool_result": {
+                const toolResult = chunk.toolResult;
+                if (chunk.toolCall && toolResult) {
                   setChatHistory((prev) =>
                     prev.map((entry) => {
                       if (entry.isStreaming) {
@@ -202,10 +206,10 @@ function ChatInterfaceWithAgent({
                         return {
                           ...entry,
                           type: "tool_result",
-                          content: chunk.toolResult.success
-                            ? chunk.toolResult.output || "Success"
-                            : chunk.toolResult.error || "Error occurred",
-                          toolResult: chunk.toolResult,
+                          content: toolResult.success
+                            ? toolResult.output || "Success"
+                            : toolResult.error || "Error occurred",
+                          toolResult,
                         };
                       }
                       return entry;
@@ -213,6 +217,7 @@ function ChatInterfaceWithAgent({
                   );
                   streamingEntry = null;
                 }
+              }
                 break;
               case "done":
                 if (streamingEntry) {
@@ -300,27 +305,27 @@ function ChatInterfaceWithAgent({
       {/* Show tips only when no chat history and no confirmation dialog */}
       {chatHistory.length === 0 && !confirmationOptions && (
         <Box flexDirection="column" marginBottom={2}>
-          <Text color="cyan" bold>
+          <Text color={colors.accent} bold>
             Tips for getting started:
           </Text>
           <Box marginTop={1} flexDirection="column">
-            <Text color="gray">
+            <Text color={colors.textDim}>
               1. Ask questions, edit files, or run commands.
             </Text>
-            <Text color="gray">2. Be specific for the best results.</Text>
-            <Text color="gray">
+            <Text color={colors.textDim}>2. Be specific for the best results.</Text>
+            <Text color={colors.textDim}>
               3. Create GROK.md files to customize your interactions with Grok.
             </Text>
-            <Text color="gray">
+            <Text color={colors.textDim}>
               4. Press Shift+Tab to toggle auto-edit mode.
             </Text>
-            <Text color="gray">5. /help for more information.</Text>
+            <Text color={colors.textDim}>5. /help for more information.</Text>
           </Box>
         </Box>
       )}
 
       <Box flexDirection="column" marginBottom={1}>
-        <Text color="gray">
+        <Text color={colors.textDim}>
           Type your request in natural language. Ctrl+C to clear, 'exit' to
           quit.
         </Text>
@@ -363,17 +368,17 @@ function ChatInterfaceWithAgent({
 
           <Box flexDirection="row" marginTop={1}>
             <Box marginRight={2}>
-              <Text color="cyan">
+              <Text color={colors.accent}>
                 {autoEditEnabled ? "▶" : "⏸"} auto-edit:{" "}
                 {autoEditEnabled ? "on" : "off"}
               </Text>
-              <Text color="gray" dimColor>
+              <Text color={colors.textDim} dimColor>
                 {" "}
                 (shift + tab)
               </Text>
             </Box>
             <Box marginRight={2}>
-              <Text color="yellow">≋ {agent.getCurrentModel()}</Text>
+              <Text color={colors.warning}>≋ {agent.getCurrentModel()}</Text>
             </Box>
             <MCPStatus />
           </Box>

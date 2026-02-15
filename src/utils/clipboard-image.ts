@@ -6,6 +6,7 @@ import { readFileSync, existsSync, unlinkSync, writeFileSync } from "fs";
 
 const MAX_IMAGE_BYTES = 20 * 1024 * 1024;
 
+/** Result of reading an image from the clipboard (MIME type and base64 data). */
 export interface ClipboardImageResult {
   mimeType: string;
   base64: string;
@@ -32,6 +33,15 @@ export function getClipboardImageSync(): ClipboardImageResult | null {
   } catch {
     return null;
   }
+}
+
+/**
+ * Asynchronously read an image from the system clipboard, if present.
+ * Resolves with null when clipboard has no image, platform is unsupported, or size exceeds 20MiB.
+ * Use this to avoid blocking the main thread on paste (e.g. only swallow paste when an image is found).
+ */
+export function getClipboardImage(): Promise<ClipboardImageResult | null> {
+  return Promise.resolve().then(() => getClipboardImageSync());
 }
 
 function getClipboardImageWindows(): ClipboardImageResult | null {

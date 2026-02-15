@@ -448,7 +448,48 @@ bun run lint
 
 # Type check
 bun run typecheck
+
+# Run tests
+bun run test
 ```
+
+### Testing
+
+Tests use [Vitest](https://vitest.dev/). Run the full suite with `bun run test` (or `npm run test`). Watch mode is available with `bun run test:watch`. For a coverage report, run `bun run test:coverage`; a terminal summary and an HTML report in `coverage/` are generated. Current coverage includes:
+
+- **Utils**: `token-counter` (Grok model encoding, token counts), `text-utils` (insert/delete/move helpers), `clipboard-image` (sync paste behavior in CI)
+- **Agent**: System prompt and tool execution are in separate modules (`src/agent/system-prompt.ts`, `src/agent/tool-executor.ts`) and can be unit-tested in isolation
+
+CI runs tests on push and pull requests to `main` and `develop`.
+
+### Themes
+
+Grok CLI ships with VS Code-inspired presets:
+
+- `vscode-dark-plus`
+- `vscode-light-plus`
+- `vscode-high-contrast`
+- `vscode-high-contrast-light`
+- `vscode-github-dark`
+- `vscode-github-light`
+- `vscode-monokai`
+- `vscode-quiet-light`
+
+You can switch themes in chat with:
+
+```text
+/theme
+/theme vscode-high-contrast
+```
+
+Or set a theme before launch:
+
+```bash
+GROK_THEME=vscode-dark-plus grok
+grok --theme vscode-high-contrast
+```
+
+Theme choice is also persisted in `~/.grok/user-settings.json`.
 
 ## Architecture
 

@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
 import { Box, Text } from "ink";
+import { useTheme } from "../context/theme-context.js";
 
 interface CommandSuggestion {
   command: string;
@@ -31,6 +32,8 @@ export function CommandSuggestions({
   selectedIndex,
   isVisible,
 }: CommandSuggestionsProps) {
+  const { theme } = useTheme();
+  const colors = theme.colors;
   if (!isVisible) return null;
 
   const filteredSuggestions = useMemo(
@@ -43,18 +46,18 @@ export function CommandSuggestions({
       {filteredSuggestions.map((suggestion, index) => (
         <Box key={index} paddingLeft={1}>
           <Text
-            color={index === selectedIndex ? "black" : "white"}
-            backgroundColor={index === selectedIndex ? "cyan" : undefined}
+            color={index === selectedIndex ? colors.selectionFg : colors.text}
+            backgroundColor={index === selectedIndex ? colors.selectionBg : undefined}
           >
             {suggestion.command}
           </Text>
           <Box marginLeft={1}>
-            <Text color="gray">{suggestion.description}</Text>
+            <Text color={colors.textDim}>{suggestion.description}</Text>
           </Box>
         </Box>
       ))}
       <Box marginTop={1}>
-        <Text color="gray" dimColor>
+        <Text color={colors.textDim} dimColor>
           ↑↓ navigate • Enter/Tab select • Esc cancel
         </Text>
       </Box>

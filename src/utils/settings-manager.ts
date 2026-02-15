@@ -17,6 +17,7 @@ export interface UserSettings {
   baseURL?: string; // API base URL
   defaultModel?: string; // User's preferred default model
   models?: string[]; // Available models list
+  theme?: string; // Preferred UI theme id
   settingsVersion?: number; // Version for migration tracking
 }
 
@@ -35,6 +36,7 @@ export interface ProjectSettings {
 const DEFAULT_USER_SETTINGS: Partial<UserSettings> = {
   baseURL: "https://api.x.ai/v1",
   defaultModel: "grok-code-fast-1",
+  theme: "vscode-dark-plus",
   // Models from official xAI docs (docs.x.ai/docs/models); aliases -latest/-fast follow docs
   models: [
     "grok-4-1-fast-reasoning",
@@ -63,11 +65,18 @@ const DEFAULT_PROJECT_SETTINGS: Partial<ProjectSettings> = {
 /**
  * Unified settings manager that handles both user-level and project-level settings
  */
+interface CachedSettings<T> {
+  settings: T;
+  mtimeMs: number;
+}
+
 export class SettingsManager {
   private static instance: SettingsManager;
 
   private userSettingsPath: string;
   private projectSettingsPath: string;
+  private userSettingsCache: CachedSettings<UserSettings> | null = null;
+  private projectSettingsCache: CachedSettings<ProjectSettings> | null = null;
 
   private constructor() {
     // User settings path: ~/.grok/user-settings.json
@@ -106,30 +115,44 @@ export class SettingsManager {
   }
 
   /**
-   * Load user settings from ~/.grok/user-settings.json
+   * Load user settings from ~/.grok/user-settings.json.
+   * Uses in-memory cache when the file mtime is unchanged to avoid repeated disk reads.
    */
   public loadUserSettings(): UserSettings {
     try {
       if (!fs.existsSync(this.userSettingsPath)) {
-        // Create default user settings if file doesn't exist
         const newSettings = { ...DEFAULT_USER_SETTINGS, settingsVersion: SETTINGS_VERSION };
         this.saveUserSettings(newSettings);
         return newSettings;
       }
 
+      const stat = fs.statSync(this.userSettingsPath);
+      const mtimeMs = stat.mtimeMs;
+      if (this.userSettingsCache && this.userSettingsCache.mtimeMs === mtimeMs) {
+        return this.userSettingsCache.settings;
+      }
+
       const content = fs.readFileSync(this.userSettingsPath, "utf-8");
       const settings = JSON.parse(content);
 
-      // Check if migration is needed
       const currentVersion = settings.settingsVersion || 1;
+      let result: UserSettings;
       if (currentVersion < SETTINGS_VERSION) {
         const migratedSettings = this.migrateSettings(settings, currentVersion);
-        this.saveUserSettings(migratedSettings);
-        return migratedSettings;
+        try {
+          this.saveUserSettings(migratedSettings);
+        } catch {
+          return migratedSettings;
+        }
+        result = migratedSettings;
+        const newStat = fs.statSync(this.userSettingsPath);
+        this.userSettingsCache = { settings: result, mtimeMs: newStat.mtimeMs };
+        return result;
       }
 
-      // Merge with defaults to ensure all required fields exist
-      return { ...DEFAULT_USER_SETTINGS, ...settings };
+      result = { ...DEFAULT_USER_SETTINGS, ...settings };
+      this.userSettingsCache = { settings: result, mtimeMs };
+      return result;
     } catch (error) {
       console.warn(
         "Failed to load user settings:",
@@ -143,7 +166,7 @@ export class SettingsManager {
    * Migrate settings from an older version to the current version
    */
   private migrateSettings(settings: UserSettings, fromVersion: number): UserSettings {
-    let migrated = { ...settings };
+    const migrated: UserSettings = { ...settings };
 
     // Migration from version 1 to 2: Add new Grok 4.1 and Grok 4 Fast models
     if (fromVersion < 2) {
@@ -178,7 +201,7 @@ export class SettingsManager {
           const content = fs.readFileSync(this.userSettingsPath, "utf-8");
           const parsed = JSON.parse(content);
           existingSettings = { ...DEFAULT_USER_SETTINGS, ...parsed };
-        } catch (error) {
+        } catch {
           // If file is corrupted, use defaults
           console.warn("Corrupted user settings file, using defaults");
         }
@@ -191,6 +214,8 @@ export class SettingsManager {
         JSON.stringify(mergedSettings, null, 2),
         { mode: 0o600 } // Secure permissions for API key
       );
+      const stat = fs.statSync(this.userSettingsPath);
+      this.userSettingsCache = { settings: mergedSettings as UserSettings, mtimeMs: stat.mtimeMs };
     } catch (error) {
       console.error(
         "Failed to save user settings:",
@@ -220,21 +245,27 @@ export class SettingsManager {
   }
 
   /**
-   * Load project settings from .grok/settings.json
+   * Load project settings from .grok/settings.json.
+   * Uses in-memory cache when the file mtime is unchanged.
    */
   public loadProjectSettings(): ProjectSettings {
     try {
       if (!fs.existsSync(this.projectSettingsPath)) {
-        // Create default project settings if file doesn't exist
         this.saveProjectSettings(DEFAULT_PROJECT_SETTINGS);
         return { ...DEFAULT_PROJECT_SETTINGS };
       }
 
+      const stat = fs.statSync(this.projectSettingsPath);
+      const mtimeMs = stat.mtimeMs;
+      if (this.projectSettingsCache && this.projectSettingsCache.mtimeMs === mtimeMs) {
+        return this.projectSettingsCache.settings;
+      }
+
       const content = fs.readFileSync(this.projectSettingsPath, "utf-8");
       const settings = JSON.parse(content);
-
-      // Merge with defaults
-      return { ...DEFAULT_PROJECT_SETTINGS, ...settings };
+      const result = { ...DEFAULT_PROJECT_SETTINGS, ...settings };
+      this.projectSettingsCache = { settings: result, mtimeMs };
+      return result;
     } catch (error) {
       console.warn(
         "Failed to load project settings:",
@@ -258,7 +289,7 @@ export class SettingsManager {
           const content = fs.readFileSync(this.projectSettingsPath, "utf-8");
           const parsed = JSON.parse(content);
           existingSettings = { ...DEFAULT_PROJECT_SETTINGS, ...parsed };
-        } catch (error) {
+        } catch {
           // If file is corrupted, use defaults
           console.warn("Corrupted project settings file, using defaults");
         }
@@ -270,6 +301,8 @@ export class SettingsManager {
         this.projectSettingsPath,
         JSON.stringify(mergedSettings, null, 2)
       );
+      const stat = fs.statSync(this.projectSettingsPath);
+      this.projectSettingsCache = { settings: mergedSettings as ProjectSettings, mtimeMs: stat.mtimeMs };
     } catch (error) {
       console.error(
         "Failed to save project settings:",

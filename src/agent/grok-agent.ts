@@ -7,10 +7,7 @@ import {
   UserContentPart,
 } from "../grok/client.js";
 import {
-  GROK_TOOLS,
-  addMCPToolsToGrokTools,
   getAllGrokTools,
-  getMCPManager,
   initializeMCPServers,
 } from "../grok/tools.js";
 import { loadMCPConfig } from "../mcp/config.js";
@@ -27,6 +24,8 @@ import { EventEmitter } from "events";
 import { createTokenCounter, TokenCounter } from "../utils/token-counter.js";
 import { loadCustomInstructions } from "../utils/custom-instructions.js";
 import { getSettingsManager } from "../utils/settings-manager.js";
+import { getSystemPrompt } from "./system-prompt.js";
+import { executeTool as executeToolCall, type ToolExecutorContext } from "./tool-executor.js";
 
 export interface ChatEntry {
   type: "user" | "assistant" | "tool_result" | "tool_call";
@@ -62,6 +61,22 @@ export class GrokAgent extends EventEmitter {
   private mcpInitialized: boolean = false;
   private maxToolRounds: number;
 
+  /** Max conversation messages sent to the API (system + recent). Older messages are dropped to bound context size. */
+  private static readonly MAX_MESSAGES = 50;
+  /** Max chat history entries kept in memory for UI. */
+  private static readonly MAX_CHAT_ENTRIES = 100;
+
+  private trimHistoryIfNeeded(): void {
+    if (this.messages.length > GrokAgent.MAX_MESSAGES) {
+      const system = this.messages[0];
+      const rest = this.messages.slice(-(GrokAgent.MAX_MESSAGES - 1));
+      this.messages = system ? [system, ...rest] : rest;
+    }
+    if (this.chatHistory.length > GrokAgent.MAX_CHAT_ENTRIES) {
+      this.chatHistory = this.chatHistory.slice(-GrokAgent.MAX_CHAT_ENTRIES);
+    }
+  }
+
   constructor(
     apiKey: string,
     baseURL?: string,
@@ -85,77 +100,25 @@ export class GrokAgent extends EventEmitter {
     // Initialize MCP servers if configured
     this.initializeMCP();
 
-    // Load custom instructions
-    const customInstructions = loadCustomInstructions();
-    const customInstructionsSection = customInstructions
-      ? `\n\nCUSTOM INSTRUCTIONS:\n${customInstructions}\n\nThe above custom instructions should be followed alongside the standard instructions below.`
-      : "";
-
     // Initialize with system message
+    const customInstructions = loadCustomInstructions();
     this.messages.push({
       role: "system",
-      content: `You are Grok CLI, an AI assistant that helps with file editing, coding tasks, and system operations.${customInstructionsSection}
-
-You have access to these tools:
-- view_file: View file contents or directory listings
-- create_file: Create new files with content (ONLY use this for files that don't exist yet)
-- str_replace_editor: Replace text in existing files (ALWAYS use this to edit or update existing files)${
-        this.morphEditor
-          ? "\n- edit_file: High-speed file editing with Morph Fast Apply (4,500+ tokens/sec with 98% accuracy)"
-          : ""
-      }
-- bash: Execute bash commands (use for searching, file discovery, navigation, and system operations)
-- search: Unified search tool for finding text content or files (similar to Cursor's search functionality)
-- create_todo_list: Create a visual todo list for planning and tracking tasks
-- update_todo_list: Update existing todos in your todo list
-
-REAL-TIME INFORMATION:
-You have access to real-time web search and X (Twitter) data. When users ask for current information, latest news, or recent events, you automatically have access to up-to-date information from the web and social media.
-
-IMPORTANT TOOL USAGE RULES:
-- NEVER use create_file on files that already exist - this will overwrite them completely
-- ALWAYS use str_replace_editor to modify existing files, even for small changes
-- Before editing a file, use view_file to see its current contents
-- Use create_file ONLY when creating entirely new files that don't exist
-
-SEARCHING AND EXPLORATION:
-- Use search for fast, powerful text search across files or finding files by name (unified search tool)
-- Examples: search for text content like "import.*react", search for files like "component.tsx"
-- Use bash with commands like 'find', 'grep', 'rg', 'ls' for complex file operations and navigation
-- view_file is best for reading specific files you already know exist
-
-When a user asks you to edit, update, modify, or change an existing file:
-1. First use view_file to see the current contents
-2. Then use str_replace_editor to make the specific changes
-3. Never use create_file for existing files
-
-When a user asks you to create a new file that doesn't exist:
-1. Use create_file with the full content
-
-TASK PLANNING WITH TODO LISTS:
-- For complex requests with multiple steps, ALWAYS create a todo list first to plan your approach
-- Use create_todo_list to break down tasks into manageable items with priorities
-- Mark tasks as 'in_progress' when you start working on them (only one at a time)
-- Mark tasks as 'completed' immediately when finished
-- Use update_todo_list to track your progress throughout the task
-- Todo lists provide visual feedback with colors: ✅ Green (completed), 🔄 Cyan (in progress), ⏳ Yellow (pending)
-- Always create todos with priorities: 'high' (🔴), 'medium' (🟡), 'low' (🟢)
-
-USER CONFIRMATION SYSTEM:
-File operations (create_file, str_replace_editor) and bash commands will automatically request user confirmation before execution. The confirmation system will show users the actual content or command before they decide. Users can choose to approve individual operations or approve all operations of that type for the session.
-
-If a user rejects an operation, the tool will return an error and you should not proceed with that specific operation.
-
-Be helpful, direct, and efficient. Always explain what you're doing and show the results.
-
-IMPORTANT RESPONSE GUIDELINES:
-- After using tools, do NOT respond with pleasantries like "Thanks for..." or "Great!"
-- Only provide necessary explanations or next steps if relevant to the task
-- Keep responses concise and focused on the actual work being done
-- If a tool execution completes the user's request, you can remain silent or give a brief confirmation
-
-Current working directory: ${process.cwd()}`,
+      content: getSystemPrompt({
+        hasMorphEditor: !!this.morphEditor,
+        customInstructions: customInstructions ?? undefined,
+      }),
     });
+  }
+
+  private getToolExecutorContext(): ToolExecutorContext {
+    return {
+      textEditor: this.textEditor,
+      morphEditor: this.morphEditor,
+      bash: this.bash,
+      todoTool: this.todoTool,
+      search: this.search,
+    };
   }
 
   private async initializeMCP(): Promise<void> {
@@ -277,6 +240,7 @@ Current working directory: ${process.cwd()}`,
     };
     this.chatHistory.push(userEntry);
     this.messages.push({ role: "user", content: message });
+    this.trimHistoryIfNeeded();
 
     const newEntries: ChatEntry[] = [userEntry];
     const maxToolRounds = this.maxToolRounds; // Prevent infinite loops
@@ -284,6 +248,7 @@ Current working directory: ${process.cwd()}`,
 
     try {
       const tools = await getAllGrokTools();
+      // Web search is only available via Agent Tools (Responses API + web_search tool).
       const includeWebSearch = this.shouldUseSearchFor(messageText);
       const useAgentTools =
         this.isGrok41FastModel() || this.shouldUseAgentToolsForMessage(messageText);
@@ -298,6 +263,7 @@ Current working directory: ${process.cwd()}`,
 
       // Agent loop - continue until no more tool calls or max rounds reached
       while (toolRounds < maxToolRounds) {
+        this.trimHistoryIfNeeded();
         const assistantMessage = useAgentTools
           ? {
               content: this.getAgentAssistantText(currentResponse as AgentToolResponse),
@@ -334,7 +300,7 @@ Current working directory: ${process.cwd()}`,
           } as any);
 
           // Create initial tool call entries to show tools are being executed
-          assistantMessage.tool_calls.forEach((toolCall) => {
+          assistantMessage.tool_calls.forEach((toolCall: GrokToolCall) => {
             const toolCallEntry: ChatEntry = {
               type: "tool_call",
               content: "Executing...",
@@ -500,10 +466,12 @@ Current working directory: ${process.cwd()}`,
       this.messages,
       tools,
       undefined,
-      includeWebSearch
+      includeWebSearch,
+      this.abortController?.signal
     );
 
     while (toolRounds < maxToolRounds) {
+      this.trimHistoryIfNeeded();
       if (this.abortController?.signal.aborted) {
         yield {
           type: "content",
@@ -600,7 +568,8 @@ Current working directory: ${process.cwd()}`,
         toolResultsForAgentTools,
         tools,
         undefined,
-        includeWebSearch
+        includeWebSearch,
+        this.abortController?.signal
       );
     }
 
@@ -630,6 +599,7 @@ Current working directory: ${process.cwd()}`,
     };
     this.chatHistory.push(userEntry);
     this.messages.push({ role: "user", content: message });
+    this.trimHistoryIfNeeded();
 
     // Calculate input tokens
     let inputTokens = this.tokenCounter.countMessageTokens(
@@ -651,20 +621,28 @@ Current working directory: ${process.cwd()}`,
           includeWebSearch
         );
       } catch (error: any) {
-        const errorEntry: ChatEntry = {
-          type: "assistant",
-          content: `Sorry, I encountered an error: ${error.message}`,
-          timestamp: new Date(),
-        };
-        this.chatHistory.push(errorEntry);
-        yield {
-          type: "content",
-          content:
-            typeof errorEntry.content === "string"
-              ? errorEntry.content
-              : "Sorry, I encountered an error.",
-        };
-        yield { type: "done" };
+        if (this.abortController?.signal.aborted) {
+          yield {
+            type: "content",
+            content: "\n\n[Operation cancelled by user]",
+          };
+          yield { type: "done" };
+        } else {
+          const errorEntry: ChatEntry = {
+            type: "assistant",
+            content: `Sorry, I encountered an error: ${error.message}`,
+            timestamp: new Date(),
+          };
+          this.chatHistory.push(errorEntry);
+          yield {
+            type: "content",
+            content:
+              typeof errorEntry.content === "string"
+                ? errorEntry.content
+                : "Sorry, I encountered an error.",
+          };
+          yield { type: "done" };
+        }
       } finally {
         this.abortController = null;
       }
@@ -675,10 +653,12 @@ Current working directory: ${process.cwd()}`,
     let toolRounds = 0;
     let totalOutputTokens = 0;
     let lastTokenUpdate = 0;
+    const tools = await getAllGrokTools();
 
     try {
       // Agent loop - continue until no more tool calls or max rounds reached
       while (toolRounds < maxToolRounds) {
+        this.trimHistoryIfNeeded();
         // Check if operation was cancelled
         if (this.abortController?.signal.aborted) {
           yield {
@@ -690,11 +670,11 @@ Current working directory: ${process.cwd()}`,
         }
 
         // Stream response and accumulate
-        const tools = await getAllGrokTools();
         const stream = this.grokClient.chatStream(
           this.messages,
           tools,
-          undefined
+          undefined,
+          this.abortController?.signal
         );
         let accumulatedMessage: any = {};
         let accumulatedContent = "";
@@ -889,119 +869,7 @@ Current working directory: ${process.cwd()}`,
   }
 
   private async executeTool(toolCall: GrokToolCall): Promise<ToolResult> {
-    try {
-      const args = JSON.parse(toolCall.function.arguments);
-
-      switch (toolCall.function.name) {
-        case "view_file":
-          const range: [number, number] | undefined =
-            args.start_line && args.end_line
-              ? [args.start_line, args.end_line]
-              : undefined;
-          return await this.textEditor.view(args.path, range);
-
-        case "create_file":
-          return await this.textEditor.create(args.path, args.content);
-
-        case "str_replace_editor":
-          return await this.textEditor.strReplace(
-            args.path,
-            args.old_str,
-            args.new_str,
-            args.replace_all
-          );
-
-        case "edit_file":
-          if (!this.morphEditor) {
-            return {
-              success: false,
-              error:
-                "Morph Fast Apply not available. Please set MORPH_API_KEY environment variable to use this feature.",
-            };
-          }
-          return await this.morphEditor.editFile(
-            args.target_file,
-            args.instructions,
-            args.code_edit
-          );
-
-        case "bash":
-          return await this.bash.execute(args.command);
-
-        case "create_todo_list":
-          return await this.todoTool.createTodoList(args.todos);
-
-        case "update_todo_list":
-          return await this.todoTool.updateTodoList(args.updates);
-
-        case "search":
-          return await this.search.search(args.query, {
-            searchType: args.search_type,
-            includePattern: args.include_pattern,
-            excludePattern: args.exclude_pattern,
-            caseSensitive: args.case_sensitive,
-            wholeWord: args.whole_word,
-            regex: args.regex,
-            maxResults: args.max_results,
-            fileTypes: args.file_types,
-            includeHidden: args.include_hidden,
-          });
-
-        default:
-          // Check if this is an MCP tool
-          if (toolCall.function.name.startsWith("mcp__")) {
-            return await this.executeMCPTool(toolCall);
-          }
-
-          return {
-            success: false,
-            error: `Unknown tool: ${toolCall.function.name}`,
-          };
-      }
-    } catch (error: any) {
-      return {
-        success: false,
-        error: `Tool execution error: ${error.message}`,
-      };
-    }
-  }
-
-  private async executeMCPTool(toolCall: GrokToolCall): Promise<ToolResult> {
-    try {
-      const args = JSON.parse(toolCall.function.arguments);
-      const mcpManager = getMCPManager();
-
-      const result = await mcpManager.callTool(toolCall.function.name, args);
-
-      if (result.isError) {
-        return {
-          success: false,
-          error: (result.content[0] as any)?.text || "MCP tool error",
-        };
-      }
-
-      // Extract content from result
-      const output = result.content
-        .map((item) => {
-          if (item.type === "text") {
-            return item.text;
-          } else if (item.type === "resource") {
-            return `Resource: ${item.resource?.uri || "Unknown"}`;
-          }
-          return String(item);
-        })
-        .join("\n");
-
-      return {
-        success: true,
-        output: output || "Success",
-      };
-    } catch (error: any) {
-      return {
-        success: false,
-        error: `MCP tool execution error: ${error.message}`,
-      };
-    }
+    return executeToolCall(this.getToolExecutorContext(), toolCall);
   }
 
   getChatHistory(): ChatEntry[] {

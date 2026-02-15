@@ -3,6 +3,7 @@ import { Box, Text } from "ink";
 import { ChatEntry } from "../../agent/grok-agent.js";
 import { DiffRenderer } from "./diff-renderer.js";
 import { MarkdownRenderer } from "../utils/markdown-renderer.js";
+import { useTheme } from "../context/theme-context.js";
 
 interface ChatHistoryProps {
   entries: ChatEntry[];
@@ -12,6 +13,9 @@ interface ChatHistoryProps {
 // Memoized ChatEntry component to prevent unnecessary re-renders
 const MemoizedChatEntry = React.memo(
   ({ entry, index }: { entry: ChatEntry; index: number }) => {
+    const { theme } = useTheme();
+    const colors = theme.colors;
+
     const renderUserContent = (content: ChatEntry["content"]): string => {
       if (typeof content === "string") {
         return content;
@@ -60,7 +64,7 @@ const MemoizedChatEntry = React.memo(
       return lines.map((line, index) => {
         const displayContent = line.substring(baseIndentation);
         return (
-          <Text key={index} color="gray">
+          <Text key={index} color={colors.textDim}>
             {displayContent}
           </Text>
         );
@@ -72,7 +76,7 @@ const MemoizedChatEntry = React.memo(
         return (
           <Box key={index} flexDirection="column" marginTop={1}>
             <Box>
-              <Text color="gray">
+              <Text color={colors.userPrefix}>
                 {">"} {renderUserContent(entry.content)}
               </Text>
             </Box>
@@ -83,16 +87,16 @@ const MemoizedChatEntry = React.memo(
         return (
           <Box key={index} flexDirection="column" marginTop={1}>
             <Box flexDirection="row" alignItems="flex-start">
-              <Text color="white">⏺ </Text>
+              <Text color={colors.assistantPrefix}>⏺ </Text>
               <Box flexDirection="column" flexGrow={1}>
                 {entry.toolCalls ? (
                   // If there are tool calls, just show plain text
-                  <Text color="white">{asTextContent(entry.content).trim()}</Text>
+                  <Text color={colors.text}>{asTextContent(entry.content).trim()}</Text>
                 ) : (
                   // If no tool calls, render as markdown
                   <MarkdownRenderer content={asTextContent(entry.content).trim()} />
                 )}
-                {entry.isStreaming && <Text color="cyan">█</Text>}
+                {entry.isStreaming && <Text color={colors.accent}>█</Text>}
               </Box>
             </Box>
           </Box>
@@ -188,29 +192,29 @@ const MemoizedChatEntry = React.memo(
         return (
           <Box key={index} flexDirection="column" marginTop={1}>
             <Box>
-              <Text color="magenta">⏺</Text>
-              <Text color="white">
+              <Text color={colors.toolPrefix}>⏺</Text>
+              <Text color={colors.text}>
                 {" "}
                 {filePath ? `${actionName}(${filePath})` : actionName}
               </Text>
             </Box>
             <Box marginLeft={2} flexDirection="column">
               {isExecuting ? (
-                <Text color="cyan">⎿ Executing...</Text>
+                <Text color={colors.accent}>⎿ Executing...</Text>
               ) : shouldShowFileContent ? (
                 <Box flexDirection="column">
-                  <Text color="gray">⎿ File contents:</Text>
+                  <Text color={colors.textDim}>⎿ File contents:</Text>
                   <Box marginLeft={2} flexDirection="column">
                     {renderFileContent(asTextContent(entry.content))}
                   </Box>
                 </Box>
               ) : shouldShowDiff ? (
                 // For diff results, show only the summary line, not the raw content
-                <Text color="gray">
+                <Text color={colors.textDim}>
                   ⎿ {asTextContent(entry.content).split("\n")[0]}
                 </Text>
               ) : (
-                <Text color="gray">
+                <Text color={colors.textDim}>
                   ⎿ {formatToolContent(asTextContent(entry.content), toolName)}
                 </Text>
               )}

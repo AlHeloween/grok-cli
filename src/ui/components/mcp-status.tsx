@@ -2,12 +2,17 @@ import React, { useState, useEffect } from "react";
 import { Box, Text } from "ink";
 import { getMCPManager } from "../../grok/tools.js";
 import { MCPTool } from "../../mcp/client.js";
+import { useTheme } from "../context/theme-context.js";
 
-interface MCPStatusProps {}
+interface MCPStatusProps {
+  /** Reserved for future props */
+}
 
-export function MCPStatus({}: MCPStatusProps) {
+export function MCPStatus(_props: MCPStatusProps) {
+  const { theme } = useTheme();
+  const colors = theme.colors;
   const [connectedServers, setConnectedServers] = useState<string[]>([]);
-  const [availableTools, setAvailableTools] = useState<MCPTool[]>([]);
+  const [_availableTools, setAvailableTools] = useState<MCPTool[]>([]);
 
   useEffect(() => {
     const updateStatus = () => {
@@ -18,7 +23,7 @@ export function MCPStatus({}: MCPStatusProps) {
 
         setConnectedServers(servers);
         setAvailableTools(tools);
-      } catch (error) {
+      } catch {
         // MCP manager not initialized yet
         setConnectedServers([]);
         setAvailableTools([]);
@@ -43,7 +48,7 @@ export function MCPStatus({}: MCPStatusProps) {
 
   return (
     <Box marginLeft={1}>
-      <Text color="green">⚒ mcps: {connectedServers.length} </Text>
+      <Text color={colors.success}>⚒ mcps: {connectedServers.length} </Text>
     </Box>
   );
 }

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Box, Text, useInput } from "ink";
 import { DiffRenderer } from "./diff-renderer.js";
+import { useTheme } from "../context/theme-context.js";
 
 interface ConfirmationDialogProps {
   operation: string;
@@ -19,6 +20,8 @@ export default function ConfirmationDialog({
   showVSCodeOpen = false,
   content,
 }: ConfirmationDialogProps) {
+  const { theme } = useTheme();
+  const colors = theme.colors;
   const [selectedOption, setSelectedOption] = useState(0);
   const [feedbackMode, setFeedbackMode] = useState(false);
   const [feedback, setFeedback] = useState("");
@@ -85,21 +88,21 @@ export default function ConfirmationDialog({
     return (
       <Box flexDirection="column" padding={1}>
         <Box flexDirection="column" marginBottom={1}>
-          <Text color="gray">
+          <Text color={colors.textDim}>
             Type your feedback and press Enter, or press Escape to go back.
           </Text>
         </Box>
 
         <Box
           borderStyle="round"
-          borderColor="yellow"
+          borderColor={colors.borderActive}
           paddingX={1}
           marginTop={1}
         >
-          <Text color="gray">❯ </Text>
+          <Text color={colors.textDim}>❯ </Text>
           <Text>
             {feedback}
-            <Text color="white">█</Text>
+            <Text color={colors.text}>█</Text>
           </Text>
         </Box>
       </Box>
@@ -111,8 +114,8 @@ export default function ConfirmationDialog({
       {/* Tool use header - styled like chat history */}
       <Box marginTop={1}>
         <Box>
-          <Text color="magenta">⏺</Text>
-          <Text color="white">
+          <Text color={colors.toolPrefix}>⏺</Text>
+          <Text color={colors.text}>
             {" "}
             {operation}({filename})
           </Text>
@@ -120,18 +123,18 @@ export default function ConfirmationDialog({
       </Box>
 
       <Box marginLeft={2} flexDirection="column">
-        <Text color="gray">⎿ Requesting user confirmation</Text>
+        <Text color={colors.textDim}>⎿ Requesting user confirmation</Text>
 
         {showVSCodeOpen && (
           <Box marginTop={1}>
-            <Text color="gray">⎿ Opened changes in Visual Studio Code ⧉</Text>
+            <Text color={colors.textDim}>⎿ Opened changes in Visual Studio Code ⧉</Text>
           </Box>
         )}
 
         {/* Show content preview if provided */}
         {content && (
           <>
-            <Text color="gray">⎿ {content.split('\n')[0]}</Text>
+            <Text color={colors.textDim}>⎿ {content.split('\n')[0]}</Text>
             <Box marginLeft={4} flexDirection="column">
               <DiffRenderer
                 diffContent={content}
@@ -153,8 +156,8 @@ export default function ConfirmationDialog({
           {options.map((option, index) => (
             <Box key={index} paddingLeft={1}>
               <Text
-                color={selectedOption === index ? "black" : "white"}
-                backgroundColor={selectedOption === index ? "cyan" : undefined}
+                color={selectedOption === index ? colors.selectionFg : colors.text}
+                backgroundColor={selectedOption === index ? colors.selectionBg : undefined}
               >
                 {index + 1}. {option}
               </Text>
@@ -163,7 +166,7 @@ export default function ConfirmationDialog({
         </Box>
 
         <Box marginTop={1}>
-          <Text color="gray" dimColor>
+          <Text color={colors.textDim} dimColor>
             ↑↓ navigate • Enter select • Esc cancel
           </Text>
         </Box>

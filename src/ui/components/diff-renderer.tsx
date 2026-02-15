@@ -4,10 +4,9 @@
 
 import React from 'react';
 import { Box, Text } from 'ink';
-import { Colors } from '../utils/colors.js';
 import crypto from 'crypto';
-import { colorizeCode } from '../utils/code-colorizer.js';
 import { MaxSizedBox } from '../shared/max-sized-box.js';
+import { useTheme } from '../context/theme-context.js';
 
 interface DiffLine {
   type: 'add' | 'del' | 'context' | 'hunk' | 'other';
@@ -102,8 +101,11 @@ export const DiffRenderer = ({
   availableTerminalHeight,
   terminalWidth = 80,
 }: DiffRendererProps): React.ReactElement => {
+  const { theme } = useTheme();
+  const colors = theme.colors;
+
   if (!diffContent || typeof diffContent !== 'string') {
-    return <Text color={Colors.AccentYellow}>No diff content.</Text>;
+    return <Text color={colors.warning}>No diff content.</Text>;
   }
 
   // Strip the first summary line (e.g. "Updated file.txt with 1 addition and 2 removals")
@@ -118,7 +120,7 @@ export const DiffRenderer = ({
   const parsedLines = parseDiffWithLineNumbers(actualDiffContent);
 
   if (parsedLines.length === 0) {
-    return <Text dimColor>No changes detected.</Text>;
+    return <Text color={colors.textDim} dimColor>No changes detected.</Text>;
   }
 
   // Always render as diff format to show line numbers and + signs
@@ -128,6 +130,7 @@ export const DiffRenderer = ({
     tabWidth,
     availableTerminalHeight,
     terminalWidth,
+    colors,
   );
 
   return <>{renderedOutput}</>;
@@ -139,6 +142,7 @@ const renderDiffContent = (
   tabWidth = DEFAULT_TAB_WIDTH,
   availableTerminalHeight: number | undefined,
   terminalWidth: number,
+  colors: { textDim: string },
 ) => {
   // 1. Normalize whitespace (replace tabs with spaces) *before* further processing
   const normalizedLines = parsedLines.map((line) => ({
@@ -152,7 +156,7 @@ const renderDiffContent = (
   );
 
   if (displayableLines.length === 0) {
-    return <Text dimColor>No changes detected.</Text>;
+    return <Text color={colors.textDim} dimColor>No changes detected.</Text>;
   }
 
   // Calculate the minimum indentation across all displayable lines
@@ -244,7 +248,7 @@ const renderDiffContent = (
 
         acc.push(
           <Box key={lineKey} flexDirection="row">
-            <Text color={Colors.Gray} dimColor={dim}>{gutterNumStr.padEnd(4)}</Text>
+            <Text color={colors.textDim} dimColor={dim}>{gutterNumStr.padEnd(4)}</Text>
             <Text color={backgroundColor ? '#000000' : undefined} backgroundColor={backgroundColor} dimColor={!backgroundColor && dim}>{prefixSymbol} </Text>
             <Text color={backgroundColor ? '#000000' : undefined} backgroundColor={backgroundColor} dimColor={!backgroundColor && dim} wrap="wrap">
               {displayContent}
@@ -258,7 +262,7 @@ const renderDiffContent = (
 };
 
 
-const getLanguageFromExtension = (extension: string): string | null => {
+const _getLanguageFromExtension = (extension: string): string | null => {
   const languageMap: { [key: string]: string } = {
     js: 'javascript',
     ts: 'typescript',

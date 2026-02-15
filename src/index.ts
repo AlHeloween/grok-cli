@@ -5,11 +5,13 @@ import { program } from "commander";
 import * as dotenv from "dotenv";
 import { GrokAgent } from "./agent/grok-agent.js";
 import ChatInterface from "./ui/components/chat-interface.js";
+import { ThemeProvider } from "./ui/context/theme-context.js";
 import { getSettingsManager } from "./utils/settings-manager.js";
 import { loadModelConfig } from "./utils/model-config.js";
 import { ConfirmationService } from "./utils/confirmation-service.js";
 import { createMCPCommand } from "./commands/mcp.js";
 import { UserContentPart } from "./grok/client.js";
+import { isThemeId, listThemes } from "./ui/utils/theme.js";
 
 // Load environment variables
 dotenv.config();
@@ -22,7 +24,7 @@ process.on("SIGTERM", () => {
   if (process.stdin.isTTY && process.stdin.setRawMode) {
     try {
       process.stdin.setRawMode(false);
-    } catch (e) {
+    } catch {
       // Ignore errors when setting raw mode
     }
   }
@@ -47,7 +49,7 @@ function ensureUserSettingsDirectory(): void {
     const manager = getSettingsManager();
     // This will create default settings if they don't exist
     manager.loadUserSettings();
-  } catch (error) {
+  } catch {
     // Silently ignore errors during setup
   }
 }
@@ -99,8 +101,8 @@ function loadModel(): string | undefined {
     try {
       const manager = getSettingsManager();
       model = manager.getCurrentModel();
-    } catch (error) {
-      // Ignore errors, model will remain undefined
+  } catch {
+    // Ignore errors, model will remain undefined
     }
   }
 
@@ -431,6 +433,7 @@ program
     "-m, --model <model>",
     "AI model to use (e.g., grok-code-fast-1, grok-4-latest) (or set GROK_MODEL env var)"
   )
+  .option("--theme <theme>", "UI theme id (e.g., vscode-dark-plus)")
   .option(
     "-p, --prompt <prompt>",
     "process a single prompt and exit (headless mode)"
@@ -460,6 +463,19 @@ program
       const baseURL = options.baseUrl || loadBaseURL();
       const model = options.model || loadModel();
       const maxToolRounds = parseInt(options.maxToolRounds) || 400;
+
+      if (options.theme) {
+        const selectedTheme = String(options.theme).trim();
+        if (!isThemeId(selectedTheme)) {
+          const availableThemes = listThemes().map((theme) => theme.id).join(", ");
+          console.error(
+            `❌ Invalid theme: ${selectedTheme}\nAvailable themes: ${availableThemes}`
+          );
+          process.exit(1);
+        }
+        process.env.GROK_THEME = selectedTheme;
+        getSettingsManager().updateUserSetting("theme", selectedTheme);
+      }
 
       if (options.listModels) {
         listModelsAndExit(model);
@@ -500,7 +516,13 @@ program
         ? message.join(" ")
         : message;
 
-      render(React.createElement(ChatInterface, { agent, initialMessage }));
+      render(
+        React.createElement(
+          ThemeProvider,
+          null,
+          React.createElement(ChatInterface, { agent, initialMessage })
+        )
+      );
     } catch (error: any) {
       console.error("❌ Error initializing Grok CLI:", error.message);
       process.exit(1);

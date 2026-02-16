@@ -209,6 +209,47 @@ grok rag index
 grok rag status
 ```
 
+### Optional: index PDFs/DOCX/PPTX/XLSX via sqlite-rag (Python)
+
+If you want to index more than plain source/text files, you can enable the **sqlite-rag extractor**. This uses Python to convert supported file types into text (via `markitdown`), then stores embeddings in the same `.grok/rag.db` sqlite-vector index.
+
+1. Install Python deps (one of):
+
+```bash
+python -m pip install sqlite-rag
+# or (minimal)
+python -m pip install markitdown
+```
+
+2. Enable extractor for this project:
+
+```bash
+grok config set project.rag.extractor sqlite-rag
+# optional: choose python command explicitly
+grok config set project.rag.python python
+```
+
+3. Re-index:
+
+```bash
+grok rag index --extractor sqlite-rag
+```
+
+Env overrides (optional): `GROK_RAG_EXTRACTOR=sqlite-rag`, `GROK_RAG_PYTHON=python`.### Optional: MakerAI GUI (import/export)
+
+If you want a GUI to browse/edit your vector content, you can export the current `.grok/rag.db` into MakerAI's `RAGVector` JSON format, edit/browse it in MakerAI, then import it back.
+
+```bash
+# Export current project's rag.db to MakerAI JSON
+grok rag export-makerai -o makerai-ragvector.json
+
+# Import MakerAI JSON into current project's rag.db (append)
+grok rag import-makerai makerai-ragvector.json
+
+# Import and replace existing chunks
+grok rag import-makerai makerai-ragvector.json --replace
+```
+
 ### Ignore files
 
 Optionally create `.grok/ragignore` (one rule per line). In v1, rules are simple **substring matches** against relative paths.
@@ -496,6 +537,8 @@ grok mcp remove server-name
 - **http**: Connect to HTTP-based MCP server
 - **sse**: Connect via Server-Sent Events
 
+Note: `streamable_http` transport is not supported by Grok CLI.
+
 ## Development
 
 ```bash
@@ -566,3 +609,18 @@ Theme choice is also persisted in `~/.grok/user-settings.json`.
 ## License
 
 MIT
+
+<!-- ADID_ROLLBACK (from adm.exe)
+  SDID_ROLLBACK {
+    "target_file": "D:\\zPython\\grok-cli\\README.md"
+    "update_script": "adm.exe"
+    "backup_path": "D:\\zPython\\grok-cli\\README.md.backup_20260216T224757_343505"
+    "created_at": "2026-02-16T14:47:57.373108+00:00"
+    "backup_hash": "82650128e63afdb0fb7bb2b1883cd2e4"
+    "new_hash": "23dbe052278815bb45aab08471e72796"
+    "goal_id": "docs_readme_rag_extractor_insert"
+    "semantics": "Document sqlite-rag extractor option for indexing richer file types."
+    "update_attrs": {"relative_path": "README.md", "update_type": "text", "mode": "insert", "encoding": "utf-8", "find_pattern": null, "find_text": "### Optional: MakerAI GUI (import/export)", "replace_present": true}
+    "restore_cmd": "uv run adm \u002d\u002drollback \"D:\\zPython\\grok-cli\\README.md\""
+  }
+-->

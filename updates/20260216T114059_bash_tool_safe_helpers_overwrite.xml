@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_8d0f8fa57815f3d0fbff7013a7933216 name="bash_tool_safe_helpers_overwrite" md5="8d0f8fa57815f3d0fbff7013a7933216" size="4090">
+    <file>src/tools/bash.ts</file>
+    <update_type>text</update_type>
+    <mode>overwrite</mode>
+    <encoding>utf-8</encoding>
+    <line_endings>LF</line_endings>
+    <semantics>Full-file rewrite to avoid indentation-stripping issues in multi-line replace blocks; preserves existing execute() behavior while making list/find/grep helpers argument-based.</semantics>
+    <content_md5_8d0f8fa57815f3d0fbff7013a7933216>
+      import { exec, spawn } from "child_process";
+      import { promisify } from "util";
+      import fs from "fs-extra";
+      import * as path from "path";
+      import { ToolResult } from "../types/index.js";
+      import { ConfirmationService } from "../utils/confirmation-service.js";
+      
+      const execAsync = promisify(exec);
+      
+      export class BashTool {
+        private currentDirectory: string = process.cwd();
+        private confirmationService = ConfirmationService.getInstance();
+      
+        private static readonly DEFAULT_MAX_BUFFER = 32 * 1024 * 1024;
+      
+        async execute(command: string, timeout: number = 30000): Promise&lt;ToolResult&gt; {
+          try {
+            // Keep directory aligned with the actual process cwd (e.g. if other code calls process.chdir()).
+            this.currentDirectory = process.cwd();
+      
+            const sessionFlags = this.confirmationService.getSessionFlags();
+            if (!sessionFlags.bashCommands &amp;&amp; !sessionFlags.allOperations) {
+              const confirmationResult =
+                await this.confirmationService.requestConfirmation(
+                  {
+                    operation: "Run bash command",
+                    filename: command,
+                    showVSCodeOpen: false,
+                    content: `Command: ${command}\nWorking directory: ${this.currentDirectory}`,
+                  },
+                  "bash"
+                );
+      
+              if (!confirmationResult.confirmed) {
+                return {
+                  success: false,
+                  error:
+                    confirmationResult.feedback ||
+                    "Command execution cancelled by user",
+                };
+              }
+            }
+      
+            if (command.startsWith("cd ")) {
+              const newDir = command.substring(3).trim();
+              try {
+                process.chdir(newDir);
+                this.currentDirectory = process.cwd();
+                return {
+                  success: true,
+                  output: `Changed directory to: ${this.currentDirectory}`,
+                };
+              } catch (error: any) {
+                return {
+                  success: false,
+                  error: `Cannot change directory: ${error.message}`,
+                };
+              }
+            }
+      
+            const { stdout, stderr } = await execAsync(command, {
+              cwd: this.currentDirectory,
+              timeout,
+              maxBuffer: BashTool.DEFAULT_MAX_BUFFER,
+            });
+      
+            const output = stdout + (stderr ? `\nSTDERR: ${stderr}` : "");
+      
+            return {
+              success: true,
+              output: output.trim() || "Command executed successfully (no output)",
+            };
+          } catch (error: any) {
+            return {
+              success: false,
+              error: `Command failed: ${error.message}`,
+            };
+          }
+        }
+      
+        getCurrentDirectory(): string {
+          return this.currentDirectory;
+        }
+      
+        async listFiles(directory: string = "."): Promise&lt;ToolResult&gt; {
+          try {
+            const resolved = path.resolve(this.currentDirectory, directory);
+            const entries = await fs.readdir(resolved, { withFileTypes: true });
+            const names = entries
+              .map((e) =&gt; (e.isDirectory() ? `${e.name}${path.sep}` : e.name))
+              .sort((a, b) =&gt; a.localeCompare(b));
+            return {
+              success: true,
+              output:
+                names.length &gt; 0
+                  ? names.join("\n")
+                  : `Directory is empty: ${directory}`,
+            };
+          } catch (error: any) {
+            return {
+              success: false,
+              error: `Cannot list files: ${error?.message ?? String(error)}`,
+            };
+          }
+        }
+      
+        async findFiles(pattern: string, directory: string = "."): Promise&lt;ToolResult&gt; {
+          const maxResults = 2000;
+          const wildcard = BashTool.wildcardToRegExp(pattern);
+          const matches: string[] = [];
+      
+          const walk = async (dir: string): Promise&lt;void&gt; =&gt; {
+            if (matches.length &gt;= maxResults) return;
+            const entries = await fs.readdir(dir, { withFileTypes: true });
+            for (const entry of entries) {
+              if (matches.length &gt;= maxResults) return;
+              const full = path.join(dir, entry.name);
+              if (entry.isDirectory()) {
+                await walk(full);
+                continue;
+              }
+              if (wildcard.test(entry.name)) {
+                matches.push(path.relative(this.currentDirectory, full));
+              }
+            }
+          };
+      
+          try {
+            const resolved = path.resolve(this.currentDirectory, directory);
+            await walk(resolved);
+            return {
+              success: true,
+              output:
+                matches.length &gt; 0
+                  ? matches.sort((a, b) =&gt; a.localeCompare(b)).join("\n")
+                  : `No matching files found for "${pattern}" in ${directory}`,
+            };
+          } catch (error: any) {
+            return {
+              success: false,
+              error: `Cannot find files: ${error?.message ?? String(error)}`,
+            };
+          }
+        }
+      
+        async grep(pattern: string, files: string = "."): Promise&lt;ToolResult&gt; {
+          const args = [
+            "--line-number",
+            "--no-heading",
+            "--color=never",
+            "--fixed-strings",
+            pattern,
+            files,
+          ];
+      
+          return await new Promise&lt;ToolResult&gt;((resolve) =&gt; {
+            const rg = spawn("rg", args, {
+              cwd: this.currentDirectory,
+              windowsHide: true,
+            });
+            let stdout = "";
+            let stderr = "";
+      
+            rg.stdout.on("data", (d) =&gt; (stdout += d.toString()));
+            rg.stderr.on("data", (d) =&gt; (stderr += d.toString()));
+      
+            rg.on("close", (code) =&gt; {
+              if (code === 0 || code === 1) {
+                resolve({
+                  success: true,
+                  output: stdout.trim() || `No matches for "${pattern}"`,
+                });
+                return;
+              }
+              resolve({
+                success: false,
+                error: `ripgrep failed (code ${code}): ${stderr.trim() || "unknown error"}`,
+              });
+            });
+      
+            rg.on("error", (error) =&gt; {
+              resolve({
+                success: false,
+                error: `ripgrep error: ${error?.message ?? String(error)}`,
+              });
+            });
+          });
+        }
+      
+        private static wildcardToRegExp(pattern: string): RegExp {
+          const escaped = pattern.replace(/[.+^${}()|[\\]\\\\]/g, "\\\\$&amp;");
+          const rx =
+            "^" + escaped.replace(/\\\\\\*/g, ".*").replace(/\\\\\\?/g, ".") + "$";
+          return new RegExp(rx, "i");
+        }
+      }
+    </content_md5_8d0f8fa57815f3d0fbff7013a7933216>
+  </update_md5_8d0f8fa57815f3d0fbff7013a7933216>
+</updates>

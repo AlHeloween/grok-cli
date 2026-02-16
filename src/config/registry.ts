@@ -141,6 +141,27 @@ export function getConfigRegistry(): ConfigKeyDef[] {
       template: "18",
     },
     {
+  key: "project.rag.extractor",
+  scope: "project",
+  type: "string",
+  category: "RAG",
+  description:
+    "Text extractor used by the RAG indexer (native for source/text files; sqlite-rag for PDF/DOCX/PPTX/XLSX via Python).",
+  options: () => [
+    { value: "native", label: "native (default)" },
+    { value: "sqlite-rag", label: "sqlite-rag (markitdown via Python)" },
+  ],
+  template: "native",
+},
+{
+  key: "project.rag.python",
+  scope: "project",
+  type: "string",
+  category: "RAG",
+  description:
+    "Python command used by sqlite-rag extractor (default auto-detect; examples: python, python3, py).",
+  template: "python",
+},{
       key: "project.rag.embeddings.model",
       scope: "project",
       type: "string",
@@ -215,3 +236,16 @@ export function findConfigKey(key: string): ConfigKeyDef | undefined {
   return getConfigRegistry().find((d) => d.key === key);
 }
 
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/config/registry.ts"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/config/registry.ts.backup_20260216T224751_172587"
+//   "created_at": "2026-02-16T14:47:51.192057+00:00"
+//   "backup_hash": "bc107da7ca81c768a97be77189630970"
+//   "new_hash": "da32943a56d36e1754d9e925c7f28c43"
+//   "goal_id": "config_registry_rag_extractor_keys_insert"
+//   "semantics": "Add config keys for sqlite-rag extractor selection and python command."
+//   "update_attrs": {"relative_path": "src/config/registry.ts", "update_type": "text", "mode": "insert", "encoding": "utf-8", "find_pattern": null, "find_text": "{\n      key: \"project.rag.embeddings.model\",", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/config/registry.ts\""
+// }

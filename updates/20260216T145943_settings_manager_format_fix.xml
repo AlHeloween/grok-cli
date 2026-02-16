@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_e561588aecb26e02371d106fac3009ef name="settings_manager_rag_getters_format" md5="e561588aecb26e02371d106fac3009ef" size="647">
+    <file>src/utils/settings-manager.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Restore indentation and missing newlines between methods.</semantics>
+    <find_text>  public getRagExtractor(cwd: string = process.cwd()): "native" | "sqlite-rag" {
+  const env = process.env.GROK_RAG_EXTRACTOR?.trim().toLowerCase();
+  if (env === "sqlite-rag" || env === "sqlite_rag" || env === "sqlite")
+    return "sqlite-rag";
+  if (env === "native") return "native";
+
+  const settings = this.loadProjectSettings(cwd);
+  const v = settings.rag?.extractor;
+  return v === "sqlite-rag" ? "sqlite-rag" : "native";
+}
+
+public getRagPython(cwd: string = process.cwd()): string | undefined {
+  const env = process.env.GROK_RAG_PYTHON?.trim();
+  if (env) return env;
+
+  const settings = this.loadProjectSettings(cwd);
+  const v = settings.rag?.python;
+  return v &amp;&amp; v.trim() ? v.trim() : undefined;
+}public getRagTopK(cwd: string = process.cwd()): number {</find_text>
+    <content_md5_e561588aecb26e02371d106fac3009ef>
+      public getRagExtractor(cwd: string = process.cwd()): "native" | "sqlite-rag" {
+        const env = process.env.GROK_RAG_EXTRACTOR?.trim().toLowerCase();
+        if (env === "sqlite-rag" || env === "sqlite_rag" || env === "sqlite")
+          return "sqlite-rag";
+        if (env === "native") return "native";
+      
+        const settings = this.loadProjectSettings(cwd);
+        const v = settings.rag?.extractor;
+        return v === "sqlite-rag" ? "sqlite-rag" : "native";
+      }
+      
+      public getRagPython(cwd: string = process.cwd()): string | undefined {
+        const env = process.env.GROK_RAG_PYTHON?.trim();
+        if (env) return env;
+      
+        const settings = this.loadProjectSettings(cwd);
+        const v = settings.rag?.python;
+        return v &amp;&amp; v.trim() ? v.trim() : undefined;
+      }
+      
+      public getRagTopK(cwd: string = process.cwd()): number {
+    </content_md5_e561588aecb26e02371d106fac3009ef>
+  </update_md5_e561588aecb26e02371d106fac3009ef>
+</updates>

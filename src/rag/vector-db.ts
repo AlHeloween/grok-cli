@@ -200,6 +200,25 @@ export class VectorDb {
     return typeof value === "number" ? value : Number(value || 0);
   }
 
+  listChunkRows(limit: number = 500, offset: number = 0): RagChunkRow[] {
+    const lim = Number(limit);
+    const off = Number(offset);
+    const safeLimit = Number.isFinite(lim) && lim > 0 ? Math.floor(lim) : 500;
+    const safeOffset = Number.isFinite(off) && off >= 0 ? Math.floor(off) : 0;
+
+    const rows = this.db.selectObjects(
+      "SELECT id, path, text, meta FROM chunks ORDER BY id ASC LIMIT ? OFFSET ?",
+      [safeLimit, safeOffset]
+    ) as Array<{ id: number; path: string; text: string; meta?: string | null }>;
+
+    return (rows || []).map((r) => ({
+      id: Number(r.id),
+      path: String(r.path),
+      text: String(r.text),
+      meta: r.meta ?? null,
+    }));
+  }
+
   queryTopK(vector: number[], k: number): RagChunkRow[] {
     if (!vector.length || k <= 0) return [];
     const rows = this.db.selectObjects(

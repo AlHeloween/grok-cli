@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_8d0903d5d984d5946b3d340dd73c0546 name="confirmation_service_imports_execfile" md5="8d0903d5d984d5946b3d340dd73c0546" size="136">
+    <file>src/utils/confirmation-service.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>import { exec } from "child_process";
+import { promisify } from "util";
+import { EventEmitter } from "events";
+
+const execAsync = promisify(exec);</find_text>
+    <semantics>Replace shell-based exec() wrapper with execFile().</semantics>
+    <content_md5_8d0903d5d984d5946b3d340dd73c0546>
+      import { execFile } from "child_process";
+      import { promisify } from "util";
+      import { EventEmitter } from "events";
+      
+      const execFileAsync = promisify(execFile);
+    </content_md5_8d0903d5d984d5946b3d340dd73c0546>
+  </update_md5_8d0903d5d984d5946b3d340dd73c0546>
+  <update_md5_2512d66ce55c01dd694de8115e65a201 name="confirmation_service_open_in_vscode_locator" md5="2512d66ce55c01dd694de8115e65a201" size="160">
+    <file>src/utils/confirmation-service.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>        // On Windows, `which` is usually unavailable; `where` is the native equivalent.
+        await execAsync(isWindows ? `where ${cmd}` : `which ${cmd}`);</find_text>
+    <semantics>Use execFileAsync() to locate the VS Code binary without shell parsing.</semantics>
+    <content_md5_2512d66ce55c01dd694de8115e65a201>
+      // On Windows, `which` is usually unavailable; `where` is the native equivalent.
+      await execFileAsync(
+        isWindows ? "where" : "which",
+        [cmd],
+        isWindows ? { windowsHide: true } : undefined
+      );
+    </content_md5_2512d66ce55c01dd694de8115e65a201>
+  </update_md5_2512d66ce55c01dd694de8115e65a201>
+  <update_md5_a4c33bdbdb193c2e1450707cf2523f37 name="confirmation_service_open_in_vscode_launch" md5="a4c33bdbdb193c2e1450707cf2523f37" size="74">
+    <file>src/utils/confirmation-service.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>        await execAsync(`${cmd} "${filename}"`);</find_text>
+    <semantics>Use execFileAsync() to launch VS Code with a filename argument.</semantics>
+    <content_md5_a4c33bdbdb193c2e1450707cf2523f37>
+      await execFileAsync(
+        cmd,
+        [filename],
+        isWindows ? { windowsHide: true } : undefined
+      );
+    </content_md5_a4c33bdbdb193c2e1450707cf2523f37>
+  </update_md5_a4c33bdbdb193c2e1450707cf2523f37>
+</updates>

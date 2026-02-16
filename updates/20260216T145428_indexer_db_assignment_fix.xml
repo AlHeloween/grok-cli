@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_67acbb54acc8e15d478643ffe75b22e0 name="rag_indexer_remove_ensuredb_closure" md5="67acbb54acc8e15d478643ffe75b22e0" size="120">
+    <file>src/rag/indexer.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Assign db in main scope so TS understands it may be non-null later in function.</semantics>
+    <find_text>  let db: VectorDb | null = null;
+
+  async function ensureDb(): Promise&lt;void&gt; {
+    if (db) return;
+    if (!dimension) {
+      throw new Error("Vector DB missing dimension. Provide dimension when creating a new index.");
+    }
+    db = await VectorDb.open(dbPath, { dimension, distance: "COSINE" });
+  }</find_text>
+    <content_md5_67acbb54acc8e15d478643ffe75b22e0>
+      let db: VectorDb | null = null;
+      if (dimension) {
+        try {
+          db = await VectorDb.open(dbPath, { dimension, distance: "COSINE" });
+        } catch {
+          db = null;
+        }
+      }
+    </content_md5_67acbb54acc8e15d478643ffe75b22e0>
+  </update_md5_67acbb54acc8e15d478643ffe75b22e0>
+  <update_md5_a115110e2aa22f2b8e4ceb87b326562e name="rag_indexer_inline_db_open" md5="a115110e2aa22f2b8e4ceb87b326562e" size="92">
+    <file>src/rag/indexer.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Open db inline in the same scope as the loop to satisfy TS narrowing.</semantics>
+    <find_text>    await ensureDb();
+</find_text>
+    <content_md5_a115110e2aa22f2b8e4ceb87b326562e>
+      if (!db) {
+        if (!dimension) continue;
+        db = await VectorDb.open(dbPath, { dimension, distance: "COSINE" });
+      }
+    </content_md5_a115110e2aa22f2b8e4ceb87b326562e>
+  </update_md5_a115110e2aa22f2b8e4ceb87b326562e>
+  <update_md5_9c7cdd24d8466877e3641c7e5c5cbdbd name="rag_indexer_restore_quantize_close" md5="9c7cdd24d8466877e3641c7e5c5cbdbd" size="174">
+    <file>src/rag/indexer.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Restore end-of-function quantize and close now that db assignment is visible to TS.</semantics>
+    <find_text>    if (options.quantize) {
+    try {
+      db?.quantize(!!options.quantizePreload);
+    } catch {
+      // ignore quantize failures (e.g. empty DB)
+    }
+  }
+
+  db?.close();
+  return { dbPath, filesIndexed, chunksIndexed };
+}</find_text>
+    <content_md5_9c7cdd24d8466877e3641c7e5c5cbdbd>
+        if (db &amp;&amp; options.quantize) {
+          try {
+            db.quantize(!!options.quantizePreload);
+          } catch {
+            // ignore quantize failures (e.g. empty DB)
+          }
+        }
+      
+        if (db) db.close();
+        return { dbPath, filesIndexed, chunksIndexed };
+      }
+    </content_md5_9c7cdd24d8466877e3641c7e5c5cbdbd>
+  </update_md5_9c7cdd24d8466877e3641c7e5c5cbdbd>
+</updates>

@@ -12,7 +12,7 @@ export function createMCPCommand(): Command {
   mcpCommand
     .command('add <name>')
     .description('Add an MCP server')
-    .option('-t, --transport <type>', 'Transport type (stdio, http, sse, streamable_http)', 'stdio')
+    .option('-t, --transport <type>', 'Transport type (stdio, http, sse)', 'stdio')
     .option('-c, --command <command>', 'Command to run the server (for stdio transport)')
     .option('-a, --args [args...]', 'Arguments for the server command (for stdio transport)', [])
     .option('-u, --url <url>', 'URL for HTTP/SSE transport')
@@ -45,13 +45,13 @@ export function createMCPCommand(): Command {
             console.error(chalk.red('Error: --command is required for stdio transport'));
             process.exit(1);
           }
-        } else if (transportType === 'http' || transportType === 'sse' || transportType === 'streamable_http') {
+        } else if (transportType === 'http' || transportType === 'sse') {
           if (!options.url) {
             console.error(chalk.red(`Error: --url is required for ${transportType} transport`));
             process.exit(1);
           }
         } else {
-          console.error(chalk.red('Error: Transport type must be stdio, http, sse, or streamable_http'));
+          console.error(chalk.red('Error: Transport type must be stdio, http, or sse'));
           process.exit(1);
         }
 
@@ -76,7 +76,7 @@ export function createMCPCommand(): Command {
         const config = {
           name,
           transport: {
-            type: transportType as 'stdio' | 'http' | 'sse' | 'streamable_http',
+            type: transportType as 'stdio' | 'http' | 'sse',
             command: options.command,
             args: options.args || [],
             url: options.url,
@@ -266,3 +266,17 @@ export function createMCPCommand(): Command {
 
   return mcpCommand;
 }
+
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/commands/mcp.ts"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/commands/mcp.ts.backup_20260216T194714_397756"
+//   "created_at": "2026-02-16T11:47:14.407227+00:00"
+//   "backup_hash": "3c9e7c034abd85df2969cc064efc204a"
+//   "new_hash": "3908351c2d7540b6e115c7f0c59d3b50"
+//   "goal_id": "mcp_cli_transport_type_cast"
+//   "semantics": "Remove streamable_http from transport type cast."
+//   "update_attrs": {"relative_path": "src/commands/mcp.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "type: transportType as 'stdio' | 'http' | 'sse' | 'streamable_http',", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/commands/mcp.ts\""
+// }

@@ -47,6 +47,10 @@ export interface RagSettings {
   useKMedoids?: boolean;
   /** Candidate count to retrieve before k-medoids (must be >= topK). */
   candidateCount?: number;
+  /** Text extractor used by the RAG indexer (default: native). */
+  extractor?: "native" | "sqlite-rag";
+  /** Python command used when extractor is sqlite-rag (default: auto-detect). */
+  python?: string;
 }
 
 /**
@@ -465,7 +469,27 @@ export class SettingsManager {
     return !!settings.rag?.enabled;
   }
 
-  public getRagTopK(cwd: string = process.cwd()): number {
+  public getRagExtractor(cwd: string = process.cwd()): "native" | "sqlite-rag" {
+  const env = process.env.GROK_RAG_EXTRACTOR?.trim().toLowerCase();
+  if (env === "sqlite-rag" || env === "sqlite_rag" || env === "sqlite")
+    return "sqlite-rag";
+  if (env === "native") return "native";
+
+  const settings = this.loadProjectSettings(cwd);
+  const v = settings.rag?.extractor;
+  return v === "sqlite-rag" ? "sqlite-rag" : "native";
+}
+
+public getRagPython(cwd: string = process.cwd()): string | undefined {
+  const env = process.env.GROK_RAG_PYTHON?.trim();
+  if (env) return env;
+
+  const settings = this.loadProjectSettings(cwd);
+  const v = settings.rag?.python;
+  return v && v.trim() ? v.trim() : undefined;
+}
+
+public getRagTopK(cwd: string = process.cwd()): number {
     const settings = this.loadProjectSettings(cwd);
     return settings.rag?.topK ?? (DEFAULT_PROJECT_SETTINGS.rag?.topK ?? 6);
   }
@@ -581,3 +605,17 @@ export class SettingsManager {
 export function getSettingsManager(): SettingsManager {
   return SettingsManager.getInstance();
 }
+
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/utils/settings-manager.ts"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/utils/settings-manager.ts.backup_20260216T230043_298077"
+//   "created_at": "2026-02-16T15:00:43.309453+00:00"
+//   "backup_hash": "c3afff9866ad420ca6cf6d2ebdcbb1db"
+//   "new_hash": "c3afff9866ad420ca6cf6d2ebdcbb1db"
+//   "goal_id": "settings_manager_rag_getters_format"
+//   "semantics": "Restore indentation and missing newlines between methods."
+//   "update_attrs": {"relative_path": "src/utils/settings-manager.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "public getRagExtractor(cwd: string = process.cwd()): \"native\" | \"sqlite-rag\" {\n  const env = process.env.GROK_RAG_EXTRACTOR?.trim().toLowerCase();\n  if (env === \"sqlite-rag\" || env === \"sqlite_rag\" || env === \"sqlite\")\n    return \"sqlite-rag\";\n  if (env === \"native\") return \"native\";\n\n  const settings = this.loadProjectSettings(cwd);\n  const v = settings.rag?.extractor;\n  return v === \"sqlite-rag\" ? \"sqlite-rag\" : \"native\";\n}\n\npublic getRagPython(cwd: string = process.cwd()): string | undefined {\n  const env = process.env.GROK_RAG_PYTHON?.trim();\n  if (env) return env;\n\n  const settings = this.loadProjectSettings(cwd);\n  const v = settings.rag?.python;\n  return v && v.trim() ? v.trim() : undefined;\n}public getRagTopK(cwd: string = process.cwd()): number {", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/utils/settings-manager.ts\""
+// }

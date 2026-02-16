@@ -101,3 +101,9 @@ temp/
 # Coding agents
 .claude/
 .grok/
+
+# ADID/adm artifacts
+*.baseline
+*.backup_*
+*.adid.log.jsonl
+_progress_log.md

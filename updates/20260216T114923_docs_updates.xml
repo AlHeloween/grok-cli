@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_3af2b18f5712c41750b91f84bfa9cc87 name="docs_application_scheme_mcp_client_transports" md5="3af2b18f5712c41750b91f84bfa9cc87" size="163">
+    <file>docs/APPLICATION-SCHEME.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>| **`src/mcp/client.ts`** | **MCPManager** (singleton): connects to MCP servers (stdio/http/sse/streamable_http), lists tools, runs `callTool`; used by `grok/tools.ts` to expose MCP tools to the agent. |</find_text>
+    <semantics>Remove streamable_http from documented supported transports.</semantics>
+    <content_md5_3af2b18f5712c41750b91f84bfa9cc87>
+      | **`src/mcp/client.ts`** | **MCPManager** (singleton): connects to MCP servers (stdio/http/sse), lists tools, runs `callTool`; used by `grok/tools.ts` to expose MCP tools to the agent. |
+    </content_md5_3af2b18f5712c41750b91f84bfa9cc87>
+  </update_md5_3af2b18f5712c41750b91f84bfa9cc87>
+  <update_md5_daaf26c60289167158a8490a8cf3632c name="docs_application_scheme_mcp_transports" md5="daaf26c60289167158a8490a8cf3632c" size="69">
+    <file>docs/APPLICATION-SCHEME.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>| **`src/mcp/transports.ts`** | Transport factory for MCP (stdio, http, sse, streamable_http). |</find_text>
+    <semantics>Remove streamable_http from transport factory docs.</semantics>
+    <content_md5_daaf26c60289167158a8490a8cf3632c>
+      | **`src/mcp/transports.ts`** | Transport factory for MCP (stdio, http, sse). |
+    </content_md5_daaf26c60289167158a8490a8cf3632c>
+  </update_md5_daaf26c60289167158a8490a8cf3632c>
+  <update_md5_fa4c5062d022b9883974b48523a1f601 name="readme_mcp_transports_note" md5="fa4c5062d022b9883974b48523a1f601" size="177">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>- **stdio**: Run MCP server as a subprocess (most common)
+- **http**: Connect to HTTP-based MCP server
+- **sse**: Connect via Server-Sent Events</find_text>
+    <semantics>Add note about unsupported streamable_http transport.</semantics>
+    <content_md5_fa4c5062d022b9883974b48523a1f601>
+      - **stdio**: Run MCP server as a subprocess (most common)
+      - **http**: Connect to HTTP-based MCP server
+      - **sse**: Connect via Server-Sent Events
+      
+      Note: `streamable_http` transport is not supported by Grok CLI.
+    </content_md5_fa4c5062d022b9883974b48523a1f601>
+  </update_md5_fa4c5062d022b9883974b48523a1f601>
+</updates>

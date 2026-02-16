@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_7d615e1a5fae1ef06698e6be6e8b35fe name="docs_settings_env_table_newline" md5="7d615e1a5fae1ef06698e6be6e8b35fe" size="111">
+    <file>docs/settings.json.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>| `GROK_RAG_PYTHON` | `project.rag.python` | Python command used by sqlite-rag extractor (examples: python, python3, py). |---</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Ensure markdown table rows end with newline before section separator.</semantics>
+    <content_md5_7d615e1a5fae1ef06698e6be6e8b35fe>
+      | `GROK_RAG_PYTHON` | `project.rag.python` | Python command used by sqlite-rag extractor (examples: python, python3, py). |
+      
+      ---
+    </content_md5_7d615e1a5fae1ef06698e6be6e8b35fe>
+  </update_md5_7d615e1a5fae1ef06698e6be6e8b35fe>
+  <update_md5_c1f373acd769da29181272da6ac17710 name="docs_settings_project_table_newline" md5="c1f373acd769da29181272da6ac17710" size="154">
+    <file>docs/settings.json.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>| `rag.python` | `project.rag.python` | string | (unset) | `GROK_RAG_PYTHON` | Python command for sqlite-rag extractor (auto-detect when unset). |### Example (project settings)</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Ensure markdown table rows end with newline before next heading.</semantics>
+    <content_md5_c1f373acd769da29181272da6ac17710>
+      | `rag.python` | `project.rag.python` | string | (unset) | `GROK_RAG_PYTHON` | Python command for sqlite-rag extractor (auto-detect when unset). |
+      
+      ### Example (project settings)
+    </content_md5_c1f373acd769da29181272da6ac17710>
+  </update_md5_c1f373acd769da29181272da6ac17710>
+</updates>

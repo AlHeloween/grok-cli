@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_e66cf758fe5fb5cee3b9d0ee79c7291b name="rag_indexer_db_optional_chain" md5="e66cf758fe5fb5cee3b9d0ee79c7291b" size="166">
+    <file>src/rag/indexer.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>TypeScript sometimes fails to track closure assignments; optional chaining avoids impossible narrowing to never at end-of-function.</semantics>
+    <find_text>  if (db &amp;&amp; options.quantize) {
+    try {
+      db.quantize(!!options.quantizePreload);
+    } catch {
+      // ignore quantize failures (e.g. empty DB)
+    }
+  }
+
+  if (db) db.close();
+  return { dbPath, filesIndexed, chunksIndexed };
+}</find_text>
+    <content_md5_e66cf758fe5fb5cee3b9d0ee79c7291b>
+        if (options.quantize) {
+          try {
+            db?.quantize(!!options.quantizePreload);
+          } catch {
+            // ignore quantize failures (e.g. empty DB)
+          }
+        }
+      
+        db?.close();
+        return { dbPath, filesIndexed, chunksIndexed };
+      }
+    </content_md5_e66cf758fe5fb5cee3b9d0ee79c7291b>
+  </update_md5_e66cf758fe5fb5cee3b9d0ee79c7291b>
+</updates>

@@ -16,6 +16,10 @@ import { UserContentPart } from "./grok/client.js";
 import { isThemeId, listThemes } from "./ui/utils/theme.js";
 import { indexProject } from "./rag/indexer.js";
 import { VectorDb } from "./rag/vector-db.js";
+import {
+  exportVectorDbToMakerAiJson,
+  importMakerAiJsonToVectorDb,
+} from "./rag/makerai.js";
 import { getEffectiveConfig, maskSecret } from "./config/effective-config.js";
 import { findConfigKey } from "./config/registry.js";
 
@@ -618,9 +622,17 @@ ragCommand
     String(512 * 1024)
   )
   .option("--batch-size <n>", "embedding batch size (default: 32)", "32")
-  .option("--quantize", "quantize vectors after indexing", false)
-  .option("--preload", "preload quantized vectors (faster search, more memory)", false)
-  .action(async (options) => {
+.option("--quantize", "quantize vectors after indexing", false)
+.option("--preload", "preload quantized vectors (faster search, more memory)", false)
+.option(
+  "--extractor <mode>",
+  "text extractor: native|sqlite-rag (default: project setting or native)"
+)
+.option(
+  "--python <cmd>",
+  "python command for sqlite-rag extractor (default: auto-detect; examples: python, python3, py)"
+)
+.action(async (options) => {
     if (options.directory) {
       try {
         process.chdir(options.directory);
@@ -633,17 +645,31 @@ ragCommand
       }
     }
 
-    try {
-      const res = await indexProject({
-        cwd: process.cwd(),
-        force: !!options.force,
-        chunkLines: parseInt(options.chunkLines, 10) || 200,
-        overlapLines: parseInt(options.overlapLines, 10) || 20,
-        maxFileSizeBytes: parseInt(options.maxFileBytes, 10) || 512 * 1024,
-        batchSize: parseInt(options.batchSize, 10) || 32,
-        quantize: !!options.quantize,
-        quantizePreload: !!options.preload,
-      });
+    const extractor = options.extractor ? String(options.extractor) : undefined;
+if (extractor && extractor !== "native" && extractor !== "sqlite-rag") {
+  console.error("extractor must be one of: native, sqlite-rag");
+  process.exit(1);
+}
+const extractorMode =
+  extractor === "sqlite-rag"
+    ? "sqlite-rag"
+    : extractor === "native"
+      ? "native"
+      : undefined;
+
+try {
+  const res = await indexProject({
+    cwd: process.cwd(),
+    force: !!options.force,
+    chunkLines: parseInt(options.chunkLines, 10) || 200,
+    overlapLines: parseInt(options.overlapLines, 10) || 20,
+    maxFileSizeBytes: parseInt(options.maxFileBytes, 10) || 512 * 1024,
+    batchSize: parseInt(options.batchSize, 10) || 32,
+    quantize: !!options.quantize,
+    quantizePreload: !!options.preload,
+    extractor: extractorMode,
+    python: options.python ? String(options.python) : undefined,
+  });
       console.log(`✅ RAG index written to ${res.dbPath}`);
       console.log(`✅ Files indexed: ${res.filesIndexed}`);
       console.log(`✅ Chunks indexed: ${res.chunksIndexed}`);
@@ -671,9 +697,11 @@ ragCommand
     }
 
     const manager = getSettingsManager();
-    const enabled = manager.isRagEnabled();
-    const topK = manager.getRagTopK();
-    const dbPath = manager.getRagDbPath();
+const enabled = manager.isRagEnabled();
+const topK = manager.getRagTopK();
+const extractor = manager.getRagExtractor();
+const python = manager.getRagPython();
+const dbPath = manager.getRagDbPath();
 
     let chunks = 0;
     if (fs.existsSync(dbPath)) {
@@ -687,9 +715,87 @@ ragCommand
     }
 
     console.log(`RAG enabled: ${enabled ? "yes" : "no"}`);
-    console.log(`RAG topK: ${topK}`);
-    console.log(`RAG db: ${dbPath}`);
-    console.log(`Indexed chunks: ${chunks}`);
+console.log(`RAG topK: ${topK}`);
+console.log(`RAG extractor: ${extractor}`);
+if (extractor === "sqlite-rag") {
+  console.log(`RAG python: ${python || "(auto-detect)"}`);
+}
+console.log(`RAG db: ${dbPath}`);
+console.log(`Indexed chunks: ${chunks}`);
+  });
+
+ragCommand
+  .command("export-makerai")
+  .description("Export .grok/rag.db into MakerAI RAGVector JSON format")
+  .option("-d, --directory <dir>", "set working directory", process.cwd())
+  .option("--db <path>", "path to rag.db (default: project .grok/rag.db)")
+  .option("-o, --out <file>", "output JSON file", "makerai-ragvector.json")
+  .option("--name <name>", "MakerAI vector name (default: cwd basename)")
+  .option("--description <text>", "MakerAI vector description")
+  .action(async (options) => {
+    if (options.directory) {
+      try {
+        process.chdir(options.directory);
+      } catch (error: any) {
+        console.error(
+          `Error changing directory to ${options.directory}:`,
+          error.message
+        );
+        process.exit(1);
+      }
+    }
+
+    try {
+      const manager = getSettingsManager();
+      const dbPath = options.db || manager.getRagDbPath();
+      const res = await exportVectorDbToMakerAiJson({
+        dbPath,
+        outFile: options.out,
+        name: options.name,
+        description: options.description,
+        model: "",
+      });
+      console.log(`? Exported ${res.chunks} chunk(s) to ${res.outFile}`);
+      console.log(`? Dimension: ${res.dim}`);
+    } catch (error: any) {
+      console.error("? Export failed:", error.message);
+      process.exit(1);
+    }
+  });
+
+ragCommand
+  .command("import-makerai <file>")
+  .description("Import MakerAI RAGVector JSON file into .grok/rag.db")
+  .option("-d, --directory <dir>", "set working directory", process.cwd())
+  .option("--db <path>", "path to rag.db (default: project .grok/rag.db)")
+  .option("--replace", "clear all chunks before importing", false)
+  .action(async (file: string, options) => {
+    if (options.directory) {
+      try {
+        process.chdir(options.directory);
+      } catch (error: any) {
+        console.error(
+          `Error changing directory to ${options.directory}:`,
+          error.message
+        );
+        process.exit(1);
+      }
+    }
+
+    try {
+      const manager = getSettingsManager();
+      const dbPath = options.db || manager.getRagDbPath();
+      const res = await importMakerAiJsonToVectorDb({
+        inFile: file,
+        dbPath,
+        replace: !!options.replace,
+      });
+      console.log(`? Imported ${res.inserted} chunk(s) into ${res.dbPath}`);
+      console.log(`? Dimension: ${res.dim}`);
+    } catch (error: any) {
+      console.error("? Import failed:", error.message);
+      process.exit(1);
+    }
   });
 
 // Config command
@@ -844,7 +950,22 @@ configCommand
         });
         break;
       }
-      case "user.embeddings.model":
+      case "project.rag.extractor": {
+  const v = trimmed.toLowerCase();
+  if (v !== "native" && v !== "sqlite-rag") {
+    console.error("extractor must be one of: native, sqlite-rag");
+    process.exit(1);
+  }
+  manager.updateProjectSetting("rag", {
+    ...(project.rag || {}),
+    extractor: v as "native" | "sqlite-rag",
+  });
+  break;
+}
+case "project.rag.python": {
+  manager.updateProjectSetting("rag", { ...(project.rag || {}), python: trimmed });
+  break;
+}case "user.embeddings.model":
         manager.updateUserSetting("embeddings", {
           ...(user.embeddings || {}),
           model: trimmed,
@@ -934,3 +1055,17 @@ configCommand
   });
 
 program.parse();
+
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/index.ts"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/index.ts.backup_20260216T224756_784916"
+//   "created_at": "2026-02-16T14:47:56.832107+00:00"
+//   "backup_hash": "50122f00ce958cae9715e31f1d08c9a3"
+//   "new_hash": "9cb5d121fc6bef5845ec9df656df17c6"
+//   "goal_id": "cli_config_set_rag_extractor_insert"
+//   "semantics": "Implement config set for new project RAG keys."
+//   "update_attrs": {"relative_path": "src/index.ts", "update_type": "text", "mode": "insert", "encoding": "utf-8", "find_pattern": null, "find_text": "case \"user.embeddings.model\":", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/index.ts\""
+// }

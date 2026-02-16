@@ -1,8 +1,8 @@
-import { exec } from "child_process";
+import { execFile } from "child_process";
 import { promisify } from "util";
 import { EventEmitter } from "events";
 
-const execAsync = promisify(exec);
+const execFileAsync = promisify(execFile);
 
 export interface ConfirmationOptions {
   operation: string;
@@ -114,8 +114,8 @@ export class ConfirmationService extends EventEmitter {
     for (const cmd of commands) {
       try {
         // On Windows, `which` is usually unavailable; `where` is the native equivalent.
-        await execAsync(isWindows ? `where ${cmd}` : `which ${cmd}`);
-        await execAsync(`${cmd} "${filename}"`);
+await execFileAsync(isWindows ? "where" : "which", [cmd], isWindows ? { windowsHide: true } : undefined);
+        await execFileAsync(cmd, [filename], isWindows ? { windowsHide: true } : undefined);
         return;
       } catch {
         // Continue to next command
@@ -149,3 +149,17 @@ export class ConfirmationService extends EventEmitter {
     this.sessionFlags[flagType] = value;
   }
 }
+
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/utils/confirmation-service.ts"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/utils/confirmation-service.ts.backup_20260216T192954_900675"
+//   "created_at": "2026-02-16T11:29:54.906657+00:00"
+//   "backup_hash": "704a179486dedc17a921f772eab8931c"
+//   "new_hash": "704a179486dedc17a921f772eab8931c"
+//   "goal_id": "confirmation_service_launch_call_single_line"
+//   "semantics": "Collapse launch execFileAsync() call to a single properly-indented line."
+//   "update_attrs": {"relative_path": "src/utils/confirmation-service.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "await execFileAsync(\n  cmd,\n  [filename],\n  isWindows ? { windowsHide: true } : undefined\n);", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/utils/confirmation-service.ts\""
+// }

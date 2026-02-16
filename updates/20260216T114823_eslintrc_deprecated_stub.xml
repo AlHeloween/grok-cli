@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_e8223dbda1b6fa7bb594440fa93763dd name="eslintrc_deprecated_stub" md5="e8223dbda1b6fa7bb594440fa93763dd" size="156">
+    <file>.eslintrc.js</file>
+    <update_type>text</update_type>
+    <mode>overwrite</mode>
+    <encoding>utf-8</encoding>
+    <line_endings>LF</line_endings>
+    <semantics>Keep a stub to prevent confusion; main ESLint config is eslint.config.cjs (flat config).</semantics>
+    <content_md5_e8223dbda1b6fa7bb594440fa93763dd>
+      /**
+       * Deprecated: grok-cli uses ESLint flat config in `eslint.config.cjs`.
+       * This file remains only for editor tooling that still auto-discovers .eslintrc.*.
+       */
+      module.exports = {};
+    </content_md5_e8223dbda1b6fa7bb594440fa93763dd>
+  </update_md5_e8223dbda1b6fa7bb594440fa93763dd>
+</updates>

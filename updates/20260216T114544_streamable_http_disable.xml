@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_19ba4ab63f3c2f02d559527d0e4c32a3 name="mcp_cli_transport_help" md5="19ba4ab63f3c2f02d559527d0e4c32a3" size="71">
+    <file>src/commands/mcp.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>.option('-t, --transport &lt;type&gt;', 'Transport type (stdio, http, sse, streamable_http)', 'stdio')</find_text>
+    <semantics>Remove streamable_http from CLI help text.</semantics>
+    <content_md5_19ba4ab63f3c2f02d559527d0e4c32a3>
+      .option('-t, --transport &lt;type&gt;', 'Transport type (stdio, http, sse)', 'stdio')
+    </content_md5_19ba4ab63f3c2f02d559527d0e4c32a3>
+  </update_md5_19ba4ab63f3c2f02d559527d0e4c32a3>
+  <update_md5_3d2d6cc033f63228d73230d7fbb8aab0 name="mcp_cli_transport_validation" md5="3d2d6cc033f63228d73230d7fbb8aab0" size="55">
+    <file>src/commands/mcp.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>} else if (transportType === 'http' || transportType === 'sse' || transportType === 'streamable_http') {</find_text>
+    <semantics>Disallow streamable_http at validation time.</semantics>
+    <content_md5_3d2d6cc033f63228d73230d7fbb8aab0>
+      } else if (transportType === 'http' || transportType === 'sse') {
+    </content_md5_3d2d6cc033f63228d73230d7fbb8aab0>
+  </update_md5_3d2d6cc033f63228d73230d7fbb8aab0>
+  <update_md5_92baefe69bf023799c6c31735a17f2ab name="mcp_cli_transport_error" md5="92baefe69bf023799c6c31735a17f2ab" size="70">
+    <file>src/commands/mcp.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>          console.error(chalk.red('Error: Transport type must be stdio, http, sse, or streamable_http'));</find_text>
+    <semantics>Update error message for allowed transport types.</semantics>
+    <content_md5_92baefe69bf023799c6c31735a17f2ab>
+      console.error(chalk.red('Error: Transport type must be stdio, http, or sse'));
+    </content_md5_92baefe69bf023799c6c31735a17f2ab>
+  </update_md5_92baefe69bf023799c6c31735a17f2ab>
+  <update_md5_91664a3956f69430c8451fab79ccf82f name="mcp_cli_transport_type_cast" md5="91664a3956f69430c8451fab79ccf82f" size="41">
+    <file>src/commands/mcp.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>            type: transportType as 'stdio' | 'http' | 'sse' | 'streamable_http',</find_text>
+    <semantics>Remove streamable_http from transport type cast.</semantics>
+    <content_md5_91664a3956f69430c8451fab79ccf82f>
+      type: transportType as 'stdio' | 'http' | 'sse',
+    </content_md5_91664a3956f69430c8451fab79ccf82f>
+  </update_md5_91664a3956f69430c8451fab79ccf82f>
+</updates>

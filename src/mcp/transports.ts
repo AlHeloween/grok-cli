@@ -239,13 +239,13 @@ class StreamableHttpClientTransport extends EventEmitter implements Transport {
     // Nothing to close for streamable HTTP transport
   }
 
-  async send(message: any): Promise<any> {
-    console.log('StreamableHttpTransport: SSE endpoints require persistent connections, not suitable for MCP request-response pattern');
-    console.log('StreamableHttpTransport: Message that would be sent:', JSON.stringify(message));
+  async send(_message: any): Promise<any> {
+
+
     
     // For now, return a mock response to indicate the transport type is not compatible
     // with the MCP protocol's request-response pattern
-    throw new Error('StreamableHttpTransport: SSE endpoints are not compatible with MCP request-response pattern. GitHub Copilot MCP may require a different integration approach.');
+    throw new Error('StreamableHttpTransport is not supported by grok-cli (not compatible with MCP request/response).');
   }
 }
 

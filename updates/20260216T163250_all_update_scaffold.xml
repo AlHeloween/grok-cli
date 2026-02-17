@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_181a2786404f64d818180cfeb21ae6ae name="ui_remove_cfonts_import" md5="181a2786404f64d818180cfeb21ae6ae" size="29">
+    <file>src/ui/components/chat-interface.tsx</file>
+    <update_type>text</update_type>
+    <mode>delete</mode>
+    <encoding>utf-8</encoding>
+    <find_text>import cfonts from "cfonts";</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Remove cfonts import; direct console output inside Ink can break interactivity in some terminals.</semantics>
+    <content_md5_181a2786404f64d818180cfeb21ae6ae>
+      (payload ignored for delete mode)
+    </content_md5_181a2786404f64d818180cfeb21ae6ae>
+  </update_md5_181a2786404f64d818180cfeb21ae6ae>
+  <update_md5_181a2786404f64d818180cfeb21ae6ae name="ui_remove_console_banner_effect" md5="181a2786404f64d818180cfeb21ae6ae" size="29">
+    <file>src/ui/components/chat-interface.tsx</file>
+    <update_type>text</update_type>
+    <mode>delete</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Remove effect that calls console.clear/log after Ink render, which can leave the UI looking frozen and unresponsive.</semantics>
+    <find_text>  useEffect(() =&gt; {
+    // Only clear console on non-Windows platforms or if not PowerShell
+    // Windows PowerShell can have issues with console.clear() causing flickering
+    const isWindows = process.platform === "win32";
+    const isPowerShell =
+      process.env.ComSpec?.toLowerCase().includes("powershell") ||
+      process.env.PSModulePath !== undefined;
+
+    if (!isWindows || !isPowerShell) {
+      console.clear();
+    }
+
+    // Add top padding
+    console.log("    ");
+
+    // Generate logo with margin to match Ink paddingX={2}
+    const logoOutput = cfonts.render("GROK", {
+      font: "3d",
+      align: "left",
+      colors: ["magenta", "gray"],
+      space: true,
+      maxLength: "0",
+      gradient: ["magenta", "cyan"],
+      independentGradient: false,
+      transitionGradient: true,
+      env: "node",
+    });
+
+    // Add horizontal margin (2 spaces) to match Ink paddingX={2}
+    const logoLines = (logoOutput as any).string.split("\n");
+    logoLines.forEach((line: string) =&gt; {
+      if (line.trim()) {
+        console.log(" " + line); // Add 2 spaces for horizontal margin
+      } else {
+        console.log(line); // Keep empty lines as-is
+      }
+    });
+
+    console.log(" "); // Spacing after logo
+
+    setChatHistory([]);
+  }, []);</find_text>
+    <content_md5_181a2786404f64d818180cfeb21ae6ae>
+      (payload ignored for delete mode)
+    </content_md5_181a2786404f64d818180cfeb21ae6ae>
+  </update_md5_181a2786404f64d818180cfeb21ae6ae>
+  <update_md5_229397e0cc5a20796798ed4323fd7309 name="ui_add_simple_header" md5="229397e0cc5a20796798ed4323fd7309" size="108">
+    <file>src/ui/components/chat-interface.tsx</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Add an Ink-rendered header (no console IO) to keep a visible title without breaking input.</semantics>
+    <find_text>    &lt;Box flexDirection="column" paddingX={2}&gt;</find_text>
+    <content_md5_229397e0cc5a20796798ed4323fd7309>
+      &lt;Box flexDirection="column" paddingX={2}&gt;
+        &lt;Box marginBottom={1}&gt;
+          &lt;Text color={colors.accent} bold&gt;GROK&lt;/Text&gt;
+        &lt;/Box&gt;
+    </content_md5_229397e0cc5a20796798ed4323fd7309>
+  </update_md5_229397e0cc5a20796798ed4323fd7309>
+</updates>

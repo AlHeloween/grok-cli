@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_121109e3f5e8a83f5d5ff988d6763493 name="readme_debug_input_windows_shells" md5="121109e3f5e8a83f5d5ff988d6763493" size="142">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>```bash
+GROK_DEBUG_INPUT=1 grok
+```</find_text>
+    <content_md5_121109e3f5e8a83f5d5ff988d6763493>
+      ```bash
+      # macOS/Linux (bash/zsh)
+      GROK_DEBUG_INPUT=1 grok
+      
+      # Windows PowerShell
+      $env:GROK_DEBUG_INPUT=1; grok
+      
+      # Windows cmd.exe
+      set GROK_DEBUG_INPUT=1 &amp;&amp; grok
+      ```
+    </content_md5_121109e3f5e8a83f5d5ff988d6763493>
+  </update_md5_121109e3f5e8a83f5d5ff988d6763493>
+</updates>

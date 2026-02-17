@@ -347,9 +347,42 @@ export function useEnhancedInput({
     }
 
     // Handle regular character input
-    if (inputChar && !key.ctrl && !key.meta) {
-      const result = insertText(input, cursorPosition, inputChar);
-      const { text: capped, position } = capToMaxLength(result.text, result.position, onTruncated);
+    // Ink normally passes printable keys via `inputChar`, but in some terminals
+    // (notably on Windows) `inputChar` may be empty while `key.sequence` (or even
+    // `key.name`) contains the typed character.
+    const seq = typeof key.sequence === "string" ? key.sequence : "";
+    const name = typeof key.name === "string" ? key.name : "";
+
+    const isSingleChar = (s: string) => !!s && Array.from(s).length === 1;
+    const isPrintableChar = (s: string) =>
+      isSingleChar(s) &&
+      s !== "\n" &&
+      s !== "\r" &&
+      s !== "\t" &&
+      s !== "\u001b" &&
+      s !== "\b" &&
+      s !== "\x7f";
+
+    const inputIsPrintable = isPrintableChar(inputChar);
+    const seqIsPrintable = isPrintableChar(seq);
+    const nameIsPrintable = isPrintableChar(name);
+
+    const charToInsert = inputIsPrintable
+      ? inputChar
+      : seqIsPrintable
+        ? seq
+        : nameIsPrintable
+          ? name
+          : "";
+
+    // Do not block insert on ctrl/meta here; shortcuts are handled above and some terminals misreport modifiers.
+    if (charToInsert) {
+      const result = insertText(input, cursorPosition, charToInsert);
+      const { text: capped, position } = capToMaxLength(
+        result.text,
+        result.position,
+    onTruncated
+  );
       setInputState(capped);
       setCursorPositionState(position);
       setOriginalInput(capped);
@@ -368,3 +401,17 @@ export function useEnhancedInput({
     handleInput,
   };
 }
+
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/hooks/use-enhanced-input.ts"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/hooks/use-enhanced-input.ts.backup_20260217T025024_217910"
+//   "created_at": "2026-02-16T18:50:24.228611+00:00"
+//   "backup_hash": "7e766c53a93c86f3fdf7d1d1102add21"
+//   "new_hash": "5d936f5480572d5ab44335d6a5b3cd1e"
+//   "goal_id": "enhanced_input_do_not_block_on_meta"
+//   "semantics": ""
+//   "update_attrs": {"relative_path": "src/hooks/use-enhanced-input.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "if (charToInsert && !key.ctrl && (!key.meta || seqIsPrintable)) {", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/hooks/use-enhanced-input.ts\""
+// }

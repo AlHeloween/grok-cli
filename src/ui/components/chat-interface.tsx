@@ -16,7 +16,7 @@ import {
   ConfirmationOptions,
 } from "../../utils/confirmation-service.js";
 import ApiKeyInput from "./api-key-input.js";
-import cfonts from "cfonts";
+
 import { useTheme } from "../context/theme-context.js";
 
 interface ChatInterfaceProps {
@@ -65,6 +65,7 @@ function ChatInterfaceWithAgent({
     availableModels,
     availableThemes,
     autoEditEnabled,
+    lastKeyDebug,
     pendingImageCount,
   } = useInputHandler({
     agent,
@@ -80,49 +81,7 @@ function ChatInterfaceWithAgent({
     isConfirmationActive: !!confirmationOptions,
   });
 
-  useEffect(() => {
-    // Only clear console on non-Windows platforms or if not PowerShell
-    // Windows PowerShell can have issues with console.clear() causing flickering
-    const isWindows = process.platform === "win32";
-    const isPowerShell =
-      process.env.ComSpec?.toLowerCase().includes("powershell") ||
-      process.env.PSModulePath !== undefined;
-
-    if (!isWindows || !isPowerShell) {
-      console.clear();
-    }
-
-    // Add top padding
-    console.log("    ");
-
-    // Generate logo with margin to match Ink paddingX={2}
-    const logoOutput = cfonts.render("GROK", {
-      font: "3d",
-      align: "left",
-      colors: ["magenta", "gray"],
-      space: true,
-      maxLength: "0",
-      gradient: ["magenta", "cyan"],
-      independentGradient: false,
-      transitionGradient: true,
-      env: "node",
-    });
-
-    // Add horizontal margin (2 spaces) to match Ink paddingX={2}
-    const logoLines = (logoOutput as any).string.split("\n");
-    logoLines.forEach((line: string) => {
-      if (line.trim()) {
-        console.log(" " + line); // Add 2 spaces for horizontal margin
-      } else {
-        console.log(line); // Keep empty lines as-is
-      }
-    });
-
-    console.log(" "); // Spacing after logo
-
-    setChatHistory([]);
-  }, []);
-
+  
   // Process initial message if provided (streaming for faster feedback)
   useEffect(() => {
     if (initialMessage && agent) {
@@ -313,6 +272,9 @@ function ChatInterfaceWithAgent({
 
   return (
     <Box flexDirection="column" paddingX={2}>
+  <Box marginBottom={1}>
+    <Text color={colors.accent} bold>GROK</Text>
+  </Box>
       {/* Show tips only when no chat history and no confirmation dialog */}
       {chatHistory.length === 0 && !confirmationOptions && (
         <Box flexDirection="column" marginBottom={2}>
@@ -396,7 +358,12 @@ function ChatInterfaceWithAgent({
             <MCPStatus />
           </Box>
 
-          <CommandSuggestions
+          {process.env.GROK_DEBUG_INPUT && lastKeyDebug && (
+  <Text color={colors.textDim} dimColor>
+    {lastKeyDebug}
+  </Text>
+)}
+<CommandSuggestions
             suggestions={commandSuggestions}
             input={input}
             selectedIndex={selectedCommandIndex}
@@ -453,3 +420,17 @@ export default function ChatInterface({
     />
   );
 }
+
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/ui/components/chat-interface.tsx"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/ui/components/chat-interface.tsx.backup_20260217T012437_944796"
+//   "created_at": "2026-02-16T17:24:37.954077+00:00"
+//   "backup_hash": "b8df943fd5741a4fafa6249a9c8eff51"
+//   "new_hash": "d2cf2c161a4e9e4547ee8f655e479bdc"
+//   "goal_id": "chat_interface_render_input_debug_line"
+//   "semantics": ""
+//   "update_attrs": {"relative_path": "src/ui/components/chat-interface.tsx", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "<CommandSuggestions", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/ui/components/chat-interface.tsx\""
+// }

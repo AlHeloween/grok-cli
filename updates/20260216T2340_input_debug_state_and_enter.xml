@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <metadata>
+    <created_at>2026-02-16T23:40:00.000000+00:00</created_at>
+    <goal>Improve Windows TUI input debugging and Enter handling.</goal>
+    <owner>codex-cli</owner>
+    <logging>
+      <progress_log path="_progress_log.md" mode="append" />
+      <manifest enabled="true" />
+    </logging>
+  </metadata>
+
+  <update_md5_placeholder name="enhanced_input_enter_detection" md5="placeholder" size="0">
+    <file>src/hooks/use-enhanced-input.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Handle Enter even when Ink does not set key.return (treat \\r/\\n as Enter).</semantics>
+    <find_text>    // Handle Enter/Return
+    if (key.return) {
+      if (multiline &amp;&amp; key.shift) {
+        // Shift+Enter in multiline mode inserts newline
+        const result = insertText(input, cursorPosition, "\n");
+        const { text: capped, position } = capToMaxLength(result.text, result.position, onTruncated);
+        setInputState(capped);
+        setCursorPositionState(position);
+        setOriginalInput(capped);
+      } else {
+        handleSubmit();
+      }
+      return;
+    }</find_text>
+    <content_md5_placeholder>
+    // Handle Enter/Return
+    const isEnter =
+      !!key.return ||
+      key.name === "return" ||
+      inputChar === "\r" ||
+      inputChar === "\n";
+    if (isEnter) {
+      if (multiline &amp;&amp; key.shift) {
+        // Shift+Enter in multiline mode inserts newline
+        const result = insertText(input, cursorPosition, "\n");
+        const { text: capped, position } = capToMaxLength(
+          result.text,
+          result.position,
+          onTruncated
+        );
+        setInputState(capped);
+        setCursorPositionState(position);
+        setOriginalInput(capped);
+      } else {
+        handleSubmit();
+      }
+      return;
+    }</content_md5_placeholder>
+  </update_md5_placeholder>
+
+  <update_md5_placeholder name="input_handler_debug_state_log" md5="placeholder" size="0">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>When GROK_DEBUG_INPUT is enabled, also log input state changes (so we can prove whether typing mutates input).</semantics>
+    <find_text>  // Hook up the actual input handling</find_text>
+    <content_md5_placeholder>
+  // When debugging input, also log state transitions (captures whether input updates between key events).
+  useEffect(() =&gt; {
+    if (!process.env.GROK_DEBUG_INPUT) return;
+
+    try {
+      const logPath =
+        process.env.GROK_DEBUG_INPUT_FILE ||
+        path.join(process.cwd(), "logs", "input_debug.jsonl");
+      fs.mkdirSync(path.dirname(logPath), { recursive: true });
+      fs.appendFileSync(
+        logPath,
+        JSON.stringify(
+          {
+            t: new Date().toISOString(),
+            type: "state",
+            inputLen: input.length,
+            cursorPosition,
+          },
+          null,
+          0
+        ) + "\n",
+        "utf8"
+      );
+    } catch {
+      // ignore debug logging failures
+    }
+  }, [input, cursorPosition]);
+
+  // Hook up the actual input handling</content_md5_placeholder>
+  </update_md5_placeholder>
+
+  <update_md5_placeholder name="readme_debug_input_file" md5="placeholder" size="0">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Document GROK_DEBUG_INPUT_FILE and JSONL logging for typing issues.</semantics>
+    <find_text>This shows a debug line under the footer with `inputChar`, `key.sequence`, and modifier flags; copy it into an issue report.</find_text>
+    <content_md5_placeholder>This shows a debug line under the footer and also appends JSONL events to `logs/input_debug.jsonl` (override path with `GROK_DEBUG_INPUT_FILE`). Attach the JSONL file when reporting input issues.</content_md5_placeholder>
+  </update_md5_placeholder>
+
+  <update_md5_placeholder name="readme_cmd_runner_note" md5="placeholder" size="0">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Remove outdated cmd_runner --pty/ConPTY note; clarify Ink output capture limitations.</semantics>
+    <find_text>Note: `cmd_runner.py start --pty` uses ConPTY and is useful for some CLI apps, but Ink TUIs may exit immediately if they detect a non-interactive TTY.</find_text>
+    <content_md5_placeholder>Note: Ink TUIs often render using the terminal alternate screen buffer, so `stdout.log` may not contain the visible UI; prefer `GROK_DEBUG_INPUT=1` and the JSONL log for reproducible key events.</content_md5_placeholder>
+  </update_md5_placeholder>
+</updates>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_8caed4c63d419b1167fc466f32826696 name="enhanced_input_allow_meta_printables" md5="8caed4c63d419b1167fc466f32826696" size="444">
+    <file>src/hooks/use-enhanced-input.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Allow inserting printable characters even if Ink sets key.meta; keep ctrl combos blocked.</semantics>
+    <find_text>    const charToInsert = inputChar || (seqIsPrintable ? seq : "");
+
+    if (charToInsert &amp;&amp; !key.ctrl &amp;&amp; !key.meta) {
+      const result = insertText(input, cursorPosition, charToInsert);
+      const { text: capped, position } = capToMaxLength(
+        result.text,
+        result.position,
+        onTruncated
+      );
+      setInputState(capped);
+      setCursorPositionState(position);
+      setOriginalInput(capped);
+    }</find_text>
+    <content_md5_8caed4c63d419b1167fc466f32826696>
+      const charToInsert = inputChar || (seqIsPrintable ? seq : "");
+      
+      // Note: some terminals mark regular typing as `meta` (e.g., AltGraph/IME quirks).
+      // We still want to accept printable text input; only block ctrl-modified chords.
+      if (charToInsert &amp;&amp; !key.ctrl) {
+        const result = insertText(input, cursorPosition, charToInsert);
+        const { text: capped, position } = capToMaxLength(
+          result.text,
+          result.position,
+          onTruncated
+        );
+        setInputState(capped);
+        setCursorPositionState(position);
+        setOriginalInput(capped);
+      }
+    </content_md5_8caed4c63d419b1167fc466f32826696>
+  </update_md5_8caed4c63d419b1167fc466f32826696>
+  <update_md5_7166bd695ba683b4e48f81b53390c474 name="input_handler_track_last_key" md5="7166bd695ba683b4e48f81b53390c474" size="194">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Track last key event for optional debug overlay.</semantics>
+    <find_text>  const {
+    input,
+    cursorPosition,
+    isMultiline,
+    setInput,
+    setCursorPosition,
+    clearInput,
+    insertAtCursor,
+    resetHistory,
+    handleInput,
+  } = useEnhancedInput({</find_text>
+    <content_md5_7166bd695ba683b4e48f81b53390c474>
+      const [lastKeyDebug, setLastKeyDebug] = useState&lt;string&gt;("");
+      
+      const {
+        input,
+        cursorPosition,
+        isMultiline,
+        setInput,
+        setCursorPosition,
+        clearInput,
+        insertAtCursor,
+        resetHistory,
+        handleInput,
+      } = useEnhancedInput({
+    </content_md5_7166bd695ba683b4e48f81b53390c474>
+  </update_md5_7166bd695ba683b4e48f81b53390c474>
+  <update_md5_e1f2d5296513482531e5641a323d9131 name="input_handler_set_last_key_in_useinput" md5="e1f2d5296513482531e5641a323d9131" size="414">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Update lastKeyDebug on every key press, but keep existing input pipeline unchanged.</semantics>
+    <find_text>  useInput((inputChar: string, key: Key) =&gt; {
+    handleInput(inputChar, key);
+  });</find_text>
+    <content_md5_e1f2d5296513482531e5641a323d9131>
+      useInput((inputChar: string, key: Key) =&gt; {
+        if (process.env.GROK_DEBUG_INPUT) {
+          const seq = typeof key.sequence === "string" ? key.sequence : "";
+          const safeSeq = seq.replaceAll("\n", "\\n").replaceAll("\r", "\\r").replaceAll("\t", "\\t");
+          setLastKeyDebug(
+            `char=${JSON.stringify(inputChar)} seq=${JSON.stringify(safeSeq)} name=${JSON.stringify(key.name)} ctrl=${!!key.ctrl} meta=${!!key.meta} shift=${!!key.shift}`
+          );
+        }
+        handleInput(inputChar, key);
+      });
+    </content_md5_e1f2d5296513482531e5641a323d9131>
+  </update_md5_e1f2d5296513482531e5641a323d9131>
+  <update_md5_cc7ebf46c8ce7e784534581954bbcf7b name="input_handler_export_last_key" md5="cc7ebf46c8ce7e784534581954bbcf7b" size="33">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Return lastKeyDebug so the UI can show it when GROK_DEBUG_INPUT is set.</semantics>
+    <find_text>    pendingImageCount,
+  };</find_text>
+    <content_md5_cc7ebf46c8ce7e784534581954bbcf7b>
+        pendingImageCount,
+        lastKeyDebug,
+      };
+    </content_md5_cc7ebf46c8ce7e784534581954bbcf7b>
+  </update_md5_cc7ebf46c8ce7e784534581954bbcf7b>
+  <update_md5_794136a198c8765902db4006d86fad1e name="ui_show_input_debug" md5="794136a198c8765902db4006d86fad1e" size="170">
+    <file>src/ui/components/chat-interface.tsx</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Show input debug line when GROK_DEBUG_INPUT is set, to diagnose why typing is ignored.</semantics>
+    <find_text>      &lt;Box flexDirection="column" ref={scrollRef}&gt;</find_text>
+    <content_md5_794136a198c8765902db4006d86fad1e>
+      {process.env.GROK_DEBUG_INPUT &amp;&amp; (
+        &lt;Box marginBottom={1}&gt;
+          &lt;Text color={colors.warning}&gt;{lastKeyDebug || "(press a key...)"}&lt;/Text&gt;
+        &lt;/Box&gt;
+      )}
+      
+      &lt;Box flexDirection="column" ref={scrollRef}&gt;
+    </content_md5_794136a198c8765902db4006d86fad1e>
+  </update_md5_794136a198c8765902db4006d86fad1e>
+</updates>

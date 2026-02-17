@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_37c3c8fe57e41edf116eb1faacc8a50b name="enhanced_input_allow_printable_when_meta" md5="37c3c8fe57e41edf116eb1faacc8a50b" size="57">
+    <file>src/hooks/use-enhanced-input.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>if (charToInsert &amp;&amp; !key.ctrl &amp;&amp; !key.meta) {</find_text>
+    <content_md5_37c3c8fe57e41edf116eb1faacc8a50b>
+      if (charToInsert &amp;&amp; !key.ctrl &amp;&amp; (!key.meta || seqIsPrintable)) {
+    </content_md5_37c3c8fe57e41edf116eb1faacc8a50b>
+  </update_md5_37c3c8fe57e41edf116eb1faacc8a50b>
+  <update_md5_e7efb939ac46b9111ece2c259cc83608 name="input_handler_add_last_key_debug_state" md5="e7efb939ac46b9111ece2c259cc83608" size="126">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>const buildUserContentWithAttachments = (userInput: string): UserContent =&gt;</find_text>
+    <content_md5_e7efb939ac46b9111ece2c259cc83608>
+      const [lastKeyDebug, setLastKeyDebug] = useState&lt;string&gt;("");
+        const buildUserContentWithAttachments = (userInput: string): UserContent =&gt;
+    </content_md5_e7efb939ac46b9111ece2c259cc83608>
+  </update_md5_e7efb939ac46b9111ece2c259cc83608>
+  <update_md5_ccbf61c9d1dd1b62130a910f6900e9ca name="input_handler_debug_in_useInput_callback" md5="ccbf61c9d1dd1b62130a910f6900e9ca" size="450">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  useInput((inputChar: string, key: Key) =&gt; {
+    handleInput(inputChar, key);
+  });</find_text>
+    <content_md5_ccbf61c9d1dd1b62130a910f6900e9ca>
+      useInput((inputChar: string, key: Key) =&gt; {
+        if (process.env.GROK_DEBUG_INPUT) {
+          const seq = typeof key.sequence === "string" ? key.sequence : "";
+          const escapedSeq = seq
+            .replaceAll("\r", "\\r")
+            .replaceAll("\n", "\\n")
+            .replaceAll("\t", "\\t")
+            .replaceAll("\u001b", "\\x1b");
+      
+          setLastKeyDebug(
+            `inputChar=${JSON.stringify(inputChar)} seq=${JSON.stringify(escapedSeq)} name=${String(key.name ?? "")} ctrl=${!!key.ctrl} meta=${!!key.meta} shift=${!!key.shift}`
+          );
+        }
+      
+        handleInput(inputChar, key);
+      });
+    </content_md5_ccbf61c9d1dd1b62130a910f6900e9ca>
+  </update_md5_ccbf61c9d1dd1b62130a910f6900e9ca>
+  <update_md5_cfbc6e267d6655c2f9eb5c9de9123e6a name="input_handler_return_last_key_debug" md5="cfbc6e267d6655c2f9eb5c9de9123e6a" size="62">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    pendingImageCount: pendingImageAttachments.length,</find_text>
+    <content_md5_cfbc6e267d6655c2f9eb5c9de9123e6a>
+      lastKeyDebug,
+          pendingImageCount: pendingImageAttachments.length,
+    </content_md5_cfbc6e267d6655c2f9eb5c9de9123e6a>
+  </update_md5_cfbc6e267d6655c2f9eb5c9de9123e6a>
+  <update_md5_dccdbc3d73fd9506dfdb2489034420b1 name="chat_interface_expose_last_key_debug" md5="dccdbc3d73fd9506dfdb2489034420b1" size="31">
+    <file>src/ui/components/chat-interface.tsx</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    pendingImageCount,</find_text>
+    <content_md5_dccdbc3d73fd9506dfdb2489034420b1>
+      lastKeyDebug,
+          pendingImageCount,
+    </content_md5_dccdbc3d73fd9506dfdb2489034420b1>
+  </update_md5_dccdbc3d73fd9506dfdb2489034420b1>
+  <update_md5_2e79dedbf590f539f2c9d448f9558478 name="chat_interface_render_input_debug_line" md5="2e79dedbf590f539f2c9d448f9558478" size="124">
+    <file>src/ui/components/chat-interface.tsx</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>          &lt;CommandSuggestions</find_text>
+    <content_md5_2e79dedbf590f539f2c9d448f9558478>
+      {process.env.GROK_DEBUG_INPUT &amp;&amp; lastKeyDebug &amp;&amp; (
+        &lt;Text color={colors.textDim} dimColor&gt;
+          {lastKeyDebug}
+        &lt;/Text&gt;
+      )}
+      &lt;CommandSuggestions
+    </content_md5_2e79dedbf590f539f2c9d448f9558478>
+  </update_md5_2e79dedbf590f539f2c9d448f9558478>
+  <update_md5_d6004a7929a71f525f599323ddf94648 name="readme_troubleshooting_debug_input" md5="d6004a7929a71f525f599323ddf94648" size="500">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>## License
+
+MIT</find_text>
+    <content_md5_d6004a7929a71f525f599323ddf94648>
+      ## Troubleshooting
+      
+      ### Can't type in the input (only Shift+Tab works)
+      
+      Some Windows terminals can deliver printable keys to Ink with `key.meta=true` and/or with an empty `inputChar`, which can prevent Grok CLI from inserting typed characters.
+      
+      - Try the latest version first (this repo includes a fix to accept printable `key.sequence` characters even when `meta` is set).
+      - To capture what Ink is receiving, run with:
+      
+      ```bash
+      GROK_DEBUG_INPUT=1 grok
+      ```
+      
+      This shows a debug line under the footer with `inputChar`, `key.sequence`, and modifier flags; copy it into an issue report.
+      
+      ## License
+      
+      MIT
+    </content_md5_d6004a7929a71f525f599323ddf94648>
+  </update_md5_d6004a7929a71f525f599323ddf94648>
+</updates>

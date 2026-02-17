@@ -1,5 +1,7 @@
 import { useState, useMemo, useEffect } from "react";
 import { useInput } from "ink";
+import fs from "fs";
+import path from "path";
 import { GrokAgent, ChatEntry } from "../agent/grok-agent.js";
 import { ConfirmationService } from "../utils/confirmation-service.js";
 import { useEnhancedInput, Key } from "./use-enhanced-input.js";
@@ -92,6 +94,7 @@ export function useInputHandler({
     PendingImageAttachment[]
   >([]);
 
+  const [lastKeyDebug, setLastKeyDebug] = useState<string>("");
   const buildUserContentWithAttachments = (userInput: string): UserContent =>
     buildUserContent(userInput, pendingImageAttachments);
 
@@ -818,6 +821,49 @@ export function useInputHandler({
 
   // Hook up the actual input handling
   useInput((inputChar: string, key: Key) => {
+    if (process.env.GROK_DEBUG_INPUT) {
+      const seq = typeof key.sequence === "string" ? key.sequence : "";
+      const escapedSeq = seq
+        .replaceAll("\r", "\\r")
+        .replaceAll("\n", "\\n")
+        .replaceAll("\t", "\\t")
+        .replaceAll("\u001b", "\\x1b");
+
+      const debugLine = `inputChar=${JSON.stringify(inputChar)} seq=${JSON.stringify(escapedSeq)} name=${String(key.name ?? "")} ctrl=${!!key.ctrl} meta=${!!key.meta} shift=${!!key.shift}`;
+      setLastKeyDebug(debugLine);
+
+      try {
+        const logPath =
+          process.env.GROK_DEBUG_INPUT_FILE ||
+          path.join(process.cwd(), "logs", "input_debug.jsonl");
+        fs.mkdirSync(path.dirname(logPath), { recursive: true });
+        fs.appendFileSync(
+          logPath,
+          JSON.stringify(
+            {
+              t: new Date().toISOString(),
+              inputChar,
+              key: {
+                name: key.name,
+                sequence: key.sequence,
+                ctrl: !!key.ctrl,
+                meta: !!key.meta,
+                shift: !!key.shift,
+                paste: !!(key as any).paste,
+              },
+              inputLen: input.length,
+              cursorPosition,
+            },
+            null,
+            0
+          ) + "\n",
+          "utf8"
+        );
+      } catch {
+        // ignore debug logging failures
+      }
+    }
+
     handleInput(inputChar, key);
   });
 
@@ -1488,6 +1534,21 @@ Respond with ONLY the commit message, no additional text.`;
     availableThemes,
     agent,
     autoEditEnabled,
+    lastKeyDebug,
     pendingImageCount: pendingImageAttachments.length,
   };
 }
+
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/hooks/use-input-handler.ts"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/hooks/use-input-handler.ts.backup_20260217T012437_559804"
+//   "created_at": "2026-02-16T17:24:37.576282+00:00"
+//   "backup_hash": "4cbd7369287132fe73a37b3bed4ee330"
+//   "new_hash": "8acaea58c95b6fa55d9e3f5d18644e81"
+//   "goal_id": "input_handler_return_last_key_debug"
+//   "semantics": ""
+//   "update_attrs": {"relative_path": "src/hooks/use-input-handler.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "pendingImageCount: pendingImageAttachments.length,", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/hooks/use-input-handler.ts\""
+// }

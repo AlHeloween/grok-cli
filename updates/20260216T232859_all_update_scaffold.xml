@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_911e2ad0f614b3ba7887342012504f7b name="cmd_runner_newline_between_blocks" md5="911e2ad0f614b3ba7887342012504f7b" size="48">
+    <file>cmd_runner.py</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    return 0def cmd_start(ns: argparse.Namespace) -&gt; int:</find_text>
+    <content_md5_911e2ad0f614b3ba7887342012504f7b>
+          return 0
+      
+      
+      def cmd_start(ns: argparse.Namespace) -&gt; int:
+    </content_md5_911e2ad0f614b3ba7887342012504f7b>
+  </update_md5_911e2ad0f614b3ba7887342012504f7b>
+</updates>

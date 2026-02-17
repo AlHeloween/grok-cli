@@ -12,6 +12,7 @@ Design (Exact):
 from __future__ import annotations
 
 import argparse
+import codecs
 import json
 import os
 import re
@@ -228,6 +229,235 @@ def _parse_env_kv(items: list[str]) -> dict[str, str]:
             continue
         out[k] = v
     return out
+
+
+def cmd_send(ns: argparse.Namespace) -> int:
+    rd = run_dir(ns.run_id)
+    if not rd.exists():
+        print("not found")
+        return 1
+
+    if os.name != "nt":
+        print("send: Windows-only")
+        return 2
+
+    sp = _state_path(ns.run_id)
+    if not sp.exists():
+        print("not found")
+        return 1
+    state = _read_json(sp)
+    pid_val = state.get("child_pid")
+    pid = int(pid_val) if isinstance(pid_val, int) else None
+    if pid is None:
+        print("send_failed")
+        return 3
+
+    text = str(ns.text or "")
+    if bool(ns.escapes):
+        try:
+            text = codecs.decode(text, "unicode_escape")
+        except Exception:
+            pass
+
+    delay_ms = int(ns.delay_ms) if ns.delay_ms is not None else 0
+    ok = _win_console_inject(pid=pid, text=text, enter=bool(ns.enter), delay_ms=delay_ms)
+    print("sent" if ok else "send_failed")
+    return 0 if ok else 3
+
+
+def _win_console_inject(*, pid: int, text: str, enter: bool, delay_ms: int) -> bool:
+    python = _python_for_detached_worker()
+    args = [
+        python,
+        str(Path(__file__).resolve()),
+        "_send_console_input",
+        "--pid",
+        str(int(pid)),
+        "--text",
+        text,
+    ]
+    if enter:
+        args.append("--enter")
+    if delay_ms and delay_ms > 0:
+        args += ["--delay-ms", str(int(delay_ms))]
+
+    popen_kwargs: dict[str, Any] = {}
+    creationflags = 0
+    creationflags |= getattr(subprocess, "CREATE_NEW_PROCESS_GROUP", 0)
+    creationflags |= getattr(subprocess, "DETACHED_PROCESS", 0)
+    creationflags |= getattr(subprocess, "CREATE_NO_WINDOW", 0)
+    popen_kwargs["creationflags"] = creationflags
+    popen_kwargs["close_fds"] = True
+
+    cp = subprocess.run(
+        args,
+        stdin=subprocess.DEVNULL,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+        **popen_kwargs,
+    )
+    return cp.returncode == 0
+
+
+def cmd__send_console_input(ns: argparse.Namespace) -> int:
+    if os.name != "nt":
+        return 2
+
+    import ctypes
+    from ctypes import wintypes
+
+    user32 = ctypes.WinDLL("user32", use_last_error=True)
+    kernel32 = ctypes.WinDLL("kernel32", use_last_error=True)
+
+    FreeConsole = kernel32.FreeConsole
+    FreeConsole.argtypes = []
+    FreeConsole.restype = wintypes.BOOL
+
+    AttachConsole = kernel32.AttachConsole
+    AttachConsole.argtypes = [wintypes.DWORD]
+    AttachConsole.restype = wintypes.BOOL
+
+    CreateFileW = kernel32.CreateFileW
+    CreateFileW.argtypes = [
+        wintypes.LPCWSTR,
+        wintypes.DWORD,
+        wintypes.DWORD,
+        wintypes.LPVOID,
+        wintypes.DWORD,
+        wintypes.DWORD,
+        wintypes.HANDLE,
+    ]
+    CreateFileW.restype = wintypes.HANDLE
+
+    WriteConsoleInputW = kernel32.WriteConsoleInputW
+    WriteConsoleInputW.argtypes = [
+        wintypes.HANDLE,
+        wintypes.LPVOID,
+        wintypes.DWORD,
+        ctypes.POINTER(wintypes.DWORD),
+    ]
+    WriteConsoleInputW.restype = wintypes.BOOL
+
+    CloseHandle = kernel32.CloseHandle
+    CloseHandle.argtypes = [wintypes.HANDLE]
+    CloseHandle.restype = wintypes.BOOL
+
+    VkKeyScanW = user32.VkKeyScanW
+    VkKeyScanW.argtypes = [wintypes.WCHAR]
+    VkKeyScanW.restype = wintypes.SHORT
+
+    MapVirtualKeyW = user32.MapVirtualKeyW
+    MapVirtualKeyW.argtypes = [wintypes.UINT, wintypes.UINT]
+    MapVirtualKeyW.restype = wintypes.UINT
+
+    MAPVK_VK_TO_VSC = 0
+    VK_RETURN = 0x0D
+    KEY_EVENT = 0x0001
+
+    SHIFT_PRESSED = 0x0010
+    LEFT_CTRL_PRESSED = 0x0008
+    RIGHT_ALT_PRESSED = 0x0001
+
+    class CHAR_UNION(ctypes.Union):
+        _fields_ = [("UnicodeChar", wintypes.WCHAR), ("AsciiChar", wintypes.CHAR)]
+
+    class KEY_EVENT_RECORD(ctypes.Structure):
+        _fields_ = [
+            ("bKeyDown", wintypes.BOOL),
+            ("wRepeatCount", wintypes.WORD),
+            ("wVirtualKeyCode", wintypes.WORD),
+            ("wVirtualScanCode", wintypes.WORD),
+            ("uChar", CHAR_UNION),
+            ("dwControlKeyState", wintypes.DWORD),
+        ]
+
+    class EVENT_UNION(ctypes.Union):
+        _fields_ = [("KeyEvent", KEY_EVENT_RECORD)]
+
+    class INPUT_RECORD(ctypes.Structure):
+        _fields_ = [("EventType", wintypes.WORD), ("Event", EVENT_UNION)]
+
+    try:
+        FreeConsole()
+    except Exception:
+        pass
+
+    if not bool(AttachConsole(int(ns.pid))):
+        return 3
+
+    GENERIC_WRITE = 0x40000000
+    FILE_SHARE_READ = 0x00000001
+    FILE_SHARE_WRITE = 0x00000002
+    OPEN_EXISTING = 3
+
+    h_conin = CreateFileW(
+        "CONIN$",
+        GENERIC_WRITE,
+        FILE_SHARE_READ | FILE_SHARE_WRITE,
+        None,
+        OPEN_EXISTING,
+        0,
+        None,
+    )
+    if not h_conin or int(h_conin) == -1:
+        return 4
+
+    def _write_char(ch: str) -> bool:
+        vk = 0
+        scan = 0
+        control_state = 0
+
+        if ch == "\r":
+            vk = VK_RETURN
+            scan = int(MapVirtualKeyW(vk, MAPVK_VK_TO_VSC)) & 0xFFFF
+            u = CHAR_UNION(UnicodeChar="\r")
+        else:
+            mapped = int(VkKeyScanW(ch))
+            if mapped != -1:
+                vk = mapped & 0xFF
+                shift_state = (mapped >> 8) & 0xFF
+                if shift_state & 0x01:
+                    control_state |= SHIFT_PRESSED
+                if shift_state & 0x02:
+                    control_state |= LEFT_CTRL_PRESSED
+                if shift_state & 0x04:
+                    control_state |= RIGHT_ALT_PRESSED
+                scan = int(MapVirtualKeyW(vk, MAPVK_VK_TO_VSC)) & 0xFFFF
+            u = CHAR_UNION(UnicodeChar=ch)
+
+        rec_down = INPUT_RECORD()
+        rec_down.EventType = KEY_EVENT
+        rec_down.Event.KeyEvent = KEY_EVENT_RECORD(True, 1, int(vk), int(scan), u, int(control_state))
+
+        rec_up = INPUT_RECORD()
+        rec_up.EventType = KEY_EVENT
+        rec_up.Event.KeyEvent = KEY_EVENT_RECORD(False, 1, int(vk), int(scan), u, int(control_state))
+
+        buf = (INPUT_RECORD * 2)(rec_down, rec_up)
+        written = wintypes.DWORD(0)
+        ok = bool(WriteConsoleInputW(h_conin, ctypes.byref(buf), 2, ctypes.byref(written)))
+        return ok and int(written.value) == 2
+
+    delay = int(ns.delay_ms) if ns.delay_ms is not None else 0
+    for ch in str(ns.text or ""):
+        if not _write_char(ch):
+            try:
+                CloseHandle(h_conin)
+            except Exception:
+                pass
+            return 5
+        if delay and delay > 0:
+            time.sleep(float(delay) / 1000.0)
+
+    if bool(ns.enter):
+        _write_char("\r")
+
+    try:
+        CloseHandle(h_conin)
+    except Exception:
+        pass
+
+    return 0
 
 
 def cmd_start(ns: argparse.Namespace) -> int:
@@ -720,7 +950,7 @@ def build_parser() -> argparse.ArgumentParser:
         help="Environment override KEY=VALUE (repeatable).",
     )
     p_start.add_argument("command", nargs=argparse.REMAINDER)
-    p_start.set_defaults(func=cmd_start)
+    p_start.set_defaults(func=cmd_start); p_send = sub.add_parser("send", help="Send keystrokes to a running session (Windows)"); p_send.add_argument("run_id"); p_send.add_argument("--text", required=True, help="Text to send as keystrokes."); p_send.add_argument("--enter", action="store_true", help="Append Enter (CR) after text."); p_send.add_argument("--delay-ms", type=int, default=None, help="Delay per character (helps slow UIs)."); p_send.add_argument("--escapes", action="store_true", help="Interpret C-style escapes in --text (e.g. \\\\n, \\\\x1b)."); p_send.set_defaults(func=cmd_send)
 
     p_status = sub.add_parser("status", help="List active runs")
     p_status.add_argument("--limit", type=int, default=20)
@@ -755,7 +985,7 @@ def build_parser() -> argparse.ArgumentParser:
     p_run.add_argument("--cwd", default=None)
     p_run.add_argument("--timeout-s", type=int, default=None)
     p_run.add_argument("command", nargs=argparse.REMAINDER)
-    p_run.set_defaults(func=cmd__run)
+    p_run.set_defaults(func=cmd__run); p_send_console = sub.add_parser("_send_console_input", help="Internal helper: inject keys into a Windows console"); p_send_console.add_argument("--pid", required=True, type=int); p_send_console.add_argument("--text", required=True); p_send_console.add_argument("--enter", action="store_true"); p_send_console.add_argument("--delay-ms", type=int, default=None); p_send_console.set_defaults(func=cmd__send_console_input)
 
     return ap
 
@@ -775,14 +1005,14 @@ if __name__ == "__main__":
 
 # ADID_ROLLBACK (from adm.exe)
 # SDID_ROLLBACK {
-#   "target_file": "D:/zPython/ADID_Python/cmd_runner.py"
+#   "target_file": "D:\\zPython\\grok-cli\\cmd_runner.py"
 #   "update_script": "adm.exe"
-#   "backup_path": "D:/zPython/ADID_Python/cmd_runner.py.backup_20260214T054830_801505"
-#   "created_at": "2026-02-13T21:48:30.822755+00:00"
-#   "backup_hash": "88bc3c4c8e2ca122716f846f5da9a54d"
-#   "new_hash": "44acfc1ba73dfe72964659d03cc86379"
-#   "goal_id": "sync_cmd_runner_py"
-#   "semantics": "Overwrite cmd_runner.py with the latest version from Aurora_Fractal/external/llama.orig."
-#   "update_attrs": {"relative_path": "D:/zPython/ADID_Python/cmd_runner.py", "update_type": "text", "mode": "overwrite", "encoding": "utf-8", "find_pattern": null, "find_text": "", "replace_present": true}
-#   "restore_cmd": "uv run adm --rollback \"D:/zPython/ADID_Python/cmd_runner.py\""
+#   "backup_path": "D:\\zPython\\grok-cli\\cmd_runner.py.backup_20260217T072924_980975"
+#   "created_at": "2026-02-16T23:29:25.006222+00:00"
+#   "backup_hash": "21feed72d2082ccc94866ce8c4af06fb"
+#   "new_hash": "21feed72d2082ccc94866ce8c4af06fb"
+#   "goal_id": "cmd_runner_newline_between_blocks"
+#   "semantics": ""
+#   "update_attrs": {"relative_path": "cmd_runner.py", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "return 0def cmd_start(ns: argparse.Namespace) -> int:", "replace_present": true}
+#   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\cmd_runner.py\""
 # }

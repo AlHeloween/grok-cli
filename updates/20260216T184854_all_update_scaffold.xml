@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_c630f1324ab2217626c1af0439ae3ae2 name="enhanced_input_add_key_name" md5="c630f1324ab2217626c1af0439ae3ae2" size="103">
+    <file>src/hooks/use-enhanced-input.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>const seq = typeof key.sequence === "string" ? key.sequence : "";</find_text>
+    <content_md5_c630f1324ab2217626c1af0439ae3ae2>
+      const seq = typeof key.sequence === "string" ? key.sequence : "";
+      const name = typeof key.name === "string" ? key.name : "";
+    </content_md5_c630f1324ab2217626c1af0439ae3ae2>
+  </update_md5_c630f1324ab2217626c1af0439ae3ae2>
+  <update_md5_901f3d1bc34b62b2c37947920cf24ce0 name="enhanced_input_add_name_printable_check" md5="901f3d1bc34b62b2c37947920cf24ce0" size="178">
+    <file>src/hooks/use-enhanced-input.ts</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>const seqIsPrintable =
+  seqIsSingleChar &amp;&amp;
+  seq !== "\n" &amp;&amp;
+  seq !== "\r" &amp;&amp;
+  seq !== "\t" &amp;&amp;
+  seq !== "\u001b" &amp;&amp;
+  seq !== "\b" &amp;&amp;
+  seq !== "\x7f";
+</find_text>
+    <expected_matches>1</expected_matches>
+    <content_md5_901f3d1bc34b62b2c37947920cf24ce0>
+      const nameIsSingleChar = name &amp;&amp; Array.from(name).length === 1;
+      const nameIsPrintable =
+        nameIsSingleChar &amp;&amp;
+        name !== "\n" &amp;&amp;
+        name !== "\r" &amp;&amp;
+        name !== "\t" &amp;&amp;
+        name !== "\u001b" &amp;&amp;
+        name !== "\b" &amp;&amp;
+        name !== "\x7f";
+    </content_md5_901f3d1bc34b62b2c37947920cf24ce0>
+  </update_md5_901f3d1bc34b62b2c37947920cf24ce0>
+  <update_md5_70c64918b048b824ef74039f72d8a5ef name="enhanced_input_char_to_insert_name_fallback" md5="70c64918b048b824ef74039f72d8a5ef" size="74">
+    <file>src/hooks/use-enhanced-input.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>const charToInsert = inputChar || (seqIsPrintable ? seq : "");</find_text>
+    <content_md5_70c64918b048b824ef74039f72d8a5ef>
+      const charToInsert = inputChar || (seqIsPrintable ? seq : nameIsPrintable ? name : "");
+    </content_md5_70c64918b048b824ef74039f72d8a5ef>
+  </update_md5_70c64918b048b824ef74039f72d8a5ef>
+  <update_md5_2e34b2d58a3d6f5ca3df46bc31b9eb5a name="enhanced_input_do_not_block_on_meta" md5="2e34b2d58a3d6f5ca3df46bc31b9eb5a" size="28">
+    <file>src/hooks/use-enhanced-input.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>if (charToInsert &amp;&amp; !key.ctrl &amp;&amp; (!key.meta || seqIsPrintable)) {</find_text>
+    <content_md5_2e34b2d58a3d6f5ca3df46bc31b9eb5a>
+      if (charToInsert &amp;&amp; !key.ctrl) {
+    </content_md5_2e34b2d58a3d6f5ca3df46bc31b9eb5a>
+  </update_md5_2e34b2d58a3d6f5ca3df46bc31b9eb5a>
+</updates>

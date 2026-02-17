@@ -606,6 +606,41 @@ Theme choice is also persisted in `~/.grok/user-settings.json`.
 - **UI**: Ink-based terminal interface components
 - **Types**: TypeScript definitions for the entire system
 
+## Troubleshooting
+
+### Can't type in the input (only Shift+Tab works)
+
+Some Windows terminals can deliver printable keys to Ink with `key.meta=true` and/or with an empty `inputChar`, which can prevent Grok CLI from inserting typed characters.
+
+- Try the latest version first (this repo includes a fix to accept printable `key.sequence` characters even when `meta` is set).
+- To capture what Ink is receiving, run with:
+
+```bash
+# macOS/Linux (bash/zsh)
+GROK_DEBUG_INPUT=1 grok
+
+# Windows PowerShell
+$env:GROK_DEBUG_INPUT=1; grok
+
+# Windows cmd.exe
+set GROK_DEBUG_INPUT=1 && grok
+```
+
+This shows a debug line under the footer with `inputChar`, `key.sequence`, and modifier flags; copy it into an issue report.
+
+### Automating TUI input on Windows (cmd_runner)
+
+If you need to reproduce a typing bug or script a TUI interaction, run Grok in the default cmd_runner **real console** mode and inject keystrokes:
+
+```powershell
+$run_id = (python .\cmd_runner.py start --timeout-s 60 --env GROK_API_KEY=foo -- bun run dev).Trim()
+python .\cmd_runner.py send $run_id --text "/help" --enter
+python .\cmd_runner.py send $run_id --text "exit" --enter
+python .\cmd_runner.py wait $run_id --timeout-s 30
+```
+
+Note: `cmd_runner.py start --pty` uses ConPTY and is useful for some CLI apps, but Ink TUIs may exit immediately if they detect a non-interactive TTY.
+
 ## License
 
 MIT
@@ -614,13 +649,13 @@ MIT
   SDID_ROLLBACK {
     "target_file": "D:\\zPython\\grok-cli\\README.md"
     "update_script": "adm.exe"
-    "backup_path": "D:\\zPython\\grok-cli\\README.md.backup_20260216T224757_343505"
-    "created_at": "2026-02-16T14:47:57.373108+00:00"
-    "backup_hash": "82650128e63afdb0fb7bb2b1883cd2e4"
-    "new_hash": "23dbe052278815bb45aab08471e72796"
-    "goal_id": "docs_readme_rag_extractor_insert"
-    "semantics": "Document sqlite-rag extractor option for indexing richer file types."
-    "update_attrs": {"relative_path": "README.md", "update_type": "text", "mode": "insert", "encoding": "utf-8", "find_pattern": null, "find_text": "### Optional: MakerAI GUI (import/export)", "replace_present": true}
+    "backup_path": "D:\\zPython\\grok-cli\\README.md.backup_20260217T025159_834987"
+    "created_at": "2026-02-16T18:51:59.848370+00:00"
+    "backup_hash": "a97fab3dc79d7698f54602b167bd41fb"
+    "new_hash": "d6bb1a545ee10088a3b59342225616bf"
+    "goal_id": "readme_cmd_runner_tui_no_conpty"
+    "semantics": ""
+    "update_attrs": {"relative_path": "README.md", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "### Automating TUI input on Windows (cmd_runner + ConPTY)\n\nIf you need to reproduce a typing bug or script a TUI interaction, run Grok under ConPTY and queue keystrokes:\n\n```powershell\n$run_id = (python .\\cmd_runner.py start \u002d\u002dpty \u002d\u002dtimeout-s 60 \u002d\u002denv GROK_API_KEY=foo \u002d\u002d bun run dev).Trim()\npython .\\cmd_runner.py send $run_id \u002d\u002dtext \"/help\" \u002d\u002denter\npython .\\cmd_runner.py send $run_id \u002d\u002dtext \"exit\" \u002d\u002denter\npython .\\cmd_runner.py wait $run_id \u002d\u002dtimeout-s 30\n```", "replace_present": true}
     "restore_cmd": "uv run adm \u002d\u002drollback \"D:\\zPython\\grok-cli\\README.md\""
   }
 -->

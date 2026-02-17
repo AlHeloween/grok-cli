@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_3d6db131a0fca583a0947867de5c8217 name="readme_cmd_runner_tui_no_conpty" md5="3d6db131a0fca583a0947867de5c8217" size="542">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>### Automating TUI input on Windows (cmd_runner + ConPTY)
+
+If you need to reproduce a typing bug or script a TUI interaction, run Grok under ConPTY and queue keystrokes:
+
+```powershell
+$run_id = (python .\cmd_runner.py start --pty --timeout-s 60 --env GROK_API_KEY=foo -- bun run dev).Trim()
+python .\cmd_runner.py send $run_id --text "/help" --enter
+python .\cmd_runner.py send $run_id --text "exit" --enter
+python .\cmd_runner.py wait $run_id --timeout-s 30
+```</find_text>
+    <content_md5_3d6db131a0fca583a0947867de5c8217>
+      ### Automating TUI input on Windows (cmd_runner)
+      
+      If you need to reproduce a typing bug or script a TUI interaction, run Grok in the default cmd_runner **real console** mode and inject keystrokes:
+      
+      ```powershell
+      $run_id = (python .\cmd_runner.py start --timeout-s 60 --env GROK_API_KEY=foo -- bun run dev).Trim()
+      python .\cmd_runner.py send $run_id --text "/help" --enter
+      python .\cmd_runner.py send $run_id --text "exit" --enter
+      python .\cmd_runner.py wait $run_id --timeout-s 30
+      ```
+      
+      Note: `cmd_runner.py start --pty` uses ConPTY and is useful for some CLI apps, but Ink TUIs may exit immediately if they detect a non-interactive TTY.
+    </content_md5_3d6db131a0fca583a0947867de5c8217>
+  </update_md5_3d6db131a0fca583a0947867de5c8217>
+</updates>

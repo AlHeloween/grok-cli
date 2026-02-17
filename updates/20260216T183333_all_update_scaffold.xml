@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_46ecb1ffa6a92470ecd99005cfeeef18 name="cmd_runner_conpty_hresult_fallback" md5="46ecb1ffa6a92470ecd99005cfeeef18" size="237">
+    <file>cmd_runner.py</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>CreatePseudoConsole = kernel32.CreatePseudoConsole
+    CreatePseudoConsole.argtypes = [COORD, wintypes.HANDLE, wintypes.HANDLE, wintypes.DWORD, ctypes.POINTER(HPCON)]
+    CreatePseudoConsole.restype = wintypes.HRESULT</find_text>
+    <content_md5_46ecb1ffa6a92470ecd99005cfeeef18>
+      CreatePseudoConsole = kernel32.CreatePseudoConsole
+          CreatePseudoConsole.argtypes = [COORD, wintypes.HANDLE, wintypes.HANDLE, wintypes.DWORD, ctypes.POINTER(HPCON)]
+          HRESULT = getattr(wintypes, "HRESULT", ctypes.c_long)
+          CreatePseudoConsole.restype = HRESULT
+    </content_md5_46ecb1ffa6a92470ecd99005cfeeef18>
+  </update_md5_46ecb1ffa6a92470ecd99005cfeeef18>
+</updates>

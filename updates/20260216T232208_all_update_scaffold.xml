@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_e4a2e2dca0dfe263a13f9988216d380e name="cmd_runner_import_codecs" md5="e4a2e2dca0dfe263a13f9988216d380e" size="26">
+    <file>cmd_runner.py</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>import argparse</find_text>
+    <content_md5_e4a2e2dca0dfe263a13f9988216d380e>
+      import argparse
+      import codecs
+    </content_md5_e4a2e2dca0dfe263a13f9988216d380e>
+  </update_md5_e4a2e2dca0dfe263a13f9988216d380e>
+  <update_md5_4ca15ff08acfb0b8bb330e941d6f0268 name="cmd_runner_add_send_functions" md5="4ca15ff08acfb0b8bb330e941d6f0268" size="4634">
+    <file>cmd_runner.py</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>def cmd_start(ns: argparse.Namespace) -&gt; int:</find_text>
+    <expected_matches>1</expected_matches>
+    <content_md5_4ca15ff08acfb0b8bb330e941d6f0268>
+      def cmd_send(ns: argparse.Namespace) -&gt; int:
+          rd = run_dir(ns.run_id)
+          if not rd.exists():
+              print("not found")
+              return 1
+      
+          if os.name != "nt":
+              print("send: Windows-only")
+              return 2
+      
+          sp = _state_path(ns.run_id)
+          if not sp.exists():
+              print("not found")
+              return 1
+          state = _read_json(sp)
+          pid_val = state.get("child_pid")
+          pid = int(pid_val) if isinstance(pid_val, int) else None
+          if pid is None:
+              print("send_failed")
+              return 3
+      
+          text = str(ns.text or "")
+          if bool(ns.escapes):
+              try:
+                  text = codecs.decode(text, "unicode_escape")
+              except Exception:
+                  pass
+      
+          delay_ms = int(ns.delay_ms) if ns.delay_ms is not None else 0
+          ok = _win_console_inject(pid=pid, text=text, enter=bool(ns.enter), delay_ms=delay_ms)
+          print("sent" if ok else "send_failed")
+          return 0 if ok else 3
+      
+      
+      def _win_console_inject(*, pid: int, text: str, enter: bool, delay_ms: int) -&gt; bool:
+          python = _python_for_detached_worker()
+          args = [
+              python,
+              str(Path(__file__).resolve()),
+              "_send_console_input",
+              "--pid",
+              str(int(pid)),
+              "--text",
+              text,
+          ]
+          if enter:
+              args.append("--enter")
+          if delay_ms and delay_ms &gt; 0:
+              args += ["--delay-ms", str(int(delay_ms))]
+      
+          popen_kwargs: dict[str, Any] = {}
+          creationflags = 0
+          creationflags |= getattr(subprocess, "CREATE_NEW_PROCESS_GROUP", 0)
+          creationflags |= getattr(subprocess, "DETACHED_PROCESS", 0)
+          creationflags |= getattr(subprocess, "CREATE_NO_WINDOW", 0)
+          popen_kwargs["creationflags"] = creationflags
+          popen_kwargs["close_fds"] = True
+      
+          cp = subprocess.run(
+              args,
+              stdin=subprocess.DEVNULL,
+              stdout=subprocess.DEVNULL,
+              stderr=subprocess.DEVNULL,
+              **popen_kwargs,
+          )
+          return cp.returncode == 0
+      
+      
+      def cmd__send_console_input(ns: argparse.Namespace) -&gt; int:
+          if os.name != "nt":
+              return 2
+      
+          import ctypes
+          from ctypes import wintypes
+      
+          user32 = ctypes.WinDLL("user32", use_last_error=True)
+          kernel32 = ctypes.WinDLL("kernel32", use_last_error=True)
+      
+          FreeConsole = kernel32.FreeConsole
+          FreeConsole.argtypes = []
+          FreeConsole.restype = wintypes.BOOL
+      
+          AttachConsole = kernel32.AttachConsole
+          AttachConsole.argtypes = [wintypes.DWORD]
+          AttachConsole.restype = wintypes.BOOL
+      
+          CreateFileW = kernel32.CreateFileW
+          CreateFileW.argtypes = [
+              wintypes.LPCWSTR,
+              wintypes.DWORD,
+              wintypes.DWORD,
+              wintypes.LPVOID,
+              wintypes.DWORD,
+              wintypes.DWORD,
+              wintypes.HANDLE,
+          ]
+          CreateFileW.restype = wintypes.HANDLE
+      
+          WriteConsoleInputW = kernel32.WriteConsoleInputW
+          WriteConsoleInputW.argtypes = [
+              wintypes.HANDLE,
+              wintypes.LPVOID,
+              wintypes.DWORD,
+              ctypes.POINTER(wintypes.DWORD),
+          ]
+          WriteConsoleInputW.restype = wintypes.BOOL
+      
+          CloseHandle = kernel32.CloseHandle
+          CloseHandle.argtypes = [wintypes.HANDLE]
+          CloseHandle.restype = wintypes.BOOL
+      
+          VkKeyScanW = user32.VkKeyScanW
+          VkKeyScanW.argtypes = [wintypes.WCHAR]
+          VkKeyScanW.restype = wintypes.SHORT
+      
+          MapVirtualKeyW = user32.MapVirtualKeyW
+          MapVirtualKeyW.argtypes = [wintypes.UINT, wintypes.UINT]
+          MapVirtualKeyW.restype = wintypes.UINT
+      
+          MAPVK_VK_TO_VSC = 0
+          VK_RETURN = 0x0D
+          KEY_EVENT = 0x0001
+      
+          SHIFT_PRESSED = 0x0010
+          LEFT_CTRL_PRESSED = 0x0008
+          RIGHT_ALT_PRESSED = 0x0001
+      
+          class CHAR_UNION(ctypes.Union):
+              _fields_ = [("UnicodeChar", wintypes.WCHAR), ("AsciiChar", wintypes.CHAR)]
+      
+          class KEY_EVENT_RECORD(ctypes.Structure):
+              _fields_ = [
+                  ("bKeyDown", wintypes.BOOL),
+                  ("wRepeatCount", wintypes.WORD),
+                  ("wVirtualKeyCode", wintypes.WORD),
+                  ("wVirtualScanCode", wintypes.WORD),
+                  ("uChar", CHAR_UNION),
+                  ("dwControlKeyState", wintypes.DWORD),
+              ]
+      
+          class EVENT_UNION(ctypes.Union):
+              _fields_ = [("KeyEvent", KEY_EVENT_RECORD)]
+      
+          class INPUT_RECORD(ctypes.Structure):
+              _fields_ = [("EventType", wintypes.WORD), ("Event", EVENT_UNION)]
+      
+          try:
+              FreeConsole()
+          except Exception:
+              pass
+      
+          if not bool(AttachConsole(int(ns.pid))):
+              return 3
+      
+          GENERIC_WRITE = 0x40000000
+          FILE_SHARE_READ = 0x00000001
+          FILE_SHARE_WRITE = 0x00000002
+          OPEN_EXISTING = 3
+      
+          h_conin = CreateFileW(
+              "CONIN$",
+              GENERIC_WRITE,
+              FILE_SHARE_READ | FILE_SHARE_WRITE,
+              None,
+              OPEN_EXISTING,
+              0,
+              None,
+          )
+          if not h_conin or int(h_conin) == -1:
+              return 4
+      
+          def _write_char(ch: str) -&gt; bool:
+              vk = 0
+              scan = 0
+              control_state = 0
+      
+              if ch == "\r":
+                  vk = VK_RETURN
+                  scan = int(MapVirtualKeyW(vk, MAPVK_VK_TO_VSC)) &amp; 0xFFFF
+                  u = CHAR_UNION(UnicodeChar="\r")
+              else:
+                  mapped = int(VkKeyScanW(ch))
+                  if mapped != -1:
+                      vk = mapped &amp; 0xFF
+                      shift_state = (mapped &gt;&gt; 8) &amp; 0xFF
+                      if shift_state &amp; 0x01:
+                          control_state |= SHIFT_PRESSED
+                      if shift_state &amp; 0x02:
+                          control_state |= LEFT_CTRL_PRESSED
+                      if shift_state &amp; 0x04:
+                          control_state |= RIGHT_ALT_PRESSED
+                      scan = int(MapVirtualKeyW(vk, MAPVK_VK_TO_VSC)) &amp; 0xFFFF
+                  u = CHAR_UNION(UnicodeChar=ch)
+      
+              rec_down = INPUT_RECORD()
+              rec_down.EventType = KEY_EVENT
+              rec_down.Event.KeyEvent = KEY_EVENT_RECORD(True, 1, int(vk), int(scan), u, int(control_state))
+      
+              rec_up = INPUT_RECORD()
+              rec_up.EventType = KEY_EVENT
+              rec_up.Event.KeyEvent = KEY_EVENT_RECORD(False, 1, int(vk), int(scan), u, int(control_state))
+      
+              buf = (INPUT_RECORD * 2)(rec_down, rec_up)
+              written = wintypes.DWORD(0)
+              ok = bool(WriteConsoleInputW(h_conin, ctypes.byref(buf), 2, ctypes.byref(written)))
+              return ok and int(written.value) == 2
+      
+          delay = int(ns.delay_ms) if ns.delay_ms is not None else 0
+          for ch in str(ns.text or ""):
+              if not _write_char(ch):
+                  try:
+                      CloseHandle(h_conin)
+                  except Exception:
+                      pass
+                  return 5
+              if delay and delay &gt; 0:
+                  time.sleep(float(delay) / 1000.0)
+      
+          if bool(ns.enter):
+              _write_char("\r")
+      
+          try:
+              CloseHandle(h_conin)
+          except Exception:
+              pass
+      
+          return 0
+    </content_md5_4ca15ff08acfb0b8bb330e941d6f0268>
+  </update_md5_4ca15ff08acfb0b8bb330e941d6f0268>
+  <update_md5_bb5585c5fcf570573bdb782f9fa86167 name="cmd_runner_build_parser_send" md5="bb5585c5fcf570573bdb782f9fa86167" size="546">
+    <file>cmd_runner.py</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    p_start.set_defaults(func=cmd_start)</find_text>
+    <content_md5_bb5585c5fcf570573bdb782f9fa86167>
+      p_start.set_defaults(func=cmd_start); p_send = sub.add_parser("send", help="Send keystrokes to a running session (Windows)"); p_send.add_argument("run_id"); p_send.add_argument("--text", required=True, help="Text to send as keystrokes."); p_send.add_argument("--enter", action="store_true", help="Append Enter (CR) after text."); p_send.add_argument("--delay-ms", type=int, default=None, help="Delay per character (helps slow UIs)."); p_send.add_argument("--escapes", action="store_true", help="Interpret C-style escapes in --text (e.g. \\\\n, \\\\x1b)."); p_send.set_defaults(func=cmd_send)
+    </content_md5_bb5585c5fcf570573bdb782f9fa86167>
+  </update_md5_bb5585c5fcf570573bdb782f9fa86167>
+  <update_md5_0ba32466326fbc53c2aed8ce99d177cd name="cmd_runner_build_parser_internal_send_console" md5="0ba32466326fbc53c2aed8ce99d177cd" size="431">
+    <file>cmd_runner.py</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    p_run.set_defaults(func=cmd__run)</find_text>
+    <content_md5_0ba32466326fbc53c2aed8ce99d177cd>
+      p_run.set_defaults(func=cmd__run); p_send_console = sub.add_parser("_send_console_input", help="Internal helper: inject keys into a Windows console"); p_send_console.add_argument("--pid", required=True, type=int); p_send_console.add_argument("--text", required=True); p_send_console.add_argument("--enter", action="store_true"); p_send_console.add_argument("--delay-ms", type=int, default=None); p_send_console.set_defaults(func=cmd__send_console_input)
+    </content_md5_0ba32466326fbc53c2aed8ce99d177cd>
+  </update_md5_0ba32466326fbc53c2aed8ce99d177cd>
+</updates>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_116f4a0ee737c290bf9a6e1f8ec79368 name="enhanced_input_sequence_fallback" md5="116f4a0ee737c290bf9a6e1f8ec79368" size="719">
+    <file>src/hooks/use-enhanced-input.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Use key.sequence as a fallback source of printable input when Ink does not populate inputChar (observed in some Windows terminals).</semantics>
+    <find_text>    // Handle regular character input
+    if (inputChar &amp;&amp; !key.ctrl &amp;&amp; !key.meta) {
+      const result = insertText(input, cursorPosition, inputChar);
+      const { text: capped, position } = capToMaxLength(result.text, result.position, onTruncated);
+      setInputState(capped);
+      setCursorPositionState(position);
+      setOriginalInput(capped);
+    }</find_text>
+    <content_md5_116f4a0ee737c290bf9a6e1f8ec79368>
+      // Handle regular character input
+      // Ink normally passes printable keys via `inputChar`, but in some terminals
+      // (notably on Windows) `inputChar` may be empty while `key.sequence` contains
+      // the typed character.
+      const seq = typeof key.sequence === "string" ? key.sequence : "";
+      const seqIsSingleChar = seq &amp;&amp; Array.from(seq).length === 1;
+      const seqIsPrintable =
+        seqIsSingleChar &amp;&amp;
+        seq !== "\n" &amp;&amp;
+        seq !== "\r" &amp;&amp;
+        seq !== "\t" &amp;&amp;
+        seq !== "\u001b" &amp;&amp;
+        seq !== "\b" &amp;&amp;
+        seq !== "\x7f";
+      
+      const charToInsert = inputChar || (seqIsPrintable ? seq : "");
+      
+      if (charToInsert &amp;&amp; !key.ctrl &amp;&amp; !key.meta) {
+        const result = insertText(input, cursorPosition, charToInsert);
+        const { text: capped, position } = capToMaxLength(
+          result.text,
+          result.position,
+          onTruncated
+        );
+        setInputState(capped);
+        setCursorPositionState(position);
+        setOriginalInput(capped);
+      }
+    </content_md5_116f4a0ee737c290bf9a6e1f8ec79368>
+  </update_md5_116f4a0ee737c290bf9a6e1f8ec79368>
+</updates>

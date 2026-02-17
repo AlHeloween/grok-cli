@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_1c65b8cd0e8c436e53e7ca1fe44df649 name="readme_makerai_heading_newline" md5="1c65b8cd0e8c436e53e7ca1fe44df649" size="117">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Ensure 'Optional: MakerAI GUI' heading starts on a new line.</semantics>
+    <find_text>Env overrides (optional): `GROK_RAG_EXTRACTOR=sqlite-rag`, `GROK_RAG_PYTHON=python`.### Optional: MakerAI GUI (import/export)</find_text>
+    <content_md5_1c65b8cd0e8c436e53e7ca1fe44df649>
+      Env overrides (optional): `GROK_RAG_EXTRACTOR=sqlite-rag`, `GROK_RAG_PYTHON=python`.
+      
+      ### Optional: MakerAI GUI (import/export)
+    </content_md5_1c65b8cd0e8c436e53e7ca1fe44df649>
+  </update_md5_1c65b8cd0e8c436e53e7ca1fe44df649>
+</updates>

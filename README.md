@@ -235,7 +235,9 @@ grok config set project.rag.python python
 grok rag index --extractor sqlite-rag
 ```
 
-Env overrides (optional): `GROK_RAG_EXTRACTOR=sqlite-rag`, `GROK_RAG_PYTHON=python`.### Optional: MakerAI GUI (import/export)
+Env overrides (optional): `GROK_RAG_EXTRACTOR=sqlite-rag`, `GROK_RAG_PYTHON=python`.
+
+### Optional: MakerAI GUI (import/export)
 
 If you want a GUI to browse/edit your vector content, you can export the current `.grok/rag.db` into MakerAI's `RAGVector` JSON format, edit/browse it in MakerAI, then import it back.
 
@@ -650,13 +652,13 @@ MIT
   SDID_ROLLBACK {
     "target_file": "D:\\zPython\\grok-cli\\README.md"
     "update_script": "adm.exe"
-    "backup_path": "D:\\zPython\\grok-cli\\README.md.backup_20260217T201319_915787"
-    "created_at": "2026-02-17T12:13:19.959435+00:00"
-    "backup_hash": "7dd72bba4d53ead4343cef0615aab8b8"
-    "new_hash": "90c8d1e99baa47e4eba06477e607c9ce"
-    "goal_id": "readme_troubleshooting_typing_update"
-    "semantics": "Clarify root cause and add GROK_DEBUG_INPUT_FILE example for typing issues."
-    "update_attrs": {"relative_path": "README.md", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "Some Windows terminals can deliver printable keys to Ink with `key.meta=true` and/or with an empty `inputChar`, which can prevent Grok CLI from inserting typed characters.\n\n- Try the latest version first (this repo includes a fix to accept printable `key.sequence` characters even when `meta` is set).\n- To capture what Ink is receiving, run with:\n\n```bash\n# macOS/Linux (bash/zsh)\nGROK_DEBUG_INPUT=1 grok\n\n# Windows PowerShell\n$env:GROK_DEBUG_INPUT=1; grok\n\n# Windows cmd.exe\nset GROK_DEBUG_INPUT=1 && grok\n```\n\nThis shows a debug line under the footer and also appends JSONL events to `logs/input_debug.jsonl` (override path with `GROK_DEBUG_INPUT_FILE`). Attach the JSONL file when reporting input issues.", "replace_present": true}
+    "backup_path": "D:\\zPython\\grok-cli\\README.md.backup_20260217T202200_817257"
+    "created_at": "2026-02-17T12:22:00.830931+00:00"
+    "backup_hash": "c0a6dbfd10221b192d352e6ed3807b1d"
+    "new_hash": "c0a6dbfd10221b192d352e6ed3807b1d"
+    "goal_id": "readme_makerai_heading_newline"
+    "semantics": "Ensure 'Optional: MakerAI GUI' heading starts on a new line."
+    "update_attrs": {"relative_path": "README.md", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "Env overrides (optional): `GROK_RAG_EXTRACTOR=sqlite-rag`, `GROK_RAG_PYTHON=python`.### Optional: MakerAI GUI (import/export)", "replace_present": true}
     "restore_cmd": "uv run adm \u002d\u002drollback \"D:\\zPython\\grok-cli\\README.md\""
   }
 -->

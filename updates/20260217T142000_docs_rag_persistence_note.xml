@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_fa8e476e3294985c72f70e3b68c98f69 name="readme_rag_persistence_note" md5="fa8e476e3294985c72f70e3b68c98f69" size="514">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>### Ignore files
+
+Optionally create `.grok/ragignore` (one rule per line). In v1, rules are simple **substring matches** against relative paths.</find_text>
+    <semantics>Add a note explaining sqlite-wasm persistence behavior on Node/Bun.</semantics>
+    <content_md5_fa8e476e3294985c72f70e3b68c98f69>
+      ### Ignore files
+      
+      Optionally create `.grok/ragignore` (one rule per line). In v1, rules are simple **substring matches** against relative paths.
+      
+      ### RAG DB persistence (Node/Bun)
+      
+      `@sqliteai/sqlite-wasm` runs SQLite in WebAssembly and does not mount a native Node filesystem VFS by default. To keep `.grok/rag.db` persistent across runs, Grok CLI:
+      
+      - Opens an in-memory DB
+      - Deserializes from `.grok/rag.db` if it exists
+      - Exports the DB back to `.grok/rag.db` on `VectorDb.close()` when mutated
+      
+      Avoid concurrent writers (two processes opening the same project RAG DB at once) because the last writer wins.
+    </content_md5_fa8e476e3294985c72f70e3b68c98f69>
+  </update_md5_fa8e476e3294985c72f70e3b68c98f69>
+  <update_md5_54453587103d5013c4fabc42f9683b60 name="handover_rag_persistence_note" md5="54453587103d5013c4fabc42f9683b60" size="1005">
+    <file>docs/HANDOVER.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>## RAG and k-medoids
+
+- **Enable RAG**: Set `rag.enabled: true` in project `.grok/settings.json` (or via `/config`), then run `grok rag index`.
+- **Behavior**: Retriever embeds the user query, searches `.grok/rag.db`, and injects chunks into the system message for that turn.
+- **k-medoids (optional)**: When `project.rag.useKMedoids` is true, the retriever fetches `rag.candidateCount` candidates and uses k-medoids to pick `rag.topK` representative chunks (better diversity). Enable via `/config` (RAG → Use k-medoids) or `grok config set project.rag.useKMedoids true`; all RAG keys in `docs/settings.json.md`.</find_text>
+    <semantics>Document sqlite-wasm persistence implementation and RagManager smoke validation.</semantics>
+    <content_md5_54453587103d5013c4fabc42f9683b60>
+      ## RAG and k-medoids
+      
+      - **Enable RAG**: Set `rag.enabled: true` in project `.grok/settings.json` (or via `/config`), then run `grok rag index`.
+      - **Behavior**: Retriever embeds the user query, searches `.grok/rag.db`, and injects chunks into the system message for that turn.
+      - **Persistence note (Node/Bun)**: `@sqliteai/sqlite-wasm` is WASM and does not mount a native Node FS VFS by default. This repo persists `.grok/rag.db` by deserializing from disk on open and exporting back to disk on `VectorDb.close()` when mutated (see `src/rag/vector-db.ts`).
+      - **k-medoids (optional)**: When `project.rag.useKMedoids` is true, the retriever fetches `rag.candidateCount` candidates and uses k-medoids to pick `rag.topK` representative chunks (better diversity). Enable via `/config` (RAG → Use k-medoids) or `grok config set project.rag.useKMedoids true`; all RAG keys in `docs/settings.json.md`.
+      
+      RAG GUI (MakerAI):
+      
+      - Build `RagManager.exe`: `powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-makerai.ps1`
+      - Launch interactive editor: `grok rag gui`
+      - Smoke test (no UI): `grok rag gui --smoke` (writes `.grok/makerai-ragvector.smoke.json`)
+    </content_md5_54453587103d5013c4fabc42f9683b60>
+  </update_md5_54453587103d5013c4fabc42f9683b60>
+</updates>

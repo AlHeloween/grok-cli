@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_61250880c91d921b35449fe75dd4fe6a name="ragmanager_create_dfm" md5="61250880c91d921b35449fe75dd4fe6a" size="127">
+    <file>MakerAI/Integration/RagManager/uRagManagerMain.dfm</file>
+    <update_type>text</update_type>
+    <mode>create</mode>
+    <encoding>utf-8</encoding>
+    <semantics>Add an (empty) DFM resource so VCL TForm.Create can load it.</semantics>
+    <content_md5_61250880c91d921b35449fe75dd4fe6a>
+      object RagManagerForm: TRagManagerForm
+        Caption = 'Grok RAG Manager (MakerAI)'
+        ClientHeight = 800
+        ClientWidth = 1200
+        Position = poScreenCenter
+      end
+    </content_md5_61250880c91d921b35449fe75dd4fe6a>
+  </update_md5_61250880c91d921b35449fe75dd4fe6a>
+  <update_md5_4b9905f84ede1bdaa4e9f958e8a0995d name="ragmanager_add_r_dfm" md5="4b9905f84ede1bdaa4e9f958e8a0995d" size="91">
+    <file>MakerAI/Integration/RagManager/uRagManagerMain.pas</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>implementation
+
+constructor TRagManagerForm.Create(AOwner: TComponent);
+begin
+  inherited CreateNew(AOwner);</find_text>
+    <semantics>Link DFM and use inherited Create to avoid CreateNew-related instability.</semantics>
+    <content_md5_4b9905f84ede1bdaa4e9f958e8a0995d>
+      implementation
+      
+      {$R *.dfm}
+      
+      constructor TRagManagerForm.Create(AOwner: TComponent);
+      begin
+        inherited;
+    </content_md5_4b9905f84ede1bdaa4e9f958e8a0995d>
+  </update_md5_4b9905f84ede1bdaa4e9f958e8a0995d>
+</updates>

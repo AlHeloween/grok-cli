@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_2b937be4748f6e9f1b0c9858bf9d3b03 name="readme_makerai_build_close_note" md5="2b937be4748f6e9f1b0c9858bf9d3b03" size="203">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>Outputs go to `MakerAI/_build/win64/` (demo EXE in `MakerAI/_build/win64/bin/`).</find_text>
+    <semantics>Add note about closing RagManager before rebuild to avoid locked output exe.</semantics>
+    <content_md5_2b937be4748f6e9f1b0c9858bf9d3b03>
+      Outputs go to `MakerAI/_build/win64/` (demo EXE in `MakerAI/_build/win64/bin/`).
+      
+      Note: Close `RagManager.exe` before running the build script, otherwise Delphi may fail with “Could not create output file …\\RagManager.exe”.
+    </content_md5_2b937be4748f6e9f1b0c9858bf9d3b03>
+  </update_md5_2b937be4748f6e9f1b0c9858bf9d3b03>
+</updates>

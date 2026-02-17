@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <updates>
+        <!--
+          Template notes (Exact):
+            - This file is a template; keep only the update blocks you need and delete the rest.
+            - After editing payloads/metadata, run: tools/adm.exe --fix-xml updates/<file>.xml
+            - Template selection: tools/adm.exe --template all
+
+          Wrapper commands (Exact; not descriptor modes):
+            - Rust-backed regex replacement: use tools/adm.exe --rg <pattern> <replacement> <file>
+            - Sed transformation: use tools/adm.exe --sed <script> <file>
+        -->
+        <metadata>
+          <created_at>2026-02-17T14:40:41.824017+00:00</created_at>
+          <goal>Describe all supported update modes in one descriptor.</goal>
+          <owner>REPLACE_WITH_OWNER</owner>
+          <created_with>
+            <git_head>a521215da0149299c398dc05534c5c5079cb9f44</git_head>
+            <uv_lock_md5>missing</uv_lock_md5>
+            <python>3.13.9</python>
+            <semgrep>unknown</semgrep>
+            <tree_sitter>absent</tree_sitter>
+            <tree_sitter_language_pack>absent</tree_sitter_language_pack>
+          </created_with>
+          <scripts>
+            <script name="20260217T144041_cli_update.py">Document the operational steps here (apply/verify/rollback).</script>
+          </scripts>
+          <logging>
+            <progress_log path="_progress_log.md" mode="append" />
+            <manifest enabled="true" />
+          </logging>
+          <verification>
+            <verify_all root="." reports_path="logs" />
+            <diagram generator="docs/documentation_uml_generator.py" output="docs/uml_diagram.md" />
+          </verification>
+          <hints>
+            <!-- Legacy marker names referenced by some tooling/tests: -->
+            <name>text_anchor_example</name>
+            <name>text_insert_example</name>
+            <name>binary_patch_example</name>
+            <name>rust_regex_example</name>
+            <name>sed_script_example</name>
+            <name>structured_rule_example</name>
+          </hints>
+        </metadata>
+
+        <update_md5_ee723c047b5a1b65e6fff41c1cdd8015 name="core_refactor_main" md5="ee723c047b5a1b65e6fff41c1cdd8015" size="69">
+  <file>tetris.py</file>
+  <update_type>refactor</update_type>
+  <mode>replace</mode>
+  <refactor_action>replace_function</refactor_action>
+  <refactor_target_name>main</refactor_target_name>
+  <content_md5_ee723c047b5a1b65e6fff41c1cdd8015>
+    def main():
+        """Initializes and runs the Tetris game."""
+        game = Game()
+        game.run()
+  </content_md5_ee723c047b5a1b65e6fff41c1cdd8015>
+</update_md5_ee723c047b5a1b65e6fff41c1cdd8015>
+
+<update_md5_7e45ca5500e00d13aff0ba8b0f8e046f name="text_overwrite_full_file" md5="7e45ca5500e00d13aff0ba8b0f8e046f" size="31">
+  <file>src/project_name/module.py</file>
+  <update_type>text</update_type>
+  <mode>overwrite</mode>
+  <encoding>utf-8</encoding>
+  <line_endings>LF</line_endings>
+  <semantics>Overwrite entire file content. Identifier: text_anchor_example</semantics>
+  <content_md5_7e45ca5500e00d13aff0ba8b0f8e046f>
+    # Example module (template)
+    VALUE = 1
+  </content_md5_7e45ca5500e00d13aff0ba8b0f8e046f>
+</update_md5_7e45ca5500e00d13aff0ba8b0f8e046f>
+
+<update_md5_c0714090cf53dd18da6bbfad306e806c name="text_anchor_replace" md5="c0714090cf53dd18da6bbfad306e806c" size="7">
+  <file>src/project_name/module.py</file>
+  <update_type>text</update_type>
+  <mode>replace</mode>
+  <encoding>utf-8</encoding>
+  <find_text>VALUE = 1</find_text>
+  <semantics>Replace one literal anchor occurrence.</semantics>
+  <content_md5_c0714090cf53dd18da6bbfad306e806c>
+    VALUE = 2
+  </content_md5_c0714090cf53dd18da6bbfad306e806c>
+</update_md5_c0714090cf53dd18da6bbfad306e806c>
+
+<update_md5_647552a1cc321def7fc9811e68323914 name="text_insert_before_anchor" md5="647552a1cc321def7fc9811e68323914" size="19">
+  <file>src/project_name/module.py</file>
+  <update_type>text</update_type>
+  <mode>insert</mode>
+  <encoding>utf-8</encoding>
+  <find_text>VALUE = 2</find_text>
+  <expected_matches>1</expected_matches>
+  <semantics>Insert text before the 1st occurrence of find_text. Identifier: text_insert_example</semantics>
+  <content_md5_647552a1cc321def7fc9811e68323914>
+    # Inserted banner line
+  </content_md5_647552a1cc321def7fc9811e68323914>
+</update_md5_647552a1cc321def7fc9811e68323914>
+
+<update_md5_181a2786404f64d818180cfeb21ae6ae name="text_delete_anchor" md5="181a2786404f64d818180cfeb21ae6ae" size="29">
+  <file>src/project_name/module.py</file>
+  <update_type>text</update_type>
+  <mode>delete</mode>
+  <encoding>utf-8</encoding>
+  <find_text># Inserted banner line</find_text>
+  <expected_matches>1</expected_matches>
+  <semantics>Delete one occurrence of find_text.</semantics>
+  <content_md5_181a2786404f64d818180cfeb21ae6ae>
+    (payload ignored for delete mode)
+  </content_md5_181a2786404f64d818180cfeb21ae6ae>
+</update_md5_181a2786404f64d818180cfeb21ae6ae>
+
+<update_md5_aaf5c1c10c8fc672fb147d07a7b1ae5a name="text_create_new_file" md5="aaf5c1c10c8fc672fb147d07a7b1ae5a" size="29">
+  <file>src/project_name/new_module.py</file>
+  <update_type>text</update_type>
+  <mode>create</mode>
+  <encoding>utf-8</encoding>
+  <semantics>Create-only write (safe for first-time templates).</semantics>
+  <content_md5_aaf5c1c10c8fc672fb147d07a7b1ae5a>
+    def hello() -&gt; str:
+        return "hello"
+  </content_md5_aaf5c1c10c8fc672fb147d07a7b1ae5a>
+</update_md5_aaf5c1c10c8fc672fb147d07a7b1ae5a>
+
+<update_md5_44e30b8c565308d0b727e0c3f92e64ae name="binary_whole_file_swap" md5="44e30b8c565308d0b727e0c3f92e64ae" size="25">
+  <file>assets/logo.png</file>
+  <update_type>binary</update_type>
+  <mode>overwrite</mode>
+  <semantics>Replace entire file with base64 content; md5/size computed on decoded bytes. Identifier: binary_patch_example</semantics>
+  <content_md5_44e30b8c565308d0b727e0c3f92e64ae>
+    REPLACE_WITH_BASE64_BYTES
+  </content_md5_44e30b8c565308d0b727e0c3f92e64ae>
+</update_md5_44e30b8c565308d0b727e0c3f92e64ae>
+
+<update_md5_aaaa4248223310917fa568e062eda987 name="binary_hex_replace" md5="aaaa4248223310917fa568e062eda987" size="8">
+  <file>bin/blob.dat</file>
+  <update_type>binary</update_type>
+  <mode>hex-replace</mode>
+  <find_pattern>DE AD BE EF</find_pattern>
+  <semantics>Replace hex byte sequence with a new hex byte sequence.</semantics>
+  <content_md5_aaaa4248223310917fa568e062eda987>
+    BA AD F0 0D
+  </content_md5_aaaa4248223310917fa568e062eda987>
+</update_md5_aaaa4248223310917fa568e062eda987>
+
+<update_md5_6f15b1874b05d70b797fdccacee51db8 name="structured_rule_python" md5="6f15b1874b05d70b797fdccacee51db8" size="195">
+  <file>src/project_name/service.py</file>
+  <update_type>text</update_type>
+  <mode>pattern-rule</mode>
+  <encoding>utf-8</encoding>
+  <semantics>Semgrep-style tree-sitter rewrite: rename function and preserve body. Identifier: structured_rule_example</semantics>
+  <content_md5_6f15b1874b05d70b797fdccacee51db8>
+    &lt;pattern_rule&gt;
+      &lt;language&gt;python&lt;/language&gt;
+      &lt;pattern&gt;(function_definition
+    name: (identifier) @old_name
+    body: (block) @body)&lt;/pattern&gt;
+      &lt;replacement&gt;def migrated_@old_name():
+    @body&lt;/replacement&gt;
+    &lt;/pattern_rule&gt;
+  </content_md5_6f15b1874b05d70b797fdccacee51db8>
+</update_md5_6f15b1874b05d70b797fdccacee51db8>
+      </updates>

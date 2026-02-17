@@ -66,9 +66,7 @@ uses
   System.Generics.Collections, System.NetEncoding, System.JSON,
   System.StrUtils, System.Net.URLClient, System.Net.HttpClient,
   System.Net.HttpClientComponent, REST.JSON, REST.Types, REST.Client,
-{$IF CompilerVersion < 35}
   uJSONHelper,
-{$ENDIF}
   uMakerAi.ParamsRegistry, uMakerAi.Chat, uMakerAi.Tools.Functions, uMakerAi.Core,
   uMakerAi.Utils.CodeExtractor;
 

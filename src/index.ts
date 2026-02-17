@@ -5,6 +5,7 @@ import { program } from "commander";
 import * as dotenv from "dotenv";
 import * as fs from "fs";
 import * as path from "path";
+import { spawnSync } from "child_process";
 import { GrokAgent } from "./agent/grok-agent.js";
 import ChatInterface from "./ui/components/chat-interface.js";
 import { ThemeProvider } from "./ui/context/theme-context.js";
@@ -794,6 +795,90 @@ ragCommand
       console.log(`? Dimension: ${res.dim}`);
     } catch (error: any) {
       console.error("? Import failed:", error.message);
+      process.exit(1);
+    }
+  });
+
+ragCommand
+  .command("gui")
+  .description("Open MakerAI-based GUI to browse/edit RAG (exports to JSON, supports apply/refresh)")
+  .option("-d, --directory <dir>", "set working directory", process.cwd())
+  .option("--db <path>", "path to rag.db (default: project .grok/rag.db)")
+  .option("--json <path>", "path to MakerAI JSON (default: project .grok/makerai-ragvector.json)")
+  .option("--exe <path>", "path to RagManager.exe (default: MakerAI/_build/win64/bin/RagManager.exe)")
+  .option("--smoke", "run RagManager in headless smoke-test mode", false)
+  .action(async (options) => {
+    if (options.directory) {
+      try {
+        process.chdir(options.directory);
+      } catch (error: any) {
+        console.error(
+          `Error changing directory to ${options.directory}:`,
+          error.message
+        );
+        process.exit(1);
+      }
+    }
+
+    const manager = getSettingsManager();
+    const dbPath = options.db || manager.getRagDbPath();
+    const jsonPath =
+      options.json ||
+      path.resolve(process.cwd(), ".grok", "makerai-ragvector.json");
+    const smokeLogPath = path.resolve(
+      process.cwd(),
+      ".grok",
+      "makerai-ragvector.smoke.json"
+    );
+    const exePath =
+      options.exe ||
+      path.resolve(process.cwd(), "MakerAI", "_build", "win64", "bin", "RagManager.exe");
+
+    if (!fs.existsSync(exePath)) {
+      console.error(`❌ RagManager.exe not found at: ${exePath}`);
+      console.error(
+        "Build it with: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-makerai.ps1"
+      );
+      process.exit(1);
+    }
+
+    try {
+      const res = await exportVectorDbToMakerAiJson({
+        dbPath,
+        outFile: jsonPath,
+        name: path.basename(process.cwd()),
+        description: "",
+        model: "",
+      });
+      console.log(`✓ Exported ${res.chunks} chunk(s) to ${res.outFile}`);
+
+      const quote = (s: string) => {
+        const str = String(s);
+        return /[\s"]/g.test(str) ? `"${str.replaceAll('"', '\\"')}"` : str;
+      };
+
+      const selfCmd = `${quote(process.argv[0])} ${quote(process.argv[1])}`;
+      const applyCmd = `${selfCmd} rag import-makerai ${quote(jsonPath)} --db ${quote(dbPath)} --replace`;
+      const refreshCmd = `${selfCmd} rag export-makerai --db ${quote(dbPath)} -o ${quote(jsonPath)} --name ${quote(path.basename(process.cwd()))}`;
+
+      const args = ["--json", jsonPath, "--db", dbPath];
+      if (options.smoke) {
+        args.push("--smoke", "--smoke-log", smokeLogPath, "--refresh-cmd", refreshCmd);
+      } else {
+        args.push("--apply-cmd", applyCmd, "--refresh-cmd", refreshCmd);
+      }
+
+      const r = spawnSync(exePath, args, {
+        stdio: "inherit",
+      });
+      if (options.smoke) {
+        if (r.status !== 0) process.exit(r.status ?? 1);
+        if (fs.existsSync(smokeLogPath)) {
+          console.log(`✓ RagManager smoke log: ${smokeLogPath}`);
+        }
+      }
+    } catch (error: any) {
+      console.error("❌ RAG GUI failed:", error.message);
       process.exit(1);
     }
   });

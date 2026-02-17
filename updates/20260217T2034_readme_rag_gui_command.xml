@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_aca7dcee397cf37e8ae4ea5ec79840b4 name="readme_add_rag_gui_command" md5="aca7dcee397cf37e8ae4ea5ec79840b4" size="443">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Add usage for `grok rag gui` and RagManager build prerequisite.</semantics>
+    <find_text>### Optional: MakerAI GUI (import/export)
+
+If you want a GUI to browse/edit your vector content, you can export the current `.grok/rag.db` into MakerAI's `RAGVector` JSON format, edit/browse it in MakerAI, then import it back.</find_text>
+    <content_md5_aca7dcee397cf37e8ae4ea5ec79840b4>
+      ### Optional: MakerAI GUI (import/export)
+      
+      If you want a GUI to browse/edit your vector content, you can export the current `.grok/rag.db` into MakerAI's `RAGVector` JSON format, edit/browse it in MakerAI, then import it back.
+      
+      You can also launch the vendored MakerAI-based editor (`RagManager.exe`) via:
+      
+      ```bash
+      grok rag gui
+      ```
+      
+      This command exports to `.grok/makerai-ragvector.json` and opens the editor with **Refresh**/**Apply** buttons that call back into `grok rag export-makerai` / `grok rag import-makerai`.
+    </content_md5_aca7dcee397cf37e8ae4ea5ec79840b4>
+  </update_md5_aca7dcee397cf37e8ae4ea5ec79840b4>
+</updates>

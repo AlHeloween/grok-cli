@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_58e3c669d62dc93ad64289a4bc160fd9 name="ragmanager_private_helpers" md5="58e3c669d62dc93ad64289a4bc160fd9" size="207">
+    <file>MakerAI/Integration/RagManager/uRagManagerMain.pas</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    procedure ParseArgs;
+    procedure SetStatus(const S: string);
+    procedure RunSmoke;
+    procedure LoadJson(const Path: string);
+    procedure SaveJson(const Path: string);
+    procedure RefreshList;</find_text>
+    <semantics>Add helpers to rebuild TAiRAGVector (clears stale index pointers).</semantics>
+    <content_md5_58e3c669d62dc93ad64289a4bc160fd9>
+      procedure ParseArgs;
+      procedure SetStatus(const S: string);
+      procedure RunSmoke;
+      procedure FreeRagAndItems;
+      procedure ResetRag;
+      procedure LoadJson(const Path: string);
+      procedure SaveJson(const Path: string);
+      procedure RefreshList;
+    </content_md5_58e3c669d62dc93ad64289a4bc160fd9>
+  </update_md5_58e3c669d62dc93ad64289a4bc160fd9>
+  <update_md5_1d48ec43ff583fbf730478061733a36b name="ragmanager_destroy_free_items" md5="1d48ec43ff583fbf730478061733a36b" size="69">
+    <file>MakerAI/Integration/RagManager/uRagManagerMain.pas</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>destructor TRagManagerForm.Destroy;
+begin
+  inherited;
+end;</find_text>
+    <semantics>Free embedding nodes explicitly; MakerAI vector list does not own node lifetimes.</semantics>
+    <content_md5_1d48ec43ff583fbf730478061733a36b>
+      destructor TRagManagerForm.Destroy;
+      begin
+        FreeRagAndItems;
+        inherited;
+      end;
+    </content_md5_1d48ec43ff583fbf730478061733a36b>
+  </update_md5_1d48ec43ff583fbf730478061733a36b>
+  <update_md5_40a88ba81a3794429b4f8a2292b72a72 name="ragmanager_add_reset_impl" md5="40a88ba81a3794429b4f8a2292b72a72" size="310">
+    <file>MakerAI/Integration/RagManager/uRagManagerMain.pas</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>procedure TRagManagerForm.RunSmoke;
+var
+  rc: Cardinal;
+  outPath: string;
+  jo: TJSONObject;
+begin</find_text>
+    <insert_position>before</insert_position>
+    <semantics>Implement ResetRag by recreating TAiRAGVector (clears HNSW index state).</semantics>
+    <content_md5_40a88ba81a3794429b4f8a2292b72a72>
+      procedure TRagManagerForm.FreeRagAndItems;
+      var
+        i: Integer;
+      begin
+        if not Assigned(FRag) then
+          Exit;
+        try
+          for i := 0 to FRag.Items.Count - 1 do
+            FRag.Items[i].Free;
+        except
+          // ignore cleanup errors
+        end;
+        FreeAndNil(FRag);
+      end;
+      
+      procedure TRagManagerForm.ResetRag;
+      begin
+        FreeRagAndItems;
+        FRag := TAiRAGVector.Create(Self);
+        FRag.Embeddings := FEmbeddings;
+      end;
+    </content_md5_40a88ba81a3794429b4f8a2292b72a72>
+  </update_md5_40a88ba81a3794429b4f8a2292b72a72>
+  <update_md5_ffe0c0b7c07ea1babf9a9eab756f4077 name="ragmanager_loadjson_recreate" md5="ffe0c0b7c07ea1babf9a9eab756f4077" size="172">
+    <file>MakerAI/Integration/RagManager/uRagManagerMain.pas</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>procedure TRagManagerForm.LoadJson(const Path: string);
+begin
+  FRag.Clear;
+  FRag.LoadFromFile(Path);
+  SetStatus(Format('Loaded %d item(s) from %s (dim=%d)', [FRag.Count, Path, FRag.Dim]));
+end;</find_text>
+    <semantics>Recreate TAiRAGVector on load to avoid stale index references across reloads.</semantics>
+    <content_md5_ffe0c0b7c07ea1babf9a9eab756f4077>
+      procedure TRagManagerForm.LoadJson(const Path: string);
+      begin
+        ResetRag;
+        FRag.LoadFromFile(Path);
+        SetStatus(Format('Loaded %d item(s) from %s (dim=%d)', [FRag.Count, Path, FRag.Dim]));
+      end;
+    </content_md5_ffe0c0b7c07ea1babf9a9eab756f4077>
+  </update_md5_ffe0c0b7c07ea1babf9a9eab756f4077>
+  <update_md5_dda1a3ecf21f67e71692e90613796398 name="ragmanager_reembed_reload" md5="dda1a3ecf21f67e71692e90613796398" size="210">
+    <file>MakerAI/Integration/RagManager/uRagManagerMain.pas</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>procedure TRagManagerForm.OnReEmbedClick(Sender: TObject);
+begin
+  SaveEditorToSelected(True);
+  SetStatus('Re-embedded selected item.');
+end;</find_text>
+    <semantics>After re-embedding, persist and reload to rebuild index for consistency.</semantics>
+    <content_md5_dda1a3ecf21f67e71692e90613796398>
+      procedure TRagManagerForm.OnReEmbedClick(Sender: TObject);
+      begin
+        SaveEditorToSelected(True);
+        if FJsonPath &lt;&gt; '' then
+        begin
+          SaveJson(FJsonPath);
+          LoadJson(FJsonPath);
+          RefreshList;
+        end;
+        SetStatus('Re-embedded selected item.');
+      end;
+    </content_md5_dda1a3ecf21f67e71692e90613796398>
+  </update_md5_dda1a3ecf21f67e71692e90613796398>
+  <update_md5_39f7ad88fc5973973261548b4790c7d8 name="ragmanager_add_reload" md5="39f7ad88fc5973973261548b4790c7d8" size="560">
+    <file>MakerAI/Integration/RagManager/uRagManagerMain.pas</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>procedure TRagManagerForm.OnAddClick(Sender: TObject);
+var
+  md: TAiEmbeddingMetaData;
+  node: TAiEmbeddingNode;
+  text: string;
+begin
+  EnsureEmbeddingsConfigured;
+  text := InputBox('Add item', 'Text:', '');
+  if Trim(text) = '' then Exit;
+  md := TAiEmbeddingMetaData.Create;
+  try
+    node := FRag.AddItem(text, md);
+    if Assigned(node) then
+    begin
+      if not Assigned(node.jData) then
+        node.jData := TJSONObject.Create;
+      node.jData.AddPair('path', InputBox('Add item', 'Path (json.path):', ''));
+      node.jData.AddPair('meta', '');
+    end;
+  finally
+    md.Free;
+  end;
+  RefreshList;
+end;</find_text>
+    <semantics>After add, persist and reload to rebuild index and avoid stale pointers.</semantics>
+    <content_md5_39f7ad88fc5973973261548b4790c7d8>
+      procedure TRagManagerForm.OnAddClick(Sender: TObject);
+      var
+        md: TAiEmbeddingMetaData;
+        node: TAiEmbeddingNode;
+        text: string;
+      begin
+        EnsureEmbeddingsConfigured;
+        text := InputBox('Add item', 'Text:', '');
+        if Trim(text) = '' then Exit;
+        md := TAiEmbeddingMetaData.Create;
+        try
+          node := FRag.AddItem(text, md);
+          if Assigned(node) then
+          begin
+            if not Assigned(node.jData) then
+              node.jData := TJSONObject.Create;
+            node.jData.AddPair('path', InputBox('Add item', 'Path (json.path):', ''));
+            node.jData.AddPair('meta', '');
+          end;
+        finally
+          md.Free;
+        end;
+      
+        if FJsonPath &lt;&gt; '' then
+        begin
+          SaveJson(FJsonPath);
+          LoadJson(FJsonPath);
+        end;
+        RefreshList;
+      end;
+    </content_md5_39f7ad88fc5973973261548b4790c7d8>
+  </update_md5_39f7ad88fc5973973261548b4790c7d8>
+  <update_md5_18844966c269d3a630615f2635453dd2 name="ragmanager_delete_safe" md5="18844966c269d3a630615f2635453dd2" size="569">
+    <file>MakerAI/Integration/RagManager/uRagManagerMain.pas</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>procedure TRagManagerForm.OnDeleteClick(Sender: TObject);
+var
+  idx: Integer;
+begin
+  idx := ListItems.ItemIndex;
+  if (idx &lt; 0) or (idx &gt;= FRag.Items.Count) then Exit;
+  if MessageDlg('Delete selected item?', mtConfirmation, [mbYes, mbNo], 0) &lt;&gt; mrYes then
+    Exit;
+  FRag.Items[idx].Free;
+  FRag.Items.Delete(idx);
+  RefreshList;
+  MemoText.Clear;
+  MemoMeta.Clear;
+  EdPath.Text := '';
+end;</find_text>
+    <semantics>Delete without leaving stale pointers in the HNSW index; reload from JSON.</semantics>
+    <content_md5_18844966c269d3a630615f2635453dd2>
+      procedure TRagManagerForm.OnDeleteClick(Sender: TObject);
+      var
+        idx: Integer;
+        node: TAiEmbeddingNode;
+      begin
+        if FJsonPath = '' then
+        begin
+          SetStatus('No JSON path loaded; cannot delete safely.');
+          Exit;
+        end;
+      
+        idx := ListItems.ItemIndex;
+        if (idx &lt; 0) or (idx &gt;= FRag.Items.Count) then Exit;
+        if MessageDlg('Delete selected item?', mtConfirmation, [mbYes, mbNo], 0) &lt;&gt; mrYes then
+          Exit;
+      
+        node := FRag.Items[idx];
+        FRag.Items.Delete(idx);
+        SaveJson(FJsonPath);
+      
+        // ResetRag inside LoadJson frees the old in-memory index state. Free the removed node afterwards.
+        LoadJson(FJsonPath);
+        node.Free;
+      
+        RefreshList;
+        MemoText.Clear;
+        MemoMeta.Clear;
+        EdPath.Text := '';
+      end;
+    </content_md5_18844966c269d3a630615f2635453dd2>
+  </update_md5_18844966c269d3a630615f2635453dd2>
+</updates>

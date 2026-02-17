@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_578bf90ecdda3e30b808185ef860f7e1 name="readme_makerai_build_script" md5="578bf90ecdda3e30b808185ef860f7e1" size="544">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Add build instructions for vendored MakerAI (Delphi) and point to build script.</semantics>
+    <find_text>```bash
+# Export current project's rag.db to MakerAI JSON
+grok rag export-makerai -o makerai-ragvector.json
+
+# Import MakerAI JSON into current project's rag.db (append)
+grok rag import-makerai makerai-ragvector.json
+
+# Import and replace existing chunks
+grok rag import-makerai makerai-ragvector.json --replace
+```</find_text>
+    <content_md5_578bf90ecdda3e30b808185ef860f7e1>
+      ```bash
+      # Export current project's rag.db to MakerAI JSON
+      grok rag export-makerai -o makerai-ragvector.json
+      
+      # Import MakerAI JSON into current project's rag.db (append)
+      grok rag import-makerai makerai-ragvector.json
+      
+      # Import and replace existing chunks
+      grok rag import-makerai makerai-ragvector.json --replace
+      ```
+      
+      If you vendor MakerAI into this repo under `MakerAI/`, you can build its runtime packages and a console demo with Delphi `dcc64`:
+      
+      ```powershell
+      powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-makerai.ps1
+      ```
+      
+      Outputs go to `MakerAI/_build/win64/` (demo EXE in `MakerAI/_build/win64/bin/`).
+    </content_md5_578bf90ecdda3e30b808185ef860f7e1>
+  </update_md5_578bf90ecdda3e30b808185ef860f7e1>
+  <update_md5_d444184a8fee5f6dc4c7ca95801b9382 name="handover_makerai_note" md5="d444184a8fee5f6dc4c7ca95801b9382" size="362">
+    <file>docs/HANDOVER.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Mention vendored MakerAI folder and the build script used for Delphi integration.</semantics>
+    <find_text>## Optional next steps
+
+- Add/expand tests (unit for retriever, indexer, config; e2e for critical flows).
+- Improve theme/config menu UX (keyboard nav, search).
+- Consider exposing RAG “candidate count” and “use k-medoids” more prominently in README/UI if usage grows.</find_text>
+    <content_md5_d444184a8fee5f6dc4c7ca95801b9382>
+      ## Optional next steps
+      
+      - Add/expand tests (unit for retriever, indexer, config; e2e for critical flows).
+      - Improve theme/config menu UX (keyboard nav, search).
+      - Consider exposing RAG “candidate count” and “use k-medoids” more prominently in README/UI if usage grows.
+      - If using the vendored Delphi MakerAI repo under `MakerAI/`, see `scripts/build-makerai.ps1` for `dcc64` build automation and output locations.
+    </content_md5_d444184a8fee5f6dc4c7ca95801b9382>
+  </update_md5_d444184a8fee5f6dc4c7ca95801b9382>
+</updates>

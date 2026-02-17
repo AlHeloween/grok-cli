@@ -52,6 +52,18 @@ function ensureParentDir(filePath: string): void {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
+function atomicWriteFileSync(filePath: string, data: Uint8Array): void {
+  ensureParentDir(filePath);
+  const dir = path.dirname(filePath);
+  const base = path.basename(filePath);
+  const tmp = path.join(
+    dir,
+    `.${base}.tmp.${process.pid}.${Date.now().toString(16)}`
+  );
+  fs.writeFileSync(tmp, data);
+  fs.renameSync(tmp, filePath);
+}
+
 export class VectorDb {
   private sqlite3: Sqlite3Module;
   private db: Oo1Db;
@@ -64,27 +76,96 @@ export class VectorDb {
   }
 
   static async open(dbPath: string, options: VectorDbOpenOptions = {}): Promise<VectorDb> {
-    ensureParentDir(dbPath);
-    const sqlite3 = await loadSqlite3Module();
+  ensureParentDir(dbPath);
+  const sqlite3 = await loadSqlite3Module();
 
-    // Note: oo1.DB() uses sqlite-wasm virtual FS. In Node, this is expected to
-    // create a file-backed DB at the given path when supported by the build.
-    const db = new sqlite3.oo1.DB(dbPath, "ct");
-    const wrapper = new VectorDb(sqlite3, db, dbPath);
-    wrapper.initializeSchema();
-    await wrapper.ensureVectorInitialized(options);
-    return wrapper;
-  }
+  // sqlite-wasm does not provide NodeFS-backed persistence by default. Persist
+  // across processes by deserializing from disk into an in-memory DB and
+  // exporting back to disk on close (when mutated).
+  const db = new sqlite3.oo1.DB(":memory:", "c");
+  const wrapper = new VectorDb(sqlite3, db, dbPath);
+  wrapper.loadFromDiskIfPresent();
+  wrapper.initializeSchema();
+  await wrapper.ensureVectorInitialized(options);
+  return wrapper;
+}
 
-  close(): void {
+  private dirty: boolean = false;
+
+close(): void {
+  try {
+    if (this.dirty || !fs.existsSync(this.dbPath)) {
+      this.persistToDisk();
+    }
+  } finally {
     try {
       this.db.close();
     } catch {
       // ignore close errors
     }
   }
+}
 
-  getPath(): string {
+private loadFromDiskIfPresent(): void {
+  if (!fs.existsSync(this.dbPath)) return;
+  const buf = fs.readFileSync(this.dbPath);
+  const bytes = new Uint8Array(buf.buffer, buf.byteOffset, buf.byteLength);
+  this.deserializeFromBytes(bytes);
+}
+
+private deserializeFromBytes(bytes: Uint8Array): void {
+  if (!bytes || bytes.byteLength === 0) return;
+  const sqlite3 = this.sqlite3;
+  if (!sqlite3?.config?.bigIntEnabled) {
+    throw new Error(
+      "sqlite-wasm BigInt support is required for persistent RAG db."
+    );
+  }
+
+  const pData = sqlite3.wasm.allocFromTypedArray(bytes);
+  const len = BigInt(bytes.byteLength);
+  const flags =
+    sqlite3.capi.SQLITE_DESERIALIZE_FREEONCLOSE |
+    sqlite3.capi.SQLITE_DESERIALIZE_RESIZEABLE;
+
+  const rc = sqlite3.capi.sqlite3_deserialize(
+    this.db.pointer,
+    "main",
+    pData,
+    len,
+    len,
+    flags
+  );
+
+  if (rc !== sqlite3.capi.SQLITE_OK) {
+    try {
+      sqlite3.wasm.dealloc(pData);
+    } catch {
+      // ignore
+    }
+    const rcStr =
+      typeof sqlite3.capi.sqlite3_js_rc_str === "function"
+        ? sqlite3.capi.sqlite3_js_rc_str(rc)
+        : String(rc);
+    throw new Error(
+      `Failed to deserialize SQLite DB (${this.dbPath}): ${rcStr}`
+    );
+  }
+}
+
+private persistToDisk(): void {
+  const sqlite3 = this.sqlite3;
+  if (!sqlite3?.config?.bigIntEnabled) {
+    throw new Error(
+      "sqlite-wasm BigInt support is required for persistent RAG db."
+    );
+  }
+  const bytes: Uint8Array = sqlite3.capi.sqlite3_js_db_export(this.db.pointer);
+  atomicWriteFileSync(this.dbPath, bytes);
+  this.dirty = false;
+}
+
+getPath(): string {
     return this.dbPath;
   }
 
@@ -125,11 +206,12 @@ export class VectorDb {
   }
 
   private setMeta(key: string, value: string): void {
-    this.db.exec({
-      sql: "INSERT INTO rag_meta(key, value) VALUES(?, ?) ON CONFLICT(key) DO UPDATE SET value=excluded.value",
-      bind: [key, value],
-    });
-  }
+  this.db.exec({
+    sql: "INSERT INTO rag_meta(key, value) VALUES(?, ?) ON CONFLICT(key) DO UPDATE SET value=excluded.value",
+    bind: [key, value],
+  });
+  this.dirty = true;
+}
 
   private async ensureVectorInitialized(options: VectorDbOpenOptions): Promise<void> {
     const existingDim = this.getMeta("dimension");
@@ -162,38 +244,42 @@ export class VectorDb {
   }
 
   insertChunk(row: { path: string; text: string; meta?: string | null; vector: number[] }): void {
-    this.db.exec({
-      sql: "INSERT INTO chunks(path, text, meta, vector) VALUES(?, ?, ?, vector_as_f32(?))",
-      bind: [
-        row.path,
-        row.text,
-        row.meta ?? null,
-        JSON.stringify(row.vector),
-      ],
-    });
-  }
+  this.db.exec({
+    sql: "INSERT INTO chunks(path, text, meta, vector) VALUES(?, ?, ?, vector_as_f32(?))",
+    bind: [
+      row.path,
+      row.text,
+      row.meta ?? null,
+      JSON.stringify(row.vector),
+    ],
+  });
+  this.dirty = true;
+}
 
   deleteChunksByPath(filePath: string): void {
-    this.db.exec({
-      sql: "DELETE FROM chunks WHERE path = ?",
-      bind: [filePath],
-    });
-  }
+  this.db.exec({
+    sql: "DELETE FROM chunks WHERE path = ?",
+    bind: [filePath],
+  });
+  this.dirty = true;
+}
 
-  clearAllChunks(): void {
-    this.db.exec("DELETE FROM chunks;");
-  }
+clearAllChunks(): void {
+  this.db.exec("DELETE FROM chunks;");
+  this.dirty = true;
+}
 
   quantize(preload: boolean = false): void {
+  this.db.exec({
+    sql: "SELECT vector_quantize('chunks', 'vector');",
+  });
+  if (preload) {
     this.db.exec({
-      sql: "SELECT vector_quantize('chunks', 'vector');",
+      sql: "SELECT vector_quantize_preload('chunks', 'vector');",
     });
-    if (preload) {
-      this.db.exec({
-        sql: "SELECT vector_quantize_preload('chunks', 'vector');",
-      });
-    }
   }
+  this.dirty = true;
+}
 
   getChunkCount(): number {
     const value = this.db.selectValue("SELECT COUNT(*) FROM chunks");
@@ -293,3 +379,16 @@ function decodeFloat32Blob(blob: any): Float32Array | null {
   return null;
 }
 
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/rag/vector-db.ts"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/rag/vector-db.ts.backup_20260217T220629_596627"
+//   "created_at": "2026-02-17T14:06:29.615115+00:00"
+//   "backup_hash": "3f6047b71c3641be4190308a50b35420"
+//   "new_hash": "bebcb27d7f79c8aed3205d2f1a4b33d9"
+//   "goal_id": "vector_db_deserialize_buffer"
+//   "semantics": "Convert Node Buffer to Uint8Array before wasm allocFromTypedArray."
+//   "update_attrs": {"relative_path": "src/rag/vector-db.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "private loadFromDiskIfPresent(): void {\n  if (!fs.existsSync(this.dbPath)) return;\n  const bytes = fs.readFileSync(this.dbPath);\n  this.deserializeFromBytes(bytes);\n}", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/rag/vector-db.ts\""
+// }

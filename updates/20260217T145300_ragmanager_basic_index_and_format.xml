@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_8df02db636aa754e274abfbb86538b3a name="ragmanager_use_basic_index_on_create" md5="8df02db636aa754e274abfbb86538b3a" size="145">
+    <file>MakerAI/Integration/RagManager/uRagManagerMain.pas</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  FRag := TAiRAGVector.Create(Self);
+  FEmbeddings := TAiOpenAiEmbeddings.Create(Self);
+  FRag.Embeddings := FEmbeddings;</find_text>
+    <semantics>Switch to TAIBasicIndex to avoid HNSW index-related AVs in GUI workflows.</semantics>
+    <content_md5_8df02db636aa754e274abfbb86538b3a>
+      FRag := TAiRAGVector.Create(Self);
+      FEmbeddings := TAiOpenAiEmbeddings.Create(Self);
+      FRag.Embeddings := FEmbeddings;
+      FRag.InMemoryIndexType := TAIBasicIndex;
+    </content_md5_8df02db636aa754e274abfbb86538b3a>
+  </update_md5_8df02db636aa754e274abfbb86538b3a>
+  <update_md5_37489807642cb11ae4c11d04f932febb name="ragmanager_use_basic_index_on_reset" md5="37489807642cb11ae4c11d04f932febb" size="192">
+    <file>MakerAI/Integration/RagManager/uRagManagerMain.pas</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>procedure TRagManagerForm.ResetRag;
+begin
+  FreeRagAndItems;
+  FRag := TAiRAGVector.Create(Self);
+  FRag.Embeddings := FEmbeddings;
+end;procedure TRagManagerForm.RunSmoke;</find_text>
+    <semantics>Ensure ResetRag creates a non-HNSW vector and fix missing newline between procedures.</semantics>
+    <content_md5_37489807642cb11ae4c11d04f932febb>
+      procedure TRagManagerForm.ResetRag;
+      begin
+        FreeRagAndItems;
+        FRag := TAiRAGVector.Create(Self);
+        FRag.Embeddings := FEmbeddings;
+        FRag.InMemoryIndexType := TAIBasicIndex;
+      end;
+      
+      procedure TRagManagerForm.RunSmoke;
+    </content_md5_37489807642cb11ae4c11d04f932febb>
+  </update_md5_37489807642cb11ae4c11d04f932febb>
+</updates>

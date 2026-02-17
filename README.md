@@ -241,6 +241,14 @@ Env overrides (optional): `GROK_RAG_EXTRACTOR=sqlite-rag`, `GROK_RAG_PYTHON=pyth
 
 If you want a GUI to browse/edit your vector content, you can export the current `.grok/rag.db` into MakerAI's `RAGVector` JSON format, edit/browse it in MakerAI, then import it back.
 
+You can also launch the vendored MakerAI-based editor (`RagManager.exe`) via:
+
+```bash
+grok rag gui
+```
+
+This command exports to `.grok/makerai-ragvector.json` and opens the editor with **Refresh**/**Apply** buttons that call back into `grok rag export-makerai` / `grok rag import-makerai`.
+
 ```bash
 # Export current project's rag.db to MakerAI JSON
 grok rag export-makerai -o makerai-ragvector.json
@@ -252,9 +260,29 @@ grok rag import-makerai makerai-ragvector.json
 grok rag import-makerai makerai-ragvector.json --replace
 ```
 
+If you vendor MakerAI into this repo under `MakerAI/`, you can build its runtime packages and a console demo with Delphi `dcc64`:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-makerai.ps1
+```
+
+Outputs go to `MakerAI/_build/win64/` (demo EXE in `MakerAI/_build/win64/bin/`).
+
+Note: Close `RagManager.exe` before running the build script, otherwise Delphi may fail with “Could not create output file …\\RagManager.exe”.
+
 ### Ignore files
 
 Optionally create `.grok/ragignore` (one rule per line). In v1, rules are simple **substring matches** against relative paths.
+
+### RAG DB persistence (Node/Bun)
+
+`@sqliteai/sqlite-wasm` runs SQLite in WebAssembly and does not mount a native Node filesystem VFS by default. To keep `.grok/rag.db` persistent across runs, Grok CLI:
+
+- Opens an in-memory DB
+- Deserializes from `.grok/rag.db` if it exists
+- Exports the DB back to `.grok/rag.db` on `VectorDb.close()` when mutated
+
+Avoid concurrent writers (two processes opening the same project RAG DB at once) because the last writer wins.
 
 ### Embeddings configuration
 
@@ -652,13 +680,13 @@ MIT
   SDID_ROLLBACK {
     "target_file": "D:\\zPython\\grok-cli\\README.md"
     "update_script": "adm.exe"
-    "backup_path": "D:\\zPython\\grok-cli\\README.md.backup_20260217T202200_817257"
-    "created_at": "2026-02-17T12:22:00.830931+00:00"
-    "backup_hash": "c0a6dbfd10221b192d352e6ed3807b1d"
-    "new_hash": "c0a6dbfd10221b192d352e6ed3807b1d"
-    "goal_id": "readme_makerai_heading_newline"
-    "semantics": "Ensure 'Optional: MakerAI GUI' heading starts on a new line."
-    "update_attrs": {"relative_path": "README.md", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "Env overrides (optional): `GROK_RAG_EXTRACTOR=sqlite-rag`, `GROK_RAG_PYTHON=python`.### Optional: MakerAI GUI (import/export)", "replace_present": true}
+    "backup_path": "D:\\zPython\\grok-cli\\README.md.backup_20260217T225044_137695"
+    "created_at": "2026-02-17T14:50:44.155184+00:00"
+    "backup_hash": "c142ffd16952c0a89871b7303d6274c7"
+    "new_hash": "aa630b6469274cf07be9ccbea520606a"
+    "goal_id": "readme_makerai_build_close_note"
+    "semantics": "Add note about closing RagManager before rebuild to avoid locked output exe."
+    "update_attrs": {"relative_path": "README.md", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "Outputs go to `MakerAI/_build/win64/` (demo EXE in `MakerAI/_build/win64/bin/`).", "replace_present": true}
     "restore_cmd": "uv run adm \u002d\u002drollback \"D:\\zPython\\grok-cli\\README.md\""
   }
 -->

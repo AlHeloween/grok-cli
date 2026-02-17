@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_4a98b5236f24844373dab3652be77468 name="vector_db_deserialize_buffer" md5="4a98b5236f24844373dab3652be77468" size="213">
+    <file>src/rag/vector-db.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>private loadFromDiskIfPresent(): void {
+  if (!fs.existsSync(this.dbPath)) return;
+  const bytes = fs.readFileSync(this.dbPath);
+  this.deserializeFromBytes(bytes);
+}</find_text>
+    <semantics>Convert Node Buffer to Uint8Array before wasm allocFromTypedArray.</semantics>
+    <content_md5_4a98b5236f24844373dab3652be77468>
+      private loadFromDiskIfPresent(): void {
+        if (!fs.existsSync(this.dbPath)) return;
+        const buf = fs.readFileSync(this.dbPath);
+        const bytes = new Uint8Array(buf.buffer, buf.byteOffset, buf.byteLength);
+        this.deserializeFromBytes(bytes);
+      }
+    </content_md5_4a98b5236f24844373dab3652be77468>
+  </update_md5_4a98b5236f24844373dab3652be77468>
+</updates>

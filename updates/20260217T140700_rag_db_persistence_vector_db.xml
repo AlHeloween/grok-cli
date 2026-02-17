@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_7b1ff01643238b92dd3039646b8aac6f name="vector_db_add_atomic_write" md5="7b1ff01643238b92dd3039646b8aac6f" size="432">
+    <file>src/rag/vector-db.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>function ensureParentDir(filePath: string): void {
+  const dir = path.dirname(filePath);
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+}</find_text>
+    <semantics>Add atomic write helper for sqlite-wasm persistence.</semantics>
+    <content_md5_7b1ff01643238b92dd3039646b8aac6f>
+      function ensureParentDir(filePath: string): void {
+        const dir = path.dirname(filePath);
+        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+      }
+      
+      function atomicWriteFileSync(filePath: string, data: Uint8Array): void {
+        ensureParentDir(filePath);
+        const dir = path.dirname(filePath);
+        const base = path.basename(filePath);
+        const tmp = path.join(
+          dir,
+          `.${base}.tmp.${process.pid}.${Date.now().toString(16)}`
+        );
+        fs.writeFileSync(tmp, data);
+        fs.renameSync(tmp, filePath);
+      }
+    </content_md5_7b1ff01643238b92dd3039646b8aac6f>
+  </update_md5_7b1ff01643238b92dd3039646b8aac6f>
+  <update_md5_4ddfe0722c38b1ab4f00520bdceb4589 name="vector_db_open_deserialize" md5="4ddfe0722c38b1ab4f00520bdceb4589" size="518">
+    <file>src/rag/vector-db.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  static async open(dbPath: string, options: VectorDbOpenOptions = {}): Promise&lt;VectorDb&gt; {
+    ensureParentDir(dbPath);
+    const sqlite3 = await loadSqlite3Module();
+
+    // Note: oo1.DB() uses sqlite-wasm virtual FS. In Node, this is expected to
+    // create a file-backed DB at the given path when supported by the build.
+    const db = new sqlite3.oo1.DB(dbPath, "ct");
+    const wrapper = new VectorDb(sqlite3, db, dbPath);
+    wrapper.initializeSchema();
+    await wrapper.ensureVectorInitialized(options);
+    return wrapper;
+  }</find_text>
+    <semantics>Open sqlite-wasm DB in memory and deserialize from disk when present.</semantics>
+    <content_md5_4ddfe0722c38b1ab4f00520bdceb4589>
+      static async open(dbPath: string, options: VectorDbOpenOptions = {}): Promise&lt;VectorDb&gt; {
+        ensureParentDir(dbPath);
+        const sqlite3 = await loadSqlite3Module();
+      
+        // sqlite-wasm does not provide NodeFS-backed persistence by default. Persist
+        // across processes by deserializing from disk into an in-memory DB and
+        // exporting back to disk on close (when mutated).
+        const db = new sqlite3.oo1.DB(":memory:", "c");
+        const wrapper = new VectorDb(sqlite3, db, dbPath);
+        wrapper.loadFromDiskIfPresent();
+        wrapper.initializeSchema();
+        await wrapper.ensureVectorInitialized(options);
+        return wrapper;
+      }
+    </content_md5_4ddfe0722c38b1ab4f00520bdceb4589>
+  </update_md5_4ddfe0722c38b1ab4f00520bdceb4589>
+  <update_md5_9bb945ad7dd48f7916a7c730bfaeee20 name="vector_db_close_persist_dirty" md5="9bb945ad7dd48f7916a7c730bfaeee20" size="1376">
+    <file>src/rag/vector-db.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  close(): void {
+    try {
+      this.db.close();
+    } catch {
+      // ignore close errors
+    }
+  }
+
+  getPath(): string {</find_text>
+    <semantics>Persist sqlite-wasm DB bytes to host FS on close when mutated; add deserialize helpers.</semantics>
+    <content_md5_9bb945ad7dd48f7916a7c730bfaeee20>
+      private dirty: boolean = false;
+      
+      close(): void {
+        try {
+          if (this.dirty || !fs.existsSync(this.dbPath)) {
+            this.persistToDisk();
+          }
+        } finally {
+          try {
+            this.db.close();
+          } catch {
+            // ignore close errors
+          }
+        }
+      }
+      
+      private loadFromDiskIfPresent(): void {
+        if (!fs.existsSync(this.dbPath)) return;
+        const bytes = fs.readFileSync(this.dbPath);
+        this.deserializeFromBytes(bytes);
+      }
+      
+      private deserializeFromBytes(bytes: Uint8Array): void {
+        if (!bytes || bytes.byteLength === 0) return;
+        const sqlite3 = this.sqlite3;
+        if (!sqlite3?.config?.bigIntEnabled) {
+          throw new Error(
+            "sqlite-wasm BigInt support is required for persistent RAG db."
+          );
+        }
+      
+        const pData = sqlite3.wasm.allocFromTypedArray(bytes);
+        const len = BigInt(bytes.byteLength);
+        const flags =
+          sqlite3.capi.SQLITE_DESERIALIZE_FREEONCLOSE |
+          sqlite3.capi.SQLITE_DESERIALIZE_RESIZEABLE;
+      
+        const rc = sqlite3.capi.sqlite3_deserialize(
+          this.db.pointer,
+          "main",
+          pData,
+          len,
+          len,
+          flags
+        );
+      
+        if (rc !== sqlite3.capi.SQLITE_OK) {
+          try {
+            sqlite3.wasm.dealloc(pData);
+          } catch {
+            // ignore
+          }
+          const rcStr =
+            typeof sqlite3.capi.sqlite3_js_rc_str === "function"
+              ? sqlite3.capi.sqlite3_js_rc_str(rc)
+              : String(rc);
+          throw new Error(
+            `Failed to deserialize SQLite DB (${this.dbPath}): ${rcStr}`
+          );
+        }
+      }
+      
+      private persistToDisk(): void {
+        const sqlite3 = this.sqlite3;
+        if (!sqlite3?.config?.bigIntEnabled) {
+          throw new Error(
+            "sqlite-wasm BigInt support is required for persistent RAG db."
+          );
+        }
+        const bytes: Uint8Array = sqlite3.capi.sqlite3_js_db_export(this.db.pointer);
+        atomicWriteFileSync(this.dbPath, bytes);
+        this.dirty = false;
+      }
+      
+      getPath(): string {
+    </content_md5_9bb945ad7dd48f7916a7c730bfaeee20>
+  </update_md5_9bb945ad7dd48f7916a7c730bfaeee20>
+  <update_md5_85c650b0ce82d2c94ef42870791c2ea4 name="vector_db_mark_dirty_meta" md5="85c650b0ce82d2c94ef42870791c2ea4" size="189">
+    <file>src/rag/vector-db.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  private setMeta(key: string, value: string): void {
+    this.db.exec({
+      sql: "INSERT INTO rag_meta(key, value) VALUES(?, ?) ON CONFLICT(key) DO UPDATE SET value=excluded.value",
+      bind: [key, value],
+    });
+  }</find_text>
+    <semantics>Track mutations so DB is persisted on close.</semantics>
+    <content_md5_85c650b0ce82d2c94ef42870791c2ea4>
+      private setMeta(key: string, value: string): void {
+        this.db.exec({
+          sql: "INSERT INTO rag_meta(key, value) VALUES(?, ?) ON CONFLICT(key) DO UPDATE SET value=excluded.value",
+          bind: [key, value],
+        });
+        this.dirty = true;
+      }
+    </content_md5_85c650b0ce82d2c94ef42870791c2ea4>
+  </update_md5_85c650b0ce82d2c94ef42870791c2ea4>
+  <update_md5_a7a0d3b1ff35d5a7e75f85f81509ffbf name="vector_db_mark_dirty_chunks" md5="a7a0d3b1ff35d5a7e75f85f81509ffbf" size="260">
+    <file>src/rag/vector-db.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  insertChunk(row: { path: string; text: string; meta?: string | null; vector: number[] }): void {
+    this.db.exec({
+      sql: "INSERT INTO chunks(path, text, meta, vector) VALUES(?, ?, ?, vector_as_f32(?))",
+      bind: [
+        row.path,
+        row.text,
+        row.meta ?? null,
+        JSON.stringify(row.vector),
+      ],
+    });
+  }</find_text>
+    <semantics>Persist changes from inserts.</semantics>
+    <content_md5_a7a0d3b1ff35d5a7e75f85f81509ffbf>
+      insertChunk(row: { path: string; text: string; meta?: string | null; vector: number[] }): void {
+        this.db.exec({
+          sql: "INSERT INTO chunks(path, text, meta, vector) VALUES(?, ?, ?, vector_as_f32(?))",
+          bind: [
+            row.path,
+            row.text,
+            row.meta ?? null,
+            JSON.stringify(row.vector),
+          ],
+        });
+        this.dirty = true;
+      }
+    </content_md5_a7a0d3b1ff35d5a7e75f85f81509ffbf>
+  </update_md5_a7a0d3b1ff35d5a7e75f85f81509ffbf>
+  <update_md5_6325f537e407803be7e28c1a3d953977 name="vector_db_mark_dirty_deletes" md5="6325f537e407803be7e28c1a3d953977" size="198">
+    <file>src/rag/vector-db.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  deleteChunksByPath(filePath: string): void {
+    this.db.exec({
+      sql: "DELETE FROM chunks WHERE path = ?",
+      bind: [filePath],
+    });
+  }
+
+  clearAllChunks(): void {
+    this.db.exec("DELETE FROM chunks;");
+  }</find_text>
+    <semantics>Persist changes from deletes/clears.</semantics>
+    <content_md5_6325f537e407803be7e28c1a3d953977>
+      deleteChunksByPath(filePath: string): void {
+        this.db.exec({
+          sql: "DELETE FROM chunks WHERE path = ?",
+          bind: [filePath],
+        });
+        this.dirty = true;
+      }
+      
+      clearAllChunks(): void {
+        this.db.exec("DELETE FROM chunks;");
+        this.dirty = true;
+      }
+    </content_md5_6325f537e407803be7e28c1a3d953977>
+  </update_md5_6325f537e407803be7e28c1a3d953977>
+  <update_md5_1c44d411b668c501f011fb50ad55347a name="vector_db_mark_dirty_quantize" md5="1c44d411b668c501f011fb50ad55347a" size="205">
+    <file>src/rag/vector-db.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  quantize(preload: boolean = false): void {
+    this.db.exec({
+      sql: "SELECT vector_quantize('chunks', 'vector');",
+    });
+    if (preload) {
+      this.db.exec({
+        sql: "SELECT vector_quantize_preload('chunks', 'vector');",
+      });
+    }
+  }</find_text>
+    <semantics>Persist changes from quantize.</semantics>
+    <content_md5_1c44d411b668c501f011fb50ad55347a>
+      quantize(preload: boolean = false): void {
+        this.db.exec({
+          sql: "SELECT vector_quantize('chunks', 'vector');",
+        });
+        if (preload) {
+          this.db.exec({
+            sql: "SELECT vector_quantize_preload('chunks', 'vector');",
+          });
+        }
+        this.dirty = true;
+      }
+    </content_md5_1c44d411b668c501f011fb50ad55347a>
+  </update_md5_1c44d411b668c501f011fb50ad55347a>
+</updates>

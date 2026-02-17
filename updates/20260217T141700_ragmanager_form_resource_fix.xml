@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_eed578ee0ac8bd6de341a728aed5cde1 name="ragmanager_constructor_createnew" md5="eed578ee0ac8bd6de341a728aed5cde1" size="120">
+    <file>MakerAI/Integration/RagManager/uRagManagerMain.pas</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>constructor TRagManagerForm.Create(AOwner: TComponent);
+begin
+  inherited;
+  Caption := 'Grok RAG Manager (MakerAI)';</find_text>
+    <semantics>Use CreateNew to avoid missing DFM resource for code-only form.</semantics>
+    <content_md5_eed578ee0ac8bd6de341a728aed5cde1>
+      constructor TRagManagerForm.Create(AOwner: TComponent);
+      begin
+        inherited CreateNew(AOwner);
+        Caption := 'Grok RAG Manager (MakerAI)';
+    </content_md5_eed578ee0ac8bd6de341a728aed5cde1>
+  </update_md5_eed578ee0ac8bd6de341a728aed5cde1>
+</updates>

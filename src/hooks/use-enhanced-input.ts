@@ -109,33 +109,53 @@ export function useEnhancedInput({
   setOriginalInputRef.current = setOriginalInput;
   isNavigatingHistoryRef.current = isNavigatingHistory;
 
+  const applyState = useCallback(
+    (nextText: string, nextPosition: number) => {
+      const { text: capped, position } = capToMaxLength(
+        nextText,
+        nextPosition,
+        onTruncated
+      );
+      inputRef.current = capped;
+      cursorPositionRef.current = position;
+      setInputState(capped);
+      setCursorPositionState(position);
+      setOriginalInputRef.current(capped);
+    },
+    [onTruncated]
+  );
+
   const setInput = useCallback((text: string) => {
     const cur = cursorPositionRef.current;
+    const nextPosition = Math.min(text.length, cur);
+    inputRef.current = text;
+    cursorPositionRef.current = nextPosition;
     setInputState(text);
-    setCursorPositionState(Math.min(text.length, cur));
-    if (!isNavigatingHistoryRef.current()) {
-      setOriginalInputRef.current(text);
-    }
+    setCursorPositionState(nextPosition);
+    setOriginalInputRef.current(text);
   }, []);
 
   const setCursorPosition = useCallback((position: number) => {
     const len = inputRef.current.length;
-    setCursorPositionState(Math.max(0, Math.min(len, position)));
+    const nextPosition = Math.max(0, Math.min(len, position));
+    cursorPositionRef.current = nextPosition;
+    setCursorPositionState(nextPosition);
   }, []);
 
   const clearInput = useCallback(() => {
+    inputRef.current = "";
+    cursorPositionRef.current = 0;
     setInputState("");
     setCursorPositionState(0);
-    setOriginalInput("");
-  }, [setOriginalInput]);
+    setOriginalInputRef.current("");
+  }, []);
 
   const insertAtCursor = useCallback((text: string) => {
-    const result = insertText(input, cursorPosition, text);
-    const { text: capped, position } = capToMaxLength(result.text, result.position, onTruncated);
-    setInputState(capped);
-    setCursorPositionState(position);
-    setOriginalInput(capped);
-  }, [input, cursorPosition, setOriginalInput, onTruncated]);
+    const currentInput = inputRef.current;
+    const currentPosition = cursorPositionRef.current;
+    const result = insertText(currentInput, currentPosition, text);
+    applyState(result.text, result.position);
+  }, [applyState]);
 
   insertAtCursorRef.current = insertAtCursor;
 
@@ -153,21 +173,23 @@ export function useEnhancedInput({
   }, []);
 
   const handleSubmit = useCallback(() => {
-    if (input.trim()) {
-      addToHistory(input);
-      onSubmit?.(input);
+    const currentInput = inputRef.current;
+    if (currentInput.trim()) {
+      addToHistory(currentInput);
+      onSubmit?.(currentInput);
       clearInput();
     }
-  }, [input, addToHistory, onSubmit, clearInput]);
+  }, [addToHistory, onSubmit, clearInput]);
 
   const handleInput = useCallback((inputChar: string, key: Key) => {
     if (disabled) return;
 
+    const currentInput = inputRef.current;
+    const currentCursorPosition = cursorPositionRef.current;
+
     // Handle Ctrl+C - check multiple ways it could be detected
     if ((key.ctrl && inputChar === "c") || inputChar === "\x03") {
-      setInputState("");
-      setCursorPositionState(0);
-      setOriginalInput("");
+      applyState("", 0);
       return;
     }
 
@@ -195,14 +217,16 @@ export function useEnhancedInput({
     }
 
     // Handle Enter/Return
-    if (key.return) {
+    const isEnter =
+      !!key.return ||
+      key.name === "return" ||
+      inputChar === "\r" ||
+      inputChar === "\n";
+    if (isEnter) {
       if (multiline && key.shift) {
         // Shift+Enter in multiline mode inserts newline
-        const result = insertText(input, cursorPosition, "\n");
-        const { text: capped, position } = capToMaxLength(result.text, result.position, onTruncated);
-        setInputState(capped);
-        setCursorPositionState(position);
-        setOriginalInput(capped);
+        const result = insertText(currentInput, currentCursorPosition, "\n");
+        applyState(result.text, result.position);
       } else {
         handleSubmit();
       }
@@ -213,8 +237,7 @@ export function useEnhancedInput({
     if ((key.upArrow || key.name === 'up') && !key.ctrl && !key.meta) {
       const historyInput = navigateHistory("up");
       if (historyInput !== null) {
-        setInputState(historyInput);
-        setCursorPositionState(historyInput.length);
+        applyState(historyInput, historyInput.length);
       }
       return;
     }
@@ -222,8 +245,7 @@ export function useEnhancedInput({
     if ((key.downArrow || key.name === 'down') && !key.ctrl && !key.meta) {
       const historyInput = navigateHistory("down");
       if (historyInput !== null) {
-        setInputState(historyInput);
-        setCursorPositionState(historyInput.length);
+        applyState(historyInput, historyInput.length);
       }
       return;
     }
@@ -231,38 +253,38 @@ export function useEnhancedInput({
     // Handle cursor movement - ignore meta flag for arrows as it's unreliable in terminals
     // Only do word movement if ctrl is pressed AND no arrow escape sequence is in inputChar
     if ((key.leftArrow || key.name === 'left') && key.ctrl && !inputChar.includes('[')) {
-      const newPos = moveToPreviousWord(input, cursorPosition);
-      setCursorPositionState(newPos);
+      const newPos = moveToPreviousWord(currentInput, currentCursorPosition);
+      applyState(currentInput, newPos);
       return;
     }
 
     if ((key.rightArrow || key.name === 'right') && key.ctrl && !inputChar.includes('[')) {
-      const newPos = moveToNextWord(input, cursorPosition);
-      setCursorPositionState(newPos);
+      const newPos = moveToNextWord(currentInput, currentCursorPosition);
+      applyState(currentInput, newPos);
       return;
     }
 
     // Handle regular cursor movement - single character (ignore meta flag)
     if (key.leftArrow || key.name === 'left') {
-      const newPos = Math.max(0, cursorPosition - 1);
-      setCursorPositionState(newPos);
+      const newPos = Math.max(0, currentCursorPosition - 1);
+      applyState(currentInput, newPos);
       return;
     }
 
     if (key.rightArrow || key.name === 'right') {
-      const newPos = Math.min(input.length, cursorPosition + 1);
-      setCursorPositionState(newPos);
+      const newPos = Math.min(currentInput.length, currentCursorPosition + 1);
+      applyState(currentInput, newPos);
       return;
     }
 
     // Handle Home/End keys or Ctrl+A/E
     if ((key.ctrl && inputChar === "a") || key.name === "home") {
-      setCursorPositionState(0); // Simple start of input
+      applyState(currentInput, 0); // Simple start of input
       return;
     }
 
     if ((key.ctrl && inputChar === "e") || key.name === "end") {
-      setCursorPositionState(input.length); // Simple end of input
+      applyState(currentInput, currentInput.length); // Simple end of input
       return;
     }
 
@@ -278,16 +300,12 @@ export function useEnhancedInput({
     if (isBackspace) {
       if (key.ctrl || key.meta) {
         // Ctrl/Cmd + Backspace: Delete word before cursor
-        const result = deleteWordBefore(input, cursorPosition);
-        setInputState(result.text);
-        setCursorPositionState(result.position);
-        setOriginalInput(result.text);
+        const result = deleteWordBefore(currentInput, currentCursorPosition);
+        applyState(result.text, result.position);
       } else {
         // Regular backspace
-        const result = deleteCharBefore(input, cursorPosition);
-        setInputState(result.text);
-        setCursorPositionState(result.position);
-        setOriginalInput(result.text);
+        const result = deleteCharBefore(currentInput, currentCursorPosition);
+        applyState(result.text, result.position);
       }
       return;
     }
@@ -296,53 +314,44 @@ export function useEnhancedInput({
     if ((key.delete && inputChar !== '') || (key.ctrl && inputChar === "d")) {
       if (key.ctrl || key.meta) {
         // Ctrl/Cmd + Delete: Delete word after cursor
-        const result = deleteWordAfter(input, cursorPosition);
-        setInputState(result.text);
-        setCursorPositionState(result.position);
-        setOriginalInput(result.text);
+        const result = deleteWordAfter(currentInput, currentCursorPosition);
+        applyState(result.text, result.position);
       } else {
         // Regular delete
-        const result = deleteCharAfter(input, cursorPosition);
-        setInputState(result.text);
-        setCursorPositionState(result.position);
-        setOriginalInput(result.text);
+        const result = deleteCharAfter(currentInput, currentCursorPosition);
+        applyState(result.text, result.position);
       }
       return;
     }
 
     // Handle Ctrl+K: Delete from cursor to end of line
     if (key.ctrl && inputChar === "k") {
-      const lineEnd = moveToLineEnd(input, cursorPosition);
-      const newText = input.slice(0, cursorPosition) + input.slice(lineEnd);
-      setInputState(newText);
-      setOriginalInput(newText);
+      const lineEnd = moveToLineEnd(currentInput, currentCursorPosition);
+      const newText =
+        currentInput.slice(0, currentCursorPosition) + currentInput.slice(lineEnd);
+      applyState(newText, currentCursorPosition);
       return;
     }
 
     // Handle Ctrl+U: Delete from cursor to start of line
     if (key.ctrl && inputChar === "u") {
-      const lineStart = moveToLineStart(input, cursorPosition);
-      const newText = input.slice(0, lineStart) + input.slice(cursorPosition);
-      setInputState(newText);
-      setCursorPositionState(lineStart);
-      setOriginalInput(newText);
+      const lineStart = moveToLineStart(currentInput, currentCursorPosition);
+      const newText =
+        currentInput.slice(0, lineStart) + currentInput.slice(currentCursorPosition);
+      applyState(newText, lineStart);
       return;
     }
 
     // Handle Ctrl+W: Delete word before cursor
     if (key.ctrl && inputChar === "w") {
-      const result = deleteWordBefore(input, cursorPosition);
-      setInputState(result.text);
-      setCursorPositionState(result.position);
-      setOriginalInput(result.text);
+      const result = deleteWordBefore(currentInput, currentCursorPosition);
+      applyState(result.text, result.position);
       return;
     }
 
     // Handle Ctrl+X: Clear entire input
     if (key.ctrl && inputChar === "x") {
-      setInputState("");
-      setCursorPositionState(0);
-      setOriginalInput("");
+      applyState("", 0);
       return;
     }
 
@@ -377,17 +386,10 @@ export function useEnhancedInput({
 
     // Do not block insert on ctrl/meta here; shortcuts are handled above and some terminals misreport modifiers.
     if (charToInsert) {
-      const result = insertText(input, cursorPosition, charToInsert);
-      const { text: capped, position } = capToMaxLength(
-        result.text,
-        result.position,
-    onTruncated
-  );
-      setInputState(capped);
-      setCursorPositionState(position);
-      setOriginalInput(capped);
+      const result = insertText(currentInput, currentCursorPosition, charToInsert);
+      applyState(result.text, result.position);
     }
-  }, [disabled, onSpecialKey, onTruncated, input, cursorPosition, multiline, handleSubmit, navigateHistory, setOriginalInput]);
+  }, [disabled, onSpecialKey, multiline, applyState, handleSubmit, navigateHistory, onEscape]);
 
   return {
     input,

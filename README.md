@@ -612,21 +612,22 @@ Theme choice is also persisted in `~/.grok/user-settings.json`.
 
 Some Windows terminals can deliver printable keys to Ink with `key.meta=true` and/or with an empty `inputChar`, which can prevent Grok CLI from inserting typed characters.
 
-- Try the latest version first (this repo includes a fix to accept printable `key.sequence` characters even when `meta` is set).
+- Try the latest version first (this repo includes a fix to accept printable `key.sequence`/`key.name` characters even when `inputChar` is empty).
+- If you see key events in the debug log but `inputLen` never changes, the usual cause is a special-key handler accidentally swallowing all input (for this repo, that was fixed by making `onSpecialKey` synchronous except for paste handling).
 - To capture what Ink is receiving, run with:
 
 ```bash
 # macOS/Linux (bash/zsh)
 GROK_DEBUG_INPUT=1 grok
 
-# Windows PowerShell
-$env:GROK_DEBUG_INPUT=1; grok
+# Windows PowerShell (optional custom path)
+$env:GROK_DEBUG_INPUT=1; $env:GROK_DEBUG_INPUT_FILE=\"$PWD\\logs\\input_debug.jsonl\"; grok
 
 # Windows cmd.exe
 set GROK_DEBUG_INPUT=1 && grok
 ```
 
-This shows a debug line under the footer with `inputChar`, `key.sequence`, and modifier flags; copy it into an issue report.
+This shows a debug line under the footer and also appends JSONL events to `logs/input_debug.jsonl` (override path with `GROK_DEBUG_INPUT_FILE`). Attach the JSONL file when reporting input issues.
 
 ### Automating TUI input on Windows (cmd_runner)
 
@@ -639,7 +640,7 @@ python .\cmd_runner.py send $run_id --text "exit" --enter
 python .\cmd_runner.py wait $run_id --timeout-s 30
 ```
 
-Note: `cmd_runner.py start --pty` uses ConPTY and is useful for some CLI apps, but Ink TUIs may exit immediately if they detect a non-interactive TTY.
+Note: Ink TUIs often render using the terminal alternate screen buffer, so `stdout.log` may not contain the visible UI; prefer `GROK_DEBUG_INPUT=1` and the JSONL log for reproducible key events.
 
 ## License
 
@@ -649,13 +650,13 @@ MIT
   SDID_ROLLBACK {
     "target_file": "D:\\zPython\\grok-cli\\README.md"
     "update_script": "adm.exe"
-    "backup_path": "D:\\zPython\\grok-cli\\README.md.backup_20260217T025159_834987"
-    "created_at": "2026-02-16T18:51:59.848370+00:00"
-    "backup_hash": "a97fab3dc79d7698f54602b167bd41fb"
-    "new_hash": "d6bb1a545ee10088a3b59342225616bf"
-    "goal_id": "readme_cmd_runner_tui_no_conpty"
-    "semantics": ""
-    "update_attrs": {"relative_path": "README.md", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "### Automating TUI input on Windows (cmd_runner + ConPTY)\n\nIf you need to reproduce a typing bug or script a TUI interaction, run Grok under ConPTY and queue keystrokes:\n\n```powershell\n$run_id = (python .\\cmd_runner.py start \u002d\u002dpty \u002d\u002dtimeout-s 60 \u002d\u002denv GROK_API_KEY=foo \u002d\u002d bun run dev).Trim()\npython .\\cmd_runner.py send $run_id \u002d\u002dtext \"/help\" \u002d\u002denter\npython .\\cmd_runner.py send $run_id \u002d\u002dtext \"exit\" \u002d\u002denter\npython .\\cmd_runner.py wait $run_id \u002d\u002dtimeout-s 30\n```", "replace_present": true}
+    "backup_path": "D:\\zPython\\grok-cli\\README.md.backup_20260217T201319_915787"
+    "created_at": "2026-02-17T12:13:19.959435+00:00"
+    "backup_hash": "7dd72bba4d53ead4343cef0615aab8b8"
+    "new_hash": "90c8d1e99baa47e4eba06477e607c9ce"
+    "goal_id": "readme_troubleshooting_typing_update"
+    "semantics": "Clarify root cause and add GROK_DEBUG_INPUT_FILE example for typing issues."
+    "update_attrs": {"relative_path": "README.md", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "Some Windows terminals can deliver printable keys to Ink with `key.meta=true` and/or with an empty `inputChar`, which can prevent Grok CLI from inserting typed characters.\n\n- Try the latest version first (this repo includes a fix to accept printable `key.sequence` characters even when `meta` is set).\n- To capture what Ink is receiving, run with:\n\n```bash\n# macOS/Linux (bash/zsh)\nGROK_DEBUG_INPUT=1 grok\n\n# Windows PowerShell\n$env:GROK_DEBUG_INPUT=1; grok\n\n# Windows cmd.exe\nset GROK_DEBUG_INPUT=1 && grok\n```\n\nThis shows a debug line under the footer and also appends JSONL events to `logs/input_debug.jsonl` (override path with `GROK_DEBUG_INPUT_FILE`). Attach the JSONL file when reporting input issues.", "replace_present": true}
     "restore_cmd": "uv run adm \u002d\u002drollback \"D:\\zPython\\grok-cli\\README.md\""
   }
 -->

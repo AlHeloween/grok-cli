@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_a35e79044a13eafa2f343e71ffe4392b name="readme_troubleshooting_typing_update" md5="a35e79044a13eafa2f343e71ffe4392b" size="905">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Clarify root cause and add GROK_DEBUG_INPUT_FILE example for typing issues.</semantics>
+    <find_text>Some Windows terminals can deliver printable keys to Ink with `key.meta=true` and/or with an empty `inputChar`, which can prevent Grok CLI from inserting typed characters.
+
+- Try the latest version first (this repo includes a fix to accept printable `key.sequence` characters even when `meta` is set).
+- To capture what Ink is receiving, run with:
+
+```bash
+# macOS/Linux (bash/zsh)
+GROK_DEBUG_INPUT=1 grok
+
+# Windows PowerShell
+$env:GROK_DEBUG_INPUT=1; grok
+
+# Windows cmd.exe
+set GROK_DEBUG_INPUT=1 &amp;&amp; grok
+```
+
+This shows a debug line under the footer and also appends JSONL events to `logs/input_debug.jsonl` (override path with `GROK_DEBUG_INPUT_FILE`). Attach the JSONL file when reporting input issues.</find_text>
+    <content_md5_a35e79044a13eafa2f343e71ffe4392b>
+      Some Windows terminals can deliver printable keys to Ink with `key.meta=true` and/or with an empty `inputChar`, which can prevent Grok CLI from inserting typed characters.
+      
+      - Try the latest version first (this repo includes a fix to accept printable `key.sequence`/`key.name` characters even when `inputChar` is empty).
+      - If you see key events in the debug log but `inputLen` never changes, the usual cause is a special-key handler accidentally swallowing all input (for this repo, that was fixed by making `onSpecialKey` synchronous except for paste handling).
+      - To capture what Ink is receiving, run with:
+      
+      ```bash
+      # macOS/Linux (bash/zsh)
+      GROK_DEBUG_INPUT=1 grok
+      
+      # Windows PowerShell (optional custom path)
+      $env:GROK_DEBUG_INPUT=1; $env:GROK_DEBUG_INPUT_FILE=\"$PWD\\logs\\input_debug.jsonl\"; grok
+      
+      # Windows cmd.exe
+      set GROK_DEBUG_INPUT=1 &amp;&amp; grok
+      ```
+      
+      This shows a debug line under the footer and also appends JSONL events to `logs/input_debug.jsonl` (override path with `GROK_DEBUG_INPUT_FILE`). Attach the JSONL file when reporting input issues.
+    </content_md5_a35e79044a13eafa2f343e71ffe4392b>
+  </update_md5_a35e79044a13eafa2f343e71ffe4392b>
+  <update_md5_ae4273fc3b80f689cbf2a0f779d07ae7 name="handover_add_windows_typing_note" md5="ae4273fc3b80f689cbf2a0f779d07ae7" size="880">
+    <file>docs/HANDOVER.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Add a short note on the Windows Ink typing bug root cause and where the fix lives.</semantics>
+    <find_text>## Known issues and improvements
+
+See **`.cursor/analysis/bottlenecks-and-issues.md`** for:
+
+- Resolved items (settings cache, abort signal, history trimming, project path per cwd, etc.).
+- Open items and suggested next steps (tests, theme/config UX, etc.).</find_text>
+    <content_md5_ae4273fc3b80f689cbf2a0f779d07ae7>
+      ## Known issues and improvements
+      
+      See **`.cursor/analysis/bottlenecks-and-issues.md`** for:
+      
+      - Resolved items (settings cache, abort signal, history trimming, project path per cwd, etc.).
+      - Open items and suggested next steps (tests, theme/config UX, etc.).
+      
+      ### Windows: “can’t type” in Ink input
+      
+      - Symptom: UI renders and shortcuts like Shift+Tab work, but printable typing does not update the input buffer.
+      - Root cause (fixed): `onSpecialKey` was declared `async` in `src/hooks/use-input-handler.ts`, which made it always return a Promise; `useEnhancedInput` treated that as async special handling and returned early, swallowing normal typing.
+      - Fix lives in: `src/hooks/use-input-handler.ts` (sync special-key handler except paste) and `src/hooks/use-enhanced-input.ts` (robust state updates + Enter detection).
+      - Debug: run with `GROK_DEBUG_INPUT=1` and inspect `logs/input_debug.jsonl` (or set `GROK_DEBUG_INPUT_FILE`). Look for `type:\"state\"` lines where `inputLen` increases after key events.
+    </content_md5_ae4273fc3b80f689cbf2a0f779d07ae7>
+  </update_md5_ae4273fc3b80f689cbf2a0f779d07ae7>
+</updates>

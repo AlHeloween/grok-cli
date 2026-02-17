@@ -357,10 +357,10 @@ export function useInputHandler({
     }
   };
 
-  const handleSpecialKey = async (
+  const handleSpecialKey = (
     key: Key,
     pasteText?: string
-  ): Promise<boolean> => {
+  ): boolean | Promise<boolean> => {
     // Don't handle input if confirmation dialog is active
     if (isConfirmationActive) {
       return true; // Prevent default handling
@@ -402,21 +402,23 @@ export function useInputHandler({
           return true;
         }
         if (item.id === "action:showEffective") {
-          const { getEffectiveConfig, maskSecret } = await import(
-            "../config/effective-config.js"
-          );
-          const rows = getEffectiveConfig()
-            .map((it: any) => {
-              const isSecret = String(it.key).toLowerCase().includes("key");
-              const val = isSecret ? maskSecret(it.value) : it.value;
-              const note = it.note ? ` (${it.note})` : "";
-              return `${it.key} = ${String(val)}  [${it.source}]${note}`;
-            })
-            .join("\n");
-          setChatHistory((prev) => [
-            ...prev,
-            { type: "assistant", content: rows, timestamp: new Date() },
-          ]);
+          void (async () => {
+            const { getEffectiveConfig, maskSecret } = await import(
+              "../config/effective-config.js"
+            );
+            const rows = getEffectiveConfig()
+              .map((it: any) => {
+                const isSecret = String(it.key).toLowerCase().includes("key");
+                const val = isSecret ? maskSecret(it.value) : it.value;
+                const note = it.note ? ` (${it.note})` : "";
+                return `${it.key} = ${String(val)}  [${it.source}]${note}`;
+              })
+              .join("\n");
+            setChatHistory((prev) => [
+              ...prev,
+              { type: "assistant", content: rows, timestamp: new Date() },
+            ]);
+          })();
           setShowConfigMenu(false);
           return true;
         }
@@ -551,7 +553,7 @@ export function useInputHandler({
           setShowConfigMenu(false);
           return true;
           }
-          await applyConfigValue(configKey, value);
+          void applyConfigValue(configKey, value);
           setShowConfigMenu(false);
           return true;
         }
@@ -579,28 +581,30 @@ export function useInputHandler({
       if (pasteText != null && pasteText.length > PASTE_TEXT_THRESHOLD) {
         return false; // Let default handling insert pasted text immediately
       }
-      try {
-        const image = await getClipboardImage();
-        if (image) {
-          const imageUrl = `data:${image.mimeType};base64,${image.base64}`;
-          setPendingImageAttachments((prev) => [
-            ...prev,
-            { imageUrl, label: "Pasted image" },
-          ]);
-          setChatHistory((prev) => [
-            ...prev,
-            {
-              type: "assistant",
-              content: "Pasted 1 image.",
-              timestamp: new Date(),
-            },
-          ]);
-          return true;
+      return (async () => {
+        try {
+          const image = await getClipboardImage();
+          if (image) {
+            const imageUrl = `data:${image.mimeType};base64,${image.base64}`;
+            setPendingImageAttachments((prev) => [
+              ...prev,
+              { imageUrl, label: "Pasted image" },
+            ]);
+            setChatHistory((prev) => [
+              ...prev,
+              {
+                type: "assistant",
+                content: "Pasted 1 image.",
+                timestamp: new Date(),
+              },
+            ]);
+            return true;
+          }
+          return false; // let default handling insert pasted text
+        } catch {
+          return false; // treat as text paste
         }
-        return false; // let default handling insert pasted text
-      } catch {
-        return false; // treat as text paste
-      }
+      })();
     }
 
     // Handle shift+tab to toggle auto-edit mode
@@ -818,6 +822,33 @@ export function useInputHandler({
     },
     disabled: isConfirmationActive,
   });
+
+  // When debugging input, log state transitions so we can prove whether typed keys mutate input.
+  useEffect(() => {
+    if (!process.env.GROK_DEBUG_INPUT) return;
+    try {
+      const logPath =
+        process.env.GROK_DEBUG_INPUT_FILE ||
+        path.join(process.cwd(), "logs", "input_debug.jsonl");
+      fs.mkdirSync(path.dirname(logPath), { recursive: true });
+      fs.appendFileSync(
+        logPath,
+        JSON.stringify(
+          {
+            t: new Date().toISOString(),
+            type: "state",
+            inputLen: input.length,
+            cursorPosition,
+          },
+          null,
+          0
+        ) + "\n",
+        "utf8"
+      );
+    } catch {
+      // ignore debug logging failures
+    }
+  }, [input, cursorPosition]);
 
   // Hook up the actual input handling
   useInput((inputChar: string, key: Key) => {

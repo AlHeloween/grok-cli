@@ -198,6 +198,18 @@ getPath(): string {
     `);
   }
 
+  beginTransaction(): void {
+    this.db.exec("BEGIN TRANSACTION;");
+  }
+
+  commitTransaction(): void {
+    this.db.exec("COMMIT;");
+  }
+
+  rollbackTransaction(): void {
+    this.db.exec("ROLLBACK;");
+  }
+
   private getMeta(key: string): string | undefined {
     return this.db.selectValue(
       "SELECT value FROM rag_meta WHERE key = ?",

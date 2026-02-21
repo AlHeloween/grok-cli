@@ -355,6 +355,51 @@ if (dimension) {
   let filesIndexed = 0;
   let chunksIndexed = 0;
 
+  const chunkBuffer: Array<{ rel: string; text: string; meta: { startLine: number; endLine: number } }> = [];
+
+  const flushBuffer = async () => {
+    if (chunkBuffer.length === 0 || !db) return;
+
+    let vectors: number[][];
+    try {
+      // Embed in batches for high throughput.
+      vectors = await embeddingClient.embedBatch(chunkBuffer.map((c) => c.text));
+    } catch {
+      vectors = [];
+    }
+
+    if (vectors.length !== chunkBuffer.length) {
+      // Fallback: per-chunk embeds (best effort) if batch fails or returns mismatched results.
+      vectors = [];
+      for (const item of chunkBuffer) {
+        try {
+          vectors.push(await embeddingClient.embed(item.text));
+        } catch {
+          vectors.push([]);
+        }
+      }
+    }
+
+    for (let j = 0; j < chunkBuffer.length; j++) {
+      const vec = vectors[j];
+      if (!vec || vec.length !== dimension) continue;
+      db.insertChunk({
+        path: chunkBuffer[j].rel,
+        text: chunkBuffer[j].text,
+        meta: JSON.stringify(chunkBuffer[j].meta),
+        vector: vec,
+      });
+      chunksIndexed++;
+    }
+    chunkBuffer.length = 0;
+  };
+
+  let transactionStarted = false;
+  if (db) {
+    db.beginTransaction();
+    transactionStarted = true;
+  }
+
   for (const file of files) {
     const rel = path.relative(cwd, file).replaceAll("\\", "/");
 
@@ -388,52 +433,33 @@ if (dimension) {
     }
 
     if (!db) {
-  if (!dimension) continue;
-  db = await VectorDb.open(dbPath, { dimension, distance: "COSINE" });
-}
+      if (!dimension) continue;
+      db = await VectorDb.open(dbPath, { dimension, distance: "COSINE" });
+      db.beginTransaction();
+      transactionStarted = true;
+    }
 
     // Replace index for this file.
-    db!.deleteChunksByPath(rel);
+    db.deleteChunksByPath(rel);
 
-    // Embed in batches for throughput.
-    for (let i = 0; i < chunks.length; i += batchSize) {
-      const batch = chunks.slice(i, i + batchSize);
-      let vectors: number[][];
-      try {
-        vectors = await embeddingClient.embedBatch(batch.map((b) => b.text));
-      } catch {
-        vectors = [];
-      }
-      if (vectors.length !== batch.length) {
-        // fallback: per-chunk embeds (best effort)
-        vectors = [];
-        for (const b of batch) {
-          try {
-            vectors.push(await embeddingClient.embed(b.text));
-          } catch {
-            vectors.push([]);
-          }
-        }
-      }
-
-      for (let j = 0; j < batch.length; j++) {
-        const vec = vectors[j];
-        if (!vec || vec.length !== dimension) continue;
-        const meta = JSON.stringify(batch[j].meta);
-        db!.insertChunk({
-          path: rel,
-          text: batch[j].text,
-          meta,
-          vector: vec,
-        });
-        chunksIndexed++;
+    // Queue chunks for global batching across files.
+    for (const chunk of chunks) {
+      chunkBuffer.push({ rel, text: chunk.text, meta: chunk.meta });
+      if (chunkBuffer.length >= batchSize) {
+        await flushBuffer();
       }
     }
 
     filesIndexed++;
   }
 
-      if (db && options.quantize) {
+  // Final flush and commit.
+  await flushBuffer();
+  if (db && transactionStarted) {
+    db.commitTransaction();
+  }
+
+  if (db && options.quantize) {
     try {
       db.quantize(!!options.quantizePreload);
     } catch {

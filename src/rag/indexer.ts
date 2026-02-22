@@ -355,6 +355,57 @@ if (dimension) {
   let filesIndexed = 0;
   let chunksIndexed = 0;
 
+  // Bolt: Optimize indexing by batching embeddings across multiple files.
+  const chunkBuffer: Array<{
+    rel: string;
+    text: string;
+    meta: { startLine: number; endLine: number };
+  }> = [];
+
+  const flushBuffer = async () => {
+    if (chunkBuffer.length === 0 || !db) return;
+
+    let vectors: number[][];
+    try {
+      vectors = await embeddingClient.embedBatch(chunkBuffer.map((b) => b.text));
+    } catch {
+      vectors = [];
+    }
+
+    if (vectors.length !== chunkBuffer.length) {
+      // Fallback: per-chunk embeds (best effort)
+      vectors = [];
+      for (const b of chunkBuffer) {
+        try {
+          vectors.push(await embeddingClient.embed(b.text));
+        } catch {
+          vectors.push([]);
+        }
+      }
+    }
+
+    db.beginTransaction();
+    try {
+      for (let j = 0; j < chunkBuffer.length; j++) {
+        const vec = vectors[j];
+        if (!vec || vec.length !== dimension) continue;
+        const meta = JSON.stringify(chunkBuffer[j].meta);
+        db.insertChunk({
+          path: chunkBuffer[j].rel,
+          text: chunkBuffer[j].text,
+          meta,
+          vector: vec,
+        });
+        chunksIndexed++;
+      }
+      db.commitTransaction();
+    } catch (e) {
+      db.rollbackTransaction();
+      throw e;
+    }
+    chunkBuffer.length = 0;
+  };
+
   for (const file of files) {
     const rel = path.relative(cwd, file).replaceAll("\\", "/");
 
@@ -375,7 +426,10 @@ if (dimension) {
     if (!content) continue;
 
     const chunks = chunkByLines(content, chunkLines, overlapLines);
-    if (!chunks.length) continue;
+    if (!chunks.length) {
+      if (db) db.deleteChunksByPath(rel);
+      continue;
+    }
 
     if (!dimension) {
       try {
@@ -388,50 +442,24 @@ if (dimension) {
     }
 
     if (!db) {
-  if (!dimension) continue;
-  db = await VectorDb.open(dbPath, { dimension, distance: "COSINE" });
-}
+      if (!dimension) continue;
+      db = await VectorDb.open(dbPath, { dimension, distance: "COSINE" });
+    }
 
     // Replace index for this file.
-    db!.deleteChunksByPath(rel);
+    db.deleteChunksByPath(rel);
 
-    // Embed in batches for throughput.
-    for (let i = 0; i < chunks.length; i += batchSize) {
-      const batch = chunks.slice(i, i + batchSize);
-      let vectors: number[][];
-      try {
-        vectors = await embeddingClient.embedBatch(batch.map((b) => b.text));
-      } catch {
-        vectors = [];
-      }
-      if (vectors.length !== batch.length) {
-        // fallback: per-chunk embeds (best effort)
-        vectors = [];
-        for (const b of batch) {
-          try {
-            vectors.push(await embeddingClient.embed(b.text));
-          } catch {
-            vectors.push([]);
-          }
-        }
-      }
-
-      for (let j = 0; j < batch.length; j++) {
-        const vec = vectors[j];
-        if (!vec || vec.length !== dimension) continue;
-        const meta = JSON.stringify(batch[j].meta);
-        db!.insertChunk({
-          path: rel,
-          text: batch[j].text,
-          meta,
-          vector: vec,
-        });
-        chunksIndexed++;
+    for (const chunk of chunks) {
+      chunkBuffer.push({ rel, text: chunk.text, meta: chunk.meta });
+      if (chunkBuffer.length >= batchSize) {
+        await flushBuffer();
       }
     }
 
     filesIndexed++;
   }
+
+  await flushBuffer();
 
       if (db && options.quantize) {
     try {

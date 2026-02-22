@@ -269,6 +269,18 @@ clearAllChunks(): void {
   this.dirty = true;
 }
 
+beginTransaction(): void {
+  this.db.exec({ sql: "BEGIN TRANSACTION;" });
+}
+
+commitTransaction(): void {
+  this.db.exec({ sql: "COMMIT;" });
+}
+
+rollbackTransaction(): void {
+  this.db.exec({ sql: "ROLLBACK;" });
+}
+
   quantize(preload: boolean = false): void {
   this.db.exec({
     sql: "SELECT vector_quantize('chunks', 'vector');",

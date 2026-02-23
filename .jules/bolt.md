@@ -1,0 +1,3 @@
+## 2025-05-14 - [RAG Indexing: Network Latency Bottleneck]
+**Learning:** In RAG systems, network latency for embedding API calls is often the primary bottleneck. Batching embeddings *within* a single file is insufficient when a project contains many small files. Cross-file batching using a buffer dramatically reduces the total number of API requests and overall indexing time. Additionally, using explicit SQLite transactions (even with in-memory DBs that serialize to disk) improves both performance and atomicity.
+**Action:** Always look for opportunities to batch network-bound operations across logical boundaries (like files) rather than just within them. Ensure long-running database operations are wrapped in transactions for atomicity and speed.

@@ -243,6 +243,22 @@ getPath(): string {
     }
   }
 
+  beginTransaction(): void {
+    this.db.exec("BEGIN TRANSACTION;");
+  }
+
+  commitTransaction(): void {
+    this.db.exec("COMMIT;");
+  }
+
+  rollbackTransaction(): void {
+    try {
+      this.db.exec("ROLLBACK;");
+    } catch {
+      // ignore rollback failure if no transaction is active
+    }
+  }
+
   insertChunk(row: { path: string; text: string; meta?: string | null; vector: number[] }): void {
   this.db.exec({
     sql: "INSERT INTO chunks(path, text, meta, vector) VALUES(?, ?, ?, vector_as_f32(?))",

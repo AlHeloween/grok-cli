@@ -344,96 +344,131 @@ export async function indexProject(options: RagIndexOptions = {}): Promise<RagIn
   }
 
   let db: VectorDb | null = null;
-if (dimension) {
-  try {
-    db = await VectorDb.open(dbPath, { dimension, distance: "COSINE" });
-  } catch {
-    db = null;
+  if (dimension) {
+    try {
+      db = await VectorDb.open(dbPath, { dimension, distance: "COSINE" });
+      db.beginTransaction();
+    } catch {
+      db = null;
+    }
   }
-}
 
   let filesIndexed = 0;
   let chunksIndexed = 0;
 
-  for (const file of files) {
-    const rel = path.relative(cwd, file).replaceAll("\\", "/");
+  // Buffer chunks across multiple files to reduce embedding API network roundtrips.
+  const chunkBuffer: Array<{ rel: string; text: string; meta: Record<string, unknown> }> = [];
 
-    let content = "";
+  const flushBuffer = async () => {
+    if (chunkBuffer.length === 0 || !db) return;
+
+    let vectors: number[][];
     try {
-      const ext = path.extname(file).toLowerCase();
-      const preferNative = extractor !== "sqlite-rag" || nativeExts.includes(ext);
-
-      if (preferNative) {
-        content = fs.readFileSync(file, "utf-8");
-      } else {
-        content = (await extractTextWithSqliteRag(file, maxFileSizeBytes, python)) || "";
-      }
+      vectors = await embeddingClient.embedBatch(chunkBuffer.map((b) => b.text));
     } catch {
-      continue;
+      vectors = [];
     }
 
-    if (!content) continue;
-
-    const chunks = chunkByLines(content, chunkLines, overlapLines);
-    if (!chunks.length) continue;
-
-    if (!dimension) {
-      try {
-        const v = await embeddingClient.embed(chunks[0].text);
-        if (!v.length) continue;
-        dimension = v.length;
-      } catch {
-        continue;
-      }
-    }
-
-    if (!db) {
-  if (!dimension) continue;
-  db = await VectorDb.open(dbPath, { dimension, distance: "COSINE" });
-}
-
-    // Replace index for this file.
-    db!.deleteChunksByPath(rel);
-
-    // Embed in batches for throughput.
-    for (let i = 0; i < chunks.length; i += batchSize) {
-      const batch = chunks.slice(i, i + batchSize);
-      let vectors: number[][];
-      try {
-        vectors = await embeddingClient.embedBatch(batch.map((b) => b.text));
-      } catch {
-        vectors = [];
-      }
-      if (vectors.length !== batch.length) {
-        // fallback: per-chunk embeds (best effort)
-        vectors = [];
-        for (const b of batch) {
-          try {
-            vectors.push(await embeddingClient.embed(b.text));
-          } catch {
-            vectors.push([]);
+    if (vectors.length !== chunkBuffer.length) {
+      // Fallback: per-chunk embeds (best effort)
+      for (const item of chunkBuffer) {
+        try {
+          const vec = await embeddingClient.embed(item.text);
+          if (vec && vec.length === dimension) {
+            db.insertChunk({
+              path: item.rel,
+              text: item.text,
+              meta: JSON.stringify(item.meta),
+              vector: vec,
+            });
+            chunksIndexed++;
           }
+        } catch {
+          // ignore
         }
       }
-
-      for (let j = 0; j < batch.length; j++) {
-        const vec = vectors[j];
+    } else {
+      for (let i = 0; i < chunkBuffer.length; i++) {
+        const vec = vectors[i];
         if (!vec || vec.length !== dimension) continue;
-        const meta = JSON.stringify(batch[j].meta);
-        db!.insertChunk({
-          path: rel,
-          text: batch[j].text,
-          meta,
+        db.insertChunk({
+          path: chunkBuffer[i].rel,
+          text: chunkBuffer[i].text,
+          meta: JSON.stringify(chunkBuffer[i].meta),
           vector: vec,
         });
         chunksIndexed++;
       }
     }
+    chunkBuffer.length = 0;
+  };
 
-    filesIndexed++;
+  try {
+    for (const file of files) {
+      const rel = path.relative(cwd, file).replaceAll("\\", "/");
+
+      let content = "";
+      try {
+        const ext = path.extname(file).toLowerCase();
+        const preferNative = extractor !== "sqlite-rag" || nativeExts.includes(ext);
+
+        if (preferNative) {
+          content = fs.readFileSync(file, "utf-8");
+        } else {
+          content = (await extractTextWithSqliteRag(file, maxFileSizeBytes, python)) || "";
+        }
+      } catch {
+        continue;
+      }
+
+      if (!content) continue;
+
+      const chunks = chunkByLines(content, chunkLines, overlapLines);
+      if (!chunks.length) continue;
+
+      if (!dimension) {
+        try {
+          const v = await embeddingClient.embed(chunks[0].text);
+          if (!v.length) continue;
+          dimension = v.length;
+        } catch {
+          continue;
+        }
+      }
+
+      if (!db) {
+        if (!dimension) continue;
+        db = await VectorDb.open(dbPath, { dimension, distance: "COSINE" });
+        db.beginTransaction();
+      }
+
+      // Replace index for this file.
+      db.deleteChunksByPath(rel);
+
+      for (const chunk of chunks) {
+        chunkBuffer.push({ rel, text: chunk.text, meta: chunk.meta });
+        if (chunkBuffer.length >= batchSize) {
+          await flushBuffer();
+        }
+      }
+
+      filesIndexed++;
+    }
+
+    await flushBuffer();
+    if (db) db.commitTransaction();
+  } catch (err) {
+    if (db) {
+      try {
+        db.rollbackTransaction();
+      } catch {
+        // ignore
+      }
+    }
+    throw err;
   }
 
-      if (db && options.quantize) {
+  if (db && options.quantize) {
     try {
       db.quantize(!!options.quantizePreload);
     } catch {

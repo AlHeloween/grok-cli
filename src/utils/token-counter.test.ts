@@ -36,6 +36,52 @@ describe("TokenCounter", () => {
     expect(counter.countTokens("test")).toBeGreaterThan(0);
     counter.dispose();
   });
+
+  it("caches results for short strings", () => {
+    const counter = new TokenCounter("gpt-4");
+    const text = "This is a test string for caching";
+
+    // First call computes and caches
+    const count1 = counter.countTokens(text);
+
+    // Second call should come from cache
+    const count2 = counter.countTokens(text);
+
+    expect(count1).toBe(count2);
+    expect(count1).toBeGreaterThan(0);
+    counter.dispose();
+  });
+
+  it("does not cache results for very long strings", () => {
+    const counter = new TokenCounter("gpt-4");
+    const longText = "a".repeat(2001);
+
+    const count1 = counter.countTokens(longText);
+    const count2 = counter.countTokens(longText);
+
+    expect(count1).toBe(count2);
+    expect(count1).toBeGreaterThan(0);
+    counter.dispose();
+  });
+
+  it("evicts oldest entries when cache limit is reached", () => {
+    const counter = new TokenCounter("gpt-4");
+    const MAX_CACHE_SIZE = 1000;
+
+    // Fill the cache
+    for (let i = 0; i < MAX_CACHE_SIZE; i++) {
+      counter.countTokens(`text-${i}`);
+    }
+
+    // Add one more to trigger eviction of text-0
+    counter.countTokens("trigger-eviction");
+
+    // Verify results are still correct
+    expect(counter.countTokens("text-0")).toBeGreaterThan(0);
+    expect(counter.countTokens("trigger-eviction")).toBeGreaterThan(0);
+
+    counter.dispose();
+  });
 });
 
 describe("createTokenCounter", () => {

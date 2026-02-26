@@ -2,6 +2,9 @@ import { get_encoding, encoding_for_model, Tiktoken } from 'tiktoken';
 
 export class TokenCounter {
   private encoder: Tiktoken;
+  private cache = new Map<string, number>();
+  private readonly MAX_CACHE_SIZE = 1000;
+  private readonly MAX_TEXT_LENGTH = 2000;
 
   constructor(model: string = 'gpt-4') {
     if (model && model.toLowerCase().includes('grok')) {
@@ -24,7 +27,28 @@ export class TokenCounter {
    */
   countTokens(text: string): number {
     if (!text) return 0;
-    return this.encoder.encode(text).length;
+
+    // Use cache for short strings to avoid expensive re-tokenization
+    if (text.length < this.MAX_TEXT_LENGTH) {
+      const cached = this.cache.get(text);
+      if (cached !== undefined) return cached;
+    }
+
+    const count = this.encoder.encode(text).length;
+
+    // Cache the result if it's within length limits
+    if (text.length < this.MAX_TEXT_LENGTH) {
+      if (this.cache.size >= this.MAX_CACHE_SIZE) {
+        // Simple eviction: remove the first (oldest) entry
+        const firstKey = this.cache.keys().next().value;
+        if (firstKey !== undefined) {
+          this.cache.delete(firstKey);
+        }
+      }
+      this.cache.set(text, count);
+    }
+
+    return count;
   }
 
   /**
@@ -69,6 +93,7 @@ export class TokenCounter {
    */
   dispose(): void {
     this.encoder.free();
+    this.cache.clear();
   }
 }
 

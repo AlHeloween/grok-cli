@@ -15,6 +15,8 @@ interface DiffLine {
   content: string;
 }
 
+const MAX_DIFF_LINES = 100;
+
 function parseDiffWithLineNumbers(diffContent: string): DiffLine[] {
   const lines = diffContent.split('\n');
   const result: DiffLine[] = [];
@@ -119,13 +121,21 @@ export const DiffRenderer = ({
   
   const parsedLines = parseDiffWithLineNumbers(actualDiffContent);
 
-  if (parsedLines.length === 0) {
+
+  let linesToRender = parsedLines;
+  let truncated = false;
+  if (parsedLines.length > MAX_DIFF_LINES) {
+    linesToRender = parsedLines.slice(0, MAX_DIFF_LINES);
+    truncated = true;
+  }
+
+  if (linesToRender.length === 0) {
     return <Text color={colors.textDim} dimColor>No changes detected.</Text>;
   }
 
   // Always render as diff format to show line numbers and + signs
   const renderedOutput = renderDiffContent(
-    parsedLines,
+    linesToRender,
     filename,
     tabWidth,
     availableTerminalHeight,
@@ -133,7 +143,18 @@ export const DiffRenderer = ({
     colors,
   );
 
-  return <>{renderedOutput}</>;
+  if (truncated) {
+    return (
+      <>
+        {renderedOutput}
+        <Text color={colors.warning} dimColor>
+          Diff truncated to {MAX_DIFF_LINES} lines. Original diff has {parsedLines.length} lines.
+        </Text>
+      </>
+    );
+  }
+
+  return renderedOutput;
 };
 
 const renderDiffContent = (

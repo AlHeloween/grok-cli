@@ -397,6 +397,8 @@ function ChatInterfaceWithAgent({
   );
 }
 
+const MemoizedChatInterfaceWithAgent = React.memo(ChatInterfaceWithAgent);
+
 // Main component that handles API key input or chat interface
 export default function ChatInterface({
   agent,
@@ -415,7 +417,7 @@ export default function ChatInterface({
   }
 
   return (
-    <ChatInterfaceWithAgent
+    <MemoizedChatInterfaceWithAgent
       agent={currentAgent}
       initialMessage={initialMessage}
     />

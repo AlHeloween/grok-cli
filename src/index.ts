@@ -534,13 +534,38 @@ program
         ? message.join(" ")
         : message;
 
-      render(
-        React.createElement(
-          ThemeProvider,
-          null,
-          React.createElement(ChatInterface, { agent, initialMessage })
-        )
-      );
+      // Hack: Increase reported terminal rows to prevent Ink from clearing screen
+      // Ink clears screen when outputHeight >= stdout.rows
+      const originalStdout = process.stdout;
+      const actualRows = originalStdout.rows || 24;
+      
+      // Temporarily override rows property
+      let rowsOverride = actualRows + 20; // Add 20 row buffer
+      const originalDescriptor = Object.getOwnPropertyDescriptor(originalStdout, 'rows');
+      Object.defineProperty(originalStdout, 'rows', {
+        get: () => rowsOverride,
+        set: (value) => { rowsOverride = value; },
+        enumerable: true,
+        configurable: true
+      });
+
+      try {
+        render(
+          React.createElement(
+            ThemeProvider,
+            null,
+            React.createElement(ChatInterface, { agent, initialMessage })
+          ),
+          { patchConsole: false, exitOnCtrlC: false }
+        );
+      } finally {
+        // Restore original property descriptor
+        if (originalDescriptor) {
+          Object.defineProperty(originalStdout, 'rows', originalDescriptor);
+        } else {
+          delete (originalStdout as { rows?: number }).rows;
+        }
+      }
     } catch (error: unknown) {
       console.error("❌ Error initializing Grok CLI:", error instanceof Error ? error.message : String(error));
       process.exit(1);

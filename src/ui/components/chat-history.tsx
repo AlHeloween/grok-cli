@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Text } from "ink";
+import { Box, Text, useStdout, Static } from "ink";
 import { ChatEntry } from "../../agent/grok-agent.js";
 import { GrokToolCall } from "../../grok/client.js";
 import { DiffRenderer } from "./diff-renderer.js";
@@ -240,6 +240,9 @@ export const ChatHistory = React.memo(function ChatHistory({
   entries,
   isConfirmationActive = false,
 }: ChatHistoryProps) {
+  const { stdout } = useStdout();
+  const terminalHeight = stdout?.rows || 24;
+  
   // Filter out tool_call entries with "Executing..." when confirmation is active
   const filteredEntries = React.useMemo(() => 
     isConfirmationActive
@@ -251,9 +254,51 @@ export const ChatHistory = React.memo(function ChatHistory({
     [entries, isConfirmationActive]
   );
 
+  // Calculate how many entries we can show based on terminal height
+  // Conservative estimate: each entry takes ~6 lines (margins, header, content, wrapping)
+  // Reserve 8 lines for other UI (input, spinner, status, borders)
+  const estimatedLinesPerEntry = 6;
+  const reservedLines = 8;
+  const maxVisibleEntries = Math.max(1, Math.floor((terminalHeight - reservedLines) / estimatedLinesPerEntry));
+  
+  // Get only the last N entries that fit on screen
+  const visibleEntries = filteredEntries.slice(-maxVisibleEntries);
+
+  // Determine which entries are "live" (currently updating)
+  const isLiveEntry = (entry: ChatEntry): boolean => {
+    // Streaming assistant messages
+    if (entry.isStreaming) return true;
+    // Tool calls that are still executing
+    if (entry.type === "tool_call" && entry.content === "Executing...") return true;
+    // Tool results that just appeared might still be updated? No, they're final.
+    return false;
+  };
+
+  // Separate static and live entries
+  const staticEntries: ChatEntry[] = [];
+  const liveEntries: ChatEntry[] = [];
+  visibleEntries.forEach(entry => {
+    if (isLiveEntry(entry)) {
+      liveEntries.push(entry);
+    } else {
+      staticEntries.push(entry);
+    }
+  });
+
   return (
     <Box flexDirection="column">
-      {filteredEntries.slice(-20).map((entry, index) => (
+      {/* Render static entries with Static component to prevent re-renders */}
+      <Static items={staticEntries}>
+        {(entry, index) => (
+          <MemoizedChatEntry
+            key={`${entry.timestamp.getTime()}-${index}`}
+            entry={entry}
+            index={index}
+          />
+        )}
+      </Static>
+      {/* Render live entries normally so they can update */}
+      {liveEntries.map((entry, index) => (
         <MemoizedChatEntry
           key={`${entry.timestamp.getTime()}-${index}`}
           entry={entry}

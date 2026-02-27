@@ -1,0 +1,86 @@
+---
+description: Use ADID framework and adm executable for updates and verification
+alwaysApply: true
+---
+
+## Absolute rules (CRITICAL)
+
+- **Follow the communication and workflow rules** in `docs/ADID_Framework_15_3.md`. After install, the project copy is at `docs/ADID_Framework_15_3.md`. Read it for epistemic markers, structure, and protocol.
+
+- **NO LEGACY COMPATIBILITY.** Do not add backward-compat parsing, fallback paths, alias modes, or "auto-repair" behaviors that silently reinterpret descriptors; instead migrate inputs explicitly or fail fast with a clear error. Reason: legacy behavior creates cross-conflicting code paths and preserves old bugs.
+
+- **cmd_runner-only execution (CRITICAL)**: Any execution of **non-trivial / crash-prone / long-running commands** is strictly prohibited unless started via cmd_runner.
+  - Repo checkout (recommended): `uv run python cmd_runner.py start -- <command ...>`
+  - Release bundle (recommended): `cmd_runner.exe start -- <command ...>`
+  - Rationale: cmd_runner isolates interactive process I/O and protects the agent shell from crashes/hangs.
+
+- **Canonical cmd_runner workflow (current; no server/legacy commands)**:
+  - Start interactive run in a new window: `uv run python cmd_runner.py start [--cwd PATH] [--timeout-s N] [--env K=V ...] [--terminal conhost|wt|conemu] -- <command ...>`
+  - It prints `run_id` and `inbox=.../inbox.jsonl` in the current terminal.
+  - Tail output: `uv run python cmd_runner.py tail <run_id>`
+  - Inject input programmatically: append JSONL to `logs/cmd_runner/<run_id>/inbox.jsonl` (or use `scripts/cmd_runner_inbox_send.py`).
+
+- **cmd_runner usage (non-blocking)**: Prefer `start` -> `tail`. Avoid long fixed waits; if the task is still running, leave it and check later.
+
+- **Windows cmd-from-bash capture quirk**: When calling Windows `cmd.exe` from a Bash-like shell (Git Bash/MSYS2/WSL interop) and you need the output captured, wrap via PowerShell:
+  - Pattern: `powershell -NoProfile -c 'cmd /c "<command>"'`
+  - Example: `powershell -NoProfile -c 'cmd /c "where dcc64"'`
+  - Reason: In some environments, `cmd /c <command>` can succeed but produce no captured output.
+
+- **Canonical agent assets**: Treat `artefacts/rules/` and `artefacts/skills/` as the source of truth. Agent folders (`.cursor/`, `.codex/`, `.opencode/`) are receivers and may be deleted/recreated.
+
+- **Rebuild/install agent scaffolds**: After changing canonical rules/skills run:
+  - `uv run python scripts/build_artefacts.py`
+  - `uv run python scripts/sync_agent_assets.py`
+
+- **When making declarative updates, running verification, or using rollback/templates**, use the **adm-exe** skill: **prefer `tools/adm.exe` (Windows) or `tools/adm` (Unix)** when the project has adm installed there—it is a stable copy; tool modifications or errors in source will not break the toolchain. Otherwise use `uv run adm` in a repo that has adm as a dependency.
+
+- **Preferred workflow:** Create template (`--template/--tpl <replace|insert|refactor-replace-function|pattern-rule|binary-hex-replace|create|overwrite|delete|binary-overwrite> [output_dir]` - Generate a timestamped XML descriptor template under `./updates/`, rename template as `updates/[ISO8601]_[short_semantic_dominant].xml`, edit, then apply (`--apply`). To **replay history** (inspect descriptors in order): run `tools/adm --replay-updates` (or `tools/adm --replay-updates updates --until 20260202T120000 --limit 5`). Add `--unified-diff` for exact hunks; use `--execute --workdir DIR --confirm-execute APPLY_IN_WORKDIR_ONLY` only when you intentionally want to apply inside an isolated copy. Do not write XML descriptors from scratch. Multiple backups per file are by design and an advantage (rollback, traceability; project stays manageable). run `adm --verify-all` on selected roots (e.g. `src tests adid_tests`) for a clean report. Do not restore from git over local work; use `adm --rollback` and descriptor rollbacks instead. 
+
+- **updates/ is source of truth**: Treat `updates/` history as the durable record. Prefer `tools/adm.exe --replay-updates  over “progress logs”. 
+
+## Project Structure:
+
+- `./pyproject.toml`: Project file, which includes all dependencies; initialized via `uv sync` at start of session. `./README.md` - readme file which describes project. `./AGENTS.md`: Operational Rules for Agents. `./src/project_name/__init__.py`: Application|Server initialization sequence. `./src/project_name/__main__.py`: Application|Server run sequence. `./src/project_name/libs/`: Standard universal libraries. `./src/project_name/DB/`: Databases `./src/project_name/gui/`: Core Graphical user interface with gui related files. `./src/project_name/clients/`: Data end users (with gui and logic). place documentation in /docs folder, 
+
+## Project Planning (track progress)
+
+- **Use ISO8601 prefixes** for **one-time** / **historical** artifacts so we can sort and see what happened when: Plans: `plans/[ISO8601]_plan_description.md`. One-off scripts / experiments: `[ISO8601]_something.py`
+
+- **Create|Update: `_development_plan.md`**[TIMESTAMP], Goal which is reason of tasks/Tasks [COMPLETION] (A task is complete *only* if its related tests pass). Reason: Such development plan saves time to understand where development flow is going.
+  
+- **Absolute build order (no exceptions):**
+  1) Define goals + plan (minimal, testable).
+  2) Create/refresh project scaffold (folders/files/interfaces).
+  3) Create/update tests for the new scaffold and rules.
+  4) Delete orphans (processes, temp files, abandoned logs, stale tests/fixtures).
+  5) Implement application code to satisfy the tests and goals.
+
+- **Planning**: every plan must be splitted on subtasks as separate files and every such file **MUST** contain abstract definition - clear math formalization, structural diagram, clear input and output parameters, brief implementation, test cases.
+
+- **When plan accomplished place plan in plans_completed folder.
+  
+## Progress Logging
+   
+- **Create|Update: `_progress_log.md` **[TIMESTAMP], Reason for the activity, Script Name -  [TIMESTAMP]_[short_semantic_dominant][.sh .py, .js, .pas or any applicable], Script Output. Reason: Such log essential in bug tracking. 
+   
+- **Create|Update: `_application_workflow_diagram.md`:**. List of all modules and functions in order of their execution with:
+`Abstract logic for/if/else/goto statements`,`relative_path`,`short_semantic_dominant`,`Input and output parameters`. Reason: Such file allows to remember code purpose.
+      
+- **At end of every session estimate: `%` of `_application_workflow_diagram.md` code coverage vs actual codebase and report.**
+
+## 📐 Code Quality & Standards
+
+- General Style (PEP 8 & PEP 257): Follow PEP 8 (4-space indents, 79-100 char line length). Format/Lint: Use Black for formatting and flake8 or pylint for linting. Naming: snake_case for variables/functions, CamelCase for classes, ALL_CAPS for constants. Docstrings: Write `PEP 257` docstrings for all public modules, classes, and functions. Type Hints: Use `PEP 484` type hints for all function signatures.
+
+- Logic & Transparency: **Modular: Keep GUI code and logic separated to avoid spaghetti code.**. **Precision: Deliver code that is provably correct. Compile, lint, and test logic before output.**. **Provenance: Reference official docs, examples, or codebase inspection. Do not "guess" API usage.**. 
+- **Clarity on Uncertainty: Mark assumptions or unverified code clearly.** ASSUMPTION: ..., UNVERIFIED: ..., TODO (VERIFY): ...
+
+## Security & Configuration
+
+- No Hardcoded Secrets:Never commit secrets. Use environment variables or an ignored config file. Logging: Never log sensitive data (tokens, passwords, etc.). Least Privilege: Minimize permissions for any credentials used.
+
+## 📚 References
+
+- [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/), [PEP 257 – Docstring, Conventions](https://peps.python.org/pep-0257/), [PEP 484 – Type Hints](https://peps.python.org/pep-0484/), [pytest documentation](https://docs.pytest.org/en/7.1.x/explanation/goodpractices.html), [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+

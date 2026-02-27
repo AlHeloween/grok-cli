@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_679c1fb5acc2d1b5723713a3ad0eeda1 name="update_toc" md5="679c1fb5acc2d1b5723713a3ad0eeda1" size="547">
+    <file>AGENTS.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>**Contents:** [Before any activity](#before-any-activity) · [Response &amp; traceability](#response--traceability) · [Project structure](#project-structure) · [Search policy](#search-policy) · [Declarative workflow (adm)](#declarative-workflow-adm) · [Verification](#verification) · [Agent Safety](#agent-safety-critical) · [Recovery](#recovery-playbook-when-things-go-sideways) · [Execution (Bun)](#execution-bun) · [Code quality](#-code-quality--standards) · [References](#-references) · [Why ADID and adm for this project](#why-adid-and-adm-for-this-project)</find_text>
+    <semantics>Update table of contents to include Skills section</semantics>
+    <content_md5_679c1fb5acc2d1b5723713a3ad0eeda1>
+      **Contents:** [Before any activity](#before-any-activity) · [Skills](#skills) · [Response &amp; traceability](#response--traceability) · [Project structure](#project-structure) · [Search policy](#search-policy) · [Declarative workflow (adm)](#declarative-workflow-adm) · [Verification](#verification) · [Agent Safety](#agent-safety-critical) · [Recovery](#recovery-playbook-when-things-go-sideways) · [Execution (Bun)](#execution-bun) · [Code quality](#-code-quality--standards) · [References](#-references) · [Why ADID and adm for this project](#why-adid-and-adm-for-this-project)
+    </content_md5_679c1fb5acc2d1b5723713a3ad0eeda1>
+  </update_md5_679c1fb5acc2d1b5723713a3ad0eeda1>
+  <update_md5_04b32f030d3105e7145f206298dad029 name="insert_skills_section" md5="04b32f030d3105e7145f206298dad029" size="940">
+    <file>AGENTS.md</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>## Project structure</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Insert Skills section before Project structure heading</semantics>
+    <content_md5_04b32f030d3105e7145f206298dad029>
+      ## Skills
+      
+      Use the `skill` tool to load specialized instructions for particular tasks. Available skills:
+      
+      - **adm‑exe**: Declarative file updates, verification, rollback, and template workflows with ADID Update Manager (adm). Load this skill when performing adm operations.
+      - **agent‑assets**: Maintain canonical artefacts and install agent receiver scaffolds (.cursor/.codex/.opencode). Load this skill when editing rules or skills.
+      - **cmd‑runner**: Run interactive Windows commands safely via cmd_runner (ConPTY‑only) with per‑run logs and an inbox bridge. Use for long/noisy, interactive, or crash‑prone commands that may destabilize the agent.
+      - **dunit**: Run and maintain Delphi DUnit tests for the ADID installer and related Delphi units.
+      - **delphi_builder**: Build Delphi (VCL/FMX) projects from the command line with MSBuild, including environment initialization (MSVC + rsvars).
+      
+      **When to use:** If a task matches a skill description, load the skill first to get detailed workflows and commands. Use `skill` tool with the skill name (e.g., `skill("cmd‑runner")`).
+    </content_md5_04b32f030d3105e7145f206298dad029>
+  </update_md5_04b32f030d3105e7145f206298dad029>
+  <update_md5_715009fd52b466da6c9e04e2a4a8de02 name="add_cmd_runner_bullet" md5="715009fd52b466da6c9e04e2a4a8de02" size="175">
+    <file>AGENTS.md</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>- **Run app:** `grok` (after `bun link`) or `bun run dev`</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Add bullet about cmd_runner in Execution (Bun) section</semantics>
+    <content_md5_715009fd52b466da6c9e04e2a4a8de02>
+      - **Interactive/long‑running commands:** For commands that are interactive, long/noisy, or crash‑prone, consider using `cmd_runner` (Windows ConPTY). Load the `cmd‑runner` skill for details.
+    </content_md5_715009fd52b466da6c9e04e2a4a8de02>
+  </update_md5_715009fd52b466da6c9e04e2a4a8de02>
+  <update_md5_ad488f15d24c8c81a85a2c6a11001d57 name="add_skills_reference" md5="ad488f15d24c8c81a85a2c6a11001d57" size="113">
+    <file>AGENTS.md</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>- [Vitest](https://vitest.dev/), [ESLint](https://eslint.org/), [TypeScript](https://www.typescriptlang.org/docs/), [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Add Skills bullet to References section</semantics>
+    <content_md5_ad488f15d24c8c81a85a2c6a11001d57>
+      - **Skills:** Load specialized instructions via `skill` tool: adm‑exe, agent‑assets, cmd‑runner, dunit, delphi_builder.
+    </content_md5_ad488f15d24c8c81a85a2c6a11001d57>
+  </update_md5_ad488f15d24c8c81a85a2c6a11001d57>
+</updates>

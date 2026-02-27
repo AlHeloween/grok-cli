@@ -1,6 +1,6 @@
 # Quick-Start
 
-**Contents:** [Before any activity](#before-any-activity) · [Response & traceability](#response--traceability) · [Project structure](#project-structure) · [Search policy](#search-policy) · [Declarative workflow (adm)](#declarative-workflow-adm) · [Verification](#verification) · [Agent Safety](#agent-safety-critical) · [Recovery](#recovery-playbook-when-things-go-sideways) · [Execution (Bun)](#execution-bun) · [Code quality](#-code-quality--standards) · [References](#-references) · [Why ADID and adm for this project](#why-adid-and-adm-for-this-project)
+**Contents:** [Before any activity](#before-any-activity) · [Skills](#skills) · [Response & traceability](#response--traceability) · [Project structure](#project-structure) · [Search policy](#search-policy) · [Declarative workflow (adm)](#declarative-workflow-adm) · [Verification](#verification) · [Agent Safety](#agent-safety-critical) · [Recovery](#recovery-playbook-when-things-go-sideways) · [Execution (Bun)](#execution-bun) · [Code quality](#-code-quality--standards) · [References](#-references) · [Why ADID and adm for this project](#why-adid-and-adm-for-this-project)
 
 ---
 
@@ -21,6 +21,18 @@ Follow the **entire** [docs/ADID_Framework_15_3.md](docs/ADID_Framework_15_3.md)
 4. **App build and test:** Run `bun install` and `bun run build` at session start when touching code; run `bun run typecheck`, `bun run lint`, and `bun run test` before submitting changes.
 
 ---
+
+## Skills
+
+Use the `skill` tool to load specialized instructions for particular tasks. Available skills:
+
+- **adm‑exe**: Declarative file updates, verification, rollback, and template workflows with ADID Update Manager (adm). Load this skill when performing adm operations.
+- **agent‑assets**: Maintain canonical artefacts and install agent receiver scaffolds (.cursor/.codex/.opencode). Load this skill when editing rules or skills.
+- **cmd‑runner**: Run interactive Windows commands safely via cmd_runner (ConPTY‑only) with per‑run logs and an inbox bridge. Use for long/noisy, interactive, or crash‑prone commands that may destabilize the agent.
+- **dunit**: Run and maintain Delphi DUnit tests for the ADID installer and related Delphi units.
+- **delphi_builder**: Build Delphi (VCL/FMX) projects from the command line with MSBuild, including environment initialization (MSVC + rsvars).
+
+**When to use:** If a task matches a skill description, load the skill first to get detailed workflows and commands. Use `skill` tool with the skill name (e.g., `skill("cmd‑runner")`).
 
 ## Project structure
 
@@ -103,6 +115,7 @@ Use **Bun** for building and testing the grok-cli app:
 - **Lint:** `bun run lint`
 - **Tests:** `bun run test` (Vitest); watch: `bun run test:watch`; coverage: `bun run test:coverage`
 - **Run app:** `grok` (after `bun link`) or `bun run dev`
+- **Interactive/long‑running commands:** For commands that are interactive, long/noisy, or crash‑prone, consider using `cmd_runner` (Windows ConPTY). Load the `cmd‑runner` skill for details.
 
 Require **build**, **typecheck**, **lint**, and **test** to pass before submitting changes (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
@@ -161,6 +174,7 @@ Use `uv run adm` only as fallback when `tools/adm` is not present (e.g. before a
 - [docs/HANDOVER.md](docs/HANDOVER.md) — Quick handover for developers.
 - [CONTRIBUTING.md](CONTRIBUTING.md) — Build, test, lint, style.
 - Adm: `tools/adm --help`; `adm.md` (repo root) and `src/adm/README.md` if present.
+- **Skills:** Load specialized instructions via `skill` tool: adm‑exe, agent‑assets, cmd‑runner, dunit, delphi_builder.
 - [Vitest](https://vitest.dev/), [ESLint](https://eslint.org/), [TypeScript](https://www.typescriptlang.org/docs/), [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 ---
@@ -169,3 +183,18 @@ Use `uv run adm` only as fallback when `tools/adm` is not present (e.g. before a
 
 - **Adm is located at tools/.** Use `tools/adm` (or `tools/adm.exe` on Windows) for declarative updates, verify-all, and rollback.
 - **ADID + adm replaces much of the need for the paid Morph Fast Apply service:** the agent gets precise, traceable file updates via template → edit descriptor → apply, with backups and rollback, without depending on Morph. For app build and tests use Bun/Vitest.
+
+<!-- ADID_ROLLBACK (from adm.exe)
+  SDID_ROLLBACK {
+    "target_file": "D:\\zPython\\grok-cli\\AGENTS.md"
+    "update_script": "adm.exe"
+    "backup_path": "D:\\zPython\\grok-cli\\AGENTS.md.backup_20260227T162330_229785"
+    "created_at": "2026-02-27T08:23:30.239942+00:00"
+    "backup_hash": "5ee05aebb2f794b3d7a5518224f30ad1"
+    "new_hash": "7263de3634a9d09087c4793b3fc0cfef"
+    "goal_id": "update_agents_with_skills"
+    "semantics": "Update AGENTS.md with Skills section, TOC, cmd‑runner note, and skills reference"
+    "update_attrs": {"relative_path": "AGENTS.md", "update_type": "text", "mode": "overwrite", "encoding": "utf-8", "find_pattern": null, "find_text": "", "replace_present": true}
+    "restore_cmd": "uv run adm \u002d\u002drollback \"D:\\zPython\\grok-cli\\AGENTS.md\""
+  }
+-->

@@ -1,70 +1,56 @@
 ---
 name: cmd-runner
-description: Runs long or crash-prone commands safely on Windows by delegating to cmd-runner (executable in PATH or repo cmd_runner.py). Background runs with run_id, status polling, tail, follow, stop, timeout, and stdin send. Use when executing shell commands, debugging CLI tools, or when large exit codes / noisy stderr may crash the agent.
+description: Run interactive Windows commands safely via cmd_runner (ConPTY-only) with per-run logs and an inbox bridge.
 ---
 
 # cmd-runner
 
-## When to use
+Use this skill when a command may be:
+- long/noisy,
+- interactive (prompts, TUIs),
+- crash-prone or likely to destabilize the agent when run directly.
 
-- Run long, noisy, or crash-prone commands without destabilizing the console.
-- Keep an auditable history of commands and results (run_id + logs).
-- Poll status across terminals (start -> status/wait -> tail/follow -> stop).
+## What cmd_runner is (current)
 
-## Preferred invocation
+- Windows-only, ConPTY-only, serverless (no background server, no TCP control plane).
+- Root-only policy:
+  - Repo checkout: must be launched from the repo root (cwd contains `cmd_runner.py` and `cmd_runner_pkg/`).
+  - Release bundle: run from the bundle root (cwd contains `cmd_runner.exe`).
+- Logs are written to: `logs/cmd_runner/<run_id>/`
+- Programmatic input bridge: append JSONL messages to `logs/cmd_runner/<run_id>/inbox.jsonl`.
 
-- Repo-local (system python): `python .\cmd_runner.py ...` (use when checking interpreter features like datetime.UTC on 3.9).
-- Repo-local (uv env): `uv run python .\cmd_runner.py ...` (project-managed environment).
-- Optional global: `cmd-runner ...` if `cmd-runner.exe` is on PATH and passes the smoke check.
+## How to run it (recommended)
 
-## Workflow (repo cmd_runner.py)
+- Repo/dev (any shell; deterministic file entrypoint):
+  - `uv run python cmd_runner.py ...`
+- Release bundle:
+  - `cmd_runner.exe ...` (preferred; no `uv` required)
 
-1. `uv run python .\cmd_runner.py --help`
-2. Start: `uv run python .\cmd_runner.py start --cwd <repo_root> [--timeout-s N] [--shell cmd|powershell|direct] -- <COMMAND>` (prints `run_id`)
-3. Status: `uv run python .\cmd_runner.py status <run_id> [--tail 80] [--raw-tail]`
-4. Wait: `uv run python .\cmd_runner.py wait <run_id> [--timeout-s N]`
-5. Stop one: `uv run python .\cmd_runner.py stop <run_id> [--force]`
-6. Kill all: `uv run python .\cmd_runner.py killall [--force]`
-7. Logs: `logs/cmd_runner/runs/<run_id>/{stdout.log,stderr.log,state.json,meta.json}`
+## Core workflow
+
+1) Start an interactive run (spawns a new window; interactive session is hosted there):
+- `uv run python cmd_runner.py start --terminal conhost -- <command ...>`
+  - Prints `run_id` and `inbox=` path in the *current* terminal.
+
+2) List / status (from the current terminal):
+- `uv run python cmd_runner.py list`
+- `uv run python cmd_runner.py status <run_id>`
+
+3) Tail output (from the current terminal):
+- Repo checkout: `uv run python cmd_runner.py tail <run_id>` (repo root)
+- Release bundle: `cmd_runner.exe tail <run_id>` (bundle root)
+
+4) Inject input programmatically (bridge):
+- Append JSONL to: `logs/cmd_runner/<run_id>/inbox.jsonl`
+- Built-in (preferred):
+  - `uv run python cmd_runner.py send <run_id> --keys "TEXT:/exit,ENTER"`
+- Helper (legacy but still available):
+  - `uv run python scripts/cmd_runner_inbox_send.py --run-id <run_id> --keys "TEXT:/exit,ENTER"`
+
+5) Stop (serverless terminate):
+- `uv run python cmd_runner.py stop <run_id> --reason "done"`
+  - Writes `logs/cmd_runner/<run_id>/stop_request.json`; the hosting cmd_runner watches for it and terminates the Job Object.
 
 Notes:
-- Logs live under `<run_root>/logs/cmd_runner/runs/<run_id>/...`; run_root defaults to the cmd_runner script/exe location (or nearest pyproject) and can be overridden with `CMD_RUNNER_ROOT`.
-- `list` prints `state`, `running` (pid-checked), and `timeout_s` for each run_id.
-- Default behavior is no popup windows on Windows; pass `--show-window` only when you explicitly want a visible console.
-
-## Log-based traceability (training data)
-
-Each run is stored under `logs/cmd_runner/runs/<run_id>/` and includes:
-- `meta.json`: command line, cwd, shell, timeout_s, env overrides, and start timestamp.
-- `state.json`: live state (starting/running/finished/stopped), PID, exit code, timestamps.
-- `stdout.log` / `stderr.log`: raw outputs (not obfuscated).
-- `stdin.queue`: queued stdin lines when `--stdin` is enabled.
-
-Use these logs as a command/result ledger for regression, replay, and skill training:
-- Map `meta.json` (command + params) to `stdout.log`/`stderr.log` outcomes.
-- Prefer log files for troubleshooting; console output is obfuscated by default.
-
-## Smoke check (global exe)
-
-```powershell
-cmd-runner --help
-$run_id = (cmd-runner start --shell cmd --timeout-s 30 -- cmd /c echo CMD_RUNNER_SMOKE | Select-Object -First 1).Trim()
-cmd-runner status $run_id --tail 20
-cmd-runner list --limit 5
-```
-
-If `status` prints `unknown` or `list` is empty, use repo-local `cmd_runner.py` via `uv run python`.
-
-<!-- ADID_ROLLBACK (from adm.exe)
-  SDID_ROLLBACK {
-    "target_file": "D:\\zPython\\ADID_Python\\cursor_artifacts/skills/cmd-runner/SKILL.md"
-    "update_script": "adm.exe"
-    "backup_path": "none"
-    "created_at": "2026-02-08T08:22:39.294608+00:00"
-    "new_hash": "b44f502c9668fa7cd282f9d2ad48d33e"
-    "goal_id": "cmd_runner_skill_create"
-    "semantics": "Add cmd-runner skill documentation with log-based traceability notes."
-    "update_attrs": {"relative_path": "cursor_artifacts/skills/cmd-runner/SKILL.md", "update_type": "text", "mode": "overwrite", "encoding": "utf-8", "find_pattern": null, "find_text": "", "replace_present": true}
-    "restore_cmd": "uv run adm \u002d\u002drollback \"D:\\zPython\\ADID_Python\\cursor_artifacts/skills/cmd-runner/SKILL.md\""
-  }
--->
+- `add_crlf` defaults to `false` (no implicit Enter). Use `ENTER` in `keys` or `--crlf` in the helper.
+- For stable key input/editing, prefer `--terminal conhost`.

@@ -50,10 +50,10 @@ export class BashTool {
             success: true,
             output: `Changed directory to: ${this.currentDirectory}`,
           };
-        } catch (error: any) {
+        } catch (error: unknown) {
           return {
             success: false,
-            error: `Cannot change directory: ${error.message}`,
+            error: `Cannot change directory: ${error instanceof Error ? error.message : String(error)}`,
           };
         }
       }
@@ -70,10 +70,10 @@ export class BashTool {
         success: true,
         output: output.trim() || "Command executed successfully (no output)",
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       return {
         success: false,
-        error: `Command failed: ${error.message}`,
+        error: `Command failed: ${error instanceof Error ? error.message : String(error)}`,
       };
     }
   }
@@ -96,10 +96,10 @@ export class BashTool {
             ? names.join("\n")
             : `Directory is empty: ${directory}`,
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       return {
         success: false,
-        error: `Cannot list files: ${error?.message ?? String(error)}`,
+        error: `Cannot list files: ${error instanceof Error ? error.message : String(error)}`,
       };
     }
   }
@@ -135,10 +135,10 @@ export class BashTool {
             ? matches.sort((a, b) => a.localeCompare(b)).join("\n")
             : `No matching files found for "${pattern}" in ${directory}`,
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
       return {
         success: false,
-        error: `Cannot find files: ${error?.message ?? String(error)}`,
+        error: `Cannot find files: ${error instanceof Error ? error.message : String(error)}`,
       };
     }
   }

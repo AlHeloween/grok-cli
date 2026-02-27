@@ -1,14 +1,35 @@
+export interface AgentToolResponseContentPart {
+  type: "output_text" | "text" | "image_url" | "input_text" | "input_image";
+  text?: string;
+  image_url?: { url: string };
+}
+
+export interface AgentToolResponseMessage {
+  type: "message";
+  content: AgentToolResponseContentPart[];
+}
+
+export interface AgentToolResponseFunctionCall {
+  type: "function_call";
+  name: string;
+  call_id?: string;
+  id?: string;
+  arguments?: string;
+}
+
+export type AgentToolResponseItem = AgentToolResponseMessage | AgentToolResponseFunctionCall;
+
 export interface ToolResult {
   success: boolean;
   output?: string;
   error?: string;
-  data?: any;
+  data?: unknown;
 }
 
 export interface Tool {
   name: string;
   description: string;
-  execute: (...args: any[]) => Promise<ToolResult>;
+  execute: (...args: unknown[]) => Promise<ToolResult>;
 }
 
 export interface EditorCommand {

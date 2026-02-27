@@ -5,7 +5,7 @@ import TerminalRenderer from 'marked-terminal';
 
 // Configure marked to use the terminal renderer with default settings
 marked.setOptions({
-  renderer: new (TerminalRenderer as any)()
+  renderer: new (TerminalRenderer as any)() // eslint-disable-line @typescript-eslint/no-explicit-any
 });
 
 export function MarkdownRenderer({ content }: { content: string }) {

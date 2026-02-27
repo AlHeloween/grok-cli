@@ -1,0 +1,116 @@
+type PythonInvocation = { cmd: string; argsPrefix: string[] };
+
+let cachedPython: PythonInvocation | null = null;
+
+function parsePythonSetting(value: string): PythonInvocation {
+  const cmd = value.trim();
+  const base = path.basename(cmd).toLowerCase();
+  if (base === "py" || base === "py.exe") return { cmd, argsPrefix: ["-3"] };
+  return { cmd, argsPrefix: [] };
+}
+
+function resolvePythonInvocation(requested?: string): PythonInvocation {
+  const env = process.env.GROK_RAG_PYTHON?.trim();
+  const configured = requested?.trim() || env;
+  if (configured) return parsePythonSetting(configured);
+
+  if (cachedPython) return cachedPython;
+
+  const candidates: PythonInvocation[] = [
+    { cmd: "python", argsPrefix: [] },
+    { cmd: "python3", argsPrefix: [] },
+    { cmd: "py", argsPrefix: ["-3"] },
+  ];
+
+  for (const c of candidates) {
+    try {
+      const r = spawnSync(c.cmd, [...c.argsPrefix, "--version"], {
+        windowsHide: true,
+        timeout: 2000,
+        encoding: "utf8",
+      });
+      if (r.status === 0) {
+        cachedPython = c;
+        return c;
+      }
+    } catch {
+      // ignore
+    }
+  }
+
+  cachedPython = candidates[0];
+  return cachedPython;
+}
+
+function getExtractScriptPath(): string {
+  const env = process.env.GROK_RAG_EXTRACT_SCRIPT?.trim();
+  if (env) return env;
+
+  const here = path.dirname(fileURLToPath(import.meta.url));
+  return path.resolve(here, "../../scripts/sqlite_rag_extract.py");
+}
+
+async function extractTextWithSqliteRag(
+  filePath: string,
+  maxBytes: number,
+  pythonSetting?: string
+): Promise<string | null> {
+  const scriptPath = getExtractScriptPath();
+  const py = resolvePythonInvocation(pythonSetting);
+
+  const args = [
+    ...py.argsPrefix,
+    scriptPath,
+    "--path",
+    filePath,
+    "--max-bytes",
+    String(maxBytes),
+  ];
+
+  return await new Promise((resolve) => {
+    const child = spawn(py.cmd, args, {
+      windowsHide: true,
+      stdio: ["ignore", "pipe", "pipe"],
+    });
+
+    let stdout = "";
+    let stderr = "";
+    let killed = false;
+    const maxOut = Math.max(1024 * 1024, maxBytes + 1024);
+
+    child.stdout.setEncoding("utf8");
+    child.stderr.setEncoding("utf8");
+
+    child.stdout.on("data", (chunk) => {
+      if (killed) return;
+      stdout += chunk;
+      if (stdout.length > maxOut) {
+        killed = true;
+        try {
+          child.kill();
+        } catch {
+          // ignore
+        }
+      }
+    });
+
+    child.stderr.on("data", (chunk) => {
+      stderr += chunk;
+    });
+
+    child.on("error", () => {
+      if (stderr) logRagDebug("Python script stderr:", stderr);
+      resolve(null);
+    });
+    child.on("close", (code) => {
+      if (stderr && DEBUG_RAG) {
+        logRagDebug("Python script stderr:", stderr);
+      }
+      const out = stdout.trim();
+      if (killed) return resolve(out || null);
+      if (code === 0) return resolve(out || null);
+      if (stderr) logRagDebug("Python script failed with stderr:", stderr);
+      return resolve(null);
+    });
+  });
+}

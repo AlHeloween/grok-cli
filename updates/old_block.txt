@@ -1,0 +1,13 @@
+      let content = "";
+      try {
+        const ext = path.extname(file).toLowerCase();
+        const preferNative = extractor !== "sqlite-rag" || nativeExts.includes(ext);
+
+        if (preferNative) {
+          content = fs.readFileSync(file, "utf-8");
+        } else {
+          content = (await extractTextWithSqliteRag(file, maxFileSizeBytes, python)) || "";
+        }
+      } catch {
+        continue;
+      }

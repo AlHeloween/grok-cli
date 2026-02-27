@@ -22,7 +22,7 @@ import { getConfigCategories, getConfigRegistry } from "../config/registry.js";
 import { maskSecret } from "../config/effective-config.js";
 
 /** Pasted content longer than this is treated as text; clipboard image check is skipped. */
-const PASTE_TEXT_THRESHOLD = 1000;
+const PASTE_TEXT_THRESHOLD = 5000;
 
 interface UseInputHandlerProps {
   agent: GrokAgent;
@@ -407,7 +407,7 @@ export function useInputHandler({
               "../config/effective-config.js"
             );
             const rows = getEffectiveConfig()
-              .map((it: any) => {
+               .map((it: { key: string; value: unknown; note?: string; source: string }) => {
                 const isSecret = String(it.key).toLowerCase().includes("key");
                 const val = isSecret ? maskSecret(it.value) : it.value;
                 const note = it.note ? ` (${it.note})` : "";
@@ -880,7 +880,7 @@ export function useInputHandler({
                 ctrl: !!key.ctrl,
                 meta: !!key.meta,
                 shift: !!key.shift,
-                paste: !!(key as any).paste,
+                paste: !!(key as { paste?: boolean }).paste,
               },
               inputLen: input.length,
               cursorPosition,
@@ -1128,10 +1128,11 @@ Available models: ${modelNames.join(", ")}`,
           timestamp: new Date(),
         };
         setChatHistory((prev) => [...prev, attachedEntry]);
-      } catch (error: any) {
+      } catch (error: unknown) {
+        const errorMessage = error instanceof Error ? error.message : String(error);
         const attachErrorEntry: ChatEntry = {
           type: "assistant",
-          content: `Attach failed: ${error.message}`,
+          content: `Attach failed: ${errorMessage}`,
           timestamp: new Date(),
         };
         setChatHistory((prev) => [...prev, attachErrorEntry]);
@@ -1330,10 +1331,11 @@ Respond with ONLY the commit message, no additional text.`;
           };
           setChatHistory((prev) => [...prev, pushEntry]);
         }
-      } catch (error: any) {
+      } catch (error: unknown) {
+        const errorMessage = error instanceof Error ? error.message : String(error);
         const errorEntry: ChatEntry = {
           type: "assistant",
-          content: `Error during commit and push: ${error.message}`,
+          content: `Error during commit and push: ${errorMessage}`,
           timestamp: new Date(),
         };
         setChatHistory((prev) => [...prev, errorEntry]);
@@ -1389,10 +1391,11 @@ Respond with ONLY the commit message, no additional text.`;
           toolResult: result,
         };
         setChatHistory((prev) => [...prev, commandEntry]);
-      } catch (error: any) {
+      } catch (error: unknown) {
+        const errorMessage = error instanceof Error ? error.message : String(error);
         const errorEntry: ChatEntry = {
           type: "assistant",
-          content: `Error executing command: ${error.message}`,
+          content: `Error executing command: ${errorMessage}`,
           timestamp: new Date(),
         };
         setChatHistory((prev) => [...prev, errorEntry]);
@@ -1530,10 +1533,11 @@ Respond with ONLY the commit message, no additional text.`;
             break;
         }
       }
-    } catch (error: any) {
+    } catch (error: unknown) {
+      const errorMessage = error instanceof Error ? error.message : String(error);
       const errorEntry: ChatEntry = {
         type: "assistant",
-        content: `Error: ${error.message}`,
+        content: `Error: ${errorMessage}`,
         timestamp: new Date(),
       };
       setChatHistory((prev) => [...prev, errorEntry]);

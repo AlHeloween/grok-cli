@@ -156,8 +156,8 @@ class HttpClientTransport extends EventEmitter implements Transport {
   async close(): Promise<void> {
     // Nothing to close for HTTP transport
   }
-
-  async send(message: any): Promise<any> {
+ 
+  async send(message: any): Promise<any> { // eslint-disable-line @typescript-eslint/no-explicit-any
     try {
       const response = await this.client.post('/rpc', message);
       return response.data;
@@ -181,7 +181,7 @@ class SSEClientTransport extends EventEmitter implements Transport {
     // Nothing to close for basic SSE transport
   }
 
-  async send(message: any): Promise<any> {
+  async send(message: any): Promise<any> { // eslint-disable-line @typescript-eslint/no-explicit-any
     // For bidirectional communication over SSE, we typically use HTTP POST
     // for sending messages and SSE for receiving
     try {
@@ -239,9 +239,9 @@ class StreamableHttpClientTransport extends EventEmitter implements Transport {
     // Nothing to close for streamable HTTP transport
   }
 
-  async send(_message: any): Promise<any> {
-
-
+  async send(_message: any): Promise<any> { // eslint-disable-line @typescript-eslint/no-explicit-any
+ 
+ 
     
     // For now, return a mock response to indicate the transport type is not compatible
     // with the MCP protocol's request-response pattern

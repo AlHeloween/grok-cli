@@ -1,10 +1,19 @@
 import * as fs from "fs";
 import * as path from "path";
-import { spawn, spawnSync } from "child_process";
-import { fileURLToPath } from "url";
+
+
 import { createEmbeddingClientFromSettings } from "./embedding-client.js";
 import { VectorDb } from "./vector-db.js";
 import { getSettingsManager } from "../utils/settings-manager.js";
+import { extractText } from "./extractors.js";
+
+const DEBUG_RAG = process.env.GROK_DEBUG_RAG === "1";
+
+function logRagDebug(...args: unknown[]) {
+  if (DEBUG_RAG) {
+    console.warn("[RAG DEBUG]", ...args);
+  }
+}
 
 export interface RagIndexOptions {
   cwd?: string;
@@ -140,9 +149,10 @@ async function walkFiles(root: string): Promise<string[]> {
     let entries: fs.Dirent[];
     try {
       entries = fs.readdirSync(dir, { withFileTypes: true });
-    } catch {
-      continue;
-    }
+        } catch (err) {
+          logRagDebug("initial embedding test failed:", err);
+          continue;
+        }
     for (const ent of entries) {
       const full = path.join(dir, ent.name);
       const rel = path.relative(root, full);
@@ -180,110 +190,6 @@ function chunkByLines(
   return chunks;
 }
 
-type PythonInvocation = { cmd: string; argsPrefix: string[] };
-
-let cachedPython: PythonInvocation | null = null;
-
-function parsePythonSetting(value: string): PythonInvocation {
-  const cmd = value.trim();
-  const base = path.basename(cmd).toLowerCase();
-  if (base === "py" || base === "py.exe") return { cmd, argsPrefix: ["-3"] };
-  return { cmd, argsPrefix: [] };
-}
-
-function resolvePythonInvocation(requested?: string): PythonInvocation {
-  const env = process.env.GROK_RAG_PYTHON?.trim();
-  const configured = requested?.trim() || env;
-  if (configured) return parsePythonSetting(configured);
-
-  if (cachedPython) return cachedPython;
-
-  const candidates: PythonInvocation[] = [
-    { cmd: "python", argsPrefix: [] },
-    { cmd: "python3", argsPrefix: [] },
-    { cmd: "py", argsPrefix: ["-3"] },
-  ];
-
-  for (const c of candidates) {
-    try {
-      const r = spawnSync(c.cmd, [...c.argsPrefix, "--version"], {
-        windowsHide: true,
-        timeout: 2000,
-        encoding: "utf8",
-      });
-      if (r.status === 0) {
-        cachedPython = c;
-        return c;
-      }
-    } catch {
-      // ignore
-    }
-  }
-
-  cachedPython = candidates[0];
-  return cachedPython;
-}
-
-function getExtractScriptPath(): string {
-  const env = process.env.GROK_RAG_EXTRACT_SCRIPT?.trim();
-  if (env) return env;
-
-  const here = path.dirname(fileURLToPath(import.meta.url));
-  return path.resolve(here, "../../scripts/sqlite_rag_extract.py");
-}
-
-async function extractTextWithSqliteRag(
-  filePath: string,
-  maxBytes: number,
-  pythonSetting?: string
-): Promise<string | null> {
-  const scriptPath = getExtractScriptPath();
-  const py = resolvePythonInvocation(pythonSetting);
-
-  const args = [
-    ...py.argsPrefix,
-    scriptPath,
-    "--path",
-    filePath,
-    "--max-bytes",
-    String(maxBytes),
-  ];
-
-  return await new Promise((resolve) => {
-    const child = spawn(py.cmd, args, {
-      windowsHide: true,
-      stdio: ["ignore", "pipe", "pipe"],
-    });
-
-    let stdout = "";
-    let killed = false;
-    const maxOut = Math.max(1024 * 1024, maxBytes + 1024);
-
-    child.stdout.setEncoding("utf8");
-    child.stderr.setEncoding("utf8");
-
-    child.stdout.on("data", (chunk) => {
-      if (killed) return;
-      stdout += chunk;
-      if (stdout.length > maxOut) {
-        killed = true;
-        try {
-          child.kill();
-        } catch {
-          // ignore
-        }
-      }
-    });
-
-    child.on("error", () => resolve(null));
-    child.on("close", (code) => {
-      const out = stdout.trim();
-      if (killed) return resolve(out || null);
-      if (code === 0) return resolve(out || null);
-      return resolve(null);
-    });
-  });
-}
 
 export async function indexProject(options: RagIndexOptions = {}): Promise<RagIndexResult> {
   const cwd = options.cwd || process.cwd();
@@ -294,14 +200,17 @@ export async function indexProject(options: RagIndexOptions = {}): Promise<RagIn
   const extractor = (options.extractor || settings.getRagExtractor(cwd)) as
     | "native"
     | "sqlite-rag";
-  const python = options.python || settings.getRagPython(cwd);
+  if (extractor === "sqlite-rag") {
+    console.warn("[RAG] sqlite-rag extractor is deprecated; using native extraction.");
+  }
+  
 
   const chunkLines = options.chunkLines ?? 200;
   const overlapLines = options.overlapLines ?? 20;
   const maxFileSizeBytes = options.maxFileSizeBytes ?? 512 * 1024;
   const batchSize = options.batchSize ?? 32;
 
-  const nativeExts = normalizeExtensions(DEFAULT_EXTS);
+  
   const defaultExts = extractor === "sqlite-rag" ? SQLITE_RAG_DEFAULT_EXTS : DEFAULT_EXTS;
   const exts = normalizeExtensions(options.includeExtensions ?? defaultExts);
 
@@ -331,6 +240,17 @@ export async function indexProject(options: RagIndexOptions = {}): Promise<RagIn
   });
 
   const embeddingClient = createEmbeddingClientFromSettings();
+
+  // Pre‑flight embedding test
+  try {
+    const testVec = await embeddingClient.embed("test");
+    if (!testVec.length) {
+      console.warn("[RAG] Embedding API returned empty vector. Indexing may fail.");
+    }
+  } catch (err) {
+    console.warn("[RAG] Embedding API test failed:", err instanceof Error ? err.message : String(err));
+    console.warn("[RAG] Indexing will likely fail due to embedding errors.");
+  }
 
   let dimension: number | undefined;
   if (!options.force && fs.existsSync(dbPath)) {
@@ -365,7 +285,8 @@ export async function indexProject(options: RagIndexOptions = {}): Promise<RagIn
     let vectors: number[][];
     try {
       vectors = await embeddingClient.embedBatch(chunkBuffer.map((b) => b.text));
-    } catch {
+    } catch (err) {
+      logRagDebug("embedBatch failed:", err);
       vectors = [];
     }
 
@@ -408,18 +329,11 @@ export async function indexProject(options: RagIndexOptions = {}): Promise<RagIn
       const rel = path.relative(cwd, file).replaceAll("\\", "/");
 
       let content = "";
-      try {
-        const ext = path.extname(file).toLowerCase();
-        const preferNative = extractor !== "sqlite-rag" || nativeExts.includes(ext);
-
-        if (preferNative) {
-          content = fs.readFileSync(file, "utf-8");
-        } else {
-          content = (await extractTextWithSqliteRag(file, maxFileSizeBytes, python)) || "";
-        }
-      } catch {
-        continue;
-      }
+try {
+  content = (await extractText(file, maxFileSizeBytes)) || "";
+} catch {
+  continue;
+}
 
       if (!content) continue;
 
@@ -461,9 +375,10 @@ export async function indexProject(options: RagIndexOptions = {}): Promise<RagIn
     if (db) {
       try {
         db.rollbackTransaction();
-      } catch {
-        // ignore
-      }
+        } catch (err) {
+          logRagDebug("embed per-chunk failed:", err);
+          // ignore
+        }
     }
     throw err;
   }
@@ -484,12 +399,12 @@ export async function indexProject(options: RagIndexOptions = {}): Promise<RagIn
 // SDID_ROLLBACK {
 //   "target_file": "D:\\zPython\\grok-cli\\src/rag/indexer.ts"
 //   "update_script": "adm.exe"
-//   "backup_path": "D:\\zPython\\grok-cli\\src/rag/indexer.ts.backup_20260216T225608_906672"
-//   "created_at": "2026-02-16T14:56:08.917831+00:00"
-//   "backup_hash": "98fd6853fc9f9817a7622331cbd8a53d"
-//   "new_hash": "f99617c85ab5dbefcad00ac7e2e5e5db"
-//   "goal_id": "rag_indexer_restore_quantize_close"
-//   "semantics": "Restore end-of-function quantize and close now that db assignment is visible to TS."
-//   "update_attrs": {"relative_path": "src/rag/indexer.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "if (options.quantize) {\n    try {\n      db?.quantize(!!options.quantizePreload);\n    } catch {\n      // ignore quantize failures (e.g. empty DB)\n    }\n  }\n\n  db?.close();\n  return { dbPath, filesIndexed, chunksIndexed };\n}", "replace_present": true}
+//   "backup_path": "D:\\zPython\\grok-cli\\src/rag/indexer.ts.backup_20260227T212403_901113"
+//   "created_at": "2026-02-27T13:24:03.913231+00:00"
+//   "backup_hash": "181ef1187a8411eb7a5860be067bed03"
+//   "new_hash": "df0880357cfe50a013fb4deb6bfec155"
+//   "goal_id": "delete_nativeexts_variable"
+//   "semantics": "Delete unused nativeExts variable."
+//   "update_attrs": {"relative_path": "src/rag/indexer.ts", "update_type": "text", "mode": "delete", "encoding": "utf-8", "find_pattern": null, "find_text": "const nativeExts = normalizeExtensions(DEFAULT_EXTS);", "replace_present": true}
 //   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/rag/indexer.ts\""
 // }

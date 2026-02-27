@@ -1,8 +1,11 @@
 import {
   AgentToolResponse,
+  AgentToolResponseItem,
+  AgentToolResponseFunctionCall,
   GrokClient,
   GrokMessage,
   GrokToolCall,
+  GrokResponse,
   UserContent,
   UserContentPart,
 } from "../grok/client.js";
@@ -266,12 +269,12 @@ export class GrokAgent extends EventEmitter {
   }
 
   private getAgentToolCalls(response: AgentToolResponse): GrokToolCall[] {
-    const output = Array.isArray(response.output) ? response.output : [];
+    const output = (Array.isArray(response.output) ? response.output : []) as AgentToolResponseItem[];
     return output
-      .filter((item: any) => item?.type === "function_call" && item?.name)
-      .map((item: any) => ({
+      .filter((item): item is AgentToolResponseFunctionCall => item?.type === "function_call" && item?.name != null)
+      .map((item) => ({
         id: item.call_id || item.id || `call_${Date.now()}`,
-        type: "function",
+        type: "function" as const,
         function: {
           name: item.name,
           arguments: item.arguments || "{}",
@@ -283,19 +286,18 @@ export class GrokAgent extends EventEmitter {
     if (typeof response.output_text === "string" && response.output_text.trim()) {
       return response.output_text;
     }
-    const output = Array.isArray(response.output) ? response.output : [];
+    const output = (Array.isArray(response.output) ? response.output : []) as AgentToolResponseItem[];
     const messageTexts: string[] = [];
-    for (const item of output as any[]) {
-      if (item?.type !== "message" || !Array.isArray(item.content)) {
-        continue;
-      }
-      for (const part of item.content) {
-        if (
-          part &&
-          (part.type === "output_text" || part.type === "text") &&
-          typeof part.text === "string"
-        ) {
-          messageTexts.push(part.text);
+    for (const item of output) {
+      if (item.type === "message" && Array.isArray(item.content)) {
+        for (const part of item.content) {
+          if (
+            part &&
+            (part.type === "output_text" || part.type === "text") &&
+            typeof part.text === "string"
+          ) {
+            messageTexts.push(part.text);
+          }
         }
       }
     }
@@ -341,7 +343,7 @@ export class GrokAgent extends EventEmitter {
               content: this.getAgentAssistantText(currentResponse as AgentToolResponse),
               tool_calls: this.getAgentToolCalls(currentResponse as AgentToolResponse),
             }
-          : (currentResponse as any).choices?.[0]?.message;
+          : (currentResponse as GrokResponse).choices?.[0]?.message;
 
         if (!assistantMessage) {
           throw new Error("No response from Grok");
@@ -369,7 +371,7 @@ export class GrokAgent extends EventEmitter {
             role: "assistant",
             content: assistantMessage.content || "",
             tool_calls: assistantMessage.tool_calls,
-          } as any);
+          } as GrokMessage);
 
           // Create initial tool call entries to show tools are being executed
           assistantMessage.tool_calls.forEach((toolCall: GrokToolCall) => {
@@ -484,10 +486,10 @@ export class GrokAgent extends EventEmitter {
       }
 
       return newEntries;
-    } catch (error: any) {
+    } catch (error: unknown) {
       const errorEntry: ChatEntry = {
         type: "assistant",
-        content: `Sorry, I encountered an error: ${error.message}`,
+        content: `Sorry, I encountered an error: ${error instanceof Error ? error.message : String(error)}`,
         timestamp: new Date(),
       };
       this.chatHistory.push(errorEntry);
@@ -495,7 +497,9 @@ export class GrokAgent extends EventEmitter {
     }
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   private messageReducer(previous: any, item: any): any {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const reduce = (acc: any, delta: any) => {
       acc = { ...acc };
       for (const [key, value] of Object.entries(delta)) {
@@ -510,7 +514,7 @@ export class GrokAgent extends EventEmitter {
         } else if (typeof acc[key] === "string" && typeof value === "string") {
           (acc[key] as string) += value;
         } else if (Array.isArray(acc[key]) && Array.isArray(value)) {
-          const accArray = acc[key] as any[];
+          const accArray = acc[key] as unknown[];
           for (let i = 0; i < value.length; i++) {
             if (!accArray[i]) accArray[i] = {};
             accArray[i] = reduce(accArray[i], value[i]);
@@ -560,8 +564,8 @@ export class GrokAgent extends EventEmitter {
       this.messages.push({
         role: "assistant",
         content: assistantContent || "",
-        tool_calls: toolCalls.length > 0 ? (toolCalls as any) : undefined,
-      } as any);
+        tool_calls: toolCalls.length > 0 ? toolCalls : undefined,
+      } as GrokMessage);
 
       this.chatHistory.push({
         type: "assistant",
@@ -629,7 +633,7 @@ export class GrokAgent extends EventEmitter {
         };
       }
 
-      inputTokens = this.tokenCounter.countMessageTokens(this.messages as any);
+      inputTokens = this.tokenCounter.countMessageTokens(this.messages);
       yield {
         type: "token_count",
         tokenCount: inputTokens + totalOutputTokens,
@@ -675,9 +679,7 @@ export class GrokAgent extends EventEmitter {
     this.trimHistoryIfNeeded();
 
     // Calculate input tokens
-    let inputTokens = this.tokenCounter.countMessageTokens(
-      this.messages as any
-    );
+    let inputTokens = this.tokenCounter.countMessageTokens(this.messages);
     yield {
       type: "token_count",
       tokenCount: inputTokens,
@@ -693,7 +695,7 @@ export class GrokAgent extends EventEmitter {
           inputTokens,
           includeWebSearch
         );
-      } catch (error: any) {
+      } catch (error: unknown) {
         if (this.abortController?.signal.aborted) {
           yield {
             type: "content",
@@ -703,7 +705,7 @@ export class GrokAgent extends EventEmitter {
         } else {
           const errorEntry: ChatEntry = {
             type: "assistant",
-            content: `Sorry, I encountered an error: ${error.message}`,
+            content: `Sorry, I encountered an error: ${error instanceof Error ? error.message : String(error)}`,
             timestamp: new Date(),
           };
           this.chatHistory.push(errorEntry);
@@ -749,6 +751,7 @@ export class GrokAgent extends EventEmitter {
           undefined,
           this.abortController?.signal
         );
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         let accumulatedMessage: any = {};
         let accumulatedContent = "";
         let toolCallsYielded = false;
@@ -773,7 +776,7 @@ export class GrokAgent extends EventEmitter {
           if (!toolCallsYielded && accumulatedMessage.tool_calls?.length > 0) {
             // Check if we have at least one complete tool call with a function name
             const hasCompleteTool = accumulatedMessage.tool_calls.some(
-              (tc: any) => tc.function?.name
+               (tc: GrokToolCall) => tc.function?.name
             );
             if (hasCompleteTool) {
               yield {
@@ -828,8 +831,8 @@ export class GrokAgent extends EventEmitter {
         this.messages.push({
           role: "assistant",
           content: accumulatedMessage.content || "",
-          tool_calls: accumulatedMessage.tool_calls,
-        } as any);
+          tool_calls: accumulatedMessage.tool_calls as GrokToolCall[],
+        } as GrokMessage);
 
         // Handle tool calls if present
         if (accumulatedMessage.tool_calls?.length > 0) {
@@ -885,9 +888,7 @@ export class GrokAgent extends EventEmitter {
           }
 
           // Update token count after processing all tool calls to include tool results
-          inputTokens = this.tokenCounter.countMessageTokens(
-            this.messages as any
-          );
+          inputTokens = this.tokenCounter.countMessageTokens(this.messages);
           // Final token update after tools processed
           yield {
             type: "token_count",
@@ -910,7 +911,7 @@ export class GrokAgent extends EventEmitter {
       }
 
       yield { type: "done" };
-    } catch (error: any) {
+    } catch (error: unknown) {
       // Check if this was a cancellation
       if (this.abortController?.signal.aborted) {
         yield {
@@ -921,9 +922,10 @@ export class GrokAgent extends EventEmitter {
         return;
       }
 
+      const errorMessage = error instanceof Error ? error.message : String(error);
       const errorEntry: ChatEntry = {
         type: "assistant",
-        content: `Sorry, I encountered an error: ${error.message}`,
+        content: `Sorry, I encountered an error: ${errorMessage}`,
         timestamp: new Date(),
       };
       this.chatHistory.push(errorEntry);

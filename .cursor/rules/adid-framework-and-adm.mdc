@@ -10,14 +10,14 @@ alwaysApply: true
 - **NO LEGACY COMPATIBILITY.** Do not add backward-compat parsing, fallback paths, alias modes, or "auto-repair" behaviors that silently reinterpret descriptors; instead migrate inputs explicitly or fail fast with a clear error. Reason: legacy behavior creates cross-conflicting code paths and preserves old bugs.
 
 - **cmd_runner-only execution (CRITICAL)**: Any execution of **non-trivial / crash-prone / long-running commands** is strictly prohibited unless started via cmd_runner.
-  - Repo checkout (recommended): `uv run python cmd_runner.py start -- <command ...>`
+  - Repo checkout (recommended): `uv run cmd_runner.py start -- <command ...>`
   - Release bundle (recommended): `cmd_runner.exe start -- <command ...>`
   - Rationale: cmd_runner isolates interactive process I/O and protects the agent shell from crashes/hangs.
 
 - **Canonical cmd_runner workflow (current; no server/legacy commands)**:
-  - Start interactive run in a new window: `uv run python cmd_runner.py start [--cwd PATH] [--timeout-s N] [--env K=V ...] [--terminal conhost|wt|conemu] -- <command ...>`
+  - Start interactive run in a new window: `uv run cmd_runner.py start [--cwd PATH] [--timeout-s N] [--env K=V ...] [--terminal conhost|wt|conemu] -- <command ...>`
   - It prints `run_id` and `inbox=.../inbox.jsonl` in the current terminal.
-  - Tail output: `uv run python cmd_runner.py tail <run_id>`
+  - Tail output: `uv run cmd_runner.py tail <run_id>`
   - Inject input programmatically: append JSONL to `logs/cmd_runner/<run_id>/inbox.jsonl` (or use `scripts/cmd_runner_inbox_send.py`).
 
 - **cmd_runner usage (non-blocking)**: Prefer `start` -> `tail`. Avoid long fixed waits; if the task is still running, leave it and check later.
@@ -30,8 +30,8 @@ alwaysApply: true
 - **Canonical agent assets**: Treat `artefacts/rules/` and `artefacts/skills/` as the source of truth. Agent folders (`.cursor/`, `.codex/`, `.opencode/`) are receivers and may be deleted/recreated.
 
 - **Rebuild/install agent scaffolds**: After changing canonical rules/skills run:
-  - `uv run python scripts/build_artefacts.py`
-  - `uv run python scripts/sync_agent_assets.py`
+  - `uv run scripts/build_artefacts.py`
+  - `uv run scripts/sync_agent_assets.py`
 
 - **When making declarative updates, running verification, or using rollback/templates**, use the **adm-exe** skill: **prefer `tools/adm.exe` (Windows) or `tools/adm` (Unix)** when the project has adm installed there—it is a stable copy; tool modifications or errors in source will not break the toolchain. Otherwise use `uv run adm` in a repo that has adm as a dependency.
 

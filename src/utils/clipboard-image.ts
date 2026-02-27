@@ -204,8 +204,8 @@ async function getClipboardImageLinuxAsync(): Promise<ClipboardImageResult | nul
     mimeType: "image/png" | "image/jpeg"
   ): Promise<ClipboardImageResult | null> => {
     try {
-      const { stdout } = await execFileAsync(cmd, args, opts as any);
-      const buf = Buffer.isBuffer(stdout) ? stdout : Buffer.from(stdout as any);
+      const { stdout } = await execFileAsync(cmd, args, opts as any); // eslint-disable-line @typescript-eslint/no-explicit-any
+      const buf = Buffer.isBuffer(stdout) ? stdout : Buffer.from(stdout as string);
       if (!buf || buf.length === 0 || buf.length > MAX_IMAGE_BYTES) return null;
       return { mimeType, base64: buf.toString("base64") };
     } catch {

@@ -305,9 +305,13 @@ export async function initializeMCPServers(): Promise<void> {
   const originalStderrWrite = process.stderr.write;
   
   // Temporarily suppress stderr to hide verbose MCP connection logs
-  process.stderr.write = function(chunk: any, encoding?: any, callback?: any): boolean {
+  process.stderr.write = function(
+    chunk: any, // eslint-disable-line @typescript-eslint/no-explicit-any
+    encoding?: any, // eslint-disable-line @typescript-eslint/no-explicit-any
+    callback?: any, // eslint-disable-line @typescript-eslint/no-explicit-any
+  ): boolean {
     // Filter out mcp-remote verbose logs
-    const chunkStr = chunk.toString();
+    const chunkStr = String(chunk);
     if (chunkStr.includes('[') && (
         chunkStr.includes('Using existing client port') ||
         chunkStr.includes('Connecting to remote server') ||
@@ -347,7 +351,7 @@ export function convertMCPToolToGrokTool(mcpTool: MCPTool): GrokTool {
     function: {
       name: mcpTool.name,
       description: mcpTool.description,
-      parameters: mcpTool.inputSchema || {
+      parameters: (mcpTool.inputSchema as GrokTool['function']['parameters']) || {
         type: "object",
         properties: {},
         required: []

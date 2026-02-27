@@ -56,17 +56,17 @@ COMMANDS
   stop    Request the hosting process to terminate the run (serverless).
 
 USAGE (repo root; recommended)
-  uv run python cmd_runner.py start [--cwd PATH] [--env KEY=VALUE ...] [--cols N] [--rows N]
+  uv run cmd_runner.py start [--cwd PATH] [--env KEY=VALUE ...] [--cols N] [--rows N]
                                    [--timeout-s N] [--max-log-mb N] [--run-id ID]
                                    [--terminal conhost|wt|conemu]
                                    [--keep-open]
                                    [--] <command ...>
 
-  uv run python cmd_runner.py tail <run_id> [--follow] [--text|--stdout]
-  uv run python cmd_runner.py list [--limit N] [--json]
-  uv run python cmd_runner.py status <run_id> [--json]
-  uv run python cmd_runner.py send <run_id> (--text TEXT | --keys TOKENS | --hex HEX | --b64 B64) [--crlf]
-  uv run python cmd_runner.py stop <run_id> [--reason TEXT]
+  uv run cmd_runner.py tail <run_id> [--follow] [--text|--stdout]
+  uv run cmd_runner.py list [--limit N] [--json]
+  uv run cmd_runner.py status <run_id> [--json]
+  uv run cmd_runner.py send <run_id> (--text TEXT | --keys TOKENS | --hex HEX | --b64 B64) [--crlf]
+  uv run cmd_runner.py stop <run_id> [--reason TEXT]
 
 USAGE (release bundle root)
   cmd_runner.exe start [--cwd PATH] [--env KEY=VALUE ...] [--cols N] [--rows N]
@@ -88,6 +88,7 @@ NOTES
   - Run logs are written under: logs/cmd_runner/<run_id>/
   - Bridge: append JSONL commands to logs/cmd_runner/<run_id>/inbox.jsonl during the run.
   - `start` opens a separate terminal window and runs cmd_runner there (so the new window is interactive).
+  - `start` uses `conhost` by default (most stable) and spawns the hosting window minimized.
   - `--keep-open` keeps the hosting shell window open after the command exits (useful for debugging).
   - `tail` defaults to non-follow (prints current content and exits). Use `--follow` to stream until the run is done.
 
@@ -113,14 +114,14 @@ STOP (serverless)
 
 EXAMPLES
   - Open a new window (interactive there) and print run_id + inbox path here:
-    - uv run python cmd_runner.py start --terminal conhost -- pwsh
+    - uv run cmd_runner.py start --terminal conhost -- pwsh
   - Inject input programmatically:
-    - uv run python scripts/cmd_runner_inbox_send.py --run-id <run_id> --keys "TEXT:/exit,ENTER"
+    - uv run scripts/cmd_runner_inbox_send.py --run-id <run_id> --keys "TEXT:/exit,ENTER"
   - Management:
-    - uv run python cmd_runner.py list
-    - uv run python cmd_runner.py status <run_id>
-    - uv run python cmd_runner.py send <run_id> --keys "TEXT:/exit,ENTER"
-    - uv run python cmd_runner.py stop <run_id> --reason "done"
+    - uv run cmd_runner.py list
+    - uv run cmd_runner.py status <run_id>
+    - uv run cmd_runner.py send <run_id> --keys "TEXT:/exit,ENTER"
+    - uv run cmd_runner.py stop <run_id> --reason "done"
 """
     sys.stdout.write(txt)
     sys.stdout.flush()
@@ -866,7 +867,8 @@ def _spawn_new_window(argv: List[str], *, cwd: Path, terminal: str, env: Optiona
     """
     Spawn a new terminal window for interactive cmd_runner hosting.
 
-    `conhost` is the recommended default for stable key input.
+    `conhost` is the most stable for key input and is the default when --terminal is not specified.
+    By default, the spawned window is minimized.
     """
     if os.name != "nt":
         raise RuntimeError("start is Windows-only")
@@ -895,11 +897,25 @@ def _spawn_new_window(argv: List[str], *, cwd: Path, terminal: str, env: Optiona
         subprocess.Popen(cmd, cwd=str(cwd), env=env)
         return
 
+    # conhost/default: spawn a new console window minimized (no cmd.exe wrapping; avoids cmd parsing issues).
+    creationflags = getattr(subprocess, "CREATE_NEW_CONSOLE", 0)
+    startupinfo = None
+    try:
+        # Available on Windows; ignored elsewhere.
+        si = subprocess.STARTUPINFO()
+        si.dwFlags |= getattr(subprocess, "STARTF_USESHOWWINDOW", 0)
+        # SW_SHOWMINNOACTIVE = 7 (minimized, does not activate).
+        si.wShowWindow = 7
+        startupinfo = si
+    except Exception:
+        startupinfo = None
+
     subprocess.Popen(
         argv,
         cwd=str(cwd),
         env=env,
-        creationflags=getattr(subprocess, "CREATE_NEW_CONSOLE", 0),
+        startupinfo=startupinfo,
+        creationflags=creationflags,
     )
 
 

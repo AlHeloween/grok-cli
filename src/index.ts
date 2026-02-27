@@ -17,6 +17,13 @@ import { UserContentPart } from "./grok/client.js";
 import { isThemeId, listThemes } from "./ui/utils/theme.js";
 import { indexProject } from "./rag/indexer.js";
 import { VectorDb } from "./rag/vector-db.js";
+
+type OpenAIMessage = {
+  role: 'user' | 'assistant' | 'tool' | 'system';
+  content: string | Array<{type: 'text', text: string} | {type: 'image_url', image_url: {url: string}}>;
+  tool_calls?: Array<{id: string, type: 'function', function: {name: string, arguments: string}}>;
+  tool_call_id?: string;
+};
 import {
   exportVectorDbToMakerAiJson,
   importMakerAiJsonToVectorDb,
@@ -318,8 +325,8 @@ Respond with ONLY the commit message, no additional text.`;
       console.log(`❌ git commit: ${commitResult.error || "Commit failed"}`);
       process.exit(1);
     }
-  } catch (error: any) {
-    console.error("❌ Error during commit and push:", error.message);
+  } catch (error: unknown) {
+    console.error("❌ Error during commit and push:", error instanceof Error ? error.message : String(error));
     process.exit(1);
   }
 }
@@ -367,7 +374,7 @@ async function processPromptHeadless(
     };
 
     // Convert chat entries to OpenAI-compatible message objects
-    const messages: any[] = [];
+    const messages: OpenAIMessage[] = [];
 
     for (const entry of chatEntries) {
       switch (entry.type) {
@@ -379,7 +386,7 @@ async function processPromptHeadless(
           break;
 
         case "assistant":
-          const assistantMessage: any = {
+          const assistantMessage: OpenAIMessage = {
             role: "assistant",
             content: toTextContent(entry.content),
           };
@@ -415,12 +422,12 @@ async function processPromptHeadless(
     for (const message of messages) {
       console.log(JSON.stringify(message));
     }
-  } catch (error: any) {
+  } catch (error: unknown) {
     // Output error in OpenAI compatible format
     console.log(
       JSON.stringify({
         role: "assistant",
-        content: `Error: ${error.message}`,
+        content: `Error: ${error instanceof Error ? error.message : String(error)}`,
       })
     );
     process.exit(1);
@@ -459,10 +466,10 @@ program
     if (options.directory) {
       try {
         process.chdir(options.directory);
-      } catch (error: any) {
+      } catch (error: unknown) {
         console.error(
           `Error changing directory to ${options.directory}:`,
-          error.message
+          error instanceof Error ? error.message : String(error)
         );
         process.exit(1);
       }
@@ -534,8 +541,8 @@ program
           React.createElement(ChatInterface, { agent, initialMessage })
         )
       );
-    } catch (error: any) {
-      console.error("❌ Error initializing Grok CLI:", error.message);
+    } catch (error: unknown) {
+      console.error("❌ Error initializing Grok CLI:", error instanceof Error ? error.message : String(error));
       process.exit(1);
     }
   });
@@ -567,10 +574,10 @@ gitCommand
     if (options.directory) {
       try {
         process.chdir(options.directory);
-      } catch (error: any) {
+      } catch (error: unknown) {
         console.error(
           `Error changing directory to ${options.directory}:`,
-          error.message
+          error instanceof Error ? error.message : String(error)
         );
         process.exit(1);
       }
@@ -596,8 +603,8 @@ gitCommand
       }
 
       await handleCommitAndPushHeadless(apiKey, baseURL, model, maxToolRounds);
-    } catch (error: any) {
-      console.error("❌ Error during git commit-and-push:", error.message);
+    } catch (error: unknown) {
+      console.error("❌ Error during git commit-and-push:", error instanceof Error ? error.message : String(error));
       process.exit(1);
     }
   });
@@ -637,10 +644,10 @@ ragCommand
     if (options.directory) {
       try {
         process.chdir(options.directory);
-      } catch (error: any) {
+      } catch (error: unknown) {
         console.error(
           `Error changing directory to ${options.directory}:`,
-          error.message
+          error instanceof Error ? error.message : String(error)
         );
         process.exit(1);
       }
@@ -674,8 +681,13 @@ try {
       console.log(`✅ RAG index written to ${res.dbPath}`);
       console.log(`✅ Files indexed: ${res.filesIndexed}`);
       console.log(`✅ Chunks indexed: ${res.chunksIndexed}`);
-    } catch (error: any) {
-      console.error("❌ RAG indexing failed:", error.message);
+      if (res.chunksIndexed === 0 && res.filesIndexed > 0) {
+        console.warn("⚠️  No chunks were indexed despite files being processed.");
+        console.warn("   This may indicate embedding API failures or empty file contents.");
+        console.warn("   Set GROK_DEBUG_RAG=1 for more details.");
+      }
+    } catch (error: unknown) {
+      console.error("❌ RAG indexing failed:", error instanceof Error ? error.message : String(error));
       process.exit(1);
     }
   });
@@ -688,10 +700,10 @@ ragCommand
     if (options.directory) {
       try {
         process.chdir(options.directory);
-      } catch (error: any) {
+      } catch (error: unknown) {
         console.error(
           `Error changing directory to ${options.directory}:`,
-          error.message
+          error instanceof Error ? error.message : String(error)
         );
         process.exit(1);
       }
@@ -737,10 +749,10 @@ ragCommand
     if (options.directory) {
       try {
         process.chdir(options.directory);
-      } catch (error: any) {
+      } catch (error: unknown) {
         console.error(
           `Error changing directory to ${options.directory}:`,
-          error.message
+          error instanceof Error ? error.message : String(error)
         );
         process.exit(1);
       }
@@ -758,8 +770,8 @@ ragCommand
       });
       console.log(`? Exported ${res.chunks} chunk(s) to ${res.outFile}`);
       console.log(`? Dimension: ${res.dim}`);
-    } catch (error: any) {
-      console.error("? Export failed:", error.message);
+    } catch (error: unknown) {
+      console.error("? Export failed:", error instanceof Error ? error.message : String(error));
       process.exit(1);
     }
   });
@@ -774,10 +786,10 @@ ragCommand
     if (options.directory) {
       try {
         process.chdir(options.directory);
-      } catch (error: any) {
+      } catch (error: unknown) {
         console.error(
           `Error changing directory to ${options.directory}:`,
-          error.message
+          error instanceof Error ? error.message : String(error)
         );
         process.exit(1);
       }
@@ -793,8 +805,8 @@ ragCommand
       });
       console.log(`? Imported ${res.inserted} chunk(s) into ${res.dbPath}`);
       console.log(`? Dimension: ${res.dim}`);
-    } catch (error: any) {
-      console.error("? Import failed:", error.message);
+    } catch (error: unknown) {
+      console.error("? Import failed:", error instanceof Error ? error.message : String(error));
       process.exit(1);
     }
   });
@@ -811,10 +823,10 @@ ragCommand
     if (options.directory) {
       try {
         process.chdir(options.directory);
-      } catch (error: any) {
+      } catch (error: unknown) {
         console.error(
           `Error changing directory to ${options.directory}:`,
-          error.message
+          error instanceof Error ? error.message : String(error)
         );
         process.exit(1);
       }
@@ -877,8 +889,8 @@ ragCommand
           console.log(`✓ RagManager smoke log: ${smokeLogPath}`);
         }
       }
-    } catch (error: any) {
-      console.error("❌ RAG GUI failed:", error.message);
+    } catch (error: unknown) {
+      console.error("❌ RAG GUI failed:", error instanceof Error ? error.message : String(error));
       process.exit(1);
     }
   });

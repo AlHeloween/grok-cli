@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_8caf4a8ada03a047e21a0127e3991cf0 name="update_pdf_parse_import" md5="8caf4a8ada03a047e21a0127e3991cf0" size="32">
+    <file>src/rag/extractors.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>import pdfParse = require("pdf-parse");</find_text>
+    <semantics>Replace pdf-parse import with named import for PDFParse class.</semantics>
+    <content_md5_8caf4a8ada03a047e21a0127e3991cf0>
+      import { PDFParse } from "pdf-parse";
+    </content_md5_8caf4a8ada03a047e21a0127e3991cf0>
+  </update_md5_8caf4a8ada03a047e21a0127e3991cf0>
+  <update_md5_c552a6a59cad00ea1c05bb8baaca6e22 name="update_extract_pdf_function" md5="c552a6a59cad00ea1c05bb8baaca6e22" size="138">
+    <file>src/rag/extractors.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>async function extractPdf(data: Buffer): Promise&lt;string&gt; {
+  const pdfData = await pdfParse(data);
+  return pdfData.text;
+}</find_text>
+    <semantics>Update extractPdf to use PDFParse class with getText method.</semantics>
+    <content_md5_c552a6a59cad00ea1c05bb8baaca6e22>
+      async function extractPdf(data: Buffer): Promise&lt;string&gt; {
+        const parser = new PDFParse({ data });
+        const result = await parser.getText();
+        return result.text;
+      }
+    </content_md5_c552a6a59cad00ea1c05bb8baaca6e22>
+  </update_md5_c552a6a59cad00ea1c05bb8baaca6e22>
+</updates>

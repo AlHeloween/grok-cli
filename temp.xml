@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_dummy name="chatinput_memoize" md5="dummy" size="4180">
+    <file>src/ui/components/chat-input.tsx</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <expected_matches>1</expected_matches>
+    <semantics>Wrap ChatInput with React.memo to reduce re-renders</semantics>
+    <find_text>export function ChatInput({
+  input,
+  cursorPosition,
+  isProcessing,
+  isStreaming,
+  pendingImageCount = 0,
+  placeholderText = "Ask me anything...",
+  maskInput = false,
+}: ChatInputProps) {
+  const { theme } = useTheme();
+  const colors = theme.colors;
+  const display = maskInput &amp;&amp; input ? "•".repeat(input.length) : input;
+  const beforeCursor = display.slice(0, cursorPosition);
+  const _afterCursor = input.slice(cursorPosition);
+
+  // Handle multiline input display
+  const lines = display.split("\n");
+  const isMultiline = lines.length &gt; 1;
+
+  // Calculate cursor position across lines
+  let currentLineIndex = 0;
+  let currentCharIndex = 0;
+  let totalChars = 0;
+
+  for (let i = 0; i &lt; lines.length; i++) {
+    if (totalChars + lines[i].length &gt;= cursorPosition) {
+      currentLineIndex = i;
+      currentCharIndex = cursorPosition - totalChars;
+      break;
+    }
+    totalChars += lines[i].length + 1; // +1 for newline
+  }
+
+  const showCursor = !isProcessing &amp;&amp; !isStreaming;
+  const borderColor = isProcessing || isStreaming ? colors.borderActive : colors.border;
+  const promptColor = colors.prompt;
+
+  // Display placeholder when input is empty
+  const isPlaceholder = !display;
+
+  if (isMultiline) {
+    return (
+      &lt;Box flexDirection="column" marginTop={1}&gt;
+        {pendingImageCount &gt; 0 &amp;&amp; (
+          &lt;Text color={colors.warning}&gt;
+            {pendingImageCount} image{pendingImageCount === 1 ? "" : "s"} attached
+          &lt;/Text&gt;
+        )}
+        &lt;Box borderStyle="round" borderColor={borderColor} paddingY={0}&gt;
+          {lines.map((line, index) =&gt; {
+            const isCurrentLine = index === currentLineIndex;
+            const promptChar = index === 0 ? "❯" : "│";
+
+            if (isCurrentLine) {
+              const beforeCursorInLine = line.slice(0, currentCharIndex);
+              const cursorChar =
+                line.slice(currentCharIndex, currentCharIndex + 1) || " ";
+              const afterCursorInLine = line.slice(currentCharIndex + 1);
+
+              return (
+                &lt;Box key={index}&gt;
+                  &lt;Text color={promptColor}&gt;{promptChar} &lt;/Text&gt;
+                  &lt;Text&gt;
+                    {beforeCursorInLine}
+                    {showCursor &amp;&amp; (
+                      &lt;Text backgroundColor={colors.cursorBg} color={colors.cursorFg}&gt;
+                        {cursorChar}
+                      &lt;/Text&gt;
+                    )}
+                    {!showCursor &amp;&amp; cursorChar !== " " &amp;&amp; cursorChar}
+                    {afterCursorInLine}
+                  &lt;/Text&gt;
+                &lt;/Box&gt;
+              );
+            } else {
+              return (
+                &lt;Box key={index}&gt;
+                  &lt;Text color={promptColor}&gt;{promptChar} &lt;/Text&gt;
+                  &lt;Text&gt;{line}&lt;/Text&gt;
+                &lt;/Box&gt;
+              );
+            }
+          })}
+        &lt;/Box&gt;
+      &lt;/Box&gt;
+    );
+  }
+
+  // Single line input box
+  const cursorChar = display.slice(cursorPosition, cursorPosition + 1) || " ";
+  const afterCursorText = display.slice(cursorPosition + 1);
+
+  return (
+    &lt;Box flexDirection="column" marginTop={1}&gt;
+      {pendingImageCount &gt; 0 &amp;&amp; (
+          &lt;Text color={colors.warning}&gt;
+          {pendingImageCount} image{pendingImageCount === 1 ? "" : "s"} attached
+        &lt;/Text&gt;
+      )}
+      &lt;Box borderStyle="round" borderColor={borderColor} paddingX={1} paddingY={0}&gt;
+        &lt;Box&gt;
+          &lt;Text color={promptColor}&gt;❯ &lt;/Text&gt;
+          {isPlaceholder ? (
+            &lt;&gt;
+              &lt;Text color={colors.textDim} dimColor&gt;
+                {placeholderText}
+              &lt;/Text&gt;
+              {showCursor &amp;&amp; (
+                &lt;Text backgroundColor={colors.cursorBg} color={colors.cursorFg}&gt;
+                  {" "}
+                &lt;/Text&gt;
+              )}
+            &lt;/&gt;
+          ) : (
+            &lt;Text&gt;
+              {beforeCursor}
+              {showCursor &amp;&amp; (
+                &lt;Text backgroundColor={colors.cursorBg} color={colors.cursorFg}&gt;
+                  {cursorChar}
+                &lt;/Text&gt;
+              )}
+              {!showCursor &amp;&amp; cursorChar !== " " &amp;&amp; cursorChar}
+              {afterCursorText}
+            &lt;/Text&gt;
+          )}
+        &lt;/Box&gt;
+      &lt;/Box&gt;
+    &lt;/Box&gt;
+  );
+}
+</find_text>
+    <content_md5_dummy>
+      export const ChatInput = React.memo(function ChatInput({
+  input,
+  cursorPosition,
+  isProcessing,
+  isStreaming,
+  pendingImageCount = 0,
+  placeholderText = "Ask me anything...",
+  maskInput = false,
+}: ChatInputProps) {
+  const { theme } = useTheme();
+  const colors = theme.colors;
+  const display = maskInput &amp;&amp; input ? "•".repeat(input.length) : input;
+  const beforeCursor = display.slice(0, cursorPosition);
+  const _afterCursor = input.slice(cursorPosition);
+
+  // Handle multiline input display
+  const lines = display.split("\n");
+  const isMultiline = lines.length &gt; 1;
+
+  // Calculate cursor position across lines
+  let currentLineIndex = 0;
+  let currentCharIndex = 0;
+  let totalChars = 0;
+
+  for (let i = 0; i &lt; lines.length; i++) {
+    if (totalChars + lines[i].length &gt;= cursorPosition) {
+      currentLineIndex = i;
+      currentCharIndex = cursorPosition - totalChars;
+      break;
+    }
+    totalChars += lines[i].length + 1; // +1 for newline
+  }
+
+  const showCursor = !isProcessing &amp;&amp; !isStreaming;
+  const borderColor = isProcessing || isStreaming ? colors.borderActive : colors.border;
+  const promptColor = colors.prompt;
+
+  // Display placeholder when input is empty
+  const isPlaceholder = !display;
+
+  if (isMultiline) {
+    return (
+      &lt;Box flexDirection="column" marginTop={1}&gt;
+        {pendingImageCount &gt; 0 &amp;&amp; (
+          &lt;Text color={colors.warning}&gt;
+            {pendingImageCount} image{pendingImageCount === 1 ? "" : "s"} attached
+          &lt;/Text&gt;
+        )}
+        &lt;Box borderStyle="round" borderColor={borderColor} paddingY={0}&gt;
+          {lines.map((line, index) =&gt; {
+            const isCurrentLine = index === currentLineIndex;
+            const promptChar = index === 0 ? "❯" : "│";
+
+            if (isCurrentLine) {
+              const beforeCursorInLine = line.slice(0, currentCharIndex);
+              const cursorChar =
+                line.slice(currentCharIndex, currentCharIndex + 1) || " ";
+              const afterCursorInLine = line.slice(currentCharIndex + 1);
+
+              return (
+                &lt;Box key={index}&gt;
+                  &lt;Text color={promptColor}&gt;{promptChar} &lt;/Text&gt;
+                  &lt;Text&gt;
+                    {beforeCursorInLine}
+                    {showCursor &amp;&amp; (
+                      &lt;Text backgroundColor={colors.cursorBg} color={colors.cursorFg}&gt;
+                        {cursorChar}
+                      &lt;/Text&gt;
+                    )}
+                    {!showCursor &amp;&amp; cursorChar !== " " &amp;&amp; cursorChar}
+                    {afterCursorInLine}
+                  &lt;/Text&gt;
+                &lt;/Box&gt;
+              );
+            } else {
+              return (
+                &lt;Box key={index}&gt;
+                  &lt;Text color={promptColor}&gt;{promptChar} &lt;/Text&gt;
+                  &lt;Text&gt;{line}&lt;/Text&gt;
+                &lt;/Box&gt;
+              );
+            }
+          })}
+        &lt;/Box&gt;
+      &lt;/Box&gt;
+    );
+  }
+
+  // Single line input box
+  const cursorChar = display.slice(cursorPosition, cursorPosition + 1) || " ";
+  const afterCursorText = display.slice(cursorPosition + 1);
+
+  return (
+    &lt;Box flexDirection="column" marginTop={1}&gt;
+      {pendingImageCount &gt; 0 &amp;&amp; (
+          &lt;Text color={colors.warning}&gt;
+          {pendingImageCount} image{pendingImageCount === 1 ? "" : "s"} attached
+        &lt;/Text&gt;
+      )}
+      &lt;Box borderStyle="round" borderColor={borderColor} paddingX={1} paddingY={0}&gt;
+        &lt;Box&gt;
+          &lt;Text color={promptColor}&gt;❯ &lt;/Text&gt;
+          {isPlaceholder ? (
+            &lt;&gt;
+              &lt;Text color={colors.textDim} dimColor&gt;
+                {placeholderText}
+              &lt;/Text&gt;
+              {showCursor &amp;&amp; (
+                &lt;Text backgroundColor={colors.cursorBg} color={colors.cursorFg}&gt;
+                  {" "}
+                &lt;/Text&gt;
+              )}
+            &lt;/&gt;
+          ) : (
+            &lt;Text&gt;
+              {beforeCursor}
+              {showCursor &amp;&amp; (
+                &lt;Text backgroundColor={colors.cursorBg} color={colors.cursorFg}&gt;
+                  {cursorChar}
+                &lt;/Text&gt;
+              )}
+              {!showCursor &amp;&amp; cursorChar !== " " &amp;&amp; cursorChar}
+              {afterCursorText}
+            &lt;/Text&gt;
+          )}
+        &lt;/Box&gt;
+      &lt;/Box&gt;
+    &lt;/Box&gt;
+  );
+});
+
+    </content_md5_dummy>
+  </update_md5_dummy>
+</updates>

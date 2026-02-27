@@ -161,6 +161,7 @@ Use `uv run adm` only as fallback when `tools/adm` is not present (e.g. before a
 - **No hardcoded secrets.** Use environment variables or an ignored config file.
 - **Logging:** Never log sensitive data (tokens, passwords, etc.).
 - **Bash tool:** Commands run with user privileges; always review suggested commands before accepting (see [CONTRIBUTING.md](CONTRIBUTING.md) security).
+- **cmd_runner:** For interactive, long‑running, or crash‑prone commands, use `cmd_runner` (Windows ConPTY) to isolate the agent from instability and capture logs in `logs/cmd_runner/`.
 
 ---
 

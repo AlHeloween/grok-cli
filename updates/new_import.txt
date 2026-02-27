@@ -1,0 +1,8 @@
+import * as fs from "fs";
+import * as path from "path";
+import { spawn, spawnSync } from "child_process";
+import { fileURLToPath } from "url";
+import { createEmbeddingClientFromSettings } from "./embedding-client.js";
+import { VectorDb } from "./vector-db.js";
+import { getSettingsManager } from "../utils/settings-manager.js";
+import { extractText } from "./extractors.js";

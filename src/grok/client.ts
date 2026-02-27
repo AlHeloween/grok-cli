@@ -13,6 +13,11 @@ export type UserContentPart =
 
 export type UserContent = string | UserContentPart[];
 
+type _ResponseInputItem =
+  | { type: "function_call_output"; call_id: string; output: string }
+  | { type: "message"; role: "system" | "developer" | "user" | "assistant"; content: string | UserContentPart[] }
+  | { type: "function_call"; call_id: string; name: string; arguments: string };
+
 export interface GrokMessage {
   role: "system" | "developer" | "user" | "assistant" | "tool";
   content?: string | UserContentPart[] | null;
@@ -27,7 +32,7 @@ export interface GrokTool {
     description: string;
     parameters: {
       type: "object";
-      properties: Record<string, any>;
+      properties: Record<string, unknown>;
       required: string[];
     };
   };
@@ -53,11 +58,52 @@ export interface GrokResponse {
   }>;
 }
 
+export interface AgentToolResponseContentPart {
+  type: "output_text" | "text" | "image_url" | "input_text" | "input_image";
+  text?: string;
+  image_url?: { url: string };
+}
+
+export interface AgentToolResponseMessage {
+  type: "message";
+  content: AgentToolResponseContentPart[];
+}
+
+export interface AgentToolResponseFunctionCall {
+  type: "function_call";
+  name: string;
+  call_id?: string;
+  id?: string;
+  arguments?: string;
+}
+
+export type AgentToolResponseItem = AgentToolResponseMessage | AgentToolResponseFunctionCall;
+
 export interface AgentToolResponse {
   id: string;
   output_text?: string;
-  output?: any[];
+  output?: AgentToolResponseItem[];
 }
+
+interface WebSearchTool {
+  type: "web_search";
+}
+
+interface FunctionTool {
+  type: "function";
+  name: string;
+  description: string;
+  parameters: {
+    type: "object";
+    properties: Record<string, unknown>;
+    required: string[];
+  };
+  strict: boolean;
+}
+
+type ResponseTool = WebSearchTool | FunctionTool;
+
+
 
 /**
  * Client for the Grok API (X.AI). Supports legacy Chat Completions and the Responses API with Agent Tools (e.g. web search).
@@ -124,7 +170,7 @@ export class GrokClient {
     return this.currentModel;
   }
 
-  private convertMessagesToChatCompletionsFormat(messages: GrokMessage[]): any[] {
+  private convertMessagesToChatCompletionsFormat(messages: GrokMessage[]): unknown[] {
     return messages.map((message) => {
       if (!Array.isArray(message.content)) {
         return message;
@@ -172,9 +218,9 @@ export class GrokClient {
     signal?: AbortSignal
   ): Promise<GrokResponse> {
     try {
-      const requestPayload: any = {
+      const requestPayload: OpenAI.ChatCompletionCreateParamsNonStreaming & { signal?: AbortSignal } = {
         model: model || this.currentModel,
-        messages: this.convertMessagesToChatCompletionsFormat(messages),
+        messages: this.convertMessagesToChatCompletionsFormat(messages) as OpenAI.ChatCompletionMessageParam[],
         tools: tools || [],
         tool_choice: tools && tools.length > 0 ? "auto" : undefined,
         temperature: 0.7,
@@ -186,8 +232,8 @@ export class GrokClient {
         await this.client.chat.completions.create(requestPayload);
 
       return response as GrokResponse;
-    } catch (error: any) {
-      throw new Error(`Grok API error: ${error.message}`);
+    } catch (error: unknown) {
+      throw new Error(`Grok API error: ${error instanceof Error ? error.message : String(error)}`);
     }
   }
 
@@ -199,11 +245,11 @@ export class GrokClient {
     tools?: GrokTool[],
     model?: string,
     signal?: AbortSignal
-  ): AsyncGenerator<any, void, unknown> {
+  ): AsyncGenerator<OpenAI.ChatCompletionChunk, void, unknown> {
     try {
-      const requestPayload: any = {
+      const requestPayload: OpenAI.ChatCompletionCreateParams & { signal?: AbortSignal } = {
         model: model || this.currentModel,
-        messages: this.convertMessagesToChatCompletionsFormat(messages),
+        messages: this.convertMessagesToChatCompletionsFormat(messages) as OpenAI.ChatCompletionMessageParam[],
         tools: tools || [],
         tool_choice: tools && tools.length > 0 ? "auto" : undefined,
         temperature: 0.7,
@@ -212,21 +258,21 @@ export class GrokClient {
         ...(signal && { signal }),
       };
 
-      const stream = (await this.client.chat.completions.create(
+      const stream = await this.client.chat.completions.create(
         requestPayload
-      )) as any;
+      );
 
       for await (const chunk of stream) {
         yield chunk;
       }
-    } catch (error: any) {
-      throw new Error(`Grok API error: ${error.message}`);
+    } catch (error: unknown) {
+      throw new Error(`Grok API error: ${error instanceof Error ? error.message : String(error)}`);
     }
   }
 
-  private convertToolsToResponsesFormat(tools?: GrokTool[]): any[] {
+  private convertToolsToResponsesFormat(tools?: GrokTool[]): ResponseTool[] {
     return (tools || []).map((tool) => ({
-      type: "function",
+      type: "function" as const,
       name: tool.function.name,
       description: tool.function.description,
       parameters: tool.function.parameters,
@@ -234,11 +280,11 @@ export class GrokClient {
     }));
   }
 
-  private convertMessagesToResponsesInput(messages: GrokMessage[]): any[] {
-    const input: any[] = [];
+  private convertMessagesToResponsesInput(messages: GrokMessage[]): unknown[] {
+    const input: unknown[] = [];
 
     for (const message of messages) {
-      const msg = message as any;
+      const msg = message;
       const role = msg.role;
 
       if (role === "tool" && msg.tool_call_id) {
@@ -313,11 +359,11 @@ export class GrokClient {
     try {
       const requestTools = this.convertToolsToResponsesFormat(tools);
       if (includeWebSearch) {
-        requestTools.unshift({ type: "web_search" });
+        requestTools.unshift({ type: "web_search" as const });
       }
 
       const currentModel = model || this.currentModel;
-      const payload: any = {
+      const payload: Record<string, unknown> = {
         model: currentModel,
         input: this.convertMessagesToResponsesInput(messages),
         tools: requestTools,
@@ -327,13 +373,13 @@ export class GrokClient {
         ...(signal && { signal }),
       };
       if (GrokClient.isReasoningModel(currentModel)) {
-        payload.include = ["reasoning.encrypted_content"];
+        payload.include = ["reasoning.encrypted_content"] as const;
       }
       const response = await this.client.responses.create(payload);
 
       return response as AgentToolResponse;
-    } catch (error: any) {
-      throw new Error(`Grok API error: ${error.message}`);
+    } catch (error: unknown) {
+      throw new Error(`Grok API error: ${error instanceof Error ? error.message : String(error)}`);
     }
   }
 
@@ -354,17 +400,17 @@ export class GrokClient {
     try {
       const requestTools = this.convertToolsToResponsesFormat(tools);
       if (includeWebSearch) {
-        requestTools.unshift({ type: "web_search" });
+        requestTools.unshift({ type: "web_search" as const });
       }
 
-      const input = toolResults.map((result) => ({
-        type: "function_call_output",
+      const input: OpenAI.Responses.ResponseInput = toolResults.map((result) => ({
+        type: "function_call_output" as const,
         call_id: result.callId,
         output: result.output,
       }));
 
       const currentModel = model || this.currentModel;
-      const payload: any = {
+      const payload: Record<string, unknown> = {
         model: currentModel,
         previous_response_id: previousResponseId,
         input,
@@ -375,13 +421,13 @@ export class GrokClient {
         ...(signal && { signal }),
       };
       if (GrokClient.isReasoningModel(currentModel)) {
-        payload.include = ["reasoning.encrypted_content"];
+        payload.include = ["reasoning.encrypted_content"] as const;
       }
       const response = await this.client.responses.create(payload);
 
       return response as AgentToolResponse;
-    } catch (error: any) {
-      throw new Error(`Grok API error: ${error.message}`);
+    } catch (error: unknown) {
+      throw new Error(`Grok API error: ${error instanceof Error ? error.message : String(error)}`);
     }
   }
 

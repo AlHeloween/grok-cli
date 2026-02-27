@@ -31,10 +31,10 @@ export function MCPStatus(_props: MCPStatusProps) {
     };
 
     // Initial update with a small delay to allow MCP initialization
-    const initialTimer = setTimeout(updateStatus, 2000);
+    const initialTimer = setTimeout(updateStatus, 10000);
 
     // Set up polling to check for status changes
-    const interval = setInterval(updateStatus, 2000);
+    const interval = setInterval(updateStatus, 10000);
 
     return () => {
       clearTimeout(initialTimer);

@@ -1,4 +1,5 @@
-import { get_encoding, encoding_for_model, Tiktoken } from 'tiktoken';
+import { get_encoding, encoding_for_model, Tiktoken, type TiktokenModel } from 'tiktoken';
+import type { GrokMessage, UserContentPart } from '../grok/client.js';
 
 export class TokenCounter {
   private encoder: Tiktoken;
@@ -12,7 +13,7 @@ export class TokenCounter {
 
     try {
       // Try to get encoding for specific model
-      this.encoder = encoding_for_model(model as any);
+      this.encoder = encoding_for_model(model as TiktokenModel);
     } catch {
       // Fallback to cl100k_base (used by GPT-4 and most modern models)
       this.encoder = get_encoding('cl100k_base');
@@ -30,15 +31,25 @@ export class TokenCounter {
   /**
    * Count tokens in messages array (for chat completions)
    */
-  countMessageTokens(messages: Array<{ role: string; content: string | null; [key: string]: any }>): number {
+  countMessageTokens(messages: GrokMessage[]): number {
     let totalTokens = 0;
     
     for (const message of messages) {
       // Every message follows <|start|>{role/name}\n{content}<|end|\>\n
       totalTokens += 3; // Base tokens per message
       
-      if (message.content && typeof message.content === 'string') {
-        totalTokens += this.countTokens(message.content);
+      if (message.content) {
+        if (typeof message.content === 'string') {
+          totalTokens += this.countTokens(message.content);
+        } else if (Array.isArray(message.content)) {
+          // Handle UserContentPart array
+          for (const part of message.content as UserContentPart[]) {
+            if (part.type === 'input_text' && part.text) {
+              totalTokens += this.countTokens(part.text);
+            }
+            // Input image parts don't contribute text tokens
+          }
+        }
       }
       
       if (message.role) {

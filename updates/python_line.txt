@@ -1,0 +1,1 @@
+  const python = options.python || settings.getRagPython(cwd);

@@ -1,0 +1,5 @@
+async function extractPdf(data: Buffer): Promise<string> {
+  const parser = new PDFParse({ data });
+  const result = await parser.getText();
+  return result.text;
+}

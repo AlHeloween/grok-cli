@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_181a2786404f64d818180cfeb21ae6ae name="delete_python_extraction_functions" md5="181a2786404f64d818180cfeb21ae6ae" size="29">
+    <file>src/rag/indexer.ts</file>
+    <update_type>text</update_type>
+    <mode>delete</mode>
+    <encoding>utf-8</encoding>
+    <find_text>type PythonInvocation = { cmd: string; argsPrefix: string[] };
+
+let cachedPython: PythonInvocation | null = null;
+
+function parsePythonSetting(value: string): PythonInvocation {
+  const cmd = value.trim();
+  const base = path.basename(cmd).toLowerCase();
+  if (base === "py" || base === "py.exe") return { cmd, argsPrefix: ["-3"] };
+  return { cmd, argsPrefix: [] };
+}
+
+function resolvePythonInvocation(requested?: string): PythonInvocation {
+  const env = process.env.GROK_RAG_PYTHON?.trim();
+  const configured = requested?.trim() || env;
+  if (configured) return parsePythonSetting(configured);
+
+  if (cachedPython) return cachedPython;
+
+  const candidates: PythonInvocation[] = [
+    { cmd: "python", argsPrefix: [] },
+    { cmd: "python3", argsPrefix: [] },
+    { cmd: "py", argsPrefix: ["-3"] },
+  ];
+
+  for (const c of candidates) {
+    try {
+      const r = spawnSync(c.cmd, [...c.argsPrefix, "--version"], {
+        windowsHide: true,
+        timeout: 2000,
+        encoding: "utf8",
+      });
+      if (r.status === 0) {
+        cachedPython = c;
+        return c;
+      }
+    } catch {
+      // ignore
+    }
+  }
+
+  cachedPython = candidates[0];
+  return cachedPython;
+}
+
+function getExtractScriptPath(): string {
+  const env = process.env.GROK_RAG_EXTRACT_SCRIPT?.trim();
+  if (env) return env;
+
+  const here = path.dirname(fileURLToPath(import.meta.url));
+  return path.resolve(here, "../../scripts/sqlite_rag_extract.py");
+}
+
+async function extractTextWithSqliteRag(
+  filePath: string,
+  maxBytes: number,
+  pythonSetting?: string
+): Promise&lt;string | null&gt; {
+  const scriptPath = getExtractScriptPath();
+  const py = resolvePythonInvocation(pythonSetting);
+
+  const args = [
+    ...py.argsPrefix,
+    scriptPath,
+    "--path",
+    filePath,
+    "--max-bytes",
+    String(maxBytes),
+  ];
+
+  return await new Promise((resolve) =&gt; {
+    const child = spawn(py.cmd, args, {
+      windowsHide: true,
+      stdio: ["ignore", "pipe", "pipe"],
+    });
+
+    let stdout = "";
+    let stderr = "";
+    let killed = false;
+    const maxOut = Math.max(1024 * 1024, maxBytes + 1024);
+
+    child.stdout.setEncoding("utf8");
+    child.stderr.setEncoding("utf8");
+
+    child.stdout.on("data", (chunk) =&gt; {
+      if (killed) return;
+      stdout += chunk;
+      if (stdout.length &gt; maxOut) {
+        killed = true;
+        try {
+          child.kill();
+        } catch {
+          // ignore
+        }
+      }
+    });
+
+    child.stderr.on("data", (chunk) =&gt; {
+      stderr += chunk;
+    });
+
+    child.on("error", () =&gt; {
+      if (stderr) logRagDebug("Python script stderr:", stderr);
+      resolve(null);
+    });
+    child.on("close", (code) =&gt; {
+      if (stderr &amp;&amp; DEBUG_RAG) {
+        logRagDebug("Python script stderr:", stderr);
+      }
+      const out = stdout.trim();
+      if (killed) return resolve(out || null);
+      if (code === 0) return resolve(out || null);
+      if (stderr) logRagDebug("Python script failed with stderr:", stderr);
+      return resolve(null);
+    });
+  });
+}</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Delete Python extraction functions and related helpers.</semantics>
+    <content_md5_181a2786404f64d818180cfeb21ae6ae>
+      (payload ignored for delete mode)
+    </content_md5_181a2786404f64d818180cfeb21ae6ae>
+  </update_md5_181a2786404f64d818180cfeb21ae6ae>
+  <update_md5_181a2786404f64d818180cfeb21ae6ae name="delete_python_variable" md5="181a2786404f64d818180cfeb21ae6ae" size="29">
+    <file>src/rag/indexer.ts</file>
+    <update_type>text</update_type>
+    <mode>delete</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  const python = options.python || settings.getRagPython(cwd);</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Delete unused python variable.</semantics>
+    <content_md5_181a2786404f64d818180cfeb21ae6ae>
+      (payload ignored for delete mode)
+    </content_md5_181a2786404f64d818180cfeb21ae6ae>
+  </update_md5_181a2786404f64d818180cfeb21ae6ae>
+  <update_md5_181a2786404f64d818180cfeb21ae6ae name="delete_nativeexts_variable" md5="181a2786404f64d818180cfeb21ae6ae" size="29">
+    <file>src/rag/indexer.ts</file>
+    <update_type>text</update_type>
+    <mode>delete</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  const nativeExts = normalizeExtensions(DEFAULT_EXTS);</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Delete unused nativeExts variable.</semantics>
+    <content_md5_181a2786404f64d818180cfeb21ae6ae>
+      (payload ignored for delete mode)
+    </content_md5_181a2786404f64d818180cfeb21ae6ae>
+  </update_md5_181a2786404f64d818180cfeb21ae6ae>
+</updates>

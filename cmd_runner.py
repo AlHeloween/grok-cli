@@ -17,7 +17,7 @@ from pathlib import Path
 if __spec__ is not None:
     sys.stderr.write(
         "Do not use `python -m cmd_runner`.\n"
-        "Use `uv run python cmd_runner.py ...` from the repo root, or `cmd_runner.exe ...` from the release bundle root.\n"
+        "Use `uv run cmd_runner.py ...` from the repo root, or `cmd_runner.exe ...` from the release bundle root.\n"
     )
     raise SystemExit(2)
 

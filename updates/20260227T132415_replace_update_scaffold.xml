@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_d41d8cd98f00b204e9800998ecf8427e name="delete_xml2js_import" md5="d41d8cd98f00b204e9800998ecf8427e" size="0">
+    <file>src/rag/extractors.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>import * as xml2js from "xml2js";</find_text>
+    <semantics>Remove unused xml2js import.</semantics>
+    <content_md5_d41d8cd98f00b204e9800998ecf8427e />
+  </update_md5_d41d8cd98f00b204e9800998ecf8427e>
+</updates>

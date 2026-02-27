@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Text } from "ink";
 import { ChatEntry } from "../../agent/grok-agent.js";
+import { GrokToolCall } from "../../grok/client.js";
 import { DiffRenderer } from "./diff-renderer.js";
 import { MarkdownRenderer } from "../utils/markdown-renderer.js";
 import { useTheme } from "../context/theme-context.js";
@@ -138,7 +139,7 @@ const MemoizedChatEntry = React.memo(
         const toolName = entry.toolCall?.function?.name || "unknown";
         const actionName = getToolActionName(toolName);
 
-        const getFilePath = (toolCall: any) => {
+        const getFilePath = (toolCall: GrokToolCall | undefined) => {
           if (toolCall?.function?.arguments) {
             try {
               const args = JSON.parse(toolCall.function.arguments);
@@ -235,17 +236,20 @@ const MemoizedChatEntry = React.memo(
 
 MemoizedChatEntry.displayName = "MemoizedChatEntry";
 
-export function ChatHistory({
+export const ChatHistory = React.memo(function ChatHistory({
   entries,
   isConfirmationActive = false,
 }: ChatHistoryProps) {
   // Filter out tool_call entries with "Executing..." when confirmation is active
-  const filteredEntries = isConfirmationActive
-    ? entries.filter(
-        (entry) =>
-          !(entry.type === "tool_call" && entry.content === "Executing...")
-      )
-    : entries;
+  const filteredEntries = React.useMemo(() => 
+    isConfirmationActive
+      ? entries.filter(
+          (entry) =>
+            !(entry.type === "tool_call" && entry.content === "Executing...")
+        )
+      : entries,
+    [entries, isConfirmationActive]
+  );
 
   return (
     <Box flexDirection="column">
@@ -258,4 +262,4 @@ export function ChatHistory({
       ))}
     </Box>
   );
-}
+});

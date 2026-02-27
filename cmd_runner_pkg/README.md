@@ -2,7 +2,7 @@ cmd_runner (ConPTY-only, serverless interactive)
 
 Quick start (Windows PowerShell)
   1) cd to the repo root (the folder that contains cmd_runner.py and cmd_runner_pkg/)
-  2) uv run python cmd_runner.py start -- cmd.exe /c "echo HELLO"
+  2) uv run cmd_runner.py start -- cmd.exe /c "echo HELLO"
      (opens a new window; interactive session is hosted there)
 
 Commands
@@ -24,6 +24,7 @@ Notes
   - Output is streamed live to the console and also persisted to stdout.log.
   - Input is read via ReadConsoleInputW (KEY_EVENT) when stdin is a real console; if stdin is a pipe (common in Windows Terminal), raw VT bytes are read and forwarded.
   - Resize is best-effort (uses ResizePseudoConsole when available).
+  - `start` spawns the hosting window minimized by default. If you want the most reliable input/editing, omit `--terminal` (defaults to `conhost`).
   - On exit, cmd_runner writes a small terminal reset sequence (show cursor, reset attributes, exit alt-screen) and flushes console input buffer best-effort.
   - At runtime, cmd_runner prints the chosen input strategy to stderr (ReadConsoleInputW vs stdin pipe vs msvcrt fallback).
 
@@ -36,33 +37,33 @@ Inbox bridge format (JSONL)
 
 Helper
   - Append a line to a run inbox:
-    - uv run python scripts/cmd_runner_inbox_send.py --run-id <run_id> --text "dir"
+    - uv run scripts/cmd_runner_inbox_send.py --run-id <run_id> --text "dir"
   - Send high-level keys (respects application-cursor mode if the child enables it):
-    - uv run python scripts/cmd_runner_inbox_send.py --run-id <run_id> --keys "TEXT:/exit,ENTER"
+    - uv run scripts/cmd_runner_inbox_send.py --run-id <run_id> --keys "TEXT:/exit,ENTER"
   - Send raw bytes:
-    - uv run python scripts/cmd_runner_inbox_send.py --run-id <run_id> --hex 0D0A
+    - uv run scripts/cmd_runner_inbox_send.py --run-id <run_id> --hex 0D0A
 
 Separate window
   - Launch a new window (interactive there) and print run_id + inbox path in the current terminal:
-    - uv run python cmd_runner.py start -- cmd.exe
+    - uv run cmd_runner.py start -- cmd.exe
 
 Management (serverless)
   - List runs:
-    - uv run python cmd_runner.py list
+    - uv run cmd_runner.py list
   - Tail output (defaults: `--text` + non-follow). Stream live output until finished:
-    - uv run python cmd_runner.py tail <run_id> --follow
+    - uv run cmd_runner.py tail <run_id> --follow
   - Show status:
-    - uv run python cmd_runner.py status <run_id>
+    - uv run cmd_runner.py status <run_id>
   - Send keys/text:
-    - uv run python cmd_runner.py send <run_id> --keys "TEXT:/exit,ENTER"
+    - uv run cmd_runner.py send <run_id> --keys "TEXT:/exit,ENTER"
   - Stop (force terminate via Job Object):
-    - uv run python cmd_runner.py stop <run_id> --reason "done"
+    - uv run cmd_runner.py stop <run_id> --reason "done"
 
 Manual interactive smoke checklist (recommended: conhost)
   1) Launch a new interactive window running a simple line editor probe:
-     - uv run python cmd_runner.py start --terminal conhost -- uv run python scripts/line_edit_probe.py --lines 1
+     - uv run cmd_runner.py start --terminal conhost -- uv run scripts/line_edit_probe.py --lines 1
   2) In the original terminal, inject keystrokes via the inbox bridge:
-     - uv run python scripts/cmd_runner_inbox_send.py --run-id <run_id> --keys "TEXT:abc,LEFT,CHAR:X,ENTER"
+     - uv run scripts/cmd_runner_inbox_send.py --run-id <run_id> --keys "TEXT:abc,LEFT,CHAR:X,ENTER"
   3) Expected output in the spawned window:
      - READY
      - line0> aXbc

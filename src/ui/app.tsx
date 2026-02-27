@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Text, useInput } from 'ink';
+import { Box, Text, useInput, type Key } from 'ink';
 import { Agent } from '../agent/index.js';
 import { ToolResult } from '../types/index.js';
 import { ConfirmationService, ConfirmationOptions } from '../utils/confirmation-service.js';
@@ -34,7 +34,7 @@ export default function App({ agent }: Props) {
     confirmationService.resetSession();
   }, []);
 
-  useInput(async (inputChar: string, key: any) => {
+  useInput(async (inputChar: string, key: Key) => {
     // If confirmation dialog is open, don't handle normal input
     if (confirmationOptions) {
       return;

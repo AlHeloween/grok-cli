@@ -1,6 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import * as os from "os";
+import { MCPServerConfig } from "../mcp/client.js";
 
 /**
  * Current settings version - increment this when adding new models or changing settings structure
@@ -30,7 +31,7 @@ export interface UserSettings {
  */
 export interface ProjectSettings {
   model?: string; // Current model for this project
-  mcpServers?: Record<string, any>; // MCP server configurations
+  mcpServers?: Record<string, MCPServerConfig>; // MCP server configurations
   rag?: RagSettings; // Optional RAG (retrieval) settings
 }
 

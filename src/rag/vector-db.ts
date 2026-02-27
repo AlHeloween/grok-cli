@@ -24,15 +24,15 @@ export interface RagChunkRow {
   distance?: number;
 }
 
-type Sqlite3Module = any;
-type Oo1Db = any;
+type Sqlite3Module = any; // eslint-disable-line @typescript-eslint/no-explicit-any
+type Oo1Db = any; // eslint-disable-line @typescript-eslint/no-explicit-any
 
 let sqlite3ModulePromise: Promise<Sqlite3Module> | null = null;
 
 async function loadSqlite3Module(): Promise<Sqlite3Module> {
   if (!sqlite3ModulePromise) {
     sqlite3ModulePromise = (async () => {
-      const mod: any = await import("@sqliteai/sqlite-wasm");
+      const mod: any = await import("@sqliteai/sqlite-wasm"); // eslint-disable-line @typescript-eslint/no-explicit-any
       const sqlite3InitModule = mod?.default;
       if (typeof sqlite3InitModule !== "function") {
         throw new Error("Failed to load @sqliteai/sqlite-wasm initializer");
@@ -349,11 +349,11 @@ clearAllChunks(): void {
     const rows = this.db.selectObjects(
       `SELECT id, vector FROM chunks WHERE id IN (${placeholders})`,
       uniq
-    ) as Array<{ id: number; vector: any }>;
+    ) as Array<{ id: number; vector: unknown }>;
 
     for (const r of rows || []) {
       const id = Number(r.id);
-      const blob = (r as any).vector;
+      const blob = r.vector;
       const vec = decodeFloat32Blob(blob);
       if (Number.isFinite(id) && vec) out.set(id, vec);
     }
@@ -361,12 +361,12 @@ clearAllChunks(): void {
   }
 }
 
-function decodeFloat32Blob(blob: any): Float32Array | null {
+function decodeFloat32Blob(blob: unknown): Float32Array | null {
   if (!blob) return null;
 
   // Node Buffer
   if (typeof Buffer !== "undefined" && Buffer.isBuffer(blob)) {
-    const b: Buffer = blob;
+    const b = blob as Buffer;
     const len = Math.floor(b.byteLength / 4);
     return new Float32Array(b.buffer, b.byteOffset, len);
   }
@@ -382,14 +382,16 @@ function decodeFloat32Blob(blob: any): Float32Array | null {
   }
 
   // Some bindings return {buffer: ArrayBuffer, byteOffset, byteLength}
-  if (
-    typeof blob === "object" &&
-    blob.buffer instanceof ArrayBuffer &&
-    typeof blob.byteOffset === "number" &&
-    typeof blob.byteLength === "number"
-  ) {
-    const len = Math.floor(blob.byteLength / 4);
-    return new Float32Array(blob.buffer, blob.byteOffset, len);
+  if (typeof blob === "object" && blob !== null) {
+    const obj = blob as Record<string, unknown>;
+    if (
+      obj.buffer instanceof ArrayBuffer &&
+      typeof obj.byteOffset === "number" &&
+      typeof obj.byteLength === "number"
+    ) {
+      const len = Math.floor(obj.byteLength / 4);
+      return new Float32Array(obj.buffer, obj.byteOffset, len);
+    }
   }
 
   return null;

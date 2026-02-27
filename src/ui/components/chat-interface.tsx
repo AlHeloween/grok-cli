@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Box, Text } from "ink";
+import { Box, Text, type DOMElement } from "ink";
 import { GrokAgent, ChatEntry } from "../../agent/grok-agent.js";
 import { useInputHandler } from "../../hooks/use-input-handler.js";
 import { LoadingSpinner } from "./loading-spinner.js";
@@ -41,7 +41,7 @@ function ChatInterfaceWithAgent({
   const [isStreaming, setIsStreaming] = useState(false);
   const [confirmationOptions, setConfirmationOptions] =
     useState<ConfirmationOptions | null>(null);
-  const scrollRef = useRef<any>();
+  const scrollRef = useRef<DOMElement>(null);
   const processingStartTime = useRef<number>(0);
 
   const confirmationService = ConfirmationService.getInstance();
@@ -201,10 +201,11 @@ function ChatInterfaceWithAgent({
                 break;
             }
           }
-        } catch (error: any) {
+        } catch (error: unknown) {
+          const errorMessage = error instanceof Error ? error.message : String(error);
           const errorEntry: ChatEntry = {
             type: "assistant",
-            content: `Error: ${error.message}`,
+            content: `Error: ${errorMessage}`,
             timestamp: new Date(),
           };
           setChatHistory((prev) => [...prev, errorEntry]);

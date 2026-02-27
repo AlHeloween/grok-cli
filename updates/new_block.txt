@@ -1,0 +1,6 @@
+      let content = "";
+      try {
+        content = (await extractText(file, maxFileSizeBytes)) || "";
+      } catch {
+        continue;
+      }

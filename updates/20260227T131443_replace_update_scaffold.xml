@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_645c78c2bd95378aa1457cc3db245b2a name="add_extract_text_import" md5="645c78c2bd95378aa1457cc3db245b2a" size="326">
+    <file>src/rag/indexer.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>import * as fs from "fs";
+import * as path from "path";
+import { spawn, spawnSync } from "child_process";
+import { fileURLToPath } from "url";
+import { createEmbeddingClientFromSettings } from "./embedding-client.js";
+import { VectorDb } from "./vector-db.js";
+import { getSettingsManager } from "../utils/settings-manager.js";</find_text>
+    <semantics>Add import for extractText function from extractors.js.</semantics>
+    <content_md5_645c78c2bd95378aa1457cc3db245b2a>
+      import * as fs from "fs";
+      import * as path from "path";
+      import { spawn, spawnSync } from "child_process";
+      import { fileURLToPath } from "url";
+      import { createEmbeddingClientFromSettings } from "./embedding-client.js";
+      import { VectorDb } from "./vector-db.js";
+      import { getSettingsManager } from "../utils/settings-manager.js";
+      import { extractText } from "./extractors.js";
+    </content_md5_645c78c2bd95378aa1457cc3db245b2a>
+  </update_md5_645c78c2bd95378aa1457cc3db245b2a>
+  <update_md5_9171423889b0e8c18c9c59d9a890b854 name="replace_content_extraction_logic" md5="9171423889b0e8c18c9c59d9a890b854" size="89">
+    <file>src/rag/indexer.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>      let content = "";
+      try {
+        const ext = path.extname(file).toLowerCase();
+        const preferNative = extractor !== "sqlite-rag" || nativeExts.includes(ext);
+
+        if (preferNative) {
+          content = fs.readFileSync(file, "utf-8");
+        } else {
+          content = (await extractTextWithSqliteRag(file, maxFileSizeBytes, python)) || "";
+        }
+      } catch {
+        continue;
+      }</find_text>
+    <semantics>Replace content extraction with native extractText call.</semantics>
+    <content_md5_9171423889b0e8c18c9c59d9a890b854>
+      let content = "";
+      try {
+        content = (await extractText(file, maxFileSizeBytes)) || "";
+      } catch {
+        continue;
+      }
+    </content_md5_9171423889b0e8c18c9c59d9a890b854>
+  </update_md5_9171423889b0e8c18c9c59d9a890b854>
+</updates>

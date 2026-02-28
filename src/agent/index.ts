@@ -140,7 +140,7 @@ export class Agent {
   insert <path> <line> "text" - Insert text at specific line
   undo_edit                   - Undo last edit operation
   bash <command>              - Execute shell command
-  $ <command>                 - Execute bash command (shorthand)
+  $ <command>                 - Execute shell command (shorthand)
   pwd                         - Show current directory
   history                     - Show edit history
   help                        - Show this help message`

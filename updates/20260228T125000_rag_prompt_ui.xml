@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_e9d273081273161107d6b9ff844d9f47 name="add_ragInputPrompt_to_return" md5="e9d273081273161107d6b9ff844d9f47" size="49">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    configInputPrompt,
+    configInputMask,</find_text>
+    <content_md5_e9d273081273161107d6b9ff844d9f47>
+      configInputPrompt,
+      configInputMask,
+      ragInputPrompt,
+    </content_md5_e9d273081273161107d6b9ff844d9f47>
+  </update_md5_e9d273081273161107d6b9ff844d9f47>
+  <update_md5_2e33f118389de5ea9da6daf9a1865a0d name="update_chat_interface_destructuring" md5="2e33f118389de5ea9da6daf9a1865a0d" size="85">
+    <file>src/ui/components/chat-interface.tsx</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    configMenuItems,
+    selectedConfigIndex,
+    configInputPrompt,
+    configInputMask,</find_text>
+    <content_md5_2e33f118389de5ea9da6daf9a1865a0d>
+      configMenuItems,
+      selectedConfigIndex,
+      configInputPrompt,
+      configInputMask,
+      ragInputPrompt,
+    </content_md5_2e33f118389de5ea9da6daf9a1865a0d>
+  </update_md5_2e33f118389de5ea9da6daf9a1865a0d>
+  <update_md5_569b90c1d6f073c7e76035d356841dd0 name="update_placeholder_text" md5="569b90c1d6f073c7e76035d356841dd0" size="62">
+    <file>src/ui/components/chat-interface.tsx</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>            placeholderText={configInputPrompt || undefined}</find_text>
+    <content_md5_569b90c1d6f073c7e76035d356841dd0>
+      placeholderText={ragInputPrompt || configInputPrompt || undefined}
+    </content_md5_569b90c1d6f073c7e76035d356841dd0>
+  </update_md5_569b90c1d6f073c7e76035d356841dd0>
+</updates>

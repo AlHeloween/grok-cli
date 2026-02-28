@@ -18,6 +18,7 @@ Older history can be inferred from git tags and commits.
 - Web search via Agent Tools (Responses API + web_search) documented; legacy Chat Completions do not use search_parameters (410 fix).
 - Optional: default model, reasoning `include`, and higher `max_output_tokens` for Grok 4.1 Fast.
 - Async clipboard image check: paste uses async `getClipboardImage()` and only swallows paste when an image is found; text paste inserts when the promise resolves, with ordering/queue to avoid duplicate insert.
+- Interactive RAG management menu (`/rag` command) with search, delete, export/import, pagination, and GUI integration.
 
 ### Changed
 

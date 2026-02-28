@@ -38,6 +38,17 @@ docs/
 .Trashes
 ehthumbs.db
 Thumbs.db
+nul
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytype/
+.python-version
+
+# Ruff cache
+.ruff_cache/
 
 # Logs
 logs/
@@ -87,6 +98,8 @@ coverage/
 # Temporary folders
 tmp/
 temp/
+*.tmp
+*.temp
 
 # Editor directories and files
 .vscode/*

@@ -209,6 +209,19 @@ grok rag index
 grok rag status
 ```
 
+### Interactive RAG management in chat
+
+You can also manage RAG directly from the interactive chat interface using the `/rag` command:
+
+- Type `/rag` to open the RAG management menu
+- Browse indexed chunks with pagination (`list`)
+- Search semantically across indexed content (`search`)
+- Delete chunks by path or pattern (`delete`)
+- Export/import MakerAI JSON (`export`, `import`)
+- Open GUI instructions (`gui`)
+
+All RAG settings can be configured via `/config` → RAG category.
+
 ### Optional: index PDFs/DOCX/PPTX/XLSX via sqlite-rag (Python)
 
 If you want to index more than plain source/text files, you can enable the **sqlite-rag extractor**. This uses Python to convert supported file types into text (via `markitdown`), then stores embeddings in the same `.grok/rag.db` sqlite-vector index.

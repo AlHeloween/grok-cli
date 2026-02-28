@@ -20,6 +20,10 @@ import { useTheme } from "../ui/context/theme-context.js";
 import { getSettingsManager } from "../utils/settings-manager.js";
 import { getConfigCategories, getConfigRegistry } from "../config/registry.js";
 import { maskSecret } from "../config/effective-config.js";
+import { VectorDb } from "../rag/vector-db.js";
+import { indexProject } from "../rag/indexer.js";
+import { exportVectorDbToMakerAiJson as _exportVectorDbToMakerAiJson, importMakerAiJsonToVectorDb as _importMakerAiJsonToVectorDb } from "../rag/makerai.js";
+import { createEmbeddingClientFromSettings } from "../rag/embedding-client.js";
 
 /** Pasted content longer than this is treated as text; clipboard image check is skipped. */
 const PASTE_TEXT_THRESHOLD = 5000;
@@ -84,6 +88,9 @@ export function useInputHandler({
   >([]);
   const [configInputPrompt, setConfigInputPrompt] = useState<string | null>(null);
   const [configInputKey, setConfigInputKey] = useState<string | null>(null);
+  const [ragInputPrompt, setRagInputPrompt] = useState<string | null>(null);
+  const [ragInputAction, setRagInputAction] = useState<string | null>(null);
+  const [ragListOffset, setRagListOffset] = useState(0);
   const [configInputMask, setConfigInputMask] = useState(false);
   const [autoEditEnabled, setAutoEditEnabled] = useState(() => {
     const confirmationService = ConfirmationService.getInstance();
@@ -148,6 +155,138 @@ export function useInputHandler({
     setConfigMenuStack([]);
     setShowConfigMenu(true);
   };
+
+  const openRagMenu = (): void => {
+    const items: ConfigMenuItem[] = [
+      { id: "rag:list", label: "List chunks", hint: "Browse indexed chunks with pagination" },
+      { id: "rag:search", label: "Search chunks", hint: "Semantic search across indexed content" },
+      { id: "rag:delete", label: "Delete chunks", hint: "Remove chunks by path or pattern" },
+      { id: "rag:index", label: "Index project", hint: "Index current project into .grok/rag.db" },
+      { id: "rag:status", label: "Status", hint: "Show RAG status and statistics" },
+      { id: "rag:export", label: "Export MakerAI", hint: "Export .grok/rag.db to MakerAI JSON format" },
+      { id: "rag:import", label: "Import MakerAI", hint: "Import MakerAI JSON into .grok/rag.db" },
+      { id: "rag:gui", label: "Open GUI", hint: "Open MakerAI-based GUI to browse/edit RAG" },
+      { id: "action:ragHelp", label: "RAG help (CLI commands)" },
+      { id: "nav:back", label: "Back" },
+      { id: "action:close", label: "Close" },
+    ];
+    setConfigMenuTitle("RAG Management");
+    setConfigMenuItems(items);
+    setSelectedConfigIndex(0);
+    setConfigMenuStack([]);
+    setShowConfigMenu(true);
+  };
+
+  const beginRagInput = (action: string, prompt: string): void => {
+  setRagInputAction(action);
+  setRagInputPrompt(prompt);
+  clearInput();
+};
+
+const handleRagAction = async (action: string): Promise<void> => {
+  const push = (content: string) =>
+    setChatHistory((prev) => [...prev, { type: "assistant", content, timestamp: new Date() }]);
+
+  try {
+    switch (action) {
+      case "status": {
+        const manager = getSettingsManager();
+        const enabled = manager.isRagEnabled();
+        const topK = manager.getRagTopK();
+        const extractor = manager.getRagExtractor();
+        const python = manager.getRagPython();
+        const dbPath = manager.getRagDbPath();
+        let chunks = 0;
+        if (fs.existsSync(dbPath)) {
+          try {
+            const db = await VectorDb.open(dbPath);
+            chunks = db.getChunkCount();
+            db.close();
+          } catch {
+            // ignore
+          }
+        }
+        push(`RAG enabled: ${enabled ? "yes" : "no"}\nRAG topK: ${topK}\nRAG extractor: ${extractor}${extractor === "sqlite-rag" ? `\nRAG python: ${python || "(auto-detect)"}` : ""}\nRAG db: ${dbPath}\nIndexed chunks: ${chunks}`);
+        break;
+      }
+      case "index": {
+        push("Starting RAG indexing...");
+        const result = await indexProject({});
+        push(`✅ RAG index written to ${result.dbPath}\n✅ Files indexed: ${result.filesIndexed}\n✅ Chunks indexed: ${result.chunksIndexed}`);
+        break;
+      }
+      case "list": {
+        const manager = getSettingsManager();
+        const dbPath = manager.getRagDbPath();
+        if (!fs.existsSync(dbPath)) {
+          push("No RAG index found. Run 'Index project' first.");
+          break;
+        }
+        const db = await VectorDb.open(dbPath);
+        const rows = db.listChunkRows(10, ragListOffset);
+        db.close();
+        if (rows.length === 0) {
+          push(ragListOffset === 0 ? "No chunks found in index." : "No more chunks.");
+          setRagListOffset(0);
+        } else {
+          const list = rows.map((r, i) => `${ragListOffset + i + 1}. [${r.id}] ${r.path}: ${r.text.slice(0, 80)}...`).join('\n');
+          push(`Chunks ${ragListOffset + 1} to ${ragListOffset + rows.length}:\n${list}\n\nUse 'list' again for next page.`);
+          setRagListOffset(ragListOffset + rows.length);
+        }
+        break;
+      }
+      case "search":
+        beginRagInput("search", "Enter search query:");
+        break;
+      case "delete":
+        beginRagInput("delete", "Enter file path or pattern to delete (use '*' for all):");
+        break;
+      case "export": {
+        const manager = getSettingsManager();
+        const dbPath = manager.getRagDbPath();
+        if (!fs.existsSync(dbPath)) {
+          push("No RAG index found. Run 'Index project' first.");
+          break;
+        }
+        push("Exporting to MakerAI JSON...");
+        try {
+          const result = await _exportVectorDbToMakerAiJson({
+            dbPath,
+            outFile: "makerai-ragvector.json",
+            name: path.basename(process.cwd()),
+            description: "",
+            model: "",
+          });
+          push(`✅ Exported ${result.chunks} chunk(s) to ${result.outFile}`);
+        } catch (err) {
+          push(`Export failed: ${err instanceof Error ? err.message : String(err)}`);
+        }
+        break;
+      }
+      case "import":
+        beginRagInput("import", "Enter path to MakerAI JSON file:");
+        break;
+      case "gui": {
+        push("Opening RAG GUI...");
+        const manager = getSettingsManager();
+        const dbPath = manager.getRagDbPath();
+        const exePath = path.resolve(process.cwd(), "MakerAI", "_build", "win64", "bin", "RagManager.exe");
+        if (!fs.existsSync(exePath)) {
+          push(`❌ RagManager.exe not found at: ${exePath}`);
+          push("Build it with: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-makerai.ps1");
+          break;
+        }
+        // In interactive CLI, we cannot spawn GUI directly; guide user
+        push(`Run command: grok rag gui\nor manually: ${exePath} --json .grok/makerai-ragvector.json --db ${dbPath}`);
+        break;
+      }
+      default:
+        push(`Unknown RAG action: ${action}`);
+    }
+  } catch (err) {
+    push(`Error performing RAG action: ${err instanceof Error ? err.message : String(err)}`);
+  }
+};
 
   const openConfigCategoryMenu = (category: string): void => {
     const defs = getConfigRegistry().filter((d) => d.category === category);
@@ -500,6 +639,14 @@ export function useInputHandler({
           setShowConfigMenu(false);
           return true;
         }
+        if (item.id.startsWith("rag:")) {
+          const action = item.id.slice("rag:".length);
+          setShowConfigMenu(false);
+          (async () => {
+            await handleRagAction(action);
+          })();
+          return true;
+        }
         if (item.id.startsWith("opt:")) {
           const parts = item.id.split(":");
           // opt:<key>:<value> (key itself may contain dots but not colons)
@@ -562,19 +709,33 @@ export function useInputHandler({
     }
 
     // Config input prompt: Escape cancels input mode.
-    if (configInputKey && configInputPrompt) {
-      if (key.escape) {
-        setConfigInputKey(null);
-        setConfigInputPrompt(null);
-        setConfigInputMask(false);
-        clearInput();
-        setChatHistory((prev) => [
-          ...prev,
-          { type: "assistant", content: "Config change cancelled.", timestamp: new Date() },
-        ]);
-        return true;
-      }
-    }
+if (configInputKey && configInputPrompt) {
+  if (key.escape) {
+    setConfigInputKey(null);
+    setConfigInputPrompt(null);
+    setConfigInputMask(false);
+    clearInput();
+    setChatHistory((prev) => [
+      ...prev,
+      { type: "assistant", content: "Config change cancelled.", timestamp: new Date() },
+    ]);
+    return true;
+  }
+}
+
+// RAG input prompt: Escape cancels input mode.
+if (ragInputAction && ragInputPrompt) {
+  if (key.escape) {
+    setRagInputAction(null);
+    setRagInputPrompt(null);
+    clearInput();
+    setChatHistory((prev) => [
+      ...prev,
+      { type: "assistant", content: "RAG action cancelled.", timestamp: new Date() },
+    ]);
+    return true;
+  }
+}
 
     // Paste: skip clipboard image check when pasted content is clearly text (long string)
     if (key.paste) {
@@ -771,14 +932,118 @@ export function useInputHandler({
     }
 
     if (configInputKey && configInputPrompt) {
-      const key = configInputKey;
-      setConfigInputKey(null);
-      setConfigInputPrompt(null);
-      setConfigInputMask(false);
-      await applyConfigValue(key, userInput);
-      clearInput();
-      return;
+  const key = configInputKey;
+  setConfigInputKey(null);
+  setConfigInputPrompt(null);
+  setConfigInputMask(false);
+  await applyConfigValue(key, userInput);
+  clearInput();
+  return;
+}
+
+if (ragInputAction && ragInputPrompt) {
+  const action = ragInputAction;
+  const input = userInput.trim();
+  setRagInputAction(null);
+  setRagInputPrompt(null);
+  clearInput();
+
+  const push = (content: string) =>
+    setChatHistory((prev) => [...prev, { type: "assistant", content, timestamp: new Date() }]);
+
+  try {
+    switch (action) {
+      case "search": {
+        if (!input) {
+          push("Search cancelled.");
+          break;
+        }
+        push(`Searching for: "${input}"...`);
+        const manager = getSettingsManager();
+        const dbPath = manager.getRagDbPath();
+        if (!fs.existsSync(dbPath)) {
+          push("No RAG index found. Run 'Index project' first.");
+          break;
+        }
+        const embeddingClient = createEmbeddingClientFromSettings();
+        const vector = await embeddingClient.embed(input);
+        const db = await VectorDb.open(dbPath);
+        const results = db.queryTopK(vector, manager.getRagTopK());
+        db.close();
+        if (results.length === 0) {
+          push("No results found.");
+        } else {
+          const list = results.map((r, i) => `${i + 1}. [${r.id}] ${r.path} (dist: ${r.distance?.toFixed(4)})\n   ${r.text.slice(0, 120)}...`).join('\n\n');
+          push(`Top ${results.length} results:\n${list}`);
+        }
+        break;
+      }
+      case "delete": {
+        if (!input) {
+          push("Delete cancelled.");
+          break;
+        }
+        if (input === "*") {
+          push("Clearing all chunks...");
+          const manager = getSettingsManager();
+          const dbPath = manager.getRagDbPath();
+          if (!fs.existsSync(dbPath)) {
+            push("No RAG index found.");
+            break;
+          }
+          const db = await VectorDb.open(dbPath);
+          db.clearAllChunks();
+          db.close();
+          push("✅ All chunks deleted.");
+        } else {
+          push(`Deleting chunks matching: ${input}...`);
+          const manager = getSettingsManager();
+          const dbPath = manager.getRagDbPath();
+          if (!fs.existsSync(dbPath)) {
+            push("No RAG index found.");
+            break;
+          }
+          const db = await VectorDb.open(dbPath);
+          // Simple path matching (exact match for now)
+          db.deleteChunksByPath(input);
+          db.close();
+          push(`✅ Deleted chunks with path: ${input}`);
+        }
+        break;
+      }
+      case "import": {
+        if (!input) {
+          push("Import cancelled.");
+          break;
+        }
+        const filePath = path.resolve(process.cwd(), input);
+        if (!fs.existsSync(filePath)) {
+          push(`File not found: ${filePath}`);
+          break;
+        }
+        push(`Importing ${filePath}...`);
+        const manager = getSettingsManager();
+        const dbPath = manager.getRagDbPath();
+        try {
+          const result = await _importMakerAiJsonToVectorDb({
+            inFile: filePath,
+            dbPath,
+            replace: false,
+          });
+          push(`✅ Imported ${result.inserted} chunk(s) into ${result.dbPath}`);
+        } catch (err) {
+          push(`Import failed: ${err instanceof Error ? err.message : String(err)}`);
+        }
+        break;
+      }
+      default:
+        push(`Unknown RAG input action: ${action}`);
     }
+  } catch (err) {
+    push(`Error: ${err instanceof Error ? err.message : String(err)}`);
+  }
+  return;
+}
 
     if (userInput.trim()) {
       const directCommandResult = await handleDirectCommand(userInput);
@@ -912,6 +1177,7 @@ export function useInputHandler({
     { command: "/attach", description: "Attach image for next message" },
     { command: "/attach-clear", description: "Clear attached images" },
     { command: "/commit-and-push", description: "AI commit & push to remote" },
+    { command: "/rag", description: "Manage RAG (Retrieval-Augmented Generation)" },
     { command: "/exit", description: "Exit the application" },
   ];
 
@@ -961,6 +1227,7 @@ Built-in Commands:
   /config     - Configure Grok CLI (interactive)
   /attach     - Attach an image for your next message
   /attach-clear - Clear pending image attachments
+  /rag        - Manage RAG (Retrieval-Augmented Generation)
   /exit       - Exit application
   exit, quit  - Exit application
 
@@ -1029,6 +1296,18 @@ Examples:
       setShowThemeSelection(false);
       setSelectedThemeIndex(0);
       openConfigRootMenu();
+      clearInput();
+      return true;
+    }
+
+    if (trimmedInput === "/rag") {
+      setShowCommandSuggestions(false);
+      setSelectedCommandIndex(0);
+      setShowModelSelection(false);
+      setSelectedModelIndex(0);
+      setShowThemeSelection(false);
+      setSelectedThemeIndex(0);
+      openRagMenu();
       clearInput();
       return true;
     }
@@ -1564,6 +1843,7 @@ Respond with ONLY the commit message, no additional text.`;
     selectedConfigIndex,
     configInputPrompt,
     configInputMask,
+    ragInputPrompt,
     commandSuggestions,
     availableModels,
     availableThemes,
@@ -1578,12 +1858,12 @@ Respond with ONLY the commit message, no additional text.`;
 // SDID_ROLLBACK {
 //   "target_file": "D:\\zPython\\grok-cli\\src/hooks/use-input-handler.ts"
 //   "update_script": "adm.exe"
-//   "backup_path": "D:\\zPython\\grok-cli\\src/hooks/use-input-handler.ts.backup_20260217T012437_559804"
-//   "created_at": "2026-02-16T17:24:37.576282+00:00"
-//   "backup_hash": "4cbd7369287132fe73a37b3bed4ee330"
-//   "new_hash": "8acaea58c95b6fa55d9e3f5d18644e81"
-//   "goal_id": "input_handler_return_last_key_debug"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/hooks/use-input-handler.ts.backup_20260228T205241_733521"
+//   "created_at": "2026-02-28T12:52:41.762931+00:00"
+//   "backup_hash": "0ebef76c313b595914610cfd1146ee95"
+//   "new_hash": "9addab406de682f76ce1c10dbafb5140"
+//   "goal_id": "add_ragInputPrompt_to_return"
 //   "semantics": ""
-//   "update_attrs": {"relative_path": "src/hooks/use-input-handler.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "pendingImageCount: pendingImageAttachments.length,", "replace_present": true}
+//   "update_attrs": {"relative_path": "src/hooks/use-input-handler.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "configInputPrompt,\n    configInputMask,", "replace_present": true}
 //   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/hooks/use-input-handler.ts\""
 // }

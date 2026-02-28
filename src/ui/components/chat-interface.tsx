@@ -61,6 +61,7 @@ function ChatInterfaceWithAgent({
     selectedConfigIndex,
     configInputPrompt,
     configInputMask,
+    ragInputPrompt,
     commandSuggestions,
     availableModels,
     availableThemes,
@@ -338,7 +339,7 @@ function ChatInterfaceWithAgent({
             isProcessing={isProcessing}
             isStreaming={isStreaming}
             pendingImageCount={pendingImageCount}
-            placeholderText={configInputPrompt || undefined}
+            placeholderText={ragInputPrompt || configInputPrompt || undefined}
             maskInput={!!configInputMask}
           />
 
@@ -428,12 +429,12 @@ export default function ChatInterface({
 // SDID_ROLLBACK {
 //   "target_file": "D:\\zPython\\grok-cli\\src/ui/components/chat-interface.tsx"
 //   "update_script": "adm.exe"
-//   "backup_path": "D:\\zPython\\grok-cli\\src/ui/components/chat-interface.tsx.backup_20260217T012437_944796"
-//   "created_at": "2026-02-16T17:24:37.954077+00:00"
-//   "backup_hash": "b8df943fd5741a4fafa6249a9c8eff51"
-//   "new_hash": "d2cf2c161a4e9e4547ee8f655e479bdc"
-//   "goal_id": "chat_interface_render_input_debug_line"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/ui/components/chat-interface.tsx.backup_20260228T205242_375759"
+//   "created_at": "2026-02-28T12:52:42.389909+00:00"
+//   "backup_hash": "3a5cec6826a6b28bb9493a6a963808c3"
+//   "new_hash": "be83d7d511989fa6bbbb8af4e59cbfe7"
+//   "goal_id": "update_placeholder_text"
 //   "semantics": ""
-//   "update_attrs": {"relative_path": "src/ui/components/chat-interface.tsx", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "<CommandSuggestions", "replace_present": true}
+//   "update_attrs": {"relative_path": "src/ui/components/chat-interface.tsx", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "placeholderText={configInputPrompt || undefined}", "replace_present": true}
 //   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/ui/components/chat-interface.tsx\""
 // }

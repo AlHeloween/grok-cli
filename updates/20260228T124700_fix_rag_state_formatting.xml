@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_f5f5c4ed267aff1982ea3248c5747cf9 name="fix_rag_state_formatting" md5="f5f5c4ed267aff1982ea3248c5747cf9" size="312">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  const [configInputKey, setConfigInputKey] = useState&lt;string | null&gt;(null);
+  const [ragInputPrompt, setRagInputPrompt] = useState&lt;string | null&gt;(null);
+const [ragInputAction, setRagInputAction] = useState&lt;string | null&gt;(null);
+const [ragListOffset, setRagListOffset] = useState(0);const [configInputMask, setConfigInputMask] = useState(false);</find_text>
+    <content_md5_f5f5c4ed267aff1982ea3248c5747cf9>
+      const [configInputKey, setConfigInputKey] = useState&lt;string | null&gt;(null);
+      const [ragInputPrompt, setRagInputPrompt] = useState&lt;string | null&gt;(null);
+      const [ragInputAction, setRagInputAction] = useState&lt;string | null&gt;(null);
+      const [ragListOffset, setRagListOffset] = useState(0);
+      const [configInputMask, setConfigInputMask] = useState(false);
+    </content_md5_f5f5c4ed267aff1982ea3248c5747cf9>
+  </update_md5_f5f5c4ed267aff1982ea3248c5747cf9>
+</updates>

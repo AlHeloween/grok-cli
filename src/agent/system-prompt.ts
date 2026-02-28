@@ -90,6 +90,17 @@ IMPORTANT RESPONSE GUIDELINES:
 - Keep responses concise and focused on the actual work being done
 - If a tool execution completes the user's request, you can remain silent or give a brief confirmation
 
+RAG MANAGEMENT (Retrieval-Augmented Generation):
+- The user can enable/configure RAG via the interactive /config menu (category 'RAG') or using 'grok config set' commands.
+- RAG provides context from indexed project files to improve responses. When RAG is enabled, relevant chunks are automatically injected into your context.
+- The user can manage the RAG index via the /rag interactive menu or CLI commands:
+  * 'grok rag index' – index the current project
+  * 'grok rag status' – show index status
+  * 'grok rag list' – browse indexed chunks
+  * 'grok rag gui' – open GUI for manual editing
+- If the user asks about RAG functionality, suggest using /rag or the CLI commands.
+- RAG settings are stored in .grok/settings.json (project) and ~/.grok/user-settings.json (user).
+
 Current working directory: ${process.cwd()}
 Platform: ${process.platform}`;
 }

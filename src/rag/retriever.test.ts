@@ -25,11 +25,11 @@ vi.mock("./vector-db.js", () => ({
 
 vi.mock("../utils/settings-manager.js", () => ({
   getSettingsManager: vi.fn(() => ({
-    getRagDbPath: vi.fn((cwd: string) => `${cwd}/.grok/rag.db`),
-    getRagTopK: vi.fn((cwd: string) => 10),
-    getRagUseKMedoids: vi.fn((cwd: string) => false),
-    getRagCandidateCount: vi.fn((cwd: string) => 100),
-    getEmbeddingsSettings: vi.fn((cwd: string) => ({
+    getRagDbPath: vi.fn((_cwd: string) => `/.grok/rag.db`),
+    getRagTopK: vi.fn((_cwd: string) => 10),
+    getRagUseKMedoids: vi.fn((_cwd: string) => false),
+    getRagCandidateCount: vi.fn((_cwd: string) => 100),
+    getEmbeddingsSettings: vi.fn((_cwd: string) => ({
       apiKey: "test-key",
       baseURL: "https://api.test.com",
       model: "text-embedding-3-small",
@@ -107,17 +107,18 @@ describe("retrieveTopK", () => {
     vi.clearAllMocks();
     // Setup default mocks
     mockGetSettingsManager.mockReturnValue({
-      getRagDbPath: vi.fn((cwd: string) => `${cwd}/.grok/rag.db`),
-      getRagTopK: vi.fn((cwd: string) => 10),
-      getRagUseKMedoids: vi.fn((cwd: string) => false),
-      getRagCandidateCount: vi.fn((cwd: string) => 100),
-      getEmbeddingsSettings: vi.fn((cwd: string) => ({
+      getRagDbPath: vi.fn((_cwd: string) => `/.grok/rag.db`),
+      getRagTopK: vi.fn((_cwd: string) => 10),
+      getRagUseKMedoids: vi.fn((_cwd: string) => false),
+      getRagCandidateCount: vi.fn((_cwd: string) => 100),
+      getEmbeddingsSettings: vi.fn((_cwd: string) => ({
         apiKey: "test-key",
         baseURL: "https://api.test.com",
         model: "text-embedding-3-small",
       })),
       getApiKey: vi.fn(() => "test-key"),
       getBaseURL: vi.fn(() => "https://api.test.com"),
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } as any);
   });
 
@@ -139,6 +140,7 @@ describe("retrieveTopK", () => {
     getModel: vi.fn(() => "text-embedding-3-small"),
     embed: vi.fn().mockResolvedValue(embedResult),
     embedBatch: vi.fn(),
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   }) as any;
 
   it("returns empty array when embedding vector is empty", async () => {
@@ -158,6 +160,7 @@ describe("retrieveTopK", () => {
       getDistanceMetric: vi.fn(),
       close: vi.fn(),
     };
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
 
     const result = await retrieveTopK("query", { useKMedoids: false });
@@ -184,6 +187,7 @@ describe("retrieveTopK", () => {
       getDistanceMetric: vi.fn().mockReturnValue("L2"),
       close: vi.fn(),
     };
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
     mockSelectKMedoids.mockReturnValue([0, 1]); // select first two as medoids
 

@@ -1,0 +1,8 @@
+{
+  "agent": {
+    "deepseek-builder": {
+      "model": "deepseek/deepseek-reasoner",
+      "prompt": "You are a code builder using DeepSeek. Strict rule: For all file paths, use '/' or '\\' and never '\' alone to avoid escaping issues."
+    }
+  }
+}

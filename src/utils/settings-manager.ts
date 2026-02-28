@@ -38,6 +38,7 @@ export interface ProjectSettings {
 export interface EmbeddingsSettings {
   baseURL?: string;
   model?: string;
+  apiKey?: string;
 }
 
 export interface RagSettings {
@@ -579,6 +580,7 @@ public getRagTopK(cwd: string = process.cwd()): number {
   public getEmbeddingsSettings(cwd: string = process.cwd()): EmbeddingsSettings {
     const envBaseURL = process.env.GROK_EMBEDDINGS_BASE_URL?.trim();
     const envModel = process.env.GROK_EMBEDDINGS_MODEL?.trim();
+    const envApiKey = process.env.GROK_EMBEDDINGS_API_KEY?.trim();
 
     const user = this.loadUserSettings();
     const project = this.loadProjectSettings(cwd);
@@ -596,7 +598,12 @@ public getRagTopK(cwd: string = process.cwd()): number {
       DEFAULT_USER_SETTINGS.embeddings?.model ||
       "text-embedding-3-small";
 
-    return { baseURL, model };
+    const apiKey =
+      envApiKey ||
+      project.rag?.embeddings?.apiKey ||
+      user.embeddings?.apiKey;
+
+    return { baseURL, model, apiKey };
   }
 }
 

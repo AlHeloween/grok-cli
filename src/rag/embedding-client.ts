@@ -60,12 +60,14 @@ export class EmbeddingClient {
 
 export function createEmbeddingClientFromSettings(): EmbeddingClient {
   const settings = getSettingsManager();
-  const apiKey = settings.getApiKey();
-  if (!apiKey) {
-    throw new Error("Missing API key (set GROK_API_KEY or ~/.grok/user-settings.json)");
-  }
-
+  
   const embeddings = settings.getEmbeddingsSettings(process.cwd());
+  
+  // Use embeddings-specific API key if provided, otherwise fall back to main API key
+  const apiKey = embeddings.apiKey || settings.getApiKey();
+  if (!apiKey) {
+    throw new Error("Missing API key for embeddings (set embeddings.apiKey, GROK_API_KEY, or ~/.grok/user-settings.json)");
+  }
 
   return new EmbeddingClient({
     apiKey,

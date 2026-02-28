@@ -300,15 +300,103 @@ def _tail_follow(path: Path, *, follow: bool, stop_evt: threading.Event) -> None
                 time.sleep(0.05)
 
 
-def _read_state_status(state_json: Path) -> Optional[str]:
+def _read_state(state_json: Path) -> Optional[Dict[str, object]]:
     if not state_json.is_file():
         return None
     try:
         obj = json.loads(state_json.read_text(encoding="utf-8", errors="replace"))
     except Exception:
         return None
-    status = obj.get("status")
-    return str(status) if status is not None else None
+    if not isinstance(obj, dict):
+        return None
+    return obj
+
+
+def _pid_is_alive(pid: int) -> Optional[bool]:
+    pid = int(pid)
+    if pid <= 0:
+        return False
+
+    if os.name == "nt":
+        try:
+            import ctypes
+            from ctypes import wintypes
+
+            PROCESS_QUERY_LIMITED_INFORMATION = 0x1000
+            STILL_ACTIVE = 259
+            kernel32 = ctypes.WinDLL("kernel32", use_last_error=True)
+            kernel32.OpenProcess.argtypes = [wintypes.DWORD, wintypes.BOOL, wintypes.DWORD]
+            kernel32.OpenProcess.restype = wintypes.HANDLE
+            kernel32.GetExitCodeProcess.argtypes = [wintypes.HANDLE, ctypes.POINTER(wintypes.DWORD)]
+            kernel32.GetExitCodeProcess.restype = wintypes.BOOL
+            kernel32.CloseHandle.argtypes = [wintypes.HANDLE]
+            kernel32.CloseHandle.restype = wintypes.BOOL
+
+            h = kernel32.OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION, False, pid)
+            if not h:
+                # Not found OR no permission -> treat as unknown (do not lie).
+                return None
+            try:
+                code = wintypes.DWORD(0)
+                ok = kernel32.GetExitCodeProcess(h, ctypes.byref(code))
+                if not ok:
+                    return None
+                return int(code.value) == STILL_ACTIVE
+            finally:
+                kernel32.CloseHandle(h)
+        except Exception:
+            return None
+
+    # POSIX-ish (best effort).
+    try:
+        os.kill(pid, 0)
+    except PermissionError:
+        return None
+    except ProcessLookupError:
+        return False
+    except OSError:
+        return None
+    else:
+        return True
+
+
+def _any_pid_alive(pids: object) -> Optional[bool]:
+    if not isinstance(pids, list):
+        return None
+    ids: List[int] = []
+    for p in pids:
+        if isinstance(p, int):
+            ids.append(int(p))
+        elif isinstance(p, str) and p.strip().isdigit():
+            ids.append(int(p.strip()))
+    if not ids:
+        return None
+
+    saw_unknown = False
+    for pid in ids:
+        alive = _pid_is_alive(pid)
+        if alive is True:
+            return True
+        if alive is None:
+            saw_unknown = True
+    return None if saw_unknown else False
+
+
+def _derived_status(state: Dict[str, object]) -> str:
+    st = str(state.get("status") or "unknown")
+    if st != "running":
+        return st
+    alive = _any_pid_alive(state.get("pids"))
+    if alive is True:
+        return "running"
+    if alive is False:
+        # Hardware-grounded correction: logs say running, but OS says no live PIDs.
+        return "lost"
+    return "running?"  # unknown (cannot prove either way)
+
+
+def _is_running_like(status: str) -> bool:
+    return status in ("running", "running?")
 
 
 def _format_text_line(raw: bytes) -> str:
@@ -419,11 +507,13 @@ def _tail_follow_formatted(
                 sys.stdout.flush()
                 return
 
-            st = _read_state_status(state_json)
-            if st is not None and st != "running":
-                sys.stdout.write(fmt.flush())
-                sys.stdout.flush()
-                return
+            state = _read_state(state_json)
+            if state is not None:
+                d = _derived_status(state)
+                if not _is_running_like(d):
+                    sys.stdout.write(fmt.flush())
+                    sys.stdout.flush()
+                    return
 
             time.sleep(0.05)
 
@@ -594,7 +684,8 @@ def _cmd_list(argv: List[str]) -> int:
             if paths.state_json.is_file():
                 try:
                     state = json.loads(paths.state_json.read_text(encoding="utf-8", errors="replace"))
-                    status = str(state.get("status") or status)
+                    if isinstance(state, dict):
+                        status = _derived_status(state)
                     if state.get("exit_code") is not None:
                         exit_code = state.get("exit_code")
                     if state.get("started_utc") is not None:
@@ -651,6 +742,12 @@ def _cmd_status(argv: List[str]) -> int:
         sys.stdout.write(txt.rstrip() + "\n")
         return 0
 
+    status: object
+    if isinstance(state, dict):
+        status = _derived_status(state)
+    else:
+        status = None
+
     meta: Dict[str, object] = {}
     if paths.meta_json.is_file():
         try:
@@ -659,8 +756,10 @@ def _cmd_status(argv: List[str]) -> int:
             meta = {}
 
     sys.stdout.write(
-        f"run_id={run_id} status={state.get('status')} exit_code={state.get('exit_code')} "
-        f"started_utc={state.get('started_utc')} finished_utc={state.get('finished_utc')} "
+        f"run_id={run_id} status={status if status is not None else (state.get('status') if isinstance(state, dict) else None)} "
+        f"exit_code={state.get('exit_code') if isinstance(state, dict) else None} "
+        f"started_utc={state.get('started_utc') if isinstance(state, dict) else None} "
+        f"finished_utc={state.get('finished_utc') if isinstance(state, dict) else None} "
         f"cwd={meta.get('cwd')} argv={meta.get('argv')}\n"
     )
     return 0
@@ -788,6 +887,49 @@ def _cmd_host(pre: List[str], payload: List[str], *, had_double_dash: bool) -> i
 
         stop_evt = threading.Event()
         bridge_stop_evt = threading.Event()
+
+        # Best-effort: if the hosting console window is closed, attempt to stop the child and persist state.json.
+        # This is not guaranteed (hard kills can still prevent flushing), but it improves hardware-grounded status.
+        if os.name == "nt":
+            try:
+                import ctypes
+                from ctypes import wintypes
+
+                kernel32 = ctypes.WinDLL("kernel32", use_last_error=True)
+                HANDLER = ctypes.WINFUNCTYPE(wintypes.BOOL, wintypes.DWORD)
+                CTRL_CLOSE_EVENT = 2
+                CTRL_LOGOFF_EVENT = 5
+                CTRL_SHUTDOWN_EVENT = 6
+
+                close_once = {"done": False}
+
+                def _on_ctrl(ctrl_type: int) -> int:
+                    if int(ctrl_type) not in (CTRL_CLOSE_EVENT, CTRL_LOGOFF_EVENT, CTRL_SHUTDOWN_EVENT):
+                        return 0
+                    if close_once["done"]:
+                        return 1
+                    close_once["done"] = True
+                    try:
+                        sys.stderr.write("[cmd_runner] console close detected; stopping run...\n")
+                        sys.stderr.flush()
+                    except Exception:
+                        pass
+                    try:
+                        session.stop(reason="console_closed")
+                    except Exception:
+                        pass
+                    try:
+                        stop_evt.set()
+                        bridge_stop_evt.set()
+                    except Exception:
+                        pass
+                    return 1
+
+                # Keep a reference so the callback is not GC'd.
+                _ctrl_handler = HANDLER(_on_ctrl)  # noqa: F841
+                kernel32.SetConsoleCtrlHandler(_ctrl_handler, True)
+            except Exception:
+                pass
         t_in = threading.Thread(
             target=_interactive_input_loop,
             args=(session, stop_evt),
@@ -846,7 +988,7 @@ def _cmd_host(pre: List[str], payload: List[str], *, had_double_dash: bool) -> i
         try:
             session.wait_done()
         except KeyboardInterrupt:
-            session.stop()
+            session.stop(reason="keyboard_interrupt")
             session.wait_done()
         finally:
             stop_evt.set()

@@ -139,7 +139,7 @@ export class Agent {
   create <path> "content"     - Create new file with content
   insert <path> <line> "text" - Insert text at specific line
   undo_edit                   - Undo last edit operation
-  bash <command>              - Execute bash command
+  bash <command>              - Execute shell command
   $ <command>                 - Execute bash command (shorthand)
   pwd                         - Show current directory
   history                     - Show edit history

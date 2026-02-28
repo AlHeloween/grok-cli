@@ -189,7 +189,7 @@ class RunSession:
             resize_fn(int(cols), int(rows))
 
 
-    def stop(self) -> None:
+    def stop(self, *, reason: Optional[str] = None) -> None:
         if self._backend is None:
             return
         self._stop_requested.set()
@@ -198,7 +198,8 @@ class RunSession:
                 return
             self._status = "stopped"
             self._stopped_utc = utc_now_iso()
-        self._write_state(notes="stop requested")
+        note = "stop requested" if not reason else f"stop requested: {reason}"
+        self._write_state(notes=note)
         self._backend.terminate_tree()
 
     def _stop_request_loop(self) -> None:

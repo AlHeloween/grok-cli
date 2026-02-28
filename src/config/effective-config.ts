@@ -41,6 +41,7 @@ export function getEffectiveConfig(): EffectiveConfigItem[] {
 
   const embeddingsBaseURLEnv = envString("GROK_EMBEDDINGS_BASE_URL");
   const embeddingsModelEnv = envString("GROK_EMBEDDINGS_MODEL");
+  const _embeddingsApiKeyEnv = envString("GROK_EMBEDDINGS_API_KEY");
 
   const apiKey = apiKeyEnv ?? user.apiKey ?? "";
   const baseURL = baseUrlEnv ?? user.baseURL ?? "https://api.x.ai/v1";
@@ -60,6 +61,11 @@ export function getEffectiveConfig(): EffectiveConfigItem[] {
     project.rag?.embeddings?.baseURL ??
     user.embeddings?.baseURL ??
     baseURL;
+  const _embeddingsApiKey =
+    _embeddingsApiKeyEnv ??
+    project.rag?.embeddings?.apiKey ??
+    user.embeddings?.apiKey ??
+    apiKey;
 
   const items: EffectiveConfigItem[] = [
     {

@@ -27,6 +27,10 @@ Notes
   - `start` spawns the hosting window minimized by default. If you want the most reliable input/editing, omit `--terminal` (defaults to `conhost`).
   - On exit, cmd_runner writes a small terminal reset sequence (show cursor, reset attributes, exit alt-screen) and flushes console input buffer best-effort.
   - At runtime, cmd_runner prints the chosen input strategy to stderr (ReadConsoleInputW vs stdin pipe vs msvcrt fallback).
+  - Management output is hardware-grounded where possible:
+    - `list`/`status` re-check a run marked `running` against OS PIDs and may report `lost` if the host process is gone.
+    - If PID probing is not possible, status may be reported as `running?` (unknown).
+  - When the hosting console window is closed, cmd_runner attempts to stop the child process tree and persist `state.json` (best-effort).
 
 Inbox bridge format (JSONL)
   - One JSON object per line:

@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_9c55222b5853c9f7642217a5fd30ac3d name="rag_handler_creation" md5="9c55222b5853c9f7642217a5fd30ac3d" size="429">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  const settingsManager = getSettingsManager();
+
+  const getConfigValueLabel = (key: string): string =&gt; {</find_text>
+    <semantics>Insert RAG handler creation after settingsManager</semantics>
+    <content_md5_9c55222b5853c9f7642217a5fd30ac3d>
+      const settingsManager = getSettingsManager();
+      
+      const getSettingsManagerFn = () =&gt; settingsManager;
+      const ragHandler = useMemo(() =&gt; createRagHandler({
+        setChatHistory,
+        getSettingsManager: getSettingsManagerFn,
+        ragListOffset,
+        setRagListOffset,
+        setRagInputAction,
+        setRagInputPrompt,
+        clearInput,
+      }), [setChatHistory, settingsManager, ragListOffset, setRagListOffset, setRagInputAction, setRagInputPrompt, clearInput]);
+      
+      const getConfigValueLabel = (key: string): string =&gt; {
+    </content_md5_9c55222b5853c9f7642217a5fd30ac3d>
+  </update_md5_9c55222b5853c9f7642217a5fd30ac3d>
+  <update_md5_693b164413a83e223a80db8b5e923e3d name="rag_menu_replacement" md5="693b164413a83e223a80db8b5e923e3d" size="279">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  const openRagMenu = (): void =&gt; {
+    const items: ConfigMenuItem[] = [
+      { id: "rag:list", label: "List chunks", hint: "Browse indexed chunks with pagination" },
+      { id: "rag:search", label: "Search chunks", hint: "Semantic search across indexed content" },
+      { id: "rag:delete", label: "Delete chunks", hint: "Remove chunks by path or pattern" },
+      { id: "rag:index", label: "Index project", hint: "Index current project into .grok/rag.db" },
+      { id: "rag:status", label: "Status", hint: "Show RAG status and statistics" },
+      { id: "rag:export", label: "Export MakerAI", hint: "Export .grok/rag.db to MakerAI JSON format" },
+      { id: "rag:import", label: "Import MakerAI", hint: "Import MakerAI JSON into .grok/rag.db" },
+      { id: "rag:gui", label: "Open GUI", hint: "Open MakerAI-based GUI to browse/edit RAG" },
+      { id: "action:ragHelp", label: "RAG help (CLI commands)" },
+      { id: "nav:back", label: "Back" },
+      { id: "action:close", label: "Close" },
+    ];
+    setConfigMenuTitle("RAG Management");
+    setConfigMenuItems(items);
+    setSelectedConfigIndex(0);
+    setConfigMenuStack([]);
+    setShowConfigMenu(true);
+  };</find_text>
+    <semantics>Replace openRagMenu with version using getRagMenuItems</semantics>
+    <content_md5_693b164413a83e223a80db8b5e923e3d>
+      const openRagMenu = (): void =&gt; {
+        const items: ConfigMenuItem[] = [
+          ...getRagMenuItems(),
+          { id: "nav:back", label: "Back" },
+          { id: "action:close", label: "Close" },
+        ];
+        setConfigMenuTitle("RAG Management");
+        setConfigMenuItems(items);
+        setSelectedConfigIndex(0);
+        setConfigMenuStack([]);
+        setShowConfigMenu(true);
+      };
+    </content_md5_693b164413a83e223a80db8b5e923e3d>
+  </update_md5_693b164413a83e223a80db8b5e923e3d>
+  <update_md5_a01117e625b7a49650117d32780cc94b name="begin_rag_input_wrapper" md5="a01117e625b7a49650117d32780cc94b" size="98">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  const beginRagInput = (action: string, prompt: string): void =&gt; {
+  setRagInputAction(action);
+  setRagInputPrompt(prompt);
+  clearInput();
+};</find_text>
+    <semantics>Replace beginRagInput with wrapper delegating to ragHandler</semantics>
+    <content_md5_a01117e625b7a49650117d32780cc94b>
+      const beginRagInput = (action: string, prompt: string): void =&gt; {
+        ragHandler.beginRagInput(action, prompt);
+      };
+    </content_md5_a01117e625b7a49650117d32780cc94b>
+  </update_md5_a01117e625b7a49650117d32780cc94b>
+  <update_md5_c4b9da8061f3761556cecd2d2e1ecc65 name="handle_rag_action_wrapper" md5="c4b9da8061f3761556cecd2d2e1ecc65" size="100">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>const handleRagAction = async (action: string): Promise&lt;void&gt; =&gt; {
+  const push = (content: string) =&gt;
+    setChatHistory((prev) =&gt; [...prev, { type: "assistant", content, timestamp: new Date() }]);
+
+  try {
+    switch (action) {
+      case "status": {
+        const manager = getSettingsManager();
+        const enabled = manager.isRagEnabled();
+        const topK = manager.getRagTopK();
+        const extractor = manager.getRagExtractor();
+        const python = manager.getRagPython();
+        const dbPath = manager.getRagDbPath();
+        let chunks = 0;
+        if (fs.existsSync(dbPath)) {
+          try {
+            const db = await VectorDb.open(dbPath);
+            chunks = db.getChunkCount();
+            db.close();
+          } catch {
+            // ignore
+          }
+        }
+        push(`RAG enabled: ${enabled ? "yes" : "no"}\nRAG topK: ${topK}\nRAG extractor: ${extractor}${extractor === "sqlite-rag" ? `\nRAG python: ${python || "(auto-detect)"}` : ""}\nRAG db: ${dbPath}\nIndexed chunks: ${chunks}`);
+        break;
+      }
+      case "index": {
+        push("Starting RAG indexing...");
+        const result = await indexProject({});
+        push(`✅ RAG index written to ${result.dbPath}\n✅ Files indexed: ${result.filesIndexed}\n✅ Chunks indexed: ${result.chunksIndexed}`);
+        break;
+      }
+      case "list": {
+        const manager = getSettingsManager();
+        const dbPath = manager.getRagDbPath();
+        if (!fs.existsSync(dbPath)) {
+          push("No RAG index found. Run 'Index project' first.");
+          break;
+        }
+        const db = await VectorDb.open(dbPath);
+        const rows = db.listChunkRows(10, ragListOffset);
+        db.close();
+        if (rows.length === 0) {
+          push(ragListOffset === 0 ? "No chunks found in index." : "No more chunks.");
+          setRagListOffset(0);
+        } else {
+          const list = rows.map((r, i) =&gt; `${ragListOffset + i + 1}. [${r.id}] ${r.path}: ${r.text.slice(0, 80)}...`).join('\n');
+          push(`Chunks ${ragListOffset + 1} to ${ragListOffset + rows.length}:\n${list}\n\nUse 'list' again for next page.`);
+          setRagListOffset(ragListOffset + rows.length);
+        }
+        break;
+      }
+      case "search":
+        beginRagInput("search", "Enter search query:");
+        break;
+      case "delete":
+        beginRagInput("delete", "Enter file path or pattern to delete (use '*' for all):");
+        break;
+      case "export": {
+        const manager = getSettingsManager();
+        const dbPath = manager.getRagDbPath();
+        if (!fs.existsSync(dbPath)) {
+          push("No RAG index found. Run 'Index project' first.");
+          break;
+        }
+        push("Exporting to MakerAI JSON...");
+        try {
+          const result = await _exportVectorDbToMakerAiJson({
+            dbPath,
+            outFile: "makerai-ragvector.json",
+            name: path.basename(process.cwd()),
+            description: "",
+            model: "",
+          });
+          push(`✅ Exported ${result.chunks} chunk(s) to ${result.outFile}`);
+        } catch (err) {
+          push(`Export failed: ${err instanceof Error ? err.message : String(err)}`);
+        }
+        break;
+      }
+      case "import":
+        beginRagInput("import", "Enter path to MakerAI JSON file:");
+        break;
+      case "gui": {
+        push("Opening RAG GUI...");
+        const manager = getSettingsManager();
+        const dbPath = manager.getRagDbPath();
+        const exePath = path.resolve(process.cwd(), "MakerAI", "_build", "win64", "bin", "RagManager.exe");
+        if (!fs.existsSync(exePath)) {
+          push(`❌ RagManager.exe not found at: ${exePath}`);
+          push("Build it with: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-makerai.ps1");
+          break;
+        }
+        // In interactive CLI, we cannot spawn GUI directly; guide user
+        push(`Run command: grok rag gui\nor manually: ${exePath} --json .grok/makerai-ragvector.json --db ${dbPath}`);
+        break;
+      }
+      default:
+        push(`Unknown RAG action: ${action}`);
+    }
+  } catch (err) {
+    push(`Error performing RAG action: ${err instanceof Error ? err.message : String(err)}`);
+  }
+};</find_text>
+    <semantics>Replace handleRagAction with wrapper delegating to ragHandler</semantics>
+    <content_md5_c4b9da8061f3761556cecd2d2e1ecc65>
+      const handleRagAction = async (action: string): Promise&lt;void&gt; =&gt; {
+        await ragHandler.handleRagAction(action);
+      };
+    </content_md5_c4b9da8061f3761556cecd2d2e1ecc65>
+  </update_md5_c4b9da8061f3761556cecd2d2e1ecc65>
+  <update_md5_5b607cbac9b7f73f6826c576d9d03f6f name="rag_input_processing_wrapper" md5="5b607cbac9b7f73f6826c576d9d03f6f" size="205">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>if (ragInputAction &amp;&amp; ragInputPrompt) {
+  const action = ragInputAction;
+  const input = userInput.trim();
+  setRagInputAction(null);
+  setRagInputPrompt(null);
+  clearInput();
+
+  const push = (content: string) =&gt;
+    setChatHistory((prev) =&gt; [...prev, { type: "assistant", content, timestamp: new Date() }]);
+
+  try {
+    switch (action) {
+      case "search": {
+        if (!input) {
+          push("Search cancelled.");
+          break;
+        }
+        push(`Searching for: "${input}"...`);
+        const manager = getSettingsManager();
+        const dbPath = manager.getRagDbPath();
+        if (!fs.existsSync(dbPath)) {
+          push("No RAG index found. Run 'Index project' first.");
+          break;
+        }
+        const embeddingClient = createEmbeddingClientFromSettings();
+        const vector = await embeddingClient.embed(input);
+        const db = await VectorDb.open(dbPath);
+        const results = db.queryTopK(vector, manager.getRagTopK());
+        db.close();
+        if (results.length === 0) {
+          push("No results found.");
+        } else {
+          const list = results.map((r, i) =&gt; `${i + 1}. [${r.id}] ${r.path} (dist: ${r.distance?.toFixed(4)})\n   ${r.text.slice(0, 120)}...`).join('\n\n');
+          push(`Top ${results.length} results:\n${list}`);
+        }
+        break;
+      }
+      case "delete": {
+        if (!input) {
+          push("Delete cancelled.");
+          break;
+        }
+        if (input === "*") {
+          push("Clearing all chunks...");
+          const manager = getSettingsManager();
+          const dbPath = manager.getRagDbPath();
+          if (!fs.existsSync(dbPath)) {
+            push("No RAG index found.");
+            break;
+          }
+          const db = await VectorDb.open(dbPath);
+          db.clearAllChunks();
+          db.close();
+          push("✅ All chunks deleted.");
+        } else {
+          push(`Deleting chunks matching: ${input}...`);
+          const manager = getSettingsManager();
+          const dbPath = manager.getRagDbPath();
+          if (!fs.existsSync(dbPath)) {
+            push("No RAG index found.");
+            break;
+          }
+          const db = await VectorDb.open(dbPath);
+          // Simple path matching (exact match for now)
+          db.deleteChunksByPath(input);
+          db.close();
+          push(`✅ Deleted chunks with path: ${input}`);
+        }
+        break;
+      }
+      case "import": {
+        if (!input) {
+          push("Import cancelled.");
+          break;
+        }
+        const filePath = path.resolve(process.cwd(), input);
+        if (!fs.existsSync(filePath)) {
+          push(`File not found: ${filePath}`);
+          break;
+        }
+        push(`Importing ${filePath}...`);
+        const manager = getSettingsManager();
+        const dbPath = manager.getRagDbPath();
+        try {
+          const result = await _importMakerAiJsonToVectorDb({
+            inFile: filePath,
+            dbPath,
+            replace: false,
+          });
+          push(`✅ Imported ${result.inserted} chunk(s) into ${result.dbPath}`);
+        } catch (err) {
+          push(`Import failed: ${err instanceof Error ? err.message : String(err)}`);
+        }
+        break;
+      }
+      default:
+        push(`Unknown RAG input action: ${action}`);
+    }
+  } catch (err) {
+    push(`Error: ${err instanceof Error ? err.message : String(err)}`);
+  }
+  return;
+}</find_text>
+    <semantics>Replace inline RAG input processing with call to ragHandler.processRagInput</semantics>
+    <content_md5_5b607cbac9b7f73f6826c576d9d03f6f>
+      if (ragInputAction &amp;&amp; ragInputPrompt) {
+        const action = ragInputAction;
+        const input = userInput.trim();
+        setRagInputAction(null);
+        setRagInputPrompt(null);
+        clearInput();
+        await ragHandler.processRagInput(action, input);
+        return;
+      }
+    </content_md5_5b607cbac9b7f73f6826c576d9d03f6f>
+  </update_md5_5b607cbac9b7f73f6826c576d9d03f6f>
+</updates>

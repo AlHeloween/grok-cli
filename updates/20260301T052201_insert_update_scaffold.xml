@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_59c27c04cc38238745588986cf2c1fe0 name="add_chat_history_command" md5="59c27c04cc38238745588986cf2c1fe0" size="1812">
+    <file>src/index.ts</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>program.parse();</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Add chat-history command after config init block</semantics>
+    <content_md5_59c27c04cc38238745588986cf2c1fe0>
+      // Chat history commands
+      const chatHistoryCommand = program
+        .command("chat-history")
+        .description("Manage persistent chat history sessions");
+      
+      chatHistoryCommand
+        .command("list")
+        .description("List all saved chat sessions")
+        .action(async () =&gt; {
+          const persistence = new ChatHistoryPersistence();
+          const sessions = await persistence.listSessions();
+          if (sessions.length === 0) {
+            console.log("No saved chat sessions found.");
+            return;
+          }
+          console.log("Saved chat sessions:");
+          sessions.forEach((session, idx) =&gt; {
+            console.log(`  ${idx + 1}. ${session.id}`);
+            console.log(`     Saved: ${session.timestamp.toLocaleString()}`);
+            console.log(`     Entries: ${session.count}`);
+            console.log();
+          });
+        });
+      
+      chatHistoryCommand
+        .command("load &lt;sessionId&gt;")
+        .description("Load a chat session by ID")
+        .option("-d, --directory &lt;dir&gt;", "working directory", process.cwd())
+        .action(async (sessionId, options) =&gt; {
+          const persistence = new ChatHistoryPersistence();
+          try {
+            const { entries, messages } = await persistence.loadSessionFull(sessionId, options.directory);
+            console.log(`✓ Loaded session '${sessionId}' with ${entries.length} entries`);
+            console.log(`  Use 'grok' with --load-chat-session flag to start a chat with this history.`);
+            // For now, just output stats; actual loading into agent would need integration
+            console.log(`  Messages: ${messages?.length || 0}`);
+          } catch (error: unknown) {
+            console.error(`Error loading session '${sessionId}':`, error instanceof Error ? error.message : String(error));
+            process.exit(1);
+          }
+        });
+      
+      chatHistoryCommand
+        .command("delete &lt;sessionId&gt;")
+        .description("Delete a chat session")
+        .option("-d, --directory &lt;dir&gt;", "working directory", process.cwd())
+        .action(async (sessionId, options) =&gt; {
+          const persistence = new ChatHistoryPersistence();
+          try {
+            await persistence.deleteSession(sessionId, options.directory);
+            console.log(`✓ Deleted session '${sessionId}'`);
+          } catch (error: unknown) {
+            console.error(`Error deleting session '${sessionId}':`, error instanceof Error ? error.message : String(error));
+            process.exit(1);
+          }
+        });
+    </content_md5_59c27c04cc38238745588986cf2c1fe0>
+  </update_md5_59c27c04cc38238745588986cf2c1fe0>
+</updates>

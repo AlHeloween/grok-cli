@@ -1,0 +1,9 @@
+export interface ChatEntry {
+  type: "user" | "assistant" | "tool_result" | "tool_call";
+  content: string | UserContentPart[];
+  timestamp: Date;
+  toolCalls?: GrokToolCall[];
+  toolCall?: GrokToolCall;
+  toolResult?: { success: boolean; output?: string; error?: string };
+  isStreaming?: boolean;
+}

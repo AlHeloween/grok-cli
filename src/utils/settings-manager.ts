@@ -53,6 +53,12 @@ export interface RagSettings {
   extractor?: "native" | "sqlite-rag";
   /** Python command used when extractor is sqlite-rag (default: auto-detect). */
   python?: string;
+  /** If true, search chat history before project files in hybrid retrieval (default: true). */
+  searchChatFirst?: boolean;
+  /** Path prefix for chat entries in the vector DB (default: "chat://"). */
+  chatPrefix?: string;
+  /** If true, automatically index chat history entries into RAG when saving (default: false). */
+  autoIndexChat?: boolean;
 }
 
 /**
@@ -93,6 +99,9 @@ const DEFAULT_PROJECT_SETTINGS: Partial<ProjectSettings> = {
     topK: 6,
     useKMedoids: false,
     candidateCount: 18,
+    searchChatFirst: true,
+    chatPrefix: "chat://",
+    autoIndexChat: false,
   },
 };
 
@@ -511,6 +520,21 @@ public getRagTopK(cwd: string = process.cwd()): number {
     return Math.max(topK, Math.min(200, n));
   }
 
+  public getRagSearchChatFirst(cwd: string = process.cwd()): boolean {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.searchChatFirst ?? true;
+  }
+
+  public getRagChatPrefix(cwd: string = process.cwd()): string {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.chatPrefix ?? "chat://";
+  }
+
+  public getRagAutoIndexChat(cwd: string = process.cwd()): boolean {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.autoIndexChat ?? false;
+  }
+
   /**
    * Set the current model for the project
    */
@@ -618,12 +642,12 @@ export function getSettingsManager(): SettingsManager {
 // SDID_ROLLBACK {
 //   "target_file": "D:\\zPython\\grok-cli\\src/utils/settings-manager.ts"
 //   "update_script": "adm.exe"
-//   "backup_path": "D:\\zPython\\grok-cli\\src/utils/settings-manager.ts.backup_20260216T230043_298077"
-//   "created_at": "2026-02-16T15:00:43.309453+00:00"
-//   "backup_hash": "c3afff9866ad420ca6cf6d2ebdcbb1db"
-//   "new_hash": "c3afff9866ad420ca6cf6d2ebdcbb1db"
-//   "goal_id": "settings_manager_rag_getters_format"
-//   "semantics": "Restore indentation and missing newlines between methods."
-//   "update_attrs": {"relative_path": "src/utils/settings-manager.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "public getRagExtractor(cwd: string = process.cwd()): \"native\" | \"sqlite-rag\" {\n  const env = process.env.GROK_RAG_EXTRACTOR?.trim().toLowerCase();\n  if (env === \"sqlite-rag\" || env === \"sqlite_rag\" || env === \"sqlite\")\n    return \"sqlite-rag\";\n  if (env === \"native\") return \"native\";\n\n  const settings = this.loadProjectSettings(cwd);\n  const v = settings.rag?.extractor;\n  return v === \"sqlite-rag\" ? \"sqlite-rag\" : \"native\";\n}\n\npublic getRagPython(cwd: string = process.cwd()): string | undefined {\n  const env = process.env.GROK_RAG_PYTHON?.trim();\n  if (env) return env;\n\n  const settings = this.loadProjectSettings(cwd);\n  const v = settings.rag?.python;\n  return v && v.trim() ? v.trim() : undefined;\n}public getRagTopK(cwd: string = process.cwd()): number {", "replace_present": true}
+//   "backup_path": "D:\\zPython\\grok-cli\\src/utils/settings-manager.ts.backup_20260301T145843_114166"
+//   "created_at": "2026-03-01T06:58:43.128621+00:00"
+//   "backup_hash": "ec442f56a3e080733a7cee16c1c8262e"
+//   "new_hash": "0935e1399718739503b914230f1b3735"
+//   "goal_id": "rag_defaults"
+//   "semantics": "Add default values for searchChatFirst and chatPrefix in project settings."
+//   "update_attrs": {"relative_path": "src/utils/settings-manager.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "rag: {\n    enabled: false,\n    topK: 6,\n    useKMedoids: false,\n    candidateCount: 18,\n  },", "replace_present": true}
 //   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/utils/settings-manager.ts\""
 // }

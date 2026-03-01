@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_f42585ac6e074288335270cd56ef79fa name="fix_rag_defaults_indent" md5="f42585ac6e074288335270cd56ef79fa" size="106">
+    <file>src/utils/settings-manager.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  rag: {
+  enabled: false,
+  topK: 6,
+  useKMedoids: false,
+  candidateCount: 18,
+  searchChatFirst: true,
+  chatPrefix: "chat://",
+},</find_text>
+    <semantics>Fix indentation of rag defaults to match project style (two spaces per level).</semantics>
+    <content_md5_f42585ac6e074288335270cd56ef79fa>
+      rag: {
+        enabled: false,
+        topK: 6,
+        useKMedoids: false,
+        candidateCount: 18,
+        searchChatFirst: true,
+        chatPrefix: "chat://",
+      },
+    </content_md5_f42585ac6e074288335270cd56ef79fa>
+  </update_md5_f42585ac6e074288335270cd56ef79fa>
+  <update_md5_941d306de237710f7b962d0829e62948 name="add_chat_rag_getters" md5="941d306de237710f7b962d0829e62948" size="635">
+    <file>src/utils/settings-manager.ts</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  public getRagCandidateCount(cwd: string = process.cwd()): number {
+    const settings = this.loadProjectSettings(cwd);
+    const topK = this.getRagTopK(cwd);
+    const defaultCount = Math.min(50, Math.max(topK, 3 * topK));
+    const raw = settings.rag?.candidateCount;
+    const n =
+      typeof raw === "number" &amp;&amp; Number.isFinite(raw) ? Math.floor(raw) : defaultCount;
+    return Math.max(topK, Math.min(200, n));
+  }</find_text>
+    <semantics>Add getter methods for searchChatFirst and chatPrefix after getRagCandidateCount.</semantics>
+    <content_md5_941d306de237710f7b962d0829e62948>
+      public getRagCandidateCount(cwd: string = process.cwd()): number {
+        const settings = this.loadProjectSettings(cwd);
+        const topK = this.getRagTopK(cwd);
+        const defaultCount = Math.min(50, Math.max(topK, 3 * topK));
+        const raw = settings.rag?.candidateCount;
+        const n =
+          typeof raw === "number" &amp;&amp; Number.isFinite(raw) ? Math.floor(raw) : defaultCount;
+        return Math.max(topK, Math.min(200, n));
+      }
+      
+      public getRagSearchChatFirst(cwd: string = process.cwd()): boolean {
+        const settings = this.loadProjectSettings(cwd);
+        return settings.rag?.searchChatFirst ?? true;
+      }
+      
+      public getRagChatPrefix(cwd: string = process.cwd()): string {
+        const settings = this.loadProjectSettings(cwd);
+        return settings.rag?.chatPrefix ?? "chat://";
+      }
+    </content_md5_941d306de237710f7b962d0829e62948>
+  </update_md5_941d306de237710f7b962d0829e62948>
+</updates>

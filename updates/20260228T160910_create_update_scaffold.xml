@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_523e7f2381614acf91b49f5bc4767392 name="rag_menu_handler_test" md5="523e7f2381614acf91b49f5bc4767392" size="5696">
+    <file>src/hooks/rag-menu-handler.test.ts</file>
+    <update_type>text</update_type>
+    <mode>create</mode>
+    <encoding>utf-8</encoding>
+    <semantics>Create unit tests for rag-menu-handler module</semantics>
+    <content_md5_523e7f2381614acf91b49f5bc4767392>
+      import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
+      import { getRagMenuItems, createRagHandler } from "./rag-menu-handler.js";
+      import type { ChatEntry } from "../agent/grok-agent.js";
+      
+      // Mock dependencies
+      vi.mock("fs", () =&gt; ({
+        existsSync: vi.fn(),
+      }));
+      
+      vi.mock("../rag/vector-db.js", () =&gt; ({
+        VectorDb: {
+          open: vi.fn(),
+        },
+      }));
+      
+      vi.mock("../rag/indexer.js", () =&gt; ({
+        indexProject: vi.fn(),
+      }));
+      
+      vi.mock("../rag/makerai.js", () =&gt; ({
+        exportVectorDbToMakerAiJson: vi.fn(),
+        importMakerAiJsonToVectorDb: vi.fn(),
+      }));
+      
+      vi.mock("../rag/embedding-client.js", () =&gt; ({
+        createEmbeddingClientFromSettings: vi.fn(() =&gt; ({
+          embed: vi.fn(),
+        })),
+      }));
+      
+      vi.mock("../utils/settings-manager.js", () =&gt; ({
+        getSettingsManager: vi.fn(() =&gt; ({
+          isRagEnabled: vi.fn(),
+          getRagTopK: vi.fn(),
+          getRagExtractor: vi.fn(),
+          getRagPython: vi.fn(),
+          getRagDbPath: vi.fn(),
+        })),
+      }));
+      
+      // Import mocked modules after vi.mock
+      import * as fsMod from "fs";
+      import * as vectorDbMod from "../rag/vector-db.js";
+      import * as indexerMod from "../rag/indexer.js";
+      import * as makeraiMod from "../rag/makerai.js";
+      import * as embeddingClientMod from "../rag/embedding-client.js";
+      import * as settingsManagerMod from "../utils/settings-manager.js";
+      
+      describe("getRagMenuItems", () =&gt; {
+        it("returns expected menu items", () =&gt; {
+          const items = getRagMenuItems();
+          expect(items).toHaveLength(9);
+          expect(items[0]).toEqual({ id: "rag:list", label: "List chunks", hint: "Browse indexed chunks with pagination" });
+          expect(items[8]).toEqual({ id: "action:ragHelp", label: "RAG help (CLI commands)" });
+        });
+      });
+      
+      describe("createRagHandler", () =&gt; {
+        let mockSetChatHistory: vi.Mock;
+        let mockGetSettingsManager: vi.Mock;
+        let mockSetRagListOffset: vi.Mock;
+        let mockSetRagInputAction: vi.Mock;
+        let mockSetRagInputPrompt: vi.Mock;
+        let mockClearInput: vi.Mock;
+        let mockPush: vi.Mock;
+      
+        beforeEach(() =&gt; {
+          mockSetChatHistory = vi.fn();
+          mockGetSettingsManager = vi.fn();
+          mockSetRagListOffset = vi.fn();
+          mockSetRagInputAction = vi.fn();
+          mockSetRagInputPrompt = vi.fn();
+          mockClearInput = vi.fn();
+          mockPush = vi.fn();
+          // Mock push implementation
+          mockSetChatHistory.mockImplementation((updater) =&gt; {
+            const result = updater([]);
+            mockPush(result[result.length - 1]?.content);
+            return result;
+          });
+        });
+      
+        afterEach(() =&gt; {
+          vi.clearAllMocks();
+        });
+      
+        it("returns handler functions", () =&gt; {
+          const handler = createRagHandler({
+            setChatHistory: mockSetChatHistory,
+            getSettingsManager: mockGetSettingsManager,
+            ragListOffset: 0,
+            setRagListOffset: mockSetRagListOffset,
+            setRagInputAction: mockSetRagInputAction,
+            setRagInputPrompt: mockSetRagInputPrompt,
+            clearInput: mockClearInput,
+          });
+          expect(handler).toHaveProperty("handleRagAction");
+          expect(handler).toHaveProperty("beginRagInput");
+          expect(handler).toHaveProperty("processRagInput");
+          expect(typeof handler.handleRagAction).toBe("function");
+          expect(typeof handler.beginRagInput).toBe("function");
+          expect(typeof handler.processRagInput).toBe("function");
+        });
+      
+        describe("handleRagAction", () =&gt; {
+          it("status action calls push with status info", async () =&gt; {
+            const mockManager = {
+              isRagEnabled: vi.fn().mockReturnValue(true),
+              getRagTopK: vi.fn().mockReturnValue(10),
+              getRagExtractor: vi.fn().mockReturnValue("sqlite-rag"),
+              getRagPython: vi.fn().mockReturnValue("python3"),
+              getRagDbPath: vi.fn().mockReturnValue("/test/.grok/rag.db"),
+            };
+            mockGetSettingsManager.mockReturnValue(mockManager);
+            vi.mocked(fsMod.existsSync).mockReturnValue(false);
+      
+            const handler = createRagHandler({
+              setChatHistory: mockSetChatHistory,
+              getSettingsManager: mockGetSettingsManager,
+              ragListOffset: 0,
+              setRagListOffset: mockSetRagListOffset,
+              setRagInputAction: mockSetRagInputAction,
+              setRagInputPrompt: mockSetRagInputPrompt,
+              clearInput: mockClearInput,
+            });
+      
+            await handler.handleRagAction("status");
+            expect(mockPush).toHaveBeenCalledWith(expect.stringContaining("RAG enabled: yes"));
+            expect(mockPush).toHaveBeenCalledWith(expect.stringContaining("RAG topK: 10"));
+            expect(mockPush).toHaveBeenCalledWith(expect.stringContaining("RAG extractor: sqlite-rag"));
+            expect(mockPush).toHaveBeenCalledWith(expect.stringContaining("RAG python: python3"));
+            expect(mockPush).toHaveBeenCalledWith(expect.stringContaining("Indexed chunks: 0"));
+          });
+      
+          it("list action when no db calls push with error", async () =&gt; {
+            const mockManager = {
+              getRagDbPath: vi.fn().mockReturnValue("/test/.grok/rag.db"),
+            };
+            mockGetSettingsManager.mockReturnValue(mockManager);
+            vi.mocked(fsMod.existsSync).mockReturnValue(false);
+      
+            const handler = createRagHandler({
+              setChatHistory: mockSetChatHistory,
+              getSettingsManager: mockGetSettingsManager,
+              ragListOffset: 0,
+              setRagListOffset: mockSetRagListOffset,
+              setRagInputAction: mockSetRagInputAction,
+              setRagInputPrompt: mockSetRagInputPrompt,
+              clearInput: mockClearInput,
+            });
+      
+            await handler.handleRagAction("list");
+            expect(mockPush).toHaveBeenCalledWith("No RAG index found. Run 'Index project' first.");
+          });
+      
+          // Additional tests can be added for other actions (search, delete, export, import, gui)
+          // but they require more complex mocking; we can skip for now.
+        });
+      
+        describe("beginRagInput", () =&gt; {
+          it("sets action and prompt and clears input", () =&gt; {
+            const handler = createRagHandler({
+              setChatHistory: mockSetChatHistory,
+              getSettingsManager: mockGetSettingsManager,
+              ragListOffset: 0,
+              setRagListOffset: mockSetRagListOffset,
+              setRagInputAction: mockSetRagInputAction,
+              setRagInputPrompt: mockSetRagInputPrompt,
+              clearInput: mockClearInput,
+            });
+      
+            handler.beginRagInput("search", "Enter search query:");
+            expect(mockSetRagInputAction).toHaveBeenCalledWith("search");
+            expect(mockSetRagInputPrompt).toHaveBeenCalledWith("Enter search query:");
+            expect(mockClearInput).toHaveBeenCalled();
+          });
+        });
+      
+        describe("processRagInput", () =&gt; {
+          it("search action with empty input cancels", async () =&gt; {
+            const handler = createRagHandler({
+              setChatHistory: mockSetChatHistory,
+              getSettingsManager: mockGetSettingsManager,
+              ragListOffset: 0,
+              setRagListOffset: mockSetRagListOffset,
+              setRagInputAction: mockSetRagInputAction,
+              setRagInputPrompt: mockSetRagInputPrompt,
+              clearInput: mockClearInput,
+            });
+      
+            await handler.processRagInput("search", "");
+            expect(mockPush).toHaveBeenCalledWith("Search cancelled.");
+          });
+      
+          // More tests can be added for search, delete, import with mocked db and embedding client
+        });
+      });
+    </content_md5_523e7f2381614acf91b49f5bc4767392>
+  </update_md5_523e7f2381614acf91b49f5bc4767392>
+</updates>

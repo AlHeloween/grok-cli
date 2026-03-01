@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_c68254e308ca20d92d45b7434fe6e26d name="text_create_new_file" md5="c68254e308ca20d92d45b7434fe6e26d" size="2347">
+    <file>src/rag/chat-indexer.ts</file>
+    <update_type>text</update_type>
+    <mode>create</mode>
+    <encoding>utf-8</encoding>
+    <semantics>Create chat indexer for indexing chat history into RAG vector DB</semantics>
+    <content_md5_c68254e308ca20d92d45b7434fe6e26d>
+      import { createEmbeddingClientFromSettings } from "./embedding-client.js";
+      import { VectorDb } from "./vector-db.js";
+      import { getSettingsManager } from "../utils/settings-manager.js";
+      import type { ChatEntry } from "../agent/grok-agent.js";
+      
+      export interface ChatIndexOptions {
+        cwd?: string;
+        sessionId: string;
+        /** If true, delete previous chat entries for this session before indexing */
+        replace?: boolean;
+      }
+      
+      /**
+       * Index chat history entries into the RAG vector DB.
+       * Each entry is stored with path `chat://session/&lt;sessionId&gt;/&lt;entryIdx&gt;`
+       * and metadata containing ADID fields.
+       */
+      export async function indexChatHistory(
+        entries: ChatEntry[],
+        options: ChatIndexOptions
+      ): Promise&lt;{ chunksIndexed: number }&gt; {
+        const cwd = options.cwd || process.cwd();
+        const settings = getSettingsManager();
+        const dbPath = settings.getRagDbPath(cwd);
+        const embeddingClient = createEmbeddingClientFromSettings();
+      
+        // Determine dimension from first entry embedding
+        const sampleText = typeof entries[0]?.content === "string" 
+          ? entries[0].content 
+          : JSON.stringify(entries[0]?.content);
+        const sampleVector = await embeddingClient.embed(sampleText);
+        if (!sampleVector.length) {
+          throw new Error("Failed to get embedding dimension");
+        }
+        const dimension = sampleVector.length;
+      
+        const db = await VectorDb.open(dbPath, { dimension, distance: "COSINE" });
+        try {
+          db.beginTransaction();
+      
+          const prefix = `chat://session/${options.sessionId}/`;
+          if (options.replace !== false) {
+            db.deleteChunksByPathPrefix(prefix);
+          }
+      
+          let chunksIndexed = 0;
+          for (let i = 0; i &lt; entries.length; i++) {
+            const entry = entries[i];
+            const text = typeof entry.content === "string" 
+              ? `[${entry.type}] ${entry.content}`
+              : `[${entry.type}] ${JSON.stringify(entry.content)}`;
+            const vector = await embeddingClient.embed(text);
+            if (!vector.length) continue;
+      
+            const meta = {
+              timestamp: entry.timestamp.toISOString(),
+              type: entry.type,
+              svHash: entry.svHash,
+              msgHash: entry.msgHash,
+              prevSVHashes: entry.prevSVHashes,
+              semanticDominant: entry.semanticDominant,
+              semanticVector: entry.semanticVector,
+            };
+            db.insertChunk({
+              path: `${prefix}${i}`,
+              text,
+              meta: JSON.stringify(meta),
+              vector,
+            });
+            chunksIndexed++;
+          }
+      
+          db.commitTransaction();
+          return { chunksIndexed };
+        } catch (error) {
+          db.rollbackTransaction();
+          throw error;
+        } finally {
+          db.close();
+        }
+      }
+      
+      /**
+       * Delete all chat entries for a given session.
+       */
+      export async function deleteChatSession(
+        sessionId: string,
+        cwd?: string
+      ): Promise&lt;void&gt; {
+        const settings = getSettingsManager();
+        const dbPath = settings.getRagDbPath(cwd || process.cwd());
+        const db = await VectorDb.open(dbPath);
+        try {
+          db.deleteChunksByPathPrefix(`chat://session/${sessionId}/`);
+        } finally {
+          db.close();
+        }
+      }
+    </content_md5_c68254e308ca20d92d45b7434fe6e26d>
+  </update_md5_c68254e308ca20d92d45b7434fe6e26d>
+</updates>

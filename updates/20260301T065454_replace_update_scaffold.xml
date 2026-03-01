@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_52bf3c917cb6448975060386b30b2339 name="rag_settings_interface" md5="52bf3c917cb6448975060386b30b2339" size="612">
+    <file>src/utils/settings-manager.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>export interface RagSettings {
+  enabled?: boolean;
+  topK?: number;
+  embeddings?: EmbeddingsSettings;
+  /** If true, select RAG context via k-medoids over a larger candidate set. */
+  useKMedoids?: boolean;
+  /** Candidate count to retrieve before k-medoids (must be &gt;= topK). */
+  candidateCount?: number;
+  /** Text extractor used by the RAG indexer (default: native). */
+  extractor?: "native" | "sqlite-rag";
+  /** Python command used when extractor is sqlite-rag (default: auto-detect). */
+  python?: string;
+}</find_text>
+    <semantics>Add searchChatFirst and chatPrefix fields to RagSettings interface.</semantics>
+    <content_md5_52bf3c917cb6448975060386b30b2339>
+      export interface RagSettings {
+        enabled?: boolean;
+        topK?: number;
+        embeddings?: EmbeddingsSettings;
+        /** If true, select RAG context via k-medoids over a larger candidate set. */
+        useKMedoids?: boolean;
+        /** Candidate count to retrieve before k-medoids (must be &gt;= topK). */
+        candidateCount?: number;
+        /** Text extractor used by the RAG indexer (default: native). */
+        extractor?: "native" | "sqlite-rag";
+        /** Python command used when extractor is sqlite-rag (default: auto-detect). */
+        python?: string;
+        /** If true, search chat history before project files in hybrid retrieval (default: true). */
+        searchChatFirst?: boolean;
+        /** Path prefix for chat entries in the vector DB (default: "chat://"). */
+        chatPrefix?: string;
+      }
+    </content_md5_52bf3c917cb6448975060386b30b2339>
+  </update_md5_52bf3c917cb6448975060386b30b2339>
+  <update_md5_f42585ac6e074288335270cd56ef79fa name="rag_defaults" md5="f42585ac6e074288335270cd56ef79fa" size="106">
+    <file>src/utils/settings-manager.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  rag: {
+    enabled: false,
+    topK: 6,
+    useKMedoids: false,
+    candidateCount: 18,
+  },</find_text>
+    <semantics>Add default values for searchChatFirst and chatPrefix in project settings.</semantics>
+    <content_md5_f42585ac6e074288335270cd56ef79fa>
+      rag: {
+        enabled: false,
+        topK: 6,
+        useKMedoids: false,
+        candidateCount: 18,
+        searchChatFirst: true,
+        chatPrefix: "chat://",
+      },
+    </content_md5_f42585ac6e074288335270cd56ef79fa>
+  </update_md5_f42585ac6e074288335270cd56ef79fa>
+</updates>

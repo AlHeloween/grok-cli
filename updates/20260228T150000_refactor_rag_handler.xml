@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_9c55222b5853c9f7642217a5fd30ac3d name="rag_handler_creation" md5="9c55222b5853c9f7642217a5fd30ac3d" size="429">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  const settingsManager = getSettingsManager();
+
+  const getConfigValueLabel = (key: string): string =&gt; {</find_text>
+    <semantics>Insert RAG handler creation after settingsManager</semantics>
+    <content_md5_9c55222b5853c9f7642217a5fd30ac3d>
+      const settingsManager = getSettingsManager();
+      
+      const getSettingsManagerFn = () =&gt; settingsManager;
+      const ragHandler = useMemo(() =&gt; createRagHandler({
+        setChatHistory,
+        getSettingsManager: getSettingsManagerFn,
+        ragListOffset,
+        setRagListOffset,
+        setRagInputAction,
+        setRagInputPrompt,
+        clearInput,
+      }), [setChatHistory, settingsManager, ragListOffset, setRagListOffset, setRagInputAction, setRagInputPrompt, clearInput]);
+      
+      const getConfigValueLabel = (key: string): string =&gt; {
+    </content_md5_9c55222b5853c9f7642217a5fd30ac3d>
+  </update_md5_9c55222b5853c9f7642217a5fd30ac3d>
+</updates>

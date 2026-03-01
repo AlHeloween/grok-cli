@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_508acf9d09cb14674d8f9ab6a479943a name="extend_chatentry_adid_fields" md5="508acf9d09cb14674d8f9ab6a479943a" size="581">
+    <file>src/agent/grok-agent.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>export interface ChatEntry {
+  type: "user" | "assistant" | "tool_result" | "tool_call";
+  content: string | UserContentPart[];
+  timestamp: Date;
+  toolCalls?: GrokToolCall[];
+  toolCall?: GrokToolCall;
+  toolResult?: { success: boolean; output?: string; error?: string };
+  isStreaming?: boolean;
+}</find_text>
+    <semantics>Extend ChatEntry interface with ADID State Vector tracking fields</semantics>
+    <content_md5_508acf9d09cb14674d8f9ab6a479943a>
+      export interface ChatEntry {
+        type: "user" | "assistant" | "tool_result" | "tool_call";
+        content: string | UserContentPart[];
+        timestamp: Date;
+        toolCalls?: GrokToolCall[];
+        toolCall?: GrokToolCall;
+        toolResult?: { success: boolean; output?: string; error?: string };
+        isStreaming?: boolean;
+        // ADID State Vector tracking fields
+        svHash?: string;               // md5_sv_tag - semantic anchor hash
+        msgHash?: string;              // md5_msg_tag - provenance hash of the message content
+        prevSVHashes?: string[];       // previous semantic anchor hashes (semantic_link)
+        semanticDominant?: string;     // dominant keyword(s)
+        semanticVector?: Array&lt;{keyword: string; weight: number}&gt;; // keyword-weight pairs
+      }
+    </content_md5_508acf9d09cb14674d8f9ab6a479943a>
+  </update_md5_508acf9d09cb14674d8f9ab6a479943a>
+</updates>

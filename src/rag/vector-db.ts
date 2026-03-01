@@ -359,6 +359,29 @@ clearAllChunks(): void {
     }
     return out;
   }
+  queryTopKWithPrefix(vector: number[], k: number, pathPrefix: string): RagChunkRow[] {
+    if (!vector.length || k <= 0) return [];
+    const rows = this.db.selectObjects(
+      `
+      SELECT c.id, c.path, c.text, c.meta, v.distance
+      FROM chunks AS c
+      JOIN vector_quantize_scan('chunks', 'vector', vector_as_f32(?), ?) AS v
+      ON c.id = v.rowid
+      WHERE c.path LIKE ?
+      ORDER BY v.distance ASC
+      `,
+      [JSON.stringify(vector), k, `${pathPrefix}%`]
+    );
+    return (rows || []) as RagChunkRow[];
+  }
+
+  deleteChunksByPathPrefix(prefix: string): void {
+    this.db.exec({
+      sql: "DELETE FROM chunks WHERE path LIKE ?",
+      bind: [`${prefix}%`],
+    });
+    this.dirty = true;
+  }
 }
 
 function decodeFloat32Blob(blob: unknown): Float32Array | null {
@@ -401,12 +424,12 @@ function decodeFloat32Blob(blob: unknown): Float32Array | null {
 // SDID_ROLLBACK {
 //   "target_file": "D:\\zPython\\grok-cli\\src/rag/vector-db.ts"
 //   "update_script": "adm.exe"
-//   "backup_path": "D:\\zPython\\grok-cli\\src/rag/vector-db.ts.backup_20260217T220629_596627"
-//   "created_at": "2026-02-17T14:06:29.615115+00:00"
-//   "backup_hash": "3f6047b71c3641be4190308a50b35420"
-//   "new_hash": "bebcb27d7f79c8aed3205d2f1a4b33d9"
-//   "goal_id": "vector_db_deserialize_buffer"
-//   "semantics": "Convert Node Buffer to Uint8Array before wasm allocFromTypedArray."
-//   "update_attrs": {"relative_path": "src/rag/vector-db.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "private loadFromDiskIfPresent(): void {\n  if (!fs.existsSync(this.dbPath)) return;\n  const bytes = fs.readFileSync(this.dbPath);\n  this.deserializeFromBytes(bytes);\n}", "replace_present": true}
+//   "backup_path": "D:\\zPython\\grok-cli\\src/rag/vector-db.ts.backup_20260301T143147_221550"
+//   "created_at": "2026-03-01T06:31:47.243392+00:00"
+//   "backup_hash": "ff02fd2a65778e39c30f2867efbc73b6"
+//   "new_hash": "91404d0c226abed3d3d1429ae5647fe9"
+//   "goal_id": "text_insert_before_anchor"
+//   "semantics": "Add chat-specific query and delete methods to VectorDb class"
+//   "update_attrs": {"relative_path": "src/rag/vector-db.ts", "update_type": "text", "mode": "insert", "encoding": "utf-8", "find_pattern": null, "find_text": "}\n\nfunction decodeFloat32Blob", "replace_present": true}
 //   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/rag/vector-db.ts\""
 // }

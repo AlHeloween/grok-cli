@@ -1,0 +1,61 @@
+  <update_md5_c0714090cf53dd18da6bbfad306e806c name="text_anchor_replace" md5="c0714090cf53dd18da6bbfad306e806c" size="7">
+  <file>src/agent/grok-agent.ts</file>
+  <update_type>text</update_type>
+  <mode>replace</mode>
+  <encoding>utf-8</encoding>
+  <find_text>  private textEditor: TextEditorTool;
+  private morphEditor: MorphEditorTool | null;
+  private bash: BashTool;
+  private todoTool: TodoTool;
+  private confirmationTool: ConfirmationTool;
+  private search: SearchTool;
+  private chatHistory: ChatEntry[] = [];
+  private messages: GrokMessage[] = [];
+  private baseSystemPrompt: string;
+  private tokenCounter: TokenCounter;
+  private abortController: AbortController | null = null;
+  private mcpInitialized: boolean = false;
+  private maxToolRounds: number;
+
+  /** Max conversation messages sent to the API (system + recent). Older messages are dropped to bound context size. */
+  private static readonly MAX_MESSAGES = 50;
+  /** Max chat history entries kept in memory for UI. */
+  private static readonly MAX_CHAT_ENTRIES = 100;
+
+  private trimHistoryIfNeeded(): void {
+    if (this.messages.length &gt; GrokAgent.MAX_MESSAGES) {
+      const system = this.messages[0];
+      const rest = this.messages.slice(-(GrokAgent.MAX_MESSAGES - 1));
+      this.messages = system ? [system, ...rest] : rest;
+    }
+    if (this.chatHistory.length &gt; GrokAgent.MAX_CHAT_ENTRIES) {
+      this.chatHistory = this.chatHistory.slice(-GrokAgent.MAX_CHAT_ENTRIES);
+    }
+  }
+
+</find_text>
+  <semantics>Replace chat history arrays with ChatHistoryManager</semantics>
+  <content_md5_c0714090cf53dd18da6bbfad306e806c>
+  private textEditor: TextEditorTool;
+  private morphEditor: MorphEditorTool | null;
+  private bash: BashTool;
+  private todoTool: TodoTool;
+  private confirmationTool: ConfirmationTool;
+  private search: SearchTool;
+  private chatHistoryManager: ChatHistoryManager;
+  private baseSystemPrompt: string;
+  private tokenCounter: TokenCounter;
+  private abortController: AbortController | null = null;
+  private mcpInitialized: boolean = false;
+  private maxToolRounds: number;
+
+  /** Max conversation messages sent to the API (system + recent). Older messages are dropped to bound context size. */
+  private static readonly MAX_MESSAGES = 50;
+  /** Max chat history entries kept in memory for UI. */
+  private static readonly MAX_CHAT_ENTRIES = 100;
+
+  private trimHistoryIfNeeded(): void {
+    this.chatHistoryManager.trimIfNeeded();
+  }
+  </content_md5_c0714090cf53dd18da6bbfad306e806c>
+</update_md5_c0714090cf53dd18da6bbfad306e806c>

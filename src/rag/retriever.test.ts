@@ -90,7 +90,7 @@ describe("formatRagChunksForPrompt", () => {
       },
     ];
     // Set maxChars low enough that only first chunk fits
-    const result = formatRagChunksForPrompt(rows, 150);
+    const result = formatRagChunksForPrompt(rows, 160);
     expect(result).toContain("a.txt");
     expect(result).not.toContain("b.txt");
   });
@@ -155,7 +155,9 @@ describe("retrieveTopK", () => {
     mockCreateEmbeddingClient.mockReturnValue(createMockEmbeddingClient([0.1, 0.2, 0.3]));
     const mockDbInstance = {
       queryTopK: vi.fn().mockReturnValue([{ id: 1, text: "chunk1" }]),
-      queryTopN: vi.fn(),
+      queryTopN: vi.fn().mockReturnValue([{ id: 1, text: "chunk1" }]),
+      queryTopKWithPrefix: vi.fn().mockReturnValue([]),
+      deleteChunksByPathPrefix: vi.fn(),
       getChunkVectorsByIds: vi.fn(),
       getDistanceMetric: vi.fn(),
       close: vi.fn(),
@@ -164,7 +166,8 @@ describe("retrieveTopK", () => {
     mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
 
     const result = await retrieveTopK("query", { useKMedoids: false });
-    expect(mockDbInstance.queryTopK).toHaveBeenCalledWith([0.1, 0.2, 0.3], 10);
+    expect(mockDbInstance.queryTopKWithPrefix).toHaveBeenCalledWith([0.1, 0.2, 0.3], 10, "chat://");
+    expect(mockDbInstance.queryTopN).toHaveBeenCalledWith([0.1, 0.2, 0.3], 10);
     expect(mockDbInstance.close).toHaveBeenCalled();
     expect(result).toEqual([{ id: 1, text: "chunk1" }]);
   });
@@ -179,6 +182,8 @@ describe("retrieveTopK", () => {
         { id: 2, distance: 0.6 },
         { id: 3, distance: 0.7 },
       ]),
+      queryTopKWithPrefix: vi.fn().mockReturnValue([]),
+      deleteChunksByPathPrefix: vi.fn(),
       getChunkVectorsByIds: vi.fn().mockReturnValue(new Map([
         [1, new Float32Array([0.1, 0.2, 0.3])],
         [2, new Float32Array([0.4, 0.5, 0.6])],
@@ -197,5 +202,56 @@ describe("retrieveTopK", () => {
     expect(mockDbInstance.close).toHaveBeenCalled();
     // Should return selected rows sorted by distance
     expect(result).toEqual([{ id: 1, distance: 0.5 }, { id: 2, distance: 0.6 }]);
+  });
+
+  it("searches chat first when searchChatFirst is true", async () => {
+    mockExistsSync.mockReturnValue(true);
+    mockCreateEmbeddingClient.mockReturnValue(createMockEmbeddingClient([0.1, 0.2, 0.3]));
+    // Override settings to enable chat search
+    mockGetSettingsManager.mockReturnValue({
+      getRagDbPath: vi.fn((_cwd: string) => `/.grok/rag.db`),
+      getRagTopK: vi.fn((_cwd: string) => 10),
+      getRagUseKMedoids: vi.fn((_cwd: string) => false),
+      getRagCandidateCount: vi.fn((_cwd: string) => 100),
+      getRagSearchChatFirst: vi.fn((_cwd: string) => true),
+      getRagChatPrefix: vi.fn((_cwd: string) => "chat://"),
+      getEmbeddingsSettings: vi.fn((_cwd: string) => ({
+        apiKey: "test-key",
+        baseURL: "https://api.test.com",
+        model: "text-embedding-3-small",
+      })),
+      getApiKey: vi.fn(() => "test-key"),
+      getBaseURL: vi.fn(() => "https://api.test.com"),
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } as any);
+
+    const mockDbInstance = {
+      queryTopK: vi.fn(),
+      queryTopN: vi.fn().mockReturnValue([
+        { id: 1, path: "file.txt", text: "file content", distance: 0.5 },
+        { id: 2, path: "another.txt", text: "another file", distance: 0.6 },
+      ]),
+      queryTopKWithPrefix: vi.fn().mockReturnValue([
+        { id: 10, path: "chat://session/abc/0", text: "chat message", distance: 0.3 },
+        { id: 11, path: "chat://session/abc/1", text: "another chat", distance: 0.4 },
+      ]),
+      deleteChunksByPathPrefix: vi.fn(),
+      getChunkVectorsByIds: vi.fn(),
+      getDistanceMetric: vi.fn(),
+      close: vi.fn(),
+    };
+    mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
+
+    const result = await retrieveTopK("query", { searchChatFirst: true });
+    expect(mockDbInstance.queryTopKWithPrefix).toHaveBeenCalledWith([0.1, 0.2, 0.3], 10, "chat://");
+    expect(mockDbInstance.queryTopN).toHaveBeenCalledWith([0.1, 0.2, 0.3], 8);
+    expect(mockDbInstance.close).toHaveBeenCalled();
+    // Should return combined results, deduplicated, sorted by distance
+    expect(result).toEqual([
+      { id: 10, path: "chat://session/abc/0", text: "chat message", distance: 0.3 },
+      { id: 11, path: "chat://session/abc/1", text: "another chat", distance: 0.4 },
+      { id: 1, path: "file.txt", text: "file content", distance: 0.5 },
+      { id: 2, path: "another.txt", text: "another file", distance: 0.6 },
+    ]);
   });
 });

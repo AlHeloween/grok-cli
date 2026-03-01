@@ -25,6 +25,9 @@ Use this skill when a command may be:
   - `uv run cmd_runner.py ...`
 - Release bundle:
   - `cmd_runner.exe ...` (preferred; no `uv` required)
+- Via adm (integration; keeps a single progress-log cycle):
+  - `tools/adm.exe --cmd-runner <cmd_runner args...>`
+  - Example: `tools/adm.exe --cmd-runner start --terminal conhost -- <command ...>`
 
 ## Core workflow
 

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_6253ec053762a8ffe5c81e683411b0fb name="rag_handler_refs" md5="6253ec053762a8ffe5c81e683411b0fb" size="485">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>const getSettingsManagerFn = () =&gt; settingsManager;
+const ragHandler = useMemo(() =&gt; createRagHandler({
+  setChatHistory,
+  getSettingsManager: getSettingsManagerFn,
+  ragListOffset,
+  setRagListOffset,
+  setRagInputAction,
+  setRagInputPrompt,
+  clearInput,
+}), [setChatHistory, settingsManager, ragListOffset, setRagListOffset, setRagInputAction, setRagInputPrompt, clearInput]);</find_text>
+    <semantics>Replace ragHandler creation with refs and useEffect to avoid clearInput ordering issue</semantics>
+    <content_md5_6253ec053762a8ffe5c81e683411b0fb>
+      const getSettingsManagerFn = () =&gt; settingsManager;
+      const clearInputRef = useRef&lt;() =&gt; void&gt;(() =&gt; {});
+      const ragHandlerRef = useRef&lt;ReturnType&lt;typeof createRagHandler&gt; | null&gt;(null);
+      
+      useEffect(() =&gt; {
+        ragHandlerRef.current = createRagHandler({
+          setChatHistory,
+          getSettingsManager: getSettingsManagerFn,
+          ragListOffset,
+          setRagListOffset,
+          setRagInputAction,
+          setRagInputPrompt,
+          clearInput: () =&gt; clearInputRef.current(),
+        });
+      }, [setChatHistory, settingsManager, ragListOffset, setRagListOffset, setRagInputAction, setRagInputPrompt]);
+    </content_md5_6253ec053762a8ffe5c81e683411b0fb>
+  </update_md5_6253ec053762a8ffe5c81e683411b0fb>
+  <update_md5_05038e85ceb1ae4f499a89dcfe3bebb7 name="begin_rag_input_ref" md5="05038e85ceb1ae4f499a89dcfe3bebb7" size="110">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  const beginRagInput = (action: string, prompt: string): void =&gt; {
+  ragHandler.beginRagInput(action, prompt);
+};</find_text>
+    <semantics>Update beginRagInput to use ragHandlerRef</semantics>
+    <content_md5_05038e85ceb1ae4f499a89dcfe3bebb7>
+      const beginRagInput = (action: string, prompt: string): void =&gt; {
+        ragHandlerRef.current?.beginRagInput(action, prompt);
+      };
+    </content_md5_05038e85ceb1ae4f499a89dcfe3bebb7>
+  </update_md5_05038e85ceb1ae4f499a89dcfe3bebb7>
+  <update_md5_12ac2d96acfdc3c97457d2b4f4576b15 name="handle_rag_action_ref" md5="12ac2d96acfdc3c97457d2b4f4576b15" size="112">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>const handleRagAction = async (action: string): Promise&lt;void&gt; =&gt; {
+  await ragHandler.handleRagAction(action);
+};</find_text>
+    <semantics>Update handleRagAction to use ragHandlerRef</semantics>
+    <content_md5_12ac2d96acfdc3c97457d2b4f4576b15>
+      const handleRagAction = async (action: string): Promise&lt;void&gt; =&gt; {
+        await ragHandlerRef.current?.handleRagAction(action);
+      };
+    </content_md5_12ac2d96acfdc3c97457d2b4f4576b15>
+  </update_md5_12ac2d96acfdc3c97457d2b4f4576b15>
+  <update_md5_89fab135783f0cae158d882f7a91aca9 name="clearinput_ref_assignment" md5="89fab135783f0cae158d882f7a91aca9" size="66">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    disabled: isConfirmationActive,
+  });</find_text>
+    <semantics>Add clearInputRef assignment after destructuring clearInput</semantics>
+    <content_md5_89fab135783f0cae158d882f7a91aca9>
+        disabled: isConfirmationActive,
+      });
+      clearInputRef.current = clearInput;
+    </content_md5_89fab135783f0cae158d882f7a91aca9>
+  </update_md5_89fab135783f0cae158d882f7a91aca9>
+</updates>

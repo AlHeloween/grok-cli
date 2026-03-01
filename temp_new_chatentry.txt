@@ -1,0 +1,16 @@
+export interface ChatEntry {
+  type: "user" | "assistant" | "tool_result" | "tool_call";
+  content: string | UserContentPart[];
+  timestamp: Date;
+  toolCalls?: GrokToolCall[];
+  toolCall?: GrokToolCall;
+  toolResult?: { success: boolean; output?: string; error?: string };
+  isStreaming?: boolean;
+
+  // ADID State Vector tracking
+  svHash?: string;               // md5_sv_tag - semantic anchor hash
+  msgHash?: string;              // md5_msg_tag - message provenance hash
+  prevSVHashes?: string[];       // semantic_link(s) to previous SV hashes
+  semanticDominant?: string;     // dominant keyword/phrase
+  semanticVector?: [string, number][]; // [(keyword, weight)] sorted, normalized sum=1
+}

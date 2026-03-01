@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import { useInput } from "ink";
 import fs from "fs";
 import path from "path";
@@ -20,10 +20,7 @@ import { useTheme } from "../ui/context/theme-context.js";
 import { getSettingsManager } from "../utils/settings-manager.js";
 import { getConfigCategories, getConfigRegistry } from "../config/registry.js";
 import { maskSecret } from "../config/effective-config.js";
-import { VectorDb } from "../rag/vector-db.js";
-import { indexProject } from "../rag/indexer.js";
-import { exportVectorDbToMakerAiJson as _exportVectorDbToMakerAiJson, importMakerAiJsonToVectorDb as _importMakerAiJsonToVectorDb } from "../rag/makerai.js";
-import { createEmbeddingClientFromSettings } from "../rag/embedding-client.js";
+import { getRagMenuItems, createRagHandler } from "./rag-menu-handler.js";
 
 /** Pasted content longer than this is treated as text; clipboard image check is skipped. */
 const PASTE_TEXT_THRESHOLD = 5000;
@@ -107,7 +104,23 @@ export function useInputHandler({
 
   const settingsManager = getSettingsManager();
 
-  const getConfigValueLabel = (key: string): string => {
+const getSettingsManagerFn = () => settingsManager;
+const clearInputRef = useRef<() => void>(() => {});
+const ragHandlerRef = useRef<ReturnType<typeof createRagHandler> | null>(null);
+
+useEffect(() => {
+  ragHandlerRef.current = createRagHandler({
+    setChatHistory,
+    getSettingsManager: getSettingsManagerFn,
+    ragListOffset,
+    setRagListOffset,
+    setRagInputAction,
+    setRagInputPrompt,
+    clearInput: () => clearInputRef.current(),
+  });
+}, [setChatHistory, settingsManager, ragListOffset, setRagListOffset, setRagInputAction, setRagInputPrompt]);
+
+const getConfigValueLabel = (key: string): string => {
     const user = settingsManager.loadUserSettings();
     const project = settingsManager.loadProjectSettings();
     switch (key) {
@@ -157,135 +170,21 @@ export function useInputHandler({
   };
 
   const openRagMenu = (): void => {
-    const items: ConfigMenuItem[] = [
-      { id: "rag:list", label: "List chunks", hint: "Browse indexed chunks with pagination" },
-      { id: "rag:search", label: "Search chunks", hint: "Semantic search across indexed content" },
-      { id: "rag:delete", label: "Delete chunks", hint: "Remove chunks by path or pattern" },
-      { id: "rag:index", label: "Index project", hint: "Index current project into .grok/rag.db" },
-      { id: "rag:status", label: "Status", hint: "Show RAG status and statistics" },
-      { id: "rag:export", label: "Export MakerAI", hint: "Export .grok/rag.db to MakerAI JSON format" },
-      { id: "rag:import", label: "Import MakerAI", hint: "Import MakerAI JSON into .grok/rag.db" },
-      { id: "rag:gui", label: "Open GUI", hint: "Open MakerAI-based GUI to browse/edit RAG" },
-      { id: "action:ragHelp", label: "RAG help (CLI commands)" },
-      { id: "nav:back", label: "Back" },
-      { id: "action:close", label: "Close" },
-    ];
-    setConfigMenuTitle("RAG Management");
-    setConfigMenuItems(items);
-    setSelectedConfigIndex(0);
-    setConfigMenuStack([]);
-    setShowConfigMenu(true);
-  };
-
-  const beginRagInput = (action: string, prompt: string): void => {
-  setRagInputAction(action);
-  setRagInputPrompt(prompt);
-  clearInput();
+  const items: ConfigMenuItem[] = [
+    ...getRagMenuItems(),
+    { id: "nav:back", label: "Back" },
+    { id: "action:close", label: "Close" },
+  ];
+  setConfigMenuTitle("RAG Management");
+  setConfigMenuItems(items);
+  setSelectedConfigIndex(0);
+  setConfigMenuStack([]);
+  setShowConfigMenu(true);
 };
 
-const handleRagAction = async (action: string): Promise<void> => {
-  const push = (content: string) =>
-    setChatHistory((prev) => [...prev, { type: "assistant", content, timestamp: new Date() }]);
 
-  try {
-    switch (action) {
-      case "status": {
-        const manager = getSettingsManager();
-        const enabled = manager.isRagEnabled();
-        const topK = manager.getRagTopK();
-        const extractor = manager.getRagExtractor();
-        const python = manager.getRagPython();
-        const dbPath = manager.getRagDbPath();
-        let chunks = 0;
-        if (fs.existsSync(dbPath)) {
-          try {
-            const db = await VectorDb.open(dbPath);
-            chunks = db.getChunkCount();
-            db.close();
-          } catch {
-            // ignore
-          }
-        }
-        push(`RAG enabled: ${enabled ? "yes" : "no"}\nRAG topK: ${topK}\nRAG extractor: ${extractor}${extractor === "sqlite-rag" ? `\nRAG python: ${python || "(auto-detect)"}` : ""}\nRAG db: ${dbPath}\nIndexed chunks: ${chunks}`);
-        break;
-      }
-      case "index": {
-        push("Starting RAG indexing...");
-        const result = await indexProject({});
-        push(`✅ RAG index written to ${result.dbPath}\n✅ Files indexed: ${result.filesIndexed}\n✅ Chunks indexed: ${result.chunksIndexed}`);
-        break;
-      }
-      case "list": {
-        const manager = getSettingsManager();
-        const dbPath = manager.getRagDbPath();
-        if (!fs.existsSync(dbPath)) {
-          push("No RAG index found. Run 'Index project' first.");
-          break;
-        }
-        const db = await VectorDb.open(dbPath);
-        const rows = db.listChunkRows(10, ragListOffset);
-        db.close();
-        if (rows.length === 0) {
-          push(ragListOffset === 0 ? "No chunks found in index." : "No more chunks.");
-          setRagListOffset(0);
-        } else {
-          const list = rows.map((r, i) => `${ragListOffset + i + 1}. [${r.id}] ${r.path}: ${r.text.slice(0, 80)}...`).join('\n');
-          push(`Chunks ${ragListOffset + 1} to ${ragListOffset + rows.length}:\n${list}\n\nUse 'list' again for next page.`);
-          setRagListOffset(ragListOffset + rows.length);
-        }
-        break;
-      }
-      case "search":
-        beginRagInput("search", "Enter search query:");
-        break;
-      case "delete":
-        beginRagInput("delete", "Enter file path or pattern to delete (use '*' for all):");
-        break;
-      case "export": {
-        const manager = getSettingsManager();
-        const dbPath = manager.getRagDbPath();
-        if (!fs.existsSync(dbPath)) {
-          push("No RAG index found. Run 'Index project' first.");
-          break;
-        }
-        push("Exporting to MakerAI JSON...");
-        try {
-          const result = await _exportVectorDbToMakerAiJson({
-            dbPath,
-            outFile: "makerai-ragvector.json",
-            name: path.basename(process.cwd()),
-            description: "",
-            model: "",
-          });
-          push(`✅ Exported ${result.chunks} chunk(s) to ${result.outFile}`);
-        } catch (err) {
-          push(`Export failed: ${err instanceof Error ? err.message : String(err)}`);
-        }
-        break;
-      }
-      case "import":
-        beginRagInput("import", "Enter path to MakerAI JSON file:");
-        break;
-      case "gui": {
-        push("Opening RAG GUI...");
-        const manager = getSettingsManager();
-        const dbPath = manager.getRagDbPath();
-        const exePath = path.resolve(process.cwd(), "MakerAI", "_build", "win64", "bin", "RagManager.exe");
-        if (!fs.existsSync(exePath)) {
-          push(`❌ RagManager.exe not found at: ${exePath}`);
-          push("Build it with: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-makerai.ps1");
-          break;
-        }
-        // In interactive CLI, we cannot spawn GUI directly; guide user
-        push(`Run command: grok rag gui\nor manually: ${exePath} --json .grok/makerai-ragvector.json --db ${dbPath}`);
-        break;
-      }
-      default:
-        push(`Unknown RAG action: ${action}`);
-    }
-  } catch (err) {
-    push(`Error performing RAG action: ${err instanceof Error ? err.message : String(err)}`);
-  }
+const handleRagAction = async (action: string): Promise<void> => {
+  await ragHandlerRef.current?.handleRagAction(action);
 };
 
   const openConfigCategoryMenu = (category: string): void => {
@@ -947,101 +846,7 @@ if (ragInputAction && ragInputPrompt) {
   setRagInputAction(null);
   setRagInputPrompt(null);
   clearInput();
-
-  const push = (content: string) =>
-    setChatHistory((prev) => [...prev, { type: "assistant", content, timestamp: new Date() }]);
-
-  try {
-    switch (action) {
-      case "search": {
-        if (!input) {
-          push("Search cancelled.");
-          break;
-        }
-        push(`Searching for: "${input}"...`);
-        const manager = getSettingsManager();
-        const dbPath = manager.getRagDbPath();
-        if (!fs.existsSync(dbPath)) {
-          push("No RAG index found. Run 'Index project' first.");
-          break;
-        }
-        const embeddingClient = createEmbeddingClientFromSettings();
-        const vector = await embeddingClient.embed(input);
-        const db = await VectorDb.open(dbPath);
-        const results = db.queryTopK(vector, manager.getRagTopK());
-        db.close();
-        if (results.length === 0) {
-          push("No results found.");
-        } else {
-          const list = results.map((r, i) => `${i + 1}. [${r.id}] ${r.path} (dist: ${r.distance?.toFixed(4)})\n   ${r.text.slice(0, 120)}...`).join('\n\n');
-          push(`Top ${results.length} results:\n${list}`);
-        }
-        break;
-      }
-      case "delete": {
-        if (!input) {
-          push("Delete cancelled.");
-          break;
-        }
-        if (input === "*") {
-          push("Clearing all chunks...");
-          const manager = getSettingsManager();
-          const dbPath = manager.getRagDbPath();
-          if (!fs.existsSync(dbPath)) {
-            push("No RAG index found.");
-            break;
-          }
-          const db = await VectorDb.open(dbPath);
-          db.clearAllChunks();
-          db.close();
-          push("✅ All chunks deleted.");
-        } else {
-          push(`Deleting chunks matching: ${input}...`);
-          const manager = getSettingsManager();
-          const dbPath = manager.getRagDbPath();
-          if (!fs.existsSync(dbPath)) {
-            push("No RAG index found.");
-            break;
-          }
-          const db = await VectorDb.open(dbPath);
-          // Simple path matching (exact match for now)
-          db.deleteChunksByPath(input);
-          db.close();
-          push(`✅ Deleted chunks with path: ${input}`);
-        }
-        break;
-      }
-      case "import": {
-        if (!input) {
-          push("Import cancelled.");
-          break;
-        }
-        const filePath = path.resolve(process.cwd(), input);
-        if (!fs.existsSync(filePath)) {
-          push(`File not found: ${filePath}`);
-          break;
-        }
-        push(`Importing ${filePath}...`);
-        const manager = getSettingsManager();
-        const dbPath = manager.getRagDbPath();
-        try {
-          const result = await _importMakerAiJsonToVectorDb({
-            inFile: filePath,
-            dbPath,
-            replace: false,
-          });
-          push(`✅ Imported ${result.inserted} chunk(s) into ${result.dbPath}`);
-        } catch (err) {
-          push(`Import failed: ${err instanceof Error ? err.message : String(err)}`);
-        }
-        break;
-      }
-      default:
-        push(`Unknown RAG input action: ${action}`);
-    }
-  } catch (err) {
-    push(`Error: ${err instanceof Error ? err.message : String(err)}`);
-  }
+  await ragHandlerRef.current?.processRagInput(action, input);
   return;
 }
 
@@ -1085,8 +890,9 @@ if (ragInputAction && ragInputPrompt) {
         },
       ]);
     },
-    disabled: isConfirmationActive,
-  });
+      disabled: isConfirmationActive,
+});
+clearInputRef.current = clearInput;
 
   // When debugging input, log state transitions so we can prove whether typed keys mutate input.
   useEffect(() => {
@@ -1858,12 +1664,12 @@ Respond with ONLY the commit message, no additional text.`;
 // SDID_ROLLBACK {
 //   "target_file": "D:\\zPython\\grok-cli\\src/hooks/use-input-handler.ts"
 //   "update_script": "adm.exe"
-//   "backup_path": "D:\\zPython\\grok-cli\\src/hooks/use-input-handler.ts.backup_20260228T205241_733521"
-//   "created_at": "2026-02-28T12:52:41.762931+00:00"
-//   "backup_hash": "0ebef76c313b595914610cfd1146ee95"
-//   "new_hash": "9addab406de682f76ce1c10dbafb5140"
-//   "goal_id": "add_ragInputPrompt_to_return"
-//   "semantics": ""
-//   "update_attrs": {"relative_path": "src/hooks/use-input-handler.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "configInputPrompt,\n    configInputMask,", "replace_present": true}
+//   "backup_path": "D:\\zPython\\grok-cli\\src/hooks/use-input-handler.ts.backup_20260228T235024_406203"
+//   "created_at": "2026-02-28T15:50:24.435168+00:00"
+//   "backup_hash": "11457cc96019b41add523b4dfc27862c"
+//   "new_hash": "6f052f260e604340e27c572123271f89"
+//   "goal_id": "clearinput_ref_assignment"
+//   "semantics": "Add clearInputRef assignment after destructuring clearInput"
+//   "update_attrs": {"relative_path": "src/hooks/use-input-handler.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "disabled: isConfirmationActive,\n  });", "replace_present": true}
 //   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/hooks/use-input-handler.ts\""
 // }

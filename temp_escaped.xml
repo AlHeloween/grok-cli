@@ -1,0 +1,127 @@
+import type { ChatEntry } from &quot;./grok-agent.js&quot;;
+import type { GrokMessage, UserContent, GrokToolCall } from &quot;../grok/client.js&quot;;
+import type { ToolResult } from &quot;../types/index.js&quot;;
+
+export class ChatHistoryManager {
+  private chatHistory: ChatEntry[] = [];
+  private messages: GrokMessage[] = [];
+  private maxMessages: number;
+  private maxChatEntries: number;
+
+  constructor(maxMessages = 50, maxChatEntries = 100) {
+    this.maxMessages = maxMessages;
+    this.maxChatEntries = maxChatEntries;
+  }
+
+  // Getters
+  getChatHistory(): ChatEntry[] {
+    return [...this.chatHistory];
+  }
+
+  getMessages(): GrokMessage[] {
+    return [...this.messages];
+  }
+
+  // Add entries
+  addChatEntry(entry: ChatEntry): void {
+    this.chatHistory.push(entry);
+    this.trimIfNeeded();
+  }
+
+  addMessage(message: GrokMessage): void {
+    this.messages.push(message);
+    this.trimIfNeeded();
+  }
+
+  // Trim both arrays to respect limits
+  trimIfNeeded(): void {
+    if (this.messages.length &gt; this.maxMessages) {
+      const system = this.messages[0];
+      const rest = this.messages.slice(-(this.maxMessages - 1));
+      this.messages = system ? [system, ...rest] : rest;
+    }
+    if (this.chatHistory.length &gt; this.maxChatEntries) {
+      this.chatHistory = this.chatHistory.slice(-this.maxChatEntries);
+    }
+  }
+
+  // Convenience methods for common entry types
+  addUserEntry(content: UserContent): ChatEntry {
+    const entry: ChatEntry = {
+      type: &quot;user&quot;,
+      content,
+      timestamp: new Date(),
+    };
+    this.addChatEntry(entry);
+    this.addMessage({
+      role: &quot;user&quot;,
+      content,
+    });
+    return entry;
+  }
+
+  addAssistantEntry(content: string, toolCalls?: GrokToolCall[]): ChatEntry {
+    const entry: ChatEntry = {
+      type: &quot;assistant&quot;,
+      content,
+      timestamp: new Date(),
+      toolCalls,
+    };
+    this.addChatEntry(entry);
+    this.addMessage({
+      role: &quot;assistant&quot;,
+      content,
+      tool_calls: toolCalls,
+    });
+    return entry;
+  }
+
+  addToolCallEntry(toolCall: GrokToolCall): ChatEntry {
+    const entry: ChatEntry = {
+      type: &quot;tool_call&quot;,
+      content: &quot;Executing...&quot;,
+      timestamp: new Date(),
+      toolCall,
+    };
+    this.addChatEntry(entry);
+    // No corresponding message entry
+    return entry;
+  }
+
+  addToolResultEntry(toolCallId: string, result: ToolResult): ChatEntry {
+    const entry: ChatEntry = {
+      type: &quot;tool_result&quot;,
+      content: result.success
+        ? result.output || &quot;Success&quot;
+        : result.error || &quot;Error occurred&quot;,
+      timestamp: new Date(),
+      toolResult: result,
+    };
+    this.addChatEntry(entry);
+    this.addMessage({
+      role: &quot;tool&quot;,
+      content: result.success
+        ? result.output || &quot;Success&quot;
+        : result.error || &quot;Error&quot;,
+      tool_call_id: toolCallId,
+    });
+    return entry;
+  }
+
+  addErrorEntry(content: string): ChatEntry {
+    const entry: ChatEntry = {
+      type: &quot;assistant&quot;,
+      content,
+      timestamp: new Date(),
+    };
+    this.addChatEntry(entry);
+    // No corresponding message entry (error not sent to API)
+    return entry;
+  }
+
+  // Clear all history
+  clear(): void {
+    this.chatHistory = [];
+    this.messages = [];
+  }
+}

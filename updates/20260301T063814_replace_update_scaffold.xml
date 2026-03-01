@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_8ebd79440d794aff21a23d133d6e2f3e name="text_anchor_replace" md5="8ebd79440d794aff21a23d133d6e2f3e" size="2739">
+    <file>src/rag/retriever.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>export async function retrieveTopK(
+  queryText: string,
+  options: RagRetrieveOptions = {}
+): Promise&lt;RagChunkRow[]&gt; {
+  const cwd = options.cwd || process.cwd();
+  const settings = getSettingsManager();
+  const dbPath = settings.getRagDbPath(cwd);
+
+  if (!fs.existsSync(dbPath)) return [];
+
+  const embeddingClient = createEmbeddingClientFromSettings();
+  const queryVector = await embeddingClient.embed(queryText);
+  if (!queryVector.length) return [];
+
+  const db = await VectorDb.open(dbPath);
+  try {
+    const k = options.topK ?? settings.getRagTopK(cwd);
+    const useKMedoids = options.useKMedoids ?? settings.getRagUseKMedoids(cwd);
+
+    if (!useKMedoids) {
+      return db.queryTopK(queryVector, k);
+    }
+
+    const nRaw = options.candidateCount ?? settings.getRagCandidateCount(cwd);
+    const n = Math.max(k, Math.floor(nRaw));
+
+    const candidates = db.queryTopN(queryVector, n);
+    if (candidates.length &lt;= k) return candidates;
+
+    const ids = candidates.map((c) =&gt; Number(c.id)).filter((x) =&gt; Number.isFinite(x) &amp;&amp; x &gt; 0);
+    const idToVec = db.getChunkVectorsByIds(ids);
+    const vectors: Float32Array[] = [];
+    const rows: RagChunkRow[] = [];
+    for (const c of candidates) {
+      const id = Number(c.id);
+      const vec = idToVec.get(id);
+      if (!vec) continue;
+      vectors.push(vec);
+      rows.push(c);
+    }
+    if (vectors.length &lt;= k) return rows;
+
+    const metric = db.getDistanceMetric();
+    const dist: KMedoidsDistance = metric === "L2" || metric === "SQUARED_L2" ? "l2" : "cosine";
+
+    const medoidIdx = selectKMedoids(vectors, k, dist);
+    const selected = medoidIdx.map((i) =&gt; rows[i]).filter(Boolean);
+    // Stable prompt order: prefer closer-to-query first when distance is available.
+    selected.sort((a, b) =&gt; (a.distance ?? 0) - (b.distance ?? 0));
+    return selected.slice(0, k);
+  } finally {
+    db.close();
+  }
+}</find_text>
+    <semantics>Replace retrieveTopK with hybrid chat/file retrieval</semantics>
+    <content_md5_8ebd79440d794aff21a23d133d6e2f3e>
+      export async function retrieveTopK(
+        queryText: string,
+        options: RagRetrieveOptions = {}
+      ): Promise&lt;RagChunkRow[]&gt; {
+        const cwd = options.cwd || process.cwd();
+        const settings = getSettingsManager();
+        const dbPath = settings.getRagDbPath(cwd);
+      
+        if (!fs.existsSync(dbPath)) return [];
+      
+        const embeddingClient = createEmbeddingClientFromSettings();
+        const queryVector = await embeddingClient.embed(queryText);
+        if (!queryVector.length) return [];
+      
+        const db = await VectorDb.open(dbPath);
+        try {
+          const k = options.topK ?? settings.getRagTopK(cwd);
+          const useKMedoids = options.useKMedoids ?? settings.getRagUseKMedoids(cwd);
+          const searchChatFirst = options.searchChatFirst ?? true;
+          const chatPrefix = options.chatPrefix ?? "chat://";
+      
+          // Helper to retrieve candidates with optional prefix
+          const retrieveCandidates = async (prefix?: string, limit: number = k): Promise&lt;RagChunkRow[]&gt; =&gt; {
+            if (prefix) {
+              return db.queryTopKWithPrefix(queryVector, limit, prefix);
+            } else {
+              return db.queryTopN(queryVector, limit);
+            }
+          };
+      
+          let candidates: RagChunkRow[] = [];
+          if (chatPrefix &amp;&amp; searchChatFirst) {
+            candidates = await retrieveCandidates(chatPrefix, useKMedoids ? (options.candidateCount ?? settings.getRagCandidateCount(cwd)) : k);
+          }
+      
+          // If we still need more candidates (e.g., not enough chat results, or k-medoids wants more)
+          if (useKMedoids) {
+            const nRaw = options.candidateCount ?? settings.getRagCandidateCount(cwd);
+            const n = Math.max(k, Math.floor(nRaw));
+            // Ensure we have enough candidates from both sources
+            const fileCandidates = await retrieveCandidates(undefined, n - candidates.length);
+            candidates = [...candidates, ...fileCandidates];
+          } else {
+            // No k-medoids: just fill remaining slots with file results if chat results insufficient
+            if (candidates.length &lt; k) {
+              const fileCandidates = await retrieveCandidates(undefined, k - candidates.length);
+              candidates = [...candidates, ...fileCandidates];
+            }
+          }
+      
+          // Deduplicate by id (optional)
+          const seen = new Set&lt;number&gt;();
+          const uniqueCandidates = candidates.filter(c =&gt; {
+            const id = Number(c.id);
+            if (!id || seen.has(id)) return false;
+            seen.add(id);
+            return true;
+          });
+      
+          if (!useKMedoids || uniqueCandidates.length &lt;= k) {
+            // Return top k by distance (already sorted by distance from query)
+            return uniqueCandidates.slice(0, k);
+          }
+      
+          // Apply k-medoids clustering
+          const ids = uniqueCandidates.map((c) =&gt; Number(c.id)).filter((x) =&gt; Number.isFinite(x) &amp;&amp; x &gt; 0);
+          const idToVec = db.getChunkVectorsByIds(ids);
+          const vectors: Float32Array[] = [];
+          const rows: RagChunkRow[] = [];
+          for (const c of uniqueCandidates) {
+            const id = Number(c.id);
+            const vec = idToVec.get(id);
+            if (!vec) continue;
+            vectors.push(vec);
+            rows.push(c);
+          }
+          if (vectors.length &lt;= k) return rows;
+      
+          const metric = db.getDistanceMetric();
+          const dist: KMedoidsDistance = metric === "L2" || metric === "SQUARED_L2" ? "l2" : "cosine";
+      
+          const medoidIdx = selectKMedoids(vectors, k, dist);
+          const selected = medoidIdx.map((i) =&gt; rows[i]).filter(Boolean);
+          // Stable prompt order: prefer closer-to-query first when distance is available.
+          selected.sort((a, b) =&gt; (a.distance ?? 0) - (b.distance ?? 0));
+          return selected.slice(0, k);
+        } finally {
+          db.close();
+        }
+      }
+    </content_md5_8ebd79440d794aff21a23d133d6e2f3e>
+  </update_md5_8ebd79440d794aff21a23d133d6e2f3e>
+</updates>

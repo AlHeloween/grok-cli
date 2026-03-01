@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <updates>
+        <!--
+          Template notes (Exact):
+            - This file is a template; keep only the update blocks you need and delete the rest.
+            - After editing payloads/metadata, run: tools/adm.exe --fix-xml updates/<file>.xml
+            - Template selection: tools/adm.exe --template refactor-replace-function
+
+          Wrapper commands (Exact; not descriptor modes):
+            - Rust-backed regex replacement: use tools/adm.exe --rg <pattern> <replacement> <file>
+            - Sed transformation: use tools/adm.exe --sed <script> <file>
+        -->
+        <metadata>
+          <created_at>2026-02-28T14:56:17.656641+00:00</created_at>
+          <goal>Template one 'refactor-replace-function' update block.</goal>
+          <owner>REPLACE_WITH_OWNER</owner>
+          <created_with>
+            <git_head>935181b88346dbc2170344bddc70a6e021833d5d</git_head>
+            <uv_lock_md5>missing</uv_lock_md5>
+            <python>3.13.12</python>
+            <semgrep>unknown</semgrep>
+            <tree_sitter>absent</tree_sitter>
+            <tree_sitter_language_pack>absent</tree_sitter_language_pack>
+          </created_with>
+          <scripts>
+            <script name="20260228T145617_cli_update.py">Document the operational steps here (apply/verify/rollback).</script>
+          </scripts>
+          <logging>
+            <progress_log path="_progress_log.md" mode="append" />
+            <manifest enabled="true" />
+          </logging>
+          <verification>
+            <verify_all root="." reports_path="logs" />
+            <diagram generator="docs/documentation_uml_generator.py" output="docs/uml_diagram.md" />
+          </verification>
+          <hints>
+            <!-- Legacy marker names referenced by some tooling/tests: -->
+            <name>text_anchor_example</name>
+            <name>text_insert_example</name>
+            <name>binary_patch_example</name>
+            <name>rust_regex_example</name>
+            <name>sed_script_example</name>
+            <name>structured_rule_example</name>
+          </hints>
+        </metadata>
+
+        <update_md5_ee723c047b5a1b65e6fff41c1cdd8015 name="core_refactor_main" md5="ee723c047b5a1b65e6fff41c1cdd8015" size="69">
+  <file>tetris.py</file>
+  <update_type>refactor</update_type>
+  <mode>replace</mode>
+  <refactor_action>replace_function</refactor_action>
+  <refactor_target_name>main</refactor_target_name>
+  <content_md5_ee723c047b5a1b65e6fff41c1cdd8015>
+    def main():
+        """Initializes and runs the Tetris game."""
+        game = Game()
+        game.run()
+  </content_md5_ee723c047b5a1b65e6fff41c1cdd8015>
+</update_md5_ee723c047b5a1b65e6fff41c1cdd8015>
+      </updates>

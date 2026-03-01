@@ -4,6 +4,8 @@ Quick start (Windows PowerShell)
   1) cd to the repo root (the folder that contains cmd_runner.py and cmd_runner_pkg/)
   2) uv run cmd_runner.py start -- cmd.exe /c "echo HELLO"
      (opens a new window; interactive session is hosted there)
+  3) Alternative (via adm integration; keeps a single progress-log cycle):
+     tools/adm.exe --cmd-runner start -- cmd.exe /c "echo HELLO"
 
 Commands
   - start : open a separate terminal window and run an interactive session there

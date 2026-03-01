@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <updates>
+        <!--
+          Template notes (Exact):
+            - This file is a template; keep only the update blocks you need and delete the rest.
+            - After editing payloads/metadata, run: tools/adm.exe --fix-xml updates/<file>.xml
+            - Template selection: tools/adm.exe --template replace
+
+          Wrapper commands (Exact; not descriptor modes):
+            - Rust-backed regex replacement: use tools/adm.exe --rg <pattern> <replacement> <file>
+            - Sed transformation: use tools/adm.exe --sed <script> <file>
+        -->
+        <metadata>
+          <created_at>2026-02-28T16:25:45.237602+00:00</created_at>
+          <goal>Update hooks table in APPLICATION-SCHEME.md to include rag-menu-handler.ts</goal>
+          <owner>opencode</owner>
+          <created_with>
+            <git_head>935181b88346dbc2170344bddc70a6e021833d5d</git_head>
+            <uv_lock_md5>missing</uv_lock_md5>
+            <python>3.13.12</python>
+            <semgrep>unknown</semgrep>
+            <tree_sitter>absent</tree_sitter>
+            <tree_sitter_language_pack>absent</tree_sitter_language_pack>
+          </created_with>
+          <scripts>
+            <script name="20260228T162545_cli_update.py">Document the operational steps here (apply/verify/rollback).</script>
+          </scripts>
+          <logging>
+            <progress_log path="_progress_log.md" mode="append" />
+            <manifest enabled="true" />
+          </logging>
+          <verification>
+            <verify_all root="." reports_path="logs" />
+            <diagram generator="docs/documentation_uml_generator.py" output="docs/uml_diagram.md" />
+          </verification>
+          <hints>
+            <!-- Legacy marker names referenced by some tooling/tests: -->
+            <name>text_anchor_example</name>
+            <name>text_insert_example</name>
+            <name>binary_patch_example</name>
+            <name>rust_regex_example</name>
+            <name>sed_script_example</name>
+            <name>structured_rule_example</name>
+          </hints>
+        </metadata>
+
+        <update_md5_739dbd8741f3134a849d7c005355a631 name="update_hooks_table" md5="739dbd8741f3134a849d7c005355a631" size="1146">
+  <file>docs/APPLICATION-SCHEME.md</file>
+  <update_type>text</update_type>
+  <mode>replace</mode>
+  <encoding>utf-8</encoding>
+  <find_text>### 2.3 Hooks
+
+| File | Role |
+|------|------|
+| **`src/hooks/use-input-handler.ts`** | Central input/orchestration: builds `handleSpecialKey` (paste/image, escape, `/theme`, `/models`, `/config`, command suggestions) and `handleDirectCommand` (slash commands, direct bash, `/commit-and-push`); uses `useEnhancedInput` and `useInput`; runs `agent.processUserMessageStream()` and pushes chunks into `setChatHistory`. Exposes input, cursor, suggestions, model/theme/config menu state, and `availableModels` / `availableThemes`. Applies config changes via `SettingsManager` and `agent.reconfigureConnection()` / `agent.refreshMorphEditor()**. |
+| **`src/hooks/use-enhanced-input.ts`** | Low-level input: history (up/down), cursor, paste queue (one-per-tick drain), special keys. Exposes `input`, `setInput`, `cursorPosition`, `setCursorPosition`, `insertAtCursor`, `handleInput`, etc. |
+| **`src/hooks/use-input-history.ts`** | Tracks submitted lines for history navigation (up/down arrows). |</find_text>
+  <semantics>Add rag-menu-handler.ts to hooks table after refactoring</semantics>
+  <content_md5_739dbd8741f3134a849d7c005355a631>
+### 2.3 Hooks
+
+| File | Role |
+|------|------|
+| **`src/hooks/use-input-handler.ts`** | Central input/orchestration: builds `handleSpecialKey` (paste/image, escape, `/theme`, `/models`, `/config`, command suggestions) and `handleDirectCommand` (slash commands, direct bash, `/commit-and-push`); uses `useEnhancedInput` and `useInput`; runs `agent.processUserMessageStream()` and pushes chunks into `setChatHistory`. Exposes input, cursor, suggestions, model/theme/config menu state, and `availableModels** / `availableThemes`. Applies config changes via `SettingsManager` and `agent.reconfigureConnection()` / `agent.refreshMorphEditor()**. |
+| **`src/hooks/use-enhanced-input.ts`** | Low-level input: history (up/down), cursor, paste queue (one-per-tick drain), special keys. Exposes `input`, `setInput`, `cursorPosition`, `setCursorPosition`, `insertAtCursor`, `handleInput`, etc. |
+| **`src/hooks/use-input-history.ts`** | Tracks submitted lines for history navigation (up/down arrows). |
+| **`src/hooks/rag-menu-handler.ts`** | RAG menu logic extracted from `use-input-handler.ts`: provides `getRagMenuItems()` and `createRagHandler()` factory for RAG operations (list, search, delete, index, status, export, import, gui). Improves testability and separation of concerns. |
+  </content_md5_739dbd8741f3134a849d7c005355a631>
+</update_md5_739dbd8741f3134a849d7c005355a631>
+      </updates>

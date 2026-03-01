@@ -29,6 +29,7 @@ import { loadCustomInstructions } from "../utils/custom-instructions.js";
 import { getSettingsManager } from "../utils/settings-manager.js";
 import { getSystemPrompt } from "./system-prompt.js";
 import { executeTool as executeToolCall, type ToolExecutorContext } from "./tool-executor.js";
+import { ChatHistoryManager } from "./chat-history-manager.js";
 import { formatRagChunksForPrompt, retrieveTopK } from "../rag/retriever.js";
 
 export interface ChatEntry {
@@ -39,6 +40,12 @@ export interface ChatEntry {
   toolCall?: GrokToolCall;
   toolResult?: { success: boolean; output?: string; error?: string };
   isStreaming?: boolean;
+  // ADID State Vector tracking fields
+  svHash?: string;               // md5_sv_tag - semantic anchor hash
+  msgHash?: string;              // md5_msg_tag - provenance hash of the message content
+  prevSVHashes?: string[];       // previous semantic anchor hashes (semantic_link)
+  semanticDominant?: string;     // dominant keyword(s)
+  semanticVector?: Array<{keyword: string; weight: number}>; // keyword-weight pairs
 }
 
 export interface StreamingChunk {
@@ -53,34 +60,26 @@ export interface StreamingChunk {
 export class GrokAgent extends EventEmitter {
   private grokClient: GrokClient;
   private textEditor: TextEditorTool;
-  private morphEditor: MorphEditorTool | null;
-  private bash: BashTool;
-  private todoTool: TodoTool;
-  private confirmationTool: ConfirmationTool;
-  private search: SearchTool;
-  private chatHistory: ChatEntry[] = [];
-  private messages: GrokMessage[] = [];
-  private baseSystemPrompt: string;
-  private tokenCounter: TokenCounter;
-  private abortController: AbortController | null = null;
-  private mcpInitialized: boolean = false;
-  private maxToolRounds: number;
+private morphEditor: MorphEditorTool | null;
+private bash: BashTool;
+private todoTool: TodoTool;
+private confirmationTool: ConfirmationTool;
+private search: SearchTool;
+private chatHistoryManager: ChatHistoryManager;
+private baseSystemPrompt: string;
+private tokenCounter: TokenCounter;
+private abortController: AbortController | null = null;
+private mcpInitialized: boolean = false;
+private maxToolRounds: number;
 
-  /** Max conversation messages sent to the API (system + recent). Older messages are dropped to bound context size. */
-  private static readonly MAX_MESSAGES = 50;
-  /** Max chat history entries kept in memory for UI. */
-  private static readonly MAX_CHAT_ENTRIES = 100;
+/** Max conversation messages sent to the API (system + recent). Older messages are dropped to bound context size. */
+private static readonly MAX_MESSAGES = 50;
+/** Max chat history entries kept in memory for UI. */
+private static readonly MAX_CHAT_ENTRIES = 100;
 
-  private trimHistoryIfNeeded(): void {
-    if (this.messages.length > GrokAgent.MAX_MESSAGES) {
-      const system = this.messages[0];
-      const rest = this.messages.slice(-(GrokAgent.MAX_MESSAGES - 1));
-      this.messages = system ? [system, ...rest] : rest;
-    }
-    if (this.chatHistory.length > GrokAgent.MAX_CHAT_ENTRIES) {
-      this.chatHistory = this.chatHistory.slice(-GrokAgent.MAX_CHAT_ENTRIES);
-    }
-  }
+private trimHistoryIfNeeded(): void {
+  this.chatHistoryManager.trimIfNeeded();
+}
 
   constructor(
     apiKey: string,
@@ -103,6 +102,7 @@ export class GrokAgent extends EventEmitter {
     this.todoTool = new TodoTool();
     this.confirmationTool = new ConfirmationTool();
     this.search = new SearchTool();
+    this.chatHistoryManager = new ChatHistoryManager();
     this.tokenCounter = createTokenCounter(modelToUse);
 
     // Initialize MCP servers if configured
@@ -114,7 +114,7 @@ export class GrokAgent extends EventEmitter {
       hasMorphEditor: !!this.morphEditor,
       customInstructions: customInstructions ?? undefined,
     });
-    this.messages.push({ role: "system", content: this.baseSystemPrompt });
+    this.chatHistoryManager.addMessage({ role: "system", content: this.baseSystemPrompt });
   }
 
   /**
@@ -146,15 +146,15 @@ export class GrokAgent extends EventEmitter {
       hasMorphEditor: !!this.morphEditor,
       customInstructions: customInstructions ?? undefined,
     });
-    if (this.messages[0]?.role === "system") {
-      this.messages[0].content = this.baseSystemPrompt;
+    if (this.chatHistoryManager.getMessages()[0]?.role === "system") {
+      this.chatHistoryManager.getMessages()[0].content = this.baseSystemPrompt;
     }
   }
 
   private async maybeInjectRagContext(userMessageText: string): Promise<void> {
     // Always reset system prompt each turn to avoid accumulating context.
-    if (this.messages[0]?.role === "system") {
-      this.messages[0].content = this.baseSystemPrompt;
+    if (this.chatHistoryManager.getMessages()[0]?.role === "system") {
+      this.chatHistoryManager.getMessages()[0].content = this.baseSystemPrompt;
     }
 
     const settings = getSettingsManager();
@@ -166,22 +166,24 @@ export class GrokAgent extends EventEmitter {
         topK: settings.getRagTopK(),
         useKMedoids: settings.getRagUseKMedoids(),
         candidateCount: settings.getRagCandidateCount(),
+        searchChatFirst: settings.getRagSearchChatFirst(),
+        chatPrefix: settings.getRagChatPrefix(),
       });
       if (!rows.length) return;
 
       const formatted = formatRagChunksForPrompt(rows);
       if (!formatted) return;
 
-      if (this.messages[0]?.role === "system") {
-        this.messages[0].content =
+      if (this.chatHistoryManager.getMessages()[0]?.role === "system") {
+        this.chatHistoryManager.getMessages()[0].content =
           this.baseSystemPrompt +
           "\n\nRELEVANT PROJECT CONTEXT (use when answering; prefer citing file paths):\n" +
           formatted;
       }
     } catch {
       // Best-effort only: if RAG fails, proceed without it.
-      if (this.messages[0]?.role === "system") {
-        this.messages[0].content = this.baseSystemPrompt;
+      if (this.chatHistoryManager.getMessages()[0]?.role === "system") {
+        this.chatHistoryManager.getMessages()[0].content = this.baseSystemPrompt;
       }
     }
   }
@@ -312,8 +314,8 @@ export class GrokAgent extends EventEmitter {
       content: message,
       timestamp: new Date(),
     };
-    this.chatHistory.push(userEntry);
-    this.messages.push({ role: "user", content: message });
+    this.chatHistoryManager.addChatEntry(userEntry);
+    this.chatHistoryManager.addMessage({ role: "user", content: message });
     this.trimHistoryIfNeeded();
 
     const newEntries: ChatEntry[] = [userEntry];
@@ -328,12 +330,12 @@ export class GrokAgent extends EventEmitter {
         this.isGrok41FastModel() || this.shouldUseAgentToolsForMessage(messageText);
       let currentResponse = useAgentTools
         ? await this.grokClient.chatWithAgentTools(
-            this.messages,
+            this.chatHistoryManager.getMessages(),
             tools,
             undefined,
             includeWebSearch
           )
-        : await this.grokClient.chat(this.messages, tools, undefined);
+        : await this.grokClient.chat(this.chatHistoryManager.getMessages(), tools, undefined);
 
       // Agent loop - continue until no more tool calls or max rounds reached
       while (toolRounds < maxToolRounds) {
@@ -363,11 +365,11 @@ export class GrokAgent extends EventEmitter {
             timestamp: new Date(),
             toolCalls: assistantMessage.tool_calls,
           };
-          this.chatHistory.push(assistantEntry);
+          this.chatHistoryManager.addChatEntry(assistantEntry);
           newEntries.push(assistantEntry);
 
           // Add assistant message to conversation
-          this.messages.push({
+          this.chatHistoryManager.addMessage({
             role: "assistant",
             content: assistantMessage.content || "",
             tool_calls: assistantMessage.tool_calls,
@@ -381,7 +383,7 @@ export class GrokAgent extends EventEmitter {
               timestamp: new Date(),
               toolCall: toolCall,
             };
-            this.chatHistory.push(toolCallEntry);
+            this.chatHistoryManager.addChatEntry(toolCallEntry);
             newEntries.push(toolCallEntry);
           });
 
@@ -392,21 +394,21 @@ export class GrokAgent extends EventEmitter {
             const result = await this.executeTool(toolCall);
 
             // Update the existing tool_call entry with the result
-            const entryIndex = this.chatHistory.findIndex(
+            const entryIndex = this.chatHistoryManager.findChatEntryIndex(
               (entry) =>
                 entry.type === "tool_call" && entry.toolCall?.id === toolCall.id
             );
 
             if (entryIndex !== -1) {
               const updatedEntry: ChatEntry = {
-                ...this.chatHistory[entryIndex],
+                ...this.chatHistoryManager.getChatHistory()[entryIndex],
                 type: "tool_result",
                 content: result.success
                   ? result.output || "Success"
                   : result.error || "Error occurred",
                 toolResult: result,
               };
-              this.chatHistory[entryIndex] = updatedEntry;
+              this.chatHistoryManager.updateChatEntry(entryIndex, updatedEntry);
 
               // Also update in newEntries for return value
               const newEntryIndex = newEntries.findIndex(
@@ -420,7 +422,7 @@ export class GrokAgent extends EventEmitter {
             }
 
             // Add tool result to messages with proper format (needed for AI context)
-            this.messages.push({
+            this.chatHistoryManager.addMessage({
               role: "tool",
               content: result.success
                 ? result.output || "Success"
@@ -450,7 +452,7 @@ export class GrokAgent extends EventEmitter {
             );
           } else {
             currentResponse = await this.grokClient.chat(
-              this.messages,
+              this.chatHistoryManager.getMessages(),
               tools,
               undefined
             );
@@ -464,8 +466,8 @@ export class GrokAgent extends EventEmitter {
               "I understand, but I don't have a specific response.",
             timestamp: new Date(),
           };
-          this.chatHistory.push(finalEntry);
-          this.messages.push({
+          this.chatHistoryManager.addChatEntry(finalEntry);
+          this.chatHistoryManager.addMessage({
             role: "assistant",
             content: assistantMessage.content || "",
           });
@@ -481,7 +483,7 @@ export class GrokAgent extends EventEmitter {
             "Maximum tool execution rounds reached. Stopping to prevent infinite loops.",
           timestamp: new Date(),
         };
-        this.chatHistory.push(warningEntry);
+        this.chatHistoryManager.addChatEntry(warningEntry);
         newEntries.push(warningEntry);
       }
 
@@ -492,7 +494,7 @@ export class GrokAgent extends EventEmitter {
         content: `Sorry, I encountered an error: ${error instanceof Error ? error.message : String(error)}`,
         timestamp: new Date(),
       };
-      this.chatHistory.push(errorEntry);
+      this.chatHistoryManager.addChatEntry(errorEntry);
       return [userEntry, errorEntry];
     }
   }
@@ -539,7 +541,7 @@ export class GrokAgent extends EventEmitter {
 
     const tools = await getAllGrokTools();
     let currentResponse = await this.grokClient.chatWithAgentTools(
-      this.messages,
+      this.chatHistoryManager.getMessages(),
       tools,
       undefined,
       includeWebSearch,
@@ -561,13 +563,13 @@ export class GrokAgent extends EventEmitter {
       const toolCalls = this.getAgentToolCalls(currentResponse);
 
       // Keep local history aligned with regular chat.completions flow.
-      this.messages.push({
+      this.chatHistoryManager.addMessage({
         role: "assistant",
         content: assistantContent || "",
         tool_calls: toolCalls.length > 0 ? toolCalls : undefined,
       } as GrokMessage);
 
-      this.chatHistory.push({
+      this.chatHistoryManager.addChatEntry({
         type: "assistant",
         content: assistantContent || "Using tools to help you...",
         timestamp: new Date(),
@@ -607,13 +609,13 @@ export class GrokAgent extends EventEmitter {
           ? result.output || "Success"
           : result.error || "Error";
 
-        this.messages.push({
+        this.chatHistoryManager.addMessage({
           role: "tool",
           content: outputText,
           tool_call_id: toolCall.id,
         });
 
-        this.chatHistory.push({
+        this.chatHistoryManager.addChatEntry({
           type: "tool_result",
           content: outputText,
           timestamp: new Date(),
@@ -633,7 +635,7 @@ export class GrokAgent extends EventEmitter {
         };
       }
 
-      inputTokens = this.tokenCounter.countMessageTokens(this.messages);
+      inputTokens = this.tokenCounter.countMessageTokens(this.chatHistoryManager.getMessages());
       yield {
         type: "token_count",
         tokenCount: inputTokens + totalOutputTokens,
@@ -674,12 +676,12 @@ export class GrokAgent extends EventEmitter {
       content: message,
       timestamp: new Date(),
     };
-    this.chatHistory.push(userEntry);
-    this.messages.push({ role: "user", content: message });
+    this.chatHistoryManager.addChatEntry(userEntry);
+    this.chatHistoryManager.addMessage({ role: "user", content: message });
     this.trimHistoryIfNeeded();
 
     // Calculate input tokens
-    let inputTokens = this.tokenCounter.countMessageTokens(this.messages);
+    let inputTokens = this.tokenCounter.countMessageTokens(this.chatHistoryManager.getMessages());
     yield {
       type: "token_count",
       tokenCount: inputTokens,
@@ -708,7 +710,7 @@ export class GrokAgent extends EventEmitter {
             content: `Sorry, I encountered an error: ${error instanceof Error ? error.message : String(error)}`,
             timestamp: new Date(),
           };
-          this.chatHistory.push(errorEntry);
+          this.chatHistoryManager.addChatEntry(errorEntry);
           yield {
             type: "content",
             content:
@@ -746,7 +748,7 @@ export class GrokAgent extends EventEmitter {
 
         // Stream response and accumulate
         const stream = this.grokClient.chatStream(
-          this.messages,
+          this.chatHistoryManager.getMessages(),
           tools,
           undefined,
           this.abortController?.signal
@@ -825,10 +827,10 @@ export class GrokAgent extends EventEmitter {
           timestamp: new Date(),
           toolCalls: accumulatedMessage.tool_calls || undefined,
         };
-        this.chatHistory.push(assistantEntry);
+        this.chatHistoryManager.addChatEntry(assistantEntry);
 
         // Add accumulated message to conversation
-        this.messages.push({
+        this.chatHistoryManager.addMessage({
           role: "assistant",
           content: accumulatedMessage.content || "",
           tool_calls: accumulatedMessage.tool_calls as GrokToolCall[],
@@ -869,7 +871,7 @@ export class GrokAgent extends EventEmitter {
               toolCall: toolCall,
               toolResult: result,
             };
-            this.chatHistory.push(toolResultEntry);
+            this.chatHistoryManager.addChatEntry(toolResultEntry);
 
             yield {
               type: "tool_result",
@@ -878,7 +880,7 @@ export class GrokAgent extends EventEmitter {
             };
 
             // Add tool result with proper format (needed for AI context)
-            this.messages.push({
+            this.chatHistoryManager.addMessage({
               role: "tool",
               content: result.success
                 ? result.output || "Success"
@@ -888,7 +890,7 @@ export class GrokAgent extends EventEmitter {
           }
 
           // Update token count after processing all tool calls to include tool results
-          inputTokens = this.tokenCounter.countMessageTokens(this.messages);
+          inputTokens = this.tokenCounter.countMessageTokens(this.chatHistoryManager.getMessages());
           // Final token update after tools processed
           yield {
             type: "token_count",
@@ -928,7 +930,7 @@ export class GrokAgent extends EventEmitter {
         content: `Sorry, I encountered an error: ${errorMessage}`,
         timestamp: new Date(),
       };
-      this.chatHistory.push(errorEntry);
+      this.chatHistoryManager.addChatEntry(errorEntry);
       yield {
         type: "content",
         content:
@@ -948,7 +950,7 @@ export class GrokAgent extends EventEmitter {
   }
 
   getChatHistory(): ChatEntry[] {
-    return [...this.chatHistory];
+    return this.chatHistoryManager.getChatHistory();
   }
 
   getCurrentDirectory(): string {
@@ -976,3 +978,17 @@ export class GrokAgent extends EventEmitter {
     }
   }
 }
+
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/agent/grok-agent.ts"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/agent/grok-agent.ts.backup_20260301T124248_792029"
+//   "created_at": "2026-03-01T04:42:48.809564+00:00"
+//   "backup_hash": "0304d4ebdbee70e62653f5f70336e5db"
+//   "new_hash": "619e1d8ed5399d281faaeb71faa1ce3b"
+//   "goal_id": "extend_chatentry_adid_fields"
+//   "semantics": "Extend ChatEntry interface with ADID State Vector tracking fields"
+//   "update_attrs": {"relative_path": "src/agent/grok-agent.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "export interface ChatEntry {\n  type: \"user\" | \"assistant\" | \"tool_result\" | \"tool_call\";\n  content: string | UserContentPart[];\n  timestamp: Date;\n  toolCalls?: GrokToolCall[];\n  toolCall?: GrokToolCall;\n  toolResult?: { success: boolean; output?: string; error?: string };\n  isStreaming?: boolean;\n}", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/agent/grok-agent.ts\""
+// }

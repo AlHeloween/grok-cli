@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_1401227491357372788ca7f5bf0bafd7 name="add_getChatEntry_method" md5="1401227491357372788ca7f5bf0bafd7" size="246">
+    <file>src/agent/chat-history-manager.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  getMessages(): GrokMessage[] {
+    return [...this.messages];
+  }
+  updateSystemMessage(content: string): void {
+    if (this.messages[0]?.role === "system") {
+      this.messages[0].content = content;
+    }
+  }</find_text>
+    <semantics>Add getChatEntry method for direct index access.</semantics>
+    <content_md5_1401227491357372788ca7f5bf0bafd7>
+      getMessages(): GrokMessage[] {
+        return [...this.messages];
+      }
+      
+      getChatEntry(index: number): ChatEntry | undefined {
+        return this.chatHistory[index];
+      }
+      
+      updateSystemMessage(content: string): void {
+        if (this.messages[0]?.role === "system") {
+          this.messages[0].content = content;
+        }
+      }
+    </content_md5_1401227491357372788ca7f5bf0bafd7>
+  </update_md5_1401227491357372788ca7f5bf0bafd7>
+</updates>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_169563407aa4f5d5fec17f3f7778ec6e name="text_insert_before_anchor" md5="169563407aa4f5d5fec17f3f7778ec6e" size="531">
+    <file>src/rag/vector-db.ts</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>}
+
+function decodeFloat32Blob</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Add chat-specific query and delete methods to VectorDb class</semantics>
+    <content_md5_169563407aa4f5d5fec17f3f7778ec6e>
+        queryTopKWithPrefix(vector: number[], k: number, pathPrefix: string): RagChunkRow[] {
+          if (!vector.length || k &lt;= 0) return [];
+          const rows = this.db.selectObjects(
+            `
+            SELECT c.id, c.path, c.text, c.meta, v.distance
+            FROM chunks AS c
+            JOIN vector_quantize_scan('chunks', 'vector', vector_as_f32(?), ?) AS v
+            ON c.id = v.rowid
+            WHERE c.path LIKE ?
+            ORDER BY v.distance ASC
+            `,
+            [JSON.stringify(vector), k, `${pathPrefix}%`]
+          );
+          return (rows || []) as RagChunkRow[];
+        }
+      
+        deleteChunksByPathPrefix(prefix: string): void {
+          this.db.exec({
+            sql: "DELETE FROM chunks WHERE path LIKE ?",
+            bind: [`${prefix}%`],
+          });
+          this.dirty = true;
+        }
+      }
+    </content_md5_169563407aa4f5d5fec17f3f7778ec6e>
+  </update_md5_169563407aa4f5d5fec17f3f7778ec6e>
+</updates>

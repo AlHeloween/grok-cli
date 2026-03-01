@@ -40,7 +40,7 @@ Invoke as: `tools/adm <command>` (or `tools/adm.exe <command>` on Windows; or `u
 | `--template/--tpl <NAME> [output_dir]` | Generates a timestamped XML descriptor template under `./updates/` by default (uses `[TIMESTAMP]_[short_semantic_dominant].xml`; legacy `_update_scaffold.xml` is deprecated). Templates: `all`, `replace`, `overwrite`, `create`, `insert`, `delete`, `pattern-rule`, `binary-overwrite`, `binary-hex-replace`, `refactor-replace-function`. | **Whenever you need a new update descriptor.** Edit the generated file; do not create XML descriptors from scratch. |
 | `--apply <updates.xml>` | Applies all update blocks in the descriptor (atomic writes, backups, ledger). | After editing a templated or existing descriptor; use on the path you edited (e.g. `updates/20260202T040632_update_scaffold.xml`). |
 | `--replay-updates [dir] [--until TIMESTAMP] [--limit N]` | Inspects all `*.xml` descriptors in `dir` (default `updates/`) in **chronological order** and prints diff-like intent extracted from XML (no writes). Add `--unified-diff` for exact unified diff hunks (slower). Add `--execute --workdir DIR --confirm-execute APPLY_IN_WORKDIR_ONLY` to apply only inside an isolated copy. | To understand what changed and why, and (rarely) to reproduce state in a dedicated isolated directory. |
-| `--compute-md5 <payload_file>` | Prints canonical MD5 and stripped size for a payload. | To fill `md5` and `size` in a descriptor: compute MD5 for the payload content, then put that hash in the `<update_md5_<hash>>` and `<content_md5_<hash>>` tags. |
+| `--compute-md5 <payload_file>` | Prints canonical MD5 and stripped size for a payload. | **Debugging/testing only.** Normal workflow should not manually compute MD5; use `--fix-xml` / `--verify-all-fix-xml` or just `--apply` (auto-normalizes descriptor md5/size + tag names). |
 | `--fix-xml <updates.xml> [output.xml]` | Normalizes descriptors and recalculates md5/size tags; can write to a second file. | When descriptor tags are wrong or after manual edits; run before `--apply` if you changed payloads. |
 | `--verify-all [root]` | Verifies integrity/syntax under the given root; writes reports to `logs/verify_report_*.{json,md}`. | After applies or to audit; use `src tests adid_tests` for a clean report (excludes `trials/`). |
 | `--verify-all-fix-xml` | Same as `--verify-all` but also rewrites descriptor tags in place. | When verify reports MD5/tag issues in descriptors; fixes tags then re-verify. |
@@ -54,6 +54,11 @@ Invoke as: `tools/adm <command>` (or `tools/adm.exe <command>` on Windows; or `u
 | `--clean [root]` | Removes manifests, rotated backups, demo bundles. | To tidy artifacts under the given root. |
 | `--rg <pattern> <replacement> <file> [-- flags]` | ripgrep-based replacement with backup and ledger. | When you need regex replace but want backups/rollback; use via adm, not raw rg. |
 | `--sed <script> <file> [-- flags]` | Runs GNU sed with backup and ledger. | When you need sed but want backups/rollback; use via adm, not raw sed. |
+| `--patch-tool <patch_file>` | Applies an `apply_patch`-format patch file with backups + per-file ledger entries. | When you want apply_patch-style edits but still want ADID backups and ledgers. |
+| `--cmd-runner <args...>` | Pass-through helper to execute `cmd_runner` with the given args (Windows-only). | When you need to start/list/status/tail cmd_runner runs but want it recorded in the same adm progress-log cycle. |
+| `--rag settings|list|index|docs|status|delete ...` | Manage local RAG indexes (sqlite) using `adm_config.json`. | When you want indexed querying of code/docs with an embeddings HTTP endpoint. |
+| `--query <index_name> <request...>` | Query a RAG index and print top hits (file + line ranges). | When you want an exact, line-referenced retrieval result. |
+| `--mcp` / `--mcp-http [host] [port]` | Run adm as an MCP server (stdio or HTTP). | When you want to expose RAG tools to an MCP-capable client or run it as a local service. |
 | `--log-insight <message>` | Appends a timestamped entry to `insights.md`. | Optional logging of a decision or finding. |
 | `--check-tools` | Checks that rg, sed, semgrep, tree-sitter are available. | To diagnose missing tools. |
 | `--sync-semgrepignore` | Mirrors `.gitignore` into `.semgrepignore`. | When .gitignore changed and you want Semgrep to match. |
@@ -68,8 +73,8 @@ Use `tools/adm` (or `tools/adm.exe` on Windows) when the project has it; otherwi
 
 1. Run `tools/adm --help`.
 2. Run `tools/adm --template all` (or a specific template like `replace`, `overwrite`, `create`, `insert`, `delete`, `pattern-rule`, `refactor-replace-function`) → creates a timestamped descriptor under `updates/`.
-3. Edit that file: set `<file>`, `<mode>`, payload in `<content_md5_*>`, etc. Use `tools/adm --compute-md5` on the payload content to get the correct hash and set tags.
-4. Optionally run `tools/adm --fix-xml updates/<that_file>.xml` to normalize tags.
+3. Edit that file: set `<file>`, `<mode>`, payload in `<content_md5_*>`, etc. **Do not manually compute MD5**; leave placeholders and let adm normalize metadata.
+4. Optionally run `tools/adm --fix-xml updates/<that_file>.xml` to normalize md5/size + tag names (useful for debugging/validation).
 5. Run `tools/adm --apply updates/<that_file>.xml` (use `--dry-run` first if you want a preview).
 6. Run `tools/adm --verify-all src tests adid_tests` (or chosen roots) to confirm no regressions.
 

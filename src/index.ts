@@ -16,6 +16,7 @@ import { createMCPCommand } from "./commands/mcp.js";
 import { UserContentPart } from "./grok/client.js";
 import { isThemeId, listThemes } from "./ui/utils/theme.js";
 import { indexProject } from "./rag/indexer.js";
+import { indexChatHistory } from "./rag/chat-indexer.js";
 import { VectorDb } from "./rag/vector-db.js";
 
 type OpenAIMessage = {
@@ -29,7 +30,7 @@ import {
   importMakerAiJsonToVectorDb,
 } from "./rag/makerai.js";
 import { getEffectiveConfig, maskSecret } from "./config/effective-config.js";
-import { findConfigKey } from "./config/registry.js";
+import { ChatHistoryPersistence } from "./agent/chat-history-persistence.js";import { findConfigKey } from "./config/registry.js";
 
 // Load environment variables
 dotenv.config();
@@ -412,7 +413,32 @@ async function processPromptHeadless(
               role: "tool",
               tool_call_id: entry.toolCall.id,
               content: toTextContent(entry.content),
-            });
+  });
+
+chatHistoryCommand
+  .command("index <sessionId>")
+  .description("Index a chat session into the RAG vector database")
+  .option("-d, --directory <dir>", "working directory", process.cwd())
+  .option("-r, --replace", "replace existing indexed entries for this session", true)
+  .action(async (sessionId, options) => {
+    const persistence = new ChatHistoryPersistence();
+    try {
+      const { entries } = await persistence.loadSessionFull(sessionId, options.directory);
+      if (entries.length === 0) {
+        console.log(`Session '${sessionId}' has no entries to index.`);
+        return;
+      }
+      const result = await indexChatHistory(entries, {
+        cwd: options.directory,
+        sessionId,
+        replace: options.replace,
+      });
+      console.log(`✓ Indexed ${result.chunksIndexed} entries from session '${sessionId}' into RAG vector DB`);
+    } catch (error: unknown) {
+      console.error(`Error indexing session '${sessionId}':`, error instanceof Error ? error.message : String(error));
+      process.exit(1);
+    }
+  });
           }
           break;
       }
@@ -1176,18 +1202,74 @@ configCommand
     console.log("✓ Config initialized");
   });
 
+// Chat history commands
+const chatHistoryCommand = program
+  .command("chat-history")
+  .description("Manage persistent chat history sessions");
+
+chatHistoryCommand
+  .command("list")
+  .description("List all saved chat sessions")
+  .action(async () => {
+    const persistence = new ChatHistoryPersistence();
+    const sessions = await persistence.listSessions();
+    if (sessions.length === 0) {
+      console.log("No saved chat sessions found.");
+      return;
+    }
+    console.log("Saved chat sessions:");
+    sessions.forEach((session, idx) => {
+      console.log(`  ${idx + 1}. ${session.id}`);
+      console.log(`     Saved: ${session.timestamp.toLocaleString()}`);
+      console.log(`     Entries: ${session.count}`);
+      console.log();
+    });
+  });
+
+chatHistoryCommand
+  .command("load <sessionId>")
+  .description("Load a chat session by ID")
+  .option("-d, --directory <dir>", "working directory", process.cwd())
+  .action(async (sessionId, options) => {
+    const persistence = new ChatHistoryPersistence();
+    try {
+      const { entries, messages } = await persistence.loadSessionFull(sessionId, options.directory);
+      console.log(`✓ Loaded session '${sessionId}' with ${entries.length} entries`);
+      console.log(`  Use 'grok' with --load-chat-session flag to start a chat with this history.`);
+      // For now, just output stats; actual loading into agent would need integration
+      console.log(`  Messages: ${messages?.length || 0}`);
+    } catch (error: unknown) {
+      console.error(`Error loading session '${sessionId}':`, error instanceof Error ? error.message : String(error));
+      process.exit(1);
+    }
+  });
+
+chatHistoryCommand
+  .command("delete <sessionId>")
+  .description("Delete a chat session")
+  .option("-d, --directory <dir>", "working directory", process.cwd())
+  .action(async (sessionId, options) => {
+    const persistence = new ChatHistoryPersistence();
+    try {
+      await persistence.deleteSession(sessionId, options.directory);
+      console.log(`✓ Deleted session '${sessionId}'`);
+    } catch (error: unknown) {
+      console.error(`Error deleting session '${sessionId}':`, error instanceof Error ? error.message : String(error));
+      process.exit(1);
+    }
+  });
 program.parse();
 
 // ADID_ROLLBACK (from adm.exe)
 // SDID_ROLLBACK {
 //   "target_file": "D:\\zPython\\grok-cli\\src/index.ts"
 //   "update_script": "adm.exe"
-//   "backup_path": "D:\\zPython\\grok-cli\\src/index.ts.backup_20260216T224756_784916"
-//   "created_at": "2026-02-16T14:47:56.832107+00:00"
-//   "backup_hash": "50122f00ce958cae9715e31f1d08c9a3"
-//   "new_hash": "9cb5d121fc6bef5845ec9df656df17c6"
-//   "goal_id": "cli_config_set_rag_extractor_insert"
-//   "semantics": "Implement config set for new project RAG keys."
-//   "update_attrs": {"relative_path": "src/index.ts", "update_type": "text", "mode": "insert", "encoding": "utf-8", "find_pattern": null, "find_text": "case \"user.embeddings.model\":", "replace_present": true}
+//   "backup_path": "D:\\zPython\\grok-cli\\src/index.ts.backup_20260301T135815_688161"
+//   "created_at": "2026-03-01T05:58:15.709866+00:00"
+//   "backup_hash": "ce5f011d6f54fe361837e14b57724f35"
+//   "new_hash": "6a42942a04dacdffc3086a70377841f2"
+//   "goal_id": "add_chat_history_command"
+//   "semantics": "Add chat-history command after config init block"
+//   "update_attrs": {"relative_path": "src/index.ts", "update_type": "text", "mode": "insert", "encoding": "utf-8", "find_pattern": null, "find_text": "program.parse();", "replace_present": true}
 //   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/index.ts\""
 // }

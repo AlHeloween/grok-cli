@@ -27,6 +27,14 @@ alwaysApply: true
   - Example: `powershell -NoProfile -c 'cmd /c "where dcc64"'`
   - Reason: In some environments, `cmd /c <command>` can succeed but produce no captured output.
 
+- **Windows permission quirks (uv cache / pytest temp):**
+  - If `uv run ...` fails with `Access is denied` under the default UV cache (user profile), set `UV_CACHE_DIR` to a repo-local folder (example: `.uv_cache/`) and retry.
+  - If pytest temp cleanup fails with `PermissionError` on `--basetemp`, prefer placing basetemp under the repo (example: `uv run pytest -q --basetemp .tmp/pytest`).
+  - If a temp folder becomes unreadable, reclaim and delete it via `takeown` + `icacls` + `rd /s /q` (hardware-grounded filesystem ops; do not "pretend" tests ran).
+  - Recommended start-of-work (Windows):
+    - cmd.exe: `call scripts\\dev_env_windows.cmd`
+    - PowerShell: `. .\\scripts\\dev_env_windows.ps1` (dot-source to affect the current session)
+
 - **Canonical agent assets**: Treat `artefacts/rules/` and `artefacts/skills/` as the source of truth. Agent folders (`.cursor/`, `.codex/`, `.opencode/`) are receivers and may be deleted/recreated.
 
 - **Rebuild/install agent scaffolds**: After changing canonical rules/skills run:
@@ -37,7 +45,37 @@ alwaysApply: true
 
 - **Preferred workflow:** Create template (`--template/--tpl <replace|insert|refactor-replace-function|pattern-rule|binary-hex-replace|create|overwrite|delete|binary-overwrite> [output_dir]` - Generate a timestamped XML descriptor template under `./updates/`, rename template as `updates/[ISO8601]_[short_semantic_dominant].xml`, edit, then apply (`--apply`). To **replay history** (inspect descriptors in order): run `tools/adm --replay-updates` (or `tools/adm --replay-updates updates --until 20260202T120000 --limit 5`). Add `--unified-diff` for exact hunks; use `--execute --workdir DIR --confirm-execute APPLY_IN_WORKDIR_ONLY` only when you intentionally want to apply inside an isolated copy. Do not write XML descriptors from scratch. Multiple backups per file are by design and an advantage (rollback, traceability; project stays manageable). run `adm --verify-all` on selected roots (e.g. `src tests adid_tests`) for a clean report. Do not restore from git over local work; use `adm --rollback` and descriptor rollbacks instead. 
 
+- **Patch-tool wrapper (apply_patch format):** When you need apply_patch-style edits but still want ADID backups/ledgers, use `tools/adm.exe --patch-tool <patch_file>` (or `uv run adm --patch-tool <patch_file>` in a repo checkout).
+
+- **cmd_runner via adm (integration):** You may invoke cmd_runner through adm when you want it in the same progress-log cycle: `tools/adm.exe --cmd-runner start -- <command ...>` (Windows-only). Prefer this over ad-hoc wrappers so logs are centralized.
+
 - **updates/ is source of truth**: Treat `updates/` history as the durable record. Prefer `tools/adm.exe --replay-updates  over “progress logs”. 
+
+- **RAG indexing/query (adm_config.json required):**
+  - Config file must be `adm_config.json` at repo root (or set `ADM_CONFIG_PATH` to an explicit path).
+  - Index: `tools/adm.exe --rag index <index_name> <root1> [root2 ...]`
+  - Query: `tools/adm.exe --query <index_name> <request...>`
+  - Status: `tools/adm.exe --rag status <index_name>` and docs: `tools/adm.exe --rag docs <index_name> [limit]`
+  - **Secrets:** Prefer the OS keyring (see below). If you need local JSON-only auth, you may set `rag.embed.api_key` in a local-only config and point `ADM_CONFIG_PATH` at it (do not commit tokens).
+  - **Keyring (preferred):** Store the embeddings key in the OS keyring: `tools/adm.exe --keyring set rag_embed_api_key` (check: `--keyring status rag_embed_api_key`, delete: `--keyring delete rag_embed_api_key`).
+    - Storage mapping: service=`adid_framework_secrets`, name=`rag_embed_api_key` (from `rag.embed.api_key_env`).
+  - **Hybrid retrieval:** Queries use vector similarity + SQLite FTS5, fused via Reciprocal Rank Fusion (RRF). Tune via `rag.vector_top_k`, `rag.fts_top_k`, `rag.weight_vector`, `rag.weight_fts`, `rag.rrf_k`.
+
+- **MCP server (RAG tools):**
+  - Stdio (spawned by a client): `tools/adm.exe --mcp`
+  - HTTP (service-friendly): `tools/adm.exe --mcp-http 127.0.0.1 7990` (endpoint: `POST /mcp`)
+  - Windows check (service): `sc.exe query ADID_ADM_MCP`
+  - Linux check (systemd): `systemctl status adid-adm-mcp.service --no-pager`
+
+- **Workspace lanes (do not mix):**
+  - `experiments/` - short-lived experiments and scratch code.
+  - `futures/` - planned work / drafts not ready for mainline.
+  - `obsolete/` - deprecated artifacts kept for reference only.
+  - `makeups/` - explicit stubs/makeups when something cannot be executed for real (must include a short note explaining what is stubbed and why).
+
+- **Non-mainline activity rule:** For changes that are *not* part of the main project development line (typically under `experiments/`, `futures/`, `obsolete/`, `makeups/`), prefer `--patch-tool` and standard shell commands instead of adding new declarative descriptors under `updates/`. Reason: keep the mainline update ledger clean and avoid cross-conflicts from throwaway work.
+
+- **Repository index (required):** Keep `index.md` at the repo root up to date. It must describe the repository contents *by folder* (purpose + key entrypoints) so information stays indexed.
 
 ## Project Structure:
 
@@ -78,7 +116,13 @@ alwaysApply: true
 
 ## Security & Configuration
 
-- No Hardcoded Secrets:Never commit secrets. Use environment variables or an ignored config file. Logging: Never log sensitive data (tokens, passwords, etc.). Least Privilege: Minimize permissions for any credentials used.
+- No Hardcoded Secrets:Never commit secrets. Use OS keyring or an ignored local config file. Logging: Never log sensitive data (tokens, passwords, etc.). Least Privilege: Minimize permissions for any credentials used.
+
+- **Sensitive data handling (strict):**
+  - Do not request or encourage users to paste API keys/tokens/passwords into chat or into tracked files/commands.
+  - If a user provides a token anyway, treat it as sensitive: do not repeat it, do not write it to git-tracked files, and do not include it in shell commands or logs.
+  - **Environment variables are considered insecure for secrets** (leakage via child processes, crash dumps, diagnostic output, etc.); do not recommend them for tokens/keys.
+  - Use secure local storage + gitignore instead: OS keyring via `adm --keyring ...`, or `ADM_CONFIG_PATH` pointing to a local-only config (e.g. `adm_config.local.json`).
 
 ## 📚 References
 

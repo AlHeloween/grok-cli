@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_62f27bad8c070574c245d0f9f5228f1c name="rag_import_addition" md5="62f27bad8c070574c245d0f9f5228f1c" size="142">
+    <file>src/hooks/use-input-handler.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>import { createEmbeddingClientFromSettings } from "../rag/embedding-client.js";</find_text>
+    <semantics>Add import for rag-menu-handler</semantics>
+    <content_md5_62f27bad8c070574c245d0f9f5228f1c>
+      import { createEmbeddingClientFromSettings } from "../rag/embedding-client.js";
+      import { getRagMenuItems, createRagHandler } from "./rag-menu-handler.js";
+    </content_md5_62f27bad8c070574c245d0f9f5228f1c>
+  </update_md5_62f27bad8c070574c245d0f9f5228f1c>
+</updates>

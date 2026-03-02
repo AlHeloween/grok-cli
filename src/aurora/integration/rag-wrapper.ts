@@ -51,8 +51,21 @@ export async function auroraRetrieveTopK(
   const settings = getSettingsManager();
   const dbPath = settings.getRagDbPath(cwd);
 
+  // Read Aurora settings if not explicitly overridden
+  const auroraEnabled = settings.getRagAuroraEnabled(cwd);
+  let useFractalQuantization = options.useFractalQuantization ?? settings.getRagAuroraFractalQuantization(cwd);
+  let useDualQuaternionDistance = options.useDualQuaternionDistance ?? settings.getRagAuroraDualQuaternionDistance(cwd);
+  let useGloveKeywords = options.useGloveKeywords ?? settings.getRagAuroraGloveKeywords(cwd);
+  
+  // Master toggle overrides all
+  if (!auroraEnabled) {
+    useFractalQuantization = false;
+    useDualQuaternionDistance = false;
+    useGloveKeywords = false;
+  }
+  
   // Fall back to standard retrieveTopK if no Aurora features enabled
-  if (!options.useFractalQuantization && !options.useDualQuaternionDistance && !options.useGloveKeywords) {
+  if (!useFractalQuantization && !useDualQuaternionDistance && !useGloveKeywords) {
     return retrieveTopK(queryText, options);
   }
 
@@ -93,7 +106,7 @@ export async function auroraRetrieveTopK(
   }
 
   // 3. Apply fractal quantization if enabled
-  if (options.useFractalQuantization) {
+  if (useFractalQuantization) {
     const dim = options.fractalDimension ?? 8;
     const depth = options.fractalDepth ?? 3;
     
@@ -127,7 +140,7 @@ export async function auroraRetrieveTopK(
     // Replace vectors with quantized versions for distance computation
     // (For now, we just store them; could use for distance)
     // For simplicity, we'll use the quantized vectors if dual-quaternion distance is enabled
-    if (options.useDualQuaternionDistance) {
+    if (useDualQuaternionDistance) {
       // Convert quantized vectors to dual quaternions
       const dualQuats = quantizedVectors.map(vec => vectorToDualQuaternion(vec));
       
@@ -141,7 +154,7 @@ export async function auroraRetrieveTopK(
       const selected = medoidIdx.map((i) => rows[i]).filter(Boolean);
       
       // 4. Apply GloVe keyword extraction if enabled
-      if (options.useGloveKeywords && selected.length > 0) {
+      if (useGloveKeywords && selected.length > 0) {
         await addGloveKeywordsToChunks(selected);
       }
       
@@ -151,7 +164,7 @@ export async function auroraRetrieveTopK(
 
   // 4. Standard k-medoids with optional dual-quaternion distance
   let distanceMetric: KMedoidsDistance = 'cosine';
-  if (options.useDualQuaternionDistance) {
+  if (useDualQuaternionDistance) {
     // Check if vectors are already 8D (dual quaternions)
     const is8D = vectors.every(v => v.length === 8);
     if (is8D) {
@@ -166,7 +179,7 @@ export async function auroraRetrieveTopK(
       const medoidIdx = selectKMedoidsWithDistanceMatrix(D, k);
       const selected = medoidIdx.map((i) => rows[i]).filter(Boolean);
       
-      if (options.useGloveKeywords && selected.length > 0) {
+      if (useGloveKeywords && selected.length > 0) {
         await addGloveKeywordsToChunks(selected);
       }
       
@@ -183,7 +196,7 @@ export async function auroraRetrieveTopK(
   const selected = medoidIdx.map((i) => rows[i]).filter(Boolean);
 
   // 5. Apply GloVe keyword extraction if enabled
-  if (options.useGloveKeywords && selected.length > 0) {
+  if (useGloveKeywords && selected.length > 0) {
     await addGloveKeywordsToChunks(selected);
   }
 

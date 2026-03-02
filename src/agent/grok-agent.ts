@@ -31,6 +31,7 @@ import { getSystemPrompt } from "./system-prompt.js";
 import { executeTool as executeToolCall, type ToolExecutorContext } from "./tool-executor.js";
 import { ChatHistoryManager } from "./chat-history-manager.js";
 import { formatRagChunksForPrompt, retrieveTopK } from "../rag/retriever.js";
+import { auroraRetrieveTopK } from "../aurora/integration/rag-wrapper.js";
 
 export interface ChatEntry {
   type: "user" | "assistant" | "tool_result" | "tool_call";
@@ -161,14 +162,26 @@ private trimHistoryIfNeeded(): void {
     if (!settings.isRagEnabled()) return;
 
     try {
-      const rows = await retrieveTopK(userMessageText, {
+      const baseOptions = {
         cwd: process.cwd(),
         topK: settings.getRagTopK(),
         useKMedoids: settings.getRagUseKMedoids(),
         candidateCount: settings.getRagCandidateCount(),
         searchChatFirst: settings.getRagSearchChatFirst(),
         chatPrefix: settings.getRagChatPrefix(),
-      });
+      };
+
+      let rows;
+      if (settings.getRagAuroraEnabled()) {
+        rows = await auroraRetrieveTopK(userMessageText, {
+          ...baseOptions,
+          useFractalQuantization: settings.getRagAuroraFractalQuantization(),
+          useDualQuaternionDistance: settings.getRagAuroraDualQuaternionDistance(),
+          useGloveKeywords: settings.getRagAuroraGloveKeywords(),
+        });
+      } else {
+        rows = await retrieveTopK(userMessageText, baseOptions);
+      }
       if (!rows.length) return;
 
       const formatted = formatRagChunksForPrompt(rows);

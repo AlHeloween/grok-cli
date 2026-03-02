@@ -41,6 +41,14 @@ export interface EmbeddingsSettings {
   apiKey?: string;
 }
 
+export interface AuroraRagSettings {
+  enabled?: boolean;
+  fractalQuantization?: boolean;
+  dualQuaternionDistance?: boolean;
+  gloveKeywords?: boolean;
+  gloveModelPath?: string;
+}
+
 export interface RagSettings {
   enabled?: boolean;
   topK?: number;
@@ -59,6 +67,8 @@ export interface RagSettings {
   chatPrefix?: string;
   /** If true, automatically index chat history entries into RAG when saving (default: false). */
   autoIndexChat?: boolean;
+  /** Aurora‑Genesis enhancements for RAG. */
+  aurora?: AuroraRagSettings;
 }
 
 /**
@@ -102,6 +112,13 @@ const DEFAULT_PROJECT_SETTINGS: Partial<ProjectSettings> = {
     searchChatFirst: true,
     chatPrefix: "chat://",
     autoIndexChat: false,
+    aurora: {
+      enabled: false,
+      fractalQuantization: false,
+      dualQuaternionDistance: false,
+      gloveKeywords: false,
+      gloveModelPath: "data/glove/glove_50d.db",
+    },
   },
 };
 
@@ -533,6 +550,31 @@ public getRagTopK(cwd: string = process.cwd()): number {
   public getRagAutoIndexChat(cwd: string = process.cwd()): boolean {
     const settings = this.loadProjectSettings(cwd);
     return settings.rag?.autoIndexChat ?? false;
+  }
+
+  public getRagAuroraEnabled(cwd: string = process.cwd()): boolean {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.aurora?.enabled ?? false;
+  }
+
+  public getRagAuroraFractalQuantization(cwd: string = process.cwd()): boolean {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.aurora?.fractalQuantization ?? false;
+  }
+
+  public getRagAuroraDualQuaternionDistance(cwd: string = process.cwd()): boolean {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.aurora?.dualQuaternionDistance ?? false;
+  }
+
+  public getRagAuroraGloveKeywords(cwd: string = process.cwd()): boolean {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.aurora?.gloveKeywords ?? false;
+  }
+
+  public getRagAuroraGloveModelPath(cwd: string = process.cwd()): string {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.aurora?.gloveModelPath ?? "data/glove/glove_50d.db";
   }
 
   /**

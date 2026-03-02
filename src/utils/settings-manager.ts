@@ -47,6 +47,11 @@ export interface AuroraRagSettings {
   dualQuaternionDistance?: boolean;
   gloveKeywords?: boolean;
   gloveModelPath?: string;
+  fractalDimension?: number;
+  fractalDepth?: number;
+  dualQuatRotationWeight?: number;
+  dualQuatTranslationWeight?: number;
+  useFp16Storage?: boolean;
 }
 
 export interface RagSettings {
@@ -118,7 +123,12 @@ const DEFAULT_PROJECT_SETTINGS: Partial<ProjectSettings> = {
       dualQuaternionDistance: false,
       gloveKeywords: false,
       gloveModelPath: "data/glove/glove_50d.db",
-    },
+      fractalDimension: 8,
+      fractalDepth: 3,
+       dualQuatRotationWeight: 1.0,
+       dualQuatTranslationWeight: 1.0,
+       useFp16Storage: false,
+     },
   },
 };
 
@@ -577,8 +587,33 @@ public getRagTopK(cwd: string = process.cwd()): number {
     return settings.rag?.aurora?.gloveModelPath ?? "data/glove/glove_50d.db";
   }
 
-  /**
-   * Set the current model for the project
+  public getRagAuroraFractalDimension(cwd: string = process.cwd()): number {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.aurora?.fractalDimension ?? 8;
+  }
+
+  public getRagAuroraFractalDepth(cwd: string = process.cwd()): number {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.aurora?.fractalDepth ?? 3;
+  }
+
+  public getRagAuroraDualQuatRotationWeight(cwd: string = process.cwd()): number {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.aurora?.dualQuatRotationWeight ?? 1.0;
+  }
+
+  public getRagAuroraDualQuatTranslationWeight(cwd: string = process.cwd()): number {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.aurora?.dualQuatTranslationWeight ?? 1.0;
+  }
+
+  public getRagAuroraUseFp16Storage(cwd: string = process.cwd()): boolean {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.aurora?.useFp16Storage ?? false;
+  }
+
+/**
+ * Set the current model for the project
    */
   public setCurrentModel(model: string): void {
     this.updateProjectSetting("model", model);
@@ -680,16 +715,16 @@ export function getSettingsManager(): SettingsManager {
   return SettingsManager.getInstance();
 }
 
-// ADID_ROLLBACK (from adm.exe)
+// ADID_ROLLBACK (from adm)
 // SDID_ROLLBACK {
 //   "target_file": "D:\\zPython\\grok-cli\\src/utils/settings-manager.ts"
-//   "update_script": "adm.exe"
-//   "backup_path": "D:\\zPython\\grok-cli\\src/utils/settings-manager.ts.backup_20260301T145843_114166"
-//   "created_at": "2026-03-01T06:58:43.128621+00:00"
-//   "backup_hash": "ec442f56a3e080733a7cee16c1c8262e"
-//   "new_hash": "0935e1399718739503b914230f1b3735"
-//   "goal_id": "rag_defaults"
-//   "semantics": "Add default values for searchChatFirst and chatPrefix in project settings."
-//   "update_attrs": {"relative_path": "src/utils/settings-manager.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "rag: {\n    enabled: false,\n    topK: 6,\n    useKMedoids: false,\n    candidateCount: 18,\n  },", "replace_present": true}
+//   "update_script": "adm"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/utils/settings-manager.ts.backup_20260302T153053_486316"
+//   "created_at": "2026-03-02T07:30:53.504017+00:00"
+//   "backup_hash": "ca816f4e31f8487096388ebfd8512dfc"
+//   "new_hash": "b4e2a7c9c8cf1a9c420cd2ffcca5f88b"
+//   "goal_id": "aurora_getter_fp16"
+//   "semantics": "Add getRagAuroraUseFp16Storage getter method"
+//   "update_attrs": {"relative_path": "src/utils/settings-manager.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "public getRagAuroraDualQuatTranslationWeight(cwd: string = process.cwd()): number {\n    const settings = this.loadProjectSettings(cwd);\n    return settings.rag?.aurora?.dualQuatTranslationWeight ?? 1.0;\n  }\n\n  /**\n   * Set the current model for the project", "replace_present": true}
 //   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/utils/settings-manager.ts\""
 // }

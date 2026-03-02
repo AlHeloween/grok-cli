@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_cb2c5adcc8a5f5cdf024c502013c0519 name="aurora_interface_fp16" md5="cb2c5adcc8a5f5cdf024c502013c0519" size="86">
+    <file>src/utils/settings-manager.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  dualQuatTranslationWeight?: number;
+}
+
+export interface RagSettings {</find_text>
+    <semantics>Add useFp16Storage field to AuroraRagSettings interface</semantics>
+    <content_md5_cb2c5adcc8a5f5cdf024c502013c0519>
+        dualQuatTranslationWeight?: number;
+        useFp16Storage?: boolean;
+      }
+      
+      export interface RagSettings {
+    </content_md5_cb2c5adcc8a5f5cdf024c502013c0519>
+  </update_md5_cb2c5adcc8a5f5cdf024c502013c0519>
+  <update_md5_9b82a83e0cddb8d0b1a38e6973719eb9 name="aurora_default_fp16" md5="9b82a83e0cddb8d0b1a38e6973719eb9" size="53">
+    <file>src/utils/settings-manager.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>      dualQuatTranslationWeight: 1.0,
+    },</find_text>
+    <semantics>Add useFp16Storage default false to aurora default object</semantics>
+    <content_md5_9b82a83e0cddb8d0b1a38e6973719eb9>
+        dualQuatTranslationWeight: 1.0,
+        useFp16Storage: false,
+      },
+    </content_md5_9b82a83e0cddb8d0b1a38e6973719eb9>
+  </update_md5_9b82a83e0cddb8d0b1a38e6973719eb9>
+  <update_md5_3a217477affc652e5af804ec82cfd4e0 name="aurora_getter_fp16" md5="3a217477affc652e5af804ec82cfd4e0" size="378">
+    <file>src/utils/settings-manager.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  public getRagAuroraDualQuatTranslationWeight(cwd: string = process.cwd()): number {
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.aurora?.dualQuatTranslationWeight ?? 1.0;
+  }
+
+  /**
+   * Set the current model for the project</find_text>
+    <semantics>Add getRagAuroraUseFp16Storage getter method</semantics>
+    <content_md5_3a217477affc652e5af804ec82cfd4e0>
+      public getRagAuroraDualQuatTranslationWeight(cwd: string = process.cwd()): number {
+        const settings = this.loadProjectSettings(cwd);
+        return settings.rag?.aurora?.dualQuatTranslationWeight ?? 1.0;
+      }
+      
+      public getRagAuroraUseFp16Storage(cwd: string = process.cwd()): boolean {
+        const settings = this.loadProjectSettings(cwd);
+        return settings.rag?.aurora?.useFp16Storage ?? false;
+      }
+      
+      /**
+       * Set the current model for the project
+    </content_md5_3a217477affc652e5af804ec82cfd4e0>
+  </update_md5_3a217477affc652e5af804ec82cfd4e0>
+</updates>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_4f34b706b5f745d5a6a5379da8a33287 name="add_import" md5="4f34b706b5f745d5a6a5379da8a33287" size="345">
+    <file>src/aurora/simd/dot-product.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>/**
+ * SIMD‑accelerated dot‑product utilities for Aurora reference implementation.
+ * 
+ * Provides scalar, unrolled, and (future) WebAssembly SIMD implementations
+ * for computing cosine similarity between GloVe vectors.
+ * 
+ * All vectors are assumed to be normalized (unit length).
+ */</find_text>
+    <semantics>Add import for FP16 conversion functions after module comment.</semantics>
+    <content_md5_4f34b706b5f745d5a6a5379da8a33287>
+      /**
+       * SIMD‑accelerated dot‑product utilities for Aurora reference implementation.
+       * 
+       * Provides scalar, unrolled, and (future) WebAssembly SIMD implementations
+       * for computing cosine similarity between GloVe vectors.
+       * 
+       * All vectors are assumed to be normalized (unit length).
+       */
+      
+      import { f32ToFp16Fast, fp16ToF32Fast, dotProductFp16Unrolled, batchDotProductFp16 } from '../utils/fp16.js';
+    </content_md5_4f34b706b5f745d5a6a5379da8a33287>
+  </update_md5_4f34b706b5f745d5a6a5379da8a33287>
+  <update_md5_4eca68d277b471a148b7997b63edf100 name="add_fp16_functions" md5="4eca68d277b471a148b7997b63edf100" size="1298">
+    <file>src/aurora/simd/dot-product.ts</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>}</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Insert FP16 dot-product functions before the final closing brace.</semantics>
+    <content_md5_4eca68d277b471a148b7997b63edf100>
+      /**
+       * Dot product for FP16 vectors (converts on the fly).
+       */
+      export function dotProductFp16(a: Uint16Array, b: Uint16Array): number {
+        // Use unrolled implementation from fp16 module
+        return dotProductFp16Unrolled(a, b);
+      }
+      
+      /**
+       * Batch dot product for FP16 vectors.
+       * Converts target once to FP32, then each candidate vector on the fly.
+       */
+      export function batchDotProductFp16(
+        target: Uint16Array,
+        vectors: Uint16Array[],
+        scores: number[]
+      ): void {
+        // Use existing batch implementation from fp16 module
+        batchDotProductFp16(target, vectors, scores);
+      }
+      
+      /**
+       * Dot product between FP16 vector and FP32 vector.
+       * Useful when one vector is already in FP32 (e.g., query vector).
+       */
+      export function dotProductFp16F32(a: Uint16Array, b: Float32Array): number {
+        const len = a.length;
+        if (len !== b.length) {
+          throw new Error(`Vector length mismatch: ${len} vs ${b.length}`);
+        }
+      
+        let sum = 0;
+        for (let i = 0; i &lt; len; i++) {
+          sum += fp16ToF32Fast(a[i]) * b[i];
+        }
+        return sum;
+      }
+      
+      /**
+       * Batch dot product with FP16 target and FP32 vectors.
+       */
+      export function batchDotProductFp16F32(
+        target: Uint16Array,
+        vectors: Float32Array[],
+        scores: number[]
+      ): void {
+        const n = vectors.length;
+        if (scores.length &lt; n) {
+          throw new Error(`scores array too small: ${scores.length} &lt; ${n}`);
+        }
+      
+        // Convert target once to FP32
+        const targetF32 = new Float32Array(target.length);
+        for (let d = 0; d &lt; target.length; d++) {
+          targetF32[d] = fp16ToF32Fast(target[d]);
+        }
+      
+        // Compute dot products using existing FP32 batch function
+        batchDotProduct(targetF32, vectors, scores);
+      }
+    </content_md5_4eca68d277b471a148b7997b63edf100>
+  </update_md5_4eca68d277b471a148b7997b63edf100>
+</updates>

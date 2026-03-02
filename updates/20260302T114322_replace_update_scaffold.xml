@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_6ab36ad8f81cfa4cc8348034fe89c4fc name="fix_batch_wrapper" md5="6ab36ad8f81cfa4cc8348034fe89c4fc" size="117">
+    <file>src/aurora/simd/dot-product.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>export function batchDotProductFp16(
+  target: Uint16Array,
+  vectors: Uint16Array[],
+  scores: number[]
+): void {
+  // Use existing batch implementation from fp16 module
+  batchDotProductFp16(target, vectors, scores);
+}</find_text>
+    <semantics>Replace recursive wrapper with re-export comment.</semantics>
+    <content_md5_6ab36ad8f81cfa4cc8348034fe89c4fc>
+      // batchDotProductFp16 is imported from '../utils/fp16.js' and re-exported
+      export { batchDotProductFp16 } from '../utils/fp16.js';
+    </content_md5_6ab36ad8f81cfa4cc8348034fe89c4fc>
+  </update_md5_6ab36ad8f81cfa4cc8348034fe89c4fc>
+</updates>

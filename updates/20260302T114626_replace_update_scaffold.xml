@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_9914216e386cefdb7fbe184ec26d3e50 name="memory_clearing" md5="9914216e386cefdb7fbe184ec26d3e50" size="708">
+    <file>src/aurora/integration/rag-wrapper.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>const vectors: Float32Array[] = [];
+const rows: RagChunkRow[] = [];
+for (const c of candidates) {
+  const id = Number(c.id);
+  const vec = idToVec.get(id);
+  if (!vec) continue;
+  vectors.push(vec);
+  rows.push(c);
+}
+
+// Convert vectors to FP16 storage if enabled
+let fp16Vectors: Uint16Array[] | null = null;
+if (useFp16Storage &amp;&amp; vectors.length &gt; 0) {
+  fp16Vectors = vectors.map(vec =&gt; float32ArrayToFp16(vec));
+  // Clear vectors to save memory (they can be reconstructed from FP16)
+  // vectors = []; // Keep vectors for now to avoid rewriting logic
+}
+
+if (vectors.length &lt;= k) {
+  return rows;
+}
+
+// Helper to get vectors (convert from FP16 if needed)
+const getVectors = (): Float32Array[] =&gt; {
+  if (useFp16Storage &amp;&amp; fp16Vectors &amp;&amp; fp16Vectors.length &gt; 0) {
+    return fp16Vectors.map(fp16 =&gt; fp16ToFloat32Array(fp16));
+  }
+  return vectors;
+};</find_text>
+    <semantics>Replace vectors block with memory clearing optimization.</semantics>
+    <content_md5_9914216e386cefdb7fbe184ec26d3e50>
+      // Build arrays of vectors and rows
+      let vectors: Float32Array[] = [];
+      const rows: RagChunkRow[] = [];
+      for (const c of candidates) {
+        const id = Number(c.id);
+        const vec = idToVec.get(id);
+        if (!vec) continue;
+        vectors.push(vec);
+        rows.push(c);
+      }
+      
+      const vectorCount = vectors.length;
+      
+      // Convert vectors to FP16 storage if enabled
+      let fp16Vectors: Uint16Array[] | null = null;
+      if (useFp16Storage &amp;&amp; vectorCount &gt; 0) {
+        fp16Vectors = vectors.map(vec =&gt; float32ArrayToFp16(vec));
+        // Clear vectors to save memory (they can be reconstructed from FP16)
+        vectors = [];
+      }
+      
+      if (vectorCount &lt;= k) {
+        return rows;
+      }
+      
+      // Helper to get vectors (convert from FP16 if needed)
+      const getVectors = (): Float32Array[] =&gt; {
+        if (useFp16Storage &amp;&amp; fp16Vectors &amp;&amp; fp16Vectors.length &gt; 0) {
+          return fp16Vectors.map(fp16 =&gt; fp16ToFloat32Array(fp16));
+        }
+        return vectors;
+      };
+    </content_md5_9914216e386cefdb7fbe184ec26d3e50>
+  </update_md5_9914216e386cefdb7fbe184ec26d3e50>
+</updates>

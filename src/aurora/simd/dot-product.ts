@@ -7,6 +7,63 @@
  * All vectors are assumed to be normalized (unit length).
  */
 
+import { fp16ToF32Fast, dotProductFp16Unrolled } from '../utils/fp16.js';
+
+/**
+ * Dot product for FP16 vectors (converts on the fly).
+ */
+export function dotProductFp16(a: Uint16Array, b: Uint16Array): number {
+  // Use unrolled implementation from fp16 module
+  return dotProductFp16Unrolled(a, b);
+}
+
+/**
+ * Batch dot product for FP16 vectors.
+ * Converts target once to FP32, then each candidate vector on the fly.
+ */
+// batchDotProductFp16 is imported from '../utils/fp16.js' and re-exported
+export { batchDotProductFp16 } from '../utils/fp16.js';
+
+/**
+ * Dot product between FP16 vector and FP32 vector.
+ * Useful when one vector is already in FP32 (e.g., query vector).
+ */
+export function dotProductFp16F32(a: Uint16Array, b: Float32Array): number {
+  const len = a.length;
+  if (len !== b.length) {
+    throw new Error(`Vector length mismatch: ${len} vs ${b.length}`);
+  }
+
+  let sum = 0;
+  for (let i = 0; i < len; i++) {
+    sum += fp16ToF32Fast(a[i]) * b[i];
+  }
+  return sum;
+}
+
+/**
+ * Batch dot product with FP16 target and FP32 vectors.
+ */
+export function batchDotProductFp16F32(
+  target: Uint16Array,
+  vectors: Float32Array[],
+  scores: number[]
+): void {
+  const n = vectors.length;
+  if (scores.length < n) {
+    throw new Error(`scores array too small: ${scores.length} < ${n}`);
+  }
+
+  // Convert target once to FP32
+  const targetF32 = new Float32Array(target.length);
+  for (let d = 0; d < target.length; d++) {
+    targetF32[d] = fp16ToF32Fast(target[d]);
+  }
+
+  // Compute dot products using existing FP32 batch function
+  batchDotProduct(targetF32, vectors, scores);
+}
+
 /**
  * Scalar dot product (baseline).
  */
@@ -217,3 +274,17 @@ export function benchmarkDotProduct(
   
   return results;
 }
+
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/aurora/simd/dot-product.ts"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/aurora/simd/dot-product.ts.backup_20260302T200026_140538"
+//   "created_at": "2026-03-02T12:00:26.154554+00:00"
+//   "backup_hash": "b54115483d68b4477e7b14855bf838ef"
+//   "new_hash": "903181138923dc71dcc869f7754f3ae3"
+//   "goal_id": "fix_imports"
+//   "semantics": "Remove unused imports f32ToFp16Fast and batchDotProductFp16."
+//   "update_attrs": {"relative_path": "src/aurora/simd/dot-product.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "import { f32ToFp16Fast, fp16ToF32Fast, dotProductFp16Unrolled, batchDotProductFp16 } from '../utils/fp16.js';", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/aurora/simd/dot-product.ts\""
+// }

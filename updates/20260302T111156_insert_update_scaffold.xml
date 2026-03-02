@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_93b6c0afd59ff2967678be27bd7dbc68 name="text_insert_before_anchor" md5="93b6c0afd59ff2967678be27bd7dbc68" size="1780">
+    <file>src/aurora/utils/fp16.ts</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>Convert Float32Array to Uint16Array of FP16 values.</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Insert fast FP16 conversion functions before array conversion functions</semantics>
+    <content_md5_93b6c0afd59ff2967678be27bd7dbc68>
+      /**
+       * Optimized FP32 to FP16 conversion using integer arithmetic (no DataView).
+       * Faster for bulk operations.
+       */
+      export function f32ToFp16Fast(value: number): number {
+        // Handle special cases
+        if (isNaN(value)) return 0x7e00;
+        if (!isFinite(value)) return value &gt; 0 ? 0x7c00 : 0xfc00;
+      
+        // Extract bits using typed array (faster than DataView for single value)
+        const buf = new ArrayBuffer(4);
+        const f32 = new Float32Array(buf);
+        f32[0] = value;
+        const view = new Uint32Array(buf);
+        const bits = view[0];
+      
+        const sign = (bits &gt;&gt; 31) &amp; 0x1;
+        let exponent = (bits &gt;&gt; 23) &amp; 0xff;
+        let mantissa = bits &amp; 0x7fffff;
+      
+        // Special case: zero or denormal
+        if (exponent === 0 &amp;&amp; mantissa === 0) {
+          return sign &lt;&lt; 15;
+        }
+      
+        // Convert exponent from FP32 bias (127) to FP16 bias (15)
+        let exp16 = exponent - 127 + 15;
+      
+        // Handle overflow/underflow
+        if (exp16 &gt;= 31) {
+          // Overflow -&gt; infinity
+          return (sign &lt;&lt; 15) | 0x7c00;
+        }
+        if (exp16 &lt;= 0) {
+          // Underflow -&gt; denormal (may flush to zero)
+          if (exp16 &lt; -10) {
+            // Too small, flush to zero
+            return sign &lt;&lt; 15;
+          }
+          // Denormal
+          mantissa |= 0x800000; // implicit leading 1
+          const shift = 1 - exp16;
+          mantissa &gt;&gt;= shift;
+          exp16 = 0;
+        } else {
+          // Normal number
+          mantissa &gt;&gt;= 13; // Keep 10 bits
+        }
+      
+        // Combine
+        return (sign &lt;&lt; 15) | (exp16 &lt;&lt; 10) | (mantissa &amp; 0x3ff);
+      }
+      
+      /**
+       * Optimized FP16 to FP32 conversion using integer arithmetic.
+       */
+      export function fp16ToF32Fast(fp16: number): number {
+        const sign = (fp16 &gt;&gt; 15) &amp; 0x1;
+        const exponent = (fp16 &gt;&gt; 10) &amp; 0x1f;
+        const mantissa = fp16 &amp; 0x3ff;
+      
+        if (exponent === 0x1f) {
+          // Infinity or NaN
+          if (mantissa === 0) {
+            return sign === 0 ? Infinity : -Infinity;
+          }
+          return NaN;
+        }
+      
+        let exp32: number;
+        let mant32: number;
+      
+        if (exponent === 0) {
+          // Denormal or zero
+          if (mantissa === 0) {
+            return sign === 0 ? 0 : -0;
+          }
+          exp32 = 1 - 15; // exponent bias adjustment
+          mant32 = mantissa &lt;&lt; 13;
+        } else {
+          // Normal number
+          exp32 = exponent - 15;
+          mant32 = (mantissa | 0x400) &lt;&lt; 13; // add implicit leading 1
+        }
+      
+        // Convert to FP32 bias (127)
+        exp32 += 127;
+      
+        // Combine bits
+        const bits = (sign &lt;&lt; 31) | ((exp32 &amp; 0xff) &lt;&lt; 23) | (mant32 &amp; 0x7fffff);
+        const buf = new ArrayBuffer(4);
+        const view = new Uint32Array(buf);
+        view[0] = bits;
+        const f32 = new Float32Array(buf);
+        return f32[0];
+      }
+    </content_md5_93b6c0afd59ff2967678be27bd7dbc68>
+  </update_md5_93b6c0afd59ff2967678be27bd7dbc68>
+</updates>

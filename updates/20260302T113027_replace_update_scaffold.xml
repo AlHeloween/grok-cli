@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_e5f9b5d52dca7543b07c9a582e986377 name="text_anchor_replace" md5="e5f9b5d52dca7543b07c9a582e986377" size="590">
+    <file>src/aurora/utils/fp16.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>export function float32ArrayToFp16(array: Float32Array): Uint16Array {
+  const result = new Uint16Array(array.length);
+  for (let i = 0; i &lt; array.length; i++) {
+    result[i] = f32ToFp16(array[i]);
+  }
+  return result;
+}</find_text>
+    <semantics>Replace float32ArrayToFp16 with optimized version using fast conversion and unrolled loop.</semantics>
+    <content_md5_e5f9b5d52dca7543b07c9a582e986377>
+      export function float32ArrayToFp16(array: Float32Array): Uint16Array {
+        const len = array.length;
+        const result = new Uint16Array(len);
+        let i = 0;
+        const limit = len - (len % 8);
+        // Unrolled loop: 8 conversions per iteration
+        for (; i &lt; limit; i += 8) {
+          result[i] = f32ToFp16Fast(array[i]);
+          result[i + 1] = f32ToFp16Fast(array[i + 1]);
+          result[i + 2] = f32ToFp16Fast(array[i + 2]);
+          result[i + 3] = f32ToFp16Fast(array[i + 3]);
+          result[i + 4] = f32ToFp16Fast(array[i + 4]);
+          result[i + 5] = f32ToFp16Fast(array[i + 5]);
+          result[i + 6] = f32ToFp16Fast(array[i + 6]);
+          result[i + 7] = f32ToFp16Fast(array[i + 7]);
+        }
+        // Handle remainder
+        for (; i &lt; len; i++) {
+          result[i] = f32ToFp16Fast(array[i]);
+        }
+        return result;
+      }
+    </content_md5_e5f9b5d52dca7543b07c9a582e986377>
+  </update_md5_e5f9b5d52dca7543b07c9a582e986377>
+  <update_md5_5602f7aa027c15340bd6c40b291c167f name="text_anchor_replace2" md5="5602f7aa027c15340bd6c40b291c167f" size="591">
+    <file>src/aurora/utils/fp16.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>export function fp16ToFloat32Array(array: Uint16Array): Float32Array {
+  const result = new Float32Array(array.length);
+  for (let i = 0; i &lt; array.length; i++) {
+    result[i] = fp16ToF32(array[i]);
+  }
+  return result;
+}</find_text>
+    <semantics>Replace fp16ToFloat32Array with optimized version using fast conversion and unrolled loop.</semantics>
+    <content_md5_5602f7aa027c15340bd6c40b291c167f>
+      export function fp16ToFloat32Array(array: Uint16Array): Float32Array {
+        const len = array.length;
+        const result = new Float32Array(len);
+        let i = 0;
+        const limit = len - (len % 8);
+        // Unrolled loop: 8 conversions per iteration
+        for (; i &lt; limit; i += 8) {
+          result[i] = fp16ToF32Fast(array[i]);
+          result[i + 1] = fp16ToF32Fast(array[i + 1]);
+          result[i + 2] = fp16ToF32Fast(array[i + 2]);
+          result[i + 3] = fp16ToF32Fast(array[i + 3]);
+          result[i + 4] = fp16ToF32Fast(array[i + 4]);
+          result[i + 5] = fp16ToF32Fast(array[i + 5]);
+          result[i + 6] = fp16ToF32Fast(array[i + 6]);
+          result[i + 7] = fp16ToF32Fast(array[i + 7]);
+        }
+        // Handle remainder
+        for (; i &lt; len; i++) {
+          result[i] = fp16ToF32Fast(array[i]);
+        }
+        return result;
+      }
+    </content_md5_5602f7aa027c15340bd6c40b291c167f>
+  </update_md5_5602f7aa027c15340bd6c40b291c167f>
+</updates>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_b6a69374006d333eac58d4c02d20a5eb name="fix_imports" md5="b6a69374006d333eac58d4c02d20a5eb" size="67">
+    <file>src/aurora/simd/dot-product.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>import { f32ToFp16Fast, fp16ToF32Fast, dotProductFp16Unrolled, batchDotProductFp16 } from '../utils/fp16.js';</find_text>
+    <semantics>Remove unused imports f32ToFp16Fast and batchDotProductFp16.</semantics>
+    <content_md5_b6a69374006d333eac58d4c02d20a5eb>
+      import { fp16ToF32Fast, dotProductFp16Unrolled } from '../utils/fp16.js';
+    </content_md5_b6a69374006d333eac58d4c02d20a5eb>
+  </update_md5_b6a69374006d333eac58d4c02d20a5eb>
+</updates>

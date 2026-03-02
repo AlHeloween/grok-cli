@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_bc88c1f2582d40aa205ab42955cce24a name="add_fp16_import" md5="bc88c1f2582d40aa205ab42955cce24a" size="199">
+    <file>src/aurora/integration/rag-wrapper.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>import { extractClusterKeywordsWithGlove } from '../../rag/semantic-vector.js';
+
+export interface AuroraRagOptions extends RagRetrieveOptions {</find_text>
+    <semantics>Add FP16 utilities import after other imports</semantics>
+    <content_md5_bc88c1f2582d40aa205ab42955cce24a>
+      import { extractClusterKeywordsWithGlove } from '../../rag/semantic-vector.js';
+      import { float32ArrayToFp16, fp16ToFloat32Array } from '../utils/fp16.js';
+      
+      export interface AuroraRagOptions extends RagRetrieveOptions {
+    </content_md5_bc88c1f2582d40aa205ab42955cce24a>
+  </update_md5_bc88c1f2582d40aa205ab42955cce24a>
+  <update_md5_8e5b92441e6fe1ed6fd4d78ac8d82a91 name="add_fp16_option_interface" md5="8e5b92441e6fe1ed6fd4d78ac8d82a91" size="218">
+    <file>src/aurora/integration/rag-wrapper.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  /** Weight for translation component in dual‑quaternion distance (default: 1.0) */
+  dualQuatTranslationWeight?: number;
+}</find_text>
+    <semantics>Add useFp16Storage option to AuroraRagOptions interface</semantics>
+    <content_md5_8e5b92441e6fe1ed6fd4d78ac8d82a91>
+        /** Weight for translation component in dual‑quaternion distance (default: 1.0) */
+        dualQuatTranslationWeight?: number;
+        /** Enable FP16 storage for vectors (reduces memory, adds conversion overhead) (default: false) */
+        useFp16Storage?: boolean;
+      }
+    </content_md5_8e5b92441e6fe1ed6fd4d78ac8d82a91>
+  </update_md5_8e5b92441e6fe1ed6fd4d78ac8d82a91>
+  <update_md5_dab8066cd187f5c184889d6671f957ad name="add_fp16_conversion_logic" md5="dab8066cd187f5c184889d6671f957ad" size="635">
+    <file>src/aurora/integration/rag-wrapper.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  // Read Aurora settings if not explicitly overridden
+  const auroraEnabled = settings.getRagAuroraEnabled(cwd);
+  let useFractalQuantization = options.useFractalQuantization ?? settings.getRagAuroraFractalQuantization(cwd);
+  let useDualQuaternionDistance = options.useDualQuaternionDistance ?? settings.getRagAuroraDualQuaternionDistance(cwd);
+  let useGloveKeywords = options.useGloveKeywords ?? settings.getRagAuroraGloveKeywords(cwd);
+
+  // Master toggle overrides all
+  if (!auroraEnabled) {
+    useFractalQuantization = false;
+    useDualQuaternionDistance = false;
+    useGloveKeywords = false;
+  }</find_text>
+    <semantics>Add FP16 storage setting and initialize vectors storage</semantics>
+    <content_md5_dab8066cd187f5c184889d6671f957ad>
+      // Read Aurora settings if not explicitly overridden
+      const auroraEnabled = settings.getRagAuroraEnabled(cwd);
+      let useFractalQuantization = options.useFractalQuantization ?? settings.getRagAuroraFractalQuantization(cwd);
+      let useDualQuaternionDistance = options.useDualQuaternionDistance ?? settings.getRagAuroraDualQuaternionDistance(cwd);
+      let useGloveKeywords = options.useGloveKeywords ?? settings.getRagAuroraGloveKeywords(cwd);
+      let useFp16Storage = options.useFp16Storage ?? settings.getRagAuroraUseFp16Storage(cwd);
+      
+      // Master toggle overrides all
+      if (!auroraEnabled) {
+        useFractalQuantization = false;
+        useDualQuaternionDistance = false;
+        useGloveKeywords = false;
+        useFp16Storage = false;
+      }
+    </content_md5_dab8066cd187f5c184889d6671f957ad>
+  </update_md5_dab8066cd187f5c184889d6671f957ad>
+  <update_md5_459c78046aefd0362c47bfab450a57e2 name="convert_vectors_to_fp16" md5="459c78046aefd0362c47bfab450a57e2" size="486">
+    <file>src/aurora/integration/rag-wrapper.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  // Build arrays of vectors and rows
+  const vectors: Float32Array[] = [];
+  const rows: RagChunkRow[] = [];
+  for (const c of candidates) {
+    const id = Number(c.id);
+    const vec = idToVec.get(id);
+    if (!vec) continue;
+    vectors.push(vec);
+    rows.push(c);
+  }</find_text>
+    <semantics>Add FP16 storage conversion for vectors</semantics>
+    <content_md5_459c78046aefd0362c47bfab450a57e2>
+      // Build arrays of vectors and rows
+      const vectors: Float32Array[] = [];
+      const rows: RagChunkRow[] = [];
+      for (const c of candidates) {
+        const id = Number(c.id);
+        const vec = idToVec.get(id);
+        if (!vec) continue;
+        vectors.push(vec);
+        rows.push(c);
+      }
+      
+      // Convert vectors to FP16 storage if enabled
+      let fp16Vectors: Uint16Array[] | null = null;
+      if (useFp16Storage &amp;&amp; vectors.length &gt; 0) {
+        fp16Vectors = vectors.map(vec =&gt; float32ArrayToFp16(vec));
+        // Clear vectors to save memory (they can be reconstructed from FP16)
+        // vectors = []; // Keep vectors for now to avoid rewriting logic
+      }
+    </content_md5_459c78046aefd0362c47bfab450a57e2>
+  </update_md5_459c78046aefd0362c47bfab450a57e2>
+  <update_md5_db335016390897dd6e6033a1a2c348d5 name="add_get_vectors_helper" md5="db335016390897dd6e6033a1a2c348d5" size="240">
+    <file>src/aurora/integration/rag-wrapper.ts</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  if (vectors.length &lt;= k) {
+    return rows;
+  }</find_text>
+    <semantics>Add helper function to get vectors with FP16 conversion</semantics>
+    <content_md5_db335016390897dd6e6033a1a2c348d5>
+      if (vectors.length &lt;= k) {
+        return rows;
+      }
+      
+      // Helper to get vectors (convert from FP16 if needed)
+      const getVectors = (): Float32Array[] =&gt; {
+        if (useFp16Storage &amp;&amp; fp16Vectors &amp;&amp; fp16Vectors.length &gt; 0) {
+          return fp16Vectors.map(fp16 =&gt; fp16ToFloat32Array(fp16));
+        }
+        return vectors;
+      };
+    </content_md5_db335016390897dd6e6033a1a2c348d5>
+  </update_md5_db335016390897dd6e6033a1a2c348d5>
+  <update_md5_fd929972f3b6b621b62b49c7050f51da name="update_vector_usage_quantization" md5="fd929972f3b6b621b62b49c7050f51da" size="424">
+    <file>src/aurora/integration/rag-wrapper.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  // 3. Apply fractal quantization if enabled
+  if (useFractalQuantization) {
+    const dim = options.fractalDimension ?? 8;
+    const depth = options.fractalDepth ?? 3;
+
+    // Generate Sierpinski centroids (deterministic)
+    const centroids = generateSierpinskiCentroids({
+      nDim: dim,
+      depth,
+      seed: 42,
+    });
+
+    // Map each vector to its nearest centroid (simple quantization)
+    const quantizedVectors = vectors.map(vec =&gt; {</find_text>
+    <semantics>Update fractal quantization to use getVectors() helper</semantics>
+    <content_md5_fd929972f3b6b621b62b49c7050f51da>
+      // 3. Apply fractal quantization if enabled
+      if (useFractalQuantization) {
+        const dim = options.fractalDimension ?? 8;
+        const depth = options.fractalDepth ?? 3;
+      
+        // Generate Sierpinski centroids (deterministic)
+        const centroids = generateSierpinskiCentroids({
+          nDim: dim,
+          depth,
+          seed: 42,
+        });
+      
+        // Get vectors (converted from FP16 if needed)
+        const currentVectors = getVectors();
+      
+        // Map each vector to its nearest centroid (simple quantization)
+        const quantizedVectors = currentVectors.map(vec =&gt; {
+    </content_md5_fd929972f3b6b621b62b49c7050f51da>
+  </update_md5_fd929972f3b6b621b62b49c7050f51da>
+  <update_md5_3ad8187c6791f6b54a5dbd3a9fdc6750 name="update_dual_quat_usage" md5="3ad8187c6791f6b54a5dbd3a9fdc6750" size="295">
+    <file>src/aurora/integration/rag-wrapper.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  // 4. Standard k-medoids with optional dual-quaternion distance
+  let distanceMetric: KMedoidsDistance = 'cosine';
+  if (useDualQuaternionDistance) {
+    // Check if vectors are already 8D (dual quaternions)
+    const is8D = vectors.every(v =&gt; v.length === 8);</find_text>
+    <semantics>Update dual-quaternion distance to use getVectors() helper</semantics>
+    <content_md5_3ad8187c6791f6b54a5dbd3a9fdc6750>
+      // 4. Standard k-medoids with optional dual-quaternion distance
+      let distanceMetric: KMedoidsDistance = 'cosine';
+      if (useDualQuaternionDistance) {
+        // Get vectors (converted from FP16 if needed)
+        const currentVectors = getVectors();
+      
+        // Check if vectors are already 8D (dual quaternions)
+        const is8D = currentVectors.every(v =&gt; v.length === 8);
+    </content_md5_3ad8187c6791f6b54a5dbd3a9fdc6750>
+  </update_md5_3ad8187c6791f6b54a5dbd3a9fdc6750>
+  <update_md5_604c6ab71ab0e583dd72142290e77950 name="update_kmedoids_usage" md5="604c6ab71ab0e583dd72142290e77950" size="124">
+    <file>src/aurora/integration/rag-wrapper.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  // Standard k-medoids selection
+  const medoidIdx = selectKMedoids(vectors, k, distanceMetric);</find_text>
+    <semantics>Update standard k-medoids to use getVectors() helper</semantics>
+    <content_md5_604c6ab71ab0e583dd72142290e77950>
+      // Standard k-medoids selection
+      const currentVectors = getVectors();
+      const medoidIdx = selectKMedoids(currentVectors, k, distanceMetric);
+    </content_md5_604c6ab71ab0e583dd72142290e77950>
+  </update_md5_604c6ab71ab0e583dd72142290e77950>
+</updates>

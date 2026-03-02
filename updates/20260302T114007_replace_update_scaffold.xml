@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_7e66751594f947567447f3ab21daabe4 name="fix_import" md5="7e66751594f947567447f3ab21daabe4" size="150">
+    <file>src/aurora/simd/dot-product.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>import { f32ToFp16Fast, fp16ToF32Fast, dotProductFp16Unrolled, batchDotProductFp16 /**
+ * Dot product for FP16 vectors (converts on the fly).
+ */</find_text>
+    <semantics>Replace malformed import line with correct import and preserve comment.</semantics>
+    <content_md5_7e66751594f947567447f3ab21daabe4>
+      import { f32ToFp16Fast, fp16ToF32Fast, dotProductFp16Unrolled, batchDotProductFp16 } from '../utils/fp16.js';
+      
+      /**
+       * Dot product for FP16 vectors (converts on the fly).
+       */
+    </content_md5_7e66751594f947567447f3ab21daabe4>
+  </update_md5_7e66751594f947567447f3ab21daabe4>
+</updates>

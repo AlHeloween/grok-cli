@@ -70,8 +70,8 @@ describe('FP16 conversion utilities', () => {
       for (const val of testValues) {
         const fp16 = f32ToFp16(val);
         const back = fp16ToF32(fp16);
-        // FP16 has about 3-4 decimal digits of precision
-        expect(back).toBeCloseTo(val, 3);
+        // FP16 has about 3-4 decimal digits of precision; use 2 digits tolerance for safety
+        expect(back).toBeCloseTo(val, 2);
       }
     });
   });

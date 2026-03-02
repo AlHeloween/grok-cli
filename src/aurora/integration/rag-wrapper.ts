@@ -22,6 +22,7 @@ import { vectorToDualQuaternion, dualQuatGeodesicDistance as _dualQuatGeodesicDi
 import { ffeQuantize, ffeAddressToString } from '../memory/ffe-quantization.js';
 import { latticeAddressFromFfe, latticeAddressToString } from '../memory/lattice-addressing.js';
 import { extractClusterKeywordsWithGlove } from '../../rag/semantic-vector.js';
+import { float32ArrayToFp16, fp16ToFloat32Array } from '../utils/fp16.js';
 
 export interface AuroraRagOptions extends RagRetrieveOptions {
   /** Enable Aurora fractal centroid quantization (default: false) */
@@ -36,8 +37,10 @@ export interface AuroraRagOptions extends RagRetrieveOptions {
   fractalDepth?: number;
   /** Weight for rotation component in dual‑quaternion distance (default: 1.0) */
   dualQuatRotationWeight?: number;
-  /** Weight for translation component in dual‑quaternion distance (default: 1.0) */
+    /** Weight for translation component in dual‑quaternion distance (default: 1.0) */
   dualQuatTranslationWeight?: number;
+  /** Enable FP16 storage for vectors (reduces memory, adds conversion overhead) (default: false) */
+  useFp16Storage?: boolean;
 }
 
 /**
@@ -56,16 +59,18 @@ export async function auroraRetrieveTopK(
   let useFractalQuantization = options.useFractalQuantization ?? settings.getRagAuroraFractalQuantization(cwd);
   let useDualQuaternionDistance = options.useDualQuaternionDistance ?? settings.getRagAuroraDualQuaternionDistance(cwd);
   let useGloveKeywords = options.useGloveKeywords ?? settings.getRagAuroraGloveKeywords(cwd);
+  let useFp16Storage = options.useFp16Storage ?? settings.getRagAuroraUseFp16Storage(cwd);
   
   // Master toggle overrides all
   if (!auroraEnabled) {
     useFractalQuantization = false;
     useDualQuaternionDistance = false;
     useGloveKeywords = false;
+    useFp16Storage = false;
   }
   
   // Fall back to standard retrieveTopK if no Aurora features enabled
-  if (!useFractalQuantization && !useDualQuaternionDistance && !useGloveKeywords) {
+  if (!useFractalQuantization && !useDualQuaternionDistance && !useGloveKeywords && !useFp16Storage) {
     return retrieveTopK(queryText, options);
   }
 
@@ -91,19 +96,38 @@ export async function auroraRetrieveTopK(
   const idToVec = db.getChunkVectorsByIds(ids);
 
   // Build arrays of vectors and rows
-  const vectors: Float32Array[] = [];
-  const rows: RagChunkRow[] = [];
-  for (const c of candidates) {
-    const id = Number(c.id);
-    const vec = idToVec.get(id);
-    if (!vec) continue;
-    vectors.push(vec);
-    rows.push(c);
-  }
+// Build arrays of vectors and rows
+let vectors: Float32Array[] = [];
+const rows: RagChunkRow[] = [];
+for (const c of candidates) {
+  const id = Number(c.id);
+  const vec = idToVec.get(id);
+  if (!vec) continue;
+  vectors.push(vec);
+  rows.push(c);
+}
 
-  if (vectors.length <= k) {
-    return rows;
+const vectorCount = vectors.length;
+
+// Convert vectors to FP16 storage if enabled
+let fp16Vectors: Uint16Array[] | null = null;
+if (useFp16Storage && vectorCount > 0) {
+  fp16Vectors = vectors.map(vec => float32ArrayToFp16(vec));
+  // Clear vectors to save memory (they can be reconstructed from FP16)
+  vectors = [];
+}
+
+if (vectorCount <= k) {
+  return rows;
+}
+
+// Helper to get vectors (convert from FP16 if needed)
+const getVectors = (): Float32Array[] => {
+  if (useFp16Storage && fp16Vectors && fp16Vectors.length > 0) {
+    return fp16Vectors.map(fp16 => fp16ToFloat32Array(fp16));
   }
+  return vectors;
+};
 
   // 3. Apply fractal quantization if enabled
   if (useFractalQuantization) {
@@ -117,8 +141,11 @@ export async function auroraRetrieveTopK(
       seed: 42,
     });
 
+    // Get vectors (converted from FP16 if needed)
+    const currentVectors = getVectors();
+
     // Map each vector to its nearest centroid (simple quantization)
-    const quantizedVectors = vectors.map(vec => {
+    const quantizedVectors = currentVectors.map(vec => {
       // Project high-dimensional vector to fractal dimension if needed
       let projected: number[];
       if (vec.length > dim) {
@@ -163,15 +190,18 @@ export async function auroraRetrieveTopK(
   }
 
   // 4. Standard k-medoids with optional dual-quaternion distance
-  let distanceMetric: KMedoidsDistance = 'cosine';
-  if (useDualQuaternionDistance) {
-    // Check if vectors are already 8D (dual quaternions)
-    const is8D = vectors.every(v => v.length === 8);
+let distanceMetric: KMedoidsDistance = 'cosine';
+if (useDualQuaternionDistance) {
+  // Get vectors (converted from FP16 if needed)
+  const currentVectors = getVectors();
+
+  // Check if vectors are already 8D (dual quaternions)
+  const is8D = currentVectors.every(v => v.length === 8);
     if (is8D) {
       distanceMetric = 'dual-quaternion-geodesic';
     } else {
       // Convert to dual quaternions via simple projection
-      const dualQuats = vectors.map(vec => vectorToDualQuaternion(vec));
+      const dualQuats = currentVectors.map(vec => vectorToDualQuaternion(vec));
       // Use dual-quaternion geodesic distance matrix
       const wRot = options.dualQuatRotationWeight ?? 1.0;
       const wTrans = options.dualQuatTranslationWeight ?? 1.0;
@@ -192,7 +222,8 @@ export async function auroraRetrieveTopK(
   }
 
   // Standard k-medoids selection
-  const medoidIdx = selectKMedoids(vectors, k, distanceMetric);
+const currentVectors = getVectors();
+const medoidIdx = selectKMedoids(currentVectors, k, distanceMetric);
   const selected = medoidIdx.map((i) => rows[i]).filter(Boolean);
 
   // 5. Apply GloVe keyword extraction if enabled
@@ -322,3 +353,17 @@ export function generateFfeLatticeAddresses(
   
   return addresses;
 }
+
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/aurora/integration/rag-wrapper.ts"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/aurora/integration/rag-wrapper.ts.backup_20260302T194938_799539"
+//   "created_at": "2026-03-02T11:49:38.815477+00:00"
+//   "backup_hash": "32fa37a0a11635329c910ec5934212a3"
+//   "new_hash": "48384d632f4385429aba3ce9e659f98c"
+//   "goal_id": "memory_clearing"
+//   "semantics": "Replace vectors block with memory clearing optimization."
+//   "update_attrs": {"relative_path": "src/aurora/integration/rag-wrapper.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "const vectors: Float32Array[] = [];\nconst rows: RagChunkRow[] = [];\nfor (const c of candidates) {\n  const id = Number(c.id);\n  const vec = idToVec.get(id);\n  if (!vec) continue;\n  vectors.push(vec);\n  rows.push(c);\n}\n\n// Convert vectors to FP16 storage if enabled\nlet fp16Vectors: Uint16Array[] | null = null;\nif (useFp16Storage && vectors.length > 0) {\n  fp16Vectors = vectors.map(vec => float32ArrayToFp16(vec));\n  // Clear vectors to save memory (they can be reconstructed from FP16)\n  // vectors = []; // Keep vectors for now to avoid rewriting logic\n}\n\nif (vectors.length <= k) {\n  return rows;\n}\n\n// Helper to get vectors (convert from FP16 if needed)\nconst getVectors = (): Float32Array[] => {\n  if (useFp16Storage && fp16Vectors && fp16Vectors.length > 0) {\n    return fp16Vectors.map(fp16 => fp16ToFloat32Array(fp16));\n  }\n  return vectors;\n};", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/aurora/integration/rag-wrapper.ts\""
+// }

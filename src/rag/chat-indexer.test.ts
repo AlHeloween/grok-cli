@@ -32,8 +32,8 @@ describe("chat-indexer", () => {
     // Setup default mocks
     mockGetSettingsManager.mockReturnValue({
       getRagDbPath: vi.fn((_cwd: string) => `/.grok/rag.db`),
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    } as any);
+
+    } as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
   });
 
   afterEach(() => {
@@ -71,8 +71,8 @@ describe("chat-indexer", () => {
       getModel: vi.fn(() => "text-embedding-3-small"),
       embed: vi.fn().mockResolvedValue(embedResult),
       embedBatch: vi.fn(),
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    }) as any;
+
+    }) as any /* eslint-disable-line @typescript-eslint/no-explicit-any */  
 
     const mockDbInstance = {
       beginTransaction: vi.fn(),
@@ -90,7 +90,7 @@ describe("chat-indexer", () => {
         .mockResolvedValueOnce([0.4, 0.5, 0.6]) // first entry
         .mockResolvedValueOnce([0.7, 0.8, 0.9]); // second entry
       mockCreateEmbeddingClient.mockReturnValue(mockEmbeddingClient);
-      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
+      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
 
       const options: ChatIndexOptions = { sessionId: "test-session" };
 
@@ -121,7 +121,7 @@ describe("chat-indexer", () => {
         .mockResolvedValueOnce([]) // first entry empty
         .mockResolvedValueOnce([0.7, 0.8, 0.9]); // second entry ok
       mockCreateEmbeddingClient.mockReturnValue(mockEmbeddingClient);
-      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
+      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
 
       const options: ChatIndexOptions = { sessionId: "test-session" };
 
@@ -137,7 +137,7 @@ describe("chat-indexer", () => {
       // Arrange
       const mockEmbeddingClient = createMockEmbeddingClient([0.1, 0.2, 0.3]);
       mockCreateEmbeddingClient.mockReturnValue(mockEmbeddingClient);
-      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
+      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
 
       const options: ChatIndexOptions = { sessionId: "test-session", replace: false };
 
@@ -152,7 +152,7 @@ describe("chat-indexer", () => {
       // Arrange
       const mockEmbeddingClient = createMockEmbeddingClient([]); // empty sample vector
       mockCreateEmbeddingClient.mockReturnValue(mockEmbeddingClient);
-      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
+      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
 
       const options: ChatIndexOptions = { sessionId: "test-session" };
 
@@ -166,7 +166,7 @@ describe("chat-indexer", () => {
       // Arrange
       const mockEmbeddingClient = createMockEmbeddingClient([0.1, 0.2, 0.3]);
       mockCreateEmbeddingClient.mockReturnValue(mockEmbeddingClient);
-      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
+      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
       mockDbInstance.insertChunk.mockImplementation(() => {
         throw new Error("DB error");
       });
@@ -188,7 +188,7 @@ describe("chat-indexer", () => {
 
     it("should delete chunks with session prefix", async () => {
       // Arrange
-      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
+      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
 
       // Act
       await deleteChatSession("test-session");
@@ -204,7 +204,7 @@ describe("chat-indexer", () => {
 
     it("should accept custom cwd", async () => {
       // Arrange
-      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
+      mockVectorDbOpen.mockResolvedValue(mockDbInstance as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
 
       // Act
       await deleteChatSession("test-session", "/custom/path");

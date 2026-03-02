@@ -1,0 +1,49 @@
+--- src/aurora/fractal/sierpinski.ts
++++ src/aurora/fractal/sierpinski.ts
+@@ -114,9 +114,13 @@
+       // Update LCG state
+       states[c] = ((states[c] * LCG_MULT) + LCG_ADD) & 0xFFFFFFFF;
+       // Choose random vertex
+       const vertexIdx = states[c] % nVertices;
++      if (vertexIdx < 0 || vertexIdx >= vertices.length) {
++        throw new Error(`vertexIdx out of bounds: ${vertexIdx}, vertices length ${vertices.length}`);
++      }
+       const vertex = vertices[vertexIdx];
++      if (!vertex) throw new Error(`vertex is undefined at index ${vertexIdx}`);
+ 
+       // Move to midpoint between current centroid and chosen vertex
+       const centroid = centroids[c];
+       for (let d = 0; d < nDim; d++) {
+@@ -162,12 +166,15 @@
+  * Utility: compute Euclidean distance between two vectors.
+  */
+ export function euclideanDistance(a: number[], b: number[]): number {
++  if (a.length !== b.length) throw new Error(`Vector length mismatch: ${a.length} vs ${b.length}`);
+   let sum = 0;
+   for (let i = 0; i < a.length; i++) {
+     const diff = a[i] - b[i];
+     sum += diff * diff;
+   }
+   return Math.sqrt(sum);
+ }
+ 
+ /**
+  * Find nearest centroid for a given vector.
+@@ -175,14 +182,17 @@
+ export function findNearestCentroid(
+   vector: number[],
+   centroids: number[][]
+ ): { index: number; distance: number } {
++  if (centroids.length === 0) throw new Error('centroids array is empty');
++  if (vector.length !== centroids[0].length) throw new Error('vector dimension mismatch');
+   let bestIdx = 0;
+   let bestDist = Infinity;
+ 
+   for (let i = 0; i < centroids.length; i++) {
++    if (centroids[i].length !== vector.length) throw new Error(`centroid ${i} dimension mismatch`);
+     const dist = euclideanDistance(vector, centroids[i]);
+     if (dist < bestDist) {
+       bestDist = dist;
+       bestIdx = i;
+     }
+   }

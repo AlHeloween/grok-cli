@@ -98,7 +98,7 @@ export class ChatHistoryPersistence {
       throw new Error(`Invalid session file: missing entries array`);
     }
     // Convert timestamp strings back to Date objects
-    const entries = parsed.entries.map((entry: any) => ({
+    const entries = parsed.entries.map((entry: any /* eslint-disable-line @typescript-eslint/no-explicit-any */) => ({
       ...entry,
       timestamp: new Date(entry.timestamp),
     }));
@@ -121,7 +121,7 @@ export class ChatHistoryPersistence {
       throw new Error(`Invalid session file: missing entries array`);
     }
     // Convert timestamp strings back to Date objects
-    return parsed.entries.map((entry: any) => ({
+    return parsed.entries.map((entry: any /* eslint-disable-line @typescript-eslint/no-explicit-any */) => ({
       ...entry,
       timestamp: new Date(entry.timestamp),
     }));

@@ -1,4 +1,7 @@
 import { selectKMedoids, type KMedoidsDistance } from "./k-medoids.js";
+import { GloVeLoader, createTestGloVeLoader } from "../aurora/glove/loader.js";
+import { SqliteGloVeLoader, createSqliteGloVeLoader } from "../aurora/glove/sqlite-loader.js";
+import * as path from "path";
 
 export interface KeywordWeight {
   keyword: string;
@@ -13,6 +16,30 @@ const STOPWORDS = new Set([
   "have", "has", "had", "do", "does", "did", "will", "would", "shall", "should", "may", "might", "must", "can", "could", "i", "you", "he", "she",
   "it", "we", "they", "me", "him", "her", "us", "them", "my", "your", "his", "its", "our", "their", "this", "that", "these", "those", "am", "not",
 ]);
+
+let sqliteLoader: SqliteGloVeLoader | null = null;
+let gloveLoader: GloVeLoader | null = null;
+
+// Try to load SQLite GloVe database automatically
+(async () => {
+  try {
+    const dbPath = path.resolve(process.cwd(), "data/glove/glove_50d.db");
+    sqliteLoader = await createSqliteGloVeLoader(dbPath);
+    gloveLoader = sqliteLoader; // assign to global gloveLoader
+    console.log(`[semantic-vector] Loaded GloVe SQLite database: ${dbPath}`);
+  } catch (err) {
+    console.warn(`[semantic-vector] Failed to load GloVe SQLite database: ${err instanceof Error ? err.message : String(err)}`);
+  }
+})();
+
+export function getGloveLoader(): GloVeLoader {
+  if (!gloveLoader) {
+    // For reference implementation, use test loader
+    // In production, load from file
+    gloveLoader = createTestGloVeLoader();
+  }
+  return gloveLoader;
+}
 
 /**
  * Tokenize text into lowercase words, removing stopwords and non‑alphabetic characters.
@@ -154,6 +181,121 @@ export function extractClusterKeywords(
       .map(([keyword, weight]) => ({ keyword, weight }));
     result.set(c, topWords);
   }
+  return result;
+}
+
+/**
+ * Extract top keywords for each cluster using GloVe vector similarity.
+ * Falls back to TF‑IDF if GloVe not available or word missing.
+ */
+export function extractClusterKeywordsWithGlove(
+  texts: string[],
+  clusterLabels: number[],
+  keywordsPerCluster: number = 5,
+  gloveLoader?: GloVeLoader
+): Map<number, KeywordWeight[]> {
+  const clusterCount = Math.max(...clusterLabels) + 1;
+  const clusterTexts: string[][] = Array.from({ length: clusterCount }, () => []);
+  for (let i = 0; i < texts.length; i++) {
+    clusterTexts[clusterLabels[i]].push(texts[i]);
+  }
+
+  const result = new Map<number, KeywordWeight[]>();
+  const loader = gloveLoader || getGloveLoader();
+  
+  for (let c = 0; c < clusterCount; c++) {
+    const docs = clusterTexts[c];
+    if (docs.length === 0) {
+      result.set(c, []);
+      continue;
+    }
+    
+    // Use GloVe‑based scoring
+    const allTokens: string[][] = docs.map(tokenize);
+    const wordFreq = new Map<string, number>();
+    const wordVectors = new Map<string, number[]>();
+    
+    // Collect words and frequencies
+    for (const tokens of allTokens) {
+      const seen = new Set<string>();
+      for (const token of tokens) {
+        wordFreq.set(token, (wordFreq.get(token) || 0) + 1);
+        seen.add(token);
+      }
+    }
+    
+    // Get GloVe vectors for words in vocabulary
+    const vocabWords = Array.from(wordFreq.keys());
+    const validWords: string[] = [];
+    const validVectors: number[][] = [];
+    
+    for (const word of vocabWords) {
+      const vector = loader.getVector(word);
+      if (vector) {
+        validWords.push(word);
+        validVectors.push(vector);
+        wordVectors.set(word, vector);
+      }
+    }
+    
+    let topWords: KeywordWeight[];
+    if (validWords.length === 0) {
+      // Fallback to TF‑IDF
+      const tfIdfMaps = computeTfIdf(docs);
+      const wordScores = new Map<string, number>();
+      for (const map of tfIdfMaps) {
+        for (const [word, score] of map) {
+          wordScores.set(word, (wordScores.get(word) || 0) + score);
+        }
+      }
+      topWords = Array.from(wordScores.entries())
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, keywordsPerCluster)
+        .map(([keyword, weight]) => ({ keyword, weight }));
+    } else {
+      // Compute centroid of valid word vectors
+      const dim = loader.getDimension();
+      const centroid = new Array(dim).fill(0);
+      for (const vec of validVectors) {
+        for (let i = 0; i < dim; i++) {
+          centroid[i] += vec[i];
+        }
+      }
+      for (let i = 0; i < dim; i++) centroid[i] /= validVectors.length;
+      // Normalize centroid
+      const norm = Math.sqrt(centroid.reduce((sum, v) => sum + v * v, 0));
+      if (norm > 0) {
+        for (let i = 0; i < dim; i++) centroid[i] /= norm;
+      }
+      
+      // Score each word by similarity to centroid * log(frequency)
+      const scores = new Map<string, number>();
+      for (let i = 0; i < validWords.length; i++) {
+        const word = validWords[i];
+        const vec = validVectors[i];
+        let dot = 0;
+        for (let d = 0; d < dim; d++) dot += vec[d] * centroid[d];
+        const similarity = dot; // vectors normalized
+        const freq = wordFreq.get(word) || 1;
+        const score = similarity * Math.log(1 + freq);
+        scores.set(word, score);
+      }
+      
+      // Include OOV words with penalty
+      for (const [word, freq] of wordFreq) {
+        if (scores.has(word)) continue;
+        scores.set(word, Math.log(1 + freq) * 0.1);
+      }
+      
+      topWords = Array.from(scores.entries())
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, keywordsPerCluster)
+        .map(([keyword, weight]) => ({ keyword, weight }));
+    }
+    
+    result.set(c, topWords);
+  }
+  
   return result;
 }
 

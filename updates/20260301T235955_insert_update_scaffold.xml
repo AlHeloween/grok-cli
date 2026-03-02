@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_753ed984a32611bc5cec8fcfa785288e name="text_insert_before_anchor" md5="753ed984a32611bc5cec8fcfa785288e" size="1159">
+    <file>src/config/registry.ts</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    {
+      key: "user.embeddings.model",</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Insert Aurora RAG configuration entries before user.embeddings.model entry.</semantics>
+    <content_md5_753ed984a32611bc5cec8fcfa785288e>
+      {
+        key: "project.rag.aurora.enabled",
+        scope: "project",
+        type: "boolean",
+        category: "RAG",
+        description: "Enable Aurora enhancements (fractal quantization, dual-quaternion distance, GloVe keywords).",
+        options: () =&gt; [
+          { value: "false", label: "Disabled (default)" },
+          { value: "true", label: "Enabled" },
+        ],
+      },
+      {
+        key: "project.rag.aurora.fractalQuantization",
+        scope: "project",
+        type: "boolean",
+        category: "RAG",
+        description: "Use fractal centroid quantization for vector search.",
+        options: () =&gt; [
+          { value: "false", label: "Disabled" },
+          { value: "true", label: "Enabled" },
+        ],
+      },
+      {
+        key: "project.rag.aurora.dualQuaternionDistance",
+        scope: "project",
+        type: "boolean",
+        category: "RAG",
+        description: "Use dual-quaternion geodesic distance instead of cosine similarity.",
+        options: () =&gt; [
+          { value: "false", label: "Disabled" },
+          { value: "true", label: "Enabled" },
+        ],
+      },
+      {
+        key: "project.rag.aurora.gloveKeywords",
+        scope: "project",
+        type: "boolean",
+        category: "RAG",
+        description: "Use GloVe vectors for keyword extraction.",
+        options: () =&gt; [
+          { value: "false", label: "Disabled" },
+          { value: "true", label: "Enabled" },
+        ],
+      },
+      {
+        key: "project.rag.aurora.gloveModelPath",
+        scope: "project",
+        type: "string",
+        category: "RAG",
+        description: "Path to GloVe SQLite database (relative to project root).",
+        template: "data/glove/glove_50d.db",
+      },
+    </content_md5_753ed984a32611bc5cec8fcfa785288e>
+  </update_md5_753ed984a32611bc5cec8fcfa785288e>
+</updates>

@@ -8,7 +8,7 @@ from pathlib import Path
 import torch
 
 # Add project root to path
-project_root = Path(__file__).parent.parent
+project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root))
 
 from aurora_genesis_core.pipeline.full_integration import create_full_pipeline
@@ -71,3 +71,17 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# ADID_ROLLBACK (from adm.exe)
+# SDID_ROLLBACK {
+#   "target_file": "D:\\zPython\\grok-cli\\aurora_genesis_core/examples/full_aurora_example.py"
+#   "update_script": "adm.exe"
+#   "backup_path": "D:\\zPython\\grok-cli\\aurora_genesis_core/examples/full_aurora_example.py.backup_20260302T111414_170865"
+#   "created_at": "2026-03-02T03:14:14.180491+00:00"
+#   "backup_hash": "de38165cb3fe0f592ae73307535c4b93"
+#   "new_hash": "535bddf13be68bb97c74a5feaedd1f3b"
+#   "goal_id": "text_anchor_replace"
+#   "semantics": "Fix sys.path to include project root instead of aurora_genesis_core directory."
+#   "update_attrs": {"relative_path": "aurora_genesis_core/examples/full_aurora_example.py", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "project_root = Path(__file__).parent.parent", "replace_present": true}
+#   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\aurora_genesis_core/examples/full_aurora_example.py\""
+# }

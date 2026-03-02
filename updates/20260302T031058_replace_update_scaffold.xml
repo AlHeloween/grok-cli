@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_2ce624912a60d19918e37c2e7717575d name="text_anchor_replace" md5="2ce624912a60d19918e37c2e7717575d" size="48">
+    <file>aurora_genesis_core/examples/full_aurora_example.py</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>project_root = Path(__file__).parent.parent</find_text>
+    <semantics>Fix sys.path to include project root instead of aurora_genesis_core directory.</semantics>
+    <content_md5_2ce624912a60d19918e37c2e7717575d>
+      project_root = Path(__file__).parent.parent.parent
+    </content_md5_2ce624912a60d19918e37c2e7717575d>
+  </update_md5_2ce624912a60d19918e37c2e7717575d>
+</updates>

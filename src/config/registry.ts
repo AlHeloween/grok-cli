@@ -190,6 +190,57 @@ export function getConfigRegistry(): ConfigKeyDef[] {
       template: "https://api.x.ai/v1",
     },
     {
+  key: "project.rag.aurora.enabled",
+  scope: "project",
+  type: "boolean",
+  category: "RAG",
+  description: "Enable Aurora enhancements (fractal quantization, dual-quaternion distance, GloVe keywords).",
+  options: () => [
+    { value: "false", label: "Disabled (default)" },
+    { value: "true", label: "Enabled" },
+  ],
+},
+{
+  key: "project.rag.aurora.fractalQuantization",
+  scope: "project",
+  type: "boolean",
+  category: "RAG",
+  description: "Use fractal centroid quantization for vector search.",
+  options: () => [
+    { value: "false", label: "Disabled" },
+    { value: "true", label: "Enabled" },
+  ],
+},
+{
+  key: "project.rag.aurora.dualQuaternionDistance",
+  scope: "project",
+  type: "boolean",
+  category: "RAG",
+  description: "Use dual-quaternion geodesic distance instead of cosine similarity.",
+  options: () => [
+    { value: "false", label: "Disabled" },
+    { value: "true", label: "Enabled" },
+  ],
+},
+{
+  key: "project.rag.aurora.gloveKeywords",
+  scope: "project",
+  type: "boolean",
+  category: "RAG",
+  description: "Use GloVe vectors for keyword extraction.",
+  options: () => [
+    { value: "false", label: "Disabled" },
+    { value: "true", label: "Enabled" },
+  ],
+},
+{
+  key: "project.rag.aurora.gloveModelPath",
+  scope: "project",
+  type: "string",
+  category: "RAG",
+  description: "Path to GloVe SQLite database (relative to project root).",
+  template: "data/glove/glove_50d.db",
+},{
       key: "user.embeddings.model",
       scope: "user",
       type: "string",
@@ -240,12 +291,12 @@ export function findConfigKey(key: string): ConfigKeyDef | undefined {
 // SDID_ROLLBACK {
 //   "target_file": "D:\\zPython\\grok-cli\\src/config/registry.ts"
 //   "update_script": "adm.exe"
-//   "backup_path": "D:\\zPython\\grok-cli\\src/config/registry.ts.backup_20260216T224751_172587"
-//   "created_at": "2026-02-16T14:47:51.192057+00:00"
-//   "backup_hash": "bc107da7ca81c768a97be77189630970"
-//   "new_hash": "da32943a56d36e1754d9e925c7f28c43"
-//   "goal_id": "config_registry_rag_extractor_keys_insert"
-//   "semantics": "Add config keys for sqlite-rag extractor selection and python command."
-//   "update_attrs": {"relative_path": "src/config/registry.ts", "update_type": "text", "mode": "insert", "encoding": "utf-8", "find_pattern": null, "find_text": "{\n      key: \"project.rag.embeddings.model\",", "replace_present": true}
+//   "backup_path": "D:\\zPython\\grok-cli\\src/config/registry.ts.backup_20260302T080149_815459"
+//   "created_at": "2026-03-02T00:01:49.853778+00:00"
+//   "backup_hash": "ecbc0433b716e0c0f0b93dfc136fe870"
+//   "new_hash": "1d67d687798c58aa2ab1c0fb667f651d"
+//   "goal_id": "text_insert_before_anchor"
+//   "semantics": "Insert Aurora RAG configuration entries before user.embeddings.model entry."
+//   "update_attrs": {"relative_path": "src/config/registry.ts", "update_type": "text", "mode": "insert", "encoding": "utf-8", "find_pattern": null, "find_text": "{\n      key: \"user.embeddings.model\",", "replace_present": true}
 //   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/config/registry.ts\""
 // }

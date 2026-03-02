@@ -118,8 +118,8 @@ describe("retrieveTopK", () => {
       })),
       getApiKey: vi.fn(() => "test-key"),
       getBaseURL: vi.fn(() => "https://api.test.com"),
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    } as any);
+     
+    } as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
   });
 
   afterEach(() => {
@@ -140,8 +140,8 @@ describe("retrieveTopK", () => {
     getModel: vi.fn(() => "text-embedding-3-small"),
     embed: vi.fn().mockResolvedValue(embedResult),
     embedBatch: vi.fn(),
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  }) as any;
+   
+  }) as any /* eslint-disable-line @typescript-eslint/no-explicit-any */  
 
   it("returns empty array when embedding vector is empty", async () => {
     mockExistsSync.mockReturnValue(true);
@@ -162,8 +162,8 @@ describe("retrieveTopK", () => {
       getDistanceMetric: vi.fn(),
       close: vi.fn(),
     };
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
+     
+    mockVectorDbOpen.mockResolvedValue(mockDbInstance as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
 
     const result = await retrieveTopK("query", { useKMedoids: false });
     expect(mockDbInstance.queryTopKWithPrefix).toHaveBeenCalledWith([0.1, 0.2, 0.3], 10, "chat://");
@@ -192,8 +192,8 @@ describe("retrieveTopK", () => {
       getDistanceMetric: vi.fn().mockReturnValue("L2"),
       close: vi.fn(),
     };
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
+     
+    mockVectorDbOpen.mockResolvedValue(mockDbInstance as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
     mockSelectKMedoids.mockReturnValue([0, 1]); // select first two as medoids
 
     const result = await retrieveTopK("query", { useKMedoids: true, topK: 2, candidateCount: 10 });
@@ -222,8 +222,8 @@ describe("retrieveTopK", () => {
       })),
       getApiKey: vi.fn(() => "test-key"),
       getBaseURL: vi.fn(() => "https://api.test.com"),
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    } as any);
+       
+    } as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
 
     const mockDbInstance = {
       queryTopK: vi.fn(),
@@ -240,7 +240,7 @@ describe("retrieveTopK", () => {
       getDistanceMetric: vi.fn(),
       close: vi.fn(),
     };
-    mockVectorDbOpen.mockResolvedValue(mockDbInstance as any);
+    mockVectorDbOpen.mockResolvedValue(mockDbInstance as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
 
     const result = await retrieveTopK("query", { searchChatFirst: true });
     expect(mockDbInstance.queryTopKWithPrefix).toHaveBeenCalledWith([0.1, 0.2, 0.3], 10, "chat://");

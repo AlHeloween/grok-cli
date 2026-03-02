@@ -1,4 +1,6 @@
-export type KMedoidsDistance = "cosine" | "l2";
+import { dualQuatGeodesicDistance } from '../aurora/dual-complex/dual-quaternion';
+
+export type KMedoidsDistance = "cosine" | "l2" | "dual-quaternion-geodesic";
 
 export interface KMedoidsOptions {
   maxIterations?: number;
@@ -62,7 +64,18 @@ function computeDistanceMatrix(
   const D: number[][] = Array.from({ length: n }, () => Array(n).fill(0));
   for (let i = 0; i < n; i++) {
     for (let j = i + 1; j < n; j++) {
-      const d = distance === "l2" ? l2Distance(vectors[i], vectors[j]) : cosineDistance(vectors[i], vectors[j]);
+      let d: number;
+      if (distance === "l2") {
+        d = l2Distance(vectors[i], vectors[j]);
+      } else if (distance === "dual-quaternion-geodesic") {
+        // Ensure vectors are dual quaternions (length 8)
+        if (vectors[i].length !== 8 || vectors[j].length !== 8) {
+          throw new Error(`Dual-quaternion geodesic distance requires vectors of length 8, got ${vectors[i].length} and ${vectors[j].length}`);
+        }
+        d = dualQuatGeodesicDistance(vectors[i], vectors[j]);
+      } else {
+        d = cosineDistance(vectors[i], vectors[j]);
+      }
       D[i][j] = d;
       D[j][i] = d;
     }
@@ -130,3 +143,16 @@ function l2Distance(a: Float32Array, b: Float32Array): number {
   return Math.sqrt(s);
 }
 
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/rag/k-medoids.ts"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/rag/k-medoids.ts.backup_20260301T230833_340832"
+//   "created_at": "2026-03-01T15:08:33.354467+00:00"
+//   "backup_hash": "6af70a3d1beb4d9c99d204adb04a5ad7"
+//   "new_hash": "0715a8d7b29faf75eb428cb4fe42924a"
+//   "goal_id": "add_dual_quaternion_distance"
+//   "semantics": "Add dual-quaternion geodesic distance metric to k-medoids.ts"
+//   "update_attrs": {"relative_path": "src/rag/k-medoids.ts", "update_type": "text", "mode": "overwrite", "encoding": "utf-8", "find_pattern": null, "find_text": "", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/rag/k-medoids.ts\""
+// }

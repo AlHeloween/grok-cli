@@ -29,7 +29,7 @@ type Oo1Db = any; // eslint-disable-line @typescript-eslint/no-explicit-any
 
 let sqlite3ModulePromise: Promise<Sqlite3Module> | null = null;
 
-async function loadSqlite3Module(): Promise<Sqlite3Module> {
+export async function loadSqlite3Module(): Promise<Sqlite3Module> {
   if (!sqlite3ModulePromise) {
     sqlite3ModulePromise = (async () => {
       const mod: any = await import("@sqliteai/sqlite-wasm"); // eslint-disable-line @typescript-eslint/no-explicit-any

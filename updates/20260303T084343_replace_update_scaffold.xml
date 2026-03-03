@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_a9b7afe1e23dbd54d9cf7a0a7e481899 name="text_anchor_replace" md5="a9b7afe1e23dbd54d9cf7a0a7e481899" size="30">
+    <file>src/ui/components/command-suggestions.tsx</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>export const MAX_SUGGESTIONS = 8;</find_text>
+    <semantics>Increase max suggestions to show all CLI options when navigating</semantics>
+    <content_md5_a9b7afe1e23dbd54d9cf7a0a7e481899>
+      export const MAX_SUGGESTIONS = 20;
+    </content_md5_a9b7afe1e23dbd54d9cf7a0a7e481899>
+  </update_md5_a9b7afe1e23dbd54d9cf7a0a7e481899>
+</updates>

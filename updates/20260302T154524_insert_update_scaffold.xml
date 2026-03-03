@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_58d90bca5897aeef17852ca928a4040c name="adid_framework_yaml_frontmatter" md5="58d90bca5897aeef17852ca928a4040c" size="695">
+    <file>docs/ADID_Framework_15_3.md</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>## The Autodidactic Development &amp; Intelligence Driver (ADID) Framework #adid_framework</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Add YAML frontmatter to ADID framework doc per extra_rules_for_all_agents.md</semantics>
+    <content_md5_58d90bca5897aeef17852ca928a4040c>
+      ---
+      title: "ADID Framework 15.3"
+      owner: "agents@grok-cli.local"
+      status: "production"
+      surface: "adid_framework"
+      last_verified: "2026-03-02"
+      tags: ["framework", "adid", "agent-rules", "traceability"]
+      related_code:
+        - "docs/ADID_Framework_15_3.md"
+        - "tools/adm.exe"
+        - "src/agent/grok-agent.ts"
+      summary: "Autodidactic Development &amp; Intelligence Driver framework for agent communication, traceability, and declarative updates."
+      
+      reproduce:
+        files:
+          - "docs/ADID_Framework_15_3.md"
+          - "tools/adm.exe"
+        commands:
+          - "grep -q \"ADID Framework\" docs/ADID_Framework_15_3.md"
+        inputs:
+          - "docs/ADID_Framework_15_3.md@sha256:831cf699720043851c340d1a03991956394b3782eebdf4dee05445863003cc97"
+        expected_outputs:
+          - "docs/ADID_Framework_15_3.md contains 'ADID Framework' header"
+      ---
+    </content_md5_58d90bca5897aeef17852ca928a4040c>
+  </update_md5_58d90bca5897aeef17852ca928a4040c>
+</updates>

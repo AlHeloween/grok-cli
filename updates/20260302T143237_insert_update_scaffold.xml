@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_bde2c7e5029962eb2f3a19606d4b5ee3 name="agents_md_yaml_frontmatter" md5="bde2c7e5029962eb2f3a19606d4b5ee3" size="480">
+    <file>AGENTS.md</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text># Quick-Start</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Add YAML frontmatter and reproduce block to AGENTS.md per extra_rules_for_all_agents.md</semantics>
+    <content_md5_bde2c7e5029962eb2f3a19606d4b5ee3>
+      ---
+      title: "Agent Operational Rules"
+      owner: "agents@grok-cli.local"
+      status: "production"
+      surface: "agents_md"
+      last_verified: "2026-03-02"
+      tags: ["agent", "documentation", "rules"]
+      related_code:
+        - "AGENTS.md"
+        - "docs/ADID_Framework_15_3.md"
+      summary: "Operational rules for agents using ADID framework and adm tool."
+      
+      reproduce:
+        files:
+          - "AGENTS.md"
+          - "docs/ADID_Framework_15_3.md"
+        commands:
+          - "grep -q \"Quick-Start\" AGENTS.md"
+        inputs:
+          - "AGENTS.md@sha256:TO_BE_FILLED"
+        expected_outputs:
+          - "AGENTS.md contains 'Quick-Start' header"
+      ---
+    </content_md5_bde2c7e5029962eb2f3a19606d4b5ee3>
+  </update_md5_bde2c7e5029962eb2f3a19606d4b5ee3>
+</updates>

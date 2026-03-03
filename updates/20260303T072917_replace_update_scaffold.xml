@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_270109231dcad6a539be8b6ce4f91103 name="text_anchor_replace" md5="270109231dcad6a539be8b6ce4f91103" size="640">
+    <file>src/hooks/use-enhanced-input.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    // Allow special key handler to override default behavior (e.g. paste → clipboard image when key.paste is true)
+    const specialResult = onSpecialKey?.(key, key.paste ? inputChar : undefined);
+    if (specialResult !== undefined &amp;&amp; specialResult !== null) {
+      const isPromise =
+        typeof (specialResult as Promise&lt;boolean&gt;).then === "function";
+      if (isPromise) {
+        (specialResult as Promise&lt;boolean&gt;).then((handled) =&gt; {
+          if (!handled &amp;&amp; key.paste &amp;&amp; inputChar) {
+            pendingPasteQueueRef.current.push(inputChar);
+            drainPasteQueue();
+          }
+        });
+        return;
+      }
+      if (specialResult) return;
+    }
+
+</find_text>
+    <semantics>Fix paste handling when special key handler returns false (non-promise)</semantics>
+    <content_md5_270109231dcad6a539be8b6ce4f91103>
+      // Allow special key handler to override default behavior (e.g. paste → clipboard image when key.paste is true)
+      const specialResult = onSpecialKey?.(key, key.paste ? inputChar : undefined);
+      if (specialResult !== undefined &amp;&amp; specialResult !== null) {
+        const isPromise =
+          typeof (specialResult as Promise&lt;boolean&gt;).then === "function";
+        if (isPromise) {
+          (specialResult as Promise&lt;boolean&gt;).then((handled) =&gt; {
+            if (!handled &amp;&amp; key.paste &amp;&amp; inputChar) {
+              pendingPasteQueueRef.current.push(inputChar);
+              drainPasteQueue();
+            }
+          });
+          return;
+        }
+        if (specialResult) return;
+      }
+      
+      // Handle paste (text) when special key handler didn't handle it
+      if (key.paste &amp;&amp; inputChar) {
+        pendingPasteQueueRef.current.push(inputChar);
+        drainPasteQueue();
+        return;
+      }
+    </content_md5_270109231dcad6a539be8b6ce4f91103>
+  </update_md5_270109231dcad6a539be8b6ce4f91103>
+</updates>

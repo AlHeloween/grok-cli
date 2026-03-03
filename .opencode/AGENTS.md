@@ -209,15 +209,15 @@ Use `uv run adm` only as fallback when `tools/adm` is not present (e.g. before a
 
 <!-- ADID_ROLLBACK (from adm.exe)
   SDID_ROLLBACK {
-    "target_file": "D:\\zPython\\grok-cli\\AGENTS.md"
+    "target_file": "D:\\zPython\\grok-cli\\.opencode/AGENTS.md"
     "update_script": "adm.exe"
-    "backup_path": "D:\\zPython\\grok-cli\\AGENTS.md.backup_20260302T224412_203632"
-    "created_at": "2026-03-02T14:44:12.217719+00:00"
+    "backup_path": "D:\\zPython\\grok-cli\\.opencode/AGENTS.md.backup_20260302T224412_442596"
+    "created_at": "2026-03-02T14:44:12.457061+00:00"
     "backup_hash": "a82a94ac488ada3cc23ad6742e0bf619"
     "new_hash": "ae3ee8a6665edf4876993ace1c6aff22"
-    "goal_id": "agents_md_hash_update"
-    "semantics": "Replace placeholder SHA256 hash with actual hash"
-    "update_attrs": {"relative_path": "AGENTS.md", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "- \"AGENTS.md@sha256:TO_BE_FILLED\"", "replace_present": true}
-    "restore_cmd": "uv run adm \u002d\u002drollback \"D:\\zPython\\grok-cli\\AGENTS.md\""
+    "goal_id": "opencode_agents_md_hash_update"
+    "semantics": "Replace placeholder SHA256 hash with actual hash in .opencode copy"
+    "update_attrs": {"relative_path": ".opencode/AGENTS.md", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "- \"AGENTS.md@sha256:TO_BE_FILLED\"", "replace_present": true}
+    "restore_cmd": "uv run adm \u002d\u002drollback \"D:\\zPython\\grok-cli\\.opencode/AGENTS.md\""
   }
 -->

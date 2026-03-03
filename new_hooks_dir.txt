@@ -1,5 +1,0 @@
-├── hooks/
-│   ├── use-input-handler.ts    # Commands, paste, model/theme, stream
-│   ├── use-enhanced-input.ts   # History, cursor, paste queue
-│   ├── use-input-history.ts   # Submitted line history
-│   └── rag-menu-handler.ts     # RAG menu logic (extracted)

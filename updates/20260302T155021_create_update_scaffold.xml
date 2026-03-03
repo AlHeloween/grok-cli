@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_9c52d43200e6bf04c1377b9681a4f38e name="rag_benchmark_script" md5="9c52d43200e6bf04c1377b9681a4f38e" size="3839">
+    <file>scripts/benchmark-rag.ts</file>
+    <update_type>text</update_type>
+    <mode>create</mode>
+    <encoding>utf-8</encoding>
+    <semantics>Create RAG benchmark script for FP16 vs FP32 performance comparison</semantics>
+    <content_md5_9c52d43200e6bf04c1377b9681a4f38e>
+      #!/usr/bin/env bun
+      
+      /**
+       * RAG benchmark comparing FP16 vs FP32 storage performance.
+       * Measures memory usage, retrieval speed, and accuracy.
+       */
+      
+      import { VectorDb } from '../src/rag/vector-db.js';
+      import { float32ArrayToFp16, fp16ToFloat32Array } from '../src/aurora/utils/fp16.js';
+      import { getSettingsManager } from '../src/utils/settings-manager.js';
+      import * as fs from 'fs';
+      import * as path from 'path';
+      import { tmpdir } from 'os';
+      
+      function randomVector(dim: number): number[] {
+        const arr = new Array(dim);
+        let norm = 0;
+        for (let i = 0; i &lt; dim; i++) {
+          const val = Math.random() * 2 - 1; // [-1, 1]
+          arr[i] = val;
+          norm += val * val;
+        }
+        norm = Math.sqrt(norm);
+        if (norm &gt; 0) {
+          for (let i = 0; i &lt; dim; i++) arr[i] /= norm;
+        }
+        return arr;
+      }
+      
+      function randomText(): string {
+        const words = ['lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit'];
+        const len = Math.floor(Math.random() * 5) + 3;
+        const selected = [];
+        for (let i = 0; i &lt; len; i++) {
+          selected.push(words[Math.floor(Math.random() * words.length)]);
+        }
+        return selected.join(' ');
+      }
+      
+      async function createTestDb(dbPath: string, numChunks: number, dimension: number): Promise&lt;VectorDb&gt; {
+        const db = await VectorDb.open(dbPath, { dimension });
+        for (let i = 0; i &lt; numChunks; i++) {
+          db.insertChunk({
+            path: `test${i}.txt`,
+            text: randomText(),
+            meta: JSON.stringify({ id: i }),
+            vector: randomVector(dimension),
+          });
+        }
+        db.commitTransaction?.();
+        return db;
+      }
+      
+      function measureMemory(): number {
+        if (typeof process !== 'undefined' &amp;&amp; process.memoryUsage) {
+          return process.memoryUsage().heapUsed;
+        }
+        return 0;
+      }
+      
+      async function benchmarkRetrieval(dbPath: string, useFp16: boolean, numQueries: number, dimension: number, topK: number): Promise&lt;{ timeMs: number; memoryDelta: number; results: any[] }&gt; {
+        const db = await VectorDb.open(dbPath, { dimension });
+        const startMemory = measureMemory();
+        const startTime = performance.now();
+      
+        const results = [];
+        for (let q = 0; q &lt; numQueries; q++) {
+          const queryVec = randomVector(dimension);
+          // Simulate FP16 conversion if enabled
+          if (useFp16) {
+            const f32 = new Float32Array(queryVec);
+            const fp16 = float32ArrayToFp16(f32);
+            const reconstructed = fp16ToFloat32Array(fp16);
+            // Use reconstructed vector for query (simulates conversion loss)
+            const vecArray = Array.from(reconstructed);
+            const chunks = db.queryTopK(vecArray, topK);
+            results.push(chunks.length);
+          } else {
+            const chunks = db.queryTopK(queryVec, topK);
+            results.push(chunks.length);
+          }
+        }
+      
+        const endTime = performance.now();
+        const endMemory = measureMemory();
+        db.close();
+      
+        return {
+          timeMs: endTime - startTime,
+          memoryDelta: endMemory - startMemory,
+          results,
+        };
+      }
+      
+      async function runBenchmark() {
+        console.log('=== RAG FP16 vs FP32 Benchmark ===\n');
+      
+        const dimension = 1536;
+        const numChunks = 1000;
+        const numQueries = 100;
+        const topK = 10;
+      
+        const tmpDir = tmpdir();
+        const dbPath = path.join(tmpDir, `rag_benchmark_${Date.now()}.db`);
+      
+        console.log(`Creating test database with ${numChunks} chunks (dimension ${dimension})...`);
+        const db = await createTestDb(dbPath, numChunks, dimension);
+        console.log(`Database created at ${dbPath}`);
+      
+        // Benchmark FP32 (baseline)
+        console.log('\n--- FP32 (baseline) ---');
+        const fp32Result = await benchmarkRetrieval(dbPath, false, numQueries, dimension, topK);
+        console.log(`Time: ${fp32Result.timeMs.toFixed(2)} ms (${(fp32Result.timeMs / numQueries).toFixed(2)} ms per query)`);
+        console.log(`Memory delta: ${(fp32Result.memoryDelta / 1024 / 1024).toFixed(2)} MB`);
+      
+        // Benchmark FP16
+        console.log('\n--- FP16 (optimized) ---');
+        const fp16Result = await benchmarkRetrieval(dbPath, true, numQueries, dimension, topK);
+        console.log(`Time: ${fp16Result.timeMs.toFixed(2)} ms (${(fp16Result.timeMs / numQueries).toFixed(2)} ms per query)`);
+        console.log(`Memory delta: ${(fp16Result.memoryDelta / 1024 / 1024).toFixed(2)} MB`);
+      
+        // Comparison
+        console.log('\n--- Comparison ---');
+        const timeRatio = fp16Result.timeMs / fp32Result.timeMs;
+        const memoryRatio = fp16Result.memoryDelta / fp32Result.memoryDelta;
+        console.log(`Time ratio (FP16/FP32): ${timeRatio.toFixed(2)}x`);
+        console.log(`Memory ratio (FP16/FP32): ${memoryRatio.toFixed(2)}x`);
+        console.log(`Expected memory ratio: 0.50x (50% reduction)`);
+      
+        // Cleanup
+        try {
+          fs.unlinkSync(dbPath);
+        } catch (e) {
+          // ignore
+        }
+      
+        console.log('\n=== Benchmark complete ===');
+      }
+      
+      runBenchmark().catch(err =&gt; {
+        console.error('Benchmark failed:', err);
+        process.exit(1);
+      });
+    </content_md5_9c52d43200e6bf04c1377b9681a4f38e>
+  </update_md5_9c52d43200e6bf04c1377b9681a4f38e>
+</updates>

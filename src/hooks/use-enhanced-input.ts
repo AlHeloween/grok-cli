@@ -210,6 +210,13 @@ export function useEnhancedInput({
       if (specialResult) return;
     }
 
+    // Handle paste (text) when special key handler didn't handle it
+    if (key.paste && inputChar) {
+      pendingPasteQueueRef.current.push(inputChar);
+      drainPasteQueue();
+      return;
+    }
+
     // Handle Escape
     if (key.escape) {
       onEscape?.();
@@ -408,12 +415,12 @@ export function useEnhancedInput({
 // SDID_ROLLBACK {
 //   "target_file": "D:\\zPython\\grok-cli\\src/hooks/use-enhanced-input.ts"
 //   "update_script": "adm.exe"
-//   "backup_path": "D:\\zPython\\grok-cli\\src/hooks/use-enhanced-input.ts.backup_20260217T025024_217910"
-//   "created_at": "2026-02-16T18:50:24.228611+00:00"
-//   "backup_hash": "7e766c53a93c86f3fdf7d1d1102add21"
-//   "new_hash": "5d936f5480572d5ab44335d6a5b3cd1e"
-//   "goal_id": "enhanced_input_do_not_block_on_meta"
-//   "semantics": ""
-//   "update_attrs": {"relative_path": "src/hooks/use-enhanced-input.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "if (charToInsert && !key.ctrl && (!key.meta || seqIsPrintable)) {", "replace_present": true}
+//   "backup_path": "D:\\zPython\\grok-cli\\src/hooks/use-enhanced-input.ts.backup_20260303T154556_944154"
+//   "created_at": "2026-03-03T07:45:56.960648+00:00"
+//   "backup_hash": "af051ad89bf8c493d824820fd71dbf8a"
+//   "new_hash": "a8eea5decc0768e41afc5fcae2675076"
+//   "goal_id": "text_anchor_replace"
+//   "semantics": "Fix paste handling when special key handler returns false (non-promise)"
+//   "update_attrs": {"relative_path": "src/hooks/use-enhanced-input.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "// Allow special key handler to override default behavior (e.g. paste → clipboard image when key.paste is true)\n    const specialResult = onSpecialKey?.(key, key.paste ? inputChar : undefined);\n    if (specialResult !== undefined && specialResult !== null) {\n      const isPromise =\n        typeof (specialResult as Promise<boolean>).then === \"function\";\n      if (isPromise) {\n        (specialResult as Promise<boolean>).then((handled) => {\n          if (!handled && key.paste && inputChar) {\n            pendingPasteQueueRef.current.push(inputChar);\n            drainPasteQueue();\n          }\n        });\n        return;\n      }\n      if (specialResult) return;\n    }", "replace_present": true}
 //   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/hooks/use-enhanced-input.ts\""
 // }

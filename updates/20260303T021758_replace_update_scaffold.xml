@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_8af2c5b49ea0ef6fed953ab9b6f0055c name="tsconfig_moduleResolution" md5="8af2c5b49ea0ef6fed953ab9b6f0055c" size="30">
+    <file>tsconfig.json</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    "moduleResolution": "Bundler",</find_text>
+    <semantics>Change moduleResolution from Bundler to NodeNext for Node.js ES module compatibility</semantics>
+    <content_md5_8af2c5b49ea0ef6fed953ab9b6f0055c>
+      "moduleResolution": "NodeNext",
+    </content_md5_8af2c5b49ea0ef6fed953ab9b6f0055c>
+  </update_md5_8af2c5b49ea0ef6fed953ab9b6f0055c>
+  <update_md5_b344e1b9dc6d19ba1e6347b73bdbcd1b name="tsconfig_module" md5="b344e1b9dc6d19ba1e6347b73bdbcd1b" size="20">
+    <file>tsconfig.json</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    "module": "ESNext",</find_text>
+    <semantics>Change module from ESNext to NodeNext for Node.js ES module compatibility</semantics>
+    <content_md5_b344e1b9dc6d19ba1e6347b73bdbcd1b>
+      "module": "NodeNext",
+    </content_md5_b344e1b9dc6d19ba1e6347b73bdbcd1b>
+  </update_md5_b344e1b9dc6d19ba1e6347b73bdbcd1b>
+</updates>

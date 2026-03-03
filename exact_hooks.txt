@@ -1,7 +1,0 @@
-### 2.3 Hooks
-
-| File | Role |
-|------|------|
-| **`src/hooks/use-input-handler.ts`** | Central input/orchestration: builds `handleSpecialKey` (paste/image, escape, `/theme`, `/models`, `/config`, command suggestions) and `handleDirectCommand` (slash commands, direct bash, `/commit-and-push`); uses `useEnhancedInput` and `useInput`; runs `agent.processUserMessageStream()` and pushes chunks into `setChatHistory`. Exposes input, cursor, suggestions, model/theme/config menu state, and `availableModels` / `availableThemes`. Applies config changes via `SettingsManager` and `agent.reconfigureConnection()` / `agent.refreshMorphEditor()`. |
-| **`src/hooks/use-enhanced-input.ts`** | Low-level input: history (up/down), cursor, paste queue (one-per-tick drain), special keys. Exposes `input`, `setInput`, `cursorPosition`, `setCursorPosition`, `insertAtCursor`, `handleInput`, etc. |
-| **`src/hooks/use-input-history.ts`** | Tracks submitted lines for history navigation (up/down arrows). |

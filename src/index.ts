@@ -786,6 +786,19 @@ if (extractor === "sqlite-rag") {
 }
 console.log(`RAG db: ${dbPath}`);
 console.log(`Indexed chunks: ${chunks}`);
+
+    if (enabled) {
+      const auroraEnabled = manager.getRagAuroraEnabled();
+      console.log(`Aurora enabled: ${auroraEnabled ? "yes" : "no"}`);
+      if (auroraEnabled) {
+        console.log(`  Fractal quantization: ${manager.getRagAuroraFractalQuantization() ? "yes" : "no"}`);
+        console.log(`  Dual‑quaternion distance: ${manager.getRagAuroraDualQuaternionDistance() ? "yes" : "no"}`);
+        console.log(`  GloVe keywords: ${manager.getRagAuroraGloveKeywords() ? "yes" : "no"}`);
+        console.log(`  FP16 storage: ${manager.getRagAuroraUseFp16Storage() ? "yes" : "no"}`);
+        console.log(`  Fractal dimension: ${manager.getRagAuroraFractalDimension()}`);
+        console.log(`  Fractal depth: ${manager.getRagAuroraFractalDepth()}`);
+      }
+    }
   });
 
 ragCommand
@@ -1264,12 +1277,12 @@ program.parse();
 // SDID_ROLLBACK {
 //   "target_file": "D:\\zPython\\grok-cli\\src/index.ts"
 //   "update_script": "adm.exe"
-//   "backup_path": "D:\\zPython\\grok-cli\\src/index.ts.backup_20260301T135815_688161"
-//   "created_at": "2026-03-01T05:58:15.709866+00:00"
-//   "backup_hash": "ce5f011d6f54fe361837e14b57724f35"
-//   "new_hash": "6a42942a04dacdffc3086a70377841f2"
-//   "goal_id": "add_chat_history_command"
-//   "semantics": "Add chat-history command after config init block"
-//   "update_attrs": {"relative_path": "src/index.ts", "update_type": "text", "mode": "insert", "encoding": "utf-8", "find_pattern": null, "find_text": "program.parse();", "replace_present": true}
+//   "backup_path": "D:\\zPython\\grok-cli\\src/index.ts.backup_20260303T112737_424446"
+//   "created_at": "2026-03-03T03:27:37.454526+00:00"
+//   "backup_hash": "5174c77f1eab6e8906feb27696d70050"
+//   "new_hash": "3e3b25b7e03c8bb4066e952ee95b64c0"
+//   "goal_id": "rag_status_aurora"
+//   "semantics": "Add Aurora status display to rag status command"
+//   "update_attrs": {"relative_path": "src/index.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "const manager = getSettingsManager();\nconst enabled = manager.isRagEnabled();\nconst topK = manager.getRagTopK();\nconst extractor = manager.getRagExtractor();\nconst python = manager.getRagPython();\nconst dbPath = manager.getRagDbPath();\n\n    let chunks = 0;\n    if (fs.existsSync(dbPath)) {\n      try {\n        const db = await VectorDb.open(dbPath);\n        chunks = db.getChunkCount();\n        db.close();\n      } catch {\n        chunks = 0;\n      }\n    }\n\n    console.log(`RAG enabled: ${enabled ? \"yes\" : \"no\"}`);\nconsole.log(`RAG topK: ${topK}`);\nconsole.log(`RAG extractor: ${extractor}`);\nif (extractor === \"sqlite-rag\") {\n  console.log(`RAG python: ${python || \"(auto-detect)\"}`);\n}\nconsole.log(`RAG db: ${dbPath}`);\nconsole.log(`Indexed chunks: ${chunks}`);\n  });", "replace_present": true}
 //   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/index.ts\""
 // }

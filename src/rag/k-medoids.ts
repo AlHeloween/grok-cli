@@ -1,4 +1,4 @@
-import { dualQuatGeodesicDistance } from '../aurora/dual-complex/dual-quaternion';
+import { dualQuatGeodesicDistance } from '../aurora/dual-complex/dual-quaternion.js';
 
 export type KMedoidsDistance = "cosine" | "l2" | "dual-quaternion-geodesic";
 

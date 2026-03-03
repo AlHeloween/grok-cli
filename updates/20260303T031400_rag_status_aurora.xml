@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_fba82d8c94049abd1ccef50e2f21c67c name="rag_status_aurora" md5="fba82d8c94049abd1ccef50e2f21c67c" size="1245">
+    <file>src/index.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    const manager = getSettingsManager();
+const enabled = manager.isRagEnabled();
+const topK = manager.getRagTopK();
+const extractor = manager.getRagExtractor();
+const python = manager.getRagPython();
+const dbPath = manager.getRagDbPath();
+
+    let chunks = 0;
+    if (fs.existsSync(dbPath)) {
+      try {
+        const db = await VectorDb.open(dbPath);
+        chunks = db.getChunkCount();
+        db.close();
+      } catch {
+        chunks = 0;
+      }
+    }
+
+    console.log(`RAG enabled: ${enabled ? "yes" : "no"}`);
+console.log(`RAG topK: ${topK}`);
+console.log(`RAG extractor: ${extractor}`);
+if (extractor === "sqlite-rag") {
+  console.log(`RAG python: ${python || "(auto-detect)"}`);
+}
+console.log(`RAG db: ${dbPath}`);
+console.log(`Indexed chunks: ${chunks}`);
+  });</find_text>
+    <semantics>Add Aurora status display to rag status command</semantics>
+    <content_md5_fba82d8c94049abd1ccef50e2f21c67c>
+          const manager = getSettingsManager();
+      const enabled = manager.isRagEnabled();
+      const topK = manager.getRagTopK();
+      const extractor = manager.getRagExtractor();
+      const python = manager.getRagPython();
+      const dbPath = manager.getRagDbPath();
+      
+          let chunks = 0;
+          if (fs.existsSync(dbPath)) {
+            try {
+              const db = await VectorDb.open(dbPath);
+              chunks = db.getChunkCount();
+              db.close();
+            } catch {
+              chunks = 0;
+            }
+          }
+      
+          console.log(`RAG enabled: ${enabled ? "yes" : "no"}`);
+      console.log(`RAG topK: ${topK}`);
+      console.log(`RAG extractor: ${extractor}`);
+      if (extractor === "sqlite-rag") {
+        console.log(`RAG python: ${python || "(auto-detect)"}`);
+      }
+      console.log(`RAG db: ${dbPath}`);
+      console.log(`Indexed chunks: ${chunks}`);
+      
+      if (enabled) {
+        const auroraEnabled = manager.getRagAuroraEnabled();
+        console.log(`Aurora enabled: ${auroraEnabled ? "yes" : "no"}`);
+        if (auroraEnabled) {
+          console.log(`  Fractal quantization: ${manager.getRagAuroraFractalQuantization() ? "yes" : "no"}`);
+          console.log(`  Dual‑quaternion distance: ${manager.getRagAuroraDualQuaternionDistance() ? "yes" : "no"}`);
+          console.log(`  GloVe keywords: ${manager.getRagAuroraGloveKeywords() ? "yes" : "no"}`);
+          console.log(`  FP16 storage: ${manager.getRagAuroraUseFp16Storage() ? "yes" : "no"}`);
+          console.log(`  Fractal dimension: ${manager.getRagAuroraFractalDimension()}`);
+          console.log(`  Fractal depth: ${manager.getRagAuroraFractalDepth()}`);
+        }
+      }
+        });
+    </content_md5_fba82d8c94049abd1ccef50e2f21c67c>
+  </update_md5_fba82d8c94049abd1ccef50e2f21c67c>
+</updates>

@@ -21,7 +21,7 @@ export function f32ToFp16Fast(value: number): number {
     const bits = view[0];
 
     const sign = (bits >> 31) & 0x1;
-    let exponent = (bits >> 23) & 0xff;
+    const exponent = (bits >> 23) & 0xff;
     let mantissa = bits & 0x7fffff;
 
     // Special case: zero or denormal

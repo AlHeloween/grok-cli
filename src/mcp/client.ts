@@ -153,11 +153,11 @@ export class MCPManager extends EventEmitter {
       return; // Already initialized
     }
 
-    const { loadMCPConfig } = await import('../mcp/config');
+    const { loadMCPConfig } = await import('../mcp/config.js');
     const config = loadMCPConfig();
     
     // Initialize servers in parallel to avoid blocking
-    const initPromises = config.servers.map(async (serverConfig) => {
+    const initPromises = config.servers.map(async (serverConfig: MCPServerConfig) => {
       try {
         await this.addServer(serverConfig);
       } catch (error) {

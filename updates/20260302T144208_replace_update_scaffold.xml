@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_d6c40a17ca5ddf3e414e6ca0616db419 name="agents_md_hash_update" md5="d6c40a17ca5ddf3e414e6ca0616db419" size="84">
+    <file>AGENTS.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>- "AGENTS.md@sha256:TO_BE_FILLED"</find_text>
+    <semantics>Replace placeholder SHA256 hash with actual hash</semantics>
+    <content_md5_d6c40a17ca5ddf3e414e6ca0616db419>
+      - "AGENTS.md@sha256:5e1cb26eac3a8ed17c126104563400eead7d96323aa666de70944d9f878ea3d7"
+    </content_md5_d6c40a17ca5ddf3e414e6ca0616db419>
+  </update_md5_d6c40a17ca5ddf3e414e6ca0616db419>
+  <update_md5_d6c40a17ca5ddf3e414e6ca0616db419 name="opencode_agents_md_hash_update" md5="d6c40a17ca5ddf3e414e6ca0616db419" size="84">
+    <file>.opencode/AGENTS.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>- "AGENTS.md@sha256:TO_BE_FILLED"</find_text>
+    <semantics>Replace placeholder SHA256 hash with actual hash in .opencode copy</semantics>
+    <content_md5_d6c40a17ca5ddf3e414e6ca0616db419>
+      - "AGENTS.md@sha256:5e1cb26eac3a8ed17c126104563400eead7d96323aa666de70944d9f878ea3d7"
+    </content_md5_d6c40a17ca5ddf3e414e6ca0616db419>
+  </update_md5_d6c40a17ca5ddf3e414e6ca0616db419>
+</updates>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_d5d0cc2e0ed1bf7d859557c3c250a6a2 name="text_anchor_replace" md5="d5d0cc2e0ed1bf7d859557c3c250a6a2" size="519">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>```bash
+grok [options]
+
+Options:
+  -V, --version          output the version number
+  -d, --directory &lt;dir&gt;  set working directory
+  -k, --api-key &lt;key&gt;    Grok API key (or set GROK_API_KEY env var)
+  -u, --base-url &lt;url&gt;   Grok API base URL (or set GROK_BASE_URL env var)
+  -m, --model &lt;model&gt;    AI model to use (e.g., grok-code-fast-1, grok-4-latest) (or set GROK_MODEL env var)
+  -p, --prompt &lt;prompt&gt;  process a single prompt and exit (headless mode)
+  --max-tool-rounds &lt;rounds&gt;  maximum number of tool execution rounds (default: 400)
+  -h, --help             display help for command
+```</find_text>
+    <semantics>Add --load-chat-session flag to command line options.</semantics>
+    <content_md5_d5d0cc2e0ed1bf7d859557c3c250a6a2>
+      ```bash
+      grok [options]
+      
+      Options:
+        -V, --version          output the version number
+        -d, --directory &lt;dir&gt;  set working directory
+        -k, --api-key &lt;key&gt;    Grok API key (or set GROK_API_KEY env var)
+        -u, --base-url &lt;url&gt;   Grok API base URL (or set GROK_BASE_URL env var)
+        -m, --model &lt;model&gt;    AI model to use (e.g., grok-code-fast-1, grok-4-latest) (or set GROK_MODEL env var)
+        -p, --prompt &lt;prompt&gt;  process a single prompt and exit (headless mode)
+        --max-tool-rounds &lt;rounds&gt;  maximum number of tool execution rounds (default: 400)
+        --load-chat-session &lt;sessionId&gt;  load a saved chat session by ID
+        -h, --help             display help for command
+      ```
+    </content_md5_d5d0cc2e0ed1bf7d859557c3c250a6a2>
+  </update_md5_d5d0cc2e0ed1bf7d859557c3c250a6a2>
+</updates>

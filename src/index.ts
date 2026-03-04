@@ -6,13 +6,14 @@ import * as dotenv from "dotenv";
 import * as fs from "fs";
 import * as path from "path";
 import { spawnSync } from "child_process";
-import { GrokAgent } from "./agent/grok-agent.js";
+import { GrokAgent, ChatEntry } from "./agent/grok-agent.js";
 import ChatInterface from "./ui/components/chat-interface.js";
 import { ThemeProvider } from "./ui/context/theme-context.js";
 import { getSettingsManager } from "./utils/settings-manager.js";
 import { loadModelConfig } from "./utils/model-config.js";
 import { ConfirmationService } from "./utils/confirmation-service.js";
 import { createMCPCommand } from "./commands/mcp.js";
+import { createGloveCommand } from "./commands/glove.js";
 import { UserContentPart } from "./grok/client.js";
 import { isThemeId, listThemes } from "./ui/utils/theme.js";
 import { indexProject } from "./rag/indexer.js";
@@ -488,6 +489,7 @@ program
     "400"
   )
   .option("--list-models", "list configured models and exit")
+  .option("--load-chat-session <sessionId>", "load a saved chat session by ID")
   .action(async (message, options) => {
     if (options.directory) {
       try {
@@ -551,6 +553,19 @@ program
 
       // Interactive mode: launch UI
       const agent = new GrokAgent(apiKey, baseURL, model, maxToolRounds);
+      
+      // Load chat session if requested
+      let loadedChatEntries: ChatEntry[] = [];
+      if (options.loadChatSession) {
+        try {
+          await agent.loadChatSession(options.loadChatSession);
+          loadedChatEntries = agent.getChatHistory();
+        } catch (error: unknown) {
+          console.error(`❌ Failed to load chat session: ${error instanceof Error ? error.message : String(error)}`);
+          process.exit(1);
+        }
+      }
+      
       console.log("🤖 Starting Grok CLI Conversational Assistant...\n");
 
       ensureUserSettingsDirectory();
@@ -580,7 +595,7 @@ program
           React.createElement(
             ThemeProvider,
             null,
-            React.createElement(ChatInterface, { agent, initialMessage })
+            React.createElement(ChatInterface, { agent, initialMessage, initialChatHistory: loadedChatEntries })
           ),
           { patchConsole: false, exitOnCtrlC: false }
         );
@@ -958,6 +973,9 @@ ragCommand
       process.exit(1);
     }
   });
+
+// Glove command
+program.addCommand(createGloveCommand());
 
 // Config command
 const configCommand = program

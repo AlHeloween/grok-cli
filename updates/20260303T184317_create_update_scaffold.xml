@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_d22c93d04e62fbbd63399d6114654f2c name="text_create_new_file" md5="d22c93d04e62fbbd63399d6114654f2c" size="2631">
+    <file>src/agent/chat-history-persistence.test.ts</file>
+    <update_type>text</update_type>
+    <mode>create</mode>
+    <encoding>utf-8</encoding>
+    <semantics>Create unit tests for ChatHistoryPersistence class</semantics>
+    <content_md5_d22c93d04e62fbbd63399d6114654f2c>
+      import { describe, it, expect } from "vitest";
+      import { mkdtempSync, rmSync } from "fs";
+      import { tmpdir } from "os";
+      import { join } from "path";
+      import { ChatHistoryPersistence } from "./chat-history-persistence.js";
+      import type { ChatEntry } from "./grok-agent.js";
+      
+      describe("ChatHistoryPersistence", () =&gt; {
+        let tempDir: string;
+        let persistence: ChatHistoryPersistence;
+      
+        beforeEach(() =&gt; {
+          tempDir = mkdtempSync(join(tmpdir(), "grok-chat-history-"));
+          persistence = new ChatHistoryPersistence();
+        });
+      
+        afterEach(() =&gt; {
+          rmSync(tempDir, { recursive: true, force: true });
+        });
+      
+        it("generates unique session IDs", () =&gt; {
+          const id1 = persistence.generateSessionId();
+          const id2 = persistence.generateSessionId();
+          expect(id1).not.toBe(id2);
+          expect(id1).toMatch(/^session_[a-z0-9]+_[a-f0-9]{8}$/);
+        });
+      
+        it("saves and loads a session", async () =&gt; {
+          const entries: ChatEntry[] = [
+            {
+              type: "user",
+              content: "Hello",
+              timestamp: new Date("2026-03-03T12:00:00Z"),
+            },
+            {
+              type: "assistant",
+              content: "Hi there!",
+              timestamp: new Date("2026-03-03T12:01:00Z"),
+            },
+          ];
+          const sessionId = "test_session";
+          const savedPath = await persistence.saveSession(entries, sessionId, tempDir);
+          expect(savedPath).toContain(sessionId);
+          expect(savedPath).toContain(tempDir);
+      
+          const loaded = await persistence.loadSession(sessionId, tempDir);
+          expect(loaded).toHaveLength(2);
+          expect(loaded[0].type).toBe("user");
+          expect(loaded[0].content).toBe("Hello");
+          expect(loaded[0].timestamp).toBeInstanceOf(Date);
+          expect(loaded[0].timestamp.toISOString()).toBe("2026-03-03T12:00:00.000Z");
+          expect(loaded[1].type).toBe("assistant");
+          expect(loaded[1].content).toBe("Hi there!");
+        });
+      
+        it("lists sessions", async () =&gt; {
+          const entries: ChatEntry[] = [{ type: "user", content: "test", timestamp: new Date() }];
+          const sessionId1 = "session1";
+          const sessionId2 = "session2";
+          await persistence.saveSession(entries, sessionId1, tempDir);
+          await new Promise(resolve =&gt; setTimeout(resolve, 10)); // ensure timestamps differ
+          await persistence.saveSession(entries, sessionId2, tempDir);
+      
+          const sessions = await persistence.listSessions(tempDir);
+          expect(sessions).toHaveLength(2);
+          expect(sessions[0].id).toBe(sessionId2); // newest first
+          expect(sessions[1].id).toBe(sessionId1);
+          expect(sessions[0].count).toBe(1);
+          expect(sessions[0].timestamp).toBeInstanceOf(Date);
+        });
+      
+        it("deletes a session", async () =&gt; {
+          const entries: ChatEntry[] = [{ type: "user", content: "test", timestamp: new Date() }];
+          const sessionId = "to_delete";
+          await persistence.saveSession(entries, sessionId, tempDir);
+          let sessions = await persistence.listSessions(tempDir);
+          expect(sessions).toHaveLength(1);
+      
+          await persistence.deleteSession(sessionId, tempDir);
+          sessions = await persistence.listSessions(tempDir);
+          expect(sessions).toHaveLength(0);
+        });
+      
+        it("throws when loading non-existent session", async () =&gt; {
+          await expect(persistence.loadSession("missing", tempDir)).rejects.toThrow();
+        });
+      });
+    </content_md5_d22c93d04e62fbbd63399d6114654f2c>
+  </update_md5_d22c93d04e62fbbd63399d6114654f2c>
+</updates>

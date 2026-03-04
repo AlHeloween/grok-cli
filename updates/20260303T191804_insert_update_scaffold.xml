@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_8cc87a774f8dc0db272925253b3d8ea8 name="text_insert_before_anchor" md5="8cc87a774f8dc0db272925253b3d8ea8" size="272">
+    <file>CHANGELOG.md</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  - Interactive RAG management menu (`/rag` command) with search, delete, export/import, pagination, and GUI integration.
+
+### Changed</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Add session restoration features to changelog.</semantics>
+    <content_md5_8cc87a774f8dc0db272925253b3d8ea8>
+        - Interactive RAG management menu (`/rag` command) with search, delete, export/import, pagination, and GUI integration.
+        - Chat session restoration: `--load-chat-session &lt;sessionId&gt;` flag and `/restore` interactive command.
+        - Increased CLI command suggestions limit from 8 to 20 for better navigation.
+      
+      ### Changed
+    </content_md5_8cc87a774f8dc0db272925253b3d8ea8>
+  </update_md5_8cc87a774f8dc0db272925253b3d8ea8>
+</updates>

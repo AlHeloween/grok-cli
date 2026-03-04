@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_187d4c08216f600dd8b947b0bc93460b name="text_anchor_replace" md5="187d4c08216f600dd8b947b0bc93460b" size="605">
+    <file>src/rag/semantic-vector.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>// Try to load SQLite GloVe database automatically
+(async () =&gt; {
+  try {
+    const dbPath = path.resolve(process.cwd(), "data/glove/glove_50d.db");
+    sqliteLoader = await createSqliteGloVeLoader(dbPath);
+    gloveLoader = sqliteLoader; // assign to global gloveLoader
+    console.log(`[semantic-vector] Loaded GloVe SQLite database: ${dbPath}`);
+  } catch (err) {
+    console.warn(`[semantic-vector] Failed to load GloVe SQLite database: ${err instanceof Error ? err.message : String(err)}`);
+  }
+})();</find_text>
+    <semantics>Add GLOVE_DB_PATH environment variable support for glove database location.</semantics>
+    <content_md5_187d4c08216f600dd8b947b0bc93460b>
+      // Try to load SQLite GloVe database automatically
+      (async () =&gt; {
+        try {
+          // 1. Environment variable override
+          let dbPath: string;
+          if (process.env.GLOVE_DB_PATH) {
+            dbPath = path.resolve(process.env.GLOVE_DB_PATH);
+          } else {
+            // 2. Relative to current working directory (original behavior)
+            dbPath = path.resolve(process.cwd(), "data/glove/glove_50d.db");
+          }
+          sqliteLoader = await createSqliteGloVeLoader(dbPath);
+          gloveLoader = sqliteLoader; // assign to global gloveLoader
+          console.log(`[semantic-vector] Loaded GloVe SQLite database: ${dbPath}`);
+        } catch (err) {
+          console.warn(`[semantic-vector] Failed to load GloVe SQLite database: ${err instanceof Error ? err.message : String(err)}`);
+        }
+      })();
+    </content_md5_187d4c08216f600dd8b947b0bc93460b>
+  </update_md5_187d4c08216f600dd8b947b0bc93460b>
+</updates>

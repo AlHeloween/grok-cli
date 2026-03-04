@@ -3,6 +3,7 @@ import { useInput } from "ink";
 import fs from "fs";
 import path from "path";
 import { GrokAgent, ChatEntry } from "../agent/grok-agent.js";
+import { ChatHistoryPersistence } from "../agent/chat-history-persistence.js";
 import { ConfirmationService } from "../utils/confirmation-service.js";
 import { useEnhancedInput, Key } from "./use-enhanced-input.js";
 import { UserContent } from "../grok/client.js";
@@ -984,6 +985,7 @@ clearInputRef.current = clearInput;
     { command: "/attach-clear", description: "Clear attached images" },
     { command: "/commit-and-push", description: "AI commit & push to remote" },
     { command: "/rag", description: "Manage RAG (Retrieval-Augmented Generation)" },
+    { command: "/restore", description: "Restore a saved chat session" },
     { command: "/exit", description: "Exit the application" },
   ];
 
@@ -1034,6 +1036,7 @@ Built-in Commands:
   /attach     - Attach an image for your next message
   /attach-clear - Clear pending image attachments
   /rag        - Manage RAG (Retrieval-Augmented Generation)
+  /restore    - Restore a saved chat session
   /exit       - Exit application
   exit, quit  - Exit application
 
@@ -1114,6 +1117,64 @@ Examples:
       setShowThemeSelection(false);
       setSelectedThemeIndex(0);
       openRagMenu();
+      clearInput();
+      return true;
+    }
+
+    if (trimmedInput === "/restore") {
+      // List available sessions
+      const persistence = new ChatHistoryPersistence();
+      const sessions = await persistence.listSessions();
+      if (sessions.length === 0) {
+        const entry: ChatEntry = {
+          type: "assistant",
+          content: "No saved chat sessions found.",
+          timestamp: new Date(),
+        };
+        setChatHistory((prev) => [...prev, entry]);
+      } else {
+        const sessionList = sessions.map((s, idx) => `${idx + 1}. ${s.id} (${s.count} entries, saved ${s.timestamp.toLocaleString()})`).join("\n");
+        const entry: ChatEntry = {
+          type: "assistant",
+          content: `Saved chat sessions:\n${sessionList}\n\nUse /restore <sessionId> to load a session.`,
+          timestamp: new Date(),
+        };
+        setChatHistory((prev) => [...prev, entry]);
+      }
+      clearInput();
+      return true;
+    }
+
+    if (trimmedInput.startsWith("/restore ")) {
+      const sessionId = trimmedInput.slice("/restore ".length).trim();
+      if (!sessionId) {
+        const entry: ChatEntry = {
+          type: "assistant",
+          content: "Please provide a session ID. Use /restore to list sessions.",
+          timestamp: new Date(),
+        };
+        setChatHistory((prev) => [...prev, entry]);
+        clearInput();
+        return true;
+      }
+      try {
+        await agent.loadChatSession(sessionId);
+        const loadedEntries = agent.getChatHistory();
+        const successEntry: ChatEntry = {
+          type: "assistant",
+          content: `✅ Restored chat session '${sessionId}' with ${loadedEntries.length} entries.`,
+          timestamp: new Date(),
+        };
+        setChatHistory([...loadedEntries, successEntry]);
+      } catch (error: unknown) {
+        const errorMsg = error instanceof Error ? error.message : String(error);
+        const entry: ChatEntry = {
+          type: "assistant",
+          content: `❌ Failed to restore session '${sessionId}': ${errorMsg}`,
+          timestamp: new Date(),
+        };
+        setChatHistory((prev) => [...prev, entry]);
+      }
       clearInput();
       return true;
     }

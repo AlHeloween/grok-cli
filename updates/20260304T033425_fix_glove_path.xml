@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_4361af8ee8e3a9afc736e89a0e29d8de name="fix_glove_path_resolution" md5="4361af8ee8e3a9afc736e89a0e29d8de" size="979">
+    <file>src/rag/semantic-vector.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>// Try to load SQLite GloVe database automatically
+(async () =&gt; {
+  try {
+    // 1. Environment variable override
+    let dbPath: string;
+    if (process.env.GLOVE_DB_PATH) {
+      dbPath = path.resolve(process.env.GLOVE_DB_PATH);
+    } else {
+      // 2. Relative to current working directory (original behavior)
+      dbPath = path.resolve(process.cwd(), "data/glove/glove_50d.db");
+    }
+    sqliteLoader = await createSqliteGloVeLoader(dbPath);
+    gloveLoader = sqliteLoader; // assign to global gloveLoader
+    console.log(`[semantic-vector] Loaded GloVe SQLite database: ${dbPath}`);
+  } catch (err) {
+    console.warn(`[semantic-vector] Failed to load GloVe SQLite database: ${err instanceof Error ? err.message : String(err)}`);
+  }
+})();</find_text>
+    <semantics>Replace old path resolution with new path-utils based resolution</semantics>
+    <content_md5_4361af8ee8e3a9afc736e89a0e29d8de>
+      import { resolveGlovePath, checkFileExists } from "../utils/path-utils.js";
+      
+      // Try to load SQLite GloVe database automatically
+      (async () =&gt; {
+        try {
+          // Use new path resolution utility
+          const dbPath = resolveGlovePath();
+      
+          if (!dbPath) {
+            console.warn(`[semantic-vector] GloVe database not found. Using test loader.`);
+            console.warn(`[semantic-vector] Run 'grok glove generate' or 'grok glove download' to obtain it.`);
+            return;
+          }
+      
+          if (!checkFileExists(dbPath, "GloVe database")) {
+            console.warn(`[semantic-vector] GloVe database not found at: ${dbPath}`);
+            console.warn(`[semantic-vector] Using test loader. Run 'grok glove generate' or 'grok glove download'.`);
+            return;
+          }
+      
+          sqliteLoader = await createSqliteGloVeLoader(dbPath);
+          gloveLoader = sqliteLoader; // assign to global gloveLoader
+          console.log(`[semantic-vector] Loaded GloVe SQLite database: ${dbPath}`);
+        } catch (err) {
+          console.warn(`[semantic-vector] Failed to load GloVe SQLite database: ${err instanceof Error ? err.message : String(err)}`);
+          console.warn(`[semantic-vector] Using test loader. Run 'grok glove generate' or 'grok glove download' to fix.`);
+        }
+      })();
+    </content_md5_4361af8ee8e3a9afc736e89a0e29d8de>
+  </update_md5_4361af8ee8e3a9afc736e89a0e29d8de>
+</updates>

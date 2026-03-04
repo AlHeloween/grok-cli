@@ -990,6 +990,11 @@ private trimHistoryIfNeeded(): void {
       this.abortController.abort();
     }
   }
+
+  /** Load a saved chat session by session ID */
+  async loadChatSession(sessionId: string): Promise<void> {
+    await this.chatHistoryManager.loadSession(sessionId);
+  }
 }
 
 // ADID_ROLLBACK (from adm.exe)

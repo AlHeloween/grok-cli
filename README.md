@@ -222,6 +222,34 @@ You can also manage RAG directly from the interactive chat interface using the `
 
 All RAG settings can be configured via `/config` → RAG category.
 
+### Chat Session Management
+
+Grok CLI automatically saves your chat sessions to `.grok/chat-history/` directory. You can list, load, and manage saved sessions using the following methods:
+
+#### Command Line Flag
+Load a saved session when starting the CLI:
+
+```bash
+grok --load-chat-session session_20250303_abc123
+```
+
+#### Interactive `/restore` Command
+Inside the interactive chat interface:
+
+- Type `/restore` to list all available sessions (newest first)
+- Type `/restore <sessionId>` to load a specific session immediately
+- Loaded sessions restore the full conversation history, allowing you to continue where you left off
+
+#### Managing Sessions
+- **List sessions**: `grok chat-history list`
+- **Load session**: `grok chat-history load <sessionId>`
+- **Delete session**: `grok chat-history delete <sessionId>`
+- **Session files**: Stored as JSON in `.grok/chat-history/<sessionId>.json`
+
+Sessions are automatically saved when you exit the chat interface with `exit` or Ctrl+C.
+
+### Optional: index PDFs/DOCX/PPTX/XLSX via sqlite-rag (Python)All RAG settings can be configured via `/config` → RAG category.
+
 ### Optional: index PDFs/DOCX/PPTX/XLSX via sqlite-rag (Python)
 
 If you want to index more than plain source/text files, you can enable the **sqlite-rag extractor**. This uses Python to convert supported file types into text (via `markitdown`), then stores embeddings in the same `.grok/rag.db` sqlite-vector index.
@@ -440,6 +468,7 @@ Options:
   -m, --model <model>    AI model to use (e.g., grok-code-fast-1, grok-4-latest) (or set GROK_MODEL env var)
   -p, --prompt <prompt>  process a single prompt and exit (headless mode)
   --max-tool-rounds <rounds>  maximum number of tool execution rounds (default: 400)
+  --load-chat-session <sessionId>  load a saved chat session by ID
   -h, --help             display help for command
 ```
 
@@ -693,13 +722,13 @@ MIT
   SDID_ROLLBACK {
     "target_file": "D:\\zPython\\grok-cli\\README.md"
     "update_script": "adm.exe"
-    "backup_path": "D:\\zPython\\grok-cli\\README.md.backup_20260217T225044_137695"
-    "created_at": "2026-02-17T14:50:44.155184+00:00"
-    "backup_hash": "c142ffd16952c0a89871b7303d6274c7"
-    "new_hash": "aa630b6469274cf07be9ccbea520606a"
-    "goal_id": "readme_makerai_build_close_note"
-    "semantics": "Add note about closing RagManager before rebuild to avoid locked output exe."
-    "update_attrs": {"relative_path": "README.md", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "Outputs go to `MakerAI/_build/win64/` (demo EXE in `MakerAI/_build/win64/bin/`).", "replace_present": true}
+    "backup_path": "D:\\zPython\\grok-cli\\README.md.backup_20260304T030835_345330"
+    "created_at": "2026-03-03T19:08:35.359652+00:00"
+    "backup_hash": "9ea93d490bd8c8c6a4359f5a59c49321"
+    "new_hash": "8d903ac73fef4d72fb8fba87fc93a2bd"
+    "goal_id": "text_insert_before_anchor"
+    "semantics": "Insert chat session management section after RAG section."
+    "update_attrs": {"relative_path": "README.md", "update_type": "text", "mode": "insert", "encoding": "utf-8", "find_pattern": null, "find_text": "All RAG settings can be configured via `/config` → RAG category.\n\n### Optional: index PDFs/DOCX/PPTX/XLSX via sqlite-rag (Python)", "replace_present": true}
     "restore_cmd": "uv run adm \u002d\u002drollback \"D:\\zPython\\grok-cli\\README.md\""
   }
 -->

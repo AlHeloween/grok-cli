@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <updates>
+        <!--
+          Template notes (Exact):
+            - This file is a template; keep only the update blocks you need and delete the rest.
+            - After editing payloads/metadata, run: tools/adm.exe --fix-xml updates/<file>.xml
+            - Template selection: tools/adm.exe --template replace
+
+          Wrapper commands (Exact; not descriptor modes):
+            - Rust-backed regex replacement: use tools/adm.exe --rg <pattern> <replacement> <file>
+            - Sed transformation: use tools/adm.exe --sed <script> <file>
+            - Patch application (apply_patch format): use tools/adm.exe --patch-tool <patch_file>
+            - Safe interactive execution (Windows-only): use tools/adm.exe --cmd-runner start -- <command ...>
+        -->
+        <metadata>
+          <created_at>2026-03-04T02:35:58.935394+00:00</created_at>
+          <goal>Template one 'replace' update block.</goal>
+          <owner>REPLACE_WITH_OWNER</owner>
+          <created_with>
+            <git_head>df0fd6bcbdfdc5af7da213efb278510edaa0e5be</git_head>
+            <uv_lock_md5>missing</uv_lock_md5>
+            <python>3.13.12</python>
+            <semgrep>unknown</semgrep>
+            <tree_sitter>absent</tree_sitter>
+            <tree_sitter_language_pack>absent</tree_sitter_language_pack>
+          </created_with>
+          <scripts>
+            <script name="20260304T023558_cli_update.py">Document the operational steps here (apply/verify/rollback).</script>
+          </scripts>
+          <logging>
+            <progress_log path="_progress_log.md" mode="append" />
+            <manifest enabled="true" />
+          </logging>
+          <verification>
+            <verify_all root="." reports_path="logs" />
+            <diagram generator="docs/documentation_uml_generator.py" output="docs/uml_diagram.md" />
+          </verification>
+          <hints>
+            <!-- Legacy marker names referenced by some tooling/tests: -->
+            <name>text_anchor_example</name>
+            <name>text_insert_example</name>
+            <name>binary_patch_example</name>
+            <name>rust_regex_example</name>
+            <name>sed_script_example</name>
+            <name>structured_rule_example</name>
+          </hints>
+        </metadata>
+
+        <update_md5_c0714090cf53dd18da6bbfad306e806c name="text_anchor_replace" md5="c0714090cf53dd18da6bbfad306e806c" size="7">
+  <file>src/project_name/module.py</file>
+  <update_type>text</update_type>
+  <mode>replace</mode>
+  <encoding>utf-8</encoding>
+  <find_text>VALUE = 1</find_text>
+  <semantics>Replace one literal anchor occurrence.</semantics>
+  <content_md5_c0714090cf53dd18da6bbfad306e806c>
+    VALUE = 2
+  </content_md5_c0714090cf53dd18da6bbfad306e806c>
+</update_md5_c0714090cf53dd18da6bbfad306e806c>
+      </updates>

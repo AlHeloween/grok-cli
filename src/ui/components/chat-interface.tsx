@@ -22,19 +22,22 @@ import { useTheme } from "../context/theme-context.js";
 interface ChatInterfaceProps {
   agent?: GrokAgent;
   initialMessage?: string;
+  initialChatHistory?: ChatEntry[];
 }
 
 // Main chat component that handles input when agent is available
 function ChatInterfaceWithAgent({
   agent,
   initialMessage,
+  initialChatHistory,
 }: {
   agent: GrokAgent;
   initialMessage?: string;
+  initialChatHistory?: ChatEntry[];
 }) {
   const { theme } = useTheme();
   const colors = theme.colors;
-  const [chatHistory, setChatHistory] = useState<ChatEntry[]>([]);
+  const [chatHistory, setChatHistory] = useState<ChatEntry[]>(initialChatHistory || []);
   const [isProcessing, setIsProcessing] = useState(false);
   const [processingTime, setProcessingTime] = useState(0);
   const [tokenCount, setTokenCount] = useState(0);
@@ -404,6 +407,7 @@ const MemoizedChatInterfaceWithAgent = React.memo(ChatInterfaceWithAgent);
 export default function ChatInterface({
   agent,
   initialMessage,
+  initialChatHistory,
 }: ChatInterfaceProps) {
   const [currentAgent, setCurrentAgent] = useState<GrokAgent | null>(
     agent || null
@@ -421,6 +425,7 @@ export default function ChatInterface({
     <MemoizedChatInterfaceWithAgent
       agent={currentAgent}
       initialMessage={initialMessage}
+      initialChatHistory={initialChatHistory}
     />
   );
 }

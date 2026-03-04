@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_c4729590a01f2c9468efa7129a9e54b4 name="text_anchor_replace" md5="c4729590a01f2c9468efa7129a9e54b4" size="1626">
+    <file>docs/APPLICATION-SCHEME.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>| **`src/agent/grok-agent.ts`** | **GrokAgent**: holds `GrokClient`, in-memory `messages` and `chatHistory`, tools (text editor, bash, search, todo, confirmation, optional Morph); builds system prompt from `getSystemPrompt`; optionally injects **local RAG context** from `.grok/rag.db` when enabled in project settings; runs streaming loop (`processUserMessageStream`) or single round (`processUserMessage`); trims history (MAX_MESSAGES / MAX_CHAT_ENTRIES); passes `AbortSignal` to API; delegates tool runs to `tool-executor`. Exposes `reconfigureConnection()` (API key/baseURL/maxTokens) and `refreshMorphEditor()` for live config updates from `/config`. |
+| **`src/agent/tool-executor.ts`** | `executeTool(context, toolCall)`: maps tool name (e.g. `view_file`, `create_file`, `str_replace_editor`, `bash`, `search`, `create_todo_list`, `update_todo_list`, `mcp__*`) to the right tool from context and returns `ToolResult`. |
+| **`src/agent/system-prompt.ts`** | `getSystemPrompt({ hasMorphEditor, customInstructions })`: returns the system prompt string (tool list, rules, confirmation behavior, cwd). |
+| **`src/agent/index.ts`** | Exports legacy **Agent** (text-editor + bash only, no LLM). Used by `App.tsx` only; main app uses `GrokAgent` from `grok-agent.ts`. |</find_text>
+    <semantics>Add ChatHistoryManager and ChatHistoryPersistence rows to agent module table.</semantics>
+    <content_md5_c4729590a01f2c9468efa7129a9e54b4>
+      | **`src/agent/grok-agent.ts`** | **GrokAgent**: holds `GrokClient`, in-memory `messages` and `chatHistory`, tools (text editor, bash, search, todo, confirmation, optional Morph); builds system prompt from `getSystemPrompt`; optionally injects **local RAG context** from `.grok/rag.db` when enabled in project settings; runs streaming loop (`processUserMessageStream`) or single round (`processUserMessage`); trims history (MAX_MESSAGES / MAX_CHAT_ENTRIES); passes `AbortSignal` to API; delegates tool runs to `tool-executor`. Exposes `reconfigureConnection()` (API key/baseURL/maxTokens) and `refreshMorphEditor()` for live config updates from `/config`. |
+      | **`src/agent/chat-history-manager.ts`** | **ChatHistoryManager**: manages chat session persistence, integrates with `ChatHistoryPersistence` for saving/loading sessions to `.grok/chat-history/` directory. Provides `loadChatSession()` method used by the `--load-chat-session` flag and `/restore` command. |
+      | **`src/agent/chat-history-persistence.ts`** | **ChatHistoryPersistence**: atomic JSON file operations for chat sessions (save, load, list, delete). Generates unique session IDs, ensures directory existence, and handles timestamp conversion. |
+      | **`src/agent/tool-executor.ts`** | `executeTool(context, toolCall)`: maps tool name (e.g. `view_file`, `create_file`, `str_replace_editor`, `bash`, `search`, `create_todo_list`, `update_todo_list`, `mcp__*`) to the right tool from context and returns `ToolResult`. |
+      | **`src/agent/system-prompt.ts`** | `getSystemPrompt({ hasMorphEditor, customInstructions })`: returns the system prompt string (tool list, rules, confirmation behavior, cwd). |
+      | **`src/agent/index.ts`** | Exports legacy **Agent** (text-editor + bash only, no LLM). Used by `App.tsx` only; main app uses `GrokAgent` from `grok-agent.ts`. |
+    </content_md5_c4729590a01f2c9468efa7129a9e54b4>
+  </update_md5_c4729590a01f2c9468efa7129a9e54b4>
+</updates>

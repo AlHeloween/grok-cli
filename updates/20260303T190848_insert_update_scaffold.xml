@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_4689e1e9b5ae8307a84491a8755a4b0f name="text_insert_before_anchor" md5="4689e1e9b5ae8307a84491a8755a4b0f" size="521">
+    <file>docs/HANDOVER.md</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>---
+
+## Known issues and improvements</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Add chat history section to handover document.</semantics>
+    <content_md5_4689e1e9b5ae8307a84491a8755a4b0f>
+      ---
+      
+      ## Chat History Management
+      
+      Grok CLI automatically saves chat sessions to `.grok/chat-history/` directory. Sessions can be managed via:
+      
+      - **CLI flag**: `grok --load-chat-session &lt;sessionId&gt;` loads a saved session at startup
+      - **Interactive command**: `/restore` lists sessions; `/restore &lt;sessionId&gt;` loads immediately
+      - **Chat history commands**: `grok chat-history list|load|delete`
+      
+      Session files are JSON with metadata and chat entries. The system uses `ChatHistoryPersistence` class for atomic writes and `ChatHistoryManager` for integration with the agent.
+      
+      ## Known issues and improvements
+    </content_md5_4689e1e9b5ae8307a84491a8755a4b0f>
+  </update_md5_4689e1e9b5ae8307a84491a8755a4b0f>
+</updates>

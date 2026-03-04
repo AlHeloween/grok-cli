@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_debe6eede75ea79669a44ff550c6d593 name="text_insert_before_anchor" md5="debe6eede75ea79669a44ff550c6d593" size="957">
+    <file>README.md</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>All RAG settings can be configured via `/config` → RAG category.
+
+### Optional: index PDFs/DOCX/PPTX/XLSX via sqlite-rag (Python)</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Insert chat session management section after RAG section.</semantics>
+    <content_md5_debe6eede75ea79669a44ff550c6d593>
+      All RAG settings can be configured via `/config` → RAG category.
+      
+      ### Chat Session Management
+      
+      Grok CLI automatically saves your chat sessions to `.grok/chat-history/` directory. You can list, load, and manage saved sessions using the following methods:
+      
+      #### Command Line Flag
+      Load a saved session when starting the CLI:
+      
+      ```bash
+      grok --load-chat-session session_20250303_abc123
+      ```
+      
+      #### Interactive `/restore` Command
+      Inside the interactive chat interface:
+      
+      - Type `/restore` to list all available sessions (newest first)
+      - Type `/restore &lt;sessionId&gt;` to load a specific session immediately
+      - Loaded sessions restore the full conversation history, allowing you to continue where you left off
+      
+      #### Managing Sessions
+      - **List sessions**: `grok chat-history list`
+      - **Load session**: `grok chat-history load &lt;sessionId&gt;`
+      - **Delete session**: `grok chat-history delete &lt;sessionId&gt;`
+      - **Session files**: Stored as JSON in `.grok/chat-history/&lt;sessionId&gt;.json`
+      
+      Sessions are automatically saved when you exit the chat interface with `exit` or Ctrl+C.
+      
+      ### Optional: index PDFs/DOCX/PPTX/XLSX via sqlite-rag (Python)
+    </content_md5_debe6eede75ea79669a44ff550c6d593>
+  </update_md5_debe6eede75ea79669a44ff550c6d593>
+</updates>

@@ -1,7 +1,7 @@
 import { selectKMedoids, type KMedoidsDistance } from "./k-medoids.js";
 import { GloVeLoader, createTestGloVeLoader } from "../aurora/glove/loader.js";
 import { SqliteGloVeLoader, createSqliteGloVeLoader } from "../aurora/glove/sqlite-loader.js";
-import * as path from "path";
+
 
 export interface KeywordWeight {
   keyword: string;
@@ -20,15 +20,32 @@ const STOPWORDS = new Set([
 let sqliteLoader: SqliteGloVeLoader | null = null;
 let gloveLoader: GloVeLoader | null = null;
 
+import { resolveGlovePath, checkFileExists } from "../utils/path-utils.js";
+
 // Try to load SQLite GloVe database automatically
 (async () => {
   try {
-    const dbPath = path.resolve(process.cwd(), "data/glove/glove_50d.db");
+    // Use new path resolution utility
+    const dbPath = resolveGlovePath();
+
+    if (!dbPath) {
+      console.warn(`[semantic-vector] GloVe database not found. Using test loader.`);
+      console.warn(`[semantic-vector] Run 'grok glove generate' or 'grok glove download' to obtain it.`);
+      return;
+    }
+
+    if (!checkFileExists(dbPath, "GloVe database")) {
+      console.warn(`[semantic-vector] GloVe database not found at: ${dbPath}`);
+      console.warn(`[semantic-vector] Using test loader. Run 'grok glove generate' or 'grok glove download'.`);
+      return;
+    }
+
     sqliteLoader = await createSqliteGloVeLoader(dbPath);
     gloveLoader = sqliteLoader; // assign to global gloveLoader
     console.log(`[semantic-vector] Loaded GloVe SQLite database: ${dbPath}`);
   } catch (err) {
     console.warn(`[semantic-vector] Failed to load GloVe SQLite database: ${err instanceof Error ? err.message : String(err)}`);
+    console.warn(`[semantic-vector] Using test loader. Run 'grok glove generate' or 'grok glove download' to fix.`);
   }
 })();
 
@@ -464,3 +481,17 @@ export function computeSemanticVectorsForSession(
 export function extractDominantKeyword(semanticVector: KeywordWeight[]): string {
   return semanticVector[0]?.keyword || "";
 }
+
+// ADID_ROLLBACK (from adm.exe)
+// SDID_ROLLBACK {
+//   "target_file": "D:\\zPython\\grok-cli\\src/rag/semantic-vector.ts"
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/rag/semantic-vector.ts.backup_20260304T113520_687935"
+//   "created_at": "2026-03-04T03:35:20.704532+00:00"
+//   "backup_hash": "a121fd6689b5c5f1fe3245a8d4c6a2f2"
+//   "new_hash": "d46c0681420f1fd2634e9016105b9104"
+//   "goal_id": "fix_glove_path_resolution"
+//   "semantics": "Replace old path resolution with new path-utils based resolution"
+//   "update_attrs": {"relative_path": "src/rag/semantic-vector.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "// Try to load SQLite GloVe database automatically\n(async () => {\n  try {\n    // 1. Environment variable override\n    let dbPath: string;\n    if (process.env.GLOVE_DB_PATH) {\n      dbPath = path.resolve(process.env.GLOVE_DB_PATH);\n    } else {\n      // 2. Relative to current working directory (original behavior)\n      dbPath = path.resolve(process.cwd(), \"data/glove/glove_50d.db\");\n    }\n    sqliteLoader = await createSqliteGloVeLoader(dbPath);\n    gloveLoader = sqliteLoader; // assign to global gloveLoader\n    console.log(`[semantic-vector] Loaded GloVe SQLite database: ${dbPath}`);\n  } catch (err) {\n    console.warn(`[semantic-vector] Failed to load GloVe SQLite database: ${err instanceof Error ? err.message : String(err)}`);\n  }\n})();", "replace_present": true}
+//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/rag/semantic-vector.ts\""
+// }

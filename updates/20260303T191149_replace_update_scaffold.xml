@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_0cdd19634a6daf6a28d8ec75196050c3 name="text_anchor_replace" md5="0cdd19634a6daf6a28d8ec75196050c3" size="355">
+    <file>docs/AGENT.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>| **System prompt** | `getSystemPrompt()` in `system-prompt.ts` (tool rules, confirmation, cwd); custom instructions from GROK.md. |
+
+For file-level and module relationships, see **`docs/APPLICATION-SCHEME.md`**.</find_text>
+    <semantics>Add Chat History row to agent summary table.</semantics>
+    <content_md5_0cdd19634a6daf6a28d8ec75196050c3>
+      | **System prompt** | `getSystemPrompt()` in `system-prompt.ts` (tool rules, confirmation, cwd); custom instructions from GROK.md. |
+      | **Chat History** | `ChatHistoryManager` and `ChatHistoryPersistence` save/load sessions to `.grok/chat-history/`; `--load-chat-session` flag and `/restore` command for restoration. |
+      
+      For file-level and module relationships, see **`docs/APPLICATION-SCHEME.md`**.
+    </content_md5_0cdd19634a6daf6a28d8ec75196050c3>
+  </update_md5_0cdd19634a6daf6a28d8ec75196050c3>
+</updates>

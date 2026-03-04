@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_b94b6e5f6d1a210be2670ecb05058c9f name="text_anchor_replace" md5="b94b6e5f6d1a210be2670ecb05058c9f" size="169">
+    <file>CHANGELOG.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>### Fixed
+
+- (None in this batch.)</find_text>
+    <semantics>Add paste and CLI options fixes to changelog.</semantics>
+    <content_md5_b94b6e5f6d1a210be2670ecb05058c9f>
+      ### Fixed
+      
+      - Clipboard paste now inserts text correctly when special key handler returns false synchronously.
+      - CLI command suggestions now show up to 20 items (increased from 8) for better navigation.
+    </content_md5_b94b6e5f6d1a210be2670ecb05058c9f>
+  </update_md5_b94b6e5f6d1a210be2670ecb05058c9f>
+</updates>

@@ -1,5 +1,6 @@
 import { existsSync } from "fs";
 import path from "path";
+import { getInstallationRoot } from "../utils/path-utils.js";
 import type { SettingsManager } from "../utils/settings-manager.js";
 import type { ChatEntry } from "../agent/grok-agent.js";
 
@@ -138,14 +139,24 @@ export function createRagHandler(deps: RagHandlerDependencies) {
           push("Opening RAG GUI...");
           const manager = getSettingsManager();
           const dbPath = manager.getRagDbPath();
-          const exePath = path.resolve(process.cwd(), "MakerAI", "_build", "win64", "bin", "RagManager.exe");
+          const exePath = path.resolve(getInstallationRoot(), "MakerAI", "_build", "win64", "bin", "RagManager.exe");
+          console.error('[rag-menu-handler] exePath:', exePath);
+          const displayExePath = exePath.replace(/\\/g, '/');
           if (!existsSync(exePath)) {
-            push(`❌ RagManager.exe not found at: ${exePath}`);
-            push("Build it with: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-makerai.ps1");
+            const scriptPath = path.resolve(getInstallationRoot(), "scripts", "build-makerai.ps1");
+            push(`❌ RagManager.exe not found at: ${displayExePath}`);
+            if (existsSync(scriptPath)) {
+              push(`Build it with: powershell -NoProfile -ExecutionPolicy Bypass -File "${scriptPath}"`);
+            } else {
+              push("Build it with: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-makerai.ps1");
+              push(`Script expected at: ${scriptPath}`);
+            }
             break;
           }
           // In interactive CLI, we cannot spawn GUI directly; guide user
-          push(`Run command: grok rag gui\nor manually: ${exePath} --json .grok/makerai-ragvector.json --db ${dbPath}`);
+          const manualCommand = `Run command: grok rag gui\nor manually: ${displayExePath} --json .grok/makerai-ragvector.json --db ${dbPath}`;
+          console.error('[rag-menu-handler] manualCommand:', manualCommand);
+          push(manualCommand);
           break;
         }
         default:

@@ -9,6 +9,12 @@ alwaysApply: true
 
 - **NO LEGACY COMPATIBILITY.** Do not add backward-compat parsing, fallback paths, alias modes, or "auto-repair" behaviors that silently reinterpret descriptors; instead migrate inputs explicitly or fail fast with a clear error. Reason: legacy behavior creates cross-conflicting code paths and preserves old bugs.
 
+- **Documentation reproducibility (required):**
+  - Any document that claims a working state (status `production`, `test`, or `execution`) must include the universal YAML header + `reproduce:` block described in `extra_rules_for_all_agents.md`.
+  - Maintain `DOCINDEX.md` at repo root as the documentation surface index (owners/entrypoints/last_verified). This is separate from `index.md` which is the folder-based repository map.
+  - Keep `.github/PULL_REQUEST_TEMPLATE.md` aligned with DOCINDEX + reproducibility rules.
+  - When promoting research → production docs, include `docs/promotion.md` (template) as the audit trail.
+
 - **cmd_runner-only execution (CRITICAL)**: Any execution of **non-trivial / crash-prone / long-running commands** is strictly prohibited unless started via cmd_runner.
   - Repo checkout (recommended): `uv run cmd_runner.py start -- <command ...>`
   - Release bundle (recommended): `cmd_runner.exe start -- <command ...>`

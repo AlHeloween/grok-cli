@@ -10,6 +10,7 @@ import { GrokAgent, ChatEntry } from "./agent/grok-agent.js";
 import ChatInterface from "./ui/components/chat-interface.js";
 import { ThemeProvider } from "./ui/context/theme-context.js";
 import { getSettingsManager } from "./utils/settings-manager.js";
+import { getInstallationRoot } from "./utils/path-utils.js";
 import { loadModelConfig } from "./utils/model-config.js";
 import { ConfirmationService } from "./utils/confirmation-service.js";
 import { createMCPCommand } from "./commands/mcp.js";
@@ -923,13 +924,22 @@ ragCommand
     );
     const exePath =
       options.exe ||
-      path.resolve(process.cwd(), "MakerAI", "_build", "win64", "bin", "RagManager.exe");
+      path.resolve(getInstallationRoot(), "MakerAI", "_build", "win64", "bin", "RagManager.exe");
+    const displayExePath = exePath.replace(/\\/g, '/');
 
     if (!fs.existsSync(exePath)) {
-      console.error(`❌ RagManager.exe not found at: ${exePath}`);
-      console.error(
-        "Build it with: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-makerai.ps1"
-      );
+      const scriptPath = path.resolve(getInstallationRoot(), "scripts", "build-makerai.ps1");
+      console.error(`❌ RagManager.exe not found at: ${displayExePath}`);
+      if (fs.existsSync(scriptPath)) {
+        console.error(
+          `Build it with: powershell -NoProfile -ExecutionPolicy Bypass -File "${scriptPath}"`
+        );
+      } else {
+        console.error(
+          "Build it with: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-makerai.ps1"
+        );
+        console.error(`Script expected at: ${scriptPath}`);
+      }
       process.exit(1);
     }
 

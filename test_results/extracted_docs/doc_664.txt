@@ -1,0 +1,61 @@
+F. Telecommunication System
+Once separated from the host spacecraft (lander or rover), the Mars Helicopter can only communicate to or be
+commanded from Earth via radio link. This link is implemented using a COTS 802.15.4 (Zig-Bee) standard 900 MHz
+chipset, SiFlex 02, originally manufactured by LS Research. Two identical SiFlex parts are used, one of which is an
+integral part of a base station mounted on the host spacecraft, the other being included in the helicopter electronics.
+These radios are mounted on identical, custom PC boards which provide mechanical support, power, heat distribution,
+and other necessary infrastructure. The boards on each side of the link are connected to their respective custom antennas.
+The helicopter antenna is a loaded quarter wave monopole positioned near the center of the solar panel (which also
+serves as ground plane) at the top of the entire helicopter assembly and is fed through a miniature coaxial cable routed
+through the mast to the electronics below. The radio is configured and exchanges data with the helicopter and base
+station system computers via UART.
+One challenge in using off-the-shelf assemblies for electronics systems to be used on Mars is the low temperatures
+expected on the surface. At night, the antenna and cable assemblies will see temperatures as low as −140 C. Electronics
+assemblies on both base station and helicopter will be kept “warm” (not below −15 C) by heaters as required. Another
+challenge is antenna placement and accommodation on the larger host spacecraft. Each radio emits approximately
+0.75 W power at 900 MHz with the board consuming up to 3 W supply power when transmitting and approximately
+0.15 W while receiving. The link is designed to relay data at over-the-air rates of 20 kbps or 250 kbps over distances of
+up to 1000 m.
+A one-way data transmission mode is used to recover data from the helicopter in real time during its brief sorties.
+When landed, a secure two-way mode is used. Due to protocol overhead and channel management, a maximum return
+throughput in flight of 200 kbps is expected while two-way throughputs as low as 10 kbps are supported if required by
+marginal, landed circumstances.
+
+G. Power & Energy System
+The helicopter is powered by a Li-Ion battery system that is recharged daily by a solar panel. The energy in the
+battery is used for operating heaters to survive the cold Martian nights as well as operate the helicopter actuators and
+avionics during short flights lasting from 90 seconds to a few minutes. Depending on the latitude of operations and the
+Martian season, recharging of this battery through the solar panel could occur over one to multiple sols (Martian days).
+The helicopter battery shown in Fig. 12 consists of 6 Sony SE US1865o VTC4 Li-ion cells with a nameplate capacity
+of 2 Ah. The maximum discharge rate is greater than 25 A amd the maximum cell voltage specified by the manufacturer
+is 4.25 V. The continuous tested power load capability of this batterry is 480 W with a peak power capability of
+510 W. Battery voltage is in the range of 15–25.2 V and the total mass of the 6 cells is 273 g. A cell balancing charge
+management system controlled by the FPGA ensures that the all the individual cells are at a uniform voltage.
+A de-rated end-of-life battery capacity of 35.75 Wh is available for use. Of this capacity, 10.73 Wh (30%) is kept as
+reserve, night-time survival energy usage is estimated at 21 Wh for typical operation in the northern latitudes in the
+spring season, and approximatley 10 Wh is available for flight. Assuming that 20% of the power is at the peak load of
+510 W and 80% is at a continuous load of 360 W, approximately 90 sec of flight is possible. These energy projections
+represent conservative worst-case end-of-mision battery performance at 0 C initial temperature. More moderate power
+loads will extend the flight time.
+The solar panel is made from Inverted Metamorphic (IMM4J) cells from SolAero Technologies. The cells are
+optimized for the Mars solar spectrum and occupy a rectangular area with 680 cm2 of substrate (544 cm2
+active cell
+area) in a region centered and immediately above the co-axial rotors. This region minimally interferes with the flow
+through the rotor.
+
+H. Thermal System
+The helicopter must survive the cold of the night on Mars where temperatures can drop to -100 C or lower. The
+most critical component is the battery which is kept above -15 C through the night as it powers Kapton film heaters
+attached to the battery cells. The avionics boards in the ECM surround the battery and are also kept at an elevated
+temperature by virtue of their proximity to the warm battery assembly. Insulation around the avionics boards is provided
+by a carbon-dioxide gap of 3 cm width. Additional insulation can be provided by replacing the carbon-dioxide gas with
+an Aerogel formulation. The outermost fuselage thermal coating is from Sheldahl with Solar absorptivity α = 0.8 and
+infra-red (IR) emissivity  = 0.1.
+In addition to thermal losses through the gas gap (or aerogel), additional losses occur due to conduction in the mast
+as well as through the copper wiring that penetrate the ECM from the mast. To minimize the latter, the wire gauges are
+selected to be of the thinnest gauges that can still support the current draw during operations without overheating.
+Prior to flight, under the control of the FPGA, the thermal system powers on heaters in the motor control boards that
+have been exposed to the ambient temperatures. The internal battery temperature is brought up to 5 C to allow hi-power
+energy extraction from the cells. During operation the ECM and battery warm up as a result of avionics operations and
+battery self-heating. However, the thermal inertia of the elements is such that for the short flights of the helicopter, there
+is no overheating.

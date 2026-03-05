@@ -1,0 +1,132 @@
+C. Channel Coding
+ A noticeable feature of the air interface of the 5G is the use
+ of new channel coding techniques: Data channels use lowdensity parity-check (LDPC) codes, and control channels use
+ polar codes [18]. However, the use of these techniques have
+ some limitations. For instance, polar codes can achieve
+ excellent performance, but it takes several iterations to
+ achieve this performance, and there is no way to predict how
+ fast polar codes can reach this desired performance. In
+ addition, LDPC codes suffer from high complexity of decoding
+ when either it is used with large block or the channel is under
+ colored noise.
+ Deep learning is well-known for its high parallelism
+ structure, which can implement one-shot coding/decoding.
+ Thus, many researchers predict that deep learning-based
+ channel coding is a propitious method to enable 5G NR. For
+ instance, the authors of [19] proposed reinforcement learning
+ for effective decoding strategies for binary linear codes such
+ as ReedMuller and BCH codes, and as a case study, they
+ considered bit-flipping decoding. The authors mapped learned
+ bit-flipping decoding to a Markov decision process and
+ reformulated the decoding problem using both standards and
+ fitted Q-learning with a neural network. The neural network
+ architecture consists of two hidden layers with 500 and 1500
+ neurons with ReLu activation functions. For the training
+ hyperparameters, the authors considered ten iterations and
+ 0.99 as a discount factor. The SNR is ranging from -2dB to 8dB.
+ The authors considered two types of channels, binary
+ symmetric channel, and Additive White Gaussian Noise
+ (AWGN) channel.
+ The authors of [20] proposed three types of deep neural
+ networks for channel decoding for 5G, multi-layer perceptron,
+ convolutional neural network, and recurrent neural network.
+ The authors used polar codes with rate 1/2 and three
+ codeword lengths 8, 16, and 32. The signal to noise ratio is
+ from -2 dB to 20 dB. The authors showed that the recurrent
+ neural network has the best decoding performance but at the
+ cost of high computation time.
+ The authors of [21] studied a low latency, robust, and
+ scalable convolutional neural network-based decoder of
+ convolutional and LPDC codes. The convolution decoder is
+ trained to decode in a single-shot using Mixed-SNR
+ independent sampling. The CNN decoder is tested with
+ different block lengths of 100, 200, and 1000 under the AWGN
+ channel and with total samples of 109 samples, and SNR is
+ ranging from -4dB to 4dB. The proposed model is compared
+ with Viterbi, BiGRY, and bit flipping based decoders using bit
+ error rate and block error rate. The authors showed that CNN
+ outperforms the previously mentioned decoders regarding
+ BER and BLER.
+ Also, CNN decoder is eight times faster than RNN decoders.
+ Another example of deep learning-based channel decoder is
+ proposed in [22]. The proposed deep learning models consists
+ of an iterative belief propagation concatenated with a
+ convolutional neural network (BP-CNN) LDPC decoding under
+ correlated noise, CNN for denoising the received signal and BP
+ for decoding. The authors considered the AWGN channel and
+ BPSK modulation. The authors showed that BPCNN reduces the decoding bit error rate with low complexity.
+ Further studies are required to investigate the performance
+ of deep learning under communication channels which exhibit
+ correlations in fading. Deep learning-based channel coding can
+ achieve a good range of performance–complexity trade-offs, if
+ the training is performed correctly as the choice of code-word
+ length, causes over-fitting and under-fitting.
+ 
+
+ D. Intelligent Radio Resource and Network Management
+ Radio resources are scarce, and there is an increasing
+ demand of wireless traffic. Intelligent wireless network
+ management is the way forward to meet these increasing
+ demands. Machine learning/deep learning can be a promising
+ feature for resource allocation in 5G wireless communication
+ networks. Deep learning can be a good alternative for
+ interference management, spectrum management, multi-path
+ usage, link adaptation, multi-channel access, and traffic
+ congestion. For instance, the authors of [23] proposed an AI
+ scheduler to infer the free slots in a multiple frequencies time
+ division multiple access to avoid congestion and high packet
+ loss. Four last frames state are fed to a neural network, which
+ consists of two fully connected hidden layers. The proposed AI
+ scheduler was tested in a wireless sensor network of 5 nodes
+ and can reduce the collisions with other networks with 50%.
+ The authors of [24] proposed the addition of the artificial
+ intelligence module instead of replacing conventional
+ scheduling module in LTE systems. This AI module can provide
+ conventional scheduling algorithms with the flexibility and
+ speed up the convergence time. As scheduling for cooperative
+ localization is a critical process to elevate the coverage and the
+ localization precision, the authors of [25] presented a deep
+ reinforcement learning for decentralized cooperative
+ localization scheduling in vehicular networks.
+ The authors of [26] proposed a deep reinforcement learning
+ (DRL) based on LSTM to enables small base stations to perform
+ dynamic spectrum access to an unlicensed spectrum. The
+ model enables the dynamic selection of wireless channel,
+ carrier aggregation, and fractional spectrum access. The
+ coexistence of WLAN and other LTE-LAA operators
+ transmitting on the same channel is formulated as a game
+ between the two and each of which aims to maximize its rate
+ while achieving long-term equal-weighted fairness. This game
+ is solved using DRL-LSTM. The proposed framework showed
+ significant improvement.
+ The authors of [27] proposed an AI framework for smart
+ wireless network management based on CNN and RNN to
+ extract both the sequential and spatial features from the raw
+ signals. These features serve as a state of deep reinforcement
+ learning which defines the optimal network policy. The
+ proposed framework was tested using real-experiment an
+ experiment using a real-time heterogeneous wireless network
+ test-bed. The proposed AI framework enhances the average
+ throughput by approximately 36%. However, the proposed
+ framework is costly in terms of training time and memory
+ usage.
+ The authors of [28] proposed a deep-reinforcement learning
+ approach for SDN routing optimization. To evaluate the
+ performance of the proposed DRL based routing model, the
+ scalefree network topology of 14 nodes, and 21 full-duplex
+ links, with uniform link capacities and average node degree of
+ 3, and traffic intensity levels from 12.5% to 125% of the total
+ network capacity. The trained DRL routing model can achieve
+ similar configurations that of methods such as analytical
+ optimization or local-search heuristic methods with minimal
+ delays. Some other work on routing can be found in [29], [30].
+ Another aspect of network management is interference
+ management. Interference management often relays on
+ algorithms such as WMMSE. This algorithm is costly as it uses
+ matrix inversion, to solve the problem of numerical
+ optimization in signal processing, the authors of [31] proposed
+ to approximate the WMMSE used for interference
+ management, which is has a central role in enabling Massive
+ MIMO systems. The authors showed that SP optimization
+ algorithms could be approximated by a finite-size neural
+ network.

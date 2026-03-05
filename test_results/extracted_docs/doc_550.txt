@@ -1,0 +1,57 @@
+**Study of smoking cannabis in adults EXCERPT**
+
+Abstract
+Background
+We examined the association between cannabis use and cardiovascular outcomes among the general population, among never‐tobacco smokers, and among younger individuals.
+
+Conclusions
+Cannabis use is associated with adverse cardiovascular outcomes, with heavier use (more days per month) associated with higher odds of adverse outcomes.
+
+Clinical Perspective
+What Is New?
+Cannabis use is associated with increased risk of myocardial infarction and stroke, with higher odds of events associated with more days of use per month, controlling for demographic factors and tobacco smoking.
+
+Similar increases in risk associated with cannabis use are found in never‐tobacco smokers.
+
+What Are the Clinical Implications?
+Patients should be screened for cannabis use and advised to avoid smoking cannabis to reduce their risk of premature cardiovascular disease and cardiac events.
+
+Nonstandard Abbreviations and Acronyms
+BRFSS	
+Behavioral Risk Factor Surveillance System
+
+Cannabis use is increasing in the US population.1 From 2002 to 2019, past‐year prevalence of US adult cannabis use increased from 10.4% to 18.0%, whereas daily/almost daily use (300+ days per year) increased from 1.3% to 3.9%. Rising diagnoses of cannabis use disorder suggest that this increase in use is not confined to reporting of use.2, 3 At the same time, perceptions of the harmfulness of cannabis are decreasing. National surveys reported that adult belief in great risk of weekly cannabis use fell from 50% in 2002 to 28.6% in 2019.4 Despite common use, little is known about the risks of cannabis use and, in particular, the cardiovascular disease risks. Cardiovascular‐related death is the leading cause of mortality, and cannabis use could be an important, unappreciated risk factor leading to many preventable deaths.5
+
+There are reasons to believe that cannabis use is associated with atherosclerotic heart disease. Endocannabinoid receptors are ubiquitous throughout the cardiovascular system.6 Tetrahydrocannabinol, the active component of cannabis, has hemodynamic effects and may result in syncope, stroke, and myocardial infarction.7, 8, 9 Smoking, the predominant method of cannabis use,10 may pose additional cardiovascular risks as a result of inhalation of particulate matter.11 Furthermore, studies in rats have demonstrated that secondhand cannabis smoke exposure is associated with endothelial dysfunction, a precursor to cardiovascular disease.11 Past studies on the association between cannabis use and cardiovascular outcomes have been limited by the dearth of adults with frequent cannabis use.7, 12, 13 Moreover, most studies have been in younger populations at low risk for cardiovascular disease, and therefore without sufficient power to detect an association between cannabis use and atherosclerotic heart disease outcomes.7, 12, 14
+
+In addition, tobacco use among adults who use cannabis is common, and small sample sizes prevented analyses on the association of cannabis use with cardiovascular outcomes among nontobacco users. Any independent effects of cannabis and tobacco in the general adult population and effects of cannabis use among those who have never smoked tobacco cigarettes is of interest, because some have questioned whether cannabis has any effect beyond that of being associated with concurrent tobacco use.15, 16, 17 The National Academy of Sciences report on the health effects of cannabis use suggested that “testing the interaction between cannabis and tobacco use and performing stratified analyses to test the association of cannabis use with clinical endpoints in nonusers of tobacco” is necessary to elucidate the effect of cannabis use on cardiovascular health independent of tobacco use.12 We performed these tests and controlled for potential confounders.
+
+The Behavioral Risk Factor Surveillance System (BRFSS) is a national cross‐sectional survey performed annually by the Centers for Disease Control and Prevention. Beginning in 2016, an optional cannabis module was included supporting an analysis examining the association of cannabis use with cardiovascular outcomes.18 Although there have been 3 other studies examining the association of cannabis use with cardiovascular events using the BRFSS cannabis module,19, 20, 21 our much larger sample size enabled us to investigate whether cannabis use was associated with atherosclerotic heart disease outcomes among the general adult population, among nontobacco cigarette users, and among younger adults.
+
+Methods
+Study Sample
+We combined 2016 to 2020 BRFSS data from 27 American states and 2 territories participating in the cannabis module during at least 1 of these years (Table S1). BRFSS is a telephone survey that collects data from a representative sample of US adults on risk factors, chronic conditions, and health care access.18 The BRFSS questions used are summarized in Table S2. Because this study was based on publicly available data and exempt from institutional review board review, informed consent was not obtained. The data and corresponding materials that support the findings of this study are available from the corresponding author upon request.
+
+Our sample included those 18 to 74 years old from the BRFSS (N=434 104) who answered the question, “During the past 30 days, on how many days did you use marijuana or hashish?”, excluding (<1%) those who answered “Don't know” or refused to answer. We excluded adults >74 years old because cannabis use is uncommon in this population.
+
+Measures
+We quantified cannabis use as a continuous variable, days of cannabis use in the past 30 days divided by 30. Thus, daily cannabis use is scored 1, and less than daily use scores were proportionately lower. Specifically, daily use was scored as 1=30/30, 15 days per month was scored 0.5=15/30, and nonuse was scored 0=(0/30). Nonusers’ score was 0. Therefore, a 1‐unit change in our cannabis use frequency metric is equivalent to a comparison of 0 days of cannabis use within past 30 days to daily cannabis use.
+
+Demographic variables included age, sex, and self‐identified race and ethnicity. Socioeconomic status was represented by educational attainment, categorized as less than high school, high school, some college, or college graduate.
+
+Cardiovascular risk factors included tobacco cigarette use (never, former, current), current alcohol consumption (nonuse, nondaily use, daily use), body mass index, diabetes, and physical activity. Nicotine e‐cigarette use was similarly classified as never, former, or current.
+
+Outcomes were assessed when respondents were asked, “Has a doctor, nurse, or other health professional ever told you that you had any of the following….?”. Coronary heart disease (CHD) was assessed by: “(Ever told) you had angina or coronary heart disease?” The lifetime occurrence of myocardial infarction (MI): “(Ever told) you had a heart attack, also called a myocardial infarction?” Stroke: “(Ever told) you had a stroke?” Finally, we created composite indicator for cardiovascular disease, which included any CHD, MI, or stroke.
+
+Statistical Analysis
+Complete case‐weighted estimates of demographic and socioeconomic factors, health behaviors, and chronic conditions were calculated using survey strata, primary sampling units clusters, and sampling weights for the 5 years of combined data to obtain nationally representative results for the states using the cannabis module.22P values for bivariate analyses were calculated by the Rao‐Scott corrected χ2 test.
+
+We conducted 3 multivariable logistic analyses of the association of lifetime occurrence of CHD, MI, stroke, and the composite of the 3 with cannabis use ([days per month]/30) as a function of demographic and socioeconomic factors, health‐related behaviors, and other chronic conditions, accounting for the complex survey design. The first analysis included the entire sample 18 to 74 years old controlling for tobacco cigarette use and other covariates. The second was conducted among the respondents who had never used tobacco cigarettes. The third was conducted among respondents who had never used tobacco cigarettes or e‐cigarettes. In the first analysis, we tested for an interaction between current cannabis use (any cannabis use frequency between 1 and 30 days) and current tobacco cigarette use to see if there were synergistic effects of cannabis and conventional tobacco use by measuring the coefficient. An interaction was coded as present if frequency of cannabis use was at least 1 day per month, and conventional tobacco use was coded as current. In addition, we examined the variance inflation factors for the cannabis and tobacco use variables to ensure that they were quantifying statistically independent effects. An upper bound of 5 for the variance inflation factor was used for determination of independent effects.23
+
+We performed supplemental analyses restricting the 3 main analyses to younger adults at risk for premature cardiovascular disease, which we defined as men <55 years old and women <65 years old. The difference in age cutoff by sex is due to the protective effect of estrogen.24 We also conducted sensitivity analyses limiting the comparison to daily versus nonusers using the same multivariate model as in the main analysis and using propensity‐score matching (details in Data S1).
+
+We used R statistical software version 4.0 (R Core Team, 2020, Vienna, Austria) and survey package to produce complex survey‐adjusted statistics.25, 26 We used the package car to estimate the survey‐adjusted variance inflation factors.27
+
+Results
+Baseline Characteristics
+Among the 434 104 respondents 18 to 74 years old who answered the cannabis module, the weighted prevalence of daily cannabis use was 4.0%, nondaily use was 7.1% (median: 5 days per month; interquartile range, 2–14), and nonuse was 88.9%. The most common form of cannabis consumption was smoking (73.8% of current users). The mean age of the respondents was 45.4 years. About half (51.1%) were women, and the majority of the respondents were White (60.2%), whereas 11.6% were Black, 19.3% Hispanic, and 8.9% other race and ethnicity (eg, non‐Hispanic Asian, Native American, Native Hawaiian and Pacific Islander, and those self‐reporting as multiracial) (Table 1). Daily alcohol use and physical activity had a prevalence of 4.3% and 75.0%, respectively. Most of the sample had never used tobacco cigarettes (61.1%). The prevalence of CHD, MI, stroke, and the composite outcome of all 3 were 3.5% (N=20 009), 3.6% (N=20 563), 2.8% (N=14 922), and 7.4% (N=40 759), respectively. The percentage of missing values for each variable was <1% of the total sample size except for race (1.64%) and alcohol use (1.06%).

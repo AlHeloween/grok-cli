@@ -1,0 +1,65 @@
+In this paper, we provide a generalizable distribution of television advertising elasticities
+for established products that can serve as a prior distribution for firms and researchers.
+Providing generalizable estimates of TV advertising effects necessitates transparent and
+replicable estimation methods and an a priori relevant population of products. Our analy-
+sis is based on a sample of 288 large, national CPG brands that are selected using a clear
+research protocol, and our data sources (Nielsen Ad Intel and RMS scanner data) are
+widely used by marketing managers and academic researchers. We find that the median
+of the distribution of estimated long-run advertising elasticities is between 0.0085 and
+0.0142, and the corresponding mean is between 0.0098 and 0.0261.
+We draw two main lessons from these results. First, the estimated advertising elastic-
+ities are small, and two thirds of the estimates are not statistically distinguishable from
+zero. The estimates are also economically small, in the sense that more than 80% of
+all brands have a negative ROI of advertising at the margin. The estimates are roughly
+half the size of the most comparable prior study, Lodish et al. (1995), which used data
+from the 1980s. This difference is consistent with an overall decline in TV advertising
+effectiveness over the last three decades.
+Second, our results are robust. In particular, across a wide range of specifications, the
+overall distribution of advertising elasticities is stable. Due to this fact, together with the
+institutional details of the ad buying process that underlie our identification strategy, it
+appears implausible that our results are affected by any remaining confounds.
+Our results have important positive and normative implications. A central finding is
+the over-investment in advertising for more than 80% of brands, a significant misalloca-
+tion of resources by firms. Our data are identical to the commercially available data used
+by firms, and hence it is unlikely that firms observe larger advertising effects because of
+access to alternative data sources. This raises an economic puzzle. Why do firms spend
+billions of dollars on TV advertising each year if the return is negative? There are sev-
+eral possible explanations. First, agency issues, in particular career concerns, may lead
+managers (or consultants) to overstate the effectiveness of advertising if they expect to
+lose their jobs if their advertising campaigns are revealed to be unprofitable. Second, an
+incorrect prior (i.e. conventional wisdom that advertising is typically effective) may lead a
+decision maker to rationally shrink the estimated advertising effect from their data to an
+incorrect, inflated prior mean. Third, the estimated advertising effects may be inflated if
+confounding factors are not adequately adjusted for. The last two explanations do not as-
+sume irrational behavior, but may simply represent a cost of conducting causal inference
+23
+to acquire accurate information on the effect of advertising. We view this explanation
+as plausible given that unified, formal approaches to causal inference have only recently
+been widely adopted. These proposed explanations are not mutually exclusive. In par-
+ticular, agency issues may be exacerbated if the general effectiveness of advertising or a
+specific advertising effect estimate is overstated.13 While we cannot conclusively point to
+these explanations as the source of the documented over-investment in advertising, our
+discussions with managers and industry insiders suggest that these may be contributing
+factors.
+This brings us back to a key motivating question for this research, the long-run viabil-
+ity of traditional media markets. The documented over-investment in advertising suggests
+a threat to the survival of media markets in their current form, once knowledge about the
+small degree of TV advertising effectiveness becomes common knowledge. But our results
+also indicate that for a substantial number of brands (34% based on the point estimates),
+the observed advertising schedules are valuable compared to the counterfactual of no ad-
+vertising. There is a large degree of statistical uncertainty about the exact ROIs, and only
+for 12% of brands the predicted ROIs from the observed advertising schedules are positive
+and statistically different from zero. This suggests a large option value from adopting im-
+proved methods or research designs, such as A/B tests, to estimate the causal effect and
+ROI of advertising. Our results also do not foreclose the possibility that advertising can
+be profitable with alternative scheduling, targeting, or advertising copy strategies. The
+rise of addressable television, in particular, should allow advertisers and researchers to
+experiment with individual level targeting in the future. These approaches for improving
+advertising measurement, scheduling, and targeting may well ensure the long-run viability
+of media markets.
+While improvements in targeting technology may theoretically increase the potential
+for higher advertising returns, they do not solve the underlying agency problems that allow
+sub-optimal advertising decisions to persist in the traditional TV advertising model we
+evaluate in this paper. Together with past research documenting similar results in digital
+advertising markets (Blake et al. 2015; Lewis and Rao 2015), our work should motivate
+economists to further study the managerial and agency issues in advertising markets.

@@ -1,0 +1,43 @@
+You may be able to claim the child and dependent care credit if you paid expenses for the care of a qualifying individual to enable you (and your spouse, if filing a joint return) to work or actively look for work. Generally, you may not take this credit if your filing status is married filing separately. However, see What's Your Filing Status? in Publication 503, Child and Dependent Care Expenses, which describes an exception for certain taxpayers living apart from their spouse and meeting other requirements. The amount of the credit is a percentage of the amount of work-related expenses you paid to a care provider for the care of a qualifying individual. The percentage depends on your adjusted gross income.
+ 
+
+ Dollar limit
+ The total expenses that you may use to calculate the credit may not be more than $3,000 (for one qualifying individual) or $6,000 (for two or more qualifying individuals). Expenses paid for the care of a qualifying individual are eligible expenses if the primary reason for paying the expense is to assure the individual's well-being and protection. If you received dependent care benefits that you exclude or deduct from your income, you must subtract the amount of those benefits from the dollar limit that applies to you.
+ 
+
+ Qualifying individual
+ A qualifying individual for the child and dependent care credit is:
+ 
+
+ Your dependent qualifying child who was under age 13 when the care was provided,
+ Your spouse who was physically or mentally incapable of self-care and lived with you for more than half of the year, or
+ An individual who was physically or mentally incapable of self-care, lived with you for more than half of the year, and either: (a) was your dependent; or (b) could have been your dependent except that he or she received gross income of $4,700 or more, or filed a joint return, or you (or your spouse, if filing jointly) could have been claimed as a dependent on another taxpayer's 2023 return.
+ Physically or mentally not able to care for oneself - An individual is physically or mentally incapable of self-care if, as a result of a physical or mental defect, the individual is incapable of caring for his or her hygiene or nutritional needs or requires the full-time attention of another person for the individual's own safety or the safety of others.
+ 
+
+ Children of divorced or separated parents or parents living apart - A noncustodial parent who is claiming a child as a dependent should review the rules under the topic Child of divorced or separated parents or parents living apart in Publication 503, because a child may be treated as the qualifying individual of the custodial parent for the child and dependent care credit, even if the noncustodial parent is entitled to claim the child as a dependent.
+ 
+
+ Individual qualifying for part of year - If an individual is a qualifying individual for only a part of the tax year, only those expenses paid for care of the individual during that part of the year are included in calculating the credit.
+ 
+
+ Taxpayer identification number (TIN) - You must provide the TIN (usually the Social Security number) of each qualifying individual.
+ 
+
+ Care of a qualifying individual
+ The care may be provided in the household or outside the household; however, don't include any amounts that aren't primarily for the well-being of the individual. You should divide the expenses between amounts that are primarily for the care of the individual and amounts that aren't primarily for the care of the individual. You must reduce the expenses primarily for the care of the individual by the amount of any dependent care benefits provided by your employer that you exclude from gross income. In general, you can exclude up to $5,000 for dependent care benefits received from your employer. Additionally, in general, the expenses claimed may not exceed the smaller of your earned income or your spouse's earned income. If you or your spouse is a full-time student or incapable of self-care, then you or your spouse is treated as having earned income for each month that you or your spouse is a full-time student or incapable of self-care. Your or your spouse's earned income for each month is $250 if there is one qualifying person ($500 if two or more qualifying individuals). See the topic Earned Income Limit in Publication 503 PDF for further information.
+ 
+
+ Care providers
+ You must identify all persons or organizations that provide care for your child or dependent. You must report the name, address, and TIN (either the Social Security number or the employer identification number) of the care provider on your return. If the care provider is a tax-exempt organization, you need only report the name and address of the organization on your return. You can use Form W-10, Dependent Care Provider's Identification and Certification to request this information from the care provider. If you can't provide information regarding the care provider, you may still be eligible for the credit if you can show that you exercised due diligence in attempting to provide the required information. If you pay a provider to care for your dependent or spouse in your home, you may be a household employer. If you're a household employer, you may have to withhold and pay Social Security and Medicare taxes and pay federal unemployment tax. For more information, refer to Do You Have Household Employees? in Publication 503, Publication 926, Household Employer's Tax Guide, or Topic no. 756.
+ 
+
+ Payments to relatives or dependents - The care provider can't be your spouse, the parent of your qualifying individual if your qualifying individual is your child and under age 13, your child who is under the age of 19, or a dependent whom you or your spouse may claim on your return.
+ 
+
+ Reporting on your tax return
+ If you qualify for the credit, complete Form 2441, Child and Dependent Care Expenses and attach to Form 1040, U.S Individual Income Tax Return, Form 1040-SR, U.S. Tax Return for Seniors or Form 1040-NR, U.S. Nonresident Alien Income Tax Return. If you received dependent care benefits from your employer (an amount is shown on your Form W-2, Wage and Tax Statement), you must complete Part III of Form 2441.
+ 
+
+ Additional information
+ For more information, refer to Am I eligible to claim the child and dependent care credit?

@@ -1,0 +1,28 @@
+Ambiguity is celebrated in human language. It is a central feature of
+literature, poetry, and humor. Ambiguity is anathema to computer language.
+An ambiguous computer language is a nonsensical concept because the
+predictability of computers is what gives part of their value; imagine a
+computer that was asked, “what is 1 and 1” it randomly returned either “two”
+or “11”. Although it is debatable whether every contract can be translated into
+machine language, many of them can be.73 When lawyers or the programmers
+they hire write contracts in code, there is less of a chance for ambiguity than
+in natural language if only for the simple fact that artificial language must be
+complete and predefined, whereas natural language is infinite.74 That is to say
+a person can walk around and verbally recite lines of code and people can at
+least understand what he is saying; a machine cannot understand human
+language that it is not programmed to understand. All of this is simply to say
+that the problem of ambiguity is reduced in the smart contract context.
+Finally, all of the usual defenses to formation of a contract also apply
+in the realm of smart contracts, although as will be seen later, enforcing the
+remedy against a strong smart contract may prove problematic to a court.
+Take unconscionability and illegality, for instance. If a vending machine were
+to sell alcohol to minors or sell alcohol in a dry jurisdiction, then the contract
+could be voided as illegal.75 As will be discussed, the remedies will be either
+ex post through legal action or ex ante through regulation. In this instance, the
+illegal contract can either be policed through a prohibition on alcoholic
+vending machines76 or a system of preclearance where a driver’s license
+scanner or some mechanism are required to ensure compliance with age
+requirements. Similarly, suppose the vending machine charged $1,000 for a
+can of Coke and a court were to find this to be substantively unconscionable.
+The remedies would again either be in damages or in policing the use of such
+vending machines before the contract could be formed.

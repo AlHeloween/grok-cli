@@ -1,0 +1,36 @@
+Artificial Intelligence and Machine Learning in
+ Financial Services
+ The financial industry’s adoption of artificial intelligence (AI) and machine learning (ML) is
+ evolving as financial firms employ ever greater levels of technology and automation to deliver
+ services. Expanding on earlier models of quantitative analysis, AI/ML has often been adopted in
+ finance to solve discrete challenges, such as maximizing profit and minimizing risk. Yet the
+ industry’s adoption of the newer technology also occurs against perceptions that are steeped in
+ tradition and historical financial regulation, and regulators want to ensure that the technology
+ does not sidestep regulations frequently described as technology neutral.
+ Technological advances in computer hardware, capacity, and data storage—which permit the collection and analysis of
+ data—helped fuel the development and use of AI/ML technologies in finance. Unlike older algorithms that automated
+ human-coded rules, new AI models can “learn” by themselves and make inferences and recommendations not identified by
+ modelers in advance. This shift in technology has also enabled the use of new types of data including alternative data (i.e.,
+ data that the consumer credit bureaus do not traditionally use), unstructured data (images or social media posts, etc.), and
+ unlabeled information data—which, when combined, extend the technologies’ uses to new financial services or products.
+ Different parts of the financial services industry have adopted AI/ML technology to varying degrees and for various
+ purposes. Some uses of AI/ML include powering chatbots in customer service functions, identifying investment opportunities
+ and/or executing trades, augmenting lending models or (more sparingly) making lending decisions, and identifying and
+ preventing fraud. The extent to which a sector or firm adopts various technologies reflects a variety of factors, including a
+ firm’s ability to fund internal development and regulatory requirements.
+ The increased use of AI/ML to deliver financial services has attracted attention and led to numerous policy issues and
+ subsequent policy actions. Such policy actions culminated in (1) the establishment of a task force on AI in the 116
+ th Congress
+ and the more recent working group in the House Committee on Financial Services in the 118th and (2) 2019 and 2023
+ executive orders. The evolving legislative and regulatory framework regarding AI/ML use in finance is likely, at least in part,
+ to influence the development of AI/ML financial services applications. Various financial regulators have indicated that
+ regulated entities are subject to the full range of laws and regulations regardless of the technology used. Additionally, some
+ regulators have identified regulations and issued guidance of particular relevance to financial firms employing AI/ML
+ technologies.
+ Financial industry policymakers face competing pressures. Financial service providers and technology companies are likely
+ to continue adopting and promoting AI/ML to save time and money and promote accessibility, accuracy, and regulatory
+ compliance. However, challenges and risks in the form of bias, potential for systemic risk and manipulation, affordability,
+ and consequences for employment remain. Determining whether the existing regulatory structure is sufficient—or whether
+ one that is more closely tailored to the technological capacities of the evolving technology is necessary—has emerged as a
+ key consideration. Should Congress consider the legislative framework governing AI/ML in finance, industry and consumers
+ alike will expect that it weighs the benefits of innovation with existing and potential future challenges and risks.

@@ -1,0 +1,102 @@
+PART 1. THE PRIMARY HEADACHES 
+1. Migraine 
+1.1 Migraine without aura 
+A. At least five attacks fulfilling criteria B-D 
+B. Headache attacks lasting 4-72 hours (when untreated or unsuccessfully treated) 
+C. Headache has at least two of the following four characteristics: 1. unilateral location 2. pulsating quality 3. moderate or severe pain intensity 4. aggravation by or causing avoidance of routine physical activity (eg, walking or climbing stairs) 
+D. During headache at least one of the following: 1. nausea and/or vomiting 2. photophobia and phonophobia 
+E. Not better accounted for by another ICHD-3 diagnosis. 
+1.2 Migraine with aura 
+A. At least two attacks fulfilling criteria B and C 
+B. One or more of the following fully reversible aura symptoms: 1. visual 2. sensory 3. speech and/or language 4. motor 5. brainstem 6. retinal 
+C. At least three of the following six characteristics: 1. at least one aura symptom spreads gradually over ≥5 minutes 2. two or more aura symptoms occur in succession 3. each individual aura symptom lasts 5-60 minutes 4. at least one aura symptom is unilateral 5. at least one aura symptom is positive 6. the aura is accompanied, or followed within 60 minutes, by headache 
+D. Not better accounted for by another ICHD-3 diagnosis. 
+1.2.1 Migraine with typical aura 
+A. Attacks fulfilling criteria for 1.2 Migraine with aura and criterion B below 
+B. Aura with both of the following: 1. fully reversible visual, sensory and/or speech/language symptoms 2. no motor, brainstem or retinal symptoms. 
+1.2.1.1 Typical aura with headache 
+A. Attacks fulfilling criteria for 1.2.1 Migraine with typical aura and criterion B below 
+B. Headache, with or without migraine characteristics, accompanies or follows the aura within 60 minutes. 
+1.2.1.2 Typical aura without headache 
+ A. Attacks fulfilling criteria for 1.2.1 Migraine with typical aura and criterion B below 
+B. No headache accompanies or follows the aura within 60 minutes. 
+1.2.2 Migraine with brainstem aura 
+A. Attacks fulfilling criteria for 1.2 Migraine with aura and criterion B below 
+B. Aura with both of the following: 1. at least two of the following fully reversible brainstem symptoms: a) dysarthria b) vertigo c) tinnitus d) hypacusis e) diplopia f) ataxia not attributable to sensory deficit g) decreased level of consciousness  (GCS ≤13) 2. no motor or retinal symptoms. 
+1.2.3 Hemiplegic migraine 
+A. Attacks fulfilling criteria for 1.2 Migraine with aura and criterion B below 
+B. Aura consisting of both of the following: 1. fully reversible motor weakness 2. fully reversible visual, sensory and/or speech/language symptoms. 
+1.2.3.1 Familial hemiplegic migraine 
+A. Attacks fulfilling criteria for 1.2.3 Hemiplegic migraine 
+B. At least one first- or second-degree relative has had attacks fulfilling criteria for 1.2.3 Hemiplegic migraine. 
+1.3 Chronic migraine 
+A. Headache (migraine-like or tension-type-like) on ≥15 days/month for >3 months, and fulfilling criteria B and C 
+B. Occurring in a patient who has had at least five attacks fulfilling criteria B-D for 1.1 Migraine without aura and/or criteria B and C for 1.2 Migraine with aura 
+C. On ≥8 days/month for >3 months, fulfilling any of the following: 1. criteria C and D for 1.1 Migraine without aura 2. criteria B and C for 1.2 Migraine with aura 3. believed by the patient to be migraine at onset and relieved by a triptan or ergot derivative 
+D. Not better accounted for by another ICHD-3 diagnosis. 
+2. Tension-type headache (TTH) 
+2.1 Infrequent episodic TTH 
+A. At least 10 episodes of headache occurring on <1 day/month on average (<12 days/year) and fulfilling criteria B-D 
+B. Lasting from 30 minutes to 7 days 
+C. At least two of the following four characteristics: 1. bilateral location 2. pressing or tightening (non-pulsating) quality 3. mild or moderate intensity 4. not aggravated by routine physical activity such as walking or climbing stairs 
+D. Both of the following: 1. no nausea or vomiting 2. no more than one of photophobia or phonophobia 
+E. Not better accounted for by another ICHD-3 diagnosis. 
+2.2 Frequent episodic TTH 
+As 2.1 except: 
+A. At least 10 episodes of headache occurring on 1-14 days/month on average for >3 months (12 and <180 days/year) and fulfilling criteria B-D. 
+2.3 Chronic TTH As 2.1 except: 
+A. Headache occurring on 15 days/month on average for >3 months (180 days/year), fulfilling criteria B-D 
+B. Lasting hours to days, or unremitting 
+D. Both of the following: 1. no more than one of photophobia, phonophobia or mild nausea 2. neither moderate or severe nausea nor vomiting 
+3. Trigeminal autonomic cephalalgias 
+3.1 Cluster headache 
+A. At least five attacks fulfilling criteria B-D 
+B. Severe or very severe unilateral orbital, supraorbital and/or temporal pain lasting 15-180 minutes (when untreated) 
+C. Either or both of the following: 1. at least one of the following symptoms or signs, ipsilateral to the headache: a) conjunctival injection and/or lacrimation b) nasal congestion and/or rhinorrhoea c) eyelid oedema d) forehead and facial sweating e) miosis and/or ptosis 2. a sense of restlessness or agitation 
+D. Occurring with a frequency between one every other day and 8 per day E. Not better accounted for by another ICHD-3 diagnosis.
+3.1.1 Episodic cluster headache  
+A. Attacks fulfilling criteria for 3.1 Cluster headache and occurring in bouts (cluster periods) B. At least two cluster periods lasting from 7 days to 1 year (when untreated) and separated by pain-free remission periods of ≥3 months. 
+3.1.2 Chronic cluster headache 
+A. Attacks fulfilling criteria for 3.1 Cluster headache, and criterion B below 
+B. Occurring without a remission period, or with remissions lasting <3 months, for at least 1 year. 
+3.4 Hemicrania continua 
+A. Unilateral headache fulfilling criteria B-D 
+B. Present for >3 months, with exacerbations of moderate or greater intensity 
+C. Either or both of the following: 1. at least one of the following symptoms or signs, ipsilateral to the headache: a) conjunctival injection and/or lacrimation b) nasal congestion and/or rhinorrhoea c) eyelid oedema d) forehead and facial sweating e) miosis and/or ptosis 2. a sense of restlessness or agitation, or aggravation of the pain by movement 
+D. Responds absolutely to therapeutic doses of indomethacin 
+E. Not better accounted for by another ICHD-3 diagnosis. 
+4. Other primary headache disorders 
+4.3 Primary headache associated with sexual activity 
+A. At least two episodes of pain in the head and/or neck fulfilling criteria B-D 
+B. Brought on by and occurring only during sexual activity 
+C. Either or both of the following: 1. increasing in intensity with increasing sexual excitement 2. abrupt explosive intensity just before or with orgasm 
+D. Lasting from 1 minute to 24 hours with severe intensity and/or up to 72 hours with mild intensity 
+E. Not better accounted for by another ICHD-3 diagnosis. 
+4.5 Cold-stimulus headache 
+4.5.1 Headache attributed to ingestion or inhalation of a cold stimulus 
+A. At least two episodes of acute frontal or temporal headache fulfilling criteria B and C 
+B. Brought on by and occurring immediately after a cold stimulus to the palate and/or posterior pharyngeal wall from ingestion of cold food or drink or inhalation of cold air 
+C. Resolving within 10 minutes after removal of the cold stimulus 
+D. Not better accounted for by another ICHD-3 diagnosis. 
+4.7 Primary stabbing headache 
+A. Head pain occurring spontaneously as a single stab or series of stabs and fulfilling criteria B and C 
+B. Each stab lasts for up to a few seconds 
+C. Stabs recur with irregular frequency, from one to many per day 
+D. No cranial autonomic symptoms 
+E. Not better accounted for by another ICHD-3 diagnosis. 
+4.8 Nummular headache 
+A. Continuous or intermittent head pain fulfilling criterion B 
+B. Felt exclusively in an area of the scalp, with all of the following four characteristics: 1. sharply-contoured 2. fixed in size and shape 3. round or elliptical 4. 1-6 cm in diameter 
+C. Not better accounted for by another ICHD-3 diagnosis. 
+4.9 Hypnic headache 
+A. Recurrent headache attacks fulfilling criteria B-D 
+B. Developing only during sleep, and causing wakening 
+C. Occurring on ≥10 days/month for >3 months 
+D. Lasting from 15 minutes up to 4 hours after waking 
+E. No cranial autonomic symptoms or restlessness 
+F. Not better accounted for by another ICHD-3 diagnosis. 
+4.10 New daily persistent headache (NDPH) 
+A. Persistent headache fulfilling criteria B and C 
+B. Distinct and clearly-remembered onset, with pain becoming continuous and unremitting within 24 hours 
+C. Present for >3 months 
+D. Not better accounted for by another ICHD-3 diagnosis. 

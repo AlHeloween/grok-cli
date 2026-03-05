@@ -1,0 +1,82 @@
+ THE ROLE OF CONTRACT LAW IN SUPPLY CHAINS
+Food supply chains are normally composed of vertical and horizontal chains of contracts
+connecting various core value-chain actors from producers to consumers, as well as
+contractual relations among operators of support services (e.g. purchase of inputs, financial
+agreements). All contracts in the chain should be fair and equitable for all parties and
+administered in good faith. The contracts should clarify the parties’ rights and responsibilities,
+paying attention to the essential elements of a contract as stipulated in the national contract
+law. Commonly, these essential elements would include, at least, the identification of the
+parties, offer and acceptance, obligations, price determination, remedies in case of partial or
+non-compliance, termination and provisions on dispute resolution, including alternative dispute
+resolution (ADR). In the context of a pandemic, the risk thatsome of these elements may be
+compromised is increased.
+Contracts should always ensure fair and equitable risk allocation and management. Certain risk
+allocation and management would – to some extent – be covered by the concepts of force
+majeure and/or change of circumstances, which are designed to respond to both natural
+disasters (disease outbreaks, disasters, etc.) and societal events (export bans, movement
+restrictions, etc.). Domestic legislation often requires four simultaneous conditions to be
+fulfilled before the application of force majeure: the event should be 1) unforeseeable, 2)
+unavoidable 3) outside the parties’ control and 4) it should objectively prevent one or both of
+them from performing. Change of circumstances (hardship-like situations) generally requires
+the first three pre-conditions. Such change in circumstances would not necessarily prevent
+parties from performing, but it would fundamentally change the basis on which the contract
+was formed and alter the balance of the relationship, making it unfair to hold either or both
+parties to their original obligations (UNIDROIT, FAO and IFAD, 2015).
+Parties who concluded a contract prior to the outbreak of COVID-19 and the subsequent
+imposition of related restrictions, may claim that either force majeure or change of
+circumstances, depending on the legal and factual context, apply to their ongoing contractual
+relationship. The final application of force majeure or change of circumstances would depend
+on a national court’s or an ADR mechanism’s interpretation of the applicable criteria and may
+excuse compliance with, or suspend, the affected obligations or lead to renegotiation of the
+contract. For contracts concluded after the declaration of the emergency, the application or
+not of these clauses would depend on whether further changes in circumstances, connected
+to the emergency, can be considered “unforeseeable”, months into the pandemic.
+This uncertainty needs to be taken into account by those who enter into new contracts under
+current conditions. The negotiation and drafting of new contracts should aim at providing
+clarity on what should happen to the contractual relationship due to the continuing and
+emerging impacts of COVID-19. Considerable contractual innovation, as supported and
+protected by the principle of freedom of contract, is required to ensure equitable risk
+allocation. One option could be to explicitly agree in the contract to consider COVID-19 and its
+related upheavals as force majeure, or change of circumstances, where the domestic
+legislation allows partiesto depart from the standard andmost probably narrowlegal definitions
+of these terms. Another option would be for the contract to mandate the parties to
+renegotiate the contract, either after some time has passed or if a certain event triggers the
+need to do so (such as new movement restrictions imposed by the government). Finally, the
+contracts could also explicitly consider COVID-19 and its effects when drafting remedies for
+contractual breaches, such as waiving the use of
+remedies or opting for less disruptive and more lenient options when the underlying breach
+was demonstrably caused by the pandemic.
+Unfortunately, contractual innovation may also open the door for the stronger party in a
+contract to take advantage and impose imbalancesin risk allocation between the parties
+through the introduction of unfair contractual terms and practices. A classic example of an
+unfair practice would be for the contract to allow only one party to unilaterally terminate the
+contract without notifying or discussing it in advance with the other party. On a general level,
+this requires governments to either adopt, or increase enforcement of, unfair contractual
+practices legislation to prohibit the use of contractual terms and practices that are considered
+unfair. Enhanced enforcement should begin immediately, as abuses may already be
+happening. At the same time, if there are gaps, the reform of the legislative framework should
+commence in earnest as it requires an investment of effort and time and will likely go beyond
+the duration of the current COVID-19 crisis. In the context of food supply chains, at least for
+nodessuch as contracts between smallholder producers and their buyers, governments may
+consider creating either mandatory or voluntary registries for contracts. These can increase
+transparency and legal certainty for parties, when they know that their contract (with sensitive
+commercial information removed) may be accessible to a defined audience (Viinikainen and
+Bullón, 2018).
+Greater prominence and application of the common, but not universally accepted, principle of
+good faith should be promoted in this time of uncertainty and can be effective if it is backed by
+the threat of enforcement. The principle of good faith requires the parties to interact honestly
+and fairly, and refrain from taking actions that would deny their counterparty from receiving
+the expected benefits of the contract. Essentially, good faith infuses the contract relationship
+with the kind of flexibility required to address the complications that come with a pandemic or
+any other global emergency. Good faith may involve applying, orrefraining from adopting,
+certain conduct (UNIDROIT, FAO and IFAD, 2015). In the context of COVID-19 this could include
+greater flexibility for delivery times, honest and timely exchange of information between the
+parties on the impacts that the emergency has had to better anticipate difficulties, as well as
+willingnessto renegotiate to better adjust the contractual relationship to the rapidly changing
+circumstances.
+Finally, as good contractual practice, it is important to include reference to grievance
+mechanisms in the contract. This is even more important in the uncertainty created by COVID19, which may increase the likelihood of both breaches and disputes. Deciding on the method
+of dispute resolution in advance is important as, once a dispute has arisen, it may be difficult
+for the parties to agree on how to resolve it. In general, for smallholders in particular, the use
+of ADR mechanisms, such as arbitration and mediation, may be preferable as they tend to be
+less costly, less formal and faster in dealing with disputes than the courts.

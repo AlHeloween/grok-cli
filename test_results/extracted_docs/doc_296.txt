@@ -1,0 +1,109 @@
+Dear Stockholders,
+This past year has been a transformative one for eBay: We delivered solid results, and in our continued
+pursuit to drive long-term sustainable growth, we’ve set an even more ambitious vision — to reinvent
+the future of ecommerce for enthusiasts.
+We made significant progress against our goals, with improvements in organic FX-Neutral and
+as-reported year-over-year GMV growth during each quarter of 2023. For the full year, revenue was
+up 3% organically, we generated approximately $2 billion of free cash flow, and we returned over
+$1.9 billion to stockholders through repurchases and dividends. Based on these results, we are
+confident that our strategy is the right one and that we are on the path to build a stronger, more
+resilient company.
+Since I rejoined eBay as CEO four years ago, we’ve renewed our focus on offering meaningful choices
+and value, and building trust with our global community of sellers and buyers. The pace of innovation
+at eBay has accelerated, and we have pivoted to a full-funnel marketing approach aimed at attracting
+and retaining enthusiast customers.
+In 2023, we raised the bar further to enhance the end-to-end experience for our customers and drive
+growth for stockholders by leveraging three key strategic pillars: relevant experiences, scalable
+solutions, and magical innovations.
+As we navigated a dynamic macroeconomic environment, we set our organization up for speed
+and prioritized initiatives that we believe will have an outsized impact on our customers, community,
+and stockholders.
+Relevant Experiences
+We are focused on solving the specific and ever-changing needs of our sellers and buyers across all
+shopping occasions. Through our Focus Category playbook, we have seen a meaningful improvement
+in our growth relative to the market in every category we’ve invested in to date.
+In 2023, Focus Categories grew by 4% year-over-year on an FX-neutral basis, outpacing the
+remainder of our business by roughly seven points. We exited the year with Focus Categories making
+up nearly 30% of our business, and we will continue to expand to new categories in 2024. Our
+investments in Focus Categories led to numerous improvements in the overall customer experience
+on eBay last year, including: 
+CEO Letter to Stockholders
+2023
+2
+• We launched eBay Guaranteed Fit in the U.S. and similar programs in the UK and Germany to
+benefit our Motors Parts & Accessories (P&A) business, assuring buyers that eBay will stand
+behind them if a part doesn’t fit their vehicle. These programs are underpinned by multiple years of
+investment in P&A technology, have delivered a game-changing level of trust for buyers, and have
+yielded measurable uplift in conversion for sellers.
+• We launched the Certified by Brand program with over 30 brands offering new and certified preowned inventory, bringing an enhanced level of trust to the watch, jewelry, and handbag categories.
+• Our eBay Refurbished program continues to outperform as consumers turn to eBay for
+sustainability and value in the current economic environment. eBay Refurbished was one of our
+fastest growing Focus Categories in 2023, posting healthy double-digit, FX-Neutral GMV growth
+for the full year. Last year, we added dozens of new categories to the program, signed up more
+brands and OEMs to sell refurbished inventory directly on eBay, and made onboarding for small
+business sellers faster and more scalable to increase the amount of great refurbished inventory
+available to buyers.
+In addition to Focus Categories, we’re investing in country-specific experiences so that our
+marketplace is more attuned to the needs of local sellers and buyers. Last year, we made a significant
+investment in Germany, our third largest market as measured by demand, adopting a similar approach
+to our vertical playbook:
+• We removed some of the biggest hurdles for sellers and introduced a number of features to
+address the unique needs of German consumers, including search and SEO enhancements,
+shipping and return label improvements, and a complete overhaul of the local pickup experience.
+Additionally, we eliminated final value fees for German C2C sellers on domestic transactions to
+stimulate our sell-to-buy flywheel in the country.
+• Over the past year, C2C seller NPS and customer satisfaction have increased by 20 points or more,
+buyers who sell returned to positive growth, unpaid items have been cut in half for local pickups,
+and C2C volume in Germany has returned to positive growth.
+• Notably, these investments have made our business significantly more resilient to the challenging
+macroenvironment in Germany and have resulted in hundreds of millions of dollars of incremental
+GMV relative to our prior trajectory. 
+CEO Letter to Stockholders
+2023
+3
+Finally, we continued to improve the selling and buying experiences with horizontal enhancements
+in 2023:
+• We invested further in new capabilities for Search, such as deep learning and visual similarity
+to improve ranking and retrieval, reducing queries with low or null results to surface more of our
+amazing inventory for customers.
+• We began our work in modernizing the buying experience on eBay by rolling out an enhanced
+View Item page, which features a streamlined appearance, larger and higher-resolution images,
+and an optimized information hierarchy. This update has contributed to a measurable uplift in
+GMV versus our previous design, and our work to modernize the overall shopping experience will
+continue in 2024.
+Scalable Solutions
+eBay’s scale is one of our most powerful assets, with over 28 years of data, 132 million buyers, and
+nearly 2 billion live listings in 190 markets around the world at the end of 2023. With the foundational
+capabilities we developed using AI last year, we will continue to invest in unlocking the power of
+our data assets to fuel next-gen ecommerce experiences that we are confident will exceed our
+customers’ expectations and set a new standard for the industry.
+Our advertising business continued to show strong double-digit growth rates in 2023, driving our
+ability to invest meaningfully into the rest of the business. Our advertising platform, which surpassed
+900 million live Promoted Listings in 2023, helps sellers achieve greater velocity and price realization
+for their inventory.
+• We generated over $1.4 billion of total advertising revenue, up roughly 25% on an FX-Neutral basis
+for the year and more than double our advertising revenue in 2019.
+• Promoted Listings Standard, our cost-per-acquisition product, remains our largest contributor to
+advertising revenue due to its simplicity and proven return on ad spend.
+• And Promoted Listings Advanced, our cost-per-click format, was among the fastest-growing
+products in our advertising portfolio on a year-over-year basis. Over the course of the year, we
+significantly enhanced this product with customized keywords and bidding structures, and by
+using AI to optimize campaigns.
+Also, the payments platform processed approximately $70 billion of volume in 2023 while enabling
+transactions between millions of eBay sellers and buyers globally. We continued to scale our
+financial services offerings like FX conversion and alternative methods to pay and get paid. We also
+meaningfully improved our identity and risk management capabilities that enhance customer value 
+CEO Letter to Stockholders
+2023
+4
+and marketplace trust. For instance, investments in the eBay checkout experience and in-house
+risk modeling enhancements aimed at reducing transaction friction have measurably improved
+conversion on our marketplace and contributed nearly $1 billion in incremental GMV in 2023.
+Lastly, our global scale and cross-border capabilities enabled us to launch the eBay International
+Shipping (eIS) program, which makes trade more seamless and cost effective for sellers and buyers
+worldwide by simplifying the complexities of taxes, duties, and returns.
+• We introduced combined shipping for eIS, allowing buyers to order multiple items from an
+international seller and pay one consolidated shipping fee.
+• We ended 2023 with over 400 million live listings from U.S. sellers shippable to international
+buyers, and sellers have had an overwhelmingly positive response to the program, with customer
+satisfaction ratings over 40 points higher than the previous global shipping program eIS replaced.

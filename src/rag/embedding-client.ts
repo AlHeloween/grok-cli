@@ -1,6 +1,10 @@
-import OpenAI from "openai";
-import { getSettingsManager } from "../utils/settings-manager.js";
+import { IEmbeddingProvider } from "./embedding-provider-base.js";
+import { createEmbeddingProviderFromSettings } from "./embedding-factory.js";
 
+/**
+ * Legacy options for OpenAI-compatible API (deprecated).
+ * @deprecated Use IEmbeddingProvider instead.
+ */
 export interface EmbeddingClientOptions {
   apiKey: string;
   baseURL: string;
@@ -8,71 +12,54 @@ export interface EmbeddingClientOptions {
   timeoutMs?: number;
 }
 
+/**
+ * EmbeddingClient wrapper that delegates to an embedding provider.
+ * Maintains backward compatibility with existing code.
+ */
 export class EmbeddingClient {
-  private client: OpenAI;
-  private model: string;
+  private provider: IEmbeddingProvider;
 
-  constructor(options: EmbeddingClientOptions) {
-    this.model = options.model;
-    this.client = new OpenAI({
-      apiKey: options.apiKey,
-      baseURL: options.baseURL,
-      timeout: options.timeoutMs ?? 120_000,
-    });
+  /**
+   * Create a client that delegates to the given provider.
+   */
+  constructor(provider: IEmbeddingProvider) {
+    this.provider = provider;
   }
 
+  /**
+   * Get the provider name (legacy getModel).
+   */
   getModel(): string {
-    return this.model;
+    return this.provider.getName();
   }
 
+  /**
+   * Embed a single text string.
+   */
   async embed(text: string): Promise<number[]> {
-    const input = text.trim();
-    if (!input) return [];
-
-    const response = await this.client.embeddings.create({
-      model: this.model,
-      input,
-    });
-
-    const vector = response.data?.[0]?.embedding;
-    if (!Array.isArray(vector)) {
-      throw new Error("Embeddings API returned no vector");
-    }
-    return vector as number[];
+    return this.provider.embed(text);
   }
 
+  /**
+   * Embed multiple text strings in batch.
+   */
   async embedBatch(texts: string[]): Promise<number[][]> {
-    const inputs = texts.map((t) => t.trim()).filter(Boolean);
-    if (inputs.length === 0) return [];
+    return this.provider.embedBatch(texts);
+  }
 
-    const response = await this.client.embeddings.create({
-      model: this.model,
-      input: inputs,
-    });
-
-    const vectors = (response.data || []).map((d) => d.embedding);
-    if (!vectors.every((v) => Array.isArray(v))) {
-      throw new Error("Embeddings API returned invalid vectors");
-    }
-    return vectors as number[][];
+  /**
+   * Get the embedding dimension (useful for vector DB initialization).
+   */
+  getDimension(): number {
+    return this.provider.getDimension();
   }
 }
 
+/**
+ * Create an embedding client from settings (main entry point).
+ * This function now uses the provider factory to support multiple embedding providers.
+ */
 export function createEmbeddingClientFromSettings(): EmbeddingClient {
-  const settings = getSettingsManager();
-  
-  const embeddings = settings.getEmbeddingsSettings(process.cwd());
-  
-  // Use embeddings-specific API key if provided, otherwise fall back to main API key
-  const apiKey = embeddings.apiKey || settings.getApiKey();
-  if (!apiKey) {
-    throw new Error("Missing API key for embeddings (set embeddings.apiKey, GROK_API_KEY, or ~/.grok/user-settings.json)");
-  }
-
-  return new EmbeddingClient({
-    apiKey,
-    baseURL: embeddings.baseURL || settings.getBaseURL(),
-    model: embeddings.model || "text-embedding-3-small",
-  });
+  const provider = createEmbeddingProviderFromSettings();
+  return new EmbeddingClient(provider);
 }
-

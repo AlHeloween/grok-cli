@@ -1,0 +1,2030 @@
+              University of Cincinnati Graduate College
+
+
+
+
+                     Graduate Handbook
+
+Welcome from the Graduate College! We invite you to review the Graduate Handbook.
+
+This document is designed as a helpful guide to graduate education at UC.
+Here is where you will find policies, procedures, and important information for the
+graduate student lifecycle, from admissions to graduation.
+
+In addition, there may also be requirements that pertain to specific degree programs
+and colleges. Please visit program and college websites for these specific
+requirements.
+
+
+
+
+1
+           The Graduate College
+           Graduate College Leadership
+                   Rose Marie Ward
+     Vice Provost and Dean of the Graduate College
+
+               Omotayo (Tayo) Banjo
+        Associate Dean of the Graduate College
+
+                     Tai Collins
+        Associate Dean of the Graduate College
+
+                     Laura Dell
+           Graduate College Thought Leader
+
+                    Emily Kregor
+         Software Applications Developer Lead
+
+                   Sarah Matthews
+               Sr Data Reporting Analyst
+
+                     Angel Prewitt
+          Assistant Director of Business Affairs
+
+                Megan Tischner Carroll
+                   Program Director
+
+
+               Graduate College Staff
+                    Kaitlin Bauer
+                  Academic Evaluator
+
+                  Virginia Dennis
+          Program Manager, Student Services
+
+                  Shaymaa Minkara
+             Program Manager, Graduation
+
+                   Caitie Norrie
+      Program Manager, Professional Development
+
+                  Stephen Patrick
+    Program Manager, Marketing and Communications
+
+                   Amy Wheeler
+     Program Manager, Student Success & Retention
+
+                 Brandilyn Worrell
+      Program Manager, Community and Belonging
+
+
+2
+                       Brady Wright
+       Executive Staff Assistant and Office Manager
+
+
+              Graduate College IT Staff
+                     Chris Amann
+    Computer & Info Analyst, Management Specialist IT
+
+           Dushan Aththidiyavidanalage Don
+            Software Applications Developer
+
+                    Eric Rasnake
+                Computer & Info Analyst I
+
+                      Coco Zhang
+             Software Applications Developer
+
+
+
+
+      Contact the Graduate College
+                       Location
+                 University of Cincinnati
+                 110 Van Wormer Hall
+                 2614 University Circle
+                     Cincinnati, OH
+
+                    Mailing Address
+                    P.O. Box 210627
+               Cincinnati, OH 45221-0627
+
+     Email: ucgc@ucmail.uc.edu or grad.info@uc.edu
+                Phone: (513) 556-4335
+                 Fax: (513) 556-0128
+
+
+
+
+3
+Introduction
+This Graduate Handbook is intended to provide information about university policies that assist
+faculty, students, and program coordinators in supporting their individual programs of study.
+
+To which educational programs does this Handbook pertain? The Graduate College oversees all
+post-baccalaureate certificates and degrees (master’s and doctoral level) EXCEPT the Juris
+Doctor (in the College of Law), the Doctor of Medicine (in the College of Medicine), and the
+Doctor of Pharmacy (in the College of Pharmacy).
+
+The University of Cincinnati does not discriminate on the basis of disability, race, color, religion,
+national origin, ancestry, medical condition, genetic information, marital status, parental status
+(including status as a foster parent), sex, age, sexual orientation, veteran status, military status
+(past, present, or future), or gender identity and expression in its programs and activities. View
+UC’s complete Notice of Non-Discrimination.
+
+
+
+
+ Published 11/28/2023. This version is an update to the 2022-23 AY handbook to reflect changes to the
+ Graduate Scholarship structure and terminology. This version supersedes all previous versions.
+
+
+
+
+4
+TABLE OF CONTENTS
+
+ADMISSION TO GRADUATE PROGRAMS ....................................... 9
+    ADMISSIONS POLICY .............................................................................................. 9
+     Faculty and Administrators' Eligibility for Graduate Degrees .................................. 9
+    ADMISSIONS CATEGORIES .................................................................................... 9
+    APPLICATION PROCESS FOR 4+1 AND AIM PROGRAMS .................................. 10
+     Application to 4+1 Degree Programs .................................................................... 10
+     Application to Accelerated Integrated Master’s (AIM) Programs .......................... 11
+    DUAL DEGREE PROGRAMS .................................................................................. 11
+    CHANGING DEGREE PROGRAMS AT UC ............................................................ 11
+    GRADUATE CERTIFICATE PROGRAMS ............................................................... 12
+    INTERNATIONAL STUDENT ADMISSION.............................................................. 12
+      English Proficiency Requirement .......................................................................... 13
+
+FINANCIAL SUPPORT .................................................................... 14
+    UNIVERSITY MERIT-BASED GRADUATE AWARDS ............................................. 14
+    GRADUATE SCHOLARSHIPS (GS)........................................................................ 14
+    UNIVERSITY FELLOWSHIPS ................................................................................. 15
+    GRADUATE ASSISTANTSHIP STIPEND AWARDS ............................................... 16
+     Teaching Assistant Requirements and OEPT ...................................................... 17
+     Graduate Assistant/Fellow Health Insurance Awards ........................................... 17
+     Multiple Appointments/Employment ..................................................................... 18
+     Summer Employment Without Full-time Enrollment ............................................. 18
+     Graduate Assistants on Jury Duty ........................................................................ 18
+     Strike Policy for Graduate Assistants ................................................................... 19
+     Sick Leave/Family Leave for Graduate Assistants ............................................... 19
+     Holidays/UC Closing Policy for Graduate Assistants ............................................ 19
+     Military Duty .......................................................................................................... 19
+     Termination........................................................................................................... 19
+     Workers’ Compensation ....................................................................................... 19
+     Unemployment ..................................................................................................... 19
+     Social Security, Medicare Tax and Ohio Public Employees Retirement System
+     (OPERS)............................................................................................................... 20
+    174 GRADUATE CREDIT RULE .............................................................................. 20
+    TAXATION OF CINCINNATI GRADUATE AWARDS .............................................. 21
+    EXEMPTION FROM OPERS FOR STUDENT EMPLOYEES.................................. 21
+    EXTERNAL SOURCES OF FUNDING .................................................................... 21
+
+5
+    FEDERAL FINANCIAL AID ...................................................................................... 22
+
+GRADUATE CREDIT AND GRADES............................................... 23
+    ELIGIBLE CREDITS ................................................................................................ 23
+    CREDITS REQUIRED TO EARN A GRADUATE DEGREE .................................... 23
+     Advanced Standing for Graduate Courses Taken Outside of UC ......................... 23
+     Transfer Credit for Graduate Courses Taken at UC ............................................. 24
+     Course Exemption for Prior Knowledge, Without Credit ....................................... 24
+     Multiple Degree Exemptions ................................................................................. 25
+     Enrolling in Non-UC Classes through the Greater Cincinnati Collegiate Connection
+      ............................................................................................................................. 25
+     Graduate Credit for Undergraduate Students ....................................................... 25
+     Graduate Credit Earned in 6000-Level Courses ................................................... 25
+    GRADING ................................................................................................................ 25
+     Final Exams .......................................................................................................... 25
+     Make-up Final Exams ........................................................................................... 26
+     Grade Reports ...................................................................................................... 26
+     Grades Assigned to Research Courses That Are Repeated ................................ 27
+     Pass/Fail Grades .................................................................................................. 27
+     Grade Changes .................................................................................................... 27
+     No Grade Replacements for Graduate Students .................................................. 27
+
+MAINTAINING GRADUATE STUDENT STATUS ............................ 29
+    MINIMUM CREDITS/REGISTRATION REQUIREMENTS ....................................... 29
+      Dual Degree Programs ......................................................................................... 29
+    FULL-TIME COURSE LOAD.................................................................................... 29
+    PART-TIME COURSE LOAD ................................................................................... 29
+    REDUCED COURSE LOAD (INTERNATIONAL STUDENTS) ................................ 30
+    MEETING PROGRAM REQUIREMENTS................................................................ 30
+    MINIMUM ACADEMIC PERFORMANCE ................................................................ 30
+    INTERNATIONAL STUDENTS, MAINTAINING IMMIGRATION STATUS............... 30
+    TIME TO DEGREE .................................................................................................. 30
+      Time to Degree and Extensions ........................................................................... 30
+      Reinstatements..................................................................................................... 31
+      Readmission ......................................................................................................... 32
+      Leaves of Absence ............................................................................................... 32
+      Withdrawal from Program ..................................................................................... 33
+      Dismissal from Program ....................................................................................... 33
+
+MASTER’S DEGREE POLICIES AND PROCEDURES ................... 34
+    COURSE OF STUDY ............................................................................................... 34
+
+
+
+6
+    CREDIT HOUR REQUIREMENTS .......................................................................... 34
+    CANDIDACY ............................................................................................................ 34
+    CULMINATING EXPERIENCE: THESES and CAPSTONES .................................. 34
+     Thesis Preparation, Evaluation and Submission Process..................................... 34
+     Capstone Process ................................................................................................ 35
+    GRADUATION ......................................................................................................... 35
+     Application to Graduate ........................................................................................ 36
+     Graduation from Dual Degree Programs .............................................................. 36
+     Certification for Graduation (Certify Online) .......................................................... 36
+    CONTINUING TO A DOCTORAL PROGRAM ......................................................... 37
+
+DOCTORAL DEGREE POLICIES AND PROCEDURES ................. 38
+    COURSE OF STUDY ............................................................................................... 38
+    CREDIT HOUR REQUIREMENTS .......................................................................... 38
+    RESIDENCY AS FULL-TIME STUDENT ................................................................. 38
+    CANDIDACY, QUALIFYING EXAM ......................................................................... 38
+    UNIVERSITY GRADUATE FACULTY ROLE ........................................................... 39
+    DISSERTATION....................................................................................................... 39
+      Dissertation Advisor and Committee..................................................................... 39
+      Final Defense of Dissertation................................................................................ 40
+      Use of a Moderator ............................................................................................... 40
+      Submission of Dissertation ................................................................................... 40
+    GRADUATION ......................................................................................................... 41
+     Application to Graduate ........................................................................................ 41
+     Dual Degree Programs Graduation ...................................................................... 41
+     Graduation Requirements for Doctoral Degrees................................................... 41
+     Certification for Graduation (Certify Online) .......................................................... 41
+    GRADUATE CERTIFICATE VERIFICATION FOR UC TRANSCRIPT
+    ENDORSEMENT ..................................................................................................... 42
+    DOCTORAL HOODING AND MASTER’S RECOGNITION CEREMONY ................ 42
+
+INSTITUTIONAL RULES, POLICIES, AND PROCEDURES ............ 44
+    PROGRAM STANDARDS........................................................................................ 44
+    RECORDS PRIVACY, FERPA, AND THE RIGHT TO REVIEW .............................. 44
+    NOTICE OF NON-DISCRIMINATION ...................................................................... 44
+    ACADEMIC DISHONESTY ...................................................................................... 45
+    STUDENT CODE OF CONDUCT ............................................................................ 45
+    RESPONSIBLE CONDUCT OF RESEARCH .......................................................... 46
+    RESTRICTED RESEARCH ..................................................................................... 46
+
+
+7
+    GRADUATE STUDENT GRIEVANCE PROCEDURES ........................................... 46
+
+
+
+
+8
+ADMISSION TO GRADUATE PROGRAMS
+ADMISSIONS POLICY
+The University of Cincinnati welcomes graduate applications from students who:
+   • hold a baccalaureate degree from a college or university regarded as standard by a
+      regional accrediting agency and;
+   • have at least a B average (3.000/4.0 system) in undergraduate course work or otherwise
+      give evidence of promise that is judged satisfactory by the admitting program and the
+      Graduate College. Programs that wish to admit applicants who lack this 3.000 minimum
+      GPA requirement must provide supporting evidence and rationale of how such students
+      will be able to complete a graduate program that requires achievement of a 3.000 GPA,
+      and indicate any support offered by the program to ensure the applicant’s success given
+      the GPA deficiency.
+
+Decisions concerning admission to graduate programs rest with the programs, and criteria used
+for determining admission beyond these minimal requirements are established by the programs.
+All programs have established written criteria for judging the admissibility of applicants, which are
+published in each program’s graduate handbook. The program’s handbook for graduate study
+must be available to the student. Upon the student’s acceptance of the admission offer, the
+program and the student are bound by the terms and conditions set forth in the letter of
+appointment.
+
+Faculty and Administrators' Eligibility for Graduate Degrees
+No holder of an academic administrative title at the University of Cincinnati (equivalent to
+assistant dean or above) may matriculate or be granted a graduate certificate or degree from the
+University of Cincinnati.
+
+No graduate degree or certificate from the University of Cincinnati will be granted to any faculty
+member at the University of Cincinnati (full-time or part-time above rank of instructor) who
+teaches in the same department, division or school in which the degree is to be granted. This
+rule also applies to adjunct appointments at any faculty rank and to interdisciplinary degrees
+when the same college is one of the interdisciplinary colleges.
+
+College deans may petition the Associate Dean of the Graduate College for a waiver of this
+policy on an individual faculty member’s behalf. The written request should describe the teaching
+responsibilities of the faculty member, indicating whether they are teaching graduate students
+and a plan for managing potential conflicts of interest.
+
+
+ADMISSIONS CATEGORIES
+Matriculated graduate status is granted to an applicant who has been accepted into a graduate
+certificate or degree program and has met all admissions criteria. Note that applicants first
+receive a provisional acceptance, and conversion to matriculated graduate status is dependent
+upon receipt of an official transcript that confirms that the student holds a baccalaureate or higher
+degree from a college or university regarded as standard by a regional accrediting agency.
+Please note that additional official documentation may be required (e.g. if the transcript does not
+contain information about degree conferral or if a foreign degree needs confirmation as
+baccalaureate equivalent). Instructions and deadlines for meeting this requirement are included
+on the Transcript Submission Policy web page.
+
+9
+Provisional graduate status is granted to applicants who have been accepted into a graduate
+certificate or degree program, but who have NOT yet met all admissions criteria. As described
+above, one routine requirement for all students is the submission of an official transcript.
+However, some students must in addition take undergraduate courses or improve English
+language proficiency to satisfy prerequisites, and these students may be accepted by the
+program on a provisional basis that is contingent on satisfying those additional prerequisites.
+Letters of admission should be read carefully to make sure all requirements tied to provisional
+status are identified.
+
+Visiting student status allows students to take courses for graduate credit when they have not
+been admitted into a graduate degree program. These students were previously called “non-
+matriculated students”. Should this visiting student subsequently matriculate into a certificate or
+degree program, a maximum of 12 semester hours may be applied to the certificate or degree
+program. Students are not eligible for tuition or stipend awards allocated by the Graduate College
+while in visiting graduate status. This policy and other funding policies are further explained in the
+Financial Support chapter.
+
+
+APPLICATION PROCESS FOR 4+1 AND AIM PROGRAMS
+Application to 4+1 Degree Programs
+If an undergraduate student plans to matriculate into a master’s degree program upon completion
+of the bachelor's degree, they can consult with advisors to begin (A) taking graduate-level
+coursework as an advanced undergraduate student, and (B) focusing on thesis-related,
+independent research at an earlier date. This advising plan to achieve an articulated path to a
+master’s degree is called a 4+1 program. Students who enter these programs must complete all
+of the requirements of each respective degree and must apply separately for both degree
+programs at the appropriate time.
+
+To be eligible for entry to a 4+1 program, students must have junior standing (64 semester
+credits). In addition, students must meet all College and graduate program admission
+requirements for the particular program.
+
+4+1 students should note the following:
+
+     •   4+1 students who enroll in graduate-level coursework prior to formally matriculating as a
+         graduate student are allowed to apply up to 12 semester graduate-level credits toward the
+         requirements of the master’s degree. These credits cannot be used for the bachelor’s
+         degree. Students in the 4+1 program will complete the rest of their graduate coursework
+         after formal completion and certification of the bachelor's degree. Students should refer to
+         the section of this handbook containing the general requirements of the master’s degree
+         and speak to the directors of the graduate program about specific requirements.
+
+     •   4+1 students wishing to matriculate into a master’s program must complete a formal
+         graduate admission application online in their junior or senior year to be admitted
+         to the graduate program and begin the master’s degree. Students should speak to
+         the directors of the graduate program about specific admission and application
+         requirements.
+
+
+
+10
+Application to Accelerated Integrated Master’s (AIM) Programs
+The university has a limited set of programs that allow for a single application and admission to
+obtain a bachelor’s plus master’s degree in a single course of study. These programs are tightly
+structured around co-op experiences and allow undergraduate students to accumulate more than
+12 graduate credits prior to transitioning to a matriculated graduate student.
+
+Applicants apply to an AIM program at the time of application to UC as an undergraduate but are
+still required to formally apply to transition to the graduate portion of their program at a time
+defined by their AIM program. There is a free and abbreviated application for UC undergraduate
+students transitioning to the associated master’s degree that is part of their AIM program.
+
+
+DUAL DEGREE PROGRAMS
+The university offers the opportunity for students to pursue two complementary graduate degrees
+simultaneously through structured, official dual degree programs (see below for a complete
+listing). The advantage of these programs is that they may require fewer credits than completing
+each degree program separately.
+
+Each program’s entrance requirements must be met in addition to university requirements, and
+the applicant must be accepted by both programs. Below is a listing of the Dual Degree
+programs:
+     • Accounting MBA/MS
+     • Business Analytics MBA/MS
+     • Business Administration/Arts Administration MBA/MA
+     • Business Administration/Nursing      MBA/MSN
+     • Community Planning/Landscape Architecture MCP/MLA
+     • Community Planning/Law MCP/JD
+     • Finance MBA/MS
+     • Human Resources MBA/MA
+     • Information Systems MBA/MS
+     • Marketing MBA/MS
+     • Law/Women’s Studies JD/MA
+     • Law/Business JD/MBA
+     • Law/Political Science JD/MA
+     • Law/Political Science JD/PhD
+
+Please see the Multiple Degree Exemptions section for information on the maximum amount of
+transfer credit that can be applied to the dual degree programs.
+
+
+CHANGING DEGREE PROGRAMS AT UC
+In order to change from one degree program to another within the university, a student must
+submit a complete application to the new program. If the degrees are housed in the same unit,
+and the change is made over consecutive term enrollments, the application fee is waived. If the
+new degree program is in a different administrative program, the student is responsible for
+paying the application fee.
+
+Students are always responsible for fulfilling the requirements of the given degree program in
+which they are matriculated. Please see the Transfer Credit for Graduate Courses Taken at UC
+
+11
+section for information on the amount of graduate credits that can be transferred if a student is
+changing from one graduate program to another within the university, or if a student is changing
+from visiting graduate status at the university.
+
+
+GRADUATE CERTIFICATE PROGRAMS
+The University of Cincinnati offers graduate certificate programs. Certificates vary in both credit
+hours and in how they are configured: for instance, some can be earned only in conjunction with
+a degree; some require a master’s degree as a prerequisite, and some can be earned outside of
+a degree program. Applicants must apply for admission to a certificate program.
+
+Graduate College general guidelines are as follows:
+   • Students must hold a baccalaureate degree.
+   • Certificate programs may enroll degree seeking and non-degree seeking students.
+   • For students matriculated into a degree program, credit hours earned under a certificate
+      program may count toward a degree in any program if approved by the program director,
+      and if requirements for the certificate and degree are completed the student will be
+      awarded both. Credits earned while matriculated in a certificate program will count as
+      credits matriculated in a degree.
+   • Students can apply a single course to multiple certificates but only to ONE master’s or
+      doctoral degree.
+   • Students can obtain more than one certificate within the same program prior to attaining
+      their master’s degree.
+   • Students apply for a certificate program just like applying for a degree program, and must
+      pay any relevant application fee.
+   • Students enrolled only in a graduate certificate program are not eligible for tuition or
+      stipend support with university funds (University Graduate Assistantship/Graduate
+      Scholarship funds).
+
+If a student is interested, the student should contact the appropriate program office to obtain the
+specific criteria and prerequisites for the desired certificate.
+
+
+INTERNATIONAL STUDENT ADMISSION
+UC International Services supports the needs of international students at the University of
+Cincinnati. The office assists international students in understanding the rules, regulations, and
+procedures that must be followed during their stay in the United States and provides support
+services and cultural information to students. UC International Services is located in Suite 7148,
+One Edwards Center (1-513-556-4278). Information about admission to the University of
+Cincinnati for international students is available on their website. International students with F-1
+visas can only be granted admission as matriculated graduate status in a degree-seeking
+program. (Most international students with J-1 visas can be granted admission with matriculated
+graduate status only, with some exceptions.) Students with J-1 visas should inquire with UC
+International Services to determine the regulations that apply to them. Students with green cards
+(U.S. resident aliens/permanent residents) are not defined as international students and,
+therefore, are not governed by the university’s international student policies. However, the
+English proficiency requirement does apply to green card holders (see The English Proficiency
+Requirement, below).
+
+12
+In instances where an international student holds a degree for which the U.S. equivalent is not
+known, or if it is determined by the program or the Graduate College that the applicant does not
+have the equivalent of a bachelor’s degree, the program must submit a petition for admission
+without the bachelor’s degree, with supporting documentation and rationale, to the Associate
+Dean of the Graduate College.
+
+All international students are required to carry University of Cincinnati student health insurance
+unless they qualify for a waiver. Semester insurance fees are automatically assessed each
+registration period. Please visit the Graduate College website for more information on the
+Graduate Assistant/Fellow Health Insurance Award.
+
+English Proficiency Requirement
+English proficiency is required of all applicants whose native language is not English. Students
+can demonstrate proficiency in a number of ways at the graduate level. PLEASE NOTE, many
+colleges and programs have higher requirements than those listed below. Applicants should
+contact the programs to which they are applying for details. For more information, please refer to
+the English Proficiency Requirement web page.
+
+
+
+
+13
+FINANCIAL SUPPORT
+Graduate students may obtain financial support from several sources.
+   • The University of Cincinnati provides merit-based graduate awards in the form of tuition
+       scholarships (known as the Graduate Scholarships, which may be provided with or
+       without an assistantship), as well as stipend awards (graduate assistantships including
+       teaching and research assistantships), and program-specific scholarships and
+       fellowships.
+   • Scholarship and fellowship support is also available from a diverse collection of external
+       sponsors at the local, state, national, and international levels. Programs and colleges
+       may have additional sources of support through grants and endowed funds
+   • Need-based support may be obtained from federal and state sources.
+Financial support from each of these sources is described below.
+
+
+UNIVERSITY MERIT-BASED GRADUATE AWARDS
+The University of Cincinnati offers several types of merit-based graduate awards. The most
+common types – Graduate Scholarships, fellowships, and University Graduate Assistantships –
+are described below. Most university graduate awards are underwritten by university funds
+allocated by the Graduate College (“general funds”) to each college, which are then awarded to
+students by the individual programs. Some awards are competitive and granted by the Graduate
+College upon recommendation of an individual graduate program.
+
+Not all graduate students are eligible for graduate awards. Graduate awards allocated by the
+Graduate College are not available to students:
+   (1) taking classes as visiting students,
+   (2) enrolled only in a graduate certificate program,
+   (3) who have not maintained the minimum GPA of 3.000 in their program,
+   (4) who are on academic probation, or
+   (5) who have exceeded the 174 graduate credit rule.
+
+Awards can only be guaranteed for a maximum period of one academic year, and renewal of a
+university graduate award is not automatic. Awards that are appointed by individual programs are
+awarded to eligible students at the sole discretion of the program. Programs are not obligated to
+renew awards, even if previously awarded students met all eligibility requirements.
+
+
+GRADUATE SCHOLARSHIPS (GS)
+The Graduate College funds scholarships that cover all or part of a student’s tuition and fees. In
+most colleges, the scholarship awards supported by the Graduate College are the Graduate
+Scholarships (GS), with and without assistantships. The GS with assistantship is used to support
+graduate assistants who are additionally awarded a stipend that requires service in return for
+stipend support. The GS without assistantship is for graduate students who do not receive
+university stipend support and therefore no service is required in return for the GS award.
+
+The appointing program sends written offers of scholarship awards to students, including
+information about the amount and duration of the award and the terms of the offer. Students
+must maintain all of the required eligibility requirements in their offer letter to maintain their tuition
+scholarship.
+
+
+
+14
+Students receiving a tuition scholarship must register for a specified minimum number of
+graduate credit hours in each semester for which they are receiving support. If an international
+student is supported by a GS without assistantship, they must register for a minimum load of 10
+graduate credit hours per semester during the time they receive the GS scholarship. If a
+domestic student is supported by a GS without assistantship, they must register for a minimum
+load of 1 graduate credit hour per semester during the time they receive the GS scholarship.
+Students supported by a GS with assistantship must register for a minimum of 12 graduate credit
+hours per semester during the time they receive the GS scholarship. These minimum
+enrollments in graded courses must be met prior to using scholarship support for any audited
+courses.
+
+If a student withdraws from a class funded by a tuition scholarship, with the remaining enrolled
+credit hours totaling less than the minimum required for the award, the award is cancelled
+immediately and the student is responsible for the tuition balance, based on the date of
+withdrawal.
+
+Full tuition scholarships cover a maximum of 18 credits per semester. Students registered for
+more than 18 credits in a semester will be billed tuition and general fees on a per-credit-hour rate
+for each credit over the 18.
+
+All rules that govern recipients of tuition support pertain to all students, including international
+students. Other rules and policies that apply specifically to international students are independent
+of GS regulations. Both sets of regulations must be met. Neither set of regulations negates or
+takes the place of the other. (See 174 Graduate Credit Rule.)
+
+Note: Financial awards that require no service may reduce eligibility for educational loans.
+Students should notify the Student Financial Aid Office of their tuition support if they apply for aid
+from that office.
+
+
+UNIVERSITY FELLOWSHIPS
+University of Cincinnati fellowships are financial awards that include tuition scholarships and
+stipends with no associated service requirements. The purpose of a fellowship award is to allow
+the recipient to concentrate exclusively on their studies; therefore, multiple appointments and/or
+employment by the University of Cincinnati are not permitted for students receiving fellowships.
+
+The appointing program sends written offers of fellowship awards, including information about
+the amount and duration of the award; a general description of the academic obligations
+accepted by the student as part of the award; a reference to sources of information about
+academic requirements for degree completion; a description of the conditions under which either
+the student or unit may terminate the award prior to its end-date; and criteria for reappointment.
+
+Students receiving fellowships should check with Student Financial Aid to be informed about the
+potential impact on their eligibility for aid. Income received that is not for services rendered
+(whether it be in the form of a fellowship, grant, or award) will be calculated in whether a student
+meets the Cost of Attendance for the University of Cincinnati.
+
+Fellowship awardees have an enrollment obligation identical to GS with assistantship/UGA
+(university graduate assistantship) awardees, and they lose eligibility for the fellowship award if
+they accumulate more than 174 graduate credit hours. (See 174 Graduate Credit Rule).
+
+15
+For information on university-sponsored fellowships, please see the Graduate College website.
+
+
+GRADUATE ASSISTANTSHIP STIPEND AWARDS
+A student awarded a graduate assistantship receives a financial stipend for services rendered in
+addition to a full or partial tuition scholarship. These stipend funds are called UGA (university
+graduate assistantship) awards. Graduate assistants are also entitled to a discount at the
+University Bookstore and may be eligible for the Graduate Assistant/Fellow Health Insurance
+Award.
+
+UGA awardees devote effort to a combined program of formal study and assigned duties of
+teaching, research or administrative service that is designed to enhance their university
+education. The stipend received by the graduate assistant is in recognition of these services.
+Those with teaching duties are teaching assistants (TAs) and those with research duties are
+research assistants (RAs). During the appointment, the goal is to help a graduate student
+become a more learned, creative, and professional individual through formal instruction,
+interaction with faculty, research, and administrative experience. Any such service assignments
+should be consistent with the student’s academic pursuits.
+
+UGA funds are awarded for designated periods of time by the graduate programs. Graduate
+Assistants are considered exempt from minimum wage and overtime requirements, and they are
+paid on a salaried basis. Minimum stipends are set by the Dean of the Graduate College. The
+minimum stipend for a graduate assistant, as set in July 2023, must be the equivalent of a
+minimum of $16.98 per hour for all master’s and doctoral students except those in PhD
+programs. Graduate assistants enrolled in PhD programs have a minimum of $22.28 per hour.
+
+The appointing academic program, college, or area of responsibility determines service
+requirements of students who hold assistantships. If awarded an assistantship outside their
+program, graduate assistants’ duties are governed by the academic program, college, or the area
+of responsibility that made the award. In all cases, the award obligates awardees to no more than
+20 hours per week of services, and those services must make a substantive contribution to the
+student’s academic and professional development. Students must be appointed to a position that
+is consistent with their field of academic study. If the student determines that they cannot meet
+the requirements of the award, it is imperative that they notify the program to initiate
+renegotiation or reassignment of the award with correspondingly less support. A student’s hours
+are prorated for weeks with a holiday or school closure and students are not required to be
+available during break periods unless given additional compensation.
+
+UGA awardees must be registered for 12 graduate credit hours or more, exclusive of audit
+credits, for each semester they receive the assistantship. University assistantships will be
+cancelled if the awardee does not meet their enrollment obligation. The exception to this rule is
+summer semester. See Summer Employment without Full-time Enrollment section. Students
+lose eligibility for the UGA stipend funding if they accumulate more than 174 graduate credit
+hours. (See 174 Graduate Credit Rule.)
+
+Assistantship awards are contingent upon student status, satisfactory degree progress, and
+performance of service as assigned, and can be terminated at any time. Each year the
+assistantship is in effect, the appointing program, college, or area must notify the awardee in
+
+
+16
+writing of any significant change to the services or conditions of the appointment. Such changes
+include, but are not limited to:
+      • the amount and duration of the award
+      • any tuition and/or fee not paid by the program
+      • the average expected time per week or per semester of required duties
+      • description of the duties assigned to the student
+      • description of the conditions under which either the student or unit may terminate the
+         award prior to its end-date
+      • criteria for reappointment of the award
+      • criteria for determining variations in stipend levels where such variations exist
+      • information on current IRS guidelines, Medicare, and the Public Employee Retirement
+         System (PERS)
+      • graduate appointment procedures if any of the documents have been modified since the
+         student’s initial appointment.
+
+Teaching Assistant Requirements and OEPT
+All teaching assistants must be supervised by a faculty member who has the academic
+credentials and authorization (as defined by the Higher Learning Commission, Ohio Dept. of
+Higher Education, and the University of Cincinnati) to offer instruction to the students in the class.
+Supervising faculty must be listed (as supervisor or instructor) in any course/section overseen by
+a graduate teaching assistant.
+
+Non-native speakers of English who are awarded teaching assistantships at the University of
+Cincinnati are required to score at least a 3.0 on the Oral English Proficiency Test (OEPT). The
+OEPT evaluates the spoken language skills of non-native speakers of English. Students who
+pass are certified for oral English proficiency and may assume the full range of duties associated
+with their teaching assistantship.
+
+Students whose oral English proficiency has not been officially certified may not assume
+instructional responsibilities. However, students who score 26 or above on the speaking section
+of the TOEFL IBT or students with a score of 50 or above on the Test of Spoken English are
+exempt from the OEPT. Students are required to take the test at the beginning of their first term
+of study. If a score is less than 3.0, students are recommended to take ESL courses before
+retaking the test. A student is permitted to take the OEPT twice without charge during an
+academic year.
+
+Graduate Assistant/Fellow Health Insurance Awards
+Academic programs are required to notify eligible students with information on the Graduate
+Student Health Insurance (GSHI) award, which can subsidize the cost of UC Student Health
+Insurance for qualified students.
+
+Programs must provide graduate assistants/fellows with the GSHI Award application deadline
+and relevant details on GSHI Award criteria, and must keep records that they have provided this
+information to their students. Such information can be found at the Graduate Student Health
+Insurance Award web page.
+
+
+
+
+17
+Multiple Appointments/Employment
+Graduate assistantship awardees who are domestic students are limited to 24 total hours of
+combined service and student hourly work while school is in session. The following policies
+regarding multiple appointments must be followed:
+    • Units are responsible for monitoring of hours worked by student employees assigned to
+        their unit; this is especially important for students who hold multiple student
+        appointments.
+    • The program must closely monitor academic progress.
+    • The additional appointment must be terminated if a student does not maintain academic
+        progress deemed to be acceptable by the program.
+
+This limit applies only while school is in session. During scheduled breaks only, if students work
+more than 20 hours or they work more than the prorated salary hours required, they must be
+compensated at an hourly rate for the extra work. Students can be employed for a maximum of
+40 hrs/week during scheduled breaks.
+
+International students are limited to working 20 hours per week while school is in session and are
+limited to 40 hours per week during scheduled breaks. All International Students must have
+onboarding conducted by the International Services Office. An international student on F-1 or J-1
+immigration status contemplating employment should contact the International Student Services
+Office at 1-513-556-4278.
+
+Summer Employment Without Full-time Enrollment
+For summer semester only, students who are not registered for graduate credit hours or are
+registered for less than 12 credits hours are eligible to be employed by their respective program,
+usually by performing the duties of their assistantship such as teaching or lab work. In this case,
+the student will receive a stipend for the work performed. Retirement funds and taxes will be
+withheld from the student’s check.
+
+Questions about options with retirement funds once separated from the university should be
+directed to Human Resources and/or OPERS.
+
+Graduate Assistants on Jury Duty
+All graduate students are encouraged to participate when they are subpoenaed for jury duty. The
+student must seek their advisor’s and program director’s permission with the expectation that
+every effort will be made to accommodate the jury service. If the student’s absence from UC will
+create a hardship to the unit, they should seek a deferral or make arrangements to cover their
+responsibilities during the absence. Such arrangements must be approved by their program
+director. Students serving on jury duty will be paid their normal university stipend during the
+period of service, with the understanding that any compensation received for jury service must
+be returned to the university if their assistantship responsibilities remain uncovered. If the
+student makes arrangements to cover their assistantship commitment for the period in which
+they serve on jury duty, and if those arrangements are approved by their program director, they
+may keep the jury duty compensation in total. The student may also keep any travel
+reimbursement fees.
+
+
+
+
+18
+Strike Policy for Graduate Assistants
+In the event of a strike, graduate assistants are expected to fulfill commitments associated with
+their assistantships. Graduate assistants assigned to teach a course as part of their assistantship
+agreement are expected to teach the course during a strike. Graduate assistants who choose not
+to teach can lose their assistantship. If the student’s responsibilities are associated with a course
+taught by a faculty member and the strike results in the course not being taught, which makes it
+impossible for the student to fulfill their responsibilities, the student would not be held
+responsible.
+
+Sick Leave/Family Leave for Graduate Assistants
+Graduate assistants do not accrue vacation, sick leave or other paid time-off. In the event of
+illness, a graduate assistant shall notify the GA supervisor as soon as possible on each day of
+such absence.
+
+Holidays/UC Closing Policy for Graduate Assistants
+Graduate assistants are not hired as essential personnel, and thus cannot be required to work
+during holidays or official UC closings (such as emergency closings due to severe weather,
+public emergency, etc.). Required weekly hours will be prorated based on the official holidays or
+closings during that week.
+
+Military Duty
+A graduate assistant who is a member of any reserve component of the United States Armed
+Forces, who is voluntarily or involuntarily ordered to extended U.S. military service, shall be
+granted time-off without pay. The graduate assistant should provide to the appropriate program
+official advance written notice of the call for impending training or active duty. Upon completion of
+military service or if discharged under honorable conditions, and upon prompt re-registration as a
+student, the graduate assistant shall be returned to the former assistantship in a timely manner,
+based upon availability.
+
+Due to the temporary nature of graduate assistantships, if the assistantship is eliminated during
+the student’s absence, then no obligation exists.
+
+Termination
+A graduate assistantship may be terminated at any time with or without cause, unless there is an
+explicit written contract between the student and the university that provides otherwise.
+
+Workers’ Compensation
+The Ohio Workers’ Compensation Law covers graduate assistants, who are paid by payroll and
+provides medical, income and survivor benefits in the event of accidental injury, occupational
+disease or death occurring in the course of, and arising from, employment.
+
+Unemployment
+Graduate assistants are not entitled to unemployment compensation.
+
+
+
+
+19
+Social Security, Medicare Tax and Ohio Public Employees Retirement System
+(OPERS)
+Please see Exemption from OPERS/Medicare for Student Employees.
+
+
+174 GRADUATE CREDIT RULE
+Students receiving any university award (e.g. UGA stipend, GS tuition scholarship) and students
+who receive funds from the State of Ohio are governed by the requirements and limitations
+described in the following paragraphs. Any student who becomes ineligible to receive state
+subsidy is not eligible to receive general funds financial aid (i.e., a university stipend and/or
+tuition). Since this policy is due to regulations governing state support of the university,
+exceptions to the policy are not considered.
+
+Graduate students who have attempted 174 graduate credit hours at the University of Cincinnati
+are not eligible for a university award for enrollment at or beyond the 174 hours. Hours attempted
+include hours for which credit has been awarded, as well as withdrawn courses, audited courses,
+and hours in progress or incomplete (these graduate credit hours include all courses with grades
+F, I, UW, SP, IP, UP, W, etc.). All graduate hours attempted at the University of Cincinnati,
+regardless of program or student status, count toward the 174 total.
+
+A student is not eligible for funding beginning with the semester in which said student will reach
+the 174 attempted hours. For example, if a student has earned 167 graduate credit hours at the
+University of Cincinnati by the close of summer sessions and registers for (i.e., attempts) 12
+credit hours for fall semester, they are ineligible for a university graduate scholarship or
+fellowship in the fall semester.
+
+If a student earned master’s credits at the University of Cincinnati (for either a partial or a full
+degree), the exact number of these credits are deducted from the 174 credit hour total for which
+they can receive funding. This is true if the credits are earned at an earlier time and the student
+returns to the University of Cincinnati to continue graduate education, and it is true regardless of
+the discipline in which those credits were earned. For example, if a student has earned a
+master’s degree in engineering and then chooses to pursue a master’s and a doctoral degree in
+math, the credits earned to get the engineering degree are deducted from the 174 credit hours
+for which the student can receive state financial support (e.g., fellowships, assistantships, and
+scholarships).
+
+Graduate students who have earned a master’s degree or other equivalent or higher advanced
+degree at another institution are not eligible for a university scholarship or fellowship once they
+have attempted 140 graduate credit hours at the University of Cincinnati. If a student enters the
+University of Cincinnati with a master’s degree from any institution other than the University of
+Cincinnati, they are credited with 34 graduate credit hours toward the 174 credit hour limit for
+state funding eligibility. Per Ohio Department of Higher Education policy, Ohio can subsidize up
+to the remaining 140 credit hours. The 34 credit hours are deducted from the 174, regardless of
+the discipline and regardless of the graduate level at which the student enters the University of
+Cincinnati. For example, if a student has earned a master’s degree in engineering at The Ohio
+State University and then chooses to pursue a master’s and a doctoral degree in math at UC, the
+credits they earned to get their engineering degree are deducted from the 174 credit hours for
+which they can receive state financial support in the math program. Note that professional
+
+20
+degrees, like a juris doctorate or medical doctorate, do not count as a master’s or higher
+equivalent for the purpose of comparative funding. Students who enter graduate education at the
+University of Cincinnati with a professional degree and no other advanced degrees are still
+eligible to receive up to the 174 credit hours of funding.
+
+If a student enters the University of Cincinnati with only partial credit toward a degree from
+another institution, those credits are not deducted from the 174 total—even if the program they
+enter at the University of Cincinnati agrees to accept transfer of those credits toward the
+student’s degree requirements at the University of Cincinnati. The student can still receive state
+subsidy for up to 174 credit hours earned at the University of Cincinnati beyond those transferred
+in.
+
+Note: For the purposes of this policy, a master’s degree is one awarded by an American
+institution or a degree of equivalent value from a foreign institution. Students holding a master’s
+degree from a foreign institution that is the equivalent of a bachelor’s degree in the U.S. will have
+the higher limit (174). The higher limit will not be affected by a student’s completion of course
+work short of a master’s degree at another institution.
+
+
+TAXATION OF CINCINNATI GRADUATE AWARDS
+The university maintains a position that all income, from whatever source, is taxable and may be
+subject to withholding. The IRS maintains final authority on the taxability of all stipends, and in all
+cases, the university cannot guarantee that any stipend is tax-exempt. The Graduate College will
+not review an individual award nor provide legal advice to individual students. In addition,
+students (not the university) are responsible for the withholding information that they submit on
+their W-4 forms at the time of appointment. Those students who receive a stipend during any
+academic semester and are not enrolled for at least half time will have Medicare tax and Ohio
+Public Employee Retirement System (OPERS) payments deducted from their checks. If a
+student is enrolled half time or more, they may apply for an exemption from these fees in their
+program office. No taxes are withheld from fellowships, but students may still have a tax liability
+and should consult a tax advisor.
+
+
+EXEMPTION FROM OPERS FOR STUDENT EMPLOYEES
+Employees (including student employees) of Ohio public institutions do not contribute to the
+federal Social Security system. Student employees’ retirement contributions will be directed to
+the state retirement plan, the Ohio Public Employees Retirement System (OPERS).
+Student employees (including graduate assistants and hourly student workers) may be eligible to
+opt out of OPERS participation when first hired by UC as long as certain requirements are met.
+See the Student Employees web page on UC’s Human Resources site for the OPERS
+exemption form and for additional information.
+
+
+EXTERNAL SOURCES OF FUNDING
+Tuition scholarship and fellowship funding is provided to graduate students by a wide variety of
+governmental and private sponsors. UC’s Financial Aid website, the ScholarshipUniverse
+scholarship search application, the Office of Nationally Competitive Awards and local and
+university libraries are potential sources of information about these funding opportunities. The
+Office of Nationally Competitive Awards provides workshops, application writing assistance and
+university endorsement (for applicable awards). Students may also visit the Office of Research
+
+21
+for more information on upcoming grant opportunities, grant writing workshops, and searchable
+research opportunity databases.
+
+
+FEDERAL FINANCIAL AID
+See the Student Financial Aid website for more information on federal financial aid (including
+summer aid). The Graduate College does not regulate or audit any outside fellowships or other
+outside funding a student may receive. However, it is advised that students with outside funding
+consult with the Financial Aid Office to see if and how the outside funding may or may not affect
+other Financial Aid eligibility.
+
+
+
+
+22
+GRADUATE CREDIT AND GRADES
+ELIGIBLE CREDITS
+Credit towards a graduate degree or certificate can only be earned for those courses in this
+university that are listed as graduate in the Schedule of Classes or which have been approved in
+writing by appropriate program authority for inclusion in the curriculum. Graduate credit towards a
+degree will only be granted when a course is included in the graduate career category of the
+student record in Catalyst.
+
+
+CREDITS REQUIRED TO EARN A GRADUATE DEGREE
+Graduate degrees at UC each have a stated number of credit hours that must be completed
+satisfactorily to earn the degree. As described below, there are multiple opportunities where
+coursework taken prior to matriculation into a degree program may count towards that credit
+hour total. In all cases, to earn a degree at UC, at least 67% of the relevant coursework credit
+must be earned while a matriculated student at the University of Cincinnati.
+
+Students entering in Fall 2019 or later should make application to their program for such
+(advanced standing or transfer) credit during their first semester at UC to assure their
+course of study is optimized. For all students matriculating in Fall 2019 and later, such credit
+will only be granted if a complete and program-approved application for such credit is submitted
+to the Graduate College by the end of their first year in the program, or prior to their final
+semester of study, whichever comes first.
+
+This new policy (introduced in AY19-20) is in effect for all students matriculated in Fall 2019 and
+later. In prior policies, master’s degrees were granted when 50% of graduate credits were
+completed while matriculated in the graduate program granting the degree, therefore allowing
+up to 50% of credits to be via advanced standing.
+
+
+Advanced Standing for Graduate Courses Taken Outside of UC
+
+     a. Programs are permitted to award up to one third of the credits of a UC graduate program
+        through advanced standing (e.g., 10 credits are eligible in a 30 credit hour program or 13
+        credits in a 40 credit hour program). The relevant number of credits is based on the
+        minimum credits required to earn the advanced degree starting from the minimum
+        degree qualification (usually a baccalaureate degree). Note that for doctoral students the
+        advanced standing credit total will include any use of the ODHE allowance of up to 30
+        credits for a prior master's degree.
+     b. Any graduate course credits, including those earned from previously earned graduate or
+        undergraduate degrees, are eligible as advanced standing credits.
+     c. Advanced standing can only be offered for courses (including electives) entered in e-
+        curriculum for the UC program.
+     d. Program faculty must evaluate courses for equivalence or comparability prior to granting
+        students Advanced Standing credit for courses taken at another institution, meeting all
+        the following criteria;
+          1. Courses taken at a recognized University or College
+          2. Courses taken at the graduate level
+          3. Requested advanced standing credits must be the lower of the following two
+             choices
+23
+                     i. Credits originally earned for the course
+                    ii. Credits available in the UC course listed in e-curriculum
+          4. For 1:1 course equivalency, one or more of the following criteria must be met when
+             compared to the University of Cincinnati course for which Advanced Standing credit
+             is sought:
+                     i. Course was taken in the same field with the same title
+                    ii. Course had similar topics
+                   iii. Course had similar learning outcomes
+                   iv. Course assignment and assessment requirements were similar
+                    v. Course readings requirements are similar
+          5. This evaluation process should be documented for each case in which it is applied
+     e. The one third rule doesn’t apply to dual degrees, sequential master's to doctorate
+        programs, or others with shared content that have received approval from the Graduate
+        College.
+     f. Advanced standing credit recommended by program faculty must first be approved by
+        the graduate program director and then submitted for final review by the Graduate
+        College to assure the request complies with the criteria above.
+
+Transfer Credit for Graduate Courses Taken at UC
+     a. When leaving one graduate program to join another at UC, all UC graduate credits taken
+        as part of the incomplete program are eligible to use to fulfill requirements in the new
+        program, based on faculty evaluation of the equivalence to courses in the new
+        curriculum and program approval.
+     b. When a student enters a graduate program at UC, non-matriculated UC graduate credits
+        are eligible to be used for the program, if the coursework is listed in e-curriculum as part
+        of the curricular requirements. Subject to program approval, students may transfer up to
+        one third of the credits required to earn their UC graduate degree Programs are
+        permitted to award transfer credit from a prior UC graduate degree if (1) the sum of
+        unique credits to earn both degrees is equal to or greater than the State minimums for
+        each degree type, and (2) the transfer credit courses are part of the curriculum of the
+        new degree program as defined in e-curriculum. Using credit that meets both criteria, up
+        to one third of the credits of the new UC graduate program may be awarded through
+        transfer credit. The relevant number of credits is based on the minimum credits required
+        to earn the advanced degree starting from the minimum degree qualification (usually a
+        baccalaureate degree). Note that for doctoral students the transfer credit total will
+        include any use of the ODHE allowance of up to 30 credits for a prior master’s degree.
+
+
+Course Exemption for Prior Knowledge, Without Credit
+Faculty in a program have the option to provide students with an examination to determine if
+accumulated knowledge is sufficient to be exempted from specific courses in a graduate
+curriculum (e.g., continuing education courses in some professional fields may provide a
+background that eliminates the need to take introductory courses). The form and content of that
+examination is at the discretion of the program. When such exemptions are granted, the student
+does not earn graduate credit for such knowledge. The credits required to complete their UC
+graduate degree remain unchanged, and the student will take alternative coursework (approved
+by the graduate program director) to advance their knowledge.
+
+
+
+24
+Multiple Degree Exemptions
+     a. If the graduate faculty from a UC program has participated in designing and/or
+        presenting the curriculum at another institution, shared degree programs between the
+        institutions can deviate from these rules with prior approval of the Graduate College and
+        their college leadership. In no case will a UC degree be awarded if more than 50% of the
+        curriculum is offered by non-UC faculty.
+     b. Dual degree programs can combine two UC graduate degrees into a single curriculum if
+        approved by the University. Approved dual degree programs can share up to one-third of
+        the combined credits of the two degrees, but the total count of unique credits to earn
+        both degrees must always be equal to or greater than the State minimums for each
+        degree type.
+
+
+Enrolling in Non-UC Classes through the Greater Cincinnati Collegiate
+Connection
+The University of Cincinnati is a member of the Greater Cincinnati Collegiate Connection. GC3
+classes are those not generally available at the University of Cincinnati but which can be used to
+satisfy degree requirements. The student must have met all tuition commitments at the University
+of Cincinnati and must observe all regulations of the host institution. For additional information,
+participating institutions, and registration instructions, consult the Greater Cincinnati Collegiate
+Connection page of the Registrar’s Office website. Approval is at the discretion of the program.
+
+Graduate Credit for Undergraduate Students
+Any program may allow juniors or seniors to register for graduate courses for graduate credit
+before those students have completed the baccalaureate degree. It is recommended, if the
+program permits such registration, to limit the privilege to students with senior status and a grade
+point average of at least 3.000 (higher in some programs). This is evidenced by a written request
+from the student that is signed by an authorized member of the graduate program. Upon
+approval by the graduate program and the course instructor, graduate credit will be given for the
+courses. A maximum of 12 semester graduate credits can be earned in this manner. Credit will
+not be given toward both graduate and undergraduate degrees for the same course.
+
+Graduate Credit Earned in 6000-Level Courses
+In fall 2016, all 6000-level courses became graduate only. In the past, 6000-level courses were
+available for either undergraduate or graduate credit (to earn graduate credit, students selected
+the graduate level designation (G) in these courses, indicating that additional work was required
+beyond that required of undergraduates in the course). PLEASE NOTE: with the transition to the
+new use of course numbers, there will be no change to the graduate (or undergraduate) credits
+earned previously in the pre-fall-2016 version of these courses.
+
+
+GRADING
+Final Exams
+Exams are held during the last week of the semester after classes have ended. For each term’s
+full final examination schedule, consult the Calendars page of the Registrar’s Office website.
+
+
+
+
+25
+Make-up Final Exams
+Special policies may govern the taking of missed final exams. Students and faculty members
+should check the college office or program office for specific details. Every student is responsible
+for the material presented in their class. Arrangements for make-up work and tests are
+determined by the instructor. Absences incurred by students officially representing the
+university will be excused, provided that official notification of such absence has been given in
+advance to the instructor.
+
+Grade Reports
+End-of-term final grades may be viewed in the Catalyst student portal immediately following
+submission of final grades by the instructor. Grade reports include total graduate hours and
+hours for the current semester. The student’s grade report differentiates between “units taken”
+(course credits the student enrolled in but did not complete successfully or which are still pending
+a final grade) and “credits passed” (course credits successfully completed with a final grade other
+than F). These values are posted on the student’s transcript as attempted hours and earned
+hours. A graduate grade point average (GPA) is calculated each semester. Approved transfer
+credits from other institutions are included in the sum of credits earned, but grades for those
+credits are not included in the GPA. All graduate work, regardless of the University of Cincinnati
+college in which the work was done, is accumulated in these tallies. For this reason, if a student
+record includes UC graduate courses that do not count towards the degree, this GPA may differ
+from the calculation of GPA in program coursework (a minimum 3.000 program GPA is essential
+to earn a graduate degree).
+
+The I incomplete grade is awarded as a course grade (without grade point assignment) at the
+end of a term when a significant portion of course work has been satisfactorily completed, but not
+all of the required course work has been completed. The incomplete grade is appropriate when
+the completed course work is of passing quality and the student has had such hardship that
+completion of the remaining course work within the term timeline would present an additional
+hardship.
+
+The instructor who assigns the incomplete grade should set a specific date by which the student
+must complete the remaining course work, recognizing that time must be available for any final
+evaluation and grade change to be made, prior to the deadline when the grade converts to an F.
+The deadline is one year to the last day of exams. (Please check the Office of the Registrar’s
+website for the specific date.) The student must work with the instructor to develop an agreement
+that indicates the date by which the remaining course work is to be completed and submitted to
+the instructor. The instructor is not obligated to provide the student with a full year to complete
+the remaining course work. If the remaining course work is completed within the time period
+agreed upon by the instructor and the student, and that completion occurs within the one year,
+then the instructor will submit a change of grade online (in Catalyst) based on the quality of the
+remaining work. If no specific time for completion is set by the instructor, the student has one
+year (from the end of the term in which the incomplete was assigned) to complete the remaining
+course work and submit it to the instructor in time for evaluation of the work and a final grade to
+be approved by the Registrar. If the coursework is not completed within the one-year period (i.e.,
+one year from the end of the term in which the I grade was assigned), the I grade automatically
+converts to an I/F grade which affects the student’s GPA the same as the grade of F.
+
+For the complete graduate grading scale and a definition of all grades, consult the Grading
+Scales and Definitions page of the Registrar’s Office website.
+
+
+26
+Grades Assigned to Research Courses That Are Repeated
+If students are working on dissertation or thesis research, they should be registered in the
+appropriate research course (e.g., Individual Dissertation or Individual Master’s Thesis), and the
+course work should be given a final grade each semester. The use of P/F for such courses is
+strongly recommended to avoid undue influence on GPA due to individual grading practices
+and the large amount of research credit awarded, but it is recognized that some programs will
+want to use letter grades. “Placeholder” grades such as SP and NG should not be used.
+
+Regardless of the grading scheme selected, it must be consistently applied across an
+entire program. If a program faculty cannot agree on a single grading scheme, the program
+must use the P/F choice. Students should be graded for each semester based on their progress
+and achievements in that semester.
+
+Note: The definition of a “research course” is a course outside of formal class work or instruction
+that allows a student to be registered as a graduate student while they are working independently
+on their thesis or dissertation under the guidance of their advisor or dissertation committee. This
+policy also applies to internships and other multiple semester or series courses.
+
+Pass/Fail Grades
+An instructor may request approval for pass/fail grading for an individual student in their class
+prior to the first day of class. A graduate student can take a course on a pass/fail basis (P or U
+grade) when approved by their advisor and instructor. An instructor is not required to accept a
+student on such a basis.
+
+Grade Changes
+A change of grade is only appropriate for an I, an NG, an SP/UP, or an error made by the
+instructor. SP/UP grades must be converted to a final grade by the end of the following semester.
+Instructors may change an I or NG grade online in Catalyst for approximately one year (the
+interval extends from the initial grading semester to the last working day of the same term the
+following year). To request a change of grade for a non-research course for graduate credit after
+this period, or an F grade any time, the instructor must do an official, paper change of grade form
+and forward to the Registrar’s Office.
+
+Previously recorded grades may not be changed to W or I after the close of the term. Both I and
+W grades must be awarded while the course and semester are still in progress and cannot be
+awarded retroactively. W reflects an official withdrawal that took place by the deadline outlined in
+the academic calendar, and I indicates work remains to be completed and the student did not
+earn a final grade. Students cannot withdraw from a class retroactively or be given
+additional opportunities to seek a different final grade retroactively. If an F is in a non-
+required course or the required course has since been retaken for a passing grade, the Program
+Director at certification may request a waiver of the F grade from the Associate University Dean
+of the Graduate College.
+
+No Grade Replacements for Graduate Students
+Please note, if a graduate student re-registers and re-takes a course, both grades will be
+included in the student’s overall GPA. There are no grade replacements at the graduate level.
+The process to make a grade change cannot be initiated by a student. The course instructor of
+record must send the form. At no time should a student be in possession of a change of grade
+
+27
+form. Note: that an I/F grade is governed by the same policies that govern the F grade and is
+weighted into the student’s GPA in the same fashion.
+
+
+
+
+28
+MAINTAINING GRADUATE STUDENT STATUS
+Maintaining graduate student status signifies that the student is actively engaged in making
+progress towards their degree and meeting program requirements. Graduate status determines
+which students may use facilities of the university, may participate in the university governance
+process and student organizations, and are covered by the Student Code of Conduct and the
+grievance process. A University of Cincinnati graduate student must hold the equivalent of a
+baccalaureate or higher degree and must have been accepted for admission into graduate study
+by the appropriate graduate program.
+
+
+MINIMUM CREDITS/REGISTRATION REQUIREMENTS
+To maintain graduate status at the University of Cincinnati, students must register at UC for at
+least one graduate credit that contributes to degree requirements (as determined by the graduate
+program) in an academic year. If the student is registered for at least one graduate credit in the
+academic year (fall through summer), they will maintain graduate student status for the entire
+academic year. Credits that are audited or in which a student receives a W, UW or F do not
+count toward the minimum credit requirement. Any student that does not register in the fall of an
+academic year and has not registered for the previous two academic years will automatically be
+exited from their program. A student whose status has thus automatically terminated will no
+longer be considered a graduate student but may seek reinstatement (see Reinstatements). Also
+note that students wishing to use many UC resources, such as university housing, campus
+laboratories, office space, equipment, campus recreation center, computer labs, etc. may need to
+be registered. Students should check with specific facilities for their particular requirements.
+
+Dual Degree Programs
+In dual degree programs, students must be registered for at least one graduate credit that
+contributes to degree requirements in one of the two programs (as determined by the program)
+during the academic year in which they graduate with their dual degrees.
+
+
+FULL-TIME COURSE LOAD
+Students must be registered for 10 or more graduate credits each semester to be considered full-
+time students, 12 if holding a university sponsored graduate assistantship or fellowship. Audit or
+undergraduate credits do not count toward full-time status and cannot be supported by a
+University Graduate Award.
+
+
+PART-TIME COURSE LOAD
+Students who can devote less than full time to graduate study may register for the number of
+graduate credits judged by their program advisors to represent the appropriate fraction of a full-
+time load. However, doctoral students must satisfy the Board of Trustees residency requirement,
+which requires that they have one year of full-time study, which is defined as being enrolled for at
+least 10 graduate credits in their program in each of two semesters (including summer semester)
+during a span of three consecutive semesters. Full-time UC employees using their tuition
+remission benefit to complete a part-time doctoral program may request a waiver of this
+requirement from the Associate Dean of the Graduate College. (See Doctoral Degrees Policies
+and Procedures, Course of Study.)
+
+
+
+29
+REDUCED COURSE LOAD (INTERNATIONAL STUDENTS)
+Once an international student has finished all required course work and will no longer be
+enrolling full time, she/he may choose to enroll with a reduced course load. Visit the F-1 Students
+page on the UC International Services website, referring to the “Enrolling part-time as a graduate
+student who has finished all course requirements” section for the link to the form and more
+information.
+
+
+MEETING PROGRAM REQUIREMENTS
+Students who continue on active status in their program without interruption are responsible for
+meeting all current requirements, including requirements that are revised since the student first
+entered the program. Students readmitted into their program are responsible for meeting the
+program requirements applicable at the time of readmission.
+
+
+MINIMUM ACADEMIC PERFORMANCE
+The Graduate College requires that a student must have an aggregate grade point average
+(GPA) of at least 3.000 to obtain a graduate certificate or degree at the University of Cincinnati.
+The GPA used for this purpose should aggregate graduate-level coursework completed since the
+student’s matriculation into the particular degree program from which the student seeks
+graduation, and only courses taken that are applicable to the degree/certificate count towards
+this GPA. Transfer graduate credits may also be accepted at the discretion of the degree
+program (and within Graduate College limits), and any transfer credit coming from courses taken
+at the University of Cincinnati will contribute to the GPA certified for graduation. Please note that
+programs establish minimum academic standards that may exceed the overall university
+standards provided above, so students need to be aware of their program requirements.
+
+Note that there is no grade replacement for graduate students, so any failed graduate courses
+remain in the student record. However, if a student retakes a failed course and obtains a passing
+grade, and if the GPA calculated without that original failing grade is above 3.000, then the
+program can petition the Graduate College for a waiver of the GPA requirement for graduation.
+Multiple failing grades, or multiple attempts to pass a course, are examples of why a petition may
+be denied.
+
+
+INTERNATIONAL STUDENTS, MAINTAINING IMMIGRATION STATUS
+The student has responsibility for maintaining their immigration status. Key information on
+maintaining immigration status on the F-1 Students page on the UC International Services
+website.
+
+
+TIME TO DEGREE
+
+Time to Degree and Extensions
+The Board of Trustees stipulates that all degree requirements must be completed within a
+defined span of years starting from the date of matriculation into the degree program, regardless
+of whether students are full time or part time. This span is 5 years for the master's degree and 9
+years for the doctoral degree. Under extenuating circumstances, a program may petition, on
+
+30
+behalf of the student, for extension of the time limit for attaining the degree. Prior to the program
+petitioning the Graduate College for an extension, the student must communicate with the
+student’s program advisor and/or director to review the student’s degree completion to date and
+form a plan for degree completion. All this information should be included in a petition submitted
+to the Graduate College, which will review this petition and make a final decision.
+
+Students who have not completed degree requirements by their time-to-degree limit are on
+inactive status regardless of course registration in each academic year. Such students are
+required to apply for an extension of their time-to-degree.
+
+
+Reinstatements
+Students who have not been registered for at least one graduate credit hour at UC that
+contributes to degree requirements (as determined by the graduate program) in an academic
+year (fall-summer) are considered inactive. Reinstatements are available to students who have
+been inactive for less than three academic years. Students who have not been enrolled for any
+credits in their graduate program for three or more consecutive academic years are not eligible
+for reinstatement and must apply for readmission to the university. (See Readmission.)
+Readmission is processed via the reinstatement petition in Gradtracker. Applications submitted
+by the student via the admissions system will not be accepted.
+
+To request reinstatement, a program must petition the Graduate College on behalf of the student.
+Prior to the program petitioning the Graduate College for a reinstatement, the student must
+communicate with the student’s program advisor and/or director to review the student’s degree
+completion to date and form a plan for degree completion. The program coordinator, director or
+advisor will begin the reinstatement process in Gradtracker. The originator of the petition in
+Gradtracker will upload documents in one pdf to include degree completion information to date
+and a written plan for degree completion. The Graduate College will review the packet and if
+approved the student will also need to approve the petition and fee.
+
+If a student wishes to be reinstated so they can register and take classes, reinstatement
+petitions must be submitted in Gradtracker prior to the start of the first day of the term to be
+eligible for reinstatement in that term. Petitions received before the census date (the 15th
+calendar day of the term), the term may be considered for the current term. Petitions received
+after the census date will be considered for the following term.
+
+If a student wishes to be reinstated so they can graduate without taking any further
+classes, petitions for reinstatement (and extensions) must be submitted in Gradtracker no later
+than 3 weeks prior to graduation for the student to be certified for graduation in that semester.
+Petitions received after this time will not be approved in time for graduation that same semester.
+Late petitions will be held through the next processing period and a decision will be granted in
+time for the next graduation.
+
+A reinstatement fee equal to the current tuition for one graduate credit for each of the
+unregistered years up to a maximum of 3 years is assessed. The reinstatement fee will be added
+to the student’s bursar account and will become part of the student bill. Reinstatement fees are
+due 30 days after formal approval unless a payment plan is agreed to with the bursar’s office. If
+the fee is not paid by the due date, service charges may accrue, a block may be placed on future
+registrations and/or on the release of UC diplomas and official transcripts, and the account may
+be sent to collections.
+
+
+31
+Readmission
+Graduate students who have been inactive (not enrolled in their program) for three or more
+academic years are not eligible for reinstatement and must apply for readmission to the
+university. Readmission does not change the student’s original entry date. Time to degree will
+be calculated from the student’s first entry date. The program may petition the Graduate College
+on behalf of the student for readmission. Additionally, if the student has exceeded time to degree
+limits, the program should also petition for an extension with the readmission to specify the term
+in which the student will graduate.
+
+The readmission process is an opportunity for the program to carefully consider the former
+student’s progress and length of time between the student’s inception into the program and
+completion of remaining requirements. This may result in readmission, readmission with
+conditions, or denial of readmission.
+
+Prior to the program petitioning for a readmission, the student must communicate with the
+student’s program advisor and/or director to review the student’s degree completion to date and
+form a written plan for completing remaining degree requirements and removing any standing
+impediments to graduation, including any I/F, F, NG grades and courses required for graduation.
+This plan should include a timeline that describes the student's progress toward degree
+completion to date.
+
+The program coordinator, director or advisor will begin the readmission process in Gradtracker
+and will upload documents in one pdf to include degree completion information to date and a
+written plan for degree completion. The Graduate College will review the packet and if approved,
+the student will need to approve the petition and fee as well. Upon approval, the student must
+pay a readmission fee equivalent to in-state tuition in effect at the time of readmission for three
+graduate credits.
+
+The student will also be asked to complete, sign, and return the supplemental form for residency
+requirements to the Registrar’s office.
+
+Leaves of Absence
+Under special circumstances, graduate students may apply for leave of absence from formal
+study at the university for a specific period up to one year. Assuming appropriate documentation
+is provided, the circumstances justifying a leave include but are not limited to personal or family
+medical conditions, call to active military duty, parental leave, or death in immediate family. The
+rationale must be documented by the applicant.
+
+An approved leave of absence preserves the student’s status in the degree program, and the
+time off will not be counted against the time limits for awarding degrees. Consequently,
+registration is not required during the leave period. A leave may be renewed past the first year,
+for up to a maximum of five years, depending on the individual circumstances. Renewal of a
+leave is subject to the approval of the program, college, and the Graduate College.
+
+While the Graduate College leave of absence is only necessary for students who will be unable
+to register for a full academic year, programs may have more strict and specific registration
+policies and leave of absence policies. Students should also consult their program handbook if
+there is a legitimate need not to register for any amount of time.
+
+
+
+32
+To apply for a leave of absence, a student must complete the Request for Leave of Absence
+Form and upload the appropriate documentation (e.g., doctor’s letter or military orders) through
+Gradtracker. The program will approve through Gradtracker as well. Once the program has
+approved the request, the Graduate College will review the petition and if approved, the student
+and program will receive an email notification through their UC email.
+
+Note: A student on a leave of absence is placed on inactive status and their Catalyst record is
+discontinued, to be reactivated upon their return. While on inactive status, they will not be
+eligible for student health insurance and may be unable to use many UC resources. Students
+with financial aid or student loans should confer with the Financial Aid Office prior to requesting a
+leave of absence to ascertain the consequences of a leave on their loan status. Students should
+also be aware that any scholarships or assistantships are not guaranteed to be available when a
+student returns from a leave of absence.
+
+Withdrawal from Program
+Students must notify their program in writing and copy the Graduate Admissions Program
+Manager regarding their intent to withdraw from their programs.
+
+Dismissal from Program
+Students must consult with individual programs concerning dismissal policies. If a program
+dismisses a student, the program must copy the Graduate Admissions Program Manager on the
+notification to the student.
+
+
+
+
+33
+MASTER’S DEGREE POLICIES AND PROCEDURES
+COURSE OF STUDY
+The course of study for the master’s degree is planned with the advisor and is subject to
+approval by the program graduate committee or its equivalent. It must show a reasonable degree
+of concentration on interrelated subjects.
+
+Programs will recommend students for degrees only after students have developed and
+demonstrated the necessary knowledge and skills and have fulfilled all other university
+requirements. At least once an academic year, the graduate program director or the graduate
+student’s advisor shall inform the student in writing of their academic progress in the master’s
+degree program. An annual Academic Progress Report or some other form of formal evaluation
+of progress is required throughout each student’s program.
+
+Students must take a minimum of one graduate credit that contributes to degree requirements
+(as determined by the graduate program) per academic year (fall-summer) to maintain active
+status. If a student does not maintain active status, they may apply for reinstatement within three
+years or apply for readmission to their program thereafter. There are fees associated with these
+steps. (See Maintaining Graduate Student Status, Reinstatements and Readmission.)
+
+
+CREDIT HOUR REQUIREMENTS
+The University of Cincinnati is on a semester system. Although qualification for the master’s
+degree is not based exclusively upon the completion of a definite number of hours of course
+work, the satisfactorily completed graduate work must consist of the equivalent of a minimum of
+one academic year of full-time graduate study consisting of at least 30 graduate semester credit
+hours, including any thesis or capstone project.
+
+Credits earned in professional law or medicine programs are not applicable to the 30-credit
+minimum.
+
+
+CANDIDACY
+There is no formal candidacy status for the master’s degree. However, some programs do have
+defense requirements, so each student should confer with their advisor or program director to
+ascertain the requirements of their specific program.
+
+
+CULMINATING EXPERIENCE: THESES and CAPSTONES
+Every degree requires a culminating experience that is designed to integrate and apply the
+knowledge and learning gained from the curriculum, and demonstrate mastery of the subject
+matter in the degree. A master’s thesis is required by some programs, and a master’s capstone
+project/experience is required in others. Each master’s degree student undergoes an individual
+evaluation process at the end of their program.
+
+Thesis Preparation, Evaluation and Submission Process
+Preparation of a thesis demonstrates the student’s ability to communicate and to evaluate
+critically. Information about preparing an electronic thesis is available on the Graduate College
+
+
+34
+website. The student should consult with their program office for additional forms required other
+than what appears on the graduation checklist.
+
+A student must note any relevant deadlines defined by their program, and work with their
+program leadership to form a thesis committee composed of at least two UC faculty members, at
+least one of whom must be a member of the university graduate faculty. The thesis committee
+can guide the student in their exploration of the topic of the master’s thesis, and is responsible for
+final evaluation of the thesis. The student must submit the completed thesis to the thesis
+committee for critical evaluation, by the deadline required by the program or their thesis
+committee. Students who have written a thesis are expected by the Graduate College per their
+program requirements to make a public announcement of their thesis defense, including time,
+date, and title of the public presentation. The format for thesis evaluation is decided by the
+academic unit offering the graduate degree.
+
+Faculty with emerit status may remain on the committee if they were members when the
+proposal was accepted and were full-time tenured, university graduate faculty. A faculty member
+originally on a student’s committee who leaves UC to take an academic position elsewhere may
+also continue to serve on the student’s committee if both the faculty member and the student
+agree to continue the relationship. However, neither an emerit professor nor a faculty member
+from another institution may serve as chair of the committee, since they are no longer eligible to
+be university graduate faculty.
+
+Once a thesis has been approved by their committee, the candidate for the master’s degree must
+submit an electronic thesis by following the current instructions online at the Graduate Collge's
+Graduation page. Be careful to adhere to any deadlines for submission, or graduation will be
+delayed.
+
+Capstone Process
+Master’s students who are not required to complete a thesis should consult their academic
+programs about the requirements and procedures for the capstone experience in their programs.
+
+In some programs, the final capstone event may be in the form of a comprehensive exam or
+research project; in others, the final evaluation may appropriately be a recital, performance, or
+exhibition. The specific nature of the final evaluation is determined by the academic unit offering
+the master’s degree program, but it must include evaluation by full-time faculty at the University
+of Cincinnati. If questioned, the appropriateness of a final evaluation will be decided by the
+University Graduate Council.
+
+
+GRADUATION
+One semester prior to the semester in which a student anticipates graduating, the student
+should:
+    • confer with their program office staff;
+    • consult the Graduate College’s website for deadlines, instructions on submitting their
+        electronic thesis;
+    • visit the Graduate Collge’s website to determine if they are defined as a thesis or non-
+        thesis student, or consult with their program; and
+    • talk to advisor about whether an embargo is needed.
+
+
+
+35
+Application to Graduate
+Students must: (1) complete academic requirements and (2) complete the official online
+Application to Graduate by the deadline for the semester in which they expect to graduate.
+
+NOTE: for all graduate students, the application for graduation is started at the Graduation
+page, and not within Catalyst.
+
+Start an application for graduation early in the semester you plan to graduate. Deadlines
+posted on the Graduation Deadlines page are firm and failure to meet them will delay students’
+graduation until the following semester, when they must then submit a new application for their
+revised graduation date. A student graduating from a dual degree program must make a formal
+application for graduation for each program (see details in next section).
+
+All students applying to graduate will be assessed a non-refundable graduation application fee.
+The fee will be assessed each semester a student applies for graduation. Students who have
+applied for graduation and learn later they will not be graduating must be removed from the
+graduation list before they can apply again for any future semesters (programs must notify the
+Graduation Program Manager to remove a student).
+
+When the application for graduation is complete, the student receives an email receipt for
+payment of the graduation application from the registrar’s office. If this receipt is not received,
+promptly notify your program, as your graduation application may not be completed.
+
+Some PhD programs incorporate a master’s degree. Students should contact their program for
+help in adding this additional degree.
+
+Graduation from Dual Degree Programs
+The online Application to Graduate will allow a student to apply for graduation from both degree
+programs in an official dual degree program.
+
+Each of the two programs must follow and complete the certification processes and procedures
+necessary to facilitate a student’s graduation from their own program.
+
+In dual degree programs, students must be registered for at least one graduate credit that
+contributes to degree requirements in one of the two programs (as determined by the program)
+during the academic year in which they graduate with their dual degrees.
+
+Certification for Graduation (Certify Online)
+The finalization and submission of a student’s Application to Graduate will activate the process
+by which the student will be certified for graduation, and the following requirements must be met.
+The student should confer with their program office one-two weeks after the application period
+has ended to assure that any problems related to these requirements (reinstatements/
+extensions, or grade changes) are resolved in a timely manner and avoid delay of graduation
+until a subsequent semester.
+
+Specifically, the student’s records will be reviewed to verify satisfaction of the following
+requirements:
+    • finalization and submission of their online Graduation Application by the deadline;
+
+36
+     • instructor’s submission of passing grades for their final semester credits;
+     • removal of all I grades from their transcript;
+     • removal of all UP/SP grades from unapproved courses and/or the final semester in the
+       approved courses were taken;
+     • assignment of letter grades rather than UP/SP grades for courses in the final semester of
+       the student’s program;
+     • removal of previously awarded NG grades and blank grade awards;
+     • confirmation of satisfactory repetition or waiver of required courses in which an F was
+       originally received;
+     • confirmation of completion of work and changes of I grades within the one-year limit;
+     • confirmation that the student was registered for at least one credit in their graduate
+       program in each academic year, including the year of expected graduation;
+     • confirmation that the student completed degree requirements within the prescribed time-
+       to-degree;
+     • satisfactory completion of at least 30 graduate credits completed to the satisfaction of the
+       student’s program;
+     • completion of all program requirements for the degree;
+     • 3.000 GPA has been earned while a matriculated graduate student in the program;
+     • if a thesis is required, upload the electronic thesis (ETD) with chair approval by the
+       deadline date, which is posted on the Graduation Deadlines website.
+
+Note: The requirements explained here are university requirements. Students must contact their
+program’s office for any additional program-level requirements or deadlines that must be
+completed prior to graduation.
+
+Please see the Doctoral Hooding and Master’s Recognition Ceremony section for details on the
+event.
+
+
+CONTINUING TO A DOCTORAL PROGRAM
+For a UC master’s student continuing to a doctoral program in the same program area, the
+student will fill out the application in the graduate admissions application system, and the
+graduate application fee is waived.
+
+
+
+
+37
+DOCTORAL DEGREE POLICIES AND PROCEDURES
+COURSE OF STUDY
+The course of study for the doctoral degree is arranged with each student by their advisor and
+reviewed by the program’s graduate committee or its equivalent. The program should provide a
+concentration and breadth of study for the student to develop competence in research,
+scholarship, teaching, and professional performance in general, with knowledge of their chosen
+specialty in relation to allied branches of learning. A written assessment of performance for each
+doctoral student is required at the end of their first year; an annual Academic Progress Report or
+some other form of formal evaluation of progress is required throughout each student’s program.
+
+
+CREDIT HOUR REQUIREMENTS
+The doctoral degree will be granted for no less than the equivalent of three years of full-time
+graduate study. Individual program requirements vary, but eligibility for graduation typically
+requires a minimum of 90 graduate credits beyond the bachelor’s degree. Doctoral students with
+a prior master’s degree may petition their program to allow up to 30 transfer credits from the
+master’s degree towards their doctoral degree. Degree credits must include at least 7 hours in
+dissertation research. Some program credit requirements may be higher.
+
+The last 30 credits must be completed under the direction of University of Cincinnati graduate
+faculty. The degree will not be granted solely on the basis of the accumulation of the required
+number of credits. A program will recommend students for degrees only after they have
+developed the necessary intellectual maturity and have fulfilled all other requirements of the
+program and the university.
+
+
+RESIDENCY AS FULL-TIME STUDENT
+Prior to admission to doctoral candidacy, all doctoral students shall complete a residency
+requirement by enrolling in 10 graduate credit hours (12 if funded by a Graduate Assistantship)
+per semester for two out of three consecutive semesters of study (including summer). Part-time
+students are not exempt from enrollment requirements to achieve residency. However, full-time
+UC employees using their tuition remission benefit to complete a part-time doctoral program may
+request a waiver of this requirement from the Associate Dean of the Graduate College.
+
+
+CANDIDACY, QUALIFYING EXAM
+The Graduate College does not currently track time to candidacy, but encourages programs to
+implement candidacy exams early in their programs to allow the students optimal feedback on
+their aspirations and research. Doctoral students are required to complete a program certification
+process according to the program’s established standards. The student must have at least a
+3.000 grade point average in doctoral coursework and fulfill all other pre-candidacy requirements
+specified by the doctoral program in which the student is enrolled. Upon completion of these
+requirements, the student will receive a formal letter from the Graduate College informing the
+student of admission to candidacy.
+
+
+
+
+38
+UNIVERSITY GRADUATE FACULTY ROLE
+In accordance with the university’s Board of Trustees’ rule (50-77-11) (B) (2), only university
+graduate faculty are permitted to chair thesis or dissertation committees. The Graduate College
+appropriately identifies members of the university graduate faculty.
+
+Faculty members are nominated for graduate-faculty status by the program most closely aligned
+with the academic unit holding their primary academic appointment, and with the approval of their
+college dean or associate dean in charge of graduate education (from whom the nomination
+should arrive to the Graduate College). Faculty members holding any type of faculty appointment
+may be eligible for college-initiated nomination to the graduate faculty, the decision to be made
+based on an evaluation of the individual curriculum vitae and research and creative profile of the
+nominee. Criteria for nomination are formulated by individual programs and used by the
+Graduate College in adjudication.
+
+
+DISSERTATION
+Each PhD and EdD student must produce and defend a dissertation showing high scholarly
+achievement based on their original research. The student is required to submit an electronic
+document as evidence of this research. Students in all other doctoral programs should consult
+their academic programs regarding requirements and procedures for the capstone experience
+required in their programs.
+
+Dissertation Advisor and Committee
+When the student has been admitted into doctoral candidacy and has selected a dissertation
+subject and dissertation advisor, a dissertation committee should be appointed as soon as
+possible. The dissertation advisor must be qualified to serve as the chair of the dissertation
+committee, meaning this faculty member must be a member of the university graduate faculty
+and all members of the committee will be appointed by the Graduate College upon
+recommendation of the program director or director of graduate studies (in consultation with the
+committee chair and student). Students have the right to request a change in the committee but
+must do so in consultation with the graduate program director and their program must make the
+change in GradTracker. Preferably, the dissertation committee will include at least one person
+from outside the program, who might be faculty from the University of Cincinnati or another
+institution.
+
+A dissertation committee must be composed of a minimum of three UC faculty members.
+Members of the university graduate faculty are eligible to serve on all thesis and dissertation
+committees. In addition, all tenured and tenure-track faculty members may serve on all thesis
+and dissertation committees (even if they are not members of the university graduate faculty,
+meaning they may not serve in the chair role and cannot act as primary advisors). Other types of
+UC faculty members may serve on committees if the appointing unit demonstrates that their
+expertise is beneficial for the dissertation project. Programs should make such requests to the
+Graduate College in advance, to be ascertained on a case-by-case basis.
+
+Neither an emerit faculty member nor a faculty member from another institution may serve as the
+chair of the committee. Emerit faculty may remain on the committee if they were members when
+the proposal was accepted. A faculty member originally on a student’s committee who leaves UC
+to take an academic position elsewhere may also continue to serve on the student’s committee if
+both the faculty member and the student agree to continue the relationship. If a non-UC faculty
+member or appropriate professional practitioner has special expertise in a dissertation topic,
+39
+such a person may be added to the dissertation committee if they are nominated by the
+candidate and approved by both the chairperson of the dissertation committee, the director of
+graduate studies for the academic unit involved and the Graduate College. All such individuals
+serve as a full voting member of the dissertation committee without compensation from either the
+university or the candidate and would serve in addition to the minimum number of three qualified
+full-time UC faculty.
+
+A copy of the completed dissertation must be submitted to each committee member for critical
+evaluation, with sufficient time for review as determined by the dissertation committee. If it is
+considered satisfactory with respect to form and content by the committee, a final defense of the
+dissertation can be scheduled.
+
+Final Defense of Dissertation
+Students should check with their program office for the final deadline for their dissertation
+defense. The student’s final defense of the dissertation will be open to the public and all
+members of the academic community. Students are required to enter details of their dissertation
+defense, such as time, date, and location, online at the Graduate College website through the
+Graduation checklist steps. Begin at the Graduation webpage. One can also browse scheduled
+dissertation defenses by visiting the Upcoming Dissertation Defenses page.
+
+The candidate answers questions posed by members of the committee and other members of
+the audience following an oral presentation of their dissertation. At the conclusion of the defense,
+the committee will withdraw, make a decision with regard to the acceptability of the dissertation
+and its defense, and report its decision to the candidate. At least ¾ of the voting members of the
+dissertation committee (including at least one representative of each major area involved, in the
+case of interdisciplinary programs) must approve the dissertation.
+
+When the student’s dissertation committee chair has approved a defense, the student should
+assure that they have met all requirements for graduation including those in the graduation
+information obtained online.
+
+Use of a Moderator
+Although an outside moderator is not required, a moderator may be assigned by the Graduate
+College dean upon the request of the candidate, the chairperson of the dissertation committee,
+or the person empowered to approve the composition of a dissertation committee (the director of
+graduate studies for the academic unit involved). Moderators should be members of the
+university graduate faculty from outside the academic unit involved. The duties of the moderator
+are limited to observing the oral defense of the dissertation and reporting in writing to the
+Graduate College dean on the academic propriety of the proceedings.
+
+Submission of Dissertation
+After a dissertation has been approved, the candidate for the doctoral degree must submit their
+electronic dissertation by following the current instructions found at the Electronic Thesis and
+Dissertation Information webpage. Students in all other doctoral programs should consult their
+academic programs for the capstone experience required in their programs. Deadlines are
+posted at the Graduation Deadlines page.
+     • All thesis/dissertations must be electronically submitted by the student and approved by
+        the advisor. Students log in via the link available on the Graduation webpage.
+
+
+40
+     • Advisors are sent an email when the student submits for their approval, and the advisor
+       then logs in to review/approve.
+     • Once approved by the chair, the student is notified by email.
+     • A Graduate College approval email is sent to the student once reviewed.
+     • The program is copied on all email correspondence during the Electronic
+       Thesis/Dissertation (ETD) approval process.
+
+
+GRADUATION
+One semester prior to the semester in which a student anticipates graduating, the student
+should:
+    1. Confer with their program office staff.
+    2. Consult the Graduation page on the Graduate College’s website for deadlines,
+        instructions on submitting their electronic dissertation, and doctoral hooding ceremony
+        information.
+    3. Talk to advisor about whether an embargo is needed.
+
+Application to Graduate
+Students must: (1) complete academic requirements and (2) complete the official online
+Application to Graduate by the deadline for the semester in which they expect to graduate.
+Deadlines are firm and failure to meet them will delay students’ graduation until the following
+semester, when they must then submit a new application for their revised graduation date.
+
+All students applying to graduate will be assessed a non-refundable graduation application
+fee. The fee will be assessed each semester a student applies for graduation.
+
+Dual Degree Programs Graduation
+The online Application to Graduate will allow a student to apply for graduation from both degree
+programs in a dual degree program. Each of the two programs must follow the certification
+processes and procedures necessary to facilitate the student’s graduation from their own
+program.
+
+In dual degree programs, students must be registered for at least one graduate credit that
+contributes to degree requirements in one of the two programs (as determined by the program)
+during the academic year in which they graduate with dual degrees.
+
+Graduation Requirements for Doctoral Degrees
+Students must be registered for at least one graduate credit that contributes to degree
+requirements (as determined by the graduate program) during the academic year in which they
+graduate from that program. Doctoral students must also complete degree requirements within a
+nine-year period unless they have an approved extension (see Maintaining Graduate Student
+Status, Time to Degree). They should contact their program offices for any additional program
+requirements or deadlines to be completed prior to graduation.
+
+Certification for Graduation (Certify Online)
+Finalization and submission of a student’s Application to Graduate will activate the process by
+which the student will be certified for graduation, and the following requirements have been met.
+
+41
+The student should confer with their program office one-two weeks after the application period
+has ended to assure that any problems related to these requirements are resolved in a timely
+manner and avoid delay of graduation until a subsequent semester.
+
+Specifically, the student’s records will be reviewed to verify satisfaction of the following
+requirements:
+    • finalization and submission of their online Application to Graduate by the deadline;
+    • instructor’s submission of passing grades for final semester credits;
+    • removal of all I grades from transcript;
+    • Removal of previously earned NG grades and blank grade awards - removal of all UP/SP
+        grades from unapproved courses and/or the final semester in which the courses were
+        taken;
+    • assignment of letter grades rather than UP/SP grades for courses in the final semester
+        of the student’s program;
+    • confirmation of satisfactory repetition or waiver of required courses in which an F was
+        originally received;
+    • confirmation of completion of work and changes of I grades within the one-year limit;
+    • confirmation that the student was registered for at least one credit in the graduate
+        program in each academic year, including the year of expected graduation;
+     • confirmation that the student reached candidacy and has a valid dissertation committee;
+     • degree requirements completed within prescribed time-to-degree;
+    • satisfactory completion of sufficient graduate credits. In general, doctoral degrees require
+        at least 7 research credits (many programs have higher requirements), within a total of at
+        least 90 graduate credits for students who do not have a prior master’s degree, or require
+        a total of at least 60 credits for students beyond the master’s degree. Please note that
+        individual program credit requirements can vary widely.
+     • completion of all program requirements for the degree;
+     • 3.000 GPA has been earned while matriculated in the graduate program;
+    • if a dissertation is required, upload the electronic dissertation (ETD), following the
+        instructions on the Electronic Thesis and Dissertation Information page, for chair
+        approval by the deadline.
+
+Note: The requirements explained here are university requirements. Students must contact their
+program office for any additional program-level requirements or deadlines that must be
+completed prior to graduation.
+
+
+GRADUATE CERTIFICATE VERIFICATION FOR UC TRANSCRIPT ENDORSEMENT
+In order for students to have their UC transcript endorsed with an earned certificate, students
+must apply for graduation and the program must approve the record through certify online just
+like the master's or doctoral students.
+
+
+DOCTORAL HOODING AND MASTER’S RECOGNITION CEREMONY
+Doctoral and master’s students who are graduating or who have graduated during the academic
+year will receive an invitation from the Dean of the Graduate College to participate in the
+university’s prestigious Doctoral Hooding and Master’s Recognition Ceremony held each
+semester. Please visit the commencement ceremony’s website for up-to-date details or
+42
+the Graduate College’s Graduation webpage. This is a joyous occasion in which students
+celebrate their accomplishment with family and friends as they are recognized by faculty and
+university leadership. Doctoral participants will be adorned with their hoods during the ceremony,
+by either their faculty mentor or the dean of their college.
+
+Graduates must confirm their intent to participate by reserving a seat online for the celebratory
+event and providing current home and email addresses for notification purposes. If you wish to
+be hooded by your faculty mentor, discuss the date with them to make sure they can attend.
+
+
+
+
+43
+INSTITUTIONAL RULES, POLICIES, AND PROCEDURES
+PROGRAM STANDARDS
+This Graduate Handbook clarifies minimum university-level requirements and policies that apply
+to all graduate students throughout the University of Cincinnati. Beyond these, each student is
+also expected to adhere to requirements, policies, and procedures specific to their own degree
+program and college.
+
+All graduate programs must publish in writing in accessible format the minimum academic
+standards for each graduate program offered, including the following:
+     • minimum grade point average, including grades earned in required courses;
+     • acceptable grade distribution, including grades earned in required courses;
+     • nature and number of programmatic examinations, such as preliminary or qualifying, and
+        the consequences of failing all or part of each examination;
+     • specified research requirements;
+      • a time-related definition of normal progress for all full- and part-time students;
+      • standards and procedures for the mandatory annual review of academic performance;
+      • standards and procedures for probation, suspension, and dismissal from the program.
+
+
+
+RECORDS PRIVACY, FERPA, AND THE RIGHT TO REVIEW
+The Family Educational Rights and Privacy Act of 1974 (FERPA), is the federal law that
+governs the release of and access to student education records. FERPA affords students certain
+rights with respect to their education records. For the complete FERPA information, consult the
+FERPA and Records Privacy page of the Registrar’s Office website.
+
+
+NOTICE OF NON-DISCRIMINATION
+The University of Cincinnati does not discriminate on the basis of disability, race, color, religion,
+national origin, ancestry, medical condition, genetic information, marital status, parental status
+(including status as a foster parent), sex, age, sexual orientation, veteran status, military status
+(past, present, or future), or gender identity and expression in its programs and activities.
+
+The university does not tolerate discrimination, harassment, or retaliation on these bases and
+takes steps to ensure that students, employees, and third parties are not subject to a hostile
+environment in university programs or activities.
+
+The university responds promptly and effectively to allegations of discrimination, harassment,
+and retaliation. It promptly conducts investigations and takes appropriate action, including
+disciplinary action, against individuals found to have violated its policies, as well as provides
+appropriate remedies to complainants and the campus community. The university takes
+immediate action to end a hostile environment if one has been created, prevent its recurrence,
+and remedy the effects of any hostile environment on affected members of the campus
+community.
+
+UC is committed to the ideal of universal Web accessibility and strives to provide an accessible
+Web presence that enables all university community members and visitors full access to
+
+
+44
+information provided on its websites. Every effort has been made to make these pages as
+accessible as possible in accordance with the applicable guidelines.
+
+The University of Cincinnati provides free aids and services to people with disabilities to
+communicate effectively with us, such as qualified sign language interpreters and written
+information in other formats (large print, audio, accessible electronic formats, other formats). The
+University of Cincinnati also provides free language services to people whose primary language
+is not English, such as qualified interpreters (call 513-556-5503) and information written in other
+languages. If you need these services, please tell any employee of a University of Cincinnati
+health program or activity.
+
+If you believe that the University of Cincinnati has failed to provide these services or
+discriminated in another way, you can file a grievance with the Office of Equal Opportunity and
+Access and/or Office of Gender Equity & Inclusion. You can file a grievance in person, by mail or
+by email. If you need help filing a grievance, the Office of Equal Opportunity & Access and Office
+of Gender Equity & Inclusion staff are available to help you.
+
+
+ACADEMIC DISHONESTY
+Academic dishonesty in any form is a serious offense that cannot be tolerated in an academic
+community. Dishonesty—including cheating, plagiarism, deception of effort, and/or unauthorized
+assistance—may result in a failing grade in a course and/or suspension or dismissal from the
+university. Allegations of academic dishonesty will be processed pursuant to the university’s
+Student Code of Conduct.
+
+After graduation, alumni remain responsible for the academic integrity of the work they performed
+while a student at the University of Cincinnati. If evidence of academic dishonesty or research
+misconduct is revealed after the graduation of a student, the Office of Research, the Graduate
+College, and the university can examine whether such concerns impact the academic integrity of
+the degree that was conferred on the student, with consequences including but not limited to
+degree revocation.
+
+
+STUDENT CODE OF CONDUCT
+The Student Code of Conduct defines behavior expected of all University of Cincinnati students.
+It is each student’s responsibility to know and comply with the university’s Student Code
+of Conduct, and sanctions or penalties are outlined.
+
+Academic behavior considered to be misconduct is defined in the Student Code of Conduct. The
+code also addresses nonacademic misconduct (such as disturbing the peace, destruction of
+property, and theft). Disciplinary procedures are explained in a step-by-step manner, and the
+procedures for appeal of decisions are stated.
+
+In addition to this code, students must adhere to their college’s professional code of conduct and
+honor codes where applicable. Students should contact the office of the dean for their college to
+inquire about any applicable conduct and honor codes to ensure compliance. Students can be
+suspended or dismissed from the university for unprofessional behavior.
+
+
+
+
+45
+RESPONSIBLE CONDUCT OF RESEARCH
+Furthering of research is a major institutional goal of the University of Cincinnati. Research
+includes not only intellectual activity and exploration designed to expand knowledge and
+understanding, but also activities in the creative and performing arts designed to interpret and
+create. Such activities require responsibilities for the ethical and safe conduct of research.
+Individuals charged with supervision of research, as well as all individuals directly engaged in it,
+and collaborators of investigators outside their own units are responsible for the quality of the
+data generated in their own laboratories as well as the laboratories of their collaborators.
+Everyone shares responsibility for the physical safety and intellectual property of individuals in
+the responsible conduct of creative scholarship and research.
+
+
+RESTRICTED RESEARCH
+The right to open exchange of information and opinion in faculty relations with students carries
+the obligation to avoid comments or violations of confidentiality that would reduce free expression
+or inquiry by students. Student involvement in industrial proprietary projects should be permitted
+only when these projects in no way restrict the student’s ability to fulfill their degree requirements,
+which includes the obligation to publish dissertation results.
+
+Faculty members have the right to publish their research findings and the right to protection
+against retaliation because of displeasure over their conclusions by the public, administration,
+government, or others. They have the concomitant responsibility to refrain from conducting
+secret, non-publishable research as part of their university duties.
+
+
+GRADUATE STUDENT GRIEVANCE PROCEDURES
+The University of Cincinnati provides an opportunity for the resolution of disputes involving
+graduate students in a fair and collegial manner. The Graduate Student Grievance Procedures
+establish a formal academic process for graduate students to request review and redress of
+certain complaints arising out of their academic relationships with their programs, their colleges,
+or the university. The grievance begins with a mediation process and may proceed, if necessary,
+through the more formal review and decision or appeal processes. In general, however, it is
+expected that grievances will be resolved by the parties within their programs. Students are
+encouraged to seek assistance from the university Ombuds Office for possible resolution before
+initiating the formal grievance process. Students, faculty and staff should note that Grievance
+Procedures are not legal protocols. They are, however, effective means by which to resolve
+conflicts. The Graduate College endorses these procedures and expects all programs and
+students involved to follow them according to the established guidelines. No outside parties, such
+as lawyers, ministers, and family members, are allowed to participate in or impose upon the
+procedures. The Graduate Student Grievance Procedures cannot supplant final sanctions
+stemming from the University of Cincinnati Student Code of Conduct process. There is a time
+limit to filing a grievance: it must be filed within 60-90 business days of the alleged improper
+mistreatment.
+
+The procedures are applicable to the following types of grievances:
+        •   grievances alleging improper dismissal or suspension from a graduate program,
+            not as a result of the Student Code of Conduct process;
+        •   grievances alleging the improper withholding or termination of financial support of
+            any kind;
+
+
+46
+         •    grievances alleging any other improper treatment, either substantive or procedural,
+              of a graduate student by a university employee or university affiliate except:
+                 o allegations of improper evaluation of the quality and/or quantity of academic
+                    work, which a student cannot grieve;
+                 o allegations of unfair recommendation for employment or further graduate
+                    study, which a student cannot grieve;
+                 o allegations of discrimination or harassment that are subject to review by the
+                    Office of Equal Opportunity and Access or the Office of Gender, Equity and
+                    Inclusion.
+
+
+
+
+Published November 28, 2023. This version is an update to the 2022-23 AY handbook to reflect changes
+to the Graduate Scholarship structure and terminology. This version supersedes all previous versions.
+
+47
+

@@ -1,0 +1,79 @@
+JUSTICE KAGAN, with whom JUSTICE SOTOMAYOR and
+JUSTICE JACKSON join,* dissenting.
+For 40 years, Chevron U. S. A. Inc. v. Natural Resources
+Defense Council, Inc., 467 U. S. 837 (1984), has served as a
+cornerstone of administrative law, allocating responsibility
+for statutory construction between courts and agencies.
+Under Chevron, a court uses all its normal interpretive
+tools to determine whether Congress has spoken to an issue. If the court finds Congress has done so, that is the end
+of the matter; the agency’s views make no difference. But
+if the court finds, at the end of its interpretive work, that 
+Congress has left an ambiguity or gap, then a choice must
+be made. Who should give content to a statute when Congress’s instructions have run out? Should it be a court? Or
+should it be the agency Congress has charged with administering the statute? The answer Chevron gives is that it
+should usually be the agency, within the bounds of reasonableness. That rule has formed the backdrop against which
+Congress, courts, and agencies—as well as regulated parties and the public—all have operated for decades. It has
+been applied in thousands of judicial decisions. It has become part of the warp and woof of modern government, supporting regulatory efforts of all kinds—to name a few, keeping air and water clean, food and drugs safe, and financial
+markets honest.
+And the rule is right. This Court has long understood
+Chevron deference to reflect what Congress would want,
+and so to be rooted in a presumption of legislative intent.
+Congress knows that it does not—in fact cannot—write perfectly complete regulatory statutes. It knows that those
+statutes will inevitably contain ambiguities that some other
+actor will have to resolve, and gaps that some other actor
+will have to fill. And it would usually prefer that actor to
+be the responsible agency, not a court. Some interpretive
+issues arising in the regulatory context involve scientific or
+technical subject matter. Agencies have expertise in those
+areas; courts do not. Some demand a detailed understanding of complex and interdependent regulatory programs.
+Agencies know those programs inside-out; again, courts do
+not. And some present policy choices, including trade-offs
+between competing goods. Agencies report to a President,
+who in turn answers to the public for his policy calls; courts
+have no such accountability and no proper basis for making
+policy. And of course Congress has conferred on that expert, experienced, and politically accountable agency the
+authority to administer—to make rules about and otherwise implement—the statute giving rise to the ambiguity or 
+Put all that together and deference to the agency is
+the almost obvious choice, based on an implicit congressional delegation of interpretive authority. We defer, the
+Court has explained, “because of a presumption that Congress” would have “desired the agency (rather than the
+courts)” to exercise “whatever degree of discretion” the statute allows. Smiley v. Citibank (South Dakota), N. A., 517
+U. S. 735, 740–741 (1996).
+Today, the Court flips the script: It is now “the courts (rather than the agency)” that will wield power when Congress
+has left an area of interpretive discretion. A rule of judicial
+humility gives way to a rule of judicial hubris. In recent
+years, this Court has too often taken for itself decision-making authority Congress assigned to agencies. The Court has
+substituted its own judgment on workplace health for that
+of the Occupational Safety and Health Administration; its
+own judgment on climate change for that of the Environmental Protection Agency; and its own judgment on student
+loans for that of the Department of Education. See, e.g.,
+National Federation of Independent Business v. OSHA, 595
+U. S. 109 (2022); West Virginia v. EPA, 597 U. S. 697 (2022);
+Biden v. Nebraska, 600 U. S. 477 (2023). But evidently that
+was, for this Court, all too piecemeal. In one fell swoop, the
+majority today gives itself exclusive power over every open
+issue—no matter how expertise-driven or policy-laden—involving the meaning of regulatory law. As if it did not have
+enough on its plate, the majority turns itself into the country’s administrative czar. It defends that move as one (suddenly) required by the (nearly 80-year-old) Administrative
+Procedure Act. But the Act makes no such demand. Today’s decision is not one Congress directed. It is entirely
+the majority’s choice.
+And the majority cannot destroy one doctrine of judicial
+humility without making a laughing-stock of a second. (If
+opinions had titles, a good candidate for today’s would be
+Hubris Squared.) Stare decisis is, among other things, a 
+way to remind judges that wisdom often lies in what prior
+judges have done. It is a brake on the urge to convert “every
+new judge’s opinion” into a new legal rule or regime. Dobbs
+v. Jackson Women’s Health Organization, 597 U. S. 215,
+388 (2022) (joint opinion of Breyer, SOTOMAYOR, and
+KAGAN, JJ., dissenting) (quoting 1 W. Blackstone, Commentaries on the Laws of England 69 (7th ed. 1775)). Chevron is entrenched precedent, entitled to the protection of
+stare decisis, as even the majority acknowledges. In fact,
+Chevron is entitled to the supercharged version of that doctrine because Congress could always overrule the decision,
+and because so many governmental and private actors have
+relied on it for so long. Because that is so, the majority
+needs a “particularly special justification” for its action. Kisor v. Wilkie, 588 U. S. 558, 588 (2019) (opinion of the
+Court). But the majority has nothing that would qualify. It
+barely tries to advance the usual factors this Court invokes
+for overruling precedent. Its justification comes down, in
+the end, to this: Courts must have more say over regulation—over the provision of health care, the protection of the
+environment, the safety of consumer products, the efficacy
+of transportation systems, and so on. A longstanding precedent at the crux of administrative governance thus falls
+victim to a bald assertion of judicial authority. The majority disdains restraint, and grasps for power. 

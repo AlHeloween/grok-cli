@@ -1,0 +1,126 @@
+Case Studies in Ethics: Teaching Caselettes dukeethics.org
+This work is licensed under the Creative Commons Attribution - Noncommercial - No
+Derivative Works 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/3.0/. You may reproduce this work for non-commercial use if you use
+the entire document and attribute the source: The Kenan Institute for Ethics at Duke University.
+The term “Sharing Economy” refers to individuals directly interacting with each
+other online to exchange goods and services, which is also known as collaborative
+consumption. Individuals connect to each other through websites or phone applications, like Airbnb or Uber, which create the market space for peer-to-peer interactions. Through these sites and apps, people rent out their extra rooms on Airbnb,
+or rent the empty backseats of their car for travellers on Uber. However, Uber and
+Airbnb are beginning to face regulation concerns, which introduces the questions
+of what, why and how to regulate these companies. This case study will use the
+ethical frameworks of utilitarianism and Rawlsianism to address the regulatory
+issues of collaborative consumption, specifically the companies Airbnb and Uber.
+This case study was completed under the direction of Dr. Amber Díaz Pearson, The Kenan
+Institute for Ethics.
+THE ETHICS OF REGULATING
+THE SHARING ECONOMY
+Teaching Caselette
+Alexandra Zrenner
+Case Studies in Ethics 2 dukeethics.org
+Background
+Collaborative consumption has many economic benefits: the decline of transaction costs, increased efficiency
+and thus increased profits. The Internet, namely websites and phone applications, minimizes the transaction costs
+– the cost to the producer and consumer to conduct business – by directly connecting suppliers and consumers.
+Collaborative consumption companies also enable individuals to sell the unused potential of an owned good for
+another’s temporary use, which further increases efficiency. Owners profit from the unused potential, and consumers
+save from renting rather than owning. The result of the growing collaborative economy and its efficiency is a peerto-peer rental market worth $26 billion.1
+Airbnb and Uber are two popular examples of collaborative consumption companies. Airbnb is a website on which
+Hosts offer their homes, or rooms in their homes, to Guests for visits. Uber is an application for smartphones that
+connects Riders to pay Drivers for a ride. The companies’ Terms of Service, which users agree to upon using Airbnb
+or Uber, define the companies as the platforms that facilitate the transactions between all users and the company.
+Given these Terms of Service, Airbnb and Uber are not held to full legal responsibility for the actions of the site or
+application users.
+Regulations
+The practices of Airbnb and Uber create regulatory concerns related to market competition, consumer protections,
+and the legality of the companies’ practices. Regulators must balance protecting established industries and assisting
+developing industries; decide to what standards of consumer safety the companies should be held; and determine the
+legality of the new companies’ practices.
+Competition
+The expectation in a capitalist and competitive economy is that innovation encourages competition and vice versa,
+which further increases efficiency. Airbnb and Uber use innovative online technologies to offer consumers new ways
+to find a place to stay or a ride. For example, consumers can choose to pay an Airbnb Host or a range of hotels for
+similar services, so Airbnb and hotels must compete for the consumer. Airbnb can offer lower prices to a consumer
+due to the company’s use of innovative online technology that minimizes production and transaction costs. The hotel
+industry has higher costs that must cover workers’ wages and property maintenance.
+Stephen Dubner, writer of Freakonomics: The Hidden Side of Everything and host of the podcast by the same name,
+discussed how the innovations of Airbnb and Uber might fit the “creative destruction” model in economics.2
+ The
+term “creative destruction” was first presented in 1942 by Austrian economist Joseph Schumpeter to describe how
+new innovations or companies compete with the established technologies or companies, and the success of the new
+means the disappearance of the established.3Within this model, the prediction is that, more consumers would choose
+Airbnb and Uber, increasing Airbnb’s and Uber’s profits. Simultaneously, the profits of the hotel and taxi companies
+would fall until every hotel and taxi company leaves the industry, leading to the disappearance of those industries.
+1 “The Rise of the Sharing Economy.” The Economist. The Economist Newspaper, 09 Mar. 2013. Web. 27 Mar. 2015.
+2 Dubner, Stephen. “Re: Regulate This!” Audio blog comment. Freakonomics: The Hidden Side of Everything. Freakonomics, LLC, 4 Sept.
+2014. Web. 1 Apr. 2015.
+3 W. Michael Cox and Richard Alm, “Creative Destruction.” The Concise Encyclopedia of Economics. 2008. Library of Economics and Liberty.
+27 March 2015. <http://www.econlib.org/library/Enc/CreativeDestruction.html>.
+Case Studies in Ethics 3 dukeethics.org
+Airbnb, Uber, hotels and taxi companies, and regulators are aware of the creative destruction model’s prediction.
+In this model, Airbnb and Uber would be “winners”: the competition between Airbnb and Uber and hotels and taxi
+companies should increase the overall welfare of those within the room- and ride-providing markets.
+On the other hand, local, state and federal policymakers aiming to protect careers in the hotel and taxi industries
+argue that the disappearance of these industries would cause greater harm to society than the improvements that
+would result from the newer companies.
+Consumer Protections
+Many established regulations for the hotel and taxi industry exist for consumer protection: safety standards, antidiscrimination laws, etc. However, Airbnb and Uber are not a hotel or taxi service; they are platforms that are not
+directly legally responsible for the same standards a hotel or taxi may be responsible to. Airbnb and Uber argue
+that they developed methods to be regulated by themselves and their users. Competitive economic theory holds that
+producer- or consumer-based methods of regulation will provide the most efficient outcome, and that government
+regulations are comparatively inefficient. Producer-based regulation is called “delegated regulation”: the local
+government sets standards and allows Airbnb and Uber to determine whether or not they met these standards
+themselves. The consumer-based method of regulation is reviews: users write reviews of Airbnb Hosts and Uber
+Drivers, incentivizing positive Host and Driver behavior, and regulating the quality and standards of the Hosts and
+Drivers.
+Regulators concerned with consumer safety do not consider delegated regulation and consumer reviews adequate
+substitutes for government standards of consumer protection. Consumer reviews may not address fire standards of
+the apartment or emissions standards of a car. In addition, producer-based delegated regulation lacks accountability
+measures to ensure the companies protect the consumers. While the government can set the standards, the companies
+must hold themselves accountable, which worries regulators.
+Consumer-safety regulators and sometimes even Uber customers criticize Uber’s practice of surge pricing as a
+violation of consumer protections. Uber uses an algorithm to surge prices – an increase of prices resulting from an
+increase in demand (as economic theory would predict). The increase in price should signal more drivers to offer
+rides. This in turn should increase consumers’ welfare since they have more access to the service, and the drivers’
+welfare should increase from receiving higher profits.
+Although Uber references this economic theory to explain the use of surge pricing, some critics have questioned the
+wisdom of allowing an algorithm in all situations and scenarios. For example, Uber’s algorithm surged prices during
+the Sydney, Australia shooting and during natural disasters like Northeastern winter storms. Consumers do not know
+the algorithm, and question if Uber is abusing the consumer’s safety during natural disasters or perilous situations.
+Taxes & Legality of Practice
+Airbnb and Uber have been criticized for their Hosts and Drivers not complying with city, state or federal law. In
+cities where Airbnb and Uber operate, the legality of renting out your empty rooms or backseats varies and may be
+ambiguous depending on the location.4
+ New York and California have existing laws on zoning, home rentals, and
+taxi regulations that address the legality of ride-sharing or charging guests for temporary home or room rentals.
+In many cities, temporary home or room rentals or charging individuals for rides require city permission. However,
+4 Streitfeld, David. “Airbnb Listings Mostly Illegal, New York State Contends.” The New York Times. The New York Times, 15 Oct. 2014.
+Web. 27 Mar. 2015.
+Case Studies in Ethics 4 dukeethics.org
+the average Host or Driver does not seek out city operating permits because the Hosts and Drivers don’t know how
+to obtain the permits, or don’t think they would need a permit for their primary residence or car.
+Governments, mainly at the local and state levels, are concerned about the questionable legality of Airbnb and Uber
+transactions, and the lack of taxes collected from these transactions. To address these concerns, Airbnb is reaching
+out to cities and states to help legislators draft or adjust legislation. In addition, on the “Frequently Asked Questions”
+page, Airbnb informs and requires Hosts to be aware of and comply with local laws and their landlord’s rental
+policies, both of which may prohibit short-term rentals. Airbnb has worked with San Francisco, Portland, New York
+and the District of Columbia to address the concerns of the city and to help legislatures draft new laws to ensure that
+Airbnb users do not violate city laws. For example, Airbnb recently started to collect hotel taxes from Washington,
+D.C. Hosts and to send the collected funds directly to the city. 5
+ In doing so, Airbnb protects the information of its
+Hosts so that the city could not punish the Hosts for the ambiguous legality of their actions, and ensures the city
+does not financially suffer from loss of tax revenue. Airbnb’s active efforts to work with governments to address
+regulatory concerns are an example of self-regulation happening within the market. As such, some supporters of
+Airbnb argue that the company does not need any additional outside governmental regulations.
+Uber, in contrast, has not reached out to address legislative or tax concerns, and its main concern is regulatory.
+Uber’s interactions with governments have resulted in government delegating regulatory responsibilities to Uber
+rather than the typical arrangement of the government regulating the company.6
+ Some advocates argue that this
+delegated regulation is efficient, so any further government regulation would be inefficient and unnecessary.
+Nonetheless, regulators may be concerned that these Airbnb and Uber-created regulations are still insufficient to
+meet government standards.
+5 Badger, Emily. “Airbnb Is about to Start Collecting Hotel Taxes in More Major Cities, including Washington.” Washington Post. The Washington Post, 29 Jan. 2015. Web. 27 Mar. 2015.
+6 Uber argues that its methods regulating Drivers with background checks are sufficient if not better than government background checks. Uber
+is pushing and lobbying against regulations that are similar to taxi regulations that may hinder Uber growth. Regulators, however, question Uber’s
+concern of legality and consumer safety.
+Isaac, Mike. “Uber’s System for Screening Drivers Draws Scrutiny.” The New York Times. The New York Times, 09 Dec. 2014. Web. 07 Apr.
+2015. 

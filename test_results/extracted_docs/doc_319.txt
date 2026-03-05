@@ -1,0 +1,104 @@
+Design and Analysis of a 170 GHz Antenna for Millimeter-wave
+ Applications
+ 
+
+ ABSTRACT:
+ Microstrip patch antennas are low-profile and robust when mounted on rigid surfaces of
+ the devices making them suitable for communication and millimeter-wave applications. In
+ this paper, an antenna is designed for the resonant frequency of 170 GHz using microstrip
+ technology concerning its miniaturization and cost-effectiveness. The designed antenna is a
+ part of a stray radiation detection system for ECE diagnostic to be installed on fusion
+ research machine ITER. It offers low-directivity to receive radiation from all directions, high
+ bandwidth, low side-lobe-level and return loss of -50 dB, leading to its remarkable utilization
+ in the detection system being designed to protect millimeter wave components of ITER ECE
+ Diagnostic. Power-handling and power-capturing capability of the designed antenna have
+ also been discussed in the paper. Far-field simulations have been performed using CST
+ Microwave Studio software to study the radiation characteristics of the designed antenna.
+ 
+
+ V. RESULTS
+ Impedance matching always ensures the maximum power transfer between the source and the
+ load. Hence, a noble matching circuit is required for a specific design ensuring its better
+ performance. The corporate feed network can use either a quarter-wave transformer or a stub to
+ match patch element impedance to standard 50-ohm input impedance. The preferences mentioned
+ above for our design are configured in Fig. 3. The important properties of the designed system
+ with both configurations are simulated using CST Microwave Studio software and examined
+ below to check their reliability.
+ 
+
+ A. S-Parameter and VSWR
+ The amount of power reflected from the antenna is parametrized by 𝑆11 parameter and Voltage
+ Standing Wave Ratio (VSWR) related to each other by the following relation
+ 𝑆11 = 𝑅𝑒𝑡𝑢𝑟𝑛 𝐿𝑜𝑠𝑠(𝑑𝐵) = -20 log10 (
+ 𝑉𝑆𝑊𝑅 - 1
+ 𝑉𝑆𝑊𝑅 + 1
+ ) 
+ The antenna bandwidth can also be measured from the VSWR plot over a range of frequencies
+ where its value is ≤ 2. The variation of 𝑆11 over the range of frequencies for quarter-wave
+ transformer and stub configuration is plotted in Fig. 4. At the resonant frequency, i.e., 170 GHz ,
+ the minimum value of 𝑆11 is -50 𝑑𝐵 for quarter-wave and -35 𝑑𝐵 for stub configuration. It
+ articulates the impedance matching along the propagation path of the signal and effective power
+ delivery for quarter-wave transformer configuration.
+ B. Side Lobe Level and Beamwidth
+ The performance of an antenna is usually measured in terms of gain and its relative 3D radiation
+ pattern. The radiation pattern is represented by polar plots as shown in Fig. 5(a) and (b), measured
+ in the far-field antenna range as mentioned earlier. It suggests that the main lobe direction is
+ different for both the quarter-wave transformer and the stub configuration for the resonant
+ frequency 170 GHz, which is 260
+ and 7
+ 0
+ , respectively. However, they possess approximately the
+ same magnitude of gain depicted in Fig. 5(c) and (d). Gain IEEE measured in both configurations
+ does not include the losses associated with the polarization and impedance mismatching. 
+ Far-field characteristics also enable us to investigate two important parameters associated with
+ antenna performance. One is Half-Power beamwidth (also known as angular width), defined as the
+ angular separation of 3dB in the radiation pattern. It deals with the resolution capabilities of the
+ system. And another is the Side-lobe level (SLL), measured by the ratio of the amplitude of the
+ main lobe to that of the side lobe. Low SLL minimizes the false target indication through the side
+ lobes. There is a trade-off between both parameters and one needs to be compromised over the
+ other [21]. We designed a system with a wider reception angle in lieu of high SLL to meet our
+ requirements.
+ The major difference in both the configuration, i.e., stub and quarter-wave transformer, can be
+ noted in Fig. 5. In the case of stub configuration, the value of angular width and SLL parameter are 31.5
+ 0
+ and -3.6𝑑𝐵, respectively. However, for quarter-wave transformer these are 70.5
+ 0
+ and
+ -15.5𝑑𝐵. It is evident from here that the parameters such as bandwidth, gain, S-parameter and
+ side-lobe level attain desirable values for antenna array with quarter-wave transformer as a
+ matching circuit. In other words, the quarter-wave transformer dominates over the stub in terms of
+ better impedance matching, which makes it suitable for our desired application.
+ C. Efficiency
+ The power supplied to the system generally dispenses into surface-wave excitation, radiation
+ emission and conductor and dielectric dissipation. Radiation efficiency is defined as the ratio of
+ power radiated to the power inserted into the antenna system which is plotted in Fig. 6 for the
+ 2 × 2 antenna array. It also encompasses the total efficiency of the system that takes into account
+ all 𝐼
+ 2𝑅 losses and the reflections arise due to mismatching between the antenna and the
+ transmission line. 
+ 
+
+ For better understanding, we summarized the above-discussed properties of the individual
+ patch antenna and the antenna array (with two different matching circuit configurations) in tabular
+ form in Table 2. Here, we conclude the superiority of the 2×2 antenna array with a quarter-wave 
+ 14
+ transformer over other systems in terms of return loss, bandwidth, efficiency, angular width and
+ SLL.
+ 
+
+ VI. CONCLUSION
+ A 2 × 2 microstrip antenna array has been designed and simulated successfully for the resonant
+ frequency of 170 GHz using CST Microwave Studio software. The dominance of the antenna array
+ over the individual patch has been proved while investigating their properties and power handling
+ capabilities. However, continuous increment in the number of patches of an antenna array
+ enhances its directivity further and decreases its angular width. Hence, the 2 × 2 antenna
+ geometry reasonably satisfies our desired requirements. Significant properties of the designed
+ system such as S-parameter, VSWR, gain, beamwidth, side-lobe level, efficiency have been
+ estimated and discussed. A comparative study of the two matching circuits, i.e., stub and quarterwave transformer, have also been performed. The designed system's power-handling capability is
+ also evaluated to check its reliability. At resonant frequency 170 GHz, the return loss is -50 dB,
+ angular width is 70.5
+ 0
+ and the gain is 8.6dBi for the designed antenna. The simulation results show that the designed system fulfills required characteristics and is recommended for high-frequency
+ detector applications.
+ The future work is to design a detector system for application in ECE diagnostic components
+ protection, utilizing this designed antenna.

@@ -1,0 +1,68 @@
+Section 161. Expansion of Family Caregiver Program of the VA
+Eligibility
+This section amends 38 U.S.C. §1720G(a)(2) to expand eligibility for the Comprehensive
+Caregiver Program to pre-9/11 veterans, beginning on the date when the Secretary submits to
+Congress the certification that the VA has fully implemented the IT system (described in Section
+162), herein referred to as the certification date. Beginning on the certification date, the
+Comprehensive Caregiver Program is extended over a two-year period to pre-9/11 veterans who
+have a serious injury incurred or aggravated in the line of duty in the active military, naval, or air
+service on or before May 7, 1975. Two years after the certification date, the Comprehensive Care
+Program is extended to all pre-9/11 veterans, covering veterans of all eras. It requires the
+Secretary, no later than 30 days after the date the Secretary submits to Congress the above
+certification, to publish the certification date in the Federal Register.
+It also amends 38 U.S.C. §1720G(a)(2) to expand the eligibility criteria for the Comprehensive
+Caregiver Program to include those veterans in need of personal care services because of a need
+for regular or extensive instruction or supervision, without which the ability of the veteran to
+function in daily life would be seriously impaired, among other existing criteria.
+Caregiver Assistance
+This section amends 38 U.S.C. §1720G(a)(3) to expand the types of assistance available to family
+caregivers under the Comprehensive Care Program to include financial planning services and
+legal services relating to the needs of injured veterans and their caregivers. It further amends this
+subsection regarding the monthly stipend determination to specify that in determining the amount
+and degree of personal care services provided to an eligible veteran whose need is based on a
+need for supervision or protection, as specified, or regular instruction or supervision, as specified,
+the determination must take into account (1) the assessment by the family caregiver; (2) the
+extent to which the veteran can function safely and independently without supervision, protection,
+or instruction; and (3) the amount of time required for the family caregiver to provide
+supervision, protection, or instruction.
+It also adds new language under 38 U.S.C. §1720G(a)(3) that in providing instruction,
+preparation, and training to each approved family caregiver, the Secretary is required to
+VA MISSION Act of 2018 (P.L.115-182)
+Congressional Research Service R45390 · VERSION 2 · UPDATED 30
+periodically evaluate the needs of the eligible veteran and the skills of the family caregiver to
+determine if additional support is necessary. It amends 38 U.S.C. §1720(a)(5) to require the
+Secretary to evaluate each application submitted jointly by an eligible veteran in collaboration
+with the primary care team for the eligible veteran to the maximum extent practicable.
+It further adds a new paragraph under 38 U.S.C. §1720(a) that in providing assistance to family
+caregivers of eligible veterans, the Secretary may enter into contracts or agreements with
+specified entities to provide family caregivers such assistance. The Secretary is required to
+provide such assistance only if it is reasonably accessible to the family caregiver and is
+substantially equivalent or better in quality to similar services provided by the VA. It authorizes
+the Secretary to provide fair compensation to federal agencies, states, and other entities that
+provide such assistance.
+It amends the definition of personal care services under 38 U.S.C. §1720(d)(4) to include services
+that provide the veteran with (1) supervision or protection based on symptoms or residuals of
+neurological or other impairment or injury, and (2) regular or extensive instruction or supervision
+without which the ability of the veteran to function in daily life would be seriously impaired.
+Section 162. Implementation of Information Technology System of the VA to
+Assess and Improve the Family Caregiver Program
+This section requires the Secretary to implement an IT system, no later than October 1, 2018,
+with certain specified elements that fully supports the Comprehensive Caregiver Program and
+allows for data assessment and program monitoring. No later than 180 days after implementing
+the IT system, the Secretary is required, through the Under Secretary for Health, to conduct an
+assessment of how key aspects of the Comprehensive Caregiver Program are structured and
+carried out using data from the IT system and any other relevant data. The Secretary is required to
+use the IT system to monitor and assess program workload, and to implement certain
+modifications necessary to ensure program functioning and timeliness of services.
+It also requires the Secretary, no later than 90 days after enactment, to submit an initial report to
+the SVAC, HVAC, and GAO on the status of the planning, development, and deployment of the
+IT system. The initial report must include an assessment of the needs of family caregivers of
+veterans eligible for the Comprehensive Program solely due to a serious injury incurred or
+aggravated in the line of duty in the active military, naval, or air service before September 11,
+2001; the resource needs for including such family caregivers; and any changes necessary to
+ensure successful program expansion. The GAO is required to review the initial report and notify
+SVAC and HVAC with respect to the progress of the Secretary in fully implementing the required
+IT system, as well implementation of a process to monitor, assess, and modify the program as
+necessary. No later than October 1, 2019, the Secretary is required to submit a final report to
+SVAC, HVAC, and the GAO on system implementation, including program monitoring,
+assessment, and modification, as specified.

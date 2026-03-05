@@ -1,0 +1,74 @@
+Direct Certification
+Direct certification is a process through which state agencies and school districts automatically
+certify children for free meals based on documentation of the child’s status in a program or
+category without the need for a household application.74 States are required to conduct direct 
+certification with SNAP and have the option of conducting direct certification with the other
+programs and categories that convey categorical eligibility.
+For SNAP and other federal programs, the direct certification process typically involves state
+agencies (e.g., state SNAP and state educational agencies) cross-checking program rolls.75 A list
+of matched children is sent to the school district, which certifies children for free meals without
+the need for a household application.76 For foster, homeless, migrant, and runaway children,
+direct certification typically involves school district communication with a local or state official
+who can provide documentation of the child’s status in one of these categories.77
+The 2004 child nutrition reauthorization act (P.L. 108-265) required states to conduct direct
+certification with SNAP, with nationwide implementation taking effect in school year 2008-2009.
+As of school year 2018-2019 (the most recent data available), USDA reported that 98% of
+children in SNAP households were directly certified for free school meals.78
+The HHFKA made further policy changes to expand direct certification. One of those changes
+was the initiation of a demonstration project to test direct certification with Medicaid (see the text
+box below). The law also funded performance incentive grants for high-performing states and
+authorized corrective action plans for low-performing states in direct certification activities.79
+Direct Certification with Medicaid Demonstration
+The HHFKA initiated a demonstration project to conduct direct certification of children individually participating
+in Medicaid and children in Medicaid households. Unlike the other programs used to directly certify children for
+school meals, Medicaid does not convey categorical eligibility for free school meals, but rather identifies children in
+households that would meet the income eligibility thresholds for either free or reduced-price school meals.80
+Following the demonstration authority in the HHFKA as well as pilot authority in the Richard B. Russell National
+School Lunch Act, some states are currently directly certifying children based on Medicaid data.81 As of school
+year 2023-2024, there were 38 states operating direct certification with Medicaid. Two states used Medicaid to
+directly certify children for free meals only (130% of the poverty level or below).82 Thirty-six states were
+operating under an expanded direct certification demonstration project to test direct certification with Medicaid
+for free and reduced-price meals (up to 185% of the poverty level).83
+Verification of Eligibility
+Each fall, districts are required to verify a sample of approved household applications on file,
+with a focus on applications close to the eligibility threshold (“error-prone” applications).86
+School districts may also conduct verification of questionable applications. Verification is not
+required for children who are directly certified for free or reduced-price meals. (Note that districts
+participating in Provisions 1, 2, and 3 must meet verification requirements for the years in which
+they administer household applications.)
+Many districts employ direct verification (matching data from other low-income programs) to
+conduct their verification activities, but if data cannot be verified in this way, schools must
+contact households to verify the information provided on the application. A child’s eligibility
+status may stay the same or change (e.g., from free meals to reduced-price meals or loss of
+eligibility) as a result of verification of household income, or if the household does not respond to
+verification outreach (in which case eligibility would be lost, though that decision can be
+appealed).
+Reimbursement
+School food authorities must keep track of the daily number of meals they serve in each category
+(free, reduced-price, and paid) that meet federal nutrition requirements. School food authorities
+then submit claims for reimbursement to the state agency, which submits the claims to FNS.
+Approved reimbursements are distributed to school food authorities by the state agency, usually
+on a monthly basis. Per statute, reimbursement rates are adjusted for inflation annually.87 Table 4
+shows NSLP and SBP reimbursement rates for school year 2023-2024. (Note that school food
+authorities also receive a per-lunch commodity reimbursement, discussed previously under
+“Commodity Assistance”.)
+The law provides a higher reimbursement rate for meals meeting certain criteria. For example,
+school food authorities that are compliant with the updated federal nutrition standards for school
+meals receive an additional 8 cents per lunch.
+88 School food authorities also receive an additional
+2 cents per lunch if they serve 60% or more of their lunches at a free or reduced price. For
+breakfasts, school food authorities receive higher reimbursements if they serve 40% or more
+lunches at a free or reduced price (referred to as severe need schools).
+Once school food authorities receive the cash reimbursements, they can use the funds to support
+almost any aspect of the school food service operation. However, federal cash reimbursements
+must go into a nonprofit school food service account that is subject to federal regulations.89
+Payments for non-program foods (e.g., vending machine sales) must also accrue to the nonprofit
+school food service account.90
+FNS periodically studies the costs of producing a reimbursable meal. In April 2019, FNS released
+a School Nutrition and Meal Cost Study, which found that the average reported cost of producing
+a reimbursable lunch was $3.81 in school year 2014-2015 (reported costs were defined as those
+charged to the school food service account).91 This exceeded the average federal cash
+reimbursement ($3.32) for lunches in school year 2014-2015. When unreported costs were
+included (costs outside of the food service account; for example, labor costs associated with
+processing applications), the cost of producing the average reimbursable lunch was $6.02. As
+noted previously, children’s payments and state and local funds may also cover meal costs.

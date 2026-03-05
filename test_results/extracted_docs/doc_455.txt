@@ -1,0 +1,58 @@
+The intersection of these three literatures leaves the total effect of broadband internet on 
+mental health and wellbeing ambiguous. There is some evidence that broadband internet may 
+have deleterious effects on mental health (e.g., Donati et al., 2022). However, the evidence that 
+broadband internet has positive economic effects combined with the evidence that positive 
+economic effects lead to fewer deaths by suicide could mean that broadband internet might have 
+positive effects on mental health. The total effect depends on which force predominates. 
+Using all-cause mortality data from the National Center for Health Statistics, we find that the 
+introduction of broadband internet during the initial roll out of broadband from 2000 to 2008 is 
+associated with a reduction in the number of deaths by suicide in a county. We find that a ten 
+percent increase in the proportion of county residents with access to broadband internet in a year 
+leads to 0.11 fewer deaths by suicide in a county, which is a 1.02% reduction in suicides overall. 
+As expected, the effect of access to broadband internet on suicides fades after 2008, when rapid 
+proliferation began to slow. Nevertheless, when estimating the effect of the rollout of broadband 
+internet between 2000 to 2018, we find an overall reduction in deaths by suicide of about 1.6% 
+for a 10% increase in access to broadband. In addition, using data from the Center for Disease 
+Control’s Behavioral Risk Factor Surveillance System (BRFSS), we some evidence that
+increased access to broadband internet leads to improved measures of mental and physical health 
+and less binge drinking, suggesting that improvements in mood is an important mechanism. 
+We further find that this reduction in suicide deaths is likely due to economic improvements 
+in counties that have access to broadband internet. Counties with increased access to broadband 
+internet see reductions in poverty rate and unemployment rate. In addition, zip codes that gain 
+access to broadband internet see increases in the numbers of employees and establishments in 
+those zip codes. In addition, heterogeneity analysis indicates that the positive effects are 
+concentrated in the working age population, those between 25 and 64 years old. This pattern is 
+precisely what is predicted by the literature linking economic conditions to suicide risk.
+These results provide important support for existing policies that seek to expand broadband 
+access across the country. While some measures of broadband proliferation appear to be nearly 
+complete as early as 2008, there remains a large digital divide between populations with access 
+to broadband internet and those without (Rachfal, 2021). According to FCC data in 2019, 98.8% 
+of Americans living in urban areas had access to fixed broadband internet, but only 82.8% of 
+Americans living in rural areas had access to fixed broadband internet.3 In some states, the 
+percentage of the rural population with access to fixed broadband internet was as low as 63.3%. 
+Our results indicate that closing the digital divide can have tangible mental health benefits. 
+II. Background 
+Broadband Internet, Economic Growth, and Mental Health 
+A robust literature connects access to broadband internet and improved local economic 
+conditions. These improvements occur along two axes: first, broadband internet affects the labor 
+market outcomes of individual workers, and second, broadband internet impacts the behavior of 
+firms. These papers then link to another arm of economic research that explores the ways in 
+which economic conditions impact mental health. 
+Several papers indicate that the internet generally, and broadband specifically, is a useful tool 
+for job seekers. Kunn and Mansour (2014) find that internet job searches are effective at 
+reducing the length of unemployment periods. This is a contradiction of an earlier study finding 
+internet job search to be ineffective, which the authors attribute to the changing nature of internet 
+job search between their two study periods. More recently, Zuo (2021) uses Comcast’s Internet 
+Essentials program to study the effect of broadband internet access. Zuo finds that the program, 
+which was designed to increase broadband access for low-income families, is associated with 
+increased employment, increased labor force participation, decreased unemployment, and 
+increased income. Similarly, Gurtzgen and colleagues (2021) find that broadband access is 
+associated with improved rates of reemployment after the first month of unemployment. These
+recent studies are consistent with prior papers as well (Atasoy, 2013; Dettling, 2015; Hjort & 
+Poulsen, 2019). Bhuller, Kostol, and Vigtel (2020) suggest that these improved outcomes may be 
+a function of improved job searches. Their examination of the roll out of broadband internet in 
+Norway leads them to draw three conclusions. First, broadband leads to improved recruitment 
+processes. Second, that improved match quality is a benefit to job seekers. Finally, broadband 
+internet facilitates better information flow. At the individual level, it seems, access to the 
+additional informational and communications resources of broadband internet is beneficial for 
+employment outcomes. 

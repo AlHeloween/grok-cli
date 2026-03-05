@@ -1,0 +1,99 @@
+The main challenges are, if such divergence simply reflects differences in financial market structures
+and regulatory/supervisory tools and instruments as well as with a principles-based approach, or a
+IPOL | Policy Department for Economic, Scientific and Quality of Life Policies
+PE 740.067 46
+more fundamental shift towards a less regulated financial system that focuses on growth and
+‘competitiveness’ of the sector and less on its stability. It is important to stress, however, that not all
+observers, and none of our interviewees, see necessarily a contradiction between
+growth/competitiveness and stability, even though economic research has shown that rapid growth
+of the financial sector can result in financial fragility and crisis.
+3.2.1. Low, medium and high divergence
+Low divergence: Under this scenario, there will be adjustments to regulations such as Solvency II as
+well as other initiatives in line with increasing the ‘competitiveness’ of the UK as financial centre.
+However, there will not be major divergence, especially in areas with international standards, such as
+bank capital regulation. There might be informal consultations between UK and EU regulatory and
+possibly legislative authorities to converge on rules in new areas such as crypto and the decentralised
+financial system more generally. Even under the politically most positive developments (as described
+below in 3.2.2), however, there will be divergence between the UK and EU, also as EU Law is significantly
+amended with the UK not following it (in other words, passive divergence).
+Regulatory cooperation, however, will allow for such divergence not to turn into beggar-thy-neighbour
+policies. Apart from resolving the political conflict around the Northern Ireland Protocol (NIP), a
+reconfirmation of the stability focus of the prudential policies and regulation in the UK is necessary in
+our opinion. In terms of specific segments of the financial system, we would expect least divergence in
+areas where international standards play an important role, such as capital and liquidity regulation of
+banks. Interestingly, it seems that the EU is diverging more from the initial global standards than the
+UK (see discussion above in 3.1). Similarly, given the early initiative that EU authorities have taken with
+the green taxonomy and the joint participation in many global fora and other cooperation initiatives,
+we would also expect the UK to follow the lead in this area, as already discussed above, even though
+there might be a certain degree of divergence. It is important to stress that many of the legislative
+initiatives in sustainable finance in the UK are still in the early stages and one has to look beyond
+political headlines to details once they are spelled out.
+Medium divergence: Under this scenario, there will be more significant divergence and fewer
+attempts to converge on new rules such as in the area of green finance or crypto asset developments.
+Divergence will be more likely and more prominent in areas where international standards are less
+important and where the UK has not inherited any EU regulations such as in the two areas already
+mentioned, green finance and crypto. While supervisory cooperation between EU and UK authorities
+might continue (and will be necessary in areas of regulatory equivalence), regulatory cooperation even
+if formalised will be less strong and there will not necessarily be any voluntary attempt by UK
+authorities to follow adjustments and changes in EU regulation and supervision. On the other hand,
+both the UK and the EU are members of global regulatory bodies across different segments of the
+financial system (FSB, Basel Committee) and this will effectively be a constraint on too much positive
+or negative divergence.
+High divergence: Under this final scenario, there would be a rather aggressive legislative and
+regulatory drive in the UK to diverge from EU rules. This would involve both replacing existing EU rules
+with new regulation and adopting divergent rules where such rules were not inherited, such as in green
+finance and crypto/digital finance more broadly. It can also include not following changes in EU
+legislation to thus mark differences between the two regulatory jurisdictions. We would expect such
+aggressive divergence especially in areas where UK authorities see growth opportunities and they feel
+less constrained by international fora and cooperation initiatives. Crypto is certainly an area where one
+could envision such aggressive divergence. Such high divergence, however, seems more likely under
+Recent trends in UK financial sector regulation and possible implications for the EU
+47 PE 740.067
+an institutional architecture in the UK where the independence of regulatory authorities has been
+significantly weakened (though not necessarily in a formal, i.e., legislative manner) and
+growth/competitiveness objectives are clearly prioritised over stability concerns.
+As we will discuss in section 3.2.2, which of the three scenarios will develop depends very much on how
+the overall political relationship between the EU and the UK will develop over the next years, with the
+Northern Ireland Protocol being the major hurdle in this relationship.
+3.2.2. Disentangling the Northern Ireland Protocol situation to unblock/reactivate UKEU regulatory cooperation
+Resolving the dispute between the UK and the EU on the implementation of the Northern Ireland
+Protocol (NIP) seems key to rebuild trust and unblock UK-EU regulatory cooperation across a number
+of policy areas including the financial sector. Resolving this dispute requires political leadership from
+the UK Prime Minister taking office in October 2022, Rishi Sunak, and bringing on board both the
+European Research Group (ERG) of hardcore Brexiters in the British Parliament and Northern Ireland’s
+Unionists, not an easy feat. While immediate conflicts can be avoided by delaying the legislative
+process of the NIP Bill (which would override and breach the NIP and the Withdrawal Agreement),
+cooperation between UK and EU authorities on trade data provision from the UK to the EU, and not
+taking unilateral steps, the resolution of the ‘stand-off’ cannot be delayed forever. Namely, the
+Northern Ireland Executive has not been established since the 2022 May elections and new elections
+to the Legislative Assembly will have to be called in spring 2023, which raise the political temperature
+in the region. The upcoming 25th anniversary of the Good Friday Agreement in 2023 increases both
+internal and external (especially from the US) pressures. Finally, in case of increasing divergence in
+goods standards between the UK and the EU, there will be increasing pressure from the EU on properly
+monitoring trade between Great Britain and Northern Ireland.
+In case the conflict around the Northern Ireland Protocol can be resolved to the satisfaction of both
+sides, there should be few if any barriers for future cooperation between UK and EU authorities on
+financial sector issues. Addressing the stand-off around the NIP is thus a necessary though not sufficient
+condition. At the end of November 2022, the Council Presidency and the European Parliament actually
+reached a provisional agreement on a Regulation on ‘autonomous measures’ potentially taken as a
+retaliation and that would allow the EU to ensure ‘timely and effective exercise of its rights in enforcing
+and implementing’ the Withdrawal Agreement and the TCA162. At the same time, not long after, the
+European Commission Vice President Maroš Šefčovič stressed the ‘window of opportunity for a positive
+outcome’163 in the context of the extension of practical arrangements for veterinary medicines until
+December 2025. This positive ‘mood music’ has been echoed by Leo Varadkar, the Taoiseach in Ireland,
+who stressed the increased trust and flexibility between the UK and the EU – notwithstanding
+remaining differences164. There will certainly be competing interests (similar to what we could observe
+during the UK’s EU membership) and no expectations of complete convergence, but an institutional
+framework for regulatory dialogue could be put in place.
+
+162 Council of the EU, ‘EU-UK Relations: Council Presidency and European Parliament Reach Provisional Agreement on a Regulation on
+Autonomous Measures’ (30 November 2022) https://www.consilium.europa.eu/en/press/press-releases/2022/11/30/eu-uk-relationscouncil-presidency-and-european-parliament-reach-provisional-agreement-on-a-regulation-on-autonomous-measures/, accessed 5
+January 2023.
+163 ‘Statement by Vice-President Maroš Šefčovič’ (European Commission, 19 December 2022)
+https://ec.europa.eu/commission/presscorner/detail/en/statement_22_7831, accessed 5 January 2023.
+164 “Much Better Mood Music” in EU-UK Relations than at Any Period since Brexit Referendum - Taoiseach’ (n 22).
+IPOL | Policy Department for Economic, Scientific and Quality of Life Policies
+PE 740.067 48
+Before the resolution of this conflict, it is difficult to see any progress happening in terms of regulatory
+cooperation. Similar, if the conflict around the NIP escalates again, it is hard to envision any progress
+towards trade partnership of the UK with third countries such as the US.

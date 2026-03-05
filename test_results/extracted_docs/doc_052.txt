@@ -1,0 +1,55 @@
+A 2021 report from the Medicare Payment Advisory Commission (MedPAC) found that private equity
+investments in health care substantially expanded in the preceding 20 years, particularly with respect to
+acquisitions of health care providers, including hospitals, physician groups, and nursing homes. While the
+overall significance of these investments to the health care sector is disputed, they have attracted
+regulatory, legislative, and academic interest, particularly in the midst of ongoing conversations about
+health care quality and costs.
+Scrutiny often focuses on the structure and incentives of private equity investment in health care. Private
+equity funds typically aim to acquire portfolio companies, increase their value, and exit from these
+investments, generally in a defined time frame. The structure of private equity can involve an array of
+corporate entities, which may generally shield fund managers and investors from liability. Regulators
+have expressed concern that these institutional features may give private equity firms an “undue focus on
+short-term profits and aggressive cost-cutting” that creates unique risks relative to other market
+participants, with impacts on patient care and competition. For example, MedPAC’s report details
+ongoing debates regarding the effects of private equity efforts to increase profitability in health care
+investments by increasing revenue while reducing costs. On the other hand, private equity representatives
+and other stakeholders argue that such efforts can improve both efficiency and patient care, and that
+private equity has been scapegoated for broader issues in the health care system.
+In December 2023, the Biden Administration announced that federal agencies, including the Department
+of Justice (DOJ), the Department of Health and Human Services (HHS), and the Federal Trade
+Commission (FTC), would take increased actions to lower health care costs, increase quality, and protect
+consumers. As part of this effort, the agencies released a Request for Information (RFI) soliciting public
+comments on the effects of private equity investments on patients and health care workers. The agencies
+argued that “[a]cademic research and agency experience in enforcement actions” have demonstrated that
+“patients, health care workers, and others may suffer negative consequences” as a result of these
+investments in the health care sector.
+Although there is limited federal law that directly addresses private equity ownership in health care,
+private equity firms and funds have recently faced claims alongside their portfolio companies in the
+health care sector under federal laws concerning both fraudulent and anticompetitive behavior. Legal
+commentators have noted the increased legal risk such trends create for private equity investors, whose
+involvement in managing portfolio businesses may support alleged knowledge of wrongdoing. This Legal
+Sidebar explores recent regulatory and enforcement activities involving private equity investments in
+health care under federal antitrust law and the False Claims Act, including efforts to hold private equity
+firms and funds directly liable alongside portfolio companies.
+The term private equity is often used to refer to a variety of investments that typically pool private funds
+from specific, qualified investors for a set period of time and use them to purchase controlling interests in
+operating businesses, known as portfolio companies. Private equity funds are generally structured as
+limited partnerships; the general partners manage the fund’s investments, and limited partners are those
+that invest in the fund but are not directly involved in its operation. A private equity firm may serve as the
+general partner for multiple funds, each with their own limited partners and portfolio companies. The
+qualified investors who invest as limited partners include pension plans, other private funds, foreign
+institutional investors, insurance companies, and high-net-worth individuals. Investments in portfolio
+companies could take the form of leveraged buyouts. For more information on the private equity industry
+generally, including its structure, size, and common terminology, see CRS Report R47053, Private Equity
+and Capital Markets Policy, by Eva Su.
+The typical structure of a private equity fund will thus involve several separate entities, all of which are
+distinct from the portfolio companies controlled by the fund. Portfolio companies may themselves consist
+of a collection of separate legal entities, including corporations and limited liability companies (LLCs).
+Under general principles of corporate law, the shareholders of a corporation and the members of an LLC
+are ordinarily not liable for the entity’s obligations. Instead, they risk only the amount they have invested
+in the business.
+These principles do not always shield owners from liability. In some rare circumstances, the corporate
+entity may be disregarded and liability imposed upon the company’s owners for corporate conduct, a
+process called piercing the corporate veil. Owners of a company may also be held directly liable for their
+own conduct, separate from the company’s conduct or liability.
+

@@ -1,0 +1,46 @@
+Five trends shaping the consumer health and wellness space in 2024
+ 
+
+ Fifty-eight percent of US respondents to our survey said they are prioritizing wellness more now than they did a year ago. The following five trends encompass their newly emerging priorities, as well as those that are consistent with our earlier research.
+ 
+
+ Trend one: Health at home
+ The COVID-19 pandemic made at-home testing kits a household item. As the pandemic has moved into its endemic phase, consumers are expressing greater interest in other kinds of at-home kits: 26 percent of US consumers are interested in testing for vitamin and mineral deficiencies at home, 24 percent for cold and flu symptoms, and 23 percent for cholesterol levels.
+ 
+
+ At-home diagnostic tests are appealing to consumers because they offer greater convenience than going to a doctor’s office, quick results, and the ability to test frequently. In China, 35 percent of consumers reported that they had even replaced some in-person healthcare appointments with at-home diagnostic tests—a higher share than in the United States or the United Kingdom.
+ 
+
+ Although there is growing interest in the space, some consumers express hesitancy. In the United States and the United Kingdom, top barriers to adoption include the preference to see a doctor in person, a perceived lack of need, and price; in China, test accuracy is a concern for approximately 30 percent of consumers.
+ 
+
+ Implications for companies: Companies can address three critical considerations to help ensure success in this category. First, companies will want to determine the right price value equation for at-home diagnostic kits since cost still presents a major barrier for many consumers today. Second, companies should consider creating consumer feedback loops, encouraging users to take action based on their test results and then test again to assess the impact of those interventions. Third, companies that help consumers understand their test results—either through the use of generative AI to help analyze and deliver personalized results, or through integration with telehealth services—could develop a competitive advantage.
+ 
+
+ Trend two: A new era for biomonitoring and wearables
+ Roughly half of all consumers we surveyed have purchased a fitness wearable at some point in time. While wearable devices such as watches have been popular for years, new modalities powered by breakthrough technologies have ushered in a new era for biomonitoring and wearable devices.
+ 
+
+ Wearable biometric rings, for example, are now equipped with sensors that provide consumers with insights about their sleep quality through paired mobile apps. Continuous glucose monitors, which can be applied to the back of the user’s arm, provide insights about the user’s blood sugar levels, which may then be interpreted by a nutritionist who can offer personalized health guidance.
+ 
+
+ Roughly one-third of surveyed wearable users said they use their devices more often than they did last year, and more than 75 percent of all surveyed consumers indicated an openness to using a wearable in the future. We expect the use of wearable devices to continue to grow, particularly as companies track a wider range of health indicators.
+ 
+
+ Implications for companies: While there is a range of effective wearable solutions on the market today for fitness and sleep, there are fewer for nutrition, weight management, and mindfulness, presenting an opportunity for companies to fill these gaps.
+ 
+
+ Wearables makers and health product and services providers in areas such as nutrition, fitness, and sleep can explore partnerships that try to make the data collected through wearable devices actionable, which could drive greater behavioral change among consumers. One example: a consumer interested in managing stress levels might wear a device that tracks spikes in cortisol. Companies could then use this data to make personalized recommendations for products related to wellness, fitness, and mindfulness exercises.
+ 
+
+ Businesses must keep data privacy and clarity of insights top of mind. Roughly 30 percent of China, UK, and US consumers are open to using a wearable device only if the data is shared exclusively with them. Additionally, requiring too much manual data input or sharing overly complicated insights could diminish the user experience. Ensuring that data collection is transparent and that insights are simple to understand and targeted to consumers’ specific health goals or risk factors will be crucial to attracting potential consumers.
+ 
+
+ Trend three: Personalization’s gen AI boost
+ Nearly one in five US consumers and one in three US millennials prefer personalized products and services. While the preference for personalized wellness products was lower than in years prior, we believe this is likely due to consumers becoming more selective about which personalized products and services they use.
+ 
+
+ Technological advancements and the rise of first-party data are giving personalization a new edge. Approximately 20 percent of consumers in the United Kingdom and the United States and 30 percent in China look for personalized products and services that use biometric data to provide recommendations. There is an opportunity to pair these tools with gen AI to unlock greater precision and customization. In fact, gen AI has already made its way to the wearables and app space: some wearables use gen AI to design customized workouts for users based on their fitness data.
+ 
+
+ Implications for companies: Companies that offer software-based health and wellness services to consumers are uniquely positioned to incorporate gen AI into their personalization offerings. Other businesses could explore partnerships with companies that use gen AI to create personalized wellness recommendations.

@@ -1,0 +1,93 @@
+In general, for works created on or after January 1, 1978, the term of copyright is the life of the 
+author plus seventy years after the author’s death. If the work is a joint work with multiple authors, 
+the term lasts for seventy years after the last surviving author’s death. For works made for hire and 
+anonymous or pseudonymous works, the duration of copyright is 95 years from publication or 120 
+years from creation, whichever is shorter.
+For works created before January 1, 1978, that were not published or registered as of that date, 
+the term of copyright is generally the same as for works created on or after January 1, 1978. The law, 
+however, provides that in no case would the term have expired before December 31, 2002, and if the 
+work was published on or before that date, the term will not expire before December 31, 2047.
+For works created before January 1, 1978, that were published or registered before that date, the 
+initial term of copyright was twenty-eight years from the date of publication with notice or from the 
+date of registration. At the end of the initial term, the copyright could be renewed for another sixtyseven years for a total term of protection of up to ninety-five years. To extend copyright into the 
+renewal term, two registrations had to be made before the original term expired: one for the original 
+term and the other for the renewal term. This requirement was eliminated on June 26, 1992, and 
+renewal term registration is now optional.
+For more information on the term of copyright protection, see Duration of Copyright (Circular 15A) 
+and Renewal of Copyright (Circular 6A).
+How Can I Protect My Work?
+Copyright exists automatically in an original work of authorship once it is fixed in a tangible 
+medium, but a copyright owner can take steps to enhance the protections of copyright, the most 
+important of which is registering the work. Although registering a work is not mandatory, for 
+U.S. works, registration (or refusal) is necessary to enforce the exclusive rights of copyright through 
+litigation.
+Applying a copyright notice to a work has not been required since March 1, 1989, but may still 
+provide practical and legal benefits. Notice typically consists of the copyright symbol or the word 
+“Copyright,” the name of the copyright owner, and the year of first publication. Placing a copyright 
+notice on a work is not a substitute for registration.
+Copyright Basics 5
+Benefits of Registration
+Registration establishes a claim to copyright with the Copyright Office. An application for copyright 
+registration can be filed by the author or owner of an exclusive right in a work, the owner of all 
+exclusive rights, or an agent on behalf of an author or owner. An application contains three essential 
+elements: a completed application form, a nonrefundable filing fee, and a nonreturnable deposit—
+that is, a copy or copies of the work being registered and “deposited” with the Copyright Office. 
+A certificate of registration creates a public record of key facts relating to the authorship and ownership of the claimed work, including the title of the work, the author of the work, the name and 
+address of the claimant or copyright owner, the year of creation, and information about whether 
+the work is published, has been previously registered, or includes preexisting material. 
+You can submit an application online through www.copyright.gov or on a paper application. 
+For more information on registering a work with the Copyright Office, see Copyright Registration 
+(Circular 2).
+In addition to establishing a public record of a copyright claim, registration offers several other 
+statutory advantages:
+• Before an infringement suit may be filed in court, registration (or refusal) is necessary for 
+U.S. works.2
+• Registration establishes prima facie evidence of the validity of the copyright and facts stated in 
+the certificate when registration is made before or within five years of publication.
+• When registration is made prior to infringement or within three months after publication of a 
+work, a copyright owner is eligible for statutory damages, attorneys’ fees, and costs.
+• Registration permits a copyright owner to establish a record with the U.S. Customs and Border 
+Protection (CBP)4
+ for protection against the importation of infringing copies.
+Registration can be made at any time within the life of the copyright. If you register before publication, you do not have to re-register when the work is published, although you can register the 
+published edition, if desired.
+Effective Date of Registration
+When the Copyright Office registers a work it assigns an effective date of registration to the certificate of registration. The effective date of registration is the day that the Office receives in proper 
+form all required elements—an acceptable application, an acceptable deposit, and a nonrefundable 
+filing fee. The date is not set until all the required elements are in the Office’s possession. If the 
+Office receives incomplete materials, an unacceptable deposit, or an insufficient fee, the effective 
+date of registration will be set on the date that the Office receives all the required materials in 
+acceptable form. The date is not based on how long it takes the Office to examine the materials or 
+mail the certificate of registration.
+You do not have to receive your certificate of registration before you publish or produce your 
+work. Nor do you need permission from the Copyright Office to place a copyright notice on your 
+work. But the Copyright Office must approve or refuse your application before you can file a lawsuit 
+for copyright infringement, except in cases involving a non-U.S. work.5
+ You may seek statutory damages and attorneys’ fees in an infringement action provided that the infringement began after the 
+effective date of registration. The law, however, provides a grace period of three months after publication during which full remedies can be recovered for any infringement begun during the three 
+months after publication if registration is made before this period ends.
+Copyright Basics 6
+Copyright Notice
+A copyright notice is a statement placed on copies or phonorecords of a work to inform the public that 
+a copyright owner is claiming ownership of the work. A copyright notice consists of three elements:
+• The copyright symbol © or (p) for phonorecords, the word “Copyright,” or the abbreviation 
+“Copr.”;
+• The year of first publication of the work (or of creation if the work is unpublished); and
+• The name of the copyright owner, an abbreviation by which the name can be recognized, or a 
+generally known alternative designation.
+A notice should be affixed to copies or phonorecords of a work in a way that gives reasonable 
+notice of the claim of copyright.
+Using a copyright notice is optional for unpublished works, non-U.S. works, and works published 
+on or after March 1, 1989. However, notice conveys the following benefits:
+• It puts potential users on notice that copyright is claimed in the work.
+• For published works, notice may prevent a defendant from attempting to limit liability for 
+damages or injunctive relief based on an “innocent infringement” defense.
+• It identifies the copyright owner at the time of first publication for parties seeking permission 
+to use the work.
+• It identifies the year of first publication, which can be used to determine the term of copyright 
+for anonymous or pseudonymous works or works made for hire.
+• It may prevent the work from becoming an “orphan” by identifying the copyright owner or 
+specifying the term of copyright. Orphan works are original works of authorship for which 
+prospective users cannot identify or locate copyright owners to request permission.
+Notice was required for works published in the United States before March 1, 1989. Works published without notice before that date may have entered the public domain in this country. 
+For more information, see Copyright Notice (Circular 3

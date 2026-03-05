@@ -1,0 +1,57 @@
+Asthma is a prevalent chronic inflammatory respiratory condition affecting millions of people worldwide and presents substantial challenges in both diagnosis and management. This respiratory condition is characterized by inflammation of the airways, causing intermittent airflow obstruction and bronchial hyperresponsiveness. The hallmark asthma symptoms include coughing, wheezing, and shortness of breath, which can be frequently exacerbated by triggers ranging from allergens to viral infections. Despite treatment advancements, disparities persist in asthma care, with variations in access to diagnosis, treatment, and patient education across different demographics. Severity varies from intermittent symptoms to life-threatening airway closure. Healthcare professionals establish a definitive diagnosis through patient history, physical examination, pulmonary function testing, and appropriate laboratory testing. Spirometry with a post-bronchodilator response (BDR) is the primary diagnostic test. Treatment focuses on providing continued education, routine symptom assessment, access to fast-acting bronchodilators, and appropriate controller medications tailored to disease severity.
+ 
+
+ Childhood
+ 
+
+ Wheezing caused by viral infections, particularly respiratory syncytial virus and human rhinovirus, may predispose infants and young children to develop asthma later in life. In addition, early-life exposure to air pollution, including combustion by-products from gas-fired appliances and indoor fires, obesity, and early puberty, also increases the risk of asthma. 
+ 
+
+ Adulthood
+ 
+
+ The most significant risk factors for adult-onset asthma include tobacco smoke, occupational exposure, and adults with rhinitis or atopy. Studies also suggest a modest increase in asthma incidence among postmenopausal women taking hormone replacement therapy. 
+ 
+
+ Furthermore, the following factors can contribute to asthma and airway hyperreactivity:
+ 
+
+ Exposure to environmental allergens such as house dust mites, animal allergens (especially from cats and dogs), cockroach allergens, and fungi
+ Physical activity or exercise
+ Conditions such as hyperventilation, gastroesophageal reflux disease, and chronic sinusitis
+ Hypersensitivity to aspirin or nonsteroidal anti-inflammatory drugs (NSAIDs), as well as sulfite sensitivity
+ Use of β-adrenergic receptor blockers, including ophthalmic preparations
+ Exposure to irritants such as household sprays and paint fumes
+ Contact with various high- and low-molecular-weight compounds found in insects, plants, latex, gums, diisocyanates, anhydrides, wood dust, and solder fluxes, which are associated with occupational asthma
+ Emotional factors or stress
+ 
+
+ Aspirin-Exacerbated Respiratory Disease
+ 
+
+ Aspirin-exacerbated respiratory disease (AERD) is a condition characterized by a combination of asthma, chronic rhinosinusitis with nasal polyposis, and NSAID intolerance. Patients with AERD present with upper and lower respiratory tract symptoms after ingesting aspirin or NSAIDs that inhibit cyclooxygenase-1 (COX-1). This condition arises from dysregulated arachidonic acid metabolism and the overproduction of leukotrienes involving the 5-lipoxygenase and cyclooxygenase pathways. AERD affects approximately 7% of adults with asthma.
+ 
+
+ Occupational-Induced Asthma
+ 
+
+ Two types of occupational asthma exist based on their appearance after a latency period: 
+ 
+
+ Occupational asthma triggered by workplace sensitizers results from an allergic or immunological process associated with a latency period induced by both low- and high-molecular-weight agents. High-molecular-weight substances, such as flour, contain proteins and polysaccharides of plant or animal origin. Low-molecular-weight substances, like formaldehyde, form a sensitizing neoantigen when combined with a human protein.
+ Occupational asthma caused by irritants involves a nonallergic or nonimmunological process induced by gases, fumes, smoke, and aerosols.
+ 
+
+ Asthma prevalence in the United States differs among demographic groups, including age, gender, race, and socioeconomic status. The United States Centers for Disease Control and Prevention (CDC) estimates that around 25 million Americans are currently affected by asthma. Among individuals younger than 18, boys exhibit a higher prevalence compared to girls, while among adults, women are more commonly affected than men. Additionally, asthma prevalence is notably higher among Black individuals, with a prevalence of 10.1%, compared to White individuals at 8.1%. Hispanic Americans generally have a lower prevalence of 6.4%, except for those from Puerto Rico, where the prevalence rises to 12.8%. Moreover, underrepresented minorities and individuals living below the poverty line experience the highest incidence of asthma, along with heightened rates of asthma-related morbidity and mortality. 
+ 
+
+ Similar to worldwide data, the mortality rate of asthma in the United States has also undergone a consistent decline. The current mortality rate is 9.86 per million compared to 15.09 per million in 2001. However, mortality rates remain consistently higher for Black patients compared to their White counterparts. According to the CDC, from 1999 to 2016, asthma death rates among adults aged 55 to 64 were 16.32 per 1 million persons, 9.95 per 1 million for females, 9.39 per 1 million for individuals who were not Hispanic or Latino, and notably higher at 25.60 per 1 million for Black patients.
+ 
+
+ Physical Examination
+ 
+
+ During physical examination, widespread, high-pitched wheezes are a characteristic finding associated with asthma. However, wheezing is not specific to asthma and is typically absent between acute exacerbations. Findings suggestive of a severe asthma exacerbation include tachypnea, tachycardia, a prolonged expiratory phase, reduced air movement, difficulty speaking in complete sentences or phrases, discomfort when lying supine due to breathlessness, and adopting a "tripod position."[27] The use of the accessory muscles of breathing during inspiration and pulsus paradoxus are additional indicators of a severe asthma attack.
+ 
+
+ Healthcare professionals may identify extrapulmonary findings that support the diagnosis of asthma, such as pale, boggy nasal mucous membranes, posterior pharyngeal cobblestoning, nasal polyps, and atopic dermatitis. Nasal polyps should prompt further inquiry about anosmia, chronic sinusitis, and aspirin sensitivity to evaluate for AERD. Although AERD is uncommon in children or adolescents, the presence of nasal polyps in a child with lower respiratory disease should prompt an evaluation for cystic fibrosis. Clubbing, characterized by bulbous fusiform enlargement of the distal portion of a digit, is not associated with asthma and should prompt evaluation for alternative diagnoses. Please see StatPearls' companion resource, "Nail Clubbing," for further information.

@@ -1,0 +1,88 @@
+Using the provided section of text below, please summarize the reasons for concurring and dissenting opinions.
+
+Concurring and Dissenting Opinions
+A majority of the Court—six Justices in total—wrote separately to concur or dissent, offering
+their individual views on how the Second Amendment and the Bruen standard should be properly
+interpreted both in this case and in future cases.
+Justice Sotomayor’s concurring opinion, joined by Justice Kagan, expressed her continued view
+that Bruen was wrongly decided and that a different legal standard should apply to Second
+Amendment cases.73 She wrote separately to emphasize that when applying the Bruen historical
+tradition standard, however, the majority’s methodology was the “right one.”74 In Justice
+Sotomayor’s view, this is an “easy case,” as § 922(g)(8) is “wholly consistent” with historical
+firearms regulations.75 By contrast, she criticized the dissenting view as too “rigid,”
+characterizing it as “insist[ing] that the means of addressing that problem cannot be ‘materially
+different’ from the means that existed in the eighteenth century,” which would unduly hamstring
+modern policy efforts.76
+In his concurring opinion, Justice Gorsuch underscored the difficulty in maintaining a facial
+challenge to a law, which requires a showing that the law has no constitutional applications.77 He
+also defended the Bruen historical tradition standard, arguing that the original meaning of the
+Constitution, while “an imperfect guide,” provides proper constraints on judicial decisionmaking
+and is better than unbounded alternatives such as an interest-balancing inquiry.78 Justice Gorsuch
+also cautioned that the Court decided a narrow question—whether § 922(g)(3) “has any lawful
+scope”—and that future defendants could argue that § 922(g)(3) was unconstitutional under
+particular facts.79
+69 Id. at 1901.
+70 Id. at 1902.
+71 Id.
+72 Id. at 1903.
+73 Id. at 1904 (Sotomayor, J., concurring).
+74 Id.
+75 Id.
+76 Id. at 1905.
+77 Id. at 1907 (Gorsuch, J., concurring).
+78 Id. at 1909.
+79 Id. at 1910.
+Supreme Court Term October 2023: A Review of Selected Major Rulings
+Congressional Research Service 8
+Justice Kavanaugh concurred to expound his view on the roles of text, history, and precedent in
+constitutional interpretation. He explained that unambiguous text controls and that history, rather
+than policy, is a more neutral and principled guide for constitutional decisionmaking when the
+text is unclear.80 Using historical examples, Justice Kavanaugh illustrated his view on how preand post-ratification history may inform the meaning of vague constitutional text.81 Next, he
+argued that balancing tests in constitutional cases are a relatively recent development, generally
+depart from tests centered on text and history, are inherently subjective, and should not be
+extended to the Second Amendment arena.82 Finally, he opined that the majority’s opinion was
+faithful to his perception of the appropriate roles of text, history, and precedent in constitutional
+adjudication in this particular case.83
+Justice Barrett wrote a concurring opinion to explain her understanding of the relationship
+between Bruen’s historical tradition test and originalism as a method of constitutional
+interpretation. In her view, historical tradition is a means to understand original meaning, and,
+accordingly, historical practice around the time of ratification should be the focus of the legal
+inquiry.84 In her view, history demonstrates that, “[s]ince the founding, our Nation’s firearm laws
+have included provisions preventing individuals who threaten physical harm to others from
+misusing firearms.” Justice Barrett agreed with the majority that § 922(g)(8) “fits well within that
+principle.”85
+Justice Jackson also wrote a concurring opinion, agreeing that the majority fairly applied Bruen
+as precedent.86 She wrote separately to highlight what she perceived as problems with applying
+the history-and-tradition standard in a workable manner.87 She argued that Rahimi illustrates the
+“pitfalls of Bruen’s approach” by demonstrating the difficulty of sifting through the historical
+record and determining whether historical evidence establishes a tradition of sufficiently
+analogous regulation.88 The numerous unanswered questions that remain even after Rahimi, in her
+view, result in “the Rule of Law suffer[ing].”89 Stating that legal standards should “foster stability,
+facilitate consistency, and promote predictability,” Justice Jackson concluded by arguing that
+“Bruen’s history-focused test ticks none of those boxes.”90
+Justice Thomas was the sole dissenter. In his view, the historical examples cited by the majority
+were not sufficient to establish a tradition of firearm regulation that justified § 922(g)(8).91
+According to Justice Thomas, courts should look to two metrics to evaluate whether historical
+examples of regulation are analogous to modern enactments: “how and why the regulations
+burden a law-abiding citizen’s right to armed self-defense.”92 In his view, the two categories of
+evidence proffered by the government—historical laws disarming “dangerous” individuals and
+historical characterization of the right to bear arms as belonging only to “peaceable” citizens—
+80 Id. at 1912 (Kavanaugh, J., concurring).
+81 Id. at 1913–19.
+82 Id. at 1921.
+83 Id. at 1923.
+84 Id. at 1924 (Barrett, J., concurring).
+85 Id. at 1926 (quoting Rahimi, 144 S. Ct. at 1896 (majority opinion)).
+86 Id. (Jackson, J., concurring).
+87 Id. at 1928.
+88 Id.
+89 Id. at 1929.
+90 Id.
+91 Id. at 1930 (Thomas, J., dissenting).
+92 Id. at 1931–32.
+Supreme Court Term October 2023: A Review of Selected Major Rulings
+Congressional Research Service 9
+did not impose comparable burdens as § 922(g)(8).93 Justice Thomas argued that § 922(g)(8) was
+enacted in response to “interpersonal violence,” whereas the historical English laws were
+concerned with insurrection and rebellion.94 Ultimately, Rahimi could have been disarmed, in
+Justice Thomas’s view, through criminal conviction but not through a restraining order.95

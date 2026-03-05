@@ -1,0 +1,502 @@
+Low Interest Rates: Causes and Consequences∗
+
+                             Robert E. Hall
+            Hoover Institution and Department of Economics,
+                           Stanford University
+                National Bureau of Economic Research
+
+          World interest rates have been declining for several decades.
+      In a general equilibrium setting, the interest rate is determined
+      by the interaction of a number of types of behavior: the policy
+      of the central bank, investment in productive assets, the choice
+      between current and future consumption, and the responses of
+      wealth holders to risk. Central banks devote consider eﬀort
+      to determining equilibrium real rates, around which they set
+      their policy rates, though measuring the equilibrium rate is
+      challenging. The real interest rate is also connected to the
+      marginal product of capital, though the connection is loose.
+      Similarly, the real interest rate is connected to consumption
+      growth through a Euler equation, but again many other inﬂu-
+      ences enter the relationship between the two variables. Finally,
+      the idea of the “global saving glut” suggests that the rise of
+      income in countries with high propensities to save may be a
+      factor in the decline in real rates. That idea receives support in
+      a simple model of global ﬁnancial equilibrium between coun-
+      tries with risk tolerance (the United States) and ones with high
+      risk aversion (China).
+      JEL Codes: E21, E22, E43, E52.
+
+
+
+    Low world interest rates have stimulated new interest in the
+determination of the safe real rate. As a threshold matter, Rachel
+and Smith’s ﬁgure 1 (this issue) and Juselius et al.’s ﬁgure 1 (this
+issue) document the pronounced downward trend of world real inter-
+est rates since the 1980s. For the purposes of this commentary, I take
+
+   ∗
+     This research was supported by the Hoover Institution. Complete backup
+for all of the calculations is available from my website, http://www.stanford.
+edu/∼rehall. Author contact: rehall@stanford.edu; stanford.edu/∼rehall.
+
+
+
+                                     103
+104        International Journal of Central Banking   September 2017
+
+
+the real rate to be the yield net of inﬂation of safe government debt
+of maturity around one to two years. Thus I abstract from liquidity
+eﬀects at the short end of the yield curve and from issues related to
+the slope of the yield curve.
+    Structural relations governing the real interest rate include its
+relation to
+
+      • the central bank’s payment on reserves and the extent of sat-
+        uration of the ﬁnancial system in reserves
+      • the marginal product of capital
+      • the rate of consumption growth (through the Euler equation)
+      • the terms of trade between risk-tolerant and risk-averse
+        investors
+
+    In a complete macro model one or more equations would describe
+each of these structural relations. It would not be possible to divide
+up responsibility among them for the overall decline in the real rate.
+One can fashion a set of highly simpliﬁed models, each containing
+only one or two of the structural relations. For example, Krugman
+(1998) considers an economy with no capital and no uncertainty to
+focus on monetary policy and consumption growth and illuminate
+issues of the zero lower bound. But a set of models along those lines
+would not result in an additive breakdown of the sources of the
+decline in the real interest rate.
+
+
+1.    Monetary Policy and the Real Interest Rate
+
+Traditional monetary policy kept the interest paid on reserves at zero
+nominal and manipulated the quantity of reserves. Explaining how
+the central bank inﬂuenced interest rates involved consideration of
+the liquidity value of scarce reserves. Today, all major central banks
+have saturated their ﬁnancial systems with reserves, so the liquid-
+ity value is zero, and the central banks execute monetary policy
+exclusively by manipulation of the payment made to reserve hold-
+ers (in the United States, a new kind of reserves, reverse repurchase
+agreements, play this role).
+    Powerful forces of arbitrage link the central bank’s policy rate
+paid on reserves to similar short-term government obligations. The
+Vol. 13 No. 3     Low Interest Rates: Causes and Consequences       105
+
+
+central bank thus controls short rates directly. But the fact of central
+bank control does not mean that we need look no further to under-
+stand the movements of short rates. For one thing, it is the behavior
+of real rates that matters and all central banks set nominal rates,
+though there would be no obstacle to direct setting of real rates. Hall
+and Reis (2016) discusses these topics in detail. Thus the behavior
+of inﬂation needs to be brought into the picture. More important,
+however, is that changing the policy rate has eﬀects on output and
+employment relatively quickly and on inﬂation, with a longer lag,
+according to most views.
+    As a result of the inﬂuence of the central bank’s policy rate on
+the other key macro variables, the other structural relations listed
+above come into play in the central bank’s choice of the policy rate.
+Only the most naive observer thinks that the central bank can pick
+its policy rate by unilateral whim. Friedman (1968), following Wick-
+sell, set forth a framework that remains inﬂuential ﬁfty years later:
+There is a level of the real interest rate, r∗ , the natural rate, with
+the property that it is infeasible for the central bank to run a mon-
+etary policy that results in a real rate permanently above or below
+the natural rate. Thus many discussions of the behavior of the real
+rate focus on quantifying r∗ , generally as a quantity that varies over
+time. Since 1980, it has had a downward trend.
+    The foundations of the hypothesis that rt∗ is a cognizable fea-
+ture of the economy are weak, in my opinion—see Hall (2005).
+It takes an economic or statistical model to extract rt∗ from data
+on rt and other variables. The results are model speciﬁc. Laubach
+and Williams (2003) is the canon of this literature. Notwithstand-
+ing my doubts about the foundations, these authors’ results seem
+completely reasonable. Juselius et al. (this issue) reﬁne the canon.
+The middle of their ﬁgure 6 shows the real rate, which is volatile and
+cyclical. The Laubach-Williams natural rate is a plausibly smoothed
+version of the actual real rate. As Friedman’s analysis predicted, the
+actual real rate exceeds its natural level in booms and falls below in
+busts. The natural rate of Juselius et al. has higher volatility and,
+surprisingly, a higher level. Friedman’s analysis suggested fairly per-
+suasively that the real rate should deviate above about as much as
+below the natural rate, but the new construction has almost all of
+the deviations below.
+106      International Journal of Central Banking     September 2017
+
+
+      Figure 1. Spread between the Return to Capital
+              and the Safe Real Interest Rate
+
+
+
+
+2.    The Marginal Product of Capital and
+      the Return to Capital
+
+In an economy without uncertainty, the return to capital is linked
+to the marginal product by the rental price of capital. Provided
+the rental price includes the ﬂuctuations in Tobin’s q—the ratio
+of the value of installed capital to the acquisition price of capital—
+arbitrage should equate the marginal product of capital to the rental
+price. To put it diﬀerently, if the rate of return is calculated from
+data that accounts for q, the rate of return will track the inter-
+est rate (measured over the same interval) period by period. With
+uncertainty, the rate of return will include a risk premium, which
+may vary over time. The recent macro literature has studied ﬁnan-
+cial frictions that interpose between wealth holders and businesses
+seeking to attract wealth to form business capital.
+    Figure 1 shows the spread between the calculated return to cap-
+ital and the one-year safe real interest rate, from Hall (2015). Note
+that the spread is remarkably volatile, upward trending, and high
+except in recessions. Gomme, Ravikumar, and Rupert (2015) have
+made similar calculations. The notion that there is a tight connec-
+tion between the safe interest rate and the return to capital receives
+Vol. 13 No. 3    Low Interest Rates: Causes and Consequences      107
+
+
+     Figure 2. U.S. Real Rate and Consumption Growth
+
+
+
+
+little support from this evidence. Rather, there is apparently large
+scope for variations over time in risk premiums, ﬁnancial frictions,
+and other sources of the wedge between the earnings of capital and
+the risk-free cost of borrowing. These variations are almost certainly
+endogenous.
+
+3.   Consumption Growth and the Interest Rate
+
+Many macro models, including the New Keynesian models that have
+proliferated at central banks, contain an upward-sloping structural
+relation between expected consumption growth and the real interest
+rate—Rachel and Smith’s equation (1) describes the Euler equation
+reﬂecting this relation. The logic is that a higher real interest rate
+makes future consumption cheaper than current consumption, so
+households consume less currently and more in the future. To put it
+another way, higher growth rates should have correspondingly higher
+real interest rates. Figure 2 shows that this proposition is somewhat
+true in U.S. data averaged over decades.
+    The proposition encounters some serious obstacles. First, Carroll
+and Summers (1991) observed that across countries that can trade
+goods and ﬁnancial claims, all countries should have the same rate
+of growth of consumption, in accord with the worldwide real interest
+108       International Journal of Central Banking       September 2017
+
+
+rate, irrespective of their rates of growth of income. Countries with
+high expected income growth should borrow from slower-growing
+countries and gradually pay the debt oﬀ as growth occurs. In fact,
+the evidence shows that consumption growth is tightly linked to
+income growth across countries. And growth rates diﬀer markedly
+across countries, with the highest growth in recent decades in east
+and south Asia.
+    Second, a household does not have a single Euler equation, but
+rather a diﬀerent one for each asset. Hansen and Singleton (1983) is
+the classic citation on this point. There is nothing special about the
+safe real interest rate. Their paper showed that the data rejected the
+hypothesis that households satisﬁed all of the Euler equations.
+    Third, data on household ﬁnancial holdings make it clear that
+households with collectively an important fraction of total income
+face binding constraints on borrowing. They would like to obey the
+Euler-equation model but cannot commit to repaying the debt that
+they would incur if they did. They obey a related model where a
+shadow borrowing rate, higher than the measured one, tracks con-
+sumption growth.
+    I conclude that research on consumption choices has a far richer
+view than the one expressed in the simple interest-only Euler
+equation.
+
+4.    The Role of the Interest Rate in an Economy where
+      Risk-Tolerant Investors Insure Risk-Averse Ones by
+      Borrowing from Them
+
+Hall (2016) demonstrates the theoretical and practical importance
+of trade among heterogeneous investors. In eﬀect, the risk-tolerant
+investors insure the risk-averse ones. Debt has a key role in this risk-
+motivated trade. By borrowing from the risk averse, the risk-tolerant
+investors provide the risk averse with protection against future ran-
+dom shocks, because the payoﬀ of the debt is unaﬀected by the
+shocks (provided no default occurs). The interest rate on the debt
+describes the terms of the risk trade. If the risk tolerant have high
+resources relative to the risk averse, collectively, the risk averse com-
+mand a good deal—they receive a high rate of interest on the funds
+they loan to the risk tolerant. But if there is an upward trend in the
+resources of the risk averse, the deal shifts disadvantageously away
+Vol. 13 No. 3     Low Interest Rates: Causes and Consequences        109
+
+
+from the risk averse—they earn less and less interest on the funds
+they lend. The paper shows that China behaves risk aversely, lending
+large volumes of funds to western Europe and the United States. But
+the Chinese resource base—measured by GDP—is growing faster
+than the resource base of the risk-tolerant borrowers. Hence the
+world real interest rate is declining on account of the diﬀerential
+growth.
+    The model backing up this analysis is rigged to avoid the other
+issues discussed earlier in this commentary. There is no central bank
+intervening in the world ﬁnancial market. There is no capital, so
+no issue of the relation of the marginal product of capital to the
+interest rate. Resources are growing at the rate of zero among the
+risk averse and the risk tolerant, so there are no issues of growth
+aﬀecting the interest rate. The model embodies standard ideas from
+ﬁnancial markets, including the hypothesis that investors attribute
+a small but positive probability that a truly bad event will occur
+and the hypothesis that the risk-averse investors place a somewhat
+higher probability on that event.
+    My paper pursues the ideas in Bernanke et al. (2011) that there is
+a “global savings glut” and in Gourinchas, Rey, and Govillot (2010)
+and Caballero and Farhi (2016) that low real interest rates are the
+result of a “shortage” of safe assets. The paper derives results along
+those lines from the equilibrium of an Arrow-Debreu economy with
+complete capital markets. In place of gluts and shortages, the model
+hypothesizes changes over time in the resources held by the risk
+tolerant in relation to those held by the risk averse.
+    Figure 3 shows how the safe real interest rate in the model
+declines as the fraction of resources held by the risk tolerant declines.
+The decline is similar to the decline that actually occurred from 1990
+to the present, with real rates at or below zero. The risk-tolerant
+investors in the model have modestly lower coeﬃcients of relative
+risk aversion and believe that the probability of bad conditions is
+modestly lower, compared with the risk-averse investors.
+    The conclusion of the model is that heterogeneity coupled with a
+shift in relative resources toward the risk-averse investors can explain
+observed changes in the real interest rate without bringing in the
+declining growth rate or rising ﬁnancial frictions. The paper makes
+no claim that the other forces are not actually inﬂuential, however.
+Fundamental to the success of the model is its hypothesis that both
+110      International Journal of Central Banking      September 2017
+
+
+   Figure 3. As the Fraction of Resources in the Hands
+   of the Risk Tolerant Declines, the Interest Rate Falls
+
+
+
+
+types of investors behave as if they assigned small but important
+probabilities to a substantial negative shock, worse than has actu-
+ally occurred since the Great Depression. In this respect, the model
+follows the trend in recent ﬁnancial economics, which ﬁnds, for exam-
+ple, that such beliefs about rare disasters are the most plausible way
+to explain the equity premium.
+    One of the manifestations of heterogeneity in investors’ risk aver-
+sion is across countries. Investors in some countries, notably the
+United States, collectively take on risk from other parts of the world
+by maintaining positive net positions in foreign equity and negative
+net positions in debt—in eﬀect, these countries borrow from the risk-
+averse countries and use the proceeds to buy foreign equity. Thus
+the United States is like a leveraged hedge fund. Countries can be
+divided into three groups: (i) those that absorb risk by borrowing in
+the global debt market and buying foreign equity, (ii) those that shed
+risk by lending to the risk absorbers and letting those countries take
+on the risk of their own equity, and (iii) those whose risk preferences
+are in the middle and choose not to absorb or shed risk and those
+whose ﬁnancial markets are undeveloped and do not participate in
+global ﬁnancial markets.
+Vol. 13 No. 3    Low Interest Rates: Causes and Consequences      111
+
+
+     Figure 4. Countries that Absorb Risk by Holding
+         Positive Amounts of Net Foreign Equity
+          or by Borrowing from Foreign Lenders
+
+
+
+
+Note: Risk-absorbing countries are shown by dark shading. Created with
+mapchart.net.
+
+
+    Figure 4 shows the countries that absorb risk. They are the
+advanced countries of western Europe and the countries scattered
+around the globe that fell under the inﬂuence of those countries and
+became advanced themselves. There appears to be a negative cor-
+relation between risk aversion and income per person, as the risk
+absorbers are all high-income countries. By far the largest absorber
+of risk is the United States.
+    Figure 5 shows the countries that shed risk. Most are lower
+income. China is by far the largest of the shedders. China holds
+large amounts of dollar debt claims on the United States, with recent
+growth in its euro debt claims on western Europe. One high-income
+country, Japan, is a major risk shedder. The United States and other
+risk absorbers hold positive net amounts of foreign equity.
+    Figure 6 shows the growth of risk absorption by the United
+States. The upper line shows U.S. net borrowing in the debt market
+and the lower line net U.S. holdings of foreign equity. The upward
+path in debt began in the mid-1980s and the upward path of equity
+in the 1990s. Debt continued to rise through 2011 (the last year for
+which I have data) while equity fell slightly after the 2008 ﬁnancial
+112      International Journal of Central Banking     September 2017
+
+
+Figure 5. Countries that Shed Risk by Holding Negative
+ Amounts of Net Foreign Equity or by Lending Positive
+            Amounts to Foreign Borrowers
+
+
+
+
+Note: Risk-shedding countries are shown by dark shading. Created with
+mapchart.net.
+
+
+
+
+      Figure 6. Risk Absorption by the United States,
+                        1970–2011
+Vol. 13 No. 3    Low Interest Rates: Causes and Consequences      113
+
+
+       Figure 7. Risk Shedding by China, 1981–2011
+
+
+
+
+crisis. The average of the two measures—taken as an overall measure
+of risk absorption—rose from the 1980s and reached a plateau of 0.3
+years of GDP.
+    Figure 7 shows similar data for China starting in 1981—in ear-
+lier years, China was eﬀectively walled oﬀ from the global economy.
+Starting in the early 1990s, China shed risk aggressively, reaching
+the point just before the crisis of the average of foreign debt owned
+and net foreign holdings of Chinese equity claims equal to 0.4 years
+of GDP. Following the crisis, Chinese risk shedding has remained at
+that level but has not grown.
+    Risk splitting occurs within the United States in large volumes
+as well. Table 1 shows decade averages of a variety of ﬁnancial
+institutions that hold risky ﬁnancial positions funded in part by
+debt—held by risk-averse investors such as pension funds—and by
+correspondingly riskier equity held by risk-tolerant investors such as
+high-wealth households. Government debt is a prominent part of the
+risk splitting. In the case of government, the taxpayers make up the
+risk-tolerant side—the marginal taxpayer with substantially higher
+than average wealth takes on magniﬁed risk by insuring the holders
+of government debt. On the private side, numerous types of ﬁnancial
+institutions and securities have the eﬀect of splitting risk between
+a tranche of low-risk debt and high-risk residual equity claims.
+                                                                                     114
+
+
+
+
+             Table 1. Examples of the Scale of Risk-Splitting Institutions
+
+                  Government                               Private
+       Consolidated      GSE     Private                            Non-mortgage
+       Government GSE Guaranteed Equity Securiti- Non-ﬁnancial       Household
+Decade    Debt      Debt Debt    Funds zations Corporate Debt Repos     Debt
+1980s     0.469      0.061     0.091    —      0.012      0.163      0.103   0.186
+1990s     0.611      0.101     0.204    —      0.086      0.211      0.166   0.204
+2000s     0.574      0.203     0.293   0.058   0.233      0.238      0.237   0.239
+2010s     0.936      0.126     0.347   0.140   0.109      0.275      0.221   0.251
+                                                                                     International Journal of Central Banking
+                                                                                     September 2017
+Vol. 13 No. 3     Low Interest Rates: Causes and Consequences        115
+
+
+        Figure 8. Scale of Risk-Splitting Institutions
+                      Relative to GDP
+
+
+
+
+Private equity is a rapidly growing example of this type of ﬁnancial
+arrangement. Securitizations with overcollateralized debtlike securi-
+ties held by or on behalf of risk-averse investors and residual equity
+claims held by risk-tolerant investors grew rapidly until the crisis
+but have shrunk since then. Repurchase agreements split risk by
+overcollateralization to the extent of the repo haircut. These too
+have shrunk relative to GDP since the crisis.
+    Figure 8 shows the generally upward trend of the volume of risk
+splitting in the United States, stated relative to GDP. Both gov-
+ernment and non-government contributions have risen, with some
+moderation after the crisis.
+
+5.   Concluding Remarks
+
+Prior to the ﬁnancial crisis in 2008, risk splitting grew steadily, as
+revealed in data on both international and domestic ﬁnancial posi-
+tions. Safe real interest rates declined in parallel. The crisis resulted
+in a downward jump in real rates corresponding to the fall in nom-
+inal short rates to essentially zero soon after the crisis struck. The
+corresponding real rate was between –1 percent and –2 percent. Real
+rates have risen in the United States recently, as nominal rates have
+116      International Journal of Central Banking       September 2017
+
+
+become positive and inﬂation has risen close to the Federal Reserve’s
+target of 2 percent, but real rates in other markets remain as nega-
+tive as ever in the eight years since the crisis. Because the crisis hit
+GDP and asset value harder in advanced countries than in others,
+especially China, the inﬂuence studied in my analysis may explain
+some part of the drop in the global safe real short rate. In addition,
+the crisis may have raised investors’ beliefs about the probability
+of adverse events in the future, as in Kozlowski, Veldkamp, and
+Venkateswaran (2015). According to the principles considered here,
+the safe real rate would fall if the disaster probability rose more for
+the risk-averse investors than for the risk tolerant.
+    I emphasize again that heterogeneity in risk aversion is only one
+of the factors entering a full explanation of the behavior of real rates
+over recent decades. Expansionary monetary policy, rising ﬁnancial
+frictions, and slowing consumption growth need to be brought into
+a full analysis.
+
+
+
+References
+
+Bernanke, B. S., C. Bertaut, L. Pounder DeMarco, and S. Kamin.
+    2011. “International Capital Flows and the Returns to Safe
+    Assets in the United States, 2003–2007.” International Finance
+    Discussion Paper No. 1014, Board of Governors of the Federal
+    Reserve System (February).
+Caballero, R. J., and E. Farhi. 2016. “The Safety Trap.” March.
+    Harvard University, Department of Economics.
+Carroll, C. D., and L. H. Summers. 1991. “Consumption Growth
+    Parallels Income Growth: Some New Evidence.” In National Sav-
+    ing and Economic Performance, ed. B. D. Bernheim and J. B.
+    Shovin, 305–48 (chapter 10). University of Chicago Press.
+Friedman, M. 1968. “The Role of Monetary Policy.” Presidential
+    address delivered at the 80th Annual Meeting of the American
+    Economics Association, Washington, DC, December 29, 1967.
+    American Economic Review 58 (1): 1–15.
+Gomme, P., B. Ravikumar, and P. Rupert. 2015. “Secular Stagnation
+    and Returns on Capital.” Economic Synopses (Federal Reserve
+    Bank of St. Louis) (19): 1–3.
+Vol. 13 No. 3    Low Interest Rates: Causes and Consequences     117
+
+
+Gourinchas, P.-O., H. Rey, and N. Govillot. 2010. “Exorbitant Priv-
+   ilege and Exorbitant Duty.” Discussion Paper No. 10-E-20, Insti-
+   tute for Monetary and Economic Studies, Bank of Japan.
+Hall, R. E. 2005. “Separating the Business Cycle from Other Eco-
+   nomic Fluctuations.” In The Greenspan Era: Lessons for the
+   Future, 133–79. Proceedings of a symposium sponsored by the
+   Federal Reserve Bank of Kansas City, August 25–27.
+———. 2015. “Quantifying the Lasting Harm to the U.S. Economy
+   from the Financial Crisis.” NBER Macroeconomics Annual 2014,
+   Vol. 29, ed. J. A. Parker and M. Woodford, 71–128. University
+   of Chicago Press.
+———. 2016. “The Role of the Growth of Risk-Averse Wealth in
+   the Decline of the Safe Real Interest Rate.” Hoover Institution
+   (November).
+Hall, R. E., and R. Reis. 2016. “Achieving Price Stability by Manipu-
+   lating the Central Bank’s Payment on Reserves.” NBER Working
+   Paper No. 22761 (October).
+Hansen, L. P., and K. J. Singleton. 1983. “Stochastic Consumption,
+   Risk Aversion, and the Temporal Behavior of Asset Returns.”
+   Journal of Political Economy 91 (2): 249–65.
+Kozlowski, J., L. Veldkamp, and V. Venkateswaran. 2015. “The
+   Tail that Wags the Economy: Beliefs and Persistent Stagnation.”
+   NBER Working Paper No. 21719 (November).
+Krugman, P. R. 1998. “It’s Baaack: Japan’s Slump and the Return
+   of the Liquidity Trap.” Brookings Papers on Economic Activity
+   (2): 137–205.
+Laubach, T., and J. C Williams. 2003. “Measuring the Natural Rate
+   of Interest.” Review of Economics and Statistics 85 (4): 1063–70.
+

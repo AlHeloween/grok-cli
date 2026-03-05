@@ -1,0 +1,117 @@
+[
+  {
+    "questionId": "doc_655",
+    "question": "What are the core differences between fundamental analysis and technical analysis, in what they measure and how they are used? Include criticisms or downsides of each analysis to explain the differences in practice.",
+    "systemInstruction": "[question]\n [user request]\n \n\n =====================\n \n\n [text]\n [context document]\n \n\n =====================\n \n\n [instruction]\n Answer the question using only the information provided in the context. Do not rely on external knowledge or sources.",
+    "retrievedChunksCount": 6,
+    "topChunks": [
+      {
+        "path": "doc_784.txt",
+        "text": "Therefore, two necessary features of a scientific hypothesis are the potentials to falsify \nand replicate it. And both of these requirements are dependent on objectively measurable \nevidence. This is ...",
+        "distance": 0.027252376079559326
+      },
+      {
+        "path": "doc_606.txt",
+        "text": "Osborn, 2008). IPA was selected to build a deeper understanding\nof how patients who endorsed and identified with dissociative\nidentity disorder made sense of the diagnosis and what\nit meant for them t...",
+        "distance": 0.029227495193481445
+      },
+      {
+        "path": "doc_784.txt",
+        "text": "view, then, mental states correlate with physical states of the organism, and by \ninvestigating those physical states scientists can understand the nature of those mental \nPage 6 of 35\nstates. So whil...",
+        "distance": 0.030726492404937744
+      }
+    ]
+  },
+  {
+    "questionId": "doc_115",
+    "question": "Give me a bullet point list of all the categories of personal information that can be legally collected in the state of California. Then, in 200 words or less, explain why this information is taken and why it is sometimes sold.",
+    "systemInstruction": "[question]\n [user request]\n \n\n =====================\n \n\n [text]\n [context document]\n \n\n =====================\n \n\n [instruction]\n Answer the question using only the information provided in the context. Do not rely on external knowledge or sources.",
+    "retrievedChunksCount": 6,
+    "topChunks": [
+      {
+        "path": "doc_613.txt",
+        "text": "Verified Purchase\nThere was no indication of the colors and resistance levels and it is very hard to feel the difference!\nOk for the money paid!\nOne person found this helpful\nFrom the United States\nWe...",
+        "distance": 0.016233861446380615
+      },
+      {
+        "path": "doc_613.txt",
+        "text": "4 people found this helpful\nHelpful\nReport\nRichard B.\n3.0 out of 5 stars\nMisleading Ad\nReviewed in the United States on February 22, 2022\nVerified Purchase\nMisleading, certainly shows what looks like ...",
+        "distance": 0.01636219024658203
+      },
+      {
+        "path": "doc_694.txt",
+        "text": "**Texas last will and testament requirements**\nHere are the requirements for a valid will in Texas:\nYour will must be “in writing,” meaning it exists in a physical form. For example, a will “in writin...",
+        "distance": 0.017032980918884277
+      }
+    ]
+  },
+  {
+    "questionId": "doc_026",
+    "question": "What is optimal foraging theory when compared to automotive theft?",
+    "systemInstruction": "Present your answer without any extraneous information.",
+    "retrievedChunksCount": 6,
+    "topChunks": [
+      {
+        "path": "doc_026.txt",
+        "text": "R E S EAR CH Open Access\nPrey selection among Los Angeles car thieves\nP Jeffrey Brantingham\nAbstract\nMore than 63,000 cars were reported stolen in Los Angeles in 2003–04. However, the distribution of ...",
+        "distance": 0.038218796253204346
+      },
+      {
+        "path": "doc_026.txt",
+        "text": "costs and/or local abundance and offenders are attentive\nto these differences. As discussed in the Methods section, the available data on payoffs and handling times do\nnot allow for a fine-grained tes...",
+        "distance": 0.0398639440536499
+      },
+      {
+        "path": "doc_026.txt",
+        "text": "The results described here are important for understanding the broader causes of criminal behavior and\nmay suggest novel approaches to crime prevention based\non formal ecological models (see also Bern...",
+        "distance": 0.04237121343612671
+      }
+    ]
+  },
+  {
+    "questionId": "doc_760",
+    "question": "According to this report, can someone vote in the Annual Meeting if they bought shares in Tripadvisor for the first time 3 months before the meeting date?",
+    "systemInstruction": "Respond using only the information contained within this prompt.",
+    "retrievedChunksCount": 6,
+    "topChunks": [
+      {
+        "path": "doc_760.txt",
+        "text": "The 2024 Annual Meeting of Stockholders of Tripadvisor, Inc., a Delaware corporation, will be held on Tuesday, June 11, 2024,\nat 11:00 a.m. Eastern Time. The Annual Meeting will be held via the Intern...",
+        "distance": 0.02950906753540039
+      },
+      {
+        "path": "doc_336.txt",
+        "text": "(5) in a chapter 11 reorganization case, on or before the last\nday of the month after each calendar quarter during which\nthere is a duty to pay fees under 28 U.S.C. § 1930(a)(6), file and\ntransmit to ...",
+        "distance": 0.042556047439575195
+      },
+      {
+        "path": "doc_356.txt",
+        "text": "• Indigenous Peoples’ Day / Columbus Day – Second Monday in October\n• Veterans Day - November 11*\n• Thanksgiving - Fourth Thursday in November\n• Christmas Eve - December 24**\n• Christmas Day - Decembe...",
+        "distance": 0.04340606927871704
+      }
+    ]
+  },
+  {
+    "questionId": "doc_282",
+    "question": "In less than 250 words. Explain what I Bacillus cereus. Provide where the bacteria is found mostly. What temperature does it multiply quickly in and does it form a toxin? If so, what area of the body will contain the illness from the toxin? What are the symptoms of B cereus.",
+    "systemInstruction": "Answer the question based solely on the information provided in the passage. Do not use any external knowledge or resources.\n \n\n [user request]\n \n\n [context document]",
+    "retrievedChunksCount": 6,
+    "topChunks": [
+      {
+        "path": "doc_625.txt",
+        "text": "Genetic susceptibility\n\nMS itself is not inherited, but susceptibility to MS may be inherited. Studies show that some individuals with MS have one or more family member or relative who also have MS.\n\n...",
+        "distance": 0.03903985023498535
+      },
+      {
+        "path": "doc_298.txt",
+        "text": "Patients who reported their experience with marijuana at the public workshops said that marijuana provided them with great relief from symptoms associated with disparate diseases and ailments, includi...",
+        "distance": 0.040812909603118896
+      },
+      {
+        "path": "doc_784.txt",
+        "text": "as their neurotransmitters. If you ask, what is the difference then? There hardly is any \nconnection between the nerves in the invertebrates. Besides that, the nerves almost cover \ntheir entire bodies...",
+        "distance": 0.04263728857040405
+      }
+    ]
+  }
+]

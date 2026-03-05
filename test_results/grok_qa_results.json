@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-03-06T00:50:24.099965",
+  "rag_status_check": "[SqliteGloVeLoader] Opened database: d:\\zPython\\grok-cli\\data\\glove\\glove_50d.db, dimension: 50\n[semantic-vector] Loaded GloVe SQLite database: d:\\zPython\\grok-cli\\data\\glove\\glove_50d.db\nRAG enabled: yes\nRAG topK: 6\nRAG extractor: native\nRAG db: D:\\zPython\\grok-cli\\test_results\\extracted_docs\\.grok\\rag.db\nIndexed chunks: 7244\nAurora enabled: no\n",
+  "questions_count": 5,
+  "results": [
+    {
+      "question_id": "doc_655",
+      "question": "What are the core differences between fundamental analysis and technical analysis, in what they measure and how they are used? Include criticisms or downsides of each analysis to explain the differences in practice.",
+      "system_instruction": "[question]\n [user request]\n \n\n =====================\n \n\n [text]\n [context document]\n \n\n =====================\n \n\n [instruction]\n Answer the question using only the information provided in the context. Do not rely on external knowledge or sources.",
+      "result": {
+        "success": true,
+        "stdout": "[SqliteGloVeLoader] Opened database: d:\\zPython\\grok-cli\\data\\glove\\glove_50d.db, dimension: 50\n[semantic-vector] Loaded GloVe SQLite database: d:\\zPython\\grok-cli\\data\\glove\\glove_50d.db\n{\"role\":\"user\",\"content\":\"[question]\\n [user request]\\n \\n\\n =====================\\n \\n\\n [text]\\n [context document]\\n \\n\\n =====================\\n \\n\\n [instruction]\\n Answer the question using only the information provided in the context. Do not rely on external knowledge or sources.\\n\\nWhat are the core differences between fundamental analysis and technical analysis, in what they measure and how they are used? Include criticisms or downsides of each analysis to explain the differences in practice.\"}\n{\"role\":\"assistant\",\"content\":\"Sorry, I encountered an error: Grok API error: 400 \\\"the model grok-code-fast-1 is not supported when using server-side tools, only the grok-4 family of models are supported\\\"\"}\n",
+        "stderr": "[path-utils] Project GloVe path not found: D:\\zPython\\grok-cli\\test_results\\extracted_docs\\data\\glove\\glove_50d.db\n",
+        "returncode": 0,
+        "elapsed_time": 3.9863693714141846
+      }
+    },
+    {
+      "question_id": "doc_115",
+      "question": "Give me a bullet point list of all the categories of personal information that can be legally collected in the state of California. Then, in 200 words or less, explain why this information is taken and why it is sometimes sold.",
+      "system_instruction": "[question]\n [user request]\n \n\n =====================\n \n\n [text]\n [context document]\n \n\n =====================\n \n\n [instruction]\n Answer the question using only the information provided in the context. Do not rely on external knowledge or sources.",
+      "result": {
+        "success": true,
+        "stdout": "[SqliteGloVeLoader] Opened database: d:\\zPython\\grok-cli\\data\\glove\\glove_50d.db, dimension: 50\n[semantic-vector] Loaded GloVe SQLite database: d:\\zPython\\grok-cli\\data\\glove\\glove_50d.db\n{\"role\":\"user\",\"content\":\"[question]\\n [user request]\\n \\n\\n =====================\\n \\n\\n [text]\\n [context document]\\n \\n\\n =====================\\n \\n\\n [instruction]\\n Answer the question using only the information provided in the context. Do not rely on external knowledge or sources.\\n\\nGive me a bullet point list of all the categories of personal information that can be legally collected in the state of California. Then, in 200 words or less, explain why this information is taken and why it is sometimes sold.\"}\n{\"role\":\"assistant\",\"content\":\"Sorry, I encountered an error: Grok API error: 400 \\\"the model grok-code-fast-1 is not supported when using server-side tools, only the grok-4 family of models are supported\\\"\"}\n",
+        "stderr": "[path-utils] Project GloVe path not found: D:\\zPython\\grok-cli\\test_results\\extracted_docs\\data\\glove\\glove_50d.db\n",
+        "returncode": 0,
+        "elapsed_time": 4.00588583946228
+      }
+    },
+    {
+      "question_id": "doc_026",
+      "question": "What is optimal foraging theory when compared to automotive theft?",
+      "system_instruction": "Present your answer without any extraneous information.",
+      "result": {
+        "success": true,
+        "stdout": "[SqliteGloVeLoader] Opened database: d:\\zPython\\grok-cli\\data\\glove\\glove_50d.db, dimension: 50\n[semantic-vector] Loaded GloVe SQLite database: d:\\zPython\\grok-cli\\data\\glove\\glove_50d.db\n{\"role\":\"user\",\"content\":\"Present your answer without any extraneous information.\\n\\nWhat is optimal foraging theory when compared to automotive theft?\"}\n{\"role\":\"assistant\",\"content\":\"Optimal foraging theory is a model in behavioral ecology that predicts how animals or organisms maximize their net energy intake by optimizing foraging strategies, balancing benefits (energy gained from food) against costs (time spent searching, pursuing, and handling prey, plus risks like predation). It assumes foragers make decisions to achieve the highest efficiency, often modeled mathematically (e.g., via the marginal value theorem).\\n\\nCompared to automotive theft, optimal foraging theory is a scientific framework for understanding natural resource acquisition in biology, while automotive theft is a criminal activity involving the illegal taking of vehicles for personal gain. There is no direct scientific connection, though some criminological studies analogously apply foraging principles to model how thieves select targets to maximize rewards (e.g., valuable cars) while minimizing risks (e.g., detection or effort), treating theft as a form of \\\"human foraging.\\\"\"}\n",
+        "stderr": "[path-utils] Project GloVe path not found: D:\\zPython\\grok-cli\\test_results\\extracted_docs\\data\\glove\\glove_50d.db\n",
+        "returncode": 0,
+        "elapsed_time": 18.501554012298584
+      }
+    },
+    {
+      "question_id": "doc_760",
+      "question": "According to this report, can someone vote in the Annual Meeting if they bought shares in Tripadvisor for the first time 3 months before the meeting date?",
+      "system_instruction": "Respond using only the information contained within this prompt.",
+      "result": {
+        "success": false,
+        "stdout": "[SqliteGloVeLoader] Opened database: d:\\zPython\\grok-cli\\data\\glove\\glove_50d.db, dimension: 50\n[semantic-vector] Loaded GloVe SQLite database: d:\\zPython\\grok-cli\\data\\glove\\glove_50d.db\n{\"role\":\"assistant\",\"content\":\"Error: cannot add command 'index' as already have command 'index'\"}\n",
+        "stderr": "[path-utils] Project GloVe path not found: D:\\zPython\\grok-cli\\test_results\\extracted_docs\\data\\glove\\glove_50d.db\n",
+        "returncode": 1,
+        "elapsed_time": 63.90496230125427
+      }
+    },
+    {
+      "question_id": "doc_282",
+      "question": "In less than 250 words. Explain what I Bacillus cereus. Provide where the bacteria is found mostly. What temperature does it multiply quickly in and does it form a toxin? If so, what area of the body will contain the illness from the toxin? What are the symptoms of B cereus.",
+      "system_instruction": "Answer the question based solely on the information provided in the passage. Do not use any external knowledge or resources.\n \n\n [user request]\n \n\n [context document]",
+      "result": {
+        "success": true,
+        "stdout": "[SqliteGloVeLoader] Opened database: d:\\zPython\\grok-cli\\data\\glove\\glove_50d.db, dimension: 50\n[semantic-vector] Loaded GloVe SQLite database: d:\\zPython\\grok-cli\\data\\glove\\glove_50d.db\n{\"role\":\"user\",\"content\":\"Answer the question based solely on the information provided in the passage. Do not use any external knowledge or resources.\\n \\n\\n [user request]\\n \\n\\n [context document]\\n\\nIn less than 250 words. Explain what I Bacillus cereus. Provide where the bacteria is found mostly. What temperature does it multiply quickly in and does it form a toxin? If so, what area of the body will contain the illness from the toxin? What are the symptoms of B cereus.\"}\n{\"role\":\"assistant\",\"content\":\"Sorry, I encountered an error: Grok API error: 400 \\\"the model grok-code-fast-1 is not supported when using server-side tools, only the grok-4 family of models are supported\\\"\"}\n",
+        "stderr": "[path-utils] Project GloVe path not found: D:\\zPython\\grok-cli\\test_results\\extracted_docs\\data\\glove\\glove_50d.db\n",
+        "returncode": 0,
+        "elapsed_time": 4.23032808303833
+      }
+    }
+  ]
+}

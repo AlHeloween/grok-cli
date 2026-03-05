@@ -1,0 +1,101 @@
+Clinical prediction models to diagnose neonatal sepsis in low-income and middle-income
+ countries: a scoping review
+ 
+
+ Neonatal sepsis causes significant morbidity and mortality worldwide but is difficult to diagnose
+ clinically. Clinical prediction models (CPMs) could improve diagnostic accuracy. Neonates in lowincome and middle-income countries are disproportionately affected by sepsis, yet no review has
+ comprehensively synthesised CPMs validated in this setting. We performed a scoping review of
+ CPMs for neonatal sepsis diagnosis validated in low-income and middle-income countries. From
+ 4598 unique records, we included 82 studies validating 44 distinct models. Most studies were set in
+ neonatal intensive or special care units in middle-income countries and included neonates already
+ suspected of sepsis. Three quarters of models were only validated in one study. Our review
+ highlights several literature gaps, particularly a paucity of studies validating models in low-income
+ countries and the WHO African region, and models for the general neonatal population.
+ Furthermore, heterogeneity in study populations, definitions of sepsis and reporting of models may
+ hinder progress in this field.
+ 
+
+ METHODS
+ We conducted this review according to an a priori published protocol,15 developed with reference to
+ the scoping review guidelines provided by the Joanna Briggs Institute.16 We report methods and
+ results in accordance with the Preferred Reporting Items for Systematic reviews and Meta-Analyses
+ extension for Scoping Reviews (see supplementary appendix).17
+ Search strategy
+ Eligibility criteria are shown in Table 1. After reviewing the extent and breadth of the literature from
+ our initial searches, we narrowed the scope of our original protocol to focus specifically on studies
+ that validate a CPM to diagnose neonatal sepsis in a LMIC, as defined by the World Bank in 2020.
+ 18
+ We searched six electronic databases from their inception: Ovid MEDLINE, Ovid Embase, Scopus,
+ Web of Science Core Collection, Global Index Medicus, and the Cochrane Library. Searches were
+ initially performed on 20 December 2019 and updated on 5 September 2022 and 16 June 2024.
+ Search terms were chosen to capture the three domains of the research question (‘neonate’,
+ ‘sepsis’, and ‘clinical prediction model’) through collaboration with a child health specialist librarian.
+ The search strategy was developed for Ovid MEDLINE and adapted for each database (see
+ supplementary appendix). Additional studies were identified by citation analysis and by hand
+ searching the reference lists of included studies.
+ Record screening
+ We imported identified records into EndNote 21 for deduplication.19 Unique records were then
+ uploaded to the Rayyan application for screening by two independent reviewers (DM, HG, MZ, SRN
+ or SS).
+ 20 Titles and abstracts were first examined against the eligibility criteria to determine if each
+ record was potentially eligible for inclusion. Next, full texts of potentially eligible studies were
+ obtained and reviewed to confirm eligibility. Authors were contacted to request full texts where
+ these could not be found online. Conflicts were resolved by discussion amongst the review team.
+ Data extraction and synthesis
+ Data extraction was performed independently by two reviewers for the initial searches (SRN and SS)
+ and by one reviewer for each updated search (SRN or SS). We extracted data on study, participant
+ and model characteristics, and model performance using a pre-piloted data extraction form (see
+ supplementary appendix). Data items were chosen based on the Transparent Reporting of a
+ multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD) statement.21 We
+ summarised results by narrative synthesis. Data for quantitative outcomes were not pooled in a
+ meta-analysis as this is beyond the scoping review methodology. Where multiple variations of a
+ model were presented in the same study (e.g. different combinations of predictors presented during
+ model specification), or model performance was presented at multiple classification thresholds, we
+ only included data for the ‘optimal’ or ‘final’ model at a single classification threshold.
+ 
+
+ RESULTS
+ Searches and included studies
+ Searches identified 4598 unique records (Figure 1). From these, 82 studies published between 2003
+ and 2024 were included,
+ 22-103 and are summarised in Tables 2 and 3. The number of published
+ studies validating a CPM to diagnose neonatal sepsis in LMICs has increased rapidly in recent years
+ (Figure 2). Studies were conducted in 22 individual countries (Figure 3 and Table 4), with the
+ greatest number of studies conducted in the World Health Organization (WHO) South-East Asian Region (n=48, 59%), particularly in India (n=37, 45%). The fewest studies were conducted in the
+ WHO African Region (n=4, 5%). Regarding economic status, 51 studies were conducted exclusively in
+ lower middle-income countries (62%) and 30 exclusively in upper middle-income countries (37%).
+ One study pooled data from both low-income and lower middle-income countries.98 Most studies
+ were set in intensive care or special care admission units (n=64, 78%). The remainder included all
+ live births at study sites (n=12, 15%), neonates presenting to emergency care services (n=3, 4%), all
+ hospitalised neonates (n=1, 1%), or the setting was unclear (n=2, 2%).
+ In total, 24252 neonates were included across all studies. The median number of participants per
+ study was 151 (range 36 to 3303, interquartile range [IQR] 200). Few studies restricted the study
+ population based on gestational age or birthweight, with only 4 studies (5%) specifically investigating
+ preterm neonates and 5 studies (6%) specifically investigating low or very low birthweight neonates.
+ Most studies included neonates clinically suspected of sepsis or with specific maternal risk factors
+ including chorioamnionitis (n=58, 71%).
+ Almost all studies included a positive blood and/or CSF culture in their outcome definition for sepsis
+ (n=75, 91%). Of these, 18 (22% of all studies) also included clinical features or clinical suspicion of
+ sepsis. One study used a consultant neonatologist’s clinical diagnosis of sepsis,
+ 76 one study used the
+ International Classification of Diseases 10th Revision criteria for sepsis,77 and in three studies the
+ outcome was unclear.
+ 
+
+ Model characteristics
+ The 82 included studies performed 109 evaluations validating 44 distinct models (Table 3).22-
+ 25,32,33,40,46,47,49-51,54,56,57,63,68,72,76-78,81,83,86,87,90,92,98-101,103-113 The most frequently validated model was the
+ Hematological Scoring System by Rodwell et al. (n=32, 39% of studies; including studies that made
+ minor modifications to the original model).112 Most models were only validated in one study (n=34,
+ 77% of models).
+ A total of 135 predictors of sepsis were included across all models, of which 82 were clinical
+ parameters (signs, symptoms or risk factors) and 53 were laboratory parameters (see supplementary
+ appendix). The median number of predictors per model was 6 (range 2 to 110, IQR 4). 14 models
+ (32%) included only clinical parameters, 12 models (27%) included only laboratory parameters, and
+ 18 models (41%) included both. The commonest laboratory parameters were white cell count (n=17
+ models, 39%), C-reactive protein (CRP) (n=16 models, 36%) and platelet count (n=15 models, 34%).
+ The commonest clinical parameters were neonatal fever (n=13 models, 30%) and gestational age
+ (n=11 models, 25%).
+ Most models were developed using logistic regression (n=16 models, 36%) (often with stepwise
+ selection to select predictors) or consisted of a scoring system based on univariable predictor
+ performance or literature review and expert opinion (n=10 models, 23%).

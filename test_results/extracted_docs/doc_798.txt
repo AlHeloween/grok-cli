@@ -1,0 +1,49 @@
+Speech Rights of Adults
+Much of the material targeted by age verification laws is protected speech when accessed by adults. With
+respect to pornography, sexual content that depicts adults but is not legally obscene is protected speech
+with respect to adults even if it might qualify as speech “harmful to minors.” With respect to social media,
+the Supreme Court has recognized that social media enables individuals to “engage in a wide array of
+protected First Amendment activity.”
+A law may burden adult speech even if it specifically targets material accessed by minors. The Supreme
+Court’s decision in Reno struck down the Communications Decency Act (CDA) primarily on the basis
+that the law would impermissibly burden adult speech. The reasons for believing the CDA would burden
+adult speech may apply to contemporary age verification laws. The Reno court determined that the CDA’s
+ban on transmitting indecent material to minors would burden adult speech “in the absence of a viable age
+verification process,” because distributors of material would fear liability for transmitting material to
+minors. The Court also observed that a website operator’s decision to adopt age verification may block
+adults from lawful content if the adults lack material required for verification, such as a credit card.
+Lower courts have suggested that age verification may further burden adult speech by deterring adult
+users who are not willing to provide identifying information to access potentially embarrassing content. In
+a different context, the Supreme Court held that a requirement that cable television operators block sexual
+programming unless a viewer requests access to the programming in writing would “restrict viewing by
+[cable] subscribers who fear for their reputations” should their request be made public.
+Speech Rights of Minors
+Minors, like adults, possess free speech rights under the First Amendment. The Supreme Court has
+repeatedly held that, except in “relatively narrow and well-defined circumstances,” government has no
+more power to restrict speech for minors than it does for adults. Laws that target social media websites
+may fall outside these “narrow” circumstances. The Supreme Court has struck down other laws that
+attempted to restrict the dissemination of protected speech to minors, including laws involving violent
+video games and movies with nudity. Social media allows minors to access a broad array of protected
+speech, meaning a law restricting minors’ access to social media may have a greater impact on minors’
+speech rights than narrower laws the Supreme Court has previously struck down.
+Pornography age verification laws may also impact minors’ access to constitutionally protected material.
+State laws that seek to mandate age verification for pornography often apply to “material harmful to
+minors,” a term that tracks the language used by the Supreme Court in Ginsberg v. New York and Miller v.
+California. Although the Supreme Court has upheld restrictions on physical distribution of material
+harmful to minors, federal appellate courts have raised issues with such restrictions as they might apply
+on the internet. For example, the Third Circuit held in multiple decisions that COPA’s definition of
+“material that is harmful to minors” was unconstitutionally vague and overbroad.
+The Miller definition of obscenity depends on whether “the average person, applying contemporary
+community standards” would find that the material in question “appeals to the prurient interest.”
+Definitions of material “harmful to minors” incorporate this language and specify that the question is
+whether someone “applying contemporary community standards” would find the material “appeals to the
+prurient interest” of minors. In cases that involve physical distribution of offensive material, the relevant
+“community standards” are those of the material’s recipient. The Third Circuit observed that applying a
+“contemporary community standards” requirement to internet communications, which are typically
+available worldwide, would subject all material on the internet to the standards of “the most puritanical
+communities.” The Supreme Court has not decided how to apply “contemporary community standards” to
+internet communications, beyond concluding that the use of “contemporary community standards” alone
+did not render COPA unconstitutional. Some Justices have expressed support for a nationwide
+Congressional Research Service 4
+“community standard,” while other Justices have suggested that the standards should depend on where
+material is received, as is the case with laws that do not involve the internet.

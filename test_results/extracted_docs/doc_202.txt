@@ -1,0 +1,84 @@
+On August 5, 2024, the U.S. District Court for the District of Columbia held that Google unlawfully
+monopolizes the markets for general search services and general search text ads through a series of
+exclusive contracts with browser developers, mobile device manufacturers, and wireless carriers. The
+opinion emerges from a lawsuit filed by the Department of Justice (DOJ) and a group of state attorneys
+general (AGs) in 2020. The DOJ lawsuit was later consolidated with a separate case filed by another
+group of state AGs that largely adopted the allegations in the DOJ’s complaint. This Legal Sidebar
+provides an overview of the court’s decision and issues that may arise during the remedies phase of the
+case.
+The Challenged Agreements
+The DOJ’s lawsuit targets distribution contracts that allegedly allow Google to foreclose (i.e., deny access
+to) significant shares of the markets for general search and general search text ads. Some of the contracts
+involve browser developers like Apple (the developer of the Safari browser) and Mozilla (the developer
+of the Firefox browser). Under these agreements, Google pays developers a share of its search ads
+revenue in exchange for the developers preloading Google as the default search engine for their browsers.
+Other contracts involve manufacturers of Android mobile devices, such as Motorola and Samsung. These
+agreements allow manufacturers to preinstall certain proprietary Google apps, like the Google Play Store,
+on their devices. In exchange for that access, manufacturers must also preload other Google apps,
+including Google Search and the Chrome browser, which defaults to Google Search.
+Other agreements involve revenue-sharing arrangements with device manufacturers and wireless carriers.
+Under these contracts, Google pays manufacturers and carriers a share of its revenue from search ads in
+exchange for the preinstallation of Google Search at certain access points. Some of these agreements also
+prohibit Google’s counterparties from preinstalling or promoting alternative general search engines.
+
+The Court’s Decision
+The DOJ’s lawsuit contends that Google’s distribution agreements constitute unlawful monopolization
+under Section 2 of the Sherman Act because they foreclose substantial shares of the relevant markets and
+deprive rivals of the scale needed to improve their search engines. The monopolization offense has two
+elements: (1) the possession of monopoly power, and (2) exclusionary conduct. The following subsections
+discuss the district court’s analysis of both elements.
+Monopoly Power
+The Supreme Court has characterized “monopoly power” as “the power to control prices or exclude
+competition.” More specifically, monopoly power involves a substantial degree of market power—the
+ability to raise prices above costs without sacrificing profits. Plaintiffs can establish monopoly power via
+direct proof that a firm has in fact profitably raised prices substantially above competitive levels or
+indirect structural evidence that supports an inference of monopoly power. Under the more common
+indirect approach, plaintiffs can prove monopoly power by showing that the defendant possesses a
+dominant market share that is protected by entry barriers.
+To calculate market shares, plaintiffs must define a relevant market in which competition occurs. The
+scope of the relevant market is determined by the range of reasonable substitutes for the good or service
+in question. In evaluating substitutability, courts rely on both quantitative evidence and a series of
+qualitative factors from Brown Shoe Co. v. United States, a 1962 Supreme Court decision. Because of its
+centrality in establishing market power and monopoly power, market definition is often a dispositive issue
+in antitrust cases.
+Applying this legal framework, the district court concluded that Google has monopoly power in two
+markets: general search services and general search text ads. The court relied on several of the Brown
+Shoe factors in defining these markets, rejecting Google’s arguments that the relevant markets are
+broader. Instead of a market for general search, Google had posited a larger market for “query responses”
+that included vertical search engines (e.g., Expedia, Yelp), social media platforms, and other websites.
+The court declined to adopt Google’s proposed market, reasoning that vertical search engines do not
+respond to the range of queries answered by general search engines, even if they can serve as substitutes
+for discrete purposes. The court concluded that Google has monopoly power in the narrower market for
+general search based on the firm’s market share of over 89% and significant entry barriers like high
+capital costs, Google’s control of key distribution channels, brand recognition, and scale.
+In analyzing the scope of the relevant advertiser-side market, the court recognized markets for both search
+advertising and general search text ads, rejecting Google’s argument for a broader digital advertising
+market. Among other things, the court reasoned that search ads (which are displayed in response to
+specific queries) are not reasonably interchangeable with other types of digital ads because search ads
+allow advertisers to target customers with greater precision. The court ultimately determined that Google
+lacks monopoly power in the market for search advertising—which includes search ads on vertical search
+engines and social media platforms—because of an absence of entry barriers. However, the court found
+that Google is a monopolist in the narrower market for general search text ads based on the firm’s
+dominant market share and the entry barriers discussed above. 
+
+The district court’s decision finds that Google is liable for violating the Sherman Act, but does not impose
+remedies for those violations. Earlier in the litigation, the court granted the parties’ joint request to
+bifurcate the liability and remedies phases of the case. The court has ordered the parties to propose a
+schedule for remedies proceedings by September 4, 2024. Google has said that it plans to appeal the
+court’s liability decision, but it is unclear whether the appeal will proceed before or after the district court
+imposes remedies. 
+Congressional Research Service 5
+During the remedies phase, the district court will have several options. The narrowest would involve an
+injunction prohibiting Google’s exclusive contracts. An injunction barring exclusivity was the remedy in
+United States v. Dentsply, a monopolization case involving exclusive dealing that was resolved in 2006.
+The most cited antitrust treatise also suggests that, in cases involving a single category of anticompetitive
+conduct like exclusive dealing, a targeted injunction may be the most appropriate remedy. This type of
+relief could allow distributors to negotiate default arrangements with other search engines, retain Google
+as their defaults without receiving payments conditioned on exclusivity, or offer consumers a “choice
+screen” directing them to select their own default search engine. The court may also consider ordering
+Google to adopt a choice screen on Android devices, but it likely lacks the authority to require the
+relevant browser developers to do so because they are not parties to the litigation.
+Another possibility is a broader injunction requiring Google to share search data with rivals. This type of
+mandatory pooling could facilitate the emergence of rival search engines, but might also create free-rider
+problems that disincentivize investments in improving search quality. Such an arrangement might also
+prove difficult for the court to administer.

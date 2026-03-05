@@ -1,0 +1,16 @@
+Internet Connection Firewall
+Today, there are three basic ways that home users connect to the Internet. The first is
+through a device called a modem. A modem allows you to connect to the Internet using
+your regular telephone line. You are only connected to the Internet when you actually dial
+your Internet Service Provider (ISP). This is a relatively slow way of connecting to the
+Internet, but much less costly than the other two options.
+The other two options are connecting to the Internet through your cable television service (cable), or connecting through specialized telephone wire run between the nearest
+telephone switching site and your house [digital subscriber line (DSL)]. Both ways are
+expensive compared to using a standard modem, but the speeds can be 20 or more times
+faster using cable or DSL.
+In reality, cable and DSL connections also require modems. However, when
+we talk about connecting to the Internet through a modem we are normally
+talking about using a standard telephone line for the connection.
+In the case of a cable or DSL connection, your computer is constantly connected to the
+Internet. This exposes your computer to the possibility of being hacked. Hacking is when an unauthorized person attempts to gain control of your computer for purposes of stealing
+data or causing malicious damage. One step that can be taken to deter hackers is placing a hardware or software firewall between your computer and the Internet. All messages entering or leaving the computer pass through the firewall, which examines each message and blocks those that do not meet the specified security criteria. Although a hardware firewall is always considered to be more effective than a software firewall, it is considerably more expensive. To save Windows XP users from having to invest additional money for basic security, Microsoft has included a software Internet Connection Firewall ICF) that can be used without additional charge.

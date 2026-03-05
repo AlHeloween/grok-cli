@@ -1,0 +1,15 @@
+{
+  "question": {
+    "id": "doc_655",
+    "question": "What are the core differences between fundamental analysis and technical analysis, in what they measure and how they are used? Include criticisms or downsides of each analysis to explain the differences in practice.",
+    "system_instruction": "[question]\n [user request]\n \n\n =====================\n \n\n [text]\n [context document]\n \n\n =====================\n \n\n [instruction]\n Answer the question using only the information provided in the context. Do not rely on external knowledge or sources."
+  },
+  "command": [
+    "grok",
+    "What are the core differences between fundamental analysis and technical analysis, in what they measure and how they are used? Include criticisms or downsides of each analysis to explain the differences in practice."
+  ],
+  "result": {
+    "success": false,
+    "error": "[WinError 2] The system cannot find the file specified"
+  }
+}

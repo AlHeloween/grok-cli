@@ -1,0 +1,27 @@
+Clinical Trial Phases
+ Phase 1 Trials. Phase 1 trials are the first time the product is introduced in human
+subjects. These carefully controlled trials typically involve 20 to 80 patients or volunteer
+subjects, though the exact numbers may vary depending on the product. Phase 1 trials
+generally assess how the product acts in the body and evaluate initial safety (i.e., side
+effects). They may also be used to determine the dosing levels to use in phase 2 (e.g., the maximum safe dose or what dose is required to have an effect). Depending on the
+product, phase 1 trials may also provide some initial indication as to whether the product
+may be effective. In the case of vaccines specifically, phase 1 trials also assess their
+ability to provoke an immune response in the body (i.e., immunogenicity).
+ Phase 2 Trials. Phase 2 trials continue to assess safety but also evaluate the product’s
+effectiveness and common short-term side effects or other risks associated with the
+product. Phase 2 trials are also used to determine the optimal dose of the product. For
+vaccines, phase 2 assesses how much of the vaccine to administer and on what dosing
+schedule (e.g., whether a boost is needed to maximize its effectiveness or whether the
+vaccine must be administered on a regular schedule to maintain immunity). As with phase
+1 studies, phase 2 studies are carefully controlled. However, phase 2 involves a larger
+(though still relatively limited) number of volunteer subjects—generally no more than a
+few hundred participants.
+ Phase 3 Trials. Phase 3 trials involve an expanded number of participants—from several
+hundred to thousands—and are used to assess the product’s safety and effectiveness
+across a wide range of patient categories through controlled and uncontrolled studies.
+These trials are intended to present a clearer picture of expected risks and benefits under
+real-world conditions. The information obtained from phase 3 trials also forms the basis
+for the product’s labeling.
+Sponsors must generally complete all three phases to obtain FDA approval unless they obtain accelerated
+approval, in which case FDA requires post-approval trials to confirm the expected clinical benefit. FDA
+may also require, at its discretion, additional clinical trials after approval (i.e., phase 4 trials) for any approved product to continue assessing the product’s safety and effectiveness once on the market.

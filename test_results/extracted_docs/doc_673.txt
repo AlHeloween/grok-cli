@@ -1,0 +1,62 @@
+Legislative History
+Congress enacted the UCMJ in 1950, and it entered into force in 1951. At the time of enactment, Article
+43 provided that there was no statute of limitations for “desertion or absence without leave in time of war,
+or with aiding the enemy, mutiny, or murder” and set a three-year statute of limitations for most other
+offenses, including rape. Article 120 provided that a person guilty of rape “shall be punished by death or
+such other punishment as a court-martial may direct.” Article 55, then as now, prohibits “[p]unishment by
+flogging, or by branding, marking, or tattooing on the body, or any other cruel or unusual punishment.”
+Amendments to Article 43
+As relevant to Briggs and Collins, Congress has amended Article 43 three times. In 1986, Congress
+provided that there was no statute of limitations for “any offense punishable by death” and set a five-year
+statute of limitations for most other offenses. These statutes of limitations mirrored their civilian
+counterparts, which are codified at 18 U.S.C. § 3281 for offenses punishable by death, and § 3282 for
+other offenses. Congress again amended Article 43 in 2003, setting a twenty-five-year statute of
+limitations for child abuse offenses, including rape of a child under Article 120. Most recently, Congress
+amended Article 43 in the National Defense Authorization Act for Fiscal Year 2006 (2006 NDAA) in a
+section titled “Extension of Statute of Limitations for Murder, Rape, and Child Abuse Offenses under the
+[UCMJ].” The 2006 amendments provided that there is no statute of limitations for “murder or rape, or
+[for] any other offenses punishable by death” and modified the twenty-five-year statute of limitations for
+child abuse offenses other than rape. In an accompanying report, the Senate Committee on Armed
+Services described the amendments as “clarify[ing] that all murders are included in the class of offenses
+that has an unlimited statute of limitations . . . [and] includ[ing] rape in that class of offenses.”
+Amendments to Article 120
+As with Article 43, Congress has amended Article 120 several times since its enactment. Of note, in the
+2006 NDAA, Congress amended Article 120 to specify that a person guilty of rape “shall be punished as a
+court-martial may direct,” removing the statutory authority to punish rape by death.
+Judicial Interpretations
+Before Briggs and Collins, the Supreme Court had not interpreted Articles 43, 55, or 120, but several
+lower courts, including the U.S. Court of Appeals for the Armed Forces (CAAF), had done so. Three
+cases are particularly relevant to Briggs and Collins. First, in the 1983 case United States v. Matthews, the
+CAAF (then known as the U.S. Court of Military Appeals) addressed whether Article 55 protected
+servicemembers from cruel and unusual punishment in the same manner as the Eighth Amendment to the
+U.S. Constitution. Specifically, the court considered whether the Eighth Amendment’s prohibition on
+cruel and unusual punishment barred the imposition of the death penalty on a servicemember found guilty
+of rape and murder. The court held that “a servicemember is entitled both by statute [under Article 55]
+and under the Eighth Amendment to protection against ‘cruel and unusual punishments.’” It recognized,
+however, that, “since in many ways the military community is unique, . . . there may be circumstances
+under which the rules governing capital punishment of servicemembers will be different from those
+applicable to civilians.”
+Congressional Research Service 3
+In dicta, the Matthews court further observed that, while “Congress obviously intended that in cases
+where an accused servicemember is convicted of . . . rape, the court-martial members should have the
+option to adjudge a death sentence,” this intent “[p]robably . . . cannot be constitutionally effectuated in a
+case where the rape of an adult female is involved, . . . at least, where there is no purpose unique to the
+military mission that would be served by allowing the death penalty for this offense.” The court based its
+reasoning on the Supreme Court’s 1977 holding in Coker v. Georgia that “a sentence of death is grossly
+disproportionate and excessive punishment for the crime of rape and is therefore forbidden by the Eighth
+Amendment as cruel and unusual punishment.”
+Second, in the 1998 case Willenbring v. Neurauter, the CAAF held there was no statute of limitations for
+rape, relying on the contemporaneous language of Articles 43(a) (“A person charged . . . with any offense
+punishable by death, may be tried and punished at any time without limitation”) and 120(a) (any person
+“guilty of rape . . . shall be punished by death or such other punishment as a court-martial may direct”).
+The CAAF considered its decision in Matthews and the Supreme Court’s decision in Coker but held that
+the 1986 amendment to Article 43 “was meant to apply to the most serious offenses without listing each
+one in the statute.” The CAAF concluded that rape under Article 120 was an offense that Congress
+deemed punishable by death, regardless of whether such a sentence constitutionally could be imposed.
+Third, and most recently, in the 2018 case United States v. Mangahas, the CAAF overruled Willenbring.
+Relying on Coker, the CAAF reasoned that where “there is no set of circumstances under which the death
+penalty could constitutionally be imposed for the rape of an adult woman, that offense is simply not
+‘punishable by death.’” Recognizing that “Willenbring gave short shrift to this highly salient point,” the
+court overruled its prior decision. The CAAF concluded that because rape was not constitutionally
+punishable by death, rapes committed between 1986 and 2006 are subject to a five-year statute of
+limitations under Article 43

@@ -1,0 +1,52 @@
+IMPACT ON WORKFORCE
+While automation will cause significant changes in the composition of employment, it will not cause mass
+unemployment. Quite the contrary, displaced workers will fill new higher-value-add jobs, and the labor force
+is likely to increase. The positive impact associated with the retraining of soldiers after World War II8 is quite
+instructive. The economy assimilated returning soldiers surprisingly well, boosting productivity significantly.
+Though, as automation accelerates job turnover, the cost of friction in the labor market, which currently
+stands at more than $630B per annum is expected to grow. These frictions present tremendous opportunity
+for companies that help firms reduce time-to-hire, provide workers with new skill-sets, and train new
+employees more efficiently.
+In the United States today, 5.4 million jobs are unfilled because of skillset mismatches, as shown below.
+ARK’s research indicates that recruiting and training account for over 2/3 the cost of friction in the labor
+market. The opportunity for recruiting and retraining has never been better.
+Some companies already are responding. In 2013, corporate spending on training increased by 15%, to $70
+billion and then increased another 10% in 2014.9 Companies such as Cornerstone on Demand (CSOD), Manpower (MAN), Robert Half (RHI), DeVry (DV), Adecco (AHEXY), and LinkedIn (LNKD), which
+acquired Lynda.com, offer career skill-building programs, and should benefit significantly as automation
+permeates more industries. 
+
+The productivity associated with automation will have a profound impact on economic growth. According
+to ARK’s research, real GDP per worker in the US will double from $113,000 in 2013 to $236,000 in
+2035, or at an annual rate of 3.4%. Without automation, productivity would increase at roughly half that
+rate, or 1.8%, limiting real GDP per worker to $167,000, as shown below. As automation proliferates,
+the growth of real GDP per worker will accelerate from 2.2% during the next ten years, to roughly 5%
+between 2025 and 2035.
+By 2035, real GDP will be 42% higher with automation than without it, as shown below. It will reach
+roughly $40 trillion, or nearly $12 trillion above the $28 trillion that would otherwise be the case. Clearly,
+the extra $12 trillion in extra GDP will bring with it many more new jobs.
+
+Robotics ecosystems will create new industries and accelerate their growth. Companies already pioneering
+this movement include Google (GOOG) and Tesla (TSLA) in the autonomous vehicle market, as well as
+AeroVironment (AVAV), Amazon (AMZN) and Elbit Systems (ESLT) in the drone space. Service robots are
+in their infancy, but could undergo explosive growth. Early examples include vacuum and lawnmower
+robots manufactured by iRobot (IRBT), medical robots by Intuitive Surgical (ISRG), and industrial
+robots by KUKA (KUKAY). Even more embryonic are ReWalk’s10 (RWLK) robot exoskeletons enabling
+paraplegics to walk.11 Other companies benefitting from these trends manufacture sensors, microcontrollers,
+cameras, batteries, computerized numerical controls, and materials required for production. Cognex (CGNX),
+Ambarella (AMBA), Panasonic (PCRFY), Fanuc (FANUY), and Rockwell Automation (ROK) will be
+prime beneficiaries.
+
+Automation will permeate every sector of the economy, with accommodation and food services,
+agriculture, and retail trade garnering the biggest boosts to productivity. By 2035, GDP per worker
+will increase by 58% in the accommodation and food services sector, 55% in agriculture, and 53% in
+retail trade, as depicted below. Spending on automation is poised to soar orders of magnitude above current investment levels. Cumulatively,
+it will increase by roughly $3.8 trillion through 2035. As artificial intelligence solves increasingly complex
+problems, the return on investment from “smarter” robots, drones, and automation will drive adoption.
+Between 2015 and 2035, annual investment in automation could increase at a 16.5% annual growth rate
+from $11 billion to $242 billion, as illustrated below. During the next decade it should compound at a 33%
+annual rate. Given the declining cost curves in technology, unit growth rates could be even higher.
+Several sectors will spend disproportionately on automation to boost productivity. In 2035, manufacturing
+will account for the largest percentage, 13% of the total, or $31 billion. Spearheaded by companies like Amazon (AMZN), the retail sector will spend roughly $26 billion, or 11% of the total investment. In 2014,
+Amazon boosted the number of Kiva robots in its global distribution centers from 1,000 to 15,000, a fifteen
+fold increase in one year, and then doubled its Kiva install base to 30,000 in 2015. Game on! Closely related
+to retail, the accommodation and food services category is set to spend $24 billion as shown in figure 9.

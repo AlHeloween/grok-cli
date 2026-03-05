@@ -1,0 +1,32 @@
+Ovarian cancer often progresses significantly before a patient is diagnosed. This is because the symptoms of ovarian cancer can be easily confused with less life-threatening digestive issues such as bloating, constipation, and gas. Roughly only 20 percent of ovarian cancers are detected before it spreads beyond the ovaries. Unfortunately, to date, no screening tests have been demonstrated to improve early detection and outcomes of people with ovarian cancer.
+ 
+
+ The most prominent risk factor for this disease is a family history that includes breast or ovarian cancer. People who test positive for the inherited mutations in the BRCA1 or BRCA2 genes are at significantly greater risk—45% to 65% risk of developing breast cancer and 10% to 20% risk of developing ovarian cancer by age 70.
+ 
+
+ Globally, ovarian cancer is diagnosed in an estimated 300,000 people each year, and causes roughly 180,000 deaths. In 2023, ovarian cancer will be diagnosed in approximately 20,000 people and cause about 13,000 deaths in the United States.
+ 
+
+ While significant advances have been made in surgical and chemo-based treatments for ovarian cancer, the survival rates have only modestly improved. The poor survival in advanced ovarian cancer is due both to late diagnosis as well as to the lack of effective second-line therapy for patients who relapse. Many people affected by advanced ovarian cancer respond to chemotherapy, but effects are not typically long-lasting. The clinical course of ovarian cancer patients is marked by periods of remission and relapse of sequentially shortening duration until chemotherapy resistance develops. More than 80% of ovarian cancer patients experience recurrent disease, and more than 50% of these patients die from the disease in less than five years post-diagnosis.
+ 
+
+ There is an urgent need for new treatments for advanced stage, recurring ovarian cancer.
+ 
+
+ Subscribe To Email Alerts
+ Ovarian Cancer Treatment Options
+ First-line treatment for ovarian cancer includes surgery followed by a chemotherapy regimen combining a platinum-based (usually carboplatin) and a taxane-based (usually paclitaxel) treatment. This course of treatment leads to a complete response in approximately 80% of patients. A complete response means no visible evidence of disease on imaging scans and normal blood tests. After completion of upfront chemotherapy, patients may be eligible to receive maintenance therapy with a new class of drugs called PARP inhibitors, which have been demonstrated to significantly delay and possibly even prevent disease relapse in some patients, particularly patients whose tumor carry mutations in BRCA1 and BRCA2 genes. 
+ 
+
+ Patients who initially respond to treatment but then relapse after a period of six months or more may undergo the same therapy. Patients who progress during first-line treatment or who relapse within six months following successful first-line treatment are considered refractory or resistant to platinum-based treatments. For these patients, there are several chemotherapeutic options; however, each has shown only marginal benefit.
+ 
+
+ Immunotherapy is class of treatments that take advantage of a person’s own immune system to help kill cancer cells. There are currently three FDA-approved immunotherapy options for ovarian cancer.
+ 
+
+ Targeted Antibodies
+ Bevacizumab (Avastin®): a monoclonal antibody that targets the VEGF/VEGFR pathway and inhibits tumor blood vessel growth; approved for patients with newly-diagnosed and with relapsed ovarian cancer
+ Mirvetuximab soravtansine (ElahereTM): an antibody-drug conjugate that targets the folate receptor apathway and delivers toxic drugs to tumors; approved for subsets of patients with advanced ovarian cancer
+ Immunomodulators
+ Dostarlimab (Jemperli): a checkpoint inhibitor that targets the PD-1/PD-L1 pathway; approved for subsets of patients with advanced ovarian cancer that has DNA mismatch repair deficiency (dMMR)
+ Pembrolizumab (Keytruda®): a checkpoint inhibitor that targets the PD-1/PD-L1 pathway; approved for subsets of patients with advanced ovarian cancer that has high microsatellite instability (MSI-H), DNA mismatch repair deficiency (dMMR), or high tumor mutational burden (TMB-H)

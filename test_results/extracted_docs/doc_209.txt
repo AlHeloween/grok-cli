@@ -1,0 +1,37 @@
+Minimum Baseline Security Standard (MBSS) and Autonomous Security Assurance
+
+The structural heterogeneity and distribution of the 6G network, coupled with the diverse ecosystem in
+computing nodes and devices, results in a coarse degree of data access management. This may lead to a
+malicious actor being able to penetrate the security of the edge device and so compromise this aspect of
+the system. Untrusted computing nodes joining the network may hack user data at the edge of the network
+and interrupt the operation. Additionally, because of the performance limitations of edge nodes, these
+devices cannot resist network attacks, such as man-in-the-middle and denial-of-service, which lead to the
+breakdown of the edge network and instability18
+.
+In the case of 6G, building a secure supply chain is vital, vendor compliance is a must and security assurance
+[GSMA NESAS-2.0, ISO], OWASP vulnerability19, the integrity of any third-party elements - together with
+trust and privacy - is also extremely important. Attacks and issues that compromise privacy and security
+often occur in three main areas of the network: the infrastructure layer security, the network layer security,
+and the application-level security (which consists of User plane traffic, Control plane traffic and
+Management plane traffic20).
+Establishing a reliable level of security policies, procedures, and Minimum Baseline Security Standard
+(MBSS) for all network functions is extremely important to minimize risks21. There is a need for centralized
+identity governance for resource management and user access – the lack of which may cause network
+exploitation of applications and systems, leading to unauthorized access of user data, log files and
+manipulation of AI/ML models. A prominent example is poisoning and backdoor attacks for manipulating
+the data used for training an AI model, with countermeasures for prevention and detection including use
+of data from trusted sources, protecting the supply chain and sanitizing data. Another attack type are
+adversarial attacks that target the model in operation by using specially crafted inputs to mislead the model.
+Such attacks can be mitigated by expanding the training process (adversarial training), introducing
+additional modules for detecting unusual ingests and sanitizing input data. Attacks that compromise the
+confidentiality and privacy of the training data or the model’s parameters can be addressed with techniques
+like differential privacy and homomorphic encryption. Additionally, restricting the number and type of
+queries to the model and tailoring query outputs can help mitigate these risks22
+.
+Other attacks jeopardize the confidentiality and privacy of the data used to train the model or the model’s
+parameters. They can be dealt with by approaches such as: differential privacy and homomorphic
+encryption, introducing restrictions on the number and type of queries to the model and tailoring the
+output to queries. Therefore, a Unified Framework (UF) is necessary to prevent attacks on the AI/ML model,
+with a centralized assurance procedure used for evaluation and assessment, before moving it to
+production. Then, on a regular basis, the model should be evaluated to ensure it provides the desired
+functionality and is sufficiently robust to changes in input data both natural and (potentially) adversarial.

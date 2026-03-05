@@ -159,7 +159,11 @@ private trimHistoryIfNeeded(): void {
     }
 
     const settings = getSettingsManager();
-    if (!settings.isRagEnabled()) return;
+    const debug = process.env.GROK_DEBUG_RAG === "1";
+    if (!settings.isRagEnabled()) {
+      if (debug) console.log("[RAG] RAG not enabled");
+      return;
+    }
 
     try {
       const baseOptions = {
@@ -171,6 +175,7 @@ private trimHistoryIfNeeded(): void {
         chatPrefix: settings.getRagChatPrefix(),
       };
 
+      if (debug) console.log(`[RAG] Retrieving context for: ${userMessageText.substring(0, 100)}...`);
       let rows;
       if (settings.getRagAuroraEnabled()) {
         rows = await auroraRetrieveTopK(userMessageText, {
@@ -182,19 +187,49 @@ private trimHistoryIfNeeded(): void {
       } else {
         rows = await retrieveTopK(userMessageText, baseOptions);
       }
-      if (!rows.length) return;
+      if (!rows.length) {
+        if (debug) console.log("[RAG] No chunks retrieved");
+        return;
+      }
+      if (debug) console.log(`[RAG] Retrieved ${rows.length} chunks`);
 
       const formatted = formatRagChunksForPrompt(rows);
-      if (!formatted) return;
+      if (!formatted) {
+        if (debug) console.log("[RAG] No formatted context");
+        return;
+      }
+      if (debug) console.log(`[RAG] Formatted context length: ${formatted.length}`);
 
       if (this.chatHistoryManager.getMessages()[0]?.role === "system") {
         this.chatHistoryManager.getMessages()[0].content =
           this.baseSystemPrompt +
           "\n\nRELEVANT PROJECT CONTEXT (use when answering; prefer citing file paths):\n" +
           formatted;
+        if (debug) {
+          const systemMsg = this.chatHistoryManager.getMessages()[0];
+          const content = systemMsg.content;
+          if (typeof content === 'string') {
+            console.log(`[RAG] System message length: ${content.length}`);
+            const hasContext = content.includes('RELEVANT PROJECT CONTEXT');
+            console.log(`[RAG] Contains context marker: ${hasContext}`);
+            if (hasContext) {
+              const contextIndex = content.indexOf('RELEVANT PROJECT CONTEXT');
+              console.log(`[RAG] Context starts at index: ${contextIndex}`);
+              // Show 200 chars before and after the marker
+              const start = Math.max(0, contextIndex - 100);
+              const end = Math.min(content.length, contextIndex + 300);
+              console.log(`[RAG] Context snippet:\n${content.substring(start, end)}...`);
+            }
+            console.log(`[RAG] First 500 chars:\n${content.substring(0, 500)}...`);
+            console.log(`[RAG] Last 500 chars:\n${content.substring(Math.max(0, content.length - 500))}...`);
+          } else {
+            console.log(`[RAG] System message content is not a string: ${typeof content}`);
+          }
+        }
       }
-    } catch {
+    } catch (error) {
       // Best-effort only: if RAG fails, proceed without it.
+      if (debug) console.error("[RAG] Error:", error);
       if (this.chatHistoryManager.getMessages()[0]?.role === "system") {
         this.chatHistoryManager.getMessages()[0].content = this.baseSystemPrompt;
       }
@@ -321,6 +356,8 @@ private trimHistoryIfNeeded(): void {
 
   async processUserMessage(message: UserContent): Promise<ChatEntry[]> {
     const messageText = this.getUserContentText(message);
+    // Inject RAG context before processing
+    await this.maybeInjectRagContext(messageText);
     // Add user message to conversation
     const userEntry: ChatEntry = {
       type: "user",

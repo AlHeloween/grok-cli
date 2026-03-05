@@ -1,0 +1,48 @@
+Context: The FFDCA defines a “drug” in part as “articles intended for use in the diagnosis, cure,
+mitigation, treatment, or prevention of disease”; articles “(other than food) intended to affect the
+structure or any function of the body”; and “articles intended for use as a component” of such
+drugs.15
+Drug manufacturers must comply with Current Good Manufacturing Practices (CGMP) rules for
+drugs.
+16 Failure to comply will cause a drug to be considered adulterated.17 Drug manufacturers
+are required to register their facilities,
+18 list their drug products with the agency,
+19 and report
+adverse events to FDA, among other requirements.
+20
+Unlike cosmetics and their ingredients (with the exception of color additives), drugs are subject to
+FDA approval before entering interstate commerce. Drugs must either (1) receive the agency’s
+premarket approval under a new drug application (NDA), or an abbreviated NDA (ANDA),21 in
+the case of a generic drug, or (2) conform to a set of FDA requirements known as a monograph.22
+Monographs govern the manufacture and marketing of most over-the-counter (OTC) drugs and
+specify the conditions under which OTC drugs in a particular category (such as antidandruff
+shampoos or antiperspirants) will be considered generally recognized as safe and effective
+(GRASE).
+23 Monographs also indicate how OTC drugs must be labeled so they are not deemed
+misbranded.24
+Although the term “cosmeceutical” has been used to refer to combination cosmetic/drug products,
+such products have no statutory or regulatory definition.25 Historically, FDA has indicated that
+cosmetic/drug combinations are subject to FDA’s regulations for both cosmetics and drugs.26
+Determining whether a cosmetic is also a drug, and therefore subject to the additional statutory
+requirements that apply to drugs, depends on the distributor’s claims regarding the drug’s intent
+or intended use.27 A product’s intended use may be established in several ways, such as claims on
+the label or in advertising or promotional materials, customer perception of the product, and the
+inclusion of ingredients that cause the product to be considered a drug because of a known
+therapeutic use.28 For example, if a lipstick (a cosmetic) contains sunscreen (a drug), historically,
+the mere inclusion of the term “sunscreen” in the product’s labeling required the product to be
+regulated as a drug as well as a cosmetic.
+29 The text box below provides examples of other
+cosmetic/drug combinations and compares cosmetic and drug classifications.30
+Prior to the enactment of the Federal Food, Drug, and Cosmetic Act (FFDCA) in 1938, cosmetics
+were not regulated by the federal government.
+31 Instead, they were regulated under a collection of
+state laws that had been enacted to regulate food and drugs.32 At that time, multiple “cosmetics
+and drugs were made from the same natural materials” and often the “laws did not include
+explicit definitions of the products regulated.”33 Following several incidents in which cosmetics
+were allegedly the cause of serious health problems, as well as industry concerns about states
+enacting their own laws, provisions were included in the FFDCA that prohibited the sale of
+adulterated or misbranded cosmetics in interstate commerce.34 The FFDCA also established
+uniform regulation of FDA-regulated cosmetic products nationwide.
+35 However, state laws
+regarding cosmetics regulation have continued to evolve since FFDCA’s passage, with some
+states implementing stricter measures than others.

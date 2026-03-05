@@ -1,0 +1,780 @@
+Purpose of this guide
+The purpose of this publication is to provide guidance on implementing HIV, hepatitis C (HCV) and
+hepatitis B (HBV) programmes for people who use stimulant drugs and who are at risk of contracting
+these viruses. It aims to:
+• Increase awareness of the needs and issues faced by the affected groups, including the intersectionality among different key populations
+• Provide implementation guidance to help establish and expand access to core HIV and hepatitis
+prevention, treatment, care and support services
+It is a global document that should be adapted according to the specific context, including the type of
+stimulant drug used (cocaine, ATS or NPS) and the key populations involved, which vary considerably
+according to regions.
+The present guide proposes a package of core interventions adapted from existing international
+guidance:
+• WHO, UNODC, UNAIDS technical guide for countries to set targets for universal access to HIV
+prevention, treatment and care for injecting drug users[7]
+• WHO Consolidated guidelines on HIV prevention, diagnosis, treatment and care for key populations – 2016 update [8]
+• Implementing comprehensive HIV and HCV programmes with people who inject drugs: practical guidance for collaborative interventions (the “IDUIT”) [9]
+It also incorporates guidance from the implementation tools for other key populations:
+• Implementing comprehensive HIV/STI programmes with sex workers: practical approaches
+from collaborative interventions (the “SWIT”) [10]
+• Implementing comprehensive HIV and STI programmes with men who have sex with men:
+practical guidance for collaborative interventions (the “MSMIT”) [11]
+• Implementing comprehensive HIV and STI programmes with transgender people: practical
+guidance for collaborative interventions (the “TRANSIT”) [12]
+However, none of these guidance documents and tools addresses the specific needs of people who use
+stimulant drugs and are at risk for HIV and hepatitis B and C – hence the need for this publication.
+Audience
+The guide is intended for use by policymakers, programme managers and service providers, including
+community-based organizations, at the national, regional or local levels, who undertake to address
+HIV prevention, treatment and care. It also provides useful information for development and funding
+agencies and for academia.
+Structure
+The guide is divided into five chapters.
+• Chapter 1 explains the nature and effects of stimulant drugs, the associated risks of HIV and
+hepatitis transmission, and the issues surrounding stimulant drug use and HIV and hepatitis risk
+in specific key populations and other vulnerable groups.
+10
+HIV PREVENTION, TREATMENT, CARE AND SUPPORT FOR PEOPLE WHO USE STIMULANT DRUGS
+• Chapter 2 presents the package of core HIV interventions for key populations who use stimulant
+drugs.
+• Chapter 3 describes approaches to care and support for people who use stimulant drugs, particularly in the context of HIV and hepatitis.
+• Chapter 4 describes six critical enablers – activities and strategies that are needed to ensure access
+to the interventions in the core package.
+• Chapter 5 outlines further considerations for implementing programmes.
+Within each chapter, further resources are listed. Case studies are provided throughout the guide to
+illustrate specific aspects of programmes that have been implemented in different countries.
+There is also an annex presenting a series of checklists and other practical tools for policymakers
+and implementers.
+Principles
+Two important overarching principles are stressed throughout this publication. The first is better integration of HIV, hepatitis B and C and sexually transmitted infection (STI) services for people who use
+stimulant drugs within existing HIV harm reduction services2 and drug treatment services for people
+who inject drugs, and within sexual and reproductive health and other HIV services for key populations. The second is the meaningful involvement of people who use stimulant drugs, people living with
+HIV and other key populations in planning, implementing, monitoring and evaluating interventions.
+This is key to their success and sustainability.
+Finally, the implementation of HIV-related services for people who use stimulant drugs should
+adhere to human-rights principles as described in the implementation tools mentioned above – the
+SWIT, MSMIT, TRANSIT and IDUIT.
+Methodology
+In its June 2009 session, the UNAIDS Programme Coordinating Board (PCB) called upon “Member
+States, civil society organizations and UNAIDS to increase attention on certain groups of non-injecting
+drug users, especially those who use crack cocaine and ATS, who have been found to have increased
+risk of contracting HIV through high-risk sexual practices”. UNODC therefore commissioned a review
+and organized a Global Expert Group Technical Meeting on Stimulant Drugs and HIV, held in Brazil
+in 2010. A discussion paper on HIV prevention, treatment and care among people who use (noninjecting) crack and cocaine or other stimulant drugs, particularly ATS, was developed in 2012.
+In 2013 the UNODC HIV Civil Society Organization (CSO) group established a Stimulant Drugs
+and HIV working group, with representatives from civil society and experts on HIV and stimulant
+drugs. The group organized consultations with representatives of the community and CSOs, including
+on the margins of the International Harm Reduction Conference in Kuala Lumpur in 2015.
+2 For the purposes of this guide, harm reduction is defined by the nine interventions of the “comprehensive package” of services
+detailed in the WHO, UNODC, UNAIDS Technical guide for countries to set targets for universal access to HIV prevention,
+treatment and care for injecting drug users (see citation 7). These are: 1. Needle and syringe programmes; 2. Opioid substitution
+therapy and other drug dependence treatment; 3. HIV testing and counselling; 4. Antiretroviral therapy; 5. Prevention and treatment of sexually transmitted infections; 6. Condom programmes for people who inject drugs and their sexual partners; 7. Targeted
+information, education and communication; 8. Prevention, vaccination, diagnosis and treatment for viral hepatitis; 9. Prevention,
+diagnosis and treatment of tuberculosis.
+11
+In December 2014, the Strategic Advisory Group to the United Nations on HIV and injecting drug
+use, consisting of representatives of networks and organizations of people who use drugs, academics,
+donors, implementers and United Nations organizations, recommended conducting a new literature
+review on stimulant drugs and HIV and hepatitis C. In 2015 UNODC, together with WHO and
+UNAIDS, defined the scope of this new literature review, and accordingly UNODC commissioned it
+to cover the extent, patterns and geographic distribution of injecting and non-injecting stimulant drug
+use (particularly crack, cocaine, ATS and stimulant NPS) in men who have sex with men, sex workers
+and other groups of stimulant drug users, and their possible link to HIV and hepatitis B and C vulnerability and transmission; and effective interventions for prevention, treatment and care of HIV and
+hepatitis B and C among people who use such stimulant drugs. The results of the literature review were
+published by UNODC in 2016 in five papers covering the following topics:
+• Methodology and summary [3]
+• ATS [13]
+• Cocaine and crack cocaine [14]
+• NPS [15]
+• Treatment and prevention of HIV, HCV & HBV among stimulant drug users[16].
+Subsequently, in the framework of preparations for the United Nations General Assembly Special
+Session on the World Drug Problem (UNGASS 2016) and the HLM 2016, UNODC organized a scientific consultation on HIV and drug use, including stimulant drugs. The papers relating to stimulant
+drugs presented at the Commission on Narcotic Drugs in March 2016 covered: cocaine and crack
+cocaine use and HIV in the United States; ATS and men who have sex with men in Asia; and antiretroviral therapy (ART) and stimulant drug use. The recommendations of the contributing scientists were
+summarized as part of a scientific statement presented in New York on the margins of the UNGASS
+2016 and the HLM 2016 [17]. The statement stressed the need to address HIV among people who use
+stimulant drugs, including the structural, social and personal mediating factors for HIV transmission,
+such as polydrug use, STIs, mental health, homophobia, discrimination and punitive laws. The scientists recommended the provision of ART to all people using stimulant drugs living with HIV, and the
+implementation of new prevention tools such as pre-exposure prophylaxis (PrEP) and the use of social
+media for communication. The statement also emphasizes that with proper support for adherence,
+ART is effective among people living with HIV who use stimulant drugs.
+In 2017, UNODC commissioned the development of the present publication, HIV prevention,
+treatment, care and support for people who use stimulant drugs: an implementation guide. Based on the
+results of the scientific reviews and of the expert group meetings, and on international guidance and
+country practices that have been identified as effective in meeting the needs of people who use stimulant drugs, a first draft of the document was developed under the guidance of the UNODC CSO
+Stimulant Drugs and HIV working group. The draft guide was reviewed by external peer reviewers,
+United Nations agency reviewers and community representatives through an electronic consultation
+and three face-to-face consultations held in Viet Nam (2017), Brazil (2017) and Ukraine (2018).
+Chapter 1
+ Stimulant drugs,
+HIV and hepatitis,
+and key populations
+The World Drug Report 2019 estimates that about 29 million people used ATS in 2017, and 18 million
+used cocaine [18]. There is no estimate of the total number of people using NPS. The great majority of
+people who use stimulant drugs do so on an occasional basis which may be characterized as “recreational”, and they will not develop dependence or any other health problem.
+There is evidence that the prevalence of ATS use, particularly methamphetamines, is increasing in
+some regions, including North America, Oceania and most parts of Asia. In addition, between 2009
+and 2016, there were reports of 739 NPS, of which 36 per cent were classified as stimulant drugs [19].
+Only a small proportion of people who use stimulant drugs inject them; most smoke, snort or use
+them orally or anally. However, the World Drug Report 2017 states that 30 per cent of people who inject
+drugs inject stimulant drugs, either as their drug of first choice or in addition to opiates.
+Despite evidence showing that certain subgroups of people who use stimulant drugs are at greater
+risk of HIV, prevention, testing and treatment programmes for these population groups remain very
+limited in scope and scale across the globe, and their specific needs are often overlooked.
+1.1 Stimulant drugs
+Stimulant drugs are chemically diverse substances that are similar in their capacity to activate, increase
+or enhance the neural activity of the central nervous system, resulting in a common set of effects in
+most people who use them, including increased alertness, energy and/or euphoria.3
+This publication considers three types of stimulant drugs for which data have shown a link with
+increased HIV risk among some key populations:
+• Cocaine: Found in various forms, e.g. smokable cocaine, crack cocaine, freebase, paste or pasta base,
+paco, basuco. Depending on the form, it may be sniffed or snorted, injected, ingested or inserted anally.
+3 For more detailed information on different stimulant drugs and their effects, see: Terminology and information on drugs.
+Third edition. New York (NY), United Nations, 2016 (https://www.unodc.org/documents/scientific/Terminology_and_
+Information_on_Drugs-3rd_edition.pdf, accessed 15 January 2019).
+14
+HIV PREVENTION, TREATMENT, CARE AND SUPPORT FOR PEOPLE WHO USE STIMULANT DRUGS
+• Amphetamine-type stimulants: Amphetamines and methamphetamines (excluding MDMA) are
+found in different forms, e.g. crystals (methamphetamines), powder or formulated tablets [20].
+They are taken orally, smoked from a pipe, sniffed or snorted, inserted anally or injected in a
+solution.
+• Stimulant new psychoactive substances: Found in various forms, e.g.synthetic cathinone, phenethylamines, aminoindanes and piperazines. They are sometimes referred to as “bath salts” [21][22].
+Depending on the form, NPS are taken orally, smoked, inserted anally or injected.
+All types of stimulant drugs have common effects:
+• Mental: Euphoria, raised libido, reduced appetite and sleep drives, enhanced perception,
+increased alertness, cognitive improvements and deficits (attention, working memory, long-term
+memory), emotional intensity and excitability, and increased confidence.
+• Behavioural: Talkativeness, hypervigilance, hyperactivity, increased sociability, disinhibition,
+changes in sexual behaviour (including sexual sessions of longer than usual duration), faster reaction,
+and repetitive activity (“tweaking”); hyper-excitability, insomnia, restlessness, panic, erratic behaviour, and sometimes aggressive or violent behaviour[23].
+• Physical: Increased heart rate (including palpitations), raised temperature (hyperthermia), circulatory changes (higher blood pressure, vasoconstriction), increased breathing rate, dry mouth,
+teeth-grinding, jaw-clenching/gurning, faster eye-movements, and dilated pupils.
+The onset and duration of these effects vary according to the drug, its form, dosage, route of administration, the characteristics of the individual using it, and the context of use.
+Chronic use of stimulant drugs can lead to psychological dependence; development of tolerance;
+destruction of tissues in the nose if snorted or sniffed; chronic bronchitis, which can lead to chronic
+obstructive pulmonary disease; malnutrition and weight loss; disorientation, apathy, confusion,
+exhaustion due to lack of sleep, and paranoid psychosis. During withdrawal there may be a long period
+of sleep and depression.
+Cocaine
+Cocaine is generally encountered in two forms which differ in their route of administration: cocaine
+hydrochloride (HCL), a powder, which is snorted, injected or taken anally, and cocaine base (crack,
+freebase, or crystal) which is smokable and usually taken in a pipe. A third form, coca paste (pasta base,
+paco, coca pasta, etc.), is an intermediate product of the process of extraction of HCL from the coca
+leaves. Available mainly in Latin America, it is usually smoked in a cigarette.
+Cocaine is a powerful stimulant whose effects diminish quickly, prompting the user to repeatedly
+administer additional doses. When snorted, cocaine produces a slow wave of euphoria, followed by a
+plateau and then a “come down” period.
+In its smokable form, cocaine has a more intense and immediate effect. Severe anticipatory anxiety
+about the impending low may result in repeat dosing. This cycle may take around 5 to 10 minutes.
+The use of cocaine is more prevalent in North and South America than in the rest of the world.
+Amphetamine-type stimulants (ATS)
+Amphetamine and methamphetamine are synthetic drugs whose effects include euphoria, arousal and
+psychomotor activation. ATS can be taken orally, intranasally, smoked as a vapour (pipe), inserted
+anally or injected. Immediately after smoking or injecting, people experience a pleasurable “rush”.
+Intranasal and oral ingestion produce a gradual euphoria or “come up”. 
+Depending on the level of tolerance, the effects of methamphetamine may last four hours, or as long
+as 24 hours for someone new to the drug [24]. Some people who use methamphetamine may experience a feeling of invincibility, with an accompanying propensity to engage in high-risk behaviours,
+creating vulnerabilities to acquiring HIV [25]. The direct health impacts of ATS include insomnia and
+cardiovascular stress. Long-term negative effects may include dopamine physical dependence, psychological dependence, psychosis and paranoia, and depression.
+Amphetamine and methamphetamine use is reported in all parts of the world.
+Stimulant new psychoactive substances
+There are a various types of new psychoactive substances (NPS), with different molecular structures,
+but the majority of stimulant NPS are synthetic cathinones, which have a similar molecular structure
+to cathinone found in the khat plant. Common synthetic cathinones include mephedrone, pentedrone,
+methylone or methcathinone. They fall into two main families: euphoriants and entactogens.NPS are
+taken orally, can also be snorted or inserted anally, and less frequently are injected. Stimulant NPS
+produce similar mental, physical and behavioural effects to traditional stimulant drugs such as cocaine,
+amphetamines and methamphetamines. Synthetic cathinones and other stimulant NPS are also used
+to improve sexual experience [26].
+The use of synthetic cathinone such as mephedrone (sometimes called “bath salts”) has recently
+emerged [18]. Studies from Hungary [27][28][29], Ireland [30][31], Israel [32], Romania [33] and
+the United Kingdom [34] suggest that due to a shortage in heroin supply and easy access to synthetic
+cathinone, a significant proportion of people who inject drugs have switched to injecting synthetic
+cathinone in recent years.
+1.2 Stimulant drug use and risks of HIV/HBV/HCV transmission
+The HIV/HBV/HCV risk associated with stimulant drug use is linked to a higher prevalence of unprotected anal and vaginal sex, and of sharing pipes, straws and injection equipment, in some groups of
+men who have sex with men, sex workers, people who inject drugs and people in prisons.
+Transmission risks through concurrent stimulant drug use and unprotected sex
+Inconsistent condom use by people who use stimulant drugs has been identified as a prime means of
+contracting STIs, including HIV, particularly as a result of the concurrent use of stimulant drugs with
+frequent sexual activity of long duration with multiple partners or in groups. Stimulant drug use may
+also facilitate longer penetration (which can lead to condom breakages), and more intense acts such as
+fisting that increase the opportunity of anal and vaginal tears or bleeding.
+Transmission risks through sharing injection equipment
+Injecting methamphetamine, cocaine or NPS entails a similar risk to injecting other drugs when needles and injecting equipment are shared. Given that many stimulant drugs have a shorter duration of
+action compared with opioids, people who inject stimulant drugs report a higher frequency of injecting, with compulsive re-injecting and a greater likelihood of sharing and reusing needles and syringes
+that may be contaminated [22][34]. HIV and HCV risk is also increased when cocaine or crack is coadministered with heroin, including injection of heroin and cocaine (“speedballing”) [35].
+Coexisting injecting drug use and unprotected sex further increases the likelihood of HIV and hepatitis transmission, especially in high-incidence communities. This pattern has been seen, for example, 
+with the use of home-made ATS, such as boltushka in Ukraine. People who inject boltushka engage in
+high levels of injecting risk behaviours and in sexual risk behaviour post use. They are young and poor,
+and the great majority are already living with HIV [36].
+Hepatitis C transmission through straws or pipes
+HCV is transmitted through blood or, less commonly, through sexual contact. HCV can be transmitted from a person living with hepatitis who has oral or nasal sores or lacerations through sharing of
+straws or pipes [37][38][39][40]. Compared with the general population, higher HCV prevalence
+rates, ranging from 2.3 to 17 per cent, have been observed among people who smoke or sniff stimulant
+drugs [41]. However, it is difficult to determine whether HCV transmission in these cases occurred
+through blood exposure, sexual activity, or both.
+1.3 Stimulant drug use and HIV/HBV/HCV transmission risks
+among key populations
+Men who have sex with men
+There seems to be a clear association between ATS use among men who have sex with men and risk of
+HIV infection. Methamphetamine use has been associated with increased frequency of unprotected
+sex among some men who have sex with men, thereby increasing vulnerability to STIs, HBV and HIV
+[42][43][44][45]. Studies have indicated HIV prevalence rates among men who have sex with men
+who use methamphetamine ranging between 17 and 61 per cent, and HIV incidence ranging from
+2.71 per 100 person-years [46] to 5 per 100 person-years [47].
+The use of stimulant drugs by some men who have sex with men to facilitate sex (referred to as
+ChemSex)4 has been linked to decreased condom use, sex with multiple partners and other high-risk
+sexual behaviours that increase likelihood of HIV and HCV transmission [48][49]. Increased sexual risk
+behaviours, including unprotected sex, coupled with potential anal or rectal trauma resulting from longer,
+more frequent and intense sexual encounters under the influence of drugs, could facilitate STI transmission among men who have sex with men, including HCV among men who have sex with men living with
+HIV. Risk-reduction strategies for HIV prevention such as serosorting5
+ and strategic positioning6 are inefficient for the prevention of other STIs, HBV or HCV. The association between ChemSex, drug use and
+sexually transmitted acute HCV infection among men living with HIV who have sex with men has been
+documented in several countries and regions [50].
+ChemSex is mostly associated with non-injecting drug use, although some may also inject synthetic
+cathinones, amphetamines and methamphetamines (referred to as “slamming” or “blasting” within 
+the context of ChemSex) [51], with a high level of sharing of injection equipment and consequently
+higher risks of HIV and HCV transmission [52][53][54]. Mephedrone use seems to have risen among
+men who have sex with men in the context of ChemSex [52].
+The use of erectile dysfunction medications such as sildenafil is often reported among men who
+have sex with men who also consume methamphetamines and has been identified as increasing rates of
+unprotected sex and HBV, syphilis and HIV risks [46][48][55].
+People who inject drugs
+Injecting stimulant drugs carries the greatest risk of acquiring HCV or HIV, due primarily to the sharing of contaminated needles and syringes. People who inject cocaine, ATS or heroin have a risk of
+acquiring HIV that is respectively 3.6, 3.0, and 2.8 times greater than people using stimulant drugs
+without injecting [56]. Outbreaks of HIV or hepatitis C among people who inject drugs, partly due to
+the increased use of synthetic cathinone as a replacement for heroin, have been reported in Greece [57],
+Hungary [29] and Romania [33][58].
+People who inject stimulant drugs such as ATS show higher prevalence of sexual risk behaviours
+compared with people who inject opiates, and similar to non-injecting ATS users [59][60][61][62].
+Sex workers
+Exchanging sex for crack cocaine or money has been associated with several HIV risk behaviours, such
+as having a greater number of clients per week [63], high levels of unprotected sex [64], sharing crack
+cocaine with clients [65] and heavier crack use, as well as structural vulnerabilities like homelessness
+and unemployment [66]. One study reported a higher HIV prevalence among those who exchange sex
+for drugs or money than among those who did not [67]. Individuals with drug dependencies who
+exchange sex for drugs may have reduced power and control over sexual interactions [68]. The use of
+methamphetamines by female sex workers has been associated with engaging in unsafe sex [69].
+Female sex workers who use smokable cocaine are often homeless or poorly housed in economically depressed neighbourhoods, and have poor access to health services, including HIV services, as
+well as to prenatal and reproductive care and to social support. Sex workers, whether male, female or
+transgender, may be coerced into consuming drugs with their clients, increasing the risk of unprotected sex and violence.
+Male, female and transgender sex workers face barriers to accessing and using services due to the
+multiple stigma surrounding drug use, sex work and sexual orientation, which are criminalized to varying degrees in many jurisdictions around the world.
+Transgender people
+The use of methamphetamines, smokable cocaine or cocaine among transgender women has been
+associated with higher risks of HIV transmission, mainly through sex [70][71]. For example, a survey
+conducted among transgender women in high-risk venues and on the streets of Los Angeles, United
+States, indicated that recent methamphetamine and/or smokable cocaine use was associated with a
+more than twofold higher risk of reported HIV-positive status [72].
+People living in prisons and other closed settings
+People who use stimulant drugs, such as methamphetamine, in prisons are more likely to engage in a
+number of sexual risk behaviours, including use of methamphetamines in the context of sex and inconsistent use of condoms [73][74].
+18
+HIV PREVENTION, TREATMENT, CARE AND SUPPORT FOR PEOPLE WHO USE STIMULANT DRUGS
+Women who use drugs
+Women who use drugs face stigma and other barriers to accessing essential health and HIV services,
+including gender-based violence, fear of forced or coerced sterilization or abortion, or loss of child
+custody. Cross-cultural stigma associated with women vacating gender roles, such as caring for their
+family, being pregnant and being mothers of infants and children, is a major challenge [75]. Many
+women who use drugs face unequal power dynamics in relationships, and higher rates of poverty;
+these factors interfere with their ability to access reproductive health supplies, including condoms and
+other contraceptives [76].
+People living with HIV
+Although cocaine or methamphetamine use has a negative impact on the immune system, particularly
+among people living with HIV, the immunodepressive effect disappears when people living with HIV
+who use stimulant drugs adhere to antiretroviral therapy [77]. People living with HIV using stimulant
+drugs experience the worst HIV outcomes when they do not know they are living with HIV, or cannot
+access ART.
+A review of the literature reports findings that psychological, behavioural and social factors all play
+a role, separately and in combination, in determining HIV outcomes in patients, their access to health
+services, and adherence to ART:
+• In people living with HIV, regular methamphetamine use has measurable negative effects upon
+neuropsychological functioning (e.g. deficits in episodic memory, executive functions and information-processing speed) [78] over and above the negative neurocognitive effects caused by
+HIV and HCV [79]. This may impact their health-protective behaviour, health-services-seeking,
+access to HIV clinics and adherence to ART. In addition, HIV-specific traumatic stress and related
+negative affect are independently associated with greater stimulant-drug risk behaviours and
+reduced ART adherence [80].
+• Cocaine and ATS have a negative impact on the immune system, increasing vulnerability to
+opportunistic diseases and accelerating the evolution of HIV among people who do not adhere
+to ART [77][81]. (See section 2.4 for more information on the interactions between ART and
+stimulant drugs).
+• Some communities of people who use stimulant drugs are very marginalized, extremely poor and
+have few resources, including access to adequate nutrition, and this also impacts their access to
+services and consequently the evolution of HIV infection.
+To reach people who frequently use stimulant drugs and retain them in effective HIV treatment
+regimes, access and adherence barriers related to HIV treatment must be accurately identified and
+addressed. When assessing why a patient who uses stimulant drugs is lost to follow-up, important factors that should be considered include stigma, discrimination, mental health, employment status, poverty, homelessness, migration, exposure to violence, incarceration, fear of criminalization, and family
+responsibilities. See chapter 4 for more information.
+1.4 The impact of criminal sanctions on HIV transmission
+among key populations
+Stigma, discrimination and criminal sanctions against people who use drugs, men who have sex with
+men, transgender people, sex workers and people living with HIV have a direct impact on their ability
+and willingness to access and use HIV and other health services. These also impede the ability of 
+people from key populations to access the commodities or services needed to practise protective behaviours, including
+condom use, and to access sterile injecting equipment, HIV testing and HIV treatment.
+A systematic review of 106 peer-reviewed studies published between 2006 and 2014 examined the association between
+criminal sanctions for drug use and HIV prevention and treatment-related outcomes among people who inject drugs [82].
+While the studies were mainly conducted in North America and Asia, the findings highlighted that criminal sanctions were
+responsible for substantial barriers to HIV treatment and prevention interventions for people who inject drugs.
+
+21
+Chapter 2
+Core interventions
+Following an extensive literature review and technical consultations at country and global levels,
+expert participants in a number of consultations agreed on a package of eight core interventions for
+HIV prevention, treatment, care and support among people who use stimulant drugs and are at risk of
+HIV. These interventions have been adapted from the WHO/UNODC/UNAIDS Comprehensive
+Package for HIV and people who inject drugs, and from the WHO Consolidated Package for HIV and
+key populations [7][8].
+1 Condoms, lubricants and safer sex programmes
+2 Needle and syringe programmes (NSP) and other commodities
+3 HIV testing services (HTS)
+4 Antiretroviral therapy (ART)
+5 Evidence-based psychosocial interventions and drug dependence treatments
+6 Prevention, diagnosis and treatment of STIs, hepatitis and tuberculosis (TB)
+7 Targeted information, education and communication (IEC) for people who use stimulant
+drugs and their sexual partners
+8 Prevention and management of overdose and acute intoxication
+The core interventions should be adapted to the specific needs of different key populations. An assessment of the population to be served will assist in providing the evidence needed to design a clientcentred package of services that responds to specific needs.
+2.1 Condoms, lubricants and safer sex programmes
+People who have sex while under the influence of stimulant drugs are more likely to engage in sexual risk
+behaviours, especially unprotected sex [83]. They may have reduced sexual inhibitions and a feeling of
+invincibility, which makes choosing or remembering to use a condom more challenging. Other factors that 
+can contribute to inconsistent condom use include lack of access to condoms and lubricants when needed,
+poor safe-sex negotiations skills, being on PrEP [84] and engaging in risk-reduction strategies such as
+serosorting or strategic positioning. These strategies have their limits in terms of risk for HIV transmission,
+particularly if people are under the influence of stimulant drugs, and they do not prevent transmission of
+other STIs including HBV and HCV.
+Promoting the use of male and female condoms and appropriate
+lubricants remains a core HIV prevention strategy for people who use
+stimulant drugs and their sexual partners. Condoms offer protection
+against HIV, other STIs such as syphilis and gonorrhoea, and possible
+sexual transmission of HBV or HCV. Condoms can also prevent unintended pregnancy.
+Condoms and lubricants should be available widely, and without charge. Targeted distribution of
+free condoms helps overcome the barriers associated with their cost and can help reinforce the social
+acceptability of condom use. Distribution of condoms and sex-education information by peers and
+outreach workers plays an important role, including in the street or party setting.
+It is important to consider the variety of condoms available to meet key population preferences, and
+their distribution, to ensure wide availability of condoms and lubricant and access to them in places
+where people engage in stimulant drug use and sex concurrently. For example, in the case of sex-onpremises venues or nightclubs, simply making condoms available in the usual places, such as toilets or
+at the bar, is often not sufficient to ensure that people have them to hand when they need them.
+Consultation with the beneficiaries is critical to ensure easy access. Similarly, to ensure access to condoms in prisons, strategies must be tailored to each prison, based on its architecture, regime and the
+movements of prisoners within the prison.
+Safer-sex education for people who use stimulant drugs should cover:
+• Promotion of condoms and lubricant use
+• Information on sexual transmission of HIV, hepatitis and STIs
+• Safe-sex negotiation strategies
+• Information on strategies to reduce risks of HIV transmission (sero-sorting and strategic positioning), including their limitations
+• Information on pre-exposure prophylaxis of HIV (PrEP)
+Further resources
+The four key population implementation guides (the IDUIT, MSMIT, SWIT and TRANSIT) provide
+useful general information on condoms, lubricants and safer sex programming for people who inject
+drugs, men who have sex with men, sex workers and transgender people.
+23
+Chapter 2 Core interventions
+2.2 Needle and syringe programmes and other commodities
+Due to the short duration of their effects, injection of stimulant drugs is frequently associated with
+rapidly repeated injecting, with some individuals reporting more than 20 injections a day. Injecting
+may take place in groups, and people may use several different stimulant drugs and other types of drug
+in the same session. These patterns of use increase the likelihood that non-sterile equipment will be
+used or shared, elevating the risk of HIV and hepatitis transmission.
+The accessibility and design of needle and syringe programmes (NSPs) must take into account the
+nature of stimulant drugs and patterns of their use. People who inject stimulant drugs should be educated, encouraged and supported to acquire sufficient sterile syringes. NSP policies and protocols
+should allow people who inject stimulant drugs access to enough injecting equipment for themselves
+and their peers. One-for-one exchange or other forms of restricted access to needles and syringes are
+not recommended in any situation and are particularly unhelpful with people who inject stimulant
+drugs [85][86].
+In the party and club scene, injecting stimulant drugs is more likely to take place outside the normal
+operating hours of HIV harm reduction services. NSPs and other community drug services do not
+always engage with the party and club scene, compounding the lack of service availability or HIV prevention messaging. This lack of access is particularly problematic for people who inject stimulant
+drugs, who would benefit from access to an NSP and other services.
+Creative strategies can be used to make sterile needles and syringes available to people who inject
+stimulant drugs, particularly outside operating hours, and in the places where stimulant drugs are purchased or used. These may include satellite NSPs in projects or clinics for key populations, needle and
+syringe dispensing machines, secondary NSP, outreach programmes, safer clubbing initiatives, outreach at sex-on-premises venues (bars, saunas, clubs, etc.), outreach programmes at festivals, and community mobilization initiatives.
+NSPs designed to address the needs of people who use stimulant drugs, including all key populations, are well positioned to provide an entry point to a coordinated cascade of services, starting with
+voluntary HTS. They can also offer information on how to reduce risks related to the use of drugs,
+distribute female and male condoms and lubricant, and provide route transition interventions (see
+below). Efforts to understand the context of an individual’s drug use, their injecting equipment needs,
+and their concurrent sexual behaviours will help ensure that appropriate messaging is used.
+NSPs should also provide education, advice and equipment to support safer injecting practices,
+including on the importance of hand hygiene, avoiding sharing any paraphernalia (filters, water)
+associated with injecting, and keeping even the smallest amounts of blood out of the space where
+drugs are prepared for injection. It is also important to provide syringe disposal bins or plastic bins or
+containers for the safe disposal of used injecting equipment,
+which is key to preventing needle-stick injuries and reducing risk
+or inconvenience to the wider community associated with illicit
+drug injection.
+Syringes with colour-coded barrels provide an example of a
+promising practice that supports people who inject stimulant
+drugs in group settings. Each participant is assigned a different
+colour and provided with syringes of that colour which he or she
+alone is to use. This can help reduce the accidental sharing of
+injecting equipment, particularly if it is reused.
+Route transition interventions
+Route transition interventions support people who use drugs to avoid initiation into injecting, or to
+encourage people who are injecting to transition to non-injecting routes of administration. Behavioural
+interventions, peer education interventions and the provision of commodities that support alternatives to injecting, such as pipes, mouthguards and aluminium foil, can be used to engage with people
+who inject heroin and/or stimulant drugs.
+Box 3. A harm reduction programme for people who smoke cocaine or
+methamphetamines in the Pacific North-West United States
+The People’s Harm Reduction Alliance (PHRA) is a peer-based harm reduction programme
+for people who use drugs in the Pacific North-West of the United States, established
+in  2007. In its first year, PHRA provided syringes and sterile injection equipment;
+however, the need to expand services to include people who smoke drugs became
+quickly apparent via the peer-based framework and feedback from clients. In 2008,
+PHRA  launched a crack pipe programme to reach a different group of people who use
+drugs. The programme has become a point of contact for them to access additional
+services. In  2015, the programme was expanded to include methamphetamine pipes
+because participants informed PHRA that lack of access to pipes led them to inject more
+frequently than they would otherwise do.
+Both pipe programmes have increased the inclusion of people who smoke crack and
+methamphetamine at PHRA and linked them to other essential health services. In 2016,
+PHRA expanded services for non-injectors further with a snorting programme.
+HIV and HCV prevention opportunities for people who smoke stimulant drugs
+Crack cocaine, cocaine base and methamphetamine can be smoked in a pipe, offering access to the
+high-dose surging effect. The repeated use of heated crack pipes can cause blisters, cracking and sores
+on the tongue, lips, face, nostrils and fingers. It has been suggested that this may facilitate HCV transmission via unsterile paraphernalia (although this has not been clearly established). People smoking
+stimulant drugs in pipes do not require single-use equipment but will benefit from having personal
+(individual) smoking equipment, and messaging that pipes should not be shared. The same principle
+applies for straws used to inhale cocaine.
+The distribution of pipes, mouthguards and other piping paraphernalia provides practical strategies
+for engaging stimulant drug smokers and reinforces the “Don’t share pipes” message. The principles of
+distributing paraphernalia and engaging people who smoke stimulant drugs with messages about HIV
+and hepatitis prevention remain the same.
+25
+Chapter 2 Core interventions
+Box 4. Example of content of kits for safer smoking
+• Pipes
+• Mouth- or lip guards – a rubber band, rubber tubing, or sometimes specially produced
+• Stainless steel wool, used as gauze to suspend the crack cocaine inside the pipe
+• Alcohol wipes to clean the pipe and reduce risks associated with sharing
+• Lip balm containing vitamin E, to help protect and heal chapped or injured lips
+• Sterile dressing to cover wounds or burns arising from smoking crack
+• Sugar-free chewing gum which can help stimulate saliva production to protect teeth
+and reduce dental damage
+• Condoms and lubricants to support safer sex practices
+• Health promotion leaflets
+Safe tattooing
+In some population groups who use stimulant drugs, unsafe tattooing is frequent and constitutes a risk
+for transmission of HCV. This is a particular issue in prisons where tattooing is prohibited and hidden
+and unhygienic tattooing is common. NSPs and other low-threshold services can offer safe tattooing
+information, training and safe equipment.
+2.3 HIV testing services
+HIV testing provides an opportunity to deliver HIV prevention messages and to link people to HIVprevention and other relevant health and support services. HIV testing services (HTS) are also the
+critical entry point to ART (see section 2.4). Given the evidence that individuals who are ARTadherent and have achieved viral suppression do not transmit HIV, HTS is a crucial component of
+HIV prevention programmes.
+It is important to increase the opportunities for people who use stimulant drugs to access and use
+confidential, easy and convenient HIV testing that is linked to the provision of ART for those who test
+positive. Community-based rapid HIV testing provides an opportunity to deliver results immediately.
+This can be of particular importance with street- or venue-based people who use stimulant drugs,
+where the primary source of engagement may be outreach programmes brought to where they are,
+rather than waiting for them to present at a specific testing location. Other outreach opportunities may also be used to distribute
+HIV self-test kits.
+Regardless of the testing modality, it is important to have a
+protocol to assist people to get a confirmatory test if they test
+positive, and to access and successfully use HIV care and treatment services if needed, including immediate access to ART,
+post-exposure prophylaxis (PEP) or PrEP, as appropriate. 
+On-site HIV testing can pose challenges, including the possible lack of confidentiality that comes
+especially with small, closed communities. Outreach workers and service providers need to ensure
+that HIV testing is always voluntary and that coercive use of self-test kits by third parties such as law
+enforcement or employers to test any individual (e.g., sex workers) is unacceptable.
+2.4 Antiretroviral therapy
+Antiretroviral therapy (ART) is the treatment of people living with HIV with medications that suppress the replication of the virus. Currently the standard treatment consists of a combination of antiretroviral drugs (ARVs), and it is indicated for all people living with HIV, irrespective of their CD4 count.
+ART reduces morbidity and mortality rates among people living with HIV, improves their quality of
+life and reduces risks of transmission of HIV. ARVs are also administered to some groups of people at
+risk for HIV acquisition either before exposure (PrEP) or after (PEP). ART is also needed for prevention of mother-to-child transmission of HIV.
+Cocaine and ATS have been associated with faster disease progression in people living with HIV, due to weakening of the
+immune system by the drugs. However, if adherence is maintained, the effectiveness of ART is not reduced in people who use
+stimulant drugs: ART reduces viral load and improves immune
+function, just as it does for other people living with HIV [77].
+Strategies to support adherence to ART, including peer and
+outreach support, are described in section 3.1.
+Side-effects of antiretroviral drugs and interactions with stimulant drugs
+As with many medications, ARVs have been associated with various side-effects, including acute or
+chronic alterations of the renal function, or hepatic dysfunction. Some medications can cause sideeffects in the central nervous system, such as depression.
+Liver toxicity is one of the most commonly reported adverse consequences associated with ARVs.
+This can range from asymptomatic elevation of the liver enzymes to a hepatic failure. Risks for ARVrelated adverse consequences for the liver are higher in cases of cocaine use, excessive alcohol use, coinfection with HBV or HCV, fibrosis of the liver, concomitant treatment for TB and advanced age.
+Impact of stimulant drugs on antiretroviral drug serum level
+Cocaine, mephedrone and methamphetamines interact with several ARVs, influencing the serum level
+of the medications and the risk of side-effects. As scientific knowledge progresses, new ARV regimens
+may be proposed, with the potential for interactions with the NPS that are frequently appearing on the
+market. The University of Liverpool provides a regularly updated website on HIV medication interactions, including the interaction of ARVs with stimulant drugs:
+https://www.hiv-druginteractions.org/treatment_selectors.
+Impact of antiretroviral drugs on serum level of stimulant drugs
+Serum levels of methamphetamines may increase up to three times when used by someone who is also
+taking protease inhibitors, especially ritonavir. Fatal cases attributed to inhibition of the metabolism of
+MDMA and amphetamines by ritonavir have been reported.
+Oral pre-exposure prophylaxis
+Oral pre-exposure prophylaxis (PrEP) is the use of antiretroviral medications to prevent the acquisition of HIV infection by uninfected persons. WHO recommends daily oral PrEP as a prevention
+choice for people at substantial risk of HIV [91]; it can be stopped during periods of low or no risk.
+Taken as prescribed, PrEP can reduce the risk of getting HIV from sex with an HIV-positive person by
+more than 90 per cent [92].
+PrEP has been effective in communities where the primary vector for transmission is sexual, such as
+men who have sex with men, and is therefore appropriate for people who use stimulant drugs. PrEP
+does not replace HIV prevention interventions, such as comprehensive condom programming for sex
+workers and men who have sex with men. It does not prevent transmission of hepatitis and other STIs.
+Services for people who inject stimulant drugs should prioritize evidence-based comprehensive HIV
+prevention interventions, including NSP, condoms and lubricants. For men who have sex with men who
+use stimulant drugs and engage in high-risk sex, PrEP should always be proposed, whether or not the
+individual injects drugs.
+Adherence to PrEP is essential, and it may be challenging for people using stimulant drugs for several days in a row. People who use stimulant drugs and engage in concurrent sex should be encouraged
+and supported to plan ahead to use condoms, lubricants and PrEP in combination, to ensure better
+protection against HIV and to prevent other STIs, including hepatitis C and B.
+As with other prevention tools, the effectiveness of PrEP is optimized when interventions are
+implemented by, and in close consultation with, prospective beneficiary communities.
+Further resources
+Implementation tool for pre-exposure prophylaxis (PrEP) of HIV infection (WHO, 2017) [93]
+Post-exposure prophylaxis
+Post-exposure prophylaxis (PEP) is the administration of ARVs for a short term (one month) to prevent HIV infection after exposure to HIV through unprotected sex or contact with blood. PEP should
+be offered to all individuals who have potentially been exposed to HIV, whether through unprotected
+sex (including sexual assault), needle-stick injury or sharing drug injection equipment. It should be
+initiated as early as possible, ideally within 72 hours.
+People who use stimulant drugs and engage in sex concurrently are known to often have multiple
+sexual partners. The chances of unprotected sex or condom failure are increased with stimulant drug
+use or with the increase in the number of partners. A participative stakeholder process should lead to
+the development of protocols for community access to PEP, from local to national levels, to ensure that
+the required medications are promptly accessible and are used by those who need them. People who use
+stimulant drugs and who access PEP regularly should be assessed as likely candidates for PrEP.
+Further resources
+Consolidated guidelines on the use of antiretroviral drugs for treating and preventing HIV infection.
+Recommendations for a public health approach - Second edition (WHO, 2016) [162]
+2.5 Evidence-based psychosocial interventions and drug
+dependence treatments
+The impact of a drug is determined by the complex interactions between the substance, set (the mindset of the individual) and setting (the context), which mediate the drug’s effect and its associated
+impact on the individual, including the move towards dependent or high-risk drug use [94]. The great
+majority of people who use stimulant drugs do so on an occasional basis that may be characterized as
+“recreational”, and they will not develop dependence. This group has little need for high-intensity
+interventions. This section provides an overview of possible interventions, mainly psychosocial ones,
+that show effectiveness specifically for reducing risk behaviours and provide support for people who
+regularly use stimulant drugs, including people living with HIV.
+29
+Chapter 2 Core interventions
+The treatment of cocaine or ATS drug dependence requires time-intensive approaches that are not
+addressed here. Unlike the treatment of opioid dependence, there are currently no substitution medications available to treat dependence on cocaine or ATS [95][96]. Some emerging practices around
+dispensing dexamphetamine as a substitute for cocaine or methamphetamine dependence have shown
+early promise, but further research is needed.
+Behavioural interventions, self-regulation coaching and psychosocial counselling can support HIV/HCV prevention and
+treatment objectives for people who use stimulant drugs, while
+also contributing to longer-term and broader health and wellness
+goals. There is evidence that brief interventions that concentrate
+on providing information about safe behaviours and harm mitigation are effective in moderating drug-related harms [97] and maintaining ART adherence for those who are living with HIV [98].
+Addressing the potential risks associated with the nexus of drug use and HIV requires individual,
+structural and combination approaches [99]. Psychosocial services such as motivational interviewing,
+brief interventions, contingency management and cognitive behavioural therapy are critical to effectively support HIV prevention and treatment among people who use stimulant drugs. Some of these
+approaches are described below. A 2016 review of psychosocial interventions for stimulant drug-use
+disorders found that all showed improved retention in ART compared with no intervention, although
+no single intervention showed a sustained benefit over the others [100].
+Psychosocial services should be based on principles of community inclusion and participation,
+peer support and the needs of the individual. When developing HIV prevention interventions, it is
+important that sexual partners of people who use stimulant drugs be included in the process, focusing
+on the HIV risks that are associated with drug use and concurrent sexual behaviours.
+Motivational interviewing
+Motivational interviewing is a person-centred, semi-directive approach for exploring motivation and
+ambivalence in order to facilitate self-motivational statements and behavioural changes. It consists in
+establishing a partnership between the provider and the individual and enabling the individual to
+become aware of the discrepancy between their present situation and their own values. The technique
+relies on four principles: express empathy, develop discrepancy, roll with resistance and support selfefficacy. These can easily be used by trained non-specialist staff, including outreach workers, in formal
+or informal counselling, IEC and other conversations. Motivational interviewing generally requires
+just one or two sessions. The success of motivational interviewing has led to its implementation as a
+“catch-all” approach to eliciting change in areas such as medication compliance, smoking cessation and
+diet and exercise [101]. A 2012 Cochrane review suggested that motivational interviewing could reduce
+risky sexual behaviour, and in the short term lead to a reduction of viral load in young people living with
+HIV [102]. Research has shown that motivational interviewing can reduce the incidence of unprotected
+anal intercourse among men who have sex with men [103], as well as levels of drug use [104].
+Brief interventions
+Brief interventions are short, often opportunistic interactions in which a health worker provides targeted information and advice to individuals during other activities such as distributing sterile injecting
+equipment or conducting an HIV test. Brief interventions have been shown to reduce drug use as well
+as associated risks and sexual risk behaviours. Meta-analyses suggest that there is little difference in the
+outcomes between longer, more intensive interventions and brief interventions, and the latter are
+likely to be more practical and cost-effective options, with few barriers to implementation [105].
+Motivational interviewing, contingency
+management and brief interventions for
+dependence to stimulant drugs can reduce
+drug-related high-risk sexual behaviours
+and increase adherence to ART and PrEP.
+30
+HIV PREVENTION, TREATMENT, CARE AND SUPPORT FOR PEOPLE WHO USE STIMULANT DRUGS
+Contingency management
+Contingency management is an approach that incentivizes people with rewards such as cash that are
+contingent on achieving a set of pre-defined outcomes. Contingency management has been shown to
+have a moderate yet consistent effect on drug use across different classes of drugs [106]. The effectiveness of contingency management supports the idea that small, regular rewards motivate people to
+modify behaviours that could be considered harmful. Positive regard, and the client’s own expressed
+belief in their ability to achieve goals, are a critical factor in improving agreed-upon outcomes.
+Cognitive behavioural therapy
+Cognitive behavioural therapy (CBT) is a structured approach to counselling that assumes that behaviours are learned and reinforced as a result of cognitive constructs and deficits in coping. The aim of
+CBT is to “unlearn” behaviours considered unhelpful, such as HIV risk behaviour or certain patterns of
+drug-taking. While results appear to be sustained over a period, CBT is intensive and time-consuming,
+and demands specialist practitioners and individual treatment [107].
+Mindfulness
+Mindfulness can be defined as the ability to focus open, non-judgemental attention on the full experience of internal and external phenomena, moment by moment. Positive outcomes – including reducing
+drug use and risk behaviours, and in relapse prevention – have been documented from mindfulness
+training as part of approaches to reduce harm, including for people who use stimulant drugs
+[108][109][110].
+Opioid substitution therapy and stimulant drug use
+People receiving opioid substitution therapy (OST) for heroin or other opioid dependence may use
+stimulant drugs because of OST-triggered fatigue, inability to experience pleasure, or the desire to
+remain connected to the community of people who use drugs. OST is not designed to counter stimulant drug use, and the concurrent use of stimulant drugs while on OST should not be viewed as a
+breach, nor should it lead to the reduction or discontinuation of OST. The benefits of OST are independent of stimulant drug use [111]. Existing OST providers should be sensitized to this and trained
+to use the opportunities afforded by regular OST and client engagement to support the delivery of
+interventions included in this guidance.
+Further resources
+mhGAP intervention guide for mental, neurological and substance use disorders in non-specialized health settings
+(WHO, 2010) [112]
+Therapeutic interventions for users of amphetamine-type stimulants (WHO, 2011) [113]
+Harm reduction and brief interventions for ATS users (WHO, 2011) [114]
+Guidelines for the management of methamphetamine use disorders in Myanmar (Ministry of Health and
+Sports, Myanmar, 2017) [115]
+Guidance for working with cocaine and crack users in primary care (Royal College of General Practitioners,
+2004) [116]
+Principles of drug dependence treatment (UNODC, WHO, 2008) [117]
+Drug abuse treatment and rehabilitation: a practical planning and implementation guide (UNODC, 2003) [118]
+TREATNET quality standards for drug dependence treatment and care services (UNODC, 2012) [111]
+Guidelines for the psychosocially assisted pharmacological treatment of opioid dependence (WHO, 2009)[163]
+Treatment of stimulant use disorders: current practices and promising perspectives. Discussion paper (UNODC,
+2019)[164]
+31
+Chapter 2 Core interventions
+2.6 Prevention, diagnosis and treatment of sexually
+transmitted infections, hepatitis and tuberculosis
+Screening people who use stimulant drugs for infectious diseases, such as sexually transmitted infections (STIs), HBV, HCV and TB, is a crucial part of a comprehensive approach. Along with HIV, these
+infections are often associated with the use of illicit substances, and they may co-occur with stimulant
+drug use.
+Prevention, diagnosis and treatment of sexually transmitted infections
+Unsafe sex can lead to acute STIs, which can cause infertility and severe illness. Several STIs, particularly those involving genital or perianal ulcers, may facilitate the sexual transmission of HIV infection.
+Sex workers, transgender people and men who have sex with men are often at increased risk of STIs
+such as syphilis, gonorrhoea, chlamydia and herpes. It is therefore important to offer information,
+male and female condoms and lubricant, and screening, diagnosis and treatment of STIs and possibly
+HPV vaccine to people using stimulant drugs who are vulnerable to STIs and HIV.
+Further resources
+Resources on sexually transmitted and reproductive tract infections (WHO webpage providing clinical,
+policy and programmatic, monitoring and evaluation and advocacy guides) [119]
+Prevention, vaccination, diagnosis and treatment of hepatitis B and C
+People who inject stimulant drugs are at heightened risk of acquiring HBV and HCV because of frequent injecting and sharing of injection equipment. The risk of sharing equipment is higher when
+injecting happens in communal settings. HCV is much more virulent than HIV and can survive outside the body at room temperature, on environmental surfaces, for up to three weeks [120], making it
+more easily transmitted through the sharing of syringes and other injecting paraphernalia. Key populations who use stimulant drugs should be offered hepatitis B or hepatitis A-B vaccination, access to
+prevention commodities, and voluntary screening and treatment of HBV and HCV.
+Prevention
+NSPs and community mobilization initiatives should distribute relevant equipment, including low
+dead-space syringes, for injecting, smoking and snorting (see section 2.2). Male and female condom
+programming is also part of hepatitis B and C prevention interventions as well as sexual and reproductive health services. Education should include messages on the risks of serosorting, and of intense
+sexual practices involving potential trauma of the mucosa for HCV acquisition and transmission
+among people living with HIV [50].
+Hepatitis A and B vaccination
+Key populations should be offered the series of HBV immunizations. WHO recommends:
+• Offering people the rapid hepatitis B vaccination regimen (days 0, 7 and 21-30).
+• Providing people who inject drugs with incentives in order to increase hepatitis B vaccination
+adherence, at least for the second dose. Even partial immunization confers some immunoprotection. [87]
+Hepatitis A (HAV) immunization or combined HAV-HBV immunization should be offered to men
+who have sex with men and people using stimulant drugs [121].
+32
+HIV PREVENTION, TREATMENT, CARE AND SUPPORT FOR PEOPLE WHO USE STIMULANT DRUGS
+Immunization should be easily accessible and offered at locations and venues frequented by people
+who use stimulant drugs, such as drop-in centres, NSPs and other community service outlets.
+Screening for HBV and HCV
+Voluntary screening for HBV and/or HCV should be offered to people who use stimulant drugs at risk
+of these infections. Testing and diagnosis of HBV and HCV infection is an entry point for accessing
+both prevention and treatment services. Early identification of persons with chronic HBV or HCV
+infection enables them to receive the necessary care and treatment to prevent or delay the progression
+of liver disease. Rapid tests for hepatitis C allow for better access to diagnosis, including communitybased testing.
+Treatment of chronic hepatitis C or B
+All people with chronic hepatitis C should receive treatment. With an 8- to 12-week course, directacting antivirals (DAAs) cure more than 95 per cent of persons with HCV infection, reducing the risk
+of death from liver cancer and cirrhosis. For chronic hepatitis B, antiviral treatment can slow down the
+progression of cirrhosis and reduces the risk of liver cancer [162].
+People who are actively injecting drugs have been shown to adhere to HCV treatment regimens as
+well as any other population, particularly when social, emotional and practical support are provided [122].
+All people who use stimulant drugs living with HCV should therefore be offered access to direct-acting
+antivirals without discrimination.
+Further resources
+Guidance on prevention of viral hepatitis B and C among people who inject drugs (WHO, 2012) [87]
+Guidelines for the screening, care and treatment of persons with chronic hepatitis C infection (WHO, 2016) [123]
+Consolidated guidelines on the use of antiretroviral drugs for treating and preventing HIV infection.
+Recommendations for a public health approach - Second edition (WHO, 2016) [162]
+Prevention, diagnosis and treatment of tuberculosis
+In 2016, 10.4 million people fell ill with TB. It is a leading killer of people living with HIV: in 2016, 40
+per cent of HIV deaths were due to TB [124].
+Transmission of TB is easily facilitated through airborne particulates, such as by kissing, coughing,
+sneezing or shouting. TB is easily spread in prisons and other closed settings, and in crowded and
+poorly ventilated spaces, such as are often found in poor communities or among homeless people.
+People who inject drugs are at increased risk of TB, irrespective of their HIV status, and TB is a
+leading cause of mortality among people who inject drugs who also have HIV infection [125]. People
+who use drugs who do not inject have also been found to have increased rates of TB. Certain subgroups of stimulant drug users, such as those who use stimulant drugs regularly for days at a time, may
+be immuno-deficient from lack of sleep and food, facilitating TB transmission. It is therefore important
+to include TB prevention, screening and treatment in communities and services.
+Further resources
+Integrating collaborative TB and HIV services within a comprehensive package of care for people who inject
+drugs: consolidated guidelines (WHO, 2016) [125]
+33
+Chapter 2 Core interventions
+2.7 Targeted information, education and communication
+To reduce the risk of acquiring STIs or HIV, people who use stimulant drugs need knowledge and support. Information, education and communication (IEC) provides information, motivation, education
+and skills-building to help individuals adopt behaviours that will protect their health.
+Effective communication for health targeting people who use stimulant drugs requires addressing
+two challenges:
+• Crafting messages that can overcome long-standing distrust and fear.
+• Finding effective means of reaching people who use stimulant drugs with life-saving messages
+and materials.
+Key to meeting these challenges is meaningful engagement with the target audience of people who use
+stimulant drugs. Communities should be represented at every stage of IEC development, including the
+overall strategy and concept, and the development, testing, dissemination and evaluation of messages.
+Working with the community will help ensure that tools and materials are accurate and will be trusted
+and used. Recipients of IEC who have invested their own ideas
+and time in it will be more likely to stand behind the results and be
+active participants, not only in their own health but in health promotion in their community.
+Materials must be easily understandable and to the point.
+Interactive materials on a digital platform can tailor messaging to
+the specific situation of the service user and are often helpful in
+maintaining attention. On the other hand, traditional printed
+materials have the advantage of not requiring computer, phone or
+Internet access. They also provide an opportunity for outreach
+workers or other programme staff distributing the materials to
+interact with the service users, and a means for service users to
+easily share information with others.
+Using information technology to support behavioural interventions
+Online and social media can be a cost-effective manner of reaching targeted audiences. A local assessment can show where using these technologies will be advantageous and appropriate. Free WiFi at
+drop-in centres and other community points of congregation provides opportunities for access and
+use. Where people who use stimulant drugs have smartphones, websites and apps can be deployed just
+as they have been to reach other key populations.
+The use of technology has shown promising results in promoting sexual health or adherence to
+ART in different settings, including resource-limited settings [126][127]. Web-based applications
+provide an opportunity to reach a large audience at any time and provide information on health and
+available services. They also allow for online outreach and interactions with people who wish to discuss problems or have questions.
+However, when the information relates to drug use, or other criminalized behaviours, the use of
+some digital media raises concerns about the anonymity of the contacts, and possible risks related to
+law enforcement must be addressed. Working with communities and low-threshold service providers
+will help inform the local potential for digital materials and campaigns and help ensure the security of
+people accessing information.
+Given the variety that exists among people
+who use stimulant drugs, messaging should
+take into account the sex, gender, sexual
+orientation, age and setting of recipients of
+IEC. Literacy levels, social and community
+inclusion or exclusion, and other cultural
+and societal variables must also be
+considered.
+34
+HIV PREVENTION, TREATMENT, CARE AND SUPPORT FOR PEOPLE WHO USE STIMULANT DRUGS
+Further resources
+The European Centre for Disease Prevention and Control (ECDC) has developed guidance documents for the effective use of social media. While the tools were developed for Europe, and specifically
+for reaching men who have sex with men, they provide guidance on the relative advantages of different
+media, such as Facebook, online outreach, Google Ads, SMS and YouTube, that may be useful in other
+contexts.
+Effective use of digital platforms for HIV prevention among men who have sex with men in the European
+Union/European Economic Area: an introduction to the ECDC guides (ECDC, 2017) [128]
+2.8 Overdose and acute intoxication prevention and management
+Very high doses of stimulant drugs consumed in a short amount of time can trigger acute respiratory distress, chest pain, palpitations or myocardial infarctions [112]. In extreme cases this can result in cardiac
+arrest. The first signs of stimulant drugs intoxication are hyperactivity, rapid speech and dilated pupils.
+In the case of polydrug use, overdose can be the result of the combination of stimulants with other
+drugs including opioid or sedative drugs.
+The treatment of stimulant drugs intoxication is symptomatic and requires regular monitoring of
+blood pressure, pulse rate, respiratory rate and temperature (figure I.).
+Serotonergic syndrome is caused by an excess of serotonin in the central nervous system associated
+with the use of ATS. It can result in uncontrollable muscle spasms, tremor, seizures, psychosis, high
+blood pressure, high body temperature >400
+C (hyperthermia) and release of myoglobin from muscles
+and blood clotting in vessels (disseminated intravascular coagulation), which may lead to severe diseases and potentially death.
+People who use stimulant drugs need to be informed on how to reduce the risks of acute intoxications (see the Information checklist for self-care and stimulant drugs in the annex). For people on
+PrEP, ART or hepatitis treatment, information should be provided on the interactions and possible
+risks of cocaine and ATS use to serum levels (see section 2.4).
+People who use stimulant drugs should be trained to recognize overdoses, provide first aid, including cardiopulmonary resuscitation (CPR) and call immediately for emergency professional assistance
+if they witness an overdose. 

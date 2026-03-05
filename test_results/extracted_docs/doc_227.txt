@@ -1,0 +1,91 @@
+Cancer-related genetic changes can occur because: 
+ 
+
+ random mistakes in our DNA happen as our cells multiply 
+ our DNA is altered by carcinogens in our environment, such as chemicals in tobacco smoke, UV rays from the sun, and the human papillomavirus (HPV) 
+ they were inherited from one of our parents 
+ DNA changes, whether caused by a random mistake or by a carcinogen, can happen throughout our lives and even in the womb. While most genetic changes aren’t harmful on their own, an accumulation of genetic changes over many years can turn healthy cells into cancerous cells. The vast majority of cancers occur by chance as a result of this process over time.
+ 
+
+ Cancer itself can’t be passed down from parents to children. And genetic changes in tumor cells can’t be passed down. But a genetic change that increases the risk of cancer can be passed down (inherited) if it is present in a parent's egg or sperm cells.
+ 
+
+ For example, if a parent passes a mutated BRCA1 or BRCA2 gene to their child, the child will have a much higher risk of developing breast and several other cancers. 
+ 
+
+ That’s why cancer sometimes appears to run in families. Up to 10% of all cancers may be caused by inherited genetic changes.  
+ 
+
+ Inheriting a cancer-related genetic change doesn’t mean you will definitely get cancer. It means that your risk of getting cancer is increased. 
+ 
+
+ A family cancer syndrome, also called a hereditary cancer syndrome, is a rare disorder in which family members have a higher-than-average risk of developing a certain type or types of cancer. Family cancer syndromes are caused by inherited genetic variants in certain cancer-related genes.
+ 
+
+ With some family cancer syndromes, people tend to develop cancer at an early age or have other noncancer health conditions. 
+ 
+
+ For example, familial adenomatous polyposis (FAP) is a family cancer syndrome caused by certain inherited changes in the APC gene. People with FAP have a very high chance of developing colorectal cancer at an early age and are also at risk of developing other kinds of cancer.
+ 
+
+ But not all cancers that appear to “run in families” are caused by family cancer syndromes. A shared environment or habits, such as exposure to air pollution or tobacco use, may cause the same kind of cancer to develop among family members.
+ 
+
+ Also, multiple family members may develop common cancers, such as prostate cancer, just by chance. Cancer can also run in a family if family members have a combination of many genetic variants that each have a very small cancer risk.
+ 
+
+ Certain genetic tests can show if you’ve inherited a genetic change that increases your risk of cancer. This testing is usually done with a small sample of blood, but it can sometimes be done with saliva, cells from inside the cheek, or skin cells.
+ 
+
+ Not everyone needs to get genetic testing for cancer risk. Your doctor or health care provider can help you decide if you should get tested for genetic changes that increase cancer risk. They will likely ask if you have certain patterns in your personal or family medical history, such as cancer at an unusually young age or several relatives with the same kind of cancer. 
+ 
+
+ If your doctor recommends genetic testing, talking with a genetic counselor can help you consider the potential risks, benefits, and drawbacks of genetic testing in your situation. After testing, a genetic counselor, doctor, or other health care professional trained in genetics can help you understand what the test results mean for you and for your family members.
+ 
+
+ Although it’s possible to order an at-home genetic test on your own, these tests have many drawbacks and are not generally recommended as a way to see whether you have inherited a genetic change that increases cancer risk.
+ 
+
+ If you have cancer, a different type of genetic test called a biomarker test can identify genetic changes that may be driving the growth of your cancer. This information can help your doctors decide which therapy might work best for you or if you may be able to enroll in a particular clinical trial. For more information, see Biomarker Testing for Cancer Treatment. Biomarker testing may also be called tumor profiling or molecular profiling.
+ 
+
+ Biomarker testing is different from the genetic testing that is used to find out if you have an inherited genetic change that makes you more likely to get cancer. Biomarker testing is done using a sample of your cancer cells—either a small piece of a tumor or a sample of your blood.
+ 
+
+ In some cases, the results of a biomarker test might suggest that you have an inherited mutation that increases cancer risk. If that happens, you may need to get another genetic test to confirm whether you truly have an inherited mutation that increases cancer risk.
+ 
+
+ Genetic changes can lead to cancer if they alter the way your cells grow and spread. Most cancer-causing DNA changes occur in genes, which are sections of DNA that carry the instructions to make proteins or specialized RNA such as microRNA.  
+ 
+
+ For example, some DNA changes raise the levels of proteins that tell cells to keep growing. Other DNA changes lower the levels of proteins that tell cells when to stop growing. And some DNA changes stop proteins that tell cells to self-destruct when they are damaged.
+ 
+
+ For a healthy cell to turn cancerous, scientists think that more than one DNA change has to occur. People who have inherited a cancer-related genetic change need fewer additional changes to develop cancer. However, they may never develop these changes or get cancer.
+ 
+
+ As cancer cells divide, they acquire more DNA changes over time. Two cancer cells in the same tumor can have different DNA changes. In addition, every person with cancer has a unique combination of DNA changes in their cancer. 
+ 
+
+ Multiple kinds of genetic changes can lead to cancer. One genetic change, called a DNA mutation or genetic variant, is a change in the DNA code, like a typo in the sequence of DNA letters. 
+ 
+
+ Some variants affect just one DNA letter, called a nucleotide. A nucleotide may be missing, or it may be replaced by another nucleotide. These are called point mutations.
+ 
+
+ For example, around 5% of people with cancer have a point mutation in the KRAS gene that replaces the DNA letter G with AExit Disclaimer. This single letter change creates an abnormal KRAS protein that constantly tells cells to grow.  
+ 
+
+ Cancer-causing genetic changes can also occur when segments of DNA—sometimes very large ones—are rearranged, deleted, or copied. These are called chromosomal rearrangements.
+ 
+
+ For example, most chronic myelogenous leukemias (a type of blood cancer) are caused by a chromosomal rearrangement that places part of the BCR gene next to the ABL gene. This rearrangement creates an abnormal protein, called BCR-ABL, that makes leukemia cells grow out of control.  
+ 
+
+ Some cancer-causing DNA changes occur outside genes, in sections of DNA that act like “on” or “off” switches for nearby genes. For example, some brain cancer cells have multiple copies of “on” switches next to genes that drive cell growth.
+ 
+
+ Other DNA changes, known as epigenetic changes, can also cause cancer. Unlike genetic variants, epigenetic changes (sometimes called epimutations) may be reversible and they don’t affect the DNA code. Instead, epigenetic changes affect how DNA is packed into the nucleus. By changing how DNA is packaged, epigenetic changes can alter how much protein a gene makes.
+ 
+
+ Some substances and chemicals in the environment that cause genetic changes can also cause epigenetic changes, such as tobacco smoke, heavy metals like cadmium, and viruses like Epstein-Barr virus.

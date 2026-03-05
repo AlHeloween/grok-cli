@@ -1,0 +1,66 @@
+Bills in the 116th Congress
+Legislation Commissioning Agency Analyses
+In January 2019, the House passed three bills that would commission studies concerning the use
+of virtual currencies for illicit purposes. H.R. 56, the Financial Technology Protection Act, would
+establish an Independent Financial Technology Task Force to Combat Terrorism and Illicit
+Financing (Task Force) led by the Treasury Secretary.98 The bill would direct the Task Force to
+(1) “conduct independent research on terrorist and illicit use of new financial technologies,
+including digital currencies,” and (2) “develop legislative and regulatory proposals to improve
+counter-terrorist and counter-illicit financing efforts.”
+99 H.R. 56 would further require the Task
+Force to annually report its findings to Congress.100 The bill would also establish two programs to
+incentivize members of the public to assist the federal government’s efforts to combat the illicit
+use of virtual currencies. First, the bill would direct the Treasury Secretary to establish a reward
+of up to $450,000 for persons who “provide[] information leading to the conviction of an
+individual involved with terrorist use of digital currencies.”
+101 Second, the bill would direct the
+Treasury Secretary to create a grant program “for the development of tools and programs to detect
+terrorist and illicit use of digital currencies.”102 After passing the House in January 2019, H.R. 56
+was referred to the Senate Committee on Banking, Housing, and Urban Affairs.
+A second bill, H.R. 428, the Homeland Security Assessment of Terrorists’ Use of Virtual
+Currencies Act, would similarly commission an analysis of the use of virtual currencies by
+terrorists.
+103 Specifically, H.R. 428 would direct the Under Secretary of Homeland Security for
+Intelligence and Analysis to conduct a “threat assessment” analyzing “the actual and potential
+threat posed by individuals using virtual currency to carry out activities in furtherance of an act of
+terrorism, including the provision of material support or resources to a foreign terrorist 
+organization.”
+104 After passing the House in January 2019, H.R. 428 was referred to the Senate
+Committee on Homeland Security and Governmental Affairs.
+Finally, H.R. 502, the Fight Illicit Networks and Detect Trafficking Act (the FIND Trafficking
+Act), would direct the Government Accountability Office (GAO) to conduct a study “on how
+virtual currencies and online marketplaces are used to facilitate sex and drug trafficking.”
+105 The
+bill would require GAO to provide Congress with a report summarizing the results of the study,
+together with any recommendations for legislative or regulatory action that would assist the
+federal government in combatting the use of virtual currencies to facilitate sex and drug
+trafficking.106 After passing the House in January 2019, H.R. 56 was referred to the Senate
+Committee on Banking, Housing, and Urban Affairs.
+H.R. 1414, FinCEN Improvement Act of 2019
+In March 2019, the House passed H.R. 1414, the FinCEN Improvement Act of 2019.107 The bill
+would, among other things, clarify that FinCEN’s statutory power to coordinate with foreign
+financial intelligence units on antiterrorism and AML initiatives108
+“includ[es] matters involving
+emerging technologies or value that substitutes for currency.”
+109 After passing the House in March
+2019, H.R. 1414 was referred to the Senate Committee on Banking, Housing, and Urban Affairs.
+H.R. 528, Blockchain Regulatory Certainty Act
+In January 2019, H.R. 528, the Blockchain Regulatory Certainty Act, was introduced in the
+House of Representatives.
+110 The bill would create a safe harbor from federal and state money
+transmitter licensing and registration requirements for certain blockchain developers. Specifically,
+the bill would provide that noncontrolling “blockchain developers” and providers of a
+“blockchain service” shall not be treated as “money transmitters,” MSBs, “or any other State or
+Federal legal designation[s] requiring licensing or registration as a condition to acting as a
+blockchain developer or provider of a blockchain service.”
+111 A blockchain developer or provider
+of a blockchain service would qualify as a noncontrolling developer or provider as long as it does
+not have control over users’ digital currency in the regular course of business.112 Some
+commentators have argued that such a safe harbor is necessary to provide legal certainty to actors
+in the virtual currency space, including persons who contribute code to virtual currency platforms
+or develop blockchain-related software but do not take custody of others’ virtual currency.
+113
+However, another commentator has noted that it is “debat[able]” whether federal registration
+requirements apply to such persons.
+114 H.R. 528 was referred to the House Committee on
+Financial Services and the House Committee on the Judiciary in January 2019.

@@ -1,0 +1,532 @@
+  NON-STEROIDAL
+ANTI-INFLAMMATORY
+  DRUGS (NSAIDs):
+Making safer treatment choices
+Non-steroidal anti-inflammatory drugs (NSAIDs) are successfully used to treat a wide range of painful
+conditions. However, NSAIDs should be prescribed with caution as courses of just a few days, even at
+doses within prescribing recommendations, can be associated with serious adverse effects in susceptible
+patients. In primary care, paracetamol is recommended in preference to NSAIDs, where appropriate. If a
+patient is likely to benefit from NSAID treatment naproxen or ibuprofen are recommended first-line, at the
+lowest effective dose, for the shortest possible time. Patients taking NSAIDs who are at increased risk of
+complications require regular monitoring.
+
+
+How NSAIDs work determines their risk and                            How NSAIDs work, the patient’s age and the condition being
+guides their use                                                     treated also need to be taken into account when these issues
+                                                                     are discussed with patients.
+Non-steroidal anti-inflammatory drugs (NSAIDs) are the
+most frequently prescribed medicines for analgesia in
+primary care, after paracetamol.1 However, NSAID use can be          NSAIDs and cyclo-oxygenase (COX) selectivity
+associated with a range of serious adverse effects including:        The cyclo-oxygenase-1 (COX-1) and COX-2 enzymes produce
+cardiovascular events, gastrointestinal complications, renal         prostaglandins following the metabolism of omega-6
+failure and hypersensitivity reactions. Even if the risk of an       polyunsaturated fatty acid (arachidonic acid).3 Prostaglandins
+individual patient experiencing an NSAID-related adverse             are chemical messengers that mediate inflammation, fever and
+event is relatively low, the frequent use of NSAIDs within           the sensation of pain.3 The analgesic and anti-inflammatory
+the community means that the potential for NSAID-related             effects of NSAIDs are produced through the prevention of
+adverse events to occur is a concern. NSAID use therefore            prostaglandin production by inhibition of COX activity. The
+requires careful consideration of individual patient risk factors.   clinical effects and the risk profiles of the different NSAIDs are
+To maximise patient safety it is recommended that clinicians         largely determined by their differential ability to inhibit the
+consider the following points before prescribing an NSAID:2          COX-1 and/or COX-2 enzymes and their half-lives.
+
+    Prescribe all NSAIDs with caution, in all patient groups,
+                                                                     COX-1 is widely distributed in the body but is concentrated
+    even over short periods of time
+                                                                     in cells of the stomach, kidney, endothelium and in platelets.4
+    Prescribe the lowest effective NSAID dose, for the               Prostaglandins catalysed by COX-1 activity control renal
+    shortest possible time, and review the need for                  perfusion, promote platelet aggregation and provide
+    continued use at each consultation                               gastroprotection by regulating mucous secretion.4 Inhibition
+    Older patients, patients with increased cardiovascular           of COX-1 can cause adverse gastrointestinal effects.4
+    risk, patients with type 2 diabetes, and patients with
+    reduced renal function or a history of renal problems            COX-2 is induced by inflammation and it is present in
+    are at increased risk of NSAID-related complications and         macrophages, leukocytes, fibroblasts and synovial cells. 4
+    should be advised about adverse effects and regularly            Prostaglandins formed via COX-2 activity mediate pain,
+    monitored when taking NSAIDs                                     inflammation, fever and inhibit platelet aggregation.3
+
+    Naproxen (up to 1000 mg per day) or ibuprofen (up
+                                                                     NSAIDs that inhibit both COX-1 and COX-2 enzymes are termed
+    to 1200 mg per day) are the recommended first-line
+                                                                     non-selective NSAIDs, while NSAIDs which predominately
+    choices for adults based on our current knowledge of
+                                                                     inhibit COX-2 enzymes are termed COX-2 inhibitors.
+    NSAIDs and cardiovascular risk; ibuprofen is the most
+    appropriate NSAID for children
+                                                                     NSAIDs and COX inhibition
+    Avoid prescribing long-acting formulations of NSAIDs,            Ibuprofen, naproxen and diclofenac are non-selective NSAIDs.
+    where possible, as these are associated with an increased        However, diclofenac inhibits COX-2 relatively more than
+    risk of gastrointestinal adverse effects                         COX-1.5 Many of the NSAIDs available in New Zealand have
+similar indications, e.g. musculoskeletal pain and inflammation,   COX-1 is weakly inhibited and COX-2 is strongly inhibited then
+therefore these three medicines account for 97% of all             the risk of thrombosis will be increased.
+NSAID prescribing.1 Other non-selective NSAIDs indicated
+for specific conditions include: tenoxicam (inflammatory           Naproxen use (up to 1000 mg per day) does not appear to
+arthropathy, dysmenorrhoea, post-operative pain and acute          be associated with increased vascular risk, based on current
+gout), tiaprofenic acid (inflammatory arthropathy), ketoprofen     evidence.8 This may be because COX-1 inhibition by naproxen
+(inflammatory arthropathy), mefenamic acid (dysmenorrhoea          is sufficiently prolonged and intense to effectively block
+and menorrhagia) and sulindac (inflammatory arthropathy).6         platelet activation and counterbalance the prothrombotic
+                                                                   effect of COX-2 inhibition.8
+Meloxicam is currently the only subsidised (Special Authority)
+COX-2 inhibitor in New Zealand. At low doses meloxicam mainly      NSAID half-life also influences treatment choice
+inhibits COX-2. As the dose of meloxicam increases COX-1 is        NSAIDs can be divided into short-acting NSAIDs with half-lives
+increasingly inhibited. For example, there is an increased rate    less than six hours and long-acting NSAIDs. NSAIDs with a
+of serious gastrointestinal adverse events at a dose of 15 mg      short half-life, e.g. ibuprofen, have a relatively quick onset of
+per day, compared to 7.5 mg per day.7                              action and are better suited for the treatment of acute pain.
+                                                                   NSAIDs with longer half-lives, e.g. naproxen, or in long-acting
+Celecoxib and etoricoxib COX-2 inhibitors are also available in    formulations are more suited for the treatment of chronic
+New Zealand, but are not subsidised.                               conditions, as they require only once or twice daily dosing.
+                                                                   However, persistent exposure to NSAIDs is an independent
+    Check the New Zealand Formulary or Pharmaceutical              determinant of gastrointestinal effects therefore NSAIDs with
+Schedule for the subsidy details of NSAIDs                         a long-half life, or NSAIDs in a slow-release formulation, are
+                                                                   associated with an increased risk of gastrointestinal adverse
+                                                                   events (see: “NSAIDs and gastrointestinal complications”, Page
+COX selectivity and cardiovascular risk                            13).9
+COX-2 inhibitors were initially developed on the rationale
+that selective inhibition of COX-2 might replicate the anti-
+inflammatory and analgesic effects of non-selective NSAIDs         Choosing an analgesic regimen
+while reducing gastrointestinal adverse effects. However,          The WHO analgesic ladder recommends paracetamol and/or
+it was later discovered that COX-2 activity inhibits platelet      an NSAID first-line for pain management. The relative efficacy
+aggregation, therefore NSAIDs that block COX-2 promote             of paracetamol and NSAIDs depends on the underlying
+thrombosis and events such as myocardial infarction become         condition causing the pain. Specifically, NSAIDs are more
+more likely (see: “Cardiovascular risk in people taking NSAIDs”,   effective than paracetamol in the treatment of inflammatory
+Page 12).3 It is now thought that the relative degree to which     conditions, such as gout or rheumatoid arthritis, and in
+different NSAIDs inhibit both COX-1 and COX-2, and the effect      the treatment of dental and menstrual pain.3, 10 For tension
+that this has on platelet aggregation, determines the likelihood   headache or following orthopaedic surgery paracetamol is
+of each NSAID causing cardiovascular events.8 For example, if      reported to provide equivalent analgesia to NSAIDs.10
+
+
+
+
+    Paracetamol and codeine may have variable efficacy
+
+    The effectiveness of paracetamol and codeine may vary          toxicity, even at low doses. This can result in respiratory
+    depending on a person’s level of expression of the CYP2D6      depression. It is estimated that among Europeans up to
+    enzyme. People deficient in this enzyme are unable to          10% of people will be either ultra-fast or slow metabolisers
+    convert codeine to morphine and may not receive pain           of codeine.14 The prevalence of fast and slow metabolisers
+    relief from its use. Conversely, people who are ultra-fast     of codeine among Māori and Pacific peoples is not
+    metabolisers of codeine are at increased risk of opioid        known.
+Paracetamol is safer than NSAIDs for most conditions
+Paracetamol is considered to be a safer treatment choice
+than NSAIDs in people at increased risk of NSAID-related
+                                                                   Combination paracetamol and ibuprofen
+adverse effects, e.g. children or older patients, patients with    There are an increasing number of products being
+cardiovascular or renal co-morbidities or diabetes, or patients    marketed to the public that contain both paracetamol
+with a previous history of gastrointestinal symptoms or NSAID      and ibuprofen. It is uncertain whether the concomitant
+hypersensitivity (see: “Hypersensitivity to NSAIDs”, Page          use of paracetamol and ibuprofen significantly improves
+16). Paracetamol is also recommended by United Kingdom             analgesia compared to the use of NSAIDs alone. Studies
+guidelines for the long-term treatment of back pain and            have produced mixed results and outcomes may be
+degenerative conditions, such as osteoarthritis, due to its        influenced by the cause of the pain being studied. It is
+superior tolerability.3                                            also not clear whether the combined use of paracetamol
+                                                                   and ibuprofen increases the risk of adverse effects.
+Compared to NSAIDs, paracetamol has:3
+    Minimal gastrointestinal toxicity                              A Cochrane review of the analgesic efficacy of paracetamol
+    Little effect on blood pressure                                and ibuprofen in the treatment of post-operative pain,
+                                                                   concluded that combinations of paracetamol plus
+    No association with myocardial infarction
+                                                                   ibuprofen provided better analgesia than either medicine
+    No interaction with the antiplatelet effect of aspirin
+                                                                   alone.12 It was also concluded that the combination
+                                                                   treatment reduced the need for additional analgesia to
+Paracetamol can be given for mild to moderate pain in adults       be administered and reduced the risk of adverse events
+at the recommended dose of 0.5 – 1 g, every four to six hours,     occurring.12 A study of approximately 900 patients using
+to a maximum of 4 g per day.6 The major adverse effect             paracetamol or ibuprofen, or a combination of the two,
+associated with paracetamol is liver damage due to overdose        for the treatment of osteoarthritis of the knee found
+and it should not be prescribed to patients with liver disease.6   significantly more patients achieved pain control at ten
+                                                                   days and at 13 weeks with the combination treatment
+Consider adding codeine to paracetamol in select patients          compared to paracetamol alone, but there was not a
+If the risk of NSAID-related adverse events is high, it may be     statistically significant difference compared to using
+appropriate to consider adding codeine to paracetamol, in          ibuprofen alone.15 In contrast, a small study of 90 patients
+preference to NSAID treatment.11 For example, an older patient     randomised to one of three treatment groups in an
+with osteoarthritis, diabetes and chronic kidney disease (CKD)     emergency department setting found that combination
+may be particularly susceptible to the nephrotoxic effects of      treatment with paracetamol and ibuprofen did not provide
+NSAIDs (see “NSAIDs and renal function”, Page 14).                 more effective pain relief following musculoskeletal injury
+                                                                   compared to either medicine alone.16
+An appropriate starting dose of codeine in combination
+with paracetamol for mild to moderate pain in adults is 15         A large British study funded by a pharmaceutical company
+mg, every four hours, as required.6 Codeine can be given in        reported that compared to the use of the paracetamol and
+doses up to 60 mg, if required, but the total dose should not      ibuprofen alone, the combined use of the two medicines
+exceed 240 mg per day.6 The main adverse effects of codeine        did not increase the number of adverse effects.17 However,
+are gastrointestinal disturbance and potential respiratory         in the treatment of osteoarthritis of the knee a trend
+depression.6 The effectiveness of codeine may vary between         towards increased dyspepsia, diarrhoea and blood loss
+individuals due to genetic differences in metabolism, and it may   was reported in patients using a combination product.15
+not be an appropriate choice for all patients (see: “Paracetamol
+with codeine may have variable efficacy”, previous page).          The lack of a demonstrated strong synergistic analgesic
+                                                                   effect between paracetamol and ibuprofen, suggests that
+Combining paracetamol with NSAIDs may be appropriate               the two medicines may have similar modes of actions
+The combination of paracetamol with NSAIDs may provide             and their effects may not be additive.18 The lack of clear
+more effective analgesia for some patients, e.g. for post-         evidence of improved analgesia has led some experts to
+surgical pain, than either medicine alone.12 This combination      question the value of combination products containing
+treatment may allow the dose of NSAID required to achieve          paracetamol and ibuprofen.18
+analgesia to be reduced (compared to NSAID treatment alone)
+therefore reducing the amount NSAID-related risk the patient
+is exposed to.12 However, this approach does not appear to          Diclofenac (75 – 150 mg, daily, in two or three divided doses)
+be effective for all conditions (see: “Combination paracetamol      is indicated for acute pain and inflammation, in inflammatory
+and ibuprofen”, Page 11). If a combination of paracetamol           arthropathy and other musculoskeletal disorders.6 However,
+and NSAIDs is used to treat pain, consider titrating the NSAID      diclofenac at doses of ≥ 150 mg per day is associated with an
+dose downwards as pain becomes more manageable, while               increased risk of cardiovascular events (see below). Diclofenac
+continuing treatment with paracetamol at the same dose.             use is contraindicated in patients who have had a myocardial
+The NSAID can then be withdrawn, before paracetamol, and            infarction in the previous 12 months.6
+treatment with paracetamol continued, as required.
+                                                                    When prescribing NSAIDs following muscle injury, short
+                                                                    courses, i.e. three to seven days, are preferable to longer term
+Review and intensify lifestyle modifications to manage              use.19
+pain
+Long-term pain, as with any chronic condition, requires
+continual review and ongoing lifestyle modifications to prevent     Cardiovascular risk in people taking NSAIDs
+a decline in the quality of the patient’s life. For example, a      Prescribe long-term NASIDs with caution to people with an
+person with osteoarthritis is likely to benefit from intensifying   elevated cardiovascular risk, particularly if they have had a
+exercise and weight loss programmes.13                              previous cardiovascular event. All non-selective NSAIDs and
+                                                                    COX-2 inhibitors are associated with increased cardiovascular
+                                                                    risk - except naproxen up to 1000 mg per day or ibuprofen up
+Reducing the risk of NSAID use                                      to 1200 mg per day.2, 20 This increased risk begins within the
+If it is decided that NSAID treatment is appropriate, having        first week of treatment and translates to an additional three
+weighed the risks versus benefits of treatment, ensure the          major vascular events per 1000 patients, per year.8, 21
+patient’s history is known before an NSAID is prescribed. In
+particular:3                                                        NSAID use has also been found to approximately double the
+    Ensure the patient is aware which over-the-counter (OTC)        risk of hospital admission due to heart failure and increase
+    products contain NSAIDs and that they know that they            systolic blood pressure by an average of 2 – 3 mmHg.3, 8 The
+    should not take any other NSAID-containing products             effect NSAIDs have on blood pressure may be more dramatic
+    while they are being treated with an NSAID                      in people with pre-existing hypertension and in people
+    Determine if the patient has any co-morbidities that may        taking antihypertensives (see: “NSAIDs and renal function”,
+    increase the risk of NSAID treatment, e.g. cardiovascular       Page 14).3 Blood pressure should be monitored in patients
+    disease, CKD, diabetes, hypertension or duodenal ulcer          with hypertension and older patients within the first month
+                                                                    of initiating long-term NSAID treatment, and then routinely
+    Query if the patient is taking any medicines that may
+                                                                    monitored as part of ongoing management.3
+    interact with NSAIDs, e.g. angiotensin converting enzyme
+    (ACE) inhibitors, angiotensin-II receptor blockers (ARBs),
+                                                                    NSAIDs increase cardiovascular risk across all patient
+    diuretics, clopidogrel, warfarin, dabigatran or aspirin
+                                                                    groups
+    Discuss any history of NSAID-related adverse effects
+                                                                    A large study found that there was a relative increase in
+    with the patient. Their preference may affect the dosing
+                                                                    cardiovascular risk, mainly attributed to coronary events, of
+    regimen. Some patients may prefer to tolerate adverse
+                                                                    approximately 33% in patients using high-dose diclofenac
+    effects if a higher dose is likely to result in improved
+                                                                    (> 150 mg), COX-2 inhibitors (celecoxib, rofecoxib, etoricoxib
+    symptom control, while other patients may take the
+                                                                    and lumiracoxib) and high-dose ibuprofen.8 Importantly, the
+    opposite view.
+                                                                    trial found that there was no statistical difference in this risk
+                                                                    between patient groups with low or high predicted five-year
+Naproxen (up to 1000 mg per day) or ibuprofen (up to 1200           cardiovascular risk.8 The significance of this study to primary
+mg per day) are recommended first-line choices if NSAIDs            care in New Zealand is that an increased cardiovascular risk
+are required, due to the lower risk of cardiovascular events        has been an under-recognised concern in many patients
+occurring when these medicines are taken at these doses,            taking non-selective NSAIDs.
+compared to other NSAIDs.2 N.B. The recommended maximum
+dose of ibuprofen is 2400 mg/day;6 this higher dose may be          Short-term and long-term use of NSAIDs is associated with
+necessary, and appropriate, for some patients, but is associated    increased cardiovascular risk. Advise patients who have had
+with increased cardiovascular risk.                                 a previous cardiovascular event that even one or two doses of
+ibuprofen or diclofenac may increase their risk of a recurrent
+event. A study of over 83 000 patients with prior myocardial
+infarction found that NSAID use increased the risk of recurrent     Aspirin and cardiovascular risk
+myocardial infarction or death by 1.45 times during the first       It is unknown if aspirin use, which irreversibly inhibits
+seven days of treatment and this risk persisted throughout          COX-1, influences the apparently neutral cardiovascular
+the course of treatment.21 The greatest risk was associated         effects of naproxen. A large study has found evidence that
+with diclofenac which increased the risk of myocardial              aspirin may confer a cardioprotective effect in patients
+infarction and/or death by 3.26 times at day one to seven of        taking COX-2 inhibitors, but not in patients taking
+treatment.21 Naproxen was not associated with an increased          ibuprofen.23 Further studies are required to characterise
+risk of myocardial infarction or death during the 14 week           the cardiovascular effects of aspirin in people taking
+study duration.21                                                   naproxen.
+
+                                                                    A practical approach to the issue of a possible
+NSAIDs and gastrointestinal complications                           interaction between NSAIDs and aspirin prescribed for
+Gastrointestinal adverse events are increased two to four-fold      cardioprotection is to minimise the combined use of
+by the use of all NSAIDs and this increase is dose dependent.       these medicines in patients with elevated cardiovascular
+Gastrointestinal complications associated with NSAID use            risk. The use of aspirin for the primary prevention of
+include: dyspepsia, gastrointestinal bleeding, peptic ulcers        cardiovascular disease is controversial. Current evidence
+and perforations of the upper gastrointestinal tract.3, 9 This      only justifies the use of low-dose aspirin for primary
+is because inhibition of the COX-1 enzyme reduces the               prevention in patients with a five-year cardiovascular risk
+production of protective gastric mucous. In general NSAIDs          of greater than 15%.24 Furthermore, patients with a high
+that have a long half-life or are taken in a long-acting            cardiovascular risk should not be routinely prescribed
+formulation have a greater risk of gastrointestinal adverse         long-term NSAIDs, if possible. Finally, patients with
+effects.9 Gastrointestinal symptoms are less common in              increased cardiovascular risk are likely to be older and
+people taking COX-2 inhibitors, however, the risk is increased      may have other co-morbidities that increase the risk of
+in patients who are concurrently taking aspirin.8                   NSAID-related adverse effects. Therefore the number of
+                                                                    patients whose cardiovascular risk is clinically affected by
+Risk factors for gastrointestinal adverse effects associated with   any interaction between aspirin and NSAIDs in primary
+NSAID use include:3                                                 care is likely to be small when NSAID use is carefully
+    Age over 65 years                                               managed.
+    Previous adverse reaction to NSAIDs
+                                                                        For further information see: “The use of antithrombotic
+    The use of other medicines that may exacerbate any
+                                                                    medicines in general practice: A consensus statement”,
+    gastrointestinal adverse effects, e.g. anticoagulants,
+                                                                    BPJ 39 (Oct, 2011).
+    selective serotonin reuptake inhibitors (SSRIs) and
+    corticosteroids
+    Liver disease
+    Chronic kidney disease (CKD)
+    Smoking
+    Excessive alcohol consumption
+
+Use of non-selective NSAIDs and COX-2 inhibitors in people
+with ulcerative colitis and Crohn’s disease may cause an
+exacerbation of symptoms.3
+
+Paracetamol is generally better tolerated than NSAIDs in
+people at increased risk of gastrointestinal adverse effects.
+Diclofenac and COX-2 inhibitors appear to be the least
+likely NSAIDs to cause upper gastrointestinal perforation,
+obstruction or bleeds, while the risk is likely to be increased
+for patients taking ibuprofen and naproxen.8
+                                                              Reducing the risk of gastrointestinal complications
+                                                              Advise patients to take NSAIDs with milk or food so the
+Reducing NSAID-related risk in Māori                          stomach is not empty and irritation is reduced.3 Consider
+NSAIDs are often used in the management of gout. Gout         co-prescribing a proton pump inhibitor (PPI) prophylactically
+is more prevalent among Māori males (11.7%) compared          in people aged over 45 years if NSAIDs are being used long-
+to European males (3.7%).22 Māori are also more severely      term in the treatment of osteoarthritis, rheumatoid arthritis or
+affected by gout and are therefore more likely to be          lower back pain.2 PPIs should be taken daily, rather than “as
+using NSAIDs to manage acute flares than non-Māori.22         needed” because PPIs require approximately three days to
+As Māori are approximately twice as likely as non-Māori       achieve steady state inhibition of acid secretion and ulceration
+to die of cardiovascular disease, the use of NSAIDs in this   or bleeding of the gastrointestinal tract can often occur in the
+population requires added caution. Prescribers should         absence of dyspepsia.3, 25
+be aware of the elevated cardiovascular risk amongst
+Māori when prescribing NSAIDs for gout and monitor for        A Cochrane review found that both PPIs and histamine-2
+adverse effects accordingly. In addition, management          receptor antagonists, e.g. ranitidine, were effective at
+of gout among Māori patients should be intensified to         preventing chronic NSAID-related gastric and duodenal
+reduce the likelihood of flares occurring and reduce the      ulcers.26 Omeprazole for the prevention of NSAID-related
+need for NSAID treatment. Corticosteroids (oral or intra-     ulcers can be initiated in adults at 20 mg, once daily, for four
+articular) or colchicine may be considered as treatment       weeks and continued for another four weeks if gastrointestinal
+alternatives to naproxen for acute gout flare.                symptoms have not completely resolved.6 Ranitidine can be
+                                                              initiated in adults, for protection against NSAID-related ulcers,
+   For further information see: “An update on the             at 150 mg, twice daily, or 300 mg at night, for up to eight
+management of gout”, BPJ 51 (Mar, 2013).                      weeks.6 Misoprostol is no longer routinely used in primary care
+                                                              for the prevention of NSAID-related ulcers as it is associated
+                                                              with diarrhoea and occasionally more severe adverse effects,
+                                                              even at low doses.6, 26
+
+                                                              If a patient develops gastrointestinal symptoms during NSAID
+                                                              treatment another type of NSAID can be trialled, an alternative
+                                                              class of analgesic trialled, or a PPI prescribed.
+
+                                                              In patients with a high risk of developing gastrointestinal
+                                                              complications who require long-term NSAID treatment:3
+
+                                                                  Prescribe a PPI and advise the patient to discontinue the
+                                                                  NSAID and contact a health professional if they notice
+                                                                  any gastrointestinal symptoms, e.g. black stools
+
+                                                                  Monitor haemoglobin levels for the first month of
+                                                                  treatment. Long-term haemoglobin monitoring is
+                                                                  recommended if bleeding is an ongoing clinical concern.
+
+                                                                  If gastrointestinal adverse effects do develop, consider
+                                                                  switching to another NSAID
+
+
+
+                                                              NSAIDs and renal function
+
+                                                              All medicines which block COX-2 are potentially nephrotoxic
+                                                              because they can reduce blood flow to the kidney by
+                                                              preventing prostaglandin-mediated vasodilation. This is
+                                                              particularly true in patients who are dehydrated. NSAIDs can
+                                                              also cause immune mediated acute kidney injury (AKI), e.g.
+acute interstitial nephritis. In New Zealand over 40% of all renal
+adverse reactions reported to the Centre for Adverse Reactions
+Monitoring (CARM) were associated with diclofenac.27 The               Topical analgesics
+risk of AKI in patients taking NSAIDs and other potentially            Topical NSAIDs are not subsidised in New Zealand,
+nephrotoxic medicines is greatest at the start of treatment,           however, they are readily available over-the-counter
+therefore even short courses of NSAIDs should be avoided, if           (OTC) and are frequently purchased for the treatment of
+possible, in patients at increased risk.28                             soft tissue injuries, e.g. sports injuries. Topical NSAIDs, in
+                                                                       combination with paracetamol, are recommended before
+All people with CKD should avoid NSAIDs where possible.                oral NSAIDs or codeine in United Kingdom guidelines for
+CKD is a risk factor for AKI and one-quarter to one-third of           the treatment of osteoarthritis.13 Topical NSAIDs are also
+all people aged over 64 years have CKD.29 Acute illness and/           preferred to oral NSAIDs by some clinicians for patients
+or hypovolaemia, even if mild, further increases the risk of           aged over 75 years.3
+AKI occurring in people with CKD who are taking NSAIDs.
+Patients with CKD who are taking NSAIDs should be advised              Topical NSAIDs are considered to be as safe as placebo
+to discontinue use if they develop an acute illness, especially        in the treatment of acute pain and therefore can be
+if they become dehydrated. Patients who have had a previous            safely used by patients who are at risk of developing
+acute decline in renal function should have their notes flagged        complications associated with oral NSAIDs. 35 Blood
+and be identified as at risk of NSAID-related AKI.                     concentrations of NSAIDs after applying topical products
+                                                                       are typically less than 5% of those reached by using oral
+People with type 2 diabetes should avoid NSAIDs where                  NSAIDs.35 Approximately six or seven patients out of
+possible. Reduced renal function and albuminuria are both              ten will experience successful pain control with topical
+risk factors for micro and macrovascular complications                 NSAIDs.35 However, a large proportion of this effect is
+that have increased prevalence in people with diabetes.30              because sprain-type injuries tend to improve without
+Preservation of renal function to prevent the development of           treatment.35
+CKD and to reduce cardiovascular risk is an essential part of
+the management of patients with type 2 diabetes.                       Topical capsaicin is also often used as an adjunctive
+                                                                       treatment for osteoarthritis of the knee or hand.13 Topical
+NSAID nephrotoxicity can be exacerbated by ACE inhibitors              capsaicin is currently subsidised for patients who have
+or ARBs as these medicines impair the regulation of blood              osteoarthritis that is not responsive to paracetamol and
+flow leaving the kidney. Renal function can be compromised             where oral NSAIDs are contraindicated. Topical capsaicin is
+even further if a patient is also taking a diuretic. The combined      an irritant and should not be applied to the eyes, mucous
+potential effect of these three medicines has been referred            membranes or broken skin.6 Hands should be washed
+to as the “triple whammy”. This can result in hyponatremia             immediately after applying this medicine.6
+or hyperkalemia, AKI and cardiac failure.3, 31 The risk of
+this occurring is greatest in the first 30 days of use.28 This
+combination of medicines should be prescribed with caution,
+particularly in people with CKD or diabetes. If patients develop
+an acute illness it may be appropriate to discontinue or reduce
+the dose of these medicines.
+
+In patients with reduced renal function who are taking NSAIDs,
+or in patients at increased risk of renal toxicity, serum creatinine
+and potassium should be measured after one to two weeks of
+treatment and then monitored regularly.3
+
+    For further information see: “Acute-on-chronic kidney
+disease: Prevention, diagnosis, management and referral in
+primary care”, BPJ 46 (Sep, 2012).
+Hypersensitivity to NSAIDs                                          Use of NSAIDs in children
+NSAID/aspirin hypersensitivity is characterised by symptoms         Ibuprofen is generally the preferred NSAID for use in children.
+ranging in speed of onset from anaphylaxis and bronchospasm         Naproxen is not indicated for the short-term treatment of pain
+to delayed skin and systemic reactions occurring over weeks.32      and fever in children, but may be prescribed for rheumatoid
+The reaction is due to COX-1 inhibition and is not mediated by      arthritis in children aged over five years.6 Diclofenac is the only
+IgE, therefore it is not a true allergy.32 NSAID hypersensitivity   other NSAID available in New Zealand for the treatment of
+is reported to affect 0.5 – 1.9% of the general population.32       pain and inflammation in children aged under 12 years, but it
+However, reports of prevalence among adults with asthma             is rarely prescribed for this purpose in primary care.
+are as high as 21% if aspirin provocation testing is used.32 In
+children the prevalence of NSAID hypersensitivity is lower
+and reported to be 0.3% – 5% as assessed by provocation.32          Fever and NSAID use in children
+Cutaneous hypersensitivity reactions are relatively infrequent      Febrile illness accounts for a large proportion of childhood
+and affect 0.3% of the population.32                                presentations to primary care. Between 20 – 40% of parents
+                                                                    report an occurrence every year.36 Paracetamol (children aged
+NSAIDs can be routinely prescribed to patients with asthma          over one month, 15 mg/kg per dose, every four hours, up to
+who have no previous history of NSAID-associated symptoms.          four times daily, maximum 1 g per dose and 4 g per day) or
+However, the possibility of NSAID use increasing asthma             ibuprofen (children aged under 12 years, 20 mg/kg in divided
+severity should be discussed with the patient first. Patients       doses, to a maximum of 500 mg per day in children under 30
+with asthma and nasal polyps or recurrent sinusitis are more        kg) are both indicated for the treatment of pain and fever in
+likely to experience hypersensitivity to NSAIDs.33 People who       children.6, 36 However, before prescribing ibuprofen for the
+have had a hypersensitivity reaction to a NSAID should avoid        treatment of febrile illness consider emerging evidence that
+all non-selective NSAIDs as the reaction is likely to be a class    suggests the use of NSAIDs in children may be associated with
+effect.32                                                           an increased risk of AKI, especially in children who are obese
+                                                                    (see below).
+
+NSAID use in women who are pregnant is not                              A paracetamol dosage calculator for children is available
+recommended                                                         from:
+Paracetamol is preferred to NSAIDs in women who are                 www.bpac.org.nz/resources/other/bmi_calc/bmiCalc.html
+pregnant because NSAID use in the first trimester doubles the
+risk of spontaneous abortion.3 Later in pregnancy NSAID use         Management of fever in children should aim to improve
+is associated with premature closure of the ductus arteriosus       comfort rather than reduce body temperature.37 Points to
+blood vessel, which can result in structural birth defects,         consider when prescribing medicines specifically for fever in
+preterm delivery or low birth weight.34 NSAIDs may also delay       children include:36
+the onset of labour and increase blood loss during childbirth.3         Mild fevers (<38°C) do not need to be treated
+                                                                        Paracetamol or ibuprofen should not be given for the
+Breast feeding while taking paracetamol or NSAIDs is considered         sole purpose of reducing body temperature (see: “The
+safe due to the low concentrations of these medicines in                benefits of inflammation and fever”)
+breast milk.34 However, aspirin use during lactation has been
+                                                                        Medicines for fever should only be prescribed for as
+associated with significant adverse events in infants.34 Repeat
+                                                                        long as the child is in discomfort. If discomfort is not
+doses of codeine should be avoided wherever possible in
+                                                                        alleviated before the next dose is due, then switching,
+women who are breast feeding, as severe toxicity has been
+                                                                        e.g. changing from paracetamol to ibuprofen, may be
+reported in infants whose mothers are ultra-fast metabolisers
+                                                                        considered. Also consider medical review.
+(see: “Paracetamol and codeine may have variable efficacy”,
+                                                                        Do not give paracetamol and ibuprofen at the same time
+Page 10).6
+                                                                        Paracetamol and ibuprofen do not prevent febrile
+                                                                        convulsions and should not be prescribed specifically for
+                                                                        this reason
+
+
+                                                                    Ask if the child has taken any medicine for their current illness
+                                                                    when assessing their condition. A failure to respond to prior
+treatment may indicate a more serious illness. Advise parents         be a contributing factor to additional cases of multi-factorial
+of the need for children with fever to receive regular fluids.36      AKI.39 The majority of presentations occurred within the first
+Small quantities of water offered frequently are best, or breast      seven days of treatment and doses were generally within
+milk if the child is being breast fed. Parents should not give        recommended prescribing guidelines.39 Vomiting (74%) was
+NSAIDs to children who may be dehydrated, e.g. vomiting,              the most frequent symptom followed by abdominal pain
+sunken eyes, tears or urine absent or if skin turgor is diminished.   (67%) and decreased urine output (56%). 39 Children aged
+Tepid sponging is not recommended for the treatment of fever,         under five years were most likely to require intensive treatment
+and children with fever should neither be over-wrapped nor            and stay in hospital for longer.39 Obesity may be an important
+under dressed.36 Discussing the benefits of fever with parents        risk factor for NSAID-induced AKI in children as almost half of
+may help to reduce parental distress.                                 the patients admitted were at or above the 95th percentile for
+                                                                      body mass index (BMI) or weight:length ratio.39
+
+NSAIDs and acute kidney injury in children
+NSAIDs should be prescribed with caution in children with
+acute illness and/or volume depletion.38
+                                                                          ACKNOWLEDGEMENT: Thank you to Dr Chris Cameron,
+Children aged under five years and children who are obese                 General Physician and Clinical Pharmacologist, Chair,
+may be at greatest risk of NSAID-induced AKI. One study of                Medicines Committee, Capital & Coast DHB, Wellington
+children admitted to hospital with AKI found that at least 2.7%           Hospital for expert review of this article.
+of all instances were due to NSAID use, with NSAID use likely to
+
+
+
+
+     The benefits of inflammation and fever
+     The inflammatory response is triggered by damaged or
+     infected cells releasing pro-inflammatory proteins. These
+     signals cause local capillaries to increase in size and
+     capillary membranes to become permeable, resulting
+     in swelling as fluid accumulates locally. Attracted by
+     the chemical signals, white blood cells pass through
+     the capillary membranes and invade the area, attacking
+     pathogens and consuming dead and infected cells. The
+     increased body temperature acts to suppress bacterial
+     growth, viral replication and therefore reduces the
+     duration of infections.
+References
+1.   Ministry of Health. Pharmaceutical Collection. 2013.                       21. Schjerning Olsen A-M, Fosbøl EL, Lindhardsen J, et al. Duration of
+2.   National Institute for Health and Care Excellence (NICE). Non-steroidal        treatment with nonsteroidal anti-inflammatory drugs and impact
+     anti-inflammatory drugs. Manchester: NICE; 2013. Available from:               on risk of death and recurrent myocardial infarction in patients with
+     www.nice.org.uk (Accessed Sep, 2013).                                          prior myocardial infarction: a nationwide cohort study. Circulation.
+3.   Day RO, Graham GG. Non-steroidal anti-inflammatory drugs (NSAIDs).             2011;123(20):2226–35.
+     BMJ. 2013;346:f3195.                                                       22. Winnard D, Wright C, Taylor W, et al. National prevalence of gout
+4.   Longo D, Fauci A, Kasper D, et al. Chapter 293: Peptic ulcer disease and       derived from administrative health data in Aotearoa New Zealand.
+     related disorders. Harrison’s principles of internal medicine. 18th ed.        Rheumatology. 2012;51:901–9.
+     New York: McGraw Hill Medical; 2012. p. 2438-60.                           23. Strand V. Are COX-2 inhibitors preferable to non-selective non-steroidal
+5.   Fosbøl EL, Gislason GH, Jacobsen S, et al. Risk of myocardial infarction       anti-inflammatory drugs in patients with risk of cardiovascular events
+     and death associated with the use of nonsteroidal anti-inflammatory            taking low-dose aspirin? Lancet. 2007;370(9605):2138–51.
+     drugs (NSAIDs) among healthy individuals: a nationwide cohort study.       24. New Zealand Guidelines Group. New Zealand primary care handbook
+     Clin Pharmacol Ther. 2009;85(2):190–7.                                         2012. 3rd ed. Wellington: New Zealand Guidelines Group; 2012.
+6.   New Zealand Formulary (NZF). NZF v15. NZF; 2013. Available from:           25. Shin JM, Kim N. Pharmacokinetics and pharmacodynamics of the proton
+     www.nzf.org.nz (Accessed Sep, 2013).                                           pump inhibitors. J Neurogastroenterol Motil. 2013;19(1):25–35.
+7.   Singh G, Lanes S, Triadafilopoulos G. Risk of serious upper                26. Rostom A, Dube C, Wells G, et al. Prevention of NSAID-
+     gastrointestinal and cardiovascular thromboembolic complications               induced gastroduodenal ulcers. Cochrane Database Syst Rev.
+     with meloxicam. Am J Med. 2004;117(2):100–6.                                   2002;4:CD002296.
+8.   Coxib and traditional NSAID Trialists’ (CNT) Collaboration. Vascular       27. Medsafe. Prescriber Update: NSAIDs and Acute Kidney Injury. 2013.
+     and upper gastrointestinal effects of non-steroidal anti-inflammatory          Available from: www.medsafe.govt.nz (Accessed Sep, 2013).
+     drugs: meta-analyses of individual participant data from randomised        28. Lapi F, Azoulay L, Yin H, et al. Concurrent use of diuretics, angiotensin
+     trials. Lancet. 2013;382(9894):769–79.                                         converting enzyme inhibitors, and angiotensin receptor blockers with
+9.   Massó González EL, Patrignani P, Tacconelli S, García Rodríguez LA.            non-steroidal anti-inflammatory drugs and risk of acute kidney injury:
+     Variability among nonsteroidal antiinflammatory drugs in risk of upper         nested case-control study. BMJ. 2013;346:e8525.
+     gastrointestinal bleeding. Arthritis Rheum. 2010;62(6):1592–601.           29. Zhang Q-L, Rothenbacher D. Prevalence of chronic kidney disease
+10. Sachs CJ. Oral analgesics for acute nonspecific pain. Am Fam Physician.         in population-based studies: systematic review. BMC Public Health.
+    2005;71(5):913–8.                                                               2008;8:117.
+11. National Institute for Health Care and Excellence (NICE). Clinical          30. Doggen K, Nobels F, Scheen AJ, et al. Cardiovascular risk factors and
+    Knowledge Summaries: NSAIDs - prescribing issues. NICE, 2013.                   complications associated with albuminuria and impaired renal function
+    Available from: cks.nice.org.uk (Accessed Sep, 2013).                           in insulin-treated diabetes. J Diabetes Complicat. 2013;27(4):370–5.
+12. Derry CJ, Derry S, Moore RA. Single dose oral ibuprofen plus                31. Fournier J-P, Lapeyre-Mestre M, Sommet A, et al. Laboratory monitoring
+    paracetamol (acetaminophen) for acute postoperative pain. Cochrane              of patients treated with antihypertensive drugs and newly exposed
+    Database Syst Rev. 2013;6:CD010210.                                             to non steroidal anti-inflammatory drugs: a cohort study. PLoS ONE.
+13. National Institute for Health Care Excellence (NICE). Osteoarthritis: the       2012;7(3):e34187.
+    care and management of osteoarthritis in adults. NICE: London; 2008.        32. Kowalski ML, Makowska JS, Blanca M, et al. Hypersensitivity to
+    Available from: www.nice.org.uk (Accessed Sep, 2013).                           nonsteroidal anti-inflammatory drugs (NSAIDs) - classification,
+14. de Leon J, Armstrong SC, Cozza KL. Clinical guidelines for psychiatrists        diagnosis and management: review of the EAACI/ENDA and GA2LEN/
+    for the use of pharmacogenetic testing for CYP450 2D6 and CYP450                HANNA. Allergy. 2011;66(7):818–29.
+    2C19. Psychosomatics. 2006;47(1):75–85.                                     33. Risser A, Donovan D, Heintzman J, Page T. NSAID prescribing
+15. Doherty M, Hawkey C, Goulder M, et al. A randomised controlled                  precautions. Am Fam Physician. 2009;80(12):1371–8.
+    trial of ibuprofen, paracetamol or a combination tablet of ibuprofen/       34. Kennedy D. Analgesics and pain relief in pregnancy and breastfeeding.
+    paracetamol in community-derived people with knee pain. Ann                     Austr Prescr. 2011;34:8–10.
+    Rheum Dis. 2011;70(9):1534–41.                                              35. Massey T, Derry S, Moore RA, McQuay HJ. Topical NSAIDs for acute pain
+16. Bondarsky EE, Domingo AT, Matuza NM, et al. Ibuprofen vs                        in adults. Cochrane Database Syst Rev. 2010;(6):CD007402.
+    acetaminophen vs their combination in the relief of musculoskeletal         36. National Institute for Health and Care Excellence (NICE). Feverish illness
+    pain in the ED: a randomized, controlled trial. Am J Emerg Med.                 in children: Assessment and initial management in children younger
+    2013;9:1357–60.                                                                 than five years. NICE: Manchester; 2013. Available from: www.nice.org.
+17. de Vries F, Setakis E, van Staa T-P. Concomitant use of ibuprofen and           uk (Accessed Sep, 2013).
+    paracetamol and the risk of major clinical safety outcomes. Br J Clin       37. Sullivan JE, Farrar HC. Fever and antipyretic use in children. Pediatrics.
+    Pharmacol. 2010;70(3):429–38.                                                   2011;127(3):580–7.
+18. Brune K, Hinz B. Paracetamol, ibuprofen, or a combination of both drugs     38. Brophy PD. Changing the paradigm in pediatric acute kidney injury. J
+    against knee pain: an excellent new randomised clinical trial answers           Pediatr. 2013;162(6):1094–6.
+    old questions and suggests new therapeutic recommendations. Ann             39. Misurac JM, Knoderer CA, Leiser JD, et al. Nonsteroidal anti-
+    Rheum Dis. 2011;70(9):1521–2.                                                   Inflammatory drugs are an important cause of acute kidney injury in
+19. Feucht CL, Patel DR. Analgesics and anti-inflammatory medications in            children. J Pediatr. 2013;162:1153–9.
+    sports: use and abuse. Pediatr Clin North Am. 2010;57(3):751–74.
+20. Trelle S, Reichenbach S, Wandel S, et al. Cardiovascular safety of
+    non-steroidal anti-inflammatory drugs: network meta-analysis. BMJ.
+    2011;342:c7086.
+               COMING SOON
+
+     The New Zealand
+     Formulary
+           for Children
+www.nzformulary.org
+

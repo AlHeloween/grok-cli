@@ -1,0 +1,172 @@
+Financial Performance Measures for Iowa Farms
+ 
+
+ Farmers who have a large investment in land,
+ machinery, livestock, and equipment need to keep
+ informed about the financial condition of their
+ operations. Some useful measures of financial
+ performance can be calculated from information found
+ in most farm record books and accounting programs.
+ These measures can help farmers assess the
+ profitability, debt capacity, and financial risk currently
+ faced by their businesses. The measures presented in
+ this publication are based on guidelines of the Farm
+ Financial Standards Council, ffsc.org/, and are used by
+ most agricultural lenders and farm accountants.
+ Types of Measures
+ Five different areas of financial condition are measured.
+ Liquidity refers to the degree to which debt obligations
+ coming due can be paid from cash or assets that
+ soon will be turned into cash. This is measured by
+ the current ratio, the amount of working capital, and
+ the amount of working capital per dollar of gross
+ revenue. A more thorough analysis of liquidity can be
+ made with a cash flow budget. FM1792, AgDM File
+ C3-15: Twelve Steps to Cash Flow Budgeting, store.
+ extension.iastate.edu/Product/1815.pdf, explains this
+ tool in detail.
+ Solvency refers to the degree to which all debts are
+ secured and the relative mix of equity and debt capital
+ used by the farm. The total debt-to-asset ratio is one of
+ several ratios used to measure solvency, all of which
+ are based on the same relationship of assets, liabilities,
+ and net worth.
+ Profitability refers to the difference between income
+ and expenses. One important measure of profitability is
+ net farm income. Annual rates of return on both equity
+ capital and total assets also can be calculated and
+ compared to interest rates for loans or rates of return
+ from alternative investments.
+ Financial efficiency ratios show what percent of gross
+ farm revenue went to pay interest, operating expenses,
+ and depreciation, and how much was left for net farm
+ income. The asset turnover ratio measures how much
+ gross income was generated for each dollar invested in
+ land, livestock, equipment, and other assets.
+ Repayment capacity measures show the degree
+ to which cash generated from the farm and other
+ sources will be sufficient to pay principal and
+ interest payments as they come due.
+ Using Performance Measures
+ Values for the farm financial measures should be
+ calculated for several years to observe trends and
+ to avoid making judgments based on an unusual
+ year. Typical historical values for most of these
+ measures can be found in the tables at the end of this
+ publication. They are based on data obtained from
+ the Iowa Farm Business Association (IFBA). Values
+ will vary according to the major enterprises carried
+ out, farm size, location, and the type of land tenure.
+ Other comparable data can be found in the annual
+ publication FM1789, AgDM File C1-10: Iowa Farm
+ Costs and Returns, store.extension.iastate.edu/
+ Product/1812.pdf.
+ Liquidity
+ Farms with good liquidity typically have current
+ ratios of at least 3.0 or higher. Dairy farms or other
+ farms that have continuous sales throughout the year
+ can safely operate with a current ratio as low as 2.0,
+ however. Conversely, operations that concentrate
+ sales during several periods each year, such as cash
+ grain farms, need to strive for a current ratio higher
+ than 3.0, especially near the beginning of the year.
+ The amount of working capital needed depends on
+ the size of the operation. Records show that working
+ capital measured at the beginning of the year is
+ typically equal to about 50-70% of the farm’s annual
+ gross revenue. For dairy farms, working capital can
+ be as low as 30% of gross revenue, but cash grain
+ farms may need as much as 50%.
+ 
+
+ Solvency
+ Total debt-to-asset ratios tend to be higher for larger
+ farms and for farms that specialize in livestock
+ feeding. Ratios of 10-30% are common among Iowa
+ farms, although many operate with little or no debt. A
+ high debt load does not make farms less efficient, but
+ principal and interest payments eat into cash flow.
+ High-efficiency farms are able to service a higher debt
+ load safely.
+ 
+
+ Two other ratios are commonly used to measure
+ solvency. The equity-to-asset ratio shows how many
+ dollars of net worth a farm has for every dollar of
+ assets. It is equal to 100% minus the debt-to-asset
+ ratio. Higher equity-to-asset ratios indicate a less risky
+ financial situation. Some lenders prefer to use the
+ debt-to-equity ratio to measure solvency. Higher ratios
+ indicate more risk.
+ Another useful measure is how much net worth the
+ farm has for each crop acre farmed, especially for cash
+ grain farms. The IFBA average is nearly $2,500.
+ 
+
+ Profitability
+ Net farm income from operations is what is left from
+ all income received from the farm business in the
+ past year, minus all the operating expenses used to
+ generate this income. Note that operating expenses do
+ not include the cost of financing the business, which is
+ interest expense.
+ Net farm income, or what is left after subtracting
+ interest, is highly variable from year to year and is
+ closely tied to the size and efficiency of the operation.
+ It also depends on the amount of debt the farm is
+ carrying. The rate of return on farm assets is quite
+ variable, too, but average long-term rates of 6-10% have
+ been common in Iowa. High-profit farms may average
+ more than 12%, while low-profit farms often realize a
+ return of only 2% or less.
+ The average rate of return on farm equity measures how
+ fast farm net worth is growing. Highly leveraged farms
+ may earn little or no return on equity when interest
+ rates are high. On the other hand, if the farm’s overall
+ return on assets is higher than the cost of borrowed
+ money, the return on equity may be quite high and net
+ worth will grow rapidly.
+ Operating profit margin is equal to the dollar return to
+ capital divided by the value of farm production each
+ year. Ratios have averaged about 6-10% in recent years,
+ and 25-30% in the 2000s. High-profit farms have had
+ ratios of 30% or more, while low-profit farms have had
+ ratios of less than 10%. Farms that hire or rent assets
+ such as labor, land, or machinery usually will have a
+ lower operating profit margin because operating costs
+ are higher. However, they will also generate a larger
+ gross and net income. Farms with owned or crop share
+ rented land will have a higher operating profit margin
+ because they have lower operating expenses.
+ 
+
+ Another common measure of profitability is Earnings
+ Before Interest, Taxes, Depreciation, and Amortization,
+ abbreviated as EBITDA. It shows how many dollars
+ are available for debt repayment.
+ 
+
+ Financial Efficiency
+ Asset turnover ratios for typical farms are about
+ 20-30%, but they can range from 10-20% for lowprofit farms and up to 30-50% for high-profit farms.
+ The asset turnover ratio measures the efficient use
+ of investment capital to generate revenue while the
+ operating profit margin ratio measures the efficient
+ use of operating capital. Because they are substitutes
+ for each other (owned and rented land, for example),
+ farms that are high in one measure may be low in the
+ other.
+ Farms with mostly rented land should have higher
+ asset turnover ratios than farms with mostly owned
+ land, generally around 50%. Rented farms also will
+ have higher operating expense ratios because rent paid
+ is included in operating expenses. Likewise, rented
+ farms will tend to have lower depreciation and interest
+ expense ratios than owned farms. Typically, about
+ 60-70% of gross revenue goes for operating expenses,
+ 5-10% goes for depreciation, and under 5% goes for
+ interest.
+ The average net farm income ratio for Iowa farms has
+ been in the 5-15% range in recent years but used to be
+ in the 20-30% range in the 2000s. High-profit farms
+ have averaged 20% over the past decade, while lowprofit farms averaged less than 5%.

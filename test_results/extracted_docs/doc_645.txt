@@ -1,0 +1,24 @@
+Obligations of experts in New Zealand
+ An “expert” is anyone with specialised knowledge or skill based on training, study or experience – it is not necessary for an expert to have formal qualifications (though, they often do).[1] In New Zealand, expert witnesses are not advocates — they have an overriding duty of impartiality to assist the Court.[2] The duty of impartiality is a fundamental tenet of giving expert evidence in New Zealand, in direct contrast to jurisdictions such as the United States, where experts are specifically selected as part of the advocacy team.
+ 
+
+ The requirements of expert evidence in New Zealand are set out in the Evidence Act 2006 and the High Court Rules 2016, which sets out the prescribed Code of Conduct (the Code).[3] Expert evidence is only admissible if it is of “substantial help” to the judge,[4] and the expert’s conduct complies with the prescriptive requirements of the Code:[5]
+ 
+
+ experts must read and agree to comply with the Code;
+ experts must state their qualifications and confirm that the specific issues they address are properly within their expertise;
+ experts must state all relevant facts, assumptions, reasoning, literature (or other material), testing or investigations relied on in reaching their opinion; and
+ experts must appropriately qualify their opinions as necessary.
+ In common law jurisdictions such as New Zealand, independent experts are engaged by the parties to the dispute. The Court may appoint its own independent expert, but this person must be agreed upon by the parties (if possible), or otherwise selected from experts named by the parties.[6]
+ 
+
+ Once appointed, experts present evidence to the Court and are then examined by legal counsel, reflecting the adversarial nature of the common law system used in New Zealand. The adversarial court system will be immediately unfamiliar territory for European experts. For example, it is far more common in Germany for experts to be appointed by and primarily examined by the presiding judge.[7] Experts engaged by the parties are considered advocates, and their opinion will be considered as submissions (rather than evidence) by the Court.[8]
+ 
+
+ In New Zealand, it is not a requirement that experts will disclose the scope of their engagements or the questions that have been put to them in their evidence. Nevertheless, we generally encourage this, as the nature of the questions put to an expert can be used as a measure of the expert’s independence (by checking if that the questions put to the witness are impartial and do not lead the witness to a particular answer). This is a mandatory requirement in England, Wales and Australia.
+ 
+
+ If both parties have engaged experts to address the same issue of fact, the Court may direct that the witnesses confer and attempt to reach agreement on matters within their field of expertise.[9] This narrows the scope of the disputed issues, allowing for more efficient use of Court time. Consistent with their overriding duty to assist the Court, expert witnesses are obligated to comply with these directions.
+ 
+
+ It is common practice for these obligations to be applied to arbitration proceedings based in New Zealand. In adjudication proceedings, where only a written “witness statement” is required, it is typical for experts to refer to the Code when providing evidence.

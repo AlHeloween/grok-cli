@@ -1,0 +1,175 @@
+II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+ B. Title II Insured Housing Programs Reverse Mortgages
+ 2. Origination/Processing
+ Handbook 4000.1 589
+ Last Revised: 05/20/2024
+ Mortgagee must determine whether the recorded Declaration and/or CC&Rs
+ require prior approval by the association of any non-purchase money mortgage
+ that will encumber the Property. In those situations where such a requirement
+ exists, the Mortgagee must obtain the approval of the association in writing prior
+ to origination of the HECM. Documentation concerning this approval must be
+ maintained by the Mortgagee and made available to HUD upon request.
+ (7) Property Assessed Clean Energy
+ (a) Definition
+ Property Assessed Clean Energy (PACE) refers to an alternative means of
+ financing energy and other PACE-allowed improvements to residential
+ properties using financing provided by private enterprises in conjunction with
+ state and local governments. Generally, the repayment of the PACE obligation
+ is collected in the same manner as a special assessment tax; it is collected by
+ the local government rather than paid directly by the Borrower to the party
+ providing the PACE financing. Generally, the PACE obligation is also
+ secured in the same manner as a special assessment against the property.
+ (b) Standard
+ Properties which will remain encumbered with a PACE obligation are not
+ eligible for an FHA-insured HECM. To be eligible for FHA insurance, the
+ PACE obligation must be paid off in full prior to or at closing. The Borrower
+ may use HECM proceeds to satisfy the PACE obligation. For HECM for
+ Purchase transactions, see the Property Assessed Clean Energy section of the
+ product sheet.
+ (B) Property Types
+ FHA’s programs differ from one another primarily in terms of what types of
+ Properties and financing are eligible. Except as otherwise stated in this Handbook
+ 4000.1, HECMs are limited to one- to four-unit Single Family Properties where the
+ Borrower occupies one unit as their Principal Residence. FHA insures HECM
+ financing on Real Property secured by:
+ • detached or semi-detached dwellings
+ • Manufactured Housing
+ • townhouses or row houses
+ • Condominium Units and Site Condominiums
+ FHA will not insure HECMs secured by:
+ • commercial enterprises
+ • cooperative units
+ • boarding houses
+ • hotels, motels, and condotels
+ II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+ B. Title II Insured Housing Programs Reverse Mortgages
+ 2. Origination/Processing
+ Handbook 4000.1 590
+ Last Revised: 05/20/2024
+ • tourist houses
+ • private clubs
+ • bed and breakfast establishments
+ • other transient housing
+ • Vacation Homes
+ • fraternity and sorority houses
+ (1) One-Unit
+ A one-unit Property is a Single Family residential Property with a single Dwelling
+ Unit, or with a single Dwelling Unit and a single ADU.
+ (2) Two-Unit
+ (a) Definition
+ A two-unit Property is a Single Family residential Property with two
+ individual dwellings.
+ (b) Standard
+ The Mortgagee must obtain a completed form HUD-92561.
+ (3) Three- to Four-Unit
+ A three- to four-unit Property is either:
+ • a Single Family residential Property with three to four individual Dwelling
+ Units; or
+ • a Single Family residential Property with two individual Dwelling Units
+ and one ADU or three individual Dwelling Units and one ADU.
+ The Mortgagee must obtain a completed form HUD-92561.
+ (4) Accessory Dwelling Unit
+ (a) Definition
+ An Accessory Dwelling Unit (ADU) refers to a single habitable living unit
+ with means of separate ingress and egress that meets the minimum
+ requirements for a living unit. An ADU is a private space that is subordinate
+ in size and within, or detached from a primary one-unit Single Family
+ dwelling, which together constitute a single interest in real estate.
+ (b) Standard
+ A Single Family residential one-unit Property with a single ADU remains a
+ one-unit Property. For any Single Family residential Property with two or
+ II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+ B. Title II Insured Housing Programs Reverse Mortgages
+ 2. Origination/Processing
+ Handbook 4000.1 591
+ Last Revised: 05/20/2024
+ more units, a separate additional Dwelling Unit must be considered as an
+ additional unit.
+ (5) Condominium Unit
+ (a) Definitions
+ A Condominium Unit refers to real estate consisting of a one-family Dwelling
+ Unit in a Condominium Project.
+ Condominium Project refers to a project in which one-family Dwelling Units
+ are attached, semi-detached, detached, or Manufactured Home units, and in
+ which owners hold an undivided interest in Common Elements.
+ (b) Standard
+ A Condominium Unit must be either located within an FHA-approved
+ Condominium Project, meet FHA’s definition of a Site Condominium, or have
+ completed the FHA Single-Unit Approval process before a Mortgage can be
+ insured.
+ (6) Site Condominiums
+ (a) Definition
+ A Site Condominium refers to:
+ • a Condominium Project that consists entirely of Single Family
+ detached dwellings that have no shared garages, or any other attached
+ buildings; or
+ • a Condominium Project that:
+  consists of Single Family detached or horizontally attached
+ (townhouse-style) dwellings where the Unit consists of the
+ dwelling and land;
+  does not contain any Manufactured Housing Units; and
+  is encumbered by a declaration of condominium covenants or a
+ condominium form of ownership.
+ (b) Standard
+ Manufactured Housing condominium units may not be processed as Site
+ Condominiums.
+ The Unit owner must be responsible for all required insurance and
+ maintenance costs associated with the Unit dwelling, excluding landscaping,
+ of the Site Condominium.
+ II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+ B. Title II Insured Housing Programs Reverse Mortgages
+ 2. Origination/Processing
+ Handbook 4000.1 592
+ Last Revised: 05/20/2024
+ Site Condominiums do not require Condominium Project Approval or Single-
+ Unit Approval.
+ Manufactured Housing
+ (a) Definition
+ Manufactured Housing is a Structure that is transportable in one or more
+ sections. It may be part of a Condominium Project, provided the project meets
+ applicable FHA requirements.
+ (b) Standard
+ To be eligible for FHA mortgage insurance as a Single Family Title II HECM,
+ all Manufactured Housing must:
+ • be designed as a one-family dwelling;
+ • have a floor area of not less than 400 square feet;
+ • have the HUD Certification Label affixed or have obtained a letter of
+ label verification issued on behalf of HUD, evidencing the house was
+ constructed on or after June 15, 1976, in compliance with the Federal
+ Manufactured Home Construction and Safety Standards;
+ • be classified as real estate (but need not be treated as real estate for
+ purposes of state taxation);
+ • be built and remain on a permanent chassis;
+ • be designed to be used as a dwelling with a permanent foundation built
+ in accordance with the Permanent Foundations Guide for
+ Manufactured Housing (PFGMH); and
+ • have been directly transported from the manufacturer or the dealership
+ to the site.
+ (c) Required Documentation
+ (i) HUD Certification Label
+ If the appraisal indicates the HUD Certification Label is missing from the
+ Manufactured Housing unit, the Mortgagee must obtain label verification
+ from the Institute for Building Technology and Safety (IBTS).
+ (ii) PFGMH Certification
+ The Mortgagee must obtain a certification by an engineer or architect, who
+ is licensed/registered in the state where the Manufactured Home is
+ located, attesting to compliance with the PFGMH.
+ The Mortgagee may obtain a copy of the foundation certification from a
+ previous FHA-insured Mortgage, showing that the foundation met the
+ guidelines published in the PFGMH that were in effect at the time of
+ II. ORIGINATION THROUGH POST-CLOSING/ENDORSEMENT
+ B. Title II Insured Housing Programs Reverse Mortgages
+ 2. Origination/Processing
+ Handbook 4000.1 593
+ Last Revised: 05/20/2024
+ certification, provided there are no alterations and/or observable damage
+ to the foundation since the date of the original certification.
+ If the Appraiser notes additions or alterations to the Manufactured
+ Housing unit, the Mortgagee must ensure the addition was addressed in
+ the foundation certification.
+ If the additions or alterations were not addressed in the foundation
+ certification, the Mortgagee must obtain:
+ • an inspection by the state administrative agency that inspects
+ Manufactured Housing for compliance; or
+ • certification of the structural integrity from a licensed structural
+ engineer if the state does not employ inspectors

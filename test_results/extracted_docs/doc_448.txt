@@ -1,0 +1,30 @@
+Clinical Manifestations
+ Symptoms of shigellosis include abdominal pain, tenesmus, watery diarrhea, and/or dysentery (multiple scanty, bloody, mucoid stools). Other signs may include abdominal tenderness, fever, vomiting, dehydration, and convulsions.
+ 
+
+ Structure, Classification, and Antigenic Types
+ Shigellae are Gram-negative, nonmotile, facultatively anaerobic, non-spore-forming rods. Shigella are differentiated from the closely related Escherichia coli on the basis of pathogenicity, physiology (failure to ferment lactose or decarboxylate lysine) and serology. The genus is divided into four serogroups with multiple serotypes: A (S dysenteriae, 12 serotypes); B (S flexneri, 6 serotypes); C (S boydii, 18 serotypes); and D (S sonnei, 1 serotype).
+ 
+
+ Pathogenesis
+ Infection is initiated by ingestion of shigellae (usually via fecal-oral contamination). An early symptom, diarrhea (possibly elicited by enterotoxins and/or cytotoxin), may occur as the organisms pass through the small intestine. The hallmarks of shigellosis are bacterial invasion of the colonic epithelium and inflammatory colitis. These are interdependent processes amplified by local release of cytokines and by the infiltration of inflammatory elements. Colitis in the rectosigmoid mucosa, with concomitant malabsorption, results in the characteristic sign of bacillary dysentery: scanty,. unformed stools tinged with blood and mucus.
+ 
+
+ Host Defenses
+ Inflammation, copious mucus secretion, and regeneration of the damaged colonic epithelium limit the spread of colitis and promote spontaneous recovery. Serotype-specific immunity is induced by a primary infection, suggesting a protective role of antibody recognizing the lipopolysaccharide (LPS) somatic antigen. Other Shigella antigens include enterotoxins, cytotoxin, and plasmid-encoded proteins that induce bacterial invasion of the epithelium. The protective role of immune responses against these antigens is unclear.
+ 
+
+ Epidemiology
+ Shigellosis is endemic in developing countries were sanitation is poor. Typically 10 to 20 percent of enteric disease, and 50% of the bloody diarrhea or dysentery of young children, can be characterized as shigellosis, and the prevalence of these infections decreases significantly after five years of life. In developed countries, single-source, food or water-borne outbreaks occur sporadically, and pockets of endemic shigellosis can be found in institutions and in remote areas with substandard sanitary facilities.
+ 
+
+ Diagnosis
+ Shigellosis can be correctly diagnosed in most patients on the basis of fresh blood in the stool. Neutrophils in fecal smears is also a strongly suggestive sign. Nonetheless, watery, mucoid diarrhea may be the only symptom of many S sonnei infections, and any clinical diagnosis should be confirmed by cultivation of the etiologic agent from stools.
+ 
+
+ Control
+ Prevention of fecal-oral transmission is the most effective control strategy. Severe dysentery is treated with ampicillin, trimethoprim-sulfamethoxazole, or, in patients over 17 years old, a 4-fluorquinolone such as ciprofloxacin. Vaccines are not currently available, but some promising candidates are being developed.
+ Gram-negative, facultative anaerobes of the genus Shigella are the principal agents of bacillary dysentery. This disease differs from profuse watery diarrhea, as is commonly seen in choleraic diarrhea or in enterotoxigenic Escherichia coli diarrhea, in that the dysenteric stool is scant and contains blood, mucus, and inflammatory cells. In some individuals suffering from shigellosis, however, moderate volume diarrhea is a prodrome or the sole manifestation of the infection. Bacillary dysentery constitutes a significant proportion of acute intestinal disease in the children of developing countries, and this infection is a major contributor to stunted growth of these children. Shigellosis also presents a significant risk to travelers from developed countries when visiting in endemic areas, and sporadic food or water-borne outbreaks occur in developed countries.
+ 
+
+ The pathogenic mechanism of shigellosis is complex, involving a possible enterotoxic and/or cytotoxic diarrheal prodrome, cytokine-mediated inflammation of the colon, and necrosis of the colonic epithelium. The underlying physiological insult that initiates this inflammatory cascade is the invasion of Shigella into the colonic epithelium and the lamina propria. The resulting colitis and ulceration of the mucosa result in bloody, mucoid stools, and/or febrile diarrhea.

@@ -1,0 +1,83 @@
+Adobe Experience Platform helps customers to centralise and standardise their customer
+data and content across the enterprise – powering 360° customer profiles, enabling data
+science, and data governance to drive real-time personalised experiences.
+Experience Platform provides services that includes capabilities for data ingestion, wrangling and analysing
+data and building predictive models and next best action. Experience Platform makes the data, content and
+insights available to experience-delivery systems to act upon in real time, yielding compelling experiences in the
+relevant moment. With Experience Platform, enterprises will be able to utilise completely coordinated marketing
+and analytics solutions for driving meaningful customer interactions, leading to positive business results.
+An integral part of Experience Platform is sharing customer experience data to improve experiences for
+our customers as they work to deliver real-time experiences through our open and extensible platform.
+Companies want to leverage their customer experience data and share data and insights across all their
+experience applications (both Adobe applications and third-party applications). Sharing customer experience
+data in multiple formats from multiple sources can require too much time and too many resources. Adobe’s
+Experience Data Model (XDM) is a formal specification that you can integrate into your own data model to
+create a true 360-degree view of your customer, which saves you time and makes moving your data into
+Adobe Experience Cloud products a seamless process.
+
+Company executives in a variety of industries have found themselves thinking about a single
+issue: how to create a better user experience by delivering the right offer (or right message)
+at the right time.
+In order to find an answer to that issue, we need to understand the entire journey of a customer across multiple
+touchpoints both online and offline. It’s not enough knowing how the customer interacts within a website.
+You also have to know how the customer responds to emails and how they respond to any offline touchpoints
+(such as customer support calls or marketing postcards). Knowing the details of the complete journey will give
+businesses information they need for better personalisation and that will allow them to use machine learning
+to analyse the journey and deliver an individualised experience.
+Nine in ten marketers say data is their most underutilised asset. Why aren’t they deriving more value from
+the terabytes of information they collect? Primarily, it’s because that data isn’t immediately usable. Information
+compiled from varied sources — like websites, emails, sales, third-party vendors and even offline channels —
+tends to be siloed and structured in different formats. Even when one department within a firm gets relevant
+data into a format it can understand, the resulting intel is still largely unintelligible to other teams and
+departments. If all that data were translated into a single language — one that is equally useful and informative
+to sales representatives, IT departments, social-media marketers and customer service reps — companies
+could offer customers more compelling, personalised experiences in real time.
+Adobe’s Experience Data Model (XDM) is a formal specification used to describe this journey of experiences,
+as well as the resulting actions and events. XDM describes not only the journey, but also the measurement,
+content offers and other details of the journey. XDM is more than just a “data dictionary” for companies working
+with data from customer experiences — it’s a complete language for the experience business. XDM has been
+developed by Adobe as a way to make experience data easier to interpret and to share.
+
+Companies have been chasing the 360-degree customer view for years. The biggest
+problem is that every bit of data seems to be in a different format or on a different platform.
+You have your website, your email offers, your customer support system, your retail store
+and a rewards card, not to mention your search, display, social and video advertising across
+the web. Many of the systems you use to track those items don’t talk to each other or even
+store the information in a format the other systems can use.
+Since you want to use machine learning to derive insights and intelligence from the data, and then use
+those insights to drive company actions, those separate systems make getting a better view of your customer
+a difficult and time-consuming task. How can you talk about delivering a personalised experience for your
+customers if every system has a different definition of who the customer is?
+To make all these disparate data sets work together and be understood, Data Engineers and Data Scientists
+are in a constant process of translating and re-translating the data at every step. A large amount of that time
+is spent understanding the structure of the data before they can turn the data into something meaningful that
+you can use to create a better experience for your customers.
+But streamlining that data is easier said than done. Almost 40 percent of advertisers employ three or more
+data management platforms and 44 percent use three or more analytics platforms. By juggling multiple
+different data platforms, companies are more likely drop sales leads.
+Data flowing in from a company’s smartphone app, for instance, might be in a completely different language
+than the data acquired from an email marketing campaign, a third-party vendor or from the point of sale.
+The average data scientist spends about 80 percent of their day preparing raw data for analysis, according
+to a recent poll from data mining company CrowdFlower.
+Every hour spent cleaning and structuring data is time that could be better spent drawing useful insights
+from that data, so companies can devise engaging customer experiences.
+Imagine if sales and marketing data existed in a single, standardised language from the moment it’s
+compiled — the same way Adobe standardised PDF for documents.
+
+Every business is an Experience Business. Whether you’re selling a product, a service or even
+an event, as long as another person is expected to interact with your company or product
+or service, then you are creating an experience. This is especially true for any business (or
+department) that deals with a customer’s ongoing interaction, such as customer support
+or loyalty clubs.
+XDM is a specification that describes the elements of those interactions. XDM can describe a consumer’s
+preferences and qualify what audiences they are part of and then categorise information about their online
+journey (such as what buttons they click on or what they add to a shopping cart). XDM can also define
+offline interactions such as loyalty-club memberships.
+XDM is a core part of the Adobe Experience Platform, built with partners and global brands that are
+strategically investing in this shared vision of omnipresent and consistent first-class customer experience.
+Modern customer interactions are unique because they go beyond what historically common data modelling
+can support. Interacting with digital audiences requires capabilities such as engaging content, insights from
+data at scale, complete data awareness, identity management, unified profiles, omni-channel and experiencecentric metadata, and the blending of real-time with historical behavioural data. Often, this data comes from
+multiple different vendors representing online behaviour across web and mobile and offline behavior for instore purchases, demographic information and user preferences. It is a labour-intensive process to combine
+all of these disparate data sources to get a 360-degree view of a consumer and speak to them with one
+voice across the various channels. XDM is the language to express these experiences.

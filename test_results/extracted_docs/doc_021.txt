@@ -1,0 +1,110 @@
+Your business structure affects how much you pay in taxes, your ability to raise money, the paperwork you need to file, and your personal liability. 
+ 
+
+ You'll need to choose a business structure before you register your business with the state. Most businesses will also need to get a tax ID number and file for the appropriate licenses and permits.
+ 
+
+ Choose carefully. While you may convert to a different business structure in the future, there may be restrictions based on your location. This could also result in tax consequences and unintended dissolution, among other complications. 
+ 
+
+ Consulting with business counselors, attorneys, and accountants can prove helpful.
+ 
+
+ Review common business structures
+ Sole proprietorship
+ A sole proprietorship is easy to form and gives you complete control of your business. You're automatically considered to be a sole proprietorship if you do business activities but don't register as any other kind of business. 
+ 
+
+ Sole proprietorships do not produce a separate business entity. This means your business assets and liabilities are not separate from your personal assets and liabilities. You can be held personally liable for the debts and obligations of the business. Sole proprietors are still able to get a trade name. It can also be hard to raise money because you can't sell stock, and banks are hesitant to lend to sole proprietorships.
+ 
+
+ Sole proprietorships can be a good choice for low-risk businesses and owners who want to test their business idea before forming a more formal business.
+ 
+
+ Partnership
+ Partnerships are the simplest structure for two or more people to own a business together. There are two common kinds of partnerships: limited partnerships (LP) and limited liability partnerships (LLP).
+ 
+
+ Limited partnerships have only one general partner with unlimited liability, and all other partners have limited liability. The partners with limited liability also tend to have limited control over the company, which is documented in a partnership agreement. Profits are passed through to personal tax returns, and the general partner — the partner without limited liability — must also pay self-employment taxes.
+ 
+
+ Limited liability partnerships are similar to limited partnerships, but give limited liability to every owner. An LLP protects each partner from debts against the partnership, they won't be responsible for the actions of other partners. 
+ 
+
+ Partnerships can be a good choice for businesses with multiple owners, professional groups (like attorneys), and groups who want to test their business idea before forming a more formal business.
+ 
+
+ Limited liability company (LLC) 
+ An LLC lets you take advantage of the benefits of both the corporation and partnership business structures.
+ 
+
+ LLCs protect you from personal liability in most instances, your personal assets — like your vehicle, house, and savings accounts — won't be at risk in case your LLC faces bankruptcy or lawsuits.
+ Profits and losses can get passed through to your personal income without facing corporate taxes. However, members of an LLC are considered self-employed and must pay self-employment tax contributions towards Medicare and Social Security.
+ 
+
+ LLCs can have a limited life in many states. When a member joins or leaves an LLC, some states may require the LLC to be dissolved and re-formed with new membership — unless there's already an agreement in place within the LLC for buying, selling, and transferring ownership.
+ 
+
+ LLCs can be a good choice for medium- or higher-risk businesses, owners with significant personal assets they want protected, and owners who want to pay a lower tax rate than they would with a corporation.
+ 
+
+ Corporation
+ C corp
+ A corporation, sometimes called a C corp, is a legal entity that's separate from its owners. Corporations can make a profit, be taxed, and can be held legally liable.
+ 
+
+ Corporations offer the strongest protection to its owners from personal liability, but the cost to form a corporation is higher than other structures. Corporations also require more extensive record-keeping, operational processes, and reporting.
+ 
+
+ Unlike sole proprietors, partnerships, and LLCs, corporations pay income tax on their profits. In some cases, corporate profits are taxed twice — first, when the company makes a profit, and again when dividends are paid to shareholders on their personal tax returns.
+ 
+
+ Corporations have a completely independent life separate from its shareholders. If a shareholder leaves the company or sells his or her shares, the C corp can continue doing business relatively undisturbed.
+ 
+
+ Corporations have an advantage when it comes to raising capital because they can raise funds through the sale of stock, which can also be a benefit in attracting employees.
+ 
+
+ Corporations can be a good choice for medium- or higher-risk businesses, those that need to raise money, and businesses that plan to "go public" or eventually be sold.
+ 
+
+ S corp
+ An S corporation, sometimes called an S corp, is a special type of corporation that's designed to avoid the double taxation drawback of regular C corps. S corps allow profits, and some losses, to be passed through directly to owners' personal income without ever being subject to corporate tax rates.
+ 
+
+ Not all states tax S corps equally, but most recognize them the same way the federal government does and tax the shareholders accordingly. Some states tax S corps on profits above a specified limit and other states don't recognize the S corp election at all, simply treating the business as a C corp.
+ 
+
+ S corps must file with the IRS to get S corp status, a different process from registering with their state.
+ 
+
+ There are special limits on S corps. Check the IRS website for eligibility requirements(Link is external). You'll still have to follow the strict filing and operational processes of a C corp.
+ 
+
+ S corps also have an independent life, just like C corps. If a shareholder leaves the company or sells his or her shares, the S corp can continue doing business relatively undisturbed.
+ 
+
+ S corps can be a good choice for a businesses that would otherwise be a C corp, but meet the criteria to file as an S corp
+ 
+
+ 
+
+ Compare business structures
+ Compare the general traits of these business structures, but remember that ownership rules, liability, taxes, and filing requirements for each business structure can vary by state. The following table is intended only as a guideline. Please confer with a business tax specialist to confirm your specific business needs.
+ 
+
+ Business structure Ownership Liability Taxes
+ Sole proprietorship One person Unlimited personal liability 
+ Self-employment tax
+ 
+
+ 
+
+ Partnerships Two or more people Unlimited personal liability unless structured as a limited partnership 
+ Self-employment tax (except for limited partners)
+ 
+
+ 
+
+ Limited liability company (LLC) One or more people Owners are not personally liable 
+ Self-employment tax

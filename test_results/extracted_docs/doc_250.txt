@@ -1,0 +1,69 @@
+Evaluating the return of an investment without regard to the risk taken offers very little insight as to how a security or portfolio has really performed. Every security has a required rate of return, as specified by the capital asset pricing model (CAPM).
+ 
+
+ The Jensen index, or alpha, is what helps investors determine how much a portfolio's realized return differs from the return it should have achieved. This article will provide a deeper understanding of alpha and its practical application.
+ 
+
+ Key Takeaways
+ Alpha refers to excess returns earned on an investment above the benchmark return.
+ Active portfolio managers seek to generate alpha in diversified portfolios, with diversification intended to eliminate unsystematic risk.
+ Because alpha represents the performance of a portfolio relative to a benchmark, it is often considered to represent the value that a portfolio manager adds to or subtracts from a fund's return.
+ Jensen’s alpha takes into consideration the capital asset pricing model (CAPM) and includes a risk-adjusted component in its calculation.
+ Alpha Defined
+ Alpha is computed in relation to the capital asset pricing model. The CAPM equation is used to identify the required return of an investment; it is often used to evaluate realized performance for a diversified portfolio. Because it's assumed that the portfolio being evaluated is a diversified portfolio (meaning that the unsystematic risk has been eliminated), and because a diversified portfolio's main source of risk is the market risk (or systematic risk), beta is an appropriate measure of that risk.
+ 
+
+ Alpha is used to determine by how much the realized return of the portfolio varies from the required return, as determined by CAPM. The formula for alpha is expressed as follows:
+ 1
+ 
+
+ α = Rp – [Rf + (Rm – Rf) β]
+ Where:
+ 
+
+ Rp = Realized return of portfolio
+ 
+
+ Rm = Market return
+ Rf = the risk-free rate
+ β = the asset's beta
+ What Does Alpha Measure?
+ Alpha measures risk premiums in terms of beta (β); therefore, it is assumed that the portfolio being evaluated is well diversified. The Jensen index requires using a different risk-free rate for each time interval measured during the specified period. For instance, if you are measuring the fund managers over a five-year period using annual intervals, you must examine the fund's annual returns minus the risk-free assets' returns (i.e., U.S. Treasury bill or one-year risk-free asset) for each year, and relate this to the annual return of the market portfolio minus the same risk-free rate.
+ 
+
+ This calculation method contrasts with both the Treynor and Sharpe measures in that both examine the average returns for the total period for all variables, which include the portfolio, market, and risk-free assets.
+ 
+
+ Alpha is a good measure of performance that compares the realized return with the return that should have been earned for the amount of risk borne by the investor. Technically speaking, it is a factor that represents the performance that diverges from a portfolio's beta, representing a measure of the manager's performance. For example, it's insufficient for an investor to consider the success or failure of a mutual fund merely by looking at its returns. The more relevant question is this: was the manager's performance sufficient to justify the risk taken to get said return?
+ 
+
+ Applying the Results
+ A positive alpha indicates the portfolio manager performed better than was expected based on the risk the manager took with the fund as measured by the fund's beta. A negative alpha means that the manager actually did worse than they should have given the required return of the portfolio.
+ 1
+  The regression results usually cover a period between 36 and 60 months.
+ 
+
+ The Jensen index permits the comparison of portfolio managers' performance relative to one another, or relative to the market itself. When applying alpha, it's important to compare funds within the same asset class. Comparing funds from one asset class (i.e., large-cap growth) against a fund from another asset class (i.e., emerging markets) is meaningless because you are essentially comparing apples and oranges.
+ 
+
+ The chart below provides a good comparative example of alpha, or "excess returns." Investors can use both alpha and beta to judge a manager's performance.
+ 
+
+ Table 1
+ Fund Name Asset Class Ticker Alpha 3 Yr Beta 3 Yr Trailing Return 3 Yr Trailing Return 5 Yr
+ American Funds Growth Fund A Large Growth AGTHX 4.29 1.01 16.61 20.46
+ Fidelity Large Cap Growth Large Growth FSLGX 7.19 1.04 22.91 --
+ T. Rowe Price Growth Stock Large Growth PRGFX 5.14 1.03 17.67 21.54
+ Vanguard Growth Index Fund Admiral Shares Large Growth VIGAX 6.78 1.04 19.76 21.43
+ Table 1
+ The figures included in Table 1 indicate that on a risk-adjusted basis, the Fidelity Large Cap Growth yielded the best results of the funds listed. The three-year alpha of four exceeded those of its peers in the small sample provided above.
+ 
+
+ It's important to note that not only are comparisons among the same asset class appropriate but the right benchmark should also be considered. The benchmark most frequently used to measure the market is the S&P 500 stock index, which serves as a proxy for "the market."
+ 
+
+ However, some portfolios and mutual funds include asset classes with characteristics that do not accurately compare against the S&P 500, such as bond funds, sector funds, real estate, etc. Therefore, the S&P 500 may not be the appropriate benchmark to use in that case. So the alpha calculation would have to incorporate the relative benchmark for that asset class.
+ 
+
+ The Bottom Line
+ Portfolio performance encompasses both return and risk. The Jensen index, or alpha, provides us with a fair standard of manager performance. The results can help us determine whether the manager added value or even extra value on a risk-adjusted basis. If so, it also helps us determine whether the manager's fees were justified when reviewing the results. Buying (or even keeping) investment funds without this consideration is like buying a car to get you from Point A to Point B without evaluating its fuel efficiency.

@@ -1,0 +1,37 @@
+The Eighth Amendment provides, “Excessive bail shall not be required, nor excessive fines imposed, nor
+cruel and unusual punishments inflicted.” The Eighth Amendment’s prohibitions apply to laws enacted by
+the federal government, and by state governments and their local subdivisions by operation of the
+Fourteenth Amendment.
+The Supreme Court has interpreted the Amendment’s prohibition on cruel and unusual punishments to,
+among other things, impose some “substantive limits on what the government may criminalize.” Before
+Grants Pass, the Supreme Court had issued two primary cases elaborating on the Eighth Amendment’s
+substantive limits on what a government may criminalize: Robinson v. California and Powell v. Texas.
+In Robinson v. California, a 1962 case, the Court heard an Eighth Amendment challenge to a California
+law that made it a misdemeanor offense for an individual to “be addicted to the use of narcotics.” The
+defendant was convicted under the law; however, at the time of his arrest, he “was neither under the
+influence of narcotics nor suffering withdrawal symptoms.” The Supreme Court reversed the conviction
+and expressed concern that the defendant was convicted on the basis of his “status,” specifically that he
+suffered from the “chronic condition . . . of [being] addicted to the use of narcotics.” Put differently, the
+Court was troubled that the defendant was not convicted “upon proof of the actual use of narcotics.” The
+majority thus ruled that, under the Eighth Amendment, an individual may not be punished for a status or
+in the absence of some conduct (or “actus reus”).
+Six years after Robinson, the Court issued its opinion in Powell v. Texas, a case involving an Eighth
+Amendment challenge to a law that proscribed public intoxication. The defendant argued that because he
+was a chronic alcoholic, being intoxicated in public was “not of his own volition.” While the case
+produced multiple opinions, the plurality determined that “Texas has sought to punish not for a status, as
+California did in Robinson,” but rather “for public behavior which may create substantial health and
+safety hazards, both for [the defendant] and for members of the general public.” That is, the plurality
+indicated that the law at issue criminalized conduct, not status, which it viewed as permissible.
+In his concurring opinion in Powell, Justice Black stated that Robinson established a status-conduct
+distinction, forbidding punishment when the individual has not committed a “wrongful act.” Justice White
+also concurred in the result. Citing Robinson, Justice White opined that “[i]f it cannot be a crime to have
+an irresistible compulsion to use narcotics, I do not see how it can constitutionally be a crime to yield to
+such a compulsion.” He thus suggested that an individual may not be punished for conduct symptomatic
+of or compelled by an addiction. Justice White, however, concluded that the record did not support a
+finding that the defendant could not avoid being in public while intoxicated. Accordingly, Justice White
+was not prepared to “say that the chronic alcoholic who proves his disease and a compulsion to drink is
+shielded from conviction [for] the [additional] act of going to or remaining in a public place.”
+Four Justices dissented. They contended that the defendant was “powerless” to drink, had an
+“uncontrollable compulsion to drink to the point of intoxication,” and that once in this state “he could not
+prevent himself from appearing in public places.” In other words, they suggested that, here, drinking and
+appearing in public were both involuntary acts making criminal punishment inappropriate. 

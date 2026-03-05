@@ -1,0 +1,90 @@
+Yelp’s Self-preferencing Claims
+AMERICANACTIONFORUM.ORG
+Yelp brought its lawsuit against Google largely alleging a violation of Section 2 of the Sherman Act, which
+prohibits the illegal monopolization of a market. To succeed on a Section 2 illegal monopolization claim, a
+plaintiff must show two elements: 1) that the defendant had monopoly power in a relevant market, and 2) that
+the firm illegally acquired or maintained that monopoly power using anticompetitive means. While Yelp alleges
+a few different theories in the case, this paper focuses on the claim that Google is using monopoly power in the
+general search market to self-preference local search offerings at the expense of rivals such as Yelp.
+Element 1: Monopoly Power
+First, Yelp must show that Google has monopoly power in a relevant market. For the type of conduct at issue in
+this case, Yelp would likely need to show that Google both has monopoly power in the general search market
+and uses that monopoly power to attempt to monopolize the more specific local search market.
+The timing of this lawsuit is not a coincidence. In July, the DOJ won its case arguing that Google had illegally
+monopolized the general search market through the use of default search engine agreements with browsers and
+smartphone manufacturers. While that specific conduct isn’t at issue here, Yelp will almost certainly point to the
+finding that Google does, in fact, have monopoly power in general search. This provides Yelp with a strong
+foundation for its case, and if a court accepts Yelp’s argument, Yelp would simply need to show either that
+Google has monopoly power in the local search market or that Google has sufficient market power to pose a
+dangerous probability of monopolizing that market.
+Yelp’s case isn’t clear cut, however. First, the decision in the DOJ case is not binding here because Yelp is
+suing in a different jurisdiction, though a district court opinion from another jurisdiction may be a persuasive
+authority. Even if the judge in the Yelp case defers to the D.C. decision, the D.C. decision largely dismissed
+arguments about generative AI being a viable alternative to the traditional search engine because, at the time of
+discovery, the technology didn’t exist commercially. Within the past two years, tools that offer similar search
+functionality such as ChatGPT have grown significantly, providing an alternative to Google’s general search
+product and restricting Google’s ability to act as a monopolist. Second, Google will undoubtedly argue that
+local search is not distinct from general search.
+Element 2: Anticompetitive Conduct
+In addition to monopoly power, Yelp will need to show that Google could acquire that monopoly power in the
+local search market through “willful acquisition…as distinguished from growth or development as a
+consequence of a superior product, business acumen, or historic accident.”
+At the core of the complaint, Yelp alleges that
+“Google has degraded quality, demoted rivals, and grown its monopoly power by (1) inserting
+Google’s own vertical search results at the top of its horizontal search results page to divert user
+attention away from organic search results and (2) excluding rivals and their vertical content from
+that prime placement in the vertical search sections that populate the top of the [search engine
+results page].”
+This argument relies on what is known as “self-preferencing,” a legal theory that has become popular in
+European competition law in recent years, but is largely dismissed by U.S. courts. Courts in the United States
+have found that even firms with monopoly power generally have no duty to deal with their rivals, as firms
+AMERICANACTIONFORUM.ORG
+should be able to choose how they offer their products and services to better compete on the merits. Some tying
+arrangements can violate the law, but tying arguments generally require a firm to tie the purchase of a product in
+a market in which the firm has monopoly power to the purchase of a product in another market in which the
+firm does not have monopoly power. Yet as antitrust scholar Herbert Hovenkamp has explained, these types of
+tying agreements do not usually reach mere preferential ordering of goods that falls short of prohibitions on
+dealing.
+The reason courts generally don’t recognize self-preferencing as a viable theory of harm under the law is
+because firms use these displays to compete on the merits. If a customer searches for “best local lunch spots
+near me,” for example, Yelp would still be the top general search result on the website, though Google Places
+appears at the top of the result with a direct list of restaurants, their reviews, and their locations. Google, by
+incorporating its own vertical products, provides the user with immediate suggestions to the question, a tool to
+see how individuals rate the restaurants, and a map to see how far away they are. And if users want a more
+detailed local search option, they can simply click on the Yelp link right below the vertical offerings.
+Courts tend to prefer to give firms freedom to design their products as they see fit, largely due to concerns that
+mandating specific designs could negatively affect competition and consumers.
+AICOA in an Alternate Universe
+The American Innovation and Choice Online Act specifically targets the kind of conduct at issue here. First, the
+bill would designate large technology platforms like Google as covered platforms. Second, the bill would make
+it illegal to “preference the products, services, or lines of business of the covered platform operator over those of
+another business user on the covered platform in a manner that would materially harm competition,” along with
+a variety of other restrictions on harming smaller competitors.
+Under AICOA, a case against Google would more likely succeed, though it would still present challenges.
+First, and most important, Yelp couldn’t bring the case directly under the law, as AICOA would require the
+Department of Justice, the Federal Trade Commission, or a state attorney general to bring a claim. Yelp could
+still bring private litigation, and perhaps having this law on the books may persuade courts to recognize a self-
+preferencing claim, but it would not be able to bring an AICOA claim.
+Second, under AICOA, a plaintiff could largely ignore any discussion of monopoly power. Monopoly power is
+difficult to demonstrate, and it is extremely costly to adjudicate at trial for all parties involved. It is, however, a
+critical part to the competition analysis: If a firm lacks the power to profitably raise prices or exclude rivals, it is
+unlikely that the firm’s behavior would harm competition regardless of how it acts, as alternatives exist and
+business would go elsewhere. Instead, under AICOA, Google would essentially already be found to have that
+power, forgoing any analysis of market structure and restrictions on behavior, and would hold instead that the
+firm is large enough for the courts to be concerned.
+AMERICANACTIONFORUM.ORG
+Third, AICOA specifically prohibits self-preferencing, a theory largely not recognized by courts in the United
+States as described above. Though the legislation includes language about materially harming competition,
+courts would have flexibility in interpreting that provision. It could simply be a rule of reason analysis in which
+the court weighs the procompetitive justifications against the anticompetitive harms, but it could also mean that
+there is some harm to the competitive process, regardless of whether there are procompetitive justifications or
+even on the net a benefit to competition.
+Similarly, the legislation would allow defendants to argue an affirmative defense that the conduct was
+“reasonably tailored and reasonably necessary…to maintain or substantially enhance the core functionality of
+the covered platform,” but affirmative defenses mean that the defendant has already been found in violation of
+the law and have the burden of proving by a preponderance of the evidence that the defense applies. In other
+words, it would be up to the defendant to prove that that the conduct was reasonably tailored and reasonably
+necessary. This is similar to the burden-shifting analysis under the current anticompetitive conduct element of
+Section 2 claims – but by requiring the defendant prove that the conduct would “substantially” enhance the core
+functionality of a product, a firm like Google would have a more difficult time arguing the procompetitive case
+for conduct that led to vertical integration.

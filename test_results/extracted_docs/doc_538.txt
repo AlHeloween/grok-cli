@@ -1,0 +1,101 @@
+State v. Loomis, 371 Wis.2d 235, 881 N.W.2d 749 (2016), cert. denied, 137
+S. Ct. 2290 (2017)
+The defendant was convicted of various offenses arising out of a drive-by
+shooting. His presentence report included an evidence-based risk assessment that
+indicated a high risk of recidivism. On appeal, the defendant argued that
+consideration of the risk assessment by the sentencing judge violated his right to
+due process. The Supreme Court rejected the argument. However, it imposed
+conditions on the use of risk assessments.
+State v. Morrill, No. A-1-CA-36490, 2019 WL 3765586 (N.M. App. July 24, 2019)
+Defendant asks this Court to ‘find that the attestations made by a computer program
+constitute ‘statements,’ whether attributable to an artificial intelligence software or the
+software developer who implicitly offers the program’s conclusions as their own.’
+(Emphasis omitted.) Based on that contention, Defendant further argues that the
+automated conclusions from Roundup and Forensic Toolkit constitute inadmissible
+hearsay statements that are not admissible under the business record exception. In so
+arguing, Defendant acknowledges that such a holding would diverge from the plain
+language of our hearsay rule’s relevant definitions that reference statements of a
+‘person.’ *** Based on the following, we conclude the district court correctly determined
+that the computer generated evidence produced by Roundup and Forensic Toolkit was
+11
+not hearsay. Agent Peña testified that his computer runs Roundup twenty-four hours a
+day, seven days a week and automatically attempts to make connections with and
+downloads from IP addresses that are suspected to be sharing child pornography. As it
+does so, Roundup logs every action it takes. Detective Hartsock testified that Forensic
+Toolkit organizes information stored on seized electronic devices into various categories
+including graphics, videos, word documents, and internet history. Because the software
+programs make the relevant assertions, without any intervention or modification by a
+person using the software, we conclude that the assertions are not statements by a
+person governed by our hearsay rules.
+State v. Pickett, 466 N.J. Super. 270 (App. Div. 2021), motions to expand
+record, for leave to appeal, and for stay denied, State v. Pickett, 246 N.J. 48
+(2021)
+In this case of first impression addressing the proliferation of forensic evidentiary
+technology in criminal prosecutions, we must determine whether defendant is entitled to
+trade secrets of a private company for the sole purpose of challenging at a Frye hearing
+the reliability of the science underlying novel DNA analysis software and expert
+testimony. At the hearing, the State produced an expert who relied on his company’s
+complex probabilistic genotyping software program to testify that defendant’s DNA was
+present, thereby connecting defendant to a murder and other crimes. Before crossexamination of the expert, the judge denied defendant access to the trade secrets, which
+include the software’s source code and related documentation.
+This is the first appeal in New Jersey addressing the science underlying the proffered
+testimony by the State’s expert, who designed, utilized, and relied upon TrueAllele, the
+program at issue. TrueAllele is technology not yet used or tested in New Jersey; it is
+designed to address intricate interpretational challenges of testing low levels or complex
+mixtures of DNA. TrueAllele’s computer software utilizes and implements an elaborate
+mathematical model to estimate the statistical probability that a particular individual’s
+DNA is consistent with data from a given sample, as compared with genetic material from
+another, unrelated individual from the broader relevant population. For this reason,
+TrueAllele, and other probabilistic genotyping software, marks a profound shift in DNA
+forensics.
+TrueAllele’s software integrates multiple scientific disciplines. At issue here—in
+determining the reliability of TrueAllele—is whether defendant is entitled to the trade
+secrets to cross-examine the State’s expert at the Frye hearing to challenge whether his
+testimony has gained general acceptance within the computer science community, which
+is one of the disciplines. The defense expert’s access to the proprietary information is
+directly relevant to that question and would allow that expert to independently test
+whether the evidentiary software operates as intended. Without that opportunity,
+12
+defendant is relegated to blindly accepting the company’s assertions as to its reliability.
+And importantly, the judge would be unable to reach an informed reliability
+determination at the Frye hearing as part of his gatekeeping function.
+Hiding the source code is not the answer. The solution is producing it under a protective
+order. Doing so safeguards the company’s intellectual property rights and defendant’s
+constitutional liberty interest alike. Intellectual property law aims to prevent business
+competitorsfrom stealing confidential commercial information in the marketplace; it was
+never meant to justify concealing relevant information from parties to a criminal
+prosecution in the context of a Frye hearing. [footnote omitted].
+State v. Saylor, 2019 Ohio 1025 (Ct. App. 2019) (concurring opinion of Froelich,
+J.)
+{¶ 49} Saylor is a 27-year-old heroin addict, who the court commented has ‘no adult
+record [* * * and] has led a law-abiding life for a significant number of years’; his juvenile
+record, according to the prosecutor, was ‘virtually nothing.’ The prosecutor requested an
+aggregate sentence of five to seven years, and defense counsel requested a three-year
+sentence. The trial court sentenced Saylor to 12 1/2 years in prison. Although it found
+Saylor to be indigent and did not impose the mandatory fine, the court imposed a $500
+fine and assessed attorney fees and costs; the court also specifically disapproved a Risk
+Reduction sentence or placement in the Intensive Program Prison (IPP).
+{¶ 50} I have previously voiced my concerns about the almost unfettered discretion
+available to a sentencing court when the current case law apparently does not permit a
+review for abuse of discretion. State v. Roberts, 2d Dist. Clark No. 2017-CA-98, 2018-Ohio4885, ¶ 42-45, (Froelich, J., dissenting). However, in this case, the trial court considered
+the statutory factors in R.C. 2929.11 and R.C. 2929.12, the individual sentences were
+within the statutory ranges, and the court’s consecutive sentencing findings, including the
+course-of-conduct finding under R.C. 2929.14(C)(4)(b), were supported by the record.
+{¶ 51} As for the trial court’s consideration of ORAS, the ‘algorithmization’ of sentencing
+is perhaps a good-faith attempt to remove unbridled discretion – and its inherent biases
+– from sentencing. Compare State v. Lawson, 2018-Ohio-1532, 111 N.E.3d 98, ¶ 20-21 (2d
+Dist.) (Froelich, J., concurring). However, ‘recidivism risk modeling still involves human
+choices about what characteristics and factors should be assessed, what hierarchy
+governs their application, and what relative weight should be ascribed to each.’ Hillman,
+The Use of Artificial Intelligence in Gauging the Risk of Recidivism, 58 The Judges Journal
+40 (2019).
+{¶ 52} The court’s statement that the ‘moderate’ score was ‘awfully high,’ given the lack
+of criminal history, could imply that the court believed there must be other factors
+reflected in the score that increased Saylor’s probable recidivism. There is nothing on this
+record to refute or confirm the relevance of Saylor’s ORAS score or any ORAS score.
+13
+Certainly, the law of averages is not the law. The trial court’s comment further suggested
+that its own assessment of Saylor’s risk of recidivism differed from the ORAS score. The
+decision of the trial court is not clearly and convincingly unsupported by the record,
+regardless of any weight potentially given to the ORAS score by the trial court. Therefore,
+on this record, I find no basis for reversal

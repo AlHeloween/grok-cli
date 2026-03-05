@@ -1,0 +1,105 @@
+Several provisions of AWIA Title II, “Drinking Water System Improvement,” amend SDWA to
+revise existing drinking water programs, reauthorize appropriations, and establish new drinking
+water infrastructure grant programs.
+SDWA authorizes the regulation of contaminants in public water systems. Enacted in 1974, the
+act was last broadly amended in 1996.17 The act is implemented through programs that (1)
+establish national primary drinking water regulations and monitoring and reporting requirements
+for contaminants present in water delivered by public water systems, (2) promote water system
+compliance through technical and financial assistance and capacity development programs, and
+(3) address public water systems’ preparedness for emergencies.18 The act established a federalstate partnership in which states, tribes, and territories may be delegated primary implementation
+and enforcement authority (i.e., primacy) for the drinking water program.19
+
+17 SDWA Amendments of 1996 (P.L. 104-182).
+18 In addition, SDWA Part C includes programs to protect underground sources of drinking water. CRS Report
+RL31243, Safe Drinking Water Act (SDWA): A Summary of the Act and Its Major Requirements, by Mary Tiemann,
+provides an overview of SDWA and includes statistics and tables on the numbers and types of regulated public water
+systems.
+19 Currently, 49 states, the territories, and the Navajo Nation have applied for and received primacy for the drinking
+water program. EPA retains implementation and enforcement authority for Wyoming, the District of Columbia, and 
+America’s Water Infrastructure Act of 2018 (P.L. 115-270): Drinking Water Provisions
+Congressional Research Service 6
+One key component of SDWA is the requirement that EPA establish national primary drinking
+water regulations for contaminants that may adversely affect human health and are likely to be
+present in public water supplies.20 EPA has issued regulations for more than 90 contaminants.
+These include numerical standards or treatment techniques for drinking water disinfectants and
+their byproducts, microorganisms, radionuclides, organic chemicals, and inorganic chemicals.21
+The SDWA Amendments of 1996 (P.L. 104-182) reauthorized appropriations for most SDWA
+programs through FY2003. Although the authority has expired for most appropriations, Congress
+has continued to appropriate funds for the ongoing SDWA programs.22 Even though the
+authorization of appropriations may expire, program authority (i.e., an agency’s “enabling”
+authority) does not expire unless there is a “sunset” date for that authority or if Congress repeals
+it through subsequent laws.
+Drinking Water State Revolving Fund Program
+Authorized in 1996, the DWSRF program provides federal financial assistance to communities to
+finance drinking water infrastructure improvements.23 SDWA Section 1452 authorizes EPA to
+make annual grants to states to capitalize their state revolving loan fund.24 The statute requires
+states to provide a 20% match. States may use DWSRF financing for public water system projects
+needed to comply with federal drinking water standards and address risks to human health. The
+primary type of DWSRF financial assistance are low interest rate loans. SDWA Section 1452
+authorizes states to provide additional subsidization (including forgiveness of principal) to
+disadvantaged communities.25 The federal capitalization grants together with state funds (e.g.,
+state match, loan repayments, leveraged bonds, and other state sources) are intended to build a
+sustainable source of drinking water infrastructure funding for the state. The authorization of
+appropriation for DWSRF expired in FY2003. Congress has continued to provide funds for the
+DWSRF program through annual appropriations.
+From FY1997 through FY2018, Congress appropriated over $23.33 billion for the DWSRF
+program. The appropriation for DWSRF program generally ranged between $820.0 million in
+FY2000 and $1.39 billion in FY2010.26
+DWSRF Program Revisions (AWIA Sections 2002, 2015, and 2022)
+AWIA makes the most substantial revisions to the DWSRF provisions of SDWA since the
+program was authorized in 1996. These revisions expand the eligible uses of DWSRF financial
+assistance, provide states with additional flexibility to administer the DWSRF program, and
+include provisions intended to make DWSRF assistance more accessible to public water
+systems.
+27
+AWIA Section 2015(a) amends SDWA to expressly state that DWSRF funds can be used for
+projects to replace or rehabilitate aging treatment, storage, or distribution systems.28 Under EPA
+guidance, these replacement and rehabilitation projects have been eligible for financial assistance
+from the DWSRF if needed to protect public health. According to EPA’s needs survey, this
+category of projects accounts for 66.1% of the estimated drinking water infrastructure need.29
+Prior to AWIA, these activities were not previously explicitly identified in statute.30
+Section 2015 also revises existing DWSRF provisions that address financial assistance for
+disadvantaged communities. These amendments increase the portion of a state’s capitalization
+grant that states may dedicate to additional subsidization and extend the amortization period for
+loans made to disadvantaged communities. Before AWIA, states could use 30% of their annual
+capitalization grants to subsidize loans for disadvantaged communities.31 Section 2015(c) of
+AWIA increases that proportion to 35% while conditionally requiring states to use at least 6% of
+their capitalization grant for these subsidies.32 The section also amends the SDWA DWSRF
+provisions to extend the amortization period for loans made to disadvantaged communities from
+30 to 40 years.
+Section 2015(d) of AWIA also extends the repayment and amortization period for all projects
+financed by the DWSRF. Previously, SDWA required DWSRF financing recipients to pay the
+initial principal and interest payments within one year of project completion. This amendment
+extends the date of that initial payment to 18 months after project completion. This section also
+authorizes the extension of the amortization period for projects that receive DWSRF assistance
+from 20 to 30 years.
+Section 2015(e) requires EPA to evaluate and include the cost to replace lead service lines in the
+drinking water infrastructure needs survey, which EPA completes every four years.33 EPA uses the
+needs survey to allot the DWSRF appropriation among the states.
+34 In conducting the needs
+survey, EPA has not previously requested that public water systems report the cost to replace
+these lines.35 AWIA specifies that the cost to replace lead lines must be included in the needs
+survey (to the extent practicable), which may potentially affect some states’ allotments of
+DWSRF capitalization grants.
+Section 2015(g) of AWIA requires EPA to gather specified information on DWSRF
+administration from state drinking water administrators and report to Congress on best practices
+for implementing the DWSRF to facilitate the application process and to improve DWSRF
+financial management and sustainability.
+Source Water Assessment and Protection
+In 1996, Congress added source water assessment provisions to SDWA to encourage protection of
+drinking water sources.
+36 Section 1453 required states to develop source water assessment
+programs that delineate areas from which public water systems receive water and identify the
+origins of regulated contaminants to determine threats to water systems. States were authorized to
+fund these activities from 10% of their DWSRF capitalization grant for FY1996 and FY1997.37
+Section 2015(f) of AWIA removes this fiscal year limitation and accordingly authorizes states to
+use a portion of their capitalization grant to fund these source water assessments or update an
+existing source water assessment.38
+The 1996 SDWA amendments required states to conduct source water assessments as a condition
+of adopting modified monitoring requirements.
+39 However, the 1996 amendments did not
+authorize states to fund implementation of source water protection plans from their DWSRF
+capitalization grants. AWIA Section 2002 authorizes states to fund implementation of surface
+drinking water sources protection efforts and activities from the 10% set-aside of a state’s annual
+DWSRF capitalization grant.
+Source water protection is also addressed in the “Protecting Source Water” section of this report.

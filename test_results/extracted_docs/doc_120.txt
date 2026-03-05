@@ -1,0 +1,61 @@
+Outer space has come a long way since the 1960s. Matthew Weinzierl explains the current state of the space economy, highlighting the various opportunities for businesses hidden among the stars.
+ A new space race—one fueled more by commercial conquest than intergalactic domination—is charting solutions to pressing problems in national security, climate change, and communication.
+ 
+
+ With costs poised to drop and innovation on the rise, the economics of cosmic exploration and commerce are rapidly changing. Harvard Business School Senior Associate Dean Matthew Weinzierl’s new research explores the business opportunities hidden among the stars, particularly in data from and through space, but also in tourism, manufacturing, and even space-based resources.
+ 
+
+ “From national security to climate change observation and trying to fix some of the biggest problems on Earth, the space economy is now interwoven in our everyday lives,” says Weinzierl, who is also the Joseph and Jacqueline Elbling Professor of Business Administration.
+ 
+
+ Baskin: What are the highest-growth areas in the space economy?
+ 
+
+ Weinzierl: What’s really interesting about what’s happening in space is the fundamental transformation of how it’s being organized. For a long time, when most people thought about what we do in space as humans, they thought of it as primarily a government-led activity. They thought of the James Webb telescope, the International Space Station, or the space shuttle.
+ 
+
+ “If you look at the area of space getting the most attention―manufacturing of launch vehicles and satellites―its growth is in fact quite strong.”
+ What’s changed over the past couple decades is that the government-led model, which served us extremely well back in the 1960s, has been revolutionized by bringing in market forces in a way that they never were before. Competition that we take for granted in most sectors of the economy is now driving efficiencies and innovations in the space sector, making it much more of a typical industry, or at least a typical industry with a tremendous amount of technological growth in it.
+ 
+
+ What we found in our recent paper (which I coauthored with Tina Highfill of the U.S. Bureau of Economic Analysis) is that growth in the space sector overall has been quite modest over the past decade or so, but if you look at the area of space getting the most attention―manufacturing of launch vehicles and satellites―its growth is in fact quite strong. That’s especially true when you adjust for the quality improvements and price declines in that area; something our research is the first to quantify. In other words, we can see the dynamism of the space sector in the data.
+ 
+
+ Baskin: What was the inflection point for this growth?
+ 
+
+ Weinzierl: The key point is the early 2000s. The second of two shuttle losses, in 2003, meant that the last space shuttle flight was in 2011. This was a serious crisis for the American space community, given that, 40 years earlier, we put people on the moon. There was this sense that: “Wait a minute, I thought we were going to have space hotels and moon bases.” Instead, the United States was going to have to buy trips for our astronauts to the Space Station from Russia. This caused real soul-searching in the sector.
+ 
+
+ It’s also when NASA started investing in the commercial space sector in a more concerted way. It created a program called Commercial Orbital Transportation Services (COTS). It spent $500 million to start seeding rocket launch companies to provide a new way to get back to the Space Station, which included companies like Blue Origin, SpaceX, and Sierra. A couple of decades later, SpaceX, in particular, has absolutely revolutionized the costs of launching rockets and thus doing anything in space.
+ 
+
+ Baskin: How might the space economy affect the future of investing?
+ 
+
+ Weinzierl: Space investing is a tricky sector.
+ 
+
+ There was a big boom, a few years ago, in these private space enterprises trying to go public through special purpose acquisition companies (SPACs). In a SPAC, somebody would start a company with the sole idea of acquiring a private company and taking it public—and people who had signed up to invest in the original company could decide whether or not to stick with it.
+ 
+
+ “Space is one of these industries where typical venture capital models struggle with the deep levels of uncertainty and the longer time frames that it requires.”
+ The trouble is that, partly because SPACs are a bit opaque, they lend themselves to the risk of hype behind their projections. Most space SPACs crashed in value as soon as they went public, so many investors got a real sense that space is a dangerous place to invest.
+ 
+
+ But, when you talk to people who are sophisticated space investors, they say, “Sure, that was a bit of a crazy cycle.” But it’s also a bit of an understandable cycle. Space is one of these industries where typical venture capital models struggle with the deep levels of uncertainty and the longer time frames that it requires. But, if you’re a sophisticated space investor with a solid theory for how to understand the pitches you’re hearing, there are still great ideas and companies out there. The sector has been quite resilient, in many ways.
+ 
+
+ Baskin: How will the space economy affect the future of work?
+ 
+
+ Weinzierl: In the next five to 10 years, the vast majority of economic activity directly tied to space, which would affect your typical worker, is going to be based on satellites, namely using data from them about the Earth and data through them as satellite internet expands its reach. If we look out a bit further, you get more speculative but exciting ideas like space manufacturing, tourism, and potentially resource extraction from places like the moon and asteroids.
+ 
+
+ In many ways, those ideas seem very sci-fi. But technology is well-developed for several of them, and it’s more about finding the right business cases. The sector is looking feverishly for them, and, as costs keep coming down, I’m relatively optimistic that more of what seems like sci-fi will become reality over the next couple of decades.
+ 
+
+ If you think about data as being the backbone of the modern economy, and the transmission of information increasingly defining what so many industries are, space is very much at the center of that over the next five to 10 years. I think the clearest way to see that is through the SpaceX Starlink constellation, which is already a constellation of several thousand satellites. Many thousands more are planned to provide high-speed Internet through satellites around the world. Amazon is planning a similar constellation of satellites, as is China.
+ 
+
+ Of course, the initial application of that is just providing Internet coverage to places where it’s hard to run fiber-optic cables. But, if you think about the Internet of Things, and the connectivity that everyone is planning to have between every device in every place on Earth, which will enable all sorts of functionality—especially in terms of mobile processing or mobile devices—the existence of this Internet transformation really could redefine sectors quite broadly in a way we can’t foresee. That’s the real magic of markets, after all.

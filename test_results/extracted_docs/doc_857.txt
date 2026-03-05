@@ -1,0 +1,1441 @@
+CentraNet
+CustoPAK
+®
+®
+USER GUI DE
+Telephone Number
+Verizon Telephone Number
+Switch Type:
+ GTD-5  5ESS  DMS 100  DMS 10
+© 2002 Verizon Communications
+www.verizon.com/smallbiz
+Downloaded from www.Manualslib.com manuals search engine
+3056-0402Thank You for
+Selecting Verizon
+CentraNet ® CustoPAK® Service.
+1
+Downloaded from www.Manualslib.com manuals search engineTable of Contents
+Introduction to This Guide.............................................................................. 4
+Overview of Your CustoPAK System ............................................................... 6
+Terms You Should Know................................................................................ 8
+CustoPAK Basic Features
+✓ Assume Dial “9” .................................................................................. 9
+❑
+✓
+❑ Call Hold ............................................................................................. 10
+✓ Call Transfer ........................................................................................ 11
+❑
+✓ Consultation Hold ................................................................................ 12
+❑
+✓ Direct Inward/Outward Dialing (DID/DOD).............................................. 13
+❑
+✓ Distinctive Ringing (Inside/Outside Ringing) ......................................... 13
+❑
+✓ Intercom ............................................................................................. 14
+❑
+✓ Three-Way Calling ............................................................................... 15
+❑
+✓ Touch-Tone ......................................................................................... 16
+❑
+CustoPAK Selectable Features
+❑ Automatic Callback .............................................................................. 18
+❑ Call Forwarding Options ....................................................................... 19
+❑ Call Forwarding ................................................................................... 20
+❑ Call Forwarding – Busy Line................................................................. 22
+❑ Call Forwarding – Don’t Answer ........................................................... 23
+❑ Call Pick-Up – Group ........................................................................... 24
+❑ Call Restriction Options ........................................................................ 25
+❑ Call Waiting ....................................................................................... 26
+❑ Cancel Call Waiting (Tone Block) ......................................................... 27
+❑ Dial Call Waiting (for Intercom dialing)................................................... 28
+❑ Hunting ............................................................................................. 29
+❑ Speed Dialing .................................................................................... 30
+2
+Downloaded from www.Manualslib.com manuals search engine
+CustoPAK Optional Features
+❑ 69 .................................................................................................. 32
+❑ Busy Redial ....................................................................................... 33
+❑ Call Block ( 60)................................................................................. 34
+❑ Call Park ........................................................................................... 35
+❑ Call Park – Directed .......................................................................... 36
+❑ Call Trace .......................................................................................... 37
+❑ Caller ID ........................................................................................... 38
+❑ Caller ID – Number Only .................................................................... 39
+❑ Enhanced Call Forwarding .................................................................. 40
+❑ Executive Busy Override ..................................................................... 41
+❑ Last Number Redial ........................................................................... 41
+❑ Priority Call........................................................................................ 42
+❑ Select Call Forwarding ....................................................................... 43
+Voice Mail and CustoPAK ............................................................................ 44
+*
+*
+Appendix.................................................................................................... 45
+Intercom Code Charts............................................................................. 46
+Speed Dialing Code Charts ..................................................................... 49
+CustoPAK Feature Activation/Deactivation Codes ...................................... 52
+Feature Availability by Switch Type .......................................................... 53
+Your CustoPAK Feature Selections........................................................... 54
+Please be sure to read the Introduction and Overview sections of this
+guide prior to operating your new CustoPAK system.
+3Introduction to This Guide
+This guide is intended to provide you with information to help you learn to
+operate the features within your new CustoPAK system and get the most out
+of its many benefits.
+Before you begin using your new CustoPAK system, it is important to know your
+switch type, or the type of equipment in the Verizon central office that handles
+your telephone service. Your switch type is shown on the front cover of this
+guide and may affect which features are available with your CustoPAK system.
+Basic Features are automatically activated for each of your lines when
+you purchase your CustoPAK system.Upon installation of your system, your Verizon representative will assist you in
+filling out your Feature Grid (see Appendix). Once complete, this grid indicates
+which features you have selected for each of your CustoPAK lines. The Appendix
+section also contains your Intercom and Speed Calling code charts. You may
+wish to make copies of these handy tools and distribute them to other users in
+your CustoPAK system for easy reference.
+Selectable Features are available for each of your CustoPAK lines at no
+additional monthly charge, but must be installed to be used.1The Overview section which follows this Introduction will begin to acquaint you with
+your new CustoPAK system and the many benefits it provides.
+Optional Features are available at an additional charge per line and must
+also be installed to be used.1We are delighted that you have chosen Verizon. We hope this guide makes the
+transition to your new CustoPAK system as smooth as possible.
+The Features section of this guide describes the three types of features which
+are available to choose from:
+You may select as many or as few of the Selectable and Optional features as
+you like for each of your CustoPAK lines, and may change them at any time.
+Should you need assistance selecting additional features or changing features,
+your Verizon representative is available to guide you. All features available with
+CustoPAK are included in this guide regardless of whether you have selected
+them for your system.
+1
+To install these features, contact your Verizon representative. Installation charges may apply.
+4
+Downloaded from www.Manualslib.com manuals search engine
+For Customer Services, call
+1-800 -483-5000
+In Hawaii, call
+643-4411
+5Overview of Your CustoPAK System
+Your CustoPAK system is a central office-based service, meaning all equipment
+required to operate the system is in the Verizon central office. That also means
+you have purchased a reliable, worry-free telephone system, as our central
+offices are monitored 24 hours a day, 365 days a year.
+Your CustoPAK system can grow as your business grows. It has the capacity
+to handle up to 30 telephone lines, and offers a flexible package of features
+designed specifically with the small business customer in mind. You can
+select which features you want for each of your CustoPAK lines based on your
+business and communications needs. You may add or change features at any
+time by contacting your Verizon representative (additional charges may apply).
+CustoPAK can be customized to perform as a complete telephone system
+working on standard single-line telephones or as feature-rich access lines
+enhancing your existing telephone system. When used with existing telephone
+systems, features like Call Transfer, Three-Way Calling and Consultation Hold
+give you the functionality of a built-in second line. When using these features,
+other lines remain free for incoming or outgoing calls. And, Call Forwarding
+and Call Transfer allow you to easily transfer your calls to another location
+outside your system without additional equipment.
+Most of the features are activated by the use of codes. You’ll find all of the
+information required to activate the CustoPAK features listed in the Features
+section of this guide.
+Your CustoPAK system comes with a 30-day satisfaction guarantee (except
+California). We are confident that this system is the right solution for your
+business needs. However, with this guarantee you are entitled to a full credit
+of the CustoPAK charges and a change back to your previous Verizon service
+if you are not satisfied and notify us within 30 calendar days.
+Repair
+The Repair Center handles service problems and out-of-service conditions on
+your telephone lines and/or features, and the wiring to your location. It does
+not handle and cannot fix your telephone equipment.
+For problems with the wiring inside your business, you may repair it yourself,
+hire a contractor or an electrician, or call Verizon. Verizon does this type of
+repair for a fee based on the amount of time and the cost of the materials
+required to correct the problem. For information on these services, contact
+your Verizon representative.
+The Verizon repair number is 1-800-483-2000. The Repair Center is open
+24 hours a day, including holidays.
+Help Desk
+The CentraNet/Voice Mail Help Desk was established to answer your questions
+about the operation of your CentraNet CustoPAK and Voice Mail services. Our
+Help Desk will explain how the services and features operate, e.g., How do
+I transfer a call? How do I reset my Passcode?
+If you have questions about your CentraNet CustoPAK service, please call the
+Help Desk at 1-800 - 483 -2000.
+The Help Desk is available Monday-Friday between the hours of 5 a.m.-7 p.m.
+and Saturday between the hours of 7 a.m.- 4 p.m. Pacific Time. The Help Desk
+is closed on Sunday.
+IMPORTANT INFORMATION: Verizon is in the process of updating all our
+central office switches to provide access to Per Call Blocking. This feature
+allows you to prevent the appearance of your phone number on Caller ID
+display units on a per call basis.
+Press *
+6
+Downloaded from www.Manualslib.com manuals search engine
+6
+7
+before placing an outgoing call to activate this feature.
+7Terms You Should KnowCustoPAK Basic Features
+Confirmation Tone
+Three short bursts of tone heard when using some CustoPAK features. The
+confirmation tone lets you know you have completed the activation or deactivation
+of the features.The features listed in this section are automatically included on each of your
+CustoPAK lines. These basic features are the backbone of your new CustoPAK
+system. Three of these features, Consultation Hold, Call Transfer and Three-Way
+Calling provide you with the functionality of a built-in second line.
+Regional Calling Area
+The area within which Verizon can provide local and regional toll calling services.
+Switch Type
+This term identifies the types of equipment in Verizon’s central office that
+handles your telephone service. Your switch type is shown on the front cover of
+this guide. It is very important to be aware of your switch type, as it may affect
+which features are available with your CustoPAK system.
+Assume Dial “9”
+This convenient feature allows you to place calls outside of the CustoPAK system
+without having to dial the access code “9”.
+NOTE: Verizon has automatically activated this feature. You cannot activate or
+deactivate the feature as you choose.
+Switchhook
+The buttons or bar generally located under the receiver on a standard desk
+telephone or electronic set. The switchhook initiates dial tone and is used to
+operate some of the CustoPAK features.
+Tap
+Flash
+Recall
+Link
+These terms refer to preprogrammed buttons on some telephones, that when
+used replace the switchhook. If your telephone is equipped with one of these
+buttons, always use it instead of the switchhook to operate the CustoPAK features.
+8
+Downloaded from www.Manualslib.com manuals search engine
+9Call HoldNOTES:
+Call Hold allows you to place an established call on hold for an extended period
+of time—provided neither you nor the other person hangs up—freeing up the
+line to place or receive another call. Use Call Hold to help improve response time
+while reducing equipment costs and callbacks.1.) Only one call can be placed on hold at a time per telephone line.
+2.) A holding call cannot be added to another call.
+3.) Call Hold overrides Dial Call Waiting and Call Waiting. When you put a call
+on hold to use the line to make or receive a second call, a third incoming
+call will receive a busy signal.
+To place an established call on hold:
+Tell the person to whom you are speaking that you are going to put them on hold.
+Press the switchhook (or the Tap/Flash/Recall/Link button, depending on your
+telephone set).
+Call Transfer
+Listen for dial tone.Press *You will hear confirmation tone, followed by dial tone.This valuable feature enables you to transfer an incoming call to any other
+number either inside or outside of your CustoPAK system. You can privately
+speak with the called party to announce the call prior to completing the transfer.
+Use Call Transfer as an efficient way to process misdirected calls and reduce
+message-taking and call handling time.
+The call is on hold. Place the handset beside the telephone—do not hang up!To transfer an incoming call:
+0
+1 .
+To place another call, while the first caller is on hold:Tell the person to whom you are speaking that you are going to put them on hold.
+Press the switchhook (or the Tap/Flash/Recall/Link button, depending on
+your telephone set).
+Listen for dial tone.
+To transfer to an internal CustoPAK line, dial the intercom code assigned
+to the internal line. To transfer to an outside line dial the number to which
+you wish to transfer the call.
+Privately announce the transfer to the recipient. Hang up.
+
+Key in destination phone number of the third party. Wait for the party to
+answer. If you encounter a busy signal, no answer or if an error is made in
+dialing, press the switchhook (or the Tap/Flash/Recall/Link button, depending
+on your telephone set) twice to connect to the original party.
+When party answers you may consult privately.
+To return to a call that is on hold:
+Press the switchhook (or the Tap/Flash/Recall/Link button, depending on your
+telephone set).
+Listen for confirmation tone.
+Press *
+0
+1
+(you may now talk to the person that was on hold).
+-OR-
+Hang up (your phone will ring).
+Lift the handset (you may now talk to the party that was on hold).
+10
+Downloaded from www.Manualslib.com manuals search engine
+-OR-
+
+Hang up (the call is automatically transferred).
+NOTES:
+1.) If you receive a busy signal, no answer or if an error is made in dialing,
+press the switchhook twice to reconnect to the original call.
+2.) You cannot transfer a call while on a Three-Way or Call Waiting call.
+3.) A call placed from a CustoPAK line to a number outside the system cannot
+be transferred to another number outside the system.
+4.) Call Transfer may generate local, regional toll or long distance charges.
+11Consultation HoldDirect Inward/Outward Dialing (DID/DOD)
+Consultation Hold provides a temporary or “soft” hold without having to dial
+an activation code. This allows you to place another call for private consultation
+or to initiate a three-way call. Use Consultation Hold to quickly verify customer
+inquiries and reduce costly and time-consuming callbacks.Direct Inward Dialing allows you to receive incoming calls directly at your station.
+This can help enhance customer service by allowing incoming callers to quickly
+reach you without the delay of a call transfer. Direct Outward Dialing improves
+efficiency by enabling you to place calls to locations outside the system without
+first dialing an access code or going through a central attendant.
+To place a call on hold:
+Tell the person to whom you are speaking that you are going to put them on hold.
+Press the switchhook (or the Tap/Flash/Recall/Link button, depending on your
+telephone set).
+Listen for dial tone.
+Dial the third party (if you encounter a busy signal, no answer or if an error is
+made in dialing, press the switchhook twice to reconnect to the original call).
+When the third party answers, you may consult privately before reconnecting
+to the original call.
+To return to the original caller:
+Allow the third party to hang up.
+Press the switchhook twice (if the switchhook is only pressed once, a three-way
+call will be established).
+NOTES:
+1.) Consultation Hold overrides Dial Call Waiting and Call Waiting. When you put
+a call on hold to use the line to place a second call, a third incoming call will
+receive a busy signal.
+2.) Call Forwarding cannot be activated while a call is on Consultation Hold.
+12
+Downloaded from www.Manualslib.com manuals search engine
+NOTE: Verizon has automatically activated this feature. You cannot activate or
+deactivate the feature as you choose.
+Distinctive Ringing (Inside/Outside Ringing)
+CustoPAK Distinctive Ringing provides you with the ability to distinguish between
+internal and external incoming calls, allowing you to greet customers and callers
+from outside of your system more professionally. Internal calls—calls placed by
+someone within the CustoPAK system using the Intercom feature—will ring with
+a single ring. External calls—calls made from outside of the CustoPAK system—
+are identified by a double ring. This feature is not available in the GTD-5
+switch.
+NOTES:
+1.) Many telephone sets have their own distinctive ringing patterns that are not
+associated with CustoPAK Distinctive Ringing.
+2.) Priority Call and Distinctive Ringing cannot be on the same CustoPAK line,
+since they share the same ring patterns.
+3.) On forwarded calls, the ring pattern will be based on the original line, not the
+forwarding line.
+4.) On transferred calls, the ring pattern will be based on the transferring line,
+not the original line.
+5.) Verizon has automatically activated this feature. You cannot activate or
+deactivate the feature as you choose.
+13IntercomThree-Way Calling
+The Intercom feature allows you to speak to, or transfer a call to, any other
+person within your CustoPAK system—without incurring local usage charges.
+Simply dial the two-digit code that was assigned to the line. See the Appendix
+on page 45 of this guide to locate the Intercom Code Chart for your switch type.
+The intercom codes are pre-assigned and programmed by Verizon.Three-Way Calling enables you to add a third party from either inside or
+outside of your CustoPAK system to any established call to create a three-way
+conference arrangement. This maximizes line efficiency and reduces costly
+and time-consuming callbacks by allowing you to obtain answers to urgent
+inquiries from two separate sources in a single call — reducing the costs and
+lost productivity of multiple telephone calls.
+To use the Intercom feature:
+Pick up the handset and listen for dial tone.
+Dial the intercom code:
+20#– 49
+#2–#for DMS 10 switch types.
+7
+#
+for 5ESS, GTD-5 and DMS 100 switch types.
+NOTE: For the Intercom feature to function properly, individual telephone
+numbers must be assigned to a Multi-Line Hunt group.
+While engaged in a two-way conversation:
+Tell the person to whom you are speaking that you are going to put them on hold.
+Press the switchhook (or the Tap/Flash/Recall/Link button, depending on your
+telephone set).
+Listen for dial tone.
+Dial the number of the party you wish to add to the call (if you encounter
+a busy signal, no answer or an error is made in dialing, press the switchhook
+twice or hang up to reconnect to the original call).
+Announce that you are setting up a conference call.
+Press the switchhook again (the three-way conference is established).
+NOTES:
+1.) You may use Three-Way Calling to add another person no matter who
+placed the original call. However, if you placed both calls and they are
+outside of your CustoPAK system, when you hang up the other two people
+will automatically disconnect.
+2.) Three-Way Calling may generate local, regional toll or long distance charges.
+If you hang up, you will be billed the appropriate charges for the portion of
+the call for which you are responsible.
+3.) You cannot establish a three-way call using the Automatic Callback feature.
+4.) A three-way conference cannot be made between an established call and
+a Call Waiting call.
+14
+Downloaded from www.Manualslib.com manuals search engine
+15Touch-Tone
+Touch-Tone provides the ability to push-button dial on tone-signaling telephones
+to access CustoPAK features and dial telephone numbers. Rotary dial telephones
+are not compatible with CustoPAK service.
+NOTE: Verizon has automatically activated this feature. You cannot activate or
+deactivate the feature as you choose.
+16
+Downloaded from www.Manualslib.com manuals search engine
+CustoPAK Selectable Features
+The features listed in this section are available for each of your CustoPAK lines
+at no additional monthly charge. You may select as many or as few of these
+features as you like, giving you the flexibility to customize each individual CustoPAK
+line in the manner which best suits your business. As you read through this sec-
+tion, be aware of your switch type (found on the front cover of this guide), since
+some features are not available for certain switch types. To add or change features
+at any time after your initial installation, contact your Verizon representative.
+17Automatic CallbackCall Forwarding Options
+When you encounter a busy line within your CustoPAK system, a code can be
+dialed which will connect you when both lines are idle. The request will remain
+active for 30 minutes unless canceled. Use Automatic Callback to increase
+productivity by eliminating “telephone tag”, manual callbacks and unnecessary
+dialing. This feature only works within the CustoPAK system, and the system
+can only accommodate one request at a time per line. This feature is not
+available in the GTD-5 switch type.Your CustoPAK system can be equipped with one or all of its five Call Forwarding
+options. You may select or combine these features to meet your business needs.
+The Call Forwarding options and their descriptions can be found by referring to
+the list below:
+Option
+Section
+Page
+Call Forwarding ..................................... Selectable Features .................................. 20
+To activate Automatic Callback once you’ve reached a busy line within
+your CustoPAK system:Call Forwarding – Busy Line ................. Selectable Features .................................. 22
+Press the switchhook (or the Tap/Flash/Recall/Link button, depending on your
+telephone set).Call Forwarding – Don’t Answer............ Selectable Features .................................. 23
+Listen for dial tone.Press *Listen for confirmation tone.Hang up (when the called line is idle, your line will ring with a distinctive ring).
+5
+Enhanced Call Forwarding1 .................... Optional Features ..................................... 40
+Select Call Forwarding1.......................... Optional Features ..................................... 43
+2 .
+To cancel an Automatic Callback request:
+Lift handset and press
+Listen for confirmation tone.
+Hang up.
+#
+5
+2 .
+NOTES:
+1.) If an Automatic Callback is not answered by the originating station, the
+request will be canceled.
+2.) Automatic Callback can only be active on one station at a time.
+3.) An Automatic Callback request can only be activated if the called number is
+in a busy condition and within the CustoPAK group.
+1
+18
+Downloaded from www.Manualslib.com manuals search engine
+Additional charges apply.
+19Call ForwardingNOTES:
+This Call Forwarding option allows you to have all incoming calls forwarded
+to a pre-determined telephone number either inside or outside the CustoPAK
+system. Call Forwarding provides you with the flexibility to choose your own
+forward-to number, to change it as often as you like and to turn the feature
+on or off as needed. When activated, it overrides Call Forwarding – Busy Line/
+Don’t Answer and gives you the mobility you need to be productive outside the
+office and after hours.1.) Calls forwarded outside the system are subject to local, regional toll or long
+distance charges, as applicable.
+2.) To confirm that Call Forwarding is on, press * 7 2 and if the feature is
+on you will hear a fast busy tone. If it is off you’ll hear normal dial tone.
+3.) You can place calls when Call Forwarding is on, however, you cannot answer
+incoming calls. You will hear one short ring each time a call forwards to
+remind you that the service is on.
+4.) Call Forwarding overrides Call Waiting, Dial Call Waiting, Hunting arrange-
+ments and Call Forwarding – Busy Line/Don’t Answer.
+5.) Voice Mail service will not work when Call Forwarding is on, unless you have
+activated forwarding to the Voice Mail service access number.
+6.) A line with Call Forwarding activated cannot have an Automatic Callback
+request initiated against it.
+To turn Call Forwarding on:
+Lift the handset and listen for dial tone.
+Press *
+At the tone, dial the telephone number you want your calls forwarded to.
+When the call is answered, the feature has been activated. If the call is
+not answered, hang up and repeat the above steps within two minutes.
+The feature is activated when you hear the confirmation tone.
+7
+2 .
+To turn Call Forwarding off:
+
+Press *
+7
+3
+(two short tones indicate that the service has been turned off).
+20
+Downloaded from www.Manualslib.com manuals search engine
+21Call Forwarding – Busy LineCall Forwarding – Don’t Answer
+This feature automatically routes incoming calls to a pre-determined number
+(either inside or outside of your CustoPAK system) when your line is busy. Use
+Call Forwarding – Busy Line to improve customer service by forwarding calls
+to alternate answering points, ensuring that all incoming calls are covered. This
+feature can be separate on the line or can be combined with Call Forwarding –
+Don’t Answer. The forward-to number must be programmed by Verizon.This feature automatically routes incoming calls to a telephone number (either
+inside or outside of your CustoPAK system, or to Voice Messaging) when your
+line is unanswered after a pre-determined number of rings (4-ring maximum).
+Use Call Forwarding – Don’t Answer to improve customer service by forwarding
+calls to alternate answering points, ensuring that no opportunities are lost
+due to an unanswered call. This feature can be separate on the line or can
+be combined with Call Forwarding – Busy Line. The forward-to number must
+be programmed by Verizon.
+NOTES:
+1.) Calls forwarded outside the system are subject to local, regional toll or long
+distance charges, as applicable.
+2.) Call Forwarding – Busy Line overrides Dial Call Waiting (see page 29).
+Therefore, if you place a call to a number with Call Forwarding – Busy Line,
+the call is forwarded and the Dial Call Waiting treatment is not given during
+a busy condition.
+3.) Call Forwarding overrides Call Forwarding – Busy Line.
+4.) For Multi-Line Hunt groups, Call Forwarding – Busy Line can only be
+assigned on a group basis and will apply to every line in the group.
+5.) Call Forwarding – Busy Line can only be assigned to the last member of
+a Series Hunt group.
+6.) If you have Voice Messaging, it is not necessary to subscribe to this feature.
+7.) Verizon must automatically activate this feature. You cannot activate or
+deactivate the feature as you choose.
+22
+Downloaded from www.Manualslib.com manuals search engine
+NOTES:
+1.) Calls forwarded outside the system are subject to local, regional toll or long
+distance charges, as applicable.
+2.) Call Forwarding overrides Call Forwarding – Don’t Answer.
+3.) Call Waiting and Dial Call Waiting override Call Forwarding – Don’t Answer.
+4.) For Multi-Line Hunt groups, Call Forwarding – Don’t Answer can only be
+assigned on a group basis and will apply to every line in the group.
+5.) If the forward-to number is busy, the call will not forward. The line will
+continue to ring, or you may get a busy signal, depending upon the location
+of the forward-to number.
+6.) If you have Voice Messaging, it is not necessary to subscribe to this feature.
+7.) Verizon must automatically activate this feature. You cannot activate or
+deactivate the feature as you choose.
+23Call Pick-Up – GroupCall Restriction Options
+Call Pick-Up – Group enables you to answer (pick-up) calls directed to any other
+line within your Call Pick-Up group by dialing a code. If more than one person tries
+to pick-up the call, the first user will receive the call, and the others will receive a
+busy signal as confirmation that the call was answered. Use Call Pick-Up – Group
+to provide maximum call coverage and ensure against missed calls.This feature enables you to select and control the incoming and outgoing
+calling capabilities of each of your CustoPAK lines. Each line can only be
+equipped with one Call Restriction option, which has been programmed by Verizon.
+To use Call Pick-Up – Group:
+Lift the handset and listen for dial tone.
+Press *
+1
+7
+NOTE: Verizon must automatically activate this feature. You cannot activate
+or deactivate the feature as you choose. If you want to add or update Call
+Restriction options, please contact your Verizon representative.
+(the incoming call is connected to your station).
+To use Call Pick-Up – Group when you are already on the phone:
+Tell the person to whom you are speaking that you are going to put them on hold.
+Press the switchhook (or the Tap/Flash/Recall/Link button, depending on your
+telephone set).
+Listen for dial tone.
+Press *
+0
+1
+to put the first call on hold.
+Press *
+1
+7
+(the incoming call is connected to your station).
+NOTES:
+1.) You cannot use Call Pick-Up – Group to connect to an Automatic Callback call.
+2.) If more than one line in your Call Pick-Up group is ringing, you cannot select
+which line to answer. The system will automatically direct the pick-up to the
+call that came in first.
+3.) All lines in a Multi-Line Hunt group must be in the same Call Pick-Up group.
+24
+Downloaded from www.Manualslib.com manuals search engine
+25Call Waiting
+This valuable feature provides an audible tone while you are on the line that
+alerts you of another incoming call. You then have the option to either place
+the present call on hold to answer the incoming call or to disregard it. The
+calling party will receive ringing tone instead of a busy tone. Use Call Waiting
+to maximize line efficiency and improve customer service by ensuring prompt
+responses to urgent inquiries.
+Cancel Call Waiting (Tone Block)
+When you don’t want to be disturbed or interrupted during an important call,
+you can temporarily deactivate Call Waiting. You can activate Cancel Call Waiting
+before you place a call or at any point during the conversation. Cancel Call
+Waiting works only for the length of one call. When you hang up, Call Waiting
+returns automatically to your phone.
+To cancel the Call Waiting tone before placing a call:
+After hearing the Call Waiting tone:
+Lift the handset and listen for dial tone.
+Either end your first call or tell the person to whom you are speaking that
+you are going to put them on hold.Press *
+Press and release the switchhook (or the Tap/Flash/Recall/Link button,
+depending on your telephone set) to put the first person on hold and answer
+the second call in the GTD-5 switch.Listen for confirmation tone, followed by normal dial tone.
+Dial the telephone number.
+
+
+7
+0 .
+To cancel the Call Waiting tone during a call:
+Press and release the switchhook (or the Tap/Flash/Recall/Link button,
+depending on your telephone set), listen for the flash tone, then dial * 0 1
+to put the first person on hold and answer the second call in the DMS 100,
+DMS 10 and 5ESS switches (may also be required for GTD-5 switch).Press the switchhook (or the Tap/Flash/Recall/Link button, depending on your
+telephone set).
+Press *
+To return to the first call and put the second call on hold, repeat bullet two or
+three (depending on switch type). You can alternate between calls as often as
+desired by repeating bullets two or three (depending on switch type).NOTE: In some areas you can only activate Cancel Call Waiting before placing a call.
+7
+0
+(you will reconnect automatically to your call).
+NOTES:
+1.) Call Waiting allows you to have two calls on your line at the same time
+(one on hold and one to whom you are talking). A third caller will hear a
+busy signal.
+2.) Call Waiting cannot be assigned to lines in a Multi-Line Hunt group.
+3.) Call Waiting overrides Call Forwarding – Busy Line/Don’t Answer.
+4.) Call Forwarding overrides Dial Call Waiting.
+5.) Series Hunting overrides Call Waiting, which should be assigned to the last
+number of a Series Hunt group.
+6.) A three-way conference cannot be made between an established call and
+a Call Waiting call.
+7.) If Call Waiting and Call Forwarding – Don’t Answer are active on the same
+line and you choose to ignore the Call Waiting tone, the call will forward to
+your Call Forwarding – Don’t Answer number.
+26
+Downloaded from www.Manualslib.com manuals search engine
+27Dial Call Waiting (for Intercom dialing)Hunting
+This feature allows you to send a Call Waiting tone to another line within your
+CustoPAK system when that line is busy, letting the called party know that some-
+one is trying to reach them. The called party then has the option to answer or
+ignore the Call Waiting tone. Use Dial Call Waiting to help ensure the timely and
+efficient flow of information within your business. This feature is not available
+for GTD-5 switch types.Hunting allows your business to reduce busy signals and increase accessibility
+by expanding call coverage. A Hunting arrangement begins with a call to a lead,
+or pilot number and searches for an idle line beginning with the first number of a
+pre-assigned Hunt group and ending with the last number in the group.
+Upon dialing an internal station number and hearing a busy tone:
+Hang up.
+Lift the handset and listen for dial tone.
+Press *
+Dial the number of the busy station (the called party hears a Call Waiting tone).
+Remain off-hook until the called party answers.
+5
+4
+and listen for confirmation tone.
+NOTES:
+NOTES:
+1.) When a Multi-Line Hunt group is assigned to a CustoPAK customer, individual
+telephone numbers must be assigned in order for the Intercom feature to work.
+2.) Call Waiting cannot be assigned to lines in a Hunt group.
+3.) Automatic Callback cannot be activated against lines in a Hunt group.
+4.) Call Forwarding and Call Forwarding – Busy Line/Don’t Answer can only be
+assigned to a Multi-Line Hunt group on a group basis.
+5.) All lines in a Multi-Line Hunt group must be in the same Call Pick-Up group.
+6.) Caller ID will work in a Hunt group, however, the feature must be assigned to
+every line in the Hunt group.
+7.) Verizon must automatically activate this feature. You cannot activate or
+deactivate the feature as you choose.
+1.) Dial Call Waiting only works within your CustoPAK system.
+2.) Dial Call Waiting cannot be assigned to lines in a Multi-Line Hunt group.
+3.) Dial Call Waiting overrides Call Forwarding – Busy Line/Don’t Answer.
+4.) Call Forwarding overrides Dial Call Waiting.
+5.) If Call Waiting and Call Forwarding – Don’t Answer are active on the same
+line and the called party chooses to ignore the Dial Call Waiting tone, the call
+will forward to the called party’s Call Forwarding – Don’t Answer number.
+6 .) Series Hunting overrides Dial Call Waiting, which should be assigned to the
+last number of a Series Hunt group.
+28
+Downloaded from www.Manualslib.com manuals search engine
+29Speed Dialing
+Speed Dialing allows you to call frequently dialed numbers by using an
+abbreviated code, reducing dialing time and time spent searching for telephone
+numbers. Speed Dialing gives you the flexibility to create and edit your own
+Speed Dialing list. The Speed Dialing short list consists of 8 numbers unless
+you have a 5ESS switch type, which provides a 6-number Speed Dialing list.
+CustoPAK Optional Features
+The following features are available for each of your CustoPAK lines at an additional
+monthly charge per line. As you read through this section, be aware of your
+switch type (found on the front cover of this guide), since some of these Optional
+features are not available for certain switch types. To add or change any of these
+features after your initial installation, contact your Verizon representative.
+To establish/add or change a number on your Speed Dialing list:
+Lift the handset and listen for dial tone.
+Press *
+7
+4
+Press
+1
+(GTD-5 only, skip this step in all other switches).
+Press the Speed Dialing code numbers to be programmed (2-9 for all switches
+except 5ESS, press 2-7 for 5ESS).
+Dial the telephone number to be assigned to the code, along with any required
+access codes, ( i.e., long distance carrier access code) up to 28 digits.
+Listen for confirmation tone.
+Hang up.
+Repeat steps for each code number to be programmed.
+#
+and listen for confirmation tone.
+To place a Speed Call from the short list:
+Lift the handset and listen for dial tone.
+Press # 1 (all switches) and then dial the Speed Dialing code number
+(2-9 or 2-7 depending on what switch type you have). See page 50 for
+Speed Dialing code charts.
+Wait for party to answer.
+NOTES:
+1.) OPTIONAL: After you press # 1 and the code number, press # again
+for a quicker connection.
+2.) Service codes such as 911, cannot be programmed.
+3.) Fully restricted lines cannot have Speed Dialing.
+4.) Customers may experience a 2- to 3-second timing delay when activating
+Speed Dialing codes that match other feature activation codes.
+30
+Downloaded from www.Manualslib.com manuals search engine
+31* 69Busy Redial
+This convenient feature automatically stores and allows you to redial the number
+of the last person who called you. *69 only works on calls made from numbers
+within your regional calling area and can be used whether you answered the
+last call or not. If you return the call and the number is busy, *69 will monitor the
+busy line and attempt to connect your call for up to 30 minutes, unless canceled.
+In most cases, your phone will ring with a series of short-short-long rings when
+the number you called is no longer busy. This feature is not available in the
+DMS 10 switch type.After reaching a busy line within your regional calling area, this convenient service
+allows you to dial a code that will automatically connect you when both lines
+are idle. Once activated, Busy Redial will monitor the busy line and attempt to
+connect your call for up to 30 minutes, unless canceled. You will be alerted with
+a special ring when the call is returned. You can use Busy Redial to help reduce
+multiple callbacks, dialing time and lost productivity. This feature is not available
+in the DMS 10 switch type.
+After dialing a busy number:
+To activate * 69:
+Hang up.
+Lift the handset and listen for dial tone.Lift the handset and listen for dial tone.
+Press *Press * 6 6 . You will hear two normal ringing tones or an announce-
+ment. If the called number is still busy, a voice recording will tell you that
+your call is next in line.
+Hang up. When the number you called is no longer busy, your telephone
+will ring with a series of short-short-long rings (ringing tones may vary).
+Lift the handset. You will hear normal ringing tone.
+6
+9
+(a voice recording may provide additional instructions).
+To deactivate * 69:
+Lift the handset and listen for dial tone.
+Press *
+8
+9 .
+NOTES:
+1.) If you hear the Call Waiting tone while you are on the line, you have two
+choices: you can use *69 to call back later, or you can use Call Waiting
+during the call.
+2.) A *69 callback will not activate a Call Waiting tone; the line must be idle.
+3.) *69 and Automatic Callback cannot be on the same line.
+4.) This feature must be applied to all members of a Hunt group.
+5.) *69 ring patterns may duplicate those of Distinctive Ringing.
+6.) *69 will not work when activated against a line with Call Forwarding.
+32
+Downloaded from www.Manualslib.com manuals search engine
+To deactivate Busy Redial:
+Lift the handset and listen for dial tone.
+Press *
+8
+6
+.
+NOTES:
+1.) The number you called will not ring until you pick up your telephone.
+2.) Occasionally, the person you are calling uses the phone before Busy Redial
+can complete your call. If this happens, a voice recording will tell you to
+hang up and reactivate Busy Redial.
+3.) You can use Busy Redial to return calls to more than one busy number at a time.
+4.) When your phone rings with a short-short-long ring, you need to answer by
+the third series of rings or Busy Redial will pause and try to complete your
+call 5 minutes later.
+5.) Busy Redial and Automatic Callback cannot be on the same line.
+6.) This feature must be applied to all members of a Hunt group.
+7.) Busy Redial will not activate a Call Waiting tone.
+33Call Block (*60)
+Call Block provides you with the capability to block up to 12 external telephone
+numbers (within your regional calling area) from calling your number, preventing
+unwanted and nuisance calls. Once activated, any calls from these 12 numbers
+will be routed to an intercept message. For your protection, calls from outside
+of your regional calling area and operator-handled calls cannot be blocked.
+This feature is not available in the DMS 10 switch type.Call Park
+To access the Call Block feature:To “park” a call against your number:
+Lift the handset and listen for dial tone.Tell the person to whom you are speaking that you are going to put them on hold.
+Press *Listen to the voice-recorded instructions for Call Block options.Press the switchhook (or the Tap/Flash/Recall/Link button, depending on your
+telephone set).
+Press *
+Hang-up.
+6
+0
+.
+GTD-5 switch type only:
+If you are a member of a Hunt group, you must:
+Lift the handset and listen for dial tone.
+Press
+Listen to the voice-recorded instructions for Call Block options.
+#
+6
+0
+.
+Call Park functions like Call Pick-Up except that the call is already in progress.
+You can “park” an established call on your line against your own number, freeing
+up your line to place or receive another call. The parked call can be retrieved
+from any other station within the CustoPAK system, including your own. Only one
+call can be parked against a CustoPAK line at a given time. This feature is not
+available in the DMS 10 switch type.
+1
+1
+and listen for confirmation tone.
+To retrieve a call you “parked” against your number:
+Lift the handset and listen for dial tone.
+Press *
+Begin your conversation.
+1
+3
+and listen for confirmation tone.
+NOTES:
+1.) Blocked calls will not be forwarded on any Call Forwarding arrangement
+and will not appear on Caller ID displays.
+2.) Call Block takes precedence over Series Hunting.
+3.) This feature must be applied to all members of a Hunt group.
+34
+Downloaded from www.Manualslib.com manuals search engine
+NOTES:
+1.) If a parked call is not retrieved, the parking station will be recalled when idle.
+2.) A station in the “call parked” condition cannot use the Three-Way Calling feature.
+3.) Call Waiting will not activate against a number in a “parked” condition.
+35Call Park – DirectedCall Trace
+This feature is an enhancement to Call Park. It performs the same functions
+as Call Park, but it allows you to park calls against any number in the CustoPAK
+system except your own. Only one call can be parked against a CustoPAK line at a
+given time. This feature is not available for GTD-5 and DMS 10 switch types.This protective feature enables you to trace the number of the last threatening or
+harassing call received, as long as the call originates from within your regional
+calling area. The calling party’s number will automatically be reported to Verizon,
+and in some areas you will be charged for each successful trace. This feature
+is not available in the DMS 10 switch type.
+To park a call against another CustoPAK number:
+Tell the person to whom you are speaking that you are going to put them on hold.
+Press the switchhook (or the Tap/Flash/Recall/Link button, depending on
+your telephone set).
+
+Press *
+1
+4 .
+If you receive a life-threatening or harassing call:
+Hang up.
+Lift the handset and listen for dial tone.
+Press *
+A voice recording will tell you if the call trace has been completed successfully.
+To take legal action, record the exact date and time of the call and contact
+Verizon within 10 days at the number provided by the voice recording. If
+you forget that number, call the Customer Contact Center for assistance. If
+the situation is an emergency, call your local law enforcement agency.
+Dial the Intercom number of the station where you wish to park the call.
+Hang-up.
+To retrieve parked calls from any line:
+Lift the handset and listen for dial tone.
+Press * 1 2 . If a call is parked against the line from which you are
+retrieving it, you will be automatically connected. If you are retrieving the
+call from a different line, dial the Intercom number of the line that the call
+is parked against.
+
+Begin your conversation.
+NOTES:
+1.) If a parked call is not retrieved, the parking station will be recalled when idle.
+2.) The station in the “call parked” condition and the station with Call Park –
+Directed activated cannot use the Three-Way Calling or Executive Busy
+Override features.
+3.) Call Waiting will not activate against a number in a “parked” condition.
+4.) Call Park – Directed cannot be used to answer an Automatic Callback call.
+5.) Call Park – Directed cannot be activated against a line with Call Forwarding.
+6.) Call Park – Directed cannot be applied to a member of a Hunt group.
+7.) Call Park – Directed overrides Series Hunting and Call Forwarding – Don’t Answer.
+8.) The Call Park – Directed access code and the station number must be dialed
+before you know if the call has already been retrieved.
+36
+Downloaded from www.Manualslib.com manuals search engine
+5
+7
+and follow the voice-recorded instructions.
+NOTES:
+1.) If you successfully trace a call and choose to take further action, you
+must contact Verizon within 10 days or the call record will no longer be
+stored in the system.
+2.) The records of any Call Trace request will be released only to a law
+enforcement agency.
+3.) In some areas, Call Trace is available on a pay-per-use or subscription basis.
+4.) Call Trace cannot trace a call that was forwarded by way of Call Forwarding or
+Call Forwarding – Busy Line.
+5.) If Call Trace is activated after receiving a Call Waiting tone, the waiting call
+will be traced, whether answered or not.
+6.) This feature must be applied to all members of a Hunt group.
+37Caller IDCaller ID – Number Only
+Caller ID, along with compatible display telephones or separate Caller ID display
+box, lets you view the listed name and number of the incoming call before you
+pick it up. Use Caller ID to help improve customer service by personalizing your
+greetings and gathering information pertinent to a call before you answer it. You
+can also use the service to prioritize and screen calls when you are expecting an
+important call from a customer or supplier. Caller ID display devices vary in
+design, available features and the amount of information that may be retained in
+memory. The service will display information between the first and second rings
+for most calls, including long distance. However, some calls may be shown as
+“Out-of-Area” or as “Private Number” and the information will not be displayed.
+This feature is not available in the DMS 10 switch type.Caller ID – Number Only, along with compatible display telephones or separate
+Caller ID display box, lets you view the number of the incoming call before
+you pick it up. Use Caller ID – Number Only to help improve customer service by
+personalizing your greetings and gathering information pertinent to a call before
+you answer it. You can also use the service to prioritize and screen calls when
+you are expecting an important call from a customer or supplier. Caller ID display
+devices vary in design, available features and the amount of numbers that may be
+retained in memory. Caller ID will display numbers between the first and second
+rings for most calls, including long distance. However, some calls may be shown
+as “Out-of-Area” or as “Private Number” and the number will not be displayed.
+This feature is not available in the DMS 10 switch type.
+NOTES:NOTES:
+1.) This feature must be applied to all members of a Hunt group.
+2.) If Call Forwarding or Select Call Forwarding is activated, the call information
+will not be displayed at the forward-from location, but will be passed to the
+forward-to number.
+3.) With Call Forwarding – Busy Line, the call information will not be passed
+to the forward-to number.
+4.) With Call Waiting, the call information will not be displayed, unless the line
+has Call Waiting ID and the phone has the appropriate display unit.
+5.) Caller ID is not available with Off Premises station lines or Foreign Exchange
+station lines.
+6.) Verizon must automatically activate this feature. You cannot activate or
+deactivate the feature as you choose.1.) This feature must be applied to all members of a Hunt group.
+2.) If Call Forwarding or Select Call Forwarding is activated, the calling number
+will not be displayed at the forward-from location, but will be passed to the
+forward-to number.
+3.) With Call Forwarding – Busy Line, the calling number will not be passed to
+forward-to number.
+4.) With Call Waiting, the calling number will not be displayed, unless the line
+has Call Waiting ID and the phone has the appropriate display unit.
+5.) Caller ID – Number Only is not available with Off Premises station lines or
+Foreign Exchange station lines.
+6.) Verizon must automatically activate this feature. You cannot activate or
+deactivate the feature as you choose.
+38
+Downloaded from www.Manualslib.com manuals search engine
+39Enhanced Call ForwardingExecutive Busy Override
+Using a toll free 800 number, you can forward calls from anywhere in the
+country to any other number of your choice (pager, cellular phone, work phone
+or home phone). Enhanced Call Forwarding has been installed with a default
+destination number that you have chosen, and provides you with the flexibility
+to override the default number whenever necessary. This feature is not avail-
+able in the DMS 10 switch type.Executive Busy Override allows you to gain access to a busy line within your
+CustoPAK system by dialing a code, thus establishing a three-way call. The
+called number will receive a warning tone prior to the establishment of the
+three-way conference call. The person to whom the called party is speaking
+can be either inside or outside of the CustoPAK system. This feature is not
+available in the GTD-5 switch type.
+While using Enhanced Call Forwarding, certain buttons always have the same
+standard function:Upon reaching a busy internal station:
+
+
+Press the switchhook (or the Tap/Flash/Recall/Link button, depending on your
+telephone set).
+Press * 4 0 (both parties will hear break-in tone and you can now join
+the conversation).
+Press8to jump to the Main Menu.Press9to hear a menu again.Press0to hear help information.Press * to return to the previous menu.NOTES:
+If you’re entering a string of digits (a phone number or a time) and make
+a mistake, press * to clear the entry so you can start over again.After entering a string of digits, press # to end the string.1.) If a three-way conference is already in progress on the called number, the
+feature will not operate.
+2.) If the called party presses the switchhook (or the Tap/Flash/Recall/Link button,
+depending on the telephone set), the overriding party will be disconnected
+from the three-way call. If any of the three parties hang up, the remaining
+two parties will still be connected.
+Calling Enhanced Call Forwarding
+From a touch-tone telephone:
+Dial 1-888-483-3230.
+Enter your 10-digit Enhanced Call Forwarding account number, then press
+Enter your Verizon-provided temporary PIN, then press # . If this is the first
+time you’ve used Enhanced Call Forwarding, you’ll be prompted to create your
+new 6- to 10-digit PIN.
+Refer to your Enhanced Call Forwarding User Guide for detailed
+information on how to use this feature.
+#
+.
+Last Number Redial
+This convenient service enables you to be connected to the last number you
+dialed. Use Last Number Redial to save time and improve efficiency by reducing
+dialing time and time spent looking for telephone numbers. This feature is not
+available for 5ESS and DMS 10 switch types.
+To be connected to the last number you dialed:
+Lift the handset and listen for dial tone.
+Press
+#
+7
+7
+and wait for the call to connect.
+NOTE: If you called both numbers when establishing a three-way conference,
+the second number is the one stored for a Last Number Redial request.
+40
+Downloaded from www.Manualslib.com manuals search engine
+41Priority CallSelect Call Forwarding
+Priority Call enables you to program up to 12 numbers—from within your
+regional calling area—to be identified with a special ring pattern (short-long-
+short). Use Priority Call to help you know when an important call comes in so
+you can give superior service to your high-priority callers. This feature is not
+available in the DMS 10 switch type.Select Call Forwarding lets you program up to 12 numbers — from within your
+regional calling area— that you wish to have call forwarded. When a number on
+your Select Call Forwarding list calls you, it will be forwarded to the number
+you have programmed to receive the call. Calls from all other numbers will be
+handled in the normal manner. You can program calls to forward to virtually
+any number— local or long distance — and Select Call Forwarding allows
+you to change your forward-to number whenever necessary. Use Select Call
+Forwarding to remain accessible and give top priority to your most important
+callers. This feature may generate local, regional toll or long distance charges.
+This feature is not available in the DMS 10 switch type.
+To turn Priority Call on or off:
+Lift the handset and listen for dial tone.
+Press *
+Listen to the voice recording for instructions on how to turn Priority Call on or
+off, and how to change or review your Priority Call list.
+6
+1 .
+To update your Priority Call list:
+
+Press * 6 1 and follow the voice-recorded instructions. If your list is full,
+you must erase one number before you can add another.
+To turn Select Call Forwarding on or off:
+Lift the handset and listen for dial tone.
+Press *
+Listen to the voice recording for instructions on how to turn your Select Call
+Forwarding service on and off and how to change or review your Select Call
+Forwarding list.
+NOTES:
+1.) The Priority Call special ring will not follow a Call Forwarding or Select Call
+Forwarding call.
+2.) This feature must be applied to all members of a Hunt group.
+3.) The Priority Call special ring will not hunt.
+4.) This feature will not work on a Hunt group’s pilot number.
+6
+3 .
+To update your Select Call Forwarding list:
+
+Press * 6 3 and follow the voice-recorded instructions. If your list is full,
+you must delete one number before you can add another.
+NOTES:
+1.) When Select Call Forwarding is on and a call forwards:
+- Calls from numbers on your Select Call Forwarding list cannot be answered at
+the forward-from number, however, they will generate one short ring to remind
+you that the call is being forwarded. The forward-to number will ring normally.
+- All calls from numbers not on your Select Call Forwarding list will ring
+normally and can be answered.
+- If you also have Call Forwarding and it is turned on, all calls from phone
+numbers not on your Select Forwarding list will forward to the number you
+have chosen as the Call Forwarding Select destination.
+2.) Blocked calls will not forward.
+3.) This feature must be applied to all members of a Hunt group.
+4.) Select Call Forwarding overrides all other Call Forwarding arrangements.
+42
+Downloaded from www.Manualslib.com manuals search engine
+43Voice Mail and CustoPAKAppendix
+Verizon Voice Mail offers an efficient, businesslike way to capture important
+messages when you’re away from the office or on the phone 24 hours a day,
+365 days a year. If you are unable to answer your line, or you are using your line
+(line busy), up to 3 calls can forward to your mailbox.Intercom Code Charts
+GTD-5, 5ESS and DMS 100 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+You can set up your Verizon Voice Mail to enable callers to transfer out of
+the mailbox to a local telephone number selected by you for live answering.
+In addition to a Main Greeting, Verizon Voice Mail offers the option of an
+Alternate Greeting for times when you are away from the office.
+If you wish to transfer a caller on your line to another CustoPAK line
+which has Verizon Voice Mail:
+Press the switchhook (or the Tap/Flash/Recall/Link button, depending on
+your telephone set).
+Dial the Intercom number.
+IF the line is answered, press the switchhook for a three-way call. If you wish
+to exit, simply hang up and the two parties will remain in conference.
+IF the line is not answered, you can hang up after the first ring, and the caller
+will forward to the second station line user’s mailbox greeting. The caller can
+then leave a recorded message in the second mailbox user’s mailbox.
+DMS 10 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48
+Speed Dialing Code Charts
+GTD-5, DMS 100 and DMS 10 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+5ESS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51
+CustoPAK Feature Activation/Deactivation Codes . . . . . . . . . . . . . . . . . . . . . . 52
+Feature Availability by Switch Type. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+Your CustoPAK Feature Selections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+NOTE: Please refer to the Verizon Voice Mail User Guide for information on how
+to use your mailbox.
+44
+Downloaded from www.Manualslib.com manuals search engine
+45Intercom Code Charts
+GTD-5, 5ESS and DMS 100 Intercom Code Chart
+The following charts are provided for you to list your Intercom codes. Each
+telephone number has been assigned an intercom code, and depending on your
+switch type, you must press # either before or after the Intercom code number.
+These Intercom codes have been programmed by Verizon. Instructions for using
+the Intercom feature are found below and also on page 14 of this guide.
+To make an Intercom call:
+Pick up the handset and listen for dial tone.
+Press the Intercom code
+2
+Press the Intercom code
+#
+0
+2
+#–49
+–#7(DMS 10).
+#
+(GTD-5, 5ESS and DMS 100).
+46
+Downloaded from www.Manualslib.com manuals search engine
+Name
+Code
+Telephone Number
+20#
+21#
+22#
+23#
+24#
+25#
+26#
+27#
+28#
+29#
+30#
+31#
+32#
+33#
+34#
+35#
+36#
+37#
+38#
+39#
+40#
+41#
+42#
+43#
+44#
+45#
+46#
+47#
+48#
+49#
+47Speed Dialing Code Charts
+DMS 10 Intercom Code Chart
+Name
+Code
+Telephone Number
+#2
+#3
+#4
+#5
+The following charts are provided for you to list your Speed Dialing codes. The
+length of your individual Speed Dialing list is determined by your switch type.
+Your switch type can be found on the front cover of this guide. Be sure to use
+the Speed Dialing list that corresponds to your switch type. The instructions for
+setting up a list and making calls using Speed Dialing can be found below and
+also on page 30 of this guide.
+To establish or change your Speed Dialing list:
+#6
+#7
+Lift the receiver and listen for dial tone.
+Press *
+ Press #
+7
+4
+and listen for dial tone.
+1 .(GTD-5 only, skip this step in all other switches).
+Press the Speed Dialing 1-digit code number to be programmed
+(see pages 50-51).
+Dial the telephone number to be assigned to the code.
+Listen for confirmation tone.
+Hang up.
+Repeat steps for each Speed Dialing code number to be programmed.
+To make a call using Speed Dialing:
+48
+Downloaded from www.Manualslib.com manuals search engine
+Lift the receiver and listen for dial tone.
+Press # 1 .(all switches) and then dial the Speed Dialing code number
+(see pages 50-51).
+You will hear the called number ringing.
+Wait for party to answer.
+49GTD-5, DMS 100 and DMS 10 Speed Dialing List
+Name
+Code
+Telephone Number
+5ESS Speed Dialing List
+Name
+Code
+22
+33
+44
+55
+66
+77
+Telephone Number
+8
+9
+50
+Downloaded from www.Manualslib.com manuals search engine
+51CustoPAK® Feature Activation/Deactivation Codes
+FeatureActivation Code
+*69
+Automatic Callback
+Busy Redial
+Call Block
+Call Forwarding
+Call Hold
+Call Park
+Call Park – Directed
+Call Pick-Up – Group
+Call Trace
+Cancel Call Waiting
+Dial Call Waiting
+Executive Busy Override*69
+*52
+*66
+*60
+*72
+*01
+*11
+*14
+*17
+*57
+*70
+*54
+*40
+20# - 49# for 5ESS,
+IntercomGTD-5 and DMS 100.
+#2 - #7 for DMS 10.
+#77
+61
+63
+74, then #1 (GTD-5 only)
+to program.
+2 - 9 to use feature
+for all switches,
+except the 5ESS.
+2 - 7 to use feature
+for the 5ESS.
+Last Number Redial
+Priority Call
+Select Call Forwarding
+*
+Speed Dialing
+*
+*
+Deactivation or
+Retrieval Code
+89
+#52
+86
+*
+*
+*73
+*01
+*13
+*12
+Feature Availability by Switch Type
+Feature
+GTD-5
+Basic Features
+Assume Dial “9”
+Call Hold
+Call Transfer
+Consultation Hold
+Direct Inward/Outward Dialing (DID/DOD)
+Distinctive Ringing (Inside/Outside Ringing)
+Intercom Dialing
+Three-Way Calling
+Touch-Tone
+Selectable Features
+Automatic Callback
+Call Forwarding
+Call Forwarding – Busy Line
+Call Forwarding – Don’t Answer
+Call Pick-Up – Group
+Call Restriction Options
+Call Waiting
+Cancel Call Waiting
+Dial Call Waiting
+Hunting
+Speed Dialing
+Optional Features:
+69
+Busy Redial
+Call Block ( 60)
+Call Park
+Call Park – Directed
+Call Trace
+Caller ID services
+Enhanced Call Forwarding
+Executive Busy Override
+Last Number Redial
+Priority Call
+Select Call Forwarding
+Voice Mail
+*
+*
+52
+Downloaded from www.Manualslib.com manuals search engine
+✓
+✓
+✓
+✓
+✓
+✓(30)
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓(8)
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+Switch Type
+5ESS DMS 100 DMS 10
+✓
+✓
+✓
+✓
+✓
+✓
+✓(30)
+✓
+✓✓
+✓
+✓
+✓
+✓
+✓
+✓(30)
+✓
+✓✓
+✓
+✓
+✓
+✓
+✓
+✓(6)
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓(6)✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓(8)✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓(8)
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+53Your CustoPAK® Feature Selections
+Feature
+Telephone Numbers
+Basic Features
+Assume Dial “9”
+Call Hold
+Call Transfer
+Consultation Hold
+Direct Inward/Outward Dialing (DID/DOD)
+Distinctive Ringing (Inside/Outside Ringing)
+Intercom Dialing
+Three-Way Calling
+Touch-Tone
+Selectable Features
+Automatic Callback
+Call Forwarding
+Call Forwarding – Busy Line
+Call Forwarding – Don’t Answer
+Call Pick-Up – Group
+Call Restriction Options
+Call Waiting
+Cancel Call Waiting
+Dial Call Waiting
+Hunting
+Speed Calling
+Optional Features:
+69
+Busy Redial
+Call Block ( 60)
+Call Park
+Call Park – Directed
+Call Trace
+Caller ID services
+Enhanced Call Forwarding
+Executive Busy Override
+Last Number Redial
+Priority Call
+Select Call Forwarding
+Voice Mail
+*
+*
+54
+Downloaded from www.Manualslib.com manuals search engine
+55Notes
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+__________________________________________________________
+56
+Downloaded from www.Manualslib.com manuals search engine

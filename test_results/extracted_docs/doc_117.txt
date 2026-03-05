@@ -1,0 +1,46 @@
+“Ray tracing is the future, and it always will be!” has been the tongue-in-cheek phrase used by graphics developers for decades when asked whether real-time ray tracing will ever be feasible.
+ 
+
+ Everyone seems to agree on the first part: ray tracing is the future. That’s because ray tracing is the only technology we know of that enables the rendering of truly photorealistic images. It’s no coincidence that every offline renderer used in the movie industry, where compromises on image quality are unacceptable, is based on ray tracing. Rasterization has made immense strides over the years, and it is still evolving even today. But it is also fundamentally limited in the type of effects it can compute. Truly taking graphics to the next level requires new underlying technology. This is where ray tracing comes in, and this is why real-time ray tracing has long been the dream of gamers and game developers.
+ 
+
+ So will ray tracing always remain a dream of the future, and never arrive in the present? At GDC 2018, NVIDIA unveiled RTX, a high-performance implementation that will power all ray tracing APIs supported by NVIDIA on Volta and future GPUs. At the same event, Microsoft announced the integration of ray tracing as a first-class citizen into their industry standard DirectX API.
+ 
+
+ Putting these two technologies together forms such a powerful combination that we can confidently answer the above question: the future is here! This is not a hyperbole: leading game studios are developing upcoming titles using RTX through DirectX — today. Ray tracing in games is no longer a pipe dream. It’s happening, and it will usher in a new era of real-time graphics.
+ 
+
+ he API that Microsoft announced, DirectX Raytracing (DXR), is a natural extension of DirectX 12. It fully integrates ray tracing into DirectX, and makes it a companion (as opposed to a replacement) to rasterization and compute.
+ 
+
+ API Overview
+ The DXR API focuses on delivering high performance by giving the application signficant low-level control, as with earlier versions of DirectX 12. Several design decisions reflect this:
+ 
+
+ All ray tracing related GPU work is dispatched via command lists and queues that the application schedules. Ray tracing therefore integrates tightly with other work such as rasterization or compute, and can be enqueued efficiently by a multithreaded application.
+ Ray tracing shaders are dispatched as grids of work items, similar to compute shaders. This lets the implementation utilize the massive parallel processing throughput of GPUs and perform low-level scheduling of work items as appropriate for the given hardware.
+ The application retains the responsibility of explicitly synchronizing GPU work and resources where necessary, as it does with rasterization and compute. This allows developers to optimize for the maximum amount of overlap between ray tracing, rasterization, compute work, and memory transfers.
+ Ray tracing and other dispatch types share all resources such as textures, buffers, and constants. No conversion, duplication, or mapping is required to access a resource from ray tracing shaders.
+ Resources that hold ray tracing specific data, such as acceleration structures and shader tables (see below), are entirely managed by the application. No memory allocations or transfers happen implicitly “under the hood”.
+ Shader compilation is explicit and therefore under full application control. Shaders can be compiled individually or in batch. Compilation can be parallelized across multiple CPU threads if desired.
+ At a high level, DXR introduces three new concepts to DirectX that the application must manage:
+ 
+
+ Ray Tracing Pipeline State Objects contain the compiled shader code that gets executed during a ray tracing dispatch.
+ Acceleration Structures contain the data structures used to accelerate ray tracing itself, i.e. the search for intersections between rays and scene geometry.
+ Shader Tables define the relationship between ray tracing shaders, their resources (textures, constants, etc), and scene geometry.
+ Let’s take a closer look at these.
+ 
+
+ The traditional raster graphics pipeline defines a number of shader types: vertex shader, geometry shader, pixel shader, etc. Analog to that model, a ray tracing pipeline consists of five new shader types which are executed at different stages:
+ 
+
+ The ray generation shader is the first thing invoked in a ray tracing dispatch. Ray generation shaders are comparable to compute shaders, with the added capability of calling the new HLSL function TraceRay(). This function casts a single ray into the scene to search for intersections, triggering other shaders in the process. A ray generation shader may call TraceRay() as many times as it likes.
+ Intersection and any hit shaders are invoked whenever TraceRay() finds a potential intersection between the ray and the scene. The intersection shader determines whether the ray intersects an individual geometric primitive — for example a sphere, a subdivision surface, or really any primitive type you can code up! The most common type is, of course, triangles, for which the API offers special support through a built-in, highly tuned intersection shader. Once an intersection is found, the any hit shader may be used to process it further or potentially discard it. Any hit shaders commonly implement alpha testing by performing a texture lookup and deciding based on the texel’s value whether or not to discard an intersection.
+ Once TraceRay() has completed the search for ray-scene intersections, either a closest hit or a miss shader is invoked, depending on the outcome of the search. The closest hit shader is typically where most shading operations take place: material evaluation, texture lookups, and so on. The miss shader can be used to implement environment lookups, for example. Both closest hit and miss shaders can recursively trace rays by calling TraceRay() themselves.
+ 
+
+ The pipeline constructed from these shaders defines a single-ray programming model. Semantically, each GPU thread handles one ray at a time and cannot communicate with other threads or see other rays currently being processed. This keeps things simple for developers writing shaders, while allowing room for vendor-specific optimizations under the hood of the API.
+ 
+
+ The main way for the different shader types to communicate with each other is the ray payload. The payload is simply a user-defined struct that’s passed as an inout parameter to TraceRay(). Any hit, closest hit, and miss shaders can read and write the payload, and therefore pass back the result of their computations to the caller of TraceRay().

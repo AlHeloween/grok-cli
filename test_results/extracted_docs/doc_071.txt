@@ -1,0 +1,121 @@
+How Telescopes Are Like Eyes
+Telescopes and eyes are both tools for collecting and detecting light. In fact,
+telescopes can be thought of as bigger, more powerful eyes. Eyes have an opening
+called the pupil where the light enters; a lens to focus the light; and a retina in the
+back to detect the light. Telescopes also have an opening to let in light; a lens or
+mirror to focus the light; and a detector to receive and process the light.
+In the eye, chemical reactions in the retina convert light into electrical signals, w h i c h
+are processed by the brain. In telescopes, several different kinds of light detectors are
+used. Some telescopes contain electronic devices that convert light into electrical
+signals that can be analyzed and stored by a computer. In other telescopes, the light
+is focused onto photographic film, where the information is recorded as a photograph.
+In simple backyard telescopes, the light is focused onto the eye of the person looking
+through the telescope. In this case, the telescope’s light detector is a human eye.
+When you look through a telescope, all of the light that enters eventually reaches the
+back of your eye. Hundreds of times more light enters a small telescope than would
+n o rmally enter your eye because the telescope’s opening (also known as its “apert u r e ” )
+is much bigger than your pupil. The telescope’s lens or mirror focuses all of this light
+so that it fits through your pupil. This is why telescopes let you see objects that do
+not give off enough light to see by unaided eye alone. 
+Telescopes have several advantages over eyes, including larger light-collecting areas;
+collecting light for longer periods of time; and the ability to detect wavelengths of
+light invisible to humans.
+Larger Light-Collecting Areas
+When you move from a bright area into darkness, the pupil in your eye can expand
+from less than 1/1 6 inch to more than o inch in diameter — becoming sixteen times
+greater in area —in order to take in more light. Telescopes offer a way to expand
+the light-collecting area even further, in effect increasing the size of your pupil by
+hundreds or thousands of times. A simple backyard telescope with a 4-inch-diameter
+lens can capture 250 times more light than an eye with a o -inch-wide pupil, and
+the Hubble Space Telescope’s 94.5-inch mirror captures 143,000 times as much light
+as a o -inch pupil.
+Telescopes that capture radio waves look nothing like optical telescopes, but the
+surface area of the collector still determines how powerful the telescope is. Radio
+telescopes collect light in “dishes” that resemble satellite TV antennas. The wider
+the dish, the more powerful the telescope, because a wider dish can capture more
+light. The radio telescope at the Arecibo Observatory in Puerto Rico has a dish
+1,000 feet wide
+Collecting Light for Longer Periods of Time
+The light detectors in telescopes can gather light from a single source over a long
+period of time. In some cases, light collected over several hours is used to create a
+single image. This is something the human eye cannot do. The cells in your retina
+collect light for just a fraction of a second. Then they repeat the process, essentially
+taking a new picture about twenty times a second. This enables your eye to keep
+track of moving objects. If your eye did not constantly update its information about
+where things are, moving objects would become a blur.
+When collecting light from faint objects such as distant galaxies, however, a
+twentieth of a second is not enough time for your eye to see anything at all, even if
+you are looking through a large telescope. Astronomers solve this problem by
+attaching special detectors to telescopes. This lets them point a telescope at a single
+object for minutes or even hours and combine all the light the camera receives into a
+single image. The resulting image reveals much more than a person could see with
+their eyes, even looking through the same telescope.
+In the past, telescope detectors used photographic film. Though some still use film,
+most research telescopes now use electronic cameras that store digital images
+on a computer.
+The electronic light detectors used in telescopes are called charged-coupled devices,
+or CCDs. CCD chips are made of thousands of tiny sensors that convert light into
+an electrical signal. The amount of electricity that passes through a given spot on the
+chip reveals how much light struck that point. Computers process the electrical
+information to make a digital image. The same technology is used in photocopiers,
+fax machines, video cameras, and bar code readers, all of which convert light signals
+into electrical signals.
+The Ability to Detect Wavelengths of Light Invisible to Humans
+Many telescopes are built to detect wavelengths of light your eyes cannot. Light
+from space comes in many wavelengths, most of which are invisible to the human
+eye—including gamma rays, X rays, ultraviolet and infrared light, microwaves,
+and radio waves. Whether visible or invisible, all light contains information about
+its source. So astronomers use special telescopes to detect wavelengths of light
+not visible to humans.
+The hotter an object is, the shorter the wavelengths of light it gives off. Because stars
+are so hot, much of the light they emit is in wavelengths too short for your eyes to
+see. Pictures of the Sun taken in ultraviolet or X-ray light, for instance, show hot,
+glowing jets of gas arching out of the Sun. These shapes are always there, but they
+cannot be seen in visible wavelengths.
+Telescopes sensitive to different wavelengths of light are useful in observing
+different astronomical phenomena.
+Gamma Ray Telescopes
+Gamma rays have the shortest wavelength and contain the most energy of any form
+of light. They are believed to come from highly energetic processes such as collisions
+between two black holes, collisions between two neutron stars, or the collapse of
+hyperstars—giant stars even bigger than the ones that cause supernovas.
+The design of a gamma-ray telescope is unique in that the telescope itself is one big
+detector without any lenses or mirrors. The wavelengths of gamma rays are so small
+that they pass easily through conventional lenses or mirrors.
+X-ray Telescopes
+X-ray telescopes are used to observe extremely hot sources, such as the gases around
+black holes. X-ray telescopes cannot focus X-ray light the same way that ordinary
+telescopes do, because X-rays go right through most mirrors. Some X ray telescopes
+have special mirrors shaped like long, narrow tubes. As X rays enter the tube, they
+graze the mirror just enough to reflect gently toward a detector instead of passing
+through the mirror. 
+Ultraviolet Telescopes
+Ultraviolet (UV) light has shorter wavelengths than visible light. These waves
+come from very hot stars. Ultraviolet telescopes can also be used to observe the hot
+gases surrounding the Sun. UV telescopes appear very similar in design to visible
+light telescopes except they are equipped with specially designed detectors sensitive
+to UV light.
+Visible Light Telescopes
+Optical telescopes capture the same kind of light your eyes can see. They reveal how
+distant objects would look if we were closer to them. Most of the cosmic images we
+see in magazines and newspapers come from visible light telescopes. Visible light is
+also a good source of information about average-temperature stars like the Sun.
+Infrared Telescopes
+Infrared light has fairly long wavelengths that pass through clouds of dust better
+than light with shorter wavelengths. Infrared telescopes are used to observe objects
+surrounded by dust, such as young stars being born inside nebulae. Because all
+warm objects give off infrared light, infrared telescopes are chilled so that they
+won’t detect their own glow. The lifespan of an infrared telescope is limited by how
+long the telescope can be kept cool. 
+Microwave Telescopes
+Microwaves are used to observe the afterglow of the Big Bang, the ancient explosion
+that created the Universe. Microwave radiation also reveals the presence of many
+small molecules, such as carbon monoxide. The design of microwave telescopes is
+most similar to that of radio telescopes: large metallic “dishes” that collect and focus
+the longer wavelengths of microwave light.
+Radio Telescopes
+Radio waves have long wavelengths, from a meter on up to over a kilometer.
+Extremely large telescope dishes are required to capture these long wavelengths.
+Radio telescopes can reveal details of distant galaxies and nebulae. Radio telescopes
+helped astronomers discover “pulsars,” which are collapsed stars that rotate rapidly,
+emitting pulses of radio waves like the rotating lights on a police car or a lighthouse. 

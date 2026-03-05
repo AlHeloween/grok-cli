@@ -1,0 +1,44 @@
+New research describes for the first time how a spreading wave of disruption and the flow of fluid in the brain triggers headaches, detailing the connection between the neurological symptoms associated with aura and the migraine that follows. The study also identifies new proteins that could be responsible for headaches and may serve as foundation for new migraine drugs.
+ 
+
+ “In this study, we describe the interaction between the central and peripheral nervous system brought about by increased concentrations of proteins released in the brain during an episode of spreading depolarization, a phenomenon responsible for the aura associated with migraines,” said Maiken Nedergaard, MD, DMSc, co-director of the University of Rochester Center for Translational Neuromedicine and lead author of the new study, which appears in the journal Science. “These findings provide us with a host of new targets to suppress sensory nerve activation to prevent and treat migraines and strengthen existing therapies.”
+ 
+
+ "These findings provide us with a host of new targets to suppress sensory nerve activation to prevent and treat migraines and strengthen existing therapies.”
+ 
+
+ Maiken Nedergaard, MD, DMSc
+ It is estimated that one out of 10 people experience migraines and in about a quarter of these cases the headache is preceded by an aura, a sensory disturbance that can includes light flashes, blind spots, double vision, and tingling sensations or limb numbness. These symptoms typically appear five to 60 minutes prior to the headache.
+ 
+
+ The cause of the aura is a phenomenon called cortical spreading depression, a temporary depolarization of neurons and other cells caused by diffusion of glutamate and potassium that radiates like a wave across the brain, reducing oxygen levels and impairing blood flow. Most frequently, the depolarization event is located in the visual processing center of the brain cortex, hence the visual symptoms that first herald a coming headache.
+ 
+
+ While migraines auras arise in the brain, the organ itself cannot sense pain. These signals must instead be transmitted from the central nervous system—the brain and spinal cord—to the peripheral nervous system, the communication network that transmits information between brain with the rest of the body and includes sensory nerves responsible for sending information such as touch and pain. The process of communication between the brain and peripheral sensory nerves in migraines has largely remained a mystery.
+ 
+
+ Fluid Dynamics Models Shed Light on Migraine Pain Origins
+ Nedergaard and her colleagues at the University of Rochester and the University of Copenhagen are pioneers in understanding the flow of fluids in the brain. In 2012, her lab was the first to describe the glymphatic system, which uses cerebrospinal fluid (CSF) to wash away toxic proteins in the brain. In partnership with experts in fluid dynamics, the team has built detailed models of how the CSF moves in the brain and its role in transporting proteins, neurotransmitters, and other chemicals.
+ 
+
+ The most widely accepted theory is that nerve endings resting on the outer surface of the membranes that enclose the brain are responsible for the headaches that follow an aura. The new study, which was conducted in mice, describes a different route and identifies proteins, many of which are potential new drug targets, that may be responsible for activating the nerves and causing pain.
+ 
+
+ As the depolarization wave spreads, neurons release a host of inflammatory and other proteins into CSF. In a series of experiments in mice, the researchers showed how CSF transports these proteins to the trigeminal ganglion, a large bundle of nerves that rests at the base of the skull and supplies sensory information to the head and face.
+ 
+
+ It was assumed that the trigeminal ganglion, like the rest of the peripheral nervous system, rested outside the blood-brain-barrier, which tightly controls what molecules enter and leave the brain. However, the researchers identified a previously unknown gap in the barrier that allowed CSF to flow directly into the trigeminal ganglion, exposing sensory nerves to the cocktail of proteins released by the brain.
+ 
+
+ Migraine-Associated Proteins Double During Brain Wave Activity
+ model_image
+ Analyzing the molecules, the researchers identified twelve proteins called ligands that bind with receptors on sensory nerves found in the trigeminal ganglion, potentially causing these cells to activate. The concentrations of several of these proteins found in CSF more than doubled following a cortical spreading depression. One of the proteins, calcitonin gene-related peptide (CGRP), is already the target of a new class of drugs to treat and prevent migraines called CGRP inhibitors. Other identified proteins are known to play a role in other pain conditions, such as neuropathic pain, and are likely important in migraine headaches as well.
+ 
+
+ “We have identified a new signaling pathway and several molecules that activate sensory nerves in the peripheral nervous system. Among the identified molecules are those already associated with migraines, but we didn't know exactly how and where the migraine inducing action occurred,” said Martin Kaag Rasmussen, PhD, a postdoctoral fellow at the University of Copenhagen and first author of the study. “Defining the role of these newly identified ligand-receptor pairs may enable the discovery of new pharmacological targets, which could benefit the large portion of patients not responding to available therapies.”
+ 
+
+ The researchers also observed that the transport of proteins released in one side of the brain reaches mostly the nerves in the trigeminal ganglion on the same side, potentially explaining why pain occurs on one side of the head during most migraines.
+ 
+
+ Additional co-authors Kjeld Mollgard, Peter Bork, Pia Weikop, Tina Esmail, Lylia Drici, Nicolai Albrechtsen, Matthias Mann, Yuki Mori, and Jonathan Carlsen with the University of Copenhagen, Nguyen Huynh and Steve Goldman with URMC, and Nima Ghitani and Alexander Chesler with the National Institute of Neurological Disorders and Stroke (NINDS). The research was supported with funding from the Novo Nordisk Foundation, NINDS, the US Army Research Office, the Lundbeck Foundation, and the Dr. Miriam and Sheldon G. Adelson Medical Research Foundation.

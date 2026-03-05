@@ -1,0 +1,74 @@
+Each year, millions of Americans purchase tickets for live entertainment events, such as
+concerts, theatrical performances, and sporting events. In 2023, about 81 million fans in
+North America and 145 million fans across the world attended events that were produced
+by Live Nation Entertainment—a firm that promotes events, owns venues, and provides ticketing
+services through its subsidiary, Ticketmaster.1
+IBISWorld, a market research firm, projects
+revenue for online ticket sales in the United States in 2024 will be $12.7 billion, with $4.2 billion
+(33.3%) spent on sporting events; $3.9 billion (30.7%) on concerts; and $1.5 billion (11.8%) on
+dance, opera, and theatrical performances.2
+Congress has held hearings,
+3
+debated bills, and passed legislation4
+related to tickets for live events
+(Appendix). Some Members of the 118th Congress have called attention to event ticketing issues,
+such as rising ticket prices (potentially due to higher ticketing service fees), and efforts to
+increase consumer protection (e.g., by requiring full price disclosure for tickets from the
+beginning of a transaction).
+5 Some states have enacted legislation related to event ticketing,
+including legislation that seeks to address these same concerns.
+6
+This report provides an overview of event ticketing and actions taken by the federal government
+related to event ticketing. It also discusses selected legislative proposals from the 118th Congress.
+Overview of Event Ticketing and Selected Issues
+Tickets for live events initially are sold in the primary market. In the primary market, firms that
+provide ticketing services (i.e., ticketers) work directly with venues, promoters, producers, sports
+teams, and other entities to sell tickets to consumers (see Figure 1). Most tickets in the primary
+market are sold online,7
+although some tickets may be available through other outlets, such as a
+local box office or call center.8 Events typically have one primary ticketer selling tickets online.
+For example, the primary ticketer for most Major League Baseball (MLB) teams is Tickets.com
+1 Live Nation Entertainment, Inc., Securities and Exchange Commission (SEC) Form 10-K for the year ending
+December 31, 2023, pp. 30, 36.
+2
+IBISWorld, Online Event Ticket Sales in the U.S., April 2024, pp. 8-9 (hereinafter IBISWorld, Online Event Ticket
+Sales in the U.S.).
+3 For example, see U.S. Congress, Senate Committee on the Judiciary, That’s the Ticket: Promoting Competition and
+Protecting Consumers in Live Entertainment, hearing, 118th Cong., 1st sess., January 24, 2023, S.Hrg. 118-31
+(Washington, DC: GPO, 2023), https://www.govinfo.gov/content/pkg/CHRG-118shrg52250/pdf/CHRG118shrg52250.pdf (hereinafter Senate Judiciary hearing, That’s the Ticket), and U.S. Congress, House Energy and
+Commerce Committee, Subcommittee on Oversight and Investigations, In the Dark: Lack of Transparency in the Live
+Event Ticketing Industry, hearing, 116th Cong., 2nd sess., February 26, 2020, https://docs.house.gov/Committee/
+Calendar/ByEvent.aspx?EventId=110588.
+4 The 114th Congress passed the Better Online Ticket Sales Act of 2016 (BOTS Act; P.L. 114-274). For more
+information about the BOTS Act, see “Federal Oversight of Event Ticketing.”
+5 Senate Judiciary hearing, That’s the Ticket.
+6 For example, some states require the total price of a ticket, including any taxes and fees, to be provided when the
+price is initially displayed (e.g., Connecticut General Statute §53-289a, Georgia Code Annotated §43-4B-28(a)(3), and
+New York Arts and Cultural Affairs Law §25.23).
+7 For example, in 2022, Live Nation estimated that it sold 56%, 42%, and 2% of its tickets through mobile apps,
+websites, and ticket outlets, respectively. Live Nation Entertainment, Inc., SEC Form 10-K for the year ending
+December 31, 2022, p. 11.
+8
+IBISWorld, Online Event Ticket Sales in the U.S., p. 12; and U.S. Government Accountability Office (GAO), Event
+Ticket Sales: Market Characteristics and Consumer Protection Issues, April 2018, pp. 4-5, https://www.gao.gov/assets/
+700/691247.pdf (hereinafter GAO, Event Ticket Sales).
+E
+Tickets for Live Entertainment Events
+Congressional Research Service 2
+(a subsidiary of MLB Advanced Media),9
+and the primary ticketer for most National Football
+League (NFL) teams is Ticketmaster.
+10 A portion of tickets might be sold through presales (e.g.,
+an artist’s fan club or season tickets), bundled together as a package (e.g., group tickets), or held
+for certain individuals (e.g., sponsors, media, high-profile guests).
+11 Some live event tickets might
+be nontransferable—consumers might be required to show the credit or debit card that was used
+to make the purchase and a matching photo ID to enter the event.12
+Tickets for some live events also are available in the secondary market. In the secondary market,
+individuals who purchased tickets in the primary market can resell their tickets, typically using
+ticketers that operate in the secondary market. Individuals selling tickets in the secondary market
+can include consumers who cannot or no longer wish to attend the event, as well as ticket brokers
+who purchase tickets in the primary market with the intention of reselling them in the secondary
+market for a profit. Some event organizers provide tickets directly to ticket brokers.
+13 Thus, an
+event can have multiple individuals using different secondary ticketers.

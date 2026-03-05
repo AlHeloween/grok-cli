@@ -1,0 +1,118 @@
+Wix Reports Second Quarter 2024 Results
+Accelerated bookings growth, driven by key product initiatives, and FCF margin expansion in
+Q2 builds momentum for 2H
+● Meaningful bookings growth acceleration with total bookings of $458.4 million, up
+15% y/y, as a result of strong Wix Studio uptake, benefits from growing AI capabilities
+and commerce platform expansion as well as positive response to the price increase
+implemented earlier this year
+○ Bookings growth accelerated across both Self Creators and Partners
+○ Continue to expect bookings growth acceleration to 16% y/y in 2H at the high
+end of full year guidance range
+● Total revenue of $435.7 million exceeded expectations, up 12% y/y, driven by strong
+Partners growth of 29% y/y
+● Record take rate of 1.68%, driven by transaction revenue growth of 21% y/y as we
+added a new payment partner to Wix Payments
+● Continued margin expansion with Q2 FCF
+1 margin of 27%, driven by additional
+operating leverage
+○ High end of increased full year FCF
+1 outlook positions us to achieve the Rule
+of 40 milestone this year, one full year ahead of plan
+NEW YORK, August 7, 2024 -- Wix.com Ltd. (Nasdaq: WIX), the leading SaaS website builder
+platform globally,
+2
+today reported financial results for the second quarter of 2024. In
+addition, the Company provided its outlook for the third quarter and an updated outlook for
+full year 2024. Please visit the Wix Investor Relations website at https://investors.wix.com/
+to view the Q2'24 Shareholder Update and other materials.
+“Excellent Q2 results capped off a strong first half of 2024, fueled by successful execution of
+our strategic initiatives, solid business fundamentals and continued product innovation,”
+said Avishai Abrahami, Wix Co-founder and CEO. “We made incredible strides towards our
+key growth pillars and drove significant bookings growth acceleration this quarter. First,
+Wix Studio continued to outperform expectations, as Studio subscription purchases
+accelerated, retention remained strong and the number of Studio accounts purchasing
+multiple subscriptions ramped. We also continued to execute against our AI strategy with
+the release of 17 AI business assistants so far this year. These assistants are improving the
+user creation experience while minimizing the amount of support resources required from
+us. With dozens more still slated to launch this year, AI assistants will soon be everywhere on
+our platform and in nearly every product. Finally, expansion of our commerce platform with
+the addition of a new Wix Payments partner resulted in record take rate of 1.68% in Q2. We
+expect these product initiatives to increasingly become more meaningful drivers of growth
+in the years to come.”
+“Strong execution of our key growth initiatives and solid business fundamentals drove
+incredible growth momentum and additional margin expansion this quarter,” added Lior
+Shemesh, CFO at Wix. “Year-over-year bookings growth accelerated to 15% in Q2 from 10%
+in Q1 as a result of our growth initiatives as well as the price increase implemented earlier
+this year. Notably, this growth was underpinned by bookings growth acceleration across
+both Self Creators and Partners businesses. These key product initiatives paired with solid
+user behavior are expected to drive continued bookings growth acceleration to 16% in 2H at
+the high end of our expectations. In addition, we delivered further margin expansion this
+quarter as our stable cost base drove operating leverage, resulting in Q2 FCF margin of 27%.
+With continued operating leverage expected for the full year, we are increasing our full year
+FCF outlook. We are now positioned to achieve the Rule of 40 milestone this year at the
+high end of our guidance range, one year ahead of our three-year plan.”
+Q2 2024 Financial Results
+● Total revenue in the second quarter of 2024 was $435.7 million, up 12% y/y
+○ Creative Subscriptions revenue in the second quarter of 2024 was $312.1
+million, up 9% y/y
+○ Creative Subscriptions ARR increased to $1.28 billion as of the end of the
+quarter, up 10% y/y
+● Business Solutions revenue in the second quarter of 2024 was $123.6 million, up 20%
+y/y
+○ Transaction revenue
+3 was $53.9 million, up 21% y/y
+● Partners revenue
+4
+in the second quarter of 2024 was $148.4 million, up 29% y/y
+● Total bookings in the second quarter of 2024 were $458.4 million, up 15% y/y
+○ Creative Subscriptions bookings in the second quarter of 2024 were $329.0
+million, up 12% y/y
+○ Business Solutions bookings in the second quarter of 2024 were $129.4
+million, up 24% y/y
+● Total gross margin on a GAAP basis in the second quarter of 2024 was 67%
+○ Creative Subscriptions gross margin on a GAAP basis was 83%
+○ Business Solutions gross margin on a GAAP basis was 28%
+● Total non-GAAP gross margin in the second quarter of 2024 was 68%
+○ Creative Subscriptions gross margin on a non-GAAP basis was 84%
+○ Business Solutions gross margin on a non-GAAP basis was 30%
+● GAAP net income in the second quarter of 2024 was $39.5 million, or $0.71 per basic
+share and $0.68 per diluted share
+● Non-GAAP net income in the second quarter of 2024 was $99.6 million, or $1.80 per
+basic share and $1.67 per diluted share
+● Net cash provided by operating activities for the second quarter of 2024 was $120.0
+million, while capital expenditures totaled $7.2 million, leading to free cash flow of
+$112.8 million
+● Excluding capital expenditures and other expenses associated with the build out of
+our new corporate headquarters, free cash flow for the second quarter of 2024
+would have been $117.8 million, or 27% of revenue
+● Completed $225 million of share repurchases, marking over $1 billion of share
+repurchases executed since 2021
+● Total employee count at the end of Q2’24 was 5,242, flat q/q
+____________________
+1 Free cash flow excluding expenses associated with the buildout of our new corporate headquarters.
+2 Based on the number of active live sites as reported by key competitors' figures, independent third-party-data and internal data as of Q1 2024.
+3 Transaction revenue is a portion of Business Solutions revenue, and we define transaction revenue as all revenue generated through
+transaction facilitation, primarily from Wix Payments, as well as Wix POS, shipping solutions and multi-channel commerce and gift card
+solutions.
+4 Partners revenue is defined as revenue generated through agencies and freelancers that build sites or applications for other users (“Agencies”)
+as well as revenue generated through B2B partnerships, such as LegalZoom or Vistaprint (“Resellers”). We identify Agencies using multiple
+criteria, including but not limited to, the number of sites built, participation in the Wix Partner Program and/or the Wix Marketplace or Wix
+products used (incl. Wix Studio). Partners revenue includes revenue from both the Creative Subscriptions and Business Solutions businesses.
+In Q1 2024, the definition was slightly revised to exclude revenue generated from agreements with enterprise users that, by their nature, are
+more suitable to be categorized under revenue generated by Self Creators. Such revision had an immaterial impact on prior period amounts.
+Financial Outlook
+Our guidance for the second half of the year reflects the momentum built up in the first six
+months, particularly from the strong traction of our key product initiatives and solid
+business fundamentals.
+We are updating our full year bookings outlook to $1,802 - $1,822 million, or 13-14% y/y
+growth, compared to previous guidance of $1,796 - $1,826 million, or 12-14% y/y growth.
+This outlook reflects the continued expectation that y/y bookings growth will accelerate to
+16% in 2H at the high end of our guidance range, as a result of accelerating growth across
+both Self Creators and Partners. Acceleration is expected to be driven by continued Wix
+Studio outperformance, benefits from our AI products and our expanded commerce
+platform, as well as strong user uptake of the price increase implemented earlier this year.
+Bookings acceleration in 2024 is expected to translate into y/y revenue growth acceleration
+in 2025.
+We are also updating our full year revenue outlook to $1,747 - $1,761 million, or 12-13%
+y/y, compared to $1,738 - $1,761 million, or 11-13% y/y growth, previously.
+We expect total revenue growth in Q3’24 of $440 - $445 million, or 12-13% y/y growth.

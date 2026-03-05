@@ -1,0 +1,66 @@
+**About BRAF Mutations**
+TESTING FOR BRAF MUTATIONS IN SOLID TUMORS CAN INFORM CRITICAL TREATMENT DECISIONS
+
+BRAF V600 has been identified as a driver mutation across various solid tumors
+
+BRAF mutations occur in about 8% of solid tumors, most commonly in melanoma and thyroid cancers
+
+Indication
+
+TAFINLAR, in combination with MEKINIST, is indicated for the treatment of adult and pediatric patients 1 year of age and older with unresectable or metastatic solid tumors with BRAF V600E mutation who have progressed following prior treatment and have no satisfactory alternative treatment options.
+
+This indication is approved under accelerated approval based on overall response rate and duration of response. Continued approval for this indication may be contingent upon verification and description of clinical benefit in confirmatory trials.  
+
+Limitation of Use: TAFINLAR, in combination with MEKINIST, is not indicated for the treatment of patients with colorectal cancer because of known intrinsic resistance to BRAF inhibition. TAFINLAR is not indicated for the treatment of patients with wild-type BRAF solid tumors.
+
+Important Safety Information
+
+New Primary Malignancies
+
+Cutaneous Malignancies
+
+In the pooled adult safety population of TAFINLAR administered with MEKINIST (“the combination”), the incidence of cutaneous squamous cell carcinoma (cuSCC, including keratoacanthomas) occurred in 2% of patients. Basal cell carcinoma and new primary melanoma occurred in 3% and <1% of patients, respectively.
+
+In the pooled pediatric safety population of the combination, new primary melanoma occurred in <1% of patients.
+
+Perform dermatologic evaluations prior to initiation of the combination, every 2 months while on therapy, and for up to 6 months following discontinuation.
+
+Noncutaneous Malignancies
+
+Based on its mechanism of action, TAFINLAR may promote the growth and development of malignancies with activation of monomeric G protein (RAS) through mutation or other mechanisms. In the pooled adult safety population of TAFINLAR monotherapy and the combination, noncutaneous malignancies occurred in 1% of patients.
+
+Monitor patients receiving the combination for signs or symptoms of noncutaneous malignancies. Permanently discontinue TAFINLAR for RAS-mutation–positive noncutaneous malignancies. No dose modification is required for MEKINIST in patients who develop noncutaneous malignancies.
+
+Tumor Promotion in BRAF Wild-type Tumors. In vitro experiments have demonstrated paradoxical activation of mitogen-activated protein kinase (MAPK) signaling and increased cell proliferation in BRAF wild-type cells that are exposed to BRAF inhibitors. Confirm evidence of BRAF V600E or V600K mutation status prior to initiation of therapy.
+
+Hemorrhage. Hemorrhage, including major hemorrhage defined as symptomatic bleeding in a critical area or organ, can occur with the combination. Fatal cases have been reported.
+
+In the pooled adult safety population of the combination, hemorrhagic events occurred in 17% of patients; gastrointestinal hemorrhage occurred in 3% of patients; intracranial hemorrhage occurred in 0.6% of patients; fatal hemorrhage occurred in 0.5% of patients. The fatal events were cerebral hemorrhage and brainstem hemorrhage.
+
+In the pooled pediatric safety population of the combination, hemorrhagic events occurred in 25% of patients; the most common type of bleeding was epistaxis (16%). Serious events of bleeding occurred in 3.6% of patients and included gastrointestinal hemorrhage (1.2%), cerebral hemorrhage (0.6%), uterine hemorrhage (0.6%), postprocedural hemorrhage (0.6%), and epistaxis (0.6%).
+
+Permanently discontinue TAFINLAR for all grade 4 hemorrhagic events and for any grade 3 hemorrhagic events that do not improve. Withhold TAFINLAR for grade 3 hemorrhagic events; if improved, resume at the next lower dose level. Permanently discontinue MEKINIST for all grade 4 hemorrhagic events and for any grade 3 hemorrhagic events that do not improve. Withhold MEKINIST for grade 3 hemorrhagic events; if improved, resume at the next lower dose level.
+
+Colitis and Gastrointestinal Perforation. Colitis and gastrointestinal perforation, including fatal outcomes, can occur. In the pooled adult safety population of MEKINIST administered with TAFINLAR, colitis occurred in <1% of patients and gastrointestinal perforation occurred in <1% of patients. In the pooled pediatric safety population of MEKINIST administered with TAFINLAR, colitis events occurred in <1% of patients. Monitor patients closely for colitis and gastrointestinal perforations.
+
+Venous Thromboembolic Events. In the pooled adult safety population of MEKINIST administered with TAFINLAR, deep vein thrombosis (DVT) and pulmonary embolism (PE) occurred in 2% of patients. In the pooled pediatric safety population of MEKINIST administered with TAFINLAR, embolism events occurred in <1% of patients.
+
+Advise patients to immediately seek medical care if they develop symptoms of DVT or PE, such as shortness of breath, chest pain, or arm or leg swelling. Permanently discontinue MEKINIST for life-threatening PE. Withhold MEKINIST for uncomplicated DVT and PE for up to 3 weeks; if improved, MEKINIST may be resumed at a lower dose.
+
+Cardiomyopathy. Cardiomyopathy, including cardiac failure, can occur. In the pooled adult safety population of the combination, cardiomyopathy, defined as a decrease in left ventricular ejection fraction (LVEF) ≥10% from baseline and below the institutional lower limit of normal (LLN), occurred in 6% of patients. Development of cardiomyopathy resulted in dose interruption or discontinuation of TAFINLAR in 3% and <1% of patients, respectively, and in 3% and <1% of patients receiving MEKINIST, respectively. Cardiomyopathy resolved in 45 of 50 patients who received the combination. In the pooled pediatric safety population of the combination, cardiomyopathy, defined as a decrease in LVEF ≥10% from baseline and below the institutional LLN, occurred in 9% of patients.
+
+Assess LVEF by echocardiogram or multigated acquisition (MUGA) scan before initiation of the combination, 1 month after initiation, and then at 2- to 3-month intervals while on treatment. Withhold TAFINLAR for symptomatic cardiomyopathy or asymptomatic left ventricular dysfunction of >20% from baseline that is below institutional LLN. Resume TAFINLAR at the same dose level upon recovery of cardiac function to at least the institutional LLN for LVEF and absolute decrease ≤10% compared to baseline. For an asymptomatic absolute decrease in LVEF of 10% or greater from baseline that is below the LLN, withhold MEKINIST for up to 4 weeks. If improved to normal LVEF value, resume at a lower dose. If no improvement to normal LVEF value within 4 weeks, permanently discontinue MEKINIST. For symptomatic cardiomyopathy or an absolute decrease in LVEF of >20% from baseline that is below LLN, permanently discontinue MEKINIST.
+
+Ocular Toxicities
+
+Retinal Vein Occlusion (RVO): There were no cases of RVO across clinical trials of the combination. RVO may lead to macular edema, decreased visual function, neovascularization, and glaucoma.
+
+Urgently (within 24 hours) perform ophthalmologic evaluation for patient-reported loss of vision or other visual disturbances. Permanently discontinue MEKINIST in patients with documented RVO.
+
+Retinal Pigment Epithelial Detachment (RPED): RPED can occur. Retinal detachments may be bilateral and multifocal, occurring in the central macular region of the retina or elsewhere in the retina. In clinical trials, routine monitoring of patients to detect asymptomatic RPED was not conducted; therefore, the true incidence of this finding is unknown. In the pooled pediatric safety population of MEKINIST administered with TAFINLAR, RPED events occurred in <1% of patients.
+
+Perform ophthalmologic evaluation periodically, and at any time a patient reports visual disturbances. Withhold MEKINIST if RPED is diagnosed. If resolution of the RPED is documented on repeat ophthalmologic evaluation within 3 weeks, resume MEKINIST at the same or a reduced dose. If no improvement after 3 weeks, resume at a reduced dose or permanently discontinue MEKINIST.
+
+Uveitis: In the pooled adult safety population of the combination, uveitis occurred in 2% of patients. In the pooled pediatric safety population of the combination, uveitis occurred in 1.2% of patients.
+
+Treatment employed in clinical trials included steroid and mydriatic ophthalmic drops. Monitor patients for visual signs and symptoms of uveitis (eg, change in vision, photophobia, and eye pain). If iritis is diagnosed, administer ocular therapy and continue TAFINLAR without dose modification. If severe uveitis (ie, iridocyclitis) or if mild or moderate uveitis does not respond to ocular therapy, withhold TAFINLAR and treat as clinically indicated. Resume TAFINLAR at the same or lower dose if uveitis improves to grade 0 or 1. Permanently discontinue TAFINLAR for persistent grade 2 or greater uveitis of >6 weeks.

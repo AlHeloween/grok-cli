@@ -1,0 +1,101 @@
+The legal system in the United States is not composed of a single set of laws and courts. Instead, an inter-connected web of laws, regulations, and courts stretches across the country at the state and federal levels. Courts interpret state and federal law to refine the rules through case law.
+ 
+
+ The federal and state court systems have a hierarchy that allows higher courts to review decisions made by lower courts. Also, both systems have civil and criminal courts.
+ 
+
+ FindLaw's Legal System section provides a closer look at the U.S. court system, including the federal court system and state court cases. This section also includes information about civil courts, including articles about class action lawsuits, tips on negotiating a settlement, the judge's role in court, and a helpful glossary with terms related to courts and the law.
+ 
+
+ The United States Judiciary: Federal and State Courts
+ The United States has two court systems: federal and state courts. Each court system hears criminal and civil cases. This section describes the differences and similarities between the federal and state court systems.
+ 
+
+ Federal Courts Explained
+ Article III of the U.S. Constitution allows Congress to create a federal court system. The federal judiciary has 13 courts of appeals, 94 U.S. district courts, a court of federal claims, and a court of international trade. The United States Supreme Court, the final arbiter of any case, is also a federal court.
+ 
+
+ If you file a case in the federal system, your case begins at the district court level with a federal judge. If you appeal your case, a federal circuit court will hear the appeal. If you appeal the circuit court's decision, you must petition the U.S. Supreme Court to hear your case.
+ 
+
+ The Supreme Court grants reviews (certiorari) of about 100 cases a year and is not obligated to hear your case. You can learn more about Supreme Court justices from FindLaw's Supreme Court Center.
+ 
+
+ Federal District Courts have jurisdiction (i.e., the ability to hear a case) over the following types of cases:
+ 
+
+ Cases where the U.S. government is a party to the lawsuit
+ Disputes that raise constitutional questions or involve federal law (i.e., federal question jurisdiction)
+ Controversies between the U.S. government and a state or foreign entity
+ Sometimes, a plaintiff (the person or entity filing a lawsuit) may file a civil case in federal or state court. Two ways this happens is through diversity jurisdiction and federal question jurisdiction. Whether the plaintiff has this option depends on the circumstances of their case.
+ 
+
+ A plaintiff who claims a person or entity violated their constitutional rights or broke a federal law may invoke federal question jurisdiction. If they can show that their case involved either a constitutional violation or that it arose under federal law, the federal district court may hear it.
+ 
+
+ For a federal district court to have diversity jurisdiction, the plaintiff must show that they and the defendant(s) in a case live in different states and the amount in controversy exceeds $75,000.
+ 
+
+ Read FindLaw's article on federal courts for more information.
+ 
+
+ State Courts Explained
+ The U.S. Constitution and state law establish each state's court system. Because of this, not every state has the same type of court system. Check your state's laws for more specific information about your state's courts.
+ 
+
+ Because each state's court system is different, no absolute structure applies to the states. But generally, a plaintiff files their civil case in a state court, sometimes known as a trial court or state district court. If they appeal the trial court's decision, most states have an appellate court system that hears the appeal. If a party appeals from the appellate court, most states have a supreme court to review the case (although, again, the name of the highest court in your state may differ).
+ 
+
+ If the highest court in your state issues a decision, you may generally petition the U.S. Supreme Court to consider your case. But, just like a federal circuit court appeal, the U.S. Supreme Court is not obligated to hear your case.
+ 
+
+ Generally, state courts have jurisdiction over criminal and civil cases that involve that state's laws. For example, a Wisconsin state court could hear a civil case that invokes Wisconsin state law. The Wisconsin state court generally could not hear a civil case where the cause of action arose in Florida and broke Florida's state laws, as the Wisconsin court generally would not have jurisdiction over the subject matter of the case nor personal jurisdiction over the parties to the case.
+ 
+
+ Read FindLaw's article on state courts for more in-depth information.
+ 
+
+ Civil vs. Criminal Cases
+ Deciding whether to file your case in a federal or state court is important. Another defining factor of your case is whether it is civil or criminal.
+ 
+
+ Generally, civil cases involve claims between private parties. For example, if you borrowed tools from your neighbor and refused to return them, the neighbor could file a civil case against you in state court. Or, if you believe the school board at a local public school infringed your First Amendment right to free speech, you could file a civil claim against them in federal court.
+ 
+
+ Criminal cases involve alleged offenses against society. Instead of a dispute between private parties, criminal cases involve the government bringing criminal charges against someone and prosecuting them.
+ 
+
+ The following section describes the differences between civil and criminal cases.
+ 
+
+ Civil Cases
+ When a person, organization, or entity (such as a corporation) claims that another person, organization, or entity breached a legal duty owed to the plaintiff, they have a potential civil case. Common claims in civil lawsuits include the following:
+ 
+
+ Intentional torts (e.g., infliction of emotional distress or assault)
+ Negligence
+ Nuisance
+ Personal injury
+ Breach of contract
+ Property damage
+ Child custody, child support, and other family law disputes
+ Whether to file a civil lawsuit in federal or state court depends on the circumstances of your case. But, most plaintiffs file their civil lawsuits in state courts. Filing a civil case in federal court is only appropriate in certain circumstances.
+ 
+
+ In civil litigation, the plaintiff has the burden of proof at trial. They must prove their case by a preponderance of the evidence. This standard means that the plaintiff must prove to the trier of fact (judge or jury) that it is more likely than not that the defendant is liable for the plaintiff's claimed relief or damages.
+ 
+
+ Browse FindLaw's article on the basics of civil court for more information.
+ 
+
+ Criminal Cases
+ Unlike civil cases, where the injured party files a lawsuit, criminal cases involve the government bringing charges against the accused person.
+ 
+
+ Most crimes in the United States involve violations of state laws rather than federal laws. So, state courts hear most criminal cases. In a state criminal case, district attorneys prosecute the defendant.
+ 
+
+ But, suppose the government charges the defendant with a federal crime. In that case, a United States Attorney will prosecute the case in federal court. The prosecution has the burden of proof in a criminal case. They must prove the defendant's guilt beyond a reasonable doubt.
+ 
+
+ Not every criminal case involves actual crime victims. For example, the government can prosecute someone for driving under the influence even if they did not injure anyone or cause property damage.

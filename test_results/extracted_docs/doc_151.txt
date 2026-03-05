@@ -1,0 +1,44 @@
+Detections of contaminants in public water supplies in numerous states have raised questions
+about drinking water quality and have increased congressional interest in the Environmental
+Protection Agency’s (EPA’s) efforts to regulate contaminants under the Safe Drinking Water Act
+(SDWA). Congress is particularly interested in the EPA’s process for evaluating new
+contaminants for potential regulation. Detections of already-regulated contaminants, such as lead,
+have also raised concerns about the effectiveness of certain existing regulations.
+SDWA is the key federal law that authorizes EPA to promulgate regulations to control contaminants in public water supplies.
+Since its enactment in 1974, EPA has issued drinking water regulations for 100 contaminants. Congress has twice revised the
+act’s process for evaluating contaminants and developing drinking water regulations (in 1986 and 1996). In 1986, Congress
+directed EPA to develop regulations for 83 contaminants within 3 years, and adopt regulations, every 3 years, for at least 25
+new contaminants. In 1996, when this regulatory schedule proved unworkable, Congress amended SDWA to establish a riskbased process that prioritizes contaminants for regulation based on health effects and occurrence.
+Under SDWA, EPA follows a multistep process to evaluate and prioritize contaminants for regulation. This process includes
+identifying contaminants of potential concern, assessing health risks, collecting national occurrence data (and developing
+reliable and field-tested analytical methods necessary to do so), and making determinations as to whether a contaminant
+warrants regulation. Since 1996, EPA has considered over 7,500 contaminants for potential regulation, revised existing
+regulations, and established new regulations and standards for several contaminants.
+When EPA determines that a contaminant warrants regulation, SDWA directs EPA to propose a “national primary drinking
+water regulation” and request public comment within 24 months. Within 18 months of the proposal, EPA is required to
+promulgate a final rule. EPA is required to establish a nonenforceable maximum contaminant level goal (MCLG) at a level at
+which no known or anticipated adverse health effects occur and allowing for an adequate margin of safety. Drinking water
+regulations generally specify a maximum contaminant level (MCL)—an enforceable limit for a contaminant in public water
+supplies. SDWA requires EPA to set the MCL as close to the MCLG as “feasible,” taking treatment efficacy and costs into
+consideration. Concurrent with proposing a regulation, SDWA requires EPA to publish a “health risk reduction and cost
+analysis” for each contaminant covered by the proposed regulation and make a determination whether or not the benefits of
+regulation outweigh the compliance costs.
+EPA’s regulations generally take effect three years after promulgation, though the agency may allow up to two additional
+years, under certain conditions. For each drinking water regulation, SDWA requires EPA to identify a list of best available
+technologies, treatment techniques, and other means that EPA finds feasible for meeting the MCL. In addition, EPA is
+required to identify treatment technologies that achieve the MCL and are affordable for small systems. Each regulation also
+establishes associated monitoring and reporting requirements. SDWA requires EPA to review—and, if necessary, revise—
+each existing national primary drinking water regulation every six years. SDWA also requires that any revisions to drinking
+water regulations maintain or provide greater health protection.
+Under the current SDWA statutory framework, evaluating and developing regulations for contaminants requires data,
+including data from peer-reviewed scientific studies on potential health effects and nationally representative occurrence data.
+For some contaminants, the availability or development of (1) data, (2) analytical methods to detect contaminants in drinking
+water, and (3) treatment technologies pose technical and resource challenges.
+Congressional attention has centered on EPA’s implementation of SDWA regulatory development provisions. Some
+stakeholders also have raised concerns about regulatory costs for communities. In recent Congresses, some Members have
+raised concerns that the act’s process is lengthy and complicated and does not allow for the timely regulation of contaminants
+of concern in drinking water. Others have expressed concern that proposals to expedite regulation by removing elements of
+SDWA regulatory development provisions (e.g., the requirement to use peer-reviewed science or a health-risk-based
+approach) may result in increased costs to communities without commensurate public health protection. This debate was
+heightened prior to EPA’s determination to regulate per- and polyfluoroalkyl substances (PFAS) in 2021, yet stakeholders
+raised similar concerns after EPA’s 2024 finalization of a regulation for six PFAS.

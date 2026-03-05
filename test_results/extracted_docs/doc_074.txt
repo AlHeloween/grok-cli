@@ -1,0 +1,121 @@
+Context:
+[INFORMATION COLLECTED AND SOURCES OF INFORMATION
+As you interact with GM or our products, programs, and services, there may be opportunities for you to
+provide us with your information. Additionally, we may collect certain information about you or your
+vehicle as further described below.
+You may provide us with information about you or your vehicle through a number of sources: GM
+websites, applications, services, product and related events, surveys, social media platforms, sweepstakes
+entries and through our customer call centers. We may also collect information that is publicly available.
+For example, we may collect publicly available information you submit to a blog, a chat room, or a social
+media platform, and we may use your information for the purposes set out in this Privacy Statement. GM
+engages with consumers on multiple social media platforms and if you contact us on one of our social
+media pages, request assistance via social media or otherwise direct us to communicate with you via
+social media, we may contact you via direct message or use other social media tools to interact with you.
+In these instances, your interactions with us are governed by this Privacy Statement as well as the privacy
+policy of the social media platform you use.
+We also receive information about you through vehicle sales records provided by your dealer and we may
+obtain, with your consent, data obtained from your vehicle’s Event Data Recorder (“EDR”). For
+additional information about EDR data, please see your owner’s manual. We also may obtain information
+about you and your vehicle from GM affiliates, dealers, GM licensees for consumer merchandise, GM
+partners (for example, credit card bank partners) and other sources such as companies that provide lists of
+potential vehicle purchasers and current owners, if such companies are permitted to share your
+information with us pursuant to their privacy statements. We may combine information that we receive
+from the various sources described in this Privacy Statement, including third-party sources, with
+information you provide and use or share it for the purposes identified below.
+The types of information that GM collects about you, your vehicle, or your connected devices (such as
+your mobile phone, computer, or tablet) may include, but are not limited to:
+3
+ identifiers (such as name, postal address, email address, screen name, account ID, customer
+number, and telephone number; in limited circumstances, GM may collect a Social Security
+Number, for example if you win a sweepstakes or receive compensation that must be reported for
+government tax purposes)
+ payment information (such as your credit card number, CVV code and expiration date)
+ information about your vehicle (such as license plate number, vehicle identification number
+(VIN), geolocation data, make, model, model year, selling dealer, servicing dealer, date of
+purchase or lease, the lease/financing term, service history, mileage, oil/battery status, fuel
+history, battery charging and discharging history, electrical system function, gear status, and
+diagnostic trouble codes)
+ information about your connected devices and how you interact with our products, services, apps
+and websites (such as IP address, browser type, unique device identifier, cookie data, and
+associated identifying and usage information)
+ demographic or protected classification information (such as gender, date of birth, marital status,
+household composition, or veteran or military status)
+ commercial information (such as when you plan to purchase or lease the vehicle in which you're
+interested)
+ audio or video information (such as information collected by sensors or cameras in the vehicle,
+recordings of when you speak with our customer call centers, or photographs and videos such as
+those that you may submit for contests, sweepstakes, and social sharing)
+ physiological or biological characteristics, such as medical information collected to provide
+OnStar emergency services that you have requested
+ biometric information (such as voiceprints, as described in the Biometric Technology Section
+below)
+ information about your home energy usage (such as your charging and discharging of electric
+vehicles and stationary storage, charging preferences, use of home energy products and services,
+and rate plans)
+ relationships you have with GM in addition to the purchase and servicing of your vehicle (such as
+through a My GM Rewards account, a GM Rewards Card or OnStar, etc.)
+ relationships you have with third parties in connection with your use of GM products and services
+(such as GM dealers, energy providers, companies offering or operating in-vehicle applications,
+and other companies we help you connect with)
+ information related to My GM Rewards and the My GM Rewards Card Program (“GM Card”),
+including rewards points, account type, tier status, enrollment, redemption
+ investor and stockholder services information (such as name, address, phone number, email
+address, and account information)
+USE
+The information GM collects about you, your vehicle, or your connected devices may be used:
+ to provide products and services, programs, and maintain customer relationshipsw
+ to improve the quality, safety, and security of our products and services
+4
+ to administer your account(s) and process your payments for products and services
+ to operate our websites and applications, including online registration processes
+ to facilitate and support GM dealer and supplier diversity programs and GM grant programs
+ to autofill data fields on our websites to improve your online experience
+ to develop new products and services, including connected, autonomous and car-sharing products
+and services
+ to provide customer and vehicle support and service (such as recall information)
+ for warranty administration and validation
+ to provide information and product updates
+ to evaluate vehicle performance and safety
+ for research, evaluation of use, and troubleshooting purposes
+ to verify eligibility for vehicle purchase or incentive programs
+ to verify eligibility for GM card and to provide GM card account management services
+ for marketing and analytics purposes
+ to support the electronic signature and delivery process between you and your dealer
+ to customize and improve communication content
+ to evaluate or conduct a merger, divestiture, acquisition, restructuring, reorganization, dissolution,
+or other sale or transfer of some or all of our assets
+ to comply with legal, regulatory or contractual requirements
+ to protect our rights, or to detect, investigate and prevent fraud or other illegal activity
+Communications with you in connection with these uses may be via mail, telephone, e-mail, text
+message, social media, and other electronic messages, through the in-vehicle infotainment or OnStar
+system or via our websites and applications. Texting with GM is subject to the GM Consolidated Texting
+Policy (“Texting Policy,” available at gm.com/texting-policy). See “Choices” below to learn how to
+manage your communication preferences.
+You may choose to forward information from one of our websites or emails to another person through our
+Forward to a Friend or similar program. Email addresses submitted to our E-card or other Forward to a
+Friend programs are not used by us for other marketing purposes unless the recipient interacts with us
+separately.
+When we maintain and use information that has been deidentified, we take reasonable steps to ensure that
+such information is maintained and used only in deidentified form, and will not attempt to reidentify such
+information unless required or permitted by applicable law.
+SHARING
+GM may share the information it collects about you, your vehicle, or your connected devices (including
+the categories of information listed above) in the following instances and with the following categories of
+third parties:
+ within GM, with our GM controlled subsidiaries and affiliates, with GM dealers, with service
+providers we or our dealers use to deliver products and services to you, and with GM licensees.
+However, transaction information regarding your GM Card will not be shared with GM dealers
+5
+ with our services providers who work on our behalf and who do not have an independent right to
+use the information to which they have access or that we disclose to them
+ with companies we enter into business or marketing arrangements with, such as arrangements
+supporting services we offer to you and our GM card program
+ with third parties for research and development purposes (such as university research institutes
+for improving highway safety)
+ in connection with the sale, transfer or financing of a significant part of a GM business or its
+assets, including any such activities associated with a bankruptcy proceeding
+ when we believe in good faith that disclosure is necessary to protect our rights, protect your
+safety or the safety of others, detect, investigate and prevent fraud or other illegal activity, or
+respond to a law enforcement request
+ as required or permitted by law, such as in conjunction with a subpoena, government inquiry,
+litigation, dispute resolution or similar legal process]

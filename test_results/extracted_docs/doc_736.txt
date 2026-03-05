@@ -1,0 +1,55 @@
+Bitdefender consistently impresses with its ability to identify threats and stop them in their tracks. Malware files are pinpointed even before they begin downloading, web trackers are likewise rooted out and blocked, and if you try to access a site with known threats you'll receive a warning that's hard to miss (or ignore.)
+ 
+
+ AV-Comparatives, a third-party test lab, reported positive results when it put Bitdefender to the test. The solution blocked 99.4% of threats (coming in second only to the likes of Norton and McAfee) and didn't have a huge impact on the speed of computer processes. When I put Bitdefender under the microscope myself, I saw it block real-world ransomware before it could wreak havoc. However, I did notice that the Ransomware Remediation feature isn't enabled by default—so you'll need to dive into the settings to ensure that your files remain secure.
+ 
+
+ Earlier this year, Bitdefender released a decryptor for the MortalKombat ransomware—free of charge, providing the company's commitment to countering cyberattacks. Victims across the US were targeted at random by ransomware, which spread through bogus emails containing a .ZIP attachment and a BAT loader script. To tackle this threat, the decryptor backs up affected files before attempting decryption, just in case, and can be executed via the command line.
+ 
+
+ Bitdefender gets straight to work with a full scan when you start using it, and combs through your system in its entirety to look for threats and intruders. This is par for the course, although Bitdefender took almost a full hour to complete a scan of 50 Gb executable files. It's possible to configure scans, customize them, and set them to run on a schedule or on-demand, and Quick Scans can even be run once a day, or weekly, and dig into individual files.
+ 
+
+ I found Bitdefender incredibly easy to use—so even if you're new to the world of antivirus, you'll have no trouble navigating sleek and well-designed apps. You can even customize the dashboard by adding or removing default features. So, if you don't make use of the VPN, you can substitute it in a few clicks for the password manager or scan manager. Most of the features you'll need are already enabled by default, too, which means you won't have to spend ages configuring each and every setting. However, if you do need help with particular tools, you can count on Bitdefender's in-program tutorials to help you make the most of these privacy-enhancing functionalities.
+ 
+
+ Bitdefender's Total Security plan is available from $39.99 for a single year—although the price does jump to $95 after this introductory period. However, you can take advantage of a 30-day money-back guarantee to put the solution through its paces, run your own tests, and see whether its suite of tools is worth the investment.
+ 
+
+ Norton is tough on threats and has earned excellent scores in several third-party protection tests, including our own. I was also impressed with Norton’s scan speed—it took 29 minutes for the solution to complete its initial scan of 50 Gb of files. It’s not the quickest antivirus I've seen, but still beats the likes of Bitdefender and Avast.
+ 
+
+ Norton shines when it comes to identifying threats, however. My tests, and those conducted by AV-Compatatives, found that it blocked all attacks before the malware could be downloaded.
+ 
+
+ Norton is also incredibly good at blocking dangerous URLs and preventing you from landing on a page that's determined to ruin your day. You'll see a warning message with additional information about the malware and a heads-up about other sites that contain the same threat. The Safe Web browser extension gives you even more peace of mind by adding site ratings to search results, helping you steer clear of dodgy domains.
+ 
+
+ Norton wants to help you get better at identifying and avoiding threats, too, as evidenced by the development of an AI-powered chatbot. Dubbed "Norton Genie", the bot can let you know whether that suspicious email you received is legitimate or a phishing attempt—and all you have to do is send it a screenshot or copy and paste some of the text.
+ 
+
+ The Norton Secure VPN isn't my favorite VPN on the market, but does a solid job of keeping your IP address hidden, your browsing private, and can even unblock a decent amount of streaming services. Combining the VPN with the intelligent firewall really maximizes your digital security, and you'll be alerted right away if an untrustworthy program attempts to connect to the internet. You can allow or block the connection, and Norton gives you plenty of detail (like the age of the program and the URL it's attempting to reach) to help you make a security-conscious decision.
+ 
+
+ Avast One is the newest offering from Avast, and comes packed with all of the malware protection, advanced features, and ease of use you'd expect from an industry veteran. You'll also be able to use the solution on any Windows, Mac, Android, or iOS device.
+ 
+
+ Avast One's scan speeds were pretty average, taking 32 minutes to complete a scan of 50 Gb of executable files. These scans are hugely customizable, too, and give you granular control over where you want the solution to focus. Smart Scans take a few seconds to check for malware and dodgy browser add-ons, Targeted Scans look at specified folders and files, and Full Scans comb through your entire system.
+ 
+
+ Very few providers can keep up with Avast One when it comes to identifying and removing malware. None of my tests were able to crack its protection, and the latest report from AV-Comparitives revealed that it scored an outstanding 99.97% detection rate. So, you can rest assured that no threats will make it through to your device unseen.
+ 
+
+ Avast One shores up its security with a firewall that keeps tabs on your network traffic to thwart hackers, and can block your access to malicious websites to prevent infections. I also like that its Ransomware Shield was able to find folders containing user documents and automatically add them to its protect list.
+ 
+
+ The solution rounds out its antivirus package with useful extras—and the sheer amount of these features is what makes Avast One worth checking out. All of its paid subscriptions come with the HideMyAss!-powered SecureLine VPN, but if you're on the Essential plan, you'll have to deal with a limit of 5 Gb per week and a single server location. Despite these setbacks, this is still more than you need to catch up on your favorite Netflix shows.
+ 
+
+ Opt for a more expensive subscription and the VPN breaks free of these shackles. You'll have more than 50 server locations to choose from, and you'll also be alerted if you try to access a banking site, sensitive domain, or even a store without switching the VPN on first. This is a lifesaver if you want to go about your business without leaving an identifiable trail.
+ 
+
+ Avast One's features just keep coming. Subscribers get a password manager that'll check for compromised details, parental controls, webcam monitoring, and anti-phishing tools that ensure all aspects of your online life are secure.
+ 
+
+ If you're ready to take the plunge, there are three paid subscriptions to choose from. The Individual plan gets you access to all of the aforementioned tools and licenses for five devices, whereas the Family and Premium plans bump this number up to thirty (the latter also comes with an identity monitory that'll let you know if your data ends up on the dark web). Thanks to the Essential plan, however, you can try a limited version of the product without paying a penny.

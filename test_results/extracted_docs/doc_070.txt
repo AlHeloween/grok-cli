@@ -1,0 +1,61 @@
+**What's publicly known about "Switch 2"**
+
+Nintendo, notoriously secretive, has so far said nothing — or almost nothing — on the record about its next game console. As Nintendo Switch approaches its seventh birthday in March 2024, questions about how much longer it will last are natural: Seven years is a typical lifespan for a console generation, Switch sales are falling fast, and the technology powering the console is showing its age. But Nintendo has flatly refused to engage with those questions.
+
+Behind the scenes, however, Nintendo is gearing up for the release of its new machine, briefing its partners, and releasing development kits. Information has started to leak, and a picture of what form the console will take has begun to emerge, as well as when we can expect to hear about it and when we can expect to buy one.
+
+It’s no surprise that Nintendo is treading carefully. The Switch has been an enormous success — it’s the third-best-selling console of all time, behind only PlayStation 2 and Nintendo’s own DS handheld — which presents both a big opportunity and a big risk. Historically, Nintendo has struggled to follow its most popular formats: Wii and DS were followed by the flop of Wii U and the relative disappointment (in sales terms) of 3DS. Nintendo’s usual insistence on hardware innovation has proven as likely to alienate its audience as to find a new one. Will Nintendo break with its own tradition and follow the Switch with a more powerful take on the same formula, or will it try something different?
+
+Nintendo is targeting a March 2025 release for the successor to Switch, according to a Nikkei report (as spotted and translated by VGC) on Feb. 26. Nikkei corroborates earlier reporting by the specialist press that the console’s release had slipped out of its original late 2024 window.
+
+Nikkei has a few new details to add. First is that firm March window, as opposed to “early 2025” — indicating that Nintendo, as expected, still hopes to release Switch 2 in its next financial year. Secondly, Nintendo’s reason for the delay is not just ensuring a strong software lineup, but trying to build up enough inventory of the console itself to avoid the shortages and widespread reselling by scalpers that blighted the PlayStation 5’s launch.
+
+Thirdly and most ominously, Nikkei says that Switch 2’s release could slip beyond March if the software isn’t ready and if Nintendo hasn’t manufactured enough units.
+
+Elsewhere, Nikkei corroborates earlier reports that Switch 2 will be a hybrid portable device like Switch, and that it will feature a larger screen than the current model.
+
+Regarding its name, the answer is that we don’t know. It’s worth noting that Nintendo has never before named its consoles in numerical sequence, even when they were direct follow-ups to a previous generation, such as the Super Nintendo Entertainment System, Game Boy Advance, and Nintendo 3DS. Super Nintendo Switch (or Super Switch!) has a certain ring to it, if you ask us. But for now, “Switch 2” is a serviceable shorthand, and what we’ll use in this article.
+
+The answer here appears to be yes. Recent reporting by VGC, citing multiple sources after dev kits arrived at partner studios, said that the console “would be able to be used in portable mode, similar to the Nintendo Switch.” This was later corroborated by Nikkei.
+
+There’s no word yet on whether the console will feature detachable Joy-Con controllers like the Switch, or whether it will have a handheld-only variant like the Switch Lite. But early signs are that Nintendo is keen to follow closely in the footsteps of the 130-million-plus-selling Switch.
+
+It might be a bit bigger, though. A 2024 report from a Japanese analyst suggests the console will have an 8-inch screen, compared to the original Switch’s 6.2 inches and the Switch OLED model’s 7 inches.
+
+Nintendo hasn’t officially indicated when the Switch 2 will be released, but we have a few clues.
+
+Originally, multiple sources reported that the console was planned to debut in the second half of 2024. However, it now appears that Nintendo is targeting a March 2025 release date.
+
+Brazilian games journalist Pedro Henrique Lutti Lippe originally broke the news of the slip to 2025, saying that multiple sources said they were working on games that are set to launch alongside the Switch 2. Both Eurogamer and VGC heard similar claims from their sources. Nikkei then reported Nintendo was targeting March 2025 in an effort to avoid hardware shortages and ensure a strong lineup of games — but noted a slip beyond March was still possible.
+
+While this is later than we previously expected, it fits in with an October 2023 interview with Nintendo president Shuntaro Furukawa, who reiterated that the company would remain focused on Switch until the end of Nintendo’s current fiscal year in March 2024, and added that it would continue to support Switch with new titles in the following fiscal year. The shift from “focus” to “support” for the Switch implies that a new console will launch in Nintendo’s next fiscal year — so, between April 2024 and March 2025.
+
+This also lines up with what we know about declining Switch sales, the stage Nintendo is at in the development of the console, and the release schedule for Switch games. Nintendo previously ruled out releasing a new console before the end of March 2024, and it now has Switch games scheduled through summer 2024; the latest release on the current schedule is Luigi’s Mansion 2 HD, which has been given a summer 2024 slot. (It’s also worth noting that the recently announced remake of Paper Mario: The Thousand-Year Door doesn’t have a more precise release date than “2024.”)
+
+This does mean the Switch 2 will miss the 2024 holiday season, but it’ll give the company more time to stockpile some first-party titles, according to VGC sources.
+
+This is the big question, with many users hoping — or outright expecting — to carry forward their game libraries to Nintendo’s next console, as has become the norm with the latest generations of Xbox and PlayStation consoles. The answer remains unknown, and it’s not easy to predict, either.
+
+VGC’s report said that the backward compatibility of the machine “remains unclear.” Some third-party publishers were said to be worried about the potential impact on sales of next-gen titles if the machine is backward-compatible. For its part, Nintendo has (in a rare on-the-record comment) said it hopes to bring Switch users over to the new platform with their Nintendo accounts; if the Nintendo account system persists, that would in theory make it easy for users to access previous purchases. But that’s not the same thing as the console being technically capable of it.
+
+Nintendo has a decent, if not flawless, record for supporting backward compatibility. Wii played GameCube games, and Wii U played Wii games; Game Boy Advance was backward-compatible with Game Boy, and 3DS with DS. But the Switch, with its new game cartridge format, enforced a clean break with the past, and Nintendo has made a mint from rereleasing Wii U games on the machine, particularly the 55-million-selling Mario Kart 8 Deluxe.
+
+On balance, as long as the machine uses the same format for physical releases (see below), Nintendo’s record suggests that it will make the Switch 2 backward-compatible. However, there remain technical hurdles to implementing backward compatibility, and much will depend on the chip architecture Nintendo has chosen for the Switch 2, which is not currently known.
+
+Of all the console manufacturers, Nintendo’s ties to the retail industry are perhaps the strongest — stronger even than Sony’s — so Nintendo is extremely unlikely to go digital-only for the Switch 2, even if this would seem to make sense for a portable machine.
+
+Indeed, VGC’s report included the detail that the new console will have a cartridge slot for physical releases. This is as close to a dead cert as we can get with the Switch 2 — and it also happens to support the machine having the same or similar form factor as the Switch, as well as increasing the likelihood of backward compatibility.
+
+Thanks to Microsoft’s legal battles over its acquisition of Activision Blizzard, and reports of demos given by Nintendo to partners at Gamescom, we are beginning to get a sense of how capable the Switch 2’s hardware will be.
+
+Internal emails released as part of the FTC v. Microsoft case revealed that Activision executives met with Nintendo in December 2022 to discuss the console, and came away with the impression that performance would be close to “Gen8 platforms” — in other words, PlayStation 4 and Xbox One. (Activision Blizzard CEO Bobby Kotick later said that he had not seen tech specs for the machine, however.)
+
+If anything, the “Gen8” comparison sounds as though it might undersell the Switch 2’s capabilities. According to Eurogamer’s and VGC’s reporting on the behind-closed-doors Gamescom demos, Nintendo showed hardware targeting the specs of the console running The Matrix Awakens’ Unreal Engine 5 tech demo with ray tracing enabled and “visuals comparable to Sony’s and Microsoft’s current-gen consoles.”
+
+This doesn’t mean that the Switch 2 will be as powerful as PlayStation 5 and Xbox Series X. Instead, Nintendo is likely using clever techniques to reduce the demand on a less powerful graphics processor. VGC reported that the demo ran using Nvidia’s advanced DLSS upscaling technology, which uses AI to upscale the resolution of the image.
+
+Still, the mention of Unreal Engine 5 — which is establishing itself as the industry standard engine, targeting current console hardware — along with DLSS and ray tracing suggests that Nintendo is keen to get closer to PS5 and Xbox Series X in terms of performance, and perhaps make it more feasible for developers to port their home console releases on the Switch 2. Reporting by Reuters and Digital Foundry suggests the console will use a custom Nvidia chip that will be capable of both ray-tracing and DLSS.
+
+Also at Gamescom, a special, improved version of The Legend of Zelda: Breath of the Wild was shown, running at higher resolution and frame rate than it does on Switch.
+
+The Switch 2 will feature one tech downgrade, however: Reportedly, the console will feature an LCD screen, unlike the OLED screen seen in the current top-of-the-range Switch model, as a cost-cutting measure.

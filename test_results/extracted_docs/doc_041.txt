@@ -1,0 +1,58 @@
+Demand-Pull Inflation
+Inflation that is caused by an increase in aggregate demand (overall spending) absent a
+proportional increase in aggregate supply (overall production) is known as demand-pull inflation.
+When aggregate demand increases by more than its trend rate, typically the productive capacity
+of the economy does not immediately adjust to meet higher demand, particularly if the economy
+is at or near full employment.16 In response to the increased demand in the economy, producers
+will attempt to increase the quantity of goods and services they provide. To increase production,
+producers may attempt to hire more workers by increasing wages. Assuming producers are not
+willing to eat into profits in order to ramp up production,17 they are likely to increase the prices of
+their final goods and services to compensate themselves for the increase in wages (which
+increases production costs), thereby creating inflation.18 Inflation can work to lower demand and
+increase supply and thus can be the means to bring supply and demand back into equilibrium,
+particularly in an overheating economy in which demand has risen above what the economy can
+produce at full employment.19
+Any number of factors could contribute to increases in aggregate demand, including the normal
+ebbs and flows of the business cycle, consumer and investor sentiment, the value of the dollar,
+and fiscal and monetary policy, among others. Expansionary fiscal policies include an increase in
+the budget deficit by lowering taxes or increasing government spending or transfers to
+individuals. Such policies work to increase overall spending in the economy by driving up
+consumer demand, in the case of lower taxes, or both consumer demand and government
+purchases in the case of increased spending. This in turn can lead to increased production and
+decreasing unemployment levels. The downside to achieving these benefits through expansionary
+fiscal policy is that it can result in demand-pull inflation in the short term, particularly if the
+economy is at full employment. Expansionary fiscal policy is unlikely to cause sustained
+inflation, as it typically involves temporary increases in spending. Such one-time increases may
+produce similar one-time increases in inflation but would be likely to cause persistent increases in
+inflation only if such policy were persistently applied. Additionally, monetary policy can
+potentially be used to offset the inflationary effects of such policy.
+Cost-Push Inflation
+Inflation that is caused by a decrease in aggregate supply as a result of increases in the cost of
+production absent a proportional decrease in aggregate demand is known as cost-push inflation.
+An increase in the cost of raw materials or any of the factors of production—land, labor, capital,
+entrepreneurship—will result in increased production costs.23 Assuming producers’ productivity
+is at or near its maximum, producers will not be able to maintain existing profit margins in
+response. Much the same as the demand-side issue, if producers cannot or will not accept lowered
+profits, they will raise prices.24
+The classic example of cost-push inflation is the result of a commodity price shock, which
+sharply decreases the supply of a given commodity and increases its price. Certain commodities
+are inputs in the production process, and as the price of an important input good increases, so
+does the price of the final goods and services, resulting in inflation. Cost-push inflation,
+especially when caused by a supply shock, tends to result in only a temporary increase in inflation
+unless accommodated by monetary policy. Supply disruptions are often alleviated naturally, and
+for inflation to be persistently high, supply shock after supply shock would need to occur.25
+One of the reasons a commodity shock in particular is a widely cited example of something that
+causes cost-push inflation is that demand for many commodities is considered to be inelastic. The
+elasticity of demand refers to how consumers’ appetite for a good changes given the price it is
+offered at.26 A completely inelastic good is one that consumers would purchase at the same rate
+regardless of the price. For example, demand for oil and its derivative petroleum products—such
+as gasoline, diesel fuel, and petrochemicals—is generally fairly inelastic, because they are
+necessary purchases for consumers and businesses, with few substitutes readily available.
+Another commonly cited example of cost-push inflation is caused by increases in the cost of
+labor, often referred to as wage-push inflation. An increase in the federal minimum wage, for
+example, could theoretically cause inflation. When producers need to pay their workers more,
+they may opt to pass that cost along to the consumer, reduce profits to pay the increased cost, or
+decrease the amount of workers they employ to keep costs down. The extent to which an increase
+in wages affects the price level depends largely on how many workers are affected by the wage
+increase and the size of the increase. In the case of the minimum wage, very few workers or very
+many workers could be affected, depending on the level of increase. 

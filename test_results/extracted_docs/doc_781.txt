@@ -1,0 +1,84 @@
+Examples of ISPs Becoming Edge Providers
+AT&T. AT&T owns part of the internet backbone and is considered a Tier 1 ISP, meaning it has
+free access to the entire U.S. internet region.10 It is also a mobile carrier and provides voice
+services and video programming.11 In 2018, AT&T acquired Time Warner, a content creator that
+owns HBO and its affiliated edge provider HBO NOW, as well as other cable channels.12 The
+DOJ unsuccessfully attempted to block the merger.13 AT&T has announced plans to introduce a
+new edge provider—HBO Max—to stream video programming for no extra charge to AT&T
+customers who are also HBO subscribers; other customers will reportedly be charged a
+subscription fee.14
+10 DrPeering.net. “Who Are the Tier 1 ISPs?” accessed on December 4, 2019, https://drpeering.net/FAQ/Who-are-the-
+Tier-1-ISPs.php. Edge providers associated with Tier 1 ISPs may have additional competitive advantages through the
+ISPs’ ability to send content to any part of the internet for free. Edge providers associated with other ISPs may have to
+pay or barter with Tier 1 or other ISPs to access certain destinations. Details on how Tier 1 ISPs compete with other
+ISPs are beyond the scope of this report.
+11 See https://www.att.com/gen/general?pid=7462 for more information on the digital and communications
+infrastructure owned by AT&T. AT&T has stated that it considers its television subscription service to be a “video
+service” under the Communications Act of 1934, as amended, rather than a cable service. See AT&T Inc., SEC Form
+10-K for the year ending December 31, 2014, p. 3.
+12 Edmund Lee and Cecilia King, “U.S. Loses Appeal Seeking to Block AT&T-Time Warner Merger,” New York
+Times, February 26, 2019, https://www.nytimes.com/2019/02/26/business/media/att-time-warner-appeal.html.
+13 Ibid; see CRS In Focus IF10526, AT&T-Time Warner Merger Overview, by Dana A. Scherer, for more information
+on the merger and the court case.
+14 Helen Coster and Kenneth Li, “Behind AT&T’s Plan to Take on Netflix, Apple, and Disney with HBO Max,”
+Competition on the Edge of the Internet
+Congressional Research Service 5
+Comcast. Comcast is an ISP, a cable television service, and a voice service provider. In 2011,
+Comcast became the majority owner of NBCUniversal, which owns television networks and
+broadcast stations, and thus obtained minority ownership of Hulu, an edge provider that streams
+video programming to subscribers.15 In 2019, Walt Disney Company obtained “full operational
+control” of Hulu, but Comcast retained its 33% financial stake.16 Comcast also announced plans
+to launch its own video streaming service, Peacock. Comcast reportedly plans to offer three
+subscription options for Peacock: a free option supported by ads, a premium version with more
+programming for a fee, and the premium version with no ads for a higher fee.17 The premium
+version is to be offered for free to subscribers of Comcast and Cox Communications.
+Verizon. Verizon owns part of the internet backbone and is considered a Tier 1 ISP.18 It is also a
+mobile carrier, and offers video, voice, and ISP services. In 2015, Verizon acquired AOL, an ISP
+and edge provider, and in 2016, it acquired the core business of Yahoo, an edge provider.19 It
+combined the edge provider products from these acquisitions—such as Yahoo Finance,
+Huffington Post, TechCrunch, and Engadget—in 2017 to create Oath.20
+Examples of Edge Providers Becoming ISPs
+Google. Google is the largest subsidiary of the company Alphabet.21 It offers multiple products,
+including a search engine, email server, word processing, video streaming, and
+mapping/navigation system.22 Google generally relies on other ISPs to deliver its content, but
+entered the ISP market in 2010 when it announced Google Fiber. Google Fiber provides
+broadband internet service and video programming.23 Beginning in 2016, it suspended or ended
+some of its projects; as of October 2019, it had installed fiber optic cables in 18 cities.24
+Reuters, October 25, 2019, https://www.reuters.com/article/us-media-at-t-hbo-max-focus/behind-atts-plan-to-take-on-
+netflix-apple-and-disney-with-hbo-max-idUSKBN1X4163.
+15 Yinka Adegoke and Dan Levine, “Comcast Completes NBC Universal Merger,” Reuters, January 29, 2011,
+https://www.reuters.com/article/us-comcast-nbc/comcast-completes-nbc-universal-merger-
+idUSTRE70S2WZ20110129.
+16 Lauren Feiner, Christine Wang, and Alex Sherman, “Disney to Take Full Control over Hulu, Comcast Has Option to
+Sell Its Stake in 5 years,” CNBC, May 14, 2019, https://www.cnbc.com/2019/05/14/comcast-has-agreed-to-sell-its-
+stake-in-hulu-in-5-years.html.
+17 Gerry Smith, “NBC’s Peacock Bets Viewers Will Watch Ads to Stream for Free,” Bloomberg, January 16, 2020,
+https://www.bloomberg.com/news/articles/2020-01-16/nbc-s-peacock-bets-consumers-will-watch-ads-to-stream-for-
+free.
+18 DrPeering.net. “Who Are the Tier 1 ISPs?” accessed on December 4, 2019, https://drpeering.net/FAQ/Who-are-the-
+Tier-1-ISPs.php.
+19 Verizon, “Mergers & Acquisitions,” accessed on October 28, 2019, https://www.verizon.com/about/timeline-
+categories/mergers-acquisitions.
+20 Tracey Lien, “Verizon Buys Yahoo for $4.8 Billion, and It’s Giving Yahoo’s Brand Another Chance,” Los Angeles
+Times, July 25, 2016, https://www.latimes.com/business/technology/la-fi-verizon-buys-yahoo-20160725-snap-
+story.html.
+21 Larry Page, “G Is for Google,” Google Official Blog, August 10, 2015,
+https://googleblog.blogspot.com/2015/08/google-alphabet.html.
+22 Google, “Our Products,” accessed on November 16, 2019, https://about.google/products.
+23 Google, “Think Big with a Gig: Our Experimental Fiber Network,” February 10, 2010,
+https://googleblog.blogspot.com/2010/02/think-big-with-gig-our-experimental.html.
+24 Jack Nicas, “Google’s High-Speed Web Plans Hit Snags,” Wall Street Journal, August 15, 2016,
+https://www.wsj.com/articles/googles-high-speed-web-plans-hit-snags-1471193165; Lauren Feiner, “Google Fiber’s
+High-Speed Internet Service Is Leaving Louisville After Ripping up Roads and Leaving Cables Exposed,” CNBC,
+February 7, 2019, https://www.cnbc.com/2019/02/07/google-fiber-pulls-out-of-louisville.html; Google, “Our Cities,”
+Competition on the Edge of the Internet
+Congressional Research Service 6
+Facebook. As it attracted more users, Facebook expanded from providing an online platform that
+connects users to an online platform suitable for various activities, including fundraising,
+messaging, and commerce. In 2018, a spokesman confirmed that Facebook was pursuing another
+project, dubbed Athena.25 Athena is an experimental satellite that would beam internet access
+through radio signals. If successful, Athena would enable Facebook to become an ISP.
+Amazon. In addition to being a major online retailer, Amazon offers information technology
+infrastructure services through Amazon Web Services.26 In 2019, Amazon confirmed plans—
+dubbed Project Kuiper—to launch 3,236 satellites into low-Earth orbit to provide broadband
+internet across the world. If successful, Project Kuiper would enable Amazon to become an ISP.27

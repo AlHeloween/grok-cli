@@ -1,0 +1,79 @@
+Amoxicillin is a widely utilized beta-lactam antimicrobial drug approved by the U.S. Food and Drug Administration (FDA) for use in the primary care setting. Amoxicillin is an aminopenicillin created by adding an extra amino group to penicillin to battle antibiotic resistance. This drug is indicated for the treatment of infections caused by susceptible isolates of selected bacteria, specifically those that are beta-lactamase–negative, including ear, nose, and throat infections, Helicobacter pylori eradication, lower respiratory and urinary tract infections, acute bacterial sinusitis, and skin and structure infections.
+ 
+
+ Amoxicillin is effective against a wide range of gram-positive bacteria, offering additional coverage against some gram-negative organisms compared to penicillin. Amoxicillin's spectrum of activity includes coverage against Streptococcus species, with heightened efficacy against Listeria monocytogenes and Enterococcus spp. Furthermore, amoxicillin also demonstrates effectiveness against Haemophilus influenzae, select Escherichia coli strains, Actinomyces spp., Clostridium species, Salmonella spp., Shigella spp., and Corynebacteria spp. This activity delves into the indications, mechanism of action, administration, contraindications, and adverse event profiles associated with amoxicillin. This activity equips clinicians with a comprehensive understanding of amoxicillin to optimally enhance their ability to manage infectious diseases in patients.
+ 
+
+ Amoxicillin is a widely utilized beta-lactam antimicrobial drug approved by the U.S. Food and Drug Administration (FDA) for use in the primary care setting. Amoxicillin is an aminopenicillin created by adding an extra amino group to penicillin to battle antibiotic resistance. The medication is effective against a wide range of gram-positive bacteria, offering additional coverage against some gram-negative organisms compared to penicillin. Amoxicillin's spectrum of activity includes coverage against Streptococcus species, with heightened efficacy against Listeria monocytogenes and Enterococcus spp. Furthermore, amoxicillin also demonstrates effectiveness against Haemophilus influenzae, select Escherichia coli strains, Actinomyces spp., Clostridium species, Salmonella spp., Shigella spp., and Corynebacteria spp.
+ 
+
+ FDA-Approved Indications
+ 
+
+ Amoxicillin is indicated for treating infections caused by susceptible isolates of selected bacteria, specifically beta-lactamase–negative, in the conditions listed below.
+ 
+
+ Ear, nose, and throat infections: Amoxicillin is approved for the treatment of tonsillitis, pharyngitis, and otitis media in adults and pediatric patients aged 12 and older. The microbiological spectrum covers infections caused by beta-lactamase–negative Streptococcus species (alpha- and beta-hemolytic isolates only), Streptococcus pneumoniae, Staphylococcus species, or H influenzae.[1]
+ Helicobacter pylori eradication: H pylori eradication involves triple therapy using clarithromycin, amoxicillin, and lansoprazole to reduce the risk of duodenal ulcer recurrence. In addition, dual treatment with amoxicillin and lansoprazole is FDA-approved for eradicating H pylori infection.[2]
+ Lower respiratory tract infections: Amoxicillin is prescribed for treating lower respiratory tract infections caused by beta-lactamase–negative Streptococcus species (limited to alpha- and beta-hemolytic strains), Pneumococcus or Staphylococcus species, or H influenzae. In cases of community-acquired pneumonia, the Infectious Diseases Society of America (IDSA) recommends a combination therapy comprising amoxicillin and a macrolide antibiotic.[3]
+ Acute bacterial sinusitis: The treatment for acute bacterial sinusitis involves addressing infections caused by beta-lactamase–negative Streptococcus species (limited to alpha- and beta-hemolytic isolates), S pneumoniae, Staphylococcus species, or H influenzae.[4]
+ Skin and skin structure infections: Amoxicillin in the immediate-release formulation is prescribed to treat skin infections caused by beta-lactamase–negative Streptococcus species (restricted to alpha- and beta-hemolytic strains), Staphylococcus species, or E coli.[5]
+ Urinary tract infection: Amoxicillin is indicated for treating genitourinary tract infections caused by beta-lactamase–negative E coli, Proteus mirabilis, or Enterococcus faecalis.[6]
+ The Centers for Disease Control and Prevention (CDC) recommends using amoxicillin as a second-line agent for post-exposure prophylaxis for anthrax.[7]
+ 
+
+ Off-label Uses
+ 
+
+ Amoxicillin is often used for Lyme disease if there are contraindications for doxycycline.[8]
+ Infectious endocarditis prophylaxis is recommended for individuals with high-risk cardiac conditions, such as a prosthetic cardiac valve or congenital heart disease, using amoxicillin.[9]
+ Amoxicillin, combined with metronidazole, is used to treat periodontitis.[10] 
+ Amoxicillin is often used for the treatment of actinomycosis.[11]
+ 
+
+ Amoxicillin belongs to the class of beta-lactam antimicrobials. Beta-lactams bind to penicillin-binding proteins, inhibiting transpeptidation — a crucial step in cell wall synthesis involving cross-linking. This action activates autolytic enzymes in the bacterial cell wall, resulting in cell wall lysis and bacterial cell destruction. This mechanism is known as bactericidal killing.[12]
+ 
+
+ Amoxicillin administration can be combined with a beta-lactamase inhibitor, such as clavulanic acid or sulbactam. These inhibitors function by irreversibly binding to the catalytic site of the organism's beta-lactamase enzyme, preventing resistance to the original beta-lactam ring of amoxicillin. Although these inhibitors lack inherent bactericidal activity, their combination with amoxicillin may broaden its spectrum to include organisms producing the beta-lactamase enzyme.[13]
+ 
+
+ Pharmacokinetics
+ 
+
+ Absorption: Amoxicillin exhibits stability in the presence of gastric acid and is rapidly absorbed after oral administration, with average peak blood levels typically reached within 1 to 2 hours.
+ 
+
+ Distribution: Amoxicillin displays significant tissue and fluid diffusion throughout the body, with the exception of the brain and spinal fluid, except in cases where meningeal inflammation is present. Amoxicillin exhibits approximately 20% plasma protein binding.
+ 
+
+ Metabolism: The metabolism of amoxicillin involves oxidation, hydroxylation, and deamination processes. Amoxicillin is a substrate of organic anion transporters (OATs), specifically OATs 1 and 3.[14][15]
+ 
+
+ Elimination: Amoxicillin has an approximate half-life of 61.3 minutes, and about 60% of the administered dose is excreted in the urine within 6 to 8 hours. Co-administration of probenecid can delay amoxicillin excretion, as the majority of the drug is eliminated unchanged in the urine.
+ 
+
+ Common Adverse Drug Reactions
+ 
+
+ Although generally well-tolerated, amoxicillin may lead to common gastrointestinal symptoms, including nausea, vomiting, and diarrhea. Additional adverse drug reactions associated with amoxicillin are listed below.
+ 
+
+ Nephrotoxicity: Amoxicillin may cause crystalluria and interstitial nephritis.[23][24]
+ 
+
+ Hypersensitivity reactions: Amoxicillin has the potential to cause hypersensitivity reactions categorized as type I, II, III, or IV. Differentiating between a type-I and type-IV reaction is crucial due to varying danger levels. A type-I hypersensitivity reaction involves an IgE-mediated response in sensitized patients, inducing widespread histamine release, resulting in an urticarial-like pruritic rash or severe anaphylaxis. In contrast, a type-IV hypersensitivity reaction is not mediated by histamine release and typically presents as a more papular or morbilliform rash, often without itching. Notably, almost all patients receiving amoxicillin inadvertently for infectious mononucleosis may develop a maculopapular rash attributed to a type IV–mediated hypersensitivity reaction. Notably, reactions of this type are not associated with anaphylaxis.[25]
+ 
+
+ Hepatotoxicity: Cases of idiosyncratic liver injury have been reported in individuals receiving amoxicillin. The associated serum enzyme pattern reveals a hepatocellular pattern characterized by significant elevations in aspartate transaminase (AST) and alanine transaminase (ALT), with minimal increases in alkaline phosphatase. Most patients experience rapid recovery upon withdrawal of amoxicillin. The cause of liver injury associated with amoxicillin use is attributed to hypersensitivity. Although rare, cases of acute liver failure and vanishing bile duct syndrome have been reported. Corticosteroids are often used to treat allergic reactions caused by penicillin-related immunoallergic hepatitis, which is a rare cause of clinically apparent liver injury, with a likelihood score of B.[26]
+ 
+
+ Postmarketing Adverse Drug Reactions
+ 
+
+ Gastrointestinal: Gastrointestinal effects may include black hairy tongue, pseudomembranous colitis, and hemorrhagic colitis.[27]
+ 
+
+ Neurological: Neurological effects may encompass reversible hyperactivity, agitation, anxiety, insomnia, confusion, convulsions, and aseptic meningitis.[28]
+ 
+
+ Dermatological: Dermatological effects may manifest as serum sickness-like reactions, erythematous maculopapular rashes, exfoliative dermatitis, toxic epidermal necrolysis, and hypersensitivity vasculitis.[30]

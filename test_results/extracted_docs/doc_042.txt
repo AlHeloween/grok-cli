@@ -1,0 +1,80 @@
+2.3 VPNs and Extranets
+ 
+
+  The term 'extranet' is commonly used to refer to a scenario whereby
+  two or more companies have networked access to a limited amount of
+  each other's corporate data. For example a manufacturing company
+  might use an extranet for its suppliers to allow it to query
+  databases for the pricing and availability of components, and then to
+  order and track the status of outstanding orders. Another example is
+  joint software development, for instance, company A allows one
+  development group within company B to access its operating system
+  source code, and company B allows one development group in company A
+  to access its security software. Note that the access policies can
+  get arbitrarily complex. For example company B may internally
+  restrict access to its security software to groups in certain
+  geographic locations to comply with export control laws, for example.
+ 
+
+  A key feature of an extranet is thus the control of who can access
+  what data, and this is essentially a policy decision. Policy
+  decisions are typically enforced today at the interconnection points
+  between different domains, for example between a private network and
+  the Internet, or between a software test lab and the rest of the
+  company network. The enforcement may be done via a firewall, router
+  with access list functionality, application gateway, or any similar
+  device capable of applying policy to transit traffic. Policy
+  controls may be implemented within a corporate network, in addition
+  to between corporate networks. Also the interconnections between
+  networks could be a set of bilateral links, or could be a separate
+  network, perhaps maintained by an industry consortium. This separate
+  network could itself be a VPN or a physical network.
+ 
+
+  Introducing VPNs into a network does not require any change to this
+  model. Policy can be enforced between two VPNs, or between a VPN and
+  the Internet, in exactly the same manner as is done today without
+  VPNs. For example two VPNs could be interconnected, which each
+  administration locally imposing its own policy controls, via a
+  firewall, on all traffic that enters its VPN from the outside,
+  whether from another VPN or from the Internet.
+ 
+
+  This model of a VPN provides for a separation of policy from the
+  underlying mode of packet transport used. For example, a router may
+  direct voice traffic to ATM Virtual Channel Connections (VCCs) for
+  guaranteed QoS, non-local internal company traffic to secure tunnels,
+  and other traffic to a link to the Internet. In the past the secure
+  tunnels may have been frame relay circuits, now they may also be
+  secure IP tunnels or MPLS Label Switched Paths (LSPs)
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Gleeson, et al. Informational [Page 9]
+ 
+
+ RFC 2764  IP Based Virtual Private Networks  February 2000
+ 
+
+ 
+
+  Other models of a VPN are also possible. For example there is a
+  model whereby a set of application flows is mapped into a VPN. As
+  the policy rules imposed by a network administrator can get quite
+  complex, the number of distinct sets of application flows that are
+  used in the policy rulebase, and hence the number of VPNs, can thus
+  grow quite large, and there can be multiple overlapping VPNs.
+  However there is little to be gained by introducing such new
+  complexity into a network. Instead a VPN should be viewed as a
+  direct analogue to a physical network, as this allows the leveraging
+  of existing protocols and procedures, and the current expertise and
+  skill sets of network administrators and customers.

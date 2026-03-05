@@ -1,0 +1,48 @@
+1.7.0 Disentitlement
+ Under the EI legislation, the term "disentitlement" has a specific meaning and refers to the situations described below (EI Act 6(1)). Disentitlements are imposed for something the claimant has failed to do to prove entitlement to benefits (EI Act 49(1)), for example, failed to provide information that is crucial to determining if they are entitled to benefits, failed to prove their availability for work, failed to prove they are unemployed.
+ 
+
+ One or more disentitlements can be imposed concurrently, when there is more than one ground for disentitlement.
+ 
+
+ 1.7.1 Effect of disentitlement
+ Disentitlements are imposed for as little as one day, or for an indefinite period of time. In practice, a disentitlement may be imposed on any working day of the week, and continue as long as the situation that led to the disentitlement remains unchanged. If or when the claimant’s situation changes, a decision must be made as to whether the disentitlement can be terminated or rescinded completely.
+ 
+
+ Benefits are not paid, or deemed to be paid, for any days of disentitlement. When a disentitlement covers a full week, it will delay the payment of benefits, and will not reduce the maximum number of weeks that could potentially be paid in the claimant’s benefit period. However, once the benefit period terminates (52 weeks plus any extensions is reached), no further benefits can be paid in that benefit period (Digest 1.4.4). This may mean that a lengthy period of disentitlement, similar to a lengthy period during which earnings are allocated, may in fact, reduce the number of weeks of benefits actually paid to a claimant (CUB 76507).
+ 
+
+ 1.7.2 Grounds for disentitlement
+ Some of the following situations automatically result in disentitlement whereas others are not specifically defined:
+ 
+
+ working a full week (Digest Chapter 4)
+ not available for work (EI Act 18(a); Digest Chapter 10)
+ failure to prove incapacity for work in the case of sickness benefits (EI Act 18(b); EI Regulation 40)
+ minor attachment claimant who ceased work due to incapacity (EI Act 21(1))
+ loss of employment or inability to resume a previous employment by reason of a labour dispute (EI Act 36); EI Regulation 52; Digest Chapter 8)
+ confinement in a prison or similar institution (EI Act 37(a); EI Regulation 54; Digest 10.11.7)
+ being out of Canada (EI Act 37(b); EI Regulation 55; Digest 10.11.8)
+ non-entitlement of a teacher during the non-teaching period; (EI Regulation 33; Digest Chapter 14)
+ delay in making a renewal or continuing claim (EI Act 50(4); EI Regulation 26(1))
+ failure to provide information upon request (EI Act 50(5 & 6))
+ suspension from employment because of misconduct (EI Act 31; Digest Chapter 7)
+ voluntarily taking a leave from employment without just cause (EI Act 32; Digest Chapter 6)
+ voluntarily leaving employment permanently without just cause, or losing employment by reason of their misconduct, within three weeks of termination from that employment (EI Act 33(1); Digest Chapter 6, Digest Chapter 7)
+ not entitled to compassionate care benefits (EI Act 23.1; Digest Chapter 23)
+ not entitled to family caregiver benefits (EI Act 23.2; EI Act 23.3; Digest Chapter 22)
+ having received or being entitled to receive provincial benefits in respect of the birth or adoption of a child under a provincial plan (EI Regulation 76.09; Quebec Parental Insurance Plan)
+ Each of the above grounds will be discussed in detail in subsequent chapters.
+ 
+
+ 1.7.3 Length of disentitlement
+ The legislation does not provide for a half-day disentitlement (EI Act 20). When it is determined that a disentitlement is warranted, the disentitlement must be applied for a minimum of one day.
+ 
+
+ Extenuating circumstances cannot reduce a period of disentitlement; either the claimant meets the entitlement condition or they do not. The reason they may not meet it is not a factor to consider when determining if the condition is met. The start date of the disentitlement may be determined ahead of time, for example in cases where a claimant intends to be absent from Canada for vacation. However, the end of the absence may not always be known. If known, the end date of the disentitlement will be input, and the claimant is not required to contact the Commission upon return, unless there is a change to the end date. If the end date is not known, the claimant must contact the Commission upon their return, to have the end date of the disentitlement reviewed.
+ 
+
+ An ongoing disentitlement may be imposed for less than five days each week. This may be the case, for example, when the disentitlement is related to the availability or capability for work of a claimant, or in the case of a labour dispute.
+ 
+
+ Unless the disentitlement can be suspended, as in the case of labour dispute (Digest 8.10.0), a disentitlement continues for as long as the condition leading to the disentitlement continues to exist. However, a new ground for disentitlement requires a separate decision.

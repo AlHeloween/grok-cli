@@ -1,0 +1,257 @@
+OpenAI o1-mini
+ Advancing cost-efficient reasoning.
+ 
+
+ Contributions
+ We're releasing OpenAI o1-mini, a cost-efficient reasoning model. o1-mini excels at STEM, especially math and coding—nearly matching the performance of OpenAI o1 on evaluation benchmarks such as AIME and Codeforces. We expect o1-mini will be a faster, cost-effective model for applications that require reasoning without broad world knowledge.
+ 
+
+ Today, we are launching o1-mini to tier 5 API users(opens in a new window) at a cost that is 80% cheaper than OpenAI o1-preview. ChatGPT Plus, Team, Enterprise, and Edu users can use o1-mini as an alternative to o1-preview, with higher rate limits and lower latency (see Model Speed).
+ 
+
+ Optimized for STEM Reasoning
+ Large language models such as o1 are pre-trained on vast text datasets. While these high-capacity models have broad world knowledge, they can be expensive and slow for real-world applications. In contrast, o1-mini is a smaller model optimized for STEM reasoning during pretraining. After training with the same high-compute reinforcement learning (RL) pipeline as o1, o1-mini achieves comparable performance on many useful reasoning tasks, while being significantly more cost efficient.
+ 
+
+ When evaluated on benchmarks requiring intelligence and reasoning, o1-mini performs well compared to o1-preview and o1. However, o1-mini performs worse on tasks requiring non-STEM factual knowledge (see Limitations).
+ 
+
+ Math Performance vs Inference Cost
+ GPT-4o
+ GPT-4o mini
+ o1-preview
+ o1-mini
+ o1
+ 0
+ 10
+ 20
+ 30
+ 40
+ 50
+ 60
+ 70
+ 80
+ 90
+ 100
+ Inference Cost (%)
+ 0%
+ 20%
+ 40%
+ 60%
+ 80%
+ AIME
+ Mathematics: In the high school AIME math competition, o1-mini (70.0%) is competitive with o1 (74.4%)–while being significantly cheaper–and outperforms o1-preview (44.6%). o1-mini’s score (about 11/15 questions) places it in approximately the top 500 US high-school students.
+ 
+
+ Coding: On the Codeforces competition website, o1-mini achieves 1650 Elo, which is again competitive with o1 (1673) and higher than o1-preview (1258). This Elo score puts the model at approximately the 86th percentile of programmers who compete on the Codeforces platform. o1-mini also performs well on the HumanEval coding benchmark and high-school level cybersecurity capture the flag challenges (CTFs).
+ 
+
+ Codeforces
+ 1650
+ 1258
+ 900
+ o1-mini
+ o1-preview
+ GPT-4o
+ 0
+ 200
+ 400
+ 600
+ 800
+ 1,000
+ 1,200
+ 1,400
+ 1,600
+ 1,800
+ Elo
+ HumanEval
+ 92.4%
+ 92.4%
+ 90.2%
+ o1-mini
+ o1-preview
+ GPT-4o
+ 0
+ 10
+ 20
+ 30
+ 40
+ 50
+ 60
+ 70
+ 80
+ 90
+ 100
+ Accuracy
+ Cybersecurity CTFs
+ 28.7%
+ 43.0%
+ 20.0%
+ o1-mini
+ o1-preview
+ GPT-4o
+ 0
+ 5
+ 10
+ 15
+ 20
+ 25
+ 30
+ 35
+ 40
+ 45
+ Accuracy (Pass@12)
+ STEM: On some academic benchmarks requiring reasoning, such as GPQA (science) and MATH-500, o1-mini outperforms GPT-4o. o1-mini does not perform as well as GPT-4o on tasks such as MMLU and lags behind o1-preview on GPQA due to its lack of broad world knowledge.
+ 
+
+ MMLU
+ 0-shot CoT
+ 88.7%
+ 85.2%
+ 90.8%
+ 92.3%
+ GPT-4o
+ o1-mini
+ o1-preview
+ o1
+ 0
+ 10
+ 20
+ 30
+ 40
+ 50
+ 60
+ 70
+ 80
+ 90
+ 100
+ GPQA
+ Diamond, 0-shot CoT
+ 53.6%
+ 60.0%
+ 73.3%
+ 77.3%
+ GPT-4o
+ o1-mini
+ o1-preview
+ o1
+ 0
+ 10
+ 20
+ 30
+ 40
+ 50
+ 60
+ 70
+ 80
+ 90
+ 100
+ MATH-500
+ 0-shot CoT
+ 60.3%
+ 90.0%
+ 85.5%
+ 94.8%
+ GPT-4o
+ o1-mini
+ o1-preview
+ o1
+ 0
+ 10
+ 20
+ 30
+ 40
+ 50
+ 60
+ 70
+ 80
+ 90
+ 100
+ Human preference evaluation: We had human raters compare o1-mini to GPT-4o on challenging, open-ended prompts in various domains, using the same methodology as our o1-preview vs GPT-4o comparison. Similar to o1-preview, o1-mini is preferred to GPT-4o in reasoning-heavy domains, but is not preferred to GPT-4o in language-focused domains.
+ 
+
+ Human preference evaluation vs chatgpt-4o-latest
+ o1-preview
+ o1-mini
+ Personal Writing
+ Editing Text
+ Computer Programming
+ Data Analysis
+ Mathematical Calculation
+ 0
+ 20
+ 40
+ 60
+ 80
+ 100
+ Win Rate vs GPT-4o (%)
+ Domain
+ Model Speed
+ As a concrete example, we compared responses from GPT-4o, o1-mini, and o1-preview on a word reasoning question. While GPT-4o did not answer correctly, both o1-mini and o1-preview did, and o1-mini reached the answer around 3-5x faster.
+ 
+
+ 
+
+ Chat speed comparison
+ 
+
+ Safety
+ o1-mini is trained using the same alignment and safety techniques as o1-preview. The model has 59% higher jailbreak robustness on an internal version of the StrongREJECT dataset compared to GPT-4o. Before deployment, we carefully assessed the safety risks of o1-mini using the same approach to preparedness, external red-teaming, and safety evaluations as o1-preview. We are publishing the detailed results from these evaluations in the accompanying system card.
+ 
+
+ Metric
+ 
+
+ GPT-4o
+ 
+
+ o1-mini
+ 
+
+ % Safe completions refusal on harmful prompts (standard)
+ 
+
+ 0.99
+ 
+
+ 0.99
+ 
+
+ % Safe completions on harmful prompts (Challenging: jailbreaks & edge cases)
+ 
+
+ 0.714
+ 
+
+ 0.932
+ 
+
+ % Compliance on benign edge cases (“not over-refusal”)
+ 
+
+ 0.91
+ 
+
+ 0.923
+ 
+
+ Goodness@0.1 StrongREJECT jailbreak eval (Souly et al. 2024(opens in a new window))
+ 
+
+ 0.22
+ 
+
+ 0.83
+ 
+
+ Human sourced jailbreak eval
+ 
+
+ 0.77
+ 
+
+ 0.95
+ 
+
+ Limitations and What’s Next
+ Due to its specialization on STEM reasoning capabilities, o1-mini’s factual knowledge on non-STEM topics such as dates, biographies, and trivia is comparable to small LLMs such as GPT-4o mini. We will improve these limitations in future versions, as well as experiment with extending the model to other modalities and specialities outside of STEM.

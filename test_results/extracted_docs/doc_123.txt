@@ -1,0 +1,59 @@
+The Antitrust Reform Movement and UMC Rulemaking
+The past several years have witnessed renewed interest in antitrust law and policy. Much of this interest
+has been driven by concerns that the antitrust laws have been underenforced and that current doctrine is
+overly permissive. Since the 1970s, the Supreme Court has reduced the number of per se rules that define
+specific conduct as anticompetitive without inquiries into market dynamics and harms in particular cases.
+In doing so, the Court has expanded the scope of the “rule of reason”—a standard that, in its current form,
+typically involves a burden-shifting framework that requires such inquiries.
+Empirical studies have found that the vast majority—as much as 97%—of complaints evaluated under the
+rule of reason are dismissed at the first stage of this burden-shifting process, leading some commentators
+to argue that the rule of reason is, in practice, a rule of per se legality. Others have criticized the costs and
+slow pace of antitrust litigation, which they attribute in part to the detailed analysis required by current
+law. Alongside the extension of the rule of reason, the Supreme Court has relaxed several aspects of
+monopolization doctrine, limiting the ways in which antitrust law restricts the unilateral conduct of
+dominant firms.
+Congressional Research Service 3
+Advocates of more aggressive antitrust enforcement have supported UMC rulemaking as a means of
+counteracting these developments. In 2020, Lina Khan (who now serves as FTC Chair) and Rohit Chopra
+(an FTC Commissioner at the time) co-authored an article in which they contended that exclusive reliance
+on case-by-case adjudication under the rule of reason had produced “a system of enforcement that
+generates ambiguity, unduly drains resources from enforcers, and deprives individuals and firms of any
+real opportunity to democratically participate in the process.” They thus argued that the FTC should
+supplement antitrust adjudication with UMC rules, which could promote legal clarity, lower enforcement
+costs, and allow the public to participate in the formulation of competition policy. Other academic work
+from proponents of antitrust reform has likewise urged enforcers and courts to “eschew the open-ended
+rule of reason” in favor of simpler presumptions and bright-line rules.
+In July 2021, President Biden joined these calls for UMC rulemaking. In an executive order on
+competition policy, President Biden encouraged the FTC to exercise its “statutory rulemaking authority
+under the Federal Trade Commission Act to curtail the unfair use of non-compete clauses and other
+clauses or agreements that may unfairly limit worker mobility.”
+Others have identified additional issues that the FTC may seek to address if its UMC rulemaking power is
+upheld. A coalition of advocacy groups has filed a petition for rulemaking urging the FTC to prohibit
+exclusive dealing by dominant firms. Commentators have also suggested that the FTC may propose rules
+targeting reverse-payment settlements in the pharmaceutical industry (often called “pay-for-delay”
+agreements), predatory pricing, and manufacturer repair restrictions.
+The FTC’s authority to issue such rules—and the Non-Compete Rule—depends not only on whether
+Section 6(g) authorizes legislative rulemaking, but also on the scope of Section 5’s prohibition of UMC.
+The Supreme Court has repeatedly said that Section 5 is broader than the Sherman Act and the
+Clayton Act (the other core federal antitrust laws). However, the scope of this additional coverage—often
+called the FTC’s “standalone” Section 5 authority—is unsettled.
+Under previous leadership, the FTC took a narrow view of its standalone Section 5 authority. In a 2015
+policy statement, the FTC indicated that decisions to bring standalone Section 5 actions would be guided
+by considerations of consumer welfare; that the FTC would evaluate challenged conduct under “a
+framework similar to the rule of reason”; and that the FTC was less likely to bring a standalone Section 5
+action if enforcement of the Sherman Act or Clayton Act was sufficient to address the relevant
+competitive harm.
+The FTC rescinded this policy statement in 2021 and issued a new Section 5 policy statement the
+following year. In the 2022 policy statement, the FTC identified two criteria it will consider in evaluating
+whether a “method of competition” is “unfair.” First, the FTC indicated that “unfair” conduct “may be
+coercive, exploitative, collusive, abusive, deceptive, predatory, or involve the use of economic power of a
+similar nature,” and “may also be otherwise restrictive or exclusionary.” Second, the FTC explained that
+such conduct “must tend to negatively affect competitive conditions”—for example, by foreclosing or
+impairing the opportunities of market participants, reducing competition between rivals, limiting choice,
+or otherwise harming consumers. The 2022 policy statement indicated that this second inquiry will not
+turn on whether conduct directly causes harm in particular cases, but instead will focus on whether
+conduct “has a tendency to generate negative consequences.”
+The FTC framed its 2022 policy statement as a return to the original purposes of the FTC Act. Former
+Commissioner Christine Wilson dissented from the statement, arguing that it departed from antitrust’s
+traditional focus on consumer welfare and did not provide clear guidance to businesses on how to
+structure their conduct to avoid violating the law.

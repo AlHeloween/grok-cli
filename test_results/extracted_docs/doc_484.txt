@@ -1,0 +1,58 @@
+cepro.com
+ New Research Uncovers Litany of Privacy/Security Issues in Consumer IoT Devices
+ Zachary Comeau
+ 5–6 minutes
+ 
+
+ An international team of researchers has unveiled findings on the widespread security and privacy challenges posed by IoT devices in smart homes, delving into the intricacies of local network interactions between 93 different IoT devices and mobile apps.
+ 
+
+ The paper, titled In the Room Where It Happens: Characterizing Local Communication and Threats in Smart Homes, reveals a litany of previously undisclosed security and privacy threats.
+ 
+
+ The research team included researchers from the New York Tandon School of Engineering, Northeastern University, University of Madrid, University of Calgary, the International Computer Science Institute and IMDEA Networks. The research was presented last month at the ACM Internet Measurement Conference last month in Montreal.
+ 
+
+ Researchers narrow in on the local network and how IoT devices can inadvertently compromise consumer privacy through the exposure of sensitive data within those local networks using standard protocols such as UPnP or mDNS. Researchers say this essentially allows nearly any company to learn what devices are in a home, when the user is home, and where the home is.
+ 
+
+ According to the paper, these threats include the exposure of unique device names, UUIDs, and even household geolocation data, all of which can be harvested by companies involved in surveillance capitalism without user awareness. 
+ 
+
+ NYU Tandon, quoting PhD student and research co-author Vijay Prakash, says in a writeup that researchers found evidence of IoT devices inadvertently compromising consumer privacy by exposing at least one personally identifiable information, such as unique hardware addresses, UUID, or unique device names, in thousands of existing smart homes.
+ 
+
+ That information can be pieced together to make a house very identifiable, researchers say.
+ 
+
+ The devices included in the research include 93 consumer IP-based smart home devices, as well as their companion apps. Devices included in the study were smart doorbells, smart bulbs, smart thermostats, smart TVs, smart plugs, smart speakers, smart sensors and smart home hubs.
+ 
+
+ Specifically, most of the devices tested are widely available online or in stores, including Amazon Echo devices, Google Nest products, Apple TVs, and more.
+ 
+
+ These local network protocols can be employed as side-channels to access data that is supposedly protected by several mobile app permissions such as household locations, researchers say.
+ 
+
+ Narseo Vallina-Rodriguez, Associate Research Professor of IMDEA Networks and co-founder of AppCensus, says in a statement that side channels are a sneaky way of indirectly accessing sensitive data.
+ 
+
+ “For example, Android app developers are supposed to request and obtain users’ consent to access data like geolocation,” Vallina-Rodriguez says. “However, we have shown that certain spyware apps and advertising companies do abuse local network protocols to silently access such sensitive information without any user awareness. All they have to do is kindly ask for it to other IoT devices deployed in the local network using standard protocols like UPnP.”
+ 
+
+ In addition, Juan Tapiador, professor at Universidad Carlos III de Madrid, says the study shows that local network protocols used by IoT devices are not sufficiently protected and expose sensitive information about the home and the homeowners’ use of the devices.
+ 
+
+ “This information is being collected in an opaque way and makes it easier to create profiles of our habits or socioeconomic level,” Tapiador says.
+ 
+
+ In other comments, Dr. Joel Reardon, PhD, associate professor of computer science at the University of Calgary, says the research shows the home network is not as secure as once thought.
+ 
+
+ “If a new phone connects to a network, then all the apps on it can have direct access to everything else on that network,” Reardon says. “The spyware I found in apps with tens of millions of installs was in fact scanning networks and talking to routers.”
+ 
+
+ The research follows multiple separate cybersecurity threats-related to IoT devices uncovered this month. Towards the middle of the month, the Electronic Frontier Foundation nonprofit put out a call to action for the FTC to block the sales of Android TV boxes potentially infected with botnet malware. Researchers around this time also published a report in FCC filings for the Cyber Trust Mark proceedings warning of ultrasonic commands that could potentially be used to activate and control voice assistants.
+ 
+
+ If you enjoyed this article and want to receive more valuable industry content like this, click here to sign up for our digital newsletters!

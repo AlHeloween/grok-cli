@@ -1,0 +1,84 @@
+-Hybrid Electric Vehicles
+HEVs are powered by an internal combus-
+tion engine or other propulsion source that
+runs on conventional or alternative fuel
+and an electric motor that uses energy
+stored in a battery. The extra power
+provided by the electric motor allows for
+a smaller engine, resulting in better fuel
+economy without sacrificing performance.
+HEVs combine the benefits of high fuel
+economy and low emissions with the
+power and range of conventional vehicles.
+HEVs do not require a plug to charge
+the battery; instead, they charge using
+regenerative braking and the internal
+combustion engine. They capture energy
+normally lost during braking by using
+the electric motor as a generator, storing
+the captured energy in the battery. The
+energy from the battery provides extra
+power during acceleration and auxiliary
+power when idling.
+-Plug-In Hybrid Electric Vehicles
+PHEVs are powered by conventional
+fuels and by electrical energy stored in a
+battery. Using electricity from the grid to
+charge the battery some of the time costs
+less and reduces petroleum consumption
+compared with conventional vehicles.
+PHEVs can also reduce emissions,
+depending on the electricity source.
+PHEVs have an internal combustion
+engine or other propulsion source and an
+electric motor, which uses energy stored
+in a battery. PHEVs have larger battery
+packs than HEVs, making it possible to
+drive using only electric power (about 10
+to 40 miles in current models). This is
+commonly referred to as the all-electric
+range of the vehicle.
+PHEV batteries can be charged several
+ways: by an outside electric power source,
+by the internal combustion engine, or
+through regenerative braking. If a PHEV
+is never plugged in to charge, its fuel
+economy will be about the same as that
+of a similarly sized HEV. If the vehicle is
+fully charged and then driven a shorter
+distance than its all-electric range, it is
+possible to use electric power only.
+-All-Electric Vehicles
+EVs use a battery to store the electrical
+energy that powers the motor. EV batter-
+ies are charged by plugging the vehicle
+into an electric power source. Although
+electricity production may contribute
+to air pollution, the U.S. Environmental
+Protection Agency (EPA) considers EVs
+to be zero-emission vehicles because their
+motors produce no exhaust or emissions.
+Since EVs use no other fuel, they help
+reduce petroleum consumption.
+Currently available EVs have a shorter
+range per charge than most conventional
+vehicles have per tank of gas. EV manu-
+facturers typically target a minimum
+range of 100 miles. According to the U.S.
+Department of Transportation’s Federal
+Highway Administration, 100 miles is
+sufficient for more than 90% of all house-
+hold vehicle trips in the United States.
+Light-duty HEV, PHEV, and EV models
+are currently available from a number
+of auto manufacturers, with additional
+models expected to be released in com-
+ing years. There are also a variety of
+medium- and heavy-duty options avail-
+able. For up-to-date information on
+available vehicle models, refer to the
+Alternative Fuels and Advanced Vehicles
+Data Center’s (AFDC) Electric Vehicle
+Availability page (www.afdc.energy.gov/
+afdc/vehicles/electric_availability.html) and
+FuelEconomy.gov.

@@ -1,0 +1,87 @@
+Early History of U.S. Taxes on Transfers
+Taxes on the transfer of assets have existed throughout history, dating back to ancient Egypt. In
+the United States, they were used prior to the modern estate and gift tax in 1916 to finance wars
+and similar emergencies.8 The first was enacted in 1797 to expand the Navy, given strained
+relationships with France. At that time, a documentary stamp tax on the inventories of deceased
+persons, the receipt of inheritances from an estate (except those to a wife, children, or
+grandchildren), and the probates and letters of administration of estates was imposed. These taxes
+were fixed amounts, although they were larger for larger inheritances and small inheritances were
+exempt. These taxes were repealed in 1802.
+In 1862, during the Civil War, an inheritance tax was imposed. Unlike the current estate tax, the
+tax was imposed on the beneficiaries, but unlike the stamp tax, it was a percentage of the
+inheritance. The tax was also imposed on gifts during the lifetime. The rate depended on the
+family relationships of the beneficiaries, and spouses and small inheritances were exempt. This
+tax was repealed in 1870.
+The 1894 income tax was not a transfer tax, but it included inheritances and gifts in income. It
+was short-lived after being found unconstitutional by the Supreme Court in Pollock v. Farmers’
+Loan and Trust Company.
+In 1898, an estate tax was enacted to finance the Spanish-American War. Rates were graduated
+depending on degree of kinship and size, bequests to spouses were exempt, and there was an
+overall exemption that excluded small estates. It was repealed in 1902.
+The Modern Estate and Gift Tax
+Lawmakers enacted the direct ancestor of the current estate tax in 1916. It contained exemptions
+that excluded small estates, and rates were graduated based on the size of the estate. Over time,
+rates were increased, but the basic form of the tax remained. The top rate was 10% in 1916 with a
+$50,000 exemption, and it was increased to 25% in 1917, with the first $50,000 taxed at 2%. At
+the end of World War I in 1918, rates were reduced on smaller estates and charitable deductions
+were allowed. The top rate was increased to 40% in 1924, and a credit for state taxes was allowed
+for up to 25% of estate tax liability. The top rate was reduced to 20% from 1926 to 1931,
+increased to 40% in 1932, and eventually rose as high as 77% from 1941 to 1976.
+A separate gift tax was enacted in 1924 with the same rates and exemptions, and an annual
+exclusion per donee of $500. The tax was repealed in 1926, then reenacted in 1932 with a $5,000
+annual exclusion per donee.
+In 1942, changes addressed the difference in treatment in community property states, where each
+spouse owned half the assets and only the half owned by the decedent was subject to tax. In other
+states where couples could own assets jointly, exclusions were allowed only if the surviving
+spouse contributed to the assets. The 1942 act treated assets in community property states the
+same as in other states. In 1948, this rule was changed to allow a deduction for property
+transferred to a spouse whether by the will or by law. The 1942 act made other changes in rates
+and exemptions and instituted a $3,000 annual gift exclusion per donee.
+The Tax Reform Act of 1976 (P.L. 94-455) created the modern unified estate and gift tax with a
+unified credit and graduated rates applied to all transfers. The 1976 act also instituted carryover
+basis for inherited assets, but that provision resulted in considerable controversy and was repealed
+retroactively in 1980. The exemption was increased from $60,000 to $120,000, and the top rate
+was lowered to 70%.
+The Economic Growth and Tax Relief Act of 2001 (EGTRRA; P.L. 107-16) provided for a
+gradual reduction in the estate tax. The law applied a unified exemption for both lifetime gifts and
+the estate of $675,000 prior to these changes.
+Under EGTRRA, the estate tax exemption rose from $675,000 in 2001 to $3.5 million in 2009,
+and the top tax rate fell from 55% to 45%. Although combined estate and gift tax rates are
+graduated, the exemption is effectively in the form of a credit that eliminates tax due at lower
+rates, resulting in a flat rate on taxable assets under 2009 law. The gift tax exemption was,
+however, restricted to $1 million.
+For 2010, EGTRRA scheduled the elimination of the estate tax, although it retained the gift tax
+and its $1 million exemption. EGTRRA also provided for a carryover of basis for assets inherited
+at death in 2010, so that, in contrast with prior law, heirs who sold assets would have to pay tax
+on gains accrued during the decedent’s lifetime. This provision had a $1.3 million exemption for
+gain (plus $3 million for a spouse).
+As with other provisions of EGTRRA, the estate tax revisions were to expire in 2011, returning
+the tax provisions to their pre-EGTRRA levels. The exemption would have reverted to $1 million
+(a value that had already been scheduled for pre-EGTRRA law) and the rate to 55% (with some
+graduated rates). The carryover basis provision effective in 2010 would have been eliminated (so
+that heirs would not be taxed on gain accumulated during the decedent’s life when they inherited
+assets).
+During debate on the estate tax, most agreed that the 2010 provisions would not be continued and,
+indeed, could be repealed retroactively. President Obama proposed a permanent extension of the
+2009 rules (a $3.5 million exemption and a 45% tax rate), and the House provided for that
+permanent extension on December 3, 2009 (H.R. 4154). The Senate Democratic leadership
+indicated a plan to retroactively reinstate the 2009 rules for 2010 and beyond. Senate Minority
+Leader McConnell proposed an alternative of a 35% tax rate and a $5 million exemption.9 A
+similar proposal for a $5 million exemption and a 35% rate, which also included the ability of the
+surviving spouse to inherit any unused exemption of the decedent, is often referred to as Lincoln-Kyl 
+(named after two Senators who sponsored it). Other proposals began with the $3.5 million
+exemption and 45% rate and would have phased in the $5 million exemption and 55% rate. Some
+Members of Congress argued for permanent estate tax repeal.10
+At the end of 2010, P.L. 111-312 enacted a temporary two-year extension of the estate and gift
+tax, with a $5 million unified exemption, a 35% rate, and inheritance of unused spousal
+exemptions. For 2010, estates could elect to be taxed under the estate tax or under the carryover
+rules. These provisions provided for estate tax rules through 2012, after which the provisions
+would have reverted to the pre-EGTRRA rules ($1 million exemption, 55% top rate) absent
+legislation.
+The American Taxpayer Relief Act of 2012 (P.L. 112-240) established the permanent exemption
+($5.25 million, indexed for inflation?) and rate (40%) described above.
+The 2017 tax revision (P.L. 115-97) doubled the exemption for the years 2018 through 2025. The
+House had proposed doubling the exemption through 2024 and then repealing the estate tax and
+lowering the gift tax rates to 35%.
+One issue that arises with the expiration of the increased exemptions is the treatment of gifts that
+had been transferred with exemptions higher than the exemptions that the law would revert to. 

@@ -1,0 +1,85 @@
+SEC Jurisdiction and Perceived Crypto-Asset
+Regulatory Gap: An FTX Case Study
+November 29, 2022
+FTX Trading, a crypto company once valued at $32 billion, filed for Chapter 11 bankruptcy proceedings
+in November 2022. Some of FTX’s largest investors immediately wrote their FTX investments down to
+$0. More than a million creditors (including individuals and institutions) are caught up in this FTX
+insolvency. This Insight uses the FTX event as a case study to illustrate the Securities and Exchange
+Commission’s (SEC’s) regulatory jurisdiction, how it applies to crypto-assets, and perceived weaknesses
+in the application of the current regulatory framework.
+SEC Investigation of FTX
+The SEC and dozens of other federal, state, and international regulatory agencies and prosecutors have
+engaged with FTX to obtain more information. The SEC generally does not publicly disclose information
+regarding ongoing investigations. But multiple news sources have reported that the SEC has been
+investigating FTX.US, FTX’s U.S. subsidiary, for months. While FTX is based overseas and reportedly
+seeks to block U.S. customers to potentially avoid U.S. jurisdiction, FTX.US provides narrower product
+offers and is tailored for the U.S. market, and it maintains several U.S. regulatory licenses.
+Since the FTX crash, the SEC has reportedly expanded its investigation toward FTX and Alameda
+Research, an FTX-affiliated investment management firm. At issue is whether FTX and its affiliates are
+involved in certain securities-related activities, which should have been registered with the SEC (or
+received an exemption) before being sold to investors. To the extent that these are securities transactions
+that implicate U.S. jurisdiction, a crypto exchange may be subject to the SEC’s regulation, including the
+Customer Protection Rule, which requires securities broker-dealers to segregate client assets from their
+proprietary business activities. That rule may have mitigated some of the issues that reportedly led to
+FTX’s bankruptcy, as the firm is alleged to have loaned client funds to Alameda Research.
+More importantly, even if the SEC could prove that FTX and its affiliates violated securities regulations,
+the SEC’s capability to go after FTX is limited to securities activities, which generally do not include
+commodities and other non-securities instruments that make up the bulk (or even all, depending on whom
+you ask) of FTX’s business. Some observers believe that the SEC may face difficulty pursuing FTX
+mainly because of the firm’s offshore status and how existing regulatory frameworks are currently applied
+Congressional Research Service
+https://crsreports.congress.gov
+IN12052
+Congressional Research Service 2
+to crypto-assets—certain crypto-asset market segments are generally not subject to federal securities
+marketplace regulation commonly seen in traditional investments.
+SEC Jurisdiction
+The current regulatory landscape for crypto-assets is fragmented. Multiple agencies apply different
+regulatory approaches to crypto-assets at the federal and state levels. The SEC is the primary regulator
+overseeing securities offers, sales, and investment activities, including those involving crypto-assets. In
+general, a security is “the investment of money in a common enterprise with a reasonable expectation of
+profits to be derived from the efforts of others.” When a crypto-asset meets this criterion, it is subject to
+the SEC’s jurisdiction.
+SEC Chair Gensler has repeatedly stated that he believes the vast majority of crypto tokens are
+securities (while recognizing some crypto-assets are not). Other stakeholders, including the crypto
+industry, disagree with that assertion. In cases where they are not securities, crypto-assets may be
+commodities under the Commodity Exchange Act (CEA). In such cases, they would be subject to the
+Commodity Futures Trading Commission’s (CFTC’s) jurisdiction, which generally extends to
+commodities and derivatives. For example, under this framework as currently applied, most initial coin
+offerings are considered securities, but Bitcoin is considered a commodity, not a security. Securities
+regulations could also apply if the crypto market intermediaries (e.g., investment advisers, trading
+platforms, and custodians) are directly engaged in the security-based crypto-asset transactions.
+In cases where the crypto-assets are securities, the SEC has both (1) enforcement authority that allows the
+SEC to bring civil enforcement actions, such as anti-fraud and anti-manipulation actions, for securities
+laws violations after the fact and (2) regulatory authority, including over digital asset securities, which
+could include registration requirements, oversight, and principles-based regulation. Also, the CEA
+provides the CFTC with certain enforcement and regulatory authority when it comes to digital asset
+derivatives. However, the CFTC has enforcement authority, but not regulatory authority, over the spot
+market of digital asset commodities.
+Perceived Crypto-Asset Regulatory Gap
+Because crypto-asset commodities spot market activities receive CFTC oversight that generally pertains
+to enforcement (but not regulatory) authority, activities in these non-security crypto-asset markets are not
+subject to the same safeguards as those established in securities markets. Examples of such safeguards
+include certain rules and regulations that encourage market transparency, conflict-of-interest mitigation,
+investor protection, and orderly market operations.
+In the case of FTX, if FTX and its affiliates are involved in the crypto commodities spot market (e.g., the
+trading of Bitcoin), neither the SEC nor the CFTC would normally regulate these activities.
+Certain observers, including the Financial Stability Oversight Council (FSOC), characterize this
+framework as having a regulatory gap. FSOC has encouraged Congress to provide explicit rulemaking
+regulatory authority for federal financial regulators over the spot market for crypto-assets that are not
+securities. FSOC states that this new rulemaking authority “should not interfere with or weaken market
+regulators’ current jurisdictional remits.”
+Policy Questions
+Some Members of Congress have proposed to redesign SEC and CFTC jurisdiction, and Congress will
+likely continue to propose changes and explore alternatives. When designing a new regulatory landscape,
+Congressional Research Service 3
+IN12052 · VERSION 1 · NEW
+policymakers face challenging questions about how (or if) to make crypto-asset securities and
+commodities regulation more alike. Financial regulators have traditionally followed the “same activity,
+same risk, same regulation” principle to mitigate the potential risks of regulatory arbitrage. Related
+questions include: To what extent should the design of the crypto-asset regulation framework align with
+the existing securities trading and investment regulation? Should different sets of rules be based on the
+regulatory jurisdiction or the nature of risk exposure and risk mitigation needs? What are the operational
+costs to the platforms under different alternatives? Should Congress appoint a primary regulator for
+crypto-asset markets, or should actions such as rulemaking be evenly coordinated across financial
+agencies that are governing the same or similar entities?

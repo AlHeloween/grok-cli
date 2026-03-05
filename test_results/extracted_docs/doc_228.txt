@@ -1,0 +1,104 @@
+Since Modigliani and Miller (1958), economists have relaxed many of their
+assumptions to understand the observed behavior of leverage ratios. Arguably,
+the trade-off theory has emerged as one of the leading paradigms, even though
+it has been often challenged by empirical tests that appear to favor other
+theories or suggest taxes are not that important. Therefore, there is still no
+consensus in the literature. Moreover, none of the extant theories jointly
+address the following questions in a parsimonious and simple framework:
+(1) why firms tend to use debt financing so conservatively, (2) whether there
+is indeed a target leverage ratio and partial adjustment toward it, (3) why the leverage-growth relation is negative, and (4) why average leverage paths
+persist for over two decades.
+To answers these questions, we extend Hackbarth and Mauer (2012) to
+multiple financing and investment decisions that maximize initial value. We
+develop two versions of a dynamic model with endogenous financing and
+investment decisions. While the multistage model features two sequentially
+exercisable investment options, the single-stage model has only one investment option. The single-stage model serves as a benchmark to gauge
+investment-financing interactions in the multistage model. In both versions,
+the capital expenditure is funded by a mix of debt and equity. This mixture not
+only trades off tax benefits of debt against bankruptcy costs (triggered by an
+endogenous default decision) but also recognizes financial flexibility in the
+multistage model.
+The solution of the dynamic model offers a rich set of novel predictions that
+link the behavior of a firm’s leverage ratios to its investment opportunities.
+First, a role for financial flexibility emerges endogenously because dynamic
+financing-investment interactions between stages lead to an “intertemporal
+effect” in the multistage model: reaping investment (i.e., cash flow) and tax
+benefits sooner by issuing more debt in the first stage to fund the investment
+cost reduces financial flexibility for funding more of the investment cost with
+debt in the second stage. In comparison to the single-stage model, firms
+underutilize debt in the multistage model when financing investment the first
+time to retain financial flexibility. Because both debt issues jointly optimize
+initial equity value (and hence internalize dilutive externalities on each other),
+underutilization of debt persists when firms mature (i.e., exercise their last
+investment options), and underutilization is more (less) severe for more backloaded (front-loaded) investment opportunities. It is worth noting that leverage
+does not vary with investment in the single-stage model. Only in the multistage model leverage dynamics crucially hinge on the structure of the investment process in that it creates significant variation target leverage ratios.1
+Second, optimizing behavior by firms in a dynamic trade-off model with
+investment generates a significant fraction of low or zero leverage firms and
+path-dependent, persistent leverage ratios. Our analysis shows how incentives
+to retain financial flexibility in the first stage crucially depend on the structure
+of the investment process. Given the wide range of optimal target leverage
+ratios, the model suggests that leverage ratios can greatly vary depending on
+how the firm grows assets-in-place by exercising its real options.
+Third, structural models without dynamic financing-investment interactions
+(1) overestimate target leverage ratios, and (2) can be misleading in that they
+imply a fixed target leverage ratio that is largely taken to be exogenous to the
+investment process. It thus seems difficult to determine target leverage in the conventional sense. This also suggests that there is no meaningful measurement of partial adjustment toward target leverage (as in, e.g., Flannery and
+Rangan 2006) without recognizing the structure of the investment process.2
+To test the model’s ability to match observed outcomes, we estimate key
+model parameters via simulated method of moments (SMM). Intuitively,
+SMM finds the set of parameters, which minimizes the difference of the
+simulated model moments and the data moments from COMPUSTAT’s
+annual tapes for the period of 1965 to 2009. We then split the full sample
+into low, medium, and high market-to-book (or q) subsamples and employ
+SMM also to fit the four parameters for each subsample. We split the sample
+based on q to proxy for investment opportunities. Low q firms tend to have
+fewer investment opportunities, whereas high q firms tend to have more
+investment opportunities. Therefore, the relative value of q is informative
+about the structure of the investment process in the real data. Our estimation
+results reveal that high q firms have the most back-loaded investment processes, and low q firms have the most front-loaded ones.
+Graham (2000) reports that firms, even stable and profitable, use less debt
+than predicted by the static view of the tax benefits of debt. Two of five firms
+have an average leverage ratio of less than 20%, and the median firm uses
+only 31.4% leverage over the 1965 to 2000 period, which implies a “low
+leverage puzzle.” More recently, Strebulaev and Yang (2013) find that on
+average 10% of firms have zero leverage and almost 22% firms have less
+than 5% quasi-market leverage, which represents a “zero leverage puzzle.”
+We emphasize the importance of real frictions in a dynamic trade-off model
+and thereby provide an economically meaningful mechanism for why firms
+tend to use debt financing so conservatively. Based on the structural estimation results for the full sample, the simulated economies feature a significant
+fraction of low (and zero) leverage firms. Moreover, in contrast to much
+higher point estimates in prior studies, we report, on average, 20% leverage
+in dynamics (i.e., for all firms) and 19% at investment points (i.e., for investing firms).
+In addition, we perform capital structure regressions on simulated data and
+show that the model can replicate stylized facts established by empirical
+research. In the spirit of Strebulaev (2007), simulation of the multistage model
+of corporate investment and financing dynamics reinforces the need to differentiate investment points from other data points when interpreting coefficient
+estimates for market-to-book or profitability in a dynamic world. Consistent
+with Frank and Goyal (2009) and others, we find leverage is negatively related
+to the risk of cash flows, the cost of bankruptcy, and market-to-book, but
+positively related the size of the firm and the tax rate. Finally, we document that real frictions in a dynamic model can produce
+average leverage paths that closely resemble the ones in the data (e.g.,
+Lemmon, Roberts, and Zender 2008).3 That is, endogenous investment and
+financing decisions in a dynamic model can largely explain the otherwise
+puzzling patterns that, despite of some convergence, average leverage ratios
+across portfolios are fairly stable over time for both types of sorts (i.e., actual
+and unexpected leverage) performed by these authors.4 To do so, we extend
+the multistage model to randomly imposed initial variation in leverage. If
+model firms are “born” with high (low) leverage ratios at the beginning,
+then they maintain their relatively high (low) levels for over two decades
+(despite of the fact that leverage ratios converge somewhat to more moderate
+levels over time). This result illustrates that corporations, which know the
+structure of their investment processes, take it into account and make decisions on debt usage accordingly. This leads to fairly stable leverage ratios, and
+serves in the simulations as an important, unobserved determinant of the
+permanent component of leverage.
+The simplicity of our model allows us to develop a deeper understanding of
+related results of the growing literature that extends Leland (1994) to interactions between investment and financing decisions.5 Hackbarth and Mauer’s
+(2012) novel modeling feature is the explicit recognition that the firm’s existing capital structure influences future investment decisions through debtequity (agency) conflicts as well as financing mix of future investment.
+Like Sundaresan, Wang, and Yang (2015), we extend their model to multiple
+investment projects. While firms in Sundaresan et al. exhibit identical leverage
+ratios when the last option is exercised, final leverage ratios of our model
+firms vary widely.6 Titman and Tsyplakov (2007) numerically solve a complex model that features both financing and investment decision evolving over
+time. In contrast to, for example, Sundaresan et al. their model is based on
+continuous investment decisions (as in Brennan and Schwartz 1984), whereas
+our model focuses on discrete, irreversible, or lumpy investment that is equivalent to a “real transaction” cost so that the firm does not continuously invest
+or refinance. 

@@ -1,0 +1,69 @@
+Although the world of cryptocurrency is steadily expanding and gaining popularity, traditional banks are hesitant to adopt the use of these digital assets—believing that their inherent risks outweigh their potential benefits. However, regulatory agencies such as the Office of the Comptroller of the Currency (OCC) are working to change banks’ perception of digital currencies, believing that these assets could positively drive financial institutions to a new era of innovation and efficiency.
+ 
+
+ Recently, the OCC issued several interpretive letters detailing how traditional financial institutions can enter into transactions (or develop services) involving digital currencies. This effort coincides with the OCC’s hope that additional regulatory guidance will help banks become more comfortable with these digital assets. In early January, the OCC announced that national banks and federal savings associations can now use public blockchains and stablecoins to perform payment activities. This opens the door for banks to have the ability to process payments much quicker and without the need of a third-party agency. Essentially, this clarifying letter puts blockchain networks in the same category as SWIFT, ACH, and FedWire, paving the way for these networks to be part of the larger banking ecosystem.
+ 
+
+ Banks may be wary of cryptocurrency, thinking that transactions involving these assets present heightened risk and require lengthy and expensive due diligence. But digital currencies can offer many benefits to financial institutions and their customers, they just need to take the leap.
+ 
+
+ Why Banks are Cautious of Cryptocurrencies
+ According to a study conducted by the Association of Certified Anti-Money Laundering Specialists (ACAMS) and the U.K.’s Royal United Services Institute, nearly 63% of respondents who work in the banking industry perceive cryptocurrency as a risk rather than an opportunity.
+ 
+
+ Decentralized Nature
+ Crypto assets were created as an alternative to traditional banking infrastructure that don’t need an intermediary and aren’t tethered to the capacity of a centralized government, bank, or agency. Instead of relying on centralized intermediaries in these transactions, the trust is placed in the blockchain code and the distributed nature of the blockchain.
+ 
+
+ A cryptocurrency that’s managed by a central bank diminishes the appeal of the asset in the first place, so some banks don’t believe that they’ll be able to enter this space successfully. The decentralized nature of the currency is seen to undermine the authority of central banks, leaving some to believe that they won’t be needed anymore, or they’ll be unable to control the money supply.
+ 
+
+ AML/KYC Concerns
+ Cryptocurrencies allow for peer-to-peer transactions without a regulated intermediary, giving the user the ability to easily transfer funds quickly without having to pay transaction fees. Instead of identifying the transaction by an individual bank account through a financial institution, transactions are simply linked to the transaction ID on the blockchain.
+ 
+
+ This type of pseudonymity worries many banks who are concerned about the lack of anti-money laundering (AML) and know your customer (KYC) regulations surrounding digital currency transactions. Oftentimes, banks are under the impression that cryptocurrency transactions can’t be tracked for AML and KYC considerations, which could lead to illegal activity and scams on the network.
+ 
+
+ Volatility
+ The price of cryptocurrencies (bitcoin specifically) have generally been volatile over their short life. There are many reasons for this including market size, liquidity, and the number of market participants. Banks see this as a risk because historically, the price hasn’t been stable, so they believe the currency might not remain a stable investment vehicle over time.
+ 
+
+ How Banks Can Get Involved in the Cryptocurrency Industry
+ To avoid being left behind, banks need to find a way to embrace this technology and treat it as a friend rather than an enemy. Cryptocurrency adoption could streamline, enhance, and upgrade financial services, and there are plenty of recent industry advancements that can ease banks’ concerns around the risks and instead let them recognize the potential benefits.
+ 
+
+ Custody Services
+ In July, the OCC stated that banks and savings associations could provide crypto custody services for customers, including holding unique cryptographic keys associated with accessing private wallets. This means that the OCC believes that banks could safely and effectively hold either the cryptocurrency itself, or the key to access crypto on a personal digital wallet for its customers.
+ 
+
+ Easy Onboarding & Expert Assistance
+ Banks could help bring new, less experienced individual investors into the space by developing tools that would facilitate the adoption of crypto by their customers. For example, inexperienced cryptocurrency investors may not have the capabilities to set up their own wallet to custody their own cryptocurrency. Rather than leaving their cryptocurrency “off exchange” or at an unregulated third party, they may find it easier and more secure to hold it within a trusted financial institution.
+ 
+
+ Banks could offer interest-bearing crypto accounts, where customers could invest the crypto on the back end or through other financial tools. Banks might relieve some of the stress of investors that aren’t experts in the nuances of crypto by acting as a trusted third party that’s well-respected in the finance industry and can keep investors’ assets protected.
+ 
+
+ AML/KYC Regulations Administered
+ In 2019, the Financial Crimes Enforcement Network’s (FinCEN) determined that any cryptocurrency transactions and custody services conducted through crypto entities that are considered money service businesses must still abide by AML/KYC regulations. This will help avoid malicious transactions, illegal activity, or scams using these platforms. These regulations could help banks and larger financial institutions conduct due diligence on customers involved in crypto transactions, further diminishing their anxieties about the risks that these transactions pose.
+ 
+
+ There’s even a possibility that blockchain technology could automate AML and KYC verifications. Blockchain could potentially allow for a streamlined view of shared data on individuals between banks, loan officers, and other institutions. In other words, there could eventually be one blockchain that stores all customer data. This blockchain data could then be utilized by all financial institutions, allowing for fast reviews of customers to quickly identify any red flags insinuating nefarious or illegal activity.
+ 
+
+ Security Concerns
+ Banks can help mitigate the security concerns of cryptocurrency holders. Hacking of personal wallets and exchanges is a concern for many holders. Well-established banks could help secure digital currencies from theft or hacks, putting clients’ minds at ease. Bringing cryptocurrency under bank supervision could help diminish criminal activity or the appearance to outsiders that cryptocurrency transactions aren’t secure.
+ 
+
+ Payments
+ As indicated in the most recent OCC letter, banks can utilize public blockchains, including stablecoins, to speed up their payment processes. Blockchain technology provides a faster and less expensive alternative to clearing houses when processing transactions. The clearing and settlements could occur at a much faster rate if banks utilized blockchain technology.
+ 
+
+ Smart Contracts
+ When entering into an agreement through a smart contract, there’s a reduced level of trust needed among parties because the success of the transaction relies on computer code instead of an individual’s behavior. Banks could reinforce that trust by becoming a reliable third party that utilizes these smart contracts for mortgages, commercial loans, letters of credit, or other transactions.
+ 
+
+ Guidance and regulation surrounding digital assets is sparse, leaving many financial institutions wary of adoption. Concerns surrounding the security and stability of cryptocurrency also hold banks back from entering this space—but instead of fearing the risks of this technology, banks should be looking ahead to its potential benefits.
+ 
+
+ Financial institutions should also shift from thinking of crypto as a competitor to that of a partner. Banks can actually play a significant role in the crypto industry, adding some much needed assurance and security to the largely unregulated environment. Adopting cryptocurrencies and blockchain technology overall can streamline processes and take banking into the next generation of efficiency and innovation.

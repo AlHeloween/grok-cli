@@ -1,0 +1,101 @@
+
+In this paper I discuss what can be learned about “trickle-down” ideas from recent
+empirical evidence on tax incidence. Tax incidence, defined as the effect of tax policies
+on the distribution of welfare, provides an ideal framework because of the explicit focus
+on tracing the impacts of a policy beyond the directly affected group (ex. the rich).
+I arrive at three main lessons. First, recent evidence finds that business income taxes
+do affect the earnings of workers, but these effects are mostly a result of rent-sharing
+and taxation of rents, not from traditional supply-side channels. Second, there are
+systematic differences in the types of workers that are affected by the tax policies,
+so to understand how taxing businesses or business owners affects the distribution of
+welfare, it is not sufficient to treat workers/labor as a class. Third, across different
+income tax policies that statutorily affect the rich, the burden is generally ultimately
+born by the rich. I conclude with a discussion of fruitful avenues of further research,
+particularly on how tax incidence depends on various institutional features of labor
+markets, product markets and tax systems.
+There are two ideas of government. There are those who believe that if you just legislate
+to make the well-to-do prosperous, that their prosperity will leak through on those below.
+The Democratic idea has been that if you legislate to make the masses prosperous their
+prosperity will find its way up and through every class that rests upon it.
+- William Jennings Bryan (1896)
+1
+to the needy. Mr. Hoover was an engineer. He knew that water trickles down. Put
+it uphill and let it go and it will reach the driest little spot. But he didn’t know that
+money trickled up. Give it to the people at the bottom and the people at the top will
+have it before night, anyhow. But it will at least have passed through the poor fellow’s
+hands. They saved the big banks, but the little ones went up the flue.
+- Will Rogers (1932), first use of “trickle down”
+
+The idea of “trickle-down” originated from political debates to describe the economic policies
+of a party or politician. There was never a formal concept of “trickle-down economics” in
+the sense of economic theory. The term-of-art was used to describe policies that directly
+benefited to rich but were justified by arguments they would ultimately also benefit the
+middle class and poor. In fact, the term was not originally used by those advocating for
+such policies, but as a critique of the political discourse promoting such policies. While the
+term “trickle-down” was not used by William Jennings Bryan in his 1896 speech as he was
+running for president, the rhetoric was present in the introductory quote above. The term
+was first introduced by humorist and vaudville performer Will Rogers in a column critiquing
+then-President Herbert Hoover’s economic policies, also quoted above.
+The term, and the critique it embodied, stuck with politicians and parties that promoted
+economic policies where the direct benefits were for the rich, particularly those with respect
+to tax policies.1 The relationship between trickle-down ideas, tax policy and economics
+was secured during the Ronald Reagan administration, when the proposed tax cuts where
+linked to the recently articulated “supply-side” economic theory. Supply-side economics,
+broadly developed around the ideas of economists Robert Mundell and Arthur Laffer, focused on growth through reducing marginal income tax rates and promoting investment
+1William J. Bennett, a conservative politician who served in the administrations of Ronald Reagan and
+George H. W. Bush, lamented in his 2007 book, “Humorist Will Rogers referred to the theory that cutting
+taxes for higher earners and businesses was a ”trickle-down” policy, a term that has stuck over the years.”
+2
+through lower capital income tax rates and deregulation. These ideas had a natural relationship with trickle-down ideas in that the direct beneficiaries of lower marginal and capital
+tax rates were disproportionately the rich - those that faced the highest marginal tax rates
+and disproportionately owned the capital - but the theory stated that this would ultimately
+benefit lower income consumers/workers through growth (led by capital investment), employment and lower prices. The Reagan administration turned to “supply-side” rhetoric to
+promote large marginal rate and business income tax cuts, and the concepts of supply-side
+and trickle-down tax policies have been linked since.2 Figure 1 shows the Google Trends of
+the term “trickle down” since 2005, and reveals that spikes in its use are concentrated around
+changes in tax policy or U.S. presidential elections where tax policy was on the agenda.
+1.2. Economic Analysis of Trickle-Down
+In this article I will discuss the idea of trickle-down as it relates to taxes. I will focus on
+tax policies that have direct effects on the rich and capital owners - tax rates faced by high
+income households and capital tax policies specifically related to growth (supply-side) - with
+a focus on how the effects of these policies “trickle down” to lower income households or
+workers. Given that trickle-down originated as a political debate, I will discuss both positive
+analyses of these policies and normative frameworks that apply to the policies.
+Given this, the best economic framework to study these questions is the theory of tax
+incidence. Tax incidence is the study of the impact of taxes on the distribution of welfare,
+3
+and it derives from the insight that the person or entity with the the legal or statutory
+obligation to make the tax payment may not be the only one whose welfare is affected by
+the tax. In this way, the study of tax incidence maps directly onto trickle-down ideas by
+taking the direct or statutory beneficiary of the tax policy and following how it affects the
+distribution of welfare across the economy (whom does it trickle to?).
+Therefore, this paper will frame trickle-down ideas through positive and normative applications of tax incidence. I focus primarily on new empirical research about how taxing
+capital or the rich affect “the distribution of welfare.” Various economic models offer competing predictions about whether to expect that taxing capital owners at the top of the income distribution affects lower earning workers, if so, in what direction and by what channel.
+In the wake of this, some supply-side advocates have lamented how it has been used to promote trickledown ideas. In a 2007 article titled, How Supply-Side Economics Trickled Down, Bruce Bartlett, a former
+Reagan advisor wrote, “most accept the basic ideas of supply-side economics – that incentives matter, that
+high tax rates are bad for growth, and that inflation is fundamentally a monetary phenomenon. . . .
+Today, supply-side economics has become associated with an obsession for cutting taxes under any and all
+circumstances. No longer do its advocates in Congress and elsewhere confine themselves to cutting marginal
+tax rates – the tax on each additional dollar earned – as the original supply-siders did. Rather, they support
+even the most gimmicky, economically dubious tax cuts with the same intensity. ... today it is common to
+hear tax cutters claim, implausibly, that all tax cuts raise revenue.” Yet, another former Reagan advisor
+David Stockman has issued a competing complaint arguing that supply-side economics was always a cover
+for trickle-down ideas stating, “It’s kind of hard to sell ’trickle down,’ so the supply-side formula was the
+only way to get a tax policy that was really ’trickle down.’ Supply-side is ’trickle-down’ theory.”
+
+Therefore, it is ultimately an empirical question as to whether, and how, changes in these tax
+rates affect workers. Advances in data quality, particularly administrative linked firm-worker
+data, econometric methods for identifying causal effects of tax policies, and micro-economic
+theory on product and labor markets have led to new insights about whether and how taxes
+that directly affect the rich / capital owners ultimately affect lower earning workers.
+I review this new literature according to themes related to trickle-down and supply-side
+tax ideas and arrive at three main lessons. First, recent evidence finds that business income
+taxes do affect the earnings of workers, but these effects are mostly a result of rent-sharing
+and taxation of rents, not from traditional supply-side channels. Second, there are systematic
+differences in the types of workers that are affected by the tax policies, so to understand how
+taxing businesses or business owners affects the distribution of welfare, it is not sufficient to
+treat workers/labor as a class. Third, across different income tax policies that statutorily
+affect the rich, the burden is generally ultimately born by the rich. I conclude by arguing
+that from a policy standpoint, considering who bears the burden of a tax in isolation is
+insufficient for addressing trickle-down ideas or critiques and advocate for a more unified
+discussion of the efficiency and equity consequences of both tax and spending policies.

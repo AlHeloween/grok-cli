@@ -1,0 +1,131 @@
+Appellate Courts Split on Legal Challenges to
+State Laws Banning Certain Medical
+Treatments for Transgender Minors
+Updated April 4, 2024
+Public debate and attention has focused on whether certain medical treatments should be available for
+transgender minors to address a discordance between a person’s sex characteristics and gender identity. A
+number of states have passed laws prohibiting specific treatments for minors, including puberty blocking
+medication (“puberty blockers”), hormones, and surgical procedures. Several states assert, among other
+things, that the treatments are too experimental and can have potentially irreversible effects. Parents of
+transgender minors, among others, argue that these laws deny critical medical care to transgender minors
+and discriminate based on sex or transgender status in violation of the Equal Protection Clause of the
+Fourteenth Amendment. Some litigation has also alleged that these laws violate state constitutions.
+In cases challenging the laws of Arkansas, Alabama, Tennessee, Kentucky, Indiana, and Idaho, plaintiffs
+sought federal court orders to preliminarily enjoin these states from enforcing the laws until final
+resolution of the cases. Several lower courts granted these preliminary injunctions, in part based on the
+conclusion that the plaintiffs were likely to succeed on the merits of their equal protection claims. Three
+federal courts of appeals analyzed whether the lower courts had erred in their rulings and issued opinions
+reaching different conclusions. The Eighth Circuit upheld a preliminary injunction of Arkansas’s law,
+while the Eleventh Circuit held that a district court erred in enjoining the Alabama law, and the Sixth
+Circuit reversed preliminary injunctions that were issued against the Kentucky and Tennessee laws. Two
+other appellate courts reviewed preliminary injunctions and issued orders without accompanying opinions
+as of yet. The Seventh Circuit, after hearing oral argument, issued a stay of the lower court’s preliminary
+injunction against application of Indiana’s law, meaning that the law can go into effect while the case
+proceeds. By contrast, the Ninth Circuit denied a motion to stay a preliminary injunction against Idaho’s
+law, meaning that that law may not be enforced for now.
+This Sidebar focuses on aspects of the appellate court opinions addressing whether plaintiffs are likely to
+prevail on their claims that the laws violate the Equal Protection Clause. The three courts that have issued
+opinions reached different conclusions on at least two important legal questions relevant to the issue: (1)
+whether the challenged laws amount to sex classifications within the meaning of the Equal Protection
+Clause, and (2) what standard of review a court should apply when analyzing these challenges. The
+Congressional Research Service
+https://crsreports.congress.gov
+LSB11057
+Congressional Research Service 2
+courts’ analyses of these questions are consequential, as the likelihood of a state action being upheld or
+invalidated under the Equal Protection Clause may turn significantly on how a court resolves them. These
+recent decisions not only dictate how lower courts within these circuits analyze such equal protection
+challenges, but also may inform other courts’ approaches to similar equal protection challenges.
+Equal Protection Background
+The Fourteenth Amendment’s Equal Protection Clause prohibits states from denying individuals “the
+equal protection of the laws.” In the most general terms, states must not classify or differentiate among
+similarly situated individuals in a manner that violates this constitutional guarantee. When analyzing an
+equal protection challenge, a court must first determine which legal standard to apply. The most
+deferential standard of equal protection review is rational basis, under which a court will generally uphold
+a challenged classification as long as it is reasonably related to a legitimate government purpose. Courts
+subject classifications based on sex, however, to a more stringent standard—intermediate scrutiny. If
+intermediate scrutiny applies, the parties seeking to defend a sex-based classification must show an
+“exceedingly persuasive justification” or “important government interest” for classifying individuals
+based on sex and must demonstrate that the classification is “substantially related” to achieving that
+interest.
+In equal protection challenges raised in another context—school restroom access—several federal
+appellate courts have concluded that laws prohibiting transgender individuals from access consistent with
+their gender identity amount to sex-based classifications subject to intermediate scrutiny. In addition, the
+Fourth and Ninth Circuits have held that transgender individuals constitute a quasi-suspect class for equal
+protection purposes—that is, a class of individuals who warrant heightened protection under the law—and
+that transgender-based classifications are subject to intermediate scrutiny on that basis.
+Challenges to State Laws in Federal Appellate Courts
+When analyzing the legal bases for the preliminary injunctions at issue, the appellate courts considering
+the challenges to the Arkansas, Tennessee, Kentucky, and Alabama laws differed on the applicable
+standard of review. The Eighth Circuit construed the Arkansas law as classifying individuals based on
+sex, held that intermediate scrutiny applied, and concluded it was likely that the plaintiffs would prevail
+on their claim. By contrast, both the Sixth and Eleventh Circuits held that rational basis review applied
+and that the challenged laws neither contained a sex classification nor targeted a quasi-suspect class. (The
+Sixth and Eleventh Circuits also rejected arguments related to the Due Process Clause of the Fourteenth
+Amendment, further discussion of which is beyond the scope of this Sidebar.)
+Eighth Circuit: Brandt v. Rutledge
+The Eighth Circuit affirmed a district court’s preliminary injunction of Arkansas’s law banning “gender
+transition procedures” for minors, reasoning that the law was a sex classification that did not satisfy
+intermediate scrutiny. Arkansas’s law bans procedures and drugs intended to remove or alter “physical or
+anatomical characteristics or features that are typical for the individual’s biological sex” or “create
+physiological or anatomical characteristics that resemble a sex different from the individual’s biological
+sex.” Specific medical services identified in the law include puberty blockers, “cross-sex hormones,” and
+“gender reassignment surgery.” Prohibited procedures do not include those for individuals “born with a
+medically verifiable disorder of sex development.”
+Reviewing the injunction, the Eighth Circuit reasoned that the law discriminates on the basis of sex
+because medical procedures permitted for minors of one sex are denied to minors of another sex. For
+instance, a minor born as a male can be prescribed testosterone, but a minor born as a female is not
+permitted to receive that treatment. The court thus viewed the law as subject to intermediate scrutiny. The 
+Congressional Research Service 3
+state’s asserted justification for the law was its interest in protecting minors from “experimental medical
+treatment” and regulating medical ethics. The Eighth Circuit concluded that there was substantial
+evidence to support the district court’s findings that the medical treatments were a recognized standard of
+care and “supported by medical evidence … subject to rigorous study.” The Eighth Circuit accordingly
+determined that the lower court was not wrong to conclude the law’s prohibition was likely to fail
+intermediate scrutiny, as it was not substantially related to the state’s interest in protecting minors from
+experimental treatment and regulation of medical ethics.
+The full Eighth Circuit later denied a petition for rehearing en banc, with five judges dissenting from the
+denial and several others indicating that an appeal from a final judgment would offer the court a more
+comprehensive record to review. Following a trial in the case, the district court entered a permanent
+injunction against enforcement of the law, and that decision is now pending before the Eighth Circuit,
+which has granted a petition for an initial hearing en banc.
+Eleventh Circuit: Eknes-Tucker v. Governor of Alabama
+In contrast to the Eighth Circuit’s analysis in Brandt, the Eleventh Circuit held that specific provisions of
+a similar Alabama law did not amount to a sex-based or quasi-suspect classification for equal protection
+purposes. The court concluded that the challenged provisions were “best understood as a law that targets
+specific medical interventions for minors,” or as classifying based on age, and that it was “exceedingly
+likely” that the provisions satisfied rational basis review.
+The challenged provisions of Alabama’s law prohibit any person from prescribing or administering
+“puberty blocking medication,” “supraphysiologic doses of testosterone or other androgens to females,”
+and “supraphysiologic doses of estrogen to males,” when given “to attempt[] to alter the appearance of or
+affirm the minor’s perception of his or her gender or sex, if that appearance or perception is inconsistent
+with the minor’s sex as defined in this act.” The law’s other provisions, which were not challenged in the
+Eknes-Tucker lawsuit, include a prohibition of specific surgical procedures. The Alabama law defines a
+minor as a person under the age of 19, and defines sex to mean “‘[t]he biological state of being male or
+female, based on the individual’s sex organs, chromosomes, and endogenous hormone profiles.’”
+The Eleventh Circuit rejected the plaintiffs’ assertion that the provisions classify based on sex because the
+law uses sex-based terms to criminalize certain treatments. The law refers to sex, the court decided, only
+because the medical interventions at issue concern physiological sex characteristics. “[I]t is difficult to
+imagine how a state might regulate the use of puberty blockers and cross-sex hormones . . . in specific
+terms without referencing sex in some way,” the court observed. More significantly, the court reasoned
+that the challenged provisions do not distinguish between men and women by denying an opportunity to
+one sex but not the other—a key feature of sex-based classifications for equal protection purposes. Rather,
+in the court’s view, the restrictions on puberty blockers and hormone treatment apply to all minors,
+regardless of sex. The appellate court also rejected the argument, adopted by the lower court, that a
+classification based on gender nonconformity “indirectly classifies on the basis of sex.” The appellate
+court held that the lower court had relied on inapposite precedent to reach that conclusion, including a
+Supreme Court decision interpreting Title VII of the Civil Rights Act of 1964. That decision, the court
+reasoned, addressed a federal statute, not the different text and meaning of the Equal Protection Clause,
+and did not concern the regulation of medical treatments. The Eleventh Circuit also rejected the view that
+transgender persons constitute a quasi-suspect class distinct from sex.
+The court did observe that the challenged provisions prohibit medical treatment for minors that only
+gender nonconforming or transgender individuals would want to undergo. Addressing that distinction, the
+court stated that the law would trigger heightened scrutiny if regulating medical treatment were “a pretext
+for invidious discrimination against such individuals.” In the case before the court, however, “the district
+court did not find that Alabama’s law was based on invidious discrimination.” Nor did the challenged 
+Congressional Research Service 4
+provisions “further any particular gender stereotype.” Rather, the provisions, in the court’s view, refer to
+and “reflect[] biological differences between males and females.” In a concurring opinion, Judge Brasher
+agreed that rational basis review was the applicable standard but added that even if intermediate scrutiny
+applied to the challenged provisions of Alabama’s law, it was likely the state would satisfy that standard.
+The plaintiffs have filed a petition seeking en banc review of the panel decision.

@@ -327,10 +327,42 @@ Avoid concurrent writers (two processes opening the same project RAG DB at once)
 
 ### Embeddings configuration
 
-By default, embeddings use the same API key/base URL as chat (`GROK_API_KEY` / `GROK_BASE_URL`) and model `text-embedding-3-small`.
+By default, embeddings use the same API key/base URL as chat (`GROK_API_KEY` / `GROK_BASE_URL`) and model `text-embedding-3-small`. The system also supports **local embedding providers** (GloVe averaging and hash-based) for offline usage.
 
+#### OpenAI-compatible API (default)
 - Override embeddings endpoint: `GROK_EMBEDDINGS_BASE_URL`
 - Override embeddings model: `GROK_EMBEDDINGS_MODEL`
+- Provider key: `project.rag.embeddings.provider = "openai"` (default)
+
+#### GloVe averaging (local)
+Uses a pre‑computed SQLite database of GloVe word vectors. The embedding of a document is the average of its word vectors, normalized.
+- Set provider: `project.rag.embeddings.provider = "glove"`
+- Path to SQLite database: `project.rag.embeddings.gloveModelPath` (default: `data/glove/glove_50d.db`)
+- You can convert any GloVe‑format text file to SQLite with:
+  ```bash
+  bun run scripts/convert-glove-to-sqlite-stream.ts <input.txt> <output.db>
+  ```
+
+#### Hash embeddings (local)
+Deterministic hash‑based embeddings that require no external API and no vocabulary. Useful for reproducible, fast embeddings.
+- Set provider: `project.rag.embeddings.provider = "hash"`
+- Dimension: `project.rag.embeddings.hashDimension` (default: 256)
+
+All embedding settings can be configured via `/config` → RAG → Embeddings, or via `grok config set` commands, environment variables (`GROK_EMBEDDINGS_PROVIDER`, `GROK_EMBEDDINGS_GLOVE_MODEL_PATH`, `GROK_EMBEDDINGS_HASH_DIMENSION`), or JSON settings.
+
+See `docs/settings.json.md` for the full schema.
+
+### Vector quantization for faster search
+
+By default, vector quantization is **disabled** because it must be enabled explicitly after indexing. When enabled, the vector database uses product quantization to compress vectors, speeding up search at a small accuracy cost. Quantization is required for certain operations like `vector_quantize_scan()`.
+
+- **Enable quantization**: `grok rag index --quantize`
+- **Preload quantized vectors** (faster search, more memory): `grok rag index --quantize --preload`
+- **Configuration**: Set `project.rag.quantize = true` and optionally `project.rag.quantizePreload = true` in `.grok/settings.json`
+- **Via environment**: `GROK_RAG_QUANTIZE=1`, `GROK_RAG_QUANTIZE_PRELOAD=1`
+- **Interactive**: `/config` → RAG → enable **Quantize** and **Quantize preload**
+
+Quantization settings can be overridden by CLI flags (flags take precedence).
 
 ### Optional: k-medoids for more diverse context
 

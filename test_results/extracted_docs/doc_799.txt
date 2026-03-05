@@ -1,0 +1,81 @@
+Background on the 2024 Farmworker Protection Rule
+DOL indicates that the purpose of the Farmworker Protection Rule is to strengthen “protections for
+agricultural workers,” enhance the agency’s “capabilities to monitor H-2A program compliance and take
+necessary enforcement actions against program violators,” and ensure that “hiring H-2A workers does not
+adversely affect the wages and working conditions of similarly employed workers” in the United States.
+The rule amends existing regulations and includes provisions that encompass six areas: (1) “protections
+for worker voice and empowerment,” (2) “clarification of termination for cause,” (3) “immediate effective
+date for updated adverse effect wage rate,” (4) “enhanced transparency for job opportunity and foreign
+labor recruitment,” (5) “enhanced transparency and protections for agricultural workers,” and (6)
+“enhanced integrity and enforcement capabilities.”
+In the pending litigation, the first set of provisions, i.e., “protections for worker voice and empowerment”
+is most relevant. This set revises 20 C.F.R. § 655.135(h) and adds two new subsections, (m) and (n). DOL
+has stated that these provisions aim to protect H-2A workers by “explicitly protecting certain activities all
+workers must be able to engage in without fear of intimidation, threats, and other forms of retaliation”;
+safeguarding “collective action and concerted activity for mutual aid and protection”; allowing workers to
+decline to listen to “employer speech regarding protected activities without fear of retaliation”; permitting
+workers to “designate a representative of their choosing in certain interviews”; and authorizing workers to
+“invite or accept guests to worker housing.” The rule states that it “does not require employers to
+recognize labor organizations or to engage in any collective bargaining activities such as those that may
+be required by the [National Labor Relations Act].” The National Labor Relations Act (NLRA) is a law
+that gives collective bargaining rights to workers who qualify as “employees” under the definition in the
+statute. The NLRA explicitly excludes agricultural workers from the definition of “employee.”
+Kansas v. U.S. Department of Labor
+On June 10, 2024, Kansas and 16 other states, a trade association of growers, and a private farm filed a
+complaint against DOL in the U.S. District Court for the Southern District of Georgia, arguing, among
+other things, that the Farmworker Protection Rule violates the NLRA because it gives H-2A agricultural
+workers collective bargaining rights when the NLRA explicitly excludes agricultural workers from having
+those rights. The plaintiffs subsequently filed a motion for a preliminary injunction and temporary
+restraining order seeking a stay of the effective date of the Farmworker Protection Rule or, in the
+alternative, a temporary restraining order until the court grants an injunction. The court held a hearing on
+the motion on August 2, 2024, and on August 26, 2024, the federal district court judge granted the
+plaintiffs’ motion for a preliminary injunction.
+Plaintiffs’ Arguments
+The arguments below were raised in the plaintiffs’ motion for preliminary injunction. This Sidebar does
+not cover every argument the plaintiffs advanced.
+The Rule Violates the NLRA
+The plaintiffs argued that the rule is not in accordance with existing law and that DOL is providing
+collective bargaining protection to H-2A workers. According to the plaintiffs, parts of the rule are almost
+a direct copy of certain provisions in the NLRA, such as those regarding unfair labor practices and
+representatives and elections. The plaintiffs acknowledged that the rule does not expressly declare that H2A workers have a right to unionize and collectively bargain, but they claim that the protections conferred
+by the rule effectively confer such rights in contravention of the NLRA.
+The Rule Exceeds DOL’s Authority Under the INA
+The plaintiffs also argued that DOL has very limited authority to issue regulations under 8 U.S.C. § 1188.
+Specifically, the plaintiffs state that Section 1188(a), which is the part of the statute DOL relied on to
+promulgate the rule, is being misinterpreted by the agency. According to the plaintiffs, DOL is supposed
+to neutralize any adverse effects from an influx of H-2A workers and not necessarily take affirmative
+steps to improve the working conditions for H-2A workers. In addition, according to the plaintiffs,
+Section 1188(a) does not explicitly give DOL rulemaking authority.
+The plaintiffs filed this lawsuit before the Supreme Court’s decision in Loper Bright Enterprises v.
+Raimondo, which overturned the Chevron doctrine. The Chevron doctrine directed courts to defer to an
+agency’s reasonable interpretation of ambiguous statutes the agency administers. The plaintiffs argued
+that because Congress’s intent was clear in 8 U.S.C. § 1188, DOL was not entitled to Chevron deference.
+Relatedly, the plaintiffs pointed out that DOL relies on caselaw that existed before the Supreme Court
+overruled the Chevron doctrine rather than on the statute itself.
+DOL’s Arguments
+The arguments below were raised in DOL’s response to the plaintiffs’ motion for preliminary injunction.
+This Sidebar does not cover every argument DOL advanced.
+The Rule Does Not Violate the NLRA
+In summary, DOL argued that the rule does not require employers to recognize unions or engage in
+collective bargaining and is therefore not in violation of the NLRA. According to DOL, the rule expands
+on existing H-2A anti-discrimination provisions, and individuals who fall outside the NLRA’s definition
+of “employee” can still be protected by other statutes and regulations. DOL states that the rule does just
+that by granting protections to those not covered by the NLRA. Finally, DOL argues that the rule and the
+NLRA do not conflict with one another.
+The Rule Is a Proper Exercise of DOL’s Statutory Obligation
+DOL responded to the plaintiffs’ argument that the rule exceeded its authority by stating that the INA
+grants it rulemaking authority. DOL pointed out that provisions in 8 U.S.C. § 1188 expressly reference
+DOL regulations and that Congress authorized it to implement the mission of the statute through
+regulation. Further, DOL argued that H-2A workers will become more attractive to U.S. employers if they
+receive fewer protections than U.S. workers and that this in turn will “adversely affect” U.S. workers. The
+goal of the rule, according to DOL, is to place H-2A workers on similar footing as U.S. workers to prevent an adverse effect in the long run. Lastly, DOL maintained that it has historically understood the
+“adverse effect” requirement “as requiring parity between the terms and conditions of employment
+provided to H-2A workers ... and as establishing a baseline ‘acceptable’ standard for working conditions
+below which [U.S. workers] would be adversely affected.”
+DOL filed its response after the Supreme Court announced the overruling of Chevron in Loper Bright
+Enterprises. Citing Loper Bright Enterprises in a footnote, DOL argued that the best reading of Section
+1188 was that Congress had delegated to DOL broad, discretionary authority to take action to prevent
+adverse effects to workers in the United States. The agency claimed that the rule is an appropriate
+exercise of this discretionary authority, including because the rule “ensures that agricultural employers
+cannot use the H-2A workforce to undermine workers in the United States who seek better wages and
+working conditions.”

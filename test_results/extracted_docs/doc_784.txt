@@ -1,0 +1,1126 @@
+1) A BRIEF HISTORY OF NEUROSCIENCE
+Humans have long been interested in exploring the nature of mind. The long history of 
+their enquiry into the relationship between mind and body is particularly marked by 
+several twists and turns. However, brain is the last of the human organs to be studied in 
+all seriousness, more particularly its relation with human mind.
+Around 2000 BC and for long since that time the Egyptians did not think highly of the 
+brain. They would take out the brain via the nostrils and discarded it away before 
+mummifying the dead body. Instead, they would take great care of the heart and other 
+internal organs. However, a few Egyptian physicians seemed to appreciate the 
+significance of the brain early on. Certain written records have been found where 
+Egyptian physicians had even identified parts and areas in the brain. Besides, Egyptian 
+papyrus, believed to have been written around 1700 BC, carried careful description of the 
+brain, suggesting the possibility of addressing mental disorders through treatment of the 
+brain. That is the first record of its kind in the human history (Figure 1).
+The Greek mathematician and philosopher, Plato (427-347) believed that the brain was 
+the seat of mental processes such as memory and feelings (Figure 2). Later, another 
+Greek physician and writer on medicine, Galen (130-200 AD) too, believed that brain 
+disorders were responsible for mental illnesses. He also followed Plato in concluding that 
+the mind or soul resided in the brain. However, Aristotle (384-322 BC), the great 
+philosopher of Greece at that time, restated the ancient belief that the heart was the 
+superior organ over the brain (Figure 3). In support of his belief, he stated that the brain 
+was just like a radiator which stopped the body from becoming overheated, whereas the 
+heart served as the seat of human intelligence, thought, and imagination, etc. 
+ 
+Medieval philosophers felt that the brain was constituted of fluid-filled spaces called 
+ventricles where the ‘animal spirits’ circulated to form sensations, emotions, and 
+memories. This viewpoint brought about a shift in the previously held views and also 
+provided the scientists with the new idea of actually looking into the brains of the humans 
+and animals. However, no such ventricles as claimed by them were found upon 
+examination nor did the scientists find any specific location for the self or the soul in the 
+brain.
+In the seventeenth century, the French philosopher Rene Descartes (1596-1650) 
+described mind and body as separate entities (Figure 4) yet they interacted with each 
+other via the pineal gland, the only structure not duplicated on both sides of the brain. He 
+maintained that the mind begins its journey from the pineal gland and circulates the rest 
+of the body via the nerve vessels. His dualist view influenced the mind-body debate for 
+Page 4 of 35
+the next two centuries. However, through the numerous experiments undertaken in the 
+19th century, the scientists gathered evidences and findings which all emboldened the 
+scientists to claim that the brain is the center of feelings, thoughts, self and behaviors.
+Just to give an example of the kind of experiments performed on a particular physical 
+activity which pointed to the brain as the regulator of bodily actions, imagine activating a 
+particular area of the brain through electrical stimulus, you would actually see it 
+effectively impacting a corresponding body-part, say the legs by making them move. 
+Through findings such as these as well as others, we have come of know also of the 
+special activities of the electrical impulses and chemicals in the brain.
+Explorations continued into the later centuries and, by the middle of 20th century, human 
+understanding of the brain and its activities have increased manifold. Particularly, 
+towards the end of twentieth century, with further improvement in imaging technologies 
+enabling the researchers to undertake investigation on functioning brains, the scientists 
+were deeply convinced that the brain and the rest of the nervous systems monitored and 
+regulated emotions and bodily behaviors (Figures 5 & 6). Since then, the brain together 
+with the nervous system have become the center of attention as the basis of mental 
+activities as well as physical behaviors, and gradually a separate branch of science called 
+neuroscience focusing specifically on the nervous systems of the body has evolved in the 
+last 40 so years.
+To better understand modern neuroscience in its historical context, including why the 
+brain and nervous system have become the center of attention in the scientific pursuit of 
+understanding the mind, it is useful to first review some preliminary topics in the 
+philosophy of science. Science is a method of inquiry that is grounded in empirical 
+evidence. Questions about the unknown direct the path of science as a method. Each 
+newly discovered answer opens the door to many new questions, and the curiosity of 
+scientists motivates them to answer those unfolding questions. When a scientist 
+encounters a question, she or he develops an explanatory hypothesis that has the potential 
+to answer it. But it is not enough to simply invent an explanation. To know if an 
+explanation is valid or not, a scientist must test the hypothesis by identifying and 
+observing relevant, objectively measurable phenomena. Any hypothesis that cannot be 
+tested in this way is not useful for science. A useful hypothesis must be falsifiable, 
+meaning that it must be possible to ascertain, based on objective observations, whether 
+the hypothesis is wrong and does not explain the phenomena in question. If a hypothesis 
+is not falsifiable, it is impossible to know whether it is the correct explanation of a 
+phenomenon because we cannot test the validity of the claim.
+Why does the scientific method rely only on objective observations? Science is a team 
+effort, conducted across communities and generations over space and time. For a 
+hypothesis to be accepted as valid, it must be possible for any interested scientist to test 
+it. For example, if we want to repeat an experiment that our colleague conducted last 
+year, we need to test the hypothesis under the same conditions as the original experiment. 
+This means it must be possible to recreate those conditions. The only way to do this in a 
+precise and controlled manner is if the scientific method relies on empirical evidence. 
+Page 5 of 35
+Furthermore, conclusions in science are subject to peer review. This means that any 
+scientist’s colleagues must be able to review and even re-create the procedures, analyses, 
+and conclusions made by that scientist before deciding if the evidence supports the 
+conclusions. Because we don’t have access to the subjective experiences of others, it is 
+not possible to replicate experiments that are grounded in subjectivity because we cannot 
+recreate the conditions of such an experiment, nor can we perform identical analyses of 
+subjective phenomena across people. No matter how many words we use, we cannot 
+describe a single subjective experience accurately enough to allow another person to 
+experience it the same way. Consequently, we cannot have a replicable experiment if the 
+evidence is not objective.
+Therefore, two necessary features of a scientific hypothesis are the potentials to falsify 
+and replicate it. And both of these requirements are dependent on objectively measurable 
+evidence. This is why we began with the claim that science is a method of inquiry that is 
+grounded in empirical evidence.
+Neuroscience is a scientific discipline like any other, in that the focus of investigation is 
+on objectively measurable phenomena. But unlike most other sciences, this poses a 
+particularly challenging problem for neuroscience. How do we investigate the mind, 
+which is subjective by nature, if empirical evidence is the only valid form of data to 
+support a conclusion in science? The relationship between the mind and the body has 
+become known as the “mind-body problem” in modern neuroscience and Western 
+philosophy of mind, because there is a fundamental challenge to explain the mind in 
+objective terms. Scientists view this relationship as a problem because their method of 
+inquiry investigates phenomena from a third-person (he, she, it, they) perspective, while 
+the subjective experience of the mind has a first-person (I, we) perspective. The mindbody problem has been a central, unresolved topic in Western philosophy of mind for 
+centuries, and is a topic we will discuss in more detail in a later chapter of this textbook 
+when we explore the neuroscience of consciousness.
+For now we can start simply by stating that the majority of scientists, including 
+neuroscientists, hold the philosophical view that all phenomena are caused by physical 
+processes, including consciousness and its related mental phenomena. This view might be 
+proven wrong as inquiry proceeds, but is taken as the most simple (or parsimonious) 
+starting point. Science uses the principle of parsimony, of starting with simple rather than 
+complex explanations, as a way to facilitate production of falsifiable hypotheses: more 
+complex explanations are built up as evidence accumulates and more simple explanations 
+are excluded. Modern neuroscience investigates the brain and nervous system based on 
+the working assumption that the objective physical states of those biological systems are 
+the cause of the subjective mental states of the organism that has those biological 
+systems. In other words, when you smell a fresh flower, taste a cup of chai, listen to the 
+birds, feel the wind on your cheek, and see the clouds in the sky, those subjective 
+experiences are caused by the momentary physical processes in your body, nervous 
+system, and brain interacting with the physical environment. Under this philosophical 
+view, then, mental states correlate with physical states of the organism, and by 
+investigating those physical states scientists can understand the nature of those mental 
+Page 6 of 35
+states. So while this might seem counterintuitive based on the Buddhist method of 
+inquiry, for a neuroscientist it is obvious to begin the investigation by focusing on 
+physical phenomena; on the empirical evidence. Neuroscientists often equate the “neural 
+correlates” of consciousness as consciousness itself. We will explore in more depth the 
+relationship between form and function between the body and mind later in the textbook, 
+as well as the philosophical view of materialism in neuroscience.
+It will also be helpful to introduce some basic concepts in neuroscience before exploring 
+topics in more detail. The primary goal in this year of the neuroscience curriculum is that 
+you become familiar with the brain and nervous system. The human brain is the most 
+complex and extraordinary object known to all of modern science. Because of this 
+immense complexity, it can be very challenging to encounter neuroscience in an 
+introductory course such as this one. So patience is an important part of the learning 
+process. First, neuroscience is still very much in its infancy as a scientific discipline, and 
+there are vastly more questions than there are answers. Second, it can be a challenge for 
+new students of neuroscience to simultaneously learn the details of the basic concepts 
+while understanding and appreciating the broader conclusions. It’s like learning a 
+language while also reading the literature of that language! Neuroscience is a scientific 
+discipline with many different levels of exploration and explanation. Therefore, it is 
+important for you to pay attention to the level at which are we speaking when you learn 
+new concepts. For example, the brain and nervous system are made up of cells called 
+neurons or nerve cells, which we will discuss in detail in Chapter 4. Neurons connect 
+with each other to form complex networks, and from those different patterns of 
+connection emerge different phenomena (such as a thought or a sensation) in the brain 
+and ultimately in the mind. This may sound confusing at the moment, but we will explore 
+these topics in more detail in later chapters. In neuroscience, levels of explanation can 
+span from very low levels such as the molecular mechanisms involved in the neuron 
+cells, to middle levels such as particular networks of neurons in the brain, to very high 
+levels such as how humans engage in thoughts, speech, and purposeful actions.
+The brain is the bodily organ that is the center of the nervous system. But it might 
+surprise you to learn that not all animals that have neurons have a brain! For example, 
+jellyfish have neurons, but they don’t have a brain. Jellyfish are very simple organisms 
+that live in the ocean, and their neurons allow them to sense some basic information 
+about their environment. But because they don’t have a brain to process that 
+environmental information, they can only react to their immediate environment. Without 
+a brain, jellyfish cannot think, make plans for the future, have memories of the past, or 
+make decisions. Their behavior is limited to reactions and reflexes. Complex networks of 
+neurons in the human brain are the physiological substrates that support what we 
+experience as human beings. But we are not the only species with a brain. Later in this 
+textbook we will explore the relationship between brain complexity and behavior across 
+species.
+For organisms that have a brain, information can flow along the complex networks of 
+neurons in different ways. Some networks, also called pathways or systems, flow from 
+the sensory organs to the brain, while others flow from the brain to the muscles of the 
+Page 7 of 35
+body. Afferent neurons, also called sensory neurons or receptor neurons, communicate 
+information from the sensory organs to the brain. Efferent neurons, also called motor 
+neurons, communicate information from the brain to the muscles of the body. 
+Interneurons, also called association neurons, communicate information between neurons 
+in the central nervous system and brain. This allows for the sensory and motor systems to 
+interact, facilitating complex behaviors and integrating across the different sensory 
+modalities. For example, to be able to reach for an object such as a teacup, your brain 
+needs to link together your ability to sense the presence and location of the cup with your 
+ability to control the muscles in your arm to grasp the cup. Interneurons perform this 
+function.
+Finally, before starting your journey in learning about neuroscience, pause to contemplate 
+some of the big questions and insights as they pertain to the Western science of the mind. 
+As you go through this textbook and learn new concepts, it will be useful to think about 
+them within the context of these big questions. For example, what is sentience? Is a brain 
+required for sentience? The jellyfish we mentioned earlier can have basic sensations and 
+react to the environment without a brain, but it cannot think or have memory. What are 
+the necessary conditions to be sentient? What is the relationship between the mind and 
+body? As a method of inquiry, can science directly investigate subjective experience? Or 
+must we use alternative, and perhaps complementary methods of inquiry to achieve that? 
+Do we perceive the physical world directly, or are our perceptions constructed? If the 
+latter, how does that happen?
+2) WHAT IS NEUROSCIENCE AND WHAT ARE ITS BRANCH SCIENCES?
+In the case of humans, it is the branch of science that studies the brain, the spinal cord, 
+the nerves extending from them, and the rest of the nervous systems including the 
+synapses, etc. Recall that neurons, or nerve cells, are the biological cells that make up the 
+nervous system, and the nervous system is the complex network of connections between 
+those cells. In this connection, it may involve itself with the cellular and molecular bases
+of the nervous system as well as the systems responsible for sensory and motor activities 
+of the body. It also deals with the physical bases of mental processes of all levels, 
+including emotions and cognitive elements. Thus, it concerns itself with issues such as 
+thoughts, mental activities, behaviors, the brain and the spinal cord, functions of nerves, 
+neural disorders, etc. It wrestles with questions such as What is consciousness?, How and 
+why do beings have mental activities?, What are the physical bases for the variety of 
+neural and mental illnesses, etc.
+In identifying the sub-branches within neuroscience, there are quite a few ways of doing 
+so. However, here we will follow the lead of the Society for Neuroscience which 
+identifies the following five branches: Neuro-anatomy, Developmental Neuroscience, 
+Cognitive Neuroscience, Behavioral Neuroscience, and Neurology. Of these, 
+Page 8 of 35
+neuroanatomy concerns itself mainly with the issue of structures and parts of the nervous 
+system. In this discipline, the scientists employ special dyeing techniques in identifying 
+neurotransmitters and in understanding the specific functions of the nerves and nerve 
+centers. Neurotransmitters are chemicals released between neurons for transmission of 
+signals. When a neuron communicates with its neighboring cells, it releases 
+neurotransmitters and its neighbors receive them. In developmental neuroscience, the 
+scientists look into the phases and processes of development of nervous system, the 
+changes they undergo after they have matured, and their eventual degeneration. In this 
+regard, the scientists also investigate the ways neurons go about seeking connection with 
+other neurons, how they establish the connection, and how they maintain the connection 
+and what chemical changes and processes they have to undergo for these activities. 
+Neurons make connections to form networks, and the different patterns of connectivity 
+support different functions. Patterns of connectivity can change over different time 
+scales, such as developmental changes over a lifetime from infancy to old age, but also in 
+the short term such as learning a new concept. Neuroplasticity is the term that describes 
+the capacity of the brain to change in response to stimulation or even damage: it is not a 
+static organ, but is highly adaptable. In cognitive neuroscience, they study the functions 
+of behaviors, perceptions, and memories, etc. By making use of non-invasive methods 
+such as the PTE and MRI technologies that allow us to take detailed pictures of the brain 
+without opening the skull, they look into the neural pathways activated during 
+engagement in language, solutions, and other activities. Cognitive neuroscience studies 
+the mind-body relationship by discovering the neural correlates to mental and behavioral 
+phenomena. Behavioral neuroscience looks into the underpinning processes of human 
+and animal behaviors. Using electrodes, they measure the neural electrical activities 
+occurring alongside our actions such as visual perception, language use, and generating 
+memories. Through fMRI scan techniques, another technology that allows us to take 
+detailed motion pictures of brain activity over time without opening the skull, they strive 
+to arrive at closer understanding of the brain parts in real time. Finally, neurology makes 
+use of the fundamental research findings of the other disciplines in understanding the 
+neural and neuronal disorders and strives to explore new innovative ways of detecting, 
+preventing, and treating these disorders. 
+3) THE SUBJECT MATTER OF NEUROSCIENCE: THE MAIN SYSTEMS AND THEIR 
+PARTS
+The field of neuroscience is the nervous system of animals in general and of humans in
+particular. In the case of humans, its nervous system has two main components: the 
+central nervous system (CNS) and the peripheral nervous system (PNS) (Figure 7). The 
+CNS comprises of the brain and the spinal cord. Their functions involve processing and 
+interpreting the information received the senses, skin, muscles, etc. and giving responses 
+Page 9 of 35
+that direct and dictate specific actions such as particular movements by different parts of 
+the body.
+The peripheral nervous system (PNS) includes all the rest of the nervous system aside 
+from the central nervous system. This means that it comprises the 12 pairs of cranial 
+nerves that originate directly from the brain and spread to different parts of the body 
+bypassing the spinal cord, and the 31 pairs of spinal nerves that pass through the spinal 
+cord and spread to different parts of the body. Thus, the PNS is mainly constituted of 
+nerve. PNS is sometimes further classified into voluntary nervous system and the 
+autonomic nervous system. This is based on the fact that the nerves in the former system 
+are involved in making conscious movements, whereas those in the latter system make 
+movements over which the person does not have control. Obviously, the former category 
+of nerves includes those associated with the muscles of touch, smell, vision, and skeleton. 
+The latter includes nerves spread over muscles attached with heart beats, blood pressure, 
+glands, and smooth muscles.
+4) AN EXCLUSIVE LOOK AT ‘NEURONS’, A FUNDAMENTAL UNIT OF THE 
+BRAIN AND THE NERVOUS SYSTEM 
+Neurons
+Neurons are the cellular units of the brain and nervous system, and are otherwise called 
+nerve cells (Figure 8). Estimates of the number of brain neurons range from 50 billion to 
+500 billion, and they are not even the most numerous cells in the brain. Like hepatocyte 
+cells in the liver, osteocytes in bone, or erythrocytes in blood, each neuron is a selfcontained functioning unit. Its internal components, the organelles, include a nucleus 
+harboring the genetic material (DNA), energy-providing mitochondria, and proteinmaking ribosomes. As in most other types of cells, the organelles are concentrated in the 
+main cell body. In addition, characteristic features of neurons are neurites—long, thin, 
+finger-like or threadlike extensions from the cell body (soma). The two main types are 
+dendrites and axons. Usually, dendrites receive nerve signals, while axons send them 
+onward. The cell body of a neuron is about 10-100 micrometers across, that is 1/100th to 
+1/10th of one millimeter. Also, the axon is 0.2-20 micrometers in diameter, dendrites are 
+usually slimmer. In terms of length, dendrites are typically 10-50 micrometers long, 
+while axons can be up a few centimeters (inches). This is mostly the case in the central 
+nervous system (Figure 9).
+Classification of neurons
+Page 10 of 35
+There are numerous ways of classifying neurons among themselves. One of them is by 
+the direction that they send information. On this basis, we can classify all neurons into 
+the three: sensory neurons, motor neurons, and interneurons. The sensory neurons are 
+those that send information received from sensory receptors toward the central nervous 
+system, whereas the motor neurons send information away from the central nervous 
+system to muscles or glands. The interneurons are those neurons that send information 
+between sensory neurons and motor neurons. Here, the sensory neurons receive 
+information from sensory receptors (e.g., in skin, eyes, nose, tongue, ears) and send them 
+toward the central nervous system. Because of this, these neurons are also called afferent 
+neurons as they bring informational input towards the central nervous system. Likewise, 
+the motor neurons bring motor information away from the central nervous system to 
+muscles or glands, and are thus called efferent neurons as they bring the output from the 
+central nervous system to the muscles or glands. Since the interneurons send information 
+between sensory neurons and motor neurons, thus serving as connecting links between 
+them, they are sometimes called internuncial neurons. This third type of neurons is 
+mostly found in the central nervous system.
+Another way of classifying the neurons is by the number of extensions that extend from 
+the neuron’s cell body (soma) (Figure 10). In accordance with this system, we have 
+unipolar, bipolar, and multipolar neurons. This classification takes into account the 
+number of extensions extending initially from the cell body of the neuron, not the overall 
+number of extensions. This is because there can be unipolar neurons which have more 
+than one extensions in total. However, what the difference here is from the other two 
+types of neurons is that these unipolar neurons shall have only one initial extension from 
+the cell body. Most of the neurons are multipolar in nature. 
+Synapses
+Synapses are communication sites where neurons pass nerve impulses among themselves. 
+The cells are not usually in actual physical contact, but are separated by an incredibly thin 
+gap, called the synaptic cleft. Microanatomically, synapses are divided into types 
+according to the sites where the neurons almost touch. These sites include the soma, the 
+dendrites, the axons, and tiny narrow projections called dendritic spines found on certain 
+kinds of dendrites. Axospinodendrittic synapses form more than 50 percent of all 
+synapses in the brain; axodendritic synapses constitute about 30 percent (Figure 11). 
+How signals are passed among neurons
+Page 11 of 35
+Neurons send signals to each other across the synapses. Initially, signals enter into the 
+cell body of a neuron through their dendrites, and they pass down the axon until their 
+arrival at the axon terminals. From there, the signal is sent across to the next neuron. 
+Starting from the time the signal passes along the dendrites and axon, eventually reaching 
+the axon terminal, it consists of moving electrically charges ions, but at a synapse while 
+making that transition, it relies more on the structural shape of the chemical 
+neurotransmitters. 
+Every two neurons are separated by a gap, called synaptic cleft, at their synaptic site. The 
+neuron preceding the synapse is known as pre-synaptic neuron and the one following the 
+synapse is known as post-synaptic neuron. When the action potential of the pre-synaptic 
+neuron is passed along its axon and reaches the other end of it, it causes synaptic vesicles 
+to fuse or merge with the membrane. This releases the neurotransmitter molecules to pass 
+or diffuse across the synaptic cleft to the post-synaptic membrane and slot into receptor 
+sites (Figure 12).
+Neurotransmitter molecules slot into the same-shaped receptor sites in the postsynaptic 
+membrane. A particular neurotransmitter can either excite a receiving nerve cell and 
+continue a nerve impulse, or inhibit it. Which of these occurs depends on the type of 
+membrane channel on the receiving cell.
+The interaction among neurons or between a neuron and another type of body cell, all 
+occur due to the transfer of neurotransmitters. Thus, our body movements, mental 
+thought processes, as well as feelings, etc. are all dependent on the transfer of 
+neurotransmitters. 
+In particular, let’s take a look into how the muscle movements happen due to the transfer 
+of neurotransmitter. The axons of motor neurons extend from the spinal cord to the 
+muscle fibers. For intending to perform any action, either of the speech or body, the 
+command has to originate from the brain to the spinal cord. From the spinal cord, the 
+command has to pass through motor neurons to the specific body parts, upon which the 
+respective actions will be performed. The electrical impulse released along the axon of 
+the motor neuron arrives at the axon terminal. Once they are there, then the 
+neurotransmitters are secreted to carry the signals across the synapse. The receptors in the 
+membrane of the muscles cells attach to the neurotransmitters and stimulate the 
+electrically charged ions within the muscle cells. This leads to the contraction or 
+extension of the respective muscles. 
+Page 12 of 35
+5) FACTS ABOUT HUMAN BRAIN
+Brain is a complex organ generally found in vertebrates. Of all the brains, human brain is 
+even more complex. On average, a human brain weighs about one and a half kilogram, 
+and has over 100 billion neurons. Each of these neurons is connected with several other 
+neurons and thus, just the number of synapses (nerve cell connections) exceeds 100 
+trillion. The sustenance required to keep these neurons alive is supplied by different parts 
+of the body. For example, 25 percent of the body total oxygen consumption is used up by 
+the brain. Likewise, 25 percent of the glucose produced by our food is used up by it. Of 
+the total amount of blood pumped out by our heart, 15 percent goes to the brain. Thus, 
+from among the different parts of the body, the brain is the single part that uses the most 
+amount of energy. The reason for this is because the brain engages itself in unceasing 
+activity, day and night, of interpreting data form the internal and external environment, 
+and respond to them. To protect this important organ from harm, it is naturally enclosed 
+in three layers of protection, with an additional cushioning fluid in between. These layers 
+are, in turn, protected with the hard covering, the skull, which is once again wound 
+around by the skin of the scalp (Figure 13).
+The main function of the brain is to enhance the chance of survival of the person by 
+proper regulation of the body conditions based on the brain’s reading of the internal and 
+external environment. The way it carries out this function is by first registering the 
+information received and responding to them by undertaking several activities. The brain 
+also gives rise to inner conscious awareness alongside performing those processes. When 
+the data, released by the different body senses, in the form of electrical impulses 
+uninterruptedly arrive at the brain, the brain first of all checks their importance. When it 
+finds them to be either irrelevant or commonplace, then it makes them dissolve by 
+themselves and the concerned person doesn’t even generate an awareness of them. This is 
+how only around 5 percent of the overall information received by the brain ever reaches 
+our consciousness. For the rest of the information, the brain may process them, but they 
+never become the subject of our consciousness. If, on the other hand, the information at 
+hand is important or novel, the brain increases it impulses and allows it to active all over 
+its parts. Remaining active for over a period of time, a conscious awareness unto this 
+impulse is generated. Sometimes, in the wake of generating a conscious awareness, the 
+brain sends commands to relevant muscles for either contraction or extension, thus 
+making the body parts in question to engage in certain actions.
+Page 13 of 35
+6) MAJOR PARTS OF HUMAN BRAIN
+Human brain is enclosed within its natural enclosures. In its normal form, it is found to be 
+composed of three major parts (Figure 14).
+Cerebrum
+Of the three parts mentioned above, cerebrum is located in the uppermost position and is 
+also the largest in size. It takes up ¾ of the entire brain size. It is itself composed of two 
+brain hemispheres—the right and the left hemispheres. The two hemispheres are held 
+together by a bridge like part called corpus callosum, a large bundle of neurons. The 
+covering layer of the hemispheres is constituted of the cortex of which the average 
+thickness is between 2 to 4 millimeters. The higher centers of coordinating and regulating 
+human physical activities are located in the cortex areas, such as the motor center, 
+proprioception center (proprioception is the sense of the relative position of the body in 
+space, for example being aware that your arm is extended when reaching for the 
+doorknob), language center, visual center, and auditory center. The outer surface of the 
+cortex is formed of grooves and bulges because of which, despite being quite expansive, 
+the cortex is able to be contained in the relatively small area. In terms of its basic 
+composition, the outer layer of cortex is mostly made of gray matter, which is mainly 
+comprised of cell bodies and nerve tissues formed out of nerve fibers. This matter is gray 
+with a slight reddish shade in color. In the layer below, the cortex is formed of the white 
+matter, which is, as the name suggests, white in color and mainly comprised of nerve 
+tissues formed out of nerve fibers wrapped around with myelin sheath. Some nerve fibers 
+wrapped in myelin sheath bind together the right and left hemispheres of the cerebrum, 
+while others connect it with cerebellum, brainstem, and the spinal cord. Most of the brain 
+parts belong to cerebrum, such as amygdala and hippocampus, as well as thalamus, 
+hypothalamus, and other associated regions. In short, of the division into forebrain, 
+midbrain, and hindbrain—in which the entirety of brain is accounted for, the cerebrum 
+contains the whole of forebrain (Figure 15).
+The surface area of the cerebral cortex is actually quite large, and described above, it 
+becomes folded to fit inside the skull. Humans are highly intelligent and creative animals 
+not just because of the size of our brains, but also because of the complexity of the 
+connections among our neurons. The folded nature of the human cortex promotes more 
+complex connections between areas. For example, take a piece of blank paper, and draw 
+five dots, one on each corner and one in the middle. Now draw lines from each dot to the 
+other four dots. Imagine if these five dots were buildings, and the lines you drew were 
+roads, then it would require more time to traverse from one corner to another corner than 
+from one corner to the center. But what if you fold the four corners of the paper on top of 
+Page 14 of 35
+the center of the page? Suddenly all five of those dots become immediate neighbors, and 
+it becomes very easy to walk from one “building” to another. The folding of the cortex 
+has a similar effect. Neurons make connections with their neighbors, and if folding the 
+cortex increases the number of neighbors each neuron has, then it also increases the 
+complexity of the networks that can be formed among those neurons.
+Cerebellum
+Cerebellum is located below the cerebrum and at the upper back of the brainstem. Its 
+name connotes its small size. Its mass is 1/10 of the whole brain. However, in terms of 
+the number of neurons it contains, it exceeds that of the remaining parts of the central 
+nervous system combined. This lump of nerve tissues, bearing the look of something cut 
+in half, covers most of the back of brainstem. With the help of three pairs of fibers,
+collectively called cerebral peduncles, the brainstem is bound to the cerebellum. Like the 
+cerebrum, it also has a wrinkled surface, but its grooves and bulges are finer and 
+organized into more regular patterns. In terms of its physical structure, this too has a long 
+groove in the center, with two large lateral lobes, one on each side. These lobes are 
+reminiscent of the two hemispheres of the cerebrum and are sometimes termed cerebellar 
+hemispheres. The cerebellum has a similar layered microstructure to the cerebrum. The 
+outer layer, or cerebellar cortex, is gray matter composed of nerve-cell bodies and their 
+dendrite projections. Beneath this is a medullary area of white matter consisting largely 
+of nerve fibers. As of now, it has been established that cerebellum’s main function is in 
+coordinating the body movement. Although, it may not initiate the movements, however 
+it helps in the coordination and timely performance of movements, ensuring their 
+integrated control. It receives data from spinal cord and other parts of the brain, and these 
+data undergo integration and modification, contributing to the balance and smooth 
+functioning of the movements, and thus helps in maintaining the equilibrium. Therefore, 
+whenever this part of the brain is plagued by a disorder, the person may not lose total 
+movement, but their ability of performing measured and steady movements is affected as 
+also their ability to learn new movements. Within the division of entire brain into 
+forebrain, midbrain, and hindbrain—cerebellum forms part of the hindbrain (Figure 16).
+Brainstem
+Brainstem is located below the cerebrum and in front of cerebellum. Its lower end 
+connects with the spinal cord. It is perhaps misnamed. It is not a stem leading to a
+separate brain above, but an integral part of the brain itself. Its uppermost region is the 
+midbrain comprising an upper “roof” incorporating the superior and inferior colliculi or 
+Page 15 of 35
+bulges at the rear, and the tegmentum to the front. Below the midbrain is the hindbrain.
+At its front is the large bulge of the pons. Behind and below this is the medulla which 
+narrows to merge with the uppermost end of the body’s main nerve, the spinal cord. This 
+part of the brain in associated with the middle and lower levels of consciousness. The eye 
+movement involved in following a moving object in front of the eye is an example. The 
+brainstem is highly involved in mid-to low-order mental activities, for example, the 
+almost “automatic” scanning movements of the eyes as we watch something pass by. The 
+gray and white matter composites of the brainstem are not as well defined as in other 
+parts of the brain. The gray matter in this part of the brain possesses some of the crucial 
+centers responsible for basic life functions. For example, the medulla houses groups of 
+nuclei that are centers for respiratory (breathing), cardiac (heartbeat), and vasomotor 
+(blood pressure) monitoring and control, as well as for vomiting, sneezing, swallowing, 
+and coughing. When brainstem is damaged, that will immediately trigger danger to life 
+by hindering heartbeat and respiratory processes (Figures 17 & 18).
+7) WAYS OF ZONING AND SECTIONING THE HUMAN BRAIN FOR STUDY 
+PURPOSES
+The two hemispheres
+Of the obviously so many different ways of zoning the human brain for study purposes, 
+we will take up only a few of them as samples. As briefly mentioned before, a fully 
+matured brain has three major parts. Of these the largest is the cerebrum. It covers around 
+¾ of the brain size. In terms of its outer structure, it is covered with numerous folds, and 
+has a color of purple and gray blended. The cerebrum is formed by two cerebral 
+hemispheres, accordingly called the right and the left hemisphere, that are separated by a 
+groove, the medial longitudinal fissure. Between the two hemispheres, there is a bundle 
+of nerve fibers that connects the two sides, almost serving like connecting rope holding 
+the two in place. Called corpus callosum, if this were to be cut into two, the two 
+hemispheres would virtually become two separate entities. 
+Just as there are two hemispheres, that look broadly like mirror images to each other, on 
+the two sides, likewise many of the brain parts exist in pairs, one on each side. However, 
+due to the technological advances in general, and that of the MRI, in particular, it has 
+been shown that, on average, brains are not as symmetrical in their left-right structure as 
+was once believed to be , almost like mirror images (Figure 19).
+The two apparently symmetrical hemispheres and, within them, their other paired 
+structures are also functionally not mirror images to each other. For example, for most 
+Page 16 of 35
+people, speech and language, and stepwise reasoning and analysis and so on are based 
+mainly on the left side. Meanwhile, the right hemisphere is more concerned with sensory 
+inputs, auditory and visual awareness, creative abilities and spatial-temporal awareness
+(Figure 20).
+The four or the six lobes
+Cerebrum is covered with bulges and grooves on its surface. Based on these formations, 
+the cerebrum is divided into the four lobes, using the anatomical system. The main and 
+the deepest groove is the longitudinal fissure that separates the cerebral hemispheres. 
+However, the division into the lobes is made overlooking this fissure, and thus each lobe 
+is spread on both the hemispheres. Due to this, we often speak of the four pairs of lobes. 
+These lobes are frontal lobes, parietal lobes, occipital lobes, and temporal lobes (Figure 
+21). The names of the lobes are partly related to the overlying bones of the skull such as 
+frontal and occipital bones. In some naming systems, the limbic lobe and the insula, or 
+central lobe, are distinguished as separate from other lobes.
+Frontal lobes
+Frontal lobes are located at the front of the two hemispheres. Of all the lobes, these are 
+the biggest in size as well as the last to develop. In relation to the other lobes, this pair of 
+lobes is at the front of the parietal lobes, and above the temporal lobes. Between these 
+lobes and the parietal lobes lies the central sulcus, and between these lobes and the 
+temporal lobes lies the lateral sulcus. Towards the end of these lobes, i. e. the site where 
+the pre-central gyrus is located also happens to be the area of the primary motor cortex. 
+Thus, this pair of lobes is clearly responsible for regulating the conscious movement of 
+certain parts of the body. Besides, it is known that the cortex areas within these lobes 
+hold the largest number of neurons that are very sensitive to the dopamine 
+neurotransmitters. Granting this, these lobes should also be related with such mental 
+activities as intention, short-term memory, attention, and hope. When the frontal lobes are 
+damaged, the person lacks in ability to exercise counter measures against lapses and tend 
+to engage in untoward behaviors. These days, neurologist can detect these disorders quite 
+easily.
+Parietal lobes
+Parietal lobes are positioned behind (posterior to) the frontal lobes, and above (superior 
+to) the occipital lobes. Using the anatomical system, the central sulcus divides the frontal 
+and parietal lobes, as mentioned before. Between the parietal and the occipital lobes lies 
+Page 17 of 35
+the parieto-occipital sulcus, whereas the lateral sulcus marks the dividing line between 
+the parietal and temporal lobes. This pair of lobes integrates sensory information from 
+different modalities, particularly determining spatial sense and navigation, and thus is
+significant for the acts of touching and holding objects. For example, it comprises 
+somatosensory cortex, which is the area of the brain that processes the sense of touch, 
+and the dorsal stream of the visual system, which supports knowing where objects are in 
+space and guiding the body’s actions in space. Several portions of the parietal lobe are 
+important in language processing.
+Occipital lobes
+The two occipital lobes are the smallest of four paired lobes in the human cerebral cortex. 
+They are located in the lower, rearmost portion of the skull. Included within the region of 
+this pair of lobes are many areas especially associated with vision. Thus, this lobe holds 
+special significance for vision. There are many extrastriate regions within this lobe. These 
+regions are specialized for different visual tasks, such as visual, spatial processing, color 
+discrimination, and motion perception. When this lobe is damaged, the patient may not be 
+able to see part of their visual field, or may be subjected to visual illusions, or even go 
+partial or full blind. 
+Temporal lobes
+Temporal lobe is situated below the frontal and parietal lobes. It contains the 
+hippocampus and plays a key role in the formation of explicit long-term memory 
+modulated by the amygdala. This means that it is involved in attaching emotions to all the 
+data received from all senses. Adjacent areas in the superior, posterior, and lateral part of 
+the temporal lobes are involved in high-level auditory processing. The temporal lobe is 
+involved in primary auditory perception, such as hearing, and holds the primary auditory 
+cortex. The primary auditory cortex receives sensory information from the ears and 
+secondary areas process the information into meaningful units such as speech and words. 
+The ventral part of the temporal cortices appears to be involved in high-level visual 
+processing of complex stimuli such as faces and scenes. Anterior parts of this ventral 
+stream for visual processing are involved in object perception and recognition.
+Limbic System
+The structures of the limbic system are surrounded by an area of the cortex referred to as 
+the limbic lobe. The lobe forms a collarlike or ringlike shape on the inner surfaces of the 
+cerebral hemispheres, both above and below the corpus callosum. As such, the limbic 
+lobe comprises the inward-facing parts of other cortical lobes, including the temporal, 
+parietal, and frontal, where the left and right lobes curve around to face each other. 
+Page 18 of 35
+Important anatomical parts of this lobe are hippocampus and amygdala, associated with 
+memory and emotions respectively.
+Insular cortex (or insula)
+Insular lobe is located between the frontal, parietal, and temporal lobes. As suggested by 
+its name, it is almost hidden within the lateral sulcus, deep inside the core of the brain. It 
+is believed to be associated with consciousness. Since data indicative of the inner status 
+of the body, such as the heartbeat, body temperature, and pain assemble here, it is 
+believed to impact the equilibrium of the body. Besides, it is also believed to be related 
+with several aspects of the mind, such as the emotions. Among these are perception, 
+motor regulation, self-awareness, cognition, and inter-personal emotions. Thus, insular 
+lobe is considered to be highly related with mental instability.
+The forebrain, the midbrain, and the hindbrain
+The divisions of the brain so far, either into the two hemispheres or the four or six lobes 
+are solely based on the cerebrum alone. None of the above divisions included any portion 
+either of the cerebellum or the brainstem. Yet another way of dividing the portions of the 
+brain is into the forebrain, the midbrain, and the hindbrain (Figure 22. This is the most 
+comprehensive division of the brain, leaving no parts of it outside. There are two systems 
+of presenting this division: one, on the basis of the portions of the brain during early 
+development of the central nervous system, and the other, based on the full maturation of 
+those early parts into their respective regions of an adult brain. Here, we follow the latter 
+system.
+The forebrain
+The forebrain is so called because of its extension to the forefront of the brain. It is the 
+largest among the three divisions. It even spreads to the top and back part of the brain. It 
+houses both the hemispheres, as well as the entire portion of the part known as the 
+diencephalon. Diencephalon comprises of the hippocampus, which is associated with 
+memory, and the amygdala, which is associated with emotions. Besides them, the 
+forebrain also includes both the thalamus and the hypothalamus, of which the former is 
+the part of the brain that processes information received from other parts of the central 
+nervous system and the peripheral nervous system into the brain, and the latter which is 
+involved is several activities such as appetite, sexuality, body temperature, and hormones. 
+Page 19 of 35
+The midbrain
+The midbrain is located below the forebrain and above the hindbrain. It resides in the 
+core of the brain, almost like a link between the forebrain and the midbrain. It regulates 
+several sensory processes such as that of the visual and auditory ones, as well as motor 
+processes. This is also the region where several visual and auditory reflexive responses 
+take place. These are involuntary reflexes in response to the external stimuli. Several of 
+the masses of gray matter, composed mainly of the cell bodies, such as the basal ganglia 
+linked with movement are also present in the midbrain. Of the above three major 
+divisions of the brain, the midbrain belongs to the brainstem, and of the two main 
+systems within the nervous system, it belongs to the central nervous system.
+The hindbrain 
+The hindbrain is located below the end-tip of the forebrain, and at the exact back of the 
+midbrain. It includes cerebellum, the pons, and the medulla, among others. Of these, the 
+cerebellum has influence over body movement, equilibrium, and balance. The pons not 
+only brings the motor information to the cerebellum, but is also related with the control 
+over sleep and wakeful states. Finally, the medulla is responsible for involuntary 
+processes of the nervous system associated with such activities as respiration and 
+digestion. In terms of anatomy, pons is uppermost part, and beneath it the cerebellum and 
+the medullae, which tapers to merge with the spinal cord.
+Vertical organization of the brain
+The organization of the brain layers can be said to represent a certain gradation of mental 
+processes (Figure 23). The uppermost brain region, the cerebral cortex, is mostly 
+involved in conscious sensations, abstract thought processes, reasoning, planning, 
+working memory, and similar higher mental processes. The limbic areas on the brain’s 
+innermost sides, around the brainstem, deal largely with more emotional and instinctive 
+behaviors and reactions, as well as long-term memory. The thalamus is a preprocessing 
+and relay center, primarily for sensory information coming from lower in the brainstem, 
+bound for the cerebral hemispheres above. Moving down the brainstem into the medulla 
+are the so-called ‘vegetative’ centers of the brain, which sustain life even if the person 
+has lost consciousness.
+Anatomical directions and reference planes of the brain
+To enable us to identify the precise location in the brain, both vertically and horizontally, 
+it is important to be familiar with certain technical terms used by the neuroscientists. In 
+Page 20 of 35
+terms of anatomy, the front of the brain, nearest the face, is referred to as the anterior end, 
+and polar opposite to the anterior end is the posterior end, referring to the back of the 
+head. Superior (sometimes called dorsal) refers to the direction toward the top of the 
+head, and inferior (sometimes called ventral) refers to the direction toward the neck/body. 
+In terms of reference planes, the sagittal plane divides the brain into left and right 
+portions, the coronal plane divides the brain into anterior and posterior portions, and the 
+axial (sometimes called horizontal) plane divides the brain into superior and inferior 
+portions (Figure 24).
+In both the above contexts, we can further specify the location of a particular portion or 
+plane in terms of its position, direction, and depth in relation to the whole brain. 
+Likewise, for each of the planes themselves, we can further speak in terms of position, 
+direction, and depth in relation to the whole brain as well as in relation to the individual 
+planes.
+Also, when representing brain parts and structures, a lateral view illustrates the section or 
+lobes, etc. from the perspective of a whole brain, whereas a medial view illustrates the 
+section in the dissected manner.
+8) DIFFERENT TYPES OF BRAINS
+In general, the number of living beings who possess brain is numerous. Their brains vary 
+both in size and function. However, if you ask whether all brains completely differ from 
+each other. Definitely not. There are features that are common to almost all brains, such 
+as that all brains are composed mainly of neurons, and that they all have the function of 
+protecting the individual being from internal and external dangers. So, although there are 
+various types of brains, here we shall focus mainly on the differences in brain types 
+between vertebrates and invertebrates in general, and the differences within the 
+vertebrates in particular. 
+As you know, vertebrates are those animals who have backbone, and invertebrates do not 
+have backbone. Most of the invertebrates do not have brain. However, those, among 
+them, who do possess brain, theirs is usually a simple brain, composed of very few 
+neurons. Note that majority of the animals on this earth are invertebrates. The vertebrates 
+make up only two percent of the entire animal population. The unicellular organisms, 
+because of practical existential reason, usually tend to be very sensitive to light. 
+Organisms such as sea-urchins are slightly more complex and are multi-cellular. They 
+have a few nerve cells that regulate the function of looking for sustenance and providing 
+protection from possible dangers. Slightly more complex than the types of sea-urchins are 
+earthworm and jellyfish, which have neurons that assist them in fighting hostile external 
+Page 21 of 35
+environment (Figure 25). It is interesting to know that the neurons these simple 
+organisms have are similar to the human neurons in terms of structure, function, as well 
+as their neurotransmitters. If you ask, what is the difference then? There hardly is any 
+connection between the nerves in the invertebrates. Besides that, the nerves almost cover 
+their entire bodies. For example, among the invertebrates, earthworms (Figure 26) have 
+one of the simplest types of brains, possessing only a few neurons. Their brains regulate 
+only a few simple tasks such as eating food and doing a few simple body movements, not 
+any higher actions. The network of neurons that process and interpret the information 
+received from the earthworm’s body parts is present in the earthworm’s head. However, 
+even if that network were to be removed from its body, no noticeable changes would be 
+observe in its behavior.
+Still, among the invertebrates, grasshoppers and bees have slightly more complex brains. 
+Scientists have begun to understand the relation between their brains and the 
+corresponding behaviors (Figure 27). The ants, also an invertebrate, have more complex 
+behavior, but have a very tiny brain. Likewise, the mosquitoes perform the function of 
+flying in the space, suck blood from others, etc. However, their brain size is still no more 
+than a small dot.
+Among the vertebrates, the mice are generally quite smart, yet have brains weighing no 
+more than 2 grams. Their entire brain size is equivalent to that of the human 
+hypothalamus. Though generally it is said the bigger the brain, the greater the intellect. 
+However, in actuality it is the overall area of cortices, not just the overall bulk that
+determines the level of intellect. 
+Among the vertebrates, there are mammals and non-mammals. Birds and fish are 
+examples of non-mammals. It is known that the brains of mammals and non-mammals 
+differ greatly in terms of complexity in the areas of composition, neurons, synapses, etc. 
+Though they still have the same basic parts and structures, they differ in the overall brain 
+size in relation to their bodies. Besides that, depending on which parts play out more in 
+their life, they differ in the relative size of specific parts of the brain and body. For 
+example, birds and fish have relatively very small olfactory bulb. Also, these nonmammalian animals lack brain cortex. Cerebral cortex is a special brain part, quite 
+prominent in primates including the humans. Not only this, human beings are known to 
+have a disproportionately large cortex (Figures 28 & 29).
+The average weight of human brain amounts to only one and a half percent of their body 
+weight. However, it consumes 20 percent of the food required by the whole body. So, the 
+larger the brain is the greater the amount of energy consumption. Therefore, bigger brain 
+Page 22 of 35
+is not always a sign of boon to the individual species. This may be the reason why there 
+are no many species with larger brains in the history of evolution.
+Social animals that depend on their social community for survival are said to have larger 
+brains. For example, dolphins, who hunt in groups, have fairly large brain. Although, the 
+brains of elephants and whales are much bigger in size than that of the humans, but 
+humans have the largest brains in proportionate to their body sizes. 
+9) FACTS ABOUT HUMAN SPINAL CORD
+Spinal cord is located within the vertebrae of the backbone. It extends from brainstem 
+down to the first lumbar vertebra. It is roughly the width of a conventional pencil, 
+tapering at it base even thinner. It is comprised of a bundle of fibers, and the fibers are 
+long projections of nerve cells, extending from the base of the brain to the lower region 
+of the spine. The spinal cord carries information to and from the brain and all parts of the 
+body except the head, which is served by the cranial nerves. The signals that travel along 
+the spinal cord are known as nerve impulses. Data from the sensory organs in different 
+parts of the body is collected via the spinal nerves and transmitted along the spinal cord 
+to the brain. The spinal cord also sends motor information, such as movement commands, 
+from the brain out to the body, again transmitted via the spinal nerve network.
+In terms of its anatomy, the spinal cord (Figure 30) is constituted of what is known as 
+white matter and gray matter. The gray matter, which forms the core of the spinal cord, is 
+composed mainly of nerve cell bodies and forms an external look of a butterfly. The 
+white matter surrounds the gray matter and its nerve fibers play a significant role of 
+establishing connection between different parts of the spinal cord as well as between the 
+brain and the spinal cord. The outer regions of white matter insulate the long projecting 
+nerve fibers (axons) coming out from the neurons.
+In the gray matter of the spinal cord, there are numerous low-key nerve centers that can 
+perform certain fundamental movement responses. However, the nerve centers within the 
+spinal cord are regulated by the brain. The ability of the humans in consciously 
+controlling the bowl movement is an example in this regard. The fact that infants frequent 
+to toilets more often than the adults and that many have bedwetting problem is due to the 
+brain being not fully developed as well as lacking in control over urine. Thus, the spinal 
+cord serves as a pathway of connection between the brain, the rest of the body, and 
+internal organs. The spinal cord stays in contact with the majority of body organs through 
+the medium of nerves.
+Page 23 of 35
+10) PERIPHERAL NERVOUS SYSTEM
+As discussed above, the whole of nervous system is divided into the central nervous 
+system (CNS) and the peripheral nervous system (PNS). Of these two, we have already 
+discussed the central nervous system constituted by the brain and the spinal cord. So here, 
+we will take up the remaining part, i.e. the peripheral nervous system. The peripheral 
+nervous system is a complex network of nerves extending across the body, branching out 
+from 12 pairs of cranial nerves originating in the brain and 31 pairs of spinal nerves 
+emanating from the spinal cord. It relays information between the body and the brain in 
+the form of nerve impulses. It has an afferent division (through which messages are sent 
+to the brain) and an efferent division (which carries messages from the brain to the body). 
+Finally, there is the autonomic nervous system, which shares some nerve structures with 
+both the CNS and PNS. It functions ‘automatically’ without conscious awareness, 
+controlling basic functions, such as body temperature, blood pressure, and heart rate.
+Sensory input travels quickly from receptor points throughout the body via the afferent 
+networks of the PNS to the brain, which processes, coordinates, and interprets the data in 
+just fractions of a second. The brain makes an executive decision that is conveyed via the 
+efferent division of the PNS to muscles, which take the needed action.
+The twelve pairs of cranial nerves
+There are 12 pairs of cranial nerves (Figure 31). They are all linked directly to the brain 
+and do not enter the spinal cord. They allow sensory information to pass from the organs 
+of the head, such as the eyes and ears, to the brain and also convey motor information 
+from the brain to these organs—for example, directions for moving the mouth and lips in 
+speech. The cranial nerves are named for the body part they serve, such as the optic nerve 
+for the eyes, and are also assigned Roman numerical, following anatomical convention.
+Of these, some are associated with sensory information and others with motor 
+information, while some are associated with both the kinds of information.
+How cranial nerves attach
+The cranial nerves I and II connect to the cerebrum, while cranial nerves III to XII 
+connect to the brainstem. The fibers of sensory cranial nerves each project from a cell 
+body that is located outside the brain itself, in sensory ganglia or elsewhere along the 
+trunks of sensory nerves. 
+The thirty-one pairs of spinal nerves
+Page 24 of 35
+There are 31 pairs of spinal nerves (Figure 32). These branch out from the spinal cord, 
+dividing and subdividing to form a network connecting the spinal cord to every part of 
+the body. The spinal nerves carry information from receptors around the body to the 
+spinal cord. From here the information passes to the brain for processing. Spinal nerves 
+also transmit motor information from the brain to the body’s muscles and glands so that 
+the brain’s instructions can be carried out swiftly. Each of the 31 pairs of spinal nerves 
+belongs to one of the four spinal regions--- cervical, thoracic, lumbar, and sacral. Of 
+them, the cervical region has eight pairs, the thoracic has twelve pairs, the lumbar has 
+five, and finally, the sacral has six pairs.
+How spinal nerves attach
+As mentioned above, human spinal cord is located within the vertebrae of the backbone. 
+So, one may wonder how the spinal nerves attach to the spinal cord. There are gaps in the 
+vertebrae of the backbone through which spinal nerves enter the spinal cord (Figure 33). 
+The nerves divide into spinal nerve roots, each made up of tiny rootlets that enter the 
+back and front parts of the cord.
+11) A SLIGHTLY DETAILED LOOK AT THE SENSES
+How do our brain and the environment interact? Here is how. First the senses come in 
+contact with the external stimuli such as light, sound wave, pressure, etc. to which the 
+corresponding senses respond. Then those sense data are sent along the respective 
+sensory nerves in the form of electrical signals which eventually reach their respective 
+sites on the brain cortices. That is when we shall have the perception of the respective 
+objects.
+SEEING
+Let’s now take up each of the senses, one by one. First, we discuss the sense of vision. 
+We shall look into the following topics surrounding the sense of vision: the structure of 
+eye, its receptor cells, the visual pathway, and the range of light frequency different 
+animals, including humans, have access to.
+Page 25 of 35
+STRUCTURE OF EYE
+The eyeball is a fluid-filled orb. It has a hole in the front called pupil. At the back of the 
+eyeball, there is retina which is a sheet of nerve cells. Some of the retinal cells are lightsensitive (photoreceptive). In the center of the retina, there is a tiny pitted area called 
+fovea, densely packed with cones which are color-picking, light-sensitive cells and are 
+significant in detecting detailed, sensitive image of the object. Between the pupil and the 
+retina is a lens that adjusts to help the light passing through pupil to focus on the surface 
+of the retina. The pupil is surrounded by a muscular ring of pigmented fibers called iris. 
+The iris is responsible for people having different eye colors, and it also controls the 
+amount of light entering into the eye. The pupil is covered by a transparent layer of clear 
+tissue called cornea which merges with the tough outer surface or the ‘white’ of the eye 
+called sclera. In the back of the eye, there is a hole (optic disk) through which the optic 
+nerves pass through to enter the brain (Figure 34).
+LIGHT-RECEPTIVE CELLS
+As mentioned before, retina is located at the back of the eye, and is composed of lightreceptive cells (photoreceptors). There are, in the main, two types of photoreceptors in 
+the retina: cone cells and rod cells. The cone cells detect the color components from 
+amongst the visible light spectrum, and are also responsible for detecting fine detail.
+However, cone photoreceptors require a huge amount of light to perform its function 
+well. Cone cells in the humans are of three types: red-, blue-, and green-sensing cones, 
+each detecting the respective colors. They are all formed on the surface and around the 
+fovea. On the other hand, the rod cells are formed on the periphery of retina. These cells 
+can detect images even in dim light. However, these cells mainly detect shape and 
+motion, not so much the color. Of these two types of photoreceptors, the rods are much 
+more sensitive to light, so much so that even with just a few light particles, they can at 
+least generate a faint image. Besides, the manner of concentration of these cells in and 
+around fovea impacts greatly the sensitivity of the sensation of the object. The majority 
+of the 6 million cone cells are concentrated in the fovea, whereas all of the more than 120 
+million rod cells are spread around the fovea. Since the rods are spread over a larger area 
+of the retina, they are relatively less concentrated, and thus, when one sees objects, they 
+are not seen that clearly and detailed.
+Page 26 of 35
+VISUAL PATHWAYS
+The light reflected from the visual objects first enters the pupil through cornea, and 
+through pupil it enters deeper into the eyes. The iris that surrounds the pupil controls the 
+amount of light entering the eyes by changing its shapes, due to which the pupil appears 
+to contract when the light is bright and sharp, and expands when it is less bright. 
+Afterwards, the light passes through the lens which bends (refracts) the light, making the 
+light to converge on the retina. If focusing on a near object, the lens thickens to increase 
+refraction, but if the object is distant, the lens needs to flatten. The light then hits the 
+photoreceptors in the retina, some of which fire, sending electrical signals to the brain via 
+the optic nerve.
+Information received from the outer environment upon coming in contact with eyes has 
+to travel right to the back of the brain where the relevant cortex (visual cortex) is, and 
+only there it is turned into a conscious vision. Here is the pathway through which the 
+information passes from the eyes to the optic nerves to the visual cortex: the signals from 
+the eyes passes through the two optic nerves and converge at a crossover junction called 
+the optic chiasm. The fibers carrying the signals continue on to form the optic tracts, one 
+on each side, which end at the lateral geniculate nucleus, part of the thalamus. However, 
+the signals continue to the visual cortex via bands of nerve fibers, called the optic 
+radiation (Figure 35).
+RANGE OF LIGHT WAVELENGTH THAT DIFFERENT ANIMALS, INCLUDING 
+HUMANS, HAVE ACCESS TO
+In the course of evolution, by means of natural selection, different species of organisms, 
+including the humans, have evolved eyes with varying structures and functions. That 
+range of electromagnetic spectrum visible to the human eyes is called the visible light, 
+which range from 400 to 700 nanometers on the wavelength. That is, from the violet, 
+with the shorter wavelengths, to red, with longer wavelengths. Lights with wavelengths 
+outside of the above range are normally not visible to humans. This illustrates the 
+difference in the structure of eyes among different species of organisms. For example, the 
+vultures and rabbits have different eye from each other. Due to that, vultures can see 
+much farther than the rabbits do, yet cannot see as widely as the rabbits do. Likewise, the 
+infrared light that the humans cannot see is visible to some types of fish and birds. Some 
+birds can tell a male bird from a female bird just by looking at the infrared light reflected 
+from their wings.
+Likewise, there are two main features distinct in the eyes of the bees that the humans do 
+not have. First, their eyes can detect infrared light that the humans cannot. Second, their 
+Page 27 of 35
+visual processing is five-fold speedier than that of the humans. For example, when the 
+bees observe a normal moving object, they do not see that as moving. Rather, they are 
+said to see that in the form of a series of distinct temporal instances.
+What accounts for such a unique feature of the bees’ eyes? Their eyes are composed of 
+six-sided lens, covered with about 4500 circular discs. These lens let in just the lights 
+reflected from the object they focus on and not from around it. Besides that, unlike 
+human eyes, the eyes of the bees are said to have nine types of light receptors. Because of 
+the speed of the visual processing that the bees possess, they have a advantage of being 
+able to negotiate their movement so well even while moving with so much speed with the 
+least incidents of ever bumping against objects, etc.
+Also, often we wonder about the sharp lights reflected back from the eyes of cats and 
+other animals of that family. That is now understood to be due to the fact that all the 
+lights entering their eyes fail to be absorbed in the retina, and are thus reflected back by 
+the membrane called the reflective white.
+HEARING
+The ear is divided into three sections: the outer ear, the middle ear, and the inner ear. The 
+outer ear has three further sections: the visible part of the ear called the pinna, the 
+auditory canal, and the eardrum. The middle ear has three tiny bone structures that help in 
+our hearing process: malleus (hammer), incus (anvil), and stapes (stirrup). The inner ear 
+has several parts, of which the important ones are oval window, cochlea, and auditory 
+nerve. The outer ear funnels sound waves along the auditory canal to the eardrum which 
+is situated towards the inner end of the air canal. Immediate after the eardrum, the three 
+tiny bones of the middle ear are attached one after the other. The sound waves cause the 
+eardrum to vibrate, which in turn causes this chain of bones to vibrate. The vibration 
+eventually reaches a membrane known as the oval window, the start of the inner ear. The 
+oval window is slightly smaller than the ear drum in diameter. Because of this, when the 
+vibration enters from the middle ear into the inner ear, the vibration becomes more 
+consolidated. Inner ear is situated deep under the skull. Commensurate with the force of 
+sound waves striking the ear drum, the stapes will accordingly cause the oval window to 
+vibrate. Due to this, the fluids filling the chambers of cochlea will move, causing basilar 
+membrane to vibrate. This stimulates the sensory hair cells on the organ of corti 
+transforming the pressure waves into electrical impulses. These impulses pass through 
+auditory nerve to the temporal lobe and from there to the auditory cortex (Figure 36).
+Page 28 of 35
+Because of the way human ear is structured, it has access to a limited range of sound 
+frequency. That is between 20 and 20000 Hertz. Sounds beyond that range are not 
+audible to the humans. Sounds vary in terms of their pitch, and the receptors 
+corresponding to them are found in the various parts of the cochlea. The receptors for low 
+pitch sounds are located in the front part of cochlea, whereas receptors for the higher and 
+the highest pitch sounds are found in the middle and inner end, respectively, of the 
+cochlea.
+SMELL
+The area within each nasal cavity that contains the olfactory receptor cells is known as 
+the olfactory epithelium. A small amount of the air entering the nostrils will pass over the 
+epithelium, which is covered in mucus. Smell molecules in the air dissolve in this mucus, 
+bringing receptors into direct contact with the smell molecules. Three cell types are 
+within the epithelium: in addition to the receptor cells, there are supporting cells which 
+produce a constant supply of mucus and, basal cells, which produce new receptor cells 
+every few weeks. The larger the epithelium is, the keener the sense of smell. Dogs, for 
+example, have a considerably larger olfactory epithelium than humans.
+Like the sense of taste, smell is a chemical sense. Specialized receptors in the nasal cavity 
+detect incoming molecules, which enter the nose on air currents and bind to receptor 
+cells. Sniffing sucks up more odor molecules into the nose, allowing you to ‘sample’ a 
+smell. Olfactory receptors located high up in the nasal cavity send electrical impulses to 
+the olfactory bulb, in the limbic area of the brain, for processing.
+Odors are initially registered by receptor cells in the nasal cavity. These send electrical 
+impulses along dedicated pathways to the olfactory bulb (each nostril connects to one 
+olfactory bulb). The olfactory bulb is the smell gateway to the brain. It is part of the 
+brain’s limbic system, the seat of our emotions, desires, and instincts, which is why smell 
+can trigger strong emotional reactions. Once processed by the olfactory bulb, data is then 
+sent to various areas of the brain, including the olfactory cortex adjacent to the 
+hippocampus. Unlike data gathered by the other sense organs, odors are processed on the 
+same side, not opposite, side of the brain as the nostril the sensory data was sent from
+(Figure 37).
+How do the olfactory receptors detect the different odors? Different smells are produced 
+from different molecular structures of smell. Research shows that each receptor has zones 
+on it. Therefore, when a specific smell enters the nose, only the receptors forming a 
+conforming pattern, not every receptor, is activated. That is how the specific smell is 
+Page 29 of 35
+detected. So far the scientists have identified eight primary odors: camphorous, fishy, 
+malty, minty, musky, spermatic, sweaty, and urinous.
+TASTE
+Taste and smell are both chemical senses. Therefore, tongue can detect taste only when 
+the receptors in it bind to incoming molecules, generating electrical signals that pass
+through the related cranial nerves to the specific brain areas. Thus, the pathway of 
+gustatory electrical impulses begins with mouth, going to medulla, continues to the 
+thalamus, then to primary gustatory areas of the cerebral cortex.
+A person can experience the basic five flavors (sweet, sour, salty, bitter, and umami) by 
+merely activating the taste receptors on the tongue. However, the flavors produced from 
+the combination of these can be detected by tongue only in interaction with the sense of 
+smell. Compared with cold food, we experience the hot food to produce greater taste. 
+This is because, during such time, smell particles rising from the hot food bind to and 
+excite the smell receptors inside the nose, making us also to sense their smell. Before the 
+smell particles and taste particles are detected by the smell receptors and taste receptors 
+respectively, these particles have to dissolve in the liquid solvents in the nose and mouth 
+respectively. So they are similar on that front. However, what is different between the 
+two is that while the taste receptors are not actual neurons, but a special type of cells, the 
+smell receptors are actual neurons. Due to this difference, we see a marked difference in 
+the degree of sensitivity towards the chemical particles. The smell receptors are 300 
+hundred times more sensitive (Figure 38).
+The tongue is the main sensory organ for taste detection. It is the body’s most flexible 
+muscular organ. It has three interior muscles and three pairs of muscles connecting it to 
+the mouth and throat. Its surface is dotted with tiny, pimplelike structures called papillae. 
+Papillae are easily visible to naked eyes. Within each papilla are hundreds of taste buds 
+and they are distributed across the tongue. Four types of papillae have been 
+distinguished---vallate, filiform, foliate, and fungiform. Each type bears a different 
+amount of taste buds. A taste bud is composed of a group of about 25 receptor cells 
+alongside supporting cells layered together. In general, humans have 5000 to 10,000 taste 
+buds, and each bud may carry 25 to 100 taste receptor cells within it. At the tip of each 
+cell, there is a hole through which taste chemical particles enter and come in contact with 
+the receptor molecules. The tiny hair-like receptors inside these receptor cells can hold 
+only particular taste particles. Earlier, scientists believed that different parts of the tongue 
+are dedicated to detecting specific tastes. However, according to recent researches, all 
+tastes are detected equally across the tongue, and the tongue is well supplied with nerves 
+Page 30 of 35
+that carry taste-related data to the brain. Other parts of the mouth such as the palate, 
+pharynx, and epiglottis can also detect taste stimuli.
+TOUCH
+There are many kinds of touch sensations. These include light touch, pressure, vibration, 
+and temperature as well as pain, and awareness of the body position in space. The skin is 
+the body’s main sense organ for touch.
+There are around 20 types of touch receptor that respond to various types of stimuli. For 
+instance, light touch, a general category that covers sensations ranging from a tap on the 
+arm to stroking a cat’s fur, is detected by four different types of receptor cells: free nerve 
+endings, found in the epidermis; Merkel’s disks, found in deeper layers of the skin; 
+Meissner’s corpuscles, which are common in the palms, soles of the feet, eyelids, 
+genitals, and nipples; and, finally, the root hair plexus, which responds when the hair 
+moves. Pacinian and Ruffini corpuscles respond to more pressure. The sensation of 
+itching is produced by repetitive low-level stimulation of nerve fibers in the skin, while 
+feeling ticklish involves more intense stimulation of the same nerve endings when the 
+stimulus moves over the skin (Figure 39).
+As for the manner in which touch information finally makes its way to the brain, a sense 
+receptor, when activated, sends information about touch stimuli as electrical impulses 
+along a nerve fiber of the sensory nerve network to the nerve root on the spinal cord. The 
+data enters the spinal cord and continues upward to the brain. The processing of sensory 
+data is begun by the nuclei in the upper (dorsal) column of the spinal cord. From the 
+brainstem, sensory data enters the thalamus, where processing continues. The data then 
+travels to the postcentral gyrus of the cerebral cortex, the location of the somatosensory 
+cortex. Here, it is finally translated into a touch perception. Somatosensory cerebral 
+cortex curls around the brain like a horseshoe. Data from the right side of the body ends 
+on the left side of the brain, and vice versa.
+THE SIXTH SENSE
+Proprioception is sometimes referred to as the sixth sense. It is our sense of how our 
+bodies are positioned and moving in space. This ‘awareness’ is produced by part of the 
+somatic sensing system, and involves structures called proprioceptors in the muscles, 
+tendons, joints, and ligaments that monitor changes in their length, tension, and pressure 
+linked to changes in position. Proprioceptors send impulses to the brain. Upon processing 
+this information, a decision can be made—to change position or to stop moving. The 
+brain then sends signals back to the muscles based on the input from the proprioceptors—
+Page 31 of 35
+completing the feedback cycle. This information is not always made conscious. For 
+example, keeping and adjusting balance is generally an unconscious process.
+Conscious proprioception uses the dorsal column-medial lemniscus pathway, which 
+passes through the thalamus, and ends in the parietal lobe of the cortex. Unconscious 
+proprioception involves spinocerebellar tracts, and ends in the cerebellum. Proprioception 
+is impaired when people are under the influence of alcohol or certain drugs. The degree 
+of impairment can be tested by field sobriety tests, which have long been used by the 
+police in cases of suspected drunk-driving. Typical tests include asking someone to touch 
+their index finger to their nose with eyes closed, to stand on one leg for 30 seconds, or to 
+walk heel-to-toe in a straight line for nine steps.
+MIXED SENSES
+Sensory neurons respond to data from specific sense organs. Visual cortical neurons, for 
+example, are most sensitive to signals from the eyes. But this specialization is not rigid. 
+Visual neurons have been found to respond more strongly to weak light signals if 
+accompanied by sound, suggesting that they are activated by data from the ears as well as 
+the eyes. Other studies show that in people who are blind or deaf, some neurons that 
+would normally process visual or auditory stimuli are “hijacked” by the other senses. 
+Hence, blind people hear better and deaf people see better.
+SYNESTHESIA
+Most people are aware of only a single sensation in response to one type of stimulus. For 
+example, sound waves make noise. But some people experience more than one sensation 
+in response to a single stimulus. They may “see” sounds as well as hear them, or “taste” 
+images. Called synesthesia, this sensory duplication occurs when the neural pathway 
+from a sense organ diverges and carries data on one type of stimulus to a part of the brain 
+that normally processes another type (Figure 40).
+PERCEPTION AS A CONSTRUCT
+Do we perceive the external world directly, or do we perceive a constructed reality? 
+Neuroscience finds that the latter is a more accurate description. When our sensory 
+organs detect something in the environment, they are responding to a physical stimulus. 
+For example, the photoreceptor cells in the retina of the eye respond to photon particles 
+traveling through space. These photons stimulate the receptor neurons, and start a chain 
+reaction of neural signals to the primary visual cortex in the brain, where it becomes a 
+perception. While the visual perception correlates with the physical stimulus, they are not 
+Page 32 of 35
+one and the same. It was described earlier that photons have a wavelength, and the 
+wavelength can vary among photons. Each numerical difference in the wavelength of a 
+photon correlates with a difference in the perception of color. That is, photons with a 
+wavelength of around 500 nanometers correlate with perceiving the color blue, while a 
+wavelength of around 700 nanometers correlates with perceiving the color red. While the 
+physical property of wavelength exists objectively in the world, the perceived color only 
+exists subjectively and depends on our ability to detect it. The colors we perceive are not 
+physical properties, but rather the psychological correlates of the physical property of 
+wavelength of light. Moreover, there are many wavelengths that we cannot detect, so our 
+perceptions selectively represent the physical world.
+The same principle applies to the other senses. Each sensory modality we have has two 
+components: the physical stimulus that is detected by the sensory organ, and the 
+psychological perception that results from it. We do not directly perceive the wavelength 
+of light, rather we perceive the result of how the photon particles stimulate the visual 
+pathway. Therefore, we can say that perception is a construction that is grounded in 
+detecting physical phenomena, but we do not directly perceive those phenomena. Nor do 
+we perceive all objective phenomena, only those that we are capable of detecting.
+If perception is a construction and a limited representation of objective phenomena, why 
+did it evolve that way? We need to be able to react to environmental circumstances to 
+survive. To find food, to avoid predators, to meet mates, to care for offspring, to engage 
+in social behavior, all of these actions require the ability to detect and respond to changes 
+in the physical environment. But sensory systems can evolve to be simply good enough 
+for survival. It is not necessary to have complete, direct perception to survive. In fact, 
+recall the facts we discussed earlier about how the human brain is very demanding for the 
+body’s resources. More sophisticated sensory systems require more resources, and if 
+those resource requirements are not of great utility to the organism, then evolution likely 
+will not favor increasing the level of sophistication. In addition, there is often a trade-off 
+between speed and accuracy in neural systems and resulting behaviors. When it comes to 
+visual perception, seeing a danger with less accuracy and surviving is more important 
+than seeing a danger directly and not surviving!
+Page 33 of 35
+12)CONSCIOUSNESS AND THE BRAIN
+WHAT IS CONSCIOUSNESS? 
+Consciousness is important as well as essential. Without it, life would have no meaning. 
+However, once we embark on identifying its nature, it is certain to find it to be like 
+nothing else. A thought, feeling, or idea seems to be a different kind of thing from the 
+physical objects that make up the rest of the universe. The contents of our minds cannot 
+be located in space or time. Although to the neuroscientists the contents of our minds 
+appear to be produced by particular types of physical activity in the brain, it is not known 
+if this activity itself forms consciousness or if brain activity correlates with a different 
+thing altogether that we call “the mind” or consciousness (Figure 41). If consciousness is 
+not simply brain activity, this suggests that the material universe is just one aspect of 
+reality and that consciousness is part of a parallel reality in which entirely different rules 
+apply.
+MONISM AND DUALISM
+The philosophical stands of those positing the relation between mind and body can be 
+broadly brought under two divisions: monism and dualism. According to the former, 
+every phenomenon in the universe can be ultimately reduced to a material thing. 
+Consciousness too is identical to the brain activity that correlates with it. However, the 
+fact that not every physical thing has consciousness is because only in those physical 
+bodies where complex physical processes evolved over a long period of time did 
+cognitive mechanism develop. Thus, consciousness never existed in parallel with the 
+material universe as an independent entity of its own.
+According to the latter, consciousness is not physical but exists in another dimension to 
+the material universe. Certain brain processes are associated with the consciousness, but 
+they are not identical to each other. Some dualists believe consciousness may even exist 
+without the brain processes associated with it.
+LOCATING CONSCIOUSNESS
+Human consciousness arises from the interaction of every part of a person with their 
+environment. We know that the brain plays the major role in producing conscious 
+awareness but we do not know exactly how. Certain processes within the brain, and 
+neuronal activity in particular areas, correlate reliably with conscious states, while others 
+do not.
+Page 34 of 35
+Different types of neuronal activity in the brain are associated with the emergence of 
+conscious awareness. Neuronal activity in the cortex, and particularly in the frontal lobes, 
+is associated with the arousal of conscious experience. It takes up to half a second for a 
+stimulus to become conscious after it has first been registered in the brain. Initially, the 
+neuronal activity triggered by the stimulus occurs in the “lower” areas of the brain, such 
+as the amygdala and thalamus, and then in the “higher” brain, in the parts of the cortex 
+that process sensations. The frontal cortex is activated usually only when an experience 
+becomes conscious, suggesting that the involvement of this part of the brain may be an 
+essential component of consciousness.
+REQUIREMENTS OF CONSCIOUSNESS
+Every state of conscious awareness has a specific pattern of brain activity associated with 
+it. These are commonly referred to as the neural correlates of consciousness. For 
+example, seeing a patch of yellow produces one pattern of brain activity, seeing 
+grandparents, another. If the brain state changes from one pattern to another, so does the 
+experience of consciousness. Consciousness arises only when brain cells fire at fairly 
+high rates. So, neural activity must be complex for consciousness to occur, but not too 
+complex. If all the neurons are firing, such as in an epileptic seizure, consciousness is 
+lost. The processes relevant to consciousness are generally assumed to be found at the 
+level of brain cells rather than at the level of individual molecules or atoms. Yet it is also 
+possible that consciousness does arise at the far smaller atomic (quantum) level, and if so 
+it may be subject to very different laws.
+Many neuroscientists hold the philosophical view of materialism; that there is only one 
+fundamental substance in the universe and that is physical material. How, then, is 
+subjective experience of the mind explained? Through a process known as emergence. 
+Emergence is a process described as the production of a phenomenon from the 
+interactions or processes of several other phenomena. For example, the molecule that is 
+water is composed of two hydrogen atoms and one oxygen atom. The hydrogen and 
+oxygen atoms on their own do not have the quality of wetness that water has. But when 
+you combine them to form the molecule, and you have enough water molecules, then the 
+property of wetness emerges from those interactions. Neuroscientists use this as an 
+analogy, and argue that when many neurons are combined, consciousness emerges from 
+those interactions. This analogy serves as a useful description within the viewpoint of 
+materialism, but it is not an explanation, as we have yet to demonstrate the mechanisms 
+involved in such an emergence.

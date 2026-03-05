@@ -1,0 +1,48 @@
+HB 2281
+Initials EB Page 1 Natural Resources, Energy & Water
+ARIZONA HOUSE OF REPRESENTATIVES
+Fifty-sixth Legislature
+Second Regular Session
+HB 2281: solar royalties fund; county residents
+Sponsor: Representative Biasiucci, LD 30
+Committee on Natural Resources, Energy & Water
+Overview
+Requires each county Board of Supervisors (BOS) to establish a County Resident Solar 
+Royalties Fund (Fund).
+History
+Counties are required to adopt the standards for issuing permits for the use of certain solar 
+energy devices. Various specifications must be met depending on if the solar energy device is 
+used for: 1) construction with solar photovoltaic systems that are intended to connect to a 
+utility system; or 2) solar water heating systems (A.R.S. § 11-323).
+Provisions
+1. Requires the BOS of each county to establish a Fund to be administered by the county 
+treasurer. (Sec. 1)
+2. States that the Fund will be funded by each owner or operator of a solar panel in that 
+county whose solar panel:
+a) is located in the relevant county; and
+b) is not:
+i. owned by a public service corporation that is regulated by the Arizona Corporation 
+Commission (ACC) or by a public power entity that has service territory in 
+Arizona; and
+ii. subject wholly to an exclusive power purchase agreement with either a public 
+service corporation regulated by the ACC or a public power entity that has service
+territory in Arizona. (Sec. 1)
+3. Requires the private owner or operator of a solar panel not owned by a public service 
+corporation to pay the county where the solar panel is located 12.5% of every $1 that is 
+received in revenues from the sale of kilowatt-hours from the solar panel. (Sec. 1)
+4. Specifies these monies must be deposited in the Fund. (Sec. 1)
+5. Requires the county treasurer to: 
+a) determine the total amount of monies in the Fund and the total number of qualified 
+individuals who live in the county;
+b) use monies in the Fund for administrative costs that do not exceed 10% of the monies 
+in the Fund;
+c) pay, by check, each qualified resident of the county an equal distribution of the total 
+amount of monies available in the Fund, after administrative costs are paid. (Sec. 1)
+☐ Prop 105 (45 votes) ☐ Prop 108 (40 votes) ☐ Emergency (40 votes) ☐ Fiscal Note
+HB 2281
+Initials EB Page 2 Natural Resources, Energy & Water
+6. States that the requirements of the Fund do not apply to solar panels that:
+a) produce power for only on-site use by a commercial or industrial user;
+b) does not export power to the grid; or
+c) is a rooftop solar power system, regardless of whether the system exports power to the 
+grid. (Sec. 1)

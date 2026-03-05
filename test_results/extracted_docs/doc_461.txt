@@ -1,0 +1,64 @@
+Drugs and Biologics
+Aside from Schedule I substances, controlled substances have accepted medical uses and may be lawfully
+dispensed by prescription under the CSA, subject to various restrictions. Accordingly, rescheduling
+marijuana from Schedule I to Schedule III would open the door for the medical marijuana industry to
+market their products consistent with federal law. Any such products must still comply with other federal
+legal requirements, such as the FD&C Act, before they could be legally marketed in the United States.
+Rescheduling thus would not automatically legalize medical marijuana in the United States.
+The FD&C Act requires new drugs, including both small-molecule drugs that are synthesized in a
+laboratory and biologics that are derived from living organisms (e.g., vaccines), to be approved by FDA
+before they can be marketed and sold in the United States. For FDA to approve a new drug, the drug
+sponsor must submit a new drug application (NDA) with “substantial evidence” that the drug is safe and
+effective for its proposed use. Similarly, for FDA to approve a biologic, a sponsor must submit a biologics
+license application (BLA) demonstrating that the product is safe, potent, and pure. Certain chemicals
+related to or derived from marijuana may be considered small-molecule drugs, while other components of
+the cannabis plant—including marijuana itself—may be considered a biologic.
+Congressional Research Service 3
+Marijuana itself is not an approved drug, but FDA has approved four drugs derived from or related to
+cannabis. FDA approved a drug containing CBD called Epidiolex, which is used to treat certain kinds of
+seizures. FDA also approved Marinol and Syndros for the treatment of anorexia associated with weight
+loss in AIDS patients, as well as Cesamet for the treatment of nausea and vomiting in patients undergoing
+chemotherapy. Marinol and Syndros contain the active ingredient dronabinol, a synthetic delta-9-
+tetrahydrocannabinol (THC), which is considered the psychoactive component of cannabis. Cesamet
+contains the active ingredient nabilone, which is synthetically derived and has a chemical structure similar
+to THC. Despite obtaining FDA approval, Epidiolex, Marinol, Syndros, and Cesamet could not
+immediately be marketed in the United States because CBD and synthetic tetrahydrocannabinols were
+considered Schedule I substances. The DOJ rescheduled each of these drugs within a few months to a
+couple years of their approval by FDA, thereby allowing the drugs to be marketed and prescribed. The
+DOJ rescheduled Epidiolex as a Schedule V drug, and the 2018 farm bill completely descheduled
+Epidiolex because it is considered hemp under the new definition. FDA-approved products containing
+dronabinol were rescheduled to Schedule II or Schedule III under the CSA, depending on their form, and
+FDA-approved products containing nabilone were rescheduled to Schedule II. Other
+tetrahydrocannabinols remain Schedule I substances, and, because they are scheduled separately from
+marijuana, they are not included in the DOJ’s proposed rule rescheduling marijuana.
+Drugs Marketed Without FDA Approval
+New drugs that FDA has not approved cannot legally be marketed in interstate commerce under the
+FD&C Act. FDA categorizes products based on how they are marketed rather than based on how the
+manufacturer or seller categorizes them. FDA may therefore consider some products marketed as a food,
+dietary supplement, tobacco product, or cosmetic to be illegal drugs (assuming they have not obtained
+FDA approval for marketing as a drug) if the product’s packaging makes claims that it is intended to cure,
+mitigate, or treat a disease or health-related condition. The FD&C Act defines a “drug” to include
+“articles intended for use in the diagnosis, cure, mitigation, treatment, or prevention of disease.”
+Therefore, FDA may deem products to be “drugs” under this definition if they are marketed as a treatment
+for a disease. FDA has issued warning letters to companies marketing cannabis products, including CBD
+tea and hemp-infused body butter, whose labeling makes these kinds of treatment claims, advising that
+drugs must undergo the NDA process before they can be marketed in interstate commerce. A
+manufacturer or seller of one of these products can remedy the issue by submitting an NDA and obtaining
+FDA approval to market its product as a drug, or by removing the claims.
+Medical Research
+To obtain approval for a new drug or biologic, sponsors must conduct research, including clinical trials on
+human subjects, to generate the required evidence regarding the drug’s safety and effectiveness. Before
+conducting research with marijuana, a researcher must obtain a DEA registration and an FDA
+authorization of an investigational new drug application (IND) containing details on how the researcher
+plans to conduct the study. Then, the researcher must use marijuana from a DEA-registered source.
+Generally, rescheduling a drug from Schedule I to Schedule III loosens the controls on medical research
+involving that drug. Researchers and manufacturers of Schedule III substances are subject to less-onerous
+registration requirements than researchers and manufacturers of Schedule I substances. However, medical
+researchers and drug sponsors of marijuana or CBD containing drugs would not benefit from these looser
+restrictions associated with rescheduling without congressional action. In 2022, Congress passed the
+Medical Marijuana and Cannabidiol Research Expansion Act (P.L. 117-215), which amended the CSA for
+medical research involving marijuana or CBD to lessen the stringent controls typically applicable for
+Schedule I substances. The act created separate requirements for marijuana researchers and manufacturers
+Congressional Research Service 4
+to expedite registration with the DEA, and these separate requirements would not be affected by
+rescheduling without additional congressional action.

@@ -1,0 +1,98 @@
+State Right of Publicity Laws
+The ROP is protected in some form by the laws of most U.S. states, and the number of states that
+recognize this right has expanded over the past several decades. One study found that 35 states recognized
+the ROP as of 2020. ROP laws generally create a private right of action for the unauthorized commercial
+use of another person’s NIL. For example, if a manufacturer uses a famous athlete’s name or face in a TV
+commercial without her permission, the athlete could sue the manufacturer for violating her ROP, and a
+court could order the manufacturer to pay damages and stop showing the commercial.
+What constitutes an unauthorized commercial use of NIL can vary from state to state. Some states’ ROP
+laws may apply only to advertising, while others more broadly apply to any use that commercially
+benefits the user, such as video game or comic book characters based on real people.
+Other notable differences between the ROP laws of various states concern questions such as:
+• Is the ROP protected by statute, common law, or both? Twenty-five states have
+enacted statutes protecting the ROP. In some of these states, including California, the
+ROP is protected by both statutes and common law (law derived from court opinions). In
+Congressional Research Service
+https://crsreports.congress.gov
+LSB11052
+Congressional Research Service 2
+other states, including Delaware, the ROP is protected by common law only, sometimes
+as an application of a common law “right of privacy.”
+• What parts of a person’s identity does the ROP protect? The ROP often only protects
+a person’s NIL, voice, and signature. In some states, the ROP also includes someone’s
+“distinctive appearance, gestures, or mannerisms.” Courts have construed certain states’
+ROP laws to protect more abstract aspects of personal identity, finding defendants liable
+for using an image of a famous driver’s race car, a blonde robot performing Vanna
+White’s role on a game show, or the catch phrase “here’s Johnny.”
+• Do all individuals enjoy the ROP? State laws vary as to whether all persons or only
+those with “commercially valuable” NIL (such as celebrities) may assert ROP claims.
+• Does the ROP survive a person’s death? In some states, the ROP is descendible,
+meaning it can be asserted by one’s heirs after a person dies. States that recognize a
+descendible (or postmortem) ROP differ as to their duration, with postmortem rights
+lasting 20 years in Virginia, 70 years in California, and 100 years in Oklahoma, for
+instance. Under Tennessee law, postmortem ROP may last indefinitely. In other states, the
+ROP is not descendible, or else courts have not resolved the issue.
+Often, the law of the state in which a person is domiciled—or, where they were domiciled when they
+died—governs their ROP. Indiana’s ROP statute, however, allows suit “regardless of a personality’s
+domicile” for infringing materials “disseminated within Indiana.” This law may allow non-Indiana
+plaintiffs to sue for infringing materials that are made available in Indiana via television or the internet.
+Intersection of Right of Publicity and Federal IP Laws
+Although the ROP is distinct from the forms of IP already protected by federal law, it is related in some
+ways to trademarks and copyrights. If Congress chooses to regulate the ROP via federal law, it may
+consider how best to harmonize the ROP with existing trademark and copyright laws.
+Trademarks
+While the ROP generally protects commercial uses of a person’s identity, trademarks protect commercial
+uses of words, names, and other symbols that distinguish one person’s goods from others. The ROP may
+overlap with trademarks in cases where aspects of a person’s NIL can be trademarked. A person’s name,
+for instance, may be trademarked if it acquires a distinctive meaning and is used commercially to identify
+goods or services (e.g., McDonald’s). The ROP may be seen as serving a similar function to trademarks,
+although some scholars have criticized the theoretical foundations and expansion of the ROP.
+Trademark infringement occurs when someone without authorization uses a trademark in a way that
+creates a likelihood of confusion for consumers. The Lanham Act—the federal trademark law—also
+establishes a cause of action for “false endorsement,” which provides additional protection that overlaps
+with the ROP. False endorsement occurs when a person’s identity is used in a way that is likely to confuse
+consumers into believing that the person recommends a product. In 2023, for instance, actor Tom Hanks
+alerted fans that an AI-generated replica of him was being used to advertise a dental plan without his
+permission; such scenarios might give rise to both state ROP and Lanham Act false endorsement claims.
+State ROP laws can provide broader protection than the Lanham Act, however, as they often prohibit
+unauthorized commercial uses of NIL regardless of whether they imply any sponsorship or confuse
+consumers. In addition, some courts have held only individuals with “recognizability” (such as Hanks)
+may sue for false endorsement, whereas many state laws allow all individuals to sue for ROP violations.
+Congressional Research Service 3
+Copyrights
+Copyrights protect original works of authorship that are “fixed” (i.e., recorded) in a “tangible medium,”
+including books, paintings, music recordings, and films. The Copyright Act gives copyright owners the
+“exclusive right” to reproduce (copy), perform, display, and distribute copyrighted works and to make
+derivative works (adaptations) from them. Generally, a work’s author automatically owns the copyright
+but may sell or license it to others. In short, whereas ROP laws prohibit unauthorized uses of another
+person’s identity, copyright law prohibits unauthorized uses of another’s creative works. As one
+illustration, in January 2024, the estate of comedian George Carlin filed a lawsuit based on an
+unauthorized comedy program delivered in an AI-generated imitation of Carlin’s voice. The complaint
+claims defendants infringed their copyrights by making copies of Carlin’s works to train the AI model—
+similar to other AI-related copyright lawsuits noted in a separate Legal Sidebar—and that defendants
+violated Carlin’s ROP under California law by using his NIL to promote the comedy program and other
+media.
+The ROP intersects with copyright law inasmuch as both fictional and nonfictional copyrighted works
+often include the NIL of real people, including descriptions, portrayals, recordings, or performances of
+those people. For example, people depicted in photographs often do not hold the copyright, since the
+photographer is usually considered the author, but they may have ROP interests implicated by how those
+photos are used. These rights may come into conflict, such as when a copyright owner displays
+photographs in a way that commercially exploits the NIL of people shown in the photographs.
+Section 301 of the Copyright Act provides that the Copyright Act preempts (supersedes) any state law
+rights that are “equivalent to” a copyright holder’s exclusive rights. Some commentators argue courts
+have inconsistently applied Section 301 in cases where copyrights conflict with the ROP. Some courts
+have dismissed lawsuits that allege copyright holders violated the ROP by exercising their exclusive
+rights under the Copyright Act. For instance, in 2017, one court held that Section 301 preempted a suit
+claiming the sale of photographs of NCAA athletes violated the athletes’ ROP. Other courts have held that
+Section 301 does not preempt ROP claims based on advertising. For example, one court held that a sports
+announcer’s ROP claim was not preempted where an excerpt of his voice from a copyrighted broadcast
+was used in a commercial for a video game. Congress could clarify the scope of copyright preemption of
+ROP claims by amending Section 301. In addition, if Congress enacts any new protections for ROP at the
+federal level, it may specify under what circumstances copyright would preempt such protections.
+ROP laws can protect commercial interests in live performances, which cannot be copyrighted unless they
+are “fixed” (e.g., filmed). In the Supreme Court’s only ROP case to date, for instance, a performer sued a
+television company for broadcasting his “human cannonball” act, undermining ticket sales for the act. The
+Supreme Court held that the First Amendment did not prevent the performer from asserting a ROP claim
+against the company. As an exception to the rule that live performances have no copyright protection, in
+1994 Congress provided criminal and civil liability for recording and distributing live music
+performances without permission, although some courts have questioned these laws’ constitutionality.

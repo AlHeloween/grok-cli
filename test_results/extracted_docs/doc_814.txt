@@ -1,0 +1,63 @@
+**LEGAL BRIEF**
+
+A legal brief is a document that makes an argument as to why the person filing the brief should win the case or otherwise see his motion granted. This document contains the issues in dispute, the facts of the matter, and arguments in support of the party’s position. A legal brief that is submitted with a motion can also be referred to as a “memorandum of law.” This usually happens at the trial court level. To explore this concept, consider the following legal brief definition.
+
+Definition of Legal Brief
+Noun
+
+A short and concise statement
+A document that presents a legal argument to a court explaining why that party should prevail over the other.
+Origin
+
+1250-1300       Middle English bref
+
+What is a Legal Brief
+A legal brief is a document that is submitted to a court by a party to a lawsuit. In the document, that party lists the reasons why he should prevail over the other party or parties to the lawsuit. Legal briefs are often submitted together with a motion at the trial court level. These legal briefs are referred to as “legal memorandums,” or “memorandums of law.” A legal brief is different from a law school brief. In law school, students are typically asked to prepare a “brief” that gives an overview of a case, such as the issue at hand and an analysis of the facts.
+
+An example of a legal brief that can be considered a memorandum of law is one that accompanies a motion for summary judgment. A motion for summary judgment explains to the court why it is impossible for the opposing party to win the case, and requests that it be dismissed. Upon the court’s granting of summary judgment, the case is then effectively over.
+
+Legal briefs are also filed with the appellate court when an appeal has been entered. While trial courts hold trials to establish the facts of a case, appellate courts are more interested in whether or not the trial court made a mistake in issuing the decision that it did. Therefore, almost all appeals are heard via the briefs that are filed by the parties. Arguments are then heard from the parties’ attorneys, which are made based on the points presented in the legal briefs.
+
+Cases that are of a higher caliber and that are granted a writ of certiorari by the Supreme Court, can be argued on one of two examples of legal briefs: a merit brief, or an amicus brief. Merits briefs are filed by the parties to the case and, like at the lower court level, argue each side’s reasons they should win.
+
+Amicus briefs, however, are filed by people who are not parties to the case, but who have information to support one point of view or the other. These briefs focus on policy-related issues, and/or finer points of law. They can also explain why the case should be decided in favor of one party over the other when the law does not clearly apply to the issues at hand.
+
+Amicus briefs are typically filed by experts who specialize in the topics that are being discussed. For example, legal briefs are often filed by the American Civil Liberties Union (ACLU) on civil rights cases because they are experts on the subject, even if they are not directly involved with the parties to the case. Anyone can file an amicus brief to a case, so long as the court allows it.
+
+How to Write a Legal
+Before writing a legal brief, the person writing the brief should first consult the rules of the court to which the brief will be submitted. Different courts have different rules insofar as how to write a legal brief, such as the format of the brief, the number of pages that are permitted, and the presentation of citations. Court rules are normally published and, if the court has a website, the rules are usually posted there as well for easy reference.
+
+The State Bar of Wisconsin compiled a list of helpful tips on how to write a legal brief from judges who have extensive experience reading them. What follows are a few of their suggestions on how to write a legal brief that is better than average:
+
+Parties Should Persuade, Not Argue – A brief is effective when the judge reading it wonders why the parties to the action are arguing over such an obvious issue.
+Briefs Should Be Concise – Most cases can be boiled down to a single issue, so less is more when crafting a strong argument.
+Points Should Be Accurate – The parties should not argue points they are unable to prove.
+Relief Should Be Requested – The parties should not hesitate to be specific in the relief they’re requesting.
+Those drafting legal briefs often get caught up in raising all the facts of a case within that brief. This often results in the key points of a case getting buried in the other details being presented, and an otherwise good argument is lost. The last thing a brief should do is anger or bore the judge reading it. Therefore, only the best arguments should be presented, not every argument.
+
+It is also good to use the names of the parties, rather than “plaintiff” or “appellant.” This keeps the reader engaged in the narrative that is being told, and makes the argument that is being presented more persuasive to the person reading it. The more a judge can be drawn into reading a brief, the better chance that party has of prevailing at trial.
+
+Another common mistake is a failure to back up good arguments with good citations. Often, the person drafting a brief will cite case law and assume the judge is familiar with the facts of that case. It is therefore assumed that the judge will understand why that case is being cited with little or no explanation as to why. This is not necessarily true.
+
+Case citations should be accompanied by a brief explanation that clarifies the relevance of the holding whenever possible. If the case is not read thoroughly by the party citing it, it can actually work against him by acting as ammunition for the other side. In other words, he may be using an argument against his case, rather than for it.
+
+Formatting and Language of Legal Briefs
+There are specific rules regarding the formatting and language of a legal brief, depending on the court. As far as the U.S. Supreme Court is concerned, legal briefs must be written in 12-point type, in Century Schoolbook font. This is referred to as the “Supreme Court font.”
+
+Each legal brief submitted to the Supreme Court must be accompanied by a signed certificate that confirms that the brief’s formatting and language is in compliance with the imposed word limitations. The author’s signature must be notarized if he is not a member of the Bar of the Supreme Court or counsel of record.
+
+The word count, which is given by the word processing system that is used to draft the brief, must be listed on the certificate. The word count refers only to the text of the document and its footnotes. It does not include the additional sections of the brief, which can include the table of contents, the table of cited authorities, and/or any appendix that may be affixed to it. Nor are block quotations detailing constitutional provisions, treaties, statutes, ordinances, and regulations involved in the case included in the word count.
+
+Briefs submitted to the U.S. Supreme Court must be bound in booklet format, on paper cut to exactly 6 1/2″ x 9 1/4″, and the color, weight, and brightness of the paper is specified, as are the margins, size of footnotes, and the gutter. In addition to rules regarding formatting and language, the Supreme Court also has binding requirements for its briefs. Briefs should be saddle-stitched, which is the neat, center-spine stapling that is usually used for pamphlets, or perfect-bound, which is like the binding that joins together the pages of a book. Bindings made from plastic, metal, or string are not allowed, nor are spiral bindings.
+
+Even the color of the cover of the brief bears significance with the Supreme Court. For instance, an orange cover tells the Court that the brief is in opposition to a writ of certiorari. A light blue cover identifies a merits brief of Petitioner or Appellant, and a light green cover is attached to briefs of amicus curiae in support of Petitioner or Appellant. These are only a few of the colors that are used for Supreme Court brief covers. All of these requirements can be found on the Supreme Court’s website.
+
+Legalese
+It used to be that simple legal writing was frowned upon by the courts. To compensate, attorneys began writing in “legalese,” which is legal writing that is convoluted and confusing to most people. Terms like “heretofore,” “aforementioned,” and “thereafter” are considered legalese. Simpler legal writing uses fewer words, is clearer to the reader, and is significantly shorter in the number of total pages. When attorneys remove the legalese from their briefs, they are able to convey the same message that might otherwise have been lost in their use of more complicated legal terms.
+
+Legal Brief Sample
+The rules of the court to which a brief will be submitted take precedence over any legal brief sample that may be referenced in drafting the brief. While Appellate briefs are rarely published, those looking for sample legal briefs can reference the Supreme Court’s . This series contains full texts of some of the briefs that have been submitted for argument before the Supreme Court.
+
+Related Legal Terms and Issues
+Notary – A person authorized to perform certain legal tasks, such as the certification of contracts, deeds, or other documents that are referenced in court.
+Writ of Certiorari – An order issued by a higher court demanding a lower court forward all records of a specific case for review

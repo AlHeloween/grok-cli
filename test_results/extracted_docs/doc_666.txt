@@ -1,0 +1,28 @@
+Who pays whom, as well as who can sue whom for copyright infringement, depends in part on 
+the mode of listening to music. Rights owners of sound recordings (e.g., record labels) pay music 
+publishers for the right to record and distribute the publishers’ musical works in a physical
+format.27 Retail outlets that sell digital files or physical reproductions of sound recordings pay the 
+distribution subsidiaries of major record labels, which act as wholesalers.28 Purchasers of a 
+lawfully made reproduction, such as a compact disc or a digital file, may listen to that song as 
+often as they wish in a private setting.
+Radio listeners have less control over when and where they listen to a song than they would if 
+they purchased the song outright. The Copyright Act does not require broadcast radio stations to 
+pay public performance royalties to record labels and artists, but it does require them to pay 
+public performance royalties to music publishers and songwriters for the use of notes and lyrics in 
+broadcast music. 
+In addition to mechanical rights, digital services must pay both record labels and music publishers 
+for public performance rights. Both traditional broadcast radio stations and music streaming 
+services that limit the ability of users to choose which songs they hear next (noninteractive 
+services) may make temporary reproductions of songs in the normal course of transmitting music 
+to listeners.29 The rights to make these temporary reproductions, known as “ephemeral 
+reproductions,” fall under 17 U.S.C. Section 112 (see “Ephemeral Reproductions”).
+Users of an “on demand” or “interactive” music streaming service can listen to songs upon 
+request, an experience similar in some ways to playing a compact disc and in other ways to 
+listening to a radio broadcast. To enable multiple listeners to select songs, the services download
+digital files to consumers’ devices. These digital reproductions are known as “conditional” or 
+“tethered” downloads, because consumers’ ability to listen to them upon request is conditioned 
+upon remaining subscribers to the interactive services.30 The services pay royalties to music 
+publishers or songwriters for the right to reproduce and distribute the musical works, and pay 
+royalties to record labels or artists for the right to reproduce and distribute sound recordings.31
+Thus, while record labels reproduce and distribute their own sound recordings in physical form, they license such rights to interactive digital streaming services when the music is in digital 
+form.

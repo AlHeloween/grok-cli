@@ -1,0 +1,113 @@
+State Price-Gouging Laws
+Many states have enacted some type of prohibition or limitation on price increases during
+declared emergencies. Generally, these state laws take one of two basic forms. Some states
+prohibit the sale of goods and services at what are deemed to be “unconscionable” or “excessive”
+prices in the area and during the period of a designated emergency. Other states have established a
+maximum permissible increase in the prices for retail goods during a designated emergency
+period. Many statutes of both kinds include an exemption if price increases are the result of
+increased costs incurred for procuring the goods or services in question.
+
+Gasoline Price Increases: Federal and State Authority to Limit “Price Gouging”
+Congressional Research Service 2
+Examples of State Statutes
+Prohibitions on “Excessive” or “Unconscionable” Pricing
+One common way that states address price gouging is to ban prices that are considered to be (for
+example) “excessive” or “unconscionable,” as defined in the statute or left to the discretion of the
+courts. These statutes generally bar such increases during designated emergency periods. The
+process for emergency designation is also usually defined in the statute. Frequently, the state’s
+governor is granted authority to designate an emergency during which the price limitations are in
+place.
+For example, the New York statute provides that:
+During any abnormal disruption of the market for consumer goods and services vital and
+necessary for the health, safety and welfare of consumers, no party within the chain of
+distribution of such consumer goods or services or both shall sell or offer to sell any such
+goods or services or both for an amount which represents an unconscionably excessive
+price.5
+The statute defines abnormal disruption of the market as a real or threatened change to the market
+“resulting from stress of weather, convulsion of nature, failure or shortage of electric power or
+other source of energy, strike, civil disorder, war, military action, national or local emergency …
+which results in the declaration of a state of emergency by the governor.”6 The statute provides
+only for criminal liability and leaves the ultimate decision as to whether a price is
+“unconscionably excessive” to prosecutors (for charging purposes) and to the courts, with no
+separate cause of action created for private parties. As guidance in such cases, the statute notes
+that if there is a “gross disparity” between the price during the disruption and the price prior to the
+disruption, or if the price “grossly exceeds” the price at which the same or similar goods are
+available in the area, such disparity will be considered prima facie evidence that a price is
+unconscionable.7
+Similarly, Florida’s statute bars “unconscionable pricing” during declared states of emergency.8
+If
+the amount being charged represents a “gross disparity” from the average price at which the
+product or service was sold in the usual course of business (or available in the “trade area”)
+during the 30 days immediately prior to a declaration of a state of emergency, it is considered
+prima facie evidence of “unconscionable pricing,” which constitutes an “unlawful act or
+practice.”
+9 However, pricing is not considered unconscionable if the increase is attributable to
+additional costs incurred by the seller or is the result of national or international market trends.10
+As with the New York statute, the Florida statute offers guidance, but the question of whether
+certain prices during an emergency are deemed “unconscionable” is ultimately left to the courts.
+Many state price-gouging laws are triggered only by a declaration of emergency in response to
+localized conditions. Thus, they will generally not apply after a declared emergency ends or in
+areas not directly affected by a particular emergency or natural disaster. However, at least two
+
+Gasoline Price Increases: Federal and State Authority to Limit “Price Gouging”
+Congressional Research Service 3
+states have laws prohibiting excessive pricing that impose liability even without a declaration of
+any type of emergency. Maine law prohibits “unjust or unreasonable” profits in the sale,
+exchange, or handling of necessities, defined to include fuel.11 Michigan’s consumer protection
+act simply prohibits “charging the consumer a price that is grossly in excess of the price at which
+similar property or services are sold.”
+12
+Prohibitions of Price Increases Beyond a Certain Percentage
+In contrast to a general ban on “excessive” or “unconscionable” pricing, some state statutes leave
+less to the courts’ discretion and instead place limits on price increases of certain goods during
+emergencies.
+For example, California’s anti-price-gouging statute states that for a period of 30 days following
+the proclamation of a state of emergency by the President of the United States or the governor of
+California or the declaration of a local emergency by the relevant executive officer, it is unlawful
+to sell or offer certain goods and services (including emergency and medical supplies, building
+and transportation materials, fuel, etc.) at a price more than 10% higher than the price of the good
+prior to the proclamation of emergency.13 As a defense, a seller can show that the price increase
+was directly attributable to additional costs imposed on it by the supplier of the goods or
+additional costs for the labor and material used to provide the services.14 The prohibition lasts for
+30 days from the date of issuance of the emergency proclamation.15
+West Virginia has also adopted an anti-price-gouging measure based on caps to percentage
+increases in price during times of emergency. The West Virginia statute provides that upon a
+declaration of a state of emergency by the President of the United States, the governor, or the
+state legislature, it is unlawful to sell or offer to sell certain critical goods and services “for a price
+greater than ten percent above the price charged by that person for those goods and services on
+the tenth day immediately preceding the declaration of emergency.”
+16 West Virginia also provides
+an exception for price increases attributable to increased costs on the seller imposed by the
+supplier or to added costs of providing the goods or services during the emergency.17
+Some states use language barring “unconscionable” or “excessive” pricing in a manner similar to
+the state statutes described in the previous section but define these terms with hard caps instead of
+leaving their exact definition to the discretion of the courts. For example, the Alabama statute
+makes it unlawful for anyone to “impose unconscionable prices for the sale or rental of any
+commodity or rental facility during the period of a declared state of emergency.”
+18 However, it
+provides that prima facie evidence of unconscionable pricing exists “if any person, during a state
+of emergency declared pursuant to the powers granted to the Governor, charges a price that
+exceeds, by an amount equal to or in excess of 25%, the average price at which the same or
+similar commodity or rental facility was obtainable in the affected area during the last 30 days
+
+
+Gasoline Price Increases: Federal and State Authority to Limit “Price Gouging”
+Congressional Research Service 4
+immediately prior to the declared state of emergency.”
+19 As with most other state price-gouging
+statutes, the statute does not apply if the price increase is attributable to reasonable costs incurred
+by the seller in connection with the rental or sale of the commodity.20
+A few other states have imposed caps on price increases during emergencies even tighter than the
+one imposed by the aforementioned statutes. Some state statutes ban any price increase during
+periods of emergency. For example, in Georgia, it is considered an “unlawful, unfair and
+deceptive trade practice” for anyone doing business in an areas where a state of emergency has
+been declared to
+sell or offer for sale at retail any goods or services identified by the Governor in the
+declaration of the state of emergency necessary to preserve, protect, or sustain the life,
+health, or safety of persons or their property at a price higher than the price at which such
+goods were sold or offered for sale immediately prior to the declaration of a state of
+emergency.21
+As with other state gouging statutes, the Georgia statute provides an exception for price increases
+that reflect “an increase in cost of the goods or services to the person selling the goods or services
+or an increase in the cost of transporting the goods or services into the area.”
+

@@ -1,0 +1,11 @@
+**Rural access**
+
+One of the great challenges for Internet access in general and for broadband access in particular is to provide service to potential customers in areas of low population density, such as to farmers, ranchers, and small towns. In cities where the population density is high, it is easier for a service provider to recover equipment costs, but each rural customer may require expensive equipment to get connected. While 66% of Americans had an Internet connection in 2010, that figure was only 50% in rural areas, according to the Pew Internet & American Life Project.[141] Virgin Media advertised over 100 towns across the United Kingdom "from Cwmbran to Clydebank" that have access to their 100 Mbit/s service.[30]
+
+Wireless Internet service providers (WISPs) are rapidly becoming a popular broadband option for rural areas.[142] The technology's line-of-sight requirements may hamper connectivity in some areas with hilly and heavily foliated terrain. However, the Tegola project, a successful pilot in remote Scotland, demonstrates that wireless can be a viable option.[143]
+
+The Broadband for Rural Nova Scotia initiative is the first program in North America to guarantee access to "100% of civic addresses" in a region. It is based on Motorola Canopy technology. As of November 2011, under 1000 households have reported access problems. Deployment of a new cell network by one Canopy provider (Eastlink) was expected to provide the alternative of 3G/4G service, possibly at a special unmetered rate, for areas harder to serve by Canopy.[144]
+
+In New Zealand, a fund has been formed by the government to improve rural broadband,[145] and mobile phone coverage. Current proposals include: (a) extending fiber coverage and upgrading copper to support VDSL, (b) focusing on improving the coverage of cellphone technology, or (c) regional wireless.[146]
+
+Several countries have started Hybrid Access Networks to provide faster Internet services in rural areas by enabling network operators to efficiently combine their XDSL and LTE networks.

@@ -1,0 +1,87 @@
+Internal environment of Nintendo
+(1) Analysis of Nintendo's advantages
+Competitive advantage refers to an enterprise's ability to outperform its competitors, which helps
+to achieve its main goal -- profit. Nintendo's strengths lie in the following ways [3]. Nintendo has
+developed a unique profit distribution system based on its nearly 50 years of experience in the game
+industry. At that time, the manager in charge of Nintendo drew lessons from the "collapse of Atari".
+First, he set up a "Mario Club" game quality supervision agency to strictly screen the game software
+on the Nintendo game console. Later, he set up a "royalty system" and formulated a set of rules for
+game review, platform access, and game revenue sharing, which brought huge profits to Nintendo,
+At the same time, it objectively promoted the benign development of the Japanese game industry at
+that time. These systems are also the internal reason why the overall quality of Nintendo Switch
+games is much better than its competitors. Super big IPs such as Super Mario and Legend of Zelda
+have always maintained a good reputation and remain popular among players. It is these unique
+systems that enable Nintendo to maintain a high-profit margin even in the context of economic
+depression [4].
+(2) Analysis of Nintendo's disadvantages
+First, Nintendo's failed family business management style. The presidents of Nintendo's Japanese
+and American divisions (NOA) often have differences due to huge differences in management
+methods, and the consequences of such differences are devastating because they will lead to key
+employees becoming vulnerable and even leaving to do other work. Therefore, the family business
+management model seriously leads to the failure of efficient cooperation between Nintendo's various
+branches, and will also seriously harm Nintendo's external reputation and damage Nintendo's overall
+interests [5].
+Secondly, weak technology research and development capability. With the growing demand for
+personalized service, companies are required to provide increasingly specialized service strategies
+and differentiated solutions, for example, more and more game companies begin to focus on creating
+products with local characteristics based on the language and cultural background of different regions,
+which is also the basis for a game to be promoted around the world. In addition, the development of
+modern games also needs the support of technological innovation. For example, more and more VR,
+AR, and motion capture games are emerging in the market. It would be unthinkable for Nintendo to
+spend huge resources on a new generation of high-performance consoles to compete with SONY.
+Conversely, it is in the area of research and development that Nintendo's other rival, Microsoft, has
+the greatest advantage.
+3.3.2 External environment of Nintendo
+(1) Opportunity for Nintendo
+In terms of technology and business environment, Nintendo has much more experience than its
+competitors with the background of years of exploration in the gaming industry. Even though
+Microsoft recently acquired the game giant Blizzard, it intends to expand its market share in the game
+industry. However, Microsoft did not intervene in Blizzard's daily operation, which was also due to
+its limited experience in the game industry. These factors can also reduce Nintendo's competitive
+pressure [6].
+In terms of the political and legal environment, the government's favorable policies also help game
+companies expand their overseas markets. Also, under the catalysis of the epidemic economy, video
+games have become one of the most popular cultural and creative activities for young people in the
+world. Many governments are aware of this trend and have introduced a series of supportive policies,
+such as setting up special funds for the game industry; Promise the game developer that adding
+landmark landmarks in the game can get financial support and tax concessions. These policies are
+good news for multinational game companies like Nintendo to expand their overseas markets.
+(2) Threat for Nintendo
+Highlights in Business, Economics and Management FMIBM 2023
+Volume 10 (2023)
+194
+Microsoft's strong economic strength enables them to continue to operate in the gaming industry
+after experiencing the cost of failure in the game product competition of 4 billion dollars and make
+up for the shortcomings of their predecessors in new products. At the same time, Microsoft could use
+money offensive to buy third-party platform certification. Finally, and most importantly, Microsoft's
+latest games are coming out one year earlier than Nintendo's or SONY's, making it harder for
+Nintendo to time and win the market.
+4. Nintendo’s market strategy suggestion
+As the gaming industry continues to evolve, scholars generally agree that gaming companies need
+not only excellent hardware and software technology but also effective marketing strategies. Schilling
+MA (2003) believes that if companies in the game industry want to maintain their market share, they
+need to improve their marketing strategies to follow or even guide the market trend [7]. Marchand A
+and Hennig-Thurau T (2013) think that companies in the game industry need to pay attention to
+consumers' preferences in the market, understand consumers' needs in the form of questionnaires, etc.,
+to design their products in a targeted way [8]. SC Jain (1989) thinks that companies in the game
+industry need to pay attention to consumers' preferences in the market, understand consumers' needs
+in the form of questionnaires, etc., to design their products in a targeted way [9]. Based on the above
+analysis of Nintendo's internal and external conditions, this report proposes the following
+improvement suggestions [10].
+Nintendo could consider setting up more offline experience stores overseas. Nintendo's classic
+game characters, such as Mario, Pokemon, Kirby, and Link, are familiar to the public. Taking these
+characters as ambassadors of offline experience stores, they can attract enough attention without too
+much publicity expenses and are very attractive to children and adults.
+Nintendo could consider adding episode-by-episode, level-by-level incrementally unlocked
+purchases. Because Nintendo's software games are priced in a complementary way to the console's
+price, they are generally priced higher than other games in the market. This can lead to players who
+want to play a game but don't buy it because the price is too high. In this case, the buy-out system can
+be supplemented with the option of gradually unlocking purchases by episode or level, and players
+can choose to buy them out or buy them separately. That way, players can play more games, and
+buying incrementally doesn't feel like a buy-out. This is also a great way for Nintendo to increase its
+sales.
+Nintendo could increase its ban on cracking consoles and develop new encryption technologies.
+For now, Nintendo's crackdown on cracked consoles is not strong enough, and only users who use
+cracked consoles to connect to the Internet have been blocked. In this case, to protect their intellectual
+property rights, but also promote the sale of their legitimate games, the development of a new set of
+encryption technology is worth considering.

@@ -1,0 +1,101 @@
+Cryptocurrencies may be used to facilitate transactions and may be held as speculative
+investments. Since 2009, when Satoshi Nakamoto launched the first cryptocurrency blockchain,
+thousands of cryptocurrencies and different classes of other digital assets have emerged. This
+section provides a non-exhaustive survey of various cryptocurrencies and some representative
+features.
+Cryptocurrencies
+The term cryptocurrency generally refers to blockchain-based digital currencies maintained on
+decentralized networks. For the purposes of this report, cryptocurrencies refers to a type of digital
+asset. Stablecoins (see “Stablecoins” below) are a subset of cryptocurrency. Non-fungible tokens
+and digital (or metaverse) real estate are other types of digital assets. They use similar technology
+but are beyond the scope of this report. Other terms used synonymously with cryptocurrency are
+crypto asset and tokens, among others. The term cryptocurrencies and citation of broad market
+capitalization often include stablecoins (see “Stablecoins”), which have their own distinct set of
+properties—most notably that they try to maintain a peg to some underlying asset.
+The two most prevalent cryptocurrencies are Bitcoin and Ether, which combined represent around
+61% of the entire crypto market.27 The cryptocurrency market, which consists of between 13,000
+and 20,000 cryptocurrencies, according to industry tracking websites, has been characterized by
+near constant and rapid price increases and price decreases.28 Most recently, after experiencing
+exponential growth from 2020 to a record high of nearly $3 trillion in November 2021, the
+market capitalization fell to less than $800 billion in November 2022. Bitcoin fell from nearly $69,000 to a two-year low of below $16,000 during this time.29 This trend has been referred to as
+crypto winter. A host of cryptocurrency project and company failures in summer and fall 2022,
+including the collapse of FTX, perhaps the most notable to date, were caused—and
+exacerbated—by this broader market downturn.30 As of the time of this report, the total crypto
+market capitalization is around $1 trillion.31
+Bitcoin
+Bitcoin was the first cryptocurrency to gain widespread adoption. Bitcoin runs on a public
+blockchain, secured by cryptography, and uses the proof of work consensus mechanism described
+above to validate transactions. It also exhibits unique characteristics. For example, the mining and
+hashing and use of Bitcoin block rewards creates a relationship intended to keep block mining
+(approval) times roughly stable.32 The hashing complexity is intended to ensure block approval
+rates of 10 minutes.33 If the number of miners or the computing capacity being used increases—
+perhaps because the Bitcoin block reward induces more miners to compete or deploy more
+advanced equipment—thus mining blocks faster than 10 minutes (on average), the proof
+difficulty increases. Alternatively, if the network and its participants mine blocks at a slower rate
+(perhaps because the number of miners falls), the proof of work difficulty falls, ensuring that the
+number of active miners is capable of meeting the 10-minute goal.34 The effort required of the
+proof of work favors miners with greater computational power requiring significant amounts of
+energy.35
+Other notable and interrelated Bitcoin features include transactions fees, a hard cap on the
+number of Bitcoin, and block reward halving. The limit on block approval rates means that
+transactions are slow compared to traditional payment systems.36 Network participants can pay
+transaction fees to incentivize miners to process their transactions more quickly. Although the
+block reward (which is hard-coded into the design) is still the primary form of compensation,
+transaction fees are expected to grow as block rewards shrink.37 For approximately every 210,000
+blocks, the system “halves” the block reward miners receive for validating transactions. Halving occurs roughly every four years.38 The original block reward was 50 Bitcoin. As of 2022, after
+three halvings, miners are rewarded 6.25 for each block mined.39 Finally, the number of Bitcoin
+created is capped at 21 million, when creation of new Bitcoin is to cease.40
+Ethereum
+Ether is the cryptocurrency native to the Ethereum blockchain, which claims to “build on Bitcoin,
+with some big differences.”41 In an assessment of Bitcoin, Vitalik Buterin—Ethereum’s
+founder—described Bitcoin as having a “weak version of a concept of ‘smart’ contracts.”42 Smart
+contracts are programs or software that can self-execute when various participants meet some
+predetermined set of criteria. Ethereum thus set out to create an “alternative protocol for building
+decentralized applications … allowing anyone to write smart contracts and decentralized
+applications where they can create their own arbitrary rules for ownership, transaction formats
+and state transition functions.”43 In cryptocurrency and decentralized finance (see “Decentralized
+Finance (DeFi)” below), smart contracts are often used to facilitate trades between users without
+an intermediary. Ethereum shares some similarities with Bitcoin, including pseudonymity,
+immutability, decentralization, and broadly speaking its basic functions as a unit of account and
+medium of exchange, among others. However, there are some important differences.
+Because of the enhanced programmability offered, the Ethereum network has become a favorite
+foundation for cryptocurrency projects that require a certain level of flexibility afforded by smart
+contracts, including the creation of additional tokens and the implementation of broader
+decentralized finance, or DeFi, projects.44
+Bitcoin has only ever been mineable—developed from nothing and with no initial allotment or
+pre-sale of coins to participants—and has a hard cap of 21 million Bitcoin. This is not the case
+with Ether. Ether pre-sold a majority of the initially created cryptocurrency (83.5% at the time) in
+a pre-mine in 2014 and set aside the remainder for accrued expenses and a post-sale reserve.45 As
+Ether became mineable and network mining activities created more Ether, the share of pre-mined
+crypto (those that were purchased prior to the network going live) fell as a percentage of the total
+outstanding.
+While there is no hard cap on the amount of Ether that may ever enter the system, the network
+recently implemented various upgrades that sought to both limit the creation of new Ether and reduce existing supply.46 The first of the two changes implemented in the “London upgrade”
+affected Ether supply. As a result of this upgrade, the network burns—or removes from
+circulation—a certain amount of Ether from the supply with each transaction.47 In addition, the
+recent and more momentous upgrade, called “the Merge,” drastically reduced the network block
+reward.48 Therefore, new Ether supply increases at a much slower pace than before the Merge.49
+The Merge was arguably one of the biggest things to happen to the Ethereum network since its
+inception. The Merge shifted the network from proof of work to a proof of stake consensus
+protocol.50 Ethereum, like Bitcoin, was initiated using proof of work but with the ambition from
+its origins of shifting consensus protocols.51 Proof of stake is an alternative method for securing a
+blockchain that proponents believe is less energy intensive.52 Proof of work requires miners to
+compete with each other to solve computationally intensive, cryptographically secured puzzles,
+which prioritize network nodes with computation power. In proof of stake, by contrast, any
+validating node that “stakes,” or deposits, at least 32 Ether enters a pool of potential validators
+that may be randomly selected to submit the next block.53 The network can seize validator-staked
+Ether for malicious activity or other offenses. Ethereum’s founder claimed that the shift would
+reduce the Ethereum network’s power consumption and emissions by greater than 99% and
+reduce global energy consumption by 0.2%.54 Stablecoins55
+Cryptocurrencies such as Bitcoin and Ether fluctuate in value based on market supply and
+demand. By contrast, stablecoins are digital assets “designed to maintain a stable value relative to
+a national currency or other reference assets.”56 For example, the Tether stablecoin is tied to the U.S. dollar and set equal in value to $1.57 Total market capitalization for stablecoins is more than
+$140 billion.58 One primary use of stablecoins is trading of other cryptocurrencies. According to
+an industry data source, nearly 75% of trading on all crypto platforms is between stablecoins and
+other tokens.59
+Proponents often point to stablecoins’ relative stability as an advantage for their use in payments.
+However, despite their name, stablecoins do not always maintain their stable value. While
+stablecoins typically attempt to maintain a peg to a fiat currency, issuers may attempt to achieve
+this goal in different ways. Certain stablecoins attempt to achieve this peg by holding “reserve
+assets.”60 Others may use algorithms or smart contracts to manage the supply of tokens and guide
+their value to various reference assets.61

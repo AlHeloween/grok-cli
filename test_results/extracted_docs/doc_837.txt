@@ -1,0 +1,114 @@
+
+1. Retinol alleviates aging related conditions of human skin
+The skin phenotypes of each individual enrolled were collected at five time points. Principal
+coordinates analysis (PCoA) revealed that participants experienced an overall change in skin
+phenotype after application of retinol. The Adonis test demonstrated significant separation from
+Day 0 for Day 21 (adj.p=0.010) and Day 28 (adj.p=0.017), indicating an altered phenotype
+compared to the baseline (Fig.S1A). Moreover, more than half (eight out of fourteen) of the
+phenotypic measurements, including water content in the stratum corneum (WCSC), transepidermal water loss (TEWL), pH value, percentage of the red area, and various wrinkle
+parameters (number, length, area, and volume), exhibited significant changes compared to the
+baseline (Fig.1).
+The topical use of the retinol resulted in enhanced water retention capability of the skin, with a
+31.4% increase in WCSC (adj.p=0.050, Wilcoxon paired test) and an 18.4% decrease in TEWL
+at day 28 (adj.p=0.004, adj.p=0.050, Wilcoxon paired test), respectively. Notably, WCSC on
+day 28 showed a significant increase not only compared to the baseline but also compared to
+days 7 and 14 (adj.p=0.004, adj.p=0.050, Wilcoxon paired test), suggesting that the stratum
+corneum's water retention ability improves with prolonged retinol use. The decrease in TWEL
+indicated that retinol markedly improved and repaired the skin barrier, helping to retain skin
+moisture and prevent water loss. Retinol also demonstrated its effectiveness in sedative and
+anti-inflammatory skincare properties, as evidenced by a significant reduction in the size of red
+areas: a decrease of 11.6% on day 21 and 13.2% on day 28 compared to the baseline level (Table
+S2).
+The pH values of the skin cheek surface exhibited a decline from 7.21 (average value on Day
+0) to 6.72 (average value on Day 28) while using retinol, indicating the gradual formation of a
+weakly acidic environment on the facial skin, suggesting that retinol can modulate and maintain
+acid-base balance of skin.
+Meanwhile, multiple wrinkle-related indicators, including the wrinkle number, length, area, and
+volume at the corners of the eyes, displayed significant reductions starting from Day 7
+compared to the pre-retinol use conditions (Table S2). Specifically, the wrinkle number
+decreased significantly on Day 7, 21 and 28, with the most substantial reduction observed on
+Day 21 and 28, resulting in a 27.8% decrease relative to baseline. The wrinkle length
+significantly decreased at all four sampling time points compared to baseline. By Day 28, the
+average wrinkle length decreased from 68.7μm to 42μm, representing a reduction of 38.8%
+compared to baseline. Wrinkle area exhibited significant reductions on Day 7 and 21, with a
+notable decrease of 34.8% observed on Day 21. Finally, the wrinkle volume exhibited a
+significant decrease of 26.9% at Day 7. These findings highlight the potent anti-aging properties
+of retinol and its efficacy in improving facial wrinkle conditions.
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.
+bioRxiv preprint doi: https://doi.org/10.1101/2024.06.26.600860; this version posted June 27, 2024. The copyright holder for this preprint
+Figure 1 The temporal variation of skin phenotypic traits
+Statistical significance levels of data relative to baseline changes were assessed using the Wilcoxon paired test and
+adjusted using the Benjamini & Hochberg (BH) method. Displayed results are adjusted p values. Unmarked indicates nonsignificance, * indicates adj.p ≤ 0.1, ** indicates adj.p ≤ 0.05. Data are shown in Table S2.
+2. Retinol reshapes human skin microbiome microecology.
+The application of the retinol had a dramatic impact on the restructuring of skin microbiome
+microecology (Fig.S1C). Species-level alpha diversity (Shannon diversity index and species
+evenness index) was significantly lower on day 7 compared to day 0 (Fig.2B, p=0.031, paired
+Wilcoxon test). This decrease in diversity could be attributed to an imbalance in the relative
+distribution of certain species within the microbial community. Specifically, there was a
+significant decrease in the relative abundance of Corynebacterium accolens, a skin bacterium
+ranked among the top 20 abundant species, on day 7 compared to the baseline (Fig. S1B). This
+reduction may have allowed other species to occupy a relatively larger ecological niche,
+resulting in a decline in microbial diversity. Notably, opportunistic pathogens such as
+Stenotrophomonas maltophilia, Acinetobacter johnsonii, Pseudomonas sp., and Sphingomonas
+hankookensis showed significant decreases in their relative abundances at three consecutive
+time points compared to the baseline (Fig.2C). This suggests that the retinol-containing skincare
+product possesses antimicrobial properties and can reduce the colonization of pathogenic
+bacteria on the skin surface. We also noticed an increase in the relative abundance of
+Neisseriales species incertae sedis (Fig.S1B) and Corynebacterium jeddahense (Fig.2C).
+However, their specific functions remain unclear.
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.
+bioRxiv preprint doi: https://doi.org/10.1101/2024.06.26.600860; this version posted June 27, 2024. The copyright holder for this preprint
+Figure 2 Effects of retinol on the structure of skin microbiome.
+(A) Gene pathway enrichment analysis based on ReporterScore. A ReporterScore with an absolute value greater
+than 1.64 indicates significant enrichment of the gene pathway, with positive or negative signs denoting upregulation or
+downregulation compared to the control group (Day 0, baseline). (B) Skin microbiome Alpha diversity indexes. (C) Intergroup differential species abundance changes. Statistical significance levels of data relative to baseline changes were
+assessed using the Wilcoxon paired test. Displayed results are p values. Unmarked indicates non-significance, * indicates
+p ≤ 0.05, ** indicates p≤ 0.01.
+Retinol also exerts an impact on the functionality of the skin microbiome. Starting from Day
+14, several microbial gene pathways displayed altered regulation levels (Fig. 2A). Notably, the
+thiamine (Vitamin B1) metabolism gene pathway was enriched on both Day 14 and Day 21,
+marked by a peak in the abundance of a thiamine metabolite, biotin thiamine, on Day 14, which
+significantly increased compared to Day 0 (Fig. S2A). Metabolomic data also showed that the
+microbial and host thiamine metabolic pathway was significantly (p=0.026) enriched on Day
+14, marked by increased intensities of pyruvic acid and L-Tyrosine (Fig. S2A). All the three
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.
+bioRxiv preprint doi: https://doi.org/10.1101/2024.06.26.600860; this version posted June 27, 2024. The copyright holder for this preprint
+substances are biosynthetic precursors of thiamin. Thiamin has a variety of benefits for the skin,
+including increasing the expression of collagen, promoting skin cell growth and repair, and
+maintaining skin elasticity. Our findings suggest that retinol helps to promote the synthesis and
+utilization of thiamine by the skin microbiome, thereby enhancing the function and health of
+the skin barrier. Furthermore, the riboflavin metabolism pathway showed enrichment on Day
+14 (Fig. 2A), accompanied by a notable decrease in the abundance of riboflavin on Day 14,
+while the intensity of riboflavin 5’-phosphate sodium, a bio-active form of riboflavin, exhibited
+an increase relative to baseline on Day 21 and Day 28(Fig. S2A). Riboflavin phosphate sodium
+salt form is an essential micronutrient, and plays an important role in the health of the skin,
+mucous membranes, and eyes. Retinol makes microorganisms more inclined to utilize or
+convert riboflavin into the active form, riboflavin 5’-phosphate sodium. Additionally, certain
+gene pathways demonstrated decreased expression levels, including biofilm formation of Vibrio
+cholerae and flagellar assembly were down-regulated on Day 21. And the bacterial secretion
+system and O-antigen nucleotide sugar biosynthesis, both were consistently down-regulated
+during the last three time points(Fig. 2A). The down-regulation implies that retinol may possess
+antimicrobial and anti-inflammatory capabilities by inhibiting bacterial metabolic activity,
+secretion of bacterial products, and influencing the integrity of bacterial structure.
+3. Retinol stimulates skin microbiota’s secretion of diverse beneficial metabolites for
+synergistic anti-aging effects.
+We further utilized MetOrigin to perform tracing analysis of metabolites (based on the
+databases of MetOrigin tracking to determine whether they originated from the host,
+microorganisms, or co-metabolism) and metabolic pathway enrichment analysis. Of note,
+nicotinate and nicotinamide metabolism pathway (hsa00760) enriched in the host on Day 21
+, and supported by increment of N1-methyl-4-pyridone-3-carboxamide which is
+associated with this pathway 
+In the microbe, degradation of flavonoids (ko00946), phenylalanine, tyrosine and tryptophan
+biosynthesis (ko00400), and biosynthesis of various plant secondary metabolites (ko00999)
+were up-regulated (Fig. 3A). Based on the databases of MetOrigin, we found a variety of
+microbial-origin metabolites significantly related to the enrichment of the above pathways,
+some of which have been reported or experimentally verified to be beneficial to the skin.
+Maesopsin and apigenin were related to ko00946, where apigenin was known as an anti-tumor
+substance that is particularly helpful in preventing and reversing the formation of abnormal
+skin49–52. Quinic acid, 3-dehydroquinic acid and protocatechuic acid were related to ko00400,
+where quinic acid was reported to have an antiphotoaging effect by protecting human dermal
+fibroblasts53,54 and protocatechuic acid was demonstrated to have anti-oxidate and anti-aging
+effects by inducing dermal fibroblasts to synthesis type-1 collagen55–57. In ko00999, (+)-
+pinoresinol and secoisolariciresinol were significantly related, the former was reported to
+stimulate keratinocyte proliferation58,59 and the latter was reported to suppress atopic dermatitis
+in the mouse when administered orally60

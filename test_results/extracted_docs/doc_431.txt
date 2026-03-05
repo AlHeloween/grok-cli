@@ -1,0 +1,73 @@
+Recipients of Social Security COLAs After April 1977 (“Pickle Amendment”)
+Section 503 of P.L. 94-566 generally requires states to provide Medicaid coverage for individuals
+who would continue to be eligible for SSI/SSP if not for increases in their Social Security benefits
+due to COLAs.64 Individuals qualify under this pathway it they
+• are receiving Social Security benefits,
+• lost SSI/SSP but would still be eligible for those benefits if Social Security COLAs
+received since losing SSI/SSP were deducted from their income, and
+• were eligible for and receiving SSI/SSP concurrently with Social Security for at
+least one month after April 1, 1977.
+209(b) states may exclude all, some, or none of the Social Security benefit increases that caused
+ineligibility for SSI/SSP. This pathway is often known as the “Pickle Amendment” after the late
+Representative J.J. Pickle.
+Disabled Widow(er)s Receiving Benefit Increases Under P.L. 98-21
+(“ARF Widow[er]s”)
+(This pathway is closed to new enrollment and applies to relatively few people.)
+Social Security provides widow(er)’s benefits starting at age 60, or at age 50 if the individual is
+disabled and meets certain other criteria. The amount of the aged or disabled widow(er)’s benefit is
+based on the deceased insured worker’s past earnings from covered employment, subject to a
+permanent reduction for each month of entitlement before the widow(er)’s full retirement age (65-
+67, depending on year of birth). Under P.L. 98-21, lawmakers eliminated the additional reduction
+factor (ARF) for disabled widow(er)s aged 50-59, meaning their reduction penalty for claiming
+benefits before their full retirement age was capped at the percentage applicable to aged widow(er)s
+who first claim at age 60.
+All states (including 209[b] states) are required to provide Medicaid coverage for individuals who
+would continue to be eligible for SSI/SSP if not for increases in their widow(er)’s benefits due to
+the elimination of the ARF (known as “ARF Widow[er]s”).65 Individuals qualify under this pathway
+if they
+• were entitled to Social Security benefits in December 1983 and received disabled
+widow(er)’s benefits and SSI/SSP in January 1984,
+• lost SSI/SSP eligibility because of the elimination of the ARF,
+• have been continuously entitled to widow(er)’s benefits since January 1984,
+• filed for Medicaid continuation before July 1, 1988 (or a slightly later date in some
+cases), and
+• would continue to be eligible for SSI/SSP if the value of the increase in disabled
+widow(er)’s benefits under P.L. 98-21 and any subsequent COLAs were deducted
+from their countable income.
+Disabled Adult Children
+Disabled adult children of retired, disabled, or deceased insured workers typically qualify for Social
+Security disabled adult child’s (DAC) benefits if they are at least age 18 and became disabled
+before they attained age 22. States are generally required to provide Medicaid coverage for
+individuals who lose eligibility for SSI/SSP due to entitlement to or an increase in DAC benefits.
+66
+Individuals qualify under this pathway if they
+• lose eligibility for SSI/SSP due to receipt of DAC benefits on or after July 1, 1987,
+and
+• would continue to be eligible for SSI/SSP if not for their entitlement to or an
+increase in DAC benefits.
+209(b) states may exclude all, some, or none of the DAC benefit or increases in that benefit that
+caused ineligibility for SSI/SSP.
+Widow(er)s Not Entitled to Medicare Part A (“Early Widow[er]s”)
+States are generally required to provide Medicaid coverage for individuals aged 50 to 64 who lose
+eligibility for SSI/SSP due to entitlement to Social Security widow(er)’s benefits but who are not
+yet entitled to Medicare Part A (Hospital Insurance).67 Individuals qualify under this pathway if
+they
+• are at least age 50 but have not yet attained age 65,
+• received SSI/SSP in the month before their widow(er)’s benefits began,
+• are not entitled to Medicare Part A,68 and
+• would continue to be eligible for SSI/SSP if not for their entitlement widow(er)’s
+benefits.69
+Eligibility for Medicaid under this pathway continues until the individual becomes entitled to
+Medicare Part A. 209(b) states may exclude all, some, or none of the widow(er)’s benefit that
+caused ineligibility for SSP/SSI.
+Recipients of a 1972 Social Security COLA
+(This pathway is closed to new enrollment and applies to relatively few people.)
+Section 249E of P.L. 92-603 requires states to provide Medicaid coverage for individuals who
+would be eligible for SSI/SSP in the absence of a Social Security COLA enacted in 1972 under P.L.
+92-336.70 Individuals qualify under this provision if they
+• were entitled to Social Security benefits in August 1972,
+• were receiving cash assistance under the former adult assistance programs in
+August 1972 (or would have been eligible for such assistance in certain instances),
+and
+• would be eligible for SSI/SSP had the COLA under P.L. 92-336 not been applied to
+their Social Security benefits.

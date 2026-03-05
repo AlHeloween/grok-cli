@@ -1,0 +1,123 @@
+Installment Loans
+ A loan is something that is borrowed. In the case where this is a sum of money the amount that will be paid by the borrower will include the original amount plus interest.
+ 
+
+ Some loans require full payment on the maturity date of the loan. The maturity date is when all principal and/or interest must be repaid to the the lender. Consider a one year loan of $1000 at a simple interest rate of 5%. At the end of one year (the maturity date) the borrower will pay back the original $1000 plus the interest of $50 for a total of $1050.
+ 
+
+ For major purchases such as vehicles or furniture there is a different type of loan, called the installment loan. The average consumer cannot afford to pay $25000 or more for a new vehicle and they may not want to wait three or four years until they have saved enough money to do so. The qualifying consumer has the option of paying for the item with an installment loan.
+ 
+
+ Installment loans do not require full repayment of the loan on a specific date. With an installment loan the borrower is required to make regular (installment) payments until the loan is paid off. Each installment payment will include an interest charge. An installment loan can vary in length from a few years to perhaps twenty years or more (in the case of real estate).
+ 
+
+ Consider an installment loan for a $4000 television. The purchaser takes out a $4000 loan with a four-year term at an interest rate of 4.5%. The monthly installment payments will be $91.21. Although the television has a purchase price of $4000, the total cost to the purchaser will be more than $4000. The total of the installment payments will be:
+ 
+
+ Total Installment Payments = Number of Installment Payments x Payment Amount =
+ 
+
+ 4 years x 12 payments/year x $91.21/mth = $4378.08
+ 
+
+ The $4000 television ends up costing $4378.08 because the consumer is charged interest. Each payment includes an interest component that adds to the overall cost of the item. The total of the interest charges is referred to as the finance charge on the loan.
+ 
+
+ Finance Charge
+ 
+
+ The finance charge is the sum of the interest charges on a loan. These interest charges are embedded in the installment payments. To calculate the finance charge:
+ 
+
+ Finance Charge = Total Installment Payments – Loan Amount
+ 
+
+ = (Number of Installment Payments x Payment Amount) – Loan Amount
+ 
+
+ For the $4000 television the finance charge will be calculated as follows:
+ 
+
+ Finance charge = Total Installment Payments – Loan Amount =
+ 
+
+ (4 years x 12 payments/year x $91.21/payment) – $4000 = $4378.08 – $4000 = $378.08
+ 
+
+ Over the 4-year term of the loan the purchaser will have paid the $4000 loan amount plus an additional $378.08 in interest (the finance charge).
+ 
+
+ Sometimes the borrower will make an initial payment at the time of purchase. This is called a down payment. When a down payment is made the remaining amount is the amount financed or the loan amount.
+ 
+
+ Amount Financed
+ 
+
+ The amount financed or loan amount is the purchase price of the item less any down payment:
+ 
+
+ Amount Financed = Purchase Price – Down Payment
+ 
+
+ Consider the $4000 television. Assume the purchaser makes a down payment of $1500.
+ 
+
+ The amount financed is: Purchase Price – Down Payment = $4000 – $1500 = $2500.
+ 
+
+ In this case the purchaser borrows $2500 rather than $4000. The amount financed is therefore $2500. Assuming the same 4-year term and an interest rate of 4.5%, the installment payments on the $2500 will be reduced to $57.01 per month. In this case the finance charge will be calculated as follows:
+ 
+
+ Finance charge = Total Installment Payments – Loan Amount =
+ 
+
+ (4 years x 12 payments/year x $57.01/payment) – $2500 = $2736.48 – $2500 = $236.48
+ 
+
+ With the down payment of $2500 the total finance charges will be reduced to $236.48 from $378.08.
+ 
+
+ The total cost of the television to the purchaser will be:
+ 
+
+ Purchase Price + Finance Charge
+ 
+
+ = $4000 + $236.48 = $4236.48
+ 
+
+ Alternatively we can calculate:
+ 
+
+ Total Installment Payment + Down Payment
+ 
+
+ = $2736.48 + $1500 = $4236.48
+ 
+
+ As one can see, the finance charges are a hidden but added cost. This cost will become more pronounced with more expensive purchases such as with real estate.
+ 
+
+ Loan Payments
+ When consumers obtain installment loans they often just trust the lender to determine the installment (periodic) loan payments. In Example1 Paul purchased a home entertainment system at a total cost of $6000. He obtained a three year loan at an interest rate of 7.5%. If Paul attempts to calculate his monthly payment by simply dividing the loan amount by the number of payments he will underestimate his monthly payment as he has ignored the interest component:
+ $6000 ÷ 36 = $166.67
+ Paul’s actual monthly payment of $186.64 is slightly higher than Paul’s estimate because of the interest component.
+ The actual amount of a periodic loan payment can be determined using a formula, a table or technology. In this section we will illustrate the use of a formula.
+ 
+
+ Amortization 
+ Amortization is the process of spreading out a loan into a series of fixed payments. A portion of each payment will be applied to the interest charge and a portion will be applied to the principal amount of the loan. Although each payment is equal, the amount that applies to the interest versus the prinipal will change with each payment period. We can get a better sense of the impact that a loan payment has by examining the amortization schedule for a loan.
+ Consider the amortization table for the installment loan in Example 5. Recall that the loan amount is $5000 at 6% for 5 years and annual payments are $1186.98. Note then that for each year the sum of the interest and principal is equivalent to the payment of $1186.98. Refer to Figure 1 for the amortization schedule of this loan.
+ 
+
+ Mortgages
+ A long term loan that is used for the purchase of a house is called a mortgage. It is called a mortgage because the lending agency requires that the house be used as collateral for the loan. This means that if the mortgage holder is unable to make the payments the lender can take possession of the house.
+ 
+
+ Mortgages generally tend to be for longer time periods than an installment loan and the terms of the mortgage will often change over the course of the mortgage. Take for example the purchase of a house with a twenty year mortgage. The purchaser might sign a mortgage agreement for a five year term. The mortgage agreement will include the interest rate, the frequency of payments and additional rules which may allow the mortgage holder to make lump sum payments or change the payment amount. At the end of the five year term a new agreement will be required and the conditions of the mortgage usually change.
+ 
+
+ Although it is possible to do the calculations manually, that is beyond the scope of this book. We will use technology to calculate the periodic payments and interest charges and to generate an amortization schedule.
+ 
+
+ Example 8 will illustrate that amortizing a mortgage is similar to amortizing other loans except that the mortgage amortization generally involves many more payment periods.

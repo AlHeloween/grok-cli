@@ -1,0 +1,91 @@
+Nevertheless, there is still no AI that is
+equivalent or superior to human intelligence in all of its aspects2
+.
+In the near future however, this vision might become reality. Technological progress will play
+a key role as an enabler of modern AI systems: Computing power and memory size are estimated to
+multiply by a thousand times over the next twenty to twenty-five years, facilitating the processing
+and storing of massive amounts of data3
+. Further developments in the field of artificial neural
+networks and deep learning techniques will result in systems that are less dependent on human
+involvement; improved sensor technology will make it easier for systems to interact with their
+environment4
+. The decreasing costs for AI technologies will further facilitate their pervasiveness.
+Although a big portion of AI research is working towards systems that have little to do with
+creating a machine with human features, there are still advances in this field – for example, robot
+woman Sophia who became a YouTube celebrity for stating in a 2016 interview that she wanted “to
+destroy humans”5
+. While this seemed to be rather a marketing stunt, it is important to discuss the
+effects of humanoid and android robots.
+In this essay, I want to take a closer look at the status quo of humanoid AI and the
+implications this technology can have as an assistant, friend or even love interest to humans. I argue
+that artificial intelligence will – once it becomes a realistic companion to humans – interrupt
+societal structures to some extent, leading to a growing amount of human-machine relationships.
+
+.
+To pursue “real” AI, specialists in developmental robotics are now following a less abstract
+path than writing a programme for a computer11. Their theory is that a system that has an actual
+body will be more likely to build a form of general intelligence because it can experience its
+surroundings and match sensorial data with actions12. This branch of robotics is based on another
+hypothesis of Turing’s; in 1950, he claimed that an artificially intelligent system could be best
+created if it went through a phase that is similar to the childhood of other species 13
+.
+The iCub robot was developed to investigate this theory. Having the weight and size of an
+infant, it carries the spirit of Turing’s thought: Instead of pre-programming its skills and feeding it
+with data, researchers teach it like a child to enable it to conceive its own solutions 14. Here, one
+question arises: How does a system develop the will to learn something? After all, it does not even
+have a will by default. It was found that a strategy working for humans does the same trick for AI
+systems too: a reward. The field of reinforcement learning derives from this method and has been
+also applied to the iCub series15. This has enabled the robots to attain skills like picking up an item16
+or crawling on the floor17. These actions might not seem too complex for us at the first glance but
+they do involve a number of obstacles the robot has to overcome. In the future, iCub could help us
+in the household by setting the table for dinner or preparing food.
+But there is another interesting thing about iCub: its chubby face, big eyes, and LED-facial
+expressions leave no doubt that it was made to bear a resemblance to real humans. Yet still, it is
+obvious to anybody that it is not an actual person. These features make iCub a so-called humanoid.
+Robots that are made to look exactly like humans on the other hand are called androids
+The market is prepared for it: Looking at the increasing popularity of home assistants like
+Alexa or Google Assistant we can expect our reliance on technological devices to grow even
+stronger in the future. They might become more to us than just a personal weatherman or a direct
+connection to our Amazon shopping basket: artificially intelligent programmes and robots could
+eventually write Christmas cards to our friends and family, suggest the perfect birthday present for
+our partner or even take care of our children.
+In fact, a robot nanny is not as far-fetched as one would expect: Robots like Pepper, iPal or
+Kuri are programmed to be companions to children – they can recognize emotions in their faces,
+play with them and let parents watch their offspring from afar through their built-in cameras 23. They
+might not yet be an adequate substitute for an adult taking care, but manufacturers are definitely
+working towards this goal. Regarding the high costs of childcare in many countries, they could soon
+become a very popular help in parenting – and real friends to a generation that grows up surrounded
+by technology. In Japanese schools, robots have already proven to be a successful addition. They
+are assisting students to focus better in class, add a welcome variety to subjects like history or show
+exercises in physical education24. The robot Robosem has been teaching English in South Korean
+classrooms, as teachers in this subject are scarce25
+.
+Not only childcare can profit from the advances in AI and robotics: As a means of therapy,
+intelligent technology can be valuable in retirement homes. An example of this is the robot seal
+Paro that has been successfully utilized in dementia therapy and as a companion to elderly people
+since its introduction in 2001. The robot’s body is covered in fake fur and it is sensitive to touch,
+moving and making seal-like noises when it is petted. It is used to calm patients, to encourage social
+interactions and to give people that are reliant on help a chance to switch roles and become
+caregivers themselves26. Once they become more elaborate, robots could be a way to meet the
+shortage of skilled workers in the field of elderly care especially in aging societies like Japan or
+Germany.
+Ethical Implications of Human-Robot Relationships
+In the light of the technological advances that will be made within the next years, the ethics of
+human-robot relationships must be discussed. The next generations will likely grow up surrounded
+by artificially intelligent machines and it is hard to say if and how this will affect their perceptions
+of interaction not only with robots but humans as well.
+A study conducted by ATR Intelligent Robotics and Communications and three Japanese
+universities revealed that children sometimes showed abusive behaviour towards robots – especially
+when they were in groups without any adults close by. In the study, the robot Robovie was
+patrolling a Japanese mall, asking people politely to step aside when somebody stood in its way; if
+there was no reaction, the robot would move in the opposite direction. There were several situations
+however, where researchers observed that children were deliberately blocking the robot’s way,
+kicking it, throwing items at it and calling it names. As a consequence, the researchers developed an algorithm that let the robot recognize groups of children and avoid them33. This does not seem like a
+perfect solution to the problem, especially if we take the rising amount of robots in children’s rooms
+into account. 
+It is hard to say to what extent robots will become a surrogate for genuine human affection in
+the future but revisiting the comparison to smartphones made earlier, I believe that it is alarming
+that people turn to machines in the search for human connection. In a society that is increasingly
+built on perfectionist standards, I argue that artificially intelligent robots designed to be friends and
+lovers might become a threat for human relationships. If we hold our friends and partners to the
+same standards that we will be used from robots in the future, we will be heavily disappointed.

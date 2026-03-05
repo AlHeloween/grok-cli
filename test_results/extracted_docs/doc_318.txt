@@ -1,0 +1,89 @@
+In April 2024, the Federal Trade Commission (FTC) issued a rule prohibiting most employers from
+entering into or enforcing non-compete agreements with workers, subject to exceptions for the sale of a
+business and preexisting non-competes with senior executives. The rule (the Non-Compete Rule)
+implicates unsettled issues regarding the FTC’s authority to issue substantive competition regulations.
+Lawsuits challenging the rule followed. In one of those cases, a federal district court has declared the
+Non-Compete Rule unlawful and barred the FTC from enforcing it nationwide. Shortly before that
+decision, another court held that a separate challenge to the rule was likely to succeed and preliminarily
+enjoined the rule’s enforcement against the named plaintiff in that case. A third court has taken a more
+favorable view of the Non-Compete Rule, denying a motion for a preliminary injunction and concluding
+that the plaintiff had not established a reasonable probability that the rule exceeds the FTC’s legal
+authority.
+This Legal Sidebar provides background on the Non-Compete Rule and associated legal issues, along
+with an overview of the litigation challenging it.
+Background
+The Non-Compete Rule
+The Non-Compete Rule makes it unlawful to enter into or enforce a non-compete clause with any worker
+who is not a senior executive. The rule prohibits employers from entering into non-competes with senior
+executives after the rule’s effective date, but allows employers to enforce preexisting non-competes with
+senior executives. The rule defines the term “senior executive” to mean a worker who occupied a
+“policy-making position” and received total compensation of at least $151,164 in the preceding year.
+The rule’s prohibitions are subject to an exception for non-compete clauses entered into pursuant to a
+bona fide sale of a business entity, a person’s ownership interest in a business entity, or all or substantially
+all of a business entity’s operating assets.
+Congressional Research Service
+https://crsreports.congress.gov
+LSB11228
+Congressional Research Service 2
+The rule defines the term “non-compete clause” to mean a term or condition of employment that
+“prohibits,” “penalizes,” or “functions to prevent” a worker from seeking or accepting work with a
+different person after the conclusion of the employment that includes the term or condition. The rule
+explains that this definition encompasses “de facto” or “functional” non-competes—for example,
+“forfeiture-for-competition” clauses that extinguish an employer’s obligation to pay promised
+compensation or benefits if a worker accepts another job. The rule does not, however, categorically
+prohibit non-disclosure agreements (NDAs) or non-solicitation agreements.
+The Non-Compete Rule defines the term “worker” to include employees and independent contractors.
+That term does not include franchisees in the context of a franchisor-franchisee relationship, but does
+include employees of a franchisor or franchisee.
+Employers that fall outside of the FTC’s jurisdiction under the FTC Act are not subject to the rule. These
+employers include certain banks, savings and loan institutions, federal credit unions, common carriers, air
+carriers, and “persons, partnerships, or corporations insofar as they are subject to the Packers and
+Stockyards Act.” Corporations that are not “organized to carry on business for [their] own profit or that of
+[their] members” are also excluded from the FTC Act’s coverage. The rule explains that simply claiming
+non-profit status under the tax code is not sufficient to qualify for this exclusion. Instead, the FTC
+evaluates the economic realities of an entity’s activities to determine whether the exclusion applies.
+The Non-Compete Rule requires employers to provide “clear and conspicuous notice” to workers subject
+to prohibited non-compete clauses that the clauses “will not be, and cannot legally be” enforced.
+Legal Authority
+The FTC relied on Sections 5 and 6(g) of the Federal Trade Commission Act (FTC Act) in promulgating
+the Non-Compete Rule. Section 5 prohibits “unfair methods of competition” (UMC) and empowers the
+FTC to enforce that prohibition through adjudication. Section 6 is titled “Additional powers of
+Commission.” It confers a range of authorities, most of which involve investigations and the publication
+of reports. The provision also includes Section 6(g), which empowers the FTC to “from time to time
+classify corporations and . . . to make rules and regulations for the purpose of carrying out” the FTC Act.
+Sections 5 and 6(g) were both part of the original FTC Act, which Congress enacted in 1914. Since the
+statute’s enactment, Congress has adopted several laws granting the FTC rulemaking authority over
+discrete subjects, including the Wool Products Labeling Act, the Textile Fiber Products Identification Act,
+the Fur Products Labeling Act, the Flammable Fabrics Act, and the Fair Packaging and Labeling Act.
+The FTC first asserted that Section 6(g) endows it with general substantive rulemaking power in 1962,
+and the agency adopted a number of trade regulation rules in the years that followed. Some of those rules
+defined certain conduct as both a UMC and an “unfair or deceptive act or practice” (UDAP)—a separate
+category of conduct prohibited by Section 5. Other rules relied only on the FTC’s UDAP power. One rule
+relied solely on the FTC’s competition authority, but was never enforced and has been repealed.
+In the 1970s, a trade association challenged the FTC’s authority to issue substantive rules under
+Section 6(g) in National Petroleum Refiners Association v. FTC. The trade association argued that
+Section 6(g) authorized only procedural rules, emphasizing that the FTC had not asserted substantive
+rulemaking authority under Section 6(g) until 1962 and that FTC officials had occasionally denied the
+existence of such authority. The trade association also contended that Congress’s enactment of several
+statutes granting the FTC specific rulemaking authorities implied that the FTC lacked general rulemaking
+authority.
+The U.S. Court of Appeals for the D.C. Circuit rejected those arguments. In affirming the FTC’s power to
+issue legislative rules under Section 6(g), the court relied on appellate decisions construing similar
+statutes as authorizing substantive rulemaking, the advantages of rulemaking in effectuating the FTC
+Congressional Research Service 3
+Act’s purposes, and the absence of any limiting language in the statutory text. The D.C. Circuit
+downplayed the fact that the FTC had not claimed general rulemaking authority until 1962, reasoning that
+the agency’s earlier interpretation of its legal authority did not warrant judicial deference. The court also
+concluded that Congress may have provided the FTC with more specific rulemaking authorities based on
+“uncertainty, understandable caution, and a desire to avoid litigation,” rather than a firm conviction that
+the FTC lacked general rulemaking authority.
+Two years after the National Petroleum Refiners decision, Congress enacted the Magnuson-Moss Act,
+which imposed special procedural requirements for the FTC’s UDAP rules and eliminated the FTC’s
+authority to issue such rules under Section 6(g). Magnuson-Moss did not by its terms affect the FTC’s
+authority to issue UMC rules: the statute included a provision disclaiming an intent to affect “any
+authority of the Commission to prescribe rules (including interpretive rules), and general statements of
+policy, with respect to unfair methods of competition.”
+Despite this language in Magnuson-Moss, the FTC’s putative authority to issue UMC rules has been
+dormant since the enactment of that statute. The Non-Compete Rule marks the first rule promulgated
+under Section 6(g) since the 1970s and the second rule ever that relies solely upon the FTC’s competition
+authority.

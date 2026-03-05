@@ -1,0 +1,572 @@
+CELL STRUCTURE
+Cells are the building blocks of life. A cell is chemical system that is able to maintain its structure
+and reproduce. Cells are the fundamental unit of life. All living things are cells or composed of
+cells. Although different living things may be as unlike as a violet and an octopus, they are all built
+in essentially the same way. The most basic similarity is that all living things are composed of one
+or more cells. This is known as the Cell Theory.
+Our knowledge of cells is built on work done with microscopes. English scientist Robert
+Hooke in 1665 first described cells from his observations of cork slices. Hooke first used the word
+"cell". Dutch amateur scientist Antonie van Leeuwenhoek discovered microscopic animals in
+water. German scientists Schleiden and Schwann in 1830's were first to say that all organisms are
+made of one or more cells. German biologist Virchow in 1858 stated that all cells come from the
+division of pre-existing cells.
+The Cell Theory can be summarized as:
+Cells are the fundamental unit of life - nothing less than a cell is alive.
+All organisms are constructed of and by cells.
+All cells arise from preexisting cells. Cells contain the information necessary for their own
+reproduction. No new cells are originating spontaneously on earth today.
+Cells are the functional units of life. All biochemical processes are carried out by cells. •
+Groups of cells can be organized and function as multicellular organisms
+Cells of multicellular organisms can become specialized in form and function to carry out
+subprocesses of the multicellular organism.
+Cells are common to all living beings, and provide information about all forms of life. Because
+all cells come from existing cells, scientists can study cells to learn about growth, reproduction,
+and all other functions that living things perform. By learning about cells and how they function,
+we can learn about all types of living things.
+Classification of cells:
+All living organisms (bacteria, blue green algae, plants and animals) have cellular organization
+and may contain one or many cells. The organisms with only one cell in their body are called
+unicellular organisms (bacteria, blue green algae, some algae, Protozoa, etc.). The organisms
+having many cells in their body are called multicellular organisms (fungi, most plants and
+animals). Any living organism may contain only one type of cell either
+A. Prokaryotic cells; B. Eukaryotic cells.
+The terms prokaryotic and eukaryotic were suggested by Hans Ris in the 1960’s. This
+classification is based on their complexity. Further based on the kingdom into which they may fall
+i.e the plant or the animal kingdom, plant and animal cells bear many differences. These will be
+studied in detail in the upcoming sections
+PROKARYOTIC CELLS
+Prokaryote comes from the Greek words for pre-nucleus. Prokaryotes:
+i. One circular chromosome, not contained in a membrane.
+ii. No histones or introns are present in Bacteria; both are found in Eukaryotes and Archaea.
+iii. No membrane-bound organelles. (Only contain non membrane-bound organelles).
+iv. Bacteria contain peptidoglycan in cell walls; Eukaryotes and Archaea do not.
+v. Binary fission.
+2
+Size, Shape, and Arrangement of Bacterial Cells.
+i. Average size of prokaryotic cells: 0.2 -2.0 μm in diameter 1-10 μm (0.001 – 0.01 mm) [book
+says 2 – 8 μm] in length.
+1. Typical eukaryote 10-500 μm in length (0.01 – 0.5 mm).
+2. Typical virus 20-1000 nm in length (0.00000002 – 0.000001 m).
+3. Thiomargarita is the largest bacterium known. It is about the size of a typed period (0.75
+mm).
+4. Nanoarchaeum is the smallest cell known. It is at the lower theoretical limit for cell size
+(0.4 μm).
+ii. Basic bacterial shapes:
+1. Coccus (sphere/round).
+2. Bacillus (staff/rod-shaped).
+3. Spirilla (rigid with a spiral/corkscrew shape).
+a. Flagella propel these bacteria.
+4. Vibrio (curved rod).
+5. Spirochetes (flexible with a spiral shape).
+Axial filaments (endoflagella) propel these bacteria.
+iii. Descriptive prefixes:
+1. Diplo (two cells).
+2. Tetra (four cells).
+3. Sarcinae (cube of 8 cells).
+4. Staphylo (clusters of cells).
+5. Strepto (chains of cells).
+iv. Unusual bacterial shapes:
+1. Star-shaped Stella.
+2. Square/rectangular Haloarcula.
+v. Arrangements:
+1. Pairs: diplococci, diplobacilli
+2. Clusters: staphylococci
+3. Chains: streptococci, streptobacilli.
+vi. Most bacteria are monomorphic. They do not change shape unless environmental conditions
+change.
+vii. A few are pleomorphic. These species have individuals that can come in a variety of shapes
+
+
+Structures External to the Prokaryotic Cell Wall.
+a. Glycocalyx (sugar coat).
+i. Usually very sticky.
+ii. Found external to cell wall.
+iii. Composed of polysaccharide and/or polypeptide.
+iv. It can be broken down and used as an energy source when resources are scarce.
+v. It can protect against dehydration.
+vi. It helps keep nutrients from moving out of the cell.
+1. A capsule is a glycocalyx that is neatly organized and is firmly attached to the
+cell wall. a. Capsules prevent phagocytosis by the host’s immune system.
+2. A slime layer is a glycocalyx that is unorganized and is loosely attached to the
+cell wall.
+b. Extracellular
+ polysaccharide (extracellular
+ polymeric
+ substance) is
+ a
+glycocalyx made of sugars and allows bacterial cells to attach to various surfaces.Prokaryotic
+Flagella.
+i. Long, semi-rigid, helical, cellular appendage used for locomotion.
+ii. Made of chains of the protein flagellin.
+1. Attached to a protein hook. iii. Anchored to the cell wall and cell membrane by
+the basal body.
+iv. Motile Cells.
+1. Rotate flagella to run and tumble.
+2. Move toward or away from stimuli (taxis).
+a. Chemotaxis. b. Phototaxis.
+c. Axial Filaments (Endoflagella).
+i. In spirochetes:
+1. Anchored at one end of a cell.
+2. Covered by an outer sheath.
+3. Rotation causes cell to move like a corkscrew through a cork.
+d. Fimbriae.
+i. Shorter, straighter, thinner than flagella.
+ii. Not used for locomotion.
+iii. Allow for the attachment of bacteria to surfaces.
+iv. Can be found at the poles of the cell, or covering the cell’s entire surface.
+v. There may be few or many fimbriae on a single bacterium.
+e. Pili (sex pili).
+i. Longer than fimbriae.
+ii. Only one or two per cell.
+iii. Are used to transfer DNA from one bacterial cell to another, and in twitching & gliding
+motility.
+IV. The Prokaryotic Cell Wall.
+a. Chemically and structurally complex, semi-rigid, gives structure to and protects the cell.
+b. Surrounds the underlying plasma membrane.
+4
+c. Prevents osmotic lysis.
+d. Contributes to the ability to cause disease in some species, and is the site of action for
+some antibiotics.
+e. Made of peptidoglycan (in bacteria).
+i. Polymer of a disaccharide. 1. N-acetylglucosamine (NAG) & N-acetylmuramic
+acid (NAM). ii. Disaccharides linked by polypeptides to form lattice surrounding
+the cell. Fig.
+iii. Penicillin inhibits this lattice formation, and leads to cellular lysis.
+f. Gram-positive cell walls. Fig.
+i. Many layers of peptidoglycan, resulting in a thick, rigid structure.
+ii. Teichoic acids.
+1. May regulate movement of cations (+).
+2. May be involved in cell growth, preventing extensive wall breakdown
+and lysis.
+3. Contribute to antigenic specificity for each Gram-positive bacterial
+species.
+4. Lipoteichoic acid links to plasma membrane.
+5. Wall teichoic acid links to peptidoglycan.
+g. Gram-negative cell walls.
+i. Contains only one or a few layers of peptidoglycan.
+1. Peptidoglycan is found in the periplasm, a fluid-filled space between the
+outer membrane and plasma membrane.
+a. Periplasm contains many digestive enzymes and transport
+proteins.
+ii. No teichoic acids are found in Gram-negative cell walls.
+iii. More susceptible to rupture than Gram-positive cells.
+iv. Outer membrane:
+1. Composed of lipopolysaccharides, lipoproteins, and phospholipids.
+2. Protects the cell from phagocytes, complement, antibiotics, lysozyme,
+detergents, heavy metals, bile salts, and certain dyes.
+3. Contains transport proteins called porins.
+4. Lipopolysaccharide is composed of:
+a. O polysaccharide (antigen) that can be used to ID certain Gram- negative
+bacterial species.
+b. Lipid A (endotoxin) can cause shock, fever, and even death if
+enough is released into the host’s blood.
+h. Gram Stain Mechanism.
+i. Crystal Violet-Iodine (CV-I) crystals form within the cell.
+ii. Gram-positive:
+1. Alcohol dehydrates peptidoglycan.
+2. CV-I crystals cannot leave.
+iii. Gram-negative:
+1. Alcohol dissolves outer membrane and leaves holes in peptidoglycan.
+2. CV-I washes out. 3. Safranin stains the cell pink.
+iv. Table 1, pg. 94, compares Gram-positive and Gram-negative bacteria.
+i. Damage to Prokaryotic Cell Walls.
+i. Because prokaryotic cell walls contain substances not normally found in animal
+5
+cells, drugs or chemicals that disrupt prokaryotic cell wall structures are often used
+in medicine, or by the host to combat the bacteria.
+1. Lysozyme digests the disaccharides in peptidoglycan.
+2. Penicillin inhibits the formation of peptide bridges in peptidoglycan.
+ii. A protoplast is a Gram-positive cell whose cell wall has been destroyed, but that
+is still alive and functional. (Lost its peptidoglycan).
+iii. A spheroplast is a wall-less Gram-negative cell. (Lost its outer membrane and
+peptidoglycan).
+iv. L forms are wall-less cells that swell into irregular shapes. They can live, divide,
+and may return to a walled state.
+v. Protoplasts and spheroplasts are susceptible to osmotic lysis.
+vi. Gram-negative bacteria are not as susceptible to penicillin due to the outer
+membrane and the small amount of peptidoglycan in their walls.
+vii. Gram-negative bacteria are susceptible to antibiotics that can penetrate the
+outer membrane (Streptomycin, chloramphenicol, tetracycline).
+V. Structures Internal to the Cell Wall.
+a. Plasma Membrane (Inner Membrane).
+a. Phospholipid bilayer lying inside the cell wall.
+1. The phospholipid bilayer is the basic framework of the plasma membrane.
+2. The bilayer arrangement occurs because the phospholipids are amphipathic molecules.
+They have both polar (charged) and nonpolar
+ (uncharged) parts with the polar
+“head” of the phospholipid pointing out and the nonpolar “tails” pointing toward the center
+of the membrane, forming a nonpolar, hydrophobic region in the membrane’s interior.
+b. Much of the metabolic machinery is located on the plasma membrane.
+Photosynthesis, aerobic cellular respiration, and anaerobic cellular respiration
+reactions occur here. This means that there is a surface area to volume ratio at
+which bacteria reach a critical size threshold, beyond which bacteria can’t survive.
+i. Thiomargarita (0.75 mm) is the largest known bacterium and is larger
+than most eukaryotic cells. It has many invaginations of the plasma
+membrane, which increases it surface area relative to its volume.
+c. Peripheral proteins.
+i. Enzymes.
+ii. Structural proteins.
+iii. Some assist the cell in changing membrane shape.
+d. Integral proteins and transmembrane proteins.
+i. Provide channels for movement of materials into and out of the cell.
+e. Fluid Mosaic Model.
+i. Membrane is as viscous as olive oil.
+ii. Proteins move to function.
+iii. Phospholipids rotate and move laterally.
+f. Selective permeability allows the passage of some molecules but not others
+across the plasma membrane.
+i. Large molecules cannot pass through.
+ii. Ions pass through very slowly or not at all.
+iii. Lipid soluble molecules pass through easily.
+iv.Smaller molecules (water, oxygen, carbon dioxide, some simple sugars)
+6
+usually pass through easily.
+g. The plasma membrane contains enzymes for ATP production.
+h. Photosynthetic pigments are found on in-foldings of the plasma membrane
+called chromatophores or thylakoids. Fig. 15.
+i. Damage to the plasma membrane by alcohols, quaternary ammonium
+compounds (a class of disinfectants) and polymyxin antibiotics causes leakage of
+cell contents.
+j. Movement of Materials Across Membranes.
+1. Passive Processes:
+a. Simple diffusion: Movement of a solute from an area of high concentration to an area of
+low concentration (down its concentration gradient) until equilibrium is reached.
+b. Facilitated diffusion: Solute combines with a transport protein in the membrane, to pass
+from one side of the membrane to the other. The molecule is still moving down its
+concentration gradient. The transport proteins are specific.
+c. Osmosis.
+i. Movement of water across a selectively permeable membrane from an area of
+higher water concentration to an area of lower water concentration.
+ii. Osmotic pressure.
+The pressure needed to stop the movement of water across the membrane.
+iii. Isotonic, hypotonic, and hypertonic solutions.
+2. Active Processes:
+a. Active transport of substances requires a transporter protein and ATP. The solute
+molecule is pumped against its concentration gradient. Transport proteins are specific. i. In
+group translocation (a special form of active transport found only in prokaryotes)
+movement of a substance requires a specific transport protein. 1. The substance is
+chemically altered during transport, preventing it from escaping the cell after it is
+transported inside. 2. This process requires high-energy phosphate compounds like
+phosphoenolpyruvic acid (PEP) to phosphorylate the transported molecule, preventing its
+movement out of the cell.
+b. Cytoplasm.
+i. Cytoplasm is the substance inside the plasma membrane.
+ii. It is about 80% water.
+iii. Contains proteins, enzymes, carbohydrates, lipids, inorganic ions, various compounds,
+a nuclear area, ribosomes, and inclusions.
+c. Nuclear Area (Nucleoid).
+i. Contains a single circular chromosome made of DNA.
+1. No histones or introns in bacteria.
+2. The chromosome is attached to the plasma membrane at a point along its length,
+where proteins synthesize and partition new DNA for division during binary fission.
+ii. Is not surrounded by a nuclear envelope the way eukaryotic chromosomes are.
+iii. Also contains small circular DNA molecules called plasmids.
+1. Plasmids can be gained or lost without harming the cell.
+2. Usually contain less than 100 genes.
+3. Can be beneficial if they contain genes for antibiotic resistance, tolerance to
+toxic metals, production of toxins, or synthesis of enzymes.
+4. They can be transferred from one bacterium to another.
+7
+5. Plasmids are used in genetic engineering.
+d. Ribosomes.
+i. Site of protein synthesis.
+ii. Composed of a large and small subunit, both made of protein and rRNA. iii. Prokaryotic
+ribosomes are 70S ribosomes.
+1. Made of a small 30S subunit and a larger 50S subunit.
+iv. Eukaryotic ribosomes are 80S ribosomes.
+1. Made of a small 40S subunit and a larger 60S subunit.
+v. Certain antibiotics target only prokaryotic ribosomal subunits without targeting
+eukaryotic ribosomal subunits.
+e. Inclusions.
+i. Reserve deposits of nutrients that can be used in times of low resource availability. ii.
+Include:
+1. Metachromatic granules (volutin). Reserve of inorganic phosphate for ATP.
+2. Polysaccharide granules. Glycogen and starch.
+3. Lipid inclusions.
+4. Sulfur granules. Energy reserve for “sulfur bacteria” that derive energy by
+oxidizing sulfur and sulfur compounds.
+5. Carboxysomes. Contain an enzyme necessary for bacteria that use carbon
+dioxide as their only source of carbon for carbon dioxide fixation.
+6. Gas vacuoles. Help bacteria maintain buoyancy.
+7. Magnetosomes. Made of iron oxide, they serve as ballast to help some bacteria
+sink until reaching an appropriate attachment site. They also decompose hydrogen peroxide.
+f. Endospores.
+i. Resting Gram-positive bacterial cells that form when essential nutrients can no longer
+be obtained.
+ii. Resistant to desiccation, heat, chemicals, radiation.
+iii. Bacillus anthracis (anthrax), Clostridium spp. (gangrene, tetanus, botulism, food
+poisoning).
+iv. Sporulation (sporogenesis): the process of endospore formation within the vegetative
+(functional) cell. This takes several hours.
+1. Spore septum (invagination of plasma membrane) begins to isolate the newly
+replicated DNA and a small portion of cytoplasm. This results in the formation of
+two separate membrane bound structures.
+2. The plasma membrane starts to surround the DNA, cytoplasm, and the new
+membrane encircling the material isolated in step 1, forming a double-layered
+membrane-bound structure called a forespore.
+3. Thick peptidoglycan layers are laid down between the two membranes of the
+forespore.
+4. Then a thick spore coat of protein forms around the outer membrane of the
+forespore, which is responsible for the durability of the endospore.
+5. When the endospore matures, the vegetative cell wall ruptures, killing the cell,
+and freeing the endospore.
+a. The endospore is metabolically inert, and contains the chromosome,
+8
+some RNA, ribosomes, enzymes, other molecules, and very little water.
+b. Endospores can remain dormant for millions of years.
+v. Germination: the return to the vegetative state.
+1. Triggered by damage to the endospore coat. The enzymes activate, breaking
+down the protective layers. Water then can enter, and metabolism resumes.
+vi. Endospores can survive conditions that vegetative cells cannot: boiling, freezing,
+desiccation, chemical exposure, radiation, etc.
+
+EUKARYOTES:
+a. Make up algae, protozoa, fungi, higher plants, and animals.
+Flagella and Cilia. Rotate Cilia are numerous, short, hair-like projections extending from the surface of a
+cell. They function to move materials across the surface of the cell, or move the cell around in its
+environment.
+i. Flagella are similar to cilia but are much longer, usually moving an entire cell. The only
+example of a flagellum in the human body is the sperm cell tail.
+1. Eukaryotic flagella move in a whip-like manner, while prokaryotic flagella
+9
+b. Cell Wall.
+i. Simple compared to prokaryotes.
+1. No peptidoglycan in eukaryotes.
+a. Antibiotics that target peptidoglycan (penicillins and cephalosporins) do
+not harm us.
+ii. Cell walls are found in plants, algae, and fungi.
+iii. Made of carbohydrates.
+1. Cellulose in algae, plants, and some fungi.
+2. Chitin in most fungi. 3. Glucan and mannan in yeasts (unicellular fungi).
+c. Glycocalyx.
+i. Sticky carbohydrates extending from an animal cell’s plasma membrane.
+ii. Glycoproteins and glycolipids form a sugary coat around the cell—the glycocalyx—
+which helps cells recognize one another, adhere to one another in some tissues, and protects
+the cell
+ from digestion by enzymes in the extracellular fluid.
+1. The glycocalyx also attracts a film of fluid to the surface of many cells, such as
+RBC’s, making them slippery so they can pass through narrow vessels.
+d. Plasma Membrane.
+i. The plasma membrane is a flexible, sturdy barrier that surrounds and contains the
+cytoplasm of the cell.
+1. The fluid mosaic model describes its structure.
+2. The membrane consists of proteins in a sea of phospholipids.
+a. Some proteins float freely while others are anchored at specific
+locations.
+b. The membrane lipids allow passage of several types of lipid-soluble
+molecules but act as a barrier to the passage of charged or polar substances.
+c. Channel and transport proteins allow movement of polar molecules and
+ions across the membrane.
+ii. Phospholipid bilayer.
+1. Has the same basic arrangement as the prokaryotic plasma membrane.
+iii. Arrangement of Membrane Proteins.
+1. The membrane proteins are divided into integral and peripheral proteins.
+a. Integral proteins extend into or across the entire lipid bilayer among the fatty acid tails
+of the phospholipid molecules, and are firmly anchored in place.
+i. Most are transmembrane proteins, which span the entire lipid bilayer and protrude into
+both the cytosol and extracellular fluid.
+b. Peripheral proteins associate loosely with the polar heads of membrane lipids,
+and are found at the inner or outer surface of the membrane.
+10
+2. Many membrane proteins are glycoproteins (proteins with carbohydrate groups
+attached to the ends that protrude into the extracellular fluid).
+iv. Functions of Membrane Proteins.
+1. Membrane proteins vary in different cells and function as:
+a. Ion channels (pores): Allow ions such as sodium or potassium to cross the cell
+membrane; (they can't diffuse through the bilayer). Most are selective—they allow only a
+single type of ion to pass. Some ion channels open and close.
+b. Transporters: selectively move a polar substance from one side of the membrane to
+the other.
+c. Receptors: recognize and bind a specific molecule. The chemical binding to the receptor
+is called a ligand.
+d. Enzymes: catalyze specific chemical reactions at the inside or outside surface of the
+cell.
+e. Cell-identity markers (often glycoproteins and glycolipids), such as human leukocyte
+antigens.
+f. Linkers: anchor proteins in the plasma membrane of neighboring cells to each other or
+to protein filaments inside and outside the cell.
+2. The different proteins help to determine many of the functions of the plasma membrane.
+v. Selective permeability of the plasma membrane allows passage of some molecules.
+1. Transport mechanisms:
+a. Simple diffusion. b. Facilitated diffusion. c. Osmosis. d. Active transport. (No
+group translocation in Eukaryotes). e. Vesicular Transport.
+i. A vesicle is a small membranous sac formed by budding off from an existing membrane.
+ii. Two types of vesicular transport are endocytosis and exocytosis.
+1. Endocytosis.
+a. In endocytosis, materials move into a cell in a vesicle formed from the plasma
+membrane.
+b. Viruses can take advantage of this mechanism to enter cells.
+c. Phagocytosis is the ingestion of solid particles, such as worn out cells, bacteria, or viruses.
+Pseudopods extend and engulf particles.
+d. Pinocytosis is the ingestion of extracellular fluid. The membrane folds inward bringing in fluid
+and dissolved substances.
+2. In exocytosis, membrane-enclosed structures called secretory
+vesicles that form inside the cell fuse with the plasma membrane and release their contents into
+the extracellular fluid.
+f. Cytoplasm.
+i. Substance inside the plasma membrane and outside nucleus.
+ii. Cytosol is the fluid portion of cytoplasm.
+iii. Cytoskeleton.
+1. The cytoskeleton is a network of several kinds of protein filaments that extend
+throughout the cytoplasm, and provides a structural framework for the cell.
+2. It consists of microfilaments, intermediate filaments, and microtubules.
+11
+a. Most microfilaments (the smallest cytoskeletal elements) are composed
+of actin and function in movement (muscle contraction and cell division) and mechanical support
+for the cell itself and for microvilli.
+b. Intermediate filaments are composed of several different proteins and
+function in support and to help anchor organelles such as the nucleus.
+c. Microtubules (the largest cytoskeletal elements) are composed of a
+protein called tubulin and help
+ determine cell shape; they function in the intracellular
+transport of organelles and the migration of chromosome during cell division. They also
+function in the movement of cilia and flagella.
+iv. Cytoplasmic streaming.
+1. Movement of cytoplasm and nutrients throughout cells.
+2. Moves the cell over surfaces.
+g. Organelles.
+i. Organelles are specialized structures that have characteristic shapes and perform
+specific functions in eukaryotic cellular growth, maintenance, reproduction.
+2.1.RIBOSOMES.
+Nucleus.
+The nucleus is usually the most prominent feature of a eukaryotic cell.
+b. Most have a single nucleus; some cells (human red blood cells) have none, whereas
+others (human skeletal muscle fibers) have several in each cell.
+c. The parts of the nucleus include the:
+i. Nuclear envelope (a double membrane), which is perforated by channels called nuclear
+pores, that control the movement of substances between the nucleus and the cytoplasm.
+1. Small molecules and ions diffuse passively, while movement of most large molecules
+out of the nucleus involves active transport.
+ii. Nucleoli function in producing ribosomes. d. Genetic material (DNA). Within the
+nucleus are the cell’s hereditary units, called genes, which are arranged in single file along
+chromosomes. Each chromosome is a long molecule of DNA that is coiled together with
+several proteins (including histones).
+a. Sites of protein synthesis.
+b. 80S in eukaryotes.
+i. Membrane-bound ribosomes found on rough ER.
+ii. Free ribosomes found in cytoplasm.
+c. 70S in prokaryotes.
+i. Also found in chloroplasts and mitochondria.
+3. Endoplasmic Reticulum.
+a. The endoplasmic reticulum (ER) is a network of membranes extending from the nuclear
+membrane that form flattened sacs or tubules.
+b. Rough ER is continuous with the nuclear membrane and has its outer surface studded
+with ribosomes, which synthesize proteins. The proteins then enter the space inside the ER
+for processing (into glycoproteins or for attachment to phospholipids) and sorting,
+12
+and are then either incorporated into organelle membranes, inserted into the plasma
+membrane, or secreted via exocytosis.
+c. Smooth ER extends from the rough ER to form a network of membrane tubules, but it
+does not contain ribosomes on its membrane surface. In humans, it synthesizes fatty acids
+and steroids, detoxifies drugs, removes phosphate from glucose 6-phosphate (allowing free
+glucose to enter the blood), and stores and releases calcium ions involved in muscle
+contraction.
+4. Golgi Complex.
+The Golgi complex consists of four to six stacked, flattened membranous sacs (cisterns).
+The cis (entry) face faces the rough ER, and trans (exit) face faces the cell’s plasma
+membrane. Between the cis and trans faces are the medial cisternae.
+b. The cis, medial, and trans cisternae each contain different enzymes that permit each to
+modify, sort, and package proteins received from the rough ER for transport to different
+destinations (such as the plasma membrane, to other organelles, or for export out of the
+cell).
+5. Lysosomes.
+a. Lysosomes are membrane-enclosed vesicles that form from the Golgi complex and
+contain powerful digestive enzymes.
+b. Lysosomes function in digestion of substances that enter the cell by endocytosis, and
+transport the final products of digestion into the cytosol.
+c. They digest worn-out organelles (autophagy).
+d. They digest their own cellular contents (autolysis).
+e. They carry out extracellular digestion (as happens when sperm release lysosomal
+enzymes to aid in penetrating an oocyte).
+6. Vacuoles.
+a. Space in the cytoplasm enclosed by a membrane called a tonoplast.
+b. Derived from the Golgi complex.
+c. They serve in the following ways:
+i. Temporary storage for biological molecules and ions.
+ii. Bring food into cells.
+iii. Provide structural support.
+iv. Store metabolic wastes.
+7. Peroxisomes.
+a. Peroxisomes are similar in structure to lysosomes, but are smaller.
+b. They contain enzymes (oxidases) that use molecular oxygen to oxidize (remove
+hydrogen atoms from) various organic substances.
+13
+c. They take part in normal metabolic reactions such as the oxidation of amino and fatty
+acids.
+d. New peroxisomes form by budding off from preexisting ones.
+e. They produce and then destroy H2O2 (hydrogen peroxide) in the process of their
+metabolic activities.
+8. Centrosomes.
+a. Centrosomes are dense areas of cytoplasm containing the centrioles, which are paired
+cylinders arranged at right angles to one another, and serve as centers for organizing
+microtubules and the mitotic spindle during mitosis.
+9. Mitochondria.
+a. Found in nearly all eukaryotic cells.
+b. A mitochondrion is bound by a double membrane, with a fluid-filled space between
+called the intermembranous space. The outer membrane is smooth, while the inner
+membrane is arranged in folds called cristae. The mitochondrial matrix is found inside the
+inner mitochondrial membrane.
+c. The folds of the cristae provide a large surface area for the chemical reactions that are
+part of the aerobic phase of cellular respiration. These reactions produce most of a
+eukaryotic cell’s ATP, and the enzymes that catalyze them are located on the cristae and
+in the matrix.
+d. Mitochondria self-replicate using their own DNA and contain 70S ribosomes. They
+grow and reproduce on their own in a way that is similar to binary fission. Mitochondrial
+DNA (genes) is inherited only from the mother, since sperm normally lack most organelles
+such as mitochondria, ribosomes, ER, and the Golgi complex. Any sperm mitochondria
+that do enter the oocyte are soon destroyed.
+10. Chloroplasts.
+a. Found only in algae and green plants.
+b. Contain the pigment chlorophyll and enzymes necessary for photosynthesis.
+c. Chloroplasts self-replicate using their own DNA and contain 70S ribosomes. They grow
+and reproduce on their own in a way that is similar to binary fission.
+VII. Endosymbiotic Theory.
+a. Large bacterial cells lost their cell walls and engulfed smaller bacteria.
+b. A symbiotic (mutualistic) relationship developed.
+i. The host cell supplied the nutrients.
+ii. The engulfed cell produced excess energy that the host could use.
+iii. The relationship evolved.
+c. Evidence:
+14
+i. Mitochondria and chloroplasts resemble bacteria in size and shape.
+1. They divide on their own—independently of the host, and contain their own DNA
+(single circular chromosome). This process is nearly identical to binary fission seen in
+bacteria.
+2. They contain 70S ribosomes.
+3. Their method of protein synthesis is more like that of prokaryotes (no RNA processing).
+4. Antibiotics that inhibit protein synthesis on ribosomes in bacteria also inhibit protein
+Difference among eukaryotic cells
+There are many different types of eukaryotic cells, though animals and plants are the most
+familiar eukaryotes, and thus provide an excellent starting point for understanding
+eukaryotic structure. Fungi and many protists have some substantial differences, however.
+Animal cell
+An animal cell is a form of eukaryotic cell that makes up many tissues in animals. Animal
+cells are distinct from other eukaryotes, most notably plant cells, as they lack cell walls and
+chloroplasts. They also have smaller vacuoles. Due to the lack of a cell wall, animal cells
+can adopt a variety of shapes. A phagocytic cell can even engulf other structures.
+There are many different types of cell. For instance, there are approximately 210 distinct
+cell types in the adult human body.
+Plant cell
+Plant cells are quite different from the cells of the other eukaryotic organisms. Their
+distinctive features are:
+A large central vacuole (enclosed by a membrane, the tonoplast), which maintains the cell's
+turgor and controls movement ofmolecules between the cytosol and sap
+A primary cell wall containing cellulose, hemicellulose and pectin, deposited by the
+protoplast on the outside of the cell membrane; this contrasts with the cell walls of fungi, which
+contain chitin, and the cell envelopes of prokaryotes, in which peptidoglycans are the main
+structural molecules
+The plasmodesmata, linking pores in the cell wall that allow each plant cell to communicate
+with other adjacent cells; this is different from the functionally analogous system of gap
+junctions between animal cells.
+15
+Plastids, especially chloroplasts that contain chlorophyll, the pigment that gives
+plants their green color and allows them to perform photosynthesis
+Bryophytes and seedless vascular plants lack flagellae and centrioles except in the sperm
+cells.[16] Sperm of cycads and Ginkgoare large, complex cells that swim with hundreds to
+thousands of flagellae.
+Conifers (Pinophyta)
+ and flowering
+ plants (Angiospermae)
+ lack
+the flagellae and centrioles that are present in animal cells.
+

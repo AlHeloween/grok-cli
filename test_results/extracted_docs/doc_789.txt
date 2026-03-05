@@ -1,0 +1,195 @@
+GOUT
+A. GOALS
+ 1. Understand pathogenesis of gouty arthritis
+ 2. Learn pharmacologic treatment for gout
+B. CASE
+• 55-year-old man with history of episodic pain and swelling in the 1st MTP
+joints
+• Started allopurinol one week earlier
+• Physical examination showed rock-hard lump on right pina and hot, tender
+purplish-blue swelling in the knee and the left midfoot.
+• Serum uric acid concentration 7.8 mg/dl
+• Synovial fluid aspirate contained intracellular needle-shaped crystals with
+strong negative birefringence
+THE FOUR PHASES OF GOUT
+1. Asymptomatic hyperuricemia
+Serum urate is typically raised (>7 mg/dl for men and >6 mg/dl for women) for 20
+years before the first attack of gouty arthritis or urolithiasis
+2. Acute gouty arthritis
+
+The first attach usually occurs between the 4th and 6th decades. Onset before the
+age of 30 years raises the question of an unusual form of gout, perhaps related to
+an enzymatic defect that causes purine overproduction.
+Precipitating factors are antihyperuricemic therapy (probenecid, allopurinol),
+diuretics, IV heparin, cyclosporine, trauma, surgery, alcohol (beer), chronic lead
+poisoning, dietary excess, hemorrhage, foreign protein therapy, and infections.
+Medical conditions associated with gout are obesity, diabetes mellitus,
+hypertriglyceridemia, hypertension, atherosclerosis, syndrome X (resistance to
+insulin-stimulated glucose uptake, hyperinsulinemia, hypertension, and
+dyslipoproteinemia with high levels of plasma triglycerides and high-density
+lipoprotein cholesterol).
+Usually a single joint is affected, and the first metatarsophalangeal joint is the
+most commonly affected site. The attack begins suddenly and is common at
+night. Involvement is usually in the lower extremities. The involved joint
+becomes dusky, red, and swollen. Pain is intense and “the night is passed in
+torture”.
+The pathogenesis of acute gouty arthritis is centered about the monosodium urate
+crystal, which is always present. Of interest, hyperuricemia is often present but is
+not necessary for the reaction to occur. Urate crystals, which were likely
+deposited in synovium, are thought to “flake off” and initiate an intense
+inflammatory response. The crystals become heavily coated with IgG and iron,
+both of which increase their inflammatory potential. Leukocytes are necessary for
+the reaction; almost all of the crystals in an affected joint have been ingested at
+the height of the reaction. The release of lysosomal mediators and the release of
+superoxide anion contribute to the local inflammation. Many serum factors
+mediate the inflammatory response, including complement, fibronectin, IgG, and
+a number of cytokines among which is transforming growth factor-beta.
+Leukocytosis, fever, and high erythrocyte sedimentation rate may accompany the
+acute attack. Radiographs are normal in the acute phase.
+3. Intercritical gout.
+
+Most patients will have a second attack 6 – 24 months after the first attack. The
+period between attacks is known as the intercritical period. Joints appear normal
+during this time.
+4. Chronic tophaceous gout.
+Eventually, patients may enter a phase of chronic polyarticular gout without painfree periods. This may occur 3-42 years after the first attack; the average period
+is about 12 years. Tophi are a manifestation of the inability to eliminate urate as
+rapidly as it is produced. Urate deposits appear in the cartilage, synovium,
+tendons, and soft tissues. A favored location is extensor surfaces and pressure
+points, and the lesions may resemble rheumatoid nodules. In untreated disease,
+massive destruction of joints may occur. Tophi have been reported to resolve
+over periods of years in patients who receive probenecid or allopurinol.
+E. PRINCIPLES OF THERAPY
+1. Asymptomatic hyperuricemia
+First, consider the multiple causes of secondary hyperuricemia: consider
+drugs, renal insufficiency, myeloproliferative and lymphoproliferative
+diseases, hemolytic anemia, anemias associate with ineffective
+erythropoiesis, psoriasis, Paget’s disease of bone, and enzyme defects (see
+below).
+Treatment is not recommended for asymptomatic hyperuricemia.
+Exceptions to this rule are enzyme defects that lead to lifelong
+hyperuricemia. Exceptions to this rule are enzyme defects that lead to
+lifelong hyperuricemia (examples: deficiency of hypoxanthine-guanine
+phosphoribosyltransferase in the Lesch-Nyhan syndrome, partial
+deficiency of HGPRT, superactivity of 5-phosphoribosyl – 1-
+pyrophosphate) and the hyperuricemia associated with tumor
+chemotherapy.
+2. Acute gouty arthritis
+Principles of treating acute gout include use of nonsteroidal antiinflammatory drugs, colchicines, and corticosteroids. Do not attempt to
+reduce plasma urate concentrations in the patient who is experiencing an
+acute attack.
+1. NONSTEROIDAL ANTI-INFLAMMATORY DRUGS
+Treatment of acute gouty arthritis is based upon the judicious use of
+nonsteroidal anti-inflammatory drugs (NSAIDS). Many of these
+agents are effective. Maximum-dose NSAID treatment is started at the
+first sign of an attack and the dose is lowed within a day or two and
+continued until the arthritis has resolved. NSAIDS are also effective
+in the well-established attack. Indocin (starting dose 50 mg po TID or
+QID) is often employed; the dose is tapered to 0 after about 1 week.
+Renal insufficiency is a contraindication to this therapy so is active
+peptic ulcer disease. Consider a history of bleeding from the upper
+gastrointestinal tract when deciding upon therapy for acute gout.
+Undesirable side effects of traditional NSAIDS: Gastric/esophageal
+irritation, exacerbations of peptic ulcers, anti-platelet effects,
+reversible hepatocellular toxicity, decreased creatinine clearance, skin
+rashes, aspirin-like reactions in the presence of the rhinitis, nasal
+polyposis, and asthma syndrome, and headaches and confusion in the
+elderly.
+Aspirin increases renal retention of uric acid in low doses, whereas
+high doses (3.5-5.0 gm/day) are uricosuric. It is avoided as an agent to
+treat an acute attack of gout.
+2. COLCHICINE
+Colchicine can be used to treat acute gout, but should be limited to low
+oral doses or cautious intravenous use (the latter for the hospitalized
+patient only). Colchicine should be used in reduced doses or avoided
+altogether in the patient with renal insufficiency.
+Some clinicians will give a brief course of oral colchicines, 2-3 tablets
+a week, in geriatric patients or patients with renal insufficiency.
+No patient should receive the traditional high-dose treatment in which
+numerous tablets of colchicines are given by mouth. This therapy can
+cause very servere diarrhea and dehydration.
+Intravenous administration should be given according to strict
+guidelines: (1) Single IV doses should not exceed 1 to 2 mg and the
+total cumulative dose should not be > 4mg, (2) No additional
+colchicines should be prescribed for 7 days, (3) the dose of IV
+colchicines should be halved in those with creatinine clearance < 50
+ml/min and in those > 65 years of age in whom the creatinine
+clearance is not known.
+Patients with renal insufficiency, especially those who are on dialysis,
+are at risk of developing colchicine neuromyopathy. This
+complication is characterized by elevated CPK and muscle weakness.
+Discontinuation of colchicine leads to improvement in the myopathy
+over several w3eeks. Associated neuropathy resolves more slowly.
+ 3. CORTICOSTEROIDS
+
+Intraarticular corticosteroids are very useful in breaking attacks of
+acute gout and have special value when other treatments cannot be
+utilized. In some instances, ACTH injections or oral corticosteroids
+are required.
+F. LONGTERM PROPHYLACTIC TREATMENT
+a. PROPHLAXIS
+Prophylaxis of the acute attack can be achieved by administering daily low
+doses of colchicine (0.5 or 0.6 mg tablet by mouth, 1 or 2 times daily; or in the
+presence of renal insufficiency, one tablet 3 times per week). An alternate
+prophylactic drug is Indocin, 25 mg by mouth twice a day. ALWAYS USE
+PROPHYLAXIS WHEN STARTING DRUGS TO LOWER THE
+SERUM URIC ACID LEVEL.
+b. URICOSURIG THERAPY
+Uricosuric agents facilitate urate excretion by the kidney and increase urate
+clearance and the fractional excretion of filtered urate. Probenecid is the most
+commonly used drug in this class. It is started at a dose of 0.5 gm/.day, and
+the dose is increased gradually to 1 – 3 gm/day, given in 2-3 divided doses.
+Renal insufficiency and a history of nephrolithiasis are contraindications to
+uricosuric treatment.
+
+c. XANTHINE OXIDASE INHIBITION
+The xanthine oxidase inhibitor, allopurinol, is used long-term to lower serum
+uric acid. It is indicated in overproduction of urate (examples: 24 hour urine
+uric acid >0.8 gm while on a normal diet; enzyme defect that leads to lifelong
+overproduction such as deficiency of hypoxanthine-guanine phosphoribosyltransferase), Tophi, renal insufficiency, nephrolithiasis, or intolerance to
+uricosuric agents.
+Allopurinol can paradoxically initiate acute polyarticular gout. For this
+reason, it should never be used in the patient who is experiencing acute gouty
+arthritis. Remember to start prophylactic treatment and to continue it for at
+least 6 weeks when allopurinol is started.
+The dose of allopurinol should be adjusted according to the patient’s renal
+function. The nomogram for maintenance allopurinol, adapted from Am J
+Med 76:43, 1984, is:
+ CCr 0, 100 mg every 3 days; CCr 10, 100 mg every 2 days;
+ CCR 20, 100 mg/day; CCR 40, 150 mg/day; CCr 60, 200 mg/day
+ CCr 80, 250 mg/day; CCr 100, 300 mg/day; CCr 120, 350 mg/day
+ CCr 140, 400 mg/day
+The risk in using allopurinol in renal insufficiency is the allopurinol
+hypersensitivity syndrome. Use of diuretics is also a risk factor. The
+syndrome develops within 2 – 4 weeks of starting allopurinol and mortality is
+20%. It is characterized by skin rash, fever hepatocellular injury,
+Leukocytosis, eosinophilia, and worsening renal function.
+Also, be aware that allopurinol causes potentiation of azathioprine, which as a
+purine analogue is metabolized by xanthine oxidase. The use of allopurinol
+requires a 50 to 75% reduction in the azathioprine dose. Careful monitoring
+of the leukocyte count is required; the margin between leucopenia and
+inadequate immunosuppression is narrow.
+II. PSEUDEOGOUT
+Pseudogout refers to articular disease associated with calcium pyrophosphate
+dehydrate crystals in synovial fluid or synovium. It is often associated with
+chondrocalcinosis, a radiographic finding in which calcium-containing crystals
+are visualized in fibrocartilage or articular cartilage. It is discussed here because
+some clinical features resemble gout. Differentiation from grout is important; the
+Pseudogout patient should not receive allopurinol.
+Pseudogout can occur as a hereditary disease, as a sporadic disease, or as a
+condition that is associated with metabolic diseases or trauma. The hereditary
+disease usually shows an autosomal dominant pattern of inheritance. Pseudogout
+is clearly associated with OLD AGE, and associations with hyperparathyroidism,
+hemochromatosis, hypothyroidism, amyloidosis, hypomagnesemia, and
+hypophosphatasia have been reported.
+The manifestations of Pseudogout are:
+1. Acute inflammation in one or more joints lasting for several days to 2
+weeks. Joints commonly involved are: knees (50%), wrists, and
+shoulders. As with gout, the attacks can occur spontaneously or be
+provoked by trauma, surgery or severe illness.
+2. About one half of these patients have progressive degeneration of
+ numerous joints, and acute flares of arthritis may be superimposed on
+ the degenerative problem.
+3. About 50% of patients have pseudo-rheumatoid presentation with
+ multiple joint involvement. Rheumatoid factor is present in 10% of
+ these patients, leading to confusion with rheumatoid arthritis.

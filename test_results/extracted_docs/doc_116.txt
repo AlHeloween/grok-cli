@@ -1,0 +1,156 @@
+Since its emergence in 2019, the worldwide spread of the novel coronavirus
+SARS-CoV-2 (COVID-19) has created a vast economic crisis as government lockdowns
+place considerable strain on businesses of all kinds – particularly those that rely on face-
+to-face contact, such as retail restaurants, and personal services. Given the importance
+of these businesses to local economic development and urban vitality, this paper makes
+use of the point-level Chicago Business License dataset to examine the impact of the
+COVID-19 pandemic on new business activity in the City of Chicago. The results indicate
+that on average, from March to September 2020, total monthly new business starts have
+declined by 33.4% compared to the monthly average of new starts in the City from 2016
+to 2019. Food service and retail businesses have been hardest hit during this period,
+while chains of all types have seen larger average declines in new startup activity than
+independent businesses. These patterns also demonstrate interesting intra-urban spatial
+heterogeneity; ZIP codes with the largest resilience to pandemic-related drops in new
+business activity tend to have more dense, diverse, and walkable built environments, lower
+levels of social vulnerability, lower percentages of young residents, and higher percentages
+of Black and Asian (non-Hispanic) residents. These findings provide some useful evidence
+in support of the “15-minute city” and ethnic enclave resilience hypotheses. Interestingly,
+observed COVID-19 case rates also appear to have a positive relationship with new
+business resilience for new chain and food service establishments. This is likely due to the
+fact that neighborhoods with relatively high levels of new food service business activity
+also have relatively higher proportions of food service employees, who are more at risk for
+contracting COVID-19 as “essential” workers.
+Since the emergence of the novel SARS-CoV-2 (COVID-19) virus in late 2019, its global
+spread has led to a variety of negative economic consequences, from restrictions on business
+operations and government lockdowns to reduced consumer confidence, discretionary
+mobility, and stock market fluctuations (McKinsey & Company 2020). According to
+some estimates, real global Gross Domestic Product (GDP) dropped by 10% between
+2019Q4 and 2020Q2 (McKinsey & Company 2020), while US GDP experienced its largest
+quarterly drop in history (9.1% in Quarter 2 of 2020), far outstripping the impact of any
+previous recessions (measured since data collection began in 1947) (Bauer et al. 2020,
+Routley 2020). Concurrently, the US unemployment rate reached its highest-ever recorded
+value in April 2020 at 14.7% (FRED 2020), while the S&P 500 lost 33% of its value in
+just one month (Capelle-Blancard, Desroziers 2020).
+Accordingly, US national data show that small business revenues across all industrial
+sectors dropped by 40% in April and had not yet recovered to pre-pandemic (January
+2020) levels by August, remaining at a 20% deficit; revenue in “leisure and hospitality”
+small businesses, which includes the arts, entertainment, recreation, accommodation,
+and food service sectors, have fared even worse, bottoming out at a roughly 70% deficit
+and only recovering to around 40% of pre-pandemic levels (Chetty et al. 2020, Bauer
+et al. 2020). At the same time, as Figure 1 shows, applications for new businesses “with
+planned wages” dropped significantly in 2020Q1 and 2020Q2 compared to recent years,
+before significantly rebounding in 2020Q3 and 202Q4 (US Census Bureau 2020). While
+this amounts to a higher net number of applications in the first four quarters of 2020
+compared to the 2016-2019 average, it is not yet clear whether this is due primarily to an
+administrative backlog created by the pandemic, the entrepreneurial activity of the newly
+unemployed, or re-adjustments in the market due to increased demand for particular
+kinds of goods and services (Bauer et al. 2020).
+Further understanding the specific effects of the pandemic on entrepreneurial activity
+is particularly important because new business creation is the primary engine for diversity,
+economic growth, and innovation in the economy as a whole (Frenken et al. 2007, Neumark
+et al. 2006, Wennekers, Thurik 1999), and declines in startup activity can have substantial
+negative long-term economic consequences (Sedl´aˇcek 2020, Guorio et al. 2016). There is
+also significant spatial heterogeneity in startup activity that plays an important role in
+cluster formation, regional economic development, and even the development trajectory
+of individual neighbourhoods within regions (Mack, Credit 2016, Malmberg, Maskell 2002,
+Florida 2002, Klepper 2009a,b, Porter 2000, Rutten, Boekema 2007). Understanding the
+fine-grained spatial and industrial effects of the pandemic on new businesses in more
+detail can help researchers and local governments to understand how to develop more
+economically resilient regions, which can provide insulation from future economic shocks.
+Data on new business applications are available on a weekly basis at the state level from
+the US Census Bureau’s Business Formation Statistics (2020). However, other datasets
+used to evaluate new business activity at finer spatial scales are not updated quickly
+enough to allow researchers to examine the fine-grained spatial and industrial/sectoral
+effects of the pandemic on new business activity. These include public datasets like the
+ZIP Code Business Patterns, as well as private datasets such as InfoUSA or the National
+Establishment Time Series (NETS).
+To overcome this problem, this paper utilizes a novel large dataset of business
+establishments (at the point level) derived from the open source Chicago Business
+License dataset, which is updated weekly and contains a comprehensive set of information
+on all new business license applications in the City of Chicago (2020) to assess two
+primary questions: first, to what extent has there been a decline in new business
+establishment1 starts during the pandemic (March to September, 2020) when compared to
+recent pre-pandemic trends (averages from 2016 to 2019)? Specifically, we are interested
+in whether there are distinct temporal trends by business sector or type (e.g., retail, food
+service, personal care and fitness, etc.) or between multi-establishment (or “chain”) (≥ 4
+establishment) businesses and “independent” (< 4 establishment) businesses.
+Second, given the temporal analysis, what is the spatial expression of these trends?
+Are there particular areas of the city that are more resilient to declines in new business
+startups, and, if so, what are the characteristics of these areas? To analyse this formally, we
+aggregate changes in pandemic-related (i.e., March to September 2020) business activity
+to the ZIP code level in order to explore the relationship between pandemic-related
+decline and characteristics of social vulnerability, the built environment, demographics,
+and cumulative COVID-19 activity.
+The results of the analysis indicate that 1) on average, from March to September
+2020 (through which complete data was available at the time of writing), total monthly
+new business starts have declined by 33.4% compared to the monthly average of new
+starts in the City from January 2016 to December 2019. 2) In general, food service
+and retail businesses have been hardest hit during this period (although all categories
+have experienced declines), while chains of all types have seen larger average declines
+in new startup activity (an average monthly drop of 61.9% from March to September
+compared to pre-pandemic averages) than independent businesses (a 29.2% drop). 3) These
+patterns demonstrate interesting intra-urban spatial heterogeneity; overall, a regression
+analysis suggests that the ZIP codes with the smallest pandemic-related declines in new
+business activity (i.e., those most resilient to the effects of the pandemic) tend to have
+more dense, diverse, and walkable built environments (defined in more detail below),
+lower levels of social vulnerability, lower percentages of young (age 18-39) residents, and
+higher percentages of Black and Asian (non-Hispanic) residents. Interestingly, observed
+COVID-19 case rates appear to have a positive relationship with new business resilience
+(after controlling for a variety of covariates), particularly for new chain and food service
+establishments. This could be a case of reverse causality, where areas with relatively high
+levels of new food service business activity also have relatively higher proportions of food
+service employees, who are more at risk for contracting COVID-19 as “essential” workers.
+New business creation provides a number of benefits to both local and macro-level
+economies that make it particularly important in the contemporary era of “flexible
+specialization” (Harvey 1989, Piore, Sabel 1984). The theoretical pathways from new
+business creation to economic benefits are diagrammed in Figure 2. Most directly, new
+(generally small) businesses create jobs that contribute to local economic growth (Birch
+1987, Kirchhoff, Phillips 1988, Neumark et al. 2006). While on net these jobs may not
+always exceed the number of jobs lost from the older businesses they replace (Mack, Credit
+2017), this process of business “churn” increases the probability of creating high-growth
+firms (so-called “gazelles”) that tend to produce the majority of new jobs (Henrekson,
+Johansson 2010, Nightingale, Coad 2014) and also provides for the “creative destruction”
+that fosters evolution and innovation in the economy2 by replacing jobs and businesses in
+older declining industries with new jobs in more innovative industries (Schumpeter 1934,
+1947, 1950, Brown et al. 2006, Fogel et al. 2008).
+Another way that entrepreneurship fosters innovation and productivity improvement
+is through the creation of a more competitive economic environment that produces a
+selection process through which only the most viable and/or innovative businesses survive
+(Wennekers, Thurik 1999, Carree, Thurik 2003). Interestingly, this more competitive
+environment can drive a positive feedback loop through which increased competitiveness
+drives demand for better products, which creates incentives for additional innovation
+and new business creation (Teece 2007, Asheim 1996, Florida 1995, Porter 2000, Rutten,
+Boekema 2007, Malmberg, Maskell 2002). Fully fledged clusters, such as Silicon Valley,
+can develop a unique entrepreneurial culture of “competition and community” (Saxenian
+1994) and attract additional educational, political, and financial investments that foster a
+holistic “entrepreneurial ecosystem” (Mack, Mayer 2015, Stam 2015) that captures the
+indigenous benefits of innovation, leading to economic success for individual businesses
+and associated local economic benefits, as well as providing a more supportive environment
+for further new business creation (Delgado et al. 2010). New businesses also contribute to
+innovation because they are often created as a direct result of knowledge spillovers, i.e., a
+new business is formed specifically to take advantage of some newly generated knowledge
+or idea (Acs, Audretsch 2003, Acs et al. 2009). These are often in the form of spinoffs
+from large existing companies, which some argue constitute the bulk of cluster forming
+activity (Buenstorf, Klepper 2009, Klepper, Sleeper 2005, Klepper 2009a,b).
+Finally, new businesses directly contribute to economic diversity. Increased diversity
+within related industries (i.e., “related variety”) provides another engine for innovation as
+the pool of new ideas and possible interactions and exchanges increases with the diversity
+of firms (Jacobs 1967, Boschma, Lambooy 1999, Boschma, Frenken 2006, Saviotti, Pyka
+2004, Frenken et al. 2007). On the other hand, diversity through “unrelated variety”
+provides important portfolio benefits to local economies by distributing economic risk
+across a variety of different industries, making the economic system more resilient to
+unexpected shocks that may occur, no matter what sector they are concentrated in
+(Montgomery 1994, Frenken et al. 2007).
+In this paper, we are particularly interested in new business creation for small,
+independently owned businesses in customer-facing sectors such as retail and food service,
+for several reasons. These businesses are significant contributors to land use diversity,
+street life, and overall urban vitality (Jacobs 1961, Gehl 2010). At the same time, small
+retail shops help to contribute to a unique “sense of place” in a given locality that is
+the direct product of local creative efforts and sensibilities (Jacobs 1961, Relph 1976,
+Robertson 1999, Kunstler 1994, Walljasper 2007, Alexander 1977, Montgomery 1998).
+The owners of these kinds of businesses themselves are also often more connected to the
+specific dynamics, demands, and politics of the local community, and tend to contribute
+to local import substitution (increasing the local multiplier effect) by spending profits
+to purchase requisite subsidiary goods and services locally, rather than exporting profits
+to another region, as is the case with larger chain businesses (Jacobs 1967, Talen, Jeong
+2019a,b).

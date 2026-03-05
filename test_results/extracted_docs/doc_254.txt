@@ -1,0 +1,162 @@
+BIAS IN POLICING
+Bias in the American legal system includes biases in law enforcement or policing, where
+racial disparities have long been documented and continue to persist. Compared with
+White Americans, Black and Latino men are disproportionately more likely to be
+stopped, searched, and arrested by police officers (Kahn & Martin 2016). Furthermore,
+members of these minority groups also experience greater use of force by the police
+(Goff & Kahn 2012, Kahn et al. 2016). Recently, a string of high-profile deadly cases
+involving Black men like Michael Brown, Eric Garner, and Walter Scott has increased
+public awareness of these hostile interactions with law enforcement. An initial analysis
+of public records revealed that non-White minorities made up almost half (47%) of all
+people killed by the police, despite comprising only 37% of the population. Furthermore,
+of those killed, 32% of Blacks and 25% of Latinos were unarmed, compared with 15% of
+Whites (Swaine et al. 2015). This troubling pattern of statistics has called into question
+the role that race may play in police decisions.
+Psychological research has examined this important social issue by directly
+investigating the content of racial stereotypes, as well as indirectly assessing how these
+associations affect perceptions and behavior. Self-report surveys have indicated that
+hostility, violence, and criminality are commonly associated with Black Americans, even
+by egalitarian-minded White Americans (Devine 1989, Devine & Elliot 1995, Dovidio et
+al. 1986). Additionally, priming low-prejudiced individuals with Black versus White stimuli
+typically results in the faster categorization of negative than positive attributes (e.g.,
+Fazio et al. 1995, Greenwald et al. 1998, Wittenbrink et al. 1997). Together, these
+findings suggest that awareness of social stereotypes and exposure to stigmatized
+group members can affect decision making.
+The Impact of Race on Weapon and Crime Perception
+Applying the above rationale to police contexts, Payne (2001) developed the Weapons
+Identification Task (WIT) to better understand the psychological mechanisms that may
+drive racially biased shootings. This sequential priming procedure involves a series of
+trials that begin with the presentation of a Black or White face, which participants are
+instructed to ignore. After 200 ms, the prime is replaced by the target stimulus, which is
+a picture of either a tool or a handgun. Participants must correctly categorize the object
+as quickly as possible using one of two computer keys. Across two initial studies, Payne
+(2001) found evidence of racial bias in both the reaction times and error rates. Following
+the presentation of a Black versus White facial prime, participants were faster to
+correctly identify a gun and more likely to misidentify a tool as a gun, depending on the
+implementation of a response deadline. The results revealed that the racial primes had
+an automatic influence on the visual identification of weapons (see also Amodio et al.
+2004, Klauer & Voss 2008, Payne et al. 2002). As such, Payne (2001) proposed that
+law enforcement officers may experience bias through the activation of Black
+stereotypes, especially when the cognitive resources needed to engage behavioral
+control are depleted.
+Correll et al. (2002) extended this line of inquiry by developing a video game that
+similarly examines the impact of race on weapon processing. In their first-person
+Shooter Task, participants are randomly presented with a range of one to four real-life
+photos of public spaces (e.g., parks, offices, courtyards). On the final image, a Black or
+White male target suddenly appears superimposed holding either a handgun or an
+innocuous object like a cell phone, soda can, or wallet. Participants must quickly press
+either a “shoot” or “don't shoot” button on their computer keyboard. When participants
+are given 850 ms to respond, they are faster to shoot armed Blacks versus Whites and
+slower to not shoot unarmed Blacks compared with Whites. However, providing
+participants with a 630-ms deadline results in a biased pattern of errors, such that
+unarmed Blacks are more likely to be incorrectly shot than their White counterparts and
+armed Whites are less likely to be shot than armed Black targets (see Correll et al.
+2014, Mekawi & Bresin 2015). Biased responses were due to participants having lower
+thresholds for shooting Black compared with White targets (see also Greenwald et al.
+2003). Furthermore, the magnitude of shooter bias was related to cultural awareness of
+Black stereotypes related to danger, violence, and aggression. Consequently, African
+American participants demonstrated the same pattern of shooter bias, despite holding
+presumably more positive attitudes about their group. These findings suggest that
+decisions to shoot may be strongly influenced by negative racial schemas that affect
+perceptions in ambiguous situations.
+Additional research supports the notion that racial stereotypes may serve as perceptual
+tuners that direct attention in a biased manner. Eberhardt et al. (2004) conducted a
+series of studies examining how associations between Blacks and crime affected visual
+processing. In their first study, undergraduates were subliminally primed with a photo of
+a Black male face, a White male face, or no face at all before completing a supposedly
+unrelated object detection task. On this critical task, severely degraded images of
+crime-relevant (e.g., guns, knives) or -irrelevant (e.g., phones, keys) objects appeared
+on the screen and slowly increased in clarity. Participants needed fewer frames to
+accurately detect a crime-relevant object following a Black versus White or no-face
+prime, a pattern of bias that was not related to their explicit racial attitudes. These
+results were replicated among California police officers who were primed with crime
+words (e.g., arrest, shoot) and then tested for their memory of the distractor face
+presented on the task. Compared with the correct image, officers were more likely to
+incorrectly choose a Black target with more stereotypical features following the crime
+primes. Early perceptual processes of the police may therefore be impacted by cultural
+associations that produce racial profiling of suspects and bias their subsequent
+treatment.
+Plant & Peruche (2005) also used actual law enforcement officers in their research to
+examine how race influenced their responses to criminal suspects. Police officers
+completed a more static version of the Shooter Task in which only photos of Black or
+White male faces appeared with a gun or object superimposed without a background
+image. The researchers wanted to examine whether repeated exposure to the program
+would reduce the bias expressed by the officers. As in past studies with undergraduate
+participants (e.g., Correll et al. 2002), the police were initially more likely to shoot
+unarmed Black versus White targets and had a lower threshold for shooting Black
+targets. However, this biased tendency disappeared in the second half of trials,
+signifying that officers learned to dissociate race from the presence of weapons to make
+more accurate decisions on the task.
+The potential benefit of expert police training on performance is further supported by the
+findings of Correll et al. (2007b), who compared the performance of three different
+samples: Denver community members, Denver police officers, and national police
+officers. In contrast to citizens who demonstrated bias in both their reaction time and
+error rates, police officers demonstrated it only in their response latencies. In other
+words, police officers did not make racially biased mistakes on the task but were still
+faster to shoot armed Black men and slower to not shoot unarmed Black targets. This
+shooter bias was more pronounced among officers serving high-crime areas with larger
+Black and minority populations. The findings suggest that exposure to negative racial
+stereotypes can impact the speed with which police officers make decisions, but that
+their extensive training and field experience may allow them to exert more control over
+their behavior than regular citizens.
+In sum, independent labs have accumulated a considerable amount of evidence that
+race can impact crime-oriented perceptions and bias subsequent decision making. Yet,
+findings are often mixed when comparing data obtained from police officers versus
+undergraduate or civilian samples. Under certain circumstances, the police express a
+similar magnitude of racial bias as individuals not in law enforcement; in other
+situations, their prior experience helps them limit the influence of stereotypes.
+Beyond the Impact of Race
+The mixed results discussed above point to the importance of conducting research that
+considers factors other than race to more fully understand the complexity of real-life
+police decision making. To this end, some studies have explored how personal
+motivations, situational contexts, and physical cues may attenuate or exacerbate the
+expression of racial bias.
+Personal motivation. Research that has examined motivational processes
+demonstrates that responses to race are not uniformly biased. For example, Payne
+(2001) found that motivation to control prejudice moderated the relationship between
+explicit measures of bias and performance on the WIT. Participants with low motivation
+to control prejudice tended to show a positive correlation between modern scores of
+racism and task performance. However, those with higher motivation levels tended to
+show a dissociation between explicit and implicit bias, indicating a regulatory effort to
+override stereotyping effects. Similarly, Amodio and colleagues (2006, 2008) have
+examined the impact of internal (personal) versus external (normative) motivations to
+respond without prejudice. Participants in their studies completed the WIT while having
+their brain activity recorded. The data indicated that internally motivated participants
+responded more accurately on the task, particularly following stereotypical errors.
+Because this neural activity occurred below conscious awareness, the researchers
+proposed that some individuals are able to engage a spontaneous form of control that
+helps reduce the influence of race on behavior.
+In contrast, Swencionis & Goff (2017) proposed that the motivation to view the world in
+hierarchical terms may increase bias in police decisions. Social Dominance Theory
+(Sidanius & Pratto 1999) posits that group-based inequalities are maintained by cultural
+influences that promote social stratification based on factors such as age, sex, and
+race. Consequently, power is primarily distributed to and legitimized by high-status
+groups and institutions. Past work has found that people with high social dominance
+orientation (SDO) are more attracted to hierarchy-enhancing professions, such as law
+enforcement, politics, and business (Sidanius et al. 2004). Given that police officers
+tend to report greater SDO levels than public defenders, college students, or community
+members (Sidanius et al. 1994), they may be more prone to expressing discrimination
+against low-status groups.
+Situational contexts. Recognizing that police decisions do not occur in a social
+vacuum, some researchers have attempted to recreate ecologically valid situations that
+may contribute to the expression of racial bias. For example, Correll et al. (2007a)
+reasoned that frequent media or environmental exposure to stereotypical depictions of
+Blacks may increase shooter bias. In line with their hypothesizing, they found that
+participants who were first exposed to stories involving Black versus White criminal
+activity later showed more bias on the Shooter Task. A similar pattern emerged when
+they manipulated the amount of Black armed and White unarmed targets appearing on
+the task. Thus, increasing the accessibility of associations between Blacks and danger
+resulted in more pronounced anti-Black bias.
+Cox et al. (2014) also argued for the use of more complex situational contexts to assess
+various psychological factors that influence real-life decisions. To this end, they
+developed a modified version of the Shooter Task that used short video clips along with
+static photos of the suspect and recorded responses through a gun apparatus instead of
+computer keys. Because the police usually have prior knowledge and expectations
+about neighborhoods, they also manipulated where the crimes on the task supposedly
+took place by providing the exact city location. Wisconsin police officers were randomly
+assigned to complete the task imbedded within a primarily White or non-White
+neighborhood. When examining responses on photo trials, the researchers found that
+police officers did not make racially biased errors but were faster to shoot armed Black
+versus White targets, as in the work by Correll et al. (2007b). Interestingly, they also
+found that the composition of the neighborhood interacted with the race of the officers,
+such that more errors were made when officers were assigned to other-race areas.

@@ -1,0 +1,68 @@
+1. Personalized cancer vaccines
+ Thousands of NHS cancer patients in England could soon access trials of a new vaccine treatment. It's designed to prime the immune system to target cancer cells and reduce recurrence risk. These vaccines are also hoped to produce fewer side effects than conventional chemotherapy. Thirty hospitals have joined the Cancer Vaccine Launch Pad, which matches patients with upcoming trials using the same mRNA technology found in current COVID-19 jabs. Over 200 patients from the UK, Germany, Belgium, Spain and Sweden will receive up to 15 doses of the personalized vaccine, with the study expected to complete by 2027.
+ 
+
+ 2. Test to identify 18 early-stage cancers
+ Researchers in the US have developed a test they say can identify 18 early-stage cancers. Instead of the usual invasive and costly methods, Novelna's test works by analyzing a patient's blood protein. In a screening of 440 people already diagnosed with cancer, the test correctly identified 93% of stage 1 cancers in men and 84% in women. The researchers believe the findings "pave the way for a cost-effective, highly accurate, multi-cancer screening test that can be implemented on a population-wide scale". It's early days, however. With such a small sample screening and a lack of information on co-existing conditions, the test is currently more of "a starting point for developing a new generation of screening tests for the early detection of cancer".
+ 
+
+ 
+
+ 3. Seven-minute cancer treatment jab
+ England's National Health Service (NHS) is to be the first in the world to make use of a cancer treatment injection, which takes just seven minutes to administer, rather than the current time of up to an hour to have the same drug via intravenous infusion. This will not only speed up the treatment process for patients, but also free up time for medical professionals. The drug, Atezolizumab or Tecentriq, treats cancers including lung and breast, and it's expected most of the 3,600 NHS patients in England currently receiving it intravenously will now switch to the jab.
+ 
+
+ 4. Precision oncology
+ Precision oncology is the “best new weapon to defeat cancer”, the chief executive of Genetron Health, Sizhen Wang, says in a blog for the World Economic Forum. This involves studying the genetic makeup and molecular characteristics of cancer tumours in individual patients. The precision oncology approach identifies changes in cells that might be causing the cancer to grow and spread. Personalized treatments can then be developed. The 100,000 Genomes Project, a National Health Service initiative, studied more than 13,000 tumour samples from UK cancer patients, successfully integrating genomic data to more accurately pin-point effective treatment. Because precision oncology treatments are targeted – as opposed to general treatments like chemotherapy – it can mean less harm to healthy cells and fewer side effects as a result.
+ 
+
+ 5. Artificial intelligence fights cancer
+ In India, World Economic Forum partners are using emerging technologies like artificial intelligence (AI) and machine learning to transform cancer care. For example, AI-based risk profiling can help screen for common cancers like breast cancer, leading to early diagnosis. AI technology can also be used to analyze X-rays to identify cancers in places where imaging experts might not be available. These are two of 18 cancer interventions that The Centre for the Fourth Industrial Revolution India, a collaboration with the Forum, hopes to accelerate.
+ 
+
+ 
+
+ 6. Greater prediction capabilities
+ Lung cancer kills more people in the US yearly than the next three deadliest cancers combined. It's notoriously hard to detect the early stages of the disease with X-rays and scans alone. However, MIT scientists have developed an AI learning model to predict a person's likelihood of developing lung cancer up to six years in advance via a low-dose CT scan. Trained using complex imaging data, 'Sybil' can forecast both short- and long-term lung cancer risk, according to a recent study. "We found that while we as humans couldn't quite see where the cancer was, the model could still have some predictive power as to which lung would eventually develop cancer," said co-author Jeremy Wohlwend.
+ 
+
+ 7. Clues in the DNA of cancer
+ At Cambridge University Hospitals in England, the DNA of cancer tumours from 12,000 patients is revealing new clues about the causes of cancer, scientists say. By analyzing genomic data, oncologists are identifying different mutations that have contributed to each person’s cancer. For example, exposure to smoking or UV light, or internal malfunctions in cells. These are like “fingerprints in a crime scene”, the scientists say – and more of them are being found. “We uncovered 58 new mutational signatures and broadened our knowledge of cancer,” says study author Dr Andrea Degasperi, from Cambridge’s Department of Oncology.
+ 
+
+ 
+
+ 8. Liquid and synthetic biopsies
+ Biopsies are the main way doctors diagnose cancer – but the process is invasive and involves removing a section of tissue from the body, sometimes surgically, so it can be examined in a laboratory. Liquid biopsies are an easier and less invasive solution where blood samples can be tested for signs of cancer. Synthetic biopsies are another innovation that can force cancer cells to reveal themselves during the earliest stages of the disease.
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 9. CAR-T-cell therapy
+ A treatment that makes immune cells hunt down and kill cancer cells was declared a success for leukaemia patients in 2022. Known as CAR-T-cell therapy, it involves removing and genetically altering immune cells, called T cells, from cancer patients. The altered cells then produce proteins called chimeric antigen receptors (CARs), which can recognize and destroy cancer cells. In the journal Nature, scientists at the University of Pennsylvania announced that two of the first people treated with CAR-T-cell therapy were still in remission 12 years on.
+ 
+
+ However, the US Food and Drug Administration is currently investigating whether the process can in fact cause cancer, after 33 cases of secondary cancer were observed in patients receiving CAR-T therapies. The jury is still out as to whether the therapy is to blame but, as a precaution, the drug packaging now carries a warning.
+ 
+
+ 10. Fighting pancreatic cancer
+ Pancreatic cancer is one of the deadliest cancers. It is rarely diagnosed before it starts to spread and has a survival rate of less than 5% over five years. At the University of California San Diego School of Medicine, scientists developed a test that identified 95% of early pancreatic cancers in a study. The research, published in Nature Communications Medicine, explains how biomarkers in extracellular vesicles – particles that regulate communication between cells – were used to detect pancreatic, ovarian and bladder cancer at stages I and II.
+ 
+
+ Scientists are also getting closer to a cure. A new US/UK study has discovered that pancreatic cancer shuts down particular molecules in a key gene. The hope now is that the new knowledge "could lead to the development of more effective treatment options in the future”, Dr Chris Macdonald, head of research at Pancreatic Cancer UK, told The Guardian.
+ 
+
+ 
+
+ 11. A tablet to cut breast cancer risk
+ A drug that could halve the chance of women developing breast cancer is being tested out by England's National Health Service (NHS). It will be made available to almost 300,000 women seen as being at most risk of developing breast cancer, which is the most common type of cancer in the UK. The drug, named anastrozole, cuts the level of oestrogen women produce by blocking the enzyme aromatase. It has already been used for many years as a breast cancer treatment but has now been repurposed as a preventive medicine. “This is the first drug to be repurposed through a world-leading new programme to help us realize the full potential of existing medicines in new uses to save and improve more lives on the NHS," says NHS Chief Executive Amanda Pritchard.

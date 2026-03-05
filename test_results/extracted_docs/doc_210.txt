@@ -1,0 +1,87 @@
+2. Effective Adoption Areas - where there is existing vibrant commercial sector activity
+Trusted AI and Autonomy
+Artificial Intelligence (Al) is the software engineering discipline of expanding
+capabilities of software applications to perform tasks that currently require human
+intelligence. Machine learning is an engineering subfield of AI that trains software
+models using example data, simulations, or real-world experiences rather than by direct
+programming or coding. Autonomy is the engineering discipline that expands robots'
+abilities to perform tasks while limiting the need for human interaction. AI holds
+tremendous promise to improve the ability and function of nearly all systems and
+operations. Trusted AI with trusted autonomous systems are imperative to dominate
+future conflicts. As AI, machine learning, and autonomous operations continue to mature,
+the DoD will focus on evidence-based AI-assurance and enabling operational
+effectiveness.
+Integrated Network Systems-of-Systems
+Integrated Network Systems-of-Systems technology encompasses the capability to
+communicate, provide real-time dissemination of information across the Department, and
+effective command and control in a contested electromagnetic environment. Integrated
+Network Systems-of-Systems capability must enable engagements by any sensor and
+shooter, with the ability to integrate disparate systems. An interoperable network that
+leverages emerging capabilities across the electromagnetic spectrum such as 5G, software
+defined networking and radios, and modern information exchange techniques will allow
+the Department to better integrate many diverse mission systems and provide fully
+networked command, control, and communication that is capable, resilient, and secure. 
+Microelectronics
+Microelectronics are circuits and components that serve as the "brain" to human-made
+electronic functional systems. Virtually every military and commercial system relies on
+microelectronics. Diminishing microelectronics manufacturing in the United States and
+supply chain concerns have highlighted national economic and security risks. Working
+closely with industry, academia, and across the Government, the Department is
+addressing the need for secure microelectronics sources and will leverage state-of-the-art
+commercial development and production for defense microelectronic solutions.
+Space Technology
+Space technologies include space flight, Space communication and other technologies
+needed to maintain space operations. With rising threats and increasing dependence on
+space-based systems, the Department's space strategy must shift away from exquisite
+satellites to a more robust and proliferated architecture. Novel space technologies are
+necessary to enable resilient cross-domain operations. The space strategy must
+incorporate technologies that enhance the Department's adaptive and reconfigurable
+capabilities in space situational awareness, space control, communication path diversity,
+on-orbit processing, and autonomy.
+Renewable Energy Generation and Storage
+Renewable energy generation and storage includes solar wind, bio-based and geothermal
+technologies, advanced energy storage, electronic engines, and power grid integration.
+Renewable energy generation and storage promises to decrease warfighter vulnerability
+and deliver new operational capabilities for the Department. From more efficient batteries
+to diversifying energy sources and reduced fuel transportation risks, renewable energy
+generation and storage will add resilience and flexibility in a contested logistics
+environment. 
+Advanced Computing and Software
+Advanced computing and software technologies include supercomputing, cloud
+computing, data storage, computing architectures, and data processing. Software is
+ubiquitous throughout the Department, but the speed at which software develops outpaces
+the Department's ability to stay up to date. The Department must rapidly modernize its
+legacy software systems with resilient, affordable, and assured new software that has
+been designed, developed, and tested using processes that establish confidence in its
+performance. The Department must migrate to a Development-Security-Operations
+(DevSecOps) approach in its software development and evolve to a model of continuous
+development, continuous test, and continuous delivery. The Department must leverage
+modular open system architecture approaches to isolate hardware from software and
+enable rapid upgrades to secure processors.
+Human-Machine Interfaces
+Human-Machine Interface refers to technologies related to human-machine teaming and
+augmented and virtual reality. Rapid advancements in this technology will have a
+multitude of benefits for our service members. Highly immersive realistic training
+environments provide real-time feedback to enhance warfighter performance. Intuitive interactive human-machine interfaces enable rapid mission planning and mission
+command by providing a common operational picture to geographically distributed
+operations.
+3. Defense-Specific Areas
+Directed Energy
+Directed Energy Weapons utilize lasers, high power microwaves, and high energy
+particle beams to produce precision disruption, damage, or destruction of military targets
+at range. Directed energy systems will allow the Department to counter a wide variety of
+current and emerging threats with rapid responses and engagement at the speed of light.
+High-power lasers and high-power microwave technologies both offer new ways to
+counter diverse sets of threats.
+Hypersonics
+Hypersonic systems fly within the atmosphere for significant portions of their flight at or
+above 5 times the speed of sound, or approximately 3700 miles per hour. Hypersonics
+dramatically shorten the timeline to strike a target and increase unpredictability. While
+strategic competitors are pursuing and rapidly fielding advanced hypersonic missiles, the
+DoD will develop leap-ahead and cost-effective technologies for our air, land, and sea
+operational forces.
+Integrated Sensing and Cyber
+To provide advantage for the joint force in highly contested environments, the
+Department must develop wideband sensors to operate at the intersection of cyber space,
+electronic warfare, radar, and communications. Sensors must be able to counter advanced
+threats and can no longer be stove-piped and single function.

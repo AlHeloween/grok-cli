@@ -1,0 +1,27 @@
+Insulin Efsitora versus Degludec in Type 2 Diabetes without Previous Insulin Treatment
+ Authors: Carol Wysham, M.D., Harpreet S. Bajaj, M.D., M.P.H., Stefano Del Prato, M.D. https://orcid.org/0000-0002-5388-0270, Denise Reis Franco, M.D., Arihiro Kiyosue, M.D., Ph.D., Dominik Dahl, M.D., Chunmei Zhou, M.S., Molly C. Carr, M.D., Michael Case, M.S., and Livia Firmino Gonçalves, M.D., for the QWINT-2 Investigators*Author Info & Affiliations
+ Published September 10, 2024
+ Background
+ Insulin efsitora alfa (efsitora) is a new basal insulin designed for once-weekly administration. Data on safety and efficacy have been limited to small, phase 1 or phase 2 trials.
+ Methods
+ We conducted a 52-week, phase 3, parallel-design, open-label, treat-to-target trial involving adults with type 2 diabetes who had not previously received insulin. Participants were randomly assigned in a 1:1 ratio to receive efsitora or degludec. The primary end point was the change in the glycated hemoglobin level from baseline to week 52; we hypothesized that efsitora would be noninferior to degludec (noninferiority margin, 0.4 percentage points). Secondary and safety end points included the change in the glycated hemoglobin level in subgroups of participants using and not using glucagon-like peptide-1 (GLP-1) receptor agonists, the percentage of time that the glucose level was in the target range of 70 to 180 mg per deciliter in weeks 48 through 52, and hypoglycemic episodes.
+ Results
+ A total of 928 participants underwent randomization (466 to the efsitora group and 462 to the degludec group). The mean glycated hemoglobin level decreased from 8.21% at baseline to 6.97% at week 52 with efsitora (least-squares mean change, -1.26 percentage points) and from 8.24% to 7.05% with degludec (least-squares mean change, -1.17 percentage points) (estimated treatment difference, -0.09 percentage points; 95% confidence interval [CI], -0.22 to 0.04), findings that showed noninferiority. Efsitora was noninferior to degludec with respect to the change in the glycated hemoglobin level in participants using and not using GLP-1 receptor agonists. The percentage of time that the glucose level was within the target range was 64.3% with efsitora and 61.2% with degludec (estimated treatment difference, 3.1 percentage points; 95% CI, 0.1 to 6.1). The rate of combined clinically significant or severe hypoglycemia was 0.58 events per participant-year of exposure with efsitora and 0.45 events per participant-year of exposure with degludec (estimated rate ratio, 1.30; 95% CI, 0.94 to 1.78). No severe hypoglycemia was reported with efsitora; six episodes were reported with degludec. The incidence of adverse events was similar in the two groups.
+ Conclusions
+ In adults with type 2 diabetes who had not previously received insulin, once-weekly efsitora was noninferior to once-daily degludec in reducing glycated hemoglobin levels. (Funded by Eli Lilly; QWINT-2 ClinicalTrials.gov number, NCT05362058.)
+ This article was published on September 10, 2024, at NEJM.org.
+ A data sharing statement provided by the authors is available with the full text of this article at NEJM.org.
+ Supported by Eli Lilly.
+ Disclosure forms provided by the authors are available with the full text of this article at NEJM.org.
+ We thank all the trial participants, Juliana Bue-Valleskey (Eli Lilly) for clinical trial design and technical consultation, and Alastair Knights (Eli Lilly) for medical writing assistance with an earlier version of the manuscript.
+ Supplementary Material
+ Protocol (nejmoa2403953_protocol.pdf)
+ 4.65 MB
+ Supplementary Appendix (nejmoa2403953_appendix.pdf)
+ 1.32 MB
+ Disclosure Forms (nejmoa2403953_disclosures.pdf)
+ Download
+ 1.15 MB
+ Data Sharing Statement (nejmoa2403953_data-sharing.pdf)
+ Download
+ 72.16 KB

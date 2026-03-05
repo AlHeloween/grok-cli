@@ -1,0 +1,48 @@
+With a large portion of face-to-face visits off the table during the pandemic, healthcare providers have had to look for new ways to interact with non-emergency patients. Doctors have been able to consult patients remotely, diagnose conditions, and even review X-rays and CT scans in high definition – often collaboratively with other experts in remote locations.
+ 
+
+ In turn, people have become more accepting of remote healthcare services and telemedicine, with Ernest Young reporting that 54% of patients with chronic diseases now accept remote healthcare.
+ 
+
+ That’s a welcome trend: research shows that 30% of hospital visits from patients with common chronic conditions are in fact unnecessary, tie-up resources, and cost the industry upwards of $8.3 billion per year. For patients, the online approach means better and safer access, less wasted time, and lower costs.
+ 
+
+ The ability to see a doctor regardless of location has helped democratize healthcare access for many people in underserved areas.
+ 
+
+ Solutions for emergency response
+ Much like connectivity sits at the core of remote healthcare, it can drive up the efficacy of emergency response during the “golden hour”, the time when effective medical intervention can mean the difference between life and death.
+ 
+
+ Historically, it’s been impossible to share data between ambulances, A&E departments, and experts in a way that enables a real-time response.
+ 
+
+ A 5G-powered remote emergency channel that links to a command centre gives doctors equipped with VR glasses the same view as if they were actually inside the ambulance. Doctors receive data on a patient’s vital signs in real-time on a large screen in the command centre, including the patient's ECG, ultrasound image, blood pressure, heart rate, oxygen saturation, and temperature.
+ 
+
+ The patient's medical history can be quickly established, doctors can guide paramedics in the ambulance, and patients can be admitted to hospital immediately after arrival with their details and condition known. This isn’t something for the future – many hospitals in China are already using this solution.
+ 
+
+ Discover
+ How is the World Economic Forum bringing data-driven healthcare to life?
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Speed and precision with AI
+ Alongside remote technologies and 5G, AI is emerging as a key technology in the tech-powered healthcare armory. It’s been instrumental, for example, along with the rapid rollout of COVID-19 vaccines, the large-scale virtual screening for potential drugs and shortening the simulation time from one month to less than one day.
+ 
+
+ Equally, AI can offset a shortage of specialists, such as ultrasound experts who can interpret echocardiograms to diagnose heart disease. A single expert can diagnose just 40 cases per day, which for patients translates into a waiting time of nearly one week. By training algorithms in small-sample data for 10 heart conditions, we’ve developed the B Ultrasound solution that can speed up the diagnosis process by between five to 10 times.
+ 
+
+ Proactive healthcare with wearables
+ In addition to B Ultrasound, since 2018 we’ve been working with more than 80 hospitals in China on the world's largest heart-health research project. With the consent of the research subjects, we’ve collected anonymized data from nearly 3.1 million people. Our smart wearable devices can collect signals from users in real-time, identify abnormal heart rhythms with AI, and upload the results to Huawei Research. Cloud AI then pushes information about high-risk people to the remote medical management platform of the hospitals we’re working with, so that healthcare workers can take appropriate measures.

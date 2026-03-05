@@ -1,0 +1,76 @@
+The first recorded description of the social interactions that could be enabled
+through networking was a series of memos written by J.C.R. Licklider of MIT in
+August 1962 discussing his “Galactic Network” concept. He envisioned a globally
+interconnected set of computers through which everyone could quickly access
+data and programs from any site. In spirit, the concept was very much like the
+Internet of today. Licklider was the first head of the computer research program
+at DARPA,4
+ starting in October 1962. While at DARPA he convinced his successors
+at DARPA, Ivan Sutherland, Bob Taylor, and MIT researcher Lawrence G. Roberts,
+of the importance of this networking concept.
+Leonard Kleinrock at MIT published the first paper on packet switching theory in
+July 1961 and the first book on the subject in 1964. Kleinrock convinced Roberts
+of the theoretical feasibility of communications using packets rather than
+circuits, which was a major step along the path towards computer networking.
+The other key step was to make the computers talk together. To explore this,
+in 1965 working with Thomas Merrill, Roberts connected the TX-2 computer in
+Mass. to the Q-32 in California with a low speed dial-up telephone line creating
+the first (however small) wide-area computer network ever built. The result
+of this experiment was the realization that the time-shared computers could
+work well together, running programs and retrieving data as necessary on the
+remote machine, but that the circuit switched telephone system was totally
+inadequate for the job. Kleinrock’s conviction of the need for packet switching
+was confirmed.
+In late 1966 Roberts went to DARPA to develop the computer network concept
+and quickly put together his plan for the “ARPANET”, publishing it in 1967. At the
+conference where he presented the paper, there was also a paper on a packet
+network concept from the UK by Donald Davies and Roger Scantlebury of NPL.
+Scantlebury told Roberts about the NPL work as well as that of Paul Baran and
+others at RAND. The RAND group had written a paper on packet switching
+networks for secure voice in the military in 1964. It happened that the work at
+MIT (1961-1967), at RAND (1962-1965), and at NPL (1964-1967) had all proceeded in
+parallel without any of the researchers knowing about the other work. The word
+“packet” was adopted from the work at NPL and the proposed line speed to be
+used in the ARPANET design was upgraded from 2.4 kbps to 50 kbps.5
+In August 1968, after Roberts and the DARPA funded community had refined the
+overall structure and specifications for the ARPANET, an RFQ was released by
+DARPA for the development of one of the key components, the packet switches
+called Interface Message Processors (IMP’s).
+The RFQ was won in December 1968 by a group headed by Frank Heart at Bolt
+Beranek and Newman (BBN). As the BBN team worked on the IMP’s with Bob
+Kahn playing a major role in the overall ARPANET architectural design, the
+network topology and economics were designed and optimized by Roberts working with Howard Frank and his team at Network Analysis Corporation, and the network
+measurement system was prepared by Kleinrock’s team at UCLA.6
+Due to Kleinrock’s early development of packet switching theory and his focus on analysis, design
+and measurement, his Network Measurement Center at UCLA was selected to be the first node on
+the ARPANET. All this came together in September 1969 when BBN installed the first IMP at UCLA
+and the first host computer was connected. Doug Engelbart’s project on “Augmentation of Human
+Intellect” (which included NLS, an early hypertext system) at Stanford Research Institute (SRI)
+provided a second node. SRI supported the Network Information Center, led by Elizabeth (Jake)
+Feinler and including functions such as maintaining tables of host name to address mapping as well
+as a directory of the RFC’s. 
+One month later, when SRI was connected to the ARPANET, the first host-to-host message was sent
+from Kleinrock’s laboratory to SRI. Two more nodes were added at UC Santa Barbara and University
+of Utah. These last two nodes incorporated application visualization projects, with Glen Culler and
+Burton Fried at UCSB investigating methods for display of mathematical functions using storage
+displays to deal with the problem of refresh over the net, and Robert Taylor and Ivan Sutherland at
+Utah investigating methods of 3-D representations over the net. Thus, by the end of 1969, four host
+computers were connected together into the initial ARPANET, and the budding Internet was off the
+ground. Even at this early stage, it should be noted that the networking research incorporated both
+work on the underlying network and work on how to utilize the network. This tradition continues to
+this day.
+Computers were added quickly to the ARPANET during the following years, and work proceeded on
+completing a functionally complete Host-to-Host protocol and other network software. In December
+1970 the Network Working Group (NWG) working under S. Crocker finished the initial ARPANET
+Host-to-Host protocol, called the Network Control Protocol (NCP). As the ARPANET sites completed
+implementing NCP during the period 1971-1972, the network users finally could begin to develop
+applications. 
+In October 1972, Kahn organized a large, very successful demonstration of the ARPANET at the
+International Computer Communication Conference (ICCC). This was the first public demonstration
+of this new network technology to the public. It was also in 1972 that the initial “hot” application,
+electronic mail, was introduced. In March Ray Tomlinson at BBN wrote the basic email message send
+and read software, motivated by the need of the ARPANET developers for an easy coordination
+mechanism. In July, Roberts expanded its utility by writing the first email utility program to list,
+selectively read, file, forward, and respond to messages. From there email took off as the largest
+network application for over a decade. This was a harbinger of the kind of activity we see on the
+World Wide Web today, namely, the enormous growth of all kinds of “people-to-people” traffic. 

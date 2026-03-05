@@ -1,0 +1,250 @@
+Introduction
+The skills, knowledge, and credentials obtained through education are widely believed to be
+connected to positive occupational and economic outcomes. In recent decades, considerable
+attention has been devoted to improving educational attainment levels of students with
+disabilities. Several federal policies have aimed to require educators to pay greater attention to the
+educational progress and attainment of students with disabilities, and many others provide for a
+variety of supports with the goal of improving levels of attainment. Data collection efforts have
+also been launched to allow for better tracking of relevant trends.
+This report discusses policies aiming to promote educational attainment and examines trends in
+high school graduation and college enrollment for students with disabilities. It begins with a
+discussion of the laws related to the education of students with disabilities at the secondary and
+postsecondary levels. Subsequent sections discuss the existing data on transition-aged students
+with disabilities, what is currently known about such students, and federal legislation and other
+factors that may have contributed to changes in students with disabilities’ high school graduation
+rates and postsecondary enrollment over time.
+The report offers a brief overview of what is currently known about the U.S. population of
+students with disabilities in secondary and postsecondary education. It focuses on data gathered in
+conjunction with federal programs and federally funded studies of nationally representative
+samples of students with disabilities. It does not attempt to provide an overview or review of
+existing research on transition-aged students with disabilities or to provide an in-depth
+examination of the differences between the rights of and services afforded to students with
+disabilities at the secondary and postsecondary levels. The next sections of the report provide an
+overview of the education and civil rights laws that aim to support students with disabilities as
+they work toward completing high school and potentially transition into further educational
+pursuits.
+Education Laws
+Individuals with Disabilities Education Act (IDEA)
+The IDEA was originally enacted in 1975 (P.L. 94-142)
+1
+and was most recently reauthorized in
+2004.
+2
+It is the primary federal act providing for special education and related services for
+children with disabilities between birth and 21 years old.3 Approximately 13% of the K-12
+student population received IDEA services in the 2013-2014 school year (SY).4
+The IDEA provides states with grants that support the identification, evaluation, and provision of
+special education services to children with disabilities. States may receive grants under the
+
+1 When P.L. 94-142, the Education for All Handicapped Children Act, was reauthorized in 1990 (P.L. 101-476), its
+name was changed to the Individuals with Disabilities Education Act (IDEA).
+2 The Individuals with Disabilities Education Improvement Act of 2004, P.L. 108-446.
+3 For more information, see CRS Report R41833, The Individuals with Disabilities Education Act (IDEA), Part B: Key
+Statutory and Regulatory Provisions, by Kyrie E. Dragoo and CRS Report R43631, The Individuals with Disabilities
+Education Act (IDEA), Part C: Early Intervention for Infants and Toddlers with Disabilities, by Kyrie E. Dragoo.
+4 U.S. Department of Education, National Center for Education Statistics, Digest of Education Statistics, 2015, Table
+204.30, “Children 3 to 21 years old served under Individuals with Disabilities Education Act (IDEA), Part B, by type of
+disability: Selected years, 1976-77 through 2013-14.”
+Students with Disabilities: High School to Postsecondary Transition
+Congressional Research Service R44887 · VERSION 2 · UPDATED 2
+condition that, among other requirements, they provide each qualifying student with (1) an
+individualized education program (IEP) outlining the student’s goals, and the accommodations,
+special education, and related services that the school will provide to the student, and (2) a free
+appropriate public education (FAPE) in the least restrictive environment (LRE). This means
+specially designed instruction to meet students’ needs, provided to the greatest extent possible
+with their general education peers and at no cost to their families.
+Beginning with its 1990 reauthorization,5
+the IDEA has required that the IEPs of students who are
+16 years old or older contain a statement of transition goals and services. Transition services are
+defined as:
+A coordinated set of activities for a child with a disability that—
+(A) is designed to be within a results-oriented process, that is focused on improving
+the academic and functional achievement of the child with a disability to facilitate the
+child’s movement from school to post-school activities, including post-secondary
+education, vocational education, integrated employment (including supported
+employment), continuing and adult education, adult services, independent living, or
+community participation;
+(B) is based on the individual child’s needs, taking into account the child’s strengths,
+preferences, and interests; and
+(C) includes instruction, related services, community experiences, the development
+of employment and other post-school adult living objectives, and, when appropriate,
+acquisition of daily living skills and functional vocational evaluation. 6
+The 1997 and 20047
+amendments to the IDEA have supported students with disabilities
+graduating with regular diplomas and transitioning to postsecondary education by
+ increasing local education agencies’ (LEAs) accountability for improving the
+performance of students with IEPs,
+ emphasizing students’ progress toward meaningful educational and
+postsecondary goals in the IEP process, and
+ requiring states to develop IDEA performance goals and indicators, including
+dropout and graduation rates, and to report to the Secretary of Education (the
+Secretary) and the public on the progress of the state and of students with
+disabilities in the state toward these indicators at least every two years.
+8
+Elementary and Secondary Education Act of 1965 (ESEA)
+The ESEA was originally enacted in 1965 (20 U.S.C. 6301 et seq.). It was most recently
+reauthorized by the Every Student Succeeds Act (ESSA; P.L. 114-95) in 2015. The ESEA is the
+largest source of federal aid to K-12 education, supporting educational and related services for
+low-achieving and other students attending elementary and secondary schools with high
+concentrations of students from low-income families. The largest grant program in the ESEA is
+
+5 P.L. 101-476.
+6
+ 20 U.S.C. §1401(a)(34).
+7
+In the 2004 reauthorization of the IDEA, Congress stated in their findings, “As the graduation rates for children with
+disabilities continue to climb, providing effective transition services to promote successful post-school employment or
+education is an important measure of accountability for children with disabilities.” (P.L. 108-446, §601 (c)(14)).
+8 P.L. 105-17, §612 (a)(16).
+Students with Disabilities: High School to Postsecondary Transition
+Congressional Research Service R44887 · VERSION 2 · UPDATED 3
+Title I-A. There are a number of educational accountability requirements that states, LEAs, and
+schools must meet to receive Title I-A funds. For example, amendments to the ESEA enacted
+under the No Child Left Behind Act of 2001(NCLB; P.L. 107-110) included several educational
+accountability provisions that aimed to promote the educational progress of all students in schools
+served. These provisions have subsequently been amended through the ESSA.
+Over half of public elementary and secondary schools receive Title I-A funds. While students
+with disabilities benefit from this funding, they are not specifically targeted by it. However, many
+of the ESEA’s educational accountability provisions do require that schools pay particular
+attention to students with disabilities and likely have an effect on them. For example, when the
+ESEA was amended through the NCLB in 2001, provisions were adopted requiring states to
+develop and implement a state accountability system to ensure that schools and LEAs made
+progress with respect to student achievement.9 Under the NCLB provisions, student progress was
+not only systematically measured and monitored for the broad population of K-12 students served
+under the ESEA but also for specific subgroups of students, of which “students with disabilities”
+was one.
+Under NCLB provisions, student proficiency in relation to academic performance standards was
+regularly tracked in selected subject areas, as were high school graduation rates. The NCLB
+contained high-stakes accountability provisions featuring varied consequences for schools in
+which a sufficient percentage of students or subgroups of students, such as students with
+disabilities, failed to make sufficient academic progress in relation to the academic achievement
+and high school graduation standards. The accountability provisions of the NCLB, and those in
+place after the ESEA was amended through the ESSA, emphasize holding all students and all
+subgroups of students (including students with disabilities) to the same standards and levels of
+academic achievement, and closing gaps between subgroups of students. To comply with these
+accountability provisions, schools and school districts are required to pay specific attention to the
+academic progress and graduation rates of students with disabilities.
+Higher Education Act of 1965 (HEA)
+The HEA was originally enacted in 1965 (P.L. 89-329). It was most recently reauthorized in 2008
+by the Higher Education Opportunity Act (HEOA; P.L. 110-315) in 2008, which authorized
+appropriations for most HEA programs through FY2014. Funding is still being provided for HEA
+programs through appropriations acts. The HEA authorizes student financial aid programs that
+help students and their families meet the costs of attending postsecondary institutions, a series of
+targeted grant programs that assist students transitioning into postsecondary education, and grants
+that support program and institutional development at some colleges and universities. While
+students with disabilities benefit from many of the HEA’s student financial aid programs, the
+programs that specifically target support and assistance to students with disabilities are the TRIO
+Student Support Services (SSS) program10 and Comprehensive Transition and Postsecondary
+(CTP) programs for students with intellectual disabilities.
+11
+
+9 ESEA, §1111(b)(2).
+10 Higher Education Act (HEA), P.L. 113-67, §402(D); 20 U.S.C. 1070a–14.
+11 P.L. 113-67, §760; 20 U.S.C. 1140.
+Students with Disabilities: High School to Postsecondary Transition
+Congressional Research Service R44887 · VERSION 2 · UPDATED 4
+The TRIO SSS program served over 200,000 students through grants to over 1,000 projects in
+SY2015-2016.
+12 The program, originally enacted in 1992 through amendments to the HEA,
+13
+provides support services to primarily low-income first generation college students with the aim
+of improving their retention, graduation rates, financial and economic literacy, and transfers from
+two-year to four-year schools.14 TRIO SSS programs are also intended to foster an institutional
+climate supportive of potentially disconnected students. These include students with disabilities,
+students who are limited English proficient, students from groups that are traditionally
+underrepresented in postsecondary education, students who are homeless children and youths,
+and students who are in foster care or aging out of the foster care system. Under the TRIO SSS
+program, the U.S. Department of Education (ED) makes competitive grants to Institutions of
+Higher Education (IHEs) and combinations of IHEs. Grantees must provide statutorily defined
+services to an approved number of participants. At least two-thirds of participants must be either
+students with disabilities15 or low-income, first-generation college students. The remaining onethird of participants must be low-income students, students with disabilities, or first-generation
+college students. Also, at least one-third of the participating students with disabilities must be
+low-income.
+The CTP programs for students with intellectual disabilities served approximately 1,000 students
+through grants to 66 institutions in SY2015-2016.
+16 The programs, enacted through the HEOA,
+provide transition support for students with intellectual disabilities.
+17 Under provisions in the
+HEA, CTP programs for students with intellectual disabilities are not required to lead to a
+recognized credential (e.g., bachelor’s or associate’s degree, certificate) or adhere to the same
+durational requirements that regular postsecondary programs must meet (e.g., a certain number of
+credit-bearing clock hours). Instead, CTP programs require students with intellectual disabilities
+to receive curriculum advising, participate at least part-time in courses or training with students
+who do not have intellectual disabilities, and prepare for gainful employment.
+Civil Rights Laws
+In addition to the education laws that fund programs for students with disabilities, there are two
+civil rights laws that protect them in secondary and postsecondary education from discrimination
+based on their disabilities: Section 504 of the Rehabilitation Act (P.L. 93-112) and the Americans
+with Disabilities Act of 1990 (ADA; 42 U.S.C. §12101 et seq.).
+
+12 U.S. Department of Education, Student Support Services Program Awards, FY2016, https://www2.ed.gov/programs/
+triostudsupp/awards.html.
+13 Higher Education Amendments of 1992, P.L. 102-325, §402(a)(2).
+14 For more background information, see CRS Report R42724, The TRIO Programs: A Primer, by Cassandria Dortch.
+15 “Disability” is defined in §12102 of the Americans with Disabilities Act (ADA; 42 U.S.C. 12101 et seq.).
+16 The U.S. Department of Education (ED) tracks the estimated enrollment of the 43 (out of 66) CTP programs that
+receive TPSID grants (see footnote 17). An estimated 730 students participate in these TPSID programs (an average of
+approximately 17 students per program). There are an additional 23 CTP programs that do not report student
+enrollment rates. CRS estimates that if these 23 CTP programs serve an average of 12 or more students, and those
+students are added to the 730 students served in the TPSID programs, more than 1,000 students would be served by
+CTP programs in total.
+17 A new CTP grant program, the Model Transition Programs for Students with Intellectual Disabilities into Higher
+Education (TPSID), which is intended to help IHEs create or expand high-quality, inclusive-model CTP programs for
+students with intellectual disabilities, was included in the Higher Education Opportunity Act of 2008 (HEOA; P.L. 110-
+315).
+Students with Disabilities: High School to Postsecondary Transition
+Congressional Research Service R44887 · VERSION 2 · UPDATED 5
+Section 504 of the Rehabilitation Act18
+Section 504 prohibits discrimination on the basis of a disability by protecting the rights of people
+with disabilities to access programs receiving federal funding. Section 504 also provides for
+accommodations such as extended time on tests for students with learning disabilities, accessible
+classrooms for students with orthopedic impairments, and large print or braille materials for
+students who are visually impaired. These accommodations are available at all levels of
+schooling—preschool to postsecondary—in schools that receive any federal funding.
+All children with disabilities attending K-12 public schools who are served under Section 504 are
+entitled to a FAPE and an individualized accommodations plan, often called a “504 plan.” At the
+postsecondary level, Section 504 requires IHEs to provide students with disabilities with
+appropriate academic adjustments and equitable access to educational programs and facilities.
+ED’s Office for Civil Rights (OCR) reported that in SY2011-2012, more than 6 million K-12
+students were served under the IDEA, and slightly less than three-quarters of a million K-12
+students were served under Section 504.
+19 This means approximately 89% of children with
+disabilities served by K-12 public schools are served under the IDEA and approximately 11% of
+students with disabilities served by K-12 public schools are served solely by Section 504.20 At the
+postsecondary level, however, the IDEA no longer applies to students with disabilities; instead,
+all students with disabilities attending IHEs that receive federal funding are protected by Section
+504. Most IHEs have a 504 coordinator or a disabled student services (DSS) office on campus
+that coordinates accommodations such as extended time on tests, early course registration, and
+physical accommodations and access to campus facilities for students with disabilities.
+Americans with Disabilities Act of 1990 (ADA)
+The Americans with Disabilities Act of 1990, most recently amended by the ADA Amendments
+Act of 2008 (together, ADA),
+21 includes a conforming amendment to the Rehabilitation Act that
+broadens the meaning of the term “disability” in both the ADA and Section 504 to protect people
+who have or are regarded as having a physical or mental disability that impacts one or more
+major life activities. The ADA provides broad nondiscrimination protection in employment,
+public services, public accommodations and services operated by private entities, transportation,
+and telecommunications for individuals with disabilities. The ADA states that its purpose is “to
+provide a clear and comprehensive national mandate for the elimination of discrimination against
+individuals with disabilities.” In 2008, in response to Supreme Court and lower court decisions
+that narrowly interpreted the term “disability,” Congress passed the ADA Amendments Act to,
+among other things, “carry out the ADA's objectives of providing 'a clear and comprehensive
+national mandate for the elimination of discrimination' and 'clear, strong, consistent, enforceable
+standards addressing discrimination' by reinstating a broad scope of protection to be available
+under the ADA.”
+Both Section 504 and the ADA require that educational institutions at all levels provide equal
+access for people with disabilities. The ADA extends the requirements of Section 504 from only
+institutions receiving federal financial assistance to all institutions, with some exceptions for
+
+18 Section 504 of the Rehabilitation Act of 1973 is commonly referred to simply as “Section 504.”
+19 U.S. Department of Education, Office for Civil Rights, Civil Rights Data Collection, 2011-12, http://ocrdata.ed.gov.
+20 Because having an IEP and a 504 plan is considered duplicative, students with IEPs usually only have IEPs, and
+students who have disabilities that do not qualify for IDEA services (e.g., a disability that impacts a child medically or
+physically but not educationally) have 504 plans.
+21 42 U.S.C. §12101 et seq.
+Students with Disabilities: High School to Postsecondary Transition
+Congressional Research Service R44887 · VERSION 2 · UPDATED 6
+institutions controlled by religious organizations. The ADA impacts schools from pre-K to
+postsecondary because it extends the rights of people with disabilities to access facilities and
+receive accommodations, allowing them to participate in the activities of both public and private
+institutions. 

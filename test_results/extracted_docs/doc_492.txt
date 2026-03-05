@@ -1,0 +1,108 @@
+Recent Changes to Supreme Court Financial Disclosure Requirements
+Statutory Updates
+On May 13, 2022, President Biden signed the Courthouse Ethics and Transparency Act, which requires
+online publication of financial disclosure reports of judicial officers (including Supreme Court Justices),
+bankruptcy judges, and magistrate judges. While the EIGA always mandated public access to judicial
+officer financial disclosure reports, there was no central database to access the filings, and reports were
+available only “in paper documents or on thumb drives.” The new law directed the Administrative Office
+of the United States Courts (AO) to establish a “searchable internet database to enable public access to
+any report required to be filed” under the EIGA. The AO launched the public database on November 7,
+2022, and the public can now access electronic versions of federal judges’ reports. The EIGA’s allowance
+for security-related redactions in judicial branch financial disclosure reports remains unchanged.
+The Courthouse Ethics and Transparency Act also extended the STOCK Act’s PTR requirements to
+judicial officers (including Supreme Court Justices), bankruptcy judges, and magistrate judges. Under the
+provisions discussed above, federal judges are now required to report any purchase, sale, or exchange of
+securities that exceeds $1,000 within 45 days of the transaction. The new public database includes access
+to all of these periodic transaction reports.
+Regulatory Updates
+Interpretation of the EIGA’s financial disclosure requirements as applied to judicial officers and
+employees has also recently changed. As mentioned above, the Committee on Financial Disclosure within
+the Judicial Conference prescribes rules regarding financial disclosure by judicial officers. Those rules are
+found in Volume 2, Part D, of the Guide to Judiciary Policy.
+As noted above, as part of their financial disclosure reports, all covered individuals are statutorily
+required to report gifts received from any source other than a relative with the exception of “food,
+lodging, or entertainment received as personal hospitality.” The EIGA defines personal hospitality of any
+individual as “hospitality extended for a nonbusiness purpose by an individual, not a corporation or
+organization, at the personal residence of that individual or the individual’s family or on property or
+facilities owned by that individual or the individual’s family.”
+According to a March 2023 letter from the director of the AO, the Committee on Financial Disclosure
+revised its regulations, effective March 14, 2023, specifically regarding the definition of personal
+hospitality. These updated regulations appear in the notes that accompany the definition of personal
+hospitality:
+(1) The personal hospitality gift reporting exemption applies only to food, lodging, or entertainment
+and is intended to cover such gifts of a personal, non-business nature. Therefore, the reporting
+exemption does not include:
+gifts other than food, lodging or entertainment, such as transportation that substitutes for commercial
+transportation;
+gifts extended for a business purpose;
+Congressional Research Service 4
+gifts extended at property or facilities owned by an entity, rather than by an individual or an
+individual’s family, even if the entity is owned wholly or in part by an individual or an individual’s
+family;
+gifts paid for by any individual or entity other than the individual providing the hospitality, or for
+which the individual providing the hospitality receives reimbursement or a tax deduction related to
+furnishing the hospitality; or
+gifts extended at a commercial property, e.g., a resort or restaurant, or at a property that is regularly
+rented out to others for a business purpose.
+The notes also clarify that judicial officers and employees are never permitted “to solicit or accept
+anything of value from a person seeking official action from or doing business with the court or other
+entity served by the judicial officer or employee, or from any other person whose interests may be
+substantially affected by the performance or nonperformance of the judge’s official duties.”
+There is some uncertainty as to whether these regulations apply to the Supreme Court. Although the
+regulations explicitly include Justices in the definition of judicial officer, some have questioned whether
+the Judicial Conference has authority over the Supreme Court. In his 2011 Year-End Report, the Chief
+Justice explained that because the “Judicial Conference is an instrument for the management of the lower
+federal courts, its committees have no mandate to prescribe rules or standards for any other body.”
+Nonetheless, at least one Associate Justice has indicated his intention to follow the 2023 guidance going
+forward, and, as discussed further below, the Justices have stated that they comply with current Judicial
+Conference regulations on financial disclosure.
+Supreme Court Code of Conduct
+On November 13, 2023, the United States Supreme Court announced it was, for the first time, adopting a
+Code of Conduct “to set out succinctly and gather in one place the ethics rules and principles that guide
+the conduct of the Members of the Court.” Noting that most of the rules and principles within the Code
+“are not new,” the Court explained that the Code “largely represents a codification of principles that we
+have long regarded as governing our conduct.” The Code, discussed in more detail in another Legal
+Sidebar, is a set of five ethical canons and accompanying commentary. The canons are nearly the same as
+the existing canons in the Code of Conduct for U.S. Judges, which applies only to lower federal judges.
+While many provisions of the Supreme Court Code generally address conflicts of interest and
+appearances of impropriety, specific Code provisions discuss requirements related to financial activities
+and compliance with the EIGA. For example, Canon 4(H) declares the Justices’ commitment to comply
+with financial disclosure laws, and the commentary accompanying the Code states that the Justices
+comply with the EIGA, STOCK Act, and current Judicial Conference regulations on financial disclosure.
+Although the Code affirms the Justices’ compliance with existing financial disclosure laws and
+regulations, it seemingly does not impose any new financial disclosure requirements on the Justices.
+Considerations for Congress
+Financial disclosure laws are used to identify potential or actual conflicts of interest in order to promote
+integrity in the federal government. Congress may consider options to modify or clarify current financial
+disclosure requirements for judicial officers. For example, the Supreme Court Ethics, Recusal, and
+Transparency Act would, according to its sponsor, “improve disclosure of travel and hospitality for
+judges” by requiring the counselor to the Chief Justice (with approval of the Chief Justice) to adopt rules
+regarding disclosure of gifts, travel, and income that are “at least as rigorous as the House and Senate
+disclosure rules.” This proposal was introduced before the Justices released their November 2023 Code of
+Conduct, and it is unclear to what extent the Code may overlap with some of the requirements that this
+bill would impose.
+Congressional Research Service 5
+LSB10949 · VERSION 2 · UPDATED
+Financial disclosure is only one facet of a wider theme of government ethics. The EIGA, as amended,
+includes not only the financial disclosure requirements discussed above but also gift and outside earned
+income and employment limitations that apply to all officers and employees of the government. While the
+Judicial Conference’s implementing regulations for these laws exclude Supreme Court Justices from
+coverage, the commentary accompanying the recent Supreme Court Code of Conduct states that the
+Justices comply with current Judicial Conference regulations on gifts, foreign gifts and decorations, and
+outside earned income, honoraria, and employment in addition to regulations about financial disclosure.
+This is consistent with the Justices’ long-standing voluntary compliance with certain Judicial Conference
+regulations. The Code, however, does not include any enforcement mechanisms, meaning there is no
+process to address alleged violations of the Code.
+Proposed legislation about Supreme Court financial disclosure and other ethics requirements, including
+congressional attempts to enforce the Supreme Court Code of Conduct through legislation or oversight,
+may raise questions regarding Congress’s authority to regulate the Supreme Court. Some scholars have
+suggested that Chief Justice Roberts in his 2011 Year-End Report questioned whether Congress may
+impose ethical requirements on the Supreme Court. Other scholars have argued that while constitutional
+obstacles—such as separation-of-powers issues—may exist, the Constitution does provide Congress with
+authority to regulate Supreme Court ethics. This authority, however, is untested, leaving a wide array of
+questions unanswered regarding the validity of current law and the extent to which Congress may impose
+future regulations.
+Despite any doubts as to congressional authority, the Justices, through their newly released Code of
+Conduct, have acknowledged that they file “the same financial disclosure reports as other federal judges.”
+Without enforcement mechanisms in the Code, however, compliance with federal ethics laws may be left
+to the discretion of the Justices.

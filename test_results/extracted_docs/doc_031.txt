@@ -1,0 +1,71 @@
+Clinical Manifestations
+ Rabies virus causes acute infection of the central nervous system. Five general stages are recognized in humans: incubation, prodrome, acute neurologic period, coma, and death. The incubation period is exceptionally variable, ranging from fewer than 10 days to longer than 2 years, but is usually 1–3 months.
+ 
+
+ Structure
+ Rabies virus is a rod- or bullet-shaped, single-stranded, negative-sense, unsegmented, enveloped RNA virus. The virus genome encodes five proteins.
+ 
+
+ Classification and Antigenic Types
+ Placement within the family is based on the distinctive morphology of the virus particle. Cross- reactive nucleoprotein antigens or comparative genomic sequences determine inclusion in the genus Lyssavirus, which includes rabies virus and at least five other pathogenic rabies-like viruses.
+ 
+
+ Multiplication
+ The viral RNA uncoats in the cytoplasm of infected cells. The genome is transcribed by a virion-associated RNA-dependent RNA polymerase. Viral RNA is then translated into individual viral proteins. Replication occurs with synthesis of positive-stranded RNA templates for the production of progeny negative-stranded RNA.
+ 
+
+ Pathogenesis
+ After inoculation, rabies virus may enter the peripheral nervous system directly and migrates to the brain or may replicate in muscle tissue, remaining sequestered at or near the entry site during incubation, prior to central nervous system invasion and replication. It then spreads centrifugally to numerous other organs. The case:fatality ratio approaches unity, but exact pathogenic mechanisms are not fully understood.
+ 
+
+ Host Defenses
+ Susceptibility to lethal infection is related to the animal species, viral variant, inoculum concentration, location and severity of exposure, and host immune status. Both virus-neutralizing antibodies and cell-mediated immunity are important in host defense.
+ 
+
+ Epidemiology
+ Rabies occurs in nearly all countries. Disease in humans is almost always due to a bite by an infected mammal. Nonbite exposures (e.g., mucosal contact) rarely cause rabies in humans.
+ 
+
+ Diagnosis
+ Early diagnosis is difficult. Rabies should be suspected in human cases of unexplained viral encephalitis with a history of animal bite. Unvaccinated persons are often negative for virus-neutralizing antibodies until late in the course of disease. Virus isolation from saliva, positive immunofluorescent skin biopsies or virus neutralizing antibody (from cerebrospinal fluid, or serum of a non-vaccinated patient), establish a diagnosis.
+ 
+
+ Control
+ Vaccination of susceptible animal species, particularly dogs and cats, will control this zoonotic disease.
+ 
+
+ Introduction
+ The family Rhabdoviridae consists of more than 100 single-stranded, negative-sense, nonsegmented viruses that infect a wide variety of hosts, including vertebrates, invertebrates, and plants. Common to all members of the family is a distinctive rod- or bullet-shaped morphology. Human pathogens of medical importance are found in the genera Lyssavirus and Vesiculovirus.Only rabies virus, medically the most significant member of the genus Lyssavirus, is reviewed in this chapter.
+ 
+
+ Clinical Manifestations
+ Five general stages of rabies are recognized in humans: incubation, prodrome, acute neurologic period, coma, and death (or, very rarely, recovery) (Fig. 61-1). No specific antirabies agents are useful once clinical signs or symptoms develop. The incubation period in rabies, usually 30 to 90 days but ranging from as few as 5 days to longer than 2 years after initial exposure, is more variable than in any other acute infection. Incubation periods may be somewhat shorter in children and in individuals bitten close to the central nervous system (e.g., the head). Clinical symptoms are first noted during the prodromal period, which usually lasts from 2 to 10 days. These symptoms are often nonspecific (general malaise, fever, and fatigue) or suggest involvement of the respiratory system (sore throat, cough, and dyspnea), gastrointestinal system (anorexia, dysphagia, nausea, vomiting, abdominal pain, and diarrhea), or central nervous systems (headache, vertigo, anxiety, apprehension, irritability, and nervousness). More remarkable abnormalities (agitation, photophobia, priapism, increased libido, insomnia, nightmares, and depression) may also occur, suggesting encephalitis, psychiatric disturbances, or brain conditions. Pain or paresthesia at the site of virus inoculation, combined with a history of recent animal bite, should suggest a consideration of rabies.
+ 
+
+ The acute neurologic period begins with objective signs of central nervous system dysfunction. The disease may be classified as furious rabies if hyperactivity (i.e., hydrophobia) predominates and as dumb rabies if paralysis dominates the clinical picture. Fever, paresthesia, nuchal rigidity, muscle fasciculations, focal and generalized convulsions, hyperventilation, and hypersalivation may occur in both forms of the disease.
+ 
+
+ At the end of the acute neurologic phase, periods of rapid, irregular breathing may begin; paralysis and coma soon follow. Respiratory arrest may occur thereafter, unless the patient is receiving ventilatory assistance, which may prolong survival for days, weeks, or longer, with death due to other complications.
+ 
+
+ Although life support measures can prolong the clinical course of rabies, rarely will they affect the outcome of disease. The possibility of recovery, however, must be recognized, and when resources permit, every effort should be made to support the patient. At least seven cases of human “recovery” have been documented.
+ 
+
+ Structure
+ The rabies virus is a negative-sense, non-segmented, single-stranded RNA virus measuring approximately 60 nm × 180 nm. It is composed of an internal protein core or nucleocapsid, containing the nucleic acid, and an outer envelope, a lipid-containing bilayer covered with transmembrane glycoprotein spikes.
+ 
+
+ The virus genome encodes five proteins associated with either the ribonucleoprotein (RNP) complex or the viral envelope (Fig. 61-3). The L (transcriptase), N (nucleoprotein), and NS (transcriptase-associated) proteins comprise the RNP complex, together with the viral RNA. These aggregate in the cytoplasm of virus-infected neurons and compose Negri bodies, the characteristic histopathologic finding of rabies virus infection. The M (matrix) and G (glycoprotein) proteins are associated with the lipid envelope. The G protein forms the protrusions that cover the outer surface of the virion envelope and is the only rabies virus protein known to induce virus-neutralizing antibody.
+ 
+
+ 
+
+ Classification and Antigenic Types
+ The genus Lyssavirus includes rabies virus and the antigenically- and genetically-related rabies- like viruses: Lagos bat, Mokola, and Duvenhage viruses, and two suggested subtypes of European bat lyssaviruses. Cross-protection studies suggest that animals immunized with traditional rabies vaccines may not be fully protected if challenged with other lyssaviruses.
+ 
+
+ Rabies viruses may be categorized as either fixed (adapted by passage in animals or cell culture) or street (wild type). The use of monoclonal antibodies and genetic sequencing to differentiate street rabies viruses has been helpful in identifying viral variants originating in major host reservoirs throughout the world and suggesting the likely sources of human exposure when a history of definitive animal bite was otherwise missing from a patient's case history.
+ 
+
+ Multiplication
+ The replication of rabies virus is believed to be similar to that of other negative-stranded RNA viruses. The virus attaches to the host cell membranes via the G protein, penetrates the cytoplasm by fusion or pinocytosis, and is uncoated to RNP. The core initiates primary transcription of the five complementary monocistronic messenger RNAs by using the virion-associated RNA-dependent RNA polymerase. Each RNA is then translated into an individual viral protein. After viral proteins have been synthesized, replication of the genomic RNA continues with the synthesis of full length, positive-stranded RNA, which acts as a template for the production of progeny negative-stranded RNA.

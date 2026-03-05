@@ -1,0 +1,34 @@
+Story image
+ #
+ Advanced Persistent Threat Protection
+ #
+ Cybersecurity
+ #
+ EDR
+ Sophos unveils Chinese cyber espionage tactics in new report
+ 
+
+ 
+
+ Sophos has unveiled the latest developments in a Chinese cyber espionage campaign in Southeast Asia, as detailed in its report titled “Crimson Palace: New Tools, Tactics, Targets.”
+ 
+
+ The research conducted by Sophos X-Ops reveals three clusters of nation-state activity - named Cluster Alpha, Cluster Bravo, and Cluster Charlie - inside a high-profile government organisation. These clusters have continued their activities over the nearly two-year-long campaign.
+ 
+
+ The report notes a renewed presence of both Cluster Bravo and Cluster Charlie, not only within the initial targeted organisation but also across multiple other entities in the region. An important discovery made during this process is a novel keylogger dubbed “Tattletale.” According to the report, this keylogger impersonates users, collecting information related to password policies, security settings, cached passwords, browser information, and storage data.
+ 
+
+ Paul Jaramillo, director of threat hunting and threat intelligence at Sophos, commented on the adaptive capabilities of these threat actors. “We’ve been in an ongoing chess match with these adversaries. During the initial phases of the operation, Cluster Charlie was deploying various bespoke tools and malware,” he explained. “However, we were able to ‘burn’ much of their previous infrastructure, blocking their Command and Control (C2) tools and forcing them to pivot. This is good; however, their switch to open-source tools demonstrates just how quickly these attacker groups can adapt and remain persistent.”
+ 
+
+ During its initial activity phase from March to August 2023, Cluster Charlie operated within a high-level government organisation. After a brief hiatus, the cluster re-emerged in September 2023 and continued its operations until at least May 2024. In this second phase, the group aimed to evade endpoint detection and response (EDR) tools while gathering more intelligence. The report suggests that the overarching organisation directing these clusters has shifted tactics, increasingly using open-source tools instead of custom-developed malware.
+ 
+
+ Sophos X-Ops has tracked ongoing Cluster Charlie activities across multiple organisations in Southeast Asia. Cluster Bravo, originally active for three weeks in March 2023, reappeared in January 2024 and targeted at least 11 other organisations in the region. Both Cluster Bravo and Cluster Charlie share tactics, techniques, and procedures (TTPs) with known Chinese threat groups Earth Longzhi and Unfading Sea Haze, respectively, indicating coordination among these clusters.
+ 
+
+ Jaramillo noted the increasing coordination and expansion of operations among the clusters. “Not only are we seeing all three of the ‘Crimson Palace’ clusters refine and coordinate their tactics, but they’re also expanding their operations, attempting to infiltrate other targets in Southeast Asia. Given how frequently Chinese nation-state groups share infrastructure and tools, and the fact that Cluster Bravo and Cluster Charlie are moving beyond the original target, we will likely continue to see this campaign evolve - and potentially new locations. We will be monitoring it closely,” he said.
+ 
+
+ Operation Crimson Palace highlights the ongoing threat posed by sophisticated cyber espionage activities targeting critical sectors. Sophos' continuous monitoring and research efforts serve to identify and mitigate these threats, providing early detection and bolstering the security infrastructure of its partners and clients.

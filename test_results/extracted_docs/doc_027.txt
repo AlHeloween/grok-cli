@@ -1,0 +1,60 @@
+Objectives: Maternal age has been increasing for several decades with many of these late pregnancies between 40 and 45 years old. The main objective of this study is to assess whether maternal age is an independent factor of obstetric, fetal, and neonatal complications.
+ 
+
+ Patients and methods: A monocentric, French study “exposed-unexposed” was conducted during 11 years in a maternity level IIB. Maternal and perinatal outcomes were studied using univariates and multivariate analysis. We compared women aged 40 and above in a 1:1 ratio with women of 25–35 years old.
+ 
+
+ Results: One thousand nine hundred eighty-two women were 40 or older (mean age: 41.9) on the day of their delivery and compared to other 1,982 women who were aged between 25 and 35 years old (mean age: 30.7) Preeclampsia, gestational diabetes, were significantly higher in the study group (4.6 vs. 1.5% and 14.5 vs. 6.9%, respectively, p < 0.001). We found also a significant difference for gestational hypertension (3.1 vs. 1.1% p < 0.001), preterm birth (10.4 vs. 6.5% p < 0.001), cesarean (16.6 vs. 5.4% for scheduled cesarean, and 50.4 vs. 13.9% for emergency cesarean, p < 0.001) and fetal death in utero (2.1 vs. 0.5% in the study group, p < 0.001). These results were also significantly different in multivariate analysis.
+ 
+
+ Objectives
+ The main objective of the study is to determine the incidence of obstetric, fetal, and neonatal complication and to assess whether age is an independent factor of these complications.
+ 
+
+ The secondary objectives are to determine whether there is an association between some complications (pre-eclampsia, gestational diabetes, prematurity) and the conception mode associated with the type of pregnancy (singleton or twin).
+ 
+
+ The obstetrical complications studied are gestational hypertension (defined as systolic >140 mmH and/or diastolic >90 mmHg without proteinuria), pre-eclampsia (systolic >140 mmHand/or diastolic >90 mmHg associated with a proteinuria of 24 h >300 mg), gestational diabetes (defined according to the recommendations of the 2015 CNGOF), cesarean section (CS), admission of women to the intensive care unit during their pregnancies, postpartum hemorrhage (loss of more than 500 cc of blood within 24 h after vaginal delivery or CS) and blood transfusion.
+ 
+
+ The fetal complications studied are intrauterine growth retardation (IUGR) (defined as having an estimation of fetal weight <5e p) and fetal death in utero (FDIU).
+ 
+
+ The neonatal complications studied were prematurity (birth before 37 weeks), pH at birth (acidosis with pH <7.10), APGAR score (<7), and pediatric care just after the birth.
+ 
+
+ Discussion
+ Our study shows that advanced maternal age is an independent risk factor for obstetric and neonatal complications (14, 15). In fact, multivariate analysis found significant results for three of the most common pregnancy-related diseases: gestational hypertension, pre-eclampsia, and gestational diabetes. Our large sample significantly confirms the occurrence of pre-eclampsia in women aged 40 and above, unlike some studies with small samples that did not find this result in multivariate analysis (3).
+ 
+
+ Moreover, there is a higher risk of pre-eclampsia when the patient has some other risk factor such as twin pregnancy or medical history (hypertension and/or diabetes and/or VTE/vascular disease/lupus) (16, 17). Even more, these women with advanced maternal age are at higher risk of developing cardiovascular and nephrological diseases in the long term (18). In the case of tobacco, it has not been found as an independent risk factor, which can probably be explained by a significant underestimation of women reporting smoking during pregnancy.
+ 
+
+ The high proportion of cesareans in the study group of women over 40 is due to some contributing factors. On one hand, the percentage of scheduled cesareans is higher because there is a higher prevalence of uni or multi-cicatricial uterus.
+ 
+
+ Cesareans for high maternal age or for maternal request finally represented a small sample (22 women/1,982, 1% in the exposed group vs. 1/1,982 in the unexposed group). There was also a higher rate about the emergency cesareans deliveries in the study group over 40 years old. Several physiological hypotheses have been mentioned in previous studies (2, 3): a higher rate of dystocia presentation and scarred uterus, uterine contractility less effective than for a woman aged 25–35. In our sample, the most common indications for CS were abnormalities of cardio-fetal rhythm and cervical dystocia (19). It is likely that CFR abnormalities are more severely judged by the obstetrician, in the context of older patients, especially if the pregnancy is a result of ART, putting some women at a risk of cesarean that is not always justified (20). In total, this large proportion of CS in women 40 years and older has also been shown in other studies (3, 4, 17, 20–22). However, these results should be taken with caution because some indications for CS are inherent to the protocols practiced in our unit.
+ 
+
+ The association between advanced maternal age and fetal deaths in utero should also be taken into account. Among those 43 FDIUs, we have looked at every medical files of those women and we did not find any events that could explained this high number. Indeed, among the 43 FDIUs in women aged 40 and above, there were no more patients using ART, nor more patients with obstetric pathology. This can be explained by a small number of FDIU. The only common point in our study group was the advanced maternal age. In these circumstances, instead of worrying the patients, it might be more appropriate to give them clear and reassuring information while performing a pre-conception close monitoring and throughout the pregnancy. This would help detect and manage these complications much earlier. In addition, with the advanced technology, several risks are now monitored using non-invasive prenatal screening or even the pre-implantation diagnosis (23–26).
+ 
+
+ The incidence of maternal complications is likely to increase over time due to increased maternal age. It will be difficult to reduce the incidence of these complications, but we can reduce the serious complications of preeclampsia, gestational diabetes (such as eclampsia, and macrosomia) through appropriate management (induce delivery before 41 weeks, close monitoring of the fetus) (27, 28).
+ 
+
+ With regard to neonatal complications, few significant differences were found in our study, as well as in the literature (29, 30). This is partly explained by the fact that several obstetrical factors can interfere without being related to age (the length of the delivery, abnormalities of the RCF, chorioamnionitis (3, 31, 32).
+ 
+
+ Our study has several advantages. On the one hand, our study was done on a large sample, with data processing from medical records with a complete search for missing data. International and European studies with large samples use public health registers, thereby providing a lot of information on the characteristics of the population (5, 10). However, this is often at the expense of information such as the type of delivery, the methods of neonatology care which are sometimes different in hospitals.
+ 
+
+ On the other hand, we took a period of 11 years, to check if there had been a difference in daily practices. We did not notice any difference between the periods 2006–2010 and 2011–2017 except for the increasing number of patients who have access to ART.
+ 
+
+ On the other hand, we matched each patient aged 40 and above to a patient aged between 25 and 35 whose delivery number followed the patient case. Indeed, this allowed us to limit as far as possible all the variability of practices on the delivery route (natural delivery vs. cesarean, neonatal care). We also had the advantage of separating fetuses, newborns, and mothers, which has not been realized in other studies, and which may lead to a classification bias regarding perinatal outcomes.
+ 
+
+ Our study is yet limited by its monocentric character and retrospective aspect. In addition, Foch Hospital has an ART center, so our sample probably contained more patients using these techniques. However, we had the opportunity to have 18.2% of women over 40 using ART. This allowed us to highlight the significant increase in preeclampsia and prematurity in patients over 40 years of age who have used ART. After 44 years, 1 out of 2 women used the ART. This rate is surely underestimated because there is a large number of patients who voluntarily omit to declare their use of ART in particular the use of donated oocytes (33).
+ 
+
+ It is especially remembered that maternal complications occurring decades ago are less morbid today than before (22, 34). Screening and management of maternal and neonatal complications are progressively improving, and a high-risk pregnancy at age 40 in the 1980s should no longer discourage patients and obstetricians in 2020.

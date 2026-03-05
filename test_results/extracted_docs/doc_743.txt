@@ -1,0 +1,54 @@
+A laboratory accident with a laser more than 30 years ago served as the unlikely first step in the development of an entire industry that has helped more than 30 million people overcome vision problems.
+ 
+
+ In 1993, a graduate student at the University of Michigan's Center for Ultrafast Optical Science (CUOS) suffered an accidental laser injury to his eye. The femtosecond laser, which emits pulses of light with a duration of one-quadrillionth of a second (equivalent to one-millionth of one-billionth of a second), left a series of pinpoint laser burns in the center of the retina without damaging any adjacent tissue.
+ 
+
+ The incident instead sparked a collaboration that would result in a revolutionary approach to corrective eye surgery, commonly known as LASIK. Bladeless LASIK, or laser in situ keratomileusis, uses a femtosecond laser rather than a scalpel to cut into the cornea before it is reshaped to improve the patient's vision.
+ 
+
+ Juhasz with deviceJuhasz, a professor of ophthalmology and biomedical engineering at UC Irvine, won a 2022 Golden Goose Award for helping to develop the widely used LASIK surgery device.
+ Credit: Steve Zylius, UC Irvine
+ The laser technology and surgical procedures were developed by a team of scientists at CUOS, a Science and Technology Center funded by the U.S. National Science Foundation from 1990 to 2001. The path from lab to global use, which included additional support from NSF as well as the Department of Energy, the National Institutes of Health and other agencies, is an example of how federal support for basic and translational research produces new technologies with broad societal benefit.
+ 
+
+ Development and commercialization
+ Tibor Juhasz, then a research associate professor in ophthalmology and biomedical engineering at the university, began working with the research team — led by French physicist Gerard Mourou — to see if the laser, which employs ultrashort pulses, could be used for medical purposes.
+ 
+
+ In 1997, Juhasz and Ron Kurtz, then an assistant professor of ophthalmology, founded IntraLase Corp. to commercialize their approach. At IntraLase, Juhasz and Kurtz developed a shoebox-sized instrument to perform bladeless LASIK cornea surgery. The company also received critical support from NSF's Small Business Innovation Research (SBIR) program, which invests in startups to help them develop their ideas and bring them to the market. Compared to bladed surgery, the laser procedure was painless and reduced recovery time for patients, but it took several years to catch on.
+ 
+
+ Military lasix surgeryIn 2007, an ophthalmology surgeon at National Naval Medical Center Bethesda performs LASIK IntraLase surgery.
+ Credit: U.S. Navy
+ Juhasz, now a biomedical engineering and ophthalmology professor at the University of California, Irvine, described the early stages of commercializing the technology as difficult and highlighted the NSF support as crucial: "There were some bad examples in ophthalmology of laser companies. There were some failures, and that kind of scared away venture capitalists from the industry. But our center was funded by NSF, and that was a big endorsement."
+ 
+
+ In 2006, a U.S. Navy study concluded that military pilots who underwent the procedure recovered faster and had better vision than those who had conventional operations, giving the procedure a commercial boost. In 2007, IntraLase was acquired for $808 million. "The story is that an entire industry developed out of those basic laser-tissue interaction experiments. I think that the initial success of IntraLase created followers, therefore lots of new jobs. I believe that a lot of highly trained scientists are working in these companies as we speak," Juhasz said.
+ 
+
+ "I remember the first steps," said Denise Caldwell, acting assistant director of NSF's Directorate for Mathematical and Physical Sciences. In the 1990s, Caldwell was the NSF program director managing the research grants that supported the femtosecond laser research at the University of Michigan. "One of the things we did in talking with the researchers at Michigan was tell them 'if you think there is promise here, you should follow it. Use the resources you have to pursue it.' Having a creative group of individuals and giving that group the flexibility to pursue new directions as they identify them is very important."
+ 
+
+ NSF support and global recognition
+ In 2022, Juhasz, Kurtz, Mourou, Strickland and Detao Du — the researcher who had the incident with the laser — received the Golden Goose Award for scientific breakthroughs that led to the development of bladeless LASIK. This award, presented by the American Association for the Advancement of Science, honors scientists whose federally funded research has unexpectedly benefited society. In 2018, Mourou and Donna Strickland were awarded the Nobel Prize in Physics for a "method of generating high-intensity, ultra-short optical pulses."
+ 
+
+ Ron Kurtz and Tibor Juhasz with the 1000th LensX FS Laser during the build process.
+ Credit: Tibor Juhasz, UC Irvine
+ Beginning in 1980, NSF supported Mourou with several awards for cross-disciplinary work in physics, materials, electrical engineering and biology. NSF funding helped Mourou establish a biological physics facility at the University of Rochester, and CUOS at the University of Michigan now bears his name. NSF support also helped transition technology developed in Mourou's labs to commercial applications.
+ 
+
+ "It's fully demonstrated here the importance, particularly for the biomedical area, of bringing the physicists and the engineers together to work with clinicians," Caldwell said. "It's really a joint effort between scientists, engineers and companies to make the necessary fundamental discoveries and early prototypes that can eventually become mature technologies that broadly benefit people and communities."
+ 
+
+ The future
+ Work based on the initial research continues today as many scientists explore other potential applications of the femtosecond laser. In 2008, Juhasz and Kurtz developed femtosecond laser cataract surgery, and a startup led by Juhasz, ViaLase Inc., is currently conducting clinical trials on new methods to treat glaucoma with femtosecond lasers. Clerio Vision, another small business founded based on NSF-funded basic research and which received SBIR funding from NSF at its inception, is also working on a different approach, based on femtosecond laser pulses, to correct various vision impairments.
+ 
+
+ ViaLase LaserThe ViaLase Laser combines femtosecond laser technology and micron-level image guidance to deliver a noninvasive glaucoma treatment called femtosecond laser image-guided high-precision trabeculotomy (FLigHT).
+ Credit: ViaLase
+ "We can really say that femtosecond laser technology changed how ophthalmic surgery is done today, and I really need to thank NSF for the initial funding and creating this great journey," Juhasz said.
+ 
+
+ "This story illustrates the importance of foundational science to our society and economy, and also equally importantly, the investments that we make in aiding the translation of research from the lab to the market," said Erwin Gianchandani, NSF assistant director for Technology, Innovation and Partnerships. "That's why NSF established a new directorate for Technology, Innovation and Partnerships in March 2022 — our first new directorate in more than 30 years — to specifically accelerate use-inspired and translational research across all areas of science and engineering."

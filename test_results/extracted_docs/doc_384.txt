@@ -1,0 +1,117 @@
+Although the OSI model is useful, the TCP/IP protocols don’t match its structure
+exactly. Therefore, in our discussions of TCP/IP, we use the layers of the OSI model
+in the following way:
+Application Layer
+The Application Layer is the level of the protocol hierarchy where user-accessed
+network processes reside. In this text, a TCP/IP application is any network pro-
+cess that occurs above the Transport Layer. This includes all of the processes
+that users directly interact with as well as other processes at this level that users
+are not necessarily aware of.
+Presentation Layer
+For cooperating applications to exchange data, they must agree about how data
+is represented. In OSI, the Presentation Layer provides standard data presenta-
+tion routines. This function is frequently handled within the applications in
+TCP/IP, though TCP/IP protocols such as XDR and MIME also perform this
+function.
+Session Layer
+As with the Presentation Layer, the Session Layer is not identifiable as a separate
+layer in the TCP/IP protocol hierarchy. The OSI Session Layer manages the
+8 |
+Chapter 1: Overview of TCP/IP
+sessions (connections) between cooperating applications. In TCP/IP, this func-
+tion largely occurs in the Transport Layer, and the term “session” is not used;
+instead, the terms “socket” and “port” are used to describe the path over which
+cooperating applications communicate.
+Transport Layer
+Much of our discussion of TCP/IP is directed to the protocols that occur in the
+Transport Layer. The Transport Layer in the OSI reference model guarantees
+that the receiver gets the data exactly as it was sent. In TCP/IP, this function is
+performed by the Transmission Control Protocol (TCP). However, TCP/IP offers
+a second Transport Layer service, User Datagram Protocol (UDP), that does not
+perform the end-to-end reliability checks.
+Network Layer
+The Network Layer manages connections across the network and isolates the
+upper layer protocols from the details of the underlying network. The Internet
+Protocol (IP), which isolates the upper layers from the underlying network and
+handles the addressing and delivery of data, is usually described as TCP/IP’s
+Network Layer.
+Data Link Layer
+The reliable delivery of data across the underlying physical network is handled
+by the Data Link Layer. TCP/IP rarely creates protocols in the Data Link Layer.
+Most RFCs that relate to the Data Link Layer discuss how IP can make use of
+existing data link protocols.
+Physical Layer
+The Physical Layer defines the characteristics of the hardware needed to carry
+the data transmission signal. Features such as voltage levels and the number and
+location of interface pins are defined in this layer. Examples of standards at the
+Physical Layer are interface connectors such as RS232C and V.35, and stan-
+dards for local area network wiring such as IEEE 802.3. TCP/IP does not define
+physical standards—it makes use of existing standards.
+The terminology of the OSI reference model helps us describe TCP/IP, but to fully
+understand it, we must use an architectural model that more closely matches the
+structure of TCP/IP. The next section introduces the protocol model we’ll use to
+describe TCP/IP.
+
+
+Transmission Control Protocol Applications that require the transport protocol to provide reliable data delivery use TCP because it verifies that data is delivered across the network accurately and in the proper sequence. TCP is a reliable, connection-oriented, byte-stream protocol. Let’s look at each of these characteristics in more detail. TCP provides reliability with a mechanism called Positive Acknowledgment with Retransmission (PAR). Simply stated, a system using PAR sends the data again unless it hears from the remote system that the data arrived OK. The unit of data exchanged between cooperating TCP modules is called a segment (see Figure 1-9). Each segment contains a checksum that the recipient uses to verify that the data is undamaged. If the data segment is received undamaged, the receiver sends a positive acknowledgment back to the sender. If the data segment is damaged, the receiver discards it. After an appropriate timeout period, the sending TCP module re-transmits any segment for which no positive acknowledgment has been received.
+TCP is connection-oriented. It establishes a logical end-to-end connection between
+the two communicating hosts. Control information, called a handshake, is exchanged
+between the two endpoints to establish a dialogue before data is transmitted. TCP
+indicates the control function of a segment by setting the appropriate bit in the Flags
+field in word 4 of the segment header.
+The type of handshake used by TCP is called a three-way handshake because three
+segments are exchanged. Figure 1-10 shows the simplest form of the three-way hand-
+shake. Host A begins the connection by sending host B a segment with the “Synchro-
+nize sequence numbers” (SYN) bit set. This segment tells host B that A wishes to set
+Transport Layer
+This is the Title of the Book, eMatter Edition
+Copyright © 2010 O’Reilly & Associates, Inc. All rights reserved.
+|
+19
+up a connection, and it tells B what sequence number host A will use as a starting
+number for its segments. (Sequence numbers are used to keep data in the proper
+order.) Host B responds to A with a segment that has the “Acknowledgment” (ACK)
+and SYN bits set. B’s segment acknowledges the receipt of A’s segment, and informs
+A which sequence number host B will start with. Finally, host A sends a segment that
+acknowledges receipt of B’s segment, and transfers the first actual data.
+After this exchange, host A’s TCP has positive evidence that the remote TCP is alive
+and ready to receive data. As soon as the connection is established, data can be trans-
+ferred. When the cooperating modules have concluded the data transfers, they will
+exchange a three-way handshake with segments containing the “No more data from
+sender” bit (called the FIN bit) to close the connection. It is the end-to-end exchange
+of data that provides the logical connection between the two systems.
+TCP views the data it sends as a continuous stream of bytes, not as independent
+packets. Therefore, TCP takes care to maintain the sequence in which bytes are sent
+and received. The Sequence Number and Acknowledgment Number fields in the
+TCP segment header keep track of the bytes.
+The TCP standard does not require that each system start numbering bytes with any
+specific number; each system chooses the number it will use as a starting point. To
+keep track of the data stream correctly, each end of the connection must know the
+other end’s initial number. The two ends of the connection synchronize byte-num-
+bering systems by exchanging SYN segments during the handshake. The Sequence
+Number field in the SYN segment contains the Initial Sequence Number (ISN), which
+is the starting point for the byte-numbering system. For security reasons the ISN
+should be a random number.
+Each byte of data is numbered sequentially from the ISN, so the first real byte of data
+sent has a Sequence Number of ISN+1. The Sequence Number in the header of a data
+segment identifies the sequential position in the data stream of the first data byte in
+20
+|Chapter 1: Overview of TCP/IP
+the segment. For example, if the first byte in the data stream was sequence number 1
+(ISN=0) and 4000 bytes of data have already been transferred, then the first byte of
+data in the current segment is byte 4001, and the Sequence Number would be 4001.
+The Acknowledgment Segment (ACK) performs two functions: positive acknowledg-
+ment and flow control. The acknowledgment tells the sender how much data has
+been received and how much more the receiver can accept. The Acknowledgment
+Number is the sequence number of the next byte the receiver expects to receive. The
+standard does not require an individual acknowledgment for every packet. The
+acknowledgment number is a positive acknowledgment of all bytes up to that num-
+ber. For example, if the first byte sent was numbered 1 and 2000 bytes have been
+successfully received, the Acknowledgment Number would be 2001.
+The Window field contains the window, or the number of bytes the remote end is
+able to accept. If the receiver is capable of accepting 6000 more bytes, the window
+would be 6000. The window indicates to the sender that it can continue sending seg-
+ments as long as the total number of bytes that it sends is smaller than the window of
+bytes that the receiver can accept. The receiver controls the flow of bytes from the
+sender by changing the size of the window. A zero window tells the sender to cease
+transmission until it receives a non-zero window value.

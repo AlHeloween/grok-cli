@@ -1,0 +1,127 @@
+DISCONTINUANCE AND RECONNECTION
+4.11 General:
+Failure of SRP at any time to suspend the delivery of service, to terminate an Agreement 
+for Electric Service, or to seek any other legal remedy upon default or breach by the 
+Customer will not affect SRP’s right to seek any such remedies for the same or any future
+default or breach by the Customer. If a Customer fails to perform as required by these 
+Rules and Regulations, the Price Plans, the Electric Service Specifications, or the 
+Customer’s Agreement for Electric Service, SRP may disconnect service. No personal
+visit to a Customer’s premises is required prior to disconnection of service. SRP also 
+may disconnect service to the Customer when necessary to comply with any law or 
+regulation applicable to SRP or the Customer, or if a Governmental Entity revokes its 
+clearance for the provision of electrical service.
+4.12 Reconnect After Disconnect for Non-Payment:
+4.12.1 Seven calendar days prior to disconnecting service for a delinquent SRP 
+billing, SRP will mail, e-mail, or personally deliver to the Customer’s 
+premises a written notice stating the delinquent amount and that SRP 
+intends to disconnect service unless the delinquent amount is promptly paid.
+This notification requirement does not apply to delinquent extensions for 
+payment of prior billings when a seven-day notice was previously given, to
+delinquent extensions for payment of deposits or other up-front charges that 
+were billed as a courtesy to the Customer, to a pre-pay account when the 
+Customer controls timing of the disconnection based on self-management 
+of the pre-pay balance, or to insufficient funds regarding the Customer’s 
+payment.
+4.12.2 Once SRP disconnects service, SRP will not reconnect service until the 
+Customer (a) applies for service; (b) pays all amounts the Customer owes 
+SRP, including past-due bills and any charges for the cost of disconnecting 
+and reconnecting service; and (c) corrects the condition that resulted in the 
+SALT RIVER PROJECT AGRICULTURAL 
+IMPROVEMENT AND POWER DISTRICT 
+RULES AND REGULATIONS
+29
+disconnection. SRP may require an additional security deposit based on its 
+evaluation of the Customer’s creditworthiness.
+4.13 Disconnect and Reconnect Pursuant to a Request of a Governmental Entity:
+4.13.1 If SRP receives a request to discontinue service from a Governmental Entity 
+stating that it hasrevoked its clearance for the provision of electricalservice,
+SRP may immediately disconnect service to the Customer without notice.
+4.13.2 Once SRP disconnects service due to a request by a Governmental Entity, 
+SRP will not reconnect service until it receives notice that the clearance for
+the provision of electrical service has been restored by the Governmental 
+Entity.
+4.14 Fraud:
+4.14.1 No Person shall connect a wire or contrivance to any apparatus used by SRP
+to supply electricity to a Customer, nor shall any Person provide Power to 
+any device by induction from SRP’s Lines, in such manner that the Person
+takes electricity that is not properly metered or accounted for. No meter 
+or other instrument installed for measuring the quantity of electricity 
+consumed may be wrongfully obstructed, altered, injured, or prevented 
+from functioning. When a meter seal has been broken by someone other 
+than SRP’s personnel, SRP may assess a reconnection fee to the Customer’s 
+billing. Bills for unmetered electricity may include the full cost or expense 
+incurred by SRP to investigate and confirm diversion of electricity. SRP 
+also reserves the right to impose additional charges, as it deems appropriate, 
+when a provision of this Section 4.14.1 has been violated. Bills for all such 
+charges are due and payable immediately upon presentation unless 
+otherwise agreed by SRP. In addition to the remedies herein, SRP reserves 
+all legal rights available to it including pursuing criminal prosecutions 
+against, and criminal and civil damages from, any Party that violates this 
+Section 4.14.1 or applicable law.
+4.14.2 If SRP has evidence that any Customer has caused or allowed any of the
+conditions of Section 4.14.1 to exist, SRP may, at any time, without notice, 
+discontinue the supply of electricity to the Customer and remove the meter 
+or meters, apparatus, wires, and Service Lateral, as well as any evidence of 
+the condition.
+4.14.3 SRP will charge the Customer for periods of unmetered service, estimated 
+using data from available records and information. In the event of damage 
+to meters or Service Equipment, the current Customer of record shall pay 
+SRP based on estimated Energy usage not previously billed as well as any 
+SRP costs associated with restoring proper metering or service.
+SALT RIVER PROJECT AGRICULTURAL 
+IMPROVEMENT AND POWER DISTRICT 
+RULES AND REGULATIONS
+30
+4.14.4 If SRP disconnects service to the Customer because of a violation of these 
+Rules and Regulations, SRP will not restore service to the Customer until 
+all amounts due SRP have been paid. SRP will include the full cost or 
+expense incurred by SRP for the removal and reinstallation of the meter or 
+meters, apparatus, wires, and Service Lateral. The Customer’s service 
+entrance must comply with SRP’s then-current Electric Service 
+Specifications before it can be re-energized.
+4.15 Other Reasons for Discontinuance:
+4.15.1 SRP may terminate an Agreement for Electric Service with a Customer or 
+suspend the delivery of service for any other default or breach of the 
+Agreement by the Customer, but, except as expressly provided otherwise in 
+these Rules and Regulations, SRP will not terminate or suspend service 
+without first giving written notice to the Customer, stating in what particular 
+way the Agreement has been violated.
+4.15.2 SRP may terminate or suspend delivery of service in the event of a short 
+circuit or other electrical system failure on the Customer’s side of the
+Point of Delivery or, if the utilization of the service by the Customer, in 
+SRP’s sole discretion, is a safety hazard or may cause damage to Persons 
+or property (“Emergency Disconnect”). Notwithstanding any other 
+provision of these Rules and Regulations, the Price Plans, the Electric 
+Service Specifications, a Customer’s Agreement for Electric Service, or the 
+Distributed Generation Interconnection Handbook, no advance notice need 
+be given to the Customer in the event of an Emergency Disconnect.
+4.15.3 Upon prior written notice, SRP may terminate or suspend the delivery of 
+service if: (a) the Customer refuses to grant or is unable to procure 
+easements necessary for or incidental to SRP’s facilities or its provision of 
+service to the Customer according to Section 5.1.5 or any written agreement 
+between SRP and the Customer, or (b) SRP is not provided proper access 
+to SRP Lines, Service Laterals, meters, or other equipment located on 
+property owned or controlled by the Customer to perform maintenance or 
+repair of SRP facilities, to provide service to the Customer, or to read meters 
+on the Customer’s premises.
+4.15.4 Notwithstanding any other provision of these Rules and Regulations, the 
+Price Plans, the Electric Service Specifications, or the Customer’s 
+Agreement for Electric Service or the Distributed Generation 
+Interconnection Handbook, SRP may disconnect a Customer at any time, 
+without notice, and remove the meter or meters if the Customer has 
+misrepresented his or her identity in any manner.
+SALT RIVER PROJECT AGRICULTURAL 
+IMPROVEMENT AND POWER DISTRICT 
+RULES AND REGULATIONS
+31
+4.15.5 Upon prior written notice to Customer, SRP may terminate or suspend the 
+delivery of electric service to any Customer who: (a) without obtaining 
+SRP’s prior written approval, connects or allows the connection of a 
+Distributed Energy Device to any portion of such Customer’s electric 
+system; (b) is required to sign SRP’s Interconnection Agreement but refuses 
+to do so; (c) fails to procure the signature of a third-party owner or operator
+on SRP’s Interconnection Agreement; or (d) fails to comply with the
+SRP’s Distributed Generation Interconnection Handbook.
+4.15.6 SRP may terminate or suspend delivery of electric service at any time, 
+without notice, if a Customer’s identity cannot be established to SRP’s 
+satisfaction

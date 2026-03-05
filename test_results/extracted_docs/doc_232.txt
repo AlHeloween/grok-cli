@@ -1,0 +1,105 @@
+Section 1001 of the USA PATRIOT Act (Patriot Act), Public Law 107-56, directs the Office of the Inspector
+General (OIG) of the U.S. Department of Justice (DOJ or Department) to undertake a series of actions related
+to claims of civil rights or civil liberties violations allegedly committed by DOJ employees. It also requires the
+OIG to provide semiannual reports to Congress on the implementation of the OIG’s responsibilities under
+Section 1001. This report summarizes the OIG’s Section 1001-related activities from July 1, 2023, through
+December 31, 2023.
+Introduction
+The OIG is an independent entity within DOJ that reports to both the Attorney General and Congress. The
+OIG’s mission is to investigate allegations of waste, fraud, and abuse in DOJ programs and personnel, and to
+promote economy and efficiency in DOJ operations.
+The OIG has jurisdiction to review programs and personnel in all DOJ components, including the Federal
+Bureau of Investigation (FBI), the Drug Enforcement Administration (DEA), the Federal Bureau of Prisons
+(BOP), the Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF), the U.S. Marshals Service (USMS), and
+the U.S. Attorneys’ Offices.1
+The OIG consists of the Immediate Office of the Inspector General and the following divisions and offices:
+• Audit Division conducts independent audits of Department programs, computer systems, financial
+statements, and DOJ-awarded grants and contracts.
+• Evaluation and Inspections Division conducts program and management reviews that involve on-site
+inspections, statistical analysis, and other techniques to review Department programs and activities.
+• Investigations Division investigates allegations of bribery, fraud, abuse, civil rights violations, and
+violations of other criminal laws and administrative procedures that govern Department employees,
+contractors, and grantees.
+• Oversight and Review Division blends the skills of attorneys, investigators, and program analysts to
+investigate or review high profile or sensitive matters involving Department programs or employees.
+• Information Technology Division executes the OIG’s IT strategic vision and goals by directing
+technology and business process integration, network administration, implementation of computer
+hardware and software, cybersecurity, applications development, programming services, policy
+formulation, and other mission-support activities.
+Management and Planning Division provides the Inspector General with advice on administrative
+and fiscal policy and assists OIG components by providing services in the areas of planning, budget,
+finance, quality assurance, personnel, communications, procurement, facilities, telecommunications,
+security, and general support.
+• Office of General Counsel provides legal advice to OIG management and staff. In addition, the office
+drafts memoranda on issues of law; prepares administrative subpoenas; represents the OIG in
+personnel, contractual, and legal matters; and responds to Freedom of Information Act requests.
+The OIG has a staff of approximately 500 employees, about half of whom are based in Washington, D.C.
+The OIG has 28 Investigations Division field locations and 6 Audit Division regional offices located
+throughout the country.
+Section 1001 of the Patriot Act
+Section 1001 of the Patriot Act provides the following:
+The DOJ Inspector General shall designate one official who shall―
+(1) review information and receive complaints alleging abuses of civil rights and civil liberties by DOJ
+employees and officials;
+(2) make public through the Internet, radio, television, and newspaper advertisements information on
+the responsibilities and functions of, and how to contact, the official; and
+(3) submit to the Committee on the Judiciary of the House of Representatives and the Committee on
+the Judiciary of the Senate on a semiannual basis a report on the implementation of this subsection
+and detailing any abuses described in paragraph (1), including a description of the use of funds
+appropriations used to carry out this subsection.
+Responsibilities, Functions, and Contact Information of the OIG’s Designated Section 1001
+Official
+The DOJ Inspector General has designated the OIG’s Assistant Inspector General for Investigations as the
+official responsible for the duties required under Section 1001, which are described in the next section of
+this report.
+
+Civil Rights and Civil Liberties Complaints
+Section 1001 requires the OIG to “review information and receive complaints alleging abuses of civil rights
+and civil liberties by employees and officials of the Department of Justice.” While the phrase “civil rights and
+civil liberties” is not specifically defined in the Patriot Act, the OIG has looked to the “Sense of Congress”
+provisions in the statute, namely Sections 102 and 1002, for context. Sections 102 and 1002 identify certain
+ethnic and religious groups who would be vulnerable to abuse due to a possible backlash from the terrorist
+attacks of September 11, 2001, including Muslims, Arabs, Sikhs, and South Asians.
+The OIG’s Investigations Division, which is headed by the Assistant Inspector General for Investigations,
+manages the OIG’s Section 1001 investigative responsibilities. The two units with primary responsibility for
+coordinating these activities are Operations Branch I and Operations Branch II, each of which is directed by
+a Special Agent in Charge and two Assistant Special Agents in Charge. In addition, these units are
+supported by Investigative Specialists and other staff assigned to the Hotline Operations Branch, who divide
+their time between Section 1001 and other responsibilities.
+The Investigations Division receives civil rights and civil liberties complaints via mail, email, telephone, and
+fax. Upon receipt, Division Assistant Special Agents in Charge review the complaints and assign an initial
+disposition to each matter, and Investigative Specialists enter the complaints alleging a violation within the
+investigative jurisdiction of the OIG or another federal agency into an OIG database. Serious civil rights and
+civil liberties allegations relating to actions of DOJ employees or contractors are typically assigned to an OIG
+Investigations Division field office, where Special Agents conduct investigations of criminal violations and
+administrative misconduct.
+Given the number of complaints the OIG receives compared to its limited resources, the OIG does not
+investigate all allegations of misconduct against DOJ employees. The OIG refers many complaints involving
+DOJ employees to internal affairs offices in DOJ components such as the FBI Inspection Division, the DEA
+Office of Professional Responsibility, and the BOP Office of Internal Affairs. In certain referrals, the OIG
+requires the components to report the results of their investigations to the OIG. In most cases, the OIG
+notifies the complainant of the referral.
+Many complaints the OIG receives involve matters outside its jurisdiction. When those matters identify a
+serious issue for investigation, such as a threat to life or safety, the OIG forwards them to the appropriate
+investigative entity. In other cases, the complainant is directed to another investigative agency when
+possible. Allegations related to the authority of a DOJ attorney to litigate, investigate, or provide legal advice are referred to the DOJ Office of Professional Responsibility. Allegations related solely to state and local law enforcement or government officials that raise a federal civil rights concern are forwarded to the DOJ Civil Rights Division.
+When an allegation received from any source involves a potential violation of federal civil rights statutes by a
+DOJ employee, the OIG discusses the complaint with the DOJ Civil Rights Division for possible prosecution.
+In some cases, the Civil Rights Division accepts the case and requests additional investigation by either the
+OIG or the FBI. In other cases, the Civil Rights Division declines prosecution and either the OIG or the
+appropriate DOJ internal affairs office reviews the case for possible administrative misconduct.
+Complaints Processed During This Reporting Period
+Between July 1, 2023, and December 31, 2023, the period covered by this report, the OIG processed 739 new complaints that were identified by the complainant as civil rights or civil liberties complaints.
+Of these complaints, 717 did not fall within the OIG’s jurisdiction or did not warrant further investigation.
+These complaints involved allegations against agencies or entities outside the DOJ, including other federal
+agencies, local governments, or private businesses, as well as allegations that were not suitable for
+investigation by the OIG, and could not be or were not referred to another agency for investigation,
+generally because the complaints failed to identify a subject or agency.
+
+The OIG found that the remaining 22 of the 739 complaints it received involved DOJ employees or DOJ
+components and included allegations that required further review. The OIG determined that 20 of these
+complaints generally raised management issues unrelated to the OIG’s Section 1001 duties and referred
+these complaints to DOJ components for appropriate handling. Examples of complaints in this category
+included allegations by federal prisoners about the general prison conditions, and by others that the FBI did not initiate an investigation into particular allegations.
+The OIG identified two complaints by federal prisoners that alleged a potential civil rights or civil liberties
+violation under Section 1001 but, based on the lack of an identified subject or the non-specific nature of the allegations, determined that these complaints generally raised management issues. The OIG referred these complaints to BOP for appropriate handling.

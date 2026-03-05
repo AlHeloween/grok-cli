@@ -1,0 +1,77 @@
+Overview of Major Consumer Finance Markets
+The following sections examine specific issues within major consumer debt markets: mortgage
+lending, student loans, automobile loans, credit cards and payments, payday loans and other
+credit alternative financial products, and checking accounts and substitutes. The markets
+discussed are under the jurisdiction of the CFPB, and sometimes other regulators as well. Each
+section briefly describes the financial product, recent market developments, and selected policy
+issues that may lead each market away from its efficient price or outcomes. These sections focus
+on the consumer and household perspective as well as consumer protection policy issues in each
+market.
+Mortgage Lending Market
+A mortgage loan is a loan collateralized by a house and its land.47 Generally, consumers use these
+loans to purchase a new home or refinance an existing one. These types of mortgages are often
+called first liens, because if a consumer defaults on the loan, the lender is typically the first in line
+to be compensated through the proceeds of a home foreclosure. First-lien mortgage loans are
+usually installment loans, in which the consumer pays off the loan in monthly installments over
+15 years or 30 years. Most mortgage loans in the United States have a fixed interest rate and fixed
+installment amount over the course of the loan, affected by the consumer’s credit score and
+market conditions.48
+Households buying a new home and taking out a mortgage loan to purchase it generally cannot
+borrow for the full cost of the house’s value. To limit the risk to the lender, borrowers are
+typically required to make a down payment, the difference between the house’s value and the
+mortgage loan. If the down payment is less than 20% of the home’s value, the borrower is often
+required to pay for additional insurance.
+In addition to first-lien purchase mortgages, a consumer may choose to take out a home equity
+line of credit (often referred to as HELOC) or a smaller installment mortgage loan, which often is
+a second lien. A second lien means that the lender is second in line, after the first lien holder, to be
+compensated if the consumer defaults and the home is foreclosed upon. These loans are
+underwritten using the value of the home, but can be used for a variety of different purposes
+either related to the home or not. For example, second mortgages can be used to renovate the
+home, pay for college, or consolidate credit card debts.
+Mortgage loans are by far the largest consumer credit market in the United States, and homes are
+a large part of most households’ wealth. According to the Fed, more than $9 trillion of mortgage
+debt is currently outstanding,49 and more than $20 trillion in real estate equity is owned by households.50 As of the third quarter of 2020, 67.4% of U.S. households owned their home. 51
+Many people view homeownership as an important way to build wealth over time, both through
+price appreciation and home equity by paying down their mortgage. Nevertheless, because home
+prices can fluctuate over time, this investment can be risky, especially if the home owner only
+stays in the home for a short time. Although homeownership has certain benefits, such as tax
+benefits like the mortgage interest tax deduction,52 it also imposes costs on the household, such as
+mortgage loan closing costs and home maintenance.
+As noted above, most experts believe that a housing price bubble was a central cause of the 2008
+financial crisis. In response, Dodd-Frank reformed the mortgage market by attempting to
+strengthen mortgage underwriting standards, to reduce the risk that consumers’ default on their
+mortgages, even if house prices fluctuated in the future. Dodd-Frank also directed the CFPB to
+update federal mortgage disclosure forms (called the combined TILA/RESPA form) 53 and
+improve standards for mortgage servicing (a company who manages mortgage loans after the
+loan is originated).54
+During and after the financial crisis, mortgage lenders tightened underwriting standards, making
+it harder for consumers to qualify for a loan.55 Although most borrowers with good credit scores
+continued to qualify for mortgage credit, other borrowers in weaker financial positions found it
+more difficult to obtain a mortgage.56 As the economy has recovered from the Great Recession,
+concerns exist about whether new consumer compliance regulation in the mortgage market has
+struck the right balance between prudent mortgage underwriting and access to credit for potential
+borrowers to build wealth.57 Certain features of mortgages during the mortgage boom that were
+considered to be particularly risky, such as teaser interest rates and loans with little or no income
+verification, are now uncommon in the mortgage market.58 However, research suggests that the
+regulation of underwriting standards may have caused lenders to prefer certain borrowers, such as
+those with lower debt-to-income ratios.59
+Mortgage shopping is another policy issue in this market. Consumers do not tend to shop among
+lenders for more advantageous mortgage interest rates, even though large price differences exist in the market. According to the CFPB, nearly half of all borrowers only seriously consider one
+lender or broker before taking out a mortgage.60 Given the range of interest rates available to a
+consumer at any given time, the CFPB estimates that a consumer could save thousands of dollars
+on a mortgage by shopping for the best interest rates.61
+More recently, the COVID-19 pandemic has impacted the mortgage market. Many consumers
+who would likely have experienced difficulty repaying their mortgage loans received loan
+forbearance.
+62 Loan forbearance plans can prevent a consumer from becoming delinquent, giving
+the consumer time to repay the debts owed rather than potentially experiencing adverse
+consequences, such as credit score declines or foreclosure.63 As previously mentioned, the
+CARES Act established consumer rights to be granted forbearance for federally backed
+mortgages for up to a year. The CARES Act’s consumer protections and financial institutions’
+loan forbearance programs arguably helped avoid sharp increases in loan delinquencies by
+making it possible for many loans to receive forbearance during the spring and summer of 2020.64
+However, when these programs expire, some consumers may fall delinquent on their loans,
+impacting the mortgage market. In addition, during the second and third quarters of 2020,
+mortgage debt balances increased as interest rates reached historic lows, causing more mortgage
+refinances and other mortgage finance activity.
+65

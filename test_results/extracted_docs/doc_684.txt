@@ -1,0 +1,76 @@
+Key takeaways
+ Macro worries meet AI wonderwall. Stocks have managed to climb a wall of macro worries, thanks to largely solid earnings that we believe can expand beyond AI beneficiaries and continue to support prices. As Q3 begins, we look for:
+ 
+
+ Greater dispersion as earnings growth broadens
+ Alpha capacity in stocks chosen ― and avoided
+ Fresh reason for an active bent in U.S. large caps
+ U.S. stocks held onto gains in the second quarter, even as concerns over stubborn inflation, strong economic data and reduced expectations for Fed rate cuts sprinkled cold water on the Q1 hot streak. Markets found support in relatively strong Q1 earnings, led primarily by a small group of high-flying mega-cap stocks. We see the earnings-growth gap between these leaders and the rest closing later this year, as shown below. This presents a compelling opportunity for stock selection, as earnings feed valuations. 
+ 
+
+ While the “Magnificent 7” mega-caps were priced at roughly 34x earnings as of late May, the other 493 stocks in the S&P 500 traded at a much less demanding 17x. Yet a still-strong earnings profile means many of the top stocks aren’t necessarily expensive relative to their growth prospects. In all cases, individual analysis is key to ensuring share prices are well aligned to company fundamentals.
+ 
+
+ A narrowing gap and widening opportunity set
+ Consensus analyst expectations for year-over-year earnings growth, 2023-2024
+ 
+
+ Taking stock equity market outlook: Chart showing S&P 500 earnings estimates for 2024.
+ Source: BlackRock Fundamental Equities, with data from FactSet as of May 30, 2024. Chart shows consensus analyst estimates for year-over-year earnings per share (EPS) growth of the “Magnificent 7” mega-cap stocks in the S&P 500 Index and the remaining constituents. Past performance is not indicative of current or future results. Indexes are unmanaged. It is not possible to invest directly in an index.
+ 
+
+ Parsing a ‘stock picker’s paradise’
+ Macro factors (inflation, interest rates, etc.) still hold sway over daily moves at the broad index level, but we see company earnings growth as the catalyst for increased stock-level dispersion that could create mean reversion between the market’s leaders and laggards.
+ 
+
+ Notably, while we see the broad S&P 500 catching up to the Mag 7 toward the fourth quarter of this year, earnings growth looks particularly interesting for value stocks once you remove the index’s AI-supercharged top stock, which has heavily skewed the averages. Under this analysis, earnings growth for the Russell 1000 Value Index takes the lead by the third quarter. 
+ 
+
+ This is not to suggest an outright preference for value stocks, though the valuation gap between value and growth is quite wide today. It does, however, indicate there is some stored upside in value stocks that investors can look to exploit. 
+ 
+
+ Doing so may require looking to a style-pure value manager given that the indexes today are growth dominated. As shown below, the broad market is comprised of only 21% value names. The Russell 1000 Value Index belies its label at 57% core and growth, having experienced a 36% decline in value exposure over the past 25 years.
+ 
+
+ True value is hard to find
+ U.S. stock market style exposures, 2024
+ 
+
+ Taking stock equity market outlook: Chart showing the style exposures of three major U.S. market indexes.
+ Source: BlackRock Fundamental Equities, with data Morningstar as of April 30, 2024. Chart shows the composition, by style, of three major U.S. stock indices. Indexes are unmanaged. It is not possible to invest directly in an index.
+ 
+
+ “
+ A market in which earnings growth broadens beyond the prevailing leaders ― creating dispersion in the process ― is a stock picker’s paradise.
+ ”
+ Alpha potential in opting out …
+ We often note the merits of skilled stock selection in the pursuit of alpha. And avoiding underperformers can be as important as choosing outperformers in this pursuit of benchmark-beating returns. 
+ 
+
+ What are we avoiding today? Despite an overall preference for healthcare, we are skirting the big U.S. drug makers. Large-cap pharmaceutical companies face an inherent dilemma ― in other industries, products are evergreen once deployed, but pharmaceuticals have the life of a patent cycle. When those patents expire and cheaper generics come to market, revenues inevitably decline. 
+ 
+
+ We see several major U.S. pharma companies losing patent protection on up to 70% of their revenue by 2030. Estimates suggest the industry could face a $100 billion drop in revenue as a result. Profits are also at risk of disproportionate decline, as it’s typically the oldest and highest-margin products that are losing patent protection. 
+ 
+
+ At the same time, U.S. pharma is confronted with price pressure related to the Inflation Reduction Act (IRA), which gives Medicare the authority to begin negotiating prices on select drugs. That process is underway, with results (and potential price reductions) due in September.
+ 
+
+ The notable exception to our U.S. pharma aversion is the manufacturers of the newer GLP-1 “diabesity” drugs, which we believe are just beginning their success journey.
+ 
+
+ Several of our teams within BlackRock Fundamental Equities are also trimming positions in financials, as interest rate cuts tend to affect bank margins, and parts of the consumer sectors, where the end of pandemic-era excess savings and high inflation are beginning to show up in greater spending discipline. Credit card data reveals an uptick in delinquency rates at lower income levels, increasing loss rates for financials. In technology, we see reductions in software and services offset by buying in semiconductors, where generative AI needs are crowding out other technology spending.
+ 
+
+ … and leaning in
+ Beyond the buying in semiconductors, we see a platform-level bullishness around AI that is manifesting in new ways to tap into the megatrend. Our investors are finding opportunities outside of the accepted AI winners. Examples include companies that own data and those that provide memory for storing it; power companies and industrials that supply into AI infrastructure needs, including those that equip data center cooling systems; and, more recently, opportunities in AI-ready PCs that are set to be introduced this year. 
+ 
+
+ Several of our active stock pickers are adding to positions in healthcare, with a preference for healthcare equipment and services. We have also been adding to communication services, including media and entertainment. Others are eyeing value in defensive areas of the market that were left behind in the cyclical rally since 2023. Utilities is one of these sectors. It is priced at a discount to the broad market and, we believe, poised for re-rating. The transition to renewable forms of energy will compel upgrades to existing power grids and push up private market electricity rates in the process, while the power required by a growing field of AI data centers is set to fuel a meaningful spike in energy demand.
+ 
+
+ Underappreciated alpha potential in U.S. large caps
+ In our full quarterly outlook, we challenge a long-held portfolio construction “truism” that asserts exposure to large-cap U.S. stocks is best achieved via passive index-tracking products. The argument suggests the U.S. stock market is so efficient and transparent that there is little alpha to be captured via active stock selection. 
+ 
+
+ We disagree and offer analysis showing that a combination of decent excess returns from top managers plus a large U.S. representation in global indexes makes the total alpha opportunity in U.S. large caps the greatest on the global stage. And even as median managers may underperform, we see growing opportunity for skilled managers to add alpha given our outlook for greater earnings and valuation dispersion in what we have described as a new era for equity investing.

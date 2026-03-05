@@ -1,0 +1,717 @@
+International Journal of Engineering Inventions 
+
+ISSN: 2278-7461, www.ijeijournal.com 
+Volume 1, Issue 3 (September 2012) PP: 06-11 
+
+
+
+Bit Error Rate of Mobile Wimax (Phy) Under Different 
+Communication Channels and Modulation Technique 
+
+T.Manochandar 1 , R.Krithika 2 
+
+'Department of Electronics and Communication Engineering, VRS College of engineering and technology, 
+
+Villupuram- 607 107 '.TamilNadu 
+2 Department of Electronics and Communication Engineering, E.S College oj < I in , , "• and technology, 
+
+ViUupuram-605 602. TamilNadu 
+
+
+
+Abstract — Mobile Wimax is a broadband wireless solution that enables the convergence of mobile and fixed broadband 
+network, through a common wide area broadband radio access technology and flexible network architecture. The 
+Performance of mobile Wimax under varying channel is one of the interesting research interests. Most of the most 
+existing systems, based on performance and evaluation under channel condition are limited to AWGN, ITU etc in mobile 
+Wimax. In this paper the performance of mobile Wimax (PHY layer) under SUI channel models in addition to different 
+data rates and modulation techniques were analyzed. The simulation cavers important performance parameters like Bit 
+Error Rate and Signal to Noise Ratio. 
+
+Keywords— Wimax, BER, SNR, BPSK, OFDMA 
+
+I. INTRODUCTION 
+
+IEEE802.16e is a global broadband wireless access standard capable of delivering high data rates to fixed users as 
+well as portable and mobile ones over long distance [l].In mobile Wimax air interface adopts orthogonal frequency division 
+multiple access (OFDMA) for improved multi-path performance in non-line-of sight (NLOS) environment. Mobile Wimax 
+extends the OFDM PHY layer to support terminal mobility and multiple-access. The resulting technology is Scalable 
+OFDMA. Data streams to and from indh idual users are multiplexed to groups of sub channel on the downlink and uplink. 
+By adopting Scalable PHY architecture, mobile Wimax is able to support a wide range of bandwidths. 
+
+The performance of the WiMAX (Worldwide Interoperability for Microwave Access) can be evaluated by using 
+the Stanford University Interim (SUI) channel models which has a set of six channels for terrain types [3J.With different data 
+rates, coding schemes and modulation techniques. 
+
+The mobile WiMAX standard builds on the principles of OFDM by adopting a Scalable OFDMA-based PHY 
+layer (SOFDMA) [4J. SOFDMA supports a wide range of operating bandwidths to flexibl) address the need for various 
+spectrum allocation and application requirements. 
+The simulation done in the paper covers important performance such as Bit Error Rate and Signal to Noise Ratio. 
+
+II. WIMAX PHYSICAL LAYER 
+
+This project deals with the performances of Bit Error Rate and Signal to Noise Ratio in mobile WiMAX physical 
+layer. The block diagram of the physical layer of mobile WiMAX diagram is given in Figure 1 . The transferring of data or 
+receiving the data is done through the physical layer of WiMAX. So the uplink and the downlink of the message were done 
+on the physical layer of WiMAX. There are three levels in the physical layer of mobile WiMAX physical layer are 
+
+• Bit level processing 
+
+• OFDM symbol level processing 
+
+• Digital IF processing 
+
+Each levels of physical layer of WiMAX consist of certain processes for transferring the data at uplink region and 
+receiving of data at downlink region consists of encoder, decoder, symbol mapper and randomizer etc., Every processes were 
+done in order to improve the performance of the mobility condition of mobile wimax. In this paper the perfor 
+analyzed by the signal to noise ratio and the bit error rate 
+
+
+
+Bit Error Rale Of Mobile Wimax (Plix) Under Different Communication,,, 
+
+
+
+
+m^v 
+
+
+
+Figure: 1. Block Diagram of Wimax Physical Layer 
+Table. 1 Parameter of mobile wima x physical layer 
+
+
+
+Parameter 
+
+
+Value 
+
+
+FFT size 
+
+
+128 
+
+
+512 
+
+
+1024 
+
+
+2048 
+
+
+Channel 
+Bandwidth(MHz) 
+
+
+1.25 
+
+
+5 
+
+
+10 
+
+
+20 
+
+
+Subcarrier Frequency 
+
+spacing 
+
+(KHz) 
+
+
+10.94 
+
+
+Useful Symbol Period 
+
+
+91.4 
+
+
+Guard Time 
+
+
+1/32,1/8,1/6,1/4 
+
+
+
+III. CHANNEL 
+
+The medium between the transmitting antenna and the receiving antenna is said to be the channel. The profile of 
+received signal can be obtained from that of the transmitted signal, if we have a model of the medium between the two. The 
+model of the medium is called channel model. 
+
+
+
+Bit Error Rate Of Mobile Winuix (Plix) Under Different Communication... 
+
+
+
+Y (f) ->oulpui signal 
+H (f) ->channel response 
+X (f) ->input signal 
+
+
+
+Y (f) =X (f) H (f) +n (f) 
+
+
+
+A. Stanford Universit) [nterim (SUI) Channel Models: 
+
+It is a set of six channel models representing three terrain types and a variety of Doppler spreads, delay spread and 
+mainly the line-of-sight/non-line-of-site conditions that are typical of the continental. The terrain type A, B, C is same 
+
+as those defined in Erceg model [10]. The multipath fading is modeled as a tapped delay line with 3 taps with non-uniform 
+delays. The gain associated w ith each tap is characterized by a Rician Distribution and the maximum Doppler frequency. 
+
+In a multipath environment, the received power r has a Rician distribution, whose Pdf is given by: 
+
+
+
+o LOS component and the pdf of the power becomes 
+
+
+
+Pdf(r)=r/o 2 e [ -* ac2+A2a2] Io(rA/o 2 ) < r < a 
+
+
+
+This is also known as Raleigh distribution. 
+The ratio K=A / (2o2) in the Rician case represents the ratio of LOS component to NLOS component and is called the "K- 
+Factor" or "Rician Factor." 
+
+The general structure for the SUI channel model is as shown below in figure. This structure is for Multiple Input 
+Multiple Output (MIMO) channels and includes other configurations like Single Input Single Output (SISO) and Single 
+Input Multiple Output (SIMO) as subsets. 
+
+
+
+
+Figure 2.SUI Channel Model 
+
+Power Distribution For each tap a set of complex zero-mean Gaussian distributed numbers is generated with a 
+e of 0.5 for the real and imaginary part, so that the total average power of this distribution is 1. This yields a 
+normalized Rayleigh distribution (equivalent to Rice with K=0) for the magnitude of the complex coefficients. If a Rician 
+distribution (K>0 implied) is needed, a constant path component m is added to the Rayleigh set of coefficients. The ratio of 
+powers between this constant part and the Rayleigh (variable) part is specified by the K-factor. For this general case, we 
+show how to distribute the power correctly by first stating die total power P of each tap: 
+
+
+
+Where m is the comple: 
+
+
+
+of the complex Gaussian set. Second, the ratio of powers is K=m 2 /|o 2 l. 
+
+
+
+T able 2: Terrain type and Doppler spread for SUI channel mod el 
+
+
+
+Channel 
+
+
+Terrain 
+
+Type 
+
+
+spread 
+
+
+Spread 
+
+
+LOS 
+
+
+SUI-1 
+
+
+C 
+
+
+Low 
+
+
+Low 
+
+
+High 
+
+
+SUI-2 
+
+
+C 
+
+
+Low 
+
+
+Low 
+
+
+High 
+
+
+SUI-3 
+
+
+B 
+
+
+Low 
+
+
+Low 
+
+
+Low 
+
+
+SUI-4 
+
+
+B 
+
+
+High 
+
+
+Moderate 
+
+
+Low 
+
+
+SUI-5 
+
+
+A 
+
+
+Low 
+
+
+High 
+
+
+Low 
+
+
+SUI-6 
+
+
+A 
+
+
+High 
+
+
+High 
+
+
+High 
+
+
+
+Bit Error Rale Of Mobile Wimax (Phy) Under Different Communication... 
+
+
+
+In the SUI channel model, parameter for the SUI 1 and SUI 2 channel model has been tabulated in 3 and 4 
+respectively for the reference. BER performance is evaluated in this channel models. Depending on the performance 
+parameter for the SUI channel, the performances of wimax physical layer are evaluated through the performance graph. 
+
+
+
+
+
+Table 3 SUI -1 Channel Model 
+
+
+
+
+Tapl 
+
+
+Tap 2 
+
+
+Tap 
+3 
+
+
+Units 
+
+
+Delay 
+
+
+
+
+
+0.4 
+
+
+0.9 
+
+
+[IS 
+
+
+Power(omni antenna) 
+90% K-facto<omni) 
+
+0<OIM 
+
+
+
+4 
+20 
+
+
+-15 
+
+
+
+
+
+
+-20 
+
+
+
+
+
+
+db 
+
+
+Power(30 antenna) 
+90% k-facto<30°) 
+
+
+
+16 
+72 
+
+
+-21 
+
+
+
+
+
+
+-32 
+
+
+
+
+
+
+db 
+
+
+Doppler 
+
+
+0.4 
+
+
+0.3 
+
+
+0.5 
+
+
+Hz 
+
+
+< , - , iii 
+Gain Reduction Factor: GRF=0db 
+Normalisation Factor: 
+
+F^i=-0.1771db 
+
+FV=-0.0371db 
+
+
+Terrain Type : C 
+Omni antenna :tems = 0.1 11 [is 
+Overall K:K=3 .3 (90%) 
+K= .10.4(75%) 
+30 u 3iitenna:i[j!]Ms =0.042 \is 
+Overall K:K= 14. 0(90%) 
+K=44 2(7 4>) 
+
+
+
+Table 4 SUI -2 Channel Mo del 
+
+
+
+
+Tapl 
+
+
+Tap 2 
+
+
+3 
+
+
+Units 
+
+
+Delay 
+
+
+
+
+
+0.4 
+
+
+1.1 
+
+
+us 
+
+
+Power(ortmi antenna) 
+90% K-facto<omni) 
+73% K-facto<omni) 
+
+
+
+11 
+
+
+-12 
+
+
+
+
+
+
+-15 
+
+
+
+
+
+
+db 
+
+
+Poweri i0' minni i 
+90% k-facto<30°) 
+
+75% K-facto<30*) 
+
+
+
+
+36" 
+
+
+
+
+
+
+-27 
+
+
+
+
+
+
+db 
+
+
+Doppler 
+
+
+0.2 
+
+
+0.15 
+
+
+0.25 
+
+
+Hz 
+
+
+Antenna c on elation. p= . '. 
+
+O am Re duction F actor: GRF =2 db 
+
+Normalization Factor: 
+
+F Mmi =-0.3930db 
+
+F 3 o°=- n .07(58clb 
+
+
+Terrain Type : C 
+
+Omni antenna : tbke = 0.202 us 
+
+Overall K: K=l .6 (90%) 
+
+K=5.1(75%) 
+
+30 antenna:T EWS =0.06QLS 
+
+Overall K:K=<5 .9(90%) 
+
+K=21.S(75%) 
+
+
+
+For a 30° antenna beam width, 2.3 times smaller RMS delay spread is used when compared to an omnidirectional 
+antenna RMS delay spread. Consequently, the 2nd tap power is attenuated additional 6 dB and the 3rd tap power is 
+attenuated additional 12 dB (effect of antenna pattern, delays remain the same). The simulation results for all the six 
+channels arc e\ aluated. The above experiments are done using the simulation in Matlab communication tool box. 
+
+
+
+IV. 
+
+The output for the perfc 
+MATLAB coding with BPSK modulati 
+
+
+
+SIMULATION RESULTS 
+
+of mobile WiMAX was estimated by the BER and the SNR plot t 
+The bandwidth used in the experiment was 3.5 MHz 
+
+
+
+Bit Error Rate Of Mobile Wima.x (Phy) Under Different Communication... 
+
+
+
+
+
+
+Figure3.BER curve for BPSK modulation 
+
+The output for the performance of mobile WiMAX was estimated by the Bit Error Rate and the Signal to Noise 
+Ratio plot using the MATLAB coding with Quadrature Phase Shift Keying modulation technique is given below in figure 4. 
+
+BER of the received symbols. ( G=0.25.BW=3.5MHz and modulation of QPSK ) 
+
+
+
+
+Figure 4. BER curve for QPSK modulation 
+
+The output for the performance of mobile WiMAX was estimated by the BER and the SNR plot using the 
+MATLAB coding with 16QAM modulation. It is illustrated in the figure5. 
+
+
+
+
+Figure5. BER curve for 16QAM modulation 
+
+
+
+Bit Error Rate Of Mobile Wimax (Phy) Under Different Communication... 
+
+The output for the performance of mobile Wimax was estimated by the BER and the SNR plot using the 
+MATLAB coding with 64QAM modulation and graphical illustration done as in figure 6. 
+
+
+
+
+Figure6. BER curve for 64QAM modulation 
+
+
+
+V. CONCLUSION 
+
+In this paper, the performance of mobile WIMAX physical layer for OFDMA on different channel condition 
+assisted by Mobile IP(Internet protocol) for mobility management was analyzed. The analysis demonstrated that the 
+modulation and coding rate had a greater impact on the relative performance between the different SU1 channel conditions. 
+The performance was analyzed under SUI channel models with different modulation techniques for mobility management. It 
+is found from the performance graphs that SUI channel 5 and 6 performs better than the conventional ones. 
+
+
+
+REFERENCES 
+
+IEEE 2010 Omar Arafat,K.Dimyati, a study of physical layer of Mobile WiMax under different communication 
+
+channels & modulation technique. 
+
+[2JIEEE std 802.16 Etm-2004"Part 16: Air Interface for fixed and mobile broadband wireless Access system,"Feb 
+
+2004. 
+
+Md.ZahidHasan.Mu.A .hiaiiillslam, Comparative Study of Different Guard Time Intervals to Improve the BER 
+
+Performance of WiM AX Systems to Minimize the Effects of ISI and 1CI under Adaptive Modulation Techniques 
+
+over SUI-1 and AWGN Communication Channels, (IICSIS) International Journal of Computer Science and 
+
+Information Security, Vol. 6, No.2, 2009. 
+
+IEEE 802.16 Broadband Wireless Access Working Group Simulating the SUI Channel Models Li-Chun Wang 
+
+Department of Communications Engineering National Chiao Tung University Hsinchu,Taiwan. 
+
+Mai Tran, G Zaggaoulos and A .Nix" Mobile WiMAX MIMO performance Analysis: Downlink and Uplink", 
+
+PIMRC2008. 
+
+J.GAndews, A.Ghoshand R.Muhamed, Fundamentals of WiMAX Understanding broadband Wireless Networks, 
+
+"Prentice Hall, Feb 2007. 
+
+RajJain,@aum.org,"ChannelModelaTutorial", feb21,2007 submitted to wimax forum at aum. 
+
+M.S. Smith and C. Tappenden, 'Additional enhancements to interim channel models for G2 MMDS fixed wireless 
+
+applications," IEEE 802.16.3c-00/53 
+
+M.S.Smith, J.E.J. Dalley, "A new methodology for deriving path loss models from cellular drive test data", 
+
+Proc.AP2000 Conference, Davos, Switzerland, April 2000. 
+
+V. Erceget.al, "A model for the multipath delay profile of fixed wireless channels," IEEE JSAC, vol. 17, no. 3, 
+
+March 1999, pp. 399-410. 
+
+L.J.Greenstein, V. Erceg, Y.S. Yeh, and M.V. Clark, "A new path-gain/delay-spread propagation model for digital 
+
+cellular channels," IEEE Trans. Veh. Technol., vol. 46, no. 2, May 1997. 
+
+J.W. Porter and J.A. Thweatt, "Microwave propagation characteristics in the MMDS frequency band," ICC'2000 
+
+Conference Proceedings, pp. 1578-1582. 
+
+L.J. Greenstein, S. Ghassemzadeh, V.Erceg, and DG. Michelson, "Ricean K-factors in narrowband fixed wireless 
+
+channels: Theory, experiments, and statistical models," WPMC'99 Conference Proceedings, Amsterdam, 
+
+September 1999. 
+
+
+

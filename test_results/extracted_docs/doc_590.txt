@@ -1,0 +1,103 @@
+AI technologies, including GenAI tools, have many potential benefits, such as accelerating and providing insights into data
+processing, augmenting human decisionmaking, and optimizing performance for complex systems and tasks. GenAI tools,
+for example, are increasingly capable of performing a broad range of tasks, such as text analysis, image generation, and
+speech recognition. However, AI systems may perpetuate or amplify biases in the datasets on which they are trained; may not
+yet be able to fully explain their decisionmaking; and often depend on such vast amounts of data and other resources that they
+are not widely accessible for research, development, and commercialization beyond a handful of technology companies.
+
+Numerous federal laws on AI have been enacted over the past few Congresses, either as standalone legislation or as AIfocused provisions in broader acts. These include the expansive National Artificial Intelligence Initiative Act of 2020
+(Division E of P.L. 116-283), which included the establishment of an American AI Initiative and direction for AI research,
+development, and evaluation activities at federal science agencies. Additional acts have directed certain agencies to undertake
+activities to guide AI programs and policies across the federal government (e.g., the AI in Government Act of 2020, P.L. 116-
+260; and the Advancing American AI Act, Subtitle B of P.L. 117-263). In the 117th Congress, at least 75 bills were
+introduced that either focused on AI and ML or had AI/ML-focused provisions. Six of those were enacted. 
+
+In the 118th Congress, as of June 2023, at least 40 bills had been introduced that either focused on AI/ML or contained
+AI/ML-focused provisions, and none has been enacted. Collectively, bills in the 118th Congress address a range of topics,
+including federal government oversight of AI; training for federal employees; disclosure of AI use; export controls; usespecific prohibitions; and support for the use of AI in particular sectors, such as cybersecurity, weather modeling, wildfire
+detection, precision agriculture, and airport safety.
+
+AI technologies have potential applications across a wide range of sectors. A selection of broad,
+crosscutting issues with application-specific examples of ongoing congressional interest are
+discussed in the CRS report Artificial Intelligence: Background, Selected Issues, and Policy
+Considerations.
+17 Those issues and examples include implications for the U.S. workforce,
+international competition and federal investment in AI R&D, standards development, and ethical
+AI—including questions about bias, fairness, and algorithm transparency (for example, in
+criminal justice applications).
+In addition to those issues and applications, three areas of potential use that may be of growing
+interest to Congress—particularly in light of the advances in, and widespread availability of,
+GenAI tools—are health care, education, and national security. In other parts of the federal
+government, experts have asserted a need to understand the impacts and future directions of AI
+applications in these areas. For example, the chief AI officer at the Department of Health and
+Human Services, Greg Singleton, at a June 2023 Health Innovation Summit discussed “the role
+that AI will play in healthcare, as well as the importance of regulations.”
+18 A May 2023
+Department of Education report, Artificial Intelligence and the Future of Teaching and Learning,
+describes the rising interest in AI in education and highlights reasons to address AI in education
+now.19 And the 2023 Annual Threat Assessment of the U.S. Intelligence Community states, “New
+technologies—particularly in the fields of AI and biotechnology—are being developed and are
+proliferating faster than companies and governments can shape norms, protect privacy, and
+prevent dangerous outcomes.”20 This section will discuss some of the potential benefits and
+concerns with the use of AI technologies in these sectors.
+
+Federal laws addressing AI or including AI-focused provisions have been enacted over the past
+few Congresses. Arguably the most expansive law was the National Artificial Intelligence
+Initiative (NAII) Act of 2020 (Division E of the William M. (Mac) Thornberry National Defense
+Authorization Act [NDAA] of FY2021, P.L. 116-283). The NAII Act included sections
+• codifying the establishment of an American AI Initiative,
+• establishing a National Artificial Intelligence Initiative Office to support federal
+AI activities,
+• establishing an interagency committee at the Office of Science and Technology
+Policy to coordinate federal programs and activities in support of the NAII, and
+• establishing a National AI Advisory Committee.
+The NAII Act further directed AI activities at the National Science Foundation (NSF), National
+Institute of Standards and Technology (NIST),40 National Oceanic and Atmospheric
+Administration, and Department of Energy. Specific provisions include mandating (1) NSF
+support for a network of National AI Research Institutes; (2) a National Academies of Sciences,
+Engineering, and Medicine study on the current and future impact of AI on the U.S. workforce
+across sectors;41 and (3) a task force to investigate the feasibility of, and plan for, a National AI
+Research Resource.42
+Individual agencies—including the General Services Administration (GSA), the Office of
+Management and Budget (OMB), and the Office of Personnel Management (OPM)—have also
+been statutorily directed to undertake activities to support the use of AI across the federal
+government:
+• GSA. The AI in Government Act of 2020 (AGA, Division U, Title I, of the
+Consolidated Appropriations Act, 2021, P.L. 116-260) created within GSA an AI
+Center of Excellence to facilitate the adoption of AI technologies in the federal government and collect and publicly publish information regarding federal
+programs, pilots, and other initiatives.43
+• OMB. The AGA required OMB to issue a memorandum to federal agencies
+regarding the development of AI policies; approaches for removing barriers to
+using AI technologies; and best practices for identifying, assessing, and
+mitigating any discriminatory impact or bias and any unintended consequences of
+using AI. The Advancing American AI Act (Subtitle B of the James M. Inhofe
+National Defense Authorization Act for Fiscal Year 2023, P.L. 117-263) required
+OMB to (1) incorporate additional considerations when developing guidance for
+the use of AI in the federal government; (2) develop an initial means to ensure
+that contracts for acquiring AI address privacy, civil rights and liberties, and the
+protection of government data and information; (3) require the head of each
+federal agency (except DOD) to prepare and maintain an inventory of current and
+planned AI use cases; and (4) lead a pilot program to initiate four new AI use
+case applications to support interagency or intra-agency modernization
+initiatives. Additionally, the AI Training Act (P.L. 117-207) required OMB to
+establish an AI training program for the acquisition workforce of executive
+agencies.
+• OPM. The AGA required OPM to establish or update an occupational job series
+to include positions with primary duties in AI and to estimate current and future
+numbers of federal employment positions related to AI at each agency.
+NDAAs have also included provisions focused on AI in the defense, national security, and
+intelligence communities each year beginning with the FY2019 John S. McCain NDAA, which
+included the first definition of AI in federal statute.44 These provisions have included a focus on
+AI development, acquisition, and policies; AI data repositories; recruiting and retaining personnel
+in AI; and implementation of recommendations from the 2021 final report of the National
+Security Commission on AI.45
+Additionally, some enacted legislation has focused on AI R&D or the use of AI in particular
+federal programs. For example:
+• The CHIPS and Science Act (P.L. 117-167) included numerous AI-related
+provisions directing the Department of Energy, NIST, and NSF to support AI and
+ML R&D activities and the development of technical standards and guidelines
+related to safe and trustworthy AI systems. NSF was further directed to (1)
+evaluate the establishment of an AI scholarship-for-service program to recruit
+and train AI professionals to support AI work in federal, state, local, and tribal
+governments; and (2) study AI research capacity at U.S. institutions of higher
+education.

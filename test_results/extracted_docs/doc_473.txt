@@ -1,0 +1,103 @@
+ 3D Pipeline
+2.4.1.2.1 Vertex Fetch (VF) Stage
+The VF stage executes 3DPRIMITIVE commands. Some enhancements have been
+included to better support legacy D3D APIs as well as SGI OpenGL*.
+2.4.1.2.2 Vertex Shader (VS) Stage
+The VS stage performs shading of vertices output by the VF function. The VS unit
+produces an output vertex reference for every input vertex reference received from the
+VF unit, in the order received.
+Figure 7. Integrated Graphics Controller Unit Block Diagram
+Plane A
+Cursor B
+Sprite B
+Plane B
+Cursor A
+Sprite A
+Pipe B
+Pipe A
+Memory
+M
+U
+X
+VGA
+Video Engine
+2D Engine
+3D Engine
+Clipper
+Strip & Fan/Setup
+Alpha
+Blend/
+Gamma
+/Panel
+Fitter
+Geometry Shader
+Vertex Fetch/Vertex
+Shader
+Windower/IZ
+Intel®
+FDI
+eDP
+Datasheet 29
+Interfaces
+2.4.1.2.3 Geometry Shader (GS) Stage
+The GS stage receives inputs from the VS stage. Compiled application-provided GS
+programs, specifying an algorithm to convert the vertices of an input object into some
+output primitives. For example, a GS shader may convert lines of a line strip into
+polygons representing a corresponding segment of a blade of grass centered on the
+line. Or it could use adjacency information to detect silhouette edges of triangles and
+output polygons extruding out from the edges.
+2.4.1.2.4 Clip Stage
+The Clip stage performs general processing on incoming 3D objects. However, it also
+includes specialized logic to perform a Clip Test function on incoming objects. The Clip
+Test optimizes generalized 3D Clipping. The Clip unit examines the position of incoming
+vertices, and accepts/rejects 3D objects based on its Clip algorithm.
+2.4.1.2.5 Strips and Fans (SF) Stage
+The SF stage performs setup operations required to rasterize 3D objects. The outputs
+from the SF stage to the Windower stage contain implementation-specific information
+required for the rasterization of objects and also supports clipping of primitives to some
+extent.
+2.4.1.2.6 Windower/IZ (WIZ) Stage
+The WIZ unit performs an early depth test, which removes failing pixels and eliminates
+unnecessary processing overhead.
+The Windower uses the parameters provided by the SF unit in the object-specific
+rasterization algorithms. The WIZ unit rasterizes objects into the corresponding set of
+pixels. The Windower is also capable of performing dithering, whereby the illusion of a
+higher resolution when using low-bpp channels in color buffers is possible. Color
+dithering diffuses the sharp color bands seen on smooth-shaded objects.
+2.4.1.3 Video Engine
+The Video Engine handles the non-3D (media/video) applications. It includes support
+for VLD and MPEG2 decode in hardware.
+2.4.1.4 2D Engine
+The 2D Engine contains BLT (Block Level Transfer) functionality and an extensive set of
+2D instructions. To take advantage of the 3D during engine’s functionality, some BLT
+functions make use of the 3D renderer.
+2.4.1.4.1 Integrated Graphics VGA Registers
+The 2D registers consists of original VGA registers and others to support graphics
+modes that have color depths, resolutions, and hardware acceleration features that go
+beyond the original VGA standard.
+Interfaces
+30 Datasheet
+2.4.1.4.2 Logical 128-Bit Fixed BLT and 256 Fill Engine
+This BLT engine accelerates the GUI of Microsoft Windows* operating systems. The
+128-bit BLT engine provides hardware acceleration of block transfers of pixel data for
+many common Windows operations. The BLT engine can be used for the following:
+• Move rectangular blocks of data between memory locations
+• Data alignment
+• To perform logical operations (raster ops)
+The rectangular block of data does not change, as it is transferred between memory
+locations. The allowable memory transfers are between: cacheable system memory
+and frame buffer memory, frame buffer memory and frame buffer memory, and within
+system memory. Data to be transferred can consist of regions of memory, patterns, or
+solid color fills. A pattern is always 8 x 8 pixels wide and may be 8, 16, or 32 bits per
+pixel.
+The BLT engine expands monochrome data into a color depth of 8, 16, or 32 bits. BLTs
+can be either opaque or transparent. Opaque transfers move the data specified to the
+destination. Transparent transfers compare destination color to source color and write
+according to the mode of transparency selected.
+Data is horizontally and vertically aligned at the destination. If the destination for the
+BLT overlaps with the source memory location, the BLT engine specifies which area in
+memory to begin the BLT transfer. Hardware is included for all 256 raster operations
+(source, pattern, and destination) defined by Microsoft, including transparent BLT.
+The BLT engine has instructions to invoke BLT and stretch BLT operations, permitting
+software to set up instruction buffers and use batch processing. The BLT engine can
+perform hardware clipping during BLTs.

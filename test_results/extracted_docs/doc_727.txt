@@ -1,0 +1,32 @@
+Handles dilution from competitive pairs
+ Interleaved designs also drive up sensitivity by showing if the experience exposed to the user is truly different between treatment and control. An interleaved design generates final output from two lists, allowing us to identify immediately whether those lists are too similar, as shown in Figure 4 below. In most machine learning applications, different modeling approaches are improvings things on the margin. In many cases, the search results returned by two rankers will largely overlap. An interleaved design lets us measure this overlap and analyze the data for competitive pairs — where rankers disagree on the recommendation — which leads to a signal boost. 
+ 
+
+ 
+
+ Figure 4: The original lists used here in interleaving are essentially identical except for the last elements. This means that if a user clicks on any of the top four choices, they are not actually contributing to signaling which ranker is preferred. 
+ Handles dilution from non-engagement
+ An interesting observation we made when looking at interleaved experiments – as well as search and ranking experiments in general – is that many user actions make it look as if the user is not paying attention or making any choices on the presented content. For instance, although we would generate a carousel with interleaved options, the user would not actively engage with the content and make a decision. As a result, including this data in interleaved analyses dilutes the signal.
+ 
+
+ Here is another way to understand non-engagement. Let's say we present a user with two drinks – Coke and Pepsi – and ask them which they like more. If the user does not engage or refuses to try any options, it might indicate:
+ 
+
+ The user is not interested in the presented results.
+ The user is not in a decision-making mindset at the moment.
+ While these are important insights, examining data from this undifferentiated feedback does not help to determine user preference or understand which drink is preferred. Attention and non-engagement is a fascinating research subject; many folks approach it by looking at additional metrics such as dwell time or how often a user backtracks as per Chucklin and Rijke, 2016. Fortunately, interleaving allows us to identify non-engagement more effectively so that we may remove impressions that are not meaningful. If a user does not take an action, we simply remove the exposure rather than marking the performance of the interleaved ranker as a tie.ctively so that we may remove impressions that are not meaningful. If a user does not take an action, we simply remove the exposure rather than marking the performance of the interleaved ranker as a tie. A/B tests can't effectively address non-engagement because they treat all data equally, including non-engaged interactions, which dilutes the signal and obscures true user preferences.
+ 
+
+ Results
+ Table 2 shows results across five online experiments in which we provide the average relative sensitivity improvement across different methods relative to an A/B setup. Across several experiments, we found that removing dilution helped boost interleaving sensitivity even more, which leads to much smaller required sample sizes. These results were so surprising even to us that we had to stop several times to conduct additional A/A tests to validate that we had not introduced a bug in our SDK, analysis pipeline, or metrics computation. 
+ 
+
+ Experiment Vanilla Interleaving Vanilla Interleaving + Removing Dilution % Traffic Used
+ Exp 1 34x 282x <5%
+ Exp 2 67x 482x <5%
+ Exp 3 68x 312x <5%
+ Exp 4 109x 545x <5%
+ Exp 5 60x 301x <5%
+ Avg Improvement ~67x ~384x 
+ Table 2: We observed very large sensitivity gains across several experiments. Overall, removing dilution helped improve sensitivity even more. Note that we observed these results while interleaving traffic was getting 1/20th of the A/B traffic.
+ It’s important to highlight that the sensitivity improvement depends on the metric. For clickthrough rate, we have observed half of the sensitivity boost observed in the checkout-conversion metric. Nonetheless, across all use cases we found that removing dilutive exposures drives very large gains in sensitivity.

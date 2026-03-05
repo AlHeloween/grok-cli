@@ -1,0 +1,41 @@
+NetChoice’s Challenge to Florida’s S.B. 7072
+Florida’s S.B. 7072 imposes restrictions on any information service, system, internet search engine, or
+access software provider that enables access by multiple users to a computer server, is organized as a legal
+entity, does business in Florida, and satisfies certain specified user- or revenue-based thresholds. Thus,
+while the litigation about the law emphasized the limitations it imposed on social media platforms, the
+law applied more broadly. NetChoice challenged restrictions that generally fall into two categories:
+content moderation restrictions and individualized-explanation requirements.
+The Supreme Court’s analysis in Moody focused on the content moderation restrictions. Those provisions
+limit the ability of covered platforms to delete content, make content less visible to other users, or ban
+users. Under S.B. 7072, platforms may not “deplatform” a political candidate or deprioritize a candidate’s
+or “journalistic enterprise’s” posts. They must “apply censorship, deplatforming, and shadow banning
+standards in a consistent manner,” and they cannot change the rules or terms that apply to users more than
+once every 30 days. Deplatforming occurs when a platform bans a user for at least 14 days. Shadow
+banning occurs when a platform deletes a user’s content or makes the account’s content less visible to
+other users.
+Before S.B. 7072 took effect, NetChoice sued, alleging that the content moderation provisions, on their
+face, violate the First Amendment. The U.S. Court of Appeals for the Eleventh Circuit affirmed a
+preliminary injunction barring enforcement of the content moderation provisions while NetChoice’s
+challenge is litigated. The court held that the provisions likely “trigger[] First Amendment scrutiny
+because [S.B. 7072] restricts social-media platforms’ exercise of editorial judgment.” It decided that the
+challenged provisions likely fail constitutional scrutiny because they lack a “substantial or compelling
+interest that would justify [the provisions’] significant restrictions on platforms’ editorial judgment.”
+NetChoice’s Challenge to Texas’s H.B. 20
+Texas’s H.B. 20 applies to social media platforms with more than 50 million monthly active users in the
+United States. The law defines social media platforms as public websites or applications that enable users
+to create accounts and communicate for the primary purpose of posting user-generated information.
+Internet service providers, email providers, and websites “that consist primarily of news, sports,
+entertainment, or other” content that is not user generated are excluded from the definition.
+As with Florida’s law, H.B. 20 limits when covered platforms may delete or restrict access to user-posted
+content. Subject to enumerated exceptions, covered platforms are prohibited from censoring a user’s
+content based on viewpoint or the user’s geographic location in Texas. Censor is defined to mean
+“block[ing], ban[ning], remove[ing], deplatform[ing], demonetiz[ing], de-boost[ing], restrict[ing],
+deny[ing] equal access or visibility to, or otherwise discriminat[ing] against expression.”
+Again, NetChoice challenged H.B. 20’s content moderation provisions on their face and asked a court to
+enjoin their enforcement before the law took effect. The U.S. Court of Appeals for the Fifth Circuit denied
+the request. Expressly disagreeing with the Eleventh Circuit’s reasoning about Florida’s law, the Fifth
+Circuit held that Texas’s content moderation provisions do not likely implicate First Amendment rights.
+According to the Fifth Circuit, NetChoice was seeking to assert a “right to censor what people say” that is
+not protected by the First Amendment. In the alternative, the court held that, even if the law restricted
+protected expression, it is a content- and viewpoint-neutral law—so subject to intermediate scrutiny—and
+Texas’s interest in protecting the free exchange of ideas is sufficiently important to satisfy that standard.

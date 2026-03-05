@@ -1,0 +1,94 @@
+6.1 Clinical Trials Experience
+Because clinical trials are conducted under widely varying conditions, adverse reaction rates
+observed in the clinical trials of a vaccine cannot be directly compared with rates in the clinical
+trials of another vaccine and may not reflect the rates observed in practice.
+Moderna COVID-19 Vaccine (Original Monovalent) Administered as a Two-Dose Primary
+Series
+Participants 18 Years of Age and Older
+The safety of Moderna COVID-19 Vaccine was evaluated in an ongoing Phase 3 clinical trial
+with multiple parts. The randomized, placebo-controlled, observer-blind phase of the trial was
+conducted in the United States involving 30,346 participants 18 years of age and older who
+received at least one dose of Moderna COVID-19 Vaccine (100 mcg mRNA; n=15,184) or
+placebo (n=15,162) (Study 1, NCT04470427). Upon issuance of the Emergency Use
+Authorization (December 18, 2020) for Moderna COVID-19 Vaccine, participants were
+unblinded in a phased manner over a period of months to offer placebo participants Moderna
+COVID-19 Vaccine. The median duration of follow-up for safety after the second injection
+during the blinded phase was 4 months. The median duration of follow up for safety after the
+second injection including both the blinded phase and the open-label phase was 6 months.
+In Study 1, the median age of the population was 52 years (range 18-95); 75.2% of participants
+were 18 years through 64 years of age and 24.8% were 65 years of age and older. Overall, 52.6%
+of the participants were male, 47.4% were female, 20.5% were Hispanic or Latino, 79.2% were
+White, 10.2% were African American, 4.6% were Asian, 0.8% were American Indian or Alaska
+Native, 0.2% were Native Hawaiian or Pacific Islander, 2.0% were other races, and 2.1% were
+Multiracial. Demographic characteristics were similar between participants who received
+Moderna COVID-19 Vaccine and those who received placebo.
+Unsolicited Adverse Events
+Participants were monitored for unsolicited adverse events for 28 days following each dose.
+Serious adverse events and medically attended adverse events will be recorded for the entire
+study duration (2 years). Among the 30,346 participants who had received at least 1 dose of
+vaccine (N=15,184) or placebo (N=15,162), unsolicited adverse events that occurred within 28
+days following any vaccination were reported by 31.3% of participants (n=4,752) who received
+Moderna COVID-19 Vaccine and 28.6% of participants (n=4,338) who received placebo.
+During the 28-day follow-up period following any dose, lymphadenopathy-related events were
+reported by 1.7% of vaccine recipients and 0.8% of placebo recipients. These events included
+lymphadenopathy, lymphadenitis, lymph node pain, vaccination-site lymphadenopathy,
+injection-site lymphadenopathy, and axillary mass. This imbalance is consistent with the
+imbalance observed for solicited axillary swelling/tenderness at the injected arm.
+During the 7-day follow-up period of any vaccination, hypersensitivity events of injection site
+10
+rash or injection site urticaria, likely related to vaccination, were reported by 6 participants in the
+Moderna COVID-19 Vaccine group and none in the placebo group. Delayed injection site
+reactions that began >7 days after vaccination were reported in 1.4% of vaccine recipients and
+0.7% of placebo recipients. Delayed injection site reactions included pain, erythema, and
+swelling and are likely related to vaccination.
+In the blinded portion of the study, there were 8 reports of facial paralysis (including Bell’s
+palsy) in the Moderna COVID-19 Vaccine group, and 3 in the placebo group. In the 28-day
+follow-up period there were two cases of facial paralysis in the Moderna COVID-19 Vaccine
+group, which occurred on 8 and 22 days, respectively, after vaccination, and one in the placebo
+group, which occurred 17 days after vaccination. Currently available information on facial
+paralysis is insufficient to determine a causal relationship with the vaccine.
+In the blinded portion of the study, there were 50 reports of herpes zoster in the Moderna
+COVID-19 Vaccine group, and 23 in the placebo group. In the 28-day period after any
+vaccination, there were 22 cases of herpes zoster in the Moderna COVID-19 Vaccine group, and
+15 in the placebo group. Currently available information on herpes zoster infection is insufficient
+to determine a causal relationship with the vaccine.
+There were no other notable patterns or numerical imbalances between treatment groups for
+specific categories of adverse events (including other neurologic, neuro-inflammatory, and
+thrombotic events) that would suggest a causal relationship to Moderna COVID-19 Vaccine.
+Serious Adverse Events
+During the blinded phase of the study, serious adverse events were reported by 1.8% (n=268) of
+participants who received Moderna COVID-19 Vaccine and 1.9% (n=292) of participants who
+received placebo.
+There were three serious adverse events of angioedema/facial swelling in the vaccine group in
+recipients with a history of injection of dermatological fillers. The onset of swelling was reported
+1-2 days after the second dose and was likely related to vaccination.
+There were no other notable patterns or imbalances between treatment groups for specific
+categories of serious adverse events (including neurologic, neuro-inflammatory, and thrombotic
+events) that would suggest a causal relationship to Moderna COVID-19 Vaccine.
+Participants 12 Years Through 17 Years of Age
+The safety of Moderna COVID-19 Vaccine was evaluated in an ongoing Phase 3 clinical trial
+with multiple parts. The randomized, placebo-controlled, observer-blind clinical trial was
+conducted in the United States involving 3,726 participants 12 years through 17 years of age who
+received at least one dose of Moderna COVID-19 Vaccine (100 mcg mRNA; n=2,486) or
+placebo (n=1,240) (Study 3, NCT04649151). Participants started to enter an open-label,
+observational phase after May 10, 2021. After October 1, 2021, cases of potential myocarditis
+and/or pericarditis that were identified by the investigator or Applicant were adjudicated by an
+11
+independent Cardiac Event Adjudication Committee (CEAC) to determine if they met the CDC
+definition of confirmed or probable myocarditis and/or pericarditis. A safety analysis was
+conducted in participants who received Moderna COVID-19 Vaccine (n=2,486) with a cut-off
+date of January 31, 2022. In these analyses, the median duration of follow-up including both the
+blinded and open-label phases was 312 days after Dose 2 and 95.7% of study participants had at
+least 6 months of follow-up after Dose 2.
+Overall, 51.4% were male, 48.6% were female, 11.6% were Hispanic or Latino, 83.8% were
+White, 3.4% were African American, 6.0% were Asian, 0.5% were American Indian or Alaska
+Native, <0.1% were Native Hawaiian or Pacific Islander, 1.0% were other races, and 4.5% were
+Multiracial. Demographic characteristics were similar among participants who received Moderna
+COVID-19 Vaccine and those who received placebo.
+Unsolicited Adverse Events
+Participants were monitored for unsolicited adverse events for 28 days following each dose.
+Serious adverse events and medically attended adverse events were recorded for the entire study
+duration. Among the 3,726 participants who had received at least 1 dose of vaccine (n=2,486) or
+placebo (n=1,240), unsolicited adverse events that occurred within 28 days following any
+vaccination were reported by 23.4% of participants (n=582) who received Moderna COVID-19
+Vaccine and 19.1% of participants (n=237) who received placebo. 

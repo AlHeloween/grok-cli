@@ -1,0 +1,36 @@
+1. Introduction
+ The SARS-CoV-2 genome is constantly evolving, with mutations happening at a rate of about once every 2 weeks
+ [1]. While not all mutations change the characteristics of the virus, some mutations have proven to be of greater concern.
+ Variants of interest (VOI) are labelled as such when an observed lineage is shown to have mutations potentially causing
+ increased transmissibility or virulence, among other attributes [2]. Health organisations may reclassify these variants as
+ variants of concern (VOC) if there is a demonstrable impact on epidemiological data. These viruses are labelled by WHO
+ and assigned a lineage based on PANGO nomenclature [3].
+ Wastewater surveillance has emerged as a crucial tool in tracking mutations in the SARS-CoV-2 genome.
+ Samples of untreated wastewater can be collected to provide useful information about the spread of COVID-19 in the
+ community, without relying on clinical testing [4,5]. As clinical sampling mainly relies on symptomatic testing,
+ wastewater sampling can provide unbiased and consistent data which can be used to inform appropriate public health
+ responses. It is used to detect variants earlier and provide more context on the transmissibility and COVID-19 levels in
+ communities, particularly where access to clinical testing is not readily available. As wastewater samples consist of a
+ mixture of fragmented RNA from many sources, it can be difficult to accurately identify mutations and variants,
+ particularly those without a known lineage [6].
+ Next-generation sequencing has proven to be an important tool in pandemic surveillance, particularly in the
+ early detection and spread of variants [7-9]. With a high rate of occurrence of mutations and increased transmissibility,
+ the need to provide high throughput data generation in a relatively short time frame has led to the development of a
+ number of tools and protocols using next-generation sequencing, such as SARS-CoV-2 specific primers and tools to
+ determine lineage in samples. These sequencing methods have been useful in analysing clinical and environmental
+ samples, assisting in tracking viral load, transmission, contact tracing, and virus evolution [8]. Illumina and Nanopore
+ sequencing are two next-generation sequencing technologies that have become major tools in genomic research.
+ Illumina sequencing is a second-generation sequencing technology that uses sequencing by synthesis (SBS), where a
+ reversible fluorescent terminator is used to detect the nucleotide sequence [10,11]. Nanopore sequencing is a thirdgeneration sequencing technology that uses the current changes in a charged protein nanopore from the molecule
+ passing through to determine the specific sequence [10,12]. Multiple studies have been done on the comparison of
+ Nanopore and Illumina sequencing, highlighting their various advantages in different applications [13-15]. Illumina
+ sequencing is widely regarded as being highly accurate, consistently sequencing around 99.5-99.9% accuracy, and the
+ higher depth of reads enables it to be a useful tool in circumstances with poor sequencing coverage, such as wastewater
+ surveillance [16]. Nanopore sequencing has the ability to produce ultra-long reads, only limited by the sample
+ preparation and quality, and is useful in genomic assembly and spanning entire regions of repetitive bases and structural
+ variation [17]. Furthermore, real-time analysis of sequences and portability of sequencing devices has benefits in the
+ field. Studies have been completed comparing Illumina and Nanopore sequencing on clinical and wastewater SARSCoV-2 samples, which focuses on benchmarking parameters such as genome coverage and depth and variant calling on
+ samples. However, they did not explore the combination of the two sequencing technologies as a method to improve
+ detection of variants [18-20].
+ In this work, we look to highlight the advantages of both Illumina and Nanopore sequencing in tracking SARSCoV-2 variants from wastewater samples. Mutational analysis on samples sequenced with both methods allows for a
+ comparison of major variants identified among each dataset.

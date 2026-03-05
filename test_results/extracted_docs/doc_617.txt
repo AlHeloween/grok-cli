@@ -1,0 +1,66 @@
+Circuit Split over the Food and Drug
+Administration’s Denial of Applications
+Seeking to Market Flavored E-Cigarettes, Part
+1 of 2
+April 5, 2024
+Electronic nicotine delivery system (ENDS) products—products that go by many common names, such as
+e-cigarettes and vape pens—are generally required to receive prior authorization from the Food and Drug
+Administration (FDA) before they can be lawfully marketed in the United States. Before FDA issued
+regulations in 2016 to subject these products to the premarket review process, however, many of them
+were already being sold on the U.S. market and were allowed to remain there while FDA implemented the
+application and review process. These products come in a variety of forms and flavors, from tobacco and
+menthol flavors based on the flavors of traditional combustible cigarettes to other flavors based on the
+flavors of fruit, candy, and other sweets (“flavored ENDS products”). While limited studies of certain
+ENDS products show that they contain substantially lower levels of toxins than combustible cigarettes,
+indicating a benefit to current adult smokers who switch completely to using ENDS products, flavored
+ENDS products have been shown to be particularly attractive to youth. In a 2016-2017 study, for instance,
+93.2% of youth ENDS product users reported that their first use was with a flavored product. In 2018, the
+Surgeon General issued an advisory on the “e-cigarette epidemic among youth.”
+Since the initial deadline in September 2020 for ENDS product manufacturers to submit their premarket
+tobacco product applications (PMTAs), FDA has received millions of applications for ENDS products. To
+date, the agency has authorized 23 tobacco-flavored ENDS products for lawful marketing and has not
+authorized any flavored ENDS products. Many applicants that have received a marketing denial order
+(MDO) for their flavored ENDS products have filed petitions in U.S. Courts of Appeals throughout the
+country to challenge the denial of their PMTAs. Of the courts that have considered these petitions, the
+Second, Third, Fourth, Sixth, Seventh, Ninth, Tenth, and D.C. Circuits have sided with FDA and denied
+the petitions or requests to stay the agency’s MDOs. The Eleventh and Fifth Circuits, on the other hand,
+have sided with the ENDS manufacturers and vacated FDA’s MDOs, remanding the applications to FDA
+for reconsideration. This circuit split sets the stage for potential Supreme Court review regarding what
+information FDA may require applicants seeking to market flavored ENDS products to provide as part of
+Congressional Research Service
+https://crsreports.congress.gov
+LSB11141
+Congressional Research Service 2
+their PMTAs. This two-part Sidebar examines the circuit split. Part I provides an overview of the Family
+Smoking Prevention and Tobacco Control Act (TCA) regulatory framework, relevant FDA actions related
+to ENDS products, and the agency’s review and denial of the PMTAs involving flavored ENDS products.
+Part II provides an overview of the litigation challenging those FDA orders, the court decisions to date,
+and certain preliminary observations for consideration by Congress.
+Background on TCA’s Statutory Framework
+In 2009, Congress enacted the TCA, which established the central federal regulatory regime for the
+manufacture, marketing, and distribution of tobacco products. Among other things, the TCA required all
+new tobacco products—that is, those not commercially marketed in the United States prior to February
+15, 2007—to receive prior authorization from FDA before they can be marketed to the public. In
+establishing this regulatory regime, the TCA aims to balance competing interests in protecting the public’s
+health against the harmful effects of smoking and youth tobacco use, while preserving access to lawfully
+marketed tobacco products for adult consumers. To further this goal, the TCA grants FDA “primary
+Federal regulatory authority” over tobacco products and establishes a premarket review process for new
+tobacco products. Such products generally may not be marketed until the manufacturer submits a PMTA
+and receives a marketing granted order (MGO) from the Center for Tobacco Products, established within
+FDA to implement the TCA.
+The TCA permits FDA to issue an MGO only upon certain findings, including a conclusion that
+“permitting such tobacco product to be marketed would be appropriate for the protection of the public
+health,” or APPH. This APPH determination must be made “with respect to the risks and benefits to the
+population as a whole, including users and nonusers of the tobacco product,” taking into account the
+likelihood that existing users of tobacco products will stop using such products and the likelihood that
+those who do not use such products will start using them. The TCA directs FDA, in making this
+evaluation, to consult a range of evidence, including “information submitted to the Secretary as part of the
+[PMTA] and any other information before the Secretary with respect to such tobacco product.” Such
+information may include “when appropriate . . . well-controlled investigations, which may include 1 or
+more clinical investigations by experts qualified by training and experience to evaluate the tobacco
+product,” as well as other “valid scientific evidence” determined by the Secretary to be sufficient to
+evaluate the tobacco product.
+While the TCA explicitly applies to cigarettes, cigarette tobacco, roll-your-own tobacco, and smokeless
+tobacco, the statute also authorizes FDA to deem other tobacco products subject to the law. In 2016, FDA
+invoked this authority and promulgated what is known as the Deeming Rule, which subjected ENDS
+products to the TCA’s regulatory regime.

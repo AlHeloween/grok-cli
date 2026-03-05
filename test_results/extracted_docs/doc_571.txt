@@ -1,0 +1,81 @@
+Under the Beneficial Ownership Rule,
+1 a bank must establish and maintain written procedures
+that are reasonably designed to identify and verify beneficial owner(s) of legal entity
+customers and to include such procedures in its anti-money laundering compliance program.
+Legal entities, whether domestic or foreign, can be used to facilitate money laundering and
+other crimes because their true ownership can be concealed. The collection of beneficial
+ownership information by banks about legal entity customers can provide law enforcement
+with key details about suspected criminals who use legal entity structures to conceal their
+illicit activity and assets. Requiring legal entity customers seeking access to banks to disclose
+identifying information, such as the name, date of birth, and Social Security number of natural
+persons who own or control them will make such entities more transparent, and thus less
+attractive to criminals and those who assist them.
+Similar to other customer information that a bank may gather, beneficial ownership
+information collected under the rule may be relevant to other regulatory requirements. These
+other regulatory requirements include, but are not limited to, identifying suspicious activity,
+and determining Office of Foreign Assets Control (OFAC) sanctioned parties. Banks should
+define in their policies, procedures, and processes how beneficial ownership information will
+be used to meet other regulatory requirements.
+Legal Entity Customers
+For the purposes of the Beneficial Ownership Rule,
+2 a legal entity customer is defined as a
+corporation, limited liability company, or other entity that is created by the filing of a public
+document with a Secretary of State or other similar office, a general partnership, and any
+similar entity formed under the laws of a foreign jurisdiction that opens an account. A
+number of types of business entities are excluded from the definition of legal entity customer
+under the Beneficial Ownership rule. In addition, and subject to certain limitations, banks are
+not required to identify and verify the identity of the beneficial owner(s) of a legal entity
+customer when the customer opens certain types of accounts. For further information on
+exclusions and exemptions to the Beneficial Ownership Rule, see Appendix 1. These
+exclusions and exemptions do not alter or supersede other existing requirements related to
+BSA/AML and OFAC sanctions.
+Beneficial Owner(s)
+Beneficial ownership is determined under both a control prong and an ownership prong.
+Under the control prong, the beneficial owner is a single individual with significant responsibility to control, manage or direct a legal entity customer.3 This includes, an
+executive officer or senior manager (Chief Executive Officer, Chief Financial Officer, Chief
+Operating Officer, President), or any other individual who regularly performs similar
+functions. One beneficial owner must be identified under the control prong for each legal
+entity customer.
+Under the ownership prong, a beneficial owner is each individual, if any, who, directly or
+indirectly, through any contract, arrangement, understanding, relationship or otherwise, owns
+25 percent or more of the equity interests of a legal entity customer.4 If a trust owns directly
+or indirectly, through any contract, arrangement, understanding, relationship or otherwise, 25
+percent or more of the equity interests of a legal entity customer, the beneficial owner is the
+trustee.5
+ Identification of a beneficial owner under the ownership prong is not required if no
+individual owns 25 percent or more of a legal entity customer. Therefore, all legal entity
+customers will have a total of between one and five beneficial owner(s) – one individual under
+the control prong and zero to four individuals under the ownership prong.
+Exclusions from the definition of Legal Entity Customer
+Under 31 CFR 1010.230(e)(2) a legal entity customer does not include:
+• A financial institution regulated by a federal functional regulator14 or a bank regulated
+by a state bank regulator;
+• A person described in 31 CFR 1020.315(b)(2) through (5):
+o A department or agency of the United States, of any state, or of any political
+subdivision of any State;
+o Any entity established under the laws of the United States, of any state, or of any
+political subdivision of any state, or under an interstate compact between two or
+more states, that exercises governmental authority on behalf of the United States
+or any such state or political subdivision;
+o Any entity (other than a bank) whose common stock or analogous equity interests
+are listed on the New York Stock Exchange or the American Stock Exchange
+(currently known as the NYSE American) or have been designated as a NASDAQ
+National Market Security listed on the NASDAQ stock exchange (with some
+exceptions);
+o Any subsidiary (other than a bank) of any “listed entity” that is organized under
+the laws of the United States or of any state and at least 51 percent of whose
+common stock or analogous equity interest is owned by the listed entity, provided
+that a person that is a financial institution, other than a bank, is an exempt person
+only to the extent of its domestic operations;
+• An issuer of a class of securities registered under section 12 of the Securities
+Exchange Act of 1934 or that is required to file reports under section 15(d) of that Act;
+• An investment company, investment adviser, an exchange or clearing agency, or any
+other entity that is registered with the SEC;
+• A registered entity, commodity pool operator, commodity trading advisor, retail
+foreign exchange dealer, swap dealer, or major swap participant that is registered with
+the CFTC;
+• A public accounting firm registered under section 102 of the Sarbanes-Oxley Act;
+• A bank holding company or savings and loan holding company;
+• A pooled investment vehicle that is operated or advised by a financial institution that
+is excluded under paragraph (e)(2);
+• An insurance company that is regulated by a state;

@@ -1,0 +1,46 @@
+Stop the Presses? Newspapers in the
+Digital Age
+During the past 20 years, more than 200 local daily newspapers have either reduced their
+publication frequency or ceased publishing altogether. Among those that survived, many employ
+a fraction of the journalists that they did at the turn of the 21st century, and many publish far
+fewer original, local, and investigative news stories than they did previously. As a result, in order
+to get local news, thousands of U.S. communities rely on “ghost newspapers” that are shells of
+their former selves and may rarely employ full-time professional local journalists. Researchers
+report that, among other societal effects, the lack of a daily newspaper to monitor local
+governments and publicly traded companies can lead to increased financing costs to make up for
+investors’ lack of trust.
+In 2000, daily newspaper industry revenue peaked at $89 billion, adjusted for inflation in 2020
+dollars. Twenty years later, the revenue had fallen by 80%. Although some large, national newspapers continue to thrive, the
+newspaper industry as a whole has contracted. Websites and mobile apps enabling individuals to access news without a
+subscription have increased competition for readers and advertising. Between that 20-year period, revenue gains from online
+newspaper advertisements (from $0 to $3.1 billion) have not replaced revenue losses from print newspaper advertisements.
+Some technology companies both compete and collaborate with newspaper publishers for online advertising revenue. For
+example, in addition to competing with newspapers’ websites for display advertising revenue, Google sells ad spaces (i.e.,
+areas on websites/mobile apps set aside for online advertisements) on behalf of online publishers. Likewise, Google buys ad
+spaces on behalf of companies seeking to market goods or services to consumers with advertising (i.e., advertisers). For each
+step of the process—known as the ad tech stack—Google earns commissions from both buyers and sellers. In January 2023,
+the U.S. Department of Justice joined eight states in filing a lawsuit against Google, alleging that the company is violating
+antitrust laws by engaging in unlawful conduct to monopolize the ad tech stack. An additional 16 states and the
+Commonwealth of Puerto Rico filed a similar suit in 2021. In January 2021, a judicial panel combined this suit with multiple
+suits filed by newspaper publishers, advertisers, and others. Google claims these allegations mischaracterize its business and
+the degree of competition within the ad tech stack.
+In addition, some online platforms—such as news aggregators (e.g., Apple News and Google News) and social media (e.g.,
+Facebook)—can both enhance and diminish the ability of newspaper publishers to reach viewers. By acting as intermediaries
+between newspapers and their readers, these online platforms may increase consumers’ awareness of newspapers’ websites
+and prompt consumers to visit them. Alternatively, the headlines, snippets (small portions) of articles, and photographs
+displayed by these online platforms may dissuade consumers from visiting newspaper publishers’ own websites. This may
+impede the newspapers’ ability to collect data about their readers and generate revenues from their websites/mobile apps via
+subscriptions and advertising.
+The Copyright Act generally prohibits online platforms from distributing full articles from newspaper publishers without
+their express consent. Courts determine whether a third party’s use of copyright material violates this law on a case-by-case
+basis. In June 2022, the U.S. Copyright Office published a report titled Copyright Protections for Publishers at the request of
+several members from the U.S. Senate Committee on the Judiciary. The report assessed the viability of establishing “ancillary
+copyright” protections for press publishers that would require online news aggregators to pay publishers for using excerpts of
+their content. The Copyright Office did not recommend amending copyright laws for this purpose, noting that stakeholders
+who filed comments with the office emphasized that the publishers’ challenges were due more to competition issues rather
+than copyright issues.
+Some Members of 118th Congress have introduced bills that may help newspaper publishers. For example, the Advertising
+Middlemen Endangering Rigorous Internet Competition Accountability Act (S. 1073) would impose certain restrictions
+related to the ad tech stack. Online advertising revenues that would otherwise accrue to advertising technology firms could
+flow to the newspaper publishers who sell advertising on their papers’ websites. The Journalism Competition and
+Preservation Act of 2023 (S. 1094) would potentially increase the relative bargaining power of newspaper publishers.

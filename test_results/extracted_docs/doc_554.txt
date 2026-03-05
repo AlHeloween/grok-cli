@@ -1,0 +1,93 @@
+A lack of information is sometimes the cause of poor financial decisions. When one
+party has more information than the other party, economists describe this imbalance
+as “asymmetric information.” In the market for financial services, where the provider often knows more about the product, there is a potential risk to the consumer
+and the economy. Financial education is a tool for helping individuals manage and
+mitigate risk. Individuals who are better financially prepared can avoid unexpected
+expenses, steer away from frauds and scams, and avoid taking on risks that they do
+not understand or cannot afford to bear. By improving financial literacy and education, the federal government can play an important role in facilitating a vibrant and
+efficient marketplace, which in turn empowers individuals to make informed financial decisions.
+In supporting financial literacy and education, the government can create positive
+spillovers (or positive externalities) from a more financially literate population. A more
+informed population tends to be more productive and thus boosts economic activity.
+A stronger economy can result in more jobs and higher wages for others.
+Financial education can also help avoid negative spillovers (or negative externalities) from a less financially literate population. A negative externality is an economic
+26. GAO, April 2014.
+14 Federal Financial Literacy Reform: Coordinating and Improving Financial Literacy Efforts
+activity that imposes a cost or negative impact on an unrelated third party. These negative externalities cause inefficiencies in the market.27 For example, when a borrower
+with low financial literacy defaults on an ill-advised loan, the lender will bear some
+of these costs. On the other hand, friends and family members, the government and
+others may also bear the cost of that decision. Family members may directly help pay
+off a loan, or cosign on future loans, increasing their own debt-to-income ratios. Thus,
+the original two parties to the loan do not bear the entire cost of the transaction.
+The financial crisis of 2007-2008 demonstrated how individuals and families with
+limited financial literacy can be among those most dramatically affected by downturns
+in the economy. Since Treasury’s mission includes a mandate to maintain a strong
+economy “by promoting the conditions that enable economic growth and stability at
+home and abroad,”28 it is important to keep in mind the role that individual financial
+capability has in the prosperity and financial health of the nation.
+The federal government cannot, and should not, bear the sole responsibility for ensuring the financial capability of individuals and households. Since the creation of the
+FLEC, it has been clear that federal agencies are not solely, or even predominantly,
+responsible for providing financial education to Americans. State and local governments, nonprofits and the private sector rightly have interests in promoting better
+financial decision-making. For example, some employers view financial health similar to physical health and include this as part of their benefits package because of its
+impact on their bottom line. These non-government entities are able to respond to
+needs more quickly, develop customized strategies to deliver financial education, and
+remain engaged and follow up with those served over time.
+Given the substantial accomplishments and opportunities for improved financial education provided by various stakeholders outside of the federal government, it is appropriate to consider the suitable federal role. Treasury’s outreach to stakeholders has
+revealed the desire for the federal government to play an overarching leadership and
+guidance role, rather than trying to directly reach all Americans with financial education lessons. By embracing this role, the federal government can improve the quality
+and reach of financial education activities by promoting best practices, sharing evidence, creating specific resources where appropriate, and deploying policy solutions
+to support the U.S. financial education infrastructure. The federal government, then,
+can be a partner, a source of trusted information and tools, and a leader to the many
+financial education providers striving to improve financial literacy and capability of
+their nation.
+27. See, for example: Hastings, Justine S., Madrian, Brigitte C. and Skimmyhorn,William L. “Financial Literacy, Financial
+Education and Economic Outcomes,” Annu Rev Econom. 2013 May 1; 5: 347–373, 2013, available at: https://dx.doi.
+org/10.1146%2Fannurev-economics-082312-125807; Lusardi, Annamaria and Mitchell, Olivia S. “The Economic Importance of
+Financial Literacy: Theory and Evidence”, Journal of Economic Literature 2014, 52(1), 5-44, 2014, available at: https://www.
+aeaweb.org/articles?id=10.1257/jel.52.1.5.
+28. U.S. Department of the Treasury, “Role of the Treasury”, webpage, available at: https://home.treasury.gov/about/general-information/
+role-of-the-treasury.
+Section 1: Governance of Federal Financial Literacy and Education Efforts 15
+Recommendation
+Treasury recommends that the primary federal role for financial literacy and education should be to empower financial education providers as opposed to trying to
+directly reach every American household. This federal role could include developing
+and implementing policy, encouraging research, and other activities, including conducting financial education programs, and developing educational resources as needed
+to advance best practices and standards to equip Americans with the skills, knowledge, and tools to confidently make informed financial decisions and improve their
+financial well-being. The federal government should also consider the impact of the
+lack of financial literacy on households and the risk to the economy from negative
+externalities and market failures. Financial literacy and education should be seen as a
+vehicle to guard against market failures and foster competitive markets.
+Leadership and Accountability for Federal
+Financial Literacy and Education
+The FLEC’s structure and operations have been informal, with the Treasury providing staff support and management, including organizing public meetings, scheduling informal briefings, and managing reports to Congress and the public. While it
+is clear that there is an important federal role in financial education, the structure of
+financial education across the federal government has not been conducive to both
+attaining measurable outcomes and coordinating activities in order to maximize the
+government’s return on investment. As noted by the OMB Report and the GAO
+report, financial education activities exist in many different agencies, often without a
+requirement that they use or build on programs or resources already paid for by taxpayers. Congress created the FLEC with a purpose to coordinate these activities, yet
+the authorities of the FLEC, as well as its structure, do not provide it with the ability to hold members accountable for coordination, efficiency or outcomes. As GAO
+noted, “We acknowledge that the governance structure of the Commission presents
+challenges in addressing resource issues: it relies on the consensus of multiple agencies, has no independent budget, and no legal authority to compel members to act.”29
+The FLEC’s lack of clear decision-making processes and defined roles and responsibilities has impeded its ability to effectively carry out its national strategy for financial literacy, and its statutory mandates of both improving financial education, and
+streamlining and improving federal financial education activities. As a result, the
+FLEC lacks an effective organizational structure to facilitate goal-setting and decision-making and accountability for outcomes. A more clear and focused leadership
+structure is needed to guide the work of the FLEC.
+In addition to structural impediments to coordination, performance and outcome
+data have not been used systematically to assess the effectiveness of federal activities
+29. GAO, April 2014.
+16 Federal Financial Literacy Reform: Coordinating and Improving Financial Literacy Efforts
+and provide a basis to streamline, augment or improve them. Outcomes should reflect
+the ability of Americans to attain improved financial decision-making as opposed
+to being activity driven. The GAO has noted that “financial literacy program evaluations are most reliable and effective when they measure the programs’ impact on
+consumers’ behavior.”30 By adopting measures that member agencies directly impact
+(performance measures), and indirectly affect (outcome measures), the FLEC will be
+able to better assess the effectiveness of financial education activities and thus make
+improvements in the future.
+Recommendations
+Treasury recommends the FLEC establish bylaws to set clear expectations for its decision-making and roles, including establishing a six-member Executive Committee
+comprised of Treasury (chair), CFPB (vice chair), and ED, HUD, DOL and DoD.
+The Executive Committee will be responsible for crafting, with input from other
+FLEC members, a shared agenda for action and priorities, and be accountable to
+report on achievement of that agenda. The agenda would be voted on and approved
+by a majority of the members.

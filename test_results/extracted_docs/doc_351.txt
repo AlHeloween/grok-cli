@@ -1,0 +1,479 @@
+Obergefell v. Hodges:
+Same-Sex Marriage Legalized
+Rodney M. Perry
+Legislative Attorney
+August 7, 2015
+
+Congressional Research Service
+7-5700
+www.crs.gov
+R44143
+
+Obergefell v. Hodges: Same-Sex Marriage Legalized
+
+Summary
+On June 26, 2015, the Supreme Court issued its decision in Obergefell v. Hodges requiring states
+to issue marriage licenses to same-sex couples and to recognize same-sex marriages that were
+legally formed in other states. In doing so, the Court resolved a circuit split regarding the
+constitutionality of state same-sex marriage bans and legalized same-sex marriage throughout the
+country. The Court’s decision relied on the Fourteenth Amendment’s equal protection and due
+process guarantees.
+Under the Fourteenth Amendment’s Equal Protection Clause, state action that classifies groups of
+individuals may be subject to heightened levels of judicial scrutiny, depending on the type of
+classification involved or whether the classification interferes with a fundamental right.
+Additionally, under the Fourteenth Amendment’s substantive due process guarantees, state action
+that infringes upon a fundamental right—such as the right to marry—is subject to a high level of
+judicial scrutiny.
+In striking down state same-sex marriage bans as unconstitutional in Obergefell, the Court rested
+its decision upon the fundamental right to marry. The Court acknowledged that its precedents
+have described the fundamental right to marry in terms of opposite-sex relationships. Even so, the
+Court determined that the reasons why the right to marry is considered fundamental apply equally
+to same-sex marriages. The Court thus held that the fundamental right to marry extends to samesex couples, and that state same-sex marriage bans unconstitutionally interfere with this right.
+Though the Supreme Court’s decision in Obergefell resolved the question of whether or not state
+same-sex marriage bans are unconstitutional, it raised a number of other questions. These include
+questions regarding, among other things, Obergefell’s broader impact on the rights of gay
+individuals; the proper level of judicial scrutiny applicable to classifications based on sexual
+orientation; what the decision might mean for laws prohibiting plural marriages; the Court’s
+approach to recognizing fundamental rights moving forward; and the proper level of judicial
+scrutiny applicable to governmental action interfering with fundamental rights. This report
+explores these questions.
+
+Congressional Research Service
+
+Obergefell v. Hodges: Same-Sex Marriage Legalized
+
+Contents
+General Constitutional Principles .................................................................................................... 1
+Equal Protection ........................................................................................................................ 1
+Substantive Due Process............................................................................................................ 3
+The Supreme Court Invalidates State Same-Sex Marriage Bans in Obergefell ............................... 4
+Implications of the Supreme Court’s Decision in Obergefell .......................................................... 6
+
+Contacts
+Author Contact Information............................................................................................................. 8
+
+Congressional Research Service
+
+Obergefell v. Hodges: Same-Sex Marriage Legalized
+
+O
+
+n June 26, 2015, the Supreme Court issued its decision in Obergefell v. Hodges legalizing
+same-sex marriage throughout the country by requiring states to issue marriage licenses
+to same-sex couples and to recognize same-sex marriages that were legally formed in
+other states. In doing so, the Court resolved a circuit split1 regarding the constitutionality of state
+same-sex marriage bans.
+This report provides background on, and analysis of, significant legal issues raised by the
+Supreme Court’s decision in Obergefell. It first offers background on the constitutional principles
+on which the Court relied in Obergefell to invalidate state same-sex marriage bans as
+unconstitutional. Then, it walks through the Court’s opinion and rationale. Finally, it discusses
+potential implications of the Court’s decision.
+
+General Constitutional Principles
+Equal Protection
+Under the Fourteenth Amendment’s Equal Protection Clause, “[n]o State shall … deny to any
+person within its jurisdiction the equal protection of the laws.”2 Though there is no parallel
+constitutional provision expressly prohibiting the federal government from denying equal
+protection of the law, the Supreme Court has held that equal protection principles similarly apply
+to the federal government.3 Under the Constitution’s equal protection guarantees, when courts
+review governmental action that distinguishes between classes of people, they apply different
+levels of scrutiny depending on the classification involved. The more suspect the government’s
+classification, or the more likely that the government’s classification was motivated by
+discrimination, the higher the level of scrutiny that courts will utilize in evaluating the
+government’s action.4 Increased scrutiny raises the likelihood that a court will find the action
+unconstitutional. Generally speaking, there are three such levels of scrutiny: (1) strict scrutiny; (2)
+intermediate scrutiny; and (3) rational basis review.
+Strict scrutiny is the most demanding form of judicial review. The Supreme Court has observed
+that strict scrutiny applies to governmental classifications that are constitutionally “suspect,” or
+that interfere with fundamental rights.5 In determining whether a classification is suspect, courts
+consider whether the classified group (1) has historically been subject to discrimination; (2) is a
+11
+
+Previously, the Fourth, Seventh, Ninth, and Tenth Circuits had struck down state same-sex marriage bans under
+equal protection or due process grounds after generally, though not uniformly, subjecting them to heightened levels of
+judicial scrutiny. Bostic v. Schaeffer, 760 F.3d 352 (4th Cir. 2014); Baskin v. Bogan, 766 F.3d 648 (7th Cir. 2014); Latta
+v. Otter, 771 F.3d 456 (9th Cir. 2014); Bishop v. Smith, 760 F.3d 1070 (10th Cir. 2014); Kitchen v. Herbert, 755 F.3d
+1193 (10th Cir. 2014). Conversely, the Sixth Circuit had upheld state same-sex marriage bans and observed that such
+bans warrant the lowest level of judicial review. DeBoer v. Snyder, 772 F.3d 388 (6th Cir. 2014).
+2
+U.S. Const. amend. XIV, §1.
+3
+See Bolling v. Sharpe, 347 U.S. 497 (1954). More specifically, the Court has held that the Fifth Amendment’s
+guarantee of “due process of the law,” applicable to the federal government, incorporates equal protection guarantees.
+See id. at 500.
+4
+Compare City of Cleburne v. Cleburne Living Center, 473 U.S. 432 (1985) (holding that mental disability is not a
+“quasi-suspect” classification, and thus is entitled to rational basis review), with Graham v. Richardson, 403 U.S. 365
+(1971) (holding that classifications based on alienage are “inherently suspect,” and are subject to strict scrutiny).
+5
+See Mass. Bd. of Retirement v. Murgia, 427 U.S. 307, 312 (1976); see also Heller v. Doe, 509 U.S. 312, 319 (1993).
+
+Congressional Research Service
+
+1
+
+Obergefell v. Hodges: Same-Sex Marriage Legalized
+
+minority group exhibiting an unchangeable characteristic that establishes the group as distinct; or
+(3) is inadequately protected by the political process.6 There are generally three governmental
+classifications that are suspect—those based on race, national origin, and alienage.7 When
+applying strict scrutiny to governmental action, reviewing courts consider whether the
+governmental action is narrowly tailored to a compelling government interest.8 The government
+bears the burden of proving the constitutional validity of its action under strict scrutiny, and, in
+doing so, must generally show that it cannot meet its goals via less discriminatory means.9
+Intermediate scrutiny is less searching than strict scrutiny, though it subjects governmental action
+to more stringent inspection than rational basis review. Intermediate scrutiny applies to “quasisuspect” classifications such as classifications based on gender10 or illegitimacy.11 When
+reviewing courts apply intermediate scrutiny to governmental action, they determine whether the
+action is substantially related to achieving an important government interest.12 As with strict
+scrutiny, the government bears the burden of establishing the constitutional validity of its actions
+under intermediate scrutiny.13
+Rational basis review is the least searching form of judicial scrutiny, and generally applies to all
+classifications that are not subject to heightened levels of scrutiny.14 For governmental action to
+survive rational basis review, it must be rationally related to a legitimate government interest.15
+When evaluating governmental action under rational basis review, courts consider the legitimacy
+of any possible governmental purpose behind the action.16 That is, courts are not limited to
+considering the actual purposes behind the government’s action.17 Additionally, the governmental
+action needs only be a reasonable way of achieving a legitimate government purpose to survive
+rational basis review; it does not need to be the most reasonable way of doing so, or even more
+reasonable than alternatives.18 Accordingly, rational basis review is deferential to the government,
+and courts generally presume that governmental action that is subject to such review is
+
+6
+See Lyng v. Castillo, 477 U.S. 635, 638 (1986); see also United States v. Carolene Prods. Co., 304 U.S. 144, 152 n. 4
+(1938).
+7
+Graham, 403 U.S. at 371-72 (“… the Court’s decisions have established that classifications based on alienage, like
+those based on nationality or race, are inherently suspect and subject to close judicial scrutiny.”).
+8
+Parents Involved in Cmty. Schs. v. Seattle Sch. Dist. No. 1, 551 U.S. 701, 720 (2007).
+9
+See Fisher v. University of Tex. at Austin, 133 S. Ct. 2411, 2420 (2014).
+10
+United States v. Virginia, 518 U.S. 515, 533 (1996); see Miss. Univ. for Women v. Hogan, 458 U.S. 718, 724 (1982).
+11
+Clark v. Jeter, 486 U.S. 456, 461 (1988) (“Between these extremes of rational basis review and strict scrutiny lies a
+level of intermediate scrutiny, which generally has been applied to discriminatory classifications based on sex or
+illegitimacy.”).
+12
+See Craig v. Boren, 429 U.S. 190, 198 (1976); see also Clark, 486 U.S. at 461.
+13
+Virginia, 518 U.S. at 533; see Miss. Univ. for Women, 458 U.S. at 724.
+14
+See Cleburne Living Center, 473 U.S at 440-42; see also Schweiker v. Wilson, 450 U.S. 221, 230 (1981).
+15
+See City of Cleburne, 473 U.S. at 440.
+16
+See Nordlinger v. Hahn, 505 U.S. 1, 15 (1992); see also Heller, 509 U.S. at 320.
+17
+See Nordlinger, 505 U.S. at 15; see also Heller, 509 U.S. at 320.
+18
+See Schweiker, 450 U.S. 221, 235 (1981) (observing that, under rational basis review, “[a]s long as the classificatory
+scheme chosen by Congress rationally advances a reasonable and identifiable governmental objective, we must
+disregard the existence of other methods of allocation that we, as individuals, perhaps would have preferred.”); see also
+Heller, 509 U.S. at 320 (observing that under rational basis review, “a classification ‘must be upheld against equal
+protection challenge if there is any reasonably conceivable state of facts that could provide a rational basis for the
+classification.’”) (quoting F.C.C. v. Beach Commc’ns, Inc., 508 U.S. 307, 312 (1993)).
+
+Congressional Research Service
+
+2
+
+Obergefell v. Hodges: Same-Sex Marriage Legalized
+
+constitutionally valid.19 Parties challenging governmental actions bear the burden of establishing
+their invalidity under rational basis review.20
+
+Substantive Due Process
+The U.S. Constitution’s due process guarantees are contained within two separate clauses; one
+can be found in the Fifth Amendment, and the other resides in the Fourteenth Amendment. Each
+clause provides that the government shall not deprive a person of “life, liberty, or property,
+without due process of law.”21 However, the Fifth Amendment applies to action by the federal
+government, whereas the Fourteenth Amendment applies to state action.22
+The Constitution’s due process language makes clear that the government cannot deprive
+individuals of life, liberty, or property without observing certain procedural requirements. The
+Supreme Court has interpreted this language to also include substantive guarantees that prohibit
+the government from taking action that unduly burdens certain liberty interests.23 More
+specifically, substantive due process protects against undue governmental infringement upon
+fundamental rights.24 In determining whether a right is fundamental, Supreme Court precedent
+looks to whether the right was historically and traditionally recognized, and whether failing to
+recognize the right would contravene liberty and justice.25
+The Supreme Court has held that governmental action infringing upon fundamental rights is
+subject to strict scrutiny,26 and thus must be narrowly tailored to a compelling government
+interest.27 Under strict scrutiny, the government must generally show that it has a “substantial”
+and “legitimate” need for its action to be in furtherance of a compelling government interest.28 If
+the government successfully establishes a compelling interest, its action cannot encumber
+fundamental rights any more than is necessary to achieve the government’s need.29 Additionally,
+the government could not have possibly taken alternative action that would similarly further its
+interest while being less burdensome on fundamental rights.30 Otherwise, the government’s action
+is not narrowly tailored to the government’s interest.31 The Supreme Court has recognized a
+19
+
+See Beach Commc’ns, Inc., 508 U.S. at 315; see also Murgia, 427 U.S. at 315.
+Heller, 509 U.S. at 320 (noting that, when reviewing a governmental classification under rational basis review, a
+governmental action is “presumed constitutional,” and the burden lies on the party attacking the governmental action to
+establish the action’s unconstitutionality.).
+21
+U.S. Const. amend. XIV, §1; U.S. Const. amend. V.
+22
+See U.S. Const. amend. XIV, §1; U.S. Const. amend. V.
+23
+See Washington v. Glucksberg, 521 U.S. 702, 719-720 (1997).
+24
+See id.
+25
+See id. at 720.
+26
+See Reno v. Flores, 507 U.S. 292, 301-02 (1993).
+27
+Id. (observing that a line of Supreme Court cases interprets the Fifth Amendment’s and Fourteenth Amendment’s due
+process principles to “forbid[] the government to infringe certain ‘fundamental’ liberty interests at all … unless the
+infringement is narrowly tailored to serve a compelling state interest.”).
+28
+San Antonio Indep. School Dist. v. Rodriguez, 411 U.S. 1, 98 (1973).
+29
+See Dunn v. Blumstein, 405 U.S. 330, 343 (1972).
+30
+Id. (“if there are other, reasonable ways to achieve [government interests] with a lesser burden on constitutionally
+protected activity, a State may not choose the way of greater interference. If it acts at all, it must choose ‘less drastic
+means.’”) (quoting Shelton v. Tucker, 364 U.S. 479, 488 (1960)).
+31
+See id.
+20
+
+Congressional Research Service
+
+3
+
+Obergefell v. Hodges: Same-Sex Marriage Legalized
+
+number of rights as fundamental, including the right to have children,32 use contraception,33 and
+marry.34
+In Obergefell, the Court considered whether the Fourteenth Amendment’s substantive due process
+guarantees require states to issue marriage licenses to same-sex couples and require states to
+recognize same-sex marriages that were legally formed in other states.
+
+The Supreme Court Invalidates
+State Same-Sex Marriage Bans in Obergefell
+The Supreme Court resolved a circuit split on the constitutionality of state same-sex marriage
+bans, finding them unconstitutional in Obergefell v. Hodges. In doing so, the Court relied on the
+Constitution’s due process and equal protection principles to hold that states must issue marriage
+licenses to same-sex couples and recognize same-sex marriages that were legally formed in other
+states.
+The majority in Obergefell rested its decision upon the fundamental right to marry. The Court
+observed that it has long found the right to marry to be constitutionally protected, though it
+acknowledged that its precedent describing the right presumed an opposite-sex relationship.35
+Even so, according to the Court, these cases have identified reasons why the right to marry is
+fundamental,36 which apply equally to same-sex couples. 37 These reasons included (1) personal
+choice in whom to marry is inherent in the concept of individual autonomy; (2) marriage’s unique
+support and recognition of a two-person, committed union; (3) the safeguarding of children
+within a marriage, as both same-sex couples and opposite-sex couples have children; and (4)
+marriage as a keystone of the nation’s social order, with no distinction between same-sex couples
+and opposite-sex couples in states conferring benefits and responsibilities upon marriages.38
+Accordingly, the Court extended the fundamental right to marry to same-sex couples.
+In holding that the fundamental right to marry includes same-sex couples’ right to marry, the
+Court appeared to acknowledge its departure from precedent for determining whether a right is
+fundamental—mentioned earlier in this report—which considers whether it is “deeply rooted in
+this Nation’s history and tradition and implicit in the concept of ordered liberty.”39 The Court
+observed that if rights were defined by who could historically use them, old practices could
+continuously prevent new groups from exercising fundamental rights.40 As such, the Court found
+that “rights come not from ancient sources alone. They rise, too, from a better informed
+32
+
+Skinner v. Okla., 316 U.S. 535 (1942).
+Griswold v. Connecticut, 381 U.S. 479 (1965).
+34
+Loving v. Virginia, 388 U.S. 1 (1967).
+35
+Obergefell, 135 S.Ct. at 2598.
+36
+Id.
+37
+Id. at 2599.
+38
+Id. at 2599-2601.
+39
+Glucksberg, 512 U.S. at 720.
+40
+Obergefell, 135 S. Ct. at 2602 (“If rights were defined by who exercised them in the past, then received practices
+could serve as their own continued justification and new groups could not invoke rights once denied.”).
+33
+
+Congressional Research Service
+
+4
+
+Obergefell v. Hodges: Same-Sex Marriage Legalized
+
+understanding of how constitutional imperatives define a liberty that remains urgent in our own
+era.”41
+After determining that the fundamental right to marry includes the right of same-sex couples to
+marry, the Court also seemed to depart from precedent—and the approaches of courts of appeals
+that relied on the fundamental right to marry to strike down state same-sex marriage bans—by not
+applying strict scrutiny to such bans. As previously noted, courts generally subject governmental
+action that infringes upon a fundamental right to strict scrutiny, requiring that the action be
+narrowly tailored to a compelling government interest to be constitutional.42 The states had
+argued two primary interests for their bans on same-marriage: (1) the desire to wait and see how
+the same-sex marriage debate progresses before changing long-existing marriage norms; and (2)
+incentivizing procreating couples to stay together during child rearing. However, the Court made
+no mention of whether the state same-sex marriage bans at issue were narrowly tailored to these
+justifications. Rather, the Court noted why these justifications were invalid without appearing to
+apply any of the typical levels of judicial review (i.e., rational basis review, intermediate scrutiny,
+or strict scrutiny).43
+The Court held that both equal protection and due process guarantees protect the fundamental
+right to marry, and that states can no longer deny this right to same-sex couples.44 Importantly, in
+doing so, the Court did not hold that classifications based on sexual orientation warrant any form
+of heightened scrutiny. In fact, the Court made no mention of the proper level of scrutiny
+applicable to such classifications.
+Some of the dissenting Justices in Obergefell thought that the majority exceeded the Court’s
+proper role by removing the question of whether same-sex couples have the right to marry from
+the democratic process, where, they stated, it is properly resolved.45 According to these Justices,
+the five-person majority should not have resolved the hotly contested issue of same-sex marriage
+for the entire country; such resolution should have come from the people.46 The dissenting
+Justices also voiced concern with the majority looking beyond history and tradition to establish a
+fundamental right contrary to Supreme Court precedent.47 According to the dissenting Justices,
+the requirement that fundamental rights be rooted in tradition and history exists to prevent the
+Court from imparting its policy decisions regarding which rights have constitutional protection.48
+
+41
+
+Id.
+See Flores, 507 U.S. at 301-02.
+43
+See Obergefell, 135 S. Ct. at 2605-07.
+44
+Id. at 2604.
+45
+Id. at 2612, 2615 (Roberts, J., dissenting).
+46
+See id.
+47
+See id. at 2617.
+48
+See id.
+42
+
+Congressional Research Service
+
+5
+
+Obergefell v. Hodges: Same-Sex Marriage Legalized
+
+Implications of the Supreme Court’s Decision
+in Obergefell
+Although the Supreme Court answered questions surrounding the constitutionality of state samesex marriage bans in Obergefell, its decision raised a number of other questions. These include
+questions regarding, among other things, Obergefell’s broader impact on the rights of gay
+individuals; the proper level of judicial scrutiny applicable to classifications based on sexual
+orientation; what the decision might mean for laws prohibiting plural marriages; the Court’s
+approach to recognizing fundamental rights moving forward; and the proper level of judicial
+scrutiny applicable to governmental action interfering with fundamental rights. This section
+briefly explores these questions.
+Obergefell raised questions about the decision’s broader impact on the rights of gay individuals—
+that is, whether its rationale extends rights to gay individuals outside of the marriage context.
+However, the decision appears limited to the marriage context. Although the majority opinion did
+make reference to same-sex marriage bans implicating equal protection guarantees, its holding
+rested entirely on such bans infringing upon the fundamental right to marry in violation of both
+equal protection and due process guarantees. The Court did not mention whether classifications
+based on sexual orientation are suspect or quasi-suspect, and thus warrant any form of heightened
+scrutiny. If the Court had rendered such a holding, its decision would have arguably had broader
+implications for the rights of gay individuals, as it would have potentially subjected all
+governmental action that classifies based on sexual orientation to a heightened form of judicial
+scrutiny.
+Prior to Obergefell, federal appeals courts were split regarding the proper level of judicial
+scrutiny applicable to governmental action that classifies based on sexual orientation. The U.S.
+Court of Appeals for the Ninth Circuit (Ninth Circuit) has held that classifications based on
+sexual orientation warrant heightened scrutiny, though it did not clarify whether this heightened
+scrutiny was intermediate or strict scrutiny.49 The U.S. Court of Appeals for the Second Circuit
+(Second Circuit) has similarly found that classifications based on sexual orientation are quasisuspect, and thus any governmental action that classifies based on sexual orientation is subject to
+intermediate scrutiny.50 Conversely, however, the U.S. Court of Appeals for the Sixth Circuit
+(Sixth Circuit) has held that governmental action that classifies based on sexual orientation is
+neither suspect nor quasi-suspect, and thus subject only to rational basis review.51
+Because the Court’s decision in Obergefell rested on the fundamental right to marry—and
+therefore seems limited to the marriage context—nothing in the opinion appears to resolve the
+circuit split between the Second, Sixth, and Ninth Circuits regarding the correct level of scrutiny
+applicable to classifications based on sexual orientation. Other lower courts will be left to grapple
+with this issue in the future. This ambiguity leaves open the possibility that, moving forward,
+circuit courts could either, like the Second and Ninth Circuits, apply heightened scrutiny to laws
+that classify based on sexual orientation (e.g., laws that provide exemptions from antidiscrimination legislation for religious entities based on their objections to certain sexual
+49
+
+See Latta, 771 F.3d at 468.
+Windsor v. United States, 699 F.3d 169, 185 (2nd Cir. 2012).
+51
+Davis v. Prison Health Servs., 679 F.3d 433, 438 (6th Cir. 2012).
+50
+
+Congressional Research Service
+
+6
+
+Obergefell v. Hodges: Same-Sex Marriage Legalized
+
+orientations), or could apply rational basis review to such laws like the Sixth Circuit. The fact that
+some lower courts may apply heightened scrutiny to government action that classifies based on
+sexual orientation where other courts may not is significant because, as discussed earlier in this
+report, laws subject to higher levels of scrutiny are more likely to be found unconstitutional. As
+such, this could create a situation wherein similar laws that classify based on sexual orientation
+receive dissimilar outcomes when facing constitutional challenge, depending on the evaluating
+court.
+The Supreme Court’s decision in Obergefell also raised questions regarding whether the Court’s
+rationale could potentially extend the fundamental right to marry to polygamy. In fact, Chief
+Justice John Roberts, in his dissent in Obergefell, seems to suggest that the majority’s opinion
+could lead to the legalization of plural marriages.52 However, the majority’s opinion seems crafted
+so as to try to limit its reach to the same-sex marriage context, in a possible attempt to prevent its
+rationale from extending the fundamental right to marry to plural marriages.
+As previously discussed, the majority in Obergefell found that the four reasons why the right to
+marry is fundamental apply equally to same-sex couples, and thus extended the fundamental right
+to marry to same-sex couples. Some commentators have observed that there are distinctions
+between plural marriages and same-sex marriages sufficient to prevent Obergefell’s rationale
+from being extended to legalize plural marriage.53 Conversely, other commentators have observed
+that parts of the Court’s opinion discussing why the fundamental right to marry includes same-sex
+marriage (e.g., the majority’s consideration of individual autonomy and family) could potentially
+provide basis for extending constitutional protections to plural marriages.54
+Additionally, the majority in Obergefell seemingly departed from precedent for determining
+whether a right is fundamental by looking beyond historical and traditional recognition. This
+deviation from prior cases raises the possibility that, when determining whether a right is
+fundamental in the future, the Court will consider how the right is viewed at the time, in addition
+to its historical and traditional recognition. This could have the effect of expanding the number of
+rights that are deemed fundamental for purposes of substantive due process protections.
+Finally, the Court did not clarify which, if any, of the typical levels of judicial review (i.e.,
+rational basis review, intermediate scrutiny, or strict scrutiny) it applied to state same-sex
+marriage bans after finding that such bans interfere with same-sex couples’ fundamental right to
+marry. Moving forward, this raises questions regarding the proper level of judicial scrutiny
+52
+
+See Obergefell, 135 S. Ct. at 2621 (“It is striking how much of the majority’s reasoning would apply with equal force
+to the claim of a fundamental right to plural marriage.”).
+53
+See, e.g., Joanna L. Grossman and Lawrence M. Friedman, Is Three Still a Crowd? Polygamy and the Law After
+Obergefell v. Hodges, JUSTIA, July 7, 2015, https://verdict.justia.com/2015/07/07/is-three-still-a-crowd-polygamy-andthe-law-after-obergefell-v-hodges (observing that, to win in court, polygamists must “convince a court that the
+justification for allowing same-sex couples to marry applies with equal force to a person who wants multiple spouses,”
+and questioning whether the four “main reasons for recognizing the right of same-sex couples to marry” apply to
+polygamists); see also Richard A. Posner, The Chief Justice’s Dissent is Heartless, Slate, June 27, 2015,
+http://www.slate.com/articles/news_and_politics/the_breakfast_table/features/2015/scotus_roundup/
+supreme_court_gay_marriage_john_roberts_dissent_in_obergefell_is_heartless.html.
+54
+See, e.g., William Baude, Is Polygamy Next?, N. Y. TIMES, July 21, 2015, http://www.nytimes.com/2015/07/21/
+opinion/is-polygamy-next.html?mabReward=CTM&action=click&pgtype=Homepage&region=CColumn&module=
+Recommendation&src=rechp&WT.nav=RecEngine; see also Jonathan Turley, The Trouble with the ‘Dignity’ of SameSex Marriage, Wash. Post, July 2, 2015, https://www.washingtonpost.com/opinions/the-trouble-with-the-dignity-ofsame-sex-marriage/2015/07/02/43bd8f70-1f4e-11e5-aeb9-a411a84c9d55_story.html.
+
+Congressional Research Service
+
+7
+
+Obergefell v. Hodges: Same-Sex Marriage Legalized
+
+applicable to governmental action that infringes upon fundamental rights. Given that increased
+scrutiny decreases the likelihood that a court will find government action constitutional, this
+could create ambiguity regarding the degree to which the government can permissibly take action
+that interferes with fundamental rights.
+
+Author Contact Information
+Rodney M. Perry
+Legislative Attorney
+rperry@crs.loc.gov, 7-5203
+
+Congressional Research Service
+
+8
+
+

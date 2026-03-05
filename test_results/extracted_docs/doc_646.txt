@@ -1,0 +1,81 @@
+Abstract
+The Nest Thermostat is a smart home automation device that aims to learn a user’s heating
+and cooling habits to help optimize scheduling and power usage. With its debut in 2011, Nest
+has proven to be such a success that Google spent $3.2B to acquire the company. However,
+the complexity of the infrastructure in the Nest Thermostat provides a breeding ground for
+security vulnerabilities similar to those found in other computer systems. To mitigate this
+issue, Nest signs firmware updates sent to the device, but the hardware infrastructure lacks
+proper protection, allowing attackers to install malicious software into the unit. Through a USB
+connection, we demonstrate how the firmware verification done by the Nest software stack can
+be bypassed, providing the means to completely alter the behavior of the unit. The compromised
+Nest Thermostat will then act as a beachhead to attack other nodes within the local network.
+Also, any information stored within the unit is now available to the attacker, who no longer has
+to have physical access to the device. Finally, we present a solution to smart device architects
+and manufacturers aiding the development and deployment of a secure hardware platform.
+1 Introduction
+The concept of Internet of Things (IoT) and wearable devices has been widely accepted in the last
+few years with an increasing amount of smart devices being designed, fabricated, and deployed.
+It is estimated that there will be more than 50 billion network connected devices by 2020, the
+majority of which will be IoT and wearable devices1
+. The once science fiction scenes that showed
+our refrigerators ordering us milk and our washing machines messaging us when laundry needs to
+be done are now reality.
+The convenience provided by networked smart devices also breeds security and privacy concerns.
+Nest founder Tony Fadell claimed in an interview, “We have bank-level security, we encrypt updates,
+and we have an internal hacker team testing the security ... [the Nest Thermostat] will never take off
+if people don’t trust it.” However, a deep look into the current IoT and wearable device design flow
+revealed to us that most of the current security considerations, if any, are put on the application
+and network level. That is, designers often treat IoT and wearable devices as standard networked
+devices and try to apply the security protections developed for regular, everyday use computing
+devices. It is rare to find any work done beyond firmware authentication or encryption. Most IoT
+and wearable devices collect usage information and other data and send it to a service provider,
+leading to privacy concerns. Full disclosure of the what is collected is rare, and anything that is
+actually published is often hidden in the legalese that is the privacy policies and terms of services
+of the unit
+In the rest of the paper, we will introduce our work identifying a security vulnerability in the
+Nest Thermostat, targeting the hardware infrastructure and the hardware-software boundary. We
+will demonstrate that attackers who understand the hardware can change the boot process of the
+device in order to upload malicious firmware, effectively bypassing the firmware update verification
+done by the software. From a positive angle, however, we argue that this same vulnerability offers
+legitimate users a way to defend themselves against the collection of data thus protecting their
+privacy and to extend the functionality of the device.
+2 The Nest Thermostat
+The Nest Thermostat is a smart device designed to control a central air conditioning unit based
+on heuristics and learned behavior. Coupled with a WiFi module, the Nest Thermostat is able
+connect to the user’s home or office network and interface with the Nest Cloud, thereby allowing
+for remote control of the unit. It also exhibits a ZigBee module for communication with other Nest
+devices, but has remained dormant for firmware versions up to the now current 4.2.x series.
+The Nest Thermostat runs a Linux kernel, coupled with some GNU userland tools, Busybox,
+other miscellaneous utilities supporting a proprietary stack by Nest Labs. To remain GPL compliant, the modified source code used within the device has been published and is available for download from Nest Lab’s Open Source Compliance page at https://nest.com/legal/compliance,
+with the notable exception of the C library. A toolchain to build these sources is not provided
+either.
+2.1 User Privacy
+The Nest Thermostat will collect usage statistics of the device and environmental data and thus
+“learn” the user’s behavior. This is stored within the unit and also uploaded to the Nest Cloud
+once the thermostat connects to a network. Not only usage statistics are uploaded, but also system
+logs and Nest software logs, which contains information such as the user’s Zip Code, device settings,
+HVAC settings, and wiring configuration. Forensic analysis of the device also yields that the Nest
+Thermostat has code to prompt the user for information about their place of residence or office.
+Reports indicate that Nest plans to share this information with energy providers in order to generate
+energy more efficiently.
+2.2 Architecture Overview
+As a device itself, the Nest Thermostat is divided into two components, a backplate which directly
+interfaces with the air conditioning unit and a front panel with a screen, a button, a rotary dial
+and a motion sensor. The operating system runs on the front plate.
+The backplate contains a STMicroelectronics low power ARM Cortex-M3 microcontroller with
+128KiB of flash storage and 16KiB of RAM, coupled with a few driver circuits and an SHT20
+temperature and humidity sensor. The backplate communicates with the front plate using a UART.
+The front panel offers a Texas Instruments (TI) Sitara AM3703 microprocessor, 64MiB of
+SDRAM, 2Gibit (256MiB) of ECC NAND flash, a ZigBee module and a WiFi module supporting 802.11 b/g/n. The board for this device also offers a Texas Instruments TPS65921B power
+management module with HS USB capabilities. This part of the Nest has been the target of our
+research so far, as it contains the most hardware and handles all user data and input.
+2.3 Boot Process
+Upon normal power on conditions, the Sitara AM3703 starts to execute the code in its internal
+ROM. This code initializes the most basic peripherals, including the General Purpose Memory
+Controller (GPMC). It then looks for the first stage bootloader, x-loader, and places it into SRAM.
+Once this operation finishes, the ROM code jumps into x-loader, which proceeds to initialize other
+peripherals and SDRAM. Afterwards, it copies the second stage bootloader, u-boot, into SDRAM
+and proceeds to execute it. At this point, u-boot proceeds to initialize the remaining subsystems
+and executes the uImage in NAND with the configured environment. The system finishes booting
+from NAND as initialization scripts are executed, services are run, culminating with the loading
+of the Nest Thermostat proprietary software stack.

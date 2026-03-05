@@ -1,0 +1,891 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/257885522
+Prey selection among Los Angeles car thieves
+Article  in  Crime Science · December 2013
+DOI: 10.1186/2193-7680-2-3
+CITATIONS
+14
+READS
+183
+1 author:
+P. Jeffrey Brantingham
+University of California, Los Angeles
+159 PUBLICATIONS   8,448 CITATIONS   
+SEE PROFILE
+All content following this page was uploaded by P. Jeffrey Brantingham on 17 April 2020.
+The user has requested enhancement of the downloaded file.
+R E S EAR CH Open Access
+Prey selection among Los Angeles car thieves
+P Jeffrey Brantingham
+Abstract
+More than 63,000 cars were reported stolen in Los Angeles in 2003–04. However, the distribution of thefts across
+car types is very uneven. Some cars types such as the Honda Civic were stolen at much higher frequencies than
+the majority of car types. Charnov’s classic prey selection model suggests that such uneven targeting should be
+related to variations in the environmental abundance, expected payoffs, and handling costs associated with
+different car types. Street-based surveys in Los Angeles suggest that differences in abundance explain the majority
+of thefts. Cars stolen despite being rare may reflect offender preference based on differential payoffs, probably in
+some non-monetary currency such as prestige or excitement. Differential handling costs play a more ambiguous
+role in target selection, but may underlie thieves’ decisions to ignore some cars common in the environment. The
+unspecialized nature of car theft in Los Angeles suggests that the behavioral and cognitive capacities needed to be
+a successful car thief are generic. The evolved capacity to solve foraging problems in boundedly-rational ways,
+mixed with small amounts of trial-and-error and/or social learning, are sufficient to produce experts from
+inexperienced thieves.
+Keywords: Crime; Environmental criminology; Behavioral ecology; Optimal foraging; Bounded-rationality;
+Social learning
+Background
+The rational choice theory of crime holds that offenders
+engage in crime because they stand to receive significant
+short-term benefits with little attendant risk and small
+associated costs (Cornish and Clarke 1986, 1987). Presented with a suitable target or victim, unguarded by an
+effective security measure, the reasoning offender generally capitalizes on that opportunity (Felson and Clarke
+1998; Freeman 1996). Beyond implying a common-sense
+relationship between benefits and costs, however, rational choice theory does not immediately identify what
+makes any given victim or target suitable. A conceptual
+framework introduced by Clarke (1999) suggests that
+property targets are suitable when they are concealable,
+removable, available, valuable, enjoyable and disposable,
+capturing several of the dimensions of costs and benefits
+that are important in offender decision making. While
+useful, the so-called CRAVED approach also leaves much
+unspecified about the relative importance of relationships
+among the different dimensions of target suitability.
+Here I turn to theory arising outside of criminology to
+provide a formal framework in which understand the relationships between target characteristics and offender
+target selection. Specifically, I use Charnov’s (1976) prey
+selection model to evaluate offender choice to steal different car types. The prey selection model postulates
+that a forager will ignore a particular prey type upon encounter if the expected return from a future prey encounter is greater. Preference in Charnov’s model is
+defined in terms of the relative abundance of different
+prey types and their respective handling costs and payoffs upon consumption. Intuitively, prey that are easy to
+handle or have high payoffs may be preferred but rarely
+taken, if they are rarely encountered. Prey that are hard
+to handle or have low payoffs may still be taken, if more
+profitable prey are rarely encountered. Here the predictions of Charnov’s prey selection model are rejected
+based on findings that unique car types are stolen almost
+exclusively in response to their environmental availability. Only occasionally are cars targeted because they
+have higher perceived payoffs. Overall, Los Angeles car
+thieves operate primarily as unspecialized foragers.
+Correspondence: branting@ucla.edu
+Department of Anthropology, University of California, Los Angeles,
+341 Haines Hall, UCLA, Box 951553, Los Angeles, CA 90095-1553, USA
+© 2013 Brantingham; licensee Springer. This is an Open Access article distributed under the terms of the Creative Commons
+Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and reproduction
+in any medium, provided the original work is properly cited.
+Brantingham Crime Science 2013, 2:3
+http://www.crimesciencejournal.com/content/2/1/3
+Optimal foraging theory and crime
+Foraging theory is the branch of ecology that seeks to
+understand how animal behavior facilitates the encounter, acquisition and processing of resources necessary to
+survival (Stephens and Krebs 1986). The foraging challenges facing an animal are substantial. Essential resources are rarely located in the same location as the
+animal needing them, necessitating behaviors that either
+carry the animal to the resources, or position the animal
+to intercept resources that move. Many resource types
+possess defenses that aim to thwart acquisition, even
+after a forager has encountered them. Animals therefore
+need behavioral strategies designed discriminate among
+resource types and defeat their defenses once they have
+decided to acquire them. Finally, even after a resource as
+been encountered and acquired, it may contain a mixture of useable and unusable constituents. Behaviors
+may play a key role in sorting and separating these constituents. Only after jumping these foraging hurdles may
+an animal benefit from the resource. Recognize, however, that the behaviors deployed to facilitate encounter,
+acquisition and processing of a resources are not cost
+free. Optimal foraging theory therefore posits that evolution and/or learning has shaped animal behavior to
+maximize the average or long-term return rate from essential resources, net the costs of encounter, acquisition
+and processing. Here I cast car theft as a foraging problem and test the proposition that the specific car types
+stolen represent behaviors consistent with optimal foraging theory.
+Three conditions must be met to consider car theft as
+an optimal foraging problem (see also Bernasco 2009;
+Felson 2006; Johnson et al. 2009). First, car theft should
+satisfy a need that is perceived by the offender to be
+essential. Car thieves report a range of motivations for
+stealing cars including financial motives such as theftfor-export or an immediate need for cash, mundane or
+routine motives such as transportation, and recreational
+motives such as a search for excitement, prestige or status (Copes 2003; Dhami 2008; Kellett and Gross 2006;
+Lantsman 2013; Light et al. 1993). With the exception of
+theft-for-transport, car theft is not remarkable in motivation compared with other crimes (Wright et al. 2006;
+Wright and Decker 1994). However, car theft may be a
+comparably low risk alternative to satisfy these needs
+(Copes and Tewksbury 2011). Between 2003 and 2006,
+~12.9% of reported car thefts in the US were cleared by
+arrests, while robberies over the same period were
+cleared at a rate twice as high ~25.8% (Federal Bureau of
+Investigation 2003–2006). The vast majority of car thefts
+therefore entail no negative consequences, at least over
+the short term (Freeman 1999). The benefits may therefore be substantial. Payoffs to car theft might be calculated in a cash currency, if cars and/or their parts are
+being fenced (Clarke 1999; Tremblay et al. 2001). Payoffs
+might also be calculated in non-cash commodities such
+as barter value in drugs (Stevenson and Forsythe 1998)
+or prestige and excitement—an essential resource for joy
+riding teenagers (Copes 2003; Jacobs et al. 2003; Kellett
+and Gross 2006).
+Second, car thieves must also have behavioral alternatives to deploy during foraging and these alternatives
+must result in different payoff outcomes. Ethnographic
+evidence indicates that car theft involves choices between alternative search strategies, tools and techniques for gaining entry and ‘hot wiring’ targeted
+vehicles, and strategies for escape and disposal of
+stolen vehicles (Copes and Cherbonneau 2006; Copes
+and Tewksbury 2011; Farrell et al. 2011; Langworthy
+and Lebeau 1992; Lantsman 2013; Light et al. 1993; Lu
+2003). Whether these different behavioral alternatives
+lead to real differences in payoffs is an open question.
+The observation that different car types are stolen to
+satisfy different needs may imply differential payoffs
+(Clarke 1999). However, the extent to which alternative
+behavioral strategies drive these payoffs, as required by
+optimal foraging theory, is unknown.
+Finally, there must be a mechanism by which car
+thieves select among the alternative behaviors, yielding
+near-optimal strategies for locating, stealing and disposing of cars. Simple trial-and-error and/or social
+learning in the context of co-offending appear to play
+this role (Akers 2008; Reiss and Farrington 1991). Juvenile car thieves often start as passengers, observing
+the actions of their more experienced friends (Light
+et al. 1993). Such learning mechanisms seem capable
+quickly producing effective cognitive scripts that car
+thieves can adhere to during commission of a crime
+(Tremblay et al. 2001).
+The prey selection model
+The foraging problem confronted by car thieves is
+similar in many ways to prey selection, a classical
+problem in behavioral ecology studied by Charnov
+(1976) and others (see Krebs et al. 1977; Stephens
+and Krebs 1986). Given sequential encounters with
+prey types, each having different expected returns
+and handling costs, which types should be pursued
+and captured? Let ei, hi and λi be the expected payoff,
+handling cost and local density of a prey of type i.
+Prey types i = 1, 2, … N are ranked in descending
+order of the ratio of payoff to handling cost ei/hi. The
+prey classification algorithm says that prey types i =
+1, 2, … j should be pursued and captured upon encounter, but prey type j + 1 should be ignored if its
+payoff to handling cost ratio is below the mean for
+all higher ranked prey:
+Brantingham Crime Science 2013, 2:3 Page 2 of 11
+http://www.crimesciencejournal.com/content/2/1/3
+X
+j
+i¼1
+λiei
+1 þX
+j
+i¼1
+λihi
+>
+ejþ1
+hjþ1
+ð1Þ
+In other words, if the expected return from future prey
+encounters is higher than would be gained by taking the
+current target, then it is better to wait.
+The prey choice model makes two distinctive predictions. First, prey types are either always taken upon
+encounter, or always ignored. This is the so-called
+“zero–one” rule in reference to the analytical result that
+an attack on prey type i will occur with probability
+qi = 0, or qi = 1, and nothing in between (Stephens and
+Krebs 1986). Second, whether or not a prey type is taken
+is dependent only on the encounter rate with higherranked prey, not its own encounter rate. Note that the
+term λi appears only on the left-hand side in Equation
+(1). The implication is that only changes in the encounter rate with higher ranked prey items will impact the
+decision to attack a lower ranked prey item once it has
+been encountered. Thus, if a higher ranked prey type becomes very scarce, a lower ranked prey type may be
+added to the diet. However, if a lower ranked prey type
+suddenly becomes very common, it will not necessarily
+be added to the diet without a concomitant change in
+the rate of encounter with higher ranked types. Empirical evidence from both animal (Hughes and Dunkin
+1984; Prugh 2005; but see Pyke 1984) and human foragers (Hames and Vickers 1982; Smith 1991) suggests
+that the prey classification algorithm provides insights
+into prey selection behavior across a diverse range of
+taxa and foraging contexts.
+Car theft may be considered a special case of prey selection if car types vary in expected payoffs, handling
+costs and/or local abundance and offenders are attentive
+to these differences. As discussed in the Methods section, the available data on payoffs and handling times do
+not allow for a fine-grained test of either the zero–one
+rule, or the hypothesis that changes in the encounter
+rate with higher-ranked car types impact the inclusion of
+lower ranked car types in an offender’s ‘diet’. A strict
+reading of the prey choice model also suggests that car
+theft may not perfectly conform to all of its assumptions
+(see for comparison Smith 1991). The prey choice model
+assumes that: (1) foragers are long-term rate maximizers, meaning that average results of stealing cars over
+long time periods, rather than short-term gains, are optimized by different foraging strategies; (2) searching for
+and handling of targeted vehicles are mutually exclusive;
+(3) encounters with vehicles follow a Poisson process,
+meaning that two cars cannot be encountered simultaneously and each encounter is statistically independent of
+all others; (4) the payoff to stealing cars ei, the handling
+costs hi, and encounter rates λi are environmentally fixed
+in time and space; and (5) that the foraging car thief has
+perfect information about ei, hi and λi.
+Assumptions 1, 2, 3 and 5 may be reasonable for car
+theft. The notion that criminal behavioral strategies
+might be shaped by learning to produce long-term average rate maximization (Assumption 1) seems far fetched
+at first (but see Tremblay and Morselli 2000). Criminal
+offenders tend to be present-oriented (Gottfredson and
+Hirschi 1990; Nagin and Paternoster 1994) and therefore
+appear little concerned with the long-term costs and
+benefits of crime (Wilson and Abrahamse 1992). However, the question at hand is not whether crime pays
+relative to non-crime alternatives, but rather whether
+stealing one car type is more profitable in the long run
+than stealing an alternative car type. It is conceivable
+that offenders adopt strategies that maximize the longterm or average payoffs from car theft by making discriminating choices about which cars to steal.
+It is also reasonable to suppose that simultaneous
+search for cars to steal and the physical act stealing a car
+are mutually exclusive activities (Assumption 2). This is
+made more complicated by co-offending, which is quite
+common for younger car thieves (Light et al. 1993), if
+some in an offending party search nearby targets while
+others are breaking into a given car.
+It is unknown whether encounters with cars to steal
+follow a Poisson process (Assumption 3). Ultimately, this
+is an empirical question for which data need to be
+collected. Conceptually, however, a motivated car thief
+walking down a linear street segment encounters cars
+sequentially and independently. Whether such conditions hold in a parking lot may depend on situational
+factors such as the layout of and available observation
+points in the lot. The prey choice model is not obviated
+under these circumstances (Stephens and Krebs 1986:
+38–45), but additional costs associated with discriminating between simultaneously encountered car types must
+be taken into account.
+Perhaps the greatest challenge comes from strictly assuming that the key parameters of prey selection remain
+fixed in time and space (Assumption 4) (Suresh and
+Tewksbury 2013). At intermediate time scales (months
+to years), the payoffs to stealing different car types certainly change with turnover in the composition of cars
+on the street. Early and late model years may differ significantly in both perceived or actual value as well as
+handling costs, for example, following the introduction
+of RFID keys for ignition systems (Farrell et al. 2011).
+Similarly, there may be short-term (hourly-daily) fluctuations in environmental abundance of cars parked in locations where they might be stolen. Nevertheless, it is
+reasonable to assume that car thieves have relatively
+Brantingham Crime Science 2013, 2:3 Page 3 of 11
+http://www.crimesciencejournal.com/content/2/1/3
+accurate knowledge of the encounter rates, payoffs and
+handling costs associated with different cars, or learn them
+very quickly when conditions change (Assumption 5)
+(Akers 2008; Light et al. 1993).
+Given the above limitations, I test a conservative null
+hypothesis in place of the two detailed predictions made
+by the prey selection model:
+ H0. If every car yields the same payoff and all are
+equally difficult to steal (i. e., ei/hi = ej/hj ∀ i, j),
+then differences in theft rates arise only from
+differences in relative abundances of car types λi.
+In other words, if all cars rank equally in the ratio of
+payoffs to handling costs, then all cars are part of the
+‘diet’ and should be taken immediately upon encounter.
+Cars encountered more frequently will appear in the diet
+more often and, in fact, will be stolen at a frequency
+proportional to λi. One should therefore expect a strong
+correlation between relative abundances and theft rates
+if the null hypothesis is true. Failure to reject the null
+hypothesis implies that car thieves are unspecialized foragers and take only what is presented to them by the environment. Rejection of the null hypothesis, for all or
+even some car types, may constitute evidence that differential payoffs and/or handling costs enter into car
+thieves’ situational foraging decisions. Under these circumstances we can evaluate the role that payoffs and/or
+handling costs may play in driving target choice.
+Methods
+Car types are defined as unique make-models or, where
+necessary, make-model-years. For example, 1992 and
+2002 Honda Civics may be different car types, from the
+point of view of the offender, because they have different
+perceived payoffs and may also differ in how easy they
+are to break into and ‘hot wire’ (Farrell et al. 2011). An
+initial database of car make-model-years was assembled
+using a popular car shopping and research website,
+www.edmonds.com. A student assistant was then trained
+to quickly and accurately identify car types in pilot surveys of a university campus parking structures.
+Street-based surveys were conducted in three Los
+Angeles zip codes (90034, 90045 and 90291) during two
+excursions in October-December 2004 and OctoberDecember 2005. The three survey locations had the
+highest volume of car thefts in 2003 among zip codes on
+the Los Angeles West Side. Surveys involved walking between one and three contiguous blocks, first up one side
+and then down the other. Surveys on the exact same
+block segments were conducted at two-hour intervals
+between 6AM and 6PM. The most dramatic change in
+density of cars parked on the street occurred between
+6AM and 8AM. I therefore assume that the mix of car
+types seen at 6AM represents the overnight diversity.
+Only vehicles in publically accessible street locations
+were recorded. The observed relative frequency of each
+car type i is used as a measure of encounter rate λi.
+Expected value on the illegal market is used as a proxy
+for the payoffs ei associated with stealing different car
+types (Copes 2003; Matsueda et al. 1992). I do not assume that all car thieves seek cash. Rather, illegal market
+value is a generic currency that is expected to be positively correlated with non-monetary payoffs. For example, a ‘hot car’ is not only more likely to demand
+more money in an illegal market context, but it is also
+expected to have a higher payoff in excitement and prestige for the teenage car thief. Illegal market value is calculated as ei = f ∑ ipivi, where pi is the proportion of cars
+of a given make-model-year stolen, vi is the legal market
+value of the car at the time of theft as determined from
+the Kelley Blue Book (DeBacker 2003), and f is the fraction of the legal market value realized on the illegal market. I assume that f = 0.1, but choice of a different
+constant does not impact the results.
+I use break-in times as a proxy for overall handling
+costs hi. The UK-based “What Car?” Security Supertest
+(Secured by Design 2000, 2003) conducted attack testing
+of new cars marketed in the UK. The tests evaluated the
+ability of new vehicles to withstand attacks by trained
+locksmiths using the non-destructive entry techniques
+commonly deployed by car thieves. The tests included
+123 unique make-models and measured the time, in
+seconds, needed to gain entry to each vehicle. A car
+was considered to pass the test if it was not possible
+to gain entry within two minutes. Break-in time represents only one of the handling costs associated with
+car theft. I assume, however, that the handling costs
+at different critical points in the theft process are
+positively correlated. For example, if a car is easy to
+enter, it is also more likely to be easy to ‘hot wire’,
+less likely to have a geo-location device installed and
+be easier to chop.
+Evaluation of the relationships between car theft, environmental abundances, payoffs and handling costs is conducted
+using non-parametric statistics that are robust to ordinal
+scale data and non-normal distribution characteristics
+(Conover 1998). Theft frequencies and environmental abundances are compared using Kendall’s τ, a generalized correlation coefficient that measures the similarity of ranked
+order lists. Kendall’s τ b allows for rank order ties. Illegal
+market values and break-in times among common and
+rare cares are non-normally distributed. Medians
+therefore provide the most robust measure of central
+tendency and the non-parametric Mann–Whitney U
+the most appropriate corresponding statistical test.
+Differences in distribution shape are computed using
+the non-parametric Kolmogorov-Smirnov D.
+Brantingham Crime Science 2013, 2:3 Page 4 of 11
+http://www.crimesciencejournal.com/content/2/1/3
+Results
+Between 1 Jan 2003 and 31 December 2004, 63,528 vehicles were reported stolen within the City of Los Angeles
+(Federal Bureau of Investigation 2003–2006). In zip
+codes 90034, 90045 and 90291, located on the West Side
+of Los Angeles and representing ~3.5% of the land area
+of the City, a total of 2,251 cars were stolen during the
+same period, or ~3.5% of all thefts. These cars are divided into 271 unique make-model types. The Honda
+Civic and Accord, Toyota Camry and Corolla, and
+Nissan Sentra together comprise ~25% of the total
+thefts and 87 car types are represented by single thefts
+(Figure 1A, Table 1).
+To test whether the observed bias in thefts towards
+some car types is driven by environmental abundance, I
+conducted surveys of main artery and residential streets
+(see Methods). A total of 1,825 cars were observed and
+these were classified into 262 unique make-model types.
+As with reported thefts, the cars available on the streets
+are dominated by a few types (Figure 1B). Seventy seven types identified in the survey are singletons. The distribution is qualitatively similar to rank species abundance curves in ecology, which show environments
+numerically dominated by a few species, but most of
+the richness is accumulated through species with small
+numbers of individuals Hubbell (2001). Here I focus on
+the top 25 most commonly stolen cars. These car types
+account for 53% of the total observed volume of stolen
+cars (N = 1198) and the bulk of the variation in theft
+frequency.
+A comparison of theft and density rank order frequencies shows a significant positive relationship (Kendall’s τ
+b = 0.491, p < 0.001) (Figure 2). Thirteen of the top 25
+most stolen cars are also in the top 25 for abundance
+(Table 1). In general, the most common cars on the
+street are also the most stolen. The positive relationship
+between abundance and theft is particularly strong
+among the top nine most stolen cars (Kendall’s τ b =
+0.611, p = 0.022). Honda Civics are the most abundant
+cars and the most frequently stolen. For the top nine
+cars it is difficult to reject the null hypothesis that environmental abundance is driving the targeting of these vehicles for theft.
+Note, however, that approximately one half (N = 12)
+of the top 25 most stolen cars are not in the top 25
+for abundance. Several of these are significant outliers
+(Table 1). For example, the Chrysler 300M is ranked
+14, with 33 thefts in 2003–04, but was observed only
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+1
+10
+19
+28
+37
+46
+55
+64
+73
+82
+91
+100
+109
+118
+127
+136
+145
+154
+163
+172
+181
+190
+199
+208
+217
+226
+235
+244
+253
+262
+271
+Number of Thefts
+Theft Rank
+Honda Civic
+Toyota Camry
+Honda Accord
+Jeep Grand Cherokee
+Ferrari 360
+N = 2,251
+A
+0
+20
+40
+60
+80
+100
+120
+140
+Number of Cars
+Honda Civic
+Honda Accord
+Toyota Corolla
+Chevy Cavalier
+Porsche Carerra
+N = 1,825
+B
+Figure 1 Rank order plots of make-model car types stolen and observed in street-based surveys in three Los Angeles zip codes.
+(A) Cars stolen in zip codes 90034, 90045 and 90291 between Jan 1, 2003 and December 31, 2004 are numerically dominated by a few car types.
+(B) The rank order abundance of car types in the same zip codes, observed in street surveys conducted in 2004 and 2005, reveals the structure of
+car theft opportunities.
+Brantingham Crime Science 2013, 2:3 Page 5 of 11
+http://www.crimesciencejournal.com/content/2/1/3
+once in the 1,825 cars identified in street surveys (survey rank = 224). Similarly, the Pontiac Grand AM was
+ranked 10, with 44 thefts, but was observed only four
+times in the same surveys (survey rank = 110.5). It
+may be that thieves targeted these rare cars based on
+specialized evaluation of the expected payoffs, handling
+costs, or both, made at the time of encounter.
+Taking into account car make, model and year, I calculated the expected illegal market value for each car
+stolen in 2003 as 10% of the Kelley Blue Book value
+at the time of theft (see Methods) (DeBacker 2003;
+Stevenson and Forsythe 1998; Tremblay et al. 2001).
+Illegal market value is used as broad proxy for both
+monetary and non-monetary payoffs. Figure 3 shows
+that the distribution of expected illegal market values
+for the outliers is significantly different from that associated with environmentally common cars (Mann–Whitney
+U = 8562, Wilcoxon = 73542, Z = −11.327, p < .001).
+Among the environmentally common cars, the median
+expected illegal market value is $740 (min = $293, max =
+$2,916). Among the environmentally rare cars, the median
+is twice as large at $1,515 (min = $210, max $4,493).
+These data suggest that the outliers within the sample of
+stolen cars may be targeted because they offer a higher
+expected payoff.
+It is also possible that ease-of-theft is responsible
+for the observed outliers (Farrell et al. 2011; Light
+et al. 1993; Wiles and Costello 2000). The UK-based
+“WhatCar?” Security Supertest (Secured by Design
+2000, 2003), evaluated the ability of a range of new
+vehicles to withstand attacks using non-destructive
+entry techniques (see Methods). Break-in time is used
+as a proxy for handling costs at all stages of the theft
+process. The aggregated results from 2000 and 2003, excluding those cars that passed the test, show a weak, but
+significant relationship between break-in times and
+Table 1 The top 25 most stolen car types in 2003–2004 and their environmental densities in Los Angeles zip codes
+90034, 90045 and 90291
+Make-model Theft N Survey N Recovery N Theft p Survey p Recovery p Theft rank Survey rank
+HONDA CIVIC 155 128 110 0.069 0.070 0.710 1 1
+TOYOTA CAMRY 151 59 118 0.067 0.032 0.781 2 4
+HONDA ACCORD 109 94 81 0.048 0.052 0.743 3 2
+TOYOTA COROLLA 68 86 47 0.030 0.047 0.691 4 3
+NISSAN SENTRA 60 33 45 0.027 0.018 0.750 5 9
+ACURA INTEGRA 52 21 28 0.023 0.012 0.538 6 14
+FORD MUSTANG 50 20 41 0.022 0.011 0.820 7 16
+FORD EXPLORER 49 57 35 0.022 0.031 0.714 8 5
+FORD TAURUS 46 28 36 0.020 0.015 0.783 9 11
+PONTIAC GRAND AM/PRIX 43 4 38 0.019 0.002 0.884 10 110.5
+NISSAN ALTIMA 35 42 27 0.016 0.023 0.771 11 7
+CHEVY IMPALA 34 6 26 0.015 0.003 0.765 12.5 79.5
+DODGE STRATUS 34 5 30 0.015 0.003 0.882 12.5 93.5
+CHRYSLER 300M 33 1 31 0.015 0.001 0.939 14 224
+CHEVY BLAZER 32 15 24 0.014 0.008 0.750 15 25
+CHRYSLER PT CRUISER 31 8 26 0.014 0.004 0.839 16 58
+DODGE CARAVAN 28 8 18 0.012 0.004 0.643 17.5 58
+DODGE INTREPID 28 9 23 0.012 0.005 0.821 17.5 49.5
+JEEP CHEROKEE 27 34 16 0.012 0.019 0.593 19 8
+LINCOLN TOWN CAR 24 4 22 0.011 0.002 0.917 20 110.5
+DODGE NEON 23 2 19 0.010 0.001 0.826 21.5 165.5
+FORD FOCUS 23 7 20 0.010 0.004 0.870 21.5 68.5
+CHRYSLER SEBRING 21 3 15 0.009 0.002 0.714 24 132.5
+FORD EXPEDITION 21 12 13 0.009 0.007 0.619 24 32.5
+JEEP GRAND CHEROKEE 21 20 14 0.009 0.011 0.667 24 16
+Note: Theft and recovery proportions are calculated with respect to all 2,251 cars stolen. Survey proportions are calculated with respect to the 1,825 unique car
+types identified in street-based surveys.
+Environmental densities were measured in two survey periods October-December 2004 and October-December 2005.
+Brantingham Crime Science 2013, 2:3 Page 6 of 11
+http://www.crimesciencejournal.com/content/2/1/3
+market price in US Dollars (r
+2 = .258, p < .001)
+(Figure 4A). The median break-in time for all vehicle types
+successfully attacked was 29 seconds and the minimum
+time was two seconds. Twenty three cars (~19%) have
+break-in times under 15 seconds.
+Vehicle make-models are not equivalent between
+the UK and US markets, despite similar names, and
+comparable data are not available from US contexts. It is
+not possible therefore to map break-in times from the
+Security Supertests directly to car types stolen in the US
+Number of Thefts 100
+80
+60
+40
+20
+0
+Illegal Market Value in $
+0 1,000 2,000 3,000 4,000 5,000
+100
+80
+60
+40
+20
+0
+A
+B
+Figure 3 Frequency histograms of the estimated illegal market values show much lower expected payoffs may be attributed to the
+top nine most stolen cars (A), where density is expected to the major determinant of theft, compared with the outliers (B), where
+environmental density is not implicated.
+0
+5
+10
+15
+20
+25
+0 50 100 150 200 250
+Theft Rank
+Survey Rank
+Chrysler300M
+Dodge Neon
+Chevy Impala
+Pontriac Grand Prix/Am
+Dodge Stratus
+Chrysler Sebring
+Lincoln Town Car
+Ford Focus
+Chrysler PT Cruiser
+Dodge Caravan
+Dodge Intrepid
+Figure 2 A scatter plot of abundance rank order against theft rank order shows a strong positive relationship between car availability
+and theft risk. Eleven car-types are stolen much more frequently than their environmental abundance would suggest. Line represents a
+hypothetical 1:1 relationship between rank abundance and rank theft.
+Brantingham Crime Science 2013, 2:3 Page 7 of 11
+http://www.crimesciencejournal.com/content/2/1/3
+using the UK data. However, some indication of handling
+costs may be gained by examining patterns within manufactures. Seven of the cars stolen in disproportion
+to their environmental density were manufactured by
+Daimler-Chrysler, three by Ford and two by GM (Table 1).
+Of the 123 cars tested in the Security Supertests, 44 were
+vehicles by these manufacturers. Eleven (25%) successfully
+withstood attacks lasting two minutes, compared with 24
+of the remaining 79 car types (44%). The data may suggest that Daimler-Chrysler, GM and Ford vehicles are
+more broadly susceptible to attack. However, a range of
+break-in times characterize the vehicles that did not
+pass the test (Table 2). Low and high-mid market cars
+sold under the Chrysler brand (e.g., Neon, Grand Voyager)
+have minimum break-in times of between four and six
+seconds, while one low-market GM car sold under the
+Vauxhall brand had a brake-in time of two seconds. Midmarket GM cars, also sold under the Vauxhall brand, had
+a mean break-in time of 81 seconds. The aggregate
+results do not indicate that cars made by DaimlerChrysler, Ford or GM are disproportionately easier
+for car thieves to handle. Indeed, cars marketed by
+other manufacturers show a significant skew towards
+shorter break-in times and, by implication, lower handling costs for thieves (Kolmogorov-Smirnov Z = 1.349,
+p = 0.053) (Figure 4B,C).
+Discussion and conclusion
+It is difficult to reject the null hypothesis that environmental abundance is the primary determinant of what
+cars are targeted for theft. There is a particularly strong
+relationship between abundance and theft rank for the
+top-nine most stolen cars. In the CRAVED conceptual
+framework put forward by Clarke (1999), availability
+would seem to outweigh other dimensions that might
+influence theft choice. In the instances where cars are
+targeted despite being rare, payoff differences may play
+some role. Car recovery rates provide one measure of
+the importance of non-monetary, or possibly limited
+monetary payoffs to car theft (Clarke and Harris 1992).
+There is little systematic difference in the rate of recovery across car types (Table 1), suggesting that none of
+the top 25 most stolen cars are disproportionately landing in fully-body chop shops or being stolen for export.
+The payoffs here seem to be primarily non-monetary.
+Furthermore, among the outliers that are stolen despite
+being rare, it appears that the newest model years are
+targeted. For example, eight of 12 Chrysler 300s and
+seven of 13 Chrysler Sebrings stolen during 2003 were
+2004 model years, which became available only in the
+last five months of the year. The implication is that these
+cars, though rare, were targeted precisely because they
+were perceived to be ‘hot rides’ (Wiles and Costello
+2000). That some cars are more valuable or enjoyable
+can override their low availability, but this occurs
+infrequently.
+It is less apparent that lower handling costs biased
+thieves’ decisions to target environmentally rare cars, although ethnographic work suggests that handling costs
+are often a significant concern (Clarke 1999; Light et al.
+1993; Wiles and Costello 2000). Recent research suggests that the potential for encountering opposition from
+car owners is a major concern (Copes and Tewksbury
+2011), but it is uncertain how the probability of opposition might relate to car type. Direct handling costs may
+have played a role in driving Los Angeles car thieves to
+A BC
+Figure 4 Break-in times for UK make-models measured by the “WhatCar?” Security Supertest in 2000 and 2003. (A) Scatter plot of
+break-in time versus US market price implies only a weak relationship between payoffs and handling costs. Frequency histograms of the break-in
+times for (B) GM-, Daimler-Chrysler- and Ford-group cars and (C) all other car types.
+Brantingham Crime Science 2013, 2:3 Page 8 of 11
+http://www.crimesciencejournal.com/content/2/1/3
+ignore certain environmentally common cars. Seven
+make-model types including the Volkswagen Jetta, Toyota
+RAV4 and Nissan Xterra ranked within the top 25 for
+abundance, but were rarely or never stolen (Table 3). An
+average of 57% of the vehicles sold by the corresponding
+manufactures in the UK passed the Security Supertests.
+This is compared only 25% of Daimler-Chrysler, GM and
+Ford cars representative of the environmentally rare
+group. The implication is that these cars may be ignored
+because they are more resistant to attack. Detailed attack
+analyses of cars from the US market could help resolve
+the exact role of handling costs in the differential targeting
+of some cars.
+In spite of the narrow role that differential payoffs and
+handling costs appear to play the choice of which cars to
+steal, one must be careful to not fall prey to the ecological fallacy. Ethnographic evidence points to a degree
+of specialization among car thieves, with distinctions
+among those engaged in opportunistic theft and those in
+organized crime, and among younger and older offenders. Such specializations are not directly visible in
+aggregate car theft data. It is possible that the population
+of Los Angeles car thieves consists of several different
+types each with their preferred prey. The observed frequency of stolen car types might therefore represent a
+mixture of fixed, independent strategies, some rare and
+Table 3 Environmentally abundant cars of low theft rank in zip codes 90034, 90045 and 90291 and the aggregated
+2000 and 2003 “WhatCar?” Security Supertest results for cars from the corresponding manufacturers
+Make-model Theft N Survey N Theft
+rank
+Survey
+rank
+N tested Passing p Models failing Mean (s) σ (s) Min (s) Max (s)
+Volkswagen Jetta 9 56 63 6 6 0.50 Lupo 1.4S, Polo Gti,
+Golf 1.6SE
+32 16.09 19 50
+Toyota RAV4 5 19 91 18 8 0.63 Yaris Verso, Corolla,
+Avensis
+46.33 15.50 31 46
+Lexus ES 15 229 25 3 0.67 IS 111
+Nissan Xterra 2 16 164 21 5 0.80 Micra 1.3 SE 14
+Volvo S Class 17 229 19.5 3 0.67 XC90 70
+Subaru Outback 2 15 164 25 3 0.00 Impreza, Impreza
+Turbo, Legacy
+22.67 24.79 5 51
+Table 2 Break-in times in seconds for Daimler-Chrysler, Ford and GM brands sold in the UK tested in the “WhatCar?”
+Security Supertest in 2000 and 2003
+Manufacturer Make-model Market N Mean
+(seconds)
+σ
+(seconds)
+Min
+(seconds)
+Max
+(seconds)
+Daimler-Chysler Chrysler Neon Low 1 4
+Daimler-Chysler Mercedes A Class Mid 1 30
+Daimler-Chysler Chrysler Grand Voyager High-mid 1 6
+Daimler-Chysler Mercedes C, E Class High 2 70 7.07 65 75
+Ford Fiesta, Focus Ghia Estate, Ka 3,
+Mazda 626 Sport
+Low 4 40.75 15.9 23 60
+Ford Focus TDi Ghia, Ka, Streetka, Landrover
+Freelander, Mazda MPV, Mazda Premacy
+Mid 6 33.83 17.08 19 65
+Ford Focus, Land Rover Discovery, Mazda 6 High-mid 3 43 13.45 28 54
+Ford Mondeo, Jaguar XKR, Range Rover 4.0
+HSE, Volvo XC90
+High 4 69 21.76 40 93
+GM Vauxall Agilla, Astra Low 2 12 13.44 2 21
+GM Vauxall Corsa, Frontera, Meriva, Zafira Mid 4 81 40.04 21 108
+GM Saab 93, Saab 95, Vauxall Astra High-mid 3 45.67 10.69 39 58
+GM Cadillac Seville STS, Vauxall Vectra High 2 58 74.95 5 111
+Total Daimler-Chrysler,
+GM, Ford
+33 46.88 30.68 2 111
+Other Car types 55 32.22 29.36 2 115
+Brantingham Crime Science 2013, 2:3 Page 9 of 11
+http://www.crimesciencejournal.com/content/2/1/3
+some common, not variation in the behavior of offenders in general. The converse is also potentially true.
+There is a danger of falling prey to an ethnographic fallacy that confounds our ability to infer aggregate characteristics from ethnographically rich data collected at an
+individual scale. To wit, given interviews with tens of car
+thieves about their offending preferences, can we reliably
+infer the population characteristics of the many thousands of individuals likely responsible for the 63,000 cars
+stolen in Los Angeles in 2003-2004? There is no easy
+way to resolve the ecological or ethnographic fallacy. I
+suspect, however, that the unspecialized foragers responding primarily to environmental abundances greatly outnumber the specialists, making the latter practically
+invisible in aggregate data.
+The results described here are important for understanding the broader causes of criminal behavior and
+may suggest novel approaches to crime prevention based
+on formal ecological models (see also Bernasco 2009;
+Brantingham et al. 2012; Felson 2006). The unspecialized
+nature of car theft in Los Angeles implies that the behavioral and cognitive capacities needed to be a successful thief are generic. Indeed, humans are well-equipped
+to become effective foragers for criminal opportunities
+given an evolved psychology to solve foraging problems
+in boundedly-rational ways (Hutchinson et al. 2007),
+combined with small amounts of individual trial-and-error
+or social learning (Akers 2008; Boyd and Richerson 1985).
+Indeed, the co-offending that characterizes the early careers (<20 years old) of most offenders, including car
+thieves, is ideally suited to the transmission of the simple
+skills sufficient to produce experts from inexperienced
+thieves (Reiss and Farrington 1991). That auto theft in Los
+Angeles is driven primarily by environmental structure
+provides further evidence that the greatest gains in crime
+prevention are to be had in altering the structure of criminal opportunity (Brantingham and Brantingham 1981;
+Farrell et al. 2011; Felson and Clarke 1998). How environmental alterations impact situational foraging behaviors
+and longer-term population trajectories are well-studied
+within ecology (Henle et al. 2004; Kerr et al. 2007),
+suggesting a way forward for formal crime ecology.
+Competing interests
+The author declares that he has no competing interests.
+Acknowledgements
+This work was supported in part by grants NSF-FRG DMS-0968309,
+ONR N000141010221, ARO-MURI W911NF-11-1-0332, and AFOSR-MURI
+FA9550-10-1-0569, and by the UCLA Faculty Senate. I am indebted to the
+Los Angeles Police Department for providing the data analyzed here. Thank
+you to David Bell from Secured by Design and Silas Borden for assistance
+with the street-based surveys.
+Received: 29 November 2012 Accepted: 29 April 2013
+Published: 3 July 2013
+References
+Akers, R (2008). Social learning and social structure: A general theory of crime and
+deviance. Boston: Northeastern University Press.
+Bernasco, W. (2009). Foraging strategies of homo criminalis: lessons from
+behavioral ecology. Crime Patterns and Analysis, 2(1), 5–16.
+Boyd, R, & Richerson, PJ (1985). Culture and the Evolutionary Process. Chicago:
+University of Chicago Press.
+Brantingham, PJ, & Brantingham, PL (1981). Environmental Criminology. Beverly
+Hills: Sage.
+Brantingham, PJ, Tita, GE, Short, MB, & Reid, SE. (2012). The ecology of gang
+territorial boundaries. Criminology, 50(3), 851–885.
+Charnov, EL. (1976). Optimal foraging - attack strategy of a mantid. American
+Naturalist, 110(971), 141–151.
+Clarke, RV. (1999). Hot Products: Understanding, Anticipating and Reducing Demand
+for Stolen Goods (Police Research Series, Paper 112.). London: Home Office.
+Clarke, RV, & Harris, PM (1992). Auto Theft and its Prevention. In M Tonry (Ed.),
+Crime and Justice: A Review of Research (Vol. 16, pp. 1–54). Chicago:
+University of Chicago Press.
+Conover, WJ. (1998). Practical Nonparametric Statistics. Hoboken: Wiley.
+Copes, H. (2003). Streetlife and the rewards of auto theft. Deviant Behavior,
+24(4), 309–332.
+Copes, H, & Cherbonneau, M. (2006). The key to auto theft - Emerging methods
+of auto theft from the offenders' perspective. British Journal of Criminology,
+46(5), 917–934.
+Copes, H, & Tewksbury, R. (2011). Criminal experience and perceptions of risk:
+what auto thieves fear when stealing cars. Journal of Crime and Justice,
+34(1), 62–79.
+Cornish, DB, & Clarke, RV (1986). Introduction. In DB Cornish & RV Clarke (Eds.),
+The Reasoning Criminal: Rational Choice Perspectives on Criminal Offending.
+New York: Springer-Verlag.
+Cornish, DB, & Clarke, RV. (1987). Understanding crime displacement: An
+application of rational choice theory. Criminology, 25(4), 933–947.
+DeBacker, P (Ed.). (2003). Kelley Blue Book Used Car Guide Consumer Edition
+1988–2002. Irvine, CA: Kelly Blue Book.
+Dhami, MK. (2008). Youth auto theft: a survey of a general population of
+canadian youth. Canadian Journal of Criminology and Criminal Justice,
+50(2), 187–209.
+Farrell, G, Tseloni, A, & Tilley, N. (2011). The effectiveness of vehicle security
+devices and their role in the crime drop. Criminology and Criminal Justice,
+11(1), 21–35.
+Federal Bureau of Investigation (2003–2006). Crime in the United States, Uniform
+Crime Reports. http://www.fbi.gov/ucr/ucr.htm.
+Felson, M (2006). Crime and Nature. Thousand Oaks: Sage.
+Felson, M, & Clarke, RV (1998). Opportunity Makes the Thief: Practical Theory for
+Crime Prevention (Police Research Series Paper 98). London: Home Office
+Policing and Reducing Crime Unit.
+Freeman, RB. (1996). Why do so many young american men commit crimes
+and what might we do about it? The Journal of Economic Perspectives,
+10(1), 25–42.
+Freeman, RB. (1999). The economics of crime. Handbook of Labor Economics,
+3, 3529–3571.
+Gottfredson, MR, & Hirschi, T (1990). A General Theory of Crime. Stanford: Stanford
+University Press.
+Hames, RB, & Vickers, WT. (1982). Optimal diet breadth theory as a model to
+explain variability in Amazonian hunting. American Ethnologist, 9(2), 358–378.
+Henle, K, Davies, KF, Kleyer, M, Margules, C, & Settele, J. (2004). Predictors
+of species sensitivity to fragmentation. Biodiversity and Conservation,
+13(1), 207–251.
+Hubbell, SP (2001). The Unified Neutral Theory of Biodiversity and Biogeography.
+Princeton: Princeton University Press.
+Hughes, RN, & Dunkin, SD. (1984). Behavioral components of prey selection by
+Dogwhelks, Nucella-Lapillus (L), feeding on Mussels, Mytilus-Edulis-L, in the
+Laboratory. Journal of Experimental Marine Biology and Ecology, 77(1–2), 45–68.
+Hutchinson, JMC, Wilke, A, & Todd, PM. (2007). Patch leaving in humans: can a
+generalist adapt its rules to dispersal of items across patches? Animal
+Behavior, 75, 1331–1349.
+Jacobs, BA, Topalli, V, & Wright, R. (2003). Carjacking, streetlife and offender
+motivation. British Journal of Criminology, 43(4), 673–688.
+Johnson, SD, Summers, L, & Pease, K. (2009). Offender as forager? a direct test of
+the boost account of victimization. Journal of Quantitative Criminology,
+25(2), 181–200.
+Brantingham Crime Science 2013, 2:3 Page 10 of 11
+http://www.crimesciencejournal.com/content/2/1/3
+Kellett, S, & Gross, H. (2006). Addicted to joyriding? An exploration of young
+offenders' accounts of their car crime. Psychology Crime & Law, 12(1), 39–59.
+Kerr, JT, Kharouba, HM, & Currie, DJ. (2007). The macroecological contribution to
+global change solutions. Science, 316(5831), 1581–1584.
+Krebs, JR, Erichsen, JT, Webber, MI, & Charnov, EL. (1977). Optimal prey selection
+in great tit (parus-major). Animal Behaviour, 25(FEB), 30–38.
+Langworthy, RH, & Lebeau, JL. (1992). The spatial-distribution of sting targets.
+Journal of Criminal Justice, 20(6), 541–551.
+Lantsman, L. (2013). “Moveable currency”: the role of seaports in export oriented
+vehicle theft. Crime, Law and Social Change, 59(2), 157–184.
+Light, R, Nee, C, & Ingham, H (1993). Car Theft: The Offender's Perspective
+(Home Office Rresearch Study No. 30). London: Home Office.
+Lu, YM. (2003). Getting away with the stolen vehicle: an investigation of journeyafter-crime. The Professional Geographer, 55(4), 422–433.
+Matsueda, RL, Piliavin, I, Gartner, R, & Polakowski, M. (1992). The prestige of
+criminal and conventional occupations: a subcultural model of criminal
+activity. American Sociological Review, 57(6), 752–770.
+Nagin, DS, & Paternoster, R. (1994). Personal capital and social control: the
+detterence implications of a theory of individual differences in criminal
+offending. Criminology, 32(4), 581–606.
+Prugh, LR. (2005). Coyote prey selection and community stability during a decline
+in food supply. Oikos, 110(2), 253–264.
+Pyke, GH. (1984). Optimal foraging theory - a critical-review. Annual Review of
+Ecology and Systematics, 15, 523–575.
+Reiss, AJ, & Farrington, DP. (1991). Advancing knowledge about co-offending:
+results from a prospective longitudinal survey of London males. The Journal
+of Criminal Law and Criminology, 82(2), 360–395.
+Secured by Design (2000, 2003). The "WhatCar?" Security Supertests were
+conducted in 2000 and 2003. The attack tests are described online at
+http://www.whatcar.co.uk/news-special-report.aspx?NA=204498.
+Smith, EA (1991). Inujjuamiut Foraging Strategies: Evolutionary Ecology of an Arctic
+Hunting Economy. New York: Aldine de Gruyter.
+Stephens, DW, & Krebs, JR (1986). Foraging Theory. In. Princeton: Princeton
+University Press.
+Stevenson, RJ, & Forsythe, LMV (1998). The Stolen Goods Market in New South
+Wales. Sydney: New South Wales Bureau of Crime Statistics and Research.
+Suresh, G, & Tewksbury, R. (2999). Locations of motor vehicle theft and recovery.
+American Journal of Criminal Justice, 1–16.
+Tremblay, P, & Morselli, C. (2000). Patterns in criminal achievement: Wilson and
+Abrahamse revisited. Criminology, 38(2), 633–659.
+Tremblay, P, Talon, B, & Hurley, D. (2001). Body switching and related
+adaptations in the resale of stolen vehicles. Script elaborations and
+aggregate crime learning curves. British Journal of Criminology,
+41(4), 561–579.
+Wiles, P, & Costello, A (2000). The 'Road to Nowhere': The Evidence for Travelling
+Criminals (Report 207). London: Home Office.
+Wilson, JQ, & Abrahamse, A. (1992). Does crime pay? Justice Quarterly,
+9, 359–377.
+Wright, R, Brookman, F, & Bennett, T. (2006). The foreground dynamics of street
+robbery in Britain. British Journal of Criminology, 46(1), 1–15.
+Wright, RT, & Decker, SH (1994). Burglars on the Job: Streetlife and Residential
+Breakins. Boston: Northeastern University Press.
+doi:10.1186/2193-7680-2-3
+Cite this article as: Brantingham: Prey selection among Los Angeles car
+thieves. Crime Science 2013 2:3.
+Submit your manuscript to a
+journal and benefi t from:
+7 Convenient online submission
+7 Rigorous peer review
+7 Immediate publication on acceptance
+7 Open access: articles freely available online
+7 High visibility within the fi eld
+7 Retaining the copyright to your article
+ Submit your next manuscript at 7 springeropen.com
+Brantingham Crime Science 2013, 2:3 Page 11 of 11
+http://www.crimesciencejournal.com/content/2/1/3
+View publication stats

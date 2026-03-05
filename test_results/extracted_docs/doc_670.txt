@@ -1,0 +1,1581 @@
+REVIEW
+published: 27 May 2015
+doi: 10.3389/fdigh.2015.00002
+
+Social touch in human–computer
+interaction
+Jan B. F. van Erp 1,2 * and Alexander Toet 1
+1
+
+Perceptual and Cognitive Systems, TNO, Soesterberg, Netherlands, 2 Human Media Interaction, University of Twente,
+Enschede, Netherlands
+
+Edited by:
+Yoram Chisik,
+University of Madeira, Portugal
+Reviewed by:
+Mohamed Chetouani,
+Université Pierre et Marie Curie,
+France
+Gualtiero Volpe,
+Università degli Studi di Genova, Italy
+Hongying Meng,
+Brunel University London, UK
+*Correspondence:
+Jan B. F. van Erp,
+TNO Human Factors, Kampweg 5,
+Soesterberg 3769DE, Netherlands
+jan.vanerp@tno.nl
+Specialty section:
+This article was submitted to
+Human-Media Interaction, a section
+of the journal Frontiers in Digital
+Humanities
+Received: 06 February 2015
+Paper pending published:
+19 March 2015
+Accepted: 08 May 2015
+Published: 27 May 2015
+Citation:
+van Erp JBF and Toet A (2015) Social
+touch in human–computer interaction.
+Front. Digit. Humanit. 2:2.
+doi: 10.3389/fdigh.2015.00002
+
+Touch is our primary non-verbal communication channel for conveying intimate emotions
+and as such essential for our physical and emotional wellbeing. In our digital age, human
+social interaction is often mediated. However, even though there is increasing evidence
+that mediated touch affords affective communication, current communication systems
+(such as videoconferencing) still do not support communication through the sense of
+touch. As a result, mediated communication does not provide the intense affective
+experience of co-located communication. The need for ICT mediated or generated
+touch as an intuitive way of social communication is even further emphasized by the
+growing interest in the use of touch-enabled agents and robots for healthcare, teaching,
+and telepresence applications. Here, we review the important role of social touch in
+our daily life and the available evidence that affective touch can be mediated reliably
+between humans and between humans and digital agents. We base our observations
+on evidence from psychology, computer science, sociology, and neuroscience with
+focus on the first two. Our review shows that mediated affective touch can modulate
+physiological responses, increase trust and affection, help to establish bonds between
+humans and avatars or robots, and initiate pro-social behavior. We argue that ICT
+mediated or generated social touch can (a) intensify the perceived social presence of
+remote communication partners and (b) enable computer systems to more effectively
+convey affective information. However, this research field on the crossroads of ICT and
+psychology is still embryonic and we identify several topics that can help to mature the
+field in the following areas: establishing an overarching theoretical framework, employing
+better research methodologies, developing basic social touch building blocks, and solving
+specific ICT challenges.
+Keywords: affective touch, mediated touch, social touch, interpersonal touch, human–computer interaction,
+human–robot interaction, haptic, tactile
+
+Introduction
+Affective Touch in Interpersonal Communication
+The sense of touch is the earliest sense to develop in a human embryo (Gottlieb 1971)
+and is critical for mammals’ early social development and to grow up healthily (Harlow and
+Zimmermann 1959; Montagu 1972). The sense of touch is one of the first mediums of communication between newborns and parents. Interpersonal communication is to a large extent
+non-verbal and one of the primary purposes of non-verbal behavior is to communicate emotional states. Non-verbal communication includes facial expressions, prosody, gesture, and touch
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+1
+
+May 2015 | Volume 2 | Article 2
+
+van Erp and Toet
+
+Social touch in HCI
+
+(Argyle 1975; Knapp and Hall 2010) of which touch is the primary
+modality for conveying intimate emotions (Field 2010; Morrison
+et al. 2010; App et al. 2011), for instance, in greetings, in corrections, and in (sexual) relationships. As touch implies direct
+physical interaction and co-location, it inherently has the potential
+to elicit feelings of social presence. The importance of touch as a
+modality in social communication is highlighted by the fact that
+the human skin has specific receptors to process affective touch
+(“the skin as a social organ”: Morrison et al. 2010) in addition
+to those for discriminative touch (Löken et al. 2009; Morrison
+et al. 2011; Gordon et al. 2013; McGlone et al. 2014), presumably
+like all mammals (Vrontou et al. 2013). ICT systems can employ
+human touch for information processing (discriminative touch)
+and communication (social touch) as well.
+
+Field (2010) and Gallace and Spence (2010)]. For these reasons,
+mediated interpersonal touch is our first topic of interest.
+Human–computer interaction applications increasingly deploy
+intelligent agents to support the social aspects of the interaction.
+Social agents (either embodied or virtual) already employ vision
+and audition to communicate social signals but generally lack
+touch capabilities. If we look at applications in robots and avatars,
+the first applications including touch facilitated information from
+user to system only, e.g., in the form of a touch screen or through
+specific touch sensors in a tangible interface. Social agents that can
+touch the user are of much more recent date. We believe that social
+agents could benefit from generating and perceiving social touch
+cues (van Erp 2012). Based on studies reviewed in this paper, we
+expect that people will feel a closer bond with agents or robots
+that use and respond to affective touch since they appear more
+human than machine-like and more trustworthy. Touch-enabled
+social agents are therefore our second topic of interest.
+
+Discriminative Touch in ICT Systems
+Conventional systems for human–computer interaction only
+occasionally employ the sense of touch and mainly provide information through vision and audition. One of the first large-scale
+applications of a tactile display was the vibration function on
+mobile phones, communicating the 1-bit message of an incoming
+call, and the number of systems that include the sense of touch
+has steadily increased over the past two decades. An important
+reason for the sparse use of touch is the supposed low bandwidth of the touch channel (Gallace et al. 2012). Although often
+underestimated, our touch sense is very well able to process large
+amounts of abstract information. For instance, blind people who
+are trained in Braille reading can actually read with their fingertips. This information processing capability is increasingly applied
+in our interaction with systems, and more complex information
+is being displayed, e.g., to reduce the risk of visual and auditory
+overload in car driving, to make us feel more immersed in virtual
+environments, or to realistically train and execute certain medical
+skills (van Erp and van Veen 2004; Self et al. 2008).
+
+Touch in Social Communication
+Social touch can take many forms in our daily lifes such as greetings (shaking hands, embracing, kissing, backslapping, and cheektweaking), in intimate communication (holding hands, cuddling,
+stroking, back scratching, massaging), and in corrections (punishment, spank on the bottom). Effects of social touch are apparent
+at many levels ranging from physiology to social behavior as we
+will discuss in the following sections.
+Social touches can elicit a range of strong experiences between
+pleasant and unpleasant, depending on among others the stimulus
+[e.g., unpleasant pinches evoking pain (nociception)] and location
+on the body (e.g., pleasant strokes in erogenous zones). In addition to touch in communication, touch can also be employed in
+psychotherapy (Phelan 2009) and nursing (Gleeson and Timmins
+2005). Examples range from basic comforting touches and massaging to alternative therapies such as acu-pressure, Reiki, vibroacoustic therapy, and low-frequency vibration (Wigram 1996;
+Kvam 1997; Patrick 1999; Puhan et al. 2006; Prisby et al. 2008).
+See Dijk et al. (2013) for more examples on mental, healthrelated, and bodily effects of touch. In this paper, we focus on
+ICT mediated and generated social touch (the areas where psychology and computer science meet), meaning that areas of, for
+instance, Reiki and low-frequency vibration fall outside the scope
+of this paper. We first discuss the many roles of social touch in
+our daily life before continuing with ICT mediated inter-human
+touch and ICT generated and interpreted touch in human–agent
+interaction.
+In 1990s (Vallbo et al. 1993), the first reports on so-called C
+tactile afferents in human hairy skin were published. This neurophysiological channel in the skin reacts to soft, stroking touches,
+and its activity strongly depends on stroking speed (with an optimum in the speed range 3–10 cm/s) and has a high correlation
+with subjective ratings of the pleasantness of the touch. Research
+over the past decades has shown that this system is not involved
+in discriminative touch (Olausson et al. 2008) but underlies the
+emotional aspects of touch and the development and function of
+the social brain (McGlone et al. 2014). Social touches may activate
+both this pleasurable touch system and the discriminative touch
+
+Affective Touch in ICT Systems
+Incorporating the sense of touch in ICT systems started with
+discriminative touch as an information channel, often in addition to vision and audition (touch for information processing).
+We believe that we are on the averge of a second transition:
+adding social or affective touch to ICT systems (touch for social
+communication). In our digital era, an increasing amount of our
+social interactions is mediated, for example, through (cell) phones,
+video conferencing, text messaging, chat, or e-mail. Substituting
+direct contact, these modern technologies make it easy to stay
+in contact with distant friends and relatives, and they afford
+some degree of affective communication. For instance, an audio
+channel can transmit affective information through phonetic features like amplitude variation, pitch inflections, tempo, duration,
+filtration, tonality, or rhythm, while a video channel supports nonverbal information such as facial expressions and body gestures.
+However, current communication devices do not allow people to
+express their emotions through touch and may therefore lack a
+convincing experience of actual togetherness (social presence).
+This technology-induced touch deprivation may even degrade
+the potential beneficial effects of mediated social interaction [for
+reviews of the negative side effects of touch deprivation see
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+2
+
+May 2015 | Volume 2 | Article 2
+
+van Erp and Toet
+
+Social touch in HCI
+
+system (reacting to, for instance, pressure, vibration, and skin
+stretch).
+
+caring, agreement, gratitude, and moral support. Cold feedback
+was consistently associated with negative issues.
+
+Touch, Physiological Functioning, and Wellbeing
+
+Touch to Communicate Emotions
+Hertenstein et al. (2006, 2009) showed that touch alone can effectively be used to convey distinct emotions such as anger, fear,
+and disgust. In addition, touch plays a role in communicating
+more complex social messages like trust, receptivity, affection
+(Mehrabian 1972; Burgoon 1991) and nurture, dependence, and
+affiliation (Argyle 1975). Touch can also enhance the meaning
+of other forms of verbal and non-verbal communication, e.g.,
+touch amplifies the intensity of emotional displays from our face
+and voice (Knapp and Hall 2010). Examples of touches used to
+communicate emotions are shaking, pushing, and squeezing to
+communicate anger, hugging, patting, and stroking to communicate love (Gallace and Spence 2010). Jones and Yarbrough (1985)
+stated that a handshake, an encouraging pat on the back, a sensual
+caress, a nudge for attention, a tender kiss, or a gentle brush of the
+shoulder can all convey a vitality and immediacy that is at times
+far more powerful than language. According to App et al. (2011),
+touch is the preferred non-verbal communication channel for
+conveying intimate emotions like love and sympathy, confirmed
+by, for instance, Debrot et al. (2013) who showed that responsive
+touch between romantic partners enhances their affective state.
+
+McCance and Otley (1951) showed that licking and stroking of the
+mother animal is critical to start certain physiological processes in
+a new-born mammal. This indicates the direct link between skin
+stimulation and physiological processes, a link that is preserved
+later in life. For instance, gentle stroking touch can lower heart
+rate and blood pressure (Grewen et al. 2003), increase transient
+sympathetic reflexes and increase pain thresholds (Drescher et al.
+1980; Uvnäs-Moberg 1997), and affect the secretion of stress
+hormones (Whitcher and Fisher 1979; Shermer 2004; Ditzen et al.
+2007). Women holding their partner’s hand showed attenuated
+threat-related brain activity in response to mild electric shocks
+(Coan et al. 2006) and reported less pain in a cold pressor task
+(Master et al. 2009). Touch can also result in coupling or syncing of
+electrodermal activity of interacting (romantic) couples (ChatelGoldman et al. 2014). Interpersonal touch is the most commonly
+used method of comforting (Dolin and Booth-Butterfield 1993)
+and an instrument in nursing care (Bush 2001, Chang 2001,
+Henricson et al. 2008). For example, patients who were touched
+by a nurse during preoperative instructions experienced lower
+subjective and objective stress levels (Whitcher and Fisher 1979),
+than people who were not.
+In addition to touch affecting hormone levels, hormones
+(i.e., oxytocin) also affect the perception of interpersonal touch.
+Scheele et al. (2014) investigated the effect of oxytocin on the
+perception of a presumed male or female touch on male participants and found that oxytocin increased the rated pleasantness
+and brain activity of presumed female touches but not of male
+touches (all touches were delivered by the same female experimenter). Ellingsen et al. (2014) reported that after oxytocin submission, the effect of touch on the evaluation of facial expression
+increased. In addition, touch (handshaking in particular) can also
+play a role in social chemo-signaling. Handshaking can lead to
+the exchange of chemicals in sweat and behavioral data indicates
+that people more often sniff their hands after a greeting with
+a handshake than without a handshake (Frumin et al. 2015).
+Many social touches are reciprocal in nature (like cuddling and
+holding hands) and their dynamics rely on different mechanisms
+all having their own time scale: milliseconds for the detection of
+a touch (discriminative touch), hundreds of milliseconds and up
+for the experience of pleasurable touch, and seconds and up for
+physiological responses (including changes in hormone levels).
+How these processes interact and possibly reinforce each other is
+still terra incognita.
+Physiological responses can also be indirect, i.e., the result of
+social or empathetic mechanisms. Cooper et al. (2014) recently
+showed that the body temperature of people decreased when
+looking at a video of other people putting their hands in cold
+water. Another recent paradigm is to use thermal and haptically
+enhanced interpersonal speech communication. This showed that
+warm and cold signals were used to communicate the valence
+of messages (IJzerman and Semin 2009; Suhonen et al. 2012a).
+Warm messages were used to emphasize positive feelings and
+pleasant experiences, and to express empathy, comfort, closeness,
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+Touch to Elicit Emotions
+Not only can the sense of touch be used to communicate distinct
+emotions but also to elicit (Suk et al. 2009) and modulate human
+emotion. Please note that interpreting communicated emotions
+differs from eliciting emotions as the former may be considered
+as a cognitive task not resulting in physiological responses, e.g.,
+one can perceive a touch as communicating anger without feeling
+angry. Starting with the James–Lange theory (James 1884; Cannon
+1927; Damasio 1999), the conscious experience of emotion is
+the brain’s interpretation of physiological states. The existence of
+specific neurophysiological channels for affective touch and pain
+and the direct physiological reactions to touch indicate that there
+may be a direct link between tactile stimulation, physiological
+responses, and emotional experiences. Together with the distinct
+somatotopic mapping between bodily tactile sensations and different emotional feelings as found by Nummenmaa et al. (2013),
+one may assume that tactile stimulation of different bodily regions
+can elicit a wide range of emotions.
+
+Touch as a Behavior Modulator
+In addition to communicating and eliciting emotions, touch provides an effective means of influencing people’s attitudes toward
+persons, places, or services, their tendency to create bonds and
+their (pro-)social behaviors [see Gallace and Spence (2010) for
+an excellent overview]. This effect is referred to as the Midas
+touch: a brief, casual touch (often at the hand or arm) that is
+not necessarily consciously perceived named after king Midas
+from Greek mythology who had the ability to turn everything he
+touched into gold. For example, a half-second of hand-to-hand
+touch from a librarian fostered more favorable impressions of the
+library (Fisher et al. 1976), touching by a salesperson increased
+positive evaluations of the store (Hornik 1992), and touch can
+
+3
+
+May 2015 | Volume 2 | Article 2
+
+van Erp and Toet
+
+Social touch in HCI
+
+also boost the attractiveness ratings of the toucher (Burgoon et al.
+1992). Recipients of such “simple” Midas touches are also more
+likely to be more compliant or unselfish: willing to participate in
+a survey (Guéguen 2002) or to adhere to medication (Guéguen
+et al. 2010), volunteering for demonstrating in a course (Guéguen
+2004), returning money left in a public phone (Kleinke 1977),
+spending more money in a shop (Hornik 1992), tipping more in
+a restaurant (Crusco and Wetzel 1984), helping with picking-up
+dropped items (Guéguen and Fischer-Lokou 2003), or giving away
+a cigarette (Joule and Guéguen 2007). In addition to these oneon-one examples, touch also plays a role in teams. For instance,
+physical touch enhances team performance of basketball players
+through building cooperation (Kraus et al. 2010). In clinical and
+professional situations, interpersonal touch can increase information flow and causes people to evaluate communication partners
+more favorably (Fisher et al. 1976).
+
+and Watts 2010; Tsetserukou 2010), pokes (Park et al. 2011),
+handholding (Gooch and Watts 2012; Toet et al. 2013), handshakes (Bailenson et al. 2007), strokes on the hand (Eichhorn et al.
+2008), arm (Huisman et al. 2013) and cheek (Park et al. 2012),
+pinches, tickles (Furukawa et al. 2012), pats (Bonanni et al. 2006),
+squeezes (Rantala et al. 2013), thermal signals (Gooch and Watts
+2010; Suhonen et al. 2012a,b), massages (Chung et al. 2009), and
+intimate sexual touches (Solon 2015).
+In addition to direct mediation, there is also an option to use
+indirect ways, for instance, through avatars in a virtual world.
+Devices like a haptic-jacket system can enhance the communication between users of virtual worlds such as Second Life by
+enabling the exchange of touch cues resembling encouraging pats
+and comforting hugs between users and their respective avatars
+(Hossain et al. 2011). The Huggable is a semi-autonomous robotic
+teddy bear equipped with somatic sensors, intended to facilitate
+affective haptic communication between two people (Lee et al.
+2009) through a tangible rather than a virtual interface. Using
+these systems, people can not only exchange messages but also
+emotionally and physically feel the social presence of the communication partner (Tsetserukou and Neviarouskaya 2010).
+The above examples can be considered demonstrations of the
+potential devices and applications and the richness of social touch.
+Although it appears that virtual interfaces can effectively transmit
+emotion even with touch cues that are extremely degraded (e.g., a
+handshake that is lacking grip, temperature, dryness, and texture:
+Bailenson et al. 2007), the field lacks rigorous validation and systematic exploration of the critical parameters. The few exceptions
+are the work by Smith and MacLean (2007) and by Salminen
+et al. (2008). Smith and MacLean performed an extensive study
+into the possibilities and the design space of an interpersonal
+haptic link and concluded that emotion can indeed be communicated through this medium. Salminen et al. (2008) developed a
+friction-based horizontally rotating fingertip stimulator to investigate emotional experiences and behavioral responses to haptic
+stimulation and showed that people can rate these kind of stimuli
+as less or more unpleasant, arousing, avoidable, and dominating.
+
+Mediated Social Touch
+In the previous section, we showed that people communicate
+emotions through touch, and that inter-human touch can enhance
+wellbeing and modulate behavior. In interpersonal communication, we may use touch more frequently than we are aware of.
+Currently, interpersonal communication is often mediated and
+given the inherent human need for affective communication,
+mediated social interaction should preferably afford the same
+affective characteristics as face-to-face communication. However,
+despite the social richness of touch and its vital role in human
+social interaction, existing communication media still rely on
+vision and audition and do not support haptic interaction. For
+a more in-depth reflection on the general effects of mediated
+interpersonal communication, we refer to Konijn et al. (2008) and
+Ledbetter (2014).
+Tactile or kinesthetic interfaces in principle enable haptic communication between people who are physically apart, and may
+thus provide mediated social touch, with all the physical, emotional, and intellectual feedback it supplies (Cranny-Francis 2011).
+Recent experiments show that even simple forms of mediated
+touch have the ability to elicit a wide range of distinct affective
+feelings (Tsalamlal et al. 2014). This finding has stimulated the
+study and design of devices and systems that can communicate,
+elicit, enhance, or influence the emotional state of a human by
+means of mediated touch.
+
+Remote Collaboration Between Groups
+Collaborative virtual environments are increasingly used for distance education [e.g., Mikropoulos and Natsis (2011)], training
+simulations [e.g., Dev et al. (2007) and Flowers and Aggarwal
+(2014)], therapy treatments (Bohil et al. 2011), and for social
+interaction venues (McCall and Blascovich 2009). It has been
+shown that adding haptic feedback to the interaction between
+users of these environments significantly increases their perceived
+social presence (Basdogan et al. 2000; Sallnäs 2010).
+Another recent development is telepresence robots that enable
+users to physically interact with geographically remote persons
+and environments. Their ultimate goal is to provide users with
+the illusion of a physical presence in remote places. Telepresence
+robots combine physical and remote presence and have a wide
+range of potential social applications like remote embodied teleconferencing and teaching, visiting or monitoring elderly in care
+centers, and making patient rounds in medical facilities (Kristoffersson et al. 2013). To achieve an illusion of telepresence, the
+robot should be able to reciprocate the user’s behavior and to
+
+Remote Communication Between Partners
+Intimacy is of central importance in creating and maintaining
+strong emotional bonds. Humans have an important social and
+personal need to feel connected in order to maintain their interpersonal relationships (Kjeldskov et al. 2004). A large part of their
+interpersonal communication is emotional rather than factual
+(Kjeldskov et al. 2004).
+The vibration function on a mobile phone has been used to
+render emotional information for blind users (Réhman and Liu
+2010) and a similar interface can convey emotional content in
+instant messaging (Shin et al. 2007). Also, a wide range of systems
+have been developed for the mediated representation of specific
+touch events between dyads such as kisses (Saadatian et al. 2014),
+hugs (Mueller et al. 2005; Cha et al. 2008; Teh et al. 2008; Gooch
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+4
+
+May 2015 | Volume 2 | Article 2
+
+van Erp and Toet
+
+Social touch in HCI
+
+provide the user with real-time multisensory feedback. As far as
+we are aware of, systems including the sense of touch have not been
+described yet.
+
+provided by the user to the system, and closing the loop between
+these signals.
+
+Generating Social Touch Signals
+Lemmens et al. (2009) tested tactile jackets (and later blankets)
+to increase emotional experiences while watching movies and
+reported quite strong effects of well-designed vibration patterns.
+Dijk et al. (2013) developed a dance vest for deaf teenagers. This
+vest included an algorithm that translated music into vibration
+patterns presented through the vest. Although not generated by a
+social entity, experiencing music has a substantial emotional part
+as did the automatically generated vibration patterns.
+Beyond the scripted and one-way social touch cues employed
+in the examples above, human–computer interaction applications
+increasingly deploy intelligent agents to support the social aspects
+of the interaction (Nijholt 2014). Social agents are used to communicate, express, and perceive emotions, maintain social relationships, interpret natural cues, and develop social competencies
+(Fong et al. 2003; Li et al. 2011). Empathic communication in
+general may serve to establish and improve affective relations with
+social agents (Bickmore and Picard 2005), and may be considered
+as a fundamental requirement for social agents that are designed to
+function as social companions and therapists (Breazeal 2011). Initial studies have shown that human interaction with social robots
+can indeed have therapeutic value (Kanamori et al. 2003; Wada
+and Shibata 2007; Robinson et al. 2013). These agents typically use
+facial expressions, gesture, and speech to convey affective cues to
+the user. Social agents (either physically embodied as, e.g., robots
+or represented as on-screen virtual agents) may also use (mediated) touch technology to communicate with humans (Huisman
+et al. 2014a). In this case, the touch cue is not only mediated but
+also generated and interpreted by an electronic system instead of
+a human.
+The physical embodiment of robots gives them a direct capability to touch users, while avatars may use the technology designed
+for other HCI or mediated social touch applications to virtually
+touch their user. Several devices have been proposed that enable
+haptic interaction with virtual characters (Hossain et al. 2011;
+Rahman and El Saddik 2011; Huisman et al. 2014a). Only few
+studies investigated autonomous systems that touch users for
+affective or therapeutic purposes (Chen et al. 2011), or that use
+touch to communicate the affective state of artificial creatures to
+their users (Yohanan and MacLean 2012).
+
+Reactions to Mediated Touch at a Physiological,
+Behavioral, and Social Level
+Although the field generally lacks serious validation studies, there
+is mounting evidence that people use, experience, and react to
+direct and mediated social touch in similar ways Bailenson and Yee
+(2007), at the physiological, psychological, behavioral, and social
+level.
+At a physiological and psychological level, mediated affective
+touch on the forearm can reduce heart rate of participants that
+experienced a sad event (Cabibihan et al. 2012). Mediated touch
+affects the quality of a shared experience and increases the intimacy felt toward the other person (Takahashi et al. 2011). Stimulation of someone’s hand through mediated touch can modulate
+the quality of a remotely shared experience (e.g., the hilariousness
+of a movie) and increase sympathy for the communication partner
+(Takahashi et al. 2011). In a storytelling paradigm, participants
+experienced a significantly higher degree of connectedness with
+the storyteller when the speech was accompanied by remotely
+administered squeezes in the upper arm (Wang et al. 2012).
+Additional evidence for the potential effects of mediated touch
+are found in the fact that hugging a robot medium while talking
+increases affective feelings and attraction toward a conversation
+partner (Kuwamura et al. 2013; Nakanishi et al. 2013). Participants receiving tactile facial stimulation experienced a stranger
+receiving similar stimulation to be closer, more positive and more
+similar to themselves when they were provided with synchronous
+visual feedback (Paladino et al. 2010).
+At a behavioral level, the most important observation is that
+the effect of a mediated touch on people’s pro-social behavior is
+similar to that of a real touch. According to Haans and IJsselsteijn
+(2009a), a virtual Midas touch has effects in the same order of
+magnitude as a real Midas touch. At the social level, the use
+of mediated touch is only considered appropriate as a means of
+communication between people in close personal relationships
+(Rantala et al. 2013), and the mere fact that two people are willing
+to touch implies an element of trust and mutual understanding
+(Collier 1985). The interpretation of mediated touch depends on
+the type of interrelationship between sender and receiver (Rantala
+et al. 2013), similar to direct touch (Coan et al. 2006; Thompson
+and Hampton 2011) and like direct touch, mediated touch communication between strangers can cause discomfort (Smith and
+MacLean 2007).
+
+Recognizing and Interpreting Social Touch
+Signals
+Communication implies a two-way interaction and social robots
+and avatars should therefore not only be able to generate but
+also to recognize affectionate touches. For instance, robotic affective responses to touch may contribute to people’s quality of life
+(Cooney et al. 2014). Touch capability is not only “nice to have”
+but may even be a necessity: people expect social interaction with
+embodied social agents to the extent that physical embodiment
+without tactile interaction results in a negative appraisal of the
+robot (Lee et al. 2006). In a recent study on the suitability of social
+robots for the wellbeing of the elderly, all participants expressed
+their wish for the robot to feel pleasant to hold or stroke and to
+
+Social Touch Generated by ICT Systems
+The previous chapter dealt with devices that enable interpersonal
+social touch communication, i.e., a situation in which the touch
+signals are generated and interpreted by human users and only
+mediated through information and communication technology.
+One step beyond this is to include social touch in the communication between a user and a virtual entity. This implies
+three additional challenges: the generation of social touch signals
+from system to user, the interpretation of social touch signals
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+5
+
+May 2015 | Volume 2 | Article 2
+
+van Erp and Toet
+
+Social touch in HCI
+
+respond to touch (Hutson et al. 2011). The well-known example of
+the pet seal Paro (Wada et al. 2010) shows how powerful a simple
+device can be in evoking social touches. Paro responds sec to being
+touched but does neither interpret social touch nor produce touch.
+Similar effects are reported for touching a humanoid robot on the
+shoulder: just being able to touch already significantly increases
+trust toward the robot (Dougherty and Scharfe 2011).
+Automatic recognition and interpretation of the affective content of human originated social touch is essential to support this
+interaction (Argall and Billard 2010). Different approaches to
+equipping robots with a sense of touch include covering them
+with an artificial skin that simulates the human somatosensory
+systems (Dahiya et al. 2010) or the use of fully embodied robots
+covered with a range of different (e.g., temperature, proximity,
+pressure) sensors (Stiehl et al. 2005). To fully capture a social
+touch requires sensors that go beyond those used in the more
+advanced area of haptics and that primarily involve discriminative
+touch (e.g., contact, pressure, resistance). At least sensors for temperature and soft, stroking touch should be included to capture
+important parameters of social touch. However, just equipping
+a system (robot, avatar, or interface) with touch sensors is not
+sufficient to enable affective haptic interaction. A system can
+only appreciate and respond to affective touch in a natural way
+when it is able (a) to determine where the touch was applied,
+(b) to assess what kind of tactile stimulation was applied, and
+(c) to appraise the affective quality of the touch (Nguyen et al.
+2007). While video- and audio-based affect recognition have been
+widely investigated (Calvo and D’Mello 2010), there have only
+been a few studies on touch-based affect recognition. The results
+of these preliminary studies indicate that affect recognition based
+on tactile interaction between humans and robots is comparable
+to that between humans (Naya et al. 1999; Cooney et al. 2012;
+Altun and MacLean 2014; Jung et al. 2014; van Wingerden et al.
+2014).
+Research on capturing emotions from touch input to a computer system (i.e., not in a social context) confirms the potential
+of the touch modality (Zacharatos et al. 2014). Several research
+groups worked on capturing emotions from traditional computer
+input devices like mouse and keyboard based on the assumption
+that a user’s emotional state affects the motor output system. A
+general finding is that typing speed correlates to valence with
+a decrease in typing speed for negative valence and increased
+speed for positive valence compared to typing speed in neutral
+emotional state (Tsihrintzis et al. 2008; Khanna and Sasikumar
+2010). A more informative system includes the force pattern of
+the key strokes. Using this information, very high-accuracy rates
+(>90%) are reported (Lv et al. 2008) for categorizing six emotional
+states (neutral, anger, fear, happiness, sadness, and surprise).
+This technique requires force sensitive keyboards, which are not
+widely available. Touch screens are used by an increasing number of people and offer much richer interaction parameters than
+keystrokes such as scrolling, tapping, or stroking. Recent work by
+Gao et al. (2012) showed that in a particular game played on the
+iPod, touch inputs like stroke length, pressure, and speed were
+important features related to a participant’s verbal description of
+the emotional experience during the game. Using a linear SVM,
+classification performance reached 77% for four emotional classes
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+(excited, relaxed, frustrated, and bored), close to 90% for two levels
+of arousal, and close to 85% for two levels of valence.
+
+Closing the Loop
+A robot that has the ability to “feel,” “understand,” and “respond”
+to touch in a human-like way will be capable of more intuitive and
+meaningful interaction with humans. Currently, artificial entities
+that include touch capabilities either produce or interpret social
+touch, but not both. However, both are required to close the loop
+and come to real, bidirectional interaction. The latter may require
+strict adherence to, for instance, timing and immediacy; a handshake in which the partners are out-of-phase can be very awkward.
+And as Cranny-Francis (2011) states, violating the tactile regime
+may result in being rejected as alien and may seriously offend
+others.
+
+Reactions to Touching Robots and Avatars at a
+Physiological, Behavioral, and Social Level
+Although there are still very few studies in this field, and there has
+been hardly any real formal evaluation, the first results of touch
+interactions with artificial entities appear promising. For instance,
+people experience robots that interact by touch as less machinelike (Cramer et al. 2009). Yohanan and colleagues (Yohanan et al.
+2005; Yohanan and MacLean 2012) designed several haptic creatures to study a robot’s communication of emotional state and
+concluded that participants experienced a broader range of affect
+when haptic renderings were applied. Basori et al. (2009) showed
+the feasibility of using vibration in combination with sound and
+facial expression in avatars to communicate emotion strength.
+Touch also assists in building a relationship with social actors:
+hand squeezes (delivered through an airbladder) can improve the
+relation with a virtual agent (Bickmore et al. 2010). Artificial
+hands equipped with synthetic skins can potentially replicate not
+only the biomechanical behavior but also the warmth (the “feel”)
+of the human hand (Cabibihan et al. 2009, 2010, 2011). Users
+perceived a higher degree of friendship and social presence when
+interacting with a zoomorphic social robot with a warmer skin
+(Park and Lee 2014). Recent experiments indicate that the warmth
+of a robotic hand mediating social touch contributed significantly
+to the feeling of social presence (Nakanishi et al. 2014) and holding
+a warm robot hand increased feelings of friendship and trust
+toward a robot (Nie et al. 2012).
+Kotranza and colleagues (Kotranza and Lok 2008; Kotranza
+et al. 2009) describe a virtual patient as a medical student’s training
+tool that is able to be touched and to touch back. These touchenabled virtual patients were treated more like real humans than
+virtual patients without touch capabilities (students expressed
+more empathy and used touch more frequently to comfort and
+reassure the virtual patient).The authors concluded that by adding
+haptic interaction to the virtual patient, the bandwidth of the
+student-virtual patient communication increases and approaches
+that of human–human communication. In a study on the interaction between toddlers and a small humanoid robot, Tanaka
+et al. (2007) found that social connectedness correlated with the
+amount of touch between the child and robot. In a study where
+participants were asked to brush off “dirt” from either virtual
+objects or virtual humans, they touched virtual humans with
+
+6
+
+May 2015 | Volume 2 | Article 2
+
+van Erp and Toet
+
+Social touch in HCI
+
+less force than non-human objects, and they touched the face
+of a virtual human with less force than the torso, while male
+virtual humans were touched with more force than female virtual humans (Bailenson and Yee 2008). Huisman et al. (2014b)
+performed a study in which participants played a collaborative
+augmented reality game together with two virtual agents, visible in
+the same augmented reality space. During interaction, one of the
+virtual agents touched the user on the arm by means of a vibrotactile display. They found that the touching virtual agent was
+rated higher on affective adjectives than the non-touching agent.
+Finally, Nakagawa et al. (2011) created a situation in which a robot
+requested participants to perform a repetitive monotonous task.
+This request was accompanied by an active touch, a passive touch,
+or no touch. The result showed that the active touch increased
+people’s motivation to continue performing the monotonous task.
+This confirms the earlier finding of Haans and IJsselsteijn (2009a)
+that the effect of the virtual Midas touch is in the same order of
+magnitude as the real Midas touch effect.
+
+may stimulate the further development of mediated social touch
+devices. Another research topic is the presumed close link between
+social touch and emotions and the potential underlying neurophysiological mechanisms, i.e., the connection between social
+touch and the emotional brain.
+
+Multisensory and Contextual Cues
+The meaning and appreciation of touch critically depend on its
+context (Collier 1985; Camps et al. 2012), such as the relation
+between conversation partners (Burgoon et al. 1992; Thompson
+and Hampton 2011), the body location of the touch (Nguyen et al.
+1975), and the communication partner’s culture (McDaniel and
+Andersen 1998). There is no one-to-one correspondence between
+a touch and its meaning (Jones and Yarbrough 1985). Hence, the
+touch channel should be coupled with other sensory channels
+to clarify its meaning (Wang and Quek 2010). An important
+research question is which multisensory and contextual cues are
+critical. Direct (i.e., unmediated) touch is usually a multisensory
+experience: during interpersonal touch, we typically experience
+not only tactile stimulation but also changes in warmth along with
+verbal and non-verbal visual, auditory, and olfactory signals. Nonverbal cues (when people both see, hear, feel, and possibly smell
+their interaction partner performing the touching) may render
+mediated haptic technology more transparent, thereby increasing
+perceived social presence and enhancing the convincingness or
+immediacy of social touch (Haans and IJsselsteijn 2009b, 2010).
+Also, since the sight of touch activates brain regions involved in
+somatosensory processing [Rolls (2010); even watching a videotaped version: Walker and McGlone (2015)], the addition of visual
+feedback may enhance the associated haptic experience. Another
+strong cue for physical presence is body warmth. In human social
+interaction, physical temperature also plays an important role
+in sending interpersonal warmth (trust) information. Thermal
+stimuli may therefore serve as a proxy for social presence and
+stimulate the establishment of social relationships (IJzerman and
+Semin 2010).
+In addition to these bottom-up, stimulus driven aspects, topdown factors like expectations/beliefs of the receiver should be
+accounted for (e.g., beliefs about the intent of the interaction
+partner, familiarity with the partner, affordances of a physically
+embodied agent, etc.) since they shape the perceived meaning
+of touch (Burgoon and Walther 1990; Gallace and Spence 2010;
+Suhonen et al. 2012b).
+
+Research Topics
+Mediated social touch is a relatively young field of research
+that has the potential to substantially enrich human–human and
+human–system interaction. Although it is still not clear to what
+extent mediated touch can reproduce real touch, converging evidence seems to show that mediated touch shares important effects
+with real touch. However, many studies have an anecdotal character without solid and/or generalizable conclusions and the key
+studies in this field have not been replicated yet. This does not necessarily mean that the results are erroneous but it indicates that the
+field has not matured enough and may suffer from a publication
+bias. We believe that we need advancements in the following four
+areas for the field to mature: building an overarching framework,
+developing social touch basic building blocks, improving current
+research methodologies, and solving specific ICT challenges.
+
+Framework
+The human skin in itself is a complex organ able to process many
+different stimulus dimensions such as pressure, vibration, stretch,
+and temperature (van Erp 2007). “Social touch” is what the brain
+makes of these stimulus characteristics (sensations) taking into
+account personality, previous experiences, social conventions, the
+context, the object or person providing the touch, and probably
+many more factors. The scientific domains involved in social
+touch each have interesting research questions and answering
+them helps the understanding of (real life or mediated) social
+touch. In addition, we need an overarching framework to link
+the results across disciplines, to foster multidisciplinary research,
+and to encourage the transition from exploratory research to
+hypothesis driven research.
+
+Social and Cultural
+Social touch has a strong (unwritten) etiquette (Cranny-Francis
+2011). Important questions are how to develop a touch etiquette
+for mediated touch and for social agents that can touch (van
+Erp and Toet 2013), and how to incorporate social, cultural, and
+individual differences with respect to acceptance and meaning
+of a mediated or social agent’s touch. Individual differences may
+include gender, attitude toward robots, and technology and touch
+receptivity [the (dis-)liking of being touched, Bickmore et al.
+2010]. An initial set of guidelines for this etiquette is given by
+van Erp and Toet (2013). In addition, we should consider possible
+ethical implications of the technology, ranging from affecting
+people’s behavior without them being aware of it to the threat of
+physical abuse “at a distance.”
+
+Neuroscience
+The recent finding that there exists a distinct somatotopic mapping between tactile sensations and different emotional feelings
+(Nummenmaa et al. 2013; Walker and McGlone 2015) suggests
+that it may also be of interest to determine a map of our responsiveness to interpersonal (mediated) touch across the skin surface (Gallace and Spence 2010). The availability of such a map
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+7
+
+May 2015 | Volume 2 | Article 2
+
+van Erp and Toet
+
+Social touch in HCI
+
+Social Touch Building Blocks
+
+Effect Measures
+
+Gallace and Spence (2010) noted that even the most advanced
+devices will not be able to deliver something that can approximate
+realistic interpersonal touch if we do not know exactly what needs
+to be communicated and how to communicate it. Our touch capabilities are very complex, and like mediated vision and audition,
+mediated touch will always be degraded compared to real touch.
+The question is how this degradation affects the effects aimed for.
+A priori, mediated haptic communication should closely resemble non-mediated communication in order to be intuitively processed without introducing ambiguity or increasing the cognitive
+load (Rantala et al. 2011). However, the results discussed in this
+paper [e.g., Bailenson et al. (2007), Smith and MacLean (2007),
+Haans and IJsselsteijn (2009a), Giannopoulos et al. (2011), and
+Rantala et al. (2013)] indicate that social touch is quite robust to
+degradations and it may not be necessary to mediate all physical
+parameters accurately or at all.
+However, it is currently not even clear how we can haptically
+represent valence and arousal, let alone that we have robust knowledge on which parameters of the rich and complex touch characteristics are crucial in relation to the intended effects. Ideally, we
+have a set of building blocks of social touch that can be applied
+and combined depending on the situation.
+
+Social touch can evoke effects at many different levels in the
+receiver: physiological, psychological, behavioral, and social, and
+it is likely that effects at these different levels also interact. For
+instance, (social) presence and emotions can reciprocally reinforce each other. Currently, a broad range of effect measures is
+applied, which makes it difficult to compare results, assess interactions between levels, and combine experimental results into
+an integrated perspective. This pleads for setting a uniform set
+of validated and standardized measures that covers the different
+levels and that is robust and sensitive to the hypothesized effects of
+social touch. This set could include basic physiological measures
+known to vary with emotional experience [e.g., heart rate variability and skin conductance; Hogervorst et al. 2014]; psychological
+and social measures reflecting trust, proximity, togetherness, and
+social presence (IJsselsteijn et al. 2003; Van Bel et al. 2008; van Bel
+et al. 2009), and behavioral measures, e.g., quantifying compliance
+and performance. Please note though that each set of measures
+will have its own pitfalls. For instance, see Brouwer et al. (2015)
+for a critical reflection on the use of neurophysiological measures
+to assess cognitive or mental state, and Bailenson and Yee (2008)
+on the use of self-report questionnaires.
+
+Specific ICT Challenges
+Enabling ICT mediated, generated, and/or interpreted social
+touch requires specific ICT knowledge and technology. We consider the following issues as most prominent.
+
+Methodology
+Not uncommon for research in the embryonic stage, mediated
+social touch research is going through a phase of haphazard,
+anecdotal studies demonstrating the concept and its’ potential. To
+mature, the field needs rigorous replication and methodological
+well-designed studies and protocols. The multidisciplinary nature
+of the field adds to the diversity in research approaches.
+
+Understanding Social Touches
+With a few exceptions, mediated social touch studies are restricted
+to producing a social touch and investigate its effects on a user.
+To use social touch in interaction means that the system should
+not only be able to generate social touches but also to receive
+and understand social touches provided by human users. Taken
+the richness of human touch into account, this is not trivial.
+We may currently not even have the necessary sensor suite to
+capture a social touch adequately, including parameters like sheer
+and tangential forces, compliance, temperature, skin stretch, etc.
+After adequate capturing, algorithms should determine the social
+appraisal of the touch. Currently, the first attempts to capture
+social touches with different emotional values on a single body
+location (e.g., the arm) and to use computer algorithms to classify
+them are undertaken (van Wingerden et al. 2014).
+
+Controlled Studies
+Only few studies have actually investigated mediated affect
+conveyance, and compared mediated with unmediated touch.
+Although it appears that mediated social touch can indeed to
+some extent convey emotions (Bailenson et al. 2007) and induce
+pro-social behavior [e.g., the Midas effect; Haans and IJsselsteijn
+(2009a)], it is still not known to what extent it can also elicit strong
+affective experiences (Haans and IJsselsteijn 2006) and how this all
+compares to real touch or other control conditions.
+
+Context Aware Computing and Social Signal
+Processing
+
+Protocols
+Previous studies on mediated haptic interpersonal communication mainly investigated the communication of deliberately performed (instructed) rather than naturally occurring emotions
+(Bailenson et al. 2007; Smith and MacLean 2007; Rantala et al.
+2013). Although this protocol is very time efficient, it relies heavily
+on participants’ ability to spontaneously generate social touches
+with, for instance, a specific emotional value. This is comparable
+to the research domain of facial expression where often trained
+actors are used to produce expressions on demand. One may consider training people in producing social touches on demand or
+employ a protocol (scenario) that naturally evokes specific social
+signals rather than instruct naïve participants to produce them.
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+The meaning of a social touch is highly dependent on the accompanying verbal and non-verbal signals of the sender and the
+context in which the touch is applied. An ICT system involved
+in social touch interaction should take the relevant parameters
+into account, both in generating touch and in interpreting touch.
+To understand and manage social signals of a person, the system
+is communicating with is the main challenge in the – in itself
+relatively young – field of social signal processing (Vinciarelli et al.
+2008). Context aware (Schilit et al. 1994) implies that the system
+can sense its environment and reason about it in the context of
+social touch.
+
+8
+
+May 2015 | Volume 2 | Article 2
+
+van Erp and Toet
+
+Social touch in HCI
+
+Current ICT advances like the embodiment of artificial entities,
+the development of advanced haptic and tactile display technologies and standards (van Erp et al. 2010, including initial guidelines for mediated social touch: van Erp and Toet 2013) enable
+the exploration of new ICT systems that employ this powerful
+communication option, for instance, to enhance communication
+between physically separated partners and increase trust in and
+compliance with artificial entities. There are two prerequisites to
+make these applications viable. First, inter-human social touch can
+be ICT mediated, and second, social touch can be ICT generated
+and understood, all without loss of effectiveness, efficiency, and
+user satisfaction.
+In this paper, we show that there is converging evidence that
+both prerequisites can be met. Mediated social touch shows effects
+at aforementioned levels, and these effects resemble those of a
+real touch, even if the mediated touch is severely degraded. We
+also report the first indications that a social touch can be generated by an artificial entity, although the evidence base is still
+small. Moreover, the first steps are taken to develop algorithms
+to automatically classify social touches produced by the user.
+Our review also shows that (mediated) social touch is an
+embryonic field relying for a large part on technology demonstrations with only a few systematic investigations. To advance
+the field, we believe the focus should be on the following four
+activities: developing an overarching framework (integrating neuroscience, computer science, and social and behavioral science),
+developing basic social touch building blocks (based on the critical
+social touch parameters), applying stricter research methodologies (use controlled studies, validated protocols, and standard
+effect measures), and realizing breakthroughs in ICT (classifying
+social touches, context aware computing, social signal processing,
+congruence, and enhancing touch cues).
+When we are successful in managing these challenges at the
+crossroads of ICT and psychology, we believe that (mediated)
+social touch can improve our wellbeing and quality of life, can
+bridge the gap between real and virtual (social) worlds, and can
+make artificial entities more human-like.
+
+Congruency in Time, Space, and Semantics
+As with most multimodal interactions, congruency of the signals in space, time, and meaning is of eminent importance. For
+instance, touches should be congruent with other (mediated)
+display modalities (visual, auditory, olfactory) to communicate
+the intended meaning. In addition, congruence in time and space
+between, for instance, a seen gesture and a resulting haptic sensation is required to support a common interaction metaphor
+based on real touch. It has been shown that combining mediated
+social touch with morphologically congruent imagery enhances
+perceived social presence, whereas incongruent imagery results in
+lower degrees of social presence (Haans and IJsselsteijn 2010).
+Especially in closed-loop interaction (e.g., when holding or
+shaking hands), signals that are out of sync may severely degrade
+the interaction, thus requiring (near) real-time processing of touch
+and other social signals and generation of adequate social touches
+in reaction.
+
+Enhancing Touch Cues
+Social touch seems robust to degradations and mediated touch
+does not need to replicate all physical parameters accurately. The
+flipside of degradation is enhancement. Future research should
+investigate to what extent the affective quality of the mediated
+touch signals can be enhanced by the addition of other communication channels or by controlling specific touch parameters. Touch
+parameters do not necessarily have to be mediated one-to-one,
+but, for instance, temperature and force profiles may be either
+amplified or attenuated. The additional options mediation can
+provide to social touch have not been explored yet.
+
+Conclusion
+Social touch is of eminent importance in inter-human social communication and grounded in specific neurophysiological processing channels. Social touch can have effects at many levels including
+physiological (heart rate and hormone levels), psychological (trust
+in others), and sociological (pro-social behavior toward others).
+
+In Proceedings of the International Conference on Computer Technology and
+Development (ICCTD ‘09), 416–420. Piscataway, NJ: IEEE Press.
+Bickmore, T.W., Fernando, R., Ring, L., and Schulman, D. 2010. Empathic touch by
+relational agents. IEEE Trans. Affect. Comput. 1: 60–71. doi:10.1109/T-AFFC.
+2010.4
+Bickmore, T.W., and Picard, R.W. 2005. Establishing and maintaining longterm human-computer relationships. ACM Trans. Comput. Hum. Interact. 12:
+293–327. doi:10.1145/1067860.1067867
+Bohil, C.J., Alicea, B., and Biocca, F.A. 2011. Virtual reality in neuroscience research
+and therapy. Nat. Rev. Neurosci. 12: 752–62. doi:10.1038/nrn3122
+Bonanni, L., Vaucelle, C., Lieberman, J., and Zuckerman, O. 2006. TapTap: a haptic
+wearable for asynchronous distributed touch therapy. In Proceedings of the
+ACM Conference on Human Factors in Computing Systems CHI ‘06, 580–585.
+New York, NY: ACM.
+Breazeal, C. 2011. Social robots for health applications. In Proceedings of the IEEE
+2011 Annual International Conference on Engineering in Medicine and Biology
+(EMBC), 5368–5371. Piscataway, NJ: IEEE.
+Brouwer, A.-M., Zander, T.O., van Erp, J.B.F., Korteling, J.E., and Bronkhorst,
+A.W. 2015. Using neurophysiological signals that reflect cognitive or affective
+state: six recommendations to avoid common pitfalls. Front. Neurosci. 9:136.
+doi:10.3389/fnins.2015.00136
+Burgoon, J.K. 1991. Relational message interpretations of touch, conversational
+distance, and posture. J. Nonverbal Behav. 15:233–59. doi:10.1007/BF00986924
+
+References
+Altun, K., and MacLean, K.E. 2014. Recognizing affect in human touch of a robot.
+Pattern Recognit. Lett. doi:10.1016/j.patrec.2014.10.016
+App, B., McIntosh, D.N., Reed, C.L., and Hertenstein, M.J. 2011. Nonverbal channel
+use in communication of emotion: how may depend on why. Emotion 11:
+603–17. doi:10.1037/a0023164
+Argall, B.D., and Billard, A.G. 2010. A survey of tactile human-robot interactions.
+Rob. Auton. Syst. 58: 1159–76. doi:10.1016/j.robot.2010.07.002
+Argyle, M. 1975. Bodily Communication. 2nd ed. London, UK: Methuen.
+Bailenson, J.N., and Yee, N. 2007. Virtual interpersonal touch and digital
+chameleons. J. Nonverbal Behav. 31: 225–42. doi:10.1007/s10919-007-0034-6
+Bailenson, J.N., and Yee, N. 2008. Virtual interpersonal touch: haptic interaction
+and copresence in collaborative virtual environments. Multimed. Tools Appl. 37:
+5–14. doi:10.1007/s11042-007-0171-2
+Bailenson, J.N., Yee, N., Brave, S., Merget, D., and Koslow, D. 2007. Virtual interpersonal touch: expressing and recognizing emotions through haptic devices. Hum.
+Comput. Interact. 22: 325–53. doi:10.1080/07370020701493509
+Basdogan, C., Ho, C.-H., Srinivasan, M.A., and Slater, M. 2000. An experimental
+study on the role of touch in shared virtual environments. ACM Trans. Comput.
+Hum. Interact. 7: 443–60. doi:10.1145/365058.365082
+Basori, A.H., Bade, A., Sunar, M.S., Daman, D., and Saari, N. 2009. Haptic vibration
+for emotional expression of avatar to enhance the realism of virtual reality.
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+9
+
+May 2015 | Volume 2 | Article 2
+
+van Erp and Toet
+
+Social touch in HCI
+
+Burgoon, J.K., and Walther, J.B. 1990. Nonverbal expectancies and the evaluative consequences of violations. Hum. Comm. Res. 17: 232–65. doi:10.1111/j.
+1468-2958.1990.tb00232.x
+Burgoon, J.K., Walther, J.B., and Baesler, E.J. 1992. Interpretations, evaluations, and
+consequences of interpersonal touch. Hum. Comm. Res. 19: 237–63. doi:10.1111/
+j.1468-2958.1992.tb00301.x
+Bush, E. 2001. The use of human touch to improve the well-being of older adults:
+A holistic nursing intervention. J. Holist. Nurs. 19(3):256–270. doi:10.1177/
+089801010101900306
+Cabibihan, J.-J., Ahmed, I., and Ge, S.S. 2011. Force and motion analyses of the
+human patting gesture for robotic social touching. In Proceedings of the 2011
+IEEE 5th International Conference on Cybernetics and Intelligent Systems (CIS),
+165–169. Piscataway, NJ: IEEE.
+Cabibihan, J.-J., Jegadeesan, R., Salehi, S., and Ge, S.S. 2010. Synthetic skins with
+humanlike warmth. In Social Robotics, Edited by S. Ge, H. Li, J.J. Cabibihan, and
+Y. Tan, 362–371. Berlin: Springer.
+Cabibihan, J.-J., Pradipta, R., Chew, Y., and Ge, S. 2009. Towards humanlike social
+touch for prosthetics and sociable robotics: Handshake experiments and finger
+phalange indentations. In Advances in Robotics, Edited by J.H. Kim, S. Ge, P.
+Vadakkepat, N. Jesse, A. Al Manum, K. Puthusserypady, et al., 73–79 Berlin:
+Springer. doi:10.1007/978-3-642-03983-6_11
+Cabibihan, J.-J., Zheng, L., and Cher, C.K.T. 2012. Affective tele-touch. In Social
+Robotics, Edited by S. Ge, O. Khatib, J.J. Cabibihan, R. Simmons, and M.A.
+Williams, 348–356. Berlin: Springer.
+Calvo, R.A., and D’Mello, S. 2010. Affect detection: an interdisciplinary review of
+models, methods, and their applications. IEEE Trans. Affect. Comput. 1: 18–37.
+doi:10.1109/T-AFFC.2010.1
+Camps, J., Tuteleers, C., Stouten, J., and Nelissen, J. 2012. A situational touch: how
+touch affects people’s decision behavior. Social Influence 8: 237–50. doi:10.1080/
+15534510.2012.719479
+Cannon, W.B. 1927. The James-Lange theory of emotions: a critical examination
+and an alternative theory. Am. J. Psychol. 39: 106–24. doi:10.2307/1415404
+Cha, J., Eid, M., Barghout, A., and Rahman, A.M. 2008. HugMe: an interpersonal
+haptic communication system. In IEEE International Workshop on Haptic Audio
+visual Environments and Games (HAVE 2008), 99–102. Piscataway, NJ: IEEE.
+Chang, S.O. 2001. The conceptual structure of physical touch in caring. J. Adv. Nurs.
+33(6): 820–827. doi:10.1046/j.1365-2648.2001.01721.x
+Chatel-Goldman, J., Congedo, M., Jutten, C., and Schwartz, J.L. 2014. Touch
+increases autonomic coupling between romantic partners. Front. Behav. Neurosci. 8:95. doi:10.3389/fnbeh.2014.00095
+Chen, T.L., King, C.-H., Thomaz, A.L., and Kemp, C.C. 2011. Touched by a robot: an
+investigation of subjective responses to robot-initiated touch. In Proceedings of
+the 6th International Conference on Human-Robot Interaction HRI ‘11, 457–464.
+New York, NY: ACM.
+Chung, K., Chiu, C., Xiao, X., and Chi, P.Y.P. 2009. Stress outsourced: a haptic social
+network via crowdsourcing. In CHI ‘09 Extended Abstracts on Human Factors
+in Computing Systems, Edited by D.R. Olsen, K. Hinckley, M. Ringel-Morris,
+S. Hudson and S. Greenberg, 2439–2448. New York, NY: ACM. doi:10.1145/
+1520340.1520346
+Coan, J.A., Schaefer, H.S., and Davidson, R.J. 2006. Lending a hand: social regulation of the neural response to threat. Psychol. Sci. 17: 1032–9. doi:10.1111/j.
+1467-9280.2006.01832.x
+Collier, G. 1985. Emotional Expression. Hillsdale, NJ: Lawrence Erlbaum Associates
+Inc.
+Cooney, M.D., Nishio, S., and Ishiguro, H. 2012. Recognizing affection for a touchbased interaction with a humanoid robot. In IEEE/RSJ International Conference
+on Intelligent Robots and Systems (IROS), 1420–1427. Piscataway, NJ: IEEE.
+Cooney, M.D., Nishio, S., and Ishiguro, H. 2014. Importance of touch for conveying
+affection in a multimodal interaction with a small humanoid robot. Int. J. Hum.
+Rob. 12(1): 1550002. doi:10.1142/S0219843615500024
+Cooper, E.A., Garlick, J., Featherstone, E., Voon, V., Singer, T., Critchley, H.D.,
+et al. 2014. You turn me cold: evidence for temperature contagion. PLoS One
+9:e116126. doi:10.1371/journal.pone.0116126
+Cramer, H., Kemper, N., Amin, A., Wielinga, B., and Evers, V. 2009. “Give me a
+hug”: the effects of touch and autonomy on people’s responses to embodied
+social agents. Comput. Anim. Virtual Worlds 20: 437–45. doi:10.1002/cav.317
+Cranny-Francis, A. 2011. Semefulness: a social semiotics of touch. Soc. Semiotics 21:
+463–81. doi:10.1080/10350330.2011.591993
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+Crusco, A.H., and Wetzel, C.G. 1984. The midas touch: the effects of interpersonal touch on restaurant tipping. Pers. Soc. Psychol. B 10: 512–7. doi:10.1177/
+0146167284104003
+Dahiya, R.S., Metta, G., Valle, M., and Sandini, G. 2010. Tactile sensing – from
+humans to humanoids. IEEE Trans. Rob. 26: 1–20. doi:10.1109/TRO.2009.
+2033627
+Damasio, A. 1999. The Feeling of What Happens: Body and Emotion in the Making
+of Consciousness. London, UK: Heinemann.
+Debrot, A., Schoebi, D., Perrez, M., and Horn, A.B. 2013. Touch as an interpersonal emotion regulation process in couples’ daily lives: the mediating
+role of psychological intimacy. Pers. Soc. Psychol. B 39: 1373–85. doi:10.1177/
+0146167213497592
+Dev, P., Youngblood, P., Heinrichs, W.L., and Kusumoto, L. 2007. Virtual worlds
+and team training. Anesthesiol. Clin. 25: 321–36. doi:10.1016/j.anclin.2007.03.
+001
+Dijk, E.O., Nijholt, A., van Erp, J.B.F., Wolferen, G.V., and Kuyper, E. 2013. Audiotactile stimulation: a tool to improve health and well-being? Int. J. Auton. Adapt.
+Commun. Syst. 6: 305–23. doi:10.1504/IJAACS.2013.056818
+Ditzen, B., Neumann, I.D., Bodenmann, G., von Dawans, B., Turner, R.A., Ehlert,
+U., et al. 2007. Effects of different kinds of couple interaction on cortisol and
+heart rate responses to stress in women. Psychoneuroendocrinology 32: 565–74.
+doi:10.1016/j.psyneuen.2007.03.011
+Dolin, D.J., and Booth-Butterfield, M. 1993. Reach out and touch someone: analysis of nonverbal comforting responses. Commun. Q. 41: 383–93. doi:10.1080/
+01463379309369899
+Dougherty, E., and Scharfe, H. 2011. Initial formation of trust: designing an interaction with geminoid-DK to promote a positive attitude for cooperation. In
+Social Robotics, Edited by B. Mutlu, C. Bartneck, J. Ham, V. Evers, and T. Kanda,
+95–103. Berlin: Springer.
+Drescher, V.M., Gantt, W.H., and Whitehead, W.E. 1980. Heart rate response to
+touch. Psychosom. Med. 42: 559–65. doi:10.1097/00006842-198011000-00004
+Eichhorn, E., Wettach, R., and Hornecker, E. 2008. A stroking device for spatially
+separated couples. In Proceedings of the 10th International Conference on Human
+Computer Interaction with Mobile Devices and Services Mobile HCI ‘08, 303–306.
+New York, NY: ACM.
+Ellingsen, D.M., Wessberg, J., Chelnokova, O., Olausson, H., Aeng, B., and Eknes,
+S. 2014. In touch with your emotions: oxytocin and touch change social impressions while others’ facial expressions can alter touch. Psychoneuroendocrinology
+39: 11–20. doi:10.1016/j.psyneuen.2013.09.017
+Field, T. 2010. Touch for socioemotional and physical well-being: a review. Dev. Rev.
+30: 367–83. doi:10.1016/j.dr.2011.01.001
+Fisher, J.D., Rytting, M., and Heslin, R. 1976. Hands touching hands: affective and
+evaluative effects of an interpersonal touch. Sociometry 39: 416–21. doi:10.2307/
+3033506
+Flowers, M.G., and Aggarwal, R. 2014. Second LifeTM : a novel simulation platform
+for the training of surgical residents. Expert Rev. Med. Devices 11: 101–3. doi:10.
+1586/17434440.2014.863706
+Fong, T., Nourbakhsh, I., and Dautenhahn, K. 2003. A survey of socially
+interactive robots. Rob. Auton. Syst. 42: 143–66. doi:10.1016/S0921-8890(02)
+00372-X
+Frumin, I., Perl, O., Endevelt-Shapira, Y., Eisen, A., Eshel, N., Heller, I., et al.
+2015. A social chemosignaling function for human handshaking. Elife 4: e05154.
+doi:10.7554/eLife.05154
+Furukawa, M., Kajimoto, H., and Tachi, S. 2012. KUSUGURI: a shared tactile
+interface for bidirectional tickling. In Proceedings of the 3rd Augmented Human
+International Conference AH ‘12, 1–8. New York, NY: ACM.
+Gallace, A., Ngo, M.K., Sulaitis, J., and Spence, C. 2012. Multisensory presence in
+virtual reality: possibilities & limitations. In Multiple Sensorial Media Advances
+and Applications: New Developments in MulSeMedia, Edited by G. Ghinea, F.
+Andres and S.R. Gulliver, 1–40. Vancouver, BC: IGI Global.
+Gallace, A., and Spence, C. 2010. The science of interpersonal touch: an overview.
+Neurosci. Biobehav. Rev. 34: 246–59. doi:10.1016/j.neubiorev.2008.10.004
+Gao, Y., Bianchi-Berthouze, N., and Meng, H. 2012. What does touch tell us about
+emotions in touchscreen-based gameplay? ACM Trans. Comput. Hum. Interact.
+19: 1–30. doi:10.1145/2395131.2395138
+Giannopoulos, E., Wang, Z., Peer, A., Buss, M., and Slater, M. 2011. Comparison of
+people’s responses to real and virtual handshakes within a virtual environment.
+Brain Res. Bull. 85: 276–82. doi:10.1016/j.brainresbull.2010.11.012
+
+10
+
+May 2015 | Volume 2 | Article 2
+
+van Erp and Toet
+
+Social touch in HCI
+
+Gleeson, M., and Timmins, F. 2005. A review of the use and clinical effectiveness of
+touch as a nursing intervention. Clin. Effect. Nurs. 9: 69–77. doi:10.1016/j.cein.
+2004.12.002
+Gooch, D., and Watts, L. 2010. Communicating social presence through thermal
+hugs. In Proceedings of First Workshop on Social Interaction in Spatially Separated
+Environments (SISSI2010), Edited by F. Schmid, T. Hesselmann, S. Boll, K.
+Cheverst, and L. Kulik, 11–19. Copenhagen: International Society for Presence
+Research.
+Gooch, D., and Watts, L. 2012. Yourgloves, hothands and hotmits: devices to hold
+hands at a distance. In Proceedings of the 25th Annual ACM Symposium on User
+Interface Software and Technology UIST ‘12, 157–166. New York, NY: ACM.
+Gordon, I., Voos, A.C., Bennett, R.H., Bolling, D.Z., Pelphrey, K.A. and Kaiser,
+M.D. 2013. Brain mechanisms for processing affective touch. Hum. Brain Mapp.
+34(4):914–922. doi:10.1002/hbm.21480
+Gottlieb, G. 1971. Ontogenesis of sensory function in birds and mammals. In The
+Biopsychology of Development, Edited by E. Tobach, L.R. Aronson, and E. Shaw,
+67–128. New York, NY: Academic Press.
+Grewen, K.M., Anderson, B.J., Girdler, S.S., and Light, K.C. 2003. Warm partner
+contact is related to lower cardiovascular reactivity. Behav. Med. 29: 123–30.
+doi:10.1080/08964280309596065
+Guéguen, N. 2002. Touch, awraness of touch, and compliance with a request.
+Percept. Mot. Skills 95: 355–60. doi:10.2466/pms.2002.95.2.355
+Guéguen, N. 2004. Nonverbal encouragement of participation in a course: the effect
+of touching. Soc. Psychol. Educ. 7: 89–98. doi:10.1023/B:SPOE.0000010691.
+30834.14
+Guéguen, N., and Fischer-Lokou, J. 2003. Tactile contact and spontaneous help:
+an evaluation in a natural setting. J. Soc. Psychol. 143: 785–7. doi:10.1080/
+00224540309600431
+Guéguen, N., Meineri, S., and Charles-Sire, V. 2010. Improving medication adherence by using practitioner nonverbal techniques: a field experiment on the effect
+of touch. J. Behav. Med. 33: 466–73. doi:10.1007/s10865-010-9277-5
+Haans, A., and IJsselsteijn, W.A. 2006. Mediated social touch: a review of current research and future directions. Virtual Reality 9: 149–59. doi:10.1007/
+s10055-005-0014-2
+Haans, A., and IJsselsteijn, W.A. (2009a). The virtual Midas Touch: helping behavior
+after a mediated social touch. IEEE Trans. Haptics 2: 136–40. doi:10.1109/TOH.
+2009.20
+Haans, A., and IJsselsteijn, W.A. (2009b). I’m always touched by your presence, dear:
+combining mediated social touch with morphologically correct visual feedback.
+In Proceedings of Presence 2009, 1–6. Los Angeles, CA: International Society for
+Presence Research.
+Haans, A., and IJsselsteijn, W.A. 2010. Combining mediated social touch with
+vision: from self-attribution to telepresence? In Proceedings of Special Symposium
+at EuroHaptics 2010: Haptic and Audio-Visual Stimuli: Enhancing Experiences
+and Interaction, Edited by A. Nijholt, E.O. Dijk, and P.M.C. Lemmens, 35–46
+Enschede:University of Twente.
+Henricson, M., Ersson, A., Määttä, S., Segesten, K., and Berglund, A.L. 2008. The
+outcome of tactile touch on stress parameters in intensive care: A randomized
+controlled trial. Complement. Ther. Clin. Prac. 14(4): 244–254.
+Harlow, H.F., and Zimmermann, R.R. 1959. Affectional responses in the infant
+monkey; orphaned baby monkeys develop a strong and persistent attachment
+to inanimate surrogate mothers. Science 130: 421–32. doi:10.1126/science.130.
+3373.421
+Hertenstein, M.J., Holmes, R., McCullough, M., and Keltner, D. 2009. The communication of emotion via touch. Emotion 9: 566–73. doi:10.1037/a0016108
+Hertenstein, M.J., Keltner, D., App, B., Bulleit, B.A., and Jaskolka, A.R. 2006. Touch
+communicates distinct emotions. Emotion 6: 528–33. doi:10.1037/1528-3542.6.
+3.528
+Hogervorst, M.A., Brouwer, A.-M., and van Erp, J.B.F. 2014. Combining and comparing EEG, peripheral physiology and eye-related measures for the assessment
+of mental workload. Front. Neurosci. 8:322. doi:10.3389/fnins.2014.00322
+Hornik, J. 1992. Tactile stimulation and consumer response. J. Consum. Res. 19:
+449–58. doi:10.1086/209314
+Hossain, S.K.A., Rahman, A.S.M.M., and El Saddik, A. 2011. Measurements of
+multimodal approach to haptic interaction in second life interpersonal communication system. IEEE Trans. Instrum. Meas. 60: 3547–58. doi:10.1109/TIM.
+2011.2161148
+Huisman, G., Bruijnes, M., Kolkmeier, J., Jung, M.M., Darriba Frederiks, A., and
+Rybarczyk, Y. (2014a). Touching virtual agents: embodiment and mind. In
+Innovative and Creative Developments in Multimodal Interaction Systems, Edited
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+by Y. Rybarczyk, T. Cardoso, J. Rosas, and L. Camarinha-Matos, 114–138.
+Berlin: Springer.
+Huisman, G., Kolkmeier, J., and Heylen, D. (2014b). Simulated social touch in a collaborative game. In Haptics: Neuroscience, Devices, Modeling, and Applications,
+Edited by M. Auvray and C. Duriez, 248–256. Berlin: Springer.
+Huisman, G., Darriba Frederiks, A., Van Dijk, E.M.A.G., Kröse, B.J.A., and Heylen,
+D.K.J. 2013. Self touch to touch others: designing the tactile sleeve for social
+touch. In Online Proceedings of TEI’13. Available at: http://www.tei-conf.org/13/
+sites/default/files/page-files/Huisman.pdf
+Hutson, S., Lim, S., Bentley, P.J., Bianchi-Berthouze, N., and Bowling, A. 2011.
+Investigating the suitability of social robots for the wellbeing of the elderly. In
+Affective Computing and Intelligent Interaction, Edited by S. D’Mello, A. Graesser,
+B. Schuller, and J.C. Martin, 578–587. Berlin: Springer.
+IJsselsteijn, W.A., van Baren, J., and van Lanen, F. 2003. Staying in touch: social
+presence and connectedness through synchronous and asynchronous communication media (Part III). In Human-Computer Interaction: Theory and Practice,
+Edited by C. Stephanidis and J. Jacko, 924–928. Boca Raton, FL: CRC Press.
+IJzerman, H., and Semin, G.R. 2009. The thermometer of social relations: mapping social proximity on temperature. Psychol. Sci. 20: 1214–20. doi:10.1111/j.
+1467-9280.2009.02434.x
+IJzerman, H., and Semin, G.R. 2010. Temperature perceptions as a ground for social
+proximity. J. Exp. Soc. Psychol. 46: 867–73. doi:10.1016/j.jesp.2010.07.015
+James, W. 1884. What is an emotion? Mind 9: 188–205. doi:10.1093/mind/os-IX.
+34.188
+Jones, S.E., and Yarbrough, A.E. 1985. A naturalistic study of the meanings of touch.
+Comm. Monogr. 52: 19–56. doi:10.1080/03637758509376094
+Joule, R.V., and Guéguen, N. 2007. Touch, compliance, and awareness of tactile
+contact. Percept. Mot. Skills 104: 581–8. doi:10.2466/pms.104.2.581-588
+Jung, M.M., Poppe, R., Poel, M., and Heylen, D.K.J. 2014. Touching the VOID –
+introducing CoST: corpus of social touch. In Proceedings of the 16th International
+Conference on Multimodal Interaction (ICMI ‘14), 120–127. New York, NY:
+ACM.
+Kanamori, M., Suzuki, M., Oshiro, H., Tanaka, M., Inoguchi, T., Takasugi, H.,
+et al. 2003. Pilot study on improvement of quality of life among elderly using
+a pet-type robot. In Proceedings of the IEEE International Symposium on Computational Intelligence in Robotics and Automation, 107–112. Piscataway, NJ:
+IEEE.
+Khanna, P., and Sasikumar, M. 2010. Recognising emotions from keyboard stroke
+pattern. Int. J. Comput. Appl. 11: 1–5. doi:10.5120/1614-2170
+Kjeldskov, J., Gibbs, M., Vetere, F., Howard, S., Pedell, S., Mecoles, K., et al. 2004.
+Using cultural probes to explore mediated intimacy. Australas J. Inf. Syst. 11.
+Available at: http://journal.acs.org.au/index.php/ajis/article/view/128
+Kleinke, C.L. 1977. Compliance to requests made by gazing and touching experimenters in field settings. J. Exp. Soc. Psychol. 13: 218–23. doi:10.1016/
+0022-1031(77)90044-0
+Knapp, M.L., and Hall, J.A. 2010. Nonverbal Communication in Human Interaction
+(7th ed.). Boston, MA: Wadsworth, CENGAGE Learning.
+Konijn, E.A., Utz, S., Tanis, M., and Barnes, S.B. 2008. Mediated Interpersonal
+Communication. New York, NY: Routledge.
+Kotranza, A., and Lok, B. 2008. Virtual human + tangible interface = mixed reality
+human: an initial exploration with a virtual breast exam patient. In Proceedings
+of the IEEE Virtual Reality Conference 2008 (VR ‘08), 99–106. Piscataway, NJ:
+IEEE.
+Kotranza, A., Lok, B., Deladisma, A., Pugh, C.M., and Lind, D.S. 2009. Mixed
+reality humans: evaluating behavior, usability, and acceptability. IEEE Trans. Vis.
+Comput. Graph. 15: 369–82. doi:10.1109/TVCG.2008.195
+Kraus, M.W., Huang, C., and Keltner, D. 2010. Tactile communication, cooperation,
+and performance: an ethological study of the NBA. Emotion 10: 745–9. doi:10.
+1037/a0019382
+Kristoffersson, A., Coradeschi, S., and Loutfi, A. 2013. A review of mobile
+robotic telepresence. Adv. Hum. Comput. Int. 2013: 1–17. doi:10.1155/2013/
+902316
+Kuwamura, K., Sakai, K., Minato, T., Nishio, S., and Ishiguro, H. 2013. Hugvie: a
+medium that fosters love. In The 22nd IEEE International Symposium on Robot
+and Human Interactive Communication, 70–75. Gyeongju: IEEE.
+Kvam, M.H. 1997. The effect of vibroacoustic therapy. Physiotherapy 83: 290–5.
+doi:10.1016/S0031-9406(05)66176-7
+Ledbetter, A.M. 2014. The past and future of technology in interpersonal communication theory and research. Commun. Stud. 65: 456–9. doi:10.1080/10510974.
+2014.927298
+
+11
+
+May 2015 | Volume 2 | Article 2
+
+van Erp and Toet
+
+Social touch in HCI
+
+Lee, J.K., Stiehl, W.D., Toscano, R.L., and Breazeal, C. 2009. Semi-autonomous robot
+avatar as a medium for family communication and education. Adv. Rob. 23:
+1925–49. doi:10.1163/016918609X12518783330324
+Lee, K.M., Jung, Y., Kim, J., and Kim, S.R. 2006. Are physically embodied social
+agents better than disembodied social agents? The effects of physical embodiment, tactile interaction, and people’s loneliness in human-robot interaction.
+Int. J. Hum. Comput. Stud. 64: 962–73. doi:10.1016/j.ijhcs.2006.05.002
+Lemmens, P., Crompvoets, F., Brokken, D., van den Eerenbeemd, J., and de
+Vries, G.J. 2009. A body-conforming tactile jacket to enrich movie viewing. In
+EuroHaptics Conference, 2009 and Symposium on Haptic Interfaces for Virtual
+Environment and Teleoperator Systems. World Haptics 2009. Third Joint, 7–12.
+Piscataway, NJ: IEEE Press.
+Li, H., Cabibihan, J.-J., and Tan, Y. 2011. Towards an effective design of social robots.
+Int. J. Soc. Rob. 3: 333–5. doi:10.1007/s12369-011-0121-z
+Löken, L.S., Wessberg, J., Morrison, I., McGlone, F., and Olausson, H. 2009. Coding
+of pleasant touch by unmyelinated afferents in humans. Nat. Neurosci. 12(5):
+547–548. doi:10.1038/nn.2312
+Lv, H.-R., Lin, Z.-L., Yin, W.-J., and Dong, J. 2008. Emotion recognition based on
+pressure sensor keyboards. In IEEE International Conference on Multimedia and
+Expo 2008, 1089–1092. Piscataway, NJ: IEEE.
+Master, S.L., Eisenberger, N.I., Taylor, S.E., Naliboff, B.D., Shirinyan, D., and Lieberman, M.D. 2009. A picture’s worth: partner photographs reduce experimentally
+induced pain. Psychol. Sci. 20: 1316–8. doi:10.1111/j.1467-9280.2009.02444.x
+McCall, C., and Blascovich, J. 2009. How, when, and why to use digital experimental
+virtual environments to study social behavior. Soc. Pers. Psychol. Compass 3:
+744–58. doi:10.1111/j.1751-9004.2009.00195.x
+McCance, R.A., and Otley, M. 1951. Course of the blood urea in newborn rats, pigs
+and kittens. J. Physiol. 113: 18–22. doi:10.1113/jphysiol.1951.sp004552
+McDaniel, E., and Andersen, P.A. 1998. International patterns of interpersonal
+tactile communication: a field study. J. Nonverbal Behav. 22: 59–75. doi:10.1023/
+A:1022952509743
+McGlone, F., Wessberg, J., and Olausson, H. 2014. Discriminative and affective touch: sensing and feeling. Neuron 82: 737–55. doi:10.1016/j.neuron.2014.
+05.001
+Mehrabian, A. 1972. Nonverbal Communication. Chicago, IL: Aldine-Atherton.
+Mikropoulos, T.A., and Natsis, A. 2011. Educational virtual environments: a tenyear review of empirical research (1999-2009). Comput. Educ. 56: 769–80. doi:10.
+1016/j.compedu.2010.10.020
+Montagu, A. 1972. Touching: The Human Significance of the Skin. New York, NY:
+Harper & Row Publishers.
+Morrison, I., Löken, L., and Olausson, H. 2010. The skin as a social organ. Exp. Brain
+Res. 204: 305–14. doi:10.1007/s00221-009-2007-y
+Morrison, I., Björnsdotter, M., and Olausson, H. 2011. Vicarious responses to
+social touch in posterior insular cortex are tuned to pleasant caressing speeds.
+J. Neurosci. 31(26):9554–9562.
+Mueller, F., Vetere, F., Gibbs, M.R., Kjeldskov, J., Pedell, S., and Howard, S. 2005.
+Hug over a distance. In CHI ‘05 Extended Abstracts on Human Factors in
+Computing Systems, Edited by G. van der Veer and C. Gale, 1673–1676. New
+York, NY: ACM. doi:10.1145/1056808.1056994
+Nakagawa, K., Shiomi, M., Shinozawa, K., Matsumura, R., Ishiguro, H., and
+Hagita, N. 2011. Effect of robot’s active touch on people’s motivation. In Proceedings of the 6th International Conference on Human-Robot Interaction HRI
+‘11, 465–472. New York, NY: ACM.
+Nakanishi, H., Tanaka, K., and Wada, Y. 2014. Remote handshaking: touch enhances
+video-mediated social telepresence. In Proceedings of the SIGCHI Conference on
+Human Factors in Computing Systems CHI’14, 2143–2152. New York, NY: ACM.
+Nakanishi, J., Kuwamura, K., Minato, T., Nishio, S., and Ishiguro, H. 2013. Evoking
+affection for a communication partner by a robotic communication medium. In
+The First International Conference on Human-Agent Interaction (iHAI 2013), 1–8.
+Available at: http://hai-conference.net/ihai2013/proceedings/pdf/III-1-4.pdf
+Naya, F., Yamato, J., and Shinozawa, K. 1999. Recognizing human touching behaviors using a haptic interface for a pet-robot. In Conference Proceedings of the
+IEEE International Conference on Systems, Man, and Cybernetics (IEEE SMC ‘99),
+1030–1034. Piscataway, NJ: IEEE.
+Nguyen, N., Wachsmuth, I., and Kopp, S. 2007. Touch perception and emotional
+appraisal for a virtual agent. In Proceedings of the 2nd Workshop Emotion and
+Computing-Current Research and Future Impact, Edited by D. Reichardt and
+P. Levi, 17–22. Stuttgart: Berufsakademie Stuttgart.
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+Nguyen, T., Heslin, R., and Nguyen, M.L. 1975. The meanings of
+touch: sex differences. J. Commun. 25: 92–103. doi:10.1111/j.1460-2466.
+1975.tb00610.x
+Nie, J., Park, M., Marin, A.L., and Sundar, S.S. 2012. Can you hold my hand? Physical
+warmth in human-robot interaction. In Proceeedings of the 7th ACM/IEEE International Conference on Human-Robot Interaction (HRI), 201–202. Piscataway,
+NJ: IEEE.
+Nijholt, A. 2014. Breaking fresh ground in human-media interaction research.
+Front. ICT 1:4. doi:10.3389/fict.2014.00004
+Nummenmaa, L., Glerean, E., Hari, R., and Hietanen, J.K. 2013. Bodily maps
+of emotions. Proc. Natl. Acad. Sci. U.S.A. 111: 646–51. doi:10.1073/pnas.
+1321664111
+Olausson, H.W., Cole, J., Vallbo, Å, McGlone, F., Elam, M., Krämer, H.H., et al. 2008.
+Unmyelinated tactile afferents have opposite effects on insular and somatosensory cortical processing. Neurosci. Lett. 436: 128–32. doi:10.1016/j.neulet.2008.
+03.015
+Paladino, M.P., Mazzurega, M., Pavani, F., and Schubert, T.W. 2010. Synchronous
+multisensory stimulation blurs self-other boundaries. Psychol. Sci. 21: 1202–7.
+doi:10.1177/0956797610379234
+Park, E., and Lee, J. 2014. I am a warm robot: the effects of temperature
+in physical human – robot interaction. Robotica 32: 133–42. doi:10.1017/
+S026357471300074X
+Park, Y.W., Bae, S.H., and Nam, T.J. 2012. How do Couples Use CheekTouch Over
+Phone Calls? New York, NY: ACM. 763–6.
+Park, Y.W., Hwang, S., and Nam, T.J. 2011. Poke: emotional touch delivery through
+an inflatable surface over interpersonal mobile communications. In Adjunct
+Proceedings of the 24th Annual ACM Symposium Adjunct on User Interface
+Software and Technology UIST ‘11, 61–62. New York, NY: ACM.
+Patrick, G. 1999. The effects of vibroacoustic music on symptom reduction. IEEE
+Eng. Med. Biol. Mag. 18: 97–100. doi:10.1109/51.752987
+Phelan, J.E. 2009. Exploring the use of touch in the psychotherapeutic setting: a phenomenological review. Psychotherapy (Chic) 46: 97–111. doi:10.1037/a0014751
+Prisby, R.D., Lafage-Proust, M.-H., Malaval, L., Belli, A., and Vico, L. 2008. Effects
+of whole body vibration on the skeleton and other organ systems in man and
+animal models: what we know and what we need to know. Ageing Res. Rev. 7:
+319–29. doi:10.1016/j.arr.2008.07.004
+Puhan, M.A., Suarez, A., Cascio, C.L., Zahn, A., Heitz, M., and Braendli, O. 2006.
+Didgeridoo playing as alternative treatment for obstructive sleep apnoea syndrome: randomised controlled trial. BMJ 332: 266–70. doi:10.1136/bmj.38705.
+470590.55
+Rahman, A.S.M.M., and El Saddik, A. 2011. HKiss: real world based haptic interaction with virtual 3D avatars. In Proceedings of the 2011 IEEE International
+Conference on Multimedia and Expo (ICME), 1–6. Piscataway, NJ: IEEE.
+Rantala, J., Raisamo, R., Lylykangas, J., Ahmaniemi, T., Raisamo, J., Rantala, J., et al.
+2011. The role of gesture types and spatial feedback in haptic communication.
+IEEE Trans. Haptics 4: 295–306. doi:10.1109/TOH.2011.4
+Rantala, J., Salminen, K., Raisamo, R., and Surakka, V. 2013. Touch gestures in
+communicating emotional intention via vibrotactile stimulation. Int. J. Hum.
+Comput. Stud. 7: 679–90. doi:10.1016/j.ijhcs.2013.02.004
+Réhman, S., and Liu, L. 2010. iFeeling: vibrotactile rendering of human emotions on
+mobile phones. In Mobile Multimedia Processing, Edited by X. Jiang, M.Y. Ma,
+and C. Chen, 1–20. Berlin: Springer.
+Robinson, H., MacDonald, B., Kerse, N., and Broadbent, E. 2013. The psychosocial
+effects of a companion robot: a randomized controlled trial. J. Am. Med. Dir.
+Assoc. 14: 661–7. doi:10.1016/j.jamda.2013.02.007
+Rolls, E.T. 2010. The affective and cognitive processing of touch, oral texture, and
+temperature in the brain. Neurosci. Biobehav. Rev. 34: 237–45. doi:10.1016/j.
+neubiorev.2008.03.010
+Saadatian, E., Samani, H., Parsani, R., Pandey, A.V., Li, J., Tejada, L., et al. 2014.
+Mediating intimacy in long-distance relationships using kiss messaging. Int. J.
+Hum. Comput. Stud. 72: 736–46. doi:10.1016/j.ijhcs.2014.05.004
+Sallnäs, E.L. 2010. Haptic feedback increases perceived social presence. In Haptics:
+Generating and Perceiving Tangible Sensations, Part II, Edited by A.M. Kappers,
+J.B. Erp, W.M. Bergmann Tiest, and F.C. Helm, 178–185. Berlin: Springer.
+Salminen, K., Surakka, V., Lylykangas, J., Raisamo, R., Saarinen, R., Raisamo,
+R., et al. 2008. Emotional and behavioral responses to haptic stimulation. In
+Proceeding of the Twenty-Sixth Annual SIGCHI Conference on Human Factors
+in Computing Systems, 1555–1562. New York, NY: ACM Press.
+
+12
+
+May 2015 | Volume 2 | Article 2
+
+van Erp and Toet
+
+Social touch in HCI
+
+Scheele, D., Kendrick, K.M., Khouri, C., Kretzer, E., Schläpfer, T.E., StoffelWagner, B., et al. 2014. An oxytocin-induced facilitation of neural and emotional
+responses to social touch correlates inversely with autism traits. Neuropsychopharmacology 39: 2078–85. doi:10.1038/npp.2014.78
+Schilit, B., Adams, N., and Want, R. 1994. Context-aware computing applications. In
+First Workshop on Mobile Computing Systems and Applications (WMCSA 1994),
+85–90. Piscataway, NJ: IEEE.
+Self, B.P., van Erp, J.B.F., Eriksson, L., and Elliott, L.R. 2008. Human factors issues
+of tactile displays for military environments. In Tactile Displays for Navigation,
+Orientation and Communication in Military Environments, Edited by J.B.F. van
+Erp and B.P. Self, 3. Neuillu-sur-Seine: NATO RTO.
+Shermer, M. 2004. A bounty of science. Sci. Am. 290: 33. doi:10.1038/
+scientificamerican0204-33
+Shin, H., Lee, J., Park, J., Kim, Y., Oh, H., and Lee, T. 2007. A tactile emotional
+interface for instant messenger chat. In Proceedings of the 2007 Conference
+on Human Interface, Edited by M.J. Smith and G. Salvendy, 166–175. Berlin:
+Springer.
+Smith, J., and MacLean, K. 2007. Communicating emotion through a haptic link:
+design space and methodology. Int. J. Hum. Comput. Stud. 65: 376–87. doi:10.
+1016/j.ijhcs.2006.11.006
+Solon, O. 2015. These sex tech toys will blow your mind. WIRED. Available at:
+http://www.wired.co.uk/news/archive/2014-06/27/sex-tech
+Stiehl, W.D., Lieberman, J., Breazeal, C., Basel, L., Lalla, L., and Wolf, M. 2005.
+Design of a therapeutic robotic companion for relational, affective touch. In
+IEEE International Workshop on Robot and Human Interactive Communication
+(ROMAN 2005), 408–415. Piscataway, NJ: IEEE.
+Suhonen, K., Müller, S., Rantala, J., Väänänen-Vainio-Mattila, K., Raisamo, R., and
+Lantz, V. (2012a). Haptically augmented remote speech communication: a study
+of user practices and experiences. In Proceedings of the 7th Nordic Conference
+on Human-Computer Interaction: Making Sense Through Design NordiCHI ‘12,
+361–369. New York, NY: ACM.
+Suhonen, K., Väänänen-Vainio-Mattila, K., and Mäkelä, K. (2012b). User experiences and expectations of vibrotactile, thermal and squeeze feedback in interpersonal communication. In Proceedings of the 26th Annual BCS Interaction
+Specialist Group Conference on People and Computers BCS-HCI ‘12, 205–214.
+New York, NY: ACM.
+Suk, H.-J., Jeong, S.-H., Hang, T.-H., and Kwon, D.-S. 2009. Tactile sensation as
+emotion elicitor. Kansei Eng. Int. 8(2): 147–52.
+Takahashi, K., Mitsuhashi, H., Murata, K., Norieda, S., and Watanabe, K. 2011.
+Improving shared experiences by haptic telecommunication. In 2011 International Conference on Biometrics and Kansei Engineering (ICBAKE), 210–215. Los
+Alamitos, CA: IEEE. doi:10.1109/ICBAKE.2011.19
+Tanaka, F., Cicourel, A., and Movellan, J.R. 2007. Socialization between toddlers
+and robots at an early childhood education center. Proc. Natl. Acad. Sci. U.S.A.
+104: 17954–8. doi:10.1073/pnas.0707769104
+Teh, J.K.S., Cheok, A.D., Peiris, R.L., Choi, Y., Thuong, V., and Lai, S. 2008. Huggy
+pajama: a mobile parent and child hugging communication system. In Proceedings of the 7th International Conference on Interaction Design and Children IDC
+‘08, 250–257. New York, NY: ACM.
+Thompson, E.H., and Hampton, J.A. 2011. The effect of relationship status on
+communicating emotions through touch. Cognit. Emot. 25: 295–306. doi:10.
+1080/02699931.2010.492957
+Toet, A., van Erp, J.B.F., Petrignani, F.F., Dufrasnes, M.H., Sadhashivan, A., van
+Alphen, D., et al. 2013. Reach out and touch somebody’s virtual hand. Affectively
+connected through mediated touch. In Proceedings of the 2013 Humaine Association Conference on Affective Computing and Intelligent Interaction, 786–791.
+Piscataway, NJ: IEEE Computer Society.
+Tsalamlal, M.Y., Ouarti, N., Martin, J.C., and Ammi, M. 2014. Haptic
+communication of dimensions of emotions using air jet based tactile
+stimulation. J. Multimodal User Interfaces 9(1): 69–77. doi:10.1007/s12193-014
+-0162-3
+Tsetserukou, D. 2010. HaptiHug: a novel haptic display for communication of hug
+over a distance. In Haptics: Generating and Perceiving Tangible Sensations, Edited
+by A.M. Kappers, J.B. Erp, W.M. Bergmann Tiest, and F.C. Helm, 340–347.
+Berlin: Springer.
+Tsetserukou, D., and Neviarouskaya, A. 2010. Innovative real-time communication
+system with rich emotional and haptic channels. In Haptics: Generating and
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+Perceiving Tangible Sensations, Edited by A.M. Kappers, J.B. van Erp, W.M.
+Bergmann Tiest, and F.C. Helm, 306–313. Berlin: Springer.
+Tsihrintzis, G.A., Virvou, M., Alepis, E., and Stathopoulou, I.O. 2008. Towards
+improving visual-facial emotion recognition through use of complementary
+keyboard-stroke pattern information. In Fifth International Conference on
+Information Technology: New Generations (ITNG 2008), 32–37. Piscataway,
+NJ: IEEE.
+Uvnäs-Moberg, K. 1997. Physiological and endocrine effects of social contact. Ann.
+N. Y. Acad. Sci. 807: 146–63. doi:10.1111/j.1749-6632.1997.tb51917.x
+Vallbo, A., Olausson, H., Wessberg, J., and Norrsell, U. 1993. A system of unmyelinated afferents for innocuous mechanoreception in the human skin. Brain Res.
+628: 301–4. doi:10.1016/0006-8993(93)90968-S
+Van Bel, D.T., IJsselsteijn, W.A., and de Kort, Y.A.W. 2008. Interpersonal connectedness: conceptualization and directions for a measurement instrument. In
+Proceedings of the SIGCHI Conference on Human Factors in Computing Systems
+(CHI’08), 3129–3134. New York, NY: ACM.
+van Bel, D.T., Smolders, K.C.H.J., IJsselsteijn, W.A., and de Kort, Y.A.W. 2009. Social
+connectedness: concept and measurement. In Proceedings of the 5th International
+Conference on Intelligent Environments, Edited by V. Callaghan, A. Kameas, A.
+Reyes, D. Royo, and M. Weber, 67–74. Amsterdam: IOS Press.
+van Erp, J.B.F. 2007. Tactile Displays for Navigation and Orientation: Perception and
+Behaviour. Utrecht: Utrecht University.
+van Erp, J.B.F. 2012. The ten rules of touch: guidelines for social agents and robots
+that can touch. In Proceedings of the 25th Annual Conference on Computer
+Animation and Social Agents (CASA 2012), Singapore: Nanayang Technological
+University.
+van Erp, J.B.F., Kyung, K.-U., Kassner, S., Carter, J., Brewster, S., Weber, G., et al.
+2010. Setting the standards for haptic and tactile interactions: ISO’s work. In
+Haptics: Generating and Perceiving Tangible Sensations. Proceedings of Eurohaptics 2010, Edited by A.M.L. Kappers, J.B.F. van Erp, W.M. Bergmann Tiest, and
+F.C.T. van der Helm, 353–358. Heidelberg: Springer.
+van Erp, J.B.F., and Toet, A. 2013. How to touch humans. Guidelines for social agents
+and robots that can touch. In Proceedings of the 2013 Humaine Association Conference on Affective Computing and Intelligent Interaction, 780–785. Geneva:IEEE
+Computer Society. doi:10.1109/ACII.2013.77145
+van Erp, J.B.F., and van Veen, H.A.H.C. 2004. Vibrotactile in-vehicle navigation
+system. Transp. Res. Part F Traffic Psychol. Behav. 7: 247–56. doi:10.1016/j.trf.
+2004.09.003
+van Wingerden, S., Uebbing, T.J., Jung, M.M., and Poel, M. 2014. A neural network
+based approach to social touch classification. In Proceedings of the 2014 Workshop on Emotion Representation and Modelling in Human-Computer-InteractionSystems (ERM4HCI ‘14), 7–12. New York, NY: ACM.
+Vinciarelli, A., Pantic, M., Bourlard, H., and Pentland, A. 2008. Social signal processing: state-of-the-art and future perspectives of an emerging domain. In Proceedings of the 16th ACM International Conference on Multimedia, 1061–1070.
+New York, NY: ACM.
+Vrontou, S., Wong, A.M., Rau, K.K., Koerber, H.R., and Anderson, D.J. 2013.
+Genetic identification of C fibres that detect massage-like stroking of hairy skin
+in vivo. Nature 493: 669–73. doi:10.1038/nature11810
+Wada, K., Ikeda, Y., Inoue, K., and Uehara, R. 2010. Development and preliminary
+evaluation of a caregiver’s manual for robot therapy using the therapeutic seal
+robot Paro. In Proceedings of the IEEE International Workshop on Robot and
+Human Interactive Communication (RO-MAN 2010), 533–538. Piscataway, NJ:
+IEEE.
+Wada, K., and Shibata, T. 2007. Living with seal robots – its sociopsychological
+and physiological influences on the elderly at a care house. IEEE Trans. Rob. 23:
+972–80. doi:10.1109/TRO.2007.906261
+Walker, S.C., and McGlone, F.P. 2015. Perceived pleasantness of social touch reflects
+the anatomical distribution and velocity tuning of C-tactile afferents: an affective
+homunculus. In Program No. 339.14/HH22. 2014 Neuroscience Meeting Planner,
+Washington, DC: Society for Neuroscience.
+Wang, R., and Quek, F. 2010. Touch & talk: contextualizing remote touch for affective interaction. In Proceedings of the 4th International Conference on Tangible,
+Embedded, and Embodied Interaction (TEI ‘10), 13–20. New York, NY: ACM.
+Wang, R., Quek, F., Tatar, D., Teh, K.S., and Cheok, A.D. 2012. Keep in touch:
+channel, expectation and experience. In Proceedings of the SIGCHI Conference on
+Human Factors in Computing Systems CHI ‘12, 139–148. New York, NY: ACM.
+
+13
+
+May 2015 | Volume 2 | Article 2
+
+van Erp and Toet
+
+Social touch in HCI
+
+Whitcher, S.J., and Fisher, J.D. 1979. Multidimensional reaction to therapeutic touch
+in a hospital setting. J. Pers. Soc. Psychol. 37: 87–96. doi:10.1037/0022-3514.37.
+1.87
+Wigram, A.L. 1996. The Effects of Vibroacoustic Therapy on Clinical and NonClinical Populations. Ph.D. thesis, St. George’s Hospital Medical School, London
+University, London.
+Yohanan, S., Chan, M., Hopkins, J., Sun, H., and MacLean, K. 2005. Hapticat: exploration of affective touch. In Proceedings of the 7th International
+Conference on Multimodal Interfaces (ICMI ‘05), 222–229. New York, NY:
+ACM.
+Yohanan, S., and MacLean, K. 2012. The role of affective touch in human-robot
+interaction: human intent and expectations in touching the haptic creature. Int.
+J. Soc. Rob. 4: 163–80. doi:10.1007/s12369-011-0126-7
+
+Frontiers in Digital Humanities | www.frontiersin.org
+
+Zacharatos, H., Gatzoulis, C., and Chrysanthou, Y.L. 2014. Automatic emotion
+recognition based on body movement analysis: a survey. IEEE CGA 34: 35–45.
+doi:10.1109/MCG.2014.106
+Conflict of Interest Statement: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be
+construed as a potential conflict of interest.
+Copyright © 2015 van Erp and Toet. This is an open-access article distributed under
+the terms of the Creative Commons Attribution License (CC BY). The use, distribution
+or reproduction in other forums is permitted, provided the original author(s) or
+licensor are credited and that the original publication in this journal is cited, in
+accordance with accepted academic practice. No use, distribution or reproduction is
+permitted which does not comply with these terms.
+
+14
+
+May 2015 | Volume 2 | Article 2
+
+

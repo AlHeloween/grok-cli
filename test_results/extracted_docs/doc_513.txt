@@ -1,0 +1,52 @@
+On January 18, 2022, Microsoft Corp. announced plans to acquire Activision Blizzard Inc., a
+video game company, for $68.7 billion.1 The Federal Trade Commission (FTC) is reviewing the
+acquisition,2
+as provided under the Hart-Scott-Rodino Act (HSR),3
+to determine whether its effect
+might be “substantially to lessen competition”—a violation of Section 7 of the Clayton Act.
+4
+Competition authorities in other countries are reviewing Microsoft’s proposed acquisition as
+well.5 The companies have said they expect to complete the acquisition before June 30, 2023.6
+In recent decades, enforcement of antitrust laws has typically focused on how a proposed merger
+or acquisition might affect consumers, such as by reducing price competition in relevant product
+markets. Some of the FTC’s actions and statements over the last two years suggest that in its
+review of Microsoft’s proposed acquisition, the FTC may be considering other factors that are
+discussed in this report.7
+This report discusses Microsoft’s proposed acquisition of Activision Blizzard, including some of
+the potential effects on existing product markets, labor markets, and on product markets that do
+not currently exist but may develop in the future. The report also provides some considerations
+for Congress, discussing some bills that may affect Microsoft’s proposed acquisition or
+Microsoft’s future behavior if the acquisition is completed.
+The Video Game Industry
+The video game industry can be separated into three components:
+developers or gaming studios that create and design video games; publishers who market and monetize the video games; and 
+distributors who provide the video games to consumers.8
+Video games are most commonly played on game consoles, personal computers (PCs), and
+mobile devices (Figure 1). Although some retailers sell physical copies of video games for
+consoles and PCs, the majority of video games are sold in digital format;9 games for mobile
+devices are sold only in digital format.
+The extent of competition among distributors depends on the format and device used to play the
+game. The digital format of video games played on a console generally can only be downloaded
+from a digital store operated by the producer of the console. Games for PCs can be purchased
+from a selection of digital stores that are operated by various firms,10 including publishers and
+developers.11 Some of these firms also provide their games as apps on certain mobile devices;12
+these are distributed through app stores, such as Google Play and Apple’s App Store.
+Consoles are typically sold at a loss; the manufacturers then profit from sales of games and
+subscription services.13 This can incentivize console producers to acquire developers and
+publishers and offer exclusive content.14 Technological developments have allowed some PCs and
+other devices, depending on their hardware capabilities, to compete with game consoles.15 For
+example, early in 2022, Valve Corp. released a handheld PC—Steam Deck—that resembles the
+Nintendo Switch console but provides features that are typically available on PCs, such as a web
+browser, and allows users to download third-party software, including other operating systems.16
+Some firms have started offering video game subscription services that provide access to multiple
+games for a monthly fee, meaning users do not need to purchase each individual game.17 Some
+firms offer cloud gaming, which allows users to play video games using remote servers in data
+centers, reducing the hardware requirements needed to play the games and expanding the variety
+of devices that can be used.18 Cloud gaming, however, requires a high-speed internet connection
+and is not feasible for potential users who do not have access to sufficiently high broadband
+speeds.19 Subscription services reportedly provide 4% of total revenue in the North American and
+European video game markets.20
+Some firms backed by venture capitalists and large firms that are primarily known for providing
+other online services have shown interest in entering the video game industry.21 For example, Netflix started offering games on mobile devices on November 2, 2021, and has acquired video
+game developers.22 These firms may be able to further expand the selection of distributors
+available for certain devices and potentially increase competition in the industry.23

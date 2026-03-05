@@ -1,0 +1,116 @@
+1.2 History of poliomyelitis and polio vaccines
+Poliomyelitis is a disease of great antiquity. Perhaps the earliest description is
+evident in an Egyptian stele from around 1350 BC depicting a young man with
+typical asymmetric flaccid paralysis and atrophy of the leg. Several scattered reports
+of the disease also appear in the literature from the 17th and 18th century. By the
+mid-19th century, the Industrial Revolution had brought increased urbanization to
+Europe and North America and, with it, significant changes and improvements in
+living conditions. Coincident with these massive changes was the advent of larger
+and more frequent outbreaks of poliomyelitis. From the late 1800s, outbreaks were
+occurring in several European countries and in the United States, and they remained
+a dominant public health problem in the developed world for the first half of the
+20th century.
+A major landmark in the study of poliomyelitis was the successful passage of the
+virus to nonhuman primates by Landsteiner and Popper in 1909. The availability of
+animal models provided the first opportunity to study the disease outside of human
+patients and produced important information on the process of infection and the
+pathophysiology of the disease. Further studies on the infectious agent awaited the
+crucial development by Enders, Weller, and Robbins in 1949 of tissue culture
+systems for in vitro propagation of the virus. This advance, and the recognition of
+three distinct serotypes, opened the way for all subsequent work on vaccines and
+study of the biochemical and biophysical properties of the polioviruses.
+By the 1950s, two different approaches to the prevention of poliomyelitis by
+vaccination were developed. Salk and Younger produced the first successful polio
+vaccine in 1954 by chemical inactivation of tissue culture-propagated virus using
+formaldehyde. This vaccine was completely non-infectious, yet, following injection,
+it elicited an immune response that was protective against paralytic disease. During
+the same period, many laboratories sought to produce live, attenuated polio
+vaccines. The OPV strains of Sabin were licensed in 1961 following extensive field
+trials in the former Soviet Union, Eastern Europe and Latin America. Mass
+immunization campaigns in many countries began in 1962 and 1963. Both the
+inactivated polio vaccine (IPV) and OPV contain three components, one for each
+immunologically distinct serotype of poliovirus. Some countries use enhanced IPV
+(eIPV) that contains higher D-antigenic units per dose for types 2 and 3 than
+standard IPV. Widespread immunization with IPV, and since 1963 with OPV, has
+virtually eliminated poliomyelitis in most developed countries.
+
+1.3 Characterization of the pathogen
+The polioviruses belong to the genus Enterovirus in the family Picornaviridae. All
+are small, round 30 nm particles with icosahedral symmetry, and they contain no
+essential lipid envelope. Polioviruses share most of their biochemical and
+biophysical characteristics with the other enteroviruses and are different from some
+of the other picornaviruses. The viral particles have a buoyant density of 1.34 g/ml
+in caesium chloride and a sedimentation coefficient of approximately 156S. The
+infectious particles are relatively heat resistant (when stabilized by magnesium
+cations), resistant to acid pH (pH 3 to 5 for one to three hours), and also resistant to
+WHO/IVB/04.10 5
+many common detergents and disinfectants, including common soap, non-ionic
+detergents, ether, chloroform, and other lipid solvents. The virus is stable for weeks
+at 4°C and for days at room temperature. Drying, ultraviolet light, high heat,
+formaldehyde, and free chlorine, however, readily inactivate the virus.
+Polioviruses and the enteroviruses are distinguished from the other picornaviruses
+on the basis of physical properties such as buoyant density in caesium chloride and
+stability in weak acid. The three poliovirus serotypes are distinguished from the
+other enteroviruses by neutralization with serotype-specific antisera and the
+propensity to cause paralytic illness. The Mahoney strain of type 1 poliovirus is the
+prototype for the polioviruses, the genus enterovirus, and the family Picornaviridae.
+It is among the most-studied and best-characterized agents of human disease.
+The poliovirus consists of 60 copies each of four polypeptide chains that form a
+very highly structured shell. Located inside this shell, the viral genome consists of a
+single molecule of ribonucleic acid (RNA), which is about 7500 nucleotides long.
+The four capsid polypeptides are produced by the proteolytic cleavage of a single
+polyprotein precursor, and are designated VP1 through VP4. Attached covalently to
+the amino-terminal of the VP4 protein is a single molecule of myristilate. In
+addition, one small protein, VPg, is covalently attached to the 5'-end of the viral
+RNA. A major advance in studies on the structure of polioviruses occurred with the
+solution of the crystal structure to a resolution of 0.29 nm. From the
+three-dimensional structure of the poliovirus, VP1 contributes the majority of the
+amino acid residues on the virus surface, VP2 and VP3 are partially exposed on the
+surface, and VP4 is completely internal.
+The information concerning the surface of the virus has been particularly useful in
+understanding the neutralization of poliovirus by antibodies. Studies with
+monoclonal neutralizing antibodies and mutant viruses resistant to them have
+revealed four main antigenic sites on the virus. The relative importance of individual
+sites is different for each of the three serotypes of poliovirus. The X-ray crystal
+structure has confirmed that the antigenic sites are composed of amino acid residues
+located on the virus surface and exposed loops of capsid proteins. Adjacent domains
+of the same and other capsid proteins influence the conformation of the loops. This
+explains why antigenicity of the virus is destroyed by disruption of the virus
+structure. In addition, there are other antigenic sites that elicit an immune response
+that is not neutralizing.
+The poliovirus-neutralizing antibody response is serotype-specific, with the
+exception of some minor cross-reaction between poliovirus 1 and 2. Heat-disrupted
+viruses, particularly those heated in the presence of detergent, induce antibodies that
+react with many enteroviruses. These broadly reacting antibodies are generally not
+neutralizing. Antisera raised in animals to each of the viruses are largely
+type-specific and are used for the determination of serotype in a neutralization assay.
+Although more than one T-cell epitope has been described in both structural and
+non-structural viral proteins, the role of cell-mediated immunity in controlling
+infection has not been determined.
+6 Polio laboratory manual
+Polioviruses are among the simplest viruses in terms of genetic complexity and size.
+The RNA genomes from all three serotypes of poliovirus have been cloned and
+sequenced. The genomic RNA is infectious and serves as messenger RNA for viral
+protein synthesis. The RNA is translated in a single open reading frame into one
+large polyprotein, which is then processed through proteolytic cleavage by two
+distinct virus-encoded proteases into the functional viral proteins (Figure 1.2).
+Despite much research and the simple nature of the virus, several steps of the virus
+growth cycle have remained elusive, including the site and mode of virus entry and
+release of the genome into the cytoplasm. Polioviruses initially bind to a specific
+plasma membrane protein, the poliovirus receptor (PVR; CD155), a member of the
+immunoglobulin superfamily of proteins. The binding to the receptor triggers
+conformational changes in the capsid structure that are necessary for the release of
+the genome into the cytoplasm (uncoating). No other picornaviruses use this
+protein as their cellular receptor, a fact that has been exploited in the eradication
+programme by the use of a recombinant murine cell line expressing the human PVR
+to selectively isolate polioviruses.
+Once the viral genome has entered the cell, the replication cycle begins when the
+viral RNA is transcribed by the viral polymerase beginning at the 3'-end of the
+infecting viral RNA to generate a complementary RNA (cRNA). In the next step,
+which is dependent on a “host factor”, the progeny viral RNA is synthesized from
+the cRNA. The newly synthesized viral RNA is covalently linked to the VPg
+protein at the 5'- end of the RNA, and then only the positive sense strand of RNA
+is encapsidated in the viral structural proteins to form infectious viral particles. The
+extensive studies into virus replication and assembly have resulted in the remarkable
+accomplishment of complete cell-free replication of poliovirus beginning only with
+the viral RNA.

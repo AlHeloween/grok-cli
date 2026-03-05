@@ -1,0 +1,44 @@
+Issues Presented to the Ninth Circuit on Appeal
+Attorneys for Montana unsuccessfully argued to the district court that the law represents a valid exercise
+of Montana’s police power, that it does not violate any of the claimed constitutional provisions, that
+federal law does not preempt the ban, and that the ban would have only an indirect, and thus permissible,
+effect on interstate commerce. Montana then appealed the district court’s order granting the preliminary
+injunction to the Ninth Circuit.
+In its opening brief, Montana asserts that SB 419 has a “common sense consumer protection purpose” and
+that the district court erred in concluding that TikTok and its users would win their constitutional
+arguments. Montana also argues that the district court erred in its application of the remaining preliminary
+injunction factors. A selection of Montana’s various arguments, ordered as they appear in the brief,
+follows:
+• Police Powers. Montana asserts that protecting consumers is an exercise of police power,
+under which states have significant discretion.
+• Data Access. Montana asserts that, based on news reports, the U.S. user data that TikTok
+collects likely is available to the PRC at will, underscoring that the Montana legislature
+enacted SB 419 to protect Montana consumers’ data privacy, not to impact the editorial
+control of the platform.
+• Burden Shifting. Montana asserts that the district court, in concluding that TikTok and
+its users would prevail on their constitutional claims, erroneously shifted the evidentiary
+burden for proving those claims to Montana.
+The Ninth Circuit’s review of the district court’s order granting the preliminary injunction is limited.
+Montana asks the court of appeals to hold that the district court abused its discretion by relying on “an
+erroneous legal standard” or “clearly erroneous factual findings” (internal quotation marks omitted).
+Montana emphasizes that a preliminary injunction is a “drastic remedy” that should not issue where a
+plaintiff’s claim is “merely plausible” (internal quotation marks omitted). Virginia, together with 18 other
+states, filed an amicus brief in support of Montana.
+TikTok and its users each filed a response brief in late April 2024. They maintain that the district court
+acted properly and emphasize various arguments, including those that follow (ordered as they appear in
+the briefs):
+• First Amendment. TikTok and its users argue that the preliminary injunction is justified
+because SB 419 violates the First Amendment and the law does not withstand any level
+of scrutiny that might be applied.
+• Supremacy Clause (Preemption). TikTok and its users argue that SB 419 impermissibly
+conflicts with the Defense Production Act and constitutes an improper incursion into
+foreign affairs.
+• Commerce Clause. TikTok and its users argue that SB 419 likely violates the Commerce
+Clause by impeding the flow of interstate commerce.
+These arguments largely reflect those made before the district court. Between Montana’s filing and the
+response briefs, Congress passed PAFACAA. The response briefs include mention of this new law to
+underscore arguments in favor of federal preemption. TikTok has also brought a pre-enforcement
+challenge of the federal law in the U.S. Court of Appeals for the D.C. Circuit. In the present matter, the
+Ninth Circuit must weigh the various arguments to determine whether the district court properly
+considered and applied the legal standards governing whether to grant a preliminary injunction before a
+final determination on the merits of the claims could be made.

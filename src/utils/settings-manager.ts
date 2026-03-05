@@ -39,6 +39,9 @@ export interface EmbeddingsSettings {
   baseURL?: string;
   model?: string;
   apiKey?: string;
+  provider?: 'openai' | 'glove' | 'hash';
+  gloveModelPath?: string;
+  hashDimension?: number;
 }
 
 export interface AuroraRagSettings {
@@ -72,6 +75,10 @@ export interface RagSettings {
   chatPrefix?: string;
   /** If true, automatically index chat history entries into RAG when saving (default: false). */
   autoIndexChat?: boolean;
+  /** Enable vector quantization for faster search (default: false). */
+  quantize?: boolean;
+  /** Preload quantized vectors into memory for faster search (more memory, default: false). */
+  quantizePreload?: boolean;
   /** Aurora‑Genesis enhancements for RAG. */
   aurora?: AuroraRagSettings;
 }
@@ -85,6 +92,8 @@ const DEFAULT_USER_SETTINGS: Partial<UserSettings> = {
   theme: "vscode-dark-plus",
   embeddings: {
     model: "text-embedding-3-small",
+    provider: "openai",
+    hashDimension: 256,
   },
   // Models from official xAI docs (docs.x.ai/docs/models); aliases -latest/-fast follow docs
   models: [
@@ -117,6 +126,12 @@ const DEFAULT_PROJECT_SETTINGS: Partial<ProjectSettings> = {
     searchChatFirst: true,
     chatPrefix: "chat://",
     autoIndexChat: false,
+    quantize: false,
+    quantizePreload: false,
+    embeddings: {
+      provider: "openai",
+      hashDimension: 256,
+    },
     aurora: {
       enabled: false,
       fractalQuantization: false,
@@ -562,6 +577,28 @@ public getRagTopK(cwd: string = process.cwd()): number {
     return settings.rag?.autoIndexChat ?? false;
   }
 
+  public getRagQuantize(cwd: string = process.cwd()): boolean {
+    const env = process.env.GROK_RAG_QUANTIZE;
+    if (env !== undefined) {
+      const lower = env.trim().toLowerCase();
+      if (lower === "1" || lower === "true" || lower === "yes") return true;
+      if (lower === "0" || lower === "false" || lower === "no") return false;
+    }
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.quantize ?? false;
+  }
+
+  public getRagQuantizePreload(cwd: string = process.cwd()): boolean {
+    const env = process.env.GROK_RAG_QUANTIZE_PRELOAD;
+    if (env !== undefined) {
+      const lower = env.trim().toLowerCase();
+      if (lower === "1" || lower === "true" || lower === "yes") return true;
+      if (lower === "0" || lower === "false" || lower === "no") return false;
+    }
+    const settings = this.loadProjectSettings(cwd);
+    return settings.rag?.quantizePreload ?? false;
+  }
+
   public getRagAuroraEnabled(cwd: string = process.cwd()): boolean {
     const settings = this.loadProjectSettings(cwd);
     return settings.rag?.aurora?.enabled ?? false;
@@ -682,6 +719,9 @@ public getRagTopK(cwd: string = process.cwd()): number {
     const envBaseURL = process.env.GROK_EMBEDDINGS_BASE_URL?.trim();
     const envModel = process.env.GROK_EMBEDDINGS_MODEL?.trim();
     const envApiKey = process.env.GROK_EMBEDDINGS_API_KEY?.trim();
+    const envProvider = process.env.GROK_EMBEDDINGS_PROVIDER?.trim();
+    const envGloveModelPath = process.env.GROK_EMBEDDINGS_GLOVE_MODEL_PATH?.trim();
+    const envHashDimension = process.env.GROK_EMBEDDINGS_HASH_DIMENSION?.trim();
 
     const user = this.loadUserSettings();
     const project = this.loadProjectSettings(cwd);
@@ -704,7 +744,28 @@ public getRagTopK(cwd: string = process.cwd()): number {
       project.rag?.embeddings?.apiKey ||
       user.embeddings?.apiKey;
 
-    return { baseURL, model, apiKey };
+    const provider = (
+      envProvider ||
+      project.rag?.embeddings?.provider ||
+      user.embeddings?.provider ||
+      DEFAULT_USER_SETTINGS.embeddings?.provider ||
+      "openai"
+    ) as 'openai' | 'glove' | 'hash';
+
+    const gloveModelPath =
+      envGloveModelPath ||
+      project.rag?.embeddings?.gloveModelPath ||
+      user.embeddings?.gloveModelPath ||
+      project.rag?.aurora?.gloveModelPath; // Reuse Aurora gloveModelPath
+
+    const hashDimension = 
+      envHashDimension ? parseInt(envHashDimension, 10) :
+      project.rag?.embeddings?.hashDimension ||
+      user.embeddings?.hashDimension ||
+      DEFAULT_USER_SETTINGS.embeddings?.hashDimension ||
+      256;
+
+    return { baseURL, model, apiKey, provider, gloveModelPath, hashDimension };
   }
 }
 

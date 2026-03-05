@@ -1,0 +1,38 @@
+4.3 Protecting Data on Telework Client Devices
+Telework often involves creating and editing work-related information such as email, word processing
+documents, and spreadsheets. Because that data is important, it should be treated like other important
+assets of the organization. Two things an organization can do to protect data on telework devices are to
+secure it on the telework device and to periodically back it up to a location controlled by the organization.
+More information on this is provided in Sections 4.3.1 through 4.3.3. Organizations can also choose not to
+allow the organization’s information to be stored on telework devices, but to instead store it centrally at
+the organization.
+Sensitive information, such as certain types of personally identifiable information (PII) (e.g., personnel
+records, medical records, financial records), that is stored on or sent to or from telework devices should be
+protected so that malicious parties cannot access or alter it. For example, teleworkers often forget that
+ 32 For more information on application whitelisting, see NIST SP 800-167, Guide to Application Whitelisting
+(http://dx.doi.org/10.6028/NIST.SP.800-167).
+NIST SP 800-46 REV. 2 GUIDE TO ENTERPRISE TELEWORK,
+REMOTE ACCESS, AND BYOD SECURITY
+26
+This publication is available free of charge from: http://dx.doi.org/10.6028/NIST.SP.800-46r2
+storing sensitive information on a CD that is carried with their device, or printing the information on a
+public printer, can also expose the information in ways that are not significant within a typical enterprise
+environment. An unauthorized release of sensitive information could damage the public’s trust in an
+organization, jeopardize the organization’s mission, or harm individuals if their personal information has
+been released.
+4.3.1 Encrypting Data at Rest
+All telework devices, regardless of their size or location, can be stolen. Some thieves may want to read
+the contents of the data on the device, and quite possibly use that data for criminal purposes. To prevent
+this, an organization should have a policy of encrypting all sensitive data when it is at rest on the device
+and on removable media used by the device. The creation and use of cryptographic keys for encrypting
+remote data at rest should follow the same policies that an organization has for other keys that protect data
+at rest.33
+There are many methods for protecting data at rest, and they mostly depend on the type of device or
+removable media that is being protected. Most operating systems have their own data encryption
+mechanisms, and there are also numerous third-party applications that provide similar capabilities.
+34
+Generally, when technologies such as full disk encryption are being used to protect data at rest on PCs,
+teleworkers should shut down their telework devices instead of placing them into sleep mode when the
+devices will not be used for an extended time or when the teleworker will not be with the device. This
+helps ensure that the data at rest and the decryption key are protected by the storage encryption
+technology.

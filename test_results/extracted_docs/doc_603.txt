@@ -1,0 +1,26 @@
+There is no theoretical reason why the criteria used in the Sahm rule is associated with a recession—it is
+an observed historical relationship for a small sample and may not always hold going forward. Sahm
+herself has indicated that despite her rule getting triggered, she does not believe that the United States is
+currently in a recession, although she believes that the risk of recession has increased.
+The primary indicators used by the NBER are not currently consistent with a recession, and several
+remain strong. For example, real gross domestic product has been positive since the third quarter of 2022
+and grew by 1.4% and 2.8% in the first and second quarters of 2024, with real personal consumption expenditures up 1.5% and 2.3% over the same period. Real personal income less transfers grew in May
+and June 2024 and were up 1.8% over the year in June.
+Thus far, the only indications of a weakening economy are coming from the labor market, and even there,
+indicators are inconsistent. Although there has been a 0.9 percentage point increase in the unemployment
+rate and nonfarm payroll employment growth has slowed, employment growth remained positive, which
+is inconsistent with a recession. (Recessions typically feature falling employment within the first three
+months.) Employment as measured by a different survey has shown some decreases, but the NBER does
+not track this measure as closely.
+The unemployment rate could be rising for reasons associated with a weakening economy (e.g., workers
+losing their jobs) or for neutral reasons (e.g., new entrants to the labor force). Data on the reasons for
+unemployment suggest that the unemployment rate has risen at least partly because the economy has
+weakened. Almost two-thirds of the increase in unemployment in the past year has come from people who
+have lost their jobs (mostly via temporary layoffs or jobs ending), whereas around one-third has come
+from people entering or reentering the labor force. On the other hand, the rise in unemployment has not
+coincided with a rise in layoffs and discharges—which are still lower than during the expansion that
+preceded the pandemic—as would be expected if the economy were entering a recession. Additionally,
+many economists assessed that the unemployment rate was unsustainably low for over two years. Some
+cooling in the labor market could indicate a rise to a more sustainable rate. Now the key question is
+whether it will continue to rise. Unemployment remains low by historical standards, and if it does not rise
+much further, a recession can be avoided.

@@ -1,0 +1,157 @@
+The Potential for Artificial Intelligence In Healthcare 
+
+Artificial intelligence (AI) and related technologies are increasingly
+prevalent in business and society, and are beginning to be applied
+to healthcare. These technologies have the potential to transform
+many aspects of patient care, as well as administrative processes
+within provider, payer and pharmaceutical organizations.
+ There are already a number of research studies suggesting that
+AI can perform as well as or better than humans at key healthcare
+tasks, such as diagnosing disease. Today, algorithms are already
+outperforming radiologists at spotting malignant tumors, and
+guiding researchers in how to construct cohorts for costly clinical
+trials. However, for a variety of reasons, we believe that it will be
+many years before AI replaces humans for broad medical process
+domains. In this article, we describe both the potential that AI
+offers to automate aspects of care and some of the barriers to
+rapid implementation of AI in healthcare.
+ Types of AI of relevance to healthcare
+ Artificial intelligence is not one technology, but rather a collection
+of them. Most of these technologies have immediate relevance
+to the healthcare field, but the specific processes and tasks they support vary widely. 
+Some particular AI technologies of high
+importance to healthcare are defined and described below.
+ Machine learning – neural networks and deep learning
+ Machine learning is a statistical technique for fitting models
+to data and to ‘learn’ by training models with data. Machine
+learning is one of the most common forms of AI; in a 2018
+Deloitte survey of 1,100 US managers whose organizations
+were already pursuing AI, 63% of companies surveyed were
+employing machine learning in their businesses. 1
+ It is a broad
+technique at the core of many approaches to AI and there are
+many versions of it.
+ In healthcare, the most common application of traditional
+machine learning is precision medicine – predicting what
+treatment protocols are likely to succeed on a patient based on
+various patient attributes and the treatment context. 2
+ The great
+majority of machine learning and precision medicine applications
+require a training dataset for which the outcome variable (eg onset
+of disease) is known; this is called supervised learning.
+ A more complex form of machine learning is the neural
+network – a technology that has been available since the 1960s
+has been well established in healthcare research for several
+decades 3
+ and has been used for categorisation applications like
+determining whether a patient will acquire a particular disease.
+It views problems in terms of inputs, outputs and weights of
+variables or ‘features’ that associate inputs with outputs. It has
+been likened to the way that neurons process signals, but the
+analogy to the brain's function is relatively weak.
+ The most complex forms of machine learning involve deep
+learning, or neural network models with many levels of features
+or variables that predict outcomes. There may be thousands
+of hidden features in such models, which are uncovered by the
+faster processing of today's graphics processing units and cloud
+architectures. A common application of deep learning in healthcare
+is recognition of potentially cancerous lesions in radiology images. 4
+Deep learning is increasingly being applied to radiomics, or the
+detection of clinically relevant features in imaging data beyond
+what can be perceived by the human eye. 5
+ Both radiomics and deep
+learning are most commonly found in oncology-oriented image
+analysis. Their combination appears to promise greater accuracy
+in diagnosis than the previous generation of automated tools for
+image analysis, known as computer-aided detection or CAD.
+ Deep learning is also increasingly used for speech recognition
+and, as such, is a form of natural language processing (NLP), described below. 
+Unlike earlier forms of statistical analysis, each
+feature in a deep learning model typically has little meaning to
+a human observer. As a result, the explanation of the model's
+outcomes may be very difficult or impossible to interpret. 
+ Diagnosis and treatment applications
+ Diagnosis and treatment of disease has been a focus of AI since
+at least the 1970s, when MYCIN was developed at Stanford for
+diagnosing blood-borne bacterial infections. 8
+ This and other early
+rule-based systems showed promise for accurately diagnosing and
+treating disease, but were not adopted for clinical practice. They
+were not substantially better than human diagnosticians, and they
+were poorly integrated with clinician workflows and medical record
+systems.
+ More recently, IBM's Watson has received considerable attention
+in the media for its focus on precision medicine, particularly cancer
+diagnosis and treatment. Watson employs a combination of
+machine learning and NLP capabilities. However, early enthusiasm
+for this application of the technology has faded as customers
+realized the difficulty of teaching Watson how to address
+particular types of cancer 9
+ and of integrating Watson into care
+processes and systems. 10 Watson is not a single product but a set
+of ‘cognitive services’ provided through application programming
+interfaces (APIs), including speech and language, vision, and
+machine learning-based data-analysis programs. Most observers
+feel that the Watson APIs are technically capable, but taking on
+cancer treatment was an overly ambitious objective. Watson and
+other proprietary programs have also suffered from competition
+with free ‘open source’ programs provided by some vendors, such
+as Google's TensorFlow.
+ Implementation issues with AI bedevil many healthcare
+organizations. Although rule-based systems are incorporated within
+EHR systems are widely used, including at the NHS, 11 they lack the
+precision of more algorithmic systems based on machine learning.
+These rule-based clinical decision support systems are difficult to
+maintain as medical knowledge changes and are often not able to
+handle the explosion of data and knowledge based on genomic,
+proteomic, metabolic and other ‘omic-based’ approaches to care.
+ This situation is beginning to change, but it is mostly present
+in research labs and in tech firms, rather than in clinical practice.
+Scarcely a week goes by without a research lab claiming that it
+has developed an approach to using AI or big data to diagnose and treat a disease with equal or greater accuracy than human
+clinicians. Many of these findings are based on radiological image
+analysis, 12 though some involve other types of images such as
+retinal scanning 13 or genomic-based precision medicine. 14 Since
+these types of findings are based on statistically-based machine
+learning models, they are ushering in an era of evidence- and
+probability-based medicine, which is generally regarded as positive
+but brings with it many challenges in medical ethics and patient/
+clinician relationships. 15
+ Tech firms and startups are also working assiduously on the
+same issues. Google, for example, is collaborating with health
+delivery networks to build prediction models from big data to warn
+clinicians of high-risk conditions, such as sepsis and heart failure. 16
+Google, Enlitic and a variety of other startups are developing
+AI-derived image interpretation algorithms. Jvion offers a ‘clinical
+success machine’ that identifies the patients most at risk as well as
+those most likely to respond to treatment protocols. Each of these
+could provide decision support to clinicians seeking to find the best
+diagnosis and treatment for patients.
+ There are also several firms that focus specifically on diagnosis
+and treatment recommendations for certain cancers based on
+their genetic profiles. Since many cancers have a genetic basis,
+human clinicians have found it increasingly complex to understand
+all genetic variants of cancer and their response to new drugs and
+protocols. Firms like Foundation Medicine and Flatiron Health,
+both now owned by Roche, specialise in this approach.
+ Both providers and payers for care are also using ‘population
+health’ machine learning models to predict populations at risk
+of particular diseases 17 or accidents 18 or to predict hospital
+readmission. 19 These models can be effective at prediction,
+although they sometimes lack all the relevant data that might add
+predictive capability, such as patient socio-economic status.
+ But whether rules-based or algorithmic in nature, AI-based
+diagnosis and treatment recommendations are sometimes
+challenging to embed in clinical workflows and EHR systems. Such
+integration issues have probably been a greater barrier to broad
+implementation of AI than any inability to provide accurate and
+effective recommendations; and many AI-based capabilities
+for diagnosis and treatment from tech firms are standalone in
+nature or address only a single aspect of care. Some EHR vendors
+have begun to embed limited AI functions (beyond rule-based
+clinical decision support) into their offerings, 20 but these are in the
+early stages. Providers will either have to undertake substantial
+integration projects themselves or wait until EHR vendors add
+more AI capabilities.
+
+ 

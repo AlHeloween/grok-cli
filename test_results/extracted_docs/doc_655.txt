@@ -1,0 +1,80 @@
+What Is Fundamental Analysis?
+ Fundamental analysis is used in finance to evaluate the intrinsic value—the real worth—of a security, sector, or economy. It's used when scrutinizing income statements, balance sheets, and cash flow statements for a company's stock. Fundamental analysis is generally for those looking for long-term value.
+ 
+
+ As such, those performing this kind of analysis are trying to calculate how much the company will make in the future against its present net value. A stock trading below the company's intrinsic value is seen as promising, while the opposite is true for those priced below it. The outcome of the analysis can lead to buying, holding, or selling a security.
+ 
+
+ The Main Tools of Fundamental Analysis
+ This approach seeks to uncover the intrinsic value of a security, such as a stock or currency, using these main tools:
+ 
+
+ Financial statements: These include a company's income statement, balance sheet, and cash flow statement, which provide an economic snapshot and help assess its profitability, liquidity, and solvency. Analysts use these to determine financial ratios, multiples, and other mathematical representations of a firm's financial health.
+ Economic indicators: Macroeconomic indicators like gross domestic product growth, inflation, and unemployment rates are used to understand the economic environment in which a company operates. These indicators can affect consumer behavior and, therefore, a company's performance.
+ 
+
+ Interest rates: Central bank interest rates can significantly affect an investment's value. Higher interest rates generally lead to lower stock prices, while lower rates boost stock prices.
+ News and events: Company news, such as earnings reports, new contracts, and regulatory changes, affect stock prices.
+ Qualitative information: This includes details about management quality, industry cycles, competitive advantage, and other nonquantifiable factors that affect a company's stock.
+ 1
+ Investors use these tools to see whether a security is undervalued or overvalued.
+ 
+
+ Criticisms of Fundamental Analysis
+ Here are some of the main criticisms of fundamental analysis:
+ 
+
+ Time-consuming: Fundamental analysis requires extensive research and data collection, which can be very time-intensive.
+ 
+
+ Subjectivity: As with technical analysis, different analysts may interpret the same data differently, leading to the claim that the results end up subjective.
+ Information lag: Financial reports and economic data are often released with a delay, potentially making the analysis outdated.
+ Difficulty quantifying qualitative factors: Aspects like management quality or brand value are hard to objectively measure.
+ Assumption of market efficiency: Fundamental analysis very often assumes that markets are efficient. Hence, long-term value (the prices on the stock market) will eventually match the stock's underlying reality or intrinsic value. However, the long-term may never come, and in the meantime, what's the best approach to obtain the gains from price changes?
+ Long-term focus: It may not be as useful for short-term trading decisions.
+ Overlooking market sentiment: Fundamental analysis may not adequately account for investor psychology and market trends. It may miss important price trends and patterns that technical analysis might catch.
+ Vulnerability to unexpected events: Sudden geopolitical or economic events can quickly render fundamental analysis irrelevant.
+ 2
+ These criticisms highlight why some investors prefer technical analysis or combine both approaches.
+ What Is Technical Analysis?
+ Technical analysis evaluates financial assets, such as stocks, currencies, or commodities, by reviewing the historical price and volume data. Unlike fundamental analysis, which focuses on the intrinsic value of an asset, technical analysis examines the volume and price of shares over time.
+ 2
+ 
+
+ Simplifying more than a little, where those using fundamental analysis portray themselves as the sober-minded investigators uncovering real value in the economy, those who use technical analysis start from the perspective that markets are inefficient and price patterns and trends in market data can be exploited for potential profit.
+ 
+
+ Fundamental and technical analyses are the major schools of thought for approaching the markets.
+ The Main Tools of Technical Analysis
+ Here are the tools most often used in technical analyses:
+ 
+
+ Technical analysis indicators: These are mathematical calculations based on price, volume, or open interest to predict future prices. The indicators are generally based on momentum or mean reversion.
+ Volume analysis: This studies the number of shares, lots, or contracts traded in a security or market during a certain period.
+ Relative strength: This metric compares the performance of an asset to a benchmark to gauge its momentum.
+ 2
+ Chart pattern analysis: The study of price movements in a market pinpoints patterns that can suggest future activity.
+ 3
+ Candlestick pattern analysis: This kind of financial chart used for price movements could indicate investor sentiment, market trends, or reversals of those trends.
+ 4
+ Example candlestick pattern
+ A candlestick pattern on charts consists of rectangular "bodies" that show the opening and closing prices, with thin vertical lines called "wicks" or "shadows" extending above and below to indicate the high and low prices for the period. The body is typically colored differently (often green/white for up moves and red/black for down moves) to quickly convey whether the price closed higher or lower than it opened during that time frame.
+ Investopedia / Sabrina Jiang
+ 
+
+ Support and resistance: These are horizontal lines drawn on a price chart to indicate where a security's price will be unlikely to move beyond.
+ 5
+ Trend analysis: This is interpreting past and present moves in the market to predict future asset prices. Historical prices and trading volume are the most often used.
+ 6
+ Each element allows investors to analyze a share or market's behavior.
+ Criticisms of Technical Analysis
+ Trying to predict stock prices based on past trading data has long been a topic of heated discussion, with many academics and professional investors being skeptical about its effectiveness. Imagine trying to predict tomorrow's weather just by looking at past weather patterns. That's somewhat akin to what technical analysts do with stock prices.
+ Skepticism of the Efficiency of Markets
+ One of the main criticisms of technical analysis is that it goes against the efficient market hypothesis.
+ 7
+  This economic theory suggests that stock prices already reflect all available information, making it impossible to consistently beat the market using any predefined strategy. Critics argue that even if technical analysis really worked, everyone would use it, and its advantages would quickly disappear. However, proponents of technical analysis counter that markets aren't always perfectly efficient, and that there's value in analyzing price trends and trading patterns.
+ Supposed Non-Objectivity of Technical Analysis
+ Another point of contention is the often subjective nature of technical analysis. Much like seeing shapes in clouds, different analysts might interpret the same chart patterns differently, leading to inconsistent predictions. Moreover, with so much financial data available today, there's a risk of "overfitting," or finding patterns that seem meaningful but are actually just coincidences --similar to how you might flip a coin 10 times, get heads each time, and mistakenly conclude the coin is rigged. This has led to concerns about data mining, where patterns that seem to have worked in the past have no real predictive power for the future.
+ 
+
+ Despite these criticisms, technical analysis remains popular among many traders and investors. Some argue that technical analysis may appear to work in some cases due to a self-fulfilling prophecy: if enough traders follow the same technical signals, their collective actions could actually move the market in the predicted direction, at least in the short term. Others point out that technical analysis can be a useful tool for understanding market psychology and sentiment. By studying price movements and trading volumes, analysts might gain insights into the emotions driving buying and selling pressure, which can be valuable for identifying resistance and support levels, and timing entry and exit points in trades.

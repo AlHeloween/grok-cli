@@ -1,0 +1,88 @@
+Strings Are Immutable
+To wrap this section up, let’s discuss an important property of string
+objects. Strings are immutable, which means that you can’t change
+them once you’ve created them. For instance, see what happens when
+you try to assign a new letter to one particular character of a string:
+>>> word = "goal"
+>>> word[0] = "f"
+Traceback (most recent call last):
+File "<pyshell#16>", line 1, in <module>
+word[0] = "f"
+TypeError: 'str' object does not support item assignment
+Python throws a TypeError and tells you that str objects don’t support
+item assignment.
+If you want to alter a string, then you must create an entirely new
+string. To change the string "goal" to the string "foal", you can use a
+string slice to concatenate the letter "f" with everything but the first
+letter of the word "goal":
+>>> word = "goal"
+>>> word = "f" + word[1:]
+>>> word
+'foal'
+First, you assign the string "goal" to the variable word. Then you concatenate the slice word[1:], which is the string "oal", with the letter "f"
+to get the string "foal". If you’re getting a different result here, then
+make sure you’re including the colon character (:) as part of the string
+slice.
+
+4.3 Manipulate Strings With Methods
+Strings come bundled with special functions called string methods
+that you can use to work with and manipulate strings. There are numerous string methods available, but we’ll focus on some of the most
+commonly used ones.
+In this section, you’ll learn how to:
+• Convert a string to uppercase or lowercase
+• Remove whitespace from a string
+• Determine if a string begins or ends with certain characters
+Let’s go!
+Converting String Case
+To convert a string to all lowercase letters, you use the string’s .lower()
+method. This is done by tacking .lower() onto the end of the string
+itself:
+>>> "Jean-Luc Picard".lower()
+'jean-luc picard'
+The dot (.) tells Python that what follows is the name of a method—
+the lower() method in this case.
+Note
+We’ll refer to string methods with a dot (.) at the beginning of
+their names. For example, .lower() is written with a leading dot
+instead of as lower().
+This makes it easier to differentiate functions that are string
+methods from built-in functions like print() and type().
+String methods don’t just work on string literals. You can also use
+.lower() on a string assigned to a variable:
+>>> name = "Jean-Luc Picard"
+>>> name.lower()
+'jean-luc picard'
+The opposite of .lower() is .upper(), which converts every character in
+a string to uppercase:
+>>> name.upper()
+'JEAN-LUC PICARD'
+Compare the .upper() and .lower() string methods to the len() function you saw in the last section. Aside from the different results of
+these functions, the important distinction here is how they’re used.
+len() is a stand-alone function. If you want to determine the length of
+the name string, then you call the len() function directly:
+>>> len(name)
+15
+On the other hand, .upper() and .lower() must be used in conjunction
+with a string. They do not exist independently.
+
+String Methods and Immutability
+Recall from the previous section that strings are immutable—they
+can’t be changed once they’ve been created. Most string methods
+that alter a string, like .upper() and .lower(), actually return copies of
+the original string with the appropriate modifications.
+If you aren’t careful, this can introduce subtle bugs into your program.
+Try this out in IDLE’s interactive window:
+>>> name = "Picard"
+>>> name.upper()
+'PICARD'
+>>> name
+'Picard'
+When you call name.upper(), nothing about name actually changes. If
+you need to keep the result, then you need to assign it to a variable:
+>>> name = "Picard"
+>>> name = name.upper()
+>>> name
+'PICARD'
+name.upper() returns a new string "PICARD", which is reassigned to the
+name variable. This overrides the original string "Picard" that you first
+assigned to name.

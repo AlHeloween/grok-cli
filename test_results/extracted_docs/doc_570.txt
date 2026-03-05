@@ -1,0 +1,20 @@
+Program Caps
+Program caps, sometimes called aggregate capacity limits, set limits on the number of customers
+or amount of generation capacity that may participate. Program caps can be expressed in units of
+power (e.g., megawatts; MW),39 a percentage of electricity demand over some period of time, or
+other measures as determined by a state. The choice of whether to have program caps and, if so,
+how to define them can affect the amount of DG that a state’s net metering policy might
+promote.40 Program caps may be established to reduce risks to the electricity system, such as
+potential reliability risks from DG, or reduce the likelihood that cross-subsidies would occur.
+Caps also might reduce the potential for sales losses or other negative financial impacts for
+utilities.41 On the other hand, program caps might create a barrier to achieving other policy goals,
+for example the renewable energy goals that some states have.
+Source Eligibility
+States specify which generation sources can participate in net metering, often based on capacity
+limits (i.e., generator size) and technology type. Solar energy is the dominant energy source for
+net metering capacity, but some states allow other energy types to participate as well. Whether a
+non-solar project will participate is usually due to cost factors, but other factors such as customer
+type (e.g., residential, commercial, or industrial) and location (e.g., urban, rural) may be
+influential as well. For example, combined heat and power facilities might be attractive mostly to
+large commercial and industrial customers that use steam. Distributed wind projects might be
+attractive mostly to farms or other customers with relatively large acreage.

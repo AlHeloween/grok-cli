@@ -1,0 +1,99 @@
+Betsy L. Graseck
+Analyst, Morgan Stanley & Co. LLC Q
+So, a couple of questions here. Just, one, Jamie, could you talk through the decision to raise the dividend kind of mid-cycle, it felt like, preCCAR? And also, help us understand how you're thinking about where that payout ratio, that dividend payout ratio, range should be. Because
+over the past several years, it's been somewhere between 24% and 32%. And so, is this suggesting we could be towards the higher-end of
+that range or even expanding above that?
+And then I also just wanted to understand the buyback and the keeping of the CET1 at 15% here. The minimum is 11.9%. I know it's – we
+have to wait for Basel III Endgame re-proposal to come through and all that, but should we be expecting that, hey, we're going to hold 15%
+CET1 until we know all these rules? Thanks.
+......................................................................................................................................................................................................................................................
+Jamie Dimon
+Chairman & Chief Executive Officer, JPMorgan Chase & Co. A
+Yeah. So, Betsy, before I answer the question, I want to say something on behalf of all of us at JPMorgan and, me personally, thrilled to have
+you on this call. For those that don't know, Betsy has been through a terrible medical episode and it's a reminder to all of us how lucky we are
+to be here. But, Betsy, in particular, the amount of respect we have, not just in your work, but in your character over the last 20 plus years has
+been exceptional. So, on behalf of all of us, I just want to welcome you back and thrilled to have you here.
+And so, you're asking a pertinent question. So, we're earning a lot of money. Our capital cup runneth over, and that's why we've increased the
+dividend. And if you're asking me what we'd like to do is to pay out something like a third, a third of normalized earnings. Of course, it's hard to
+calculate always what normalized earnings are, but we don't mind being a little bit ahead of that sometimes, a little bit behind that sometimes.
+If I could give people kind of consistent dividend guidance, et cetera, I think the far more important question is the 15%. So, look at the 15%,
+I'm going to oversimplify it, that basically will prepare us for the total Basel Endgame today, roughly. The specifics don't matter that much.
+5
+Jamie Dimon
+Chairman & Chief Executive Officer, JPMorgan Chase & Co. A
+Remember, we can do a lot of things to change that in the short-run or the long-run, but it looks like Basel III Endgame may not be the worst
+case. It'll be something less than that. So, obviously, when and if that happens, it would free up a lot of capital, and I'm going to say in the
+order of $20 billion or something like that.
+And, yes, we've always had the capital hierarchy the same way, which is we're going to use capital to build our business first, I mean, pay the
+dividend – steady dividend, build the business, and if we think it's appropriate to buy back stock. We're continuing to buy back stock at $2
+billion a quarter (sic). I personally do not want to buy back a lot more than that at these current prices. I think you've all heard me talk about
+the world, things like that. So, waiting in preparation for Basel. Hopefully we'll know something later, and then we can be much more specific
+with you all.
+But in the meantime, there's also – it's very important to put in mind, there are short-term uses for capital that are good for shareholders, that
+could reduce our CET1 too. So, you may see us do things in the short-run that will increase earnings, increase capital, that are using up that
+capital. Jeremy mentioned on the – on one of the things that we know, the balance sheet and how we use the balance sheet for credit and
+trading, we could do things now.
+So, it's a great position to be in. We're going to be very, very patient. I urge all the analysts to keep in mind, excess capital is not wasted
+capital, it's earnings in store. We will deploy it in a very good way for shareholders in due course.
+......................................................................................................................................................................................................................................................
+Betsy L. Graseck
+Analyst, Morgan Stanley & Co. LLC Q
+Excellent. Thank you so much.
+......................................................................................................................................................................................................................................................
+Jeremy Barnum
+Chief Financial Officer, JPMorgan Chase & Co. A
+And yeah, Betsy, I just wanted to add my welcome back thoughts as well, and just a very minor edit to Jamie's answer. I think he just
+misspoke when he said $2 billion a year in buybacks. The trajectory is $2 billion...
+......................................................................................................................................................................................................................................................
+Jamie Dimon
+Chairman & Chief Executive Officer, JPMorgan Chase & Co. A
+Oh. Sorry. $2 billion a quarter. Yeah.
+......................................................................................................................................................................................................................................................
+Jeremy Barnum
+Chief Financial Officer, JPMorgan Chase & Co. A
+...a quarter. Otherwise, I have nothing to add to Jamie's very complete answer. But welcome back, Betsy.
+......................................................................................................................................................................................................................................................
+Betsy L. Graseck
+Analyst, Morgan Stanley & Co. LLC Q
+Okay. Thank you so much, and appreciate it. Looking forward to seeing you at Investor Day on May 20th.
+......................................................................................................................................................................................................................................................
+Jeremy Barnum
+Chief Financial Officer, JPMorgan Chase & Co. A
+Excellent. Us too.
+......................................................................................................................................................................................................................................................
+Operator: Thank you. Our next question comes from Jim Mitchell with Seaport Global. You may proceed.
+......................................................................................................................................................................................................................................................
+6
+Jim Mitchell
+Analyst, Seaport Global Securities LLC Q
+Hey. Good morning. Jeremy, can you speak to the trends you're seeing with respect to deposit migration in the quarter, if there's been any
+change? Have you seen that migration start to slow or not?
+......................................................................................................................................................................................................................................................
+Jeremy Barnum
+Chief Financial Officer, JPMorgan Chase & Co. A
+Yeah. Good question, Jim. I think the simplest and best answer to that is: not really. So, as we've been saying for a while, migration from
+checking and savings to CDs is sort of the dominant trend with this driving the increase in weighted average rate paid in the consumer deposit
+franchise, that continues. We continue to capture that money-in-motion at a very high rate. We're very happy about what that means about the
+consumer franchise and level of engagement that we're seeing.
+I'm aware that there's a little bit of a narrative out there about are we seeing the end of what people sometimes refer to as cash sorting. We've
+looked at that data. We see some evidence that maybe it's slowing a little bit. We're quite cautious on that. We really sort of don't think it
+makes sense to assume that in a world where checking and savings is paying effectively zero and the policy rate is above 5% that you're not
+going to see ongoing migration.
+And frankly, we expect to see that even in a world where – even if the current yield curve environment were to change and meaningful cuts
+were to get reintroduced and we would actually start to see those, we would still expect to see ongoing migration and yield-seeking behavior.
+So, it's quite conceivable and this is actually on the yield curve that we had in fourth quarter that had six cuts in it. We were still nonetheless
+expecting an increase in weighted average rate paid as that migration continues. So, I would say no meaningful change in the trends and the
+expectation for ongoing migration is very much still there.
+......................................................................................................................................................................................................................................................
+Jim Mitchell
+Analyst, Seaport Global Securities LLC Q
+Okay. And just a follow-up on that and just sort of bigger picture on NII. Is that sort of the biggest driver of your outlook? Is it migration? Is it
+the forward curve? Is it balances? It sounds like it's migration, but just I'd be curious to hear your thoughts on the biggest drivers of upside or
+downside.
+..................................................................................................................................................................................................................................
+Jeremy Barnum
+Chief Financial Officer, JPMorgan Chase & Co. A
+Yeah. So, I mean I think the drivers of, let's say, what's embedded in the current guidance is actually not meaningfully different from what it
+was in the fourth quarter, meaning it's the current yield curve, which is a little bit stale now. But the snap from quarter-end had roughly three
+cuts in it. So, it's the current yield curve, it's what I just said, the expectation of ongoing internal migration. There is some meaningful offset
+from Card revolve growth, which while it's a little bit less than it was in prior years, is still a tailwind there.

@@ -1,0 +1,71 @@
+Pharmacology of Intravenous β-Adrenergic Blockers
+propranolol
+Propranolol has an equal affinity for β1- and β2-receptors, lacks intrinsic sympathomimetic activity (ISA), and has no α-adrenergic receptor activity. It is the most lipidsoluble β-blocker and generally has the most central nervous system side effects.
+First-pass liver metabolism (90%) is very high, requiring much higher oral doses
+than intravenous doses for pharmacodynamic effect.
+The usual intravenous dose of propranolol initially is 0.5 to 1.0 mg titrated to
+effect. A titrated dose resulting in maximum pharmacologic serum levels is 0.1 mg/kg.
+The use of continuous infusions of propranolol has been reported after noncardiac
+surgery in patients with cardiac disease. A continuous infusion of 1 to 3 mg/hr can
+prevent tachycardia and hypertension but must be used cautiously because of the
+potential of cumulative effects.
+metoprolol
+Metoprolol was the first clinically used cardioselective β-blocker (Table 8-2). Its
+affinity for β1-receptors is 30 times higher than its affinity for β2-receptors, as
+demonstrated by radioligand binding. Metoprolol is lipid soluble, with 50% of
+the drug metabolized during first-pass hepatic metabolism and with only 3%
+BOX 8-3 Effects of β-Adrenergic Blockers on Myocardial Ischemia
+• Reductions in myocardial oxygen consumption
+• Improvements in coronary blood flow
+• Prolonged diastolic perfusion period
+• Improved collateral flow
+• Increased flow to ischemic areas
+• Overall improvement in supply/demand ratio
+• Stabilization of cellular membranes
+• Improved oxygen dissociation from hemoglobin
+• Inhibition of platelet aggregation
+• Reduced mortality after myocardial infarction
+BOX 8-4 Recommendations for Perioperative Medical Therapy
+• Class I β-Blockers required in the recent past to control symptoms of angina or symptomatic arrhythmias or hypertension; β-blockers: patients at high cardiac risk, owing to
+the finding of ischemia on preoperative testing, who are undergoing vascular surgery
+• Class IIa β-Blockers: preoperative assessment identifies untreated hypertension, known
+coronary disease, or major risk factors for coronary disease
+• Class III β-Blockers: contraindication to β-blockade
+Adapted from Eagle KA, Berger PB, Calkins H, et al: ACC/AHA guideline update for perioperative cardiovascular evaluation for noncardiac surgery-executive summary: A report of the American College of Cardiology/
+American Heart Association Task Force on Practice Guidelines (Committee to Update the 1996 Guidelines on
+Perioperative Cardiovascular Evaluation for Noncardiac Surgery). J Am Coll Cardiol 39:542, 2002.
+iICARDIOVASCULAR PHYSIOLOGY, PHARMACOLOGY, AND MOLECULAR BIOLOGY
+124
+excreted renally. Protein binding is less than 10%. Metoprolol’s serum half-life
+is 3 to 4 hours.
+As with any cardioselective β-blocker, higher serum levels may result in greater
+incidence of β2-blocking effects. Metoprolol is administered intravenously in 1- to 2-mg
+doses, titrated to effect. The potency of metoprolol is approximately one half that of
+propranolol. Maximum β-blocker effect is achieved with 0.2 mg/kg given intravenously.
+esmolol
+Esmolol’s chemical structure is similar to that of metoprolol and propranolol, except
+it has a methylester group in the para position of the phenyl ring, making it susceptible to rapid hydrolysis by red blood cell esterases (9-minute half-life). Esmolol is not
+metabolized by plasma cholinesterase. Hydrolysis results in an acid metabolite and
+methanol with clinically insignificant levels. Ninety percent of the drug is eliminated in
+the form of the acid metabolite, normally within 24 hours. A loading dose of 500 μg/kg
+given intravenously, followed by a 50- to 300- μg/kg/min infusion, will reach steadystate concentrations within 5 minutes. Without the loading dose, steady-state concentrations are reached in 30 minutes.
+Esmolol is cardioselective, blocking primarily β1-receptors. It lacks ISA and membrane-stabilizing effects and is mildly lipid soluble. Esmolol produced significant reductions in BP, HR, and cardiac index after a loading dose of 500 μg/kg and an infusion of
+300 μg/kg/min in patients with coronary artery disease, and the effects were completely
+reversed 30 minutes after discontinuation of the infusion. Initial therapy during anesthesia may require significant reductions in both the loading and infusion doses.
+Hypotension is a common side effect of intravenous esmolol. The incidence of hypotension was higher with esmolol (36%) than with propranolol (6%) at equal therapeutic
+endpoints. The cardioselective drugs may cause more hypotension because of β1-induced
+myocardial depression and the failure to block β2 peripheral vasodilation. Esmolol appears
+safe in patients with bronchospastic disease. In another comparative study with propranolol, esmolol and placebo did not change airway resistance whereas 50% of patients treated
+with propranolol developed clinically significant bronchospasm.
+labetalol
+Labetalol provides selective α1-receptor blockade and nonselective β1- and β2-blockade.
+The potency of β-adrenergic blockade is 5- to 10-fold greater than α1-adrenergic blockade. Labetalol has partial β2-agonist effects that promote vasodilation. Labetalol is moderately lipid soluble and is completely absorbed after oral administration. First-pass hepatic
+metabolism is significant with production of inactive metabolites. Renal excretion of the
+unchanged drug is minimal. Elimination half-life is approximately 6 hours.
+In contrast to other β-blockers, clinically, labetalol should be considered a
+peripheral vasodilator that does not cause a reflex tachycardia. BP and systolic vascular resistance decrease after an intravenous dose. Stroke volume (SV) and CO remain
+unchanged, with HR decreasing slightly. The reduction in BP is dose related, and
+acutely hypertensive patients usually respond within 3 to 5 minutes after a bolus dose
+of 100 to 250 μg/kg. However, the more critically ill or anesthetized patients should
+have their BP titrated beginning with 5- to 10-mg intravenous increments. Reduction
+in BP may last as long as 6 hours after intravenous dosing.

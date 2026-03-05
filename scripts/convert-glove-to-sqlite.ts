@@ -75,7 +75,7 @@ async function main() {
   
   // Prepare statement
   const stmt = db.prepare(`
-    INSERT INTO glove (word, dimension, vector, norm)
+    INSERT OR IGNORE INTO glove (word, dimension, vector, norm)
     VALUES (?, ?, ?, ?)
   `);
   

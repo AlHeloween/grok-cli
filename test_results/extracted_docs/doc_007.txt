@@ -1,0 +1,341 @@
+**Robotics Sensors and Actuators**
+
+Robot Sensors
+
+• Sensors are devices that can sense and measure
+physical properties of the environment,
+• e.g. temperature, luminance, resistance to touch, weight,
+size, etc.
+• The key phenomenon is transduction
+• Transduction (engineering) is a process that converts one
+type of energy to another
+• They deliver low-­‐level information about the
+environment the robot is working in.
+– Return an incomplete description of the world
+
+• This information is noisy (imprecise).
+• Cannot be modelled completely:
+– Reading = f(env) where f is the model of the sensor
+– Finding the inverse:
+• ill posed problem (solution not uniquely deEined)
+• collapsing of dimensionality leads to ambiguity
+
+Types of Sensor
+
+• General classification:
+– active versus passive
+• Active: emit energy in environment
+– More robust, less efEicient
+• Passive: passively receive energy from env.
+– Less intrusive, but depends on env. e.g. light for camera
+• Example: stereo vision versus range Einder.
+– contact versus non-­‐contact
+
+Sensors
+
+• Proprioceptive Sensors
+(monitor state of robot)
+– IMU (accels & gyros)
+– Wheel encoders
+– Doppler radar …
+• Exteroceptive Sensors
+(monitor environment)
+– Cameras (single, stereo, omni,
+FLIR …)
+– Laser scanner
+– MW radar
+– Sonar
+– Tactile…
+
+Sensor Characteristics
+
+All sensors are characterized by various
+properties that describe their capabilities
+– Sensitivity:
+(change of output) ÷ (change of input)
+– Linearity: constancy of (output ÷ input)
+• Exception: logarithmic response cameras ==
+wider dynamic range.
+– Measurement/Dynamic range:
+difference between min. and max.
+
+Response Time: time required for a change
+in input to cause a change in the output
+– Accuracy: difference between measured &
+actual
+– Repeatability: difference between repeated
+measures
+– Resolution: smallest observable increment
+– Bandwidth: result of high resolution or cycle
+time
+
+Types of Sensor
+
+Specific examples
+– tactile
+– close-­‐range proximity
+– angular position
+– infrared
+– Sonar
+– laser (various types)
+– radar
+– compasses, gyroscopes
+– Force
+– GPS
+– vision
+
+Tactile Sensors
+ There are many different technologies
+– e.g. contact closure, magnetic, piezoelectric, etc.
+• For mobile robots these can be classiEied as
+– tactile feelers (antennae) often some form of metal wire
+passing through a wire loop -­‐ can be active (powered to
+mechanically search for surfaces)
+§ tactile bumpers
+solid bar / plate acts on some form of contact switch
+e.g. mirror deElecting light beam, pressure bladder,
+wire loops, etc.
+§ Pressure-­‐sensitive rubber with scanning
+array
+Vibrassae/whiskers of rats
+– Surface texture information.
+– Distance of deElection.
+– Blind people using a cane.
+
+Proximity Sensors
+Tactile sensors allow obstacle detection
+– proximity sensors needed for true obstacle
+avoidance
+• Several technologies can detect the presence of
+particular Eields without mechanical contact
+– magnetic reed switches
+• two thin magnetic strips of opposite polarity not
+quite touching
+• an external magnetic Eield closes the strip &
+makes contact
+Hall effect sensors
+• small voltage generated across a conductor
+carrying current
+– inductive sensors, capacitive sensors
+• inductive sensors can detect presence of metallic
+objects
+• capacitive sensors can detect metallic or
+dielectric materials
+
+Infrared Sensors
+Infrared sensors are probably the simplest type of non-­contact sensor
+– widely used in mobile robotics to avoid obstacles
+• They work by
+– emitting infrared light
+• to differentiate emitted IR from ambient IR (e.g. lights, sun,
+etc.), the signal is modulated with a low frequency (100 Hz)
+– detecting any reElections off nearby surfaces
+• In certain environments, with careful calibration, IR
+sensors can be used for measuring the distance to the
+object
+– requires uniform surface colours and structures
+
+Infrared Sensors (Sharp)
+Measures the return angle of the infrared beam.
+
+Infrared Problems
+If the IR signal is detected, it is safe to assume that an
+object is present
+• However, the absence of reElected IR does not mean that
+no object is present!
+– “Absence of evidence is not evidence of absence.”
+C. Sagan
+– certain dark colours (black) are almost invisible to IR
+– IR sensors are not absolutely safe for object detection
+• In realistic situations (different colours & types of
+objects) there is no accurate distance information
+– it is best to avoid objects as soon as possible
+• IR are short range
+– typical maximum range is 50 to 100 cm
+
+Sonar Sensors
+• The fundamental principle of robot sonar sensors is the same as
+that used by bats
+– emit a chirp (e.g. 1.2 milliseconds)
+• a short powerful pulse of a range of frequencies of sound
+– its reElection off nearby surfaces is detected
+• As the speed of sound in air is known (≈ 330 m·s-­‐1) the distance to
+the object can be computed from the elapsed time between chirp
+and echo
+– minimum distance = 165 tchirp (e.g. 21 cm at 1.2 ms)
+– maximum distance = 165 twait (e.g. 165 m at 1 s)
+• Usually referred to as ultrasonic sensors
+
+Sonar Problems
+• There are a number of problems and uncertainties
+associated with readings from sonar sensors
+– it is difEicult to be sure in which direction an object is
+because the 3D sonar beam spreads out as it travels
+– specular re5lections give rise to erroneous readings
+• the sonar beam hits a smooth surface at a shallow angle and so
+reElects away from the sensor
+• only when an object further away reElects the beam back does
+the sensor obtain a reading -­‐ but distance is incorrect
+– arrays of sonar sensors can experience crosstalk
+• one sensor detects the reElected beam of another sensor
+– the speed of sound varies with air temp. and pressure
+• a 16° C temp. change can cause a 30cm error at 10m
+
+Laser Range Finders
+• Laser range Einders commonly used to measure the
+distance, velocity and acceleration of objects
+– also known as laser radar or lidar
+• The operating principle is the same as sonar
+– a short pulse of (laser) light is emitted
+– the time elapsed between emission and detection is
+used to determine distance (using the speed of light)
+• Due to the shorter wavelengths of lasers, the chance of
+specular reElections is much less
+– accuracies of millimetres (16 -­‐ 50mm) over 100m
+– 1D beam is usually swept to give a 2D planar beam
+• May not detect transparent surfaces (e.g. glass!) or dark
+objects 
+
+RADAR
+• Radar usually uses electromagnetic energy in the 1 -­‐
+12.5 GHz frequency range
+– this corresponds to wavelengths of 30 cm -­‐ 2 cm
+• microwave energy
+– unaffected by fog, rain, dust, haze and smoke
+• It may use a pulsed time-­‐of-­‐Elight methodology of
+sonar and lidar, but may also use other methods
+– continuous-­‐wave phase detection
+– continuous-­‐wave frequency modulation
+• Continuous-­‐wave systems make use of Doppler effect
+to measure relative velocity of the target
+
+Angular Position: Rotary Encoder
+• Potentiometer
+– Used in the Servo on the boebots
+• Optical Disks (Relative)
+– Counting the slots
+– Direction by having pars of emitters/receivers out of
+phase: Quadrature decoding
+– Can spin very fast: 500 kHz
+• Optical Disks (Absolute)
+– Grey encoding for absolute:
+• 0:0000, 1:1000, 2:1100, 3:0100, 4:0110,
+• 5:1110, 6:1010, 7:0010, 8:0011
+• 9:1011, 10:1111, 11:0111, 12:0101, 13:1101, 14:1001,
+15:0001
+
+Compass Sensors
+• Compass sensors measure the horizontal
+component of the earth’s magnetic Eield
+– some birds use the vertical component too
+• The earth’s magnetic Eield is very weak and
+non-­‐uniform, and changes over time
+– indoors there are likely to be many other Eield
+sources
+• steel girders, reinforced concrete, power lines,
+motors, etc.
+– an accurate absolute reference is unlikely, but the
+Eield is approx. constant, so can be used for local
+reference
+
+Gyroscopes
+• A gyroscope is a spinning wheel with most of its mass
+concentrated in the outer periphery
+– e.g. a bicycle wheel
+• Due to the law of conservation of momentum
+– the spinning wheel will stay in its original orientation
+– a force is required to rotate the gyroscope
+• A gyro. can thus be used to maintain orientation or to
+measure the rate and direction of rotation
+• In fact there are different types of mechanical gyro.
+– and even optical gyro’s with no moving parts!
+• these can be used in e.g. space probes to maintain
+orientation 
+
+Ring Gyro's
+• Use standing waves set up
+– between mirrors (laser ring gyro)
+– within a Eiber optic cable (Eibre optic ring gyro)
+• Measure rotation by observing beats in standing
+wave as the mirrors "rotate through it".
+
+IMU's
+• Gyro, accelerometer combination.
+• Typical designs (e.g. 3DM-­‐GX1™)
+use tri-­‐axial gyros to track
+dynamic orientation and tri-­‐axial
+DC accelerometers along with the
+tri-­‐axial magnetometers to track
+static orientation.
+• The embedded microprocessors
+contains programmable Eilter
+algorithms, which blend these
+static and dynamic responses in
+real-­‐time.
+
+GPS
+• GPS uses a constellation of between 24 and 32
+Medium Earth Orbit satellites.
+• Satellite broadcast their position + time.
+• Use travel time of 4 satellites and trilateration.
+• Suffers from “canyon” effect in cities.
+
+WiFi
+• Using the SSID and database.
+
+Odor Sensing
+Smell is ubiquitous in nature
+… both as a active and a passive sensor.
+Why is it so important?
+Advantages: evanescent, controllable, multi-­‐valued,
+useful.
+
+What is an actuator?
+• Device for moving or controlling a system.
+• “Robot Muscles
+
+Hydraulic Actuators
+• Pros:
+– Powerful
+– Fast
+– Stiff
+• Cons
+– Messy
+– Maintenance
+– External Pump
+
+Pneumatic Actuators
+• Pros:
+– Powerful
+– Cheap
+• Cons
+– Soft/Compliant
+– External Compressor
+
+Shape Memory Alloy Actuators
+• Works by warming and cooling Nitinol wires.
+• Pros:
+– Light
+– Powerful
+• Cons:
+– Slow (cooling)
+
+Electric Actuators
+• Pros
+– Better position precision
+– Well understood
+– No separate power source
+– Cheap
+• Cons
+– Heavy
+– Weaker/slower than hydraulics
+– Cooling issue
+
+• Stepper motors
+• DC motors
+– Servos
+• Continuous
+• Position
+• Others (not discussed)
+– Linear actuators
+– AC motors

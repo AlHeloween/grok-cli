@@ -1,0 +1,41 @@
+The use of information technology (IT) across industries has created opportunities for
+disruptions and vulnerabilities in the supply chain for products and services. For example,
+some firms may be more susceptible to system failures, data breaches, and cyberattacks
+than others depending on the security of the IT systems used.1 Recent examples include the
+February 2024 cyberattack on Change Healthcare, a subsidiary of UnitedHealth Group, Inc.,2
+and
+a series of data breaches beginning in April 2024 that may have affected about 165 organizations
+using Snowflake, a cloud-based data management platform.3 The impact of these disruptions may
+be more widespread when components of IT systems are concentrated among a limited number of
+providers.
+On July 19, 2024, CrowdStrike Holdings, Inc. (hereinafter CrowdStrike) released a software
+update with a defective file for devices using the Windows operating system, causing some
+Windows devices to crash. CrowdStrike and Microsoft subsequently released updated safe files
+and recovery tools.4 Some users were able to fix the issue by rebooting impacted devices multiple
+times, while others had to take additional steps.5 CrowdStrike’s faulty update does not appear to
+be related to a cyberattack or data breach; instead, it is an example of the pervasiveness of some
+IT components and how an issue with an IT component may affect multiple sectors
+simultaneously, resulting in a host of disruptions domestically and internationally.
+This FAQ provides a description of CrowdStrike and the faulty update and discusses how the
+faulty update affected certain sectors in the United States. 
+How did the faulty CrowdStrike update occur, and what is
+CrowdStrike?
+6
+CrowdStrike delivers cybersecurity products and services to its customers via a cloud computing
+platform—the Falcon platform.7 CrowdStrike, through its cloud-based platform, deploys and
+installs a software called the Falcon Agent or the Falcon Sensor on each connected endpoint
+device (e.g., individual computer) of its customers.8 On July 19, 2024, CrowdStrike released “a sensor configuration update” over the cloud to its customers’ endpoint computers that were
+running the Falcon sensor for Windows operating systems.9 The update “triggered a logic error
+resulting in a system crash and blue screen [error]” on impacted computers.10 Those computers
+that were online and downloaded the faulty update within a certain time period on that day “were
+susceptible to a system crash.”11 CrowdStrike’s faulty update does not appear to be related to a
+cyberattack or data breach. The outage occurred as part of the company’s effort to deliver its
+cybersecurity services.
+CrowdStrike claims that its cybersecurity products through the Falcon Agent can identify and
+prevent “known and unknown malware and fileless attacks” to protect its customers’ endpoint
+devices while “capturing and recording … endpoint data.”12 The cyberattack events and data
+captured by the agent are streamed back to the Falcon platform’s cloud infrastructure in real time
+“in order to be further analyzed” to optimize its cybersecurity algorithms.13 The agent can also be
+remotely reconfigured in real time to take other actions “as risk and threat postures change.”14
+This agent is built to support major computer operating systems, including Microsoft’s
+Windows.15

@@ -1,0 +1,40 @@
+Laboratory results
+ One included studies collected the main specimens from nasopharyngeal and throat of 42 confirmed patients. However, they assessed the possibility of detection of SARS-CoV-2 from saliva specimen in just one confirmed case [17]. The results of this study showed that the viral load in saliva specimen of patient was 5.9 × 106 copies per ml and 3.3 × 106 in pooled nasopharyngeal and throat swab. In another study, 12 patient with laboratory-confirmed SARS-CoV-2 infection (nasopharyngeal or sputum specimens) were included [9]. The researchers reported that the SARS-CoV-2 was detected in saliva specimens of 11 patients (91.7%) in this trial. The median viral load of these 11 patients was 3.3 × 106 copies per ml. It is interesting that among these SARS-CoV-2 positive cases, viral cultures were positive for three patients. Later in another article, this research team published the complementary results of their cohort study. In this paper they reported the results of investigation among 23 COVID-19 patients. The results were in accordance with the previous study and showed that the SARS-CoV-2 was detected in saliva specimens of 87% of included subjects [20].
+ 
+
+ Based on the results of included studies, three of them were performed among the Chinese participants. One of these studies included 65 cases and the other one recruited 31 confirmed COVID-19 patients [18, 19]. The results of the first project showed that the detection rate of SARS-CoV-2 based on sputum (95.65%) and saliva (88.09%) specimens were significantly higher than throat or nasal swabs (P < 0.001, 20). The authors also reported no significant difference between sputum and saliva samples regarding viral load (P < 0.05).
+ 
+
+ The study from Chen et al. showed that among the 13 patients whose oropharyngeal swab tests were positive, 4 cases were also positive for their saliva specimens [19]. The latest study among the Chinese patients, reported the results based on a total of 1846 respiratory samples (1178 saliva and 668 sputum specimens) from 96 confirmed cases [22]. The authors reported that the SARS-CoV-2 was detected in all 96 patients by testing respiratory samples [22].
+ 
+
+ The other two studies conducted in Australia and Italy among confirmed COVID-19 patients. These studies reported a detection rate of 84.6 and 100% respectively, based on saliva specimens [21, 24]. One of the included studies in this review is a case-report regarding a confirmed SARS-CoV-2 neonate [23]. In this case, the SARS-CoV-2 was detected in all of the neonate’s clinical specimens, including blood, urine, stool, and saliva along with the upper respiratory tract specimens.
+ 
+
+ Discussion
+ One of the main concerns regarding epidemic prevention and control of any infectious disease is rapid and accurate screening of suspected patients. Apart from the level of sensitivity and specificity of laboratory techniques, selecting the appropriate sites to collect samples is very important. Selection of proper sampling method should be based on the tissue affinity of targeted virus, cost-effectiveness of method and also safety of patients and clinicians [18, 25]. In this study we classified the current evidence regarding the reliability of saliva as a diagnostic specimen in COVID-19 patients.
+ 
+
+ Most of the studies included in this review, reported that there is no statistically significant difference between nasopharyngeal or sputum specimens and saliva samples regarding viral load. These studies suggested saliva as a non-invasive specimen type for the diagnosis and viral load monitoring of SARS-CoV-2 [9, 17, 18, 20,21,22, 24]. Previous studies also reported a high overall agreement between saliva and nasopharyngeal aspirate specimens when tested by an automated multiplex molecular assay approved for point-of-care testing [12, 26, 27].
+ 
+
+ Based on these studies, the method of collection of saliva and collection device types are critical issues in the way of using saliva as diagnostic specimen. In this regard there are three main types of human saliva (whole saliva, parotid gland and minor gland) and the method of collection of each type varies accordingly [26]. When the aim of sampling is detecting the respiratory viruses with molecular assays, collecting the whole saliva from the suspected patients is useful [26]. In this regard the patients should be instructed to expectorate saliva into a sterile container. The volume of saliva should be ranged between 0.5 and 1 ml. Then 2 ml of viral transport medium (VTM) should be added to the container [11]. The next procedures will be conducted based on instructions of related RT-PCR technique in the microbiology laboratory.
+ 
+
+ The low concordance rate of saliva with nasopharyngeal specimens reported in the research of Chen et al. might be explained by the differences in the method of obtaining the samples [19]. This study reported the detection rate of SARS-CoV-2 in pure saliva fluid secreted from the opening of salivary gland canals. However in other studies patients were asked to cough out saliva from their throat into sterile containers, and hence the saliva samples were mainly sputum from the lower respiratory tract [9, 17, 18]. Thus for increasing the sensitivity of salivary tests in the way of diagnosing the suspected COVID-19 patients, the instructions should clearly explain the correct procedure to the individuals.
+ 
+
+ The use of saliva samples for diagnosis of SARS-CoV-2 has many advantages in clinical practice. First, collecting saliva is a non-invasive procedure and rather than nasal or throat swabs avoids patient discomfort. The second advantage of using saliva as specimen is related to possibility of collecting samples outside the hospitals. This sampling method doesn’t require the intervention of healthcare personnel and the suspected patients can provide it by themselves. Therefore this method can decrease the risk of nosocomial SARS-CoV-2 transmission.
+ 
+
+ Furthermore, because there is not necessary for presence of trained healthcare workers for collecting saliva specimen, the waiting time for suspected patients will be reduced. This is crucial in busy clinical settings where a large number of individuals require screening.
+ 
+
+ The results of viral culture in one of the included studies showed that saliva collected from COVID-19 patients, may contain live viruses which may allow transmission of virus from person to person [9]. These finding reinforce the use of barrier-protection equipment as a control measure, for all healthcare workers in the clinic/hospital settings during the epidemic period of COVID-19.
+ 
+
+ It should be mentioned that this study has several limitations. Firstly, the outbreak and detection of SARS-CoV-2 has begun very recently; therefore the available data in this regard is very scarce. Secondly the included studies of this review didn’t evaluate other factors such as severity of disease or disease progression that may impact on detection rate of the virus. Finally as all of the selected studies only included hospitalized confirmed COVID-19 patients, further studies should be performed in outpatient settings.
+ 
+
+ Conclusions
+ In conclusion, although further research is warranted as the weight of the evidence increases, saliva can be considered as a non-invasive specimen for screening SARS-CoV-2 suspected patients. This method of sampling has proper accuracy and reliability regarding viral load monitoring of SARS-CoV-2 based on RT-PCR technique. Since oropharyngeal samples may cause discomfort to patients, saliva sampling after deep cough, could be recommended as an appropriate alternative.

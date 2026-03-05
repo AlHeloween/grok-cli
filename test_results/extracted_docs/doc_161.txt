@@ -1,0 +1,94 @@
+What Standards Are and Why They Matter 
+From computers and smartphones to cars and lightbulbs, societies rely on technology standards 
+for everyday life. In the broadest sense, standards are the common and repeated use of rules, 
+conditions, guidelines, or characteristics for products or related processes, practices, and 
+production methods. They enable technology that is safe, universal, and interoperable. Standards 
+define the requirements that make it possible for mobile phones sold in different countries to 
+communicate across the world, for bank cards issued in one country to be recognized at ATMs in 
+another, and for cars to run on fuel purchased from any gas station. Standards also help manage 
+risk, security, safety, privacy, and quality in the development of new innovations. In short, good 
+standards are good for business, good for consumers, and good for society. 
+Standards Developing Organizations (SDOs) consist of experts from industry, academia, civil 
+society groups, and government, all of whom share a common goal of ensuring safety, 
+interoperability, and competition in a particular technology or technology application. In well
+functioning SDOs, ideas are selected not on the basis of the nationality, employer, or personality 
+originating them, but instead on the basis of technical merit. Six principles govern the 
+international standards development process: transparency, openness, impartiality and consensus, 
+effectiveness and relevance, coherence, and a commitment to participation by low- and 
+middle-income countries. 
+The private sector has led U.S. engagement with SDOs for more than 100 years. An example of 
+how this system works comes from the communications industry. Qualcomm Technologies 
+provided the proposal in the 1990s that became the basis for all 3G standards, while NTT 
+Docomo, a large mobile phone operator in Japan, provided the proposal that later became LTE, 
+the predominant standard for wireless broadband communication for mobile devices and data 
+terminals.  
+This private sector leadership has come with significant assistance from government and 
+academia. In 1901, the Congress established the National Bureau of Standards—which has since 
+become the National Institute of Standards and Technology (NIST)—as the authoritative 
+domestic measurement science research and standards laboratory. Not long after, five 
+engineering societies and three Federal agencies banded together to establish a national non
+governmental body now known as the American National Standards Institute (ANSI). ANSI is a 
+private, nonprofit organization that administers and coordinates the U.S. standardization system 
+and is the sole U.S. representative to the International Organization for Standardization (ISO) 
+and the International Electrotechnical Commission. Industry, consortia, and private-sector groups 
+often complement the roles of NIST, ANSI, and ANSI-accredited SDOs, working together to 
+develop standards to solve specific challenges. To date, this approach, supported by U.S. 
+leadership, has fostered an effective and innovative system that has supercharged U.S. and global 
+economic growth.  
+In an era of rapid technological transformation and global scale, standards will continue to define 
+and drive the markets of the future. Standards for CET—advanced technologies that are 
+significant for U.S. competitiveness and national security - carry strategic significance.
+The United States will work with all nations committed to an open and transparent standards system 
+to lead the way in these new arenas - just as we did with previous internet, wireless 
+communications, and other digital standards. Failing to do so will risk the United States’—and 
+the world’s—innovation, security, and prosperity. 
+
+Standards for Critical and Emerging 
+Technology 
+The United States will prioritize efforts for standards development for a subset of CET that are 
+essential for U.S. competitiveness and national security, including the following areas: 
+• Communication and Networking Technologies, which are enabling dramatic changes 
+in how consumers, businesses, and governments interact, and which will form the basis 
+of tomorrow’s critical communications networks; 
+• Semiconductors and Microelectronics, including Computing, Memory, and Storage 
+Technologies, which affect every corner of the global economy, society, and 
+government, and which power a panoply of innovations and capabilities; 
+• Artificial Intelligence and Machine Learning, which promise transformative 
+technologies and scientific breakthroughs across industries, but which must be developed 
+in a trustworthy and risk-managed manner; 
+• Biotechnologies, which will affect the health, agricultural, and industrial sectors of all 
+nations, and which will need to be used safely and securely to support the health of our 
+citizens, animals, and environment; 
+• Positioning, Navigation, and Timing Services, which are a largely invisible utility for 
+technology and infrastructure, including the electrical power grid, communications 
+infrastructure and mobile devices, all modes of transportation, precision agriculture, 
+weather forecasting, and emergency response; 
+• Digital Identity Infrastructure and Distributed Ledger Technologies, which 
+increasingly affect a range of key economic sectors; 
+• Clean Energy Generation and Storage, which are critical to the generation, storage, 
+distribution, and climate-friendly and efficient utilization of energy, and to the security of 
+the technologies that support energy-producing plants; and 
+• Quantum Information Technologies, which leverage quantum mechanics for the 
+storage, transmission, manipulation, computing, or measurement of information, with 
+major national security and economic implications.  
+There are also specific applications of CET that departments and agencies have determined will 
+impact our global economy and national security. The United States will focus standards 
+development activities and outreach on these applications, which include:  
+• Automated and Connected Infrastructure, such as smart communities, Internet of 
+Things, and other novel applications; 
+• Biobanking, which involves the collection, storage, and use of biological samples; 
+• Automated, Connected, and Electrified Transportation, including automated and 
+connected surface vehicles of many types and unmanned aircraft systems, many of which 
+may be electric vehicles (EVs), along with the safe and efficient integration into smart 
+communities and the transportation system as a whole, including standards to integrate 
+EVs with the electrical grid and charging infrastructure; 
+• Critical Minerals Supply Chains, where we will promote standards that support 
+increased sustainable extraction of critical minerals necessary to manufacture renewable 
+energy technologies, semiconductors, and EVs;  
+• Cybersecurity and Privacy, which are cross-cutting issues that are critical to enabling 
+the development and deployment of emerging technologies and promote the free flow of 
+data and ideas with trust; and 
+• Carbon Capture, Removal, Utilization and Storage, which can build on evolving 
+standards for CO2 storage, and emerging standards for point source carbon capture, 
+removal, and utilization, especially as those standards relate to monitoring and 
+verification. 

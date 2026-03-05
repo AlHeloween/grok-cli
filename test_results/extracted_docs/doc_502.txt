@@ -1,0 +1,50 @@
+Indebtedness
+On December 12, 2019, we entered into a credit agreement with various financial institutions that provided for a $350.0 million term loan (the “2019
+Term Loan”) and a $25.0 million revolving credit facility (the “Revolving Credit Facility”), which included a $15.0 million letter of credit sub-facility. On
+December 11, 2020, we amended the credit agreement (as amended, the “2020 Credit Agreement”) to increase the size of the 2019 Term Loan to
+$550.0 million (as amended, the “2020 Term Loan”) and extend the maturity date for the 2019 Term Loan and the Revolving Credit Facility to December 11,
+2025. On June 15, 2023, we amended the 2020 Credit Agreement (as amended, the “Credit Agreement”) to increase the total size of the 2020 Term Loan to
+$650.0 million (the “Term Loan”) upon the closing of the Google Domains Asset Acquisition and, effective June 30, 2023, replaced LIBOR as the benchmark
+rate with SOFR.
+The borrowings under the 2019 Term Loan were used to provide for the repurchase, and subsequent retirement, of outstanding capital stock. The
+borrowings under the 2020 Term Loan were used to provide for a dividend on all outstanding capital stock. The additional borrowings of $100.0 million under
+the Term Loan were used to partially fund the Google Domains Asset Acquisition, together with cash on hand.
+Borrowings under the 2020 Credit Agreement were subject to an interest rate equal to, at our option, LIBOR or the bank's alternative base rate (the
+"ABR"), in either case, plus an applicable margin prior to June 30, 2023. Effective June 30, 2023, under the Credit Agreement, LIBOR as the benchmark rate
+was replaced with SOFR. The ABR is the greater of the prime rate, the federal funds effective rate plus the applicable margin or the SOFR quoted rate plus the
+applicable margin. The applicable margin is based on an indebtedness to consolidated EBITDA ratio as prescribed under the Credit Agreement
+39
+Table of Contents
+and ranges from 1.25% to 2.25% on applicable SOFR loans and 0.25% to 1.25% on ABR loans. In addition, the Revolving Credit Facility is subject to an
+unused commitment fee, payable quarterly, of 0.20% to 0.25% of the unutilized commitments (subject to reduction in certain circumstances). Consolidated
+EBITDA is defined in the Credit Agreement and is not comparable to our definition of adjusted EBITDA used elsewhere in the Quarterly Report on Form 10-Q
+since the Credit Agreement allows for additional adjustments to net income/(loss) including the exclusion of transaction costs, changes in deferred revenue and
+other costs that may be considered non-recurring. Further, consolidated EBITDA, as defined in the Credit Agreement, may be different from similarly titled
+EBITDA financial measures used by other companies. The definition of consolidated EBITDA is contained in Section 1.1 of the Credit Agreement.
+As of June 30, 2024, $546.9 million was outstanding under the Term Loan. The Term Loan requires scheduled quarterly principal payments in aggregate
+annual amounts equal to 7.50% for 2023 and 2024, and 10.00% for 2025, in each case, on the Term Loan principal amount, with the balance due at maturity. In
+addition, the Credit Agreement includes certain customary prepayment requirements for the Term Loan, which are triggered by events such as asset sales,
+incurrence of indebtedness and sale leasebacks.
+As of June 30, 2024, $7.3 million was outstanding under the Revolving Credit Facility in the form of outstanding letters of credit and $17.7 million
+remained available for borrowing by us. The outstanding letters of credit relate to security deposits for certain of our leased locations.
+The Credit Agreement contains certain customary affirmative covenants and events of default. The negative covenants in the Credit Agreement include,
+among others, limitations on our ability (subject to negotiated exceptions) to incur additional indebtedness or issue additional preferred stock, incur liens on
+assets, enter into agreements related to mergers and acquisitions, dispose of assets or pay dividends and distributions. The Credit Agreement contains certain
+negative covenants for an indebtedness to consolidated EBITDA ratio, as defined by the Credit Agreement, and commencing with December 31, 2020 and all
+fiscal quarters thereafter through maturity. For the fiscal quarter ended June 30, 2024, and each fiscal quarter thereafter, the Company is required to maintain an
+indebtedness to consolidated EBITDA ratio of not more than 3.75 (the “Financial Covenant”), subject to customary equity cure rights. The Financial Covenant
+is subject to a 0.50 step-up in the event of a material permitted acquisition, which we can elect to implement up to two times during the life of the facility. As of
+June 30, 2024, we have not elected to implement this set-up as a result of any of our acquisitions. If we are not in compliance with the covenants under the
+Credit Agreement or we otherwise experience an event of default, the lenders would be entitled to take various actions, including acceleration of amounts due
+under the Credit Agreement. As of June 30, 2024, we were in compliance with all applicable covenants, including the Financial Covenant.
+The obligations under the Credit Agreement are guaranteed by our wholly-owned domestic subsidiaries and are secured by substantially all of the assets
+of the guarantors, subject to certain exceptions.
+Total interest expense related to our indebtedness was $10.1 million and $20.5 million for the three and six months ended June 30, 2024, respectively,
+and $8.6 million and $16.7 million for the three and six months ended June 30, 2023, respectively.
+Stock Repurchase Plan
+On May 10, 2022, the board of directors authorized a general share repurchase program of the Company’s Class A common stock of up to $200.0
+million. On February 26, 2024, the board of directors authorized a new general share repurchase program of the Company's Class A common stock of up to
+$500.0 million with no fixed expiration (the "Stock Repurchase Plan") to replace the previous repurchase plan. During the three and six months ended June 30,
+2024, the Company repurchased 0.2 million and 0.5 million shares and paid cash of $4.1 million and $16.3 million, under the Stock Repurchase Plan through
+open market purchases. The weighted-average price per share for the share repurchases was $36.53 and $34.36 during the three and six months ended June 30,
+2024. As of June 30, 2024, approximately $483.7 million remained available for stock repurchase pursuant to the Stock Repurchase Plan.

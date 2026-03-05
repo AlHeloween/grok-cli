@@ -1,0 +1,134 @@
+**Best practices for performance and scaling for small to medium workloads in Azure Kubernetes Service (AKS):**
+
+This article focuses on general best practices for small to medium workloads. For best practices specific to large workloads, see Performance and scaling best practices for large workloads in Azure Kubernetes Service (AKS).
+
+As you deploy and maintain clusters in AKS, you can use the following best practices to help you optimize performance and scaling.
+
+In this article, you learn about:
+
+Tradeoffs and recommendations for autoscaling your workloads.
+Managing node scaling and efficiency based on your workload demands.
+Networking considerations for ingress and egress traffic.
+Monitoring and troubleshooting control plane and node performance.
+Capacity planning, surge scenarios, and cluster upgrades.
+Storage and networking considerations for data plane performance.
+Application autoscaling vs. infrastructure autoscaling
+Application autoscaling
+Application autoscaling is useful when dealing with cost optimization or infrastructure limitations. A well-configured autoscaler maintains high availability for your application while also minimizing costs. You only pay for the resources required to maintain availability, regardless of the demand.
+
+For example, if an existing node has space but not enough IPs in the subnet, it might be able to skip the creation of a new node and instead immediately start running the application on a new pod.
+
+Horizontal Pod autoscaling
+Implementing horizontal pod autoscaling is useful for applications with a steady and predictable resource demand. The Horizontal Pod Autoscaler (HPA) dynamically scales the number of pod replicas, which effectively distributes the load across multiple pods and nodes. This scaling mechanism is typically most beneficial for applications that can be decomposed into smaller, independent components capable of running in parallel.
+
+The HPA provides resource utilization metrics by default. You can also integrate custom metrics or leverage tools like the Kubernetes Event-Driven Autoscaler (KEDA) (Preview). These extensions allow the HPA to make scaling decisions based on multiple perspectives and criteria, providing a more holistic view of your application's performance. This is especially helpful for applications with varying complex scaling requirements.
+
+ Note
+
+If maintaining high availability for your application is a top priority, we recommend leaving a slightly higher buffer for the minimum pod number for your HPA to account for scaling time.
+
+Vertical Pod autoscaling
+Implementing vertical pod autoscaling is useful for applications with fluctuating and unpredictable resource demands. The Vertical Pod Autoscaler (VPA) allows you to fine-tune resource requests, including CPU and memory, for individual pods, enabling precise control over resource allocation. This granularity minimizes resource waste and enhances the overall efficiency of cluster utilization. The VPA also streamlines application management by automating resource allocation, freeing up resources for critical tasks.
+
+ Warning
+
+You shouldn't use the VPA in conjunction with the HPA on the same CPU or memory metrics. This combination can lead to conflicts, as both autoscalers attempt to respond to changes in demand using the same metrics. However, you can use the VPA for CPU or memory in conjunction with the HPA for custom metrics to prevent overlap and ensure that each autoscaler focuses on distinct aspects of workload scaling.
+
+ Note
+
+The VPA works based on historical data. We recommend waiting at least 24 hours after deploying the VPA before applying any changes to give it time to collect recommendation data.
+
+Infrastructure autoscaling
+Cluster autoscaling
+Implementing cluster autoscaling is useful if your existing nodes lack sufficient capacity, as it helps with scaling up and provisioning new nodes.
+
+When considering cluster autoscaling, the decision of when to remove a node involves a tradeoff between optimizing resource utilization and ensuring resource availability. Eliminating underutilized nodes enhances cluster utilization but might result in new workloads having to wait for resources to be provisioned before they can be deployed. It's important to find a balance between these two factors that aligns with your cluster and workload requirements and configure the cluster autoscaler profile settings accordingly.
+
+The Cluster Autoscaler profile settings apply universally to all autoscaler-enabled node pools in your cluster. This means that any scaling actions occurring in one autoscaler-enabled node pool might impact the autoscaling behavior in another node pool. It's important to apply consistent and synchronized profile settings across all relevant node pools to ensure that the autoscaler behaves as expected.
+
+Overprovisioning
+Overprovisioning is a strategy that helps mitigate the risk of application pressure by ensuring there's an excess of readily available resources. This approach is especially useful for applications that experience highly variable loads and cluster scaling patterns that show frequent scale ups and scale downs.
+
+To determine the optimal amount of overprovisioning, you can use the following formula:
+
+txt
+
+Copy
+1-buffer/1+traffic
+For example, let's say you want to avoid hitting 100% CPU utilization in your cluster. You might opt for a 30% buffer to maintain a safety margin. If you anticipate an average traffic growth rate of 40%, you might consider overprovisioning by 50%, as calculated by the formula:
+
+txt
+
+Copy
+1-30%/1+40%=50%
+An effective overprovisioning method involves the use of pause pods. Pause pods are low-priority deployments that can be easily replaced by high-priority deployments. You create low priority pods that serve the sole purpose of reserving buffer space. When a high-priority pod requires space, the pause pods are removed and rescheduled on another node or a new node to accommodate the high priority pod.
+
+The following YAML shows an example pause pod manifest:
+
+yml
+
+Copy
+apiVersion: scheduling.k8s.io/v1 
+kind: PriorityClass 
+metadata: 
+  name: overprovisioning 
+value: -1 
+globalDefault: false 
+description: "Priority class used by overprovisioning." 
+--- 
+apiVersion: apps/v1 
+kind: Deployment 
+metadata: 
+  name: overprovisioning 
+  namespace: kube-system 
+spec: 
+  replicas: 1 
+  selector: 
+    matchLabels: 
+      run: overprovisioning 
+  template: 
+    metadata: 
+      labels: 
+        run: overprovisioning 
+    spec: 
+      priorityClassName: overprovisioning 
+      containers: 
+      - name: reserve-resources 
+        image: your-custome-pause-image 
+        resources: 
+          requests: 
+            cpu: 1 
+            memory: 4Gi 
+Node scaling and efficiency
+Best practice guidance:
+
+Carefully monitor resource utilization and scheduling policies to ensure nodes are being used efficiently.
+
+Node scaling allows you to dynamically adjust the number of nodes in your cluster based on workload demands. It's important to understand that adding more nodes to a cluster isn't always the best solution for improving performance. To ensure optimal performance, you should carefully monitor resource utilization and scheduling policies to ensure nodes are being used efficiently.
+
+Node images
+Best practice guidance:
+
+Use the latest node image version to ensure that you have the latest security patches and bug fixes.
+
+Using the latest node image version provides the best performance experience. AKS ships performance improvements within the weekly image releases. The latest daemonset images are cached on the latest VHD image, which provide lower latency benefits for node provisioning and bootstrapping. Falling behind on updates might have a negative impact on performance, so it's important to avoid large gaps between versions.
+
+Azure Linux
+The Azure Linux Container Host on AKS uses a native AKS image and provides a single place for Linux development. Every package is built from source and validated, ensuring your services run on proven components.
+
+Azure Linux is lightweight, only including the necessary set of packages to run container workloads. It provides a reduced attack surface and eliminates patching and maintenance of unnecessary packages. At its base layer, it has a Microsoft-hardened kernel tuned for Azure. This image is ideal for performance-sensitive workloads and platform engineers or operators that manage fleets of AKS clusters.
+
+Ubuntu 2204
+The Ubuntu 2204 image is the default node image for AKS. It's a lightweight and efficient operating system optimized for running containerized workloads. This means that it can help reduce resource usage and improve overall performance. The image includes the latest security patches and updates, which help ensure that your workloads are protected from vulnerabilities.
+
+The Ubuntu 2204 image is fully supported by Microsoft, Canonical, and the Ubuntu community and can help you achieve better performance and security for your containerized workloads.
+
+Virtual machines (VMs)
+Best practice guidance:
+
+When selecting a VM, ensure the size and performance of the OS disk and VM SKU don't have a large discrepancy. A discrepancy in size or performance can cause performance issues and resource contention.
+
+Application performance is closely tied to the VM SKUs you use in your workloads. Larger and more powerful VMs, generally provide better performance. For mission critical or product workloads, we recommend using VMs with at least an 8-core CPU. VMs with newer hardware generations, like v4 and v5, can also help improve performance. Keep in mind that create and scale latency might vary depending on the VM SKUs you use.
+
+Use dedicated system node pools
+For scaling performance and reliability, we recommend using a dedicated system node pool. With this configuration, the dedicated system node pool reserves space for critical system resources such as system OS daemons. Your application workload can then run in a user node pool to increase the availability of allocatable resources for your application. This configuration also helps mitigate the risk of resource competition between the system and application.

@@ -1,0 +1,97 @@
+Status Offenses
+Status offenses comprise one category that may pose a particular issue with respect to the act 
+requirement. As one legal scholar has explained, status offenses are crimes such as vagrancy, 
+which are “often defined in such a way as to punish status (e.g., being a vagrant) rather than to 
+punish specific action or omission to act.”205 On a number of occasions, examples of which 
+follow, the Supreme Court has invalidated laws establishing status offenses. 
+In its 1957 opinion in Lambert v. California,
+206 the Court reversed a conviction under an 
+ordinance that made it “unlawful for ‘any convicted person’ to be or remain in Los Angeles for a 
+period of more than five days without registering” and required “any person having a place of 
+abode outside the city to register if he comes into the city on five occasions or more during a 30-
+day period.”207 The Court explained that the law criminalized “conduct that is wholly passive—
+mere failure to register,” which it viewed as “unlike the commission of acts, or the failure to act 
+under circumstances that should alert the doer to the consequences of his deed.”208 As a result, the
+Court held that the ordinance violated the defendant’s due process right to notice.209 Following 
+Lambert, however, a number of mandatory registration laws have survived constitutional 
+challenges.210 For instance, in examining an indictment for a violation of the federal Sex Offender 
+Registration and Notification Act (SORNA), the Ninth Circuit agreed with the government that 
+“Lambert is inapplicable because convicted sex offenders are generally subject to registration 
+requirements in all fifty states, and [the defendant] was aware that he was obligated to register as 
+a sex offender.”
+211
+In a 1962 opinion in Robinson v. California,
+212 the Court reversed a conviction under a state law 
+that criminalized addiction to narcotics without requiring any additional act by the defendant. 
+According to the Court, the statute was distinguishable from “one which punishes a person for the 
+use of narcotics, for their purchase, sale or possession, or for antisocial or disorderly behavior 
+resulting from their administration,” since it instead made “the ‘status’ of narcotic addiction a 
+criminal offense, for which the offender may be prosecuted ‘at any time before he reforms.’”
+213
+The Court held that the law, “which imprisons a person . . . afflicted [by narcotics addiction] as a 
+criminal, even though he has never touched any narcotic drug within the State or been guilty of 
+any irregular behavior there, inflicts a cruel and unusual punishment” in violation of the Eighth 
+Amendment, as incorporated against the states through the Fourteenth Amendment.214
+Status offenses can often be “reformulated and redrafted to conform to basic principles of 
+criminal justice.”215 For instance, if a “statute that penalizes being an alcoholic or drug addict is 
+impermissible,” a “statute that penalizes appearing in public in an intoxicated state” may be
+permissible.
+216 The Supreme Court’s 1968 opinion in Powell v. Texas217 illustrates this distinction. 
+Powell stemmed from the conviction of a defendant under a state law making it a crime to “get 
+drunk or be found in a state of intoxication in any public place, or at any private house except [a 
+person’s] own.”218 The defendant argued that he had a compulsion to drink and that the law 
+amounted to cruel and unusual punishment pursuant to Robinson.
+219 A four-Justice plurality of the 
+Court disagreed and explained that the defendant was convicted “not for being a chronic 
+alcoholic, but for being in public while drunk on a particular occasion.”220 In other words, the 
+plurality concluded that the law did not seek “to punish a mere status” as the law at issue in 
+Robinson did, but instead punished a voluntary act, being in public while intoxicated.221 In a 
+concurring opinion, Justice White said that the result would have been different if the public 
+intoxication were an unavoidable result of chronic alcoholism.222 For example, according to 
+Justice White, the Eighth Amendment would prohibit criminalizing public intoxication for 
+chronic alcoholics who are homeless because “they have no place else to go and no place else to 
+be when they are drinking.”
+223 Four dissenting Justices would have agreed with that conclusion.224
+The primary point of departure between Justice White and the dissenting Justices was over the 
+record in Powell—Justice White agreed with the ultimate result in Powell because “nothing in the 
+record indicates that [the defendant] could not have done his drinking in private or that he was so 
+inebriated at the time that he had lost control of his movements and wandered into the public 
+street.”225 The dissenting Justices concluded, however, that the “appellant is a ‘chronic alcoholic’ 
+who, according to the trier of fact, cannot resist the ‘constant excessive consumption of alcohol’ 
+and does not appear in public by his own volition but under a compulsion’ which is part of his 
+condition.”
+226Another example of the distinction between an impermissible status offense and a
+seemingly permissible conduct-based offense may be found in 8 U.S.C. § 1326, which in relevant 
+part provides that “any alien who (1) has been arrested and deported or excluded and deported, 
+and thereafter (2) enters, attempts to enter, or is at any time found in, the United States . . .
+[without the consent of the Attorney General] shall be fined . . . or imprisoned . . . or both.”227
+Some federal appellate courts have rejected the argument that “the ‘found in’ provision of § 1326 
+impermissibly punishes aliens for their ‘status’ of being found in the United States.”228 In United 
+States v. Ayala, the Ninth Circuit distinguished § 1326 from the law at issue in Robinson, 
+explaining that “[a] conviction under § 1326 for being ‘found in’ the United States necessarily 
+requires that a defendant commit an act: he must re-enter the United States without permission 
+within five years after being deported.”229
+Federal appellate courts had split on the issue of whether the Robinson and Powell distinction 
+between impermissible status offenses and permissible conduct-based offenses allowed 
+“criminalizing conduct that is an unavoidable consequence of one’s status.”230 In the 2024 
+opinion City of Grants Pass v. Johnson, the Supreme Court examined this issue in the context of a 
+municipal ordinance criminalizing sleeping or camping in public.231 In a divided opinion, the 
+Ninth Circuit concluded that the ordinance constituted cruel and unusual punishment, citing to 
+Powell’s concurrence and dissent for the proposition that “a person cannot be prosecuted for 
+involuntary conduct if it is an unavoidable consequence of one’s status.”
+232 The Ninth Circuit 
+observed that this would be the inevitable outcome for some of the involuntary homeless 
+population in Grants Pass, which exceeded the available shelter space in the jurisdiction.233
+The Supreme Court disagreed, concluding that the camping ordinance was not a status offense of 
+the type barred in Robinson (which lacked a mental state or act requirement), because the 
+ordinance in Grants Pass required “actions like ‘occupy[ing] a campsite’ on public property ‘for 
+the purpose of maintaining a temporary place to live.’”
+234 The Court likened the facts of Grants 
+Pass to those of Powell and relied on the Powell plurality’s distinction between laws 
+criminalizing status and those criminalizing acts, even if on some level those acts may be an 
+involuntary result of the underlying status.235 Although the Court did not reconsider Robinson, it 
+reiterated that the Cruel and Unusual Punishments Clause of the Eighth Amendment focuses on 
+the method or kind of punishment a government may impose, rather than on the question of what 
+a government may criminalize.
+236 Additional analysis of Grants Pass and its broader implications 
+for status offenses and homelessness laws may be found in other CRS products.23

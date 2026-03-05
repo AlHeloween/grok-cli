@@ -1,0 +1,202 @@
+Is the Indian Child Welfare Act
+Constitutional?
+
+In Brackeen v. Zinke, a federal district court declared that the Indian Child Welfare Act (ICWA)—a 1978
+law meant “to protect the best interests of Indian children and to promote the stability and security of
+Indian tribes and families”—was unconstitutional in several ways. This decision is currently pending
+before the U.S. Court of Appeals for the Fifth Circuit (Fifth Circuit), and its practical implications have
+been paused until the appeal is decided. If upheld, this decision would eliminate many of the special rules
+that apply to the adoption and foster care placements of Indian children in the three states involved in this
+case: Texas, Louisiana, and Indiana. Among other things, these rules allow a tribe to assume jurisdiction
+over, or otherwise to have input into, the placements of children who are eligible for tribal membership.
+In 1978, Congress recognized that an “alarmingly high percentage of Indian families” were being broken
+up by often-unwarranted removal of their children by nontribal entities, placing many of these children in
+non-Indian foster and adoptive homes. Citing its responsibility for protecting and preserving Indian tribes,
+Congressional Research Service
+https://crsreports.congress.gov
+LSB10245
+Congressional Research Service 2
+Congress passed ICWA to protect Indian children as vital to the tribes’ continued existence. ICWA is
+designed to do two primary things: (1) set standards for placing Indian children with foster or adoptive
+families, and (2) help tribes set up child and family programs. Though a number of lawsuits have
+challenged ICWA over the past 40 years, including on the grounds that the statute impermissibly treated
+Indian children differently on the basis of race, until Brackeen, none of those challenges had been
+successful.
+Instead, courts in prior cases had noted Congress’s “plenary” authority over Indian affairs—derived
+principally from the Indian Commerce Clause and the Treaty Power—and concluded that applying special
+rules to Indian children was constitutional because, among other things, the distinction between Indians
+and non-Indians was not an impermissible race-based classification, but was instead a recognition of the
+unique political status of Indian tribes.
+This Sidebar gives a brief overview of ICWA, outlines the Brackeen court’s decision with relevant legal
+context, and explores the possible impacts, including potential for higher court and congressional action.
+Relevant ICWA provisions and associated regulations
+Most relevant to the claims at issue in Brackeen, ICWA sets forth a series of duties that must be fulfilled
+for Indian child placements. For the purposes of ICWA, an “Indian child” is any unmarried person under
+eighteen who is either a member of an Indian tribe or is both eligible for membership in an Indian tribe
+and the biological child of a member of an Indian tribe.
+Three main aspects of ICWA are relevant to the issues raised in Brackeen. First, under ICWA, any party
+seeking involuntary termination of parental rights to an Indian child under state law must first
+demonstrate that active efforts have been made to provide remedial services and rehabilitative programs
+designed to prevent the breakup of the Indian family. Second, involuntary termination requires evidence
+beyond a reasonable doubt (including expert witness testimony), that the continued custody of the child
+by the parent or Indian custodian would likely result in serious emotional or physical damage to the child.
+Third, when an Indian child is placed with a foster or adoptive family under state law, ICWA lists general
+preferences for that placement: (1) a member of the child’s extended family; (2) other members of the
+Indian child’s tribe; or (3) other Indian families. However, if a tribe wants to re-order those preferences
+for Indian children associated with that tribe, it may pass a resolution doing so, and state agencies and
+courts generally must follow that amended order of preference. In any event, ICWA provides that these
+preferences may be circumvented in an individual case upon a showing of “good cause.”
+The Bureau of Indian Affairs (BIA) has authority to make regulations governing ICWA’s implementation.
+Though BIA chose not to do so when the statute was first passed, in 2016 it issued a Final Rule aimed at
+reconciling different states’ interpretations of ICWA—for example, by clarifying the circumstances in
+which “good cause” exists for circumventing ICWA’s placement preferences.
+Brackeen v. Zinke: the plaintiffs’ claims and the district court’s decision
+A group of plaintiffs comprising three states (Indiana, Louisiana, and Texas) and several private parties—
+primarily non-Indian couples who had adopted or wanted to adopt an Indian child—challenged several
+facets of ICWA and related regulations (including the 2016 Final Rule, as well as certain funding
+provisions conditioned on ICWA compliance), seeking to have them declared unconstitutional or
+otherwise rendered invalid. They filed these challenges in the United States District Court for the
+Northern District of Texas, where Judge Reed O’Connor did declare much of ICWA unconstitutional,
+granting nearly all of the plaintiffs’ claims. (This decision is arguably the second-most consequential
+decision by Judge O’Connor in recent months, as he ruled in December 2018 that the Affordable Care Act
+was also unconstitutional). The federal defendants, intervening tribes, and a group of amicus curiae
+Congressional Research Service 3
+including numerous federally recognized tribes, several Indian organizations, and a number of states,
+disputed plaintiffs’ characterization of ICWA and contended the challenged laws and implementing
+regulations were lawful.
+The plaintiffs’ claims about ICWA’s validity, and the court’s responses to them, are discussed below.
+Equal protection: does ICWA use a race-based classification, and if so, can it survive
+strict scrutiny?
+The state and the individual plaintiffs together claimed that ICWA ran afoul of the Fifth Amendment’s
+equal protection guarantees, by impermissibly using a race-based classification.
+The plaintiffs’ claim relied primarily on the Supreme Court’s decisions in two cases. First, in Adarand
+Constructors v. Peña, the Supreme Court established that any time the federal government subjects
+individuals to unequal treatment based on their race, that action is subject to “strict scrutiny”—a test that
+asks whether the classification (1) serves a compelling government interest and (2) is narrowly tailored to
+further that interest. Second, in Rice v. Cayetano, in the course of invalidating a Hawaiian law that
+permitted only persons of native Hawaiian descent to vote in certain elections, the Supreme Court
+recognized that “[a]ncestry can be a proxy for race” and may be subject to the same constitutional
+limitations as directly race-based classifications. The plaintiffs in Brackeen argued that ICWA involved a
+race-based classification because its definition of Indian children was based on the children’s ancestry,
+rather than strictly on membership in a federally recognized tribe. Plaintiffs alleged that this classification
+neither served any compelling interest, nor was narrowly tailored.
+The federal defendants, intervening tribes, and several amici disputed plaintiffs’ characterization of ICWA
+as a race-based classification. In particular, they emphasized longstanding Supreme Court jurisprudence
+holding that the federal government’s relationship with federally recognized Indian tribes is based on a
+political, rather than racial categorization. For example, in Morton v. Mancari, the Court upheld BIA’s
+employment preference for members of federally recognized tribes because the preference was a political
+classification—it singled out members of tribal entities who have a unique relationship with the federal
+government—rather than a racial one. The Supreme Court further opined that because “[l]iterally every
+piece of legislation dealing with Indian tribes” is “explicitly designed to help only Indians,” deeming such
+legislation racial discrimination would jeopardize “the solemn commitment of the Government toward the
+Indians.”
+Because the federal defendants relied on the argument that ICWA’s distinctions were political rather than
+racial in nature, they proffered no arguments on whether ICWA would withstand the strict scrutiny that
+would be applied if it were a race-based classification. However, they asked that the court permit
+additional briefing in the event strict scrutiny applied—a request that the court denied.
+The district court, however, agreed with the plaintiffs that the definition of Indian children was race-based
+rather than political. In doing so, the court concluded that this case was more like Rice than like Mancari,
+because Mancari involved only tribe members rather than Indians eligible for tribal membership. The
+court then decided—in the absence of any counterarguments from the government—that the race-based
+classification was not narrowly tailored, even assuming that it served a compelling interest.
+Nondelegation: does ICWA impermissibly delegate legislative power to tribes?
+The state plaintiffs argued that giving the tribes power to reorder ICWA’s placement preferences violated
+the nondelegation doctrine, which generally prohibits Congress from delegating its core legislative
+powers, whether to other government entities or to private parties. Courts generally use the “intelligible
+principle” test to assess whether a congressional delegation of legislative power to governmental entities
+is permissible. This is a forgiving standard; the Supreme Court has not invalidated a statute on these
+Congressional Research Service 4
+grounds since 1935. However, some have also read the Court’s jurisprudence as prohibiting Congress
+from delegating its powers to private entities outside the government.
+Here, the district court relied upon both these understandings of the nondelegation doctrine to conclude
+that ICWA was invalid. First, the court held that Congress had not delineated a clear legal framework to
+guide how the delegated authority under ICWA would be implemented. Instead, the district court agreed
+with plaintiffs that the Indian tribes’ authority to reorder adoption placement preferences under ICWA was
+an essentially legislative authority that could not be delegated. Moreover, the court decided that even if
+that power could be delegated in some circumstances, Indian tribes were akin to private entities that could
+not exercise delegated powers. The district court was not receptive to arguments that Indian tribes are
+fundamentally distinct from other private parties (such as corporations), and should thus be treated
+differently in nondelegation analysis.
+Anti-commandeering: does ICWA infringe on state sovereignty over child custody
+matters, forcing the state to perform federal regulatory functions?
+The state plaintiffs claimed ICWA violated the anti-commandeering doctrine, rooted in the Constitution’s
+allocation of powers between the federal government and the states, which prohibits Congress from
+forcing state political branches to perform regulatory functions on the federal government’s behalf. The
+court granted this claim, agreeing that ICWA requires state courts and executive agencies to apply federal
+standards and directives to policy areas that are normally reserved for non-federal jurisdiction, such as
+adoptions, foster care policies, and other child custody issues. The district court tersely rejected the
+federal government’s argument that ICWA is instead an exercise of Congress’s “plenary and exclusive”
+authority over Indian tribes.
+Agency rulemaking: did a 2016 regulation violate the APA?
+The plaintiffs also used the Administrative Procedure Act (APA) to challenge the BIA’s 2016 Final Rule.
+The challenged rule tried to establish uniformity in ICWA’s application by, among other things, clarifying
+the “good cause” requirement for circumventing ICWA’s placement preferences for Indian children.
+The district court took a two-pronged approach to plaintiffs’ claims that BIA’s regulation was
+impermissible under the APA. First, the court announced that any regulation implementing the newly
+invalid portions of ICWA (i.e., the parts of ICWA that the court had already declared unconstitutional)
+should be struck down. The court then held in the alternative that the regulation exceeded the scope of
+BIA’s statutory regulatory authority—in the court’s view, the regulation “clarified” a provision that was
+not ambiguous and needed no clarification. Because the district court viewed the underlying provision as
+unambiguous, it gave no deference to the agency’s determination that the regulation was necessary.
+Remaining claims: Indian Commerce Clause and due process
+The court purported to grant plaintiffs’ claim that ICWA itself exceeded Congress’s legislative powers
+under the Indian Commerce Clause, but did so as an extension of its ruling that ICWA violated the anticommandeering doctrine, as Congress’s exercise of its power over Indian commerce cannot be employed
+to commandeer the states.
+Finally, the court denied the individual plaintiffs’ substantive due process claims, premised on ICWA
+allegedly infringing upon their fundamental rights of custody and family togetherness as foster or wouldbe adoptive parents of Indian children. The district court observed that the Supreme Court has not applied
+the fundamental rights of custody and of keeping families together to foster families, and the district court
+declined to extend recognition of such rights to the individual plaintiffs challenging ICWA.
+Congressional Research Service 5
+Additional Context
+Similar challenges to ICWA have been brought over the years. At least one advocacy group has made
+challenging ICWA part of its core mission, claiming that Native American children are being harmed
+because ICWA hinders the ability of (non-Native) persons to adopt them. By contrast, ICWA’s supporters
+fear that challengers are jeopardizing longstanding principles underlying tribal sovereignty, while
+“[c]loaking [their] efforts in the language of civil rights.” Until Brackeen, however, direct challenges to
+ICWA generally had been unsuccessful—with perhaps one limited, but notable, exception.
+In a 2013 case, Adoptive Couple v. Baby Girl (popularly known as the Baby Veronica case), the U.S.
+Supreme Court limited the range of circumstances in which ICWA might apply. In a 5-4 decision, the
+Court ruled that several of ICWA’s provisions were inapplicable if the parent seeking to invoke them
+never had legal or physical custody of the Indian child. In the Baby Veronica case, that meant that the
+Indian father—who had never had custody of his daughter—could not invoke his and his tribe’s rights
+under ICWA to block her adoption. Second, the Court stated that the ICWA’s placement preferences for
+an Indian child adoption were relevant only if multiple parties actually sought to adopt the Indian child. In
+the Baby Veronica case, because only one party—a non-Indian couple—was trying to adopt the child,
+ICWA’s placement preferences could not prevent the adoption from being finalized.
+The Baby Veronica case was only the second ICWA case heard by the Supreme Court. The first came
+more than twenty years earlier, in 1989, when the Supreme Court held that, for ICWA purposes, the
+domicile of an Indian child was the domicile of the parents, regardless of where the child was actually
+born. The Baby Veronica case thus seemed to signal to some that ICWA was newly ripe for challenges,
+but the Supreme Court has so far declined to hear other cases challenging ICWA.
+However, many challenges like Brackeen have been raised in federal or state courts. As one example, the
+United States Court of Appeals for the Ninth Circuit recently dismissed a challenge to ICWA’s
+constitutionality, holding that it was mooted by the fact that the would-be adoptive parents had been able
+to complete their adoptions. In Brackeen v. Zinke, however, Judge O’Connor denied a motion to dismiss
+on similar grounds.
+What’s Next?
+The Brackeen v. Zinke decision has already been appealed to the Fifth Circuit. By stipulation of the
+parties, briefing in the appeal has been expedited and is scheduled to be completed in February 2019; the
+case is tentatively calendared for oral argument in March 2019. Although Judge O’Connor declined to
+stay the effect of his ruling pending appeal, the Fifth Circuit granted just such a stay despite the plaintiffs’
+objection, so at least for now, the district court decision will not change the way ICWA is administered in
+Texas, Louisiana, or Indiana. In the event the Fifth Circuit agrees that ICWA is unconstitutional on one or
+more grounds, the adversely affected parties would likely seek appeal to the United States Supreme
+Court.
+The federal defendants filed their brief in January, arguing that each aspect of the district court’s decision
+was “unprecedented and in conflict with binding authority.” The brief also renewed challenges to the
+plaintiffs’ standing and argued that ICWA’s severability clause meant the ruling should have been
+narrower in any case. With regard to the equal protection claim, the government previewed the argument
+it would have made in supplemental briefing below: ICWA protects tribe members and their families,
+which includes the not-yet-enrolled children of tribal members, and is narrowly tailored to protect the best
+interests of those children. Nonetheless, the government suggested that if the Fifth Circuit agreed that
+strict scrutiny applied, it should remand to the district court for full briefing on the issue.
+In addition to ruling on the merits of the constitutional challenge to ICWA, the Fifth Circuit’s decision
+might also provide an opportunity for an appellate court to elaborate further on many of the
+Congressional Research Service 6
+LSB10245 · VERSION 5 · UPDATED
+constitutional issues discussed, oftentimes in succinct terms, by the district court in Brackeen. The
+relationship between the Supreme Court’s jurisprudence on equal protection and tribal issues has
+prompted extensive legal commentary, and some have questioned what, if any, relevance the Brackeen
+decision might have for other Indian law statutes. The significance of these issues might make the
+Brackeen decision, to the extent it is upheld by the Fifth Circuit, particularly ripe for Supreme Court
+resolution.

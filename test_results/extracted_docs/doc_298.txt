@@ -1,0 +1,970 @@
+ Three focal concerns in evaluating the medical use of marijuana are:
+1. Evaluation of the effects of isolated cannabinoids;
+2. Evaluation of the risks associated with the medical use of marijuana; and
+3. Evaluation of the use of smoked marijuana.
+EFFECTS OF ISOLATED CANNABINOIDS
+Cannabinoid Biology
+Much has been learned since the 1982 IOM report Marijuana and Health. Although it was clear then that most of the effects of marijuana were due to its actions on the brain, there was little information about how THC acted on brain cells (neurons), which cells were affected by THC, or even what general areas of the brain were most affected by THC. In addition, too little was known about cannabinoid physiology to offer any scientific insights into the harmful or therapeutic effects of marijuana. That all changed with the identification and characterization of cannabinoid receptors in the 1980s and 1990s. During the past 16 years, science has advanced greatly and can tell us much more about the potential medical benefits of cannabinoids.
+Conclusion: At this point, our knowledge about the biology of marijuana and cannabinoids allows us to make some general conclusions:
+o Cannabinoids likely have a natural role in pain modulation, control of movement, and memory.
+o The natural role of cannabinoids in immune systems is likely multi-faceted and remains unclear.
+o The brain develops tolerance to cannabinoids.
+o Animal research demonstrates the potential for dependence, but this
+potential is observed under a narrower range of conditions than with
+benzodiazepines, opiates, cocaine, or nicotine.
+o Withdrawal symptoms can be observed in animals but appear to be mild
+compared to opiates or benzodiazepines, such as diazepam (Valium).
+Conclusion: The different cannabinoid receptor types found in the body appear to play different roles in normal human physiology. In addition, some effects of cannabinoids appear to be independent of those receptors. The variety of mechanisms through which cannabinoids can influence human physiology underlies the variety of potential therapeutic uses for drugs that might act selectively on different cannabinoid systems.
+Recommendation 1: Research should continue into the physiological effects of synthetic and plant-derived cannabinoids and the natural function of cannabinoids found in the body. Because different cannabinoids appear to
+
+have different effects, cannabinoid research should include, but not be restricted to, effects attributable to THC alone.
+Efficacy of Cannabinoid Drugs
+The accumulated data indicate a potential therapeutic value for cannabinoid drugs, particularly for symptoms such as pain relief, control of nausea and vomiting, and appetite stimulation. The therapeutic effects of cannabinoids are best established for THC, which is generally one of the two most abundant of the cannabinoids in marijuana. (Cannabidiol is generally the other most abundant cannabinoid.)
+The effects of cannabinoids on the symptoms studied are generally modest, and in most cases there are more effective medications. However, people vary in their responses to medications, and there will likely always be a subpopulation of patients who do not respond well to other medications. The combination of cannabinoid drug effects (anxiety reduction, appetite stimulation, nausea reduction, and pain relief) suggests that cannabinoids would be moderately well suited for particular conditions, such as chemotherapy-induced nausea and vomiting and AIDS wasting.
+Defined substances, such as purified cannabinoid compounds, are preferable to plant products, which are of variable and uncertain composition. Use of defined cannabinoids permits a more precise evaluation of their effects, whether in combination or alone. Medications that can maximize the desired effects of cannabinoids and minimize the undesired effects can very likely be identified.
+Although most scientists who study cannabinoids agree that the pathways to cannabinoid drug development are clearly marked, there is no guarantee that the fruits of scientific research will be made available to the public for medical use. Cannabinoid- based drugs will only become available if public investment in cannabinoid drug research is sustained and if there is enough incentive for private enterprise to develop and market such drugs.
+Conclusion: Scientific data indicate the potential therapeutic value of cannabinoid drugs, primarily THC, for pain relief, control of nausea and vomiting, and appetite stimulation; smoked marijuana, however, is a crude THC delivery system that also delivers harmful substances.
+Recommendation 2: Clinical trials of cannabinoid drugs for symptom management should be conducted with the goal of developing rapid-onset, reliable, and safe delivery systems.
+Influence of Psychological Effects on Therapeutic Effects
+The psychological effects of THC and similar cannabinoids pose three issues for the therapeutic use of cannabinoid drugs. First, for some patients--particularly older patients with no previous marijuana experience--the psychological effects are disturbing. Those
+
+patients report experiencing unpleasant feelings and disorientation after being treated with THC, generally more severe for oral THC than for smoked marijuana. Second, for conditions such as movement disorders or nausea, in which anxiety exacerbates the symptoms, the antianxiety effects of cannabinoid drugs can influence symptoms indirectly. This can be beneficial or can create false impressions of the drug effect. Third, for cases in which symptoms are multifaceted, the combination of THC effects might provide a form of adjunctive therapy; for example, AIDS wasting patients would likely benefit from a medication that simultaneously reduces anxiety, pain, and nausea while stimulating appetite.
+Conclusion: The psychological effects of cannabinoids, such as anxiety reduction, sedation, and euphoria can influence their potential therapeutic value. Those effects are potentially undesirable for certain patients and situations and beneficial for others. In addition, psychological effects can complicate the interpretation of other aspects of the drug's effect.
+Recommendation 3: Psychological effects of cannabinoids such as anxiety reduction and sedation, which can influence medical benefits, should be evaluated in clinical trials.
+RISKS ASSOCIATED WITH MEDICAL USE OF MARIJUANA
+Physiological Risks
+Marijuana is not a completely benign substance. It is a powerful drug with a variety of effects. However, except for the harms associated with smoking, the adverse effects of marijuana use are within the range of effects tolerated for other medications. The harmful effects to individuals from the perspective of possible medical use of marijuana are not necessarily the same as the harmful physical effects of drug abuse. When interpreting studies purporting to show the harmful effects of marijuana, it is important to keep in mind that the majority of those studies are based on smoked marijuana, and cannabinoid effects cannot be separated from the effects of inhaling smoke from burning plant material and contaminants.
+For most people the primary adverse effect of acute marijuana use is diminished psychomotor performance. It is, therefore, inadvisable to operate any vehicle or potentially dangerous equipment while under the influence of marijuana, THC, or any cannabinoid drug with comparable effects. In addition, a minority of marijuana users experience dysphoria, or unpleasant feelings. Finally, the short-term immunosuppressive effects are not well established but, if they exist, are not likely great enough to preclude a legitimate medical use.
+The chronic effects of marijuana are of greater concern for medical use and fall into two categories: the effects of chronic smoking and the effects of THC. Marijuana smoking is associated with abnormalities of cells lining the human respiratory tract. Marijuana smoke, like tobacco smoke, is associated with increased risk of cancer, lung
+
+damage, and poor pregnancy outcomes. Although cellular, genetic, and human studies all suggest that marijuana smoke is an important risk factor for the development of respiratory cancer, proof that habitual marijuana smoking does or does not cause cancer awaits the results of well-designed studies.
+Conclusion: Numerous studies suggest that marijuana smoke is an important risk factor in the development of respiratory disease.
+Recommendation 4: Studies to define the individual health risks of smoking marijuana should be conducted, particularly among populations in which marijuana use is prevalent.
+Marijuana Dependence and Withdrawal
+A second concern associated with chronic marijuana use is dependence on the psychoactive effects of THC. Although few marijuana users develop dependence, some do. Risk factors for marijuana dependence are similar to those for other forms of substance abuse. In particular, anti-social personality and conduct disorders are closely associated with substance abuse.
+Conclusion: A distinctive marijuana withdrawal syndrome has been identified, but it is mild and short lived. The syndrome includes restlessness, irritability, mild agitation, insomnia, sleep disturbance, nausea, and cramping.
+Marijuana as a "Gateway" Drug
+Patterns in progression of drug use from adolescence to adulthood are strikingly regular. Because it is the most widely used illicit drug, marijuana is predictably the first illicit drug most people encounter. Not surprisingly, most users of other illicit drugs have used marijuana first. In fact, most drug users begin with alcohol and nicotine before marijuana--usually before they are of legal age.
+In the sense that marijuana use typically precedes rather than follows initiation of other illicit drug use, it is indeed a "gateway" drug. But because underage smoking and alcohol use typically precede marijuana use, marijuana is not the most common, and is rarely the first, "gateway" to illicit drug use. There is no conclusive evidence that the drug effects of marijuana are causally linked to the subsequent abuse of other illicit drugs. An important caution is that data on drug use progression cannot be assumed to apply to the use of drugs for medical purposes. It does not follow from those data that if marijuana were available by prescription for medical use, the pattern of drug use would remain the same as seen in illicit use.
+Finally, there is a broad social concern that sanctioning the medical use of marijuana might increase its use among the general population. At this point there are no convincing data to support this concern. The existing data are consistent with the idea that this would
+
+not be a problem if the medical use of marijuana were as closely regulated as other medications with abuse potential.
+Conclusion: Present data on drug use progression neither support nor refute the suggestion that medical availability would increase drug abuse. However, this question is beyond the issues normally considered for medical uses of drugs and should not be a factor in evaluating the therapeutic potential of marijuana or cannabinoids.
+USE OF SMOKED MARIJUANA
+Because of the health risks associated with smoking, smoked marijuana should generally not be recommended for long-term medical use. Nonetheless, for certain patients, such as the terminally ill or those with debilitating symptoms, the long-term risks are not of great concern. Further, despite the legal, social, and health problems associated with smoking marijuana, it is widely used by certain patient groups.
+Recommendation 5: Clinical trials of marijuana use for medical purposes should be conducted under the following limited circumstances: trials should involve only short-term marijuana use (less than six months), should be conducted in patients with conditions for which there is reasonable expectation of efficacy, should be approved by institutional review boards, and should collect data about efficacy.
+The goal of clinical trials of smoked marijuana would not be to develop marijuana as a licensed drug but rather to serve as a first step toward the possible development of nonsmoked rapid-onset cannabinoid delivery systems. However, it will likely be many years before a safe and effective cannabinoid delivery system, such as an inhaler, is available for patients. In the meantime there are patients with debilitating symptoms for whom smoked marijuana might provide relief. The use of smoked marijuana for those patients should weigh both the expected efficacy of marijuana and ethical issues in patient care, including providing information about the known and suspected risks of smoked marijuana use.
+Recommendation 6: Short-term use of smoked marijuana (less than six months) for patients with debilitating symptoms (such as intractable pain or vomiting) must meet the following conditions:
+o failure of all approved medications to provide relief has been documented,
+o the symptoms can reasonably be expected to be relieved by rapid- onset cannabinoid drugs,
+o such treatment is administered under medical supervision in a manner that allows for assessment of treatment effectiveness, and
+o involves an oversight strategy comparable to an institutional review board process that could provide guidance within 24 hours of a
+
+submission by a physician to provide marijuana to a patient for a specified use.
+Until a nonsmoked rapid-onset cannabinoid drug delivery system becomes available, we acknowledge that there is no clear alternative for people suffering from chronic conditions that might be relieved by smoking marijuana, such as pain or AIDS wasting. One possible approach is to treat patients as n-of-1 clinical trials (single-patient trials), in which patients are fully informed of their status as experimental subjects using a harmful drug delivery system and in which their condition is closely monitored and documented under medical supervision, thereby increasing the knowledge base of the risks and benefits of marijuana use under such conditions.data, it is important to understand that decisions about drug regulation are based on a variety of moral and social considerations, as well as on medical and scientific ones.
+Even when a drug is used only for medical purposes, value judgments affect policy decisions concerning its medical use. For example, the magnitude of a drug's expected medical benefit affects regulatory judgments about the acceptability of risks associated with its use. Also, although a drug is normally approved for medical use only on proof of its "safety and efficacy," patients with life-threatening conditions are sometimes (under protocols for "compassionate use") allowed access to unapproved drugs whose benefits and risks are uncertain. Value judgments play an even more substantial role in regulatory decisions concerning drugs, such as marijuana, that are sought and used for nonmedical purposes. Then policymakers must take into account not only the risks and benefits associated with medical use but also possible interactions between the regulatory arrangements governing medical use and the integrity of the legal controls set up to restrict nonmedical use.
+It should be clear that many elements of drug control policy lie outside the realm of biology and medicine. Ultimately, the complex moral and social judgments that underlie drug control policy must be made by the American people and their elected officials. A goal of this report is to evaluate the biological and medical factors that should be taken into account in making those judgments.
+HOW THIS STUDY WAS CONDUCTED
+Information was gathered through scientific workshops, site visits, analysis of the relevant scientific literature, and extensive consultation with biomedical and social scientists. The three 2-day workshops--in Irvine, California; New Orleans, Louisiana; and Washington, D.C.--were open to the public and included scientific presentations and reports, mostly from patients and their families, about their experiences with and perspectives on the medical use of marijuana. Scientific experts in various fields were selected to talk about the latest research on marijuana, cannabinoids, and related topics (listed in Appendix B). Selection of the experts was based on recommendations by their peers, who ranked them among the most accomplished scientists and the most knowledgeable about marijuana and cannabinoids in their own fields. In addition, advocates for (John Morgan) and against (Eric A. Voth) the medical use of marijuana were invited to present scientific evidence in support of their positions.
+Information presented at the scientific workshops was supplemented by analysis of the scientific literature and evaluating the methods used in various studies and the validity of the authors' conclusions. Different kinds of clinical studies are useful in different ways: results of a controlled double-blind study with adequate sample sizes can be expected to apply to the general population from which study subjects were drawn; an isolated case report can suggest further studies but cannot be presumed to be broadly applicable; and survey data can be highly informative but are generally limited by the need to rely on self-reports of drug use and on unconfirmed medical diagnoses. This report relies mainly on the most relevant and methodologically rigorous studies available and treats the results
+ 
+of more limited studies cautiously. In addition, study results are presented in such a way as to allow thoughtful readers to judge the results themselves.
+The Institute of Medicine (IOM) appointed a panel of nine experts to advise the study team on technical issues. These included neurology and the treatment of pain (Howard Fields); regulation of prescription drugs (J. Richard Crout); AIDS wasting and clinical trials (Judith Feinberg); treatment and pathology of multiple sclerosis (Timothy Vollmer); drug dependence among adolescents (Thomas Crowley); varieties of drug dependence (Dorothy Hatsukami); internal medicine, health care delivery, and clinical epidemiology (Eric B. Larson); cannabinoids and marijuana pharmacology (Billy R. Martin); and cannabinoid neuroscience (Steven R. Childers).
+Public outreach included setting up a Web site that provided information about the study and asked for input from the public. The Web site was open for comment from November 1997 until November 1998. Some 130 organizations were invited to participate in the public workshops. Many people in the organizations--particularly those opposed to the medical use of marijuana--felt that a public forum was not conducive to expressing their views; they were invited to communicate their opinions (and reasons for holding them) by mail or telephone. As a result, roughly equal numbers of persons and organizations opposed to and in favor of the medical use of marijuana were heard from.
+The study team visited four cannabis buyers' clubs in California (the Oakland
+Cannabis Buyers' Cooperative, the San Francisco Cannabis Cultivators Club, the Los
+Angeles Cannabis Resource Center, and Californians Helping Alleviate Medical
+Problems, or CHAMPS) and two HIV/AIDS clinics (AIDS Health Care Foundation in
+Los Angeles and Louisiana State University Medical Center in New Orleans). We
+listened to many individual stories from the buyers' clubs about using marijuana to treat a
+variety of symptoms and heard clinical observations on the use of Marinol to treat AIDS
+9
+patients. Marinol is the brand name for dronabinol, which is
+(THC) in pill form and is available by prescription for the treatment of nausea associated with chemotherapy and AIDS wasting.
+MARIJUANA TODAY
+The Changing Legal Landscape
+In the 20th century, marijuana has been used more for its euphoric effects than as a
+medicine. Its psychological and behavioral effects have concerned public officials since
+the drug first appeared in the southwestern and southern states during the first two
+decades of the century. By 1931, at least 29 states had prohibited use of the drug for
+3
+nonmedicalpurposes. MarijuanawasfirstregulatedatthefederallevelbytheMarijuana Tax Act of 1937, which required anyone producing, distributing, or using marijuana for medical purposes to register and pay a tax and which effectively prohibited nonmedical use of the drug. Although the act did not make medical use of marijuana illegal, it did make it expensive and inconvenient. In 1942, marijuana was removed from the U.S.
+ -tetrahydrocannabinol
+
+Pharmacopoeia because it was believed to be a harmful and addictive drug that caused psychoses, mental deterioration, and violent behavior.
+In the late 1960s and early 1970s, there was a sharp increase in marijuana use among
+adolescents and young adults. The current legal status of marijuana was established in
+1970 with the passage of the Controlled Substances Act, which divided drugs into five
+schedules and placed marijuana in Schedule I, the category for drugs with high potential
+for abuse and no accepted medical use (see Appendix C, Scheduling Definitions). In
+1972, the National Organization for the Reform of Marijuana Legislation (NORML), an
+organization that supports decriminalization of marijuana, unsuccessfully petitioned the
+Bureau of Narcotics and Dangerous Drugs to move marijuana from Schedule I to
+Schedule II. NORML argued that marijuana is therapeutic in numerous serious ailments,
+13
+ less toxic, and in many cases more effective than conventional medicines.
+years the medical marijuana movement has been closely linked with the marijuana decriminalization movement, which has colored the debate. Many people criticized that association in their letters to IOM and during the public workshops of this study. The argument against the medical use of marijuana presented most often to the IOM study team was that "the medical marijuana movement is a Trojan horse"; that is, it is a deceptive tactic used by advocates of marijuana decriminalization who would exploit the public's sympathy for seriously ill patients.
+Since NORML's petition in 1972, there have been a variety of legal decisions
+concerning marijuana. From 1973 to 1978, 11 states adopted statutes that decriminalized
+use of marijuana, although some of them recriminalized marijuana use in the 1980s and
+1990s. During the 1970s, reports of the medical value of marijuana began to appear,
+particularly claims that marijuana relieved the nausea associated with chemotherapy.
+Health departments in six states conducted small studies to investigate the reports. When
+the AIDS epidemic spread in the 1980s, patients found that marijuana sometimes relieved
+their symptoms, most dramatically those associated with AIDS wasting. Over this period
+a number of defendants charged with unlawful possession of marijuana claimed that they
+were using the drug to treat medical conditions and that violation of the law was therefore
+justified (the so-called medical necessity defense). Although most courts rejected these
+8
+Against that backdrop, voters in California and Arizona in 1996 passed two referenda
+that attempted to legalize the medical use of marijuana under particular conditions. Public
+support for patient access to marijuana for medical use appears substantial; public
+opinion polls taken during 1997 and 1998 generally reported 60—70 percent of
+15
+However, those referenda are at odds with federal laws regulating marijuana, and their implementation raises
+complex legal questions.
+Despite the current level of interest, referenda and public discussions have not been well informed by carefully reasoned scientific debate. Although previous reports have all called for more research, the nature of the research that will be most helpful depends greatly on the specific health conditions to be addressed. And while there have been
+claims, some accepted them.
+respondents in favor of allowing medical uses of marijuana.
+Thus, for 25
+
+important recent advances in our understanding of the physiological effects of marijuana, few of the recent investigators have had the time or resources to permit detailed analysis. The results of those advances, only now beginning to be explored, have significant implications for the medical marijuana debate.
+Several months after the passage of the California and Arizona medical marijuana referendums, the Office of National Drug Control Policy (ONDCP) asked whether IOM would conduct a scientific review of the medical value of marijuana and its constituent compounds. In August 1997, IOM formally began the study and appointed John A. Benson Jr. and Stanley J. Watson Jr. to serve as principal investigators for the study. The charge to IOM was to review the medical use of marijuana and the harms and benefits attributed to it (details are given in Appendix D).
+
+
+Marijuana plants have been used since antiquity for both herbal medication and intoxication. The current debate over the medical use of marijuana is essentially a debate over the value of its medicinal properties relative to the risk posed by its use.
+1,10,11
+Marijuana's use as an herbal remedy before the 20th century is well documented.
+However, modern medicine adheres to different standards from those used in the past.
+The question is not whether marijuana can be used as an herbal remedy but rather how
+well this remedy meets today's standards of efficacy and safety. We understand much
+more than previous generations about medical risks. Our society generally expects its
+licensed medications to be safe, reliable, and of proven efficacy; contaminants and
+inconsistent ingredients in our health treatments are not tolerated. That refers not only to
+prescription and over-the-counter drugs but also to vitamin supplements and herbal
+remedies purchased at the grocery store. For example, the essential amino acid l-
+tryptophan was widely sold in health food stores as a natural remedy for insomnia until
+early 1990 when it became linked to an epidemic of a new and potentially fatal illness 9,12
+When it was removed from the market shortly thereafter, there was little protest, despite the fact that it was safe for the vast majority of
+the population. The 1,536 cases and 27 deaths were later traced to contaminants in a batch produced by a single Japanese manufacturer.
+Although few herbal medicines meet today's standards, they have provided the foundation for modern Western pharmaceuticals. Most current prescriptions have their
+7
+rootseitherdirectlyorindirectlyinplantremedies. Atthesametime,mostcurrent prescriptions are synthetic compounds that are only distantly related to the natural compounds that led to their development. Digitalis was discovered in foxglove, morphine in poppies, and taxol in the yew tree. Even aspirin (acetylsalicylic acid) has its counterpart in herbal medicine: for many generations, American Indians relieved headaches by chewing the bark of the willow tree, which is rich in a related form of salicylic acid.
+Although plants continue to be valuable resources for medical advances, drug development is likely to be less and less reliant on plants and more reliant on the tools of
+(eosinophilia-myalgia syndrome).
+modern science. Molecular biology, bioinformatics software, and DNA array-based analyses of genes and chemistry are all beginning to yield great advances in drug discovery and development. Until recently, drugs could only be discovered; now they can be designed. Even the discovery process has been accelerated through the use of modern drug-screening techniques. It is increasingly possible to identify or isolate the chemical compounds in a plant, determine which compounds are responsible for the plant's effects, and select the most effective and safe compounds--either for use as purified substances or as tools to develop even more effective, safer, or less expensive compounds.
+Yet even as the modern pharmacological toolbox becomes more sophisticated and biotechnology yields an ever greater abundance of therapeutic drugs, people increasingly
+4,5
+In 1997, 46 percent of Americans sought
+nontraditional medicines and spent over 27 billion unreimbursed dollars; the total number
+of visits to alternative medicine practitioners appears to have exceeded the number of
+5,6
+Recent interest in the medical use of marijuana
+coincides with this trend toward self-help and a search for "natural" therapies. Indeed,
+several people who spoke at the IOM public hearings in support of the medical use of
+marijuana said that they generally preferred herbal medicines to standard
+pharmaceuticals. However, few alternative therapies have been carefully and
+systematically tested for safety and efficacy, as is required for medications approved by
+2
+WHO USES MEDICAL MARIJUANA?
+There have been no comprehensive surveys of the demographics and medical conditions of medical marijuana users, but a few reports provide some indication. In each case, survey results should be understood to reflect the situation in which they were conducted and are not necessarily characteristic of medical marijuana users as a whole. Respondents to surveys reported to the IOM study team were all members of "buyers' clubs," organizations that provide their members with marijuana, although not necessarily through direct cash transactions. The atmosphere of the marijuana buyers' clubs ranges from that of the comparatively formal and closely regulated Oakland Cannabis Buyers' Cooperative to that of a "country club for the indigent," as Denis Peron described the San Francisco Cannabis Cultivators Club (SFCCC), which he directed.
+John Mendelson, an internist and pharmacologist at the University of California, San Francisco (UCSF) Pain Management Center, surveyed 100 members of the SFCCC who were using marijuana at least weekly. Most of the respondents were unemployed men in their forties. Subjects were paid $50 to participate in the survey; this might have encouraged a greater representation of unemployed subjects. All subjects were tested for drug use. About half tested positive for marijuana only; the other half tested positive for drugs in addition to marijuana (23% for cocaine and 13% for amphetamines). The predominant disorder was AIDS, followed by roughly equal numbers of members who reported chronic pain, mood disorders, and musculoskeletal disorders (Table 1.1).
+seek alternative, low-technology therapies.
+visits to primary care physicians.
+the FDA (Food and Drug Administration).
+ 
+The membership profile of the San Francisco club was similar to that of the Los Angeles Cannabis Resource Center (LACRC), where 83% of the 739 patients were men, 45% were 36—45 years old, and 71% were HIV positive. Table 1.2 shows a distribution of conditions somewhat different from that in SFCCC respondents, probably because of a different membership profile. For example, cancer is generally a disease that occurs late in life; 34 (4.7%) of LACRC members were over 55 years old; only 2% of survey respondents in the SFCCC study were over 55 years old.
+Jeffrey Jones, executive director of the Oakland Cannabis Buyers' Cooperative, reported that its largest group of patients is HIV-positive men in their forties. The second- largest group is patients with chronic pain.
+Among the 42 people who spoke at the public workshops or wrote to the study team, only six identified themselves as members of marijuana buyers' clubs. Nonetheless, they presented a similar profile: HIV/AIDS was the predominant disorder, followed by chronic pain (Tables 1.3 and 1.4). All HIV/AIDS patients reported that marijuana relieved nausea and vomiting and improved their appetite. About half the patients who reported using marijuana for chronic pain also reported that it reduced nausea and vomiting.
+Note that the medical conditions referred to are only those reported to the study team or to interviewers; they cannot be assumed to represent complete or accurate diagnoses. Michael Rowbotham, a neurologist at the UCSF Pain Management Center, noted that many pain patients referred to that center arrive with incorrect diagnoses or with pain of unknown origin. At that center the patients who report medical benefit from marijuana say that it does not reduce their pain but enables them to cope with it.
+Most--not all--people who use marijuana to relieve medical conditions have previously used it recreationally. An estimated 95% of the LACRC members had used marijuana before joining the club. It is important to emphasize the absence of comprehensive information on marijuana use before its use for medical conditions. Frequency of prior use almost certainly depends on many factors, including membership in a buyers' club, membership in a population sector that uses marijuana more often than others (for example, men 20—30 years old), and the medical condition being treated with marijuana (for example, there are probably relatively fewer recreational marijuana users among cancer patients than among AIDS patients).
+Patients who reported their experience with marijuana at the public workshops said that marijuana provided them with great relief from symptoms associated with disparate diseases and ailments, including AIDS wasting, spasticity from multiple sclerosis, depression, chronic pain, and nausea associated with chemotherapy. Their circumstances and symptoms were varied, and the IOM study team was not in a position to make medical evaluations or confirm diagnoses. Three representative cases presented to the IOM study team are presented in Box 1.1; the stories have been edited for brevity, but each case is presented in the patient's words and with the patient's permission.
+   
+The variety of stories presented left the study team with a clear view of people's beliefs about how marijuana had helped them. But this collection of anecdotal data, although useful, is limited. We heard many positive stories but no stories from people who had tried marijuana but found it ineffective. This is a fraction with an unknown denominator. For the numerator we have a sample of positive responses; for the denominator we have no idea of the total number of people who have tried marijuana for medical purposes. Hence, it is impossible to estimate the clinical value of marijuana or cannabinoids in the general population based on anecdotal reports. Marijuana clearly seems to relieve some symptoms for some people--even if only as a placebo effect. But what is the balance of harmful and beneficial effects? That is the essential medical question that can be answered only by careful analysis of data collected under controlled conditions.
+CANNABIS AND THE CANNABINOIDS
+Marijuana is the common name for Cannabis sativa, a hemp plant that grows throughout temperate and tropical climates. The most recent review of the constituents of
+16
+marijuana lists 66 cannabinoids (Table 1.5).
+different cannabinoid effects or interactions. Most of the cannabinoids are closely related; they fall into only 10 groups of closely related cannabinoids, many of which differ by only a single chemical moiety and might be midpoints along biochemical pathways--that
+-tetrahydrocannabinol ( THC) is the primary psychoactive ingredient; depending on the particular plant, either
+THC or cannabidiol is the most abundant cannabinoid in marijuana (Figure 1.1). 9
+is, degradation products, precursors, or byproducts.
+-
+But that does not mean there are 66
+   16,18 9
+9
+  Throughout this report, THC is used to indicate
+of THC are discussed, the full names are used. All the cannabinoids are lipophilic--they are highly soluble in fatty fluids and tissues but not in water. Indeed, THC is so lipophilic that it is aptly described as "greasy."
+Throughout this report, marijuana refers to unpurified plant extracts, including leaves and flower tops, regardless of how they are consumed--whether by ingestion or by smoking. References to the effects of marijuana should be understood to include the composite effects of its various components; that is, the effects of THC are included among the effects of marijuana, but not all the effects of marijuana are necessarily due to THC. Discussions concerning cannabinoids refer only to those particular compounds and not to the plant extract. This distinction is important; it is often blurred or exaggerated.
+Cannabinoids are produced in epidermal glands on the leaves (especially the upper
+ones), stems, and the bracts that support the flowers of the marijuana plant. Although the
+flower itself has no epidermal glands, it has the highest cannabinoid content anywhere on
+the plant, probably because of the accumulation of resin secreted by the supporting
+bracteole (the small leaf-like part below the flower). The amounts of cannabinoids and
+their relative abundance in a marijuana plant vary with growing conditions, including
+14
+). The chemical stability of cannabinoids in harvested plant material is also affected by moisture,
+temperature, sunlight, and storage. They degrade under any storage condition.
+humidity, temperature, and soil nutrients (reviewed in Pate, 1994
+-THC. In the few cases where variants
+
+ORGANIZATION OF THE REPORT
+Throughout the report, steps that might be taken to fill the gaps in understanding both the potential harms and benefits of marijuana and cannabinoid use are identified. Those steps include identifying knowledge gaps, promising research directions, and potential therapies based on scientific advances in cannabinoid biology.
+Chapter 2 reviews basic cannabinoid biology and provides a foundation to understand the medical value of marijuana or its constituent cannabinoids. In consideration of the physician's first rule, "first, do no harm," the potential harms attributed to the medical use of marijuana are reviewed before the potential medical benefits. Chapter 3 reviews the risks posed by marijuana use, with emphasis on medical use.
+Chapter 4 analyzes the most credible clinical data relevant to the medical use of marijuana. It reviews what is known about the physiological mechanisms underlying particular conditions (for example, chronic pain, vomiting, anorexia, and muscle spasticity), what is known about the cellular actions of cannabinoids, and the levels of proof needed to show that marijuana is an effective treatment for specific symptoms. It does not analyze the historical literature; history is informative in enumerating uses of marijuana, but it does not provide the sort of information needed for a scientifically sound evaluation of the efficacy and safety of marijuana for clinical use. Because marijuana is advocated primarily as affording relief from the symptoms of disease rather than as a cure, this chapter is organized largely by symptoms as opposed to disease categories. Finally, chapter 4 compares the conclusions of this report with those of other recent reports on the medical use of marijuana.
+Chapter 5 describes the process of and analyzes the prospects for cannabinoid drug development.
+Three focal concerns in evaluating the medical use of marijuana are:
+1. Evaluation of the effects of isolated cannabinoids;
+2. Evaluation of the risks associated with the medical use of marijuana; and
+3. Evaluation of the use of smoked marijuana.
+EFFECTS OF ISOLATED CANNABINOIDS
+Cannabinoid Biology
+Much has been learned since the 1982 IOM report Marijuana and Health. Although it was clear then that most of the effects of marijuana were due to its actions on the brain, there was little information about how THC acted on brain cells (neurons), which cells were affected by THC, or even what general areas of the brain were most affected by THC. In addition, too little was known about cannabinoid physiology to offer any scientific insights into the harmful or therapeutic effects of marijuana. That all changed with the identification and characterization of cannabinoid receptors in the 1980s and 1990s. During the past 16 years, science has advanced greatly and can tell us much more about the potential medical benefits of cannabinoids.
+Conclusion: At this point, our knowledge about the biology of marijuana and cannabinoids allows us to make some general conclusions:
+o Cannabinoids likely have a natural role in pain modulation, control of movement, and memory.
+o The natural role of cannabinoids in immune systems is likely multi-faceted and remains unclear.
+o The brain develops tolerance to cannabinoids.
+o Animal research demonstrates the potential for dependence, but this
+potential is observed under a narrower range of conditions than with
+benzodiazepines, opiates, cocaine, or nicotine.
+o Withdrawal symptoms can be observed in animals but appear to be mild
+compared to opiates or benzodiazepines, such as diazepam (Valium).
+Conclusion: The different cannabinoid receptor types found in the body appear to play different roles in normal human physiology. In addition, some effects of cannabinoids appear to be independent of those receptors. The variety of mechanisms through which cannabinoids can influence human physiology underlies the variety of potential therapeutic uses for drugs that might act selectively on different cannabinoid systems.
+Recommendation 1: Research should continue into the physiological effects of synthetic and plant-derived cannabinoids and the natural function of cannabinoids found in the body. Because different cannabinoids appear to
+
+have different effects, cannabinoid research should include, but not be restricted to, effects attributable to THC alone.
+Efficacy of Cannabinoid Drugs
+The accumulated data indicate a potential therapeutic value for cannabinoid drugs, particularly for symptoms such as pain relief, control of nausea and vomiting, and appetite stimulation. The therapeutic effects of cannabinoids are best established for THC, which is generally one of the two most abundant of the cannabinoids in marijuana. (Cannabidiol is generally the other most abundant cannabinoid.)
+The effects of cannabinoids on the symptoms studied are generally modest, and in most cases there are more effective medications. However, people vary in their responses to medications, and there will likely always be a subpopulation of patients who do not respond well to other medications. The combination of cannabinoid drug effects (anxiety reduction, appetite stimulation, nausea reduction, and pain relief) suggests that cannabinoids would be moderately well suited for particular conditions, such as chemotherapy-induced nausea and vomiting and AIDS wasting.
+Defined substances, such as purified cannabinoid compounds, are preferable to plant products, which are of variable and uncertain composition. Use of defined cannabinoids permits a more precise evaluation of their effects, whether in combination or alone. Medications that can maximize the desired effects of cannabinoids and minimize the undesired effects can very likely be identified.
+Although most scientists who study cannabinoids agree that the pathways to cannabinoid drug development are clearly marked, there is no guarantee that the fruits of scientific research will be made available to the public for medical use. Cannabinoid- based drugs will only become available if public investment in cannabinoid drug research is sustained and if there is enough incentive for private enterprise to develop and market such drugs.
+Conclusion: Scientific data indicate the potential therapeutic value of cannabinoid drugs, primarily THC, for pain relief, control of nausea and vomiting, and appetite stimulation; smoked marijuana, however, is a crude THC delivery system that also delivers harmful substances.
+Recommendation 2: Clinical trials of cannabinoid drugs for symptom management should be conducted with the goal of developing rapid-onset, reliable, and safe delivery systems.
+Influence of Psychological Effects on Therapeutic Effects
+The psychological effects of THC and similar cannabinoids pose three issues for the therapeutic use of cannabinoid drugs. First, for some patients--particularly older patients with no previous marijuana experience--the psychological effects are disturbing. Those
+
+patients report experiencing unpleasant feelings and disorientation after being treated with THC, generally more severe for oral THC than for smoked marijuana. Second, for conditions such as movement disorders or nausea, in which anxiety exacerbates the symptoms, the antianxiety effects of cannabinoid drugs can influence symptoms indirectly. This can be beneficial or can create false impressions of the drug effect. Third, for cases in which symptoms are multifaceted, the combination of THC effects might provide a form of adjunctive therapy; for example, AIDS wasting patients would likely benefit from a medication that simultaneously reduces anxiety, pain, and nausea while stimulating appetite.
+Conclusion: The psychological effects of cannabinoids, such as anxiety reduction, sedation, and euphoria can influence their potential therapeutic value. Those effects are potentially undesirable for certain patients and situations and beneficial for others. In addition, psychological effects can complicate the interpretation of other aspects of the drug's effect.
+Recommendation 3: Psychological effects of cannabinoids such as anxiety reduction and sedation, which can influence medical benefits, should be evaluated in clinical trials.
+RISKS ASSOCIATED WITH MEDICAL USE OF MARIJUANA
+Physiological Risks
+Marijuana is not a completely benign substance. It is a powerful drug with a variety of effects. However, except for the harms associated with smoking, the adverse effects of marijuana use are within the range of effects tolerated for other medications. The harmful effects to individuals from the perspective of possible medical use of marijuana are not necessarily the same as the harmful physical effects of drug abuse. When interpreting studies purporting to show the harmful effects of marijuana, it is important to keep in mind that the majority of those studies are based on smoked marijuana, and cannabinoid effects cannot be separated from the effects of inhaling smoke from burning plant material and contaminants.
+For most people the primary adverse effect of acute marijuana use is diminished psychomotor performance. It is, therefore, inadvisable to operate any vehicle or potentially dangerous equipment while under the influence of marijuana, THC, or any cannabinoid drug with comparable effects. In addition, a minority of marijuana users experience dysphoria, or unpleasant feelings. Finally, the short-term immunosuppressive effects are not well established but, if they exist, are not likely great enough to preclude a legitimate medical use.
+The chronic effects of marijuana are of greater concern for medical use and fall into two categories: the effects of chronic smoking and the effects of THC. Marijuana smoking is associated with abnormalities of cells lining the human respiratory tract. Marijuana smoke, like tobacco smoke, is associated with increased risk of cancer, lung
+
+damage, and poor pregnancy outcomes. Although cellular, genetic, and human studies all suggest that marijuana smoke is an important risk factor for the development of respiratory cancer, proof that habitual marijuana smoking does or does not cause cancer awaits the results of well-designed studies.
+Conclusion: Numerous studies suggest that marijuana smoke is an important risk factor in the development of respiratory disease.
+Recommendation 4: Studies to define the individual health risks of smoking marijuana should be conducted, particularly among populations in which marijuana use is prevalent.
+Marijuana Dependence and Withdrawal
+A second concern associated with chronic marijuana use is dependence on the psychoactive effects of THC. Although few marijuana users develop dependence, some do. Risk factors for marijuana dependence are similar to those for other forms of substance abuse. In particular, anti-social personality and conduct disorders are closely associated with substance abuse.
+Conclusion: A distinctive marijuana withdrawal syndrome has been identified, but it is mild and short lived. The syndrome includes restlessness, irritability, mild agitation, insomnia, sleep disturbance, nausea, and cramping.
+Marijuana as a "Gateway" Drug
+Patterns in progression of drug use from adolescence to adulthood are strikingly regular. Because it is the most widely used illicit drug, marijuana is predictably the first illicit drug most people encounter. Not surprisingly, most users of other illicit drugs have used marijuana first. In fact, most drug users begin with alcohol and nicotine before marijuana--usually before they are of legal age.
+In the sense that marijuana use typically precedes rather than follows initiation of other illicit drug use, it is indeed a "gateway" drug. But because underage smoking and alcohol use typically precede marijuana use, marijuana is not the most common, and is rarely the first, "gateway" to illicit drug use. There is no conclusive evidence that the drug effects of marijuana are causally linked to the subsequent abuse of other illicit drugs. An important caution is that data on drug use progression cannot be assumed to apply to the use of drugs for medical purposes. It does not follow from those data that if marijuana were available by prescription for medical use, the pattern of drug use would remain the same as seen in illicit use.
+Finally, there is a broad social concern that sanctioning the medical use of marijuana might increase its use among the general population. At this point there are no convincing data to support this concern. The existing data are consistent with the idea that this would
+
+not be a problem if the medical use of marijuana were as closely regulated as other medications with abuse potential.
+Conclusion: Present data on drug use progression neither support nor refute the suggestion that medical availability would increase drug abuse. However, this question is beyond the issues normally considered for medical uses of drugs and should not be a factor in evaluating the therapeutic potential of marijuana or cannabinoids.
+USE OF SMOKED MARIJUANA
+Because of the health risks associated with smoking, smoked marijuana should generally not be recommended for long-term medical use. Nonetheless, for certain patients, such as the terminally ill or those with debilitating symptoms, the long-term risks are not of great concern. Further, despite the legal, social, and health problems associated with smoking marijuana, it is widely used by certain patient groups.
+Recommendation 5: Clinical trials of marijuana use for medical purposes should be conducted under the following limited circumstances: trials should involve only short-term marijuana use (less than six months), should be conducted in patients with conditions for which there is reasonable expectation of efficacy, should be approved by institutional review boards, and should collect data about efficacy.
+The goal of clinical trials of smoked marijuana would not be to develop marijuana as a licensed drug but rather to serve as a first step toward the possible development of nonsmoked rapid-onset cannabinoid delivery systems. However, it will likely be many years before a safe and effective cannabinoid delivery system, such as an inhaler, is available for patients. In the meantime there are patients with debilitating symptoms for whom smoked marijuana might provide relief. The use of smoked marijuana for those patients should weigh both the expected efficacy of marijuana and ethical issues in patient care, including providing information about the known and suspected risks of smoked marijuana use.
+Recommendation 6: Short-term use of smoked marijuana (less than six months) for patients with debilitating symptoms (such as intractable pain or vomiting) must meet the following conditions:
+o failure of all approved medications to provide relief has been documented,
+o the symptoms can reasonably be expected to be relieved by rapid- onset cannabinoid drugs,
+o such treatment is administered under medical supervision in a manner that allows for assessment of treatment effectiveness, and
+o involves an oversight strategy comparable to an institutional review board process that could provide guidance within 24 hours of a
+
+submission by a physician to provide marijuana to a patient for a specified use.
+Until a nonsmoked rapid-onset cannabinoid drug delivery system becomes available, we acknowledge that there is no clear alternative for people suffering from chronic conditions that might be relieved by smoking marijuana, such as pain or AIDS wasting. One possible approach is to treat patients as n-of-1 clinical trials (single-patient trials), in which patients are fully informed of their status as experimental subjects using a harmful drug delivery system and in which their condition is closely monitored and documented under medical supervision, thereby increasing the knowledge base of the risks and benefits of marijuana use under such conditions.data, it is important to understand that decisions about drug regulation are based on a variety of moral and social considerations, as well as on medical and scientific ones.
+Even when a drug is used only for medical purposes, value judgments affect policy decisions concerning its medical use. For example, the magnitude of a drug's expected medical benefit affects regulatory judgments about the acceptability of risks associated with its use. Also, although a drug is normally approved for medical use only on proof of its "safety and efficacy," patients with life-threatening conditions are sometimes (under protocols for "compassionate use") allowed access to unapproved drugs whose benefits and risks are uncertain. Value judgments play an even more substantial role in regulatory decisions concerning drugs, such as marijuana, that are sought and used for nonmedical purposes. Then policymakers must take into account not only the risks and benefits associated with medical use but also possible interactions between the regulatory arrangements governing medical use and the integrity of the legal controls set up to restrict nonmedical use.
+It should be clear that many elements of drug control policy lie outside the realm of biology and medicine. Ultimately, the complex moral and social judgments that underlie drug control policy must be made by the American people and their elected officials. A goal of this report is to evaluate the biological and medical factors that should be taken into account in making those judgments.
+HOW THIS STUDY WAS CONDUCTED
+Information was gathered through scientific workshops, site visits, analysis of the relevant scientific literature, and extensive consultation with biomedical and social scientists. The three 2-day workshops--in Irvine, California; New Orleans, Louisiana; and Washington, D.C.--were open to the public and included scientific presentations and reports, mostly from patients and their families, about their experiences with and perspectives on the medical use of marijuana. Scientific experts in various fields were selected to talk about the latest research on marijuana, cannabinoids, and related topics (listed in Appendix B). Selection of the experts was based on recommendations by their peers, who ranked them among the most accomplished scientists and the most knowledgeable about marijuana and cannabinoids in their own fields. In addition, advocates for (John Morgan) and against (Eric A. Voth) the medical use of marijuana were invited to present scientific evidence in support of their positions.
+Information presented at the scientific workshops was supplemented by analysis of the scientific literature and evaluating the methods used in various studies and the validity of the authors' conclusions. Different kinds of clinical studies are useful in different ways: results of a controlled double-blind study with adequate sample sizes can be expected to apply to the general population from which study subjects were drawn; an isolated case report can suggest further studies but cannot be presumed to be broadly applicable; and survey data can be highly informative but are generally limited by the need to rely on self-reports of drug use and on unconfirmed medical diagnoses. This report relies mainly on the most relevant and methodologically rigorous studies available and treats the results
+ 
+of more limited studies cautiously. In addition, study results are presented in such a way as to allow thoughtful readers to judge the results themselves.
+The Institute of Medicine (IOM) appointed a panel of nine experts to advise the study team on technical issues. These included neurology and the treatment of pain (Howard Fields); regulation of prescription drugs (J. Richard Crout); AIDS wasting and clinical trials (Judith Feinberg); treatment and pathology of multiple sclerosis (Timothy Vollmer); drug dependence among adolescents (Thomas Crowley); varieties of drug dependence (Dorothy Hatsukami); internal medicine, health care delivery, and clinical epidemiology (Eric B. Larson); cannabinoids and marijuana pharmacology (Billy R. Martin); and cannabinoid neuroscience (Steven R. Childers).
+Public outreach included setting up a Web site that provided information about the study and asked for input from the public. The Web site was open for comment from November 1997 until November 1998. Some 130 organizations were invited to participate in the public workshops. Many people in the organizations--particularly those opposed to the medical use of marijuana--felt that a public forum was not conducive to expressing their views; they were invited to communicate their opinions (and reasons for holding them) by mail or telephone. As a result, roughly equal numbers of persons and organizations opposed to and in favor of the medical use of marijuana were heard from.
+The study team visited four cannabis buyers' clubs in California (the Oakland
+Cannabis Buyers' Cooperative, the San Francisco Cannabis Cultivators Club, the Los
+Angeles Cannabis Resource Center, and Californians Helping Alleviate Medical
+Problems, or CHAMPS) and two HIV/AIDS clinics (AIDS Health Care Foundation in
+Los Angeles and Louisiana State University Medical Center in New Orleans). We
+listened to many individual stories from the buyers' clubs about using marijuana to treat a
+variety of symptoms and heard clinical observations on the use of Marinol to treat AIDS
+9
+patients. Marinol is the brand name for dronabinol, which is
+(THC) in pill form and is available by prescription for the treatment of nausea associated with chemotherapy and AIDS wasting.
+MARIJUANA TODAY
+The Changing Legal Landscape
+In the 20th century, marijuana has been used more for its euphoric effects than as a
+medicine. Its psychological and behavioral effects have concerned public officials since
+the drug first appeared in the southwestern and southern states during the first two
+decades of the century. By 1931, at least 29 states had prohibited use of the drug for
+3
+nonmedicalpurposes. MarijuanawasfirstregulatedatthefederallevelbytheMarijuana Tax Act of 1937, which required anyone producing, distributing, or using marijuana for medical purposes to register and pay a tax and which effectively prohibited nonmedical use of the drug. Although the act did not make medical use of marijuana illegal, it did make it expensive and inconvenient. In 1942, marijuana was removed from the U.S.
+ -tetrahydrocannabinol
+
+Pharmacopoeia because it was believed to be a harmful and addictive drug that caused psychoses, mental deterioration, and violent behavior.
+In the late 1960s and early 1970s, there was a sharp increase in marijuana use among
+adolescents and young adults. The current legal status of marijuana was established in
+1970 with the passage of the Controlled Substances Act, which divided drugs into five
+schedules and placed marijuana in Schedule I, the category for drugs with high potential
+for abuse and no accepted medical use (see Appendix C, Scheduling Definitions). In
+1972, the National Organization for the Reform of Marijuana Legislation (NORML), an
+organization that supports decriminalization of marijuana, unsuccessfully petitioned the
+Bureau of Narcotics and Dangerous Drugs to move marijuana from Schedule I to
+Schedule II. NORML argued that marijuana is therapeutic in numerous serious ailments,
+13
+ less toxic, and in many cases more effective than conventional medicines.
+years the medical marijuana movement has been closely linked with the marijuana decriminalization movement, which has colored the debate. Many people criticized that association in their letters to IOM and during the public workshops of this study. The argument against the medical use of marijuana presented most often to the IOM study team was that "the medical marijuana movement is a Trojan horse"; that is, it is a deceptive tactic used by advocates of marijuana decriminalization who would exploit the public's sympathy for seriously ill patients.
+Since NORML's petition in 1972, there have been a variety of legal decisions
+concerning marijuana. From 1973 to 1978, 11 states adopted statutes that decriminalized
+use of marijuana, although some of them recriminalized marijuana use in the 1980s and
+1990s. During the 1970s, reports of the medical value of marijuana began to appear,
+particularly claims that marijuana relieved the nausea associated with chemotherapy.
+Health departments in six states conducted small studies to investigate the reports. When
+the AIDS epidemic spread in the 1980s, patients found that marijuana sometimes relieved
+their symptoms, most dramatically those associated with AIDS wasting. Over this period
+a number of defendants charged with unlawful possession of marijuana claimed that they
+were using the drug to treat medical conditions and that violation of the law was therefore
+justified (the so-called medical necessity defense). Although most courts rejected these
+8
+Against that backdrop, voters in California and Arizona in 1996 passed two referenda
+that attempted to legalize the medical use of marijuana under particular conditions. Public
+support for patient access to marijuana for medical use appears substantial; public
+opinion polls taken during 1997 and 1998 generally reported 60—70 percent of
+15
+However, those referenda are at odds with federal laws regulating marijuana, and their implementation raises
+complex legal questions.
+Despite the current level of interest, referenda and public discussions have not been well informed by carefully reasoned scientific debate. Although previous reports have all called for more research, the nature of the research that will be most helpful depends greatly on the specific health conditions to be addressed. And while there have been
+claims, some accepted them.
+respondents in favor of allowing medical uses of marijuana.
+Thus, for 25
+
+important recent advances in our understanding of the physiological effects of marijuana, few of the recent investigators have had the time or resources to permit detailed analysis. The results of those advances, only now beginning to be explored, have significant implications for the medical marijuana debate.
+Several months after the passage of the California and Arizona medical marijuana referendums, the Office of National Drug Control Policy (ONDCP) asked whether IOM would conduct a scientific review of the medical value of marijuana and its constituent compounds. In August 1997, IOM formally began the study and appointed John A. Benson Jr. and Stanley J. Watson Jr. to serve as principal investigators for the study. The charge to IOM was to review the medical use of marijuana and the harms and benefits attributed to it (details are given in Appendix D).
+
+
+Marijuana plants have been used since antiquity for both herbal medication and intoxication. The current debate over the medical use of marijuana is essentially a debate over the value of its medicinal properties relative to the risk posed by its use.
+1,10,11
+Marijuana's use as an herbal remedy before the 20th century is well documented.
+However, modern medicine adheres to different standards from those used in the past.
+The question is not whether marijuana can be used as an herbal remedy but rather how
+well this remedy meets today's standards of efficacy and safety. We understand much
+more than previous generations about medical risks. Our society generally expects its
+licensed medications to be safe, reliable, and of proven efficacy; contaminants and
+inconsistent ingredients in our health treatments are not tolerated. That refers not only to
+prescription and over-the-counter drugs but also to vitamin supplements and herbal
+remedies purchased at the grocery store. For example, the essential amino acid l-
+tryptophan was widely sold in health food stores as a natural remedy for insomnia until
+early 1990 when it became linked to an epidemic of a new and potentially fatal illness 9,12
+When it was removed from the market shortly thereafter, there was little protest, despite the fact that it was safe for the vast majority of
+the population. The 1,536 cases and 27 deaths were later traced to contaminants in a batch produced by a single Japanese manufacturer.
+Although few herbal medicines meet today's standards, they have provided the foundation for modern Western pharmaceuticals. Most current prescriptions have their
+7
+rootseitherdirectlyorindirectlyinplantremedies. Atthesametime,mostcurrent prescriptions are synthetic compounds that are only distantly related to the natural compounds that led to their development. Digitalis was discovered in foxglove, morphine in poppies, and taxol in the yew tree. Even aspirin (acetylsalicylic acid) has its counterpart in herbal medicine: for many generations, American Indians relieved headaches by chewing the bark of the willow tree, which is rich in a related form of salicylic acid.
+Although plants continue to be valuable resources for medical advances, drug development is likely to be less and less reliant on plants and more reliant on the tools of
+(eosinophilia-myalgia syndrome).
+modern science. Molecular biology, bioinformatics software, and DNA array-based analyses of genes and chemistry are all beginning to yield great advances in drug discovery and development. Until recently, drugs could only be discovered; now they can be designed. Even the discovery process has been accelerated through the use of modern drug-screening techniques. It is increasingly possible to identify or isolate the chemical compounds in a plant, determine which compounds are responsible for the plant's effects, and select the most effective and safe compounds--either for use as purified substances or as tools to develop even more effective, safer, or less expensive compounds.
+Yet even as the modern pharmacological toolbox becomes more sophisticated and biotechnology yields an ever greater abundance of therapeutic drugs, people increasingly
+4,5
+In 1997, 46 percent of Americans sought
+nontraditional medicines and spent over 27 billion unreimbursed dollars; the total number
+of visits to alternative medicine practitioners appears to have exceeded the number of
+5,6
+Recent interest in the medical use of marijuana
+coincides with this trend toward self-help and a search for "natural" therapies. Indeed,
+several people who spoke at the IOM public hearings in support of the medical use of
+marijuana said that they generally preferred herbal medicines to standard
+pharmaceuticals. However, few alternative therapies have been carefully and
+systematically tested for safety and efficacy, as is required for medications approved by
+2
+WHO USES MEDICAL MARIJUANA?
+There have been no comprehensive surveys of the demographics and medical conditions of medical marijuana users, but a few reports provide some indication. In each case, survey results should be understood to reflect the situation in which they were conducted and are not necessarily characteristic of medical marijuana users as a whole. Respondents to surveys reported to the IOM study team were all members of "buyers' clubs," organizations that provide their members with marijuana, although not necessarily through direct cash transactions. The atmosphere of the marijuana buyers' clubs ranges from that of the comparatively formal and closely regulated Oakland Cannabis Buyers' Cooperative to that of a "country club for the indigent," as Denis Peron described the San Francisco Cannabis Cultivators Club (SFCCC), which he directed.
+John Mendelson, an internist and pharmacologist at the University of California, San Francisco (UCSF) Pain Management Center, surveyed 100 members of the SFCCC who were using marijuana at least weekly. Most of the respondents were unemployed men in their forties. Subjects were paid $50 to participate in the survey; this might have encouraged a greater representation of unemployed subjects. All subjects were tested for drug use. About half tested positive for marijuana only; the other half tested positive for drugs in addition to marijuana (23% for cocaine and 13% for amphetamines). The predominant disorder was AIDS, followed by roughly equal numbers of members who reported chronic pain, mood disorders, and musculoskeletal disorders (Table 1.1).
+seek alternative, low-technology therapies.
+visits to primary care physicians.
+the FDA (Food and Drug Administration).
+ 
+The membership profile of the San Francisco club was similar to that of the Los Angeles Cannabis Resource Center (LACRC), where 83% of the 739 patients were men, 45% were 36—45 years old, and 71% were HIV positive. Table 1.2 shows a distribution of conditions somewhat different from that in SFCCC respondents, probably because of a different membership profile. For example, cancer is generally a disease that occurs late in life; 34 (4.7%) of LACRC members were over 55 years old; only 2% of survey respondents in the SFCCC study were over 55 years old.
+Jeffrey Jones, executive director of the Oakland Cannabis Buyers' Cooperative, reported that its largest group of patients is HIV-positive men in their forties. The second- largest group is patients with chronic pain.
+Among the 42 people who spoke at the public workshops or wrote to the study team, only six identified themselves as members of marijuana buyers' clubs. Nonetheless, they presented a similar profile: HIV/AIDS was the predominant disorder, followed by chronic pain (Tables 1.3 and 1.4). All HIV/AIDS patients reported that marijuana relieved nausea and vomiting and improved their appetite. About half the patients who reported using marijuana for chronic pain also reported that it reduced nausea and vomiting.
+Note that the medical conditions referred to are only those reported to the study team or to interviewers; they cannot be assumed to represent complete or accurate diagnoses. Michael Rowbotham, a neurologist at the UCSF Pain Management Center, noted that many pain patients referred to that center arrive with incorrect diagnoses or with pain of unknown origin. At that center the patients who report medical benefit from marijuana say that it does not reduce their pain but enables them to cope with it.
+Most--not all--people who use marijuana to relieve medical conditions have previously used it recreationally. An estimated 95% of the LACRC members had used marijuana before joining the club. It is important to emphasize the absence of comprehensive information on marijuana use before its use for medical conditions. Frequency of prior use almost certainly depends on many factors, including membership in a buyers' club, membership in a population sector that uses marijuana more often than others (for example, men 20—30 years old), and the medical condition being treated with marijuana (for example, there are probably relatively fewer recreational marijuana users among cancer patients than among AIDS patients).
+Patients who reported their experience with marijuana at the public workshops said that marijuana provided them with great relief from symptoms associated with disparate diseases and ailments, including AIDS wasting, spasticity from multiple sclerosis, depression, chronic pain, and nausea associated with chemotherapy. Their circumstances and symptoms were varied, and the IOM study team was not in a position to make medical evaluations or confirm diagnoses. Three representative cases presented to the IOM study team are presented in Box 1.1; the stories have been edited for brevity, but each case is presented in the patient's words and with the patient's permission.
+   
+The variety of stories presented left the study team with a clear view of people's beliefs about how marijuana had helped them. But this collection of anecdotal data, although useful, is limited. We heard many positive stories but no stories from people who had tried marijuana but found it ineffective. This is a fraction with an unknown denominator. For the numerator we have a sample of positive responses; for the denominator we have no idea of the total number of people who have tried marijuana for medical purposes. Hence, it is impossible to estimate the clinical value of marijuana or cannabinoids in the general population based on anecdotal reports. Marijuana clearly seems to relieve some symptoms for some people--even if only as a placebo effect. But what is the balance of harmful and beneficial effects? That is the essential medical question that can be answered only by careful analysis of data collected under controlled conditions.
+CANNABIS AND THE CANNABINOIDS
+Marijuana is the common name for Cannabis sativa, a hemp plant that grows throughout temperate and tropical climates. The most recent review of the constituents of
+16
+marijuana lists 66 cannabinoids (Table 1.5).
+different cannabinoid effects or interactions. Most of the cannabinoids are closely related; they fall into only 10 groups of closely related cannabinoids, many of which differ by only a single chemical moiety and might be midpoints along biochemical pathways--that
+-tetrahydrocannabinol ( THC) is the primary psychoactive ingredient; depending on the particular plant, either
+THC or cannabidiol is the most abundant cannabinoid in marijuana (Figure 1.1). 9
+is, degradation products, precursors, or byproducts.
+-
+But that does not mean there are 66
+   16,18 9
+9
+  Throughout this report, THC is used to indicate
+of THC are discussed, the full names are used. All the cannabinoids are lipophilic--they are highly soluble in fatty fluids and tissues but not in water. Indeed, THC is so lipophilic that it is aptly described as "greasy."
+Throughout this report, marijuana refers to unpurified plant extracts, including leaves and flower tops, regardless of how they are consumed--whether by ingestion or by smoking. References to the effects of marijuana should be understood to include the composite effects of its various components; that is, the effects of THC are included among the effects of marijuana, but not all the effects of marijuana are necessarily due to THC. Discussions concerning cannabinoids refer only to those particular compounds and not to the plant extract. This distinction is important; it is often blurred or exaggerated.
+Cannabinoids are produced in epidermal glands on the leaves (especially the upper
+ones), stems, and the bracts that support the flowers of the marijuana plant. Although the
+flower itself has no epidermal glands, it has the highest cannabinoid content anywhere on
+the plant, probably because of the accumulation of resin secreted by the supporting
+bracteole (the small leaf-like part below the flower). The amounts of cannabinoids and
+their relative abundance in a marijuana plant vary with growing conditions, including
+14
+). The chemical stability of cannabinoids in harvested plant material is also affected by moisture,
+temperature, sunlight, and storage. They degrade under any storage condition.
+humidity, temperature, and soil nutrients (reviewed in Pate, 1994
+-THC. In the few cases where variants
+
+ORGANIZATION OF THE REPORT
+Throughout the report, steps that might be taken to fill the gaps in understanding both the potential harms and benefits of marijuana and cannabinoid use are identified. Those steps include identifying knowledge gaps, promising research directions, and potential therapies based on scientific advances in cannabinoid biology.
+Chapter 2 reviews basic cannabinoid biology and provides a foundation to understand the medical value of marijuana or its constituent cannabinoids. In consideration of the physician's first rule, "first, do no harm," the potential harms attributed to the medical use of marijuana are reviewed before the potential medical benefits. Chapter 3 reviews the risks posed by marijuana use, with emphasis on medical use.
+Chapter 4 analyzes the most credible clinical data relevant to the medical use of marijuana. It reviews what is known about the physiological mechanisms underlying particular conditions (for example, chronic pain, vomiting, anorexia, and muscle spasticity), what is known about the cellular actions of cannabinoids, and the levels of proof needed to show that marijuana is an effective treatment for specific symptoms. It does not analyze the historical literature; history is informative in enumerating uses of marijuana, but it does not provide the sort of information needed for a scientifically sound evaluation of the efficacy and safety of marijuana for clinical use. Because marijuana is advocated primarily as affording relief from the symptoms of disease rather than as a cure, this chapter is organized largely by symptoms as opposed to disease categories. Finally, chapter 4 compares the conclusions of this report with those of other recent reports on the medical use of marijuana.
+Chapter 5 describes the process of and analyzes the prospects for cannabinoid drug development.
+Primum non nocere. This is the physician's first rule: whatever treatment a physician prescribes to a patient--first, that treatment must not harm the patient.
+The most contentious aspect of the medical marijuana debate is not whether marijuana can alleviate particular symptoms but rather the degree of harm associated with its use. This chapter explores the negative health consequences of marijuana use, first with respect to drug abuse, then from a psychological perspective, and finally from a physiological perspective.
+THE MARIJUANA "HIGH"
+The most commonly reported effects of smoked marijuana are a sense of well-being or
+euphoria and increased talkativeness and laughter alternating with periods of
+introspective dreaminess followed by lethargy and sleepiness (see reviews by Adams and
+1 59 60
+Martin, 1996, Hall and Solowij, and Hall et al. ). A characteristic feature of a marijuana "high" is a distortion in the sense of time associated with deficits in short-term memory and learning. A marijuana smoker typically has a sense of enhanced physical and emotional sensitivity, including a feeling of greater interpersonal closeness. The most obvious behavioral abnormality displayed by someone under the influence of marijuana is difficulty in carrying on an intelligible conversation, perhaps because of an inability to remember what was just said even a few words earlier.
+The high associated with marijuana is not generally claimed to be integral to its therapeutic value. But mood enhancement, anxiety reduction, and mild sedation can be desirable qualities in medications--particularly for patients suffering pain and anxiety. Thus, although the psychological effects of marijuana are merely side effects in the treatment of some symptoms, they might contribute directly to relief of other symptoms. They also must be monitored in controlled clinical trials to discern which effect of cannabinoids is beneficial. These possibilities are discussed later under the discussions of specific symptoms in chapter 4.
+The effects of various doses and routes of delivery of THC are shown in Table 3.1.
+Adverse Mood Reactions
+   
+Although euphoria is the more common reaction to smoking marijuana, adverse mood
+reactions can occur. Such reactions occur most frequently in inexperienced users after
+large doses of smoked or oral marijuana. They usually disappear within hours and
+respond well to reassurance and a supportive environment. Anxiety and paranoia are the
+59
+most common acute adverse reactions;
+others include panic, depression, dysphoria, 1,40,66,69
+depersonalization, delusions, illusions, and hallucinations.
+Of regular marijuana
+smokers, 17% report that they have experienced at least one of the symptoms, usually
+145
+early in their use of marijuana.
+of medical marijuana in people who have not previously used marijuana.
+DRUG DYNAMICS
+There are many misunderstandings about drug abuse and dependence (see reviews by
+114
+54
+Those observations are particularly relevant for the use
+O'Brien themostrecentDiagnosticandStatisticalManualofMentalDisorders(DSM-IV), the most influential system in the United States for diagnoses of mental disorders, including substance abuse (see Box 3.1). Tolerance, dependence, and withdrawal are often presumed to imply abuse or addiction, but this is not the case. Tolerance and dependence are normal physiological adaptations to repeated use of any drug. The correct use of prescribed medications for pain, anxiety, and even hypertension commonly produces tolerance and some measure of physiological dependence.
+Even a patient who takes a medicine for appropriate medical indications and at the correct dosage can develop tolerance, physical dependence, and withdrawal symptoms if the drug is stopped abruptly rather than gradually. For example, a hypertensive patient receiving a beta-adrenergic receptor blocker, such as propranolol, might have a good therapeutic response; but if the drug is stopped abruptly, there can be a withdrawal syndrome that consists of tachycardia and a rebound increase in blood pressure to a point that is temporarily higher than before administration of the medication began.
+Because it is an illegal substance, some people consider any use of marijuana as
+substance abuse. However, this report uses the medical definition; that is, substance
+abuse is a maladaptive pattern of repeated substance use manifested by recurrent and
+3
+significantadverseconsequences. Substanceabuseanddependencearebothdiagnoses of pathological substance use. Dependence is the more serious diagnosis and implies compulsive drug use that is difficult to stop despite significant substance-related problems (see Box 3.2).
+Reinforcement
+Drugs vary in their ability to produce good feelings in users, and the more strongly
+reinforcing a drug is, the more likely it will be abused (G. Koob, Institute of Medicine
+(IOM) workshop). Marijuana is indisputably reinforcing for many people. The
+reinforcing properties of even so mild a stimulant as caffeine are typical of reinforcement
+54
+in 1994). Caffeine is reinforcing for many people at low doses (100—200 mg, the average amount of caffeine in one to two cups of
+and Goldstein
+). The terms and concepts used in this report are as defined in
+3
+  by addicting drugs (reviewed by Goldstein
+
+coffee) and is aversive at high doses (600 mg, the average amount of caffeine in six cups of coffee). The reinforcing effects of many drugs are different for different people. For example, caffeine was most reinforcing for test subjects who scored lowest on tests of anxiety but tended not to be reinforcing for the most anxious subjects.
+As an argument to dispute the abuse potential of marijuana, some have cited the
+observation that animals do not willingly self-administer THC, as they will cocaine. Even
+if that were true, it would not be relevant to human use of marijuana. The value in animal
+models of drug self-administration is not that they are necessary to show that a drug is
+reinforcing but rather that they provide a model in which the effects of a drug can be
+studied. Furthermore, THC is indeed rewarding to animals at some doses but, like many
+93
+reinforcing drugs, is aversive at high doses (4.0 mg/kg).
+in experiments conducted in animals outfitted with intravenous catheters that allow them
+100
+A specific set of neural pathways has been proposed to be a "reward system" that
+51
+to self-administer WIN 55,212, a drug that mimics the effects of THC.
+underlies the reinforcement of drugs of abuse and other pleasurable stimuli.
+properties of drugs are associated with their ability to increase concentrations of particular neurotransmitters in areas that are part of the proposed brain reward system. The median forebrain bundle and the nucleus accumbens are associated with brain reward
+88
+144
+Cocaine, amphetamine, alcohol, opioids, nicotine, and THC
+extracellular fluid dopamine in the nucleus accumbens region (reviewed by Koob and Le
+pathways.
+all increase
+88
+110
+Moal
+brain reward systems are not strictly "drug reinforcement centers." Rather, their biological role is to respond to a range of positive stimuli, including sweet foods and sexual attraction.
+Tolerance
+The rate at which tolerance to the various effects of any drug develops is an important consideration for its safety and efficacy. For medical use, tolerance to some effects of cannabinoids might be desirable. Differences in the rates at which tolerance to the multiple effects of a drug develops can be dangerous. For example, tolerance to the euphoric effects of heroin develops faster than tolerance to its respiratory depressant effects, so heroin users tend to increase their daily doses to reach their desired level of euphoria, thereby putting themselves at risk for respiratory arrest. Because tolerance to the various effects of cannabinoids might develop at different rates, it is important to evaluate independently their effects on mood, motor performance, memory, and attention, as well as any therapeutic use under investigation.
+Tolerance to most of the effects of marijuana can develop rapidly after only a few
+doses, and it also disappears rapidly. Tolerance to large doses has been found to persist in
+experimental animals for long periods after cessation of drug use. Performance
+impairment is less among people who use marijuana heavily than it is among those who 29,104,124
+and Nestler and Aghajanian
+in 1997). However, it is important to note that
+possibly because of tolerance. Heavy users tend to reach higher plasma concentrations of THC than light users after similar doses of
+use marijuana only occasionally,
+Similar effects have been found
+Reinforcing
+
+THC, arguing against the possibility that heavy users show less performance impairment because they somehow absorb less THC (perhaps due to differences in smoking
+95
+There appear to be variations in the development of tolerance to the different effects
+of marijuana and oral THC. For example, daily marijuana smokers participated in a
+residential laboratory study to compare the development of tolerance to THC pills and to 61,62
+behavior).
+smoked marijuana.
+day for four consecutive days; another group was given THC pills on the same schedule. During the four-day period, both groups became tolerant to feeling "high" and what they reported as a "good drug effect." In contrast, neither group became tolerant to the stimulatory effects of marijuana or THC on appetite. "Tolerance" does not mean that the drug no longer produced the effects but simply that the effects were less at the end than at the beginning of the four-day period. The marijuana smoking group reported feeling "mellow" after smoking and did not show tolerance to this effect; the group that took THC pills did not report feeling "mellow." The difference was also reported by many people who described their experiences to the IOM study team.
+The oral and smoked doses were designed to deliver roughly equivalent amounts of THC to a subject. Each smoked marijuana dose consisted of five 10-second puffs of a marijuana cigarette containing 3.1% THC; the pills contained 30 mg of THC. Both groups also received placebo drugs during other four-day periods. Although the dosing of the two groups was comparable, different routes of administration resulted in different patterns of drug effect. The peak effect of smoked marijuana is usually felt within
+68,95
+One group was given marijuana cigarettes to smoke four times per
+minutes and declines sharply after 30 minutes
+not felt until about an hour and lasts for several hours.
+Withdrawal
+A distinctive marijuana and THC withdrawal syndrome has been identified, but it is mild and subtle compared with the profound physical syndrome of alcohol or heroin
+withdrawal.
+The symptoms of marijuana withdrawal include restlessness, irritability,
+31,74
+mild agitation, insomnia, sleep EEG disturbance, nausea, and cramping (Table 3.2). In
+addition to those symptoms, two recent studies noted several more. A group of
+adolescents under treatment for conduct disorders also reported fatigue and illusions or
+hallucinations after marijuana abstinence (this study is discussed further in the section on
+31
+In a residential study of daily marijuana users, withdrawal symptoms included sweating and
+62
+A marijuana withdrawal syndrome, however, has been reported only in a group of adolescents in treatment for substance
+31
+; the peak effect of oral THC is usually
+118
+ "Prevalence and Predictors of Dependence on Marijuana and Other Drugs").
+runny nose, in addition to those listed above.
+abuse problems 62,74
+daily.
+and in a research setting where subjects were given marijuana or THC
+Withdrawal symptoms have been observed in carefully controlled laboratory studies 61,62
+of people after use of both oral THC and smoked marijuana.
+were given very high doses of oral THC: 180—210 mg per day for 10—20 days, roughly
+In one study, subjects
+
+equivalent to smoking 9—10 2% THC cigarettes per day.
+During the abstinence period
+at the end of the study, the study subjects were irritable and showed insomnia, runny
+nose, sweating, and decreased appetite. The withdrawal symptoms, however, were short
+lived. In four days they had abated. The time course contrasts with that in another study
+in which lower doses of oral THC were used (80—120 mg/day for four days) and
+61,62
+withdrawal symptoms were still near maximal after four days.
+In animals, simply discontinuing chronic heavy dosing of THC does not reveal
+withdrawal symptoms, but the "removal" of THC from the brain can be made abrupt by
+another drug that blocks THC at its receptor if administered when the chronic THC is
+withdrawn. The withdrawal syndrome is pronounced, and the behavior of the animals
+153
+becomes hyperactive and disorganized. 16,24
+The half-life of THC in brain is about an Although traces of THC can remain in the brain for much longer periods, the
+hour.
+amounts are not physiologically significant. Thus, the lack of a withdrawal syndrome when THC is abruptly withdrawn without administration of a receptor-blocking drug is probably not due to a prolonged decline in brain concentrations.
+Craving
+Craving, the intense desire for a drug, is the most difficult aspect of addiction to overcome. Research on craving has focused on nicotine, alcohol, cocaine, and opiates but
+115
+has not specifically addressed marijuana.
+is known about drug craving, its relevance to marijuana use has not been established.
+Most people who suffer from addiction relapse within a year of abstinence, and they
+58
+As addiction develops, craving increases even as maladaptive consequences accumulate. Animal studies indicate that the tendency to
+relapse is based on changes in brain function that continue for months or years after the
+115
+last use of the drug.
+manifestation of an abstinence syndrome remains an unanswered question in drug abuse
+88
+The "liking" of sweet foods, for example, is mediated by opioid forebrain systems and by brain stem systems, whereas "wanting" seems to be mediated by
+109
+Anticraving medications have been developed for nicotine and alcohol. The antidepressant, bupropion, blocks nicotine craving, while naltrexone blocks alcohol
+115
+often attribute their relapse to craving.
+research.
+ascending dopamine neurons that project to the nucleus accumbens.
+Another category of addiction medication includes drugs that block other drugs' effects. Some of those drugs also block craving. For example, methadone blocks the euphoric effects of heroin and also reduces craving.
+MARIJUANA USE AND DEPENDENCE
+Prevalence of Use
+Millions of Americans have tried marijuana, but most are not regular users. In 1996, 68.6 million people--32% of the U.S. population over 12 years old--had tried marijuana
+craving.
+74
+Thus, while this section briefly reviews what
+Whether neurobiological conditions change during the
+
+132
+or hashish at least once in their lifetime, but only 5% were current users.
+is most prevalent among 18- to 25-year-olds and declines sharply after the age of 34
+77,132
+(Figure 3.1).
+although the difference decreases by adulthood.
+Whites are more likely than blacks to use marijuana in adolescence,
+132
+Marijuana use
+ Most people who have used marijuana did so first during adolescence. Social influences, such as peer pressure and prevalence of use by peers, are highly predictive of
+9
+initiationintomarijuanause. Initiationisnot,ofcourse,synonymouswithcontinuedor
+regular use. A cohort of 456 students who experimented with marijuana during their high
+school years were surveyed about their reasons for initiating, continuing, and stopping
+9
+theirmarijuanause. Studentswhobeganasheavyuserswereexcludedfromthe
+analysis. Those who did not become regular marijuana users cited two types of reasons
+for discontinuing. The first was related to health and well-being; that is, they felt that
+marijuana was bad for their health or for their family and work relationships. The second
+type was based on age-related changes in circumstances, including increased
+responsibility and decreased regular contact with other marijuana users. Among high
+school students who quit, parental disapproval was a stronger influence than peer
+disapproval in discontinuing marijuana use. In the initiation of marijuana use, the reverse
+was true. The reasons cited by those who continued to use marijuana were to "get in a
+better mood or feel better." Social factors were not a significant predictor of continued
+use. Data on young adults show similar trends. Those who use drugs in response to social
+influences are more likely to stop using them than those who also use them for
+80
+The age distribution of marijuana users among the general population contrasts with that of medical marijuana users. Marijuana use generally declines sharply after the age of 34 years, whereas medical marijuana users tend to be over 35. That raises the question of what, if any, relationship exists between abuse and medical use of marijuana; however, no studies reported in the scientific literature have addressed this question.
+Prevalence and Predictors of Dependence on Marijuana and Other Drugs
+Many factors influence the likelihood that a particular person will become a drug abuser or an addict; the user, the environment, and the drug are all important factors
+114
+(Table 3.3).
+people who are vulnerable to drug abuse for individual reasons and who find themselves in an environment that encourages drug abuse are initially likely to abuse the most readily available drug--regardless of its unique set of effects on the brain.
+The third category includes drug-specific effects that influence the abuse liability of a particular drug. As discussed earlier in this chapter, the more strongly reinforcing a drug is, the more likely that it will be abused. The abuse liability of a drug is enhanced by how quickly its effects are felt, and this is determined by how the drug is delivered. In general, the effects of drugs that are inhaled or injected are felt within minutes, and the effects of drugs that are ingested take a half hour or more.
+psychological reasons.
+The first two categories apply to potential abuse of any substance; that is,
+ 
+The proportion of people who become addicted varies among drugs. Table 3.4 shows estimates for the proportion of people among the general population who used or became dependent on different types of drugs. The proportion of users that ever became dependent includes anyone who was ever dependent--whether it was for a period of weeks or years--and thus includes more than those who are currently dependent. Compared to most other drugs listed in this table, dependence among marijuana users is relatively rare. This might be due to differences in specific drug effects, the availability of or penalties associated with the use of the different drugs, or some combination.
+Daily use of most illicit drugs is extremely rare in the general population. In 1989, daily use of marijuana among high school seniors was less than that of alcohol (2.9% and
+76
+Drug dependence is more prevalent in some sectors of the population than in others.
+8
+Age,gender,andraceorethnicgroupareallimportant. Excludingtobaccoandalcohol,
+8
+thefollowingtrendsofdrugdependencearestatisticallysignificant: Menare1.6times as likely than women to become drug dependent, non-Hispanic whites are about twice as likely as blacks to become drug dependent (the difference between non-Hispanic and Hispanic whites was not significant), and people 25—44 years old are more than three times as likely as those over 45 years old to become drug dependent.
+More often than not, drug dependence co-occurs with other psychiatric disorders. Most people with a diagnosis of drug dependence disorder also have a diagnosis of a
+76
+The most frequent co- occurring disorder is alcohol abuse; 60% of men and 30% of women with a diagnosis of
+drug dependence also abuse alcohol. In women who are drug dependent, phobic disorders and major depression are almost equally common (29% and 28%, respectively). Note that this study distinguished only between alcohol, nicotine and "other drugs"; marijuana was grouped among "other drugs." The frequency with which drug dependence and other psychiatric disorders co-occur might not be the same for marijuana and other drugs that were included in that category.
+A strong association between drug dependence and antisocial personality or its precursor, conduct disorder, is also widely reported in children and adults (reviewed in
+126
+). Although the causes of the association are uncertain, Robins recently concluded that it is more likely that conduct disorders generally lead to substance abuse
+126
+Such a trend might, however, depend on the age at which the conduct disorder is manifested.
+A longitudinal study by Brooks and co-workers noted a significant relationship
+between adolescent drug use and disruptive disorders in young adulthood; except for
+earlier psychopathology, such as childhood conduct disorder, the drug use preceded the
+18
+In contrast with use of other illicit drugs and tobacco, moderate (less than once a week and more than once a month) to heavy marijuana use did not
+predict anxiety or depressive disorders; but it was similar to those other drugs in predicting antisocial personality disorder. The rates of disruptive disorders increased with
+ 4.2%, respectively).
+another psychiatric disorder (76% of men and 65% of women).
+1998 by Robins
+than the reverse.
+psychiatric disorders.
+
+increased drug use. Thus, heavy drug use among adolescents can be a warning sign for later psychiatric disorders; whether it is an early manifestation of or a cause of those disorders remains to be determined.
+Psychiatric disorders are more prevalent among adolescents who use drugs--including
+79
+alcohol and nicotine--than among those who do not.
+Table 3.5 indicates that adolescent
+ boys who smoke cigarettes daily are about 10 times as likely to have a psychiatric
+disorder diagnosis as those who do not smoke. However, the table does not compare
+intensity of use among the different drug classes. Thus, although daily cigarette smoking
+among adolescent boys is more strongly associated with psychiatric disorders than is any
+use of illicit substances, it does not follow that this comparison is true for every amount
+79
+Few marijuana users become dependent on it (Table 3.4), but those who do encounter 19,143
+of cigarette smoking.
+ problems similar to those associated with dependence on other drugs.
+appears to be less severe among people who use only marijuana than among those who
+19,143
+abuse cocaine or those who abuse marijuana with other drugs (including alcohol).
+Data gathered in 1990—1992 from the National Comorbidity Study of over 8,000 persons 15—54 years old indicate that 4.2% of the general population were dependent on
+8
+marijuanaatsometime. Similarresultsforthefrequencyofsubstanceabuseamongthe general population were obtained from the Epidemiological Catchment Area Program, a survey of over 19,000 people. According to data collected in the early 1980s for that study, 4.4% of adults have, at one time, met the criteria for marijuana dependence. In comparison, 13.8% of adults met the criteria for alcohol dependence and 36.0% for tobacco dependence. After alcohol and nicotine, marijuana was the substance most frequently associated with a diagnosis of substance dependence.
+In a 15-year study begun in 1979, 7.3% of 1,201 adolescents and young adults in
+suburban New Jersey at some time met the criteria for marijuana dependence; this
+indicates that the rate of marijuana dependence might be even higher in some groups of
+71
+Adolescents meet the criteria for drug dependence at lower rates of marijuana use than do adults, and this
+25
+adolescents and young adults than in the general population.
+suggests that they are more vulnerable to dependence than adults
+(see Box 3.2).
+Dependence
+ Youths who are already dependent on other substances are particularly vulnerable to
+31
+marijuana dependence. For example, Crowley and co-workers
+229 adolescent patients in a residential treatment program for delinquent, substance- involved youth and found that those patients were dependent on an average of 3.2 substances. The adolescents had previously been diagnosed as dependent on at least one substance (including nicotine and alcohol) and had three or more conduct disorder symptoms during their life. About 83% of those who had used marijuana at least six times went on to develop marijuana dependence. About equal numbers of youths in the study had a diagnosis of marijuana dependence and a diagnosis of alcohol dependence; fewer were nicotine dependent. Comparisons of dependence potential between different drugs should be made cautiously. The probability that a particular drug will be abused is
+interviewed a group of
+
+influenced by many factors, including the specific drug effects and availability of the drug.
+Although parents often state that marijuana caused their children to be rebellious, the
+troubled adolescents in the study by Crowley and co-workers developed conduct
+disorders before marijuana abuse. That is consistent with reports that the more symptoms 127
+of conduct disorders children have, the younger they begin drug abuse, earlier they begin drug use, the more likely it is to be followed by abuse or
+125
+Genetic factors are known to play a role in the likelihood of abuse for drugs other than 7,129
+dependence.
+marijuana,
+and it is not unexpected that genetic factors play a role in the marijuana
+experience, including the likelihood of abuse. A study of over 8,000 male twins listed in
+the Vietnam Era Twin Registry indicated that genes have a statistically significant
+97
+influence on whether a person finds the effects of marijuana pleasant.
+Not surprisingly,
+people who found marijuana to be pleasurable used it more often than those who found it
+unpleasant. The study suggested that, although social influences play an important role in
+the initiation of use, individual differences--perhaps associated with the brain's reward
+system--influence whether a person will continue using marijuana. Similar results were
+86
+Family and social environment strongly influenced the likelihood of ever using marijuana but had little effect on the likelihood of heavy use or
+abuse. The latter were more influenced by genetic factors. Those results are consistent with the finding that the degree to which rats find THC rewarding is genetically based.
+In summary, although few marijuana users develop dependence, some do. But they appear to be less likely to do so than users of other drugs (including alcohol and nicotine), and marijuana dependence appears to be less severe than dependence on other drugs. Drug dependence is more prevalent in some sectors of the population than others, but no group has been identified as particularly vulnerable to the drug-specific effects of marijuana. Adolescents, especially troubled ones, and people with psychiatric disorders (including substance abuse) appear to be more likely than the general population to become dependent on marijuana.
+If marijuana or cannabinoid drugs were approved for therapeutic uses, it would be important to consider the possibility of dependence, particularly for patients at high risk for substance dependence. Some controlled substances that are approved medications produce dependence after long-term use; this, however, is a normal part of patient management and does not generally present undue risk to the patient.
+Progression from Marijuana to Other Drugs
+The fear that marijuana use might cause, as opposed to merely precede, the use of drugs that are more harmful is of great concern. To judge from comments submitted to the IOM study team, it appears to be of greater concern than the harms directly related to marijuana itself. The discussion that marijuana is a "gateway" drug implicitly recognizes that other illicit drugs might inflict greater damage to health or social relations than
+found in a study of female twins.
+and that the
+92
+
+marijuana. Although the scientific literature generally discusses drug use progression between a variety of drug classes, including alcohol and tobacco, the public discussion has focused on marijuana as a "gateway" drug that leads to abuse of more harmful illicit drugs, such as cocaine and heroin.
+There are strikingly regular patterns in the progression of drug use from adolescence
+to adulthood. Because it is the most widely used illicit drug, marijuana is predictably the
+first illicit drug that most people encounter. Not surprisingly, most users of other illicit 81,82
+drugs used marijuana first.
+marijuana--they begin with alcohol and nicotine, usually when they are too young to do
+82,90
+so legally.
+The gateway analogy evokes two ideas that are often confused. The first, more often referred to as the "stepping stone" hypothesis, is the idea that progression from marijuana
+82
+In fact, most drug users do not begin their drug use with
+to other drugs arises from pharmacological properties of marijuana itself.
+that marijuana serves as a gateway to the world of illegal drugs in which youths have greater opportunity and are under greater social pressure to try other illegal drugs. The latter interpretation is most often used in the scientific literature, and it is supported, although not proven, by the available data.
+The stepping stone hypothesis applies to marijuana only in the broadest sense. People who enjoy the effects of marijuana are, logically, more likely to be willing to try other mood-altering drugs than are people who are not willing to try marijuana or who dislike its effects. In other words, many of the factors associated with a willingness to use marijuana are, presumably, the same as those associated with a willingness to use other illicit drugs. Those factors include physiological reactions to the drug effect, which are consistent with the stepping stone hypothesis, but also psychosocial factors, which are independent of drug-specific effects. There is no evidence that marijuana serves as a stepping stone on the basis of its particular physiological effect. One might argue that marijuana is generally used before other illicit mood-altering drugs, in part, because its effects are milder; in that case, marijuana is a stepping stone only in the same sense as taking a small dose of a particular drug and then increasing that dose over time is a stepping stone to increased drug use.
+Whereas the stepping stone hypothesis presumes a predominantly physiological
+component of drug progression, the gateway theory is a social theory. The latter does not
+suggest that the pharmacological qualities of marijuana make it a risk factor for
+progression to other drug use. Instead, the legal status of marijuana makes it a gateway
+82
+Psychiatric disorders are associated with substance dependence and are probably risk factors for progression in drug use. For example, the troubled adolescents studied by
+31
+were dependent on an average of 3.2 substances, and this suggests that their conduct disorders were associated with increased risk of progressing
+from one drug to another. Abuse of a single substance is probably also a risk factor for later multiple drug use. For example, in a longitudinal study that examined drug use and
+drug.
+Crowley and co-workers
+The second is
+
+dependence, about 26% of problem drinkers reported that they first used marijuana after the onset of alcohol-related problems (R. Pandina, IOM workshop). The study also found that 11% of marijuana users developed chronic marijuana problems; most also had alcohol problems.
+Intensity of drug use is an important risk factor in progression. Daily marijuana users are more likely than their peers to be extensive users of other substances (for review, see
+78
+Kandel and Davies
+by the age 24—25, 75% never used any other illicit drug; 53% of those who had used it
+78
+The factors that best predict use of illicit drugs other than marijuana are probably the
+following: age of first alcohol or nicotine use, heavy marijuana use, and psychiatric
+disorders. However, progression to illicit drug use is not synonymous with heavy or
+persistent drug use. Indeed, although the age of onset of use of licit drugs (alcohol and
+nicotine) predicts later illicit drug use, it does not appear to predict persistent or heavy 90
+use of illicit drugs.
+Data on the gateway phenomenon are often overinterpreted. For example, one study
+55
+). Of 34- to 35-year- old men who had used marijuana 10—99 times
+more than 100 times did progress to using other illicit drugs 10 or more times. Comparable proportions for women are 64% and 50%.
+reports that "marijuana's role as a gateway drug appears to have increased."
+It was a
+retrospective study based on interviews of drug abusers who reported smoking crack or
+injecting heroin daily. The data from the study provide no indication of what proportion
+of marijuana users become serious drug abusers; rather, they indicate that serious drug
+abusers usually use marijuana before they smoke crack or inject heroin. Only a small
+percentage of the adult population uses crack or heroin daily; during the five-year period
+from 1993 to 1997, an average of three people per 1,000 used crack and about two per
+132
+Many of the data on which the gateway theory is based do not measure dependence;
+instead, they measure use--even once-only use. Thus, they show only that marijuana
+users are more likely to use other illicit drugs (even if only once) than are people who
+never use marijuana, not that they become dependent or even frequent users. The authors
+of these studies are careful to point out that their data should not be used as evidence of
+an inexorable causal progression; rather they note that identifying stage-based user
+groups makes it possible to identify the specific risk factors that predict movement from
+25
+In the sense that marijuana use typically precedes rather than follows initiation into the use of other illicit drugs, it is indeed a gateway drug. However, it does not appear to be a gateway drug to the extent that it is the cause or even that it is the most significant predictor of serious drug abuse; that is, care must be taken not to attribute cause to association. The most consistent predictors of serious drug use appear to be the intensity
+of marijuana use and co-occurring psychiatric disorders or a family history of 78,83
+psychopathology (including alcoholism).
+1,000 used heroin in the preceding month.
+one stage of drug use to the next--the real issue in the gateway discussion.
+
+An important caution is that data on drug use progression pertain to nonmedical drug
+use. It does not follow from those data that if marijuana were available by prescription for
+medical use, the pattern of drug use would be the same. Kandel and co-workers also
+included nonmedical use of prescription psychoactive drugs in their study of drug use
+82
+progression.
+a clear and consistent sequence of drug use involving the abuse of prescription psychoactive drugs. The current data on drug use progression neither support nor refute the suggestion that medical availability would increase drug abuse among medical marijuana users. Whether the medical use of marijuana might encourage drug abuse among the general community--not among medical marijuana users themselves but among others simply because of the fact that marijuana would be used for medical purposes--is another question.
+LINK BETWEEN MEDICAL USE AND DRUG ABUSE
+Almost everyone who spoke or wrote to the IOM study team about the potential harms posed by the medical use of marijuana felt that it would send the wrong message to children and teenagers. They stated that information about the harms caused by marijuana is undermined by claims that marijuana might have medical value. Yet many of our powerful medicines are also dangerous medicines. These two facets of medicine-- effectiveness and risk--are inextricably linked.
+The question here is not whether marijuana can be both harmful and helpful but whether the perception of its benefits will increase its abuse. For now any answer to the question remains conjecture. Because marijuana is not an approved medicine, there is little information about the consequences of its medical use in modern society. Reasonable inferences might be drawn from some examples. Opiates, such as morphine and codeine, are an example of a class of drugs that is both abused to great harm and used to great medical benefit, and it would be useful to examine the relationship between their medical use and their abuse. In a "natural experiment" during 1973—1978 some states decriminalized marijuana, and others did not. Finally, one can examine the short-term consequences of the publicity surrounding the 1996 medical marijuana campaign in California and ask whether it had any measurable impact on marijuana consumption among youth in California; the consequences of "message" that marijuana might have medical use are examined below.
+Medical Use and Abuse of Opiates
+Two highly influential papers published in the 1920s and 1950s led to widespread concern among physicians and medical licensing boards that liberal use of opiates would
+106
+in 1996). Such fears have proven unfounded; it is now recognized that fear of producing addicts through medical
+treatment resulted in needless suffering among patients with pain as physicians 27,44
+In contrast with the use of alcohol, nicotine, and illicit drugs, there was not
+result in many addicts (reviewed by Moulin and co-workers
+needlessly limited appropriate doses of medications.
+addiction problems with misuse of drugs that have been prescribed for medical use.
+Few people begin their drug
+114
+
+Opiates are carefully regulated in the medical setting, and diversion of medically prescribed opiates to the black market is not generally considered to be a major problem.
+No evidence suggests that the use of opiates or cocaine for medical purposes has increased the perception that their illicit use is safe or acceptable. Clearly, there are risks that patients will abuse marijuana for its psychoactive effects and some likelihood of diversion of marijuana from legitimate medical channels into the illicit market. But those risks do not differentiate marijuana from many accepted medications that are abused by some patients or diverted from medical channels for nonmedical use. Medications with abuse potential are placed in Schedule II of the Controlled Substances Act, which brings them under stricter control, including quotas on the amount that can be legally manufactured (see chapter 5 for discussion of the Controlled Substances Act). That scheduling also signals to physicians that a drug has abuse potential and that they should monitor its use by patients who could be at risk for drug abuse.
+Marijuana Decriminalization
+Monitoring the Future, the annual survey of values and lifestyles of high school seniors, revealed that high school seniors in decriminalized states reported using no more
+72
+marijuana than did their counterparts in states where marijuana was not decriminalized. Another study reported somewhat conflicting evidence indicating that decriminalization
+105
+ had increased marijuana use.
+Network (DAWN), which has collected data on drug-related emergency room (ER) cases since 1975. There was a greater increase from 1975 to 1978 in the proportion of ER patients who had used marijuana in states that had decriminalized marijuana in 1975— 1976 than in states that had not decriminalized it (Table 3.6). Despite the greater increase among decriminalized states, the proportion of marijuana users among ER patients by 1978 was about equal in states that had and states that had not decriminalized marijuana. That is because the non-decriminalized states had higher rates of marijuana use before decriminalization. In contrast with marijuana use, rates of other illicit drug use among ER patients were substantially higher in states that did not decriminalize marijuana use. Thus, there are different possible reasons for the greater increase in marijuana use in the decriminalized states. On the one hand, decriminalization might have led to an increased use of marijuana (at least among people who sought health care in hospital ERs). On the other hand, the lack of decriminalization might have encouraged greater use of drugs that are even more dangerous than marijuana.
+The differences between the results for high school seniors from the Monitoring the
+Future study and the DAWN data are unclear, although the author of the latter study
+suggests that the reasons might lie in limitations inherent in how the DAWN data are
+105
+In 1976, the Netherlands adopted a policy of toleration for possession of up to 30 g of marijuana. There was little change in marijuana use during the seven years after the policy change, which suggests that the change itself had little effect; however, in 1984, when Dutch "coffee shops" that sold marijuana commercially spread throughout
+That study used data from the Drug Awareness Warning
+ collected.
+
+Amsterdam, marijuana use began to increase.
+continued to increase in the Netherlands at the same rate as in the United States and Norway--two countries that strictly forbid marijuana sale and possession. Furthermore, during this period, approximately equal percentages of American and Dutch 18 year olds used marijuana; Norwegian 18 year olds were about half as likely to have used marijuana. The authors of this study conclude that there is little evidence that the Dutch marijuana depenalization policy led to increased marijuana use, although they note that commercialization of marijuana might have contributed to its increased use. Thus, there is little evidence that decriminalization of marijuana use necessarily leads to a substantial increase in marijuana use.
+The Medical Marijuana Debate
+The most recent National Household Survey on Drug Abuse showed that among people 12—17 years old the perceived risk associated with smoking marijuana once or
+132
+(Perceived risk is
+measured as the percentage of survey respondents who report that they "perceive great
+risk of harm" in using a drug at a specified frequency.) At first glance, that might seem to
+validate the fear that the medical marijuana debate of 1996--before passage of the
+California medical marijuana referendum in November 1997--had sent a message that
+marijuana use is safe. But a closer analysis of the data shows that Californian youth were
+an exception to the national trend. In contrast to the national trend, the perceived risk of
+1321
+In summary, there is no evidence that the medical marijuana debate has altered adolescents'
+132
+PSYCHOLOGICAL HARMS
+In assessing the relative risks and benefits related to the medical use of marijuana, the psychological effects of marijuana can be viewed both as unwanted side effects and as potentially desirable end points in medical treatment. However, the vast majority of research on the psychological effects of marijuana has been in the context of assessing the drug's intoxicating effects when it is used for nonmedical purposes. Thus, the literature does not directly address the effects of marijuana taken for medical purposes.
+There are some important caveats to consider in attempting to extrapolate from the research mentioned above to the medical use of marijuana. The circumstances under which psychoactive drugs are taken are an important influence on their psychological effects. Furthermore, research protocols to study marijuana's psychological effects in most instances were required to use participants who already had experience with marijuana. People who might have had adverse reactions to marijuana either would choose not to participate in this type of study or would be screened out by the investigator. Therefore, the incidence of adverse reactions to marijuana that might occur in people with no marijuana experience cannot be estimated from such studies. A further complicating factor concerns the dose regimen used for laboratory studies. In most instances, laboratory research studies have looked at the effects of single doses of
+twice a week had decreased significantly between 1996 and 1997.
+marijuana use did not change among California youth between 1996 and 1997.
+perceptions of the risks associated with marijuana use.
+98
+During the 1990s, marijuana use has
+
+marijuana, which might be different from those observed when the drug is taken repeatedly for a chronic medical condition.
+Nonetheless, laboratory studies are useful in suggesting what psychological functions might be studied when marijuana is evaluated for medical purposes. Results of laboratory studies indicate that acute and chronic marijuana use has pronounced effects on mood, psychomotor, and cognitive functions. These psychological domains should therefore be considered in assessing the relative risks and therapeutic benefits related to marijuana or cannabinoids for any medical condition.
+Psychiatric Disorders
+A major question remains as to whether marijuana can produce lasting mood disorders
+52
+or psychotic disorders, such as schizophrenia. Georgotas and Zeidenberg reported that
+smoking 10—22 marijuana cigarettes per day was associated with a gradual waning of
+the positive mood and social facilitating effects of marijuana and an increase in
+irritability, social isolation, and paranoid thinking. Inasmuch as smoking one cigarette is 68,95,118
+enough to make a person feel "high" for about 1—3 hours,
+the subjects in that
+study were taking very high doses of marijuana. Reports have described the development
+of apathy, lowered motivation, and impaired educational performance in heavy marijuana
+121,122
+There are clinical reports of marijuana-induced psychosis-like states (schizophrenia-like,
+112
+depression, and/or mania) lasting for a week or more.
+of the varied nature of the psychotic states induced by marijuana, there is no specific "marijuana psychosis." Rather, the marijuana experience might trigger latent
+users who do not appear to be behaviorally impaired in other ways.
+psychopathology of many types.
+concluded that
+disorder.
+As noted earlier, drug abuse is common among people with psychiatric
+66
+60
+More recently, Hall and colleagues
+"there is reasonable evidence that heavy cannabis use, and perhaps acute use in sensitive
+individuals, can produce an acute psychosis in which confusion, amnesia, delusions, hallucinations, anxiety, agitation and hypomanic symptoms predominate." Regardless of which of those interpretations is correct, the two reports agree that there is little evidence that marijuana alone produces a psychosis that persists after the period of intoxication.
+Schizophrenia
+The association between marijuana and schizophrenia is not well understood. The
+scientific literature indicates general agreement that heavy marijuana use can precipitate
+schizophrenic episodes but not that marijuana use can cause the underlying psychotic 59,96,151
+disorders. Estimates of the prevalence of marijuana use among schizophrenics vary
+considerably but are in general agreement that it is at least as great as that among the
+general population.
+35
+Schizophrenics prefer the effects of marijuana to those of alcohol
+134
+134
+and cocaine,
+reasons for this are unknown, but it raises the possibility that schizophrenics might obtain some symptomatic relief from moderate marijuana use. But overall, compared with the general population, people with schizophrenia or with a family history of schizophrenia
+which they seem to use less often than does the general population.
+The
+Hollister suggests that, because
+
+are likely to be at greater risk for adverse psychiatric effects from the use of cannabinoids.
+Cognition
+As discussed earlier, acutely administered marijuana impairs cognition.
+60,66,112
+Positron emission tomography (PET) imaging allows investigators to measure the acute
+effects of marijuana smoking on active brain function. Human volunteers who perform
+auditory attention tasks before and after smoking a marijuana cigarette show impaired
+performance while under the influence of marijuana; this is associated with substantial
+reduction in blood flow to the temporal lobe of the brain, an area that is sensitive to such 116,117
+tasks.
+Marijuana smoking increases blood flow in other brain regions, such as the 101,155
+frontal lobes and lateral cerebellum.
+Earlier studies purporting to show structural
+22
+changes in the brains of heavy marijuana users
+have not been replicated with more
+sophisticated techniques.
+28,89
+14,122
+Nevertheless, recent studies
+marijuana users after a brief period (19—24 hours) of marijuana abstinence. Longer term
+140
+Although these studies have attempted to match heavy marijuana users with subjects of similar cognitive
+abilities before exposure to marijuana use, the adequacy of this matching has been
+133
+cognitive deficits in heavy marijuana users have also been reported.
+have found subtle defects in cognitive tasks in heavy
+questioned.
+reviewed in an article by Pope and colleagues.
+are designed to differentiate between changes in brain function caused the effects of marijuana and by the illness for which marijuana is being given. AIDS dementia is an obvious example of this possible confusion. It is also important to determine whether repeated use of marijuana at therapeutic dosages produces any irreversible cognitive effects.
+Psychomotor Performance
+Marijuana administration has been reported to affect psychomotor performance on a
+23
+not only details the studies that have been done but also points out the inconsistencies among studies, the methodological
+shortcomings of many studies, and the large individual differences among the studies
+attributable to subject, situational, and methodological factors. Those factors must be
+considered in studies of psychomotor performance when participants are involved in a
+clinical trial of the efficacy of marijuana. The types of psychomotor functions that have
+been shown to be disrupted by the acute administration of marijuana include body sway,
+hand steadiness, rotary pursuit, driving and flying simulation, divided attention, sustained
+attention, and the digit-symbol substitution test. A study of experienced airplane pilots
+showed that even 24 hours after a single marijuana cigarette their performance on flight
+163
+Before the tests, however, they told the study investigators that they were sure their performance would be unaffected.
+The complex methodological issues facing research in this area are well
+number of tasks. The review by Chait and Pierri
+simulator tests was impaired.
+121
+Care must be exercised so that studies
+
+Cognitive impairments associated with acutely administered marijuana limit the activities that people would be able to do safely or productively. For example, no one under the influence of marijuana or THC should drive a vehicle or operate potentially dangerous equipment.
+Amotivational Syndrome
+One of the more controversial effects claimed for marijuana is the production of an
+"amotivational syndrome." This syndrome is not a medical diagnosis, but it has been used
+to describe young people who drop out of social activities and show little interest in
+school, work, or other goal-directed activity. When heavy marijuana use accompanies
+these symptoms, the drug is often cited as the cause, but no convincing data demonstrate
+23
+a causal relationship between marijuana smoking and these behavioral characteristics.
+is not enough to observe that a chronic marijuana user lacks motivation. Instead, relevant personality traits and behavior of subjects must be assessed before and after the subject becomes a heavy marijuana user. Because such research can only be done on subjects who become heavy marijuana users on their own, a large population study--such as the Epidemiological Catchment Area study described earlier in this chapter--would be needed to shed light on the relationship between motivation and marijuana use. Even then, although a causal relationship between the two could, in theory, be dismissed by an epidemiological study, causality could not be proven.

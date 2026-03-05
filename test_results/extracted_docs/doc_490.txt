@@ -1,0 +1,92 @@
+If the lander comes to rest on a rock, the entire lander may be tilted, but further
+maneuvering of the petals can be performed during surface operations to lower the overall tilt
+of the lander.
+Telecommunications during entry should provide significant information about the
+behavior of the entry, descent and landing subsystem. Digital data will not be acquired, however, because of the extremely weak signal.
+25
+The amplitude and frequency of the spacecraft will be observed in real-time during
+entry and descent, and may be seen during petal deployment, depending on the lander's orientation once it comes to a stop on the Martian surface. Changes in amplitude are expected at cruise
+stage separation, parachute deployment, surface impact and during the airbag retraction and
+petal deployment. Changes in frequency reflect changes in the spacecraft's speed and will be
+most pronounced during the period of peak deceleration.
+The spacecraft also will deliberately change the frequency of the subcarrier to signal
+other key events. These include heat shield separation, bridle deployment, crossing the threshold altitude of 600 meters (about 2,000 feet) above the surface, completion of airbag retraction
+and completion of the petal deployment sequence. These planned frequency changes -- called
+"semaphores" -- are not likely to be detected in real-time, but can be extracted by post-processing the recorded data. In addition, key spacecraft telemetry data will be recorded and played
+back after landing.
+Other key data to be transmitted to Earth include accelerometer measurements and
+selected atmospheric structure instrument measurements. The Deep Space Network's 70-meter
+(230-foot) and 34-meter (110-foot) antennas in Madrid, Spain, will be used to support entry
+communications.
+Prime Mission
+Mars Pathfinder's primary mission begins when its lander petals have been fully unfolded and the lander switches to a sequence of computer commands that will control its functions.
+The spacecraft lands about 2-1/2 hours before sunrise on Mars and will spend the time in darkness retracting its airbags, standing itself upright and opening the petals so that solar panels can
+be powered up after sunrise.
+The lander's first task will be to transmit engineering and science data collected during its
+descent through the thin atmosphere of Mars. If no errors are detected in these data and the
+spacecraft is basically healthy, a real-time command will be sent from Earth instructing the lander to unlock the imager camera head, deploy and point the high-gain antenna. If conditions
+are different than expected, which is not unlikely, the opeation team will execute a contingency
+plan that has been placed onboard the spacecraft in expectation of such conditions.
+In the normal plan, the lander's camera will begin taking images -- including a panoramic view of the Martian landscape -- and will begin transmitting the data directly to Earth at
+2,250 bits per second. The first images of the Martian landscape will tell engineers whether the
+airbags are fully retracted and whether the rover's exit ramp can be safely and successfully
+deployed. Once either or both ramps are deployed, additional images will be acquired to show
+the terrain beyond the ramps so that engineers can decide on the safest exit route. If the highgain antenna is not available, data will be sent over the lander’s low-gain antenna at a much
+lower rate of 40 bits per second. In this case, only a few, highly compressed images will be
+sent.
+26
+Once a decision on the route has been made, commands will be sent to deploy the rover.
+Sojourner will spend about a quarter of an hour exiting its ramp. The rover should be deployed
+within the first three days after landing.
+Driving off onto the floor of an old outflow channel, Sojourner will explore the surface
+at the command of Earth-based operators, who will rely on lander-based images to select a path
+and target for the rover. The six-wheeled Sojourner travels at 1 centimeter (0.4 inch) per second, performing mobility tests, imaging its surroundings and deploying an alpha proton x-ray
+spectrometer designed to study the elemental composition of rocks. During its prime mission,
+the rover will likely range a few tens of meters (yards) from the lander.
+Also mounted on the lander are wind sensors, wind socks and high- and low-gain antennas. Instruments will be used to measure the pressure, temperature and density of the Martian
+atmosphere. Magnets mounted on the lander will collect magnetic specimens of Martian dust
+and soil as small as 100 microns (about 1/250th of an inch).
+Extended Missions
+The primary mission lasts seven Martian days, or "sols," for the rover, and 30 Martian
+days, or "sols," for the lander. The rover could carry out an extended mission beyond that period, depending on how long its power sources and electronics last; engineers expect that the
+most probable reason for it to stop functioning is hot-cold cycling of its onboard electronics
+between Martian day and night.
+Sojourner's extended mission activities would include repeating soil mechanics experiments on various soils; additional spectrometer measurements of both rocks and soil; obtaining
+images of selected areas with the rover camera, including close-ups of the lander; obtaining
+images of the lander's landing and tumbling path; and traveling longer distances, with the possibility of going over the horizon, up to hundreds of meters (yards).
+For the lander, an extended mission lasting up to one year after landing is possible.
+Lander activities in the extended mission would include continued use of the lander camera to
+obtain images of the terrain and atmosphere, collection of key engineering telemetry and continued collection of meteorology data.
+Mission Operations
+All operations for Mars Pathfinder will be conducted at JPL, where the operations and
+science teams reside. Science data, both raw and processed, will be transferred after a period of
+validation to NASA's Planetary Data System archive for access and use by the planetary community at large and the general public. The Planetary Data System home page is at
+http://pds.jpl.nasa.gov/pds_home.html . Images from planetary missions are also available
+via the web from NASA’s Planetary Photojournal at http://photojournal.jpl.nasa.gov .
+27
+Spacecraft
+At launch the Mars Pathfinder spacecraft weighed about 895 kilograms (1,973 pounds),
+including its cruise stage, heat shield and backshell (or aeroshell), solar panels, propulsion
+stage, medium- and- high-gain antennas and 94 kilograms (207 pounds) of cruise propellant.
+The cruise vehicle measures 2.65 meters (8.5 feet) in diameter and stands 1.5 meters (5 feet)
+tall. The lander is a tetrahedron, a small pyramid standing about 0.9 meter (3 feet) tall with
+three triangular-shaped sides and a base.
+When Pathfinder is poised to enter the Martian atmosphere, its main components are the
+aeroshell, folded lander and rover, parachute, airbag system and three rocket engines.
+Combined, the spacecraft’s mass is about 570 kilograms (1,256 pounds) at entry.
+Once it has landed and its airbags have been deflated, Pathfinder’s mass will be about
+360 kilograms (793 pounds). Subsystems contributing to its landed weight include the opening/uprighting mechanism, lander cabling and electronics, instruments and rover. When it is
+unfolded and lying flat on the surface, the spacecraft will measure 2.75 meters (9 feet) across
+with a mast-mounted camera standing up about 1.5 meters (5 feet) from the ground.
+The lander is controlled by a derivative of the commercially available IBM 6000 computer. This processor and associated components are radiation-hardened and mounted on a single electronics board. The computer has a 32-bit architecture which executes about 20 million
+instructions per second. The computer will store flight software as well as engineering and science data, including images and rover information, in 128 megabytes of dynamic random
+access memory.
+During interplanetary cruise, the spacecraft requires 178 watts of electrical power, provided by 2.5 square meters (27 square feet) of gallium arsenide solar cells.
+The lander has three solar panels, with a total area of 2.8 square meters (30 square feet)
+and supplying up to 1,200 watt-hours of power per day on clear days. At night, the lander will
+operate on rechargeable silver zinc batteries with a capacity at the beginning of the Mars surface mission of more than 40 amp-hours.
+The Pathfinder lander carries a camera on a mast to survey its immediate surroundings.
+The camera has two optical paths for stereo imaging, each with a filter wheel giving 12 color
+bands in the 0.35 to 1.1 micron range; exposures through different filters can be combined to
+produce color images. The camera’s field-of-view is 14 degrees in both horizontal and vertical
+directions, and it will be able to take one frame (256 by 256 pixels) every two seconds.

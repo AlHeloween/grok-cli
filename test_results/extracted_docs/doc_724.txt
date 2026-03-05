@@ -1,0 +1,115 @@
+Ruth Porat, President and Chief Investment Officer; CFO, Alphabet and Google: Thank
+you, Philipp.
+We are very pleased with our financial results for the first quarter, driven in particular by
+strength in Search and Cloud, as well as the ongoing efforts to durably re-engineer our cost
+base.
+My comments will be on year-over-year comparisons for the first quarter, unless I state
+otherwise.
+I will start with results at the Alphabet level, followed by segment results, and conclude with our
+outlook.
+For the first quarter, our consolidated revenues were $80.5 billion, up 15% or up 16% in
+constant currency. Search remained the largest contributor to revenue growth.
+In terms of total expenses, the year-on-year comparisons reflect the impact of the restructuring
+charges we took in the first quarter of 2023, of $2.6 billion, as well as the $716 million in
+employee severance and related charges in the first quarter of 2024.
+As you can see in our earnings release, these charges were allocated across the expense lines
+in Other Cost of Revenues and OpEx based on associated headcount. To help with
+year-on-year comparisons, we included a table in our earnings release to adjust Other Cost of
+Revenues, operating expenses, operating income and operating margin to exclude the impact
+of severance and related office space charges in the first quarter of 2023 versus 2024.
+In terms of expenses, total Cost of Revenues was $33.7 billion, up 10%.
+Other Cost of Revenues was $20.8 billion, up 10% on a reported basis, with the increase driven
+primarily by content acquisition costs associated with YouTube, given the very strong revenue
+growth in both subscription offerings and ad-supported content.
+On an adjusted basis, Other Cost of Revenues were up 13% year-on-year.
+Operating expenses were $21.4 billion, down 2% on a reported basis, primarily reflecting
+expense decreases in sales and marketing and G&A, offset by an increase in R&D. The largest
+10
+single factor in the year-on-year decline in G&A expenses was lower charges related to legal
+matters.
+On an adjusted basis, operating expenses were up 5%, reflecting; first, in R&D, an increase in
+compensation expense, primarily for Google DeepMind and Cloud; and second, in Sales and
+Marketing a slight increase year-on-year, reflecting increases in compensation expense,
+primarily for Cloud sales.
+Operating income was $25.5 billion, up 46% on a reported basis, and our operating margin was
+32%.
+On an adjusted basis, operating income was up 31%, and our operating margin was 33%.
+Net income was $23.7 billion, and EPS was $1.89.
+We delivered free cash flow of $16.8 billion in the first quarter and $69.1 billion for the trailing
+12 months. We ended the quarter with $108 billion in cash and marketable securities.
+Turning to segment results, within Google Services, revenues were $70.4 billion, up 14%.
+Google Search & Other advertising revenues of $46.2 billion in the quarter were up 14%, led
+again by growth in retail.
+YouTube advertising revenues of $8.1 billion, were up 21%, driven by both direct response and
+brand advertising.
+Network advertising revenues of $7.4 billion were down 1%.
+Subscriptions, Platforms and Devices revenues were $8.7 billion, up 18%, primarily reflecting
+growth in YouTube subscription revenues.
+TAC was $12.9 billion, up 10%.
+Google Services Operating Income was $27.9 billion, up 28%, and the operating margin was
+40%.
+Turning to the Google Cloud segment, revenues were $9.6 billion for the quarter, up 28%,
+reflecting significant growth in GCP, with an increasing contribution from AI and strong Google
+Workspace growth, primarily driven by increases in average revenue per seat.
+Google Cloud delivered Operating Income of $900 million and an operating margin of 9%.
+As to our Other Bets, for the first quarter, revenues were $495 million, benefiting from a
+milestone payment in one of the Other Bets. The operating loss was $1 billion.
+11
+Turning to our outlook for the business, with respect to Google Services. First, within
+Advertising, we are very pleased with the momentum of our Ads businesses. Search had
+broad-based strength across verticals. In YouTube, we had acceleration in revenue growth
+driven by brand and direct response.
+Looking ahead, two points to call out. First, results in our advertising business in Q1 continued
+to reflect strength in spend from APAC-based retailers, a trend that began in the second quarter
+of 2023 and continued through Q1, which means we will begin lapping that impact in the
+second quarter.
+Second, the YouTube acceleration in revenue growth in Q1 reflects, in part, lapping the
+negative year-on-year growth we experienced in the first quarter of 2023.
+Turning to Subscriptions, Platforms and Devices. We continue to deliver significant growth in
+our subscriptions business, which drives the majority of revenue growth in this line. The
+sequential quarterly decline in year-on-year revenue growth for the line in Q1, versus Q4,
+reflects, in part, the fact that we had only one week of Sunday Ticket subscription revenue in
+Q1 versus fourteen weeks in Q4.
+Looking forward, we will anniversary last year's price increase in YouTube TV starting in May.
+With regard to Platforms, we are pleased with the performance in Play driven by an increase in
+buyers.
+With respect to Google Cloud, performance in Q1 reflects strong demand for our GCP
+infrastructure and solutions, as well as the contribution from our Workspace productivity tools.
+The growth we are seeing across Cloud is underpinned by the benefit AI provides for our
+customers. We continue to invest aggressively, while remaining focused on profitable growth.
+As we look ahead, two points that will affect sequential year-on-year revenue growth
+comparisons across Alphabet.
+First, Q1 results reflect the benefit of Leap Year, which contributed slightly more than one point
+to our revenue growth rate at the consolidated level in the first quarter.
+Second, at current spot rates, we expect a larger headwind from foreign exchange in Q2 versus
+Q1.
+Turning to margins, our efforts to durably re-engineer our cost base are reflected in a 400 basis
+point expansion of our Alphabet operating margin year-on-year, excluding the impact of
+restructuring and severance charges in both periods.
+You can also see the impact in the quarter-on-quarter decline in headcount in Q1, which reflects
+12
+both actions we have taken over the past few months and a much slower pace of hiring.
+As we have discussed previously, we are continuing to invest in top engineering and technical
+talent, particularly in Cloud, Google DeepMind and Technical Infrastructure.
+Looking ahead, we remain focused on our efforts to moderate the pace of expense growth in
+order to create capacity for the increases in depreciation and expenses associated with the
+higher levels of investment in our technical infrastructure. We believe these efforts will enable
+us to deliver full-year 2024 Alphabet operating margin expansion relative to 2023.
+With respect to CapEx, our reported CapEx in the first quarter was $12 billion, once again
+driven overwhelmingly by investment in our technical infrastructure, with the largest component
+for servers, followed by data centers.
+The significant year-on-year growth in CapEx in recent quarters reflects our confidence in the
+opportunities offered by AI across our business.
+Looking ahead, we expect quarterly CapEx throughout the year to be roughly at or above the
+Q1 level, keeping in mind that the timing of cash payments can cause variability in quarterly
+reported CapEx.
+With regard to Other Bets, we similarly have workstreams under way to enhance overall
+returns.
+Finally, as I trust you saw in the press release, we are very pleased to be adding a quarterly
+dividend of $.20 per share to our capital return program, as well as a new $70 billion
+authorization in share repurchases.
+The core of our capital allocation framework remains the same, beginning with investing
+aggressively in our business as you have heard us talk about today, given the extraordinary
+opportunities ahead. We view the introduction of the dividend as further strengthening our
+overall capital return program.
+Thank you. Sundar, Philipp and I will now take your questions.

@@ -1,0 +1,71 @@
+**What is Google Gemini (formerly Bard)?**
+Google Gemini -- formerly called Bard -- is an artificial intelligence (AI) chatbot tool designed by Google to simulate human conversations using natural language processing (NLP) and machine learning. In addition to supplementing Google Search, Gemini can be integrated into websites, messaging platforms or applications to provide realistic, natural language responses to user questions.
+
+List of tasks Google Gemini can perform.
+Google Gemini can be applied pragmatically to complete various tasks.
+Google Gemini is a family of multimodal AI large language models (LLMs) that have capabilities in language, audio, code and video understanding.
+
+Gemini 1.0 was announced on Dec. 6, 2023, and built by Alphabet's Google DeepMind business unit, which is focused on advanced AI research and development. Google co-founder Sergey Brin is credited with helping to develop the Gemini LLMs, alongside other Google staff.
+
+At its release, Gemini was the most advanced set of LLMs at Google, powering Bard before Bard's renaming and superseding the company's Pathways Language Model (Palm 2). As was the case with Palm 2, Gemini was integrated into multiple Google technologies to provide generative AI capabilities.
+
+Gemini integrates NLP capabilities, which provide the ability to understand and process language. Gemini is also used to comprehend input queries as well as data. It's able to understand and recognize images, enabling it to parse complex visuals, such as charts and figures, without the need for external optical character recognition (OCR). It also has broad multilingual capabilities for translation tasks and functionality across different languages.
+
+How does Google Gemini work?
+Google Gemini works by first being trained on a massive corpus of data. After training, the model uses several neural network techniques to be able to understand content, answer questions, generate text and produce outputs.
+
+Specifically, the Gemini LLMs use a transformer model-based neural network architecture. The Gemini architecture has been enhanced to process lengthy contextual sequences across different data types, including text, audio and video. Google DeepMind makes use of efficient attention mechanisms in the transformer decoder to help the models process long contexts, spanning different modalities.
+
+Gemini models have been trained on diverse multimodal and multilingual data sets of text, images, audio and video with Google DeepMind using advanced data filtering to optimize training. As different Gemini models are deployed in support of specific Google services, there's a process of targeted fine-tuning that can be used to further optimize a model for a use case. During both the training and inference phases, Gemini benefits from the use of Google's latest tensor processing unit chips, TPU v5, which are optimized custom AI accelerators designed to efficiently train and deploy large models.
+
+A key challenge for LLMs is the risk of bias and potentially toxic content. According to Google, Gemini underwent extensive safety testing and mitigation around risks such as bias and toxicity to help provide a degree of LLM safety. To help further ensure Gemini works as it should, the models were tested against academic benchmarks spanning language, image, audio, video and code domains. Google has assured the public it adheres to a list of AI principles.
+
+At launch on Dec. 6, 2023, Gemini was announced to be made up of a series of different model sizes, each designed for a specific set of use cases and deployment environments. The Ultra model is the top end and is designed for highly complex tasks. The Pro model is designed for performance and deployment at scale. As of Dec. 13, 2023, Google enabled access to Gemini Pro in Google Cloud Vertex AI and Google AI Studio. For code, a version of Gemini Pro is being used to power the Google AlphaCode 2 generative AI coding technology.
+
+The Nano model is targeted at on-device use cases. There are two different versions of Gemini Nano: Nano-1 is a 1.8 billion-parameter model, while Nano-2 is a 3.25 billion-parameter model. Among the places where Nano is being embedded is the Google Pixel 8 Pro smartphone.
+
+When was Google Bard first released?
+Google initially announced Bard, its AI-powered chatbot, on Feb. 6, 2023, with a vague release date. It opened access to Bard on March 21, 2023, inviting users to join a waitlist. On May 10, 2023, Google removed the waitlist and made Bard available in more than 180 countries and territories. Almost precisely a year after its initial announcement, Bard was renamed Gemini.
+
+Many believed that Google felt the pressure of ChatGPT's success and positive press, leading the company to rush Bard out before it was ready. For example, during a live demo by Google and Alphabet CEO Sundar Pichai, it responded to a query with a wrong answer.
+
+In the demo, a user asked Bard the question: "What new discoveries from the James Webb Space Telescope can I tell my 9-year-old about?" In Bard's response, it mentioned that the telescope "took the very first pictures of a planet outside of our own solar system." Astronomers quickly took to social media to point out that the first image of an exoplanet was taken by an earthbound observatory in 2004, making Bard's answer incorrect. The next day, Google lost $100 billion in market value -- a decline attributed to the embarrassing mistake.
+
+Why did Google rename Bard to Gemini and when did it happen?
+Bard was renamed Gemini on Feb. 8, 2024. Gemini was already the LLM powering Bard. Rebranding the platform as Gemini some believe might have been done to draw attention away from the Bard moniker and the criticism the chatbot faced when it was first released. It also simplified Google's AI effort and focused on the success of the Gemini LLM.
+
+The name change also made sense from a marketing perspective, as Google aims to expand its AI services. It's a way for Google to increase awareness of its advanced LLM offering as AI democratization and advancements show no signs of slowing.
+
+Who can use Google Gemini?
+Gemini is widely available around the world. Gemini Pro is available in more than 230 countries and territories, while Gemini Advanced is available in more than 150 countries at the time of this writing. However, there are age limits in place to comply with laws and regulations that exist to govern AI.
+
+Users must be at least 18 years old and have a personal Google account. However, age restrictions vary for the Gemini web app. Users in Europe must be 18 or older. In other countries where the platform is available, the minimum age is 13 unless otherwise specified by local laws. Also, users younger than 18 can only use the Gemini web app in English.
+
+Is Gemini free to use?
+When Bard became available, Google gave no indication that it would charge for use. Google has no history of charging customers for services, excluding enterprise-level usage of Google Cloud. The assumption was that the chatbot would be integrated into Google's basic search engine, and therefore be free to use.
+
+After rebranding Bard to Gemini on Feb. 8, 2024, Google introduced a paid tier in addition to the free web application. Pro and Nano currently are free to use via registration. However, users can only get access to Ultra through the Gemini Advanced option for $20 per month. Users sign up for Gemini Advanced through a Google One AI Premium subscription, which also includes Google Workspace features and 2 terabytes of storage.
+
+What can you use Gemini for? Use cases and applications
+The Google Gemini models are used in many different ways, including text, image, audio and video understanding. The multimodal nature of Gemini also enables these different types of input to be combined for generating output.
+
+Use cases
+Businesses can use Gemini to perform various tasks that include the following:
+
+Text summarization. Gemini models can summarize content from different types of data.
+Text generation. Gemini can generate text based on user prompts. That text can also be driven by a Q&A-type chatbot interface.
+Text translation. The Gemini models have broad multilingual capabilities, enabling translation and understanding of more than 100 languages.
+Image understanding. Gemini can parse complex visuals, such as charts, figures and diagrams, without external OCR tools. It can be used for image captioning and visual Q&A capabilities.
+Audio processing. Gemini has support for speech recognition across more than 100 languages and audio translation tasks.
+Video understanding. Gemini can process and understand video clip frames to answer questions and generate descriptions.
+Multimodal reasoning. A key strength of Gemini is its use of multimodal AI reasoning, where different types of data can be mixed for a prompt to generate an output.
+Code analysis and generation. Gemini can understand, explain and generate code in popular programming languages, including Python, Java, C++ and Go.
+Applications
+Google developed Gemini as a foundation model to be widely integrated across various Google services. It's also available for developers to use in building their own applications. Applications that use Gemini include the following:
+
+AlphaCode 2. Google DeepMind's AlphaCode 2 code generation tool makes use of a customized version of Gemini Pro.
+Google Pixel. The Google-built Pixel 8 Pro smartphone is the first device engineered to run Gemini Nano. Gemini powers new features in existing Google apps, such as summarization in Recorder and Smart Reply in Gboard for messaging apps.
+Android 14. The Pixel 8 Pro is the first Android smartphone to benefit from Gemini. Android developers can build with Gemini Nano through the AICore system capability.
+Vertex AI. Google Cloud's Vertex AI service, which provides foundation models that developers can use to build applications, also provides access to Gemini Pro.
+Google AI Studio. Developers can build prototypes and apps with Gemini via the Google AI Studio web-based tool.
+Search. Google is experimenting with using Gemini in its Search Generative Experience to reduce latency and improve quality.

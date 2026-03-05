@@ -1,0 +1,22 @@
+. Molchan v. Canada (Attorney General)
+ 
+
+ [49] The issue in Schembri was whether the Commission was bound to take into account the claimant’s financial circumstances when determining the penalty to impose. The claimant in that case had failed to report his earnings and collected unemployment benefits for several months. The Commission had calculated that the claimant had received a benefit overpayment of $4,130, which it sought to recover. It had also assessed a penalty under section 38 of the EIA, because the claimant had received unemployment benefits by knowingly misreporting his income contrary to paragraph 38(1)(c) of the EIA. In determining the amount of penalty payable, the Commission considered the claimant’s gambling addiction and his efforts to deal with it, and reduced the penalty by 25% to $3,097. The Board of Referees later exonerated the claimant from any penalty. The Umpire then found that the Commission had erred when it failed to undertake, on its own initiative, an inquiry into the claimant’s financial circumstances and whether it would cause the claimant undue hardship to pay the proposed penalty. The Umpire reduced the penalty imposed by the Commission from 75% to 10% of the amount of the overpayment.
+ 
+
+ [50] On judicial review, this Court held that the Commission was not required to initiate its own inquiries into a person’s financial circumstances before it imposed a penalty, noting that claimants have ample opportunities to request a reduction of the penalty on the ground of financial hardship at various stages of the process: before the penalty is imposed, on request for reconsideration and on appeal to the Board of Referees (Schembri at para. 14). Since the claimant had not raised the issue with the Commission and the Board of Referees, this Court decided that the Umpire should have held that the Board had no basis to interfere with the penalty.
+ 
+
+ [51] In my view, this Court’s findings in Schembri do not extend to the reconsideration of a claimant’s entitlement to benefits. The overpayment in Schembri was not in dispute, only the amount of penalty the claimant would have to pay. Subsection 38(1) of the EIA specifies the acts or omissions for which a claimant may be subject to a penalty and subsection 38(2) sets the maximum penalties the Commission may impose. Under section 41 of the EIA, the Commission may rescind the imposition of a penalty or reduce it, on the presentation of new facts or on being satisfied that the penalty was imposed without knowledge of, or on the basis of a mistake as to, some material fact. Furthermore the Commission may issue, under section 41.1, a warning instead of setting the amount of a penalty for an act or omission under subsections 38(2) and 39(2) of the EIA. The Commission thus enjoys a wide discretion in assessing the amount of penalty and may consider financial hardship to the claimant as a mitigating factor.
+ 
+
+ [52] This is consistent with the Commission’s policy regarding penalties, which mentions financial hardship as a possible mitigating circumstance when determining penalties (Digest of Benefit Entitlement Principles, section 18.5.2.2). It appears from the record that the Commission did not apply a penalty in Ms. Molchan’s case despite her false statements (Applicant’s record at 130, 173, 178).
+ 
+
+ .....
+ 
+
+ [55] In my view, the Appeal Division’s comments regarding Ms. Molchan’s ability to seek a write-off of her debt are consistent with the legislation, which sets out a specific procedure, a write-off, for undue hardship cases. Subparagraph 56(1)(f)(ii) of the Employment Insurance Regulations explicitly provides the Commission with the authority to write off an amount payable under section 43 of the EIA if repayment of the amount due would result in undue hardship to the claimant.
+ 
+
+ [56] That said, I am nonetheless of the view that the Appeal Division was clearly cognizant of and empathetic to the financial hardship to Ms. Molchan in having to repay her debt. Like the General Division, the Appeal Division implored the Commission and the Canada Revenue Agency to consider any request by Ms. Molchan to write off her debt, given the circumstances in which the overpayment arose. The Appeal Division even went as far as providing in a footnote the telephone number where she could call to seek relief.

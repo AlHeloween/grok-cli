@@ -1,0 +1,35 @@
+In theory, countries exchange assets with different risk profiles to smooth consumption fluctuations
+across future random states of nature. This intratemporal trade, an exchange of consumption across
+different states of nature that occur on the same date, may be contrasted with intertemporal trade, in
+which consumption on one date is traded for an asset entitling the buyer to consumption on a future
+date. Cross-border purchases of assets with other assets are intratemporal trades, purchases of goods or
+services with assets are intertemporal trades.
+A country’s intertemporal budget constraint limits the present value of its (state-contingent)
+expenditure (on consumption and investment) to the present value of its (state-contingent) output
+plus the market value of its net financial claims on the outside world (the net international investment
+position, or NIIP). Thus, a country’s ultimate consumption possibilities depend not only on the NIIP, but
+on the prices a country faces in world markets and its (stochastic) output and investment levels.
+Ideally, if a country has maximally hedged its idiosyncratic risk in world asset markets, its NIIP will
+respond to shocks (including shocks to current and future world prices) in ways that cushion domestic
+consumption possibilities. Furthermore, if markets are complete in the sense of Arrow and Debreu, asset
+trades between individuals will indeed represent Pareto improvements in resource allocation, so that it
+makes sense to speak of countries as if they consisted of representative individuals. But this type of world
+– a world without crises – is not the world we inhabit. In the real world, financial trades that one agent
+makes, viewing them as personally advantageous, canwork to the detriment of others. The implication is
+that the sheer volume of financial trade can be positively correlated with financial instability risks.
+It is in the realm of intratemporal asset trade that international trading volume has expanded most in
+recent years. Fig. 1 illustrates the process. The upper horizontal arrows represent (intratemporal) trade of
+presently available goods for other present goods between a home and a foreign country, with arrow
+lengths proportional to the value of the items exchanged. In the figure, Home ships a higher value of goods
+to Foreign than Foreign ships to Home, so the net difference (Home’s current account surplus)must be paid
+for by assets that Foreign pays to Home in settlement of the Foreign current account deficit. The implied
+intertemporal trade – of present consumption for claims on future consumption– is shown in the figure by
+the diagonal arrows, with lengths equal to the current account imbalance between Home and Foreign.
+The lower horizontal arrows in Fig. 1 represent intratemporal trade of assets for other assets by the
+two countries. Home buys more assets from Foreign than it sells – financing the difference through its
+current export surplus – but while the difference in the two arrows’ lengths is fixed by the size of the
+current account imbalance, the arrow lengths themselves can be arbitrarily big. At any point in time,
+the size of the current account imbalance is limited by output sizes and the sizes of predetermined
+international assets and liabilities – but there is no limit to the number of times funds can be recycled in
+different forms between Home and Foreign. In that process, the gross external assets and liabilities of
+the two countries can expand explosively.

@@ -1,0 +1,66 @@
+Simulations testing Celcomen’s identifiability guarantees
+ Simulations were done in Python and completed by first generating a ground truth genegene interaction matrix. This was achieved by creating a n-genes by n-genes matrix of
+ random values; for these experiments four genes were used. We then utilized Celcomen’s
+ generative module, Simcomen, to learn a spatially-resolved counts matrix reflective of the
+ ground truth gene-gene interaction matrix. Comparisons to the randomly initialized count
+ matrix are termed “Raw input” and those to the learned count matrix are termed “SCC
+ output”. To interrogate for self-consistency, we initialized Celcomen’s inference module
+ with a random gene-gene interaction matrix and asked it to utilize the learned count matrix
+ from Simcomen to decipher the ground truth gene-gene interaction matrix. Comparisons
+ to the Celcomen outputted gene-gene interaction matrix are termed “CCC output”.
+ Spearman correlation was used to compare the ground-truth gene-gene interaction
+ values and the simulated-then-inferred gene-gene interaction values to test for model
+ robustness and identifiability. For all exact parameter values utilized during the
+ experiments, see the “analysis.simulations.ipynb” notebook in the reproducibility GitHub.
+ Biological testing of Celcomen’s identifiability guarantees
+ Biological confirmation of Celcomen’s identifiability guarantee was done by training two
+ Celcomen inference module instances at the same time and comparing their derived
+ gene-gene interaction results. The first model instance, which we call sample-specific,
+ was trained only on one sample. The second model instance, which we call rest, was
+ trained on the remaining samples. Thus, these two model instances are never trained on
+ the same samples. Each model is trained to completion utilizing the same model
+ hyperparameters, and their gene-gene interaction matrices are retrieved after the final
+ epoch. We correlate a flattened version of their gene-gene interaction matrices using
+ Spearman’s correlation due to the possible non-linear nature of the matrices’ values. We
+ repeat this experiment for each of the samples in the fetal spleen dataset. The results
+ across each sample’s experiments are aggregated together and compared in a bar plot.
+ We derived a “random” control to compare to by shuffling the order of the flattened genegene interaction matrices and computing a correlation of the shuffled values. MannWhitney U test is used to derive p-values and all p-values are labeled on plot. For the full
+ code utilized, see the “analysis.biological.ipynb” notebook in the reproducibility GitHub.
+ Interferon knockout experiment on Xenium of human glioblastoma
+ Processed Xenium data was subjected to the inference module of Celcomen, CCE, and
+ then these gene-gene interaction values were annotated as containing cytoplasmic,
+ surface membrane (plasma membrane GO ID via GO cellular component), or secreted
+ (extracellular space GO ID also via GO cellular component) genes according to their GO
+ IDs from QuickGO36. IFITM3 was knocked out in a randomly selected previously IFITM3
+ positive cell. First neighbors were defined as less than 15 µm away and second neighbors
+ were defined as less than 30 µm away. Changes in each gene’s expression in each cell
+ were calculated and these changes in expression pre- and post- perturbation were
+ compared between different specified cellular subsets. These are the differential genes
+ later used for differential expression analysis and pathway enrichment. Gene set
+ enrichment analysis (GSEA) in R (v4.1.2) was utilized to perform pathway enrichment
+ analysis on differentially post-perturbation affected genes. The interferon signature was
+ derived directly from tissue by computing the differentially expressed genes between
+ interferon high and low cells and taking the top 25, excluding the perturbed IFITM3 as
+ that would bias analyses. For the full model parameters and code utilized, see the
+ “analysis.perturbation.ipynb” notebook in the reproducibility GitHub.
+ Counterfactual prediction validation via in vivo perturbed lung tumors
+ Spatial perturbation data was acquired from previously published Perturb-map
+ technology, GSE19346027. Their processed spaceranger output and annotations were
+ read in and wild-type (WT) lesions, as previously annotated, were identified and any spots
+ that were within two degrees of a perturbation specific cluster were trimmed away; this
+ was done via a <100 filter in spatial distance with the value of 100 visually acquired from
+ a histogram of spot-spot spatial distances (i.e. distance of 100 was the second non-zero
+ peak). Lesions were then fed into the Celcomen model to identify gene-gene relationships
+ and the trained gene-gene interaction matrix was used by Simcomen for counterfactual
+ predictions. In detail, each lesion was examined for Tgfbr2+ spots and had a random
+ positive spot knocked out (KO) in terms of Tgfbr2 expression. Simcomen then utilized the
+ learned gene-gene interaction matrix to predict the whole transcriptome of every spot post
+ perturbation. We then compared the change in expression in the KO spot compared to
+ WT spots. Spearman correlation was used to compare model Tgfbr2 KO versus WT gene
+ rankings with those directly derived from experimental Tgfbr2 KO spots and WT, i.e. the
+ published data includes an in vivo bona fide Tgfbr2 KO lesion and this was used as
+ ground truth. We derived “random” controls for each lesion by computing correlations on
+ shuffled gene rankings of the observed and predicted differentials between Tgfbr2 KO
+ and WT. Mann-Whitney U test is used to derive p-value when comparing observed lesion
+ derived gene rankings with those from random shufflings. For the full code utilized, see
+ the “analysis.biological.ipynb” notebook in the reproducibility GitHub.

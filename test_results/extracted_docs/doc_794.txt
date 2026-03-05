@@ -1,0 +1,20 @@
+Reducing Search Costs For Buyers and Sellers
+Buyers face search costs in obtaining and processing information about the prices and product features of seller offerings. These costs include the opportunity cost of time spent searching, as well as associated expenditures such as driving, telephone calls, computer fees, and magazine subscriptions. Similarly, sellers face search costs in identifying qualified buyers for their products, such as market research, advertising, and sales calls
+Several Internet-based technologies lower buyer search costs. Many sites help buyers identify appropriate seller offerings: for example, search engines like Alta Vista, Yahoo!, or Google.com; business directories like the one provided by Yahoo!; or specialized product and price comparison agents for specific markets, such as Pricewatch and Computer ESP for computers and components, Expedia and Travelocity for airline tickets and other travel products, Shopper.com and Yahoo Shopping for electronics, and Dealtime for books and music. Online agents like the one provided by R-U-Sure.com monitor consumer behavior and help buyers identify the most desirable prices and product offerings without requiring them to take specific action. Internet technology can also lower the cost to buyers of acquiring information about the reputations of market participants. Such reputations may be provided as part of the marketplace (for example, on eBay), or through specialized intermediaries, such as Bizrate, which rates retailers on specific attributes (like service, product quality, and delivery promptness) by surveying consumers who have recently purchased products from these retailers.
+The Internet lowers seller search costs as well, by allowing sellers to communicate product information cost-effectively to potential buyers, and by offering sellers new ways to reach buyers through targeted advertising and one-on-one marketing.
+By reducing search costs on both sides of the market, it appears likely that buyers will be able to consider more product offerings and will identify and purchase products that better match their needs, with a resulting increase in economic efficiency. But the reduction in search costs combined with new capabilities of information technology can set off more complex market dynamics, too.
+
+The Impact of Lower Search and Information Costs on Market Competition
+It may seem clear that lower search and information costs should push markets toward a greater degree of price competition, and this outcome is certainly plausible, especially for homogeneous goods. On the other hand, online retailers can use Internet technology to provide differentiated and customized products, and thus avoid competing purely on price. I will explore these possibilities in turn.
+
+The Benefits to Buyers of Greater Price Competition
+Lower search costs in digital markets will make it easier for buyers to find low-cost sellers, and thus will promote price competition among sellers. This effect will be most pronounced in commodity markets, where lowering buyers’ search costs may result in intensive price competition, wiping out any extraordinary seller profits. It may also be significant in markets where products are differentiated, reducing the monopoly power enjoyed by sellers and leading to lower seller profits while increasing efficiency and total welfare (Bakos, 1997).
+Some online markets may have lower barriers to entry or smaller efficient scales, thus leading to a larger number of sellers at equilibrium, and correspondingly lower prices and profits. In particular, certain small-scale sellers may have a brighter future in a wired world if they can identify appropriate niches, because they can more easily be searched for and discovered, as search costs online are less determined by geography.
+It may thus be expected that online markets will have more intense price competition, resulting in lower profits as well as the passing to consumers of savings from lower cost structures. For instance, online shoppers may expect a 20 to 30 percent discount for items normally priced $30-500 (Tedeschi, 1999).
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+Tirzepatide Significantly Reduces Sleep Disruptions
+ Alicia Ault
+ 
+
+ June 22, 2024
+ 
+
+ Add to Email Alerts
+ 28
+ 2407
+  
+ 
+
+ ORLANDO, Fla. — The diabetes and weight loss drug tirzepatide (Mounjaro for type 2 diabetes; Zepbound for obesity) was so effective at reducing sleep disruptions in patients with obesity and obstructive sleep apnea (OSA) that 40% to 50% no longer needed to use a continuous pressure airway positive (CPAP) device, according to two new studies.
+ 
+
+ Tirzepatide, a long-acting glucose-dependent insulinotropic polypeptide (GIP) receptor agonist and glucagon-like peptide-1 (GLP-1) receptor agonist, also lowered C-reactive protein levels and systolic blood pressure. And patients taking the medication lost 18% to 20% of their body weight. 
+ 
+
+ The SURMOUNT-OSA studies "mark a significant milestone in the treatment of OSA, offering a promising new therapeutic option that addresses both respiratory and metabolic complications," said lead author Atul Malhotra, MD, professor of medicine at University of California San Diego School of Medicine and director of sleep medicine at UC San Diego Health. 
+ 
+
+ The two double-blind randomized controlled trials in patients with obesity and moderate-to-severe OSA were conducted at 60 sites in nine countries. The results were presented here at the American Diabetes Association (ADA) 84th Scientific Sessions and simultaneously published online in the New England Journal of Medicine.
+ 
+
+ OSA affects 1 billion people worldwide and 30 million American adults, many of whom are undiagnosed. Obesity is a common risk factor. According to the ADA, 40% of those with obesity have OSA and 70% of those with OSA have obesity. 
+ CPAP is an effective and the most-used intervention for OSA, but many patients refuse to use the device, stop using it, or cannot use it. Should tirzepatide eventually gain US Food and Drug Administration (FDA) approval for OSA, it would be the first drug approved for the condition.
+ 
+
+ "This new drug treatment offers a more accessible alternative for individuals who cannot tolerate or adhere to existing therapies," said Malhotra.
+ 
+
+ Huge Reduction in Episodes, Severity
+ For the two studies, patients were enrolled who had moderate-to-severe OSA, defined as more than 15 events per hour (using the apnea–hypopnea index [AHI]) and a body mass index of 30 kg/m2 or greater. Those not using a CPAP device were enrolled in study 1, and those using a CPAP device were enrolled in study 2. 
+ 
+
+ Participants received either the maximum tolerated dose of tirzepatide (10 or 15 mg by once-weekly injection) or placebo for 1 year. In study 1, 114 individuals received tirzepatide and 120 received placebo. For study 2, 119 patients received tirzepatide and 114 received placebo. All participants received regular lifestyle counseling sessions about nutrition and were instructed to reduce food intake by 500 kcal/day and to engage in at least 150 min/week of physical activity.
+ 
+
+ Enrollment was limited to 70% men to ensure adequate representation of women.
+ 
+
+ At baseline, 65% to 70% of participants had severe OSA, with more than 30 events/hour on the AHI scale and a mean of 51.5 events/hour
+ 
+
+ By 1 year, patients taking tirzepatide had 27 to 30 fewer events/hour compared with 4 to 6 fewer events/hour for those taking placebo.
+ 
+
+ Up to half of those who received tirzepatide in both trials had less than 5 events/hour or 5 to 14 AHI events/hour and an Epworth Sleepiness Scale score of 10 or less. Those thresholds "represent a level at which CPAP therapy may not be recommended," write the authors.
+ 
+
+ Patients in the tirzepatide group also had a decrease in systolic blood pressure from baseline of 9.7 mm Hg in study 1 and 7.6 mm Hg in study 2 at Week 48.
+ 
+
+ The most common adverse events were diarrhea, nausea, and vomiting, which occurred in approximately a quarter of patients taking tirzepatide. There were two adjudicated-confirmed cases of acute pancreatitis in those taking tirzepatide in study 2. 
+ 
+
+ Patients who received tirzepatide also reported fewer daytime and nighttime disturbances, as measured using the Patient-Reported Outcomes Measurement Information System Short Form scale for Sleep-Related Impairment and Sleep Disturbance.
+ 
+
+ Tirzepatide Plus CPAP Are Best
+ Writing in an accompanying editorial, Sanjay R. Patel, MD, noted that although clinical guidelines have recommended that weight loss strategies be incorporated as part of OSA treatment, "the integration of obesity management into the approaches to care for obstructive sleep apnea has lagged."
+ 
+
+ As many as half of patients abandon CPAP therapy within 3 years, writes Patel, who is professor of medicine and epidemiology at the University of Pittsburgh, and medical director of the UPMC Comprehensive Sleep Disorders program. "An effective medication to treat obesity is thus an obvious avenue to pursue," he writes.
+ 
+
+ Patel noted the large reductions in the number of events on the AHI scale. He writes that the improvement in systolic blood pressure "was substantially larger than effects seen with CPAP therapy alone and indicate that tirzepatide may be an attractive option for those patients who seek to reduce their cardiovascular risk."
+ 
+
+ Patel raised concerns about whether patients outside of a trial would stick with therapy, noting studies have shown high rates of discontinuation of GLP-1 receptor agonists.
+ 
+
+ And, he writes, "Racial disparities in the use of GLP-1 receptor agonists among patients with diabetes arouse concern that the addition of tirzepatide as a treatment option for obstructive sleep apnea without directly addressing policies relative to coverage of care will only further exacerbate already pervasive disparities in clinical care for obstructive sleep apnea."
+ 
+
+ Commenting on the study during the presentation of the results, Louis Aronne, MD, said he believes the trials demonstrate "the treatment of obesity with tirzepatide plus CPAP is really the optimal treatment for obstructive sleep apnea and obesity-related cardiometabolic risks." Aronne is the Sanford I. Weill professor of metabolic research at Weill Cornell Medical College, New York.
+ 
+
+ Aronne added there is still much to learn. It is still not clear whether tirzepatide had an independent effect in the OSA trial — as has been seen in other studies where the drug clearly reduced cardiovascular risk — or whether the positive results were primarily due to weight loss.
+ 
+
+ "I believe that over time we'll see that this particular effect in sleep apnea is related to weight," he said.

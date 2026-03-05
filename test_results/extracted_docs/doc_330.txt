@@ -1,0 +1,126 @@
+The Interference Broadcast Channel with
+ Reconfigurable Intelligent Surfaces:
+ A Cooperative Sum-Rate Maximization Approach
+ 
+
+ Abstract—This paper studies the interference broadcast channel comprising multiple multi-antenna Base Stations (BSs), each
+ controlling a beyond diagonal Reconfigurable Intelligent Surface
+ (RIS) and serving multiple single-antenna users. Wideband
+ transmissions are considered with the objective to jointly design
+ the BS linear precoding vectors and the phase configurations
+ at the RISs in a distributed manner. We take into account
+ the frequency selectivity behavior of each RIS’s tunable metaelement, and focusing on the sum rate as the system’s performance criterion, we present a distributed optimization approach
+ that enables cooperation between the RIS control units and their
+ respective BSs. According to the proposed scheme, each design
+ variable can be efficiently obtained in an iterative parallel way
+ with guaranteed convergence properties. Our simulation results
+ demonstrate the validity of the presented distributed algorithm
+ and showcase its superiority over a non-cooperative scheme as
+ well as over the special case where the RISs have a conventional
+ diagonal structure.
+ 
+
+ IV. NUMERICAL RESULTS
+ In our simulations, all nodes were considered positioned on
+ a 3D Cartesian coordinate system. In particular, we have set
+ Q = 4 and located the BSs in a square of width w = 60 m
+ placing BS1 at the origin and the others at the remaining
+ corners, letting zBSq = 5 m ∀q= 1, 2, . . . , Q. For simplicity, we
+ considered Lq = 1 ∀q = 1, 2, . . . , Q, and the UEs were located
+ at the corners of a square, with origin at (30, 60) and width
+ equal to 2.5 m, letting also zUE = 1.5 m. Each RIS was placed
+ close to the corresponding BS with zRIS = 3 m: RIS1 was
+ fixed at (-2.5, 8.5), RIS2 at (62.5, 8.5), RIS3 at (-2.5, 111.5),
+ and RIS4 at (62.5, 111.5). All wireless wideband channels
+ were modeled as described in [13] with 16 delay taps. For
+ the fading component, we have considered distance-dependent
+ pathloss between any two nodes i, j with distance di,j (where
+ i, j ∈ {BS, UE, RIS}): PLi,j = PL0(di,j/d0)
+ -αi,j with
+ PL0 = ( λc
+ 4π
+ )
+ 2 denoting the signal attenuation at the reference
+ distance d0 = 1 m and λc represents the carrier wavelength,
+ with fc = 3.5 GHz. For the pathloss exponents, we have
+ set αBS,UE = 3.7, αBS,RIS = 2.2, and αRIS,UE = 2.6. Equal
+ transmit powers and noise variances was considered for all
+ users: Pq = P and σ
+ 2
+ ℓq,k = -90 dBm (∀k, ℓ, q), as well
+ as bandwidth BW = 0.1 GHz and the number K of SCs
+ was set to 64. For the algorithmic parameters, we have set
+ τ = 0.80 and a time-varying step size (as detailed in [10]).
+ The RIS circuit elements were set as in [9]. For comparison
+ purposes, we have also included the achievable rates for the
+ following schemes: i) “w/o RISs” with no RISs deployed; and
+ ii) “RISs” for Sq =IM. We have also simulated the equivalent
+ non-cooperative schemes for which “Π = 0”. We have used
+ 100 independent Monte Carlo realizations for all performance
+ evaluation results that follow.
+ In Fig. 1, we examine the performance of the proposed
+ design as a function of each BS’s transmit power P for the
+ various simulated cases. Evidently, all curves follow a nondecreasing trend as P gets larger. It is also demonstrated that
+ the achievable sum rate for the “BD-RISs” case outperforms
+ the cases with diagonal RISs and that of “w/o RISs,” especially
+ when P ≥ 25 dBm. This implies that the distributed schemes
+ outperform the corresponding non-cooperative ones, indicating that adequately optimized cooperative transmit/reflective
+ beamforming yields improved gains.
+ 
+
+ V. CONCLUSION
+ In this paper, we studied the RIS-empowered interference
+ broadcast channel and presented a cooperative approach for the
+ achievable sum-rate maximization with wideband transmissions. Our numerical investigation showcased the additional
+ degrees of freedom offered by the proposed optimized BD
+ RISs in the high transmit power regime, as well as the gains
+ offered by the cooperation among the multiple BSs.
+ 
+
+ II. SYSTEM MODEL AND PROBLEM FORMULATION
+ A. System Model
+ We consider a multi-RIS-empowered interference broadcast
+ channel comprising Q multi-antenna BSs, each wishing to
+ communicate in the downlink direction with multiple singleantenna User Equipments (UEs). We assume that each Nantenna BS sends information to its exclusively associated
+ UEs using OFDM in a common set of physical resources, e.g.,
+ time and bandwidth. Thus, each BS-UE communicating pair
+ is modeled as the superposition of a direct BS-UE link and a
+ BS-RIS-UE link realized via the RIS-enabled tunable reflection. Each RIS, comprising M passive reflecting elements, is
+ assumed to be controlled by its solely owned BS and is placed
+ either closely to it or near to the corresponding set of UEs [3].
+ According to the deployed OFDM scheme, the total bandwidth is equally split into K orthogonal Sub-Carriers (SCs). Let wℓq,k ∈ C
+ N×1
+ , with k = 1, 2, . . . , K represent the
+ linear precoding vector at each q-th BS that models the
+ digital spatial processing of its unit-power signal sℓq,k (i.e.,
+ E{|sℓq,k|
+ 2} = 1) before transmission. We assume that the
+ total transmit power available at each q-th BS is given by
+ Pq. Letting Lq denote the number of assigned UEs to the q-th
+ BS, the corresponding transmit signal xq,k can be compactly
+ expressed as: xq,k =
+ PLq
+ ℓ=1 wℓq,ksℓq,k. Thus, the condition
+ PLq
+ ℓ=1
+ PK
+ k=1∥wℓq,k∥
+ 2 ≤ Pq must be satisfied. We also consider a quasi-static block fading channel model for all channels
+ involved and focus on each particular fading block where the
+ channels remain approximately constant with perfect Channel
+ State Information (CSI) knowledge.
+ B. BD RIS Structure and Element Response
+ We consider a BD RIS structure [8], according to which
+ an M × M array of ON/OFF-state switches is deployed to
+ interconnect all RIS elements. Specifically, an ON-state at the
+ switch in the position (i, j) (i, j = 1, 2, . . . , M) of the switch
+ array indicates that the signal impinging on the i-th metamaterial element will be guided to and tunably reflected by the j-th
+ element. This behavior can be mathematically expressed by a
+ selection matrix Sq ∈ {0, 1}M×M (q = 1, 2, . . . , Q), whose
+ role is to indicate the switch array selection process at each
+ q-th RIS. In particular, each Sq is a binary-valued selection
+ matrix (i.e., [Sq]i,j ∈ {0, 1}) which by definition needs to
+ satisfy the property of having only one non-zero value per
+ row and column simultaneously and, thus, constitutes an extra
+ design parameter. Clearly, a typical diagonal RIS, which does
+ not require switches [2], is obtained by setting Sq = IM.

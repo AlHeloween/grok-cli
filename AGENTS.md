@@ -41,6 +41,7 @@ Follow the **entire** [docs/ADID_Framework_15_3.md](docs/ADID_Framework_15_3.md)
 2. **Use adm for changes.** **Adm is located at tools/** — use `tools/adm` (or `tools/adm.exe` on Windows) for declarative updates (template → edit descriptor in `updates/` → apply). Do not write XML descriptors from scratch. Run `tools/adm --help` when unsure. **Never restore from git** over local work; use `tools/adm --rollback <file>` and descriptor rollbacks. Using adm for file edits reduces the need for the paid Morph Fast Apply service.
 3. **Workflow:** Template → edit descriptor in `updates/` → apply. Backups are automatic.
 4. **App build and test:** Run `bun install` and `bun run build` at session start when touching code; run `bun run typecheck`, `bun run lint`, and `bun run test` before submitting changes.
+5. **Check plans and insights:** Review `plans/` for active development plans and `insights/` for previous learnings before starting new work. Move completed plans to `plans_completed/` and add new insights to document key findings.
 
 ---
 
@@ -61,6 +62,7 @@ Use the `skill` tool to load specialized instructions for particular tasks. Avai
 - `package.json` — Dependencies and scripts; use `bun install` at session start.
 - `README.md` — User-facing install, usage, RAG, MCP, config.
 - `AGENTS.md` — Operational rules for agents (this file).
+- `DOCIndex.md` — Project documentation index (file purposes, changes).
 - `docs/APPLICATION-SCHEME.md` — Module map and file roles.
 - `docs/AGENT.md` — Agent flow, tools, RAG, config, MCP.
 - `docs/settings.json.md` — All settings and env.
@@ -73,6 +75,9 @@ Use the `skill` tool to load specialized instructions for particular tasks. Avai
 - `src/tools/` — Text-editor, bash, search, todo, confirmation, optional Morph.
 - `src/config/` — Registry, effective-config.
 - `src/mcp/` — Config, client, transports.
+- `plans/` — Active development plans and subplans.
+- `plans_completed/` — Completed plans (moved from `plans/` after verification).
+- `insights/` — Key learnings, architectural insights, and retrospective notes.
 
 Source: [docs/APPLICATION-SCHEME.md](docs/APPLICATION-SCHEME.md) sections 2.1–2.7+.
 

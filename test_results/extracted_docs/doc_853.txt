@@ -1,0 +1,80 @@
+On July 20, 2022, the House Energy and Commerce Committee voted 53-2 to advance the American Data
+Privacy and Protection Act (ADPPA), H.R. 8152, to the full House of Representatives. The ADPPA would
+create a comprehensive federal consumer privacy framework. Some commentators have noted the bill’s
+novel compromises on two issues that have impeded previous attempts to create a national privacy
+framework: whether to preempt state privacy laws and whether to create a private right of action.
+The bipartisan bill is co-sponsored by House Energy and Commerce Committee Chairman Frank Pallone,
+Jr. and Ranking Member Cathy McMorris Rogers, and is promoted in the Senate by Commerce
+Committee Ranking Member Roger Wicker. In a joint statement, Representatives Pallone and McMorris
+Rodgers and Senator Wicker described the bill as “strik[ing] a meaningful balance” on key issues. Senate
+Commerce Committee Chair Maria Cantwell has critiqued the ADPPA as having “major enforcement
+holes,” prompting other commentators to question whether the Senate will pass the bill.
+This Sidebar first provides a summary of the version of the ADPPA ordered to be reported by the House
+Commerce Committee on July 20. It then compares several of the bill’s key provisions to other privacy
+bills from the 117th and 116th Congresses before examining some considerations for Congress.
+Summary of the Bill
+The ADPPA would govern how companies across different industries treat consumer data. While not an
+exhaustive summary, some key facets of the bill are as follows:
+ Covered Entities. The bill would apply to most entities, including nonprofits and
+common carriers. Some entities, such as those defined as large data holders that meet
+certain thresholds and service providers that use data on behalf of other entities
+(including covered entities, government entities, and other service providers), would face
+different or additional requirements.
+ Covered Data. The bill would apply to information that “identifies or is linked or
+reasonably linkable” to an individual.
+ Duties of Loyalty. The bill would prohibit covered entities from collecting, using, or
+transferring covered data beyond what is reasonably necessary and proportionate to
+provide a service requested by the individual, unless the collection, use, or disclosure
+would fall under one of seventeen permissible purposes. It also would create special
+protections for certain types of sensitive covered data, defined as sixteen different
+categories of data. Among other things, the bill would require covered entities to get a
+consumer’s affirmative, express consent before transferring their sensitive covered data to
+a third party, unless a specific exception applies.
+ Transparency. The bill would require covered entities to disclose, among other things,
+the type of data they collect, what they use it for, how long they retain it, and whether
+they make the data accessible to the People’s Republic of China, Russia, Iran, or North
+Korea.
+ Consumer Control and Consent. The bill would give consumers various rights over
+covered data, including the right to access, correct, and delete their data held by a
+particular covered entity. It would further require covered entities to give consumers an
+opportunity to object before the entity transfers their data to a third party or targets
+advertising toward them.
+ Youth Protections. The bill would create additional data protections for individuals under
+age 17, including a prohibition on targeted advertising, and it would establish a Youth
+Privacy and Marketing Division at the Federal Trade Commission (FTC). These
+additional protections would only apply when the covered entity knows the individual in
+question is under age 17, though certain social media companies or large data holders
+would be deemed to “know” an individual’s age in more circumstances.
+ Third-Party Collecting Entities. The bill would create specific obligations for third-party
+collecting entities, which are entities whose main source of revenue comes from
+processing or transferring data that they do not directly collect from consumers (e.g., data
+brokers). These entities would have to comply with FTC auditing regulations and, if they
+collect data above the threshold amount of individuals or devices, would have to register
+with the FTC. The FTC would establish a searchable registry of third-party collecting
+entities and a “Do Not Collect” mechanism by which individuals could request that all
+registered entities refrain from collecting covered data relating to the individual.
+The ADPPA has bipartisan support, and various interest groups and commentators, such as the Electronic
+Privacy Information Center, the Center for Democracy & Technology, and the Washington Post’s editorial
+board, have expressed enthusiasm for the bill. In an August 25 letter to House Speaker Nancy Pelosi,
+forty-eight different public interest groups urged Congress to move the ADPPA forward through
+Congress, stating that the bill is a “meaningful compromise” and that a failure to act may “forestall
+progress on this issue for years to come.” At the same time, some Members of Congress and other
+commentators have raised concerns with the bill. Senators Cantwell and Schatz, for example, have both
+criticized the bill’s failure to impose a “duty of loyalty” on covered entities. While the ADPPA has
+various requirements that are classified under a “Duty of Loyalty” heading, these requirements differ
+from those included in COPRA or the Data Care Act. COPRA’s “duty of loyalty” would prohibit
+businesses from engaging in “harmful” data practices, which the bill defines to mean using covered data
+“in a manner that causes or is likely to cause” injury to the subject of the covered data. The Data Care 
+Act’s “duty of loyalty” would prohibit covered providers from using data in a way that would “benefit the
+[provider] to the detriment of the end user” and would “result in reasonably foreseeable and material
+physical harm” or “be unexpected and highly offensive” to the end user. The ADPPA’s “Duty of Loyalty”
+imposes a data minimization requirement and defines several specific prohibited data practices, but it
+does not broadly prohibit providers from acting in ways that could harm individuals.
+Some have also raised concerns over the ADPPA’s preemption provisions. The Attorney General of
+California sent Congress a letter co-signed by nine other state attorneys general criticizing the ADPPA
+because it would set a “ceiling” for privacy rights rather than a “floor.” These state attorneys general
+argue that states should be allowed to adopt their own privacy laws so they can “legislate responsively” to
+changes in technology and practices. In the Commerce Committee’s July 20 markup of the ADPPA, some
+Members expressed similar concerns over the ADPPA’s preemption of state law. Other Members and
+commentators have pushed back on these criticisms, pointing to the strengths of the ADPPA’s protections
+and the importance of setting a federal standard.

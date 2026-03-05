@@ -1,0 +1,52 @@
+Introduction
+ More than 4 years after the COVID-19 pandemic began,
+ millions of people continue to suffer long-term sequelae of SARS-CoV-2 infection. Yet, despite thousands of academic papers (including 170 systematic reviews) mentioning “long COVID”, “post-acute (sequelae of) COVID-19”, “chronic COVID-19”, or “post-COVID-19 condition” in their titles or abstracts, many clinicians remain unsure of how to evaluate and manage individuals with post-COVID-19 condition (also known as long COVID). 
+ 
+
+ Reasons for this uncertainty include conflicting definitions; the existence of multiple putative pathophysiological mechanisms; the lack of a single, agreed upon and accessible biomarker that could be used for diagnosis, monitoring, and research; and changes in the natural history of this condition over time caused by (for example) viral evolution, vaccination, and novel therapeutics. All of these reasons are reflected in the sheer volume of research already published and the pace at which new papers are appearing. There are signs that virological, immunological, and other basic science research appears to be close to producing clinically relevant breakthroughs in diagnosis and treatment to augment current clinical practice, which is based largely on a rehabilitation therapy model of alleviating symptoms and optimising functional performance.
+ 
+
+ Particularly in the early months of the pandemic, many
+ people living with long COVID were undiagnosed, disbelieved, inadequately assessed, or inappropriately treated, an experience some individuals described as “medical gaslighting”. The dearth of clinical knowledge and scarcity of services at that crucial time helps explain the rapid emergence of online communities, which
+ fulfilled important roles in mutual support, information provision, activism, and research.
+ 
+
+ In this interdisciplinary Review, we had three goals. First, to make sense of the extensive research literature on long COVID, including literature on epidemiology, basic science, lived experience, and clinical trials of therapy. Second, to bring this state-of-the-science
+ summary into dialogue with current approaches and dilemmas in clinical practice. And third, to acknowledge and respond to the call “for patients’ ongoing contributions to be recognised and used to combat the suffering of multitudes”.
+ 
+
+ Definitions
+ 
+
+ The persisting sequelae and longer-term complications of COVID-19 were named long COVID by patients on May 20, 2020; the term was widely taken up and used by people living with these sequelae. The term long COVID, defined somewhat vaguely, was later formally
+ adopted by public health bodies in the USA, although WHO uses the term post-COVID condition and the UK National Institute for Health and Clinical Excellence prefers ongoing symptomatic COVID-19 and post-COVID-19 syndrome. These terms are defined in table 1. None of them requires a positive laboratory or lateral flow test.
+ 
+
+ The absence of consensus on a name or definition partly reflects prevailing confusion about underlying disease processes and natural history. Research would benefit from greater consensus on definitions, and ideally, such definitions should reflect pathological mechanisms. However, different definitions might be appropriate for different non-research purposes (eg, clinical care and monitoring, service planning, peer support, and activism).
+ 
+
+ Symptoms of long COVID and their impact
+ 
+
+ Manifestations of long COVID are heterogeneous, multisystemic (the condition can affect any and all organ systems), and can change over time. But patterns that are both diagnostically and prognostically important can usually be discerned through a careful history-taking process (panel 1). 
+ 
+
+ Many but not all people with long COVID have pre-existing conditions (including asthma, allergies,
+ attention deficit hyperactivity disorder, musculoskeletal pain, diabetes, poor mental health, insomnia, headaches, chronic fatigue, and frailty), which can exacerbate—and be exacerbated by—long COVID. When comorbidities are present, management requires a personalised approach that takes both long COVID guidance and other relevant factors (eg, patient priorities, practicalities, and the need to avoid investigation fatigue and polypharmacy) into account.
+ 
+
+ There are many parallels between long COVID and other known or suspected infection-associated chronic syndromes (also known as post-acute infection syndromes), including the sequelae of other
+ coronaviruses (SARS-CoV and MERS-CoV), West Nile virus, Epstein–Barr virus, and myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). Given these examples, the increased morbidity and mortality from organ damage in COVID-19 will possibly continue for
+ years (in West Nile Virus, for example, all-cause mortality was significantly elevated for at least 8 years after
+ infection).
+ 
+
+ Long COVID—one disease or many?
+ 
+
+ Initial advancements in our understanding of long COVID involved detailed analyses of patient-reported symptoms from surveys and electronic health records. These studies, most of which were undertaken by clinicians and did not include metabolic profiling,
+ generated various long COVID phenotypes on the basis of symptom clusters (see examples in table 2, which are listed by sample size). Clinical phenotyping studies applied different methods to different samples and—unsurprisingly—therefore produced different cluster patterns (or no clusters at all).
+ 
+
+ In all studies, there was considerable overlap between clusters, which is consistent with (but does not prove) the hypothesis that long COVID is, broadly speaking, “a single, multisystemic multifaceted post-viral disease rather than different pathologically-independent subsyndromes”. However, an alternative hypothesis is
+ that multiple discrete pathological processes do exist but produce overlapping phenotypes (eg, fatigue might have more than one pathological pathway), as we discuss in panel 2.

@@ -1,0 +1,28 @@
+Artificial Intelligence (AI) is having a powerful impact in the domain of finance. Estimates of the 10-year revenue figure vary but could be as high as $3 trillion. Over a similar period, the market value of AI firms is expected to grow at a 37% rate. Although the opportunities seem boundless, valuations conducted in the financial markets are increasingly complex to carry out for AI/tech stocks.
+ 
+
+ Artificial Intelligence in Finance: Valuations and Opportunities
+ Yosef Bonaparte
+ Finance Research Letters
+ A version of this paper can be found here
+ Want to read our summaries of academic finance papers? Check out our Academic Research Insight category.
+ What are the research questions?
+ While there is literature that describes the “domain” of artificial intelligence, there are very few, if any, that analyze the valuation and pricing of AI stocks. The authors attempt to fill the void with a two-part methodology.
+ What are Academic Insights?
+ The methodology combines behavioral and fundamental components. The fundamental model incorporates new AI innovation into the P/E ratio and R&D as a percentage of revenue.  FUNDAMENTAL: The key is to estimate future revenue as a function of the exposure of the stock to AI technology. The author uses Nvidia as an example of an overpriced (yes, overpriced!) stock in June 2023 via fundamentals as follows:
+ 
+
+ The results are hypothetical results and are NOT an indicator of future results and do NOT represent returns that any investor actually attained. Indexes are unmanaged and do not reflect management or trading fees, and one cannot invest directly in an index.
+ 
+
+ 2. BEHAVIORAL: The behavioral component is based on a technology sentiment index, using the Google trend of key technological terms. The key issue is to determine how the stock relates to AI technology. In the Nvidia case, the correlation between the Google Trend Index and Nvidia’s price acts as an estimate of how embedded the stock is to AI tech. Terms include: artificial intelligence, neural network, large language model, machine learning, generative AI, and deep learning. See Tables 1 and 2 below for estimates of the correlation for Nvidia over 2 separate time -periods. The estimate of AI sensitivity is found in Table 3. For Nvidia, the sum of artificial intelligence searches is 17.5% (from Table 1: 683 divided by total searches at 3904) and 35.2% when weighted across search terms. Nvidia has substantial exposure to AI terms, however, the exposure is less than the exposure of MSFT and GOOG. The same methodology can be used on other stocks to determine sensitivity to the AI opportunity.
+ 
+
+ Why does it matter?
+ The authors identified three key areas of knowledge an investor or analyst should acquire to understand how AI is transforming the financial landscape. First, develop a thorough understanding of the AI concept in terms of innovation and relevance to finance. Second, develop the methodologies for assessing AI companies and tech investment funds. Third, focus on the industry leaders in AI to provide context and provoke an examination of the future of AI. How will it influence the capital markets, how and what will drive growth in sales, and ultimately, how will valuations be influenced?
+ 
+
+  The most important chart from the paper
+ 
+
+ The results are hypothetical results and are NOT an indicator of future results and do NOT represent returns that any investor actually attained. Indexes are unmanaged and do not reflect management or trading fees, and one cannot invest directly in an index.

@@ -1,0 +1,53 @@
+What is the Air Quality Index?
+ The United States Environmental Protection Agency (EPA) established an Air Quality Index (AQI) to measure air pollutants. A higher AQI, with color codes and corresponding numbers (ranging from 0 to 500), means a greater health concern. (Local AQI information is available on various apps and websites, including www.airnow.gov.)
+ 
+
+ Particle pollution, also known as particulate matter (or PM), is a type of air pollutant made up of tiny particles of solids or liquids suspended in the air. It’s one of the main components of wildfire smoke, which is a mix of gases and fine particles from burning vegetation, as well as building and other materials.
+ 
+
+ Particulate matter includes PM10, inhalable particles that are 10 micrometers and smaller in diameter, and PM2.5, inhalable particles with diameters of 2.5 micrometers and smaller. PM2.5 poses a greater health risk than PM10 because the particles are so small (30 times smaller than the diameter of a human hair) and can get deep into the lungs and bloodstream.
+ 
+
+ Although air pollution is not good for anyone, certain groups are more sensitive to it than others, including those with heart or lung disease , older adults, infants and children, and pregnant women. As the AQI levels increase, the risk of health effects increases, especially among these more sensitive groups.
+ 
+
+ “The advice to limit strenuous activities is because when your respiratory rate is higher, you inhale more particulates,” says Dr. Redlich.
+ 
+
+ When the AQI is 201 and higher, everyone should be concerned about health risks and limit physical activity outdoors as much as possible, she adds.
+ 
+
+ For context, with the recent wildfires in Canada, the PM2.5 AQI climbed above 400 for a brief period in New York City in early June.
+ 
+
+ Why is particulate matter dangerous?
+ PM2.5 particles are so tiny that they get through the usual defense mechanisms of the upper airway and can penetrate deep into the lungs, where they can impair lung function, cause illnesses, such as bronchitis, and increase asthma attacks . The particles can also pass into the bloodstream and travel to other organs, where they can cause damage. In addition to respiratory problems, PM2.5 exposure has been linked to an increased risk of heart attack , stroke , lung cancer , and a decline in cognitive function.
+ 
+
+ “The health effects extend beyond respiratory issues and include the cardiovascular system,” Dr. Redlich says. “There is more extensive literature on particulate air pollution, in general, than forest fires specifically, but the indication is that wildfires have similar health effects. And there has been an explosion in research and understanding that even relatively low levels of air pollution can impact your lungs and heart, especially if you have asthma, chronic obstructive pulmonary disease [COPD] , or cardiac disease.”
+ 
+
+ The reason particle pollution has such systemic effects, Dr. Redlich explains, is that when you inhale these tiny particles, “they get everywhere through the bloodstream and trigger inflammatory pathways, which can exacerbate a number of underlying cardiac and respiratory conditions.”
+ 
+
+ Does a mask protect against wildfire smoke?
+ The best type of mask to wear for protection against wildfire smoke is a well-fitted N95 or P100 respirator with two straps that go around your head. The “95” and “100” refer to the percentage of particles filtered out by the mask. They are not specially made for children.
+ 
+
+ “A surgical mask probably does some good, but the N95 or even a KN95 is better,” Dr. Redlich says. “KN95s may be easier to find and may come in sizes that fit children better.”
+ 
+
+ The EPA provides a one-sheet with information on how to choose the right mask for wildfire smoke.
+ 
+
+ Is staying inside always best when the outdoor air quality is poor?
+ When the air quality is poor, the general advice is to go inside, shut the windows, and use an air conditioner (with a clean filter and the fresh-air intake closed). But, not every home has air conditioning or can be tightly sealed to keep the bad air out, Dr. Redlich explains.
+ 
+
+ “It’s not as though you go inside and the level drops to zero. Yes, going inside is usually a good idea, but you can also store poor air quality levels—or even air pollutants—in your home,” she says. “Plus, you can generate air pollutants inside by cooking, smoking cigarettes, and burning candles.”
+ 
+
+ These, Dr. Redlich says, are all things we have control over and can be avoided or mitigated with steps like using a vent over your kitchen stove.
+ 
+
+ Another step people can take to improve particulate air quality or reduce particulate air pollution in their homes is to use a portable air purifier with a HEPA (high efficiency particulate air) filter. The air purifier should be sized appropriately for the size of the room.

@@ -1,0 +1,39 @@
+IPv6 Quality-of-Service Capabilities
+ A host can use the flow label and the traffic fields in the IPv6 header. A host uses these fields to identify those packets for which the host requests special handling by IPv6 routers. For example, the host can request non-default quality of service or real-time service. This important capability enables the support of applications that require some degree of consistent throughput, delay, or jitter. These types of applications are known as multi media or real-time applications.
+ 
+
+ Flow Labels
+ A source can use the 20-bit flow label field in the IPv6 header. A source can use this field to label those packets for which the source requests special handling by the IPv6 routers. For example, a source can request non-default quality of service or real-time service. This aspect of IPv6 is still experimental and subject to change as the requirements for flow support in the Internet become clearer. Some hosts or routers do not support the functions of the flow label field. These hosts or routers are required to set the field to zero when originating a packet. Hosts or routers forward the field without changes when forwarding a packet. Hosts or routers ignore the field when receiving a packet.
+ 
+
+ What Is a Flow?
+ A flow is a sequence of packets that are sent from a particular source to a particular, unicast or multicast, destination. The source also requires special handling by the intervening routers. The nature of the special handling might be conveyed to the routers by a control protocol. The control protocol can be a resource reservation protocol. The special handling also might be conveyed by information within the flow's packets, for example, in a hop-by-hop option.
+ 
+
+ Active flows from a source to a destination can be multiple. Active flows can also contain traffic that is not associated with any flow. The combination of a source address and a nonzero flow label uniquely identifies a flow. Packets that do not belong to a flow carry a flow label of zero.
+ 
+
+ The flow's source node assigns a flow label to a flow. New flow labels must be chosen randomly, in a “pseudo” manner. New flow labels must also be chosen uniformly from the range 1 to FFFFF hex. This random allocation makes any set of bits within the flow label field suitable for use as a hash key by routers. The routers can use the hash key to look up the state that is associated with the flow.
+ 
+
+ Packets Belonging to the Same Flow
+ All packets that belong to the same flow must be sent with the same source address, same destination address, and same nonzero flow label. If any of those packets include a hop-by-hop options header, then the packets must be originated with the contents of the hop-by-hop options header. The next header field of the hop-by-hop options header is excluded. If any of those packets include a routing header, then the packets must be originated with the same contents in all extension headers. The same contents include all extensions before the routing header and the routing header. The next header field in the routing header is excluded. The routers or destinations are permitted, but not required, to verify that these conditions are satisfied. If a violation is detected, the violation should be reported to the source. The violation is reported by a problem message for an ICMP parameter, Code 0. The violation points to the high-order octet of the flow label field. The high-order octet is offset one octet within the IPv6 packet.
+ 
+
+ Routers are free to set up the flow-handling state for any flow. Routers do not need explicit flow establishment information from a control protocol, a hop-by-hop option, or other means. For example, when a router receives a packet from a particular source with an unknown, non-zero flow label, a router can process its IPv6 header. The router processes any necessary extension headers in the same way that the router processes extension headers with the flow label field set to zero. The routers also determine the next-hop interface. The routers might also update a hop-by-hop option, advance the pointer and addresses in a routing header, or decide how to queue the packet. The decision to queue the packet is based on the Traffic Class field of the packet. The routers can then choose to remember the results of the processing steps. Then, the routers can cache the information. The routers use the source address and the flow label as the cache key. Subsequent packets, with the same source address and flow label, can then be handled by referring to the cached information. The routers do not need to examine all those fields. The routers can assume that the fields are unchanged from the first packet that is checked in the flow.
+ 
+
+ Traffic Class
+ The nodes that originate a packet must identify different classes or different priorities of IPv6 packets. The nodes use the Traffic Class field in the IPv6 header to make this identification. The routers that forward the packets also use the Traffic Class field for the same purpose.
+ 
+
+ The following general requirements apply to the Traffic Class field:
+ 
+
+ The service interface to the IPv6 service within a node must supply the value of the Traffic Class bits for an upper-layer protocol. The Traffic Class bits must be in packets that are originated by that upper-layer protocol. The default value must be zero for all of the 8 bits.
+ 
+
+ Nodes that support some of the Traffic Class bits or all of the Traffic Class bits can change the value of those bits. The nodes can change only the values in packets that the nodes originate, forward, or receive, as required for that specific use. Nodes should ignore and leave unchanged any bits of the Traffic Class field for which the nodes do not support a specific use.
+ 
+
+ The Traffic Class bits in a received packet might not be the same value that is sent by the packet's source. Therefore, the upper-layer protocol must not assume that the values are the same.

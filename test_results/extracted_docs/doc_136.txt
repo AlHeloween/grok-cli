@@ -1,0 +1,41 @@
+OVERVIEW OF HOW NFTS HAVE BEEN CHARACTERIZED
+Property law perspective
+What rights do owners of NFTs actually own? In this respect, the concept of possession in
+property law is currently understood to apply only to tangible assets, and hence inapplicable
+to intangible assets.17 Marinoti explores the possibility of understanding the rights owned in
+intangibles such as NFTs from a property law perspective.18 He has argued that intangibles such
+as NFTs can be governed by property law, through reference to the concepts such as ‘possession’
+which is often related mainly to tangible property (i.e., things that are usually physical and that
+you can touch and identify, such as land and equipment, etc.).19 According to Marinoti, the
+true function of possession is communicative and its purpose is to convey the availability of an
+object discernible to an audience. He argued further that communities can also give this meaning through conduct and symbolic acts.20 The narrower concept ‘thinghood’, on the other hand,
+is often subsumed within the discussion on possession. Tinghood is defined by whether there
+are discernible boundaries around one thing to distinguish it from another. Physical tangibility
+is said to be only one way in which thinghood delineates boundaries; social practices and norms
+can similarly indicate boundaries.21
+Marinoti also suggested that property law doctrines like conversion and trespass can be
+extended to apply to digital assets.22 Even concepts such as the relativity of title (ie, wrongful
+13 See, eg, Vijayakumaran (n 10) 409. 14 See, eg, Michael D. Murray, ‘NFT Ownership and Copyrights’ (2023) Indiana Law Rev 366. 15 Many popular NFT projects such as CryptoPunks have been released with no explicitly written copyright terms. See, eg,
+Grimmelman, Yan and Kell (n 9). An instance is that of the popular NFT project CryptoPunks which has been released with no
+explicitly written copyright terms. 16 Tese are leading NFT marketplaces. See, eg, Bitdeal, ‘Top 7 NFT Marketplaces to look in 2023 and beyond’ (BLOG,
+2023) <www.bitdeal.net/top-7-nf-marketplaces-in-2023 -:~:text=Top 7 NFT Marketplaces 2023 1 1. OpenSea,Marketplace... 7
+7. Solanart NFT Marketplace > accessed 13 January 2024. 17 See, eg, Marinoti (n 11). 18 Ibid. 19 Ibid 1277. 20 Ibid 1236. 21 Ibid. 22 Ibid 1269.
+Downloaded from https://academic.oup.com/ijlit/article/32/1/eaae018/7746479 by guest on 17 September 2024
+4 • Tan
+possession can support an interest held by the wrongful possessor which is stronger than that
+of the world at large, save for the right owner) can arguably apply.23 While protecting wrongful
+possession may seem unjust, this could help avoid the scenario of having no legal recourse to an
+endless series of unlawful conversions of ‘NFTs’ after one single wrongful possession.24 To clarify, Marinoti’s reference to property law concepts drew from both real property and personal
+property laws, although this was not expressly stated.
+Along the same vein, other scholars such as Trautman and Fairfield have also proposed that
+the legal system should treat NFTs as digital personal property because NFTs comprise strong
+property interests through enabling parties to buy, sell, or own digital assets similar to personal
+property.25
+On the other hand, some scholars do not agree that NFTs should be defined as properties.
+Lee, for example, has analogized NFTs with library catalog cards to illustrate that the value of
+NFTs is derived from their underlying properties (ie, books) and to highlight that people do not
+own these properties when they transact in NFTs.26 Further, Moringiello and Odinet rejected
+the perception of any property rights in NFTs—through comparison of their characteristics
+with those of negotiable instruments, securities, deeds of real property, bills of lading and other
+legal tokens—reasoning that NFTs lack the tethering effect that other properties have and that
+it is meaningless to view them as such, thus NFT holders do not control anything substantive.27

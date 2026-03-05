@@ -1,0 +1,116 @@
+AI POLICY, NOW AND IN THE FUTURE
+Throughout history, humans have both shaped and adapted to new technologies. This
+report anticipates that advances in AI technologies will be developed and fielded
+gradually—not in sudden, unexpected jumps in the techniques themselves—and will
+build on what exists today, making this adaptation easier. On the other hand, small
+improvements to techniques, computing power, or availability of data can occasionally
+lead to novel, game-changing applications. The measure of success for AI applications
+is the value they create for human lives. Going forward, the ease with which people
+use and adapt to AI applications will likewise largely determine their success.
+Conversely, since AI applications are susceptible to errors and failures, a mark of
+their success will be how users perceive and tolerate their shortcomings. As AI becomes
+increasingly embedded in daily lives and used for more critical tasks, system mistakes
+may lead to backlash from users and negatively affect their trust. Though accidents
+in a self-driving car may be less probable than those driven by humans, for example,
+they will attract more attention. Design strategies that enhance the ability of humans
+to understand AI systems and decisions (such as explicitly explaining those decisions),
+and to participate in their use, may help build trust and prevent drastic failures. Likewise,
+developers should help manage people’s expectations, which will affect their happiness
+and satisfaction with AI applications. Frustration in carrying out functions promised
+by a system diminishes people’s trust and reduces their willingness to use the system
+in the future.
+Another important consideration is how AI systems that take over certain tasks
+will affect people’s affordances and capabilities. As machines deliver super-human
+performances on some tasks, people’s ability to perform them may wither. Already,
+introducing calculators to classrooms has reduced children’s ability to do basic
+arithmetic operations. Still, humans and AI systems have complementary abilities.
+People are likely to focus on tasks that machines cannot do as well, including complex
+reasoning and creative expression.
+Already, children are increasingly exposed to AI applications, such as interacting
+with personal assistants on cell phones or with virtual agents in theme parks. Having
+early exposure will improve children’s interactions with AI applications, which
+will become a natural part of their daily lives. As a result, gaps will appear in how
+younger and older generations perceive AI’s influences on society.
+43
+Likewise, AI could widen existing inequalities of opportunity if access to AI
+technologies—along with the high-powered computation and large-scale data that
+fuel many of them—is unfairly distributed across society. These technologies will
+improve the abilities and efficiency of people who have access to them. A person with
+access to accurate Machine Translation technology will be better able to use learning
+resources available in different languages. Similarly, if speech translation technology is
+only available in English, people who do not speak English will be at a disadvantage.
+Further, AI applications and the data they rely upon may reflect the biases of their
+designers and users, who specify the data sources. This threatens to deepen existing
+social biases, and concentrate AI’s benefits unequally among different subgroups
+of society. For example, some speech recognition technologies do not work well for
+women and people with accents. As AI is increasingly used in critical applications,
+these biases may surface issues of fairness to diverse groups in society. On the other
+hand, compared to the well-documented biases in human decision-making, AI-based
+decision-making tools have the potential to significantly reduce the bias in critical
+decisions such as who is lent money or sent to jail.
+Privacy concerns about AI-enabled surveillance are also widespread, particularly
+in cities with pervasive instrumentation. Sousveillance, the recording of an activity
+by a participant, usually with portable personal devices, has increased as well. Since
+views about bias and privacy are based on personal and societal ethical and value
+judgments, the debates over how to address these concerns will likely grow and resist
+quick resolution. Similarly, since AI is generating significant wealth, debates will grow
+regarding how the economic fruits of AI technologies should be shared—especially as
+AI expertise and the underlying data sets that fuel applications are concentrated in a
+small number of large corporations.
+To help address these concerns about the individual and societal implications
+of rapidly evolving AI technologies, the Study Panel offers three general policy
+recommendations:
+1. Define a path toward accruing technical expertise in AI at all
+levels of government. Effective governance requires more experts
+who understand and can analyze the interactions between AI
+technologies, programmatic objectives, and overall societal values.
+Absent sufficient technical expertise to assess safety or other metrics, national or
+local officials may refuse to permit a potentially promising application. Or insufficiently
+trained officials may simply take the word of industry technologists and green light a
+sensitive application that has not been adequately vetted. Without an understanding
+of how AI systems interact with human behavior and societal values, officials will be
+poorly positioned to evaluate the impact of AI on programmatic objectives.
+2. Remove the perceived and actual impediments to research on the
+fairness, security, privacy, and social impacts of AI systems.
+Some interpretations of federal laws such as the Computer Fraud and Abuse Act
+and the anti-circumvention provision of the Digital Millennium Copyright Act are
+ambiguous regarding whether and how proprietary AI systems may be reverse engineered
+and evaluated by academics, journalists, and other researchers. Such research is critical
+if AI systems with physical and other material consequences are to be properly vetted
+and held accountable.
+3. Increase public and private funding for interdisciplinary studies of
+the societal impacts of AI.
+As a society, we are underinvesting resources in research on the societal implications
+of AI technologies. Private and public dollars should be directed toward interdisciplinary
+44
+teams capable of analyzing AI from multiple angles. Research questions range from
+basic research into intelligence to methods to assess and affect the safety, privacy,
+fairness, and other impacts of AI.
+Questions include: Who is responsible when a self-driven car crashes or an
+intelligent medical device fails? How can AI applications be prevented from unlawful
+discrimination? Who should reap the gains of efficiencies enabled by AI technologies
+and what protections should be afforded to people whose skills are rendered obsolete?
+As AI becomes integrated more broadly and deeply into industrial and consumer
+products, it enters areas in which established regulatory regimes will need to be
+adapted to AI innovations or in some cases fundamentally reconfigured according to
+broadly accepted goals and principles.
+The approach in the United States to date has been sector-specific, with oversight
+by a variety of agencies. The use of AI in devices that deliver medical diagnostics and
+treatments is subject to aggressive regulation by the Food and Drug Administration
+(FDA), both in defining what the product is and specifying the methods by which it is
+produced, including standards of software engineering. The use of drones in regulated
+airspace falls under the authority of the Federal Aviation Administration (FAA).126 For
+consumer-facing AI systems, regulation by the Federal Trade Commission (FTC) comes
+into play. Financial markets using AI technologies, such as in high-frequency trading,
+come under regulation by the Security Exchange Commission (SEC).
+In addition to sector-specific approaches, the somewhat ambiguous and broad
+regulatory category of “critical infrastructure” may apply to AI applications.127 The
+Obama Administration’s Presidential Policy Directive (PPD) 21 broadly defines critical
+infrastructure as composed of “the assets, systems, and networks, whether physical or
+virtual, so vital to the United States that their incapacitation or destruction would have
+a debilitating effect on security, national economic security, national public health or
+safety, or any combination thereof.” Today, an enterprise does not come under federal
+regulation solely by falling under that broad definition. Instead, the general trend of
+federal policy is to seek regulation in sixteen sectors of the economy.128
+As regards AI, critical infrastructure is notably defined by the end-user application,
+and not the technology or sector that actually produces AI software.

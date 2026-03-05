@@ -1,0 +1,119 @@
+Transatlantic Tech Bridge: Digital Infrastructure and Subsea Cables, a US Perspective
+1. US strategic interests in digital infrastructure and its industrial policy
+ The United States’ overarching strategic goal is an open, secure, interoperable and 
+global internet, one where US digital leaders can compete (and win). This requires 
+trusted digital infrastructure. US investment in digital infrastructure reveals 
+both domestic and international priorities. The 2021 Bipartisan Infrastructure 
+Bill provides 65 billion US dollars for high-speed internet deployment.6 Its focus 
+is on providing connectivity for low-income households through the Affordable 
+Connectivity Program and reaching underserved rural, agricultural and tribal 
+areas.7 The “Internet for All” initiative manages grants for infrastructure and 
+training.8 In the international development space, digital infrastructure is one of 
+three pillars of USAID’s digital strategy and its digital ecosystem framework.9
+ US firms retain a leading position in the ownership of subsea cables, and along with 
+Japanese and French firms continue to supply the equipment for most projects. 
+Cables were traditionally owned by a consortium of telecom firms, but this model 
+has seen its share diminish with the influx of cables owned by content providers 
+(the hyperscalers). Unlike other digital technologies, the supply chain for the raw 
+materials that make up the cables is not dependent on China.10 Global cooperation 
+takes place through formats like the UN’s International Telecommunications 
+Union and multistakeholder arrangements like the International Cable Protection
+Committee. The United Nations Convention on the Law of the Sea (UNCLOS) 
+provides an important legal framework for ocean policy and undersea cables, 
+including cable protection zones and a dispute resolution framework. The US, 
+however, has failed to ratify UNCLOS for decades and even in the case of US 
+ratification, credible enforcement would be difficult.11
+Geopolitics and rising concerns about China have upended the world of subsea 
+cables. Digital infrastructure, and undersea cables in particular, fit into a wider 
+strategy for the US and are a key element of “outcompeting” China. This is leading 
+to what has been dubbed a “subsea cold war”.12 Concerns are multifaceted and 
+overlapping, including the physical security of infrastructure, espionage, economic 
+competitiveness and support for domestic firms, fears of technology leakage and 
+geopolitical competition. In promoting the view that “the digital backbones of the 
+modern economy must be open, trusted, interoperable, reliable, and secure”,13 US 
+strategy is highly focused on countering China’s “digital silk road”.
+ Digital infrastructure is critical, but also a potential vector for insecurity and 
+subject to disruptions, both accidental and deliberate. But attribution and assessing 
+conflicting motivations among potential adversaries can be difficult. There is 
+still significant uncertainty around cyberthreats and subsea cables, with limited 
+publicly available information or attribution. The majority of cable faults – around 
+a hundred per year – are attributable to accidental errors, such as damage from 
+fishing vessels, or geologic incidents.14 But the risk and fear of state-directed cyber
+attacks or physical sabotage is rising. Many examples remain hypothetical; and 
+concrete details or attribution are classified or unknown. One of the few known 
+events, a 2022 cyber-attack in Hawaii that the Department of Homeland Security 
+claimed to have foiled, was merely attributed to an “international hacking group”.15 
+Chinese ships have been accused of damaging cables in the Taiwan straits as part 
+of a pressure campaign on the island.16
+ The US is particularly concerned about potential for espionage from adversaries 
+like China and Russia. Tapping into and filtering the enormous quantities of 
+information on subsea cables is extremely difficult, especially at great depths,
+and only a few countries likely have such capabilities. Landing stations where 
+cables come ashore, however, have been identified as potential vulnerabilities, 
+where lax security could allow for monitoring or tapping of the cables. The US can 
+illustrate its concerns about growing control of infrastructure by adversaries by 
+pointing to cases like the Federated States of Micronesia, where China pressured 
+the government to grant it control of cables and telecom infrastructure via a 
+Memorandum of Understanding.17 The point here is that Chinese infrastructure 
+investments through the digital silk road will lead to de-facto control and facilitate 
+espionage. Cost-reduction measures by cable owners have also led to increased 
+deployment of remote network management systems, which introduce new 
+vulnerabilities to hacking or sabotage since they are connected to the internet.18
+ The US has responded to these concerns with legislation like the Secure and 
+Trusted Communications Networks Act of 2019, which charged the Federal 
+Communications Commission with carrying out the complex rip-and-replace 
+process for Huawei-made infrastructure domestically.19 The US has also expressed 
+concerns about Europe’s reliance on 5G infrastructure from Huawei.20 The National 
+Security Strategy released in October 2022 warns that autocratic governments 
+“leverage access to their markets and control of global digital infrastructure for 
+coercive purposes” and cites China as a source of “untrusted digital infrastructure”.21
+ The US has also acted to ensure continued market dominance by US and allied 
+firms. Between 2015 and 2019, Chinese investments through the digital silk road 
+led to control by Huawei Marine (which became HMN Tech in 2019) of about 15 
+per cent of the global market.22 Sanctions were placed on HMN Tech in 2021, citing 
+its “intention to acquire American technology to help modernize China’s People’s 
+Liberation Army”.23 This issue also predates the current Biden Administration. 
+In addition to sanctions placed on Huawei, President Trump’s “Executive Order 
+on Establishing the Committee for the Assessment of Foreign Participation in 
+the United States Telecommunications Services Sector” provided structure to 
+an interagency team known as “Team Telecom” charged with reviewing foreign
+investment in telecom and broadcast firms.24 Run by the Department of Justice’s 
+National Security Division, it makes licensing recommendations to the Federal 
+Communications Commission with the goal of ensuring that no cable directly 
+connects the US and the Chinese mainland or Hong Kong.25 The US Congress has 
+also been somewhat vocal on the issue. For example, the Undersea Cable Control 
+Act passed the House in March 2023.26
+ Recent years have therefore seen significant shifts in undersea cable investment, 
+with many new cables rerouted to avoid China and the South China Sea.27 While 
+warnings of an undersea splinternet may be exaggerated, the sector is nevertheless 
+seeing important shifts in investment, particularly for transpacific cables. From 
+2016 to 2020, 75 per cent of cables included at least one Chinese owner. Projections 
+for 2021–2025 plummet to 0 per cent (see Figure 2). Significant reductions are 
+apparent in other Asia connections as well.
+The US government has also intervened in cases of Chinese involvement in 
+infrastructure projects and exerted pressure which has led to cancellation of 
+cable initiatives or contracts if awarded to Chinese firms. For example, a 2018 
+proposed consortium led by Amazon, Meta and China Mobile met with opposition 
+from Washington. US security concerns remained even following China Mobile’s 
+departure, and the project was shelved despite much of the cable having already 
+been laid.28 The 600 million US dollar SeaWeMe-6 cable connecting Singapore to 
+France was awarded to the US’s SubCom over HMN Tech following diplomatic 
+pressure and incentives like training grants to local telecom firms from the US 
+Trade and Development Agency.29 At the same time, this pressure, along with 
+sanctions, has influenced cable-building endeavours that do not include US 
+investors or connect geographically to the US.30
+ Such events illustrate the strategic competitive and economic interests at stake, 
+as technology becomes a key site of geopolitical competition. In order to counter 
+China, the United States is working to build a network of partnerships on digital 
+infrastructure. The US CABLES programme provides capacity building and 
+technical assistance to members of the Quad alliance in the Indo-Pacific.31 The 
+Partnership for Global Infrastructure and Investment (PGII) through the G7 aims 
+to offer an alternative to China’s Belt and Road Investments,32 and included cables 
+as part of a recent PGII announcement on the sidelines of the G20.33 The US also 
+launched the Trilateral Partnership for Infrastructure Investment with Australia 
+and Japan in 2018.34 The NATO undersea infrastructure coordination cell, launched 
+in 2023, coordinates between military, civilian and industry interests in subsea 
+infrastructure to increase security.35 The State Department’s 2020 Clean Network 
+Initiative, whose scope extends beyond subsea cables, created a set of shared 
+principles and practices for countries and companies with the goal of blocking 
+Chinese market dominance.36

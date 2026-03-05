@@ -1,0 +1,92 @@
+Legal Authority
+The FTC relied on Sections 5 and 6(g) of the Federal Trade Commission Act (FTC Act) in promulgating
+the Non-Compete Rule. Section 5 prohibits “unfair methods of competition” (UMC) and empowers the
+FTC to enforce that prohibition through adjudication. Section 6 is titled “Additional powers of
+Commission.” It confers a range of authorities, most of which involve investigations and the publication
+of reports. The provision also includes Section 6(g), which empowers the FTC to “from time to time
+classify corporations and . . . to make rules and regulations for the purpose of carrying out” the FTC Act.
+Sections 5 and 6(g) were both part of the original FTC Act, which Congress enacted in 1914. Since the
+statute’s enactment, Congress has adopted several laws granting the FTC rulemaking authority over
+discrete subjects, including the Wool Products Labeling Act, the Textile Fiber Products Identification Act,
+the Fur Products Labeling Act, the Flammable Fabrics Act, and the Fair Packaging and Labeling Act.
+The FTC first asserted that Section 6(g) endows it with general substantive rulemaking power in 1962,
+and the agency adopted a number of trade regulation rules in the years that followed. Some of those rules
+defined certain conduct as both a UMC and an “unfair or deceptive act or practice” (UDAP)—a separate
+category of conduct prohibited by Section 5. Other rules relied only on the FTC’s UDAP power. One rule
+relied solely on the FTC’s competition authority, but was never enforced and has been repealed.
+In the 1970s, a trade association challenged the FTC’s authority to issue substantive rules under
+Section 6(g) in National Petroleum Refiners Association v. FTC. The trade association argued that
+Section 6(g) authorized only procedural rules, emphasizing that the FTC had not asserted substantive
+rulemaking authority under Section 6(g) until 1962 and that FTC officials had occasionally denied the
+existence of such authority. The trade association also contended that Congress’s enactment of several
+statutes granting the FTC specific rulemaking authorities implied that the FTC lacked general rulemaking
+authority.
+The U.S. Court of Appeals for the D.C. Circuit rejected those arguments. In affirming the FTC’s power to
+issue legislative rules under Section 6(g), the court relied on appellate decisions construing similar
+statutes as authorizing substantive rulemaking, the advantages of rulemaking in effectuating the FTC
+Congressional Research Service 3
+Act’s purposes, and the absence of any limiting language in the statutory text. The D.C. Circuit
+downplayed the fact that the FTC had not claimed general rulemaking authority until 1962, reasoning that
+the agency’s earlier interpretation of its legal authority did not warrant judicial deference. The court also
+concluded that Congress may have provided the FTC with more specific rulemaking authorities based on
+“uncertainty, understandable caution, and a desire to avoid litigation,” rather than a firm conviction that
+the FTC lacked general rulemaking authority.
+Two years after the National Petroleum Refiners decision, Congress enacted the Magnuson-Moss Act,
+which imposed special procedural requirements for the FTC’s UDAP rules and eliminated the FTC’s
+authority to issue such rules under Section 6(g). Magnuson-Moss did not by its terms affect the FTC’s
+authority to issue UMC rules: the statute included a provision disclaiming an intent to affect “any
+authority of the Commission to prescribe rules (including interpretive rules), and general statements of
+policy, with respect to unfair methods of competition.”
+Despite this language in Magnuson-Moss, the FTC’s putative authority to issue UMC rules has been
+dormant since the enactment of that statute. The Non-Compete Rule marks the first rule promulgated
+under Section 6(g) since the 1970s and the second rule ever that relies solely upon the FTC’s competition
+authority.
+A 1983 decision from the U.S. Court of Appeals for the Seventh Circuit agreed with the D.C. Circuit’s
+reasoning in National Petroleum Refiners, but no other federal appellate court has addressed the FTC’s
+authority to issue legislative rules under Section 6(g). Whether the FTC possesses such authority remains
+unsettled; some commentators have argued that National Petroleum Refiners was wrongly decided and
+that it is unlikely that modern courts would reach the same conclusion.
+In issuing the Non-Compete Rule, the FTC defended its authority to issue substantive rules under
+Section 6(g) by pointing to the provision’s plain meaning and the D.C. Circuit’s decision in National
+Petroleum Refiners. The FTC also argued that Congress implicitly ratified the D.C. Circuit’s decision in
+both the Magnuson-Moss Act and the Federal Trade Commission Improvements Act of 1980 (the 1980
+Amendments). The 1980 Amendments imposed procedural requirements that the FTC must follow in
+issuing any “rule.” It defined the term “rule” to include rules promulgated under Section 6 or
+Magnuson-Moss. The statute excluded from that definition “interpretive rules, rules involving
+Commission management or personnel, general statements of policy, or rules relating to Commission
+organization, procedure, or practice.” The FTC argued that this exclusion confirms its authority to issue
+rules under Section 6 that are not merely “interpretive rules, rules involving Commission management or
+personnel, general statements of policy, or rules relating to Commission organization, procedure, or
+practice.”
+The FTC’s authority to issue the Non-Compete Rule depends not only on whether Section 6(g) authorizes
+legislative rulemaking, but also on the scope of Section 5’s prohibition of UMC. The Supreme Court has
+repeatedly said that Section 5 is broader than the Sherman Act and the Clayton Act (the other core federal
+antitrust laws). However, the scope of this additional coverage—often called the FTC’s “standalone”
+Section 5 authority—is unsettled.
+Under previous leadership, the FTC took a narrow view of its standalone Section 5 authority. In a 2015
+policy statement, the FTC indicated that decisions to bring standalone Section 5 actions would be guided
+by considerations of consumer welfare, that the FTC would evaluate challenged conduct under “a
+framework similar to the rule of reason,” and that the FTC was less likely to bring a standalone Section 5
+action if enforcement of the Sherman Act or Clayton Act was sufficient to address the relevant
+competitive harm.
+The FTC rescinded this policy statement in 2021 and issued a new Section 5 policy statement the
+following year. In the 2022 policy statement, the FTC identified “two key criteria” it will consider in
+evaluating whether a “method of competition” is “unfair.” First, the FTC indicated that “unfair” conduct
+Congressional Research Service 4
+“may be coercive, exploitative, collusive, abusive, deceptive, predatory, or involve the use of economic
+power of a similar nature,” and “may also be otherwise restrictive or exclusionary.” Second, the FTC
+explained that such conduct “must tend to negatively affect competitive conditions”—for example, by
+foreclosing or impairing the opportunities of market participants, reducing competition between rivals,
+limiting choice, or otherwise harming consumers. The 2022 policy statement indicated that this second
+inquiry will not turn on whether conduct directly causes harm in particular cases, but instead will focus on
+whether conduct “has a tendency to generate negative consequences.”
+In promulgating the Non-Compete Rule, the FTC found that non-competes violate Section 5 because they
+represent “restrictive and exclusionary conduct that tends to negatively affect competitive conditions” in
+labor markets and product and service markets. The FTC also determined that non-competes for workers
+other than senior executives violate Section 5 because they constitute “exploitative and coercive conduct
+that tends to negatively affect competitive conditions” in labor markets and product and service markets.
+(A previous Legal Sidebar provides a more extensive discussion of the FTC’s justification for the
+Non-Compete Rule.)
+Two FTC Commissioners voted against the Non-Compete Rule, arguing that the FTC lacks the authority
+to issue substantive competition regulations and that the evidence did not justify a categorical prohibition
+of non-competes.

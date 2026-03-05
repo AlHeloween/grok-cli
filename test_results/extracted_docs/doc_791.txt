@@ -1,0 +1,79 @@
+Smart trams have successfully addressed the problem.The main objective of this initiative is to reduce the length of
+time that customers have to wait before they can pay their bills [1]. The pricing and billing for the items in the cart
+are automated. This application comprises an Arduino Uno, an LCD display, a buzzer, RFID tags, and an RFID
+reader. The Arduino development board used in this system has fully accessible input/output pins to enable
+communication with the reader. The trolley is outfitted with an RFID reader, and each product is linked to an RFID
+tag [2]. Once the products have been placed in the shopping cart, the RFID reader quickly deciphers the tags. The
+relevant information, such as the product's name, price, and quantity, is then shown on the LCD screen. The user
+will receive a prompt to scan the product using an automated alert system equipped with a buzzer. As a result, a bill
+is produced immediately on the cart. The eradication of human error is a direct result of the full automation of the
+process. Every day, a substantial amount of people are attracted to shopping malls in order to participate in
+shopping, self-improvement, and entertainment [3]. With the increasing popularity of online shopping, traditional
+retail stores have faced challenges in maintaining their customer base. Shopping malls have been actively seeking
+innovative methods to offer a customized shopping experience in order to attract and retain customers. An effective
+approach involves employing intelligent individuals to monitor and oversee the movement of shopping carts.
+Autonomous shopping carts, which are engineered to replicate human locomotion, possess the capability to
+autonomously track customers, thereby obviating the necessity for them to manually propel the cart [4]. This
+technology provides shoppers with simplicity and convenience, enabling them to concentrate on their purchases
+while deriving pleasure from the experience. While a customer is making purchases, their location is monitored by
+an intelligent trolley that integrates numerous sensors and cameras. The utilization of intelligent shopping carts that
+monitor human movements provides the benefit of augmenting a customised shopping experience. Patrons are able
+ABSTRACT
+Time is an expensive resource in our fast-paced society, and people frequently lose a good deal of it waiting at supermarket and shopping mall
+checkout counters. An automated intelligent shopping cart has been designed for supermarkets to solve the shortcomings of the current billing
+systems. This trolley reduces the amount of time customers spend at the checkout counter, improving convenience and saving time, by scanning
+products using the Atmega 328 controller and RFID tags. Customers can better their shopping experience by monitoring the amount of items and the
+overall cost thanks to the digital document shown on an LCD. With electronic bills sent via email and thorough purchase information available
+through the shop's website, the intelligent cart manages shopping and payment procedures, allowing customers to buy things and leave the store fast.
+In order to manage product and customer information, this system needs an Arduino board, an RFID reader, an RFID tag, an LCD display, a database
+manager, and a website. Leveraging the Internet of Things (IoT) for smooth connection with the worldwide network, the administrator can access this
+information anywhere.
+Keywords: Arduino UNO; Ultrasonic sensor; IR sensor; DC motors; RFID reader; LCD display; Atmega328 controller; Motor drivers.
+Irish Interdisciplinary Journal of Science & Research (IIJSR)
+Volume 8, Issue 2, Pages 113-122, April-June 2024
+ISSN: 2582-3981 [114]
+to effortlessly traverse the establishment, circumventing the necessity to push their shopping cart or be concerned
+with its misplacement. By effortlessly concentrating on the products they are interested in purchasing, they are able
+to dedicate more time to perusing [5].
+Customers with limited mobility or disabilities get an added level of assistance from intelligent shopping carts that
+track and follow them. These customers may find it difficult to propel a shopping cart. Nevertheless, the intelligent
+trolley presents a viable resolution that holds the capacity to augment the ease and pleasure derived from the act of
+shopping [6]. In addition, the integration of intelligent shopping carts—which possess the capability to
+independently navigate and accompany customers—substantially augments the shopping experience in terms of
+convenience and effectiveness. Consumers are able to effortlessly locate the desired products, incorporate them
+into their shopping carts, and proceed to the subsequent item without the necessity of monitoring their carts. As a
+result, patrons are able to enhance their shopping experience through time conservation and a reduction in the
+customary anxiety linked to the procedure [7].
+By maintaining a linear trajectory, the robot is capable of traversing the lane of shopping racks with ease. An
+ultrasonic sensor is additionally affixed to the front of the robotic vehicle. The sensor is utilized to determine the
+user's proximity to the robot [8]. The customer is monitored by the robot from a predetermined distance as they
+navigate the shopping lane. The system therefore recommends a sophisticated shopping cart for contemporary
+shopping malls. A smart shopping cart that makes use of Internet of Things (IoT) technology is the proposed
+concept [9]. A versatile application and Radio Frequency Identification (RFID) sensors are integrated into it.
+Additionally, an Arduino microcontroller is also present. RFID sensors operate via wireless transmission. The
+process consists of two essential elements: an RFID tag affixed to every item and a user-specific RFID reader that
+efficiently scans the item data. The corresponding data for each item is then displayed within the mobile
+application. The client effectively oversees the shopping list using the adaptable application in accordance with
+their personal preferences. The shopping information is subsequently transmitted remotely to the employee, who
+generates the charges. The primary aim of this testing framework is to eliminate arduous shopping processes and
+technical administration complications. Subsequently, the proposed framework may be readily deployable and
+verifiable in an extensive operational setting [10]. This clarifies the rationale behind the proposed model's higher
+level of stringency in comparison to alternative methodologies.
+The integration of state-of-the-art technologies into a smart shopping cart is intended to revolutionize the traditional
+shopping experience in multiple ways. It optimizes operational effectiveness through the provision of user-friendly
+functionalities that streamline the process of item retrieval and diminish the duration of shopping [11]. Digital
+shopping lists, automated item scanning, and user-friendly payment methods substantially enhance convenience.
+By encouraging the use of reusable bags, reducing plastic waste, and informing customers about sustainable
+products, the cart promotes sustainability. By providing customers with real-time pricing comparisons, discounts,
+and promotions, cost-effectiveness is achieved and they are able to make more informed decisions. The shopping
+cart incorporates accessibility features that accommodate a diverse array of customers, including individuals with
+disabilities. Customer access to recipes, nutritional information, and personalized recommendations, while retailers
+gain insights into consumer behavior, purchasing patterns, and inventory management that are driven by data.
+Irish Interdisciplinary Journal of Science & Research (IIJSR)
+Volume 8, Issue 2, Pages 113-122, April-June 2024
+ISSN: 2582-3981 [115]
+Ensuring safety through the implementation of secure locking mechanisms, RFID technology for item tracking,
+and hazard alarms, seamless connectivity with mobile devices is provided. Constant advancements in functionality
+and design ensure that the shopping cart remains at the forefront of market trends, with the ultimate goal of
+improving the customer experience by providing a seamless, enjoyable, and expedient journey that cultivates
+loyalty towards the retailer.

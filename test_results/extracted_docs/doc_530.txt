@@ -1,0 +1,672 @@
+1 Effect of acupuncture on leg pain in patients with sciatica due to lumbar disc
+2 herniation: A prospective, randomised, controlled trial
+3
+4 Guang-Xia Shia
+, Fang-Ting Yua
+, Guang-Xia Nib
+, Wen-Jun Wanc
+, Xiao-Qing Zhoud
+,
+5 Li-Qiong Wanga
+, Jian-Feng Tua
+, Shi-Yan Yana
+, Xiu-Li Menge
+, Jing-Wen Yanga
+,
+6 Hong-Chun Xiangf
+, Hai-Yang Fug
+, Lei Tangc
+, Beng Zhangd
+, Xiao-Lan Jie
+, Guo-Wei
+7 Caif*, Cun-Zhi Liua,h**
+8
+a
+International Acupuncture and Moxibustion Innovation Institute, School of
+9 Acupuncture-Moxibustion and Tuina, Beijing University of Chinese Medicine,
+10 Beijing, China
+11 bSchool of Acupuncture-Moxibustion and Tuina, School of Health and Rehabilitation,
+12 Nanjing University of Chinese Medicine, Nanjing, China
+13 cDepartment of Rehabilitation, The Central Hospital of Wuhan, Tongji Medical
+14 College, Huazhong University of Science and Technology, Wuhan, China
+15 dDepartment of Acupuncture and Moxibustion, Shenzhen Hospital, Beijing University
+16 of Chinese Medicine, Shenzhen, China
+17 ePain Medicine Center, Peking University Third Hospital, Beijing, China
+18 fDepartment of Acupuncture, Union Hospital, Tongji Medical College, Huazhong
+19 University of Science and Technology, Wuhan, China
+20 gDepartment of Acupuncture, Affiliated Hospital of Nanjing University of Chinese
+21 Medicine, Nanjing, China
+22 hDepartment of Acupuncture, Dongzhimen Hospital Affiliated to Beijing University
+23 of Chinese Medicine, Beijing, China
+24 Corresponding author*
+25 Department of Acupuncture, Union Hospital, Tongji Medical College, Huazhong
+26 University of Science and Technology, Wuhan, China. No. 1277 Jiefang Avenue,
+27 Jianghan District, Wuhan 430022,China.
+28 E-mail Address: cgw645@163.com (G.-W. Cai)
+29 Corresponding author**
+30 International Acupuncture and Moxibustion Innovation Institute, School of
+31 Acupuncture-Moxibustion and Tuina, Beijing University of Chinese Medicine, No.11
+32 Bei San Huan Dong Lu, Chaoyang District, Beijing 100021, China. E-mail
+33 Address:cunzhiliu@bucm.edu.cn (C.-Z. Liu)
+34
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+35 Summary
+36 Background Sciatica is a condition including unilateral leg pain that is more severe
+37 than low back pain, and causes severe discomfort and functional limitation. We
+38 investigated the effect of acupuncture on leg pain in patients with sciatica due to
+39 lumbar disc herniation.
+40 Methods In this multi-centre, prospective, randomised trial, we enrolled patients with
+41 sciatica due to lumbar disc herniation at 6 hospitals in China. Patients were randomly
+42 assigned (1:1:1) to receive either acupuncture at the acupoints on the disease-affected
+43 meridian (DAM), or the non-affected meridian (NAM), or the sham acupuncture (SA)
+44 3 times weekly for 4 weeks. The primary end point was the change in visual analogue
+45 scale (VAS, 0-100) of leg pain intensity from baseline to week 4. This study is
+46 registered with Chictr.org.cn, ChiCTR2000030680.
+47 Finding Between Jun 9th, 2020, and Sep 27th, 2020, 142 patients were assessed for
+48 eligibility, 90 patients (30 patients per group) were enrolled and included in the
+49 intention-to-treat analysis. A greater reduction of leg pain intensity was observed in
+50 the DAM group than in the other groups: -22.2 mm than the SA group (95%CI, -31.4
+51 to -13.0, P <0.001) , and -19.3mm than the NAM group (95% CI, -28.4 to -10.1; P
+52 <0.001). However, we did not observe a significant difference in the change of leg
+53 pain intensity between the NAM group and the SA group (between-group difference
+54 -3.0 [95% CI, -12.0 to 6.1], P=0.520). There were no serious adverse events.
+55 Interpretation Compared with SA, acupuncture at the acupoints on the
+56 disease-affected meridian, but not the non-affected meridian, significantly reduces the
+57 leg pain intensity in patients with sciatica due to lumbar disc herniation. These
+58 findings suggest that the meridian-based specificity of acupoint is a considerable
+59 factor in the acupuncture treatment. A larger, sufficiently powered trial is needed to
+60 accurately assess efficacy.
+61
+62 Funding The National Key R&D Program of China (No: 2019YFC1712103) and the
+63 National Science Fund for Distinguished Young Scholars (No:81825024).
+64 Keywords: Acupuncture; leg pain; Acupoint selection; Meridian-based; Sciatica
+65
+66
+67
+68
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+69 Research in context
+70 Evidence before this study
+71 Using the key words "sciatica" and "acupuncture"，we searched PubMed for articles
+72 published between Jan 1, 1947 and Jan 5, 2024. Despite an extensive literature search,
+73 only a limited number of studies were available. There is ambiguous evidence about
+74 the use of acupuncture, with most studies contrasting one another in addition to the
+75 lack of high-quality trials. Since the choice of more appropriate acupoints for
+76 stimulation is meaningful for acupuncture, studies that investigate the effect of
+77 acupuncture on different acupoint program are urgently needed.
+78 Added value of this study
+79 This multi-centre, assessor and statistician-blinded trial addressed the above
+80 limitations by showing that, compared with sham acupuncture, acupuncture at the
+81 acupoints on the disease-affected meridian, but not the non-affected meridian,
+82 significantly reduces the leg pain intensity in patients with sciatica due to lumbar disc
+83 herniation.
+84 Implications of all the available evidence
+85 We found that acupuncture at the acupoint on the disease-affected meridian had
+86 superior and clinically relevant benefits in reducing pain intensity to a greater degree
+87 than acupuncture at NAM or SA. The finding is of vital significance to clinical work,
+88 as meridian-based specificity of acupoint is one of the most determining factors in the
+89 efficacy of acupuncture.
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+90 Introduction
+91 Sciatica is a common health problem in the general population with a lifetime
+92 prevalence of 10% to 43%, depending on different etiologies [1-2]. It is characterised
+93 by radiating leg pain starting from the low back, at times accompanied by sensory or
+94 motor deficits. In most cases, sciatica is attributable to lumbar disk disorders [3]. The
+95 overall prognosis is worse than low back pain, particularly if leg pain extends distal to
+96 the knee with signs of nerve root compression, increasing risk for unfavorable
+97 outcomes and health care use [4]. Spontaneous recovery occurs in most patients;
+98 however, many endure substantial pain and prolonged disability, as 34% reported
+99 chronic pain beyond 2 years [5-6]. Optimal pharmacological treatment is unclear due
+100 to uncertain benefits or high rates of adverse effects[7-8]. Surgery has been
+101 demonstrated to ameliorate sciatica in the early stage, but a proportion of patients do
+102 not meet surgical standards or hesitate about the potential complications [9]. The
+103 dilemma has led to a soaring increase in complementary and alternative medicine,
+104 such as acupuncture [10].
+105 Acupuncture has been recommended for management of low back pain by clinical
+106 practice guideline from the American College of Physicians [11-12]. Several studies
+107 have also shown that acupuncture was beneficial in treating leg pain, although others
+108 have reported discrepancies concerning the efficacy of true vs sham acupuncture[10].
+109 The inconsistent findings may result from variations in study design and insufficient
+110 sample size. We conducted this trial to preliminarily evaluate the efficacy and safety
+111 of acupuncture in terms of reduction in leg pain with sciatica patients.
+112 Acupuncture is garnering increased attention as an effective treatment for pain
+113 managemengt, one important issue is whether acupoint choice influences the benefits
+114 of acupuncture[10]. However, a well-recognized acupoint program has yet not been
+115 established, yielding heterogeneous results across relative studies[13]. Therefore, the
+116 second aim of this study was to compare the difference of acupuncture efficacy in
+117 patients receiving acupuncture at the acupoints of the disease-affected meridian
+118 (DAM), the non-affected meridian (NAM), or sham acupuncture (SA).
+119
+120 Methods
+121 Study design and participants
+122 This mult-centre, three-arm, prospective randomised trial was conducted in the
+123 inpatient departments of 6 tertiary hospitals in China between Jun 9, 2020 and Sep27,
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+124 2020. The study protocol was approved by the local ethics committee at the
+125 coordinating center and each study site (No. 2020BZHYLL0105), and registered with
+126 the Chinese Clinical Trial Registry on Chictr.org.cn, ChiCTR2000030680. The
+127 protocol has been published previously [14] and is available in open-access full text
+128 and in Supplement 1. All patients provided written informed consent before
+129 enrolment.
+130 Eligible patients were aged 18 to 70 years old , reported leg pain extending below
+131 the knee in a nerve root distribution over 4 weeks, had a lumbar disc herniation
+132 confirmed by examination signs (positive result on straight leg raise test or sensory or
+133 motor deficit in a pattern consistent with a lumbar nerve root) [15], and scored 40 mm
+134 or higher on the 100-mm VAS [16]. Imaging (magnetic resonance imaging with or
+135 without computed tomography) corroborating a root-level lesion concordant with
+136 symptoms and/or signs was determined by the trial clinician. Exclusion criteria were a
+137 history or diagnostic result that suggested an inherited neuropathy or neuropathy
+138 attributable to other causes, had undergone surgery for lumbar disc herniation within
+139 the past 6 months or plan to have spinal surgery or other interventional therapies
+140 during next 4 weeks, continually took antiepileptic medication, antidepressant
+141 medication, opioids or corticosteroids; had cardiovascular, liver, kidney, or
+142 hematopoietic system diseases, mental health disorders, other severe coexisting
+143 diseases (e.g., cancer), pregnant, breastfeeding, or women planning conception during
+144 the study. Patients participating in other clinical studies within the past 3 months or
+145 receiving acupuncture within 6 months were also excluded. The screening process
+146 was conducted in the way of in-person visits by trial clinicians.
+147 Randomisation and masking
+148 The study protocol was explained to all enrolled patients before randomisation.
+149 After written informed consent was obtained, patients were allocated randomly (1:1:1)
+150 to the three arms: DAM, NAM or SA. Randomisation was performed with a random
+151 block size of six. A randomisation sequence was created by a biostatistician who did
+152 not participate in the implementation or statistical analysis of trial. The assessor and
+153 statistician were blinded to treatment allocation throughout data collection and
+154 analysis.
+155 Procedures and interventions
+156 To exploratively observe whether the effects of acupoint located on two kinds of
+157 meridians are different, this trial set two acupuncture groups, in which patients
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+158 received acupuncture at acupoints on the disease-affected meridian (DAM), or the
+159 non-affected meridian (NAM), respectively. The bladder (BL) and gallbladder (GB)
+160 meridians are directly in the same dermatomes of the sciatic nerve. Since these
+161 meridians are consistent with sciatic pain distribution, they are regarded as the
+162 disease-affected meridians.
+163 Patients assigned to the DAM group received semi-standardized treatment at
+164 acupoints on the bladder/gallbladder meridians. Bilateral BL25 and BL26, which
+165 localized at the same level as the inferior border of the spinous process of the fourth
+166 and the fifth lumbar vertebra (the commonest positions of disc rupture), were needled
+167 as obligatory acupoints. For those having symptoms at the posterior side of the leg,
+168 BL54, BL36, BL40, BL57, and BL60 were needled as adjunctive acupoints; similarly,
+169 GB30, GB31, GB33, GB34, and GB39 were adjunctive acupoints for patients with
+170 symptoms at lateral side. For patients who had pain at both posterior and lateral sides,
+171 acupuncturists were instructed to select 5 of the 10 adjunctive acupoints.
+172 According to the principle of the Traditional Chinese Medicine theory, the liver
+173 meridian, the spleen meridian, and the kidney meridian are commonly treated to
+174 improve the functional status of the body. These meridians distribute at the inner side,
+175 less related to sciatica symptoms, and are regarded as non-affected meridians. For
+176 patients in the NAM group, bilateral EX-B7, EX-B4, and unilateral LR9, LR8, LR5,
+177 KI7, and SP4 that on the non-affected meridians were selected .
+178 Patients assigned to the SA group received acupuncture at 7 non-acupoints which
+179 not localized on meridians and with no manipulations.
+180 All acupuncture treatments were performed by two senior acupuncturists (length of
+181 services ≥5 years), who consistently applied the same standardised protocols. After
+182 identifying the location of acupoints, sterile acupuncture needles (length 40 mm,
+183 diameter 0.30 mm; Hwato, Suzhou Medical Appliance Factory, China) were inserted,
+184 followed by 30s manipulation to acquire Deqi (a sensation of aching, soreness,
+185 swelling, heaviness, or numbness). Blunt-tipped placebo needles with similar
+186 appearances to conventional needles but no skin penetration were used in the SA
+187 group. To maximize the blinding of patients and to fix blunt-tipped placebo needles,
+188 adhesive pads were placed on points in all groups. Patients in all groups started
+189 treatment on the day of randomization and received twelve 30-minute sessions over 4
+190 consecutive weeks at 3 sessions per week (ideally every other day).
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+191 Pain medication was offered if necessary and included paracetamol and optionally
+192 non-steroidal anti-inflammatory drugs (Celebrex), short acting opioids, or both. We
+193 used questionnaires to monitor the use of pain medication and other co-interventions.
+194 Outcomes
+195 The primary outcome was the change of leg pain intensity over the preceding 24
+196 hours from baseline to week 4 as measured on the VAS. Participants were asked to
+197 rate their average leg pain during the last 24 hours out of 100, with 0 representing no
+198 leg pain and 100 representing the worst pain imaginable.
+199 Secondary outcomes included VAS for leg pain and back pain intensity at other
+200 time points. We observed the Oswestry Disability Index (ODI, examining perceived
+201 functional disability in 10 activities of daily living), Sciatica Frequency and
+202 Bothersomeness Index (SFBI, rating the extent of frequency and bothersomeness of
+203 sciatica respectively), 36-item Short Form Health Survey (SF-36, evaluating the
+204 quality of life with physical and mental components) .
+205 We also assessed levels on the global perceived recovery (assessed by a 7-point
+206 Likert self-rating scale with options from “completely recovered” to “worse than
+207 ever”) and degrees of the straight leg raise test.
+208 The Credibility/Expectancy Questionnaire (CEQ) was used to assess the credibility
+209 and expectancy of patients to acupuncture treatment after the first treatment.
+210 Moreover, patients were also invited to guess their group for blinding assessment at
+211 week 2 and week 4. Adverse events were documented by patients and outcome
+212 assessors throughout the trial. All adverse events were categorized as
+213 treatment-related or non-treatment-related and followed up until resolution.
+214 The researchers in charge of the scale assessment were asked to use the fixed
+215 guiding words on the questionnaires to have a conversation with the patient without
+216 redundant communication. Due to the trial site and population, we used Chinese
+217 versions of the assessment scales that were confirmed to have moderate or higher
+218 clinical responsiveness and are suitable for clinical efficacy evaluation.
+219 Statistical analysis
+220 We designed our trial to determine whether there was a difference between each
+221 acupuncture group and the sham acupuncture group in terms of leg pain intensity.
+222 According to the method of upper confidence limit, a sample size ranging from 20 to
+223 40 could be the guideline for choosing the size of a pilot sample. Considering the
+224 overall resource input issues (eg, funding availability and expected completion time),
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+225 the total sample size was preset at 90 patients, 30 patients per group. We performed
+226 analyses following the intention-to-treat principle with all randomly assigned patients
+227 included.
+228 For the primary outcome, analysis of covariance was applied to test the difference
+229 between groups in leg pain intensity with baseline values adjusted. Missing data were
+230 imputed using multiple imputation method. To address the robustness of the results,
+231 we performed a per-protocol analysis for the primary outcome, covering patients who
+232 complete 10 sessions or more and had no major protocol violations (e.g., using
+233 additional treatments during the treatment period). One-way ANOVA was performed
+234 for the secondary outcomes including leg pain at each measuring time point, back
+235 pain, ODI, SFBI, SF-36, CEQ, PDQ, global perceived recovery scores, and degrees of
+236 straight leg raise test. The blinding assessment, the proportion of patients using
+237 additional treatments and adverse event rates were analyzed using the χ2 test or Fisher
+238 exact test. Between-group differences were tested through the least significance
+239 difference (LSD)-t test. Categorical variables are presented as n (%) and continuous
+240 variables are presented as the mean (SD) or median (interquartile range, IQR) . All
+241 tests applied were two-tailed, p < 0.05 was considered statistically significant. An
+242 independent statistician completed the analyses using IBM SPSS Statistics version 20
+243 (IBM Corp, Armonk, NY).
+244 Role of the funding source
+245 The funder of the study had no role in the study design, data collection, data
+246 analysis, or writing of the report. All authors had full access to the data in the study
+247 and gave the final approval of the manuscript and agree to be accountable for all
+248 aspects of work.
+249 Results
+250 Patient characteristics
+251 Between Jun 9th, 2020, and Sep 27th, 2020, 142 patients were assessed for
+252 eligibility, 90 patients (30 patients per group) were enrolled and included in the
+253 intention-to-treat analysis (Figure 1). Mean age of patients was 44.2 (SD 14.9) years,
+254 and 51 (56.7%) were female. Mean symptom duration was 2.0 years (IQR 0.7 to 4.1)
+255 with a mean VAS score of 62.3 (SD 14.3) mm for their leg pain intensity. Overall, 75
+256 (83.3%) patients completed the assigned 12 sessions of study interventions, and 82
+257 (91.1%) received at least 10 sessions. The primary outcome visit was attended by 82
+258 patients at week 4, corresponding to a follow-up rate of 91.1%, which was maintained
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+259 to week 26. There was no difference among groups regarding the usual risk factors for
+260 sciatica, such as gender, age, body-mass index, or Disk herniation level, which
+261 confirmed that the groups were well matched. The baseline characteristics of patients
+262 are summarized in Table 1.
+263 After receiving 4-week treatment, the change of leg pain intensity decreased by
+264 -36.6 mm (95% CI, -43.1 to -30.2) in the DAM group, by -17.4 mm in the NAM
+265 group and by -14.4 mm (95% CI, -20.9 to -8.0) in the SA group. Changes in the leg
+266 pain intensity over 4-week period differed significantly among the 3 groups. A greater
+267 reduction was observed in the DAM group than in the other groups: -22.2 mm
+268 reduction in leg pain intensity than in the SA group (95% CI, -31.4 to -13.0, P＜
+269 0.001) , and -19.3 mm reduction in leg pain intensity than in the NAM group (95% CI,
+270 -28.4 to -10.1; P <0.001). While no significant change in leg pain intensity was
+271 observed between the NAM and SA groups (mean difference, -3.0 mm, 95% CI, -12.0
+272 to 6.1, P=0.52) (Figure 2).
+273 We observed that outcomes at the 26-week follow-up were similar in direction to
+274 the those at the end of an 4-week period. At week 26, a difference in the change of leg
+275 pain intensity were present between the DAM and SA groups (mean difference, -13.3
+276 mm, 95% CI, -23.2 to -2.8, P=0.01), between the DAM and NAM groups (mean
+277 difference, -13.4 mm, 95%CI, -23.6 to -3.1, P=0.011), but not between the NAM and
+278 SA groups (mean difference, 0.1 mm, 95% CI, -10.3 to 10.5, P=0.99) (Figure 2).
+279 Sensitive analyses did not alter the result in the primary analysis (eTable 1 and eTable
+280 2 in Supplement 2).
+281 We found a greater reduction in back pain intensity over SA for patients who
+282 received DAM at week 4 (mean difference, -18.0 mm, 95% CI, -27.7 to -8.4, P＜
+283 0.001). The difference in back pain changes was not significant between the NAM
+284 and SA groups at week 4 (mean difference, -4.2 mm, 95% CI, -13.6 to 5.3, P=0.38).
+285 At week 26, no difference was detected in back pain relief across the 3 groups.
+286 We also found a greater decrease in disability scores in the DAM group over SA at
+287 week 4 (mean difference, -10.7 points, 95% CI, -18.3 to -3.1, P=0.007), while there
+288 was no difference between the NAM and SA groups (mean difference, -3.1 points,
+289 95%CI, -10.6 to 4.3, P=0.41). Similar results were observed at week 26, which
+290 favored acupuncture at DAM (mean difference between DAM and SA, -11.1 points,
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+291 95%CI, -19.4 to -2.8, P=0.01) rather than acupuncture at the NAM (mean difference
+292 between NAM and SA, -2.7 points, 95%CI, -11.0 to -5.7, P=0.53).
+293 Compared to SA, patients in the DAM group reported better symptom
+294 improvement on the global perceived recovery test, and lower scores in both
+295 frequency and bothersomeness scales on the SFBI. Nonetheless, the measurement of
+296 the quality of life, or the degree of the straight leg raise test did not show a difference
+297 across the 3 groups (Table 2). Five (16.7%) patients in the DAM group and 4 (13.3%)
+298 patients in the SA group take rescue medicine for a short period (eTable 3 in
+299 Supplement 2). For blinding assessment, we found no difference across groups in the
+300 proportion of patients who correctly guessed the kind of intervention they had
+301 received at week 2 and week 4 (eTable 4 in Supplement 2). Outcomes measured at
+302 other time points were shown in eTable 5 and e Figure in Supplement 2.
+303 Adverse events
+304 Three (10%) patients in the NAM group reported post-needling pain which
+305 decreased in the following week spontaneously. Adverse events unrelated to the study
+306 interventions including increased leg pain, dizziness, insomnia, etc, were all rated as
+307 mild to moderate (eTable 6 in Supplement 2). No serious adverse event occurred
+308 during the study period.
+309 Interpretation
+310 To our knowledge, our study is a multi-center clinical trial to show the beneficial
+311 effect of acupuncture for patients with moderate-to-severe sciatica of varying duration
+312 and is the first to explore the meridian-based acupoint program in this field. We found
+313 that acupuncture at the DAM had superior and clinically relevant benefits in reducing
+314 leg pain intensity to a greater degree than acupuncture at NAM or SA. Improvements
+315 in functional disability, back pain, frequency and bothersomeness and global
+316 perceived recovery were also found. Moreover, no significant differences was
+317 observed with respect to any outcome between NAM and SA groups.
+318 The findings of the current study demonstrate that acupuncture at the acupoints on
+319 the disease-affected meridian was clinically beneficial and superior to SA for leg pain.
+320 We acknowledge the commonly recognised minimally clinically important difference
+321 (MCID) is 10-20 of 100 for pain intensity [16]. The clinically important mean leg
+322 pain reduction at the 4-week of treatment in DAM group was -22.2 mm, and
+323 continued the trend of a mean clinical important result at 26-week follow-up (-13.3
+324 mm). Before our study, Liu and colleagues evaluated the effect of acupuncture in
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+325 relieving leg pain for patients with chronic discogenic sciatica compared with sham
+326 acupuncture [13]. Acupuncture showed a small but not clinically relevant effect, with
+327 a between-group difference in the 4-week on mean VAS score for leg pain was 7.28，
+328 which is not reach the MCID. More acupoints on the disease-affected meridian were
+329 adapted in our trial (7 v 4 acupoints on the bladder and/or the gallbladder meridian)
+330 which may interpret the discrepancy.
+331 Our findings are consistent with a meta-analysis showing that acupuncture was
+332 more effective than conventional medicine in managing the pain associated with
+333 sciatica, with a significantly greater reduction in pain intensity by 12.5 (95% CI:
+334 −16.3 to −8.6) [17]. It is worth noting that the most commonly used acupoints were
+335 Huantiao (GB 32), Weizhong (BL 40), and Yanglingquan (GB 34), all on the bladder
+336 and/or gallbladder meridians that were directly related with dermatomal distributions
+337 of sciatic nerve. Acupuncture at the DAM was more effective than at the NAM in
+338 alleviating pain severity during the 4-week treatment and the follow-up period. The
+339 acupoints in NAM group are mainly located on the Liver, Spleen and Kidney
+340 meridian, which are not affected directly by sciatica in Traditional Chinese Medicine.
+341 We speculate that the varied efficacy between the DAM and NAM relate to
+342 meridian-based acupoint specificity.
+343 Acupuncture at the DAM showed significant superiority in the primary outcome
+344 and in most of the second outcomes at the end of therapy. However, no significant
+345 differences were observed in the quality of life or the degree of the straight leg raise
+346 test among the three groups. The health status and body function are more likely be
+347 affected by physical factors and psychological factors [18-19]. In addition, pain may
+348 limit function, so as pain decreases, function (straight leg raise) may increase until
+349 pain again limits functional capacity. This may explain the improvement in pain
+350 without measurable proved function [20].
+351 In Dr. Vickers’ and his groups 2018 update of the meta-analysis of acupuncture for
+352 chronic pain study, the authors did not finding any statistically significant influence
+353 from point selection on treatment outcome by acupuncture [11]. Another two clinical
+354 trials on acupuncture for low back pain, where the first showed no difference between
+355 two different acupuncture recipes [21] and the subsequent detected no difference
+356 between and real and sham acupuncture (where the sham treatment involved different
+357 bodily locations) [22]. The efficacy of acupuncture is related to the dose, point
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+358 selection and treatment time (duration and frequency), and we could not isolate which
+359 components contributed to the benefits. Our study only partially answer that acupoint
+360 choice could influence the efficacy of acupuncture.
+361 Practice guidelines recommend an initial period of conservative care focused on
+362 non-pharmacologic treatments for persons with recent-onset sciatica, except in rare
+363 instances of rapidly progressing or severe neurologic deficits that may require
+364 immediate surgical intervention. In this study, acupuncture hastened pain and
+365 functional improvement, indicating that acupuncture could be offered to patients with
+366 sciatica lasting at least 4 weeks (mean duration of 2.0 years) as promising
+367 non-pharmacologic care. However, prior studies enrolled patients with more acute
+368 conditions who may have been more prone to spontaneous recovery than our
+369 participants, which limit the generalizability of the trial findings.
+370 Acupuncture has regionally specific effect or segmental effect [23-24]. Acupoints
+371 located directly on injured nerves could inhibit the nociceptive pathway at the same
+372 spinal level and give an analgesic effect at the same dermatomal level [25]. However,
+373 the underlying mechanism is not fully elucidated and is worthy of further study.
+374 This study had several strengths. Rigorous methods have been used to test the
+375 preliminary efficacy of acupuncture in this pilot study. The use of blunt-tipped
+376 placebo needles ensured the implementation of blinding, which can make the patients
+377 have the feeling of acupuncture under the premise that the needle tip does not
+378 penetrate the skin. The high recruitment rate has reflected the willingness to
+379 participate among patients with sciatica. The compliance rate (83.3%) and follow-up
+380 rate (91.1%) for this pilot trial are satisfactory. Therefore, the current study may
+381 provide a more accurate basis for assessing the sample size and selection of
+382 acupuncture acupoints for the large-scale trial to be conducted.
+383 Limitations
+384 Some limitations have to be acknowledged. First, we run this multi-center trial in
+385 order to text the feasiblity to implement a large-scale RCT to further confirm the
+386 efficacy of acupuncture in this regard. However, with only 90 participants spread over
+387 six centers, the effect from the numerous treatment centers should be probably
+388 accounted. Second, due to the nature of acupuncture, it was not possible to blind
+389 acupuncturists to treatment assignment. But they were trained in advance to follow a
+390 standard operating procedure and keep equal communication with patients. Third,
+391 although sensitive analysis indicated similar conclusions, the robustness of our
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+392 finding was decreased by the small sample size with a wide credible interval
+393 generated, thus further studies with sufficient sample size are needed. Fourth, a
+394 treatment that offered 3 sessions per week for continuous 4 weeks was proposed to be
+395 burdensome for part of the patients, especially for those who are employed. Treatment
+396 with a gradually decreased frequency should be applied in future studies.
+397 Conclusion
+398 Acupuncture was safely administered in patients with mild to moderate sciatica
+399 caused by lumbar disc herniation. To accurately assess the efficacy, a larger,
+400 sufficiently powered trial is needed. Acupuncture at the acupoint on the
+401 disease-affected meridian had superior and clinically relevant benefits in reducing
+402 pain intensity to a greater degree than acupuncture at NAM or SA. Data supported the
+403 meridian-based specificity of acupoint is one of the most determining factors in the
+404 efficacy of acupuncture.
+405
+406 References
+407 1. Gadjradj PS, Rubinstein SM, Peul WC, et al. Full endoscopic versus open
+408 discectomy for sciatica: randomised controlled non-inferiority trial. BMJ. 2022;
+409 376:e065846.
+410 2. Konstantinou K, Dunn KM. Sciatica: review of epidemiological studies and
+411 prevalence estimates. Spine. 2008; 33:2464-2472.
+412 3. Koes BW, van Tulder MW, Peul WC. Diagnosis and treatment of sciatica. BMJ.
+413 2007; 334:1313-1317.
+414 4. Deyo RA, Mirza SK. Herniated Lumbar Intervertebral Disk. N Engl J Med. 2016;
+415 374:1763-1772.
+416 5. Ropper AH, Zafonte RD. Sciatica. N Engl J Med. 2015; 372:1240-1248.
+417 6. Mehling WE, Gopisetty V, Bartmess E, et al. The prognosis of acute low back
+418 pain in primary care in the United States: a 2-year prospective cohort study. Spine.
+419 2012; 37:678-684.
+420 7. Jensen RK, Kongsted A, Kjaer P, Koes B. Diagnosis and treatment of sciatica.
+421 BMJ. 2019; 367:l6273.
+422 8. Kreiner DS, Hwang SW, Easa JE, et al. An evidence-based clinical guideline for
+423 the diagnosis and treatment of lumbar disc herniation with radiculopathy. Spine J.
+424 2014 ;14(1):180-191.
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+425 9. Manchikanti L, Knezevic E, Latchaw RE, et al. Comparative Systematic Review
+426 and Meta-Analysis of Cochrane Review of Epidural Injections for Lumbar
+427 Radiculopathy or Sciatica. Pain physician. 2022; 25:E889-e916.
+428 10. Ji M, Wang X, Chen M, et al. The Efficacy of Acupuncture for the Treatment of
+429 Sciatica: A Systematic Review and Meta-Analysis. Evid Based Complement
+430 Alternat Med. 2015;2015:192808.
+431 11. Vickers AJ, Vertosick EA, Lewith G, et al. Acupuncture for Chronic Pain:
+432 Update of an Individual Patient Data Meta-Analysis. J Pain. 2018;19(5):455-474.
+433 12. Qaseem A, Wilt TJ, McLean RM, et al. Noninvasive Treatments for Acute,
+434 Subacute, and Chronic Low Back Pain: A Clinical Practice Guideline From the
+435 American College of Physicians. Ann Intern Med. 2017;166(7):514-530.
+436 13. Huang Z, Liu S, Zhou J, Yao Q, Liu Z. Efficacy and Safety of Acupuncture for
+437 Chronic Discogenic Sciatica, a Randomized Controlled Sham Acupuncture Trial.
+438 Pain Med. 2019;20(11): 2303-2310.
+439 14. Yu FT, Ni GX, Cai GW, et al. Efficacy of acupuncture for sciatica: study
+440 protocol for a randomized controlled pilot trial. Trials. 2021;22:34.
+441 15. Jensen RK, Kongsted A, Kjaer P, Koes B. Diagnosis and treatment of sciatica.
+442 BMJ 2019;367:l6273.
+443 16. Collins SL, Moore RA, McQuay HJ. The visual analogue pain intensity scale:
+444 what is moderate pain in millimetres? Pain. 1997;72:95-7.
+445 17. Schroeder K, Richards S. Non-specific low back pain. Lancet 2012;379:482-91
+446 18. Di Blasi Z, Harkness E, Ernst E, Georgiou A, Kleijnen J. Influence of context
+447 effects on health outcomes: A systematic review. Lancet
+448 2001;357(9258):757-762
+449 19. Ropper AH, Zafonte RD. Sciatica. New Engl J Med 2015;372(13):1225–1240.
+450 20. Cherkin DC, Sherman KJ, Avins AL, Erro JH, Ichikawa L, Barlow WE, Delaney
+451 K, Hawkes R, Hamilton L, Pressman A, Khalsa PS, Deyo RA. A randomized trial
+452 comparing acupuncture, simulated acupuncture, and usual care for chronic low
+453 back pain. Arch Intern Med. 2009;169(9):858-866.
+454 21. Donna Kalauokalani, Daniel C Cherkin, Karen J Sherman. A comparison of
+455 physician and nonphysician acupuncture treatment for chronic low back pain.
+456 Clin J Pain. 2005;21(5):406-411.
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+457 22. Goldberg H, Firtch W, Tyburski M, et al. Oral steroids for acute radiculopathy
+458 due to a herniated lumbar disk: a randomized clinical trial. JAMA.
+459 2015;313:1915-1923.
+460 23. Zhang R, Lao L, Ren K, Berman B. Mechanisms of
+461 acupuncture-electroacupuncture on persistent pain. Anesthesiology.
+462 2014;120(2):482-503.
+463 24. Cheng K. Neuroanatomical basis of acupuncture treatment for some common
+464 illnesses. Acupunct Med. 2009;27(2):61-4.
+465 25. Cheng KJ. Neuroanatomical basis of acupuncture treatment for some common
+466 illnesses. Acupuncture in medicine: journal of the British Medical Acupuncture
+467 Society. 2009;27:61-64.
+468
+469 Figure legends
+470 Figure 1. Modified CONSORT flow diagram.
+471 Figure 2. VAS scores for leg pain intensity.
+472 Tables
+473 Table 1. Baseline characteristics of participants.
+474 Table 2. Primary and secondary outcomes measured at week 4 and week 26.
+475
+476 Contributors
+477 CZL is the guarantor for the article. CZL, GXS and FTY designed the trial. GWC,
+478 GXN, WJW, XQZ, and XLM offered administrative support. FTY, HCX, HYF, LT,
+479 BZ, and XLJ recruited and followed up patients. LQW, JFT and JWY were
+480 responsible for study monitoring. SYY and JWY take responsibility for the accuracy
+481 of the data analysis. All authors had full access to the data in the study and gave the
+482 final approval of the manuscript and agree to be accountable for all aspects of work.
+483
+484 Data sharing statement
+485 Data are available from the corresponding author on reasonable request.
+486 Declaration of interests
+487 The authors declare no conflict of interest.
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+Figure 1. Modified CONSORT flow diagram.
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+Figure 2. VAS scores for leg pain intensity.
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+1
+Table 1. Baseline characteristics of participants.
+Characteristic DAM group (n=30) NAM group (n=30) SA group (n=30)
+Age, year, mean (SD) 41.6 (14.7) 44.8 (15.0) 46.1 (15.1)
+Sex, no. (%)
+Female 21 (70.0) 16 (53.3) 14 (46.7)
+Male 9 (30.0) 14 (46.7) 16 (53.3)
+Marital status, no. (%)
+Married 22 (73.3) 23 (76.7) 24 (80.0)
+Single 8 (26.7) 7 (23.3) 6 (20.0)
+Occupation, no. (%)
+Mental work 24 (80.0) 24 (80.0) 20 (66.7)
+Manual work 6 (20.0) 6 (20.0) 10 (33.3)
+BMI, kg/m2, mean (SD) 22.6 (3.1) 23.3 (2.5) 23.0 (2.7)
+Duration of sciatica, year, median (IQR) 1.7 (0.4, 5.0) 1.8 (0.7, 3.3) 2.1 (0.7, 6.3)
+History of acupuncture, no. (%)
+Yes 13 (43.3) 15 (50.0) 9 (30.0)
+No 17 (56.7) 15 (50.0) 21 (70.0)
+Positive straight leg raise test, no. (%) 12 (40.0) 19 (63.3) 16 (53.3)
+Numbness, no. (%) 20 (66.7) 17 (56.7) 23 (76.7)
+Tingling, no. (%) 17 (56.7) 21 (70.0) 17 (56.7)
+Sensory deficit, no. (%) 4 (13.3) 3 (10.0) 3 (10.0)
+Muscle weakness, no. (%) 8 (26.7) 8 (26.7) 8 (26.7)
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+2
+Reflex changes, no. (%) 1 (3.3) 1 (3.3) 1 (3.3)
+Disk herniation level, no. (%)
+L3-L4 2 (6.7) 0 (0.0) 0 (0.0)
+L4-L5 6 (20.0) 14 (46.7) 7 (23.3)
+L5-S1 9 (30.0) 4 (13.3) 8 (26.7)
+More than one level 13 (43.3) 12 (40.0) 15 (50.0)
+Leg pain intensity*, mm, mean (SD) 59.5 (12.3) 63.2 (14.8) 64.3 (15.7)
+Back pain intensity*, mm, mean (SD) 58.9 (25.2) 56.2 (23.6) 54.6 (26.0)
+ODI score†, mean (SD) 38.3 (13.0) 38.0 (15.7) 38.2 (14.8)
+SFBI score‡, mean (SD)
+Frequency 13.7 (4.4) 14.5 (4.5) 13.7 (5.2)
+Bothersomeness 12.3 (3.6) 12.5 (3.9) 12.9 (5.0)
+SF-36 score§, mean (SD)
+Physical Component 28.5 (10.4) 33.5 (11.5) 31.0 (10.3)
+Mental Component 52.4 (12.1) 47.6 (15.3) 49.9 (13.1)
+PDQ score¶, mean (SD) 10.5 (5.5) 12.3 (5.4) 10.7 (6.3)
+Credibility score**, mean (SD) 0.3 (2.5) 0 (2.6) -0.3 (2.8)
+Expectancy score**, mean (SD) 0.5 (2.6) -0.4 (3.0) -0.1 (2.7)
+* Scores range from 0 to 100, with higher scores indicating more severe pain.
+† Scores range from 0 to 100, with higher scores indicating worse disability.
+‡ Scores range from 0 to 24, with higher scores indicating more severe symptoms.
+§ Scores are based on normative data and have a mean (±SD) of 50±10, with higher scores indicating a better
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+3
+quality of life.
+¶ Scores range from 0 to 30, with higher scores indicating more neuropathic pain.
+** Scale has Mean = 0.0 (SD = 1.0) since the items were converted to z-scores before averaging.
+DAM, the disease-affected meridian; NAM, the non-affected meridian; SA, Sham acupuncture.
+SD, standard deviation; IQR, interquartile range; BMI, body mass index; ODI, Oswestry Disability Index; SFBI,
+Sciatica Frequency and Bothersomeness Index; SF-36, 36-item Short Form Health Survey; PDQ, PainDETECT
+questionnaire.
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+4
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+1
+Table 2. Primary and secondary outcomes at week 4 and week 26
+DAM vs SA NAM vs SA DAM vs NAM
+Outcome DAM group NAM group SA group P value
+Difference P value Difference P value Difference P value
+Primary outcome
+Change of leg pain
+intensity at week 4*
+-36.6 (-43.1, -30.2) -17.4 (-23.8, -11.0) -14.4 (-20.9, -8.0) ＜0.001 -22.2 (-31.4, -13.0) ＜0.001 -3.0 (-12.0, 6.1) 0.520 -19.3 (-28.4, -10.1) ＜0.001
+Secondary outcomes
+Change of leg pain
+intensity at week 26‡
+-35.5 (-42.8, –28.3) -22.2 (-29.3, -15.0) -22.2 (-29.7, -14.7) 0.016 -13.3 (-23.2, -2.8) 0.014 0.1 (-10.3, -10.5) 0.989 -13.4 (-23.6, -3.1) 0.011
+Change of back pain
+intensity
+ Week 4† -34.9 (-41.7, -28.2) -21.1 (-27.6, -14.6) -16.9 (-23.8, -10.0) 0.001 -18.0 (-27.7, -8.4) ＜0.001 -4.2 (-13.6, 5.3) 0.380 -13.8 (-23.2, -4.5) 0.004
+ Week 26‡ -33.5 (-41.6, -25.4) -23.6 (-31.8, -15.5) -22.7 (-31.1, -14.2) 0.128 -10.8 (-22.6, 0.9) 0.07 -1.0 (-12.7, 10.8) 0.871 -9.9 (-21.4, -1.6) 0.092
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+2
+ODI score
+ Week 4† 18.0 (13.9, 22.1) 25.5 (19.6, 31.5) 28.7 (22.6, 34.7) 0.019 -10.7 (-18.3, -3.1) 0.007 -3.1 (-10.6, 4.3) 0.406 -7.5 (-14.9, -0.1) 0.046
+ Week 26‡ 14.9 (10.0, 19.8) 23.3 (17.1, 29.5) 26.0 (19.1, 32.8) 0.025 -11.1 (-19.4, -2.8) 0.010 -2.7 (-11.0, 5.7) 0.527 -8.4 (-16.6, -0.3) 0.043
+SFBI frequency score
+ Week 4† 6.6 (4.9, 8.4) 10.6 (8.7, 12.5) 10.8 (8.5, 13.1) 0.005 -4.1 (-6.9, -1.4) 0.004 -0.2 (-2.9, 2.5) 0.874 -3.9 (-6.6, -1.2) 0.005
+ Week 26‡ 5.8 (3.7, 7.8) 10.1 (7.8, 12.5) 10.0 (7.4, 12.5) 0.010 -4.2 (-7.4, -1.0) 0.011 0.2 (-3.1, 3.4) 0.928 -4.4 (-7.5, -1.2) 0.007
+SFBI bothersomeness
+score
+ Week 4† 5.6 (4.0, 7.1) 8.9 (7.2, 10.6) 10.2 (8.1, 12.2) 0.001 -4.6 (-7.1, -2.1) ＜0.001 -1.3 (-3.7, 1.2) 0.306 -3.3 (-5.8, -0.9) 0.007
+ Week 26‡ 4.9 (3.2, 6.6) 8.5 (6.5, 10.5) 9.0 (6.6, 11.4) 0.007 -4.1 (-6.9, -1.3) 0.004 -0.5 (-3.3, 2.3) 0.742 -3.7 (-6.4, -0.9) 0.009
+SF-36 physical
+component score
+ Week 4† 37.3 (32.8, 41.7) 37.7 (33.7, 41.6) 33.8 (28.9, 38.7) 0.390 3.5 (-2.7, 9.6) 0.268 3.9 (-2.2, 9.9) 0.206 -0.4 (-6.4, 5.6) 0.888
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+3
+ Week 26§ 44.7 (39.9, 49.4) 40.1 (35.3, 44.8) 37.4 (32.0, 42.8) 0.104 7.3 (0.4, 14.2) 0.038 2.7 (-4.2, 9.5) 0.443 4.6 (-2.0, 11.3) 0.166
+SF-36 mental
+component score
+ Week 4† 53.7 (49.7, 57.6) 48.6 (43.2, 54.0) 51.9 (47.2, 56.7) 0.287 1.8 (-4.9, 8.4) 0.600 -3.3 (-9.9, 3.2) 0.314 5.1 (-1.4, 11.6) 0.122
+ Week 26§ 55.1 (51.7, 58.4) 51.2 (46.0, 56.4) 53.3 (48.6, 58.1) 0.438 1.7 (-4.5, 8.0) 0.580 -2.1 (-8.4, 4.1) 0.496 3.9 (-2.1, 9.8) 0.201
+Degree of straight leg
+raise test
+ Week 4¶ 70.1 (63.8, 76.5) 67.2 (61.0, 73.4) 68.5 (61.6, 75.3) 0.797 1.7 (-7.3, 10.6) 0.708 -1.3 (-10.1, 7.6) 0.774 3.0 (-5.8, 11.7) 0.502
+ Week 26** 74.9 (70.7, 79.1) 70.3 (62.7, 77.9) 69.8 (64.1, 75.4) 0.402 5.1 (-3.2, 13.4) 0.222 0.5 (-7.7, 8.7) 0.902 4.6 (-3.6, 12.8) 0.267
+PDQ score
+ Week 4† 6.7 (4.4, 9.2) 9.3 (7.8, 10.8) 8.0 (5.8, 10.2) 0.193 -2.5 (-5.3, 0.2) 0.071 1.3 (-1.5, 4.1) 0.351 -1.2 (-4.1, 1.6) 0.392
+ Week 26‡ 4.9 (3.3, 6.4) 9.0 (7.7, 10.4) 8.1 (6.0, 10.1) 0.001 -4.1 (-6.4, -1.9) ＜0.001 1.0 (-1.3, 3.3) 0.408 -3.2 (-5.5, -0.9) 0.007
+Global perceived
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+4
+recovery
+ Week 4† 1.5 (1.2, 1.9) 2.6 (2.1, 3.1) 2.9 (2.4, 3.5) ＜0.001 -1.4 (-2.1, -0.7) ＜0.001 -0.3 (-1.0, 0.3) 0.301 -1.1 (-1.7, -0.4) 0.001
+ Week 26‡ 1.8 (1.4, 2.2) 2.6 (2.1, 3.0) 2.8 (2.3, 3.3) 0.005 -1.0 (-1.7, -0.4) 0.002 -0.2 (-0.9, 0.4) 0.460 -0.8 (-1.4, -0.2) 0.014
+Estimates are expressed as mean (95%CI).
+* Data imputed through the last observation carried forward approach.
+† The number of participants providing data was 27 in the DAM group, 29 in the NAM group and 26 in the SA group at week 4.
+‡ The number of participants providing data was 28 in the DAM group, 28 in the NAM group and 26 in the SA group at week 26.
+§The number of participants providing data was 28 in the DAM group, 28 in the NAM group and 24 in the SA group at week 26.
+¶ The number of participants providing data was 27 in the DAM group, 28 in the NAM group and 26 in the SA group at week 4.
+** The number of participants providing data was 25 in the DAM group, 26 in the NAM group and 25 in the SA group at week 26.
+DAM, the disease-affected meridian; NAM, the non-affected meridian; SA, Sham acupuncture.
+ODI, Oswestry Disability Index; SFBI, Sciatica Frequency and Bothersomeness Index; SF-36, 36-item Short Form Health Survey; PDQ, PainDETECT questionnaire.
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed
+5
+This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4723062
+Preprint not peer reviewed

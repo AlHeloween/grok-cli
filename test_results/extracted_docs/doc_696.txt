@@ -1,0 +1,91 @@
+States and local governments traditionally lead U.S. economic development efforts, with the federal
+government selectively intervening to address significant need. However, the 2019 Coronavirus Disease
+(COVID-19) pandemic has caused pervasive social and economic dislocation and extreme subnational
+fiscal stress, straining existing federal economic development structures. This Insight examines current
+federal economic development policy and outlines various options for addressing a potentially lengthy
+pandemic recovery, or future such long-term challenges.
+Federal Economic Development and COVID-19
+The nationwide scope and protracted time horizon of the COVID-19 pandemic has challenged the
+existing economic development infrastructure at all levels of government. This system is not designed or
+arguably equipped to address scenarios in which otherwise unusual distress is endemic, and state and
+local governments are acutely constrained by both the scale of the crisis as well as fiscal limitations.
+The Federal Approach: Distress-Based Interventions
+In the United States’ federal system, economic development activities are primarily the responsibility of
+state and local governments, which fund various programs that may include business relocation and
+retention incentives, workforce development, and other policies that stimulate growth and job creation.
+State and local governments are also the primary agents (sometimes with the support of federal funding)
+in other economic development-related activities—such as improvements to general infrastructure,
+housing, community facilities, land use, education, and public safety. Those unmet needs not fully
+addressed at the state and local levels, particularly in economically distressed or disadvantaged
+communities, are targeted through federal economic development interventions.
+Most funding programs provided by the principal federal economic development agencies—the
+Department of Housing and Urban Development (HUD), the Economic Development Administration
+(EDA), the Department of Agriculture (USDA), and the federal regional commissions and authorities—
+prioritize economic development resources for communities exhibiting acute socioeconomic distress. For
+Congressional Research Service
+https://crsreports.congress.gov
+IN11587
+Congressional Research Service 2
+example, HUD’s flagship Community Development Block Grant (CDBG) program is targeted at low- and
+moderate-income individuals in predominantly urban places. The EDA utilizes distress criteria, and has
+historically focused on rural and other non-urban places alongside USDA’s rural development programs.
+The federal regional commissions and authorities employ taxonomies of distress in delineated geographic
+service areas to prioritize their economic development activities. In addition, federal tax incentives for
+economic development—such as the New Markets Tax Credit and Opportunity Zones—prioritize areas
+shown to demonstrate high levels of economic distress.
+Economic Development in a Time of COVID
+The efficacy of the federal distress-based approach to economic development is broadly conditioned on
+state and local governments’ ability to conduct more general economic development. In situations of
+acute short-term disruption, such as a localized natural disaster or emergency, the federal government can
+utilize its economic development and emergency management toolkit to support state and local
+governments, organizations and businesses, and individuals with recovery.
+However, the pandemic’s scale and longevity has challenged the existing federal economic development
+and emergency management apparatus. In response, Congress has provided emergency supplemental
+appropriations to increase the capacity of existing federal economic development infrastructure and
+support temporary capabilities—such as the Federal Reserve’s direct lending programs, supplemental
+unemployment insurance, stimulus cash payments, and the extended deployment of various short-term
+emergency management authorities and countermeasures.
+Despite congressional action, the pandemic has contributed to surges in poverty, food and housing
+insecurity, waves of business closures, and a sharp annual decline in growth, indicating the limits of
+federal economic development approaches.
+Policy Options for Congress
+Congress may consider policy options for adapting federal economic development tools to address highimpact events with extended or indefinite time horizons (e.g., pandemics, climate/weather-related
+disasters, or manmade emergencies), such as:
+ Increasing funding for HUD’s CDBG program, and providing additional grantee
+discretion for addressing distress not necessarily captured in CDBG’s current national
+objectives—such as fiscal and public health;
+ Permanently authorizing broad-based relief tools like CDBG authorities for disaster
+recovery (CDBG-DR), or a CARES Act Coronavirus Relief Fund-type analogue, that
+could draw from a “no-year” strategic account similar to the Disaster Relief Fund;
+ Developing a standing fiscal support function for states as well as localities, potentially
+based on an expanded Community Disaster Loan-type program;
+ Building on the federal regional commissions model, providing a framework for
+establishing and resourcing intergovernmental federal-state regional commissions
+throughout the United States as the principal loci of regional economic development, like
+once provided under Title V of the Public Works and Economic Development Act of
+1965 (“Title V” commissions);
+ Developing authorities for targeted basic income and “job corps” workforce programs,
+which could be rapidly activated and expanded during emergencies to provide cash relief
+to affected individuals and fill urgent labor needs (such as contact tracers and medical
+auxiliaries during the pandemic); and
+Congressional Research Service 3
+IN11587 · VERSION 3 · NEW
+
+ Establishing a permanent interagency infrastructure to plan and coordinate industrial
+mobilization and support, using the Defense Production Act (DPA) and other emergency
+authorities, to respond to future social and economic dislocations.
+Congress may also consider policies to strengthen and revise the national approach to economic
+development generally, including:
+ An integrated, intergovernmental economic development framework where federal, state,
+and local governments coordinate on planning, priorities, and funding;
+ A greater emphasis on cultivating business development and job growth regionally
+(“economic gardening”), and shifting from incentive-driven regional competition to
+regional clusters of comparative advantage in a global economy; and
+ Developing industrial policies that promote the development of strategic industries and
+supply chains—beyond the defense industrial base—and drive investments in domestic
+(and certain allied) supply chains anticipating various possible contingency scenarios.
+Congress may also take steps to broaden the impacts of these reforms, such as by utilizing reinsurance
+markets for a permanent CDBG-DR-type program; authorizing federal regional commissions to issue
+bonds for strategic projects; broader adoption of federal loan and loan guarantee mechanisms in lieu of
+some grants; and taking equity positions as part of direct investments, including potentially in DPA Title
+III projects.

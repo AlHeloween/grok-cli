@@ -1,0 +1,121 @@
+Unemployment Insurance: Legislative Issues in the 118th Congress
+Congressional Research Service 12
+President’s Budget Proposal for FY2024
+The FY2024 budget request included several provisions intended to improve the administration
+and integrity of the UI program.51 These provisions included updating the factors used in
+determining administrative funding levels, a package of integrity-focused provisions, funding to
+continue to address fraud and IT modernization within the UI system, and additional funding to
+continue to build and support the UI Integrity Center’s Integrity Data Hub (IDH) cross-match
+systems. It also included an additional, broader package of proposed reforms to address systemic
+fraud such as identity theft and other fraud in the UI program, increase funding for the COVID-19
+Fraud Strike Force Teams, and provide additional funding for Inspectors General (including the
+DOL Inspector General).
+Proposed UI Program Administrative Funding
+The FY2024 budget request included $3.5 billion for administration of the UI system, which was
+an increase over the FY2023 budget request amount of $3.1 billion.52 This amount included
+almost $3.0 billion “reflecting the Administration’s economic assumptions and updated workload-
+processing and salary factors” to administer UI.53 Additionally, the budget request for UI
+administration included $550 million in funding for RESEA. Separately, the budget request
+would have provided a fourth installment of $6 million to modernize IT infrastructure and would
+also have provided $150 million for program integrity purposes, including state grants to reduce
+fraud through identity verification services and other IT infrastructure improvements.
+The President’s budget proposal for FY2024 also proposed an alteration to the formula that
+determines the federal appropriation for state UI administration, which would have been the first
+substantive update in decades. Specifically, this proposal would have updated assumptions related
+to UI claims processing and state UI workforce salary rates, as prior assumptions for these factors
+were not capturing current administrative costs in states.
+Proposed Program Integrity Legislation
+The President’s FY2024 budget request also recommended a package of legislative changes to
+improve UI program integrity and to provide additional funding to states to help ensure proper UI
+payments. These proposals would have
+• codifed the requirement for states to data match with the National Directory of
+New Hires (NDNH; administered by the Department of Health and Human
+Services) and the Prisoner Update Processing System (PUPS, administered by
+the Social Security Administration) to help ensure that UI benefits are correctly
+paid to eligible individuals in a timely manner;54
+51 DOL, Fiscal 2024 Budget, Volume 1: FY2024 Congressional Budget Justification, Employment and Training
+Administration, State Unemployment Insurance and Employment Service Operations, https://www.dol.gov/sites/
+dolgov/files/general/budget/2024/CBJ-2024-V1-07.pdf (hereinafter “FY24 SUIESO Chapter”).
+52 For an overview of current funding for UI administration, see CRS In Focus IF10838, Funding the State
+Administration of Unemployment Compensation (UC) Benefits.
+53 FY24 SUIESO Chapter, Page 23, available at https://www.dol.gov/sites/dolgov/files/general/budget/2024/CBJ-2024-
+V1-07.pdf#page=27.
+54 One way that states can ensure that UI benefits are correctly paid to eligible individuals in a timely manner is by
+accessing available data sources to match claimant information with eligibility-related characteristics. States are
+(continued...)
+Unemployment Insurance: Legislative Issues in the 118th Congress
+Congressional Research Service 13
+• required states to disclose information to the DOL Office of the Inspector
+General (DOL-OIG) in order to streamline DOL-OIG’s ability to conduct audits
+and investigations in the UI program; this includes authorizing DOL-OIG to have
+direct access to the Interstate Connection Network (ICON), which is used for the
+electronic transmission of interstate claims, as well as the IDH system, which is
+used in cross matching UI claimants against other databases to prevent and detect
+fraud and improper payments;55
+• allowed the DOL Secretary to require a portion of a state’s administrative grant to
+be used to correct failing performance and/or have the state participate in
+required technical assistance activities offered by DOL;56
+• authorized states to retain up to 5% of recovered fraudulent UI overpayments for
+program integrity use;57
+• required states to use penalty and interest collections solely for UI
+administration;58
+• provided states the authority to issue a formal warning when claimants do not
+clearly meet the work search requirements;59 and
+• allowed states to use contract support in recovery efforts under the Treasury
+Offset Program (TOP).60
+President’s Budget Proposal for FY2025
+As in FY2024, the President’s Budget Proposal for FY2025 budget request includes the same
+reform proposals intended to improve the administration and integrity of the UI program (see the
+section on “Proposed Program Integrity Legislation”).61
+currently required, via DOL program guidance, to use the National Directory of New Hires (NDNH) to make sure, for
+instance, that UI claimants have not returned to work (for permanent-law UI programs, see DOL, ETA, “National
+Effort to Reduce Improper Payments in the Unemployment Insurance (UI) Program,” UIPL No. 19-11, June 10,
+2011, https://wdr.doleta.gov/directives/attach/UIPL/UIPL19-11.pdf; and DOL, ETA, “National Directory of New Hires
+(NDNH) and State Directory of New Hires (SDNH) Guidance and Best Practices,” UIPL No. 13-19, June 17,
+2019, https://wdr.doleta.gov/directives/attach/UIPL/UIPL_13-19.pdf). Currently, there is no statutory requirement for
+states to use NDNH or several other related data cross matches.
+55 For background on recent DOL-OIG challenges related to direct access to state UI data, see the section on “Data
+Access” at https://www.oig.dol.gov/doloiguioversightwork.htm.
+56 For an overview of the federal funding of state UI administration, see CRS In Focus IF10838, Funding the State
+Administration of Unemployment Compensation (UC) Benefits.
+57 For an overview of UI fraud recovery issues, see CRS Insight IN12127, Unemployment Insurance Overpayment and
+Fraud Recovery and H.R. 1163.
+58 In some situations, states apply fines and civil penalties when fraud is involved with UI benefit overpayments. See
+DOL, 2022 Comparison of State Unemployment Insurance Laws, Table 6-3, https://oui.doleta.gov/unemploy/pdf/
+uilawcompar/2022/overpayments.pdf#page=6.
+59 Under federal law (SSA §303(a)(12)), each state’s UI laws must require that individuals be able to work, available
+for work, and actively seeking work, as a condition of benefit eligibility, among other requirements.
+60 Under federal law (SSA §303(m)), states must recover UI overpayments due to fraud and to misreported work from
+an individual’s federal income tax refund through the TOP. States may use contractors for recovery of SUTA debts but
+are prohibited from using contractors for recovery of UC and EB payments. For details, see DOL, ETA, “Recovery of
+Certain Unemployment Compensation Debts under the Treasury Offset Program,” UIPL 02-19, December 12, 2018,
+https://www.dol.gov/agencies/eta/advisories/unemployment-insurance-program-letter-no-02-19.
+61 DOL, Fiscal 2025 Budget, Volume 1: FY2024 Congressional Budget Justification, Employment and Training
+(continued...)
+Unemployment Insurance: Legislative Issues in the 118th Congress
+Congressional Research Service 14
+The FY2025 budget request includes $3.4 billion for administration of the UI system.62 This
+amount is $84 million less than the FY2024 budget request, but $280 million more that the
+FY2024 enacted appropriation of $3.1 billion.63 The budget request also includes $388 million in
+funding for RESEA and proposes changes to the distribution formula for RESEA grants to states.
+Separately, the budget would also request a fifth installment of $6 million to modernize critical
+information technology infrastructure essential to the states’ administration of the UI program and
+$25 million to fund the national identity verification offering that the Department launched to
+help states combat identity fraud in the UI system.
+Laws Enacted in the 118th Congress
+This section provides summary information on the one piece of legislation with UI provisions
+enacted in the 118th Congress, at the time of this report.
+P.L. 118-5, the Fiscal Responsibility Act of 2023
+The Fiscal Responsibility Act of 2023 (FRA; P.L. 118-5; June 3, 2023) included three provisions
+that (1) rescinded specified amounts of unobligated UI administrative funding made available by
+the American Rescue Plan Act of 2021 (ARPA; P.L. 117-2; March 11, 2021), (2) effectively
+reduced budgetary adjustments to discretionary spending limits for Reemployment Services and
+Eligibility Assessments, and (3) rescinded all unobligated funds for Short-Time Compensation
+grants created under the Coronavirus Aid, Relief, and Economic Security Act (CARES Act; P.L.
+116-136; March 27, 2020).
+ARPA provided $2 billion in additional UI administrative funding to the U.S. DOL in FY2021 to
+“detect and prevent fraud, promote equitable access, and ensure the timely payment of benefits.”
+This funding was made available until expended and can be used for (1) federal administrative
+costs, (2) system-wide infrastructure, and (3) grants to states and territories administering all UI
+benefits for program integrity and fraud prevention purposes, including for identity verification
+and faster claims processing.

@@ -1,0 +1,92 @@
+On August 28, 2017, Amazon acquired Whole Foods Market, a grocery retailer, for
+approximately $13.2 billion.47 After reviewing the proposed acquisition, the FTC determined no
+further action was needed at the time.48 Prior to the acquisition, Amazon offered the online
+grocery delivery service Amazon Fresh, which launched in 2007,49 and Prime Pantry, which
+launched in 2014 and ended in January 2021.50 By acquiring Whole Foods Market, Amazon
+obtained brick-and-mortar grocery store locations that it was able to integrate with its online
+services.51 For example, shoppers with an Amazon Prime membership52 are eligible for discounts
+and free pickup or delivery of Whole Foods Market groceries in selected zip codes,53 and Amazon
+Hub Lockers—where consumers can pick up products purchased on Amazon’s website—are
+often located in Whole Foods Markets.54
+Amazon’s acquisition of Whole Foods Market may have increased competition in the grocery
+retail market. Prior to the acquisition, Walmart was the largest grocery retailer, followed by
+Kroger.55 Progressive Grocer, a research group, estimates that in 2020, Walmart had the highest
+U.S. retail sales of grocery items, followed by Amazon.56 However, Duff & Phelps, a consulting
+firm, indicates that Amazon comprises only a small portion of the grocery retail market and that it
+serves as “more of a symbolic threat.”57 Nevertheless, other grocery retailers have responded by
+implementing changes in response to competitive pressure from Amazon.58
+Competitive pressure from Amazon may have incentivized other grocery retailers to start offering
+online delivery services. In 2017, the year Amazon acquired Whole Foods, Walmart launched an
+online delivery service in selected cities;59 Kroger launched an online delivery service in selected
+cities in 2018.60 In 2020, Walmart launched Walmart+,61 a membership delivery service that does
+not have a minimum order requirement,62 similar to an Amazon Prime membership. Consumers
+may have benefited from food retailers offering their own online delivery services, particularly as
+many of these stores offer free delivery on orders over $35. These changes may have also
+increased pressure on other online grocery delivery services, such as Instacart, a third-party
+service that delivers online groceries from selected stores in selected cities; the service launched
+in 2012 and stopped delivering groceries from Whole Foods in 2019.63
+Amazon’s acquisition of Whole Foods Market raised concern about its growing dominance in the
+retail industry, particularly in e-commerce. According to eMarketer, a market research company,
+Amazon had the greatest share of e-commerce sales at 38.7% in 2020; Walmart had the second-
+greatest share at 5.3% (Figure 1). The estimate from eMarketer includes all online sales,
+including products that Amazon does not offer. The House Subcommittee on Antitrust staff report
+finds that by restricting products to those sold on Amazon, a market share of 50% or higher may
+be a more credible estimate of Amazon’s share of online sales, and that over 60% of all U.S.
+online product searches begin on Amazon.64 Through its acquisition of Whole Foods, Amazon
+gained access to additional consumer data, strengthening its bargaining power with suppliers.65 In
+addition, Amazon has integrated vertically, such as by offering products under its private label
+AmazonBasics and by creating its own delivery system. Amazon has reportedly invested $60
+billion since 2014 in its delivery network, including capital leases for warehouses and aircraft; in
+2019, it had the fourth-largest share of U.S. package deliveries, behind FedEx, United Parcel
+Service, and the U.S. Postal Service.66 By integrating vertically, Amazon may be able to further
+strengthen its position in e-commerce; if, for example, it is able to provide faster delivery,67
+consumers could benefit even if it becomes more difficult for other companies to compete.
+Facebook’s Acquisition of Instagram
+Facebook announced that it had reached an agreement to acquire Instagram, a social networking
+service (i.e., social media platform), for $1 billion on April 9, 2012.68 The FTC reviewed the
+acquisition, and on August 22, 2012, it closed the investigation without taking action.69 On
+December 9, 2020, the FTC filed a lawsuit against Facebook, alleging that “Facebook has
+maintained its monopoly position by buying up companies that present competitive threats, ” in
+addition to imposing restrictive policies against companies it does not acquire.70 A coalition of 46
+state attorneys general, led by New York Attorney General Letitia James, filed a parallel lawsuit
+against Facebook, also alleging that Facebook acquired companies to eliminate competitive
+threats.71 Both lawsuits72 specifically mention Facebook’s acquisitions of Instagram and
+WhatsApp, a messaging app for mobile devices.73
+Prior to the acquisition, Facebook CEO Mark Zuckerberg stated in an internal email that
+“Instagram has become a large and viable competitor to us on mobile photos, which will
+increasingly be the future of photos.”74 This statement has been used to support the claim that
+Facebook acquired Instagram with the intention of eliminating a potential competitor.
+It is unclear how successful Instagram would have been had it not been acquired by Facebook,
+illustrating the difficulty of predicting whether a nascent firm could become a viable competitor.
+Instagram was a relatively new company when it was acquired,75 and grew rapidly thereafter,
+from about 100 million monthly active users (MAUs) in February 2013 to 500 million MAUs in June 2016 and 1 billion MAUs in June 2018.76 As it grew in popularity, Instagram was able to use
+Facebook’s resources, such as its advertising services and its infrastructure, which hosts and
+processes large amounts of consumer data. These have been key to the profitability of Instagram,
+which hosts a wide range of users, including “influencers”—that is, users with a large number of
+followers who are paid by sponsors to market certain products.77 It is possible that without the
+merger, Instagram would have been among the platforms that have struggled to compete in digital
+markets because of resource constraints. This occurred with the social networking service
+Friendster, which turned down a $30 million buyout offer from Google in 2003 but then struggled
+with technical difficulties as its user base grew; users left the platform for other social media
+sites, and Friendster eventually closed down.78
+Another complication in evaluating the effect of Facebook’s acquisition of Instagram is
+determining how the market should be defined, particularly in digital markets that can quickly
+evolve. Social networking services can include a wide range of platforms. When Facebook
+acquired Instagram in 2012, one of the defining features of social networking services—a
+category that than included Friendster and Myspace, among others—was the networks users
+could create. Users could clearly indicate the users in their respective network(s) on the social
+networking service,79 although some may have chosen to keep their network(s) private. At that
+time, Instagram was described as a photo-sharing app, arguably competing with apps like
+Photobucket and Flickr, rather than with Facebook.
+Additional types of platforms can be considered social networking services: Reddit allows users
+to create communities based on their interests; LinkedIn allows users to create connections for
+business and employment opportunities; and TikTok allows users to share short-form videos.80
+Some of these platforms allow users to connect with any other user on the platform rather than
+only with users in their personal network, focusing on the content rather than the user. These
+changes suggest that a user’s ability to create social networks may no longer be the defining
+feature of social networking services.
+In addition, social networking services are not necessarily substitutes for one another. For
+example, although Instagram and Microsoft’s LinkedIn are both typically viewed as social
+networking services, it is unlikely that users would substitute one platform for the other. One
+report estimates that internet users had an average of about seven social media accounts,
+suggesting that some users rely on different social media platforms for different purposes.81

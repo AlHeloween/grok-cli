@@ -1,0 +1,44 @@
+What does it take?
+A digital transformation requires five areas of competency:
+Adopting new technology
+A definitive feature of a digital transformation is that it involves the adoption of new software-based digital
+capabilities or technology infrastructure. It’s not necessary that these use emergent technologies such as
+Machine Learning, Augmented Reality, or Blockchain, so long as they support innovation, the creation of new
+value to customers, or operational efficiencies.
+Using data
+With digital transformation comes an explosion in the data available about your products and target markets. That
+means that collecting, analyzing, and using data to make good decisions is key. Being good at it can give you a
+competitive advantage. Being bad is just the opposite. In an increasingly data-led competitive environment, new
+strategies must be based on objective information where possible. As put in a 2017 article by The Economist [2],
+“The world’s most valuable resource is no longer oil, but data.”
+Customer focus
+Understanding your customers is critical for any business and even more so when trying new ways of working
+in new markets or business areas. These insights help you understand what can potentially increase customer
+satisfaction and, ultimately, sales. As a business, it means having the capability to get deep customer insights,
+experiment with ideas, and adapt and evolve your offering or business model in response. The mantra ‘constant
+change’ applies to your markets, competitors and customers, and your business. Continually learning what your
+customers care about (i.e., value) and where the market is heading must be embedded within your organization.
+Cross-functional collaboration and processes
+Today’s digital products are highly complex and involve many specialists to bring them to market, from skilled
+software developers and designers to User eXperience (UX) experts, DevOps, and Product Managers. No one
+individual has all the insights or skills necessary for success - a team of specialists working closely together is
+needed. In many companies, you see organizational silos, which can make cross-functional teamwork hard. Empire
+building and old-fashioned power hierarchies (founded on the human tendency for large egos to dominate) are
+often the reason. In these silos, top-down decision making, known as command-and-control, is often the result.
+However, this can exclude vital insights from other functions.
+Building software products is a creative process, and diverse skills and viewpoints in the team drive better results.
+Organization structures and processes that promote cross-functional working can bring out the best from all the
+different specialisms and maximize the odds of success. Having everyone’s primary home as an autonomous team
+(or squad) focused on a specific product/element is often held up as the ideal example of how to do this. However,
+more often we see a product management department with Product Managers leading virtual teams who are
+working on their product(s).
+Capacity to change and adopt a digital mindset
+Digital transformation requires fundamental changes within an organization, which go to the heart of its business
+model, culture, and operations. Companies must be willing to take a risk by experimenting with new business
+models and new ways of doing things. For example, incentivizing Sales to sell software rather than hardware
+or changing the business case approach to see software products as an ongoing development rather than a
+one-off project.
+A good example is the car industry in Europe. Over the last couple of years, it has been trying to adopt this digital
+mindset and move from the paradigm of a hardware-centric product (a one-off sale of a car) to a more softwarecentric approach. With continuous updates to the car’s software this opens up the potential for new additional
+and ongoing revenue. This is possible only if the leadership and people in a company adopt a digital mindset.
+It’s about thinking about digital as the default approach rather than a series of one-off transformation projects.

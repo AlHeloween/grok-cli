@@ -1,0 +1,96 @@
+Title: Fugitive Tracking using Open Source Intelligence ( OSINT)
+Author: Pranav Waghmare
+Abstract:
+The fugitive tracking has been a challenging topic for various law enforcement agencies across
+the world. The use of technology, social media, and other social media platforms, etc offers
+unique opportunities to track the digital footprint left by Fugutives. In this research paper, we
+will explore the methodologies, Legal as well as Ethical Considerations, OSINT mapping, and
+cyber forensic technologies that can be helpful in tracking fugitives.
+Introduction :
+Fugitive tracking has evolved over a period of time but also now has a global framework.
+Interpol created a global framework and classification of fugitives based on their crime and
+threat level. They have also created a color-coded system. The local government agencies also
+have their own classification system for fugitives.
+Methodologies :
+OSINT Framework Mapping :
+The Interpole’s framework for data classification can be incorporated with OSINT. The Interpole
+classifies fugitives with color codes and also updates the data every hour. This is really for
+mapping it to OSINT Framework for real-time monitoring and cross-referencing the searches.
+OSINT comparatively accesses vast resources but the Interpol framework provides the necessary
+filter to refine the searches.
+Electronic copy available at: https://ssrn.com/abstract=4719968
+Here is the overview of the Color code System used by Interpol :
+● Red Notice: Red is the highest level of importance and also states the individual wanted
+by Law enforcement and governments for arrest and extradition
+For Example: The person who is found guilty of murder and on the run falls under Red
+Notice
+● Blue Notice: The Blue Notice is mainly concerned with gathering enough information
+about the person of Interest by Law Enforcement.
+For Example, The people under blue notices are suspects and wanted for questioning by
+authorities. The gang members whom law enforcement may suspect connected with
+crime and needed for questioning will fall under Blue Notice
+● Green Notice: The green notice fugitive is considered a public safety threat.
+For Example, Sex Offenders and Drug traffickers will fall under “ Green Notice”. Here
+the country is making Interpol aware this person is a threat to public safety
+● Yellow Notice: Yellow Notice is more about the Identity of the missing individuals or
+person who is incapable of identifying themselves
+For Example, a Missing Child who is underage or an individual with mental incapability
+will be under a Yellow Notice
+Electronic copy available at: https://ssrn.com/abstract=4719968
+● Black Notice: The black notice is issued about unidentified bodies.
+For Example, If a war crime is committed and mass graves of unidentified bodies are
+found they come under black notice
+● Purple Notice: The purple notice is mainly used to gather information about the
+operational details of the crime such as devices used or methods used by them to hide.
+For Example, Drug Tunnels will come under purple notice
+Cyber Forensics and OSINT :
+The Digital Footprint creation will be very efficient with the use of OSINT. The geolocation tags,
+social media posts, and publicly available information about fugitives will help to create a digital
+footprint and help investigators understand the patterns in fugitive behavior. This also helps to
+reconstruct the timeline as shown in Figure 1 which can help the investigator understand the
+events and suspects.
+Geolocation Tracking: With OSINT we can build geotags of the places an individual has been
+and cross-check with Interpol notices as they get updated every hour. OSINT also provides
+information about individuals known associated that can be also valuable in terms of building
+Geolocation Tracking. For example, One can search the fugitive's location and past history of
+residential addresses can help to pinpoint their possible location and understand the pattern in
+their movements
+Electronic copy available at: https://ssrn.com/abstract=4719968
+Social Media Monitoring: The social media accounts of fugitives provide essential details about
+their likes or dislikes, the images and videos posted by them, and the metadata associated with
+them. Social media also give understanding to their known friends or associates. This can be
+further matched with witness and journalist statements. The metadata search and social media
+monitoring can help create a digital footprint and also be searched for further updated
+information posted by Interpol every hour.
+Legal and Ethical Consideration :
+While implementing as well as using OSINT framework it is really essential to keep track of
+local laws and jurisdiction. There is the possibility that this system can be abused if it falls into
+the wrong hands, It can be used to track dissidents, political and religious minorities, or
+opponents. Hence there need to be awareness of local laws as well ethical consideration must be
+taken into consideration. There have been instances where the Interpol framework was abused in
+the past but over the period of time, Interpol is evolving. For Example, China issued red notices
+for Uyghurs. The Interpol latter made firm in their policy that they will not issue notices for
+individuals who have refugee status in another country and they firmly believe that an individual
+is innocent until proven guilty. Hence, The Interpol framework mapping into OSINT is essential
+as Interpol holds the highest standards of Ethical approach in terms of tracking Fugutatives.
+Conclusion :
+To Conclude, The OSINT is a highly efficient framework, and mapping into the Interpoles
+framework makes it a very effective tool with legal and ethical considerations
+Electronic copy available at: https://ssrn.com/abstract=4719968
+References:
+1. Interpol (2011) Interpole’s Rules on Processing Data: Interpol
+https://www.interpol.int/en/Who-we-are/Legal-framework/Data-protection
+2 C. Rafailă, F. Gurzău, C. Grumăzescu, and I. Bica, "MTAFinder - Unified OSINT platform for
+efficient data gathering," 2023 15th International Conference on Electronics, Computers and
+Artificial Intelligence (ECAI), Bucharest, Romania, 2023
+3 HOROS, ANDREW J.(2023) 21st Century Open-Source Intelligence and Law
+Enforcement Utilization
+4 Lakomy, Miron. (2023). Open-source intelligence and research on online terrorist
+communication: Identifying ethical and security dilemmas.
+5 Daragh Murray, Yvonne McDermott, K Alexa Koenig, Mapping the Use of Open Source
+Research in UN Human Rights Investigations, Journal of Human Rights Practice, Volume
+14, Issue 2, July 2022, Pages 554–581 ( Figure 1)
+6 J. W. Johnsen and K. Franke, "The impact of preprocessing in natural language for open
+source intelligence and criminal investigation," 2019 IEEE International Conference on Big Data
+(Big Data), Los Angeles, CA, USA, 2019
+Electronic copy available at: https://ssrn.com/abstract=4719968

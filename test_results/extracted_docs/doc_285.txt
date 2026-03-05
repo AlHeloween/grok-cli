@@ -1,0 +1,158 @@
+**Risks of Exchange-Traded Shares**
+
+ETF Shares are not individually redeemable. They can be redeemed with
+the issuing Fund at NAV only by certain authorized broker-dealers and only in
+large blocks known as Creation Units. Consequently, if you want to liquidate
+some or all of your ETF Shares, you must sell them on the secondary market
+at prevailing market prices.
+The market price of ETF Shares may differ from NAV. Although it is
+expected that the market price of an ETF Share typically will approximate its
+NAV, there may be times when the market price and the NAV differ
+significantly. Thus, you may pay more (premium) or less (discount) than NAV
+when you buy ETF Shares on the secondary market, and you may receive
+more or less than NAV when you sell those shares. These discounts and
+premiums are likely to be greatest during times of market disruption or
+extreme market volatility.
+Vanguard’s website at vanguard.com shows the previous day’s closing NAV and
+closing market price for the Fund’s ETF Shares. The website also discloses, in
+the Premium/Discount Analysis section of the ETF Shares’ Price & Performance
+page, how frequently the Fund’s ETF Shares traded at a premium or discount to
+NAV (based on closing NAVs and market prices) and the magnitudes of such
+premiums and discounts.
+An active trading market may not exist. Although Vanguard ETF Shares are
+listed on a national securities exchange, it is possible that an active trading
+market may not be maintained. Although this could happen at any time, it is
+more likely to occur during times of severe market disruption. If you attempt
+to sell your ETF Shares when an active trading market is not functioning, you
+may have to sell at a significant discount to NAV. In extreme cases, you may
+not be able to sell your shares at all.
+Trading may be halted. Trading of Vanguard ETF Shares on an exchange may
+be halted by the activation of individual or marketwide trading halts (which halt
+trading for a specific period of time when the price of a particular security or
+overall market prices decline by a specified percentage). Trading of ETF Shares
+may also be halted if (1) the shares are delisted from the listing exchange
+without first being listed on another exchange or (2) exchange officials
+determine that such action is appropriate in the interest of a fair and orderly
+market or for the protection of investors.
+Conversion Privilege
+Owners of conventional shares issued by the Fund may convert those shares to
+ETF Shares of equivalent value of the same fund. Please note that investors who
+own conventional shares through a 401(k) plan or other employer-sponsored
+15
+retirement or benefit plan generally may not convert those shares to ETF Shares
+and should check with their plan sponsor or recordkeeper. ETF Shares, whether
+acquired through a conversion or purchased on the secondary market, cannot be
+converted to conventional shares by a shareholder. Also, ETF Shares of one fund
+cannot be exchanged for ETF Shares of another fund.
+You must hold ETF Shares in a brokerage account. Thus, before converting
+conventional shares to ETF Shares, you must have an existing, or open a new,
+brokerage account. This account may be with Vanguard Brokerage Services®
+or
+with any other brokerage firm. To initiate a conversion of conventional shares to
+ETF Shares, please contact your broker.
+Vanguard Brokerage Services does not impose a fee on conversions from
+Vanguard conventional shares to Vanguard ETF Shares. However, other
+brokerage firms may charge a fee to process a conversion. Vanguard reserves
+the right, in the future, to impose a transaction fee on conversions or to limit,
+temporarily suspend, or terminate the conversion privilege.
+Converting conventional shares to ETF Shares is generally accomplished as
+follows. First, after your broker notifies Vanguard of your request to convert,
+Vanguard will transfer your conventional shares from your account to the
+broker’s omnibus account with Vanguard (an account maintained by the broker
+on behalf of all its customers who hold conventional Vanguard fund shares
+through the broker). After the transfer, Vanguard’s records will reflect your broker,
+not you, as the owner of the shares. Next, your broker will instruct Vanguard to
+convert the appropriate number or dollar amount of conventional shares in its
+omnibus account to ETF Shares of equivalent value, based on the respective
+NAVs of the two share classes.
+Your Fund’s transfer agent will reflect ownership of all ETF Shares in the name of
+the Depository Trust Company (DTC). The DTC will keep track of which ETF
+Shares belong to your broker, and your broker, in turn, will keep track of which
+ETF Shares belong to you.
+Because the DTC is unable to handle fractional shares, only whole shares can be
+converted. For example, if you owned 300.25 conventional shares, and this was
+equivalent in value to 90.75 ETF Shares, the DTC account would receive 90 ETF
+Shares. Conventional shares with a value equal to 0.75 ETF Shares (in this
+example, that would be 2.481 conventional shares) would remain in the broker’s
+omnibus account with Vanguard. Your broker then could either (1) credit your
+account with 0.75 ETF Shares or (2) redeem the 2.481 conventional shares for
+cash at NAV and deliver that cash to your account. If your broker chose to
+redeem your conventional shares, you would realize a gain or loss on the
+redemption that must be reported on your tax return (unless you hold the shares
+16
+in an IRA or other tax-deferred account). Please consult your broker for
+information on how it will handle the conversion process, including whether it
+will impose a fee to process a conversion.
+If you convert your conventional shares to ETF Shares through Vanguard
+Brokerage Services, all conventional shares for which you request conversion
+will be converted to ETF Shares of equivalent value. Because no fractional
+shares will have to be sold, the transaction will not be taxable.
+Here are some important points to keep in mind when converting conventional
+shares of a Vanguard fund to ETF Shares:
+• The conversion process can take anywhere from several days to several
+weeks, depending on your broker. Vanguard generally will process conversion
+requests either on the day they are received or on the next business day.
+Vanguard imposes conversion blackout windows around the dates when a fund
+with ETF Shares declares dividends. This is necessary to prevent a shareholder
+from collecting a dividend from both the conventional share class currently held
+and also from the ETF share class to which the shares will be converted.
+• Until the conversion process is complete, you will remain fully invested in a
+fund’s conventional shares, and your investment will increase or decrease in
+value in tandem with the NAV of those shares.
+• The conversion transaction is nontaxable except, if applicable, to the very
+limited extent previously described.
+Shareholder Rights
+The Fund’s Agreement and Declaration of Trust, as amended, requires a
+shareholder bringing a derivative action on behalf of Vanguard Index Funds (the
+Trust) that is subject to a pre-suit demand to collectively hold at least 10% of the
+outstanding shares of the Trust or at least 10% of the outstanding shares of the
+series or class to which the demand relates and to undertake to reimburse the
+Trust for the expense of any counsel or advisors used when considering the
+merits of the demand in the event that the board of trustees determines not to
+bring such action. In each case, these requirements do not apply to claims
+arising under the federal securities laws to the extent that any such federal
+securities laws, rules, or regulations do not permit such application.
+A precautionary note to investment companies: The Fund’s ETF Shares are
+issued by a registered investment company, and therefore the acquisition of
+such shares by other investment companies and private funds is subject to the
+restrictions of Section 12(d)(1) of the Investment Company Act of 1940 (the 1940
+Act). SEC Rule 12d1-4 under the 1940 Act permits registered investment
+companies to invest in other registered investment companies beyond the limits
+17
+in Section 12(d)(1), subject to certain conditions, including that funds with
+different investment advisors must enter into a fund of funds
+investment agreement.
+Frequent Trading and Market-Timing
+Unlike frequent trading of a Vanguard fund’s conventional (i.e., not
+exchange-traded) classes of shares, frequent trading of ETF Shares does not
+disrupt portfolio management or otherwise harm fund shareholders. The vast
+majority of trading in ETF Shares occurs on the secondary market. Because
+these trades do not involve the issuing fund, they do not harm the fund or its
+shareholders. Certain broker-dealers are authorized to purchase and redeem ETF
+Shares directly with the issuing fund. Because these trades typically are effected
+in kind (i.e., for securities and not for cash), or are assessed a transaction fee
+when effected in cash, they do not cause any of the harmful effects to the
+issuing fund (as previously noted) that may result from frequent trading. For
+these reasons, the board of trustees of each fund that issues ETF Shares has
+determined that it is not necessary to adopt policies and procedures to detect
+and deter frequent trading and market-timing of ETF Shares.
+Portfolio Holdings
+Please consult the Fund’s Statement of Additional Information or our website for
+a description of the policies and procedures that govern disclosure of the Fund’s
+portfolio holdings.
+Turnover Rate
+Although the Fund generally seeks to invest for the long term, it may sell
+securities regardless of how long they have been held. Generally, an index fund
+sells securities in response to redemption requests from shareholders of
+conventional (i.e., not exchange-traded) shares or to changes in the composition
+of its target index. Turnover rates for large-cap stock index funds tend to be low
+because large-cap indexes—such as the S&P 500 Index—typically do not change
+significantly from year to year. The Financial Highlights section of this
+prospectus shows historical turnover rates for the Fund. A turnover rate of
+100%, for example, would mean that the Fund had sold and replaced securities
+valued at 100% of its net assets within a one-year period. In general, the greater
+the turnover rate, the greater the impact transaction costs will have on a fund’s
+return. Also, funds with high turnover rates may be more likely to generate
+capital gains, including short-term capital gains, that must be distributed to
+shareholders and will be taxable to shareholders investing through a
+taxable account.

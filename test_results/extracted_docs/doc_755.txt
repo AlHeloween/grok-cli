@@ -1,0 +1,130 @@
+A. INTRODUCTION
+1. Mr Richard Lloyd - with financial backing from Therium Litigation Funding IC, a
+commercial litigation funder - has issued a claim against Google LLC, alleging breach of
+its duties as a data controller under section 4(4) of the Data Protection Act 1998 (“the
+DPA 1998”). The claim alleges that, for several months in late 2011 and early 2012,
+Google secretly tracked the internet activity of millions of Apple iPhone users and used
+the data collected in this way for commercial purposes without the users’ knowledge
+or consent.
+2. The factual allegation is not new. In August 2012, Google agreed to pay a civil
+penalty of US$22.5m to settle charges brought by the United States Federal Trade
+Commission based upon the allegation. In November 2013, Google agreed to pay
+US$17m to settle consumer-based actions brought against it in the United States. In
+England and Wales, three individuals sued Google in June 2013 making the same
+allegation and claiming compensation under the DPA 1998 and at common law for
+misuse of private information: see Vidal-Hall v Google Inc (Information Comr
+intervening) [2015] EWCA Civ 311; [2016] QB 1003. Following a dispute over
+jurisdiction, their claims were settled before Google had served a defence. What is
+new about the present action is that Mr Lloyd is not just claiming damages in his own
+right, as the three claimants did in Vidal-Hall. He claims to represent everyone resident
+in England and Wales who owned an Apple iPhone at the relevant time and whose
+data were obtained by Google without their consent, and to be entitled to recover
+damages on behalf of all these people. It is estimated that they number more than 4m.
+3. Class actions, in which a single person is permitted to bring a claim and obtain
+redress on behalf of a class of people who have been affected in a similar way by
+alleged wrongdoing, have long been possible in the United States and, more recently,
+in Canada and Australia. Whether legislation to establish a class action regime should
+be enacted in the UK has been much discussed. In 2009, the Government rejected a
+recommendation from the Civil Justice Council to introduce a generic class action
+regime applicable to all types of claim, preferring a “sector based approach”. This was
+for two reasons:
+“Firstly, there are potential structural differences between
+the sectors which will require different consideration. …
+Secondly, it will be necessary to undertake a full assessment
+Page 3
+of the likely economic and other impacts before
+implementing any reform.”
+See the Government’s Response to the Civil Justice Council’s Report: “Improving
+Access to Justice through Collective Actions” (2008), paras 12-13.
+4. Since then, the only sector for which such a regime has so far been enacted is
+that of competition law. Parliament has not legislated to establish a class action regime
+in the field of data protection.
+5. Mr Lloyd has sought to overcome this difficulty by what the Court of Appeal in
+this case described as “an unusual and innovative use of the representative procedure”
+in rule 19.6 of the Civil Procedure Rules: see [2019] EWCA Civ 1599; [2020] QB 747,
+para 7. This is a procedure of very long standing in England and Wales whereby a claim
+can be brought by (or against) one or more persons as representatives of others who
+have “the same interest” in the claim. Mr Lloyd accepts that he could not use this
+procedure to claim compensation on behalf of other iPhone users if the compensation
+recoverable by each user would have to be individually assessed. But he contends that
+such individual assessment is unnecessary. He argues that, as a matter of law,
+compensation can be awarded under the DPA 1998 for “loss of control” of personal
+data without the need to prove that the claimant suffered any financial loss or mental
+distress as a result of the breach. Mr Lloyd further argues that a “uniform sum” of
+damages can properly be awarded in relation to each person whose data protection
+rights have been infringed without the need to investigate any circumstances
+particular to their individual case. The amount of damages recoverable per person
+would be a matter for argument, but a figure of £750 was advanced in a letter of claim.
+Multiplied by the number of people whom Mr Lloyd claims to represent, this would
+produce an award of damages of the order of £3 billion.
+6. Because Google is a Delaware corporation, the claimant needs the court’s
+permission to serve the claim form on Google outside the jurisdiction. The application
+for permission has been contested by Google on the grounds that the claim has no real
+prospect of success as: (1) damages cannot be awarded under the DPA 1998 for “loss
+of control” of data without proof that it caused financial damage or distress; and (2)
+the claim in any event is not suitable to proceed as a representative action. In the High
+Court Warby J decided both issues in Google’s favour and therefore refused permission
+to serve the proceedings on Google: see [2018] EWHC 2599 (QB); [2019] 1 WLR 1265.
+The Court of Appeal reversed that decision, for reasons given in a judgment of the
+Chancellor, Sir Geoffrey Vos, with which Davis LJ and Dame Victoria Sharp agreed:
+[2019] EWCA Civ 1599; [2020] QB 747.
+Page 4
+7. On this further appeal, because of the potential ramifications of the issues
+raised, as well as hearing the claimant and Google, the court has received written and
+oral submissions from the Information Commissioner and written submissions from
+five further interested parties.
+8. In this judgment I will first summarise the facts alleged and the relevant legal
+framework for data protection before considering the different methods currently
+available in English procedural law for claiming collective redress and, in particular, the
+representative procedure which the claimant is seeking to use. Whether that
+procedure is capable of being used in this case critically depends, as the claimant
+accepts, on whether compensation for the alleged breaches of data protection law
+would need to be individually assessed. I will then consider the claimant’s arguments
+that individual assessment is unnecessary. For the reasons given in detail below, those
+arguments cannot in my view withstand scrutiny. In order to recover compensation
+under the DPA 1998 for any given individual, it would be necessary to show both that
+Google made some unlawful use of personal data relating to that individual and that
+the individual suffered some damage as a result. The claimant’s attempt to recover
+compensation under the Act without proving either matter in any individual case is
+therefore doomed to fail.
+B. FACTUAL BACKGROUND
+9. The relevant events took place between 9 August 2011 and 15 February 2012
+and involved the alleged use by Google of what has been called the “Safari
+workaround” to bypass privacy settings on Apple iPhones.
+10. Safari is an internet browser developed by Apple and installed on its iPhones. At
+the relevant time, unlike most other internet browsers, all relevant versions of Safari
+were set by default to block third party cookies. A “cookie” is a small block of data that
+is placed on a device when the user visits a website. A “third party cookie” is a cookie
+placed on the device not by the website visited by the user but by a third party whose
+content is included on that website. Third party cookies are often used to gather
+information about internet use, and in particular web pages visited over time, to
+enable the delivery to the user of advertisements tailored to interests inferred from
+the user’s browsing history.
+11. Google had a cookie known as the “DoubleClick Ad cookie” which could operate
+as a third party cookie. It would be placed on a device if the user visited a website that
+included DoubleClick Ad content. The DoubleClick Ad cookie enabled Google to
+identify visits by the device to any website displaying an advertisement from its vast
+Page 5
+advertising network and to collect considerable amounts of information. It could tell
+the date and time of any visit to a given website, how long the user spent there, which
+pages were visited for how long, and what advertisements were viewed for how long.
+In some cases, by means of the IP address of the browser, the user’s approximate
+geographical location could be identified.
+12. Although the default settings for Safari blocked all third party cookies, a blanket
+application of these settings would have prevented the use of certain popular web
+functions; so Apple devised some exceptions to them. These exceptions were in place
+until March 2012, when the system was changed. But in the meantime the exceptions
+made it possible for Google to devise and implement the Safari workaround. Its effect
+was to place the DoubleClick Ad cookie on an Apple device, without the user’s
+knowledge or consent, immediately, whenever the user visited a website that
+contained DoubleClick Ad content.
+13. It is alleged that, in this way, Google was able to collect or infer information
+relating not only to users’ internet surfing habits and location, but also about such
+diverse factors as their interests and pastimes, race or ethnicity, social class, political or
+religious beliefs or affiliations, health, sexual interests, age, gender and financial
+situation.
+14. Further, it is said that Google aggregated browser generated information from
+users displaying similar patterns, creating groups with labels such as “football lovers”,
+or “current affairs enthusiasts”. Google’s DoubleClick service then offered these group
+labels to subscribing advertisers to choose from when selecting the type of people at
+whom they wanted to target their advertisements

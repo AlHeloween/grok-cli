@@ -1,0 +1,12 @@
+Financial intermediaries reduce transaction, information and search costs mainly
+by exploiting economies of scale. By increasing the volume of transactions, the
+cost per unit of transaction decreases. Moreover, by focusing on growing in size,
+financial intermediaries are able to draw standardised contracts and monitor customers so that they enforce these contracts. They also train high-quality staff to
+assist in the process of finding and monitoring suitable units in deficit (borrowers).
+It would be very difficult, time-consuming and costly for an individual to do so.
+Financial intermediaries can reduce risks by ‘pooling’, or aggregating, individual
+risks so that in normal circumstances, surplus units will be depositing money as
+deficit units make withdrawals. This enables banks, for instance, to collect relatively liquid deposits and invest most of them in long-term assets. Another way to
+look at this situation is that large groups of depositors are able to obtain liquidity
+from the banks while investing savings in illiquid but more profitable investments
+(Diamond and Dybvig, 1983). 

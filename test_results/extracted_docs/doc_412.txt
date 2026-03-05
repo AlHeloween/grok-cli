@@ -1,0 +1,107 @@
+[1]—“Leveraging” Resources
+The primary business advantage of granting a license is “leveraging”
+business resources. By adding its licensees’ resources for particular business
+operations to its own, a licensor can address markets that it otherwise could
+not hope to serve. For example, small firms and start-up companies often do
+not have enough salespeople or offices to serve nationwide, let alone worldwide, markets. By granting others the right to market and distribute their
+products, they can penetrate geographic or products markets otherwise completely beyond their reach.
+This occurred, for example, when International Business Machines Corporation chose Microsoft Corporation’s “MS-DOS” operating system software as the platform upon which to build the “PC-DOS” operating system
+for IBM’s personal computer. Overnight, Microsoft obtained the benefit of
+IBM’s massive marketing and sales in forces distributing its products.
+Although the effect is seldom so dramatic as in this example, “leveraging”
+of resources is one of the primary advantages of granting licenses.
+The ability to leverage resources is restricted by limits on the patent
+rights. The patent exhaustion doctrine, in particular, restricts the ability of
+the patentee to control sales beyond the first sale of a patented product, or a
+product embodying a patented process.11 Because of this rule, a patent holder cannot exercise unlimited rights over an invention once embodiments of
+the invention have been sold.12 Rather, if he sells devices embodying the
+invention, or permits others to sell such devices, he will have limited control over what the buyers do with those devices because they take the items
+purchased free of the patent claims.13
+In the sphere of copyright, a similar question is whether a rights holder
+can rely on digital rights management systems to protect against not just
+copyright infringement, but also other, non-infringing access to copyrighted
+works.14 Circumvention to permit use beyond the scope of a license may
+violate the protections for access controls (because it permits unauthorized
+access), even if it does not cause infringement of copyright (because the
+users had a license, even though the circumvention allows them to use the
+software beyond the scope of the license).15
+Even while sensitive military or intelligence technology is subjected to
+secrecy orders by the United States government,16 it is important to seek
+licensees while patent applications are sequestered.17 If the patent applicant
+does not do so, it may have no basis for an otherwise valid claim for compensation from the United States government for the adverse effects of a
+secrecy order.18
+[2]—Broadening Geographic Markets
+As the world becomes a “global village,” product markets that used to be
+regional or national are rapidly becoming worldwide. Few except the largest
+firms, however, have the personnel or resources to address worldwide markets successfully. One reason is that most products require some “translation” for foreign markets. Labels and instructions may need translation into
+foreign languages, goods may require physical modification to comply with
+local laws and regulations, and advertising and marketing programs may
+have to be adjusted to satisfy local customs and tastes.
+If a firm wishes to enter foreign markets but does not have ready marketing and distribution channels in foreign countries, it has only four alternatives. First, it can set up foreign branches, which may subject it to direct
+taxation abroad. Second, it may set up separate subsidiaries or affiliates in
+foreign countries. This may avoid direct foreign taxation of the parent company, although the foreign subsidiary will be subject to foreign income tax.
+Yet whether a branch or subsidiary, establishing of a foreign office requires
+time, energy, and money in order to complete the necessary legal work, put
+management and physical plant in place, and hire and train appropriate personnel.
+The third alternative for firms wishing to expand into foreign markets is
+a joint venture. If a joint venture is taxed as a separate entity, as is often the
+case,19 the tax consequences of this alternative are similar to those of establishing a foreign subsidiary. However, formation of a joint venture also
+involves resolving difficult questions of control, management, and communication that often consume considerable time and resources. If the joint venture is more than a shell—if it will have separate physical plant, employees,
+and a separate existence—its formation may be as complex as the establishment of a new business enterprise in the foreign country.
+The fourth alternative for expansion into foreign markets is, of course,
+licensing. By licensing a foreign entity to help exploit its intellectual property, a firm can take advantage of a preexisting organization, with personnel
+in place and established channels, resources, and procedures for production,
+marketing, and distribution. The firm need not establish any new entity
+because the licensee normally uses existing personnel and resources, or at
+least an existing management and business structure, to perform the delegated operations. By licensing a foreign concern to exploit its intellectual
+property in foreign markets, a firm also can use the foreign concern’s familiarity with foreign markets, customs, and needs. Because licensing takes
+advantage of these preexisting resources and capabilities, it is often the
+fastest route to the foreign marketplace.
+This advantage of licensing, however, is not limited to the international
+sphere. A firm in one state or region of the United States that wishes to
+expand its markets into another state or region has the same four alternatives
+as a firm wishing to expand abroad.
+20 Very often the firm can achieve the
+most rapid penetration into new geographic markets simply by granting
+licenses to a firm already there.
+[3]—Broadening Product Markets
+Just as licensing can broaden geographic markets, it can broaden product
+markets. A firm may have the resources to exploit its intellectual property
+through one product, but its intellectual property may be applicable to other
+products or services.
+The video industry is an excellent example. There is now a tremendous
+market for entertainment programs for home use. Yet independent producers
+of movies and television shows often do not have the resources for mass production and distribution. To take advantage of this market, they license their
+intellectual property—namely, the copyrights in their movies and television
+shows—to firms that manufacture and distribute the videos.
+In the biotechnology industry, research firms have developed a number of
+monoclonal antibodies to be used outside the body as testing and diagnostic
+tools. Because the process of regulatory review is relatively simple for products used outside the body, these firms can take those products to market
+quickly. To exploit their technology fully, however, they may wish to develop drugs and biologicals for internal use. The approval process for these
+products takes much longer and requires much greater expense, as well as
+clinical expertise and familiarity with the regulatory process. Lacking the
+requisite resources, smaller biotechnology firms often license their technology to large drug companies for that purpose.
+21
+Licensing for the purpose of expanding product markets, however, has
+disadvantages. By granting others the right to use its intellectual property to
+develop new products, a firm may lose control over those new products.
+22
+Where a party authorizes another to sell the invention, buyers will be protected by first sale, even if the seller fails to pay the agreed royalties to the
+patent owner.
+22.1 Any other rule would make the buyer of goods or services
+subject to disputes over which the buyer has neither control nor knowledge.
+That uncertainty would in turn add transaction costs to such sales. So the
+rule aids both patentees and ultimate buyers, by facilitating transactions.
+Unless it has access to improvements made by its licensees, it may quickly
+find itself left in a backwater of technology, at least insofar as the new product market is concerned.
+23 It also may incur some risk of liability for damage caused by defects in its licensee’s products,
+24 or even for breach of contract
+25 or miscellaneous torts.
+26
+Nevertheless, for many firms, this sort of licensing is an important source
+of additional revenue. With appropriate provision for cooperation in the
+licensing agreement, a firm may stay in touch with the exploitation of its
+intellectual property and at the same time exploit that property in market
+areas that it could never hope to penetrate using only its own resources.
+The patent exhaustion doctrine may prevent a patentee from controlling
+patent markets beyond the first market which a patented product enters.

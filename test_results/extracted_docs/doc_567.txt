@@ -1,0 +1,1899 @@
+TALKING
+TO HUMANS
+Success starts with understanding
+your customers
+GIFF CONSTABLE
+with Frank Rimalovski
+illustrations by Tom Fishburne
+and foreword by Steve Blank
+Copyright ©2014 Gif Constable
+First edition, v1.71
+All rights reserved.
+Book design: Gif Constable
+Illustrations by Tom Fishburne
+Cover design assistance: Jono Mallanyk
+Lean Startup is trademarked by Eric Ries
+Customer Discovery is a phrase coined by Steve Blank
+ISBN: 978-0-9908009-0-3
+Special thanks to the NYU Entrepreneurial Institute for their
+collaboration and support in the creation of Talking to Humans
+Acclaim for Talking to Humans
+“If you are teaching entrepreneurship or running a startup accelerator, you
+need to make it required reading for your students and teams. I have.”
+Steve Blank, entrepreneur, educator and author of
+Four Steps to the Epiphany and The Startup Owner’s Manual
+“If entrepreneurship 101 is talking to customers, this is the syllabus.
+Talking to Humans is a thoughtful guide to the customer informed product
+development that lies at the foundation of successful start-ups.”
+Phin Barnes, Partner, First Round Capital
+“Getting started on your Customer Discovery journey is the most
+important step to becoming a successful entrepreneur and reading Talking
+To Humans is the smartest frst step to fnding and solving real problems for
+paying customers.”
+Andre Marquis, Executive Director, Lester Center for Entrepreneurship
+University of California Berkeley
+“A lot of entrepreneurs pay lip service to talking to customers but you have
+to know how. Talking to Humans ofers concrete examples on how to how
+to recruit candidates, how to conduct interviews, and how to prioritize
+learning from customers more through listening versus talking.”
+Ash Maurya, Founder Spark59 and Author of Running Lean
+“Tis is a great how-to guide for entrepreneurs that provides practical
+guidance and examples on one of the most important and ofen under
+practiced requirements of building a great startup—getting out of the ofce,
+talking directly with customers and partners, and beginning the critical
+process of building a community.”
+David Aronoff, General Partner, Flybridge Capital
+“Gif has been one of the thought leaders in the lean startup movement
+from the very beginning. Entrepreneurs in all industries will fnd Talking
+to Humans practical, insightful, and incredibly useful.”
+Patrick Vlaskovits, New York Times bestselling author of The Lean Entpreneur
+“Current and future customers are the best source of feedback and insight
+for your new product ideas. Talking to them is intimidating and seemingly
+time-consuming. In this focused, practical, down-to-earth book Gif
+Constable demystifes the art (not science) of customer discovery helping
+entrepreneurs and product veterans alike learn how to build a continuous
+conversation with their market and ensure the best chances of success for
+their ideas. Want to know what your audience is thinking? Read this book!”
+Jeff Gothelf, author of LeanUX
+“When getting ‘out of the building,’ too many people crash and burn right
+out of the gate and wonder what happened. Talking to Humans is a quick
+and efective guide for how Lean Startup interviews should be done: who to
+talk to, how to talk your way in the door, and how to gain the most insight
+and learning. Don’t crash and burn – read Talking to Humans!”
+Dean Chang, Associate Vice President for Innovation & Entrepreneurship
+University of Maryland
+“A must read for anyone who is considering creating a startup, developing a
+new product or starting a new division. Read this book frst – a great guide
+to the evolving art of customer discovery. Don’t waste your time building
+products that your customer may or may not want. Before you write the
+frst line of code, pitch your idea to investors or build the frst prototype, do
+your self a favor, read this book and follow the advice! I guarantee you will
+make better decisions, build a better product and have a more successful
+company.”
+John Burke, Partner, True Ventures
+“Primary market research has been around for a long time because it
+has stood the test of time and proved that it is fundamental to building a
+successful venture; it underlies all that we do at MIT in entrepreneurship.
+Te question is how we more broadly deployed appropriate skills to
+entrepreneurs so they can be guided to do this in an efcient and efective
+manner while maintaining rigor. With all the sloganeering out there on the
+topic, this book stands out in that it delivers real value to the practitioner in
+this regard.”
+Bill Aulet, Managing Director, Martin Trust Center for MIT Entrepreneurship
+“Talking to strangers can be scary, but it’s vital to launching any new
+product. Trough storytelling, Gif Constable makes customer development
+concepts accessible. Tis book will show you how to articulate assumptions,
+get useful information and turn it into meaningful insights. Ten it delivers
+practical advice you can use immediately to test your ideas. Fear holds
+people back. Tis book will give you the confdence to jump.”
+Andres Glusman, Chief Strategy Offcer, Meetup.com
+Table of Contents
+8 Foreword
+11 Introduction
+14 The Story
+28 Lessons Learned
+30 How To
+31 Getting Started with Customer Discovery
+32 Who Do You Want to Learn From?
+36 What Do You Want to Learn?
+44 How Do You Find Your Interview Subjects?
+52 How to Ensure an Effective Session?
+58 How Do You Make Sense of What You Learn?
+65 Conclusion
+66 Appendix
+67 Cold Approach Examples
+69 Business Assumptions Exercise
+72 Teaching Exercise #1: Mock Interviews
+74 Teaching Exercise #2: Mock Approach
+76 Screwing Up Customer Discovery
+80 Glossary
+82 Other Learning Resources
+83 Behind the Book
+8 Talking to Humans
+Foreword
+“Get out of the building!” Tat’s been the key lesson in building
+startups since I frst started teaching customer development and the
+Lean Launchpad curriculum in 2002. Since then, a lot has happened.
+Te concepts I frst outlined in my book Te Four Steps to the
+Epiphany have grown into an international movement: Te Lean
+Startup. Te class I developed - Te Lean Launchpad - is now
+taught at Stanford, UC Berkeley, Columbia University, UCSF, and
+most recently New York University (NYU). More than 200 college
+and university faculty have taken my Lean Launchpad Educators
+Seminar, and have gone on to teach the curriculum at hundreds of
+universities around the globe. Te National Science Foundation,
+and now the National Institute of Health, use it to commercialize
+scientifc research as part of their Innovation Corps (I-Corps)
+program. My How to Build a Startup class on Udacity has been
+viewed by over 225,000 students worldwide. During the past few
+years, we’ve seen dozens of large companies including General
+Electric, Qualcomm and Intuit begin to adopt the lean startup
+methodology.
+Te Lean Startup turns the decades-old formula of writing
+a business plan, pitching it to investors, assembling a team, and
+launching and selling a product on its head. While terms like “pivot”
+and “minimum viable product” have become widely used, they
+are not understood by many. Te same can be said of “getting out
+of the building”. Many entrepreneurs “get out” and get in front of
+customers, but take a simplistic view and ask their customers what
+they want, or if they would buy their startup’s (half-baked) product.
+Te “getting out” part is easy. It is the application of the customer
+Foreword & Introduction 9
+development methodology and the testing of their hypotheses with
+users, customers and partners that is both critical and ofen difcult
+for entrepreneurs to grasp in the search for a scalable and repeatable
+business model.
+Since the Four Steps, many other books have been written on
+customer development including Te Startup Owner’s Manual,
+Business Model Generation, Te Lean Startup, and others. Each
+of these texts has advanced our understanding of the customer
+development methodology in one way or another, teaching aspiring
+students and entrepreneurs the what, when and why we should get
+out of the building, but have only skimmed the surface on “how” to
+get out of the building.
+For both my own classes as well as I-Corps, I always made Gif
+Constable’s blog post “12 Tips for Early Customer Development
+Interviews” required reading. It answered the “how” question as well.
+Now Gif has turned those 12 tips into an entire book of great advice.
+In a comprehensive, yet concise and accessible manner, Talking
+to Humans teaches you how to get out of the building. It guides
+students and entrepreneurs through the critical elements: how to
+fnd interview candidates, structure and conduct efective interviews
+and synthesize your learning. Gif provides ample anecdotes as well
+as useful strategies, tactics and best practices to help you hit the
+ground running in your customer discovery interviews.
+If you are a student, aspiring entrepreneur or product manager
+trying to bring the value of getting out of the building to an existing
+company, Talking to Humans is a must read. It is chock full of lessons
+learned and actionable advice that will enable you to make the most
+of your time out of the building.
+Talking to Humans is the perfect complement to the existing
+10 Talking to Humans
+body of work on customer development. If you are teaching
+entrepreneurship or running a startup accelerator, you need to make
+it required reading for your students and teams. I have.
+Steve Blank
+September 3, 2014
+Foreword & Introduction 11
+Introduction
+12 Talking to Humans
+Te art of being a great entrepreneur is fnding the right balance
+between vision and reality. You are probably opening this book
+because you want to put something new in the world. Tat’s an
+incredibly powerful and meaningful endeavor. It’s also scary and
+extremely risky. How can you get ahead of that risk and beat the
+odds?
+Every new business idea is built upon a stack of assumptions.
+We agree with Steve Blank’s insight that it is better to challenge your
+risky assumptions right at the start. You can’t challenge anything
+sitting in a conference room. You have to get into the market, or, as
+Blank likes to say, “Get out of the building!”
+Tere are two efective ways to do this: 1. talk directly to
+your customers and partners, and observe their behavior; 2. run
+experiments in which you put people through an experience and
+track what happens.
+Tis book focuses on the frst. Te qualitative part of customer
+discovery is surprisingly hard for most people, partly because talking
+to strangers can feel intimidating, and partially because our instincts
+on how to do it are ofen wrong.
+Here’s what customer discovery is not: It is not asking people to
+design your product for you. It is not about abdicating your vision.
+It is also not about pitching. A natural tendency is to try to sell other
+people on your idea, but your job in customer discovery is to learn.
+You are a detective.
+You are looking for clues that help confrm or deny your
+assumptions. Whether you are a tiny startup or an intrapreneurial
+team within a big company, your goal is not to compile statistically
+signifcant answers. Instead you want to look for patterns that will
+help you make better decisions. Tose decisions should lead to
+action, and smart action is what you need for success.
+Foreword & Introduction 13
+Tis book was written as a focused primer on qualitative
+research to help you get started. You should view it as a complement
+to the other excellent resources out there on customer development
+and lean innovation. It is not a rulebook, but hopefully you will fnd
+the principles included here useful.
+Te book comes in two parts. It begins with a fctional story of
+two entrepreneurs doing customer research for the frst time. Te
+second part is a mix of theory and tactics to guide you through the
+core steps of customer discovery. While the fctional story highlights
+a consumer-facing business, I should note that there are plenty of
+tips in this book for teams who sell to the enterprise.
+Some last words to kick things of: entrepreneurs have a
+tendency to over-obsess about their product to the neglect of other
+business risks. Tey also tend to stay inside their heads for far too
+long. I urge you to be brave, get out of the building, and go talk to
+real human beings.
+Gif Constable
+August 2014
+Some Thanks Are Due
+Many thanks to Frank Rimalovski for encouraging me to write this, and his
+students and team at NYU for providing early feedback, Steve Blank for the
+foreword and his inspiration and leadership on the topic of entrepreneurship,
+Tom Fishburne for his great illustrations, Josh Seiden and Jef Gothelf for their
+insights, my colleagues at Neo for continuing to push forward the craf of
+customer development, the many speakers and members of New York’s Lean
+Lessons Learned meetup who have shared their stories with me, and Eric Ries
+for inspiring me and so many others.
+The Story
+PART ONE
+The Story 15
+Breakthrough
+Koshi and Roberta had so much adrenaline pumping through
+their systems that neither could sleep that night. Afer a year of
+challenging lab work, they had fnally cracked it. Tey were now
+sure they could manufacture artifcial down feathers cost-efectively.
+Teir insomnia was ironic, since their very dream was to transform
+the quality of people’s sleep through the invention of a better pillow.
+Tey knew they had a technical advantage. Teir artifcial down
+had heightened levels of insulation, a better resilience/resistance
+quotient, and was kinder to both animals and the environment.
+Now the question was, did they have a business?
+The Advisor
+Tey called a meeting with their entrepreneurial advisor the next
+day. Samantha had built four companies, successfully exiting two of
+them. She was now an angel investor and believed frmly in giving
+back by working with frst-time entrepreneurs.
+“We fnally cracked it!” Roberta blurted out.
+“What she means,” Koshi said, “is that we’re convinced we can
+manufacture NewDown in a cost-efective and repeatable manner.
+Now we think we can make a real business.”
+“So you want to know if the time has come to jump in feet frst?”
+asked Samantha. Te two scientists nodded. “If you want to be
+successful bringing something to market, you need to understand
+the market. Do you feel like you know when and why people buy
+pillows today?”
+“Not really,” Roberta said. “We’ve spent our time in the lab
+focused on the product side.”
+“I suspected so. Founders commonly obsess about product at the
+16 Talking to Humans
+expense of the understanding the customer or the business model.
+You need to work on it all, and you have to challenge your thinking.
+Behind your startup is a belief system about how your business will
+work. Some of your assumptions will be right, but the ones that are
+wrong could crater your business. I want you to get ahead of the
+risky hypotheses that might cause failure.”
+Samantha had the founders list out the riskiest hypotheses.
+1. We believe that people care about sleep quality when making a pillow
+purchase decision.
+2. We believe that we can sell online directly to customers.
+3. We believe that our customers will be young urban professionals.
+4. We believe that our very frst customers will be new graduates who need to
+outft their apartments.
+5. We believe that we can sell our pillows at a high enough price to cover our
+costs.
+6. We believe that we can raise enough capital to cover investments in
+manufacturing.
+“Let’s put aside the fundraising risk right now,” Samantha said.
+“It’s what everyone jumps to, but you need to strengthen your story
+frst. Many of your risks are tied to your customer. I like attacking a
+problem from multiple directions and recommend three approaches.
+First, I want you to walk a day in your customer’s shoes and actually
+go out and buy a pillow. Second, I want you to observe people in the
+process of buying a pillow. And third, I want you to talk directly to
+them.”
+“Talk to people?” said Koshi. “I’m a scientist, not a salesperson.
+If I simply asked someone if my pillow was better, they would have
+no idea. If I asked them if they would buy my pillow, I couldn’t trust
+The Story 17
+the answer. So what is the point?”
+“Your job right now isn’t to sell, but rather to learn. You are right,
+though: getting the customer to speculate is rarely useful,” Samantha
+said. “You need to understand your market. How does your
+customer buy? When do they buy? Why do they buy? Where do they
+buy? As a scientist, you are fully capable of doing research, gathering
+data, and seeing if your data supports your hypotheses. I promise
+you, if you are polite and creative, people will be more receptive to
+you than you might think.”
+“Buying. Observing. Talking. Do we really need to do all three?
+Can we really aford to spend the time?”
+“Can you aford not to? Each of the three approaches is
+imperfect, but together you should see patterns. By walking in your
+customer’s shoes you will gain empathy and personal understanding,
+but you don’t want to rely solely on your own experience. By
+watching people shop, you can witness honest behavior, but you
+won’t be able to get into their heads to know their motivations. By
+talking to people, you gather intel on both behavior and motivation,
+but you have to be careful not to take what you hear too literally.
+Each method has strengths and weaknesses, but taken together you
+will learn a ton. You will have a lot more confdence that you are
+either on the right track, or that you have to make changes to your
+plans. It is far better to discover bad assumptions now, before you
+have invested a lot! Now, how do you think you should proceed?”
+“We want our customers to buy online from us, so I guess we
+should also buy our own pillow online,” said Roberta. “And we can
+observe people shopping by going to a home goods store.”
+“Tat sounds good,” said Samantha. “You will want to talk to
+some of those people in the store as well. I see one catch: you will be
+18 Talking to Humans
+targeting the moment of purchase but not the type of customer you
+are hoping for. One of your risk assumptions was specifcally about
+young urban professionals and new graduates, so what can you also
+do to target and connect with them?”
+“What about going to a cofee shop near the downtown ofce
+buildings as people are going to work?” Koshi said.
+“Can’t we just hit up some of the people we used to know in
+college who are now in the working world?” Roberta said.
+“Why don’t you try both, and see which approach works better,”
+said Samantha. “Roberta, I would also ask your friends if they will
+refer you to their friends. It’s best to talk to people who aren’t too
+close to you. You don’t want a someone’s afection for you to steer
+what they have to say.
+“Let’s start by thinking through the questions you want to ask. It
+always makes sense to prioritize what you want to learn. You should
+write down an interview plan, even if you don’t completely stick to
+it. Break the ice, and then get them to tell you a story about buying a
+pillow!”
+Te scientists sketched out a plan:
+Intro: hello, I’m a PhD candidate at Hillside University and I’m researching
+sleep quality. I’m asking people about the last time they bought a pillow.
+Would you mind if I asked a few questions?
+When was the last time you bought a pillow?
+Why did you go looking for a pillow?
+How did you start shopping for a pillow?
+Why did you choose the one you bought?
+After you bought, how did you feel about the pillow you purchased?
+The Story 19
+Are you going to be in the market for a pillow anytime soon?
+“Tat’s a great start,” Samantha said. “Keep good notes as you go,
+and remember to regularly regroup to review your fndings and look
+for patterns. Be mindful of which method you used as you discuss
+your observations.”
+Walking in the Customer’s Shoes
+Koshi and Roberta got together the next day afer both purchasing a
+pillow online.
+“I found it all a bit frustrating,” said Roberta. “It was hard to
+learn why you would choose down feathers, cotton, or foam. Te
+manufacturer websites felt like they were from the 1990s. Tere were
+some reviews available on Amazon and Bed Bath & Beyond, which
+helped. In my interpretation, about 65% of reviews talked about
+sleep quality, which seems like a good sign for our frst risk. A lot of
+the reviews had to do with personal preference for frm versus sof
+pillows. I think we can ofer both kinds eventually, but we likely need
+to choose one at the beginning and that could impact some of our
+assumptions around market size. ”
+“I started out by searching Google,” said Koshi. “Amazon and
+BB&B dominated the results, as we expected, but there were a few
+specialty providers like BestPillow that ranked high. BestPillow lets
+you navigate their website by sleep issue, such as snoring or neck
+pain, which I found interesting. While I see some makers pushing
+hypoallergenic oferings, I didn’t see anyone who could meet
+our claims of being environmentally friendly. I agree that all the
+manufacturer websites felt ancient. I think there’s an opportunity to
+be smart about search engine optimization and really stand out if we
+can get the messaging right. I guess our next step is to visit the retail
+20 Talking to Humans
+stores.”
+Observing the Customer
+Roberta ended up going to a Bed Bath & Beyond while Koshi went
+to a local department store. She watched three diferent people come
+in and pick through several diferent pillows, puzzling over the
+packaging material. One of them asked a store employee for help,
+and two pulled out their mobile phones to look online. She then
+watched a woman go right to a particular shelf, grab a pillow and
+head back to the aisle. Roberta’s plan was to balance observation and
+interaction, so she decided to jump in. “Pardon me,” she said “I am
+trying to fgure out which pillow to purchase and noticed that you
+went right to that one. Might I ask why you chose that pillow?”
+“Oh, I replaced some ratty old pillows in my house a few weeks
+ago,” the woman said, “and I liked this one so much that I thought I
+would replace my whole set.”
+“Do you mind if I ask how you decided to buy that pillow in the
+frst place? My name is Roberta, by the way.”
+“Nice to meet you, Roberta. I’m Susan. Well, I guess I started by
+researching online and...”
+A day later, the founders met to compare notes.
+“Te BB&B had good foot trafc,” Roberta said, “and I was able
+to watch ffeen people, and speak to ten. Of the ten, one knew what
+she wanted going into the store, three were basing their purchase just
+on packaging and store price, and six did Google searches on their
+phones, right there in the store. Tey were looking up reviews and
+pricing. You mentioned search engine optimization earlier — I think
+it could be even stronger with a fabulous mobile experience.”
+She looked down at her notes. “I also found that seven out
+of ten were trying to choose a pillow specifcally for better sleep,
+although their sleep problems were diverse. Finally, when I asked
+The Story 21
+them why they were buying a pillow, the folks over 40 seemed to be
+in replacement mode, while the folks under 40 seemed to be reacting
+to a life change. Two people were moving to a bigger house from
+an apartment. Another person was moving in with their girlfriend,
+and another said that she got a new job and could now aford nicer
+things.”
+“I went to the home goods section of a high-end department
+store,” said Koshi. “I saw eighteen people, and fve of them knew
+what they wanted already. Te rest spent time puzzling over the
+packaging and, like your group, going online with their mobile
+phone. I spoke to nine shoppers. I said that I was a scientist
+trying to invent a new pillow. People thought that was pretty cool.
+Two of them admitted that they were buying the highest price
+pillow because they assumed that it had to be the best. Two got
+the cheapest because it was the cheapest. Te others had specifc
+preferences for down, cotton or foam based on the frmness they
+were looking for in a pillow. Te frmness preference seemed to be
+tied to a belief that they would sleep more soundly. On price, I was
+relieved to see that the prices of the better pillows were in line with
+what we were hoping to charge.”
+Roberta pulled out a pad. “So we saw thirty-three people and
+spoke to nineteen. Our sample set is still small, but Samantha told us
+to look for patterns and not worry about statistical signifcance right
+now. If we break our observations into a few metrics, what have we
+learned?”
+• 24% of shoppers knew what they wanted when they walked in
+• 52% looked up information on their phone in the store
+• 45% of shoppers purchased a mid-priced or high-priced pillow
+• 68% of the people we spoke to indicated that better sleep was a major
+driver of their choice
+22 Talking to Humans
+• 37% of the people we spoke to were reacting to a life change
+• 37% of the people we spoke to were in replacement mode
+ “I think the use of mobile phones is something we need to pay
+attention to and work into our strategy,” Koshi said. “I guess for our
+next step, we should follow Samantha’s suggestions to target urban
+professionals.”
+Regrouping
+A week and many interviews later, the team sat down with
+Samantha.
+“How did things go?” she asked.
+“I went to a downtown cofee shop at peak hour,” Koshi said. “At
+frst, everyone was in such a hurry to get to work that I didn’t get
+much response, but then I made a little sign I held up outside that
+promised ‘cofee for science,’ which started to get laughs and a lot of
+curiosity. I ended up talking to about ffeen people who matched
+our target of young urban professionals. I got to talk to them for
+about fve to twenty minutes each. It was actually very enjoyable.
+“One clear pattern was that people right out of school tended
+to have no clue. Tey either had never bought a pillow themselves,
+or if they had, it had been the cheapest thing they could get. A
+few admitted that they were probably going to buy new bedding. I
+know it is speculation, but I asked them to guess how they might go
+about looking for a pillow, based on how they shop for other things.
+Te common responses were searching on Google or Amazon, or
+walking into a Bed Bath & Beyond.
+“Te few folks in their later twenties or thirties whom I spoke
+to had usually bought at least one pillow — some from Amazon
+and some from retailers. Te ones who liked a frm pillow avoided
+The Story 23
+down feathers. Te ones who wanted to upgrade to fancier duvets
+and high thread-count sheets all seemed to go with duck and goose
+feathers. Tey didn’t know any brands and instead relied on product
+packaging. Amazon buyers did actually read the reviews. All these
+folks were only planning on buying new pillows when they were
+moving to a bigger apartment because they were getting married or
+something.”
+“Yes, that aligns with what we learned when we spoke to people
+in the retail stores and what I saw with my other interviews,” said
+Roberta. “Pillow buying seems to be tied to life events like moving
+and marriage and such. I interviewed a diferent group. A whole
+bunch of our old classmates responded to my email or my Facebook
+post. I even had some folks pass me on to their friends, and so I got
+to talk to some people who didn’t go to school with us.
+“Like you, I saw a lag efect afer someone graduated from
+college. When new graduates told me that they had not spent any
+money on their linens yet, I inquired further and found out that
+their initial spending money was predominately going towards
+clothes. I spoke to twelve people between 22 and 25, and roughly
+60% had actually bought a pillow in the last few years. I saw similar
+trends as you, although most went right to Google, Amazon or a few
+specialty online retailers. It seemed like a very online crowd. Te
+price sensitive ones stayed away from down. Tey didn’t have much
+to go on for brand, but the reviews helped. Te women defnitely
+cared more about quality and put more efort into their hunt.”
+“Te good news is that everyone thought inventing a new pillow
+was an awesome idea!” said Koshi.
+Samantha chuckled. “Of everything I’ve heard you say, that last
+bit is probably the least useful. It’s easy to say something is cool.
+It’s another thing to actually buy. Te good news is, you are a lot
+more educated about your market than you were last time we met.
+24 Talking to Humans
+I see from your notes that you have either spoken to or observed
+72 people. We should be able to see some patterns from that. Let’s
+revisit our critical assumptions.”
+Challenging Assumptions
+Te team looked at their initial list.
+1. We believe that people care about sleep quality when making a purchase
+decision.
+“68% of the retail shoppers indicated that this was a major
+factor,” said Roberta. “Of our young urban professionals, we were
+able to ask this of only a portion of our interviewees. Only 56%
+indicated that it was a factor, but if we factor out the new graduates,
+it was more like 70%. We’ve also read a lot of online reviews and
+have seen this come up repeatedly. We feel reasonably confdent that
+this is a common decision point in choosing a pillow,” said Koshi.
+“I’m glad you are approaching this with rigor and actually
+calculating metrics from your observations,” said Samantha. “Tat
+will prevent you from letting innate biases override your actual
+results. However, one word of advice. At this stage, don’t take any of
+your statistics too literally and don’t let any single number dominate
+your strategic thinking. Just as we’re not looking for statistical
+signifcance at this point, we also don’t want to start treating
+our results as if they are indisputable facts. How about the next
+assumption?”
+2. We believe that we can sell online directly to customers.
+“We have seen some promising signs. 77% of our urban
+professionals start researching purchases with a search engine. Te
+question is whether they would discover, visit, or convert with our
+The Story 25
+online store. We did see a ton of mobile usage in the retail stores and
+think there might be a chance to steal those customers if we have
+good enough search engine optimization. Overall, our conclusion is
+that we need more data here.”
+3. We believe that our customers will be young urban professionals.
+“I need to run some numbers on size of market and the number
+of purchases we might expect from this group, but we still feel like
+this is a good group for us. We clearly saw purchase behavior. Tey
+want, and can aford, quality things, and prefer to buy things online.”
+4. We believe that our very frst customers will be new graduates who need to
+outft their apartments.
+“Tis is where we were totally wrong. Buying behavior, or at least
+the willingness to buy something that isn’t the cheapest option, did
+not seem to be very prevalent among new grads. Only 25% of the
+newly minted grads we spoke with had purchased a pillow on their
+own. Instead, the evidence points us towards people in their mid-tolate twenties or early thirties.
+“We also saw a correlation between purchasing and life changes.
+While this was only 37% with our retail shoppers, it was 70% of our
+urban professionals. From an early adopter perspective, I wonder if
+we can do well targeting people who are getting married or moving
+to a larger apartment or house?”
+5. We believe we can sell our pillows at a high enough price to cover our costs.
+“45% of our retail shoppers bought at least a mid-priced pillow.
+We admit that we visited reasonably high-end stores, but that was
+still a nice statistic to see. Te good news is that our initial target
+price is comparable with the high-end of the current market. We
+26 Talking to Humans
+won’t be proftable at the beginning, but if we can scale and improve
+our manufacturing process then we can move into the black. Of
+course, they have to want to buy our pillow.”
+Samantha nodded. “To test that, you will need to actually try
+selling a few, which ties back to your second risk. But I’m glad
+you have spent time learning rather than rushing to sell. Overall,
+it sounds like you have gotten some solid intel. I’m also glad you
+caught the issue with college grads before you spent a lot of money
+and energy trying to target them. Have your eforts uncovered new
+risks or worries?”
+“I’m both excited and worried by how confused customers are,”
+Koshi said. “Every brand promises a better night’s sleep. I’m also
+worried about signals we picked up that the market might be divided
+into those who want a frm pillow versus a sof pillow. We think
+that’s erroneous thinking. Our pillow lands in the middle, and our
+studies show better results. I don’t know if people will believe our
+data. We really need to get the messaging right.”
+“As for me,” Roberta said, “I’m most worried about the size of
+our initial market, how quickly we could grow, and if we can survive
+to proftability.”
+“I’m not surprised,” said Samantha. “I have some suggestions.
+One of you should continue doing these interviews, but try adding a
+new spin. You are both worried about diferentiation and if people
+will understand or appreciate the proof from your scientifc studies.
+Let’s test some messaging. Given what you have said about mobile
+usage, maybe create an infographic that tries to make your case.
+Show it to people on a phone. Ask them to explain it to you. First
+you can see if they understand it, and then if they fnd it meaningful.
+“Expanding from qualitative research, I also think one of you
+should create a fnancial model that lets you play with how much
+The Story 27
+you charge, how many items you might sell, and what your costs will
+be. Take into account what you have learned so far and see if your
+business model adds up.
+“Finally, I think you’ve learned enough to run some experiments
+around customer acquisition and sales. It is straightforward to create
+a basic online store using one of the hosted services. You can test
+selling a few pillows before you invest in manufacturing capability.
+Try driving trafc through Google or Facebook ads, and run some
+A/B tests around ad copy, landing-page messaging and price points.
+Study your metrics. Ten follow up with your customers and
+interview them on their buying process and decision.”
+Roberta’s eyes widened. “Wow. Maybe we can get our frst paying
+customer!”
+“Exactly,” said Samantha. “Just remember Steve Blank’s phrase
+about startups: you are in search of a scalable and repeatable
+business model. Run these experiments and keep in mind that your
+mission at this point is to learn before you scale. Don’t stop talking
+directly to customers. Your questions will likely evolve, but no matter
+what stage you are in, you’ll usually fnd that your best insights will
+come from talking to real people and observing real behavior.”
+28 Talking to Humans
+Lessons Learned
+The Story 29
+So what are the key takeaways from Roberta and Koshi’s adventure?
+1. Customer discovery is about gaining much deeper insight into
+your customer, or your partners, or your market
+2. Being told your idea is cool is not useful; seeing behavior that
+validates your customer’s willingness to buy is very useful
+3. Prepare an interview guide before you get out of the building
+4. To ask the right questions, you need to understand your risks
+and assumptions
+5. Get creative when trying to recruit people — if at frst you don’t
+succeed, try something new
+6. Sometimes observation is as powerful as interviews
+7. Take good notes, especially on your key risks, so that you can
+calculate metrics later. Even better, set your target goals ahead of
+time!
+8. Bring learning back and analyze your patterns as a team
+9. Never stop asking hard questions about your business
+In the next section of this book, we’re going to dive into tactics and talk
+about all this and more in detail.
+How To
+PART TWO
+How To 31
+Getting Started with
+Customer Discovery
+Qualitative research, i.e. talking to humans, is something you never
+want to stop doing, but it can defnitely feel intimidating at frst. Te
+good news is that if you go about it in a professional and thoughtful
+way, you will fnd lots of people who are willing to help and give you
+some of their valuable time.
+You need to begin with a core set of questions:
+t Who do you want to learn from?
+t What do you want to learn?
+t How will you get to them?
+t How can you ensure an efective session?
+t How do you make sense of what you learn?
+32 Talking to Humans
+Who Do You Want to
+Learn From?
+How To 33
+If your desired customer is a doctor, it stands to reason that it
+won’t help you much talking to a plumber. If you were aiming for
+teenagers, would you talk to grandparents?
+Te frst step in trying to learn from the market is having an
+opinion about who your market actually is. I recommend thinking
+about a few categories:
+t Te typical customer you envision if you get traction with your
+idea
+t Your early adopter, i.e. the people who will take a chance on your
+product before anyone else
+t Critical partners for distribution, fulfllment, or other parts of
+your business
+You might think you are creating a product for “everyone”, but that is
+not an actionable or useful description in the early stages. You need
+to get more specifc. Your job is to think through the kinds of people
+who have the problem you are interested in solving. Sometimes
+they have a particular job, or a state of mind, live in a particular
+part of the world, or belong to a certain age group. Standard
+demographics might be useful, or they might be irrelevant. What are
+the commonalities across your customer base?
+Here are some examples:
+• A hospital management system has to think about the hospital
+administrator who will buy their software and the actual hospital workers
+who would use it
+• An on-call veterinarian service needs to talk to pet owners
+• An online marketplace for plumbers might consider plumbers on the sell
+side, and home owners on the buy side
+34 Talking to Humans
+You also want to think about your early adopters. Why do they
+matter? Most new products ft alongside a “technology adoption
+curve,” as illustrated below.
+New founders tend to obsess about their mainstream customer
+(represented in the chart as the early and late majority). However, by
+defnition, the mainstream is waiting for proof from early adopters
+before they try something. If you cannot get early adopters, you
+cannot move on. Early adopters are usually folks who feel a pain
+point acutely, or love to try new products and services.
+In our story of Koshi and Roberta, the scientists hypothesized
+that their early adopter would be urban professionals in their mid to
+late twenties. For the three customer examples we just gave, here are
+examples of early adopters:
+• Our hospital management system might target hospital chains still stuck
+with an archaic vendor
+• Our vet service might target busy 20-somethings in a major city
+• Our online market for plumbers might target solo practices on the sellside and frst-time home owners on the buy-side
+How To 35
+Tere is no prescription for how narrowly or broadly you should
+cast your net for customer discovery interviews. However, the more
+focused you can be, the easier it is to make sense of your evidence.
+Special Note for B2B Products
+If you are selling to the enterprise, you should also think about the
+diferent kinds of participants in your sales process. In a classic
+enterprise sale, you will ofen have a strategic buyer (who is excited
+about the change you can bring), an economic buyer (who controls
+the purse), a technical buyer (who might have approval/blocker
+rights), and then the actual users of your product. Can you identify
+your champion? Can you identify who might be a saboteur?
+For B2B companies, Steve Blank also recommends that you start
+by talking to mid-level managers rather than the C-suite. It can be
+easier to get their time, it is ofen easier to get repeat conversations,
+and, most importantly, it will allow you to get better educated before
+you go up the chain.
+36 Talking to Humans
+What Do You Want to
+Learn?
+How To 37
+Go into every customer interview with a prepared list of questions.
+Tis list, which we refer to as an interview guide, will keep you
+organized. You will appear more professional, and it will ensure that
+you get to your most important questions early.
+How do you know your most important questions?
+I like to begin by understanding my most important, and most
+risky, assumptions. Tose tend to be the areas where you need to
+gather insights most urgently. You can uncover your assumptions
+in a myriad of ways. You can use Alex Osterwalder’s business model
+canvas or Ash Maurya’s lean canvas. Personally, I ask these questions
+(see the Appendix for a worksheet and tips):
+• My target customer will be?
+• The problem my customer wants to solve is?
+• My customer’s need can be solved with?
+• Why can’t my customer solve this today?
+• The measurable outcome my customer wants to achieve is?
+• My primary customer acquisition tactic will be?
+• My earliest adopter will be?
+• I will make money (revenue) by?
+• My primary competition will be?
+• I will beat my competitors primarily because of?
+• My biggest risk to fnancial viability is?
+• My biggest technical or engineering risk is?
+• What assumptions do we have that, if proven wrong, would cause this
+business to fail? (Tip: include market size in this list)
+You should be able to look at this list and spot the assumptions that
+are both highly important and fairly uncertain. Be honest. You want
+to focus on the most important issues.
+38 Talking to Humans
+In the case of our pillow entrepreneurs, they chose six initial risks
+which drove their research approach and frst set of questions. To
+give another scenario, in the last chapter we shared the example of
+an on-call veterinarian service. Te founders might identify a set of
+risks:
+1. Pet owners are frustrated having to go to a vet and would rather have
+someone come to them
+2. Customers are willing to pay a big premium to have a vet show up at their
+door
+3. We think busy urbanite pet owners will be our early adopters
+4. We think people currently discover their vets either through word of
+mouth or online searches
+5. We can affordably acquire our customers through targeted Google search
+ads
+6. We can recruit enough vets across the country to make this a big enough
+business
+7. With travel baked in, our vets can see enough people in a day to be
+fnancially viable
+Not every assumption can be tested efectively through qualitative
+research, but in this case, our founders can probably get some
+insights on risks 1, 3, 4, and 6 just by talking to people. Risks 1, 3 and
+4 would be focused on pet owners, while #6 would be focused on
+vets.
+Get Stories, Not Speculation
+When you are contemplating your questions, be careful with
+speculation. Humans are spectacularly bad at predicting their future
+behavior. It is tempting to say, “Would you like this idea?” or “Would
+you buy this product?” Unfortunately, you really have to treat those
+How To 39
+answers with a great deal of skepticism.
+It is more efective to ask your interview subject to share a story
+about the past. For example, when our fctional scientists Koshi and
+Roberta created their interview plan, the questions were focused on
+getting the interviewee to tell a story about their last pillow buying
+experience.
+Keeping with our second example of an on-call vet service, the
+team might have a loose interview plan that looks like the following:
+• Warm up: concise intro on the purpose of the conversation
+• Warm up: basic questions about person and pet (name, age, picture)
+• Who is your current vet? Can you tell me about how you found and chose
+him/her?
+• Please describe the last time you had to take your pet to the vet for a
+checkup
+• Walk me through the process of scheduling a time to visit the vet.
+• What was frustrating about that experience?
+• What did you like about that experience?
+• Have you ever had an emergency visit to a vet? if yes, can you describe
+that experience for me?
+• Have you ever thought about changing vets? why / why not?
+Ask Open-Ended Questions
+Your goal is to talk little and get the other person sharing openly. To
+that end, it is imperative that you structure open-ended questions,
+or at minimum follow up yes/no questions with an open-ended
+question that gets them talking.
+One tip is to try to ask questions that start with words like
+who, what, why and how. Avoid questions that start with is, are,
+would, and do you. But remember, if you do get a yes/no answer to a
+40 Talking to Humans
+question, you can always follow up in a way that gets them talking.
+An interesting open-ended question, which Steve Blank likes to
+use to conclude his interviews, is: “What should I have asked you
+that I didn’t?”
+Testing for Price
+Two of the hardest questions to answer through qualitative research
+are: will people pay? and how much will they pay? Speculative answers
+on this topic are extremely suspect. You can learn a lot, however, by
+asking questions like:
+• How much do you currently spend to address this problem?
+• What budget do you have allocated to this, and who controls it?
+• How much would you pay to make this problem go away? (this can lead to
+interesting answers as long as you don’t take answers too literally)
+My recommendation is to set up a situation where the subject
+thinks they are actually buying something, even if they know
+the thing doesn’t exist yet. Kickstarter and other crowdfunding
+platforms are used by a lot of teams to test pre-order demand.
+For expensive corporate products, you can also try to get
+customers to buy in advance or sign a non-binding letter of intent to
+buy. Te key thing to remember is that people don’t honestly think
+about willingness to pay unless they feel like it is a real transaction.
+Getting Feedback on a Prototype
+Sometimes you will want to get reactions to a product solution. You
+can learn a lot by putting mockups or prototypes in front of people,
+but, as with all speculation, you should interpret reactions with a
+degree of skepticism.
+If you show your interview subject a proposed solution, you
+need to separate this step from your questions about their behavior.
+How To 41
+Ask your questions about behavior and challenges frst, so that the
+discussion about product features does not poison or take over the
+conversation. People do love talking features!
+The Magic Wand Question
+Some people like to ask, “if you could wave a magic wand and have
+this product do whatever you want, what would it do?” Personally,
+I avoid questions like this because customers are too constrained by
+their current reality to design efective solutions. It is the customer’s
+job to explain their behavior, goals, and challenges. It is the product
+designer’s job to come up with the best solution.
+Tere is one variation to the magic wand question that I do like,
+however, because it focuses on problems and not solutions: “If you
+could wave a magic wand and solve any problem, what would you
+want to solve?” I suspect, however, that you will fnd many people
+struggle with such an open question.
+Design “Pass/Fail” Tests
+Customer discovery is made up of a lot of qualitative research, but it
+helps to take a quantitative mindset. Set goals for key questions and
+track results. For example, halfway through their initial research,
+our scientists Koshi and Roberta already knew stats like:
+• 24% of shoppers knew what they wanted when they walked in
+• 45% of shoppers purchased a mid-priced or high-priced pillow
+• 68% of the shoppers we spoke to indicated that better sleep was a major
+driver of their choice
+Even better would have been if they had set targets ahead of
+time. For example, they might have set the following goals:
+• Because we are a new brand, we are hoping that most shoppers are
+undecided. We want to see that 40% or fewer shoppers already know what
+42 Talking to Humans
+they want when they walk in
+• Because our pillow is expensive, we want to see that at least 40% of the
+shoppers buy mid or high-end models
+• Because we believe that sleep quality is a major differentiator for our
+product, we want over 60% of shoppers to indicate that this is a major
+factor in their decision making process
+Te numerical target you choose can be an educated guess. You
+do not need to stress over picking the perfect number. It is more
+important that you set a goal and really track what is happening.
+Setting a target forces you carefully think through what you are
+hoping to see, and makes decisions and judgment calls a bit easier as
+you review your data.
+A Guide, Not a Script
+An interview guide is not a script. You do not need to read from
+it like an automaton. You should feel free to veer of of it if the
+conversation brings up something interesting and new. It will likely
+evolve as you learn from the market and unearth new questions. But
+always plan, prioritize and prep your questions before any session.
+Observation Can Be As Powerful As Questions
+Sometimes the best thing you can do is sit back and watch someone’s
+behavior. You might watch their purchase process, or examine how
+they go about solving a particular problem. As you think about what
+you want to learn, also think through how you might gather data
+through observation rather than direct interviews.
+In our story of Koshi and Roberta, the two got some of their
+most valuable insights by going to linen stores and watching
+potential customers struggle to buy a pillow. Tey observed behavior
+and only then jumped in to ask questions.
+Tis technique cannot always be used. For example, when my
+How To 43
+team was trying to validate a weight loss product idea, it did not
+feel practical to watch people go about their diet. Instead we did
+interviews and then put a group of customers through a two-week
+concierge experiment (see Glossary) where we manually acted out
+the diet experience. But, where possible, observing uninfuenced
+behavior can lead to great insights.
+44 Talking to Humans
+How Do You Find Your
+Interview Subjects?
+How To 45
+Entrepreneurs new to customer development are ofen intimidated
+at the thought of approaching complete strangers. It might surprise
+you to hear that people are ofen very willing to help out. Tis is
+especially true if you are working on a topic that interests them
+and you approach them nicely and professionally. Tere are three
+general rules to keep in mind when recruiting candidates to speak
+with:
+1. Try to get one degree of separation away (don’t interview your
+mom, your uncle, or your best friends)
+2. Be creative (and don’t expect people to come to you)
+3. Fish where the fsh are (and not where they are not)
+Get Creative
+One aspiring entrepreneur wanted to target mothers of young
+children. She had heard stories about talking to people in a cofee
+shop, but felt like it was too unfocused. So she tried hanging around
+school pickup zones, but the moms were too busy and refused to
+speak to her. Next, she tried the playground, where she fgured
+moms would be bored watching their kids play. Tis worked
+reasonably well, but she was only able to get a few minutes of
+anyone’s time. So instead, she started organizing evening events for
+moms at a local spa where she bought them pedicures and wine. Te
+time of day worked because the moms could leave the kids at home
+with their partner. Te attendees had a great time and were happy to
+talk while they were getting their nails done.
+Find the Moment of Pain
+If you can connect with people at the moment of their theoretical
+pain, it can be very illuminating. My colleague Alexa Roman was
+working with an automotive company and they had a concept tied
+46 Talking to Humans
+to the experience of getting gas. So Alexa and team visited a series
+of gas stations. Tey watched consumers go through the process of
+buying gas. Ten they approached them and asked questions. By
+thinking about the moment of pain they wanted to address, they
+knew exactly where to fnd their consumers and they were able to
+gather valuable observational research.
+Make Referrals Happen
+Use referrals to your advantage. Let’s say you want to talk to doctors.
+Tey are busy and have strong gatekeepers. I bet you know how
+to get to at least one doctor, however. Tat doctor will know other
+doctors. Even if your doctor happens to be a close friend and thus
+breaks the “more than one degree of separation” guideline, she
+can still give you advice on when might be a good time to talk to a
+doctor. She can also connect you with other doctors.
+You should use referrals as much as possible. Set a goal of
+walking out of every interview with 2 or 3 new candidates. When
+you end an interview, ask the person if they know others who
+face the problem you are trying to solve. If they feel like you have
+respected their time, they will ofen be willing to introduce you to
+others.
+Conferences & Meetups
+Conferences and meetups can be an amazing recruiting ground,
+because they bring a group of people with shared interests into one
+place. You just need to be respectful of people’s time. I have found
+that it is extremely efective to ask people for their time, but for later,
+afer the conference or meetup. Get their business card, let them
+get back to networking, and then have an in-depth conversation
+when it fts their schedule. Immediately afer the conference while
+their memories are still fresh, send them a short email that reminds
+them where you met, and give your ask for a conversation. Tis
+How To 47
+works as efectively for in-demand panel speakers as it does for other
+attendees.
+Meetups are usually inexpensive, but conference tickets can be
+pricey. If you are on a budget, you can “hack” expensive conferences
+by intercepting people outside of the building, or, if you can get
+access to the attendee or speaker lists ahead of time, contacting
+people directly and meeting them near the event.
+Meetup.com has decent search tools to discover relevant events
+in your area, and a few good Google search queries can usually get
+you to a short list of conferences that ft your needs.
+Enterprise Customers
+Finding interviewees can be harder when you are focused on an
+enterprise customer. You need laser-like targeting. In addition
+to conferences, LinkedIn can be extremely useful. If you have
+hypotheses on the titles of the people you are seeking, run searches
+on LinkedIn. You might be able to get to them through a referral
+over LinkedIn, or you might need to cold call them through their
+company’s main phone number. You then have to decide on your
+approach method. You can either ask for advice (where you make
+it clear that you are not selling anything), or you can go in as if you
+were selling something specifc.
+Advice vs Selling
+Asking for advice should be your default method early in your
+customer discovery process. You will have better luck gaining access.
+People like being asked (it makes them feel important). Steve Blank
+used to call people up and say something like, “My name is Steve and
+[dropped name] told me you were one of the smartest people in the
+industry and you had really valuable advice to ofer. I’m not trying to
+sell you anything, but was hoping to get 20 minutes of your time.”
+48 Talking to Humans
+Another efective spin on “asking for advice” is to create a blog
+focused on your problem space, and ask people if you can interview
+them for an article.
+When do you approach someone as if you were selling a
+product? Tis method is useful if you are past initial learning and
+want to test your assumptions around customer acquisition and
+messaging. Just don’t jump into sales mode too early.
+Beneftting from Gatekeepers
+If LinkedIn isn’t helping you and you need to reach high up in an
+organization, another approach is to call the CEO’s ofce. Your goal
+is not to talk to the CEO but actually their executive assistant. His
+job is to be an efective gatekeeper, so if you explain, “I’m looking to
+talk to the person who handles X”, they will ofen connect you to the
+right person (especially if you are pleasant and professional — notice
+the trend on that one?). Te added advantage of this method is if you
+end up leaving a voice mail for your intended contact, you can say
+“Jim from [CEO’s name]’s ofce gave me your name”. Dropping the
+boss’ name tends to improve response rates.
+Another approach is to send a targeted email into an
+organization with a very short email that asks for an introduction
+to the right person to speak to. You can make guesses as to email
+addresses based on LinkedIn queries. For this tactic to work, you
+must keep your emails extremely concise.
+Students and Researchers
+While people are willing to grant time to polite people who ask for
+advice, you have an extra advantage if you are a student or academic
+researcher. In other words, if you are a student or researcher, say
+so. As an extra incentive, you might also ofer to share the results of
+your research with your interview subjects.
+How To 49
+You Might Be Surprised
+Another colleague of mine, Jonathan Irwin, was working with a
+Fortune 50 company. Te client team wanted to interview a special
+kind of oil platform engineer, of which there were less than 20 in the
+world! To access these people required security clearance and safety
+training. We challenged the team to fnd a way, expecting that they
+would have to rely on video conferencing or phone calls. However,
+the team started researching this speciality profession through
+Google and discovered that there was an onshore training facility
+just an hour away. Te moral of the story is that it ofen isn’t as hard
+as you think.
+No Fish in the Sea
+When I say fsh where the fsh are, it is really important to remember
+the fip side to that statement: don’t fsh where the fsh are not. If a
+method isn’t working, try something new.
+We were doing a project with a major magazine testing out new
+product ideas. Our target was busy women, and we knew that the
+readership correlated closely with shoppers of Te Container Store
+(a retail store). So we parked out front of a store and intercepted
+folks as they came in and out. People were willing to speak for a few
+minutes, but many were in a bit too much of a rush. Ten one of our
+teammates discovered a sample sale happening around the corner.
+Tere were probably 200 bored women waiting in line, most of
+whom were happy to talk to us to pass the time. (Note: fnding bored
+people stuck in line is a common recruiting hack.)
+Still, we didn’t feel like we were targeting quite as narrowly as
+we wanted (busy, working women) or as geographically broadly
+(we didn’t want to just talk to New Yorkers). So we turned to the
+magazine’s social media presence. We created a short online survey
+to help us qualify responses, and the magazine posted a link to
+their Twitter and Facebook pages with a catchy sentence. We had
+hundreds of women fll out the survey, and then we picked our top
+50 Talking to Humans
+thirty candidates and scheduled calls.
+Online Forms & Landing Pages
+In a similar vein, one efective tactic is to create an online form or
+landing page and build up a list of people to contact.
+Below is an example of a landing page. Our team was testing a
+product idea for better home organization.
+Tis landing page test actually consisted of a three-step funnel with a
+call to action, a price choice, and then a request for an email address.
+We tracked the conversion metrics carefully and used the emails to
+schedule interviews.
+Caveat: driving trafc is never a trivial process. If you have
+budget, Google or Facebook ads can work. Otherwise, you can try to
+generate some word of mouth on social media or through bloggers.
+How To 51
+Conclusion
+Hopefully what you are picking up through these examples is that
+there is no single way to get to people. It takes some creativity and
+hustle, but it isn’t as hard as you might think. Trust me, people
+will not think you are rude if you carry yourself well and act
+professionally.
+Check Out the Appendix for Examples
+Te Appendix has more tips and examples for cold email and voice
+mail approaches.
+52 Talking to Humans
+How to Ensure an
+Effective Session?
+How To 53
+I recommend the following guidelines for running a productive
+interview session.
+Do Your Interviews In Person
+Te quality of your learning can vary a lot depending on your
+communication method. Talking in person is by far the best
+approach. You can read body language and build rapport much
+easier. Remember that a huge percentage of human communication
+is non-verbal, so why blind your senses if you don’t have to?
+Te next best approach is video conferencing, because at least
+you can still read someone’s facial expressions.
+Phone calls should be your method of last resort (sometimes
+there is no choice), and I would entirely avoid using text-based
+mediums like email or chat.
+Talk to One Person at a Time
+I believe in talking to one person at a time. It is useful to have
+a second person on your side quietly taking notes. I strongly
+recommend avoiding focus groups for two reasons: 1. you want
+to avoid group think; 2. you will really struggle to focus on one
+person’s stories, and drill into areas of interest, when you are juggling
+multiple people.
+Adding a Note Taker
+Bringing a note taker will allow you to stay in the moment without
+worrying about getting every bit down on paper. You can stay
+focused on the topics, the body language, and where to take the
+conversation.
+If you have to take your own notes, that’s not the end of the
+world. It can sometimes make for a more intimate conversation. Just
+remember to write up your notes right afer the session or you will
+lose a lot of detail and color that you weren’t able to write down.
+You can also ask the interview subject if you can record them,
+54 Talking to Humans
+and many people are willing. Te risk is that a recorder can inhibit
+the conversation, but most people forget that they are being recorded
+once the discussion is fowing. I highly recommend that you play
+back the audio and write up your notes soon afer the session, both
+because writing up notes will reinforce what you learned in your
+own mind, and also because written notes are easier and faster for
+both you and your teammates to scan. I’ve found that once audio
+or video is more than a couple weeks old, somehow they never get
+touched again.
+Start With a Warm Up & Keep It Human
+When you kick things of, concisely explain why you are there, and
+thank them for the time. Launch into things with one or two easy
+warm up questions. For example, if you are talking to a consumer,
+you might ask where they are from and what they do for a living. If
+you are talking to enterprise, you might ask how long they have been
+with their company. You don’t want to spend a lot of time on this
+stuf, but it does get the ball rolling.
+Have a written or printed list of questions, but don’t rigidly read
+from your list. Be in the moment. Make the interview subject feel
+like you are really listening to them.
+Disarm Your Own Biases
+Human beings have an amazing ability to hear what they want
+to hear (this is called “confrmation bias”). Go into each session
+prepared to hear things that you might not want to hear. Some
+entrepreneurs even take the mindset that they are trying to kill their
+idea, rather than support it, just to set the bar high and prevent
+themselves from leading the witness.
+Get Them to Tell a Story
+As I mentioned in the chapter “What Do You Want to Learn,”
+How To 55
+humans are terrible at predicting their own behavior. If you ask any
+speculative questions, be prepared to listen with a healthy dose of
+skepticism. I far prefer to get people telling stories about how they
+experienced a problem area in the past. In particular, try to fnd
+out if they have tried to solve the problem. What triggered their
+search for a solution? How did they look for a solution? What did
+they think the solution would do, before they tried it? How did
+that particular solution work out? And if they are struggling to
+remember specifcs, help them set the scene of their story: what part
+of the year or time of day? Were you with anyone?
+As they are telling their story, follow up with questions about
+their emotional state. You might get some historical revisionism, but
+what you hear can be very illuminating.
+Te researchers at Meetup.com, who borrow from Clayton
+Christensen’s Jobs To Be Done framework, use an interesting tactic to
+help their subjects get in story mode. When they are asking someone
+to take them through a purchase experience, from frst thought
+through purchase and then actual product usage, they say: “Imagine
+you are flming the documentary of your life. Pretend you are
+flming the scene, watching the actor playing you. At this moment,
+what is their emotion, what are they feeling?”
+Look for Solution Hacks
+One of the best indicators that the market needs a new or better
+solution is that some people are not just accepting their frustration
+with a particular problem, but they are actively trying to solve it.
+Maybe they have tried a few diferent solutions. Maybe they have
+tried hacking together their own solution. Tese stories are a great
+indicator of market need.
+Understanding Priority
+For someone to try a new product, their pain usually needs to be
+56 Talking to Humans
+acute enough that they will change their behavior, take a risk, and
+even pay for it. If you feel like you are seeing good evidence that
+someone actually has a problem, it is worth asking where it ranks in
+their list of things to solve. Is it their #1 pain, or something too low
+in priority to warrant attention and budget?
+Listen, Don’t Talk
+Try to shut up as much as possible. Try to keep your questions short
+and unbiased (i.e. don’t embed the answer you want to hear into the
+question).
+Don’t rush to fll the “space” when the customer pauses, because
+they might be thinking or have more to say. Make sure you are
+learning, not selling! Or, at least make sure you are not in “sales”
+mode until the point when you actually do try to close a sale as part
+of an experiment.
+Follow Your Nose and Drill Down
+Anytime something tweaks your antenna, drill down with follow
+up questions. Don’t be afraid to ask for clarifcations and the “why”
+behind the “what.” You can even try drilling into multiple layers of
+“why” (run an Internet search for “Five Whys” for more info), as
+long as the interviewee doesn’t start getting annoyed.
+Parrot Back or Misrepresent to Confrm
+For important topics, try repeating back what the person said. You
+can occasionally get one of two interesting results. Tey might
+correct you because you’ve misinterpreted what they said. Or, by
+hearing their own thoughts, they’ll actually realize that their true
+opinion is slightly diferent, and they will give you a second, more
+sophisticated answer.
+Another approach is to purposefully misrepresent what they just
+said when you parrot it back, and then see if they correct you. But
+How To 57
+use this technique sparingly, if at all.
+Do a Dry Run
+If you are a beginner at customer discovery, do a dry run with a
+friend or colleague. See how your questions feel coming out of
+your mouth. Get a sense of what it is like to listen carefully and
+occasionally improvise.
+Getting Feedback on Your Product
+If you want to get feedback on your product ideas, whether you show
+simple mockups or a more polished demo, there are a few important
+tips to keep in mind:
+As I mentioned before, separate the storytelling part of your
+session from the feedback part. People love to brainstorm on features
+and solutions, and this will end up infuencing the stories they might
+tell. So dig into their stories frst, and gather any feedback second.
+Second, disarm their politeness training. People are trained not
+to call your baby ugly. You need to make them feel safe to do this.
+Ask them up-front to be brutally honest, and explain that it is the
+very best way for them to help you. If they seem confused, explain
+that the worst thing that could happen is to build something people
+didn’t care about.
+Finally, keep in mind that it is incredibly easy for people to tell
+you that they like your product. Don’t trust this feedback. Instead,
+you need to put people through an actual experience and watch their
+behavior or try to get them to open their wallet.
+Tere is no right answer on how polished your early mockups
+need to be. If you are in the fashion space, you need to have a high
+degree of visual polish as table stakes. If you are creating a solution
+for engineers, you probably need much less. Just don’t wait for
+perfection, because initial product versions rarely get everything
+right. You need to spot your errors sooner rather than later.
+58 Talking to Humans
+How Do You Make Sense
+of What You Learn?
+How To 59
+Your goal is not to learn for learning’s sake. Your goal is to make
+better decisions that increase the odds of success. So how do you
+translate your observations into decisions?
+Te frst step is to make sense of your patterns.
+Take Good Notes
+To fnd your patterns, frst you need to track the data. Tis is easy
+if you bring a good notetaker to the interview, but otherwise, make
+sure that you write up your notes as soon afer your conversation as
+possible. Make them available to the entire team with Google Docs
+or the equivalent.
+At the start of every entry, note the following information:
+• Name of interview subject
+• Date and time
+• Name of interviewer
+• In person or video conference
+• Photo (if you have one)
+Ten at the start of your notes, include basic descriptive information
+of the interview subject.
+Quantitative Measures
+If you are setting specifc metric goals for your interviews, you
+might set up a shared spreadsheet that essentially acts as a running
+scorecard for how you are doing and how you are tracking to targets.
+EXAMPLE
+Let’s imagine that you have invented a new air purifer that triples
+the growth speed of greenhouse plants. Now you plan to talk to 20
+60 Talking to Humans
+farmers, and you have a few core questions:
+• Will their business actually beneft from increased growth speed? You are
+assuming that increased volume will help rather than hurt. You plan to
+talk to growers of different crops with the goal of fnding crops where 60%
+or more of farmers want increased volume.
+• Are farmers spending any money today on growth accelerator solutions?
+Your qualitative research will drill into what and why, but your metrics goal
+says that you hope at least 50% of the market is already spending at least
+some money.
+• Do they have the facilities to support your purifer? In this case, you need
+your purifer to be both in a specifc location, but also have access to an
+electrical outlet. You are hoping that 70% of the farmers have an outlet 20
+feet or closer to your spot.
+Here is the kind of spreadsheet that you and your team might track:
+As Samantha advised Koshi and Roberta in the fctional story,
+turning your observations into quantifable metrics is both
+useful and tricky. Our brains like to infuence our thinking with
+cognitive biases, especially fltering results for what we want to hear.
+Calculating actual metrics helps fght against that dynamic.
+How To 61
+At the same time, you have to beware a diferent kind of bias: our
+desire to turn statistics into facts. Hopefully you are getting enough
+data points that you can trust the patterns, but do not confuse this
+with statistical signifcance or take your results too literally. My
+advice is to calculate metrics, but remain skeptical of them, don’t
+obsess over any one particular metric, and continue to question what
+is behind your numbers.
+Dump and Sort Exercise
+Bring your team together and arm them with sticky notes and
+sharpies. Give everyone 10 minutes to jot down as many patterns
+and observations as they saw during their interviews. Put all the
+sticky notes on a wall and have someone sort them into groups. As
+a team, discuss the patterns, and then re-review your assumptions
+or business canvas and see what might need to change or require
+greater investigation.
+Look for Patterns and Apply Judgement
+Customer development interviews will not give you statistically
+signifcant data, but they will give you insights based on patterns.
+Tey can be very tricky to interpret, because what people say is
+not always what they do. You don’t want to react too strongly to
+any single person’s comments. You don’t want to take things too
+literally. But neither do you want to be bogged down trying to talk to
+thousands of people before you can make a decision.
+You need to use your judgement to read between the lines,
+to read body language, to try to understand context and agendas,
+and to flter out biases based on the types of people in your pool of
+interviewees. But it is exactly the ability to use human judgement
+based on human connections that make interviews so much more
+useful than surveys.
+Ultimately, you are better of moving fast and making decisions
+62 Talking to Humans
+from credible patterns than dithering about in analysis paralysis.
+Don’t Abdicate Your Role As Product Designer
+It is not the job of the customer to design your product. It is yours.
+As you are gathering information and making decisions, act like a
+intelligent flter, not an order-taker.
+Expect False Positives
+While all entrepreneurs get their fair share of naysayers and
+skeptics, you have to be wary of the opposite problem in customer
+development interviews. People will want to be helpful and nice, and
+your brain will want to hear nice things. As you are weighing what
+you have learned, just keep this in mind.
+The Truth Curve
+I am a big believer in qualitative research. I think a good product
+team should build a regular cadence of talking to relevant people
+into their process. However, you don’t want your only source of
+learning to be talking to people.
+You don’t really know the absolute truth about your product
+until it is live and people are truly using it and you are making real
+money from it. But that does not mean you should jump straight
+to a live product, because that is a very expensive and slow way to
+iterate your new business.
+Get into the market early and begin testing your assumptions
+right away, starting with conversations and proceeding from there.
+It will dramatically increase the odds that you will create a product
+that customers actually want. As you build confdence, test with
+increasing levels of fdelity. I think of it like peeling an onion in
+reverse.
+I created the accompanying chart to demonstrate the levels of
+believability for diferent kinds of experiments.
+How To 63
+Talking to people is powerful. It tends to give you your biggest
+leaps of insight, but, as I keep on repeating, what people say is not
+what they do. You might show people mockups and that might
+give you another level of learning and feedback, but reactions still
+need to be taken with skepticism. Concierge and “Wizard of Oz”
+experiments, where you fake the product through manual labor (see
+Glossary) will give you stronger evidence, because you put people
+through an experience and watch their actions. Te next layers of the
+onion are to test with a truly functional “Minimum Viable Product”
+(see Glossary) and beyond.
+Te point I want to make is that all of the steps on the curve
+can be very useful to help you learn, make smarter decisions, and
+reduce risk, but you need to use your head, and apply judgement to
+everything you are learning.
+64 Talking to Humans
+How many people to talk to?
+Tere is no pat answer to this question. A consumer business should
+talk to an order of magnitude more people than a business that sells
+to enterprise. If you are in the consumer space and haven’t spoken
+to at least 50 to 100 people, you probably have not done enough
+research. In his I-Corps course, Steve Blank requires his teams, many
+of which are B2B, to talk to at least 100 people over 7 weeks.
+I advise that you never stop talking to potential customers,
+but you will probably evolve what you seek to learn. If you see the
+same patterns over and over again, you might change things up and
+examine diferent assumptions and risks. For example, if you feel
+like you have a frm understanding of your customer’s true need,
+you might move on to exploring how they learn about and purchase
+solutions in your product category today.
+And don’t forget that observing your customers can be as
+powerful as directly talking to them.
+Lead with Vision
+Customer Development and lean startup techniques are some of the
+most powerful ways to increase your odds of success, but they are
+not a replacement for vision. You need to start with vision. You need
+to start with how you want to improve the world and add value to
+people’s lives. Te techniques we’ve discussed in this book are among
+a body of techniques that let you reality check your vision, and
+optimize the path you will take to achieve your vision.
+How To 65
+Conclusion
+Toughtful qualitative research is a critical tool for any entrepreneur.
+Hopefully this book has given you some new strategies for how to
+put it to work for your needs.
+Creating a new business is tremendously challenging. Te ways you
+can fail are numerous.
+t You have to get the customer and market right
+t You have to get the revenue model right
+t You have to get the cost structure right
+t You have to get customer acquisition right
+t You have to get the product right
+t You have to get the team right
+t You have to get your timing right
+Screw up any one of those and you are toast. Tere is a reason why
+entrepreneurship is not for the faint of heart.
+But we’re not here to be faint of heart. We are here to change the world.
+Dream big. Be passionate. Just be ruthless with your ideas and
+assumptions. Customer discovery and lean experimentation can
+truly help you chart a better path and fnd success faster and with
+more capital efciency.
+Don’t forget that as your business grows and changes, so too will
+your customer base. Keep on reality-checking your hypotheses.
+Keep on talking to humans.
+Appendix
+PART THREE
+Appendix 67
+Cold Approach Examples
+When you are trying to reach someone you do not know, there are a
+few things to remember:
+1. Keep things concise
+2. Keep things convenient (meet near their ofce, etc)
+3. Name drop when you can
+4. Follow up if you don’t hear an answer, but don’t be annoying
+5. If you are leaving a voice mail, practice it frst (you might think it
+sounds practiced, but to others, it will sound more professional)
+Example Email 1
+To: john.smith@mayfower.com
+From: me@me.com
+John,
+I received your name from James Smith. He said that you had a lot of expertise
+in an area I am researching and recommended that we speak.
+I’m trying to study how companies are handling their expense report
+management workfows and the frustrations they are experiencing. I would be
+happy to share my research conclusions with you.
+Would you have 30 minutes to spare next week when I could buy you a cup of
+coffee and ask you a few questions?
+Many thanks for your time and I look forward to hearing from you,
+Jane Doe
+68 Talking to Humans
+Example Email 2
+To: john.smith@mayfower.com
+From: me@me.com
+John,
+I have been working on some new solutions in the area of expense report
+management, and I was told that you have a lot of expertise in this area.
+We started this journey because of personal frustration, and we’re trying to
+fgure out how to make expense reporting much less painful. Would you have
+30 minutes to give us some advice, and share some of your experiences in this
+domain?
+I assure you that I’m not selling anything. I would be happy to come by your
+offce or arrange a quick video conference, at your preference.
+Many thanks,
+Jane Doe
+Example Voice Mail Message
+“Hello, my name is Jane Doe. I was referred to you by James Smith, who said I
+would beneft from your advice. I am currently researching how companies are
+handling their expense management workfows. I understand you have a lot of
+expertise in this area. I was hoping to take just 30 minutes of your time to ask
+you a few questions. I’m not selling anything and I would be happy to share
+my research conclusions with you. You can reach me at 555-555-5555. Again,
+this is Jane Doe, at 555-555-5555, and thank you for your time.”
+Final Note
+Cold calling is never anyone’s favorite thing to do, but it isn’t nearly
+as painful as you imagine. You have nothing to lose and everything
+to gain. So give yourself a determined smile in the mirror, and go get
+them!
+Appendix 69
+Business Assumptions
+Exercise
+I am agnostic about the framework you choose to use to map out
+your business assumptions. Alexander Osterwalder’s business model
+canvas and Ash Maurya’s lean canvas are both powerful tools. I also
+ofen fnd myself using this simple set of questions to lay out a belief
+system around an idea:
+Try to make your assumptions as concise and specifc as possible.
+You want to be able to run an experiment against it to see if it is true.
+My target customer will be?
+(Tip: how would you describe your primary target customer)
+The problem my customer wants to solve is?
+(Tip: what does your customer struggle with or what need do they want to fulfll)
+My customer’s need can be solved with?
+(Tip: give a very concise description / elevator pitch of your product)
+Why can’t my customer solve this today?
+(Tip: what are the obstacles that have prevented my customer from solving this already)
+The measurable outcome my customer wants to achieve is?
+(Tip: what measurable change in your your customer’s life makes them love your product)
+70 Talking to Humans
+My primary customer acquisition tactic will be?
+(Tip: you will likely have multiple marketing channels, but there is often one method, at most
+two, that dominates your customer acquisition — what is your current guess)
+My earliest adopter will be?
+(Tip: remember that you can’t get to the mainstream customer without getting early adopters
+frst)
+I will make money (revenue) by?
+(Tip: don’t list all the ideas for making money, but pick your primary one)
+My primary competition will be?
+(Tip: think about both direct and indirect competition)
+I will beat my competitors primarily because of?
+(Tip: what truly differentiates you from the competition?)
+My biggest risk to fnancial viability is?
+(Tip: what could prevent you from getting to breakeven? is there something baked into your
+revenue or cost model that you can de-risk?)
+My biggest technical or engineering risk is?
+(Tip: is there a major technical challenge that might hinder building your product?)
+And then answer the following open-ended question. Be creative
+and really examine your points of failure.
+Appendix 71
+What assumptions do we have that, if proven wrong, would cause this
+business to fail?
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+Afer you have looked at your business holistically and also answered
+the broad fnal question, mark the assumptions that would have a
+large impact on your business and feel highly uncertain.
+Now you know your priorities for customer discovery and the
+experiments you need to run!
+72 Talking to Humans
+Teaching Exercise #1:
+Mock Interviews
+If you are using this book to try to teach customer discovery/
+development, there is nothing like real-world practice to make
+learning stick.
+Before you send your class out into the world to conduct their own
+interviews, however, you might try a compact exercise like the
+following:
+Tools
+All participants should have pen and paper
+Preface: Choose a Topic
+Everyone in the class will interview each other based on the same
+topic, which means it needs to be something most people can relate
+two. Tere are two angles you might take:
+1. Something that helps the interviewer dig up past behavior.
+For example, “Tell me about the last thing you purchased over $100.”
+Have the interview subject explain what they bought, what the
+purchase process was like from desire to actual ownership, how they
+made their purchase decision, etc.
+2. Something that helps the interviewer unlock deeper motivations
+and desires. For example, “Tell me about your dream car.” Prompt
+your students not just to get people to describe the car, but to dig
+into the reasons behind the choice; they can also prompt for whether
+the interview subject has ever experienced driving the car.
+Appendix 73
+Exercise
+Step 1: Intro, 5 minutes
+Explain the exercise, the topic that the students will use, and give
+a few specifc suggestions for questions they might ask. Example
+questions for the dream car: when did you fall in love with the car
+and why? of the reasons you shared, why are these the most important
+to you? how have you imagined using the car? etc
+Step 2: Interview Plan, 2 minutes
+Give your class the topic and let them spend 5 minutes on their own.
+Tey should write down no more than 6 questions to ask.
+Step 3: Pair Interviews, 5 - 7 minutes each
+Pair up your students. One will begin as the interviewer, and their
+opposite will be interviewed. Give them 7 minutes, and then switch
+the roles, keeping the pairs unchanged. Te new interviewer gets 7
+minutes.
+Te person doing the interviewing should also take notes, which will
+give them some exposure to doing an interview solo as opposed to
+bringing a note-taker to help (which is what most people prefer to
+do when possible).
+Step 4: Observations and Questions, 5-10 minutes
+Ask the room to share observations, challenges, lessons or questions
+on what it was like to do a live interview.
+74 Talking to Humans
+Teaching Exercise #2:
+Mock Approach
+Dean Chang, the Associate VP of Entrepreneurship at the University
+of Maryland, recommends a class exercise where one or more teams
+of students takes on the role of cold calling an “expert.” Te team has
+to do it over and over until they get it right.
+For this exercise, select one team and have them come to the front
+of the classroom. Teir job is to “cold call” a selected member of the
+teaching team. Te teacher will pretend to be an expert in the team’s
+target feld. Te team needs to get the expert to take the call, and
+smoothly transition into asking questions.
+Te job of the person playing the “expert” is to block the team’s
+misguided attempts to engage. When the team does something
+wrong, the expert declines the interview request, or ends the
+conversation, or gives them a gong. Ten the team has to start over
+again.
+Classic mistakes that should trigger the team starting over include
+long or unclear introductions, pitching the product/technology too
+soon, implying that the expert has problems and desperately needs
+help, and/or generally making the expert feel uncomfortable with the
+line of questioning.
+As Dean describes it, “We let the other teams ofer critiques and
+suggest plans of attack for winning over the expert and then the
+chosen team tries it again. Eventually afer being gonged several
+times in a row, they stop making the same mistakes and start to
+Appendix 75
+converge on a good elevator pitch that praises and disarms the
+expert and paves the way to entering into an interview. Ten we stop
+the exercise.”
+Te exercise will probably be humorous and painful at the same
+time, but there is nothing like stumbling, or watching a team
+stumble, to realize why best practices are best practices.
+76 Talking to Humans
+Screwing Up Customer
+Discovery
+So how do people screw up customer discovery? Here are a few antipatterns:
+1. You treat speculation as confrmation
+Here are some question types that I don’t like — and if you ask
+them, you should heavily discount the answer: “would you use this?”
+“would you pay for this?” “would you like this?”
+I can’t say that I never ask these questions, but I always prefer
+behavioral questions over speculation.
+As contrast, here is a behavior-focused interaction: “Tell me
+about a time when you bought airline tickets online.” “What did you
+enjoy about the process? What frustrated you about the process?”
+“What diferent systems or methods have you tried in the past to
+book tickets?”
+2. You lead the witness
+Leading the witness is putting the answer in the interviewee’s mouth
+in the way you ask the question. For example: “We don’t think
+most people really want to book tickets online, but what do you
+think?” Examine both how you phrase your questions and your
+tone of voice. Are you steering the answer? Ask open-ended, neutral
+questions before you drill down: “what was that experience of buying
+online tickets like?”
+3. You just can’t stop talking
+Some entrepreneurs can’t help themselves — they are overfowing
+with excitement and just have to pitch pitch pitch. Tere is nothing
+Appendix 77
+wrong with trying to pre-sell your product — that is an interesting
+experiment unto itself — but you should not mix this in with
+behavioral learning.
+If you do try to pre-sell, don’t just ask, “Would you pay for
+this?” but rather ask them to actually pay, and see what happens.
+Some people ask the question, “How much would you pay for this?”
+but I do not. Instead, try actually selling at diferent price points
+(albeit one at a time). I much prefer having the potential customer
+experience something, rather than speculate over something.
+4. You only hear what you want to hear
+I see some people go into interviews with strong beliefs about
+what they like and dislike. When you debrief afer their custdev
+conversation, it is magical how everything they heard aligns
+perfectly with their opinions. Our brains are amazing flters. Leave
+your agenda at the door before starting a conversation. One way to
+solve this is to have two people for each interview — one person to
+ask questions, and the other to take notes.
+5. You treat a single conversation as ultimate truth
+You’ve just spoken to a potential customer and they have really
+strong opinions. One instinct is to jump to conclusions and rush to
+make changes. Instead, you need to be patient. Tere is no defnitive
+answer for how many similar answers equals the truth. Look for
+patterns and use your judgement. A clear, consistent pattern at even
+5 or 10 people is a signal.
+6. Fear of rejection wins out
+Tis is one of the biggest blockers to people doing qualitative
+research, in my experience, because of fear of a stranger rejecting
+your advance or rejecting your idea. Many excuses, such as “I don’t
+know how to fnd people to talk to,” are rooted in this fear. JFDI.
+Customer development isn’t just about street intercepts. You can
+78 Talking to Humans
+recruit people on Craigslist, Facebook and LinkedIn groups, and
+good old fashioned networking.
+7. You talk to anyone with a pulse
+I see some teams taking a shotgun approach. Instead, defne your
+assumptions around who your customer will be and who your early
+adopter will be. You might even do a lightweight persona (see the
+book Lean UX for examples). Zoom in on those people and try to
+validate or invalidate your assumptions about your customers. It is
+ok to occasionally go outside your target zone for learning, but don’t
+boil the ocean. Focus, learn, and pivot if necessary.
+8. You wing the conversation
+If you go into a conversation unprepared, it will be evident. Write up
+your questions ahead of time and force-rank them based on the risks
+and assumptions you are worried about.
+To defne your assumptions, you can answer the questions in the
+business assumptions exercise (previous section), or do a business
+model canvas or a lean canvas. Your exact method doesn’t matter as
+much as the act of prioritizing your risk areas.
+During your actual interview, do not literally read your
+questions from a piece of paper, but rather keep things
+conversational (remember, you are getting the subject to tell you
+stories). If you uncover something interesting, follow your nose and
+don’t be afraid to diverge from your initial priorities.
+9. You try to learn everything in one sitting
+Rather than trying to go as broad as possible in every conversation,
+you are actually better of zooming in on a few areas which are
+critical to your business. If you have a huge range of questions, do
+more interviews and split the questions.
+Appendix 79
+10. Only the designer does qualitative research
+It is ok to divide and conquer most of the time, but everyone on
+the team should be forced to get out and talk to real people. Note:
+you will probably have to coach newcomers on #5’s point about not
+jumping to conclusions.
+11. You did customer development your frst week, but haven’t felt
+a need to do it since
+It is always sad to see product teams start things of with customer
+development, and then completely stop once they get going. It is
+perfectly fne to let customer discovery work ebb and fow. If your
+learning curve fattens, it can make sense to press pause or change
+up your approach. However, you want to build a regular qualitative
+cadence into your product process. It will provide a necessary
+complement to your quantitative metrics, because it will help you
+understand the reasons why things are happening.
+12. You ask the customer to design your product for you
+Tere’s a famous line attributed to Henry Ford, “If I had asked people
+what they wanted, they would have said faster horses.” Remember, it
+is not the customer’s job to design the solution. It is your job. It is the
+customer’s job to tell you if your solution sucks. Get feedback, yes.
+Remember that the further away you are from a working product,
+the more you have to flter what you hear through your judgement
+and vision.
+Disclaimer
+As with all tips on lean and agile, there are always places and times
+to break the rules and do what is right for your context, and your
+business.
+80 Talking to Humans
+Glossary
+Concierge and “Wizard of Oz” Experiments
+A concierge experiment is where you manually act out your
+product. An example in Eric Ries’ book Te Lean Startup shows an
+entrepreneur serving as a personal shopper for people before trying
+to design an automated solution. When my colleagues were testing
+a diet plan service, we did not want to rush to sofware before testing
+our assumptions. Instead, we interviewed participants about their
+food preferences, manually created meal plans which were emailed
+to them over two weeks, and interviewed them at various points in
+the process. At the end of the two weeks, we asked them to pay a set
+amount to continue, and tracked the conversion rate.
+A “Wizard of Oz” experiment is similar, with the diference
+being that the manual work is hidden from the customer. For
+example, another set of colleagues tested an idea for a smart task
+management system for married couples. Te twenty couples
+participating in the test thought that they were interacting with a
+computer system, but in reality they were emailing in to our team,
+who then processed the emails accordingly. We just said that the
+servers would be “down” at night!
+Minimum Viable Product (MVP)
+An MVP is the smallest thing you can create that gives you
+meaningful learning about your product. MVP is ofen used
+interchangeably with “experiment” in the broader community. I
+personally tend to reserve it specifcally for tests around the product,
+and not for experiments related to other business assumptions. It is
+best to think about MVPs as an ongoing process, rather than a single
+release. Validation is rarely that neat and tidy.
+Appendix 81
+Scientifc Method
+I think the best way to explain the scientifc method is to quote the
+theoretical physicist, Richard Feynman:
+“In general we look for a new law by the following process:
+frst we guess it. Don’t laugh -- that’s really true. Ten we compute
+the consequences of the guess to see what, if this law is right, what
+it would imply. Ten we compare those computation results to
+nature, i.e. experiment and experience. We compare it directly to
+observation to see if it works.
+“If it disagrees with experiment, it’s wrong. Tat simple
+statement is the key to science. It doesn’t make a diference how
+beautiful your guess is, it doesn’t make a diference how smart you
+are, who made the guess or what his name is -- if it disagrees with
+experiment, it’s wrong. Tat’s all there is to it.” (Cornell lecture, 1964)
+It is relatively straightforward to apply the scientifc method to
+business. You accept that your ideas are hypotheses. You make
+them as specifc as possible so that you can guess the results, i.e. the
+implications, of your hypotheses. You design and run an experiment.
+If your hypothesized results do not match the results of your
+experiment, your hypothesis is proven wrong. However, business
+is about people, and people are highly complex and inconsistent
+compared to laws of nature. So if your experiment fails, you will
+still need to apply judgement about whether the errors are in the
+hypothesis or in the experiment.
+82 Talking to Humans
+Other Learning
+Resources
+Authors
+Te two seminal books on the topics of lean innovation and
+customer development are Steve Blank and Bob Dorf ’s Te Startup
+Owner’s Manual and Eric Ries’ Te Lean Startup.
+Tere are a ton of other resources out there, from books to
+videos and blog posts. Rather than link to particular items and
+thus miss out on newer developments, here are a few names that I
+recommend you pay attention to: Alex Osterwalder, Alistair Croll,
+Ash Maurya, Ben Yoskowitz, Brant Cooper, Cindy Alvarez, David
+Bland, Jef Gothelf, Joel Gascoigne, Josh Seiden, Kevin Dewalt, Laura
+Klein, Patrick Vlaskovits, Rob Fitzpatrick, Salim Virani, and Tristan
+Kromer.
+Talking to Humans Website
+On our website talkingtohumans.com, you can get worksheet pdfs
+and sign up for our email list, where we send occasional notes based
+on useful resources we discover.
+Behind the Book 83
+Gif Constable (gifconstable.com) is
+a repeat entrepreneur and currently
+the CEO of Neo, a global product
+innovation consulting company. He has
+held product design and business roles
+in six startups, and provided M&A and
+IPO services to technology frms while
+at Broadview/Jeferies. He was one of
+the earliest adopters & bloggers of the
+Lean Startup movement, co-organizes
+the 4,700-person Lean Lessons Learned meetup in New York, and tries to
+give back to the entrepreneurial community through mentoring and speaking
+engagements. He lives outside of New York City with his wife, two children, and
+an excessively rambunctious retriever.
+Giff Constable
+Talking to Humans was written by Gif Constable, at the instigation
+and with the collaboration of Frank Rimalovski of NYU’s
+Entrepreneurial Institute, and with the wonderful illustrations of
+Tom Fishburne.
+Behind the Book
+84 Guide to Customer Discovery
+Frank Rimalovski brings over 20
+years of experience in technology
+commercialization, startups and
+early-stage venture capital investing.
+He is executive director of the NYU
+Entrepreneurial Institute, managing
+director of the NYU Innovation Venture
+Fund, Adjunct Faculty at NYU’s
+Polytechnic School of Engineering,
+and an Instructor in the NSF’s I-Corps
+program, having trained and mentored hundreds of entrepreneurs in customer
+development and lean startup methodologies. Previously, he was a founding
+partner of New Venture Partners, director/entrepreneur-in-residence at
+Lucent’s New Ventures Group, and has held various positions in product
+management, marketing and business development at Sun Microsystems, Apple
+and NeXT. He lives outside of New York City with his wife, two daughters and
+his increasingly mellow mutt.
+Frank Rimalovski
+Tom Fishburne (marketoonist.com)
+started drawing cartoons on the backs
+of Harvard Business School cases. His
+cartoons have grown by word of mouth
+to reach 100,000 business readers a
+week and have been featured by the Wall
+Street Journal, Fast Company, and the
+New York Times. Tom is the Founder
+and CEO of Marketoon Studios, a
+content marketing studio that helps
+businesses such as Google, Kronos, and
+Rocketfuel reach their audiences with cartoons. Tom draws from 19 years in the
+marketing and innovation trenches at Method Products, Nestle, and General
+Mills. He lives near San Francisco with his wife and two daughters.
+Tom Fishburne
+Behind the Book 85
+Like The Book?
+When Frank approached me to write this book, we both had the
+same goal of giving back to the community. We debated charging
+for the book, and pondered whether the question of free versus paid
+would afect how it was perceived. But ultimately, we decided to put
+it out into the world for free.
+Should you like Talking to Humans, and feel a need to contribute
+back to something, we would encourage you to think about doing
+one or all of the following:
+1. Pay it back (and forward!) by mentoring another student or
+entrepreneur
+2. Donate to one of our favorite causes: Charity: Water, Girls Who
+Code, Kiva or the NYU Entrepreneurial Institute
+3. Share a link to the talkingtohumans.com website or give someone
+a copy of the book
+If this book has helped you in some small way, then that is reward
+enough for us. It’s why we did it.
+Gif Constable and
+Frank Rimalovski
+September 2014
+talkingtohumans.com
+page intentionally blank
+Acclaim for Talking to Humans
+“Talking to Humans is the perfect complement to the existing body of work
+on customer development. If you are teaching entrepreneurship or running
+a startup accelerator, you need to make it required reading for your students
+and teams. I have.”
+Steve Blank, entrepreneur and author of The Startup Owner’s Manual
+“Getting started on your Customer Discovery journey is the most
+important step to becoming a successful entrepreneur and reading Talking
+To Humans is the smartest frst step to fnding and solving real problems for
+paying customers.”
+Andre Marquis, Executive Director, Lester Center for Entrepreneurship,
+University of California Berkeley
+“If entrepreneurship 101 is talking to customers, this is the syllabus.
+Talking to Humans is a thoughtful guide to the customer informed product
+development that lies at the foundation of successful start-ups.”
+Phin Barnes, Partner, First Round Capital
+“A lot of entrepreneurs pay lip service to talking to customers but you have
+to know how. Talking to Humans ofers concrete examples on how to how
+to recruit candidates, how to conduct interviews, and how to prioritize
+learning from customers more through listening versus talking.”
+Ash Maurya, Founder of Spark59 and author of Running Lean
+“When getting ‘out of the building,’ too many people crash and burn right
+out of the gate and wonder what happened. Talking to Humans is a quick
+and efective guide for how Lean Startup interviews should be done.”
+Dean Chang, Associate VP for Innovation & Entrepreneurship,
+University of Maryland
+#talkingtohumans
+talkingtohumans.com

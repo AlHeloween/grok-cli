@@ -1,0 +1,101 @@
+Mortgage Classifications
+Mortgages can be classified into several categories based on their characteristics. The broadest
+distinction is between government-insured mortgages and conventional mortgages. Government-
+insured mortgages have mortgage insurance from a government agency, such as FHA, VA, or
+USDA, whereas conventional mortgages do not have government insurance. As previously noted,
+this insurance pays the lender if the borrower defaults. Borrowers can also be classified into two
+broad groups based on their credit history: prime and non-prime. Although there is no single
+agreed-upon definition, prime borrowers generally have very good credit and are offered more
+attractive mortgage terms, such as better interest rates, than non-prime borrowers. Non-prime
+borrowers exhibit one or more factors that make them appear riskier to lenders, such as past credit
+problems or a lack of complete income and asset documentation.
+Conventional mortgages can be broken down into two additional groups, conforming and
+nonconforming mortgages. Conforming loans are loans eligible to be purchased in the secondary
+market by Fannie Mae and Freddie Mac, two GSEs that are discussed later in this report. To be a
+conforming loan, the mortgage must meet certain creditworthiness thresholds (such as a
+minimum credit score) and be less than the “conforming loan limit,” a legal cap on the principal
+balance of the mortgage that can vary based on the geographic area where the house is located.18
+Borrowers with conforming loans are usually prime borrowers.
+Nonconforming loans can be broken down into three additional categories depending on the
+reason they are not conforming. First, nonconforming loans above the conforming loan limit are
+called jumbo loans.19 Second, Alt-A loans are for near-prime borrowers who may have credit
+problems or who do not have complete documentation for income or assets. Third, subprime
+loans are generally for the riskiest borrowers; they either have low credit scores, documentation
+issues, or some other factor that makes them appear to be riskier to lenders. Subprime borrowers
+are likely to be charged a higher interest rate to compensate the lender for the additional risk.20
+Risks Associated with Holding Mortgages
+When a lender originates a mortgage, it accepts certain risks. The three major risks are credit,
+prepayment, and funding risk.
+Credit risk refers to the risk that the lender bears if a borrower does not repay the mortgage on
+time. 21 Prepayment risk is the risk that a mortgage will be paid off sooner than expected,
+typically by a borrower refinancing the mortgage or selling the home. This is more likely to
+happen when interest rates fall, because borrowers are more likely to refinance their mortgages to
+take advantage of lower interest rates. 22 When a borrower refinances, the lender is paid in full the
+amount owed, but it now has to reinvest those funds at a time when its expected return on new
+investments is lower because interest rates have fallen.
+Although prepayment risk is a risk associated with falling interest rates, there are also risks for
+lenders that come from rising interest rates. One of these risks, called funding risk, arises because
+some lenders borrow money in the short term to fund long-term investments, such as 30-year
+mortgages. Short-term interest rates are typically lower than long-term interest rates because of
+the additional risk associated with lending money for a longer period of time. Lenders, therefore,
+can profit from the difference, or spread, between the short-term and long-term rates. If interest
+rates rise, then the lender will have to borrow funds at a higher interest rate, while still earning the
+same interest rate on the mortgage. As long as the short-term rate stays below the long-term
+return, the lender would profit on the difference, although its profits would be lower than if the
+short-term interest rates had not increased. If short-term rates increase above the fixed return on
+the mortgage, then the investment would no longer be profitable.
+Another lender’s risk associated with rising interest rates is opportunity costs. If interest rates rise,
+but lender’s money is tied up in long-term mortgages made at lower interest rates, then the lender
+is missing out on higher returns that it could be earning if it were able to originate mortgages or
+make other investments at the higher current interest rate.
+The lender that originates a mortgage does not necessarily have to bear all of the associated risks.
+In some cases, the borrower could bear some of these risks. Adjustable-rate mortgages, for
+example, transfer the risk that interest rates might rise from the lender to the borrower. Lenders
+can also sell mortgages to investors, who then bear the risks associated with the mortgage. The
+market for buying and selling mortgages is called the secondary market, which is described
+below.
+The Secondary Market
+After a lender originates a mortgage loan, the lender has several options. The lender could choose
+to hold the mortgage in its portfolio or sell it to another entity. Mortgages are bought and sold in
+the secondary market to domestic and international investors. When a mortgage is sold, the
+mortgage servicer may change. In any case, the borrower continues to send monthly mortgage
+payments to the mortgage servicer.23 The servicer remits the payments to the entity that purchased
+the mortgage.
+The secondary market plays an important role in providing funding for loans made in the primary
+market. When a mortgage is sold in the secondary market, the lender can use the proceeds to fund
+additional new mortgages in the primary market. If the lender holds the mortgage in its portfolio,
+the lender has fewer available funds to make new mortgages. Furthermore, selling the loan to
+another entity allows the lender to transfer mortgage lending risks to the buyer.
+Securitization
+When a lender sells a mortgage in the secondary market, the new mortgage holder can hold the
+mortgage as a whole loan. When held as a whole loan, the mortgage is in the portfolio of the new
+mortgage holder, and the new mortgage holder bears the risks associated with the mortgage.
+Alternatively, the new mortgage holder may choose to securitize the mortgage instead of holding
+it as a whole loan.24 Mortgage securitization comes in many different forms, but generally
+speaking, the process involves a financial institution acquiring and combining (pooling together)
+many different mortgages and then issuing a mortgage-backed security (MBS). An MBS can be
+divided into different pieces, or tranches, that are sold to investors.25 The investors do not own
+the underlying mortgages but are buying the right to receive the future stream of payments that
+come from those mortgages. A servicer collects the payments of all the borrowers whose
+mortgages are part of the security and remits the payments to the investors.
+For investors, purchasing MBS offers several benefits compared with holding whole mortgages.
+Most notably, an MBS is generally more liquid than whole mortgages, meaning it is easier to
+quickly sell an MBS at the current price. Because the market for MBS is more liquid than the
+market for whole mortgages, MBS might be attractive to investors who would not otherwise
+choose to invest in mortgages. More investors in the mortgage market, in turn, can mean more
+funding is available for lenders to offer mortgages. More funding available in the primary market,
+and the existence of a secondary market where lenders know they can easily sell the mortgages
+they make, can result in lower interest rates that lenders charge to borrowers.
+Although securitization may have several advantages, it may also present several disadvantages.
+Securitization—and the secondary market in general—requires additional participants to facilitate
+the flow of credit than when a loan is held by the originator. Additional participants, with some
+acting on behalf of others, can increase costs and introduce competing incentives for the various
+participants and potential conflicts of interest. For example, more participants in the transaction
+may result in a principal-agent problem, a situation in which one entity (the agent) is supposed to
+work on behalf of another entity (the principal), but the agent may have an incentive to act in its
+own best interest rather than in the best interest of the principal. For example, mortgage servicers
+act on behalf of investors to evaluate a borrower for mortgage workout options or to begin the
+foreclosure process when a borrower falls behind on mortgage payments, as specified by a
+contract between the investor and the servicer. However, in some cases, a servicer may have an
+incentive to choose the option that is in its own best interest rather than in the best interest of the
+investor, and the investor might not be well positioned to police the servicer’s actions.26

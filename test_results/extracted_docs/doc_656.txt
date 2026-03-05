@@ -1,0 +1,104 @@
+The promise of an augmented reality game—Pokémon GO
+ 
+
+ Recent advances in technology facilitate the promoting of
+ physical activity (1-8). This is important due to the health
+ effect of physical activity and the reach and disseminability
+ of technology based programs/interventions. Specifically,
+ Pokémon GO (released in 2016) may promote a higher
+ degree of activity than many previous exergames such
+ as Nintendo Wii Fit (released in 2007). Pokémon GO uses
+ augmented reality (AR), which is similar to virtual reality
+ but the key concept for it is ‘utility’ instead of ‘presence’.
+ Pokémon GO encourages players to walk around, to socialize,
+ and even to make friends. AR is a promising concept in
+ that it allows for another type of tailoring of interventions,
+ namely geographic tailoring to an individual’s environment.
+ According to recent studies, Pokémon GO increased
+ physical activity and decreased sedentary behaviors (1-3);
+ however, its long-term effect is unknown at this point. In
+ one of the studies, players had gone back to their baseline
+ physical activity levels within six weeks of their first
+ installing the game (2). The real test of the technology
+ based AR game for promoting physical activity is whether
+ participants continue to engage in the game over longer
+ periods of time. It only took 19 days to reach 50 million
+ downloads and in September, 2016 Pokémon GO reached
+ 500 million downloads. However, since September, 2016
+ player numbers are on the decline which raises the question
+ if this game is following the trajectory of most technology
+ games and only be maintained by those who are hard core
+ gamers.
+ Data show that respondents were somewhat more likely
+ to be younger, white, and female; however, there were no
+ significant demographic interactions for any behavioral
+ indicator (1-3). At least one study indicated that Pokémon
+ GO may be more beneficial for more obese individuals (3).
+ It was noted that if Pokémon GO players would increase
+ 1,000 steps daily, and this behavior change would be
+ sustained, about 41 days of additional life expectancy would
+ be assumed (1). So the public health impact potential is
+ substantial.
+ It is recommended that researchers apply theoretical
+ constructs of health behavior theory (HBT) for behavior
+ change to promote physical activity (6,7). For example,
+ SuperBetter includes tailored educational elements based
+ on HBT, such as individualized assistance and feedback on
+ each player’s achievement/improvement. Systematic reviews
+ report that the most prevalent theoretical constructs of
+ health intervention games were self-monitoring, goal
+ setting, and self-reward (6,9). Health interventions, which
+ are designed based on theoretical frameworks, are likely
+ to lead to longer behavior change (7). Therefore, there is
+ a need for researchers to assess theoretical contents and
+ gamification elements of Pokémon GO (4,5).
+ T h e r e a r e m a n y g a m e s d e v e l o p e d i n a c a d e m i a
+ incorporating theoretical constructs for health behavior
+ change interventions; however, very few become popular.
+ Limited funding for development budgets and speed
+ of implementation including testing, publishing, and
+ implementing in a real-world make it challenging (10).
+ Therefore, it is worth while studying which, either entertainment-based games or educational elements-
+ based games, is more popular, engages long-term behavior
+ change, and elevates player’s motivation (7).
+ In addition, in order to increase the level of scientific
+ evidence for the interventions, it is important to develop
+ and adopt standardized protocols in terms of interventions,
+ populations, and outcomes. This effort eventually
+ will allow further comparison between differently
+ designed experimental studies to translate evidence-
+ based interventions to gaming-based approaches (10).
+ Collaborations between game developers, app designers,
+ and content experts in behavior health are necessary (7).
+ It is also recommended that researchers explore the
+ potential benefits of applying Pokémon GO to other areas
+ such as depression, heart disease, type 2 diabetes, etc.
+ and to diverse study subjects such as children, elders, and
+ people with disabilities (1,2,8,10). It has been reported that
+ older adult players have an awareness in playing games for
+ favorable health outcomes (8). Further research, therefore,
+ should be conducted to identify end user’s needs assessment
+ and specific GUI (graphical user interface) elements,
+ develop human-centered gaming design guidelines, and
+ evaluate usability issues.
+ Considering the characters (the Pokémons) of Pokémon
+ GO appear to be “on top of” the real world, not “in” the
+ real world, players may expect another stage of mixed reality
+ (combining AR and virtual reality) with the concept of
+ ‘flexibility’ where their illusion is not easily broken. In other
+ words, when we lean in close the Pokémons get larger, and
+ when we walk around the virtual landscape changes with
+ respect to the position in the way a real object would (like
+ Minecraft—latest update released in 2016—as an example
+ of an interactive virtual world). This natural and intuitive
+ way of interaction simplifies the communication between
+ players and Pokémon GO, especially for players who have
+ no previous experience. Therefore, with a mixed reality
+ interface, it is expected that Pokémon GO would have the
+ potential to be more sustainable and effective.
+ Even though larger robust longitudinal studies
+ employing rigorous methodologies and further research on
+ negative effects such as injuries, road traffic incidents, game
+ addiction, etc. are still needed (1-3,10,11), Pokémon GO is
+ emerging as a potentially useful tool for motivational and
+ behavioral impacts on physical activity.

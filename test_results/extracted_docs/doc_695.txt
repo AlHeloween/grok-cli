@@ -1,0 +1,93 @@
+Consumer subscription apps are relatively easy to launch, which is why there are hundreds of thousands of them in the app stores. Compared with more complex models like B2B SaaS or marketplaces, these businesses can launch faster with less capital for many reasons: no sales teams, rapid purchasing cycles, high gross margins with low marginal costs to serving additional subscribers, and turnkey global distribution, payments, and support tools through the app stores.
+ 
+
+ But these apps face several fundamental challenges that make them very hard to scale:
+ 
+
+ Lack of control over distribution: The Apple and Google app stores exert significant control over product placements, promotions, TOS and usage guidelines, payments, and cancellation terms. This locks consumer subscription apps into paying expensive app store fees and restricts their ability to distribute and monetize their products.
+ 
+
+ Overdependence on paid acquisition: Since consumer subscription apps don’t have sales teams and often can’t rely on virality as much as social networks or marketplaces, many turn to paid acquisition as their primary growth lever. This strategy always had flaws, and Apple’s App Tracking Transparency (ATT) restrictions have only made it harder.
+ 
+
+ High subscriber churn rates: Churn is generally higher for consumer subscription apps vs. B2B SaaS businesses, and most don’t benefit from strong network effects like social networks or marketplaces. This makes products less sticky and retention more difficult. Many also have products and growth strategies that are fairly easy to replicate and thus prone to copycats, weakening their defensibility and further exacerbating churn rates.
+ 
+
+ ARPU is often low and hard to grow: Consumer subscription apps generally have much lower Average Revenue per User (ARPU) vs. B2B SaaS, and they have a harder time expanding ARPU than many other business models. B2B SaaS businesses increase Net Revenue Retention (NRR) by growing the value of retained accounts to offset churn. Marketplaces can boost ARPU by increasing transactions as they gain liquidity. Social networks grow ad revenue by increasing user engagement. But most consumer subscription apps offer only one subscription, which means they have a hard time extracting additional value from users.
+ 
+
+ In fact, it is because consumer subscription apps are relatively easy to launch that so many exist, leading to fierce competition, channel saturation, and subscription fatigue. Meanwhile, Apple’s recent ATT restrictions have rendered paid acquisition less efficient, making it even more difficult for these companies to maintain healthy unit economics. This explains why out of all the consumer subscription apps out there, fewer than 50 have ever reached $1B+ valuations, and fewer than 10 are publicly traded companies with $10B+ market caps.
+ 
+
+ 
+
+ Public company market caps are from 8/30/24. Private company valuations are based on the most recent publicly available data, which may be out of date relative to internal valuations. Public companies like Bumble, Stitch Fix, and Chegg that once had market caps over $1B are included even though their current market caps are below $1B. Companies like Canva, Grammarly, Figma, Notion, and Dropbox are excluded because they are considered B2B SaaS businesses since they have sales teams and sell to both prosumers and enterprises. Products like ChatGPT, Hulu, ESPN+, Disney+, and Pandora that are subsidiaries of larger companies are excluded.
+ These challenges are supported by RevenueCat’s proprietary data from the past year, which has been aggregated from over 30,000 subscription apps accounting for over 290M subscribers:
+ 
+
+ 
+
+ Even top-quartile consumer subscription apps only convert roughly 1 in 20 installs into a paid subscription. They also lose more than half of their annual subscribers after the first year, and more than half of their monthly subscribers after just three months. This makes it hard to build a sustainable business, but not impossible. 95th-percentile apps, like those in the figure above, outperform the rest by a wide margin, with metrics that provide a strong foundation for growth. 
+ 
+
+ So what makes these top apps different?
+ 
+
+ Using the Subscription Value Loop to grow your consumer subscription business
+ The best consumer subscription apps overcome these challenges by doing two things:
+ 
+
+ 1. Building their businesses on a core value promise that provides enduring value. This core value promise is what attracts users to the app and keeps them coming back over time. The stronger and more differentiated the value promise, the more subscribers will pay and the longer they’ll keep paying. The value promises of category-leading consumer subscription apps are clear and compelling, to the point where I can describe these promises in a single sentence without naming the associated companies and you can probably guess the ones I am talking about:
+ 
+
+ Listen to music you love, build playlists, and find new artists who match your taste.
+ 
+
+ Enjoy gamified study experiences that make language learning fun.
+ 
+
+ Record and share your workouts with a supportive community of athletes.
+ 
+
+ Find, match, and connect with attractive single people in your area with one swipe.
+ 
+
+ 2. Harnessing their value promise to drive a compounding Subscription Value Loop that increases LTV/CAC and accelerates Payback Period:
+ 
+
+ Step 1: Value Creation: Quickly connecting new users to the app’s core value promise and offering enduring value that keeps them coming back
+ 
+
+ Step 2: Value Delivery: Cost-efficiently distributing the app to users organically through word of mouth and SEO, as well as through sustainable paid acquisition
+ 
+
+ Step 3: Value Capture: Converting free users into subscribers, which generates revenue that can be reinvested into the business to strengthen the rest of the loop
+ 
+
+ 
+
+ As a company bolsters its Subscription Value Loop, LTV/CAC goes up and Payback Period comes down, driving faster and more efficient growth. What makes consumer subscription apps unusual is that most don’t have sales teams, which means the product must be able to sell itself organically and through paid advertisements. Core product, growth product, and marketing teams must work together to build an integrated system that converts their app’s core value promise into subscription revenue by maximizing each step in the Subscription Value Loop.
+ 
+
+ I built a Subscription Value Loop Calculator with RevenueCat where you can plug in your numbers, measure the performance of your loop, and identify growth opportunities.
+ 
+
+ There are five steps to using this tool:
+ 
+
+ Identify metrics that drive Value Creation, Value Delivery, and Value Capture for your app.
+ 
+
+ Calculate your company’s recent performance against each metric.
+ 
+
+ Compare your performance on each metric vs. category-specific benchmarks.
+ 
+
+ Discover opportunities based on metrics where you underperform vs. these benchmarks.
+ 
+
+ Prioritize initiatives to improve the metrics with the greatest upside potential.
+ 
+
+ For a detailed step-by-step guide on how to use this tool

@@ -1,0 +1,31 @@
+The wheels on this bus do indeed go round and round. Its wipers swish. And its horn beeps. Hidden in its innards, though, is something special — a motor that doesn’t vroom but pairs with a burgeoning technology that could help the grid proliferate with renewable energy.
+ 
+
+ These new buses, developed by a company called Zum, ride clean and quiet because they’re fully electric. With them, California’s Oakland Unified School District just became the first major district in the United States to transition to 100 percent electrified buses. The vehicles are now transporting 1,300 students to and from school, replacing diesel-chugging buses that pollute the kids’ lungs and the neighborhoods with particulate matter. Like in other American cities, Oakland’s underserved areas tend to be closer to freeways and industrial activity, so air quality in those areas is already terrible compared to the city’s richer parts.
+ 
+
+ Pollution from buses and other vehicles contributes to chronic asthma among students, which leads to chronic absenteeism. Since Oakland Unified only provides bus services for its special-need students, the problem of missing school for preventable health issues is particularly acute for them. “We have already seen the data — more kids riding the buses, that means more of our most vulnerable who are not missing school,” said Kyla Johnson-Trammell, superintendent of Oakland Unified School District, during a press conference Tuesday. “That, over time, means they’re having more learning and achievement goes up.”
+ 
+
+ What’s more, a core challenge of weaning our society off fossil fuels is that utilities will need to produce more electricity, not less of it. “In some places, you’re talking about doubling the amount of energy needed,” said Kevin Schneider, an expert in power systems at Pacific Northwest National Laboratory, who isn’t involved in the Oakland project. 
+ 
+
+ Counterintuitively enough, the buses’ massive batteries aren’t straining the grid; they’re benefiting it. Like a growing number of consumer EV models, the buses are equipped with vehicle-to-grid technology, or V2G. That allows them to charge their batteries by plugging into the grid, but also send energy back to the grid if the electrical utility needs extra power. “School buses play a very important role in the community as a transportation provider, but now also as an energy provider,” said Vivek Garg, co-founder and chief operating officer of Zum.
+ 
+
+ And provide the buses must. Demand on the grid tends to spike in the late afternoon, when everyone’s returning home and switching on appliances like air conditioners. Historically, utilities could just spin up more generation at a fossil fuel power plant to meet that demand. But as the grid is loaded with more renewable energy sources, intermittency becomes a challenge: You can’t crank up power in the system if the sun isn’t shining or the wind isn’t blowing.
+ 
+
+ If every EV has V2G capability, that creates a distributed network of batteries for a utility to draw on when demand spikes. The nature of the school bus suits it perfectly for this, because it’s on a fixed schedule, making it a predictable resource for the utility. In the afternoon, Zum’s buses take kids home, then plug back into the grid. “They have more energy in each bus than they need to do their route, so there’s always an ample amount left over,” said Rudi Halbright, product manager of V2G integration at Pacific Gas and Electric Company, the utility that’s partnered with Zum and Oakland Unified for the new system.
+ 
+
+ As the night goes on and demand wanes, the buses charge again to be ready for their morning routes. Then during the day, they charge again, when there’s plentiful solar power on the grid. On weekends or holidays, the buses would be available all day as backup power for the grid. “Sure, they’re going to take a very large amount of charge,” said Kevin Schneider, an expert in power systems at Pacific Northwest National Laboratory, who isn’t involved in the Oakland project. “But things like school buses don’t run that often, so they have a great potential to be a resource.”
+ 
+
+ That resource ain’t free: Utilities pay owners of V2G vehicles to provide power to the grid. (Because V2G is so new, utilities are still experimenting with what this rate structure looks like.) Zum says that that revenue helps bring down the transportation costs of its buses to be on par with cheaper diesel-powered buses. Oakland Unified and other districts can get still more money from the EPA’s Clean School Bus Program, which is handing out $5 billion between 2022 and 2026 to make the switch.
+ 
+
+ The potential of V2G is that there are so many different kinds of electric vehicles (or vehicle types left to electrify). Garbage trucks run early in the day, while delivery trucks and city vehicles do more of a nine-to-five. Passenger vehicles are kind of all over the place, with some people taking them to work, while others sit in garages all day. Basically, lots of batteries — big and small — parked idle at different times to send power back to the grid.
+ 
+
+ All the while, fiercer heat waves will require more energy-hungry air conditioning to keep people healthy. (Though ideally, everyone would get a heat pump instead.) “We’re still going to need more generation, more power lines, but energy storage is going to give us the flexibility so we can deploy it quicker,” Schneider said. In the near future, you may get home on a sweltering day and still be able to switch on your AC — thanks to an electric school bus sitting in a lot.

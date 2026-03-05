@@ -1,0 +1,684 @@
+Original article
+
+Global patterns and trends in colorectal cancer
+incidence in young adults
+Rebecca L Siegel,‍ ‍ 1 Lindsey A Torre,1 Isabelle Soerjomataram,2 Richard B Hayes,3
+Freddie Bray,2 Thomas K Weber,4,5 Ahmedin Jemal1
+►► Additional material is
+published online only. To view
+please visit the journal online
+(http://​dx.​doi.o​ rg/​10.​1136/​
+gutjnl-2​ 019-​319511).
+1
+
+Intramural Research
+Department, American Cancer
+Society, Atlanta, Georgia, USA
+2
+Section of Cancer Surveillance,
+International Agency for
+Research on Cancer, Lyon,
+France
+3
+Department of Population
+Health, New York University
+School of Medicine, New York,
+New York, USA
+4
+Department of Surgery, Donald
+and Barbara Zucker School of
+Medicine at Hofstra/Northwell,
+Hempstead, New York, USA
+5
+Department of Surgical
+Oncology, Northwell Health
+Cancer Institute, Great Neck,
+New York, USA
+Correspondence to
+Ms Rebecca L Siegel, American
+Cancer Society, Atlanta, GA
+30303, USA;
+​rebecca.​siegel@​cancer.​org
+Received 22 July 2019
+Revised 16 August 2019
+Accepted 21 August 2019
+
+Abstract
+Objective Early-onset colorectal cancer (CRC) is
+increasing in the USA despite rapid declines in older
+ages. Similar patterns are reported in Australia and
+Canada, but a comprehensive global analysis of
+contemporary data is lacking.
+Design We extracted long-term data from Cancer
+Incidence in Five Continents and supplemental sources
+to report on worldwide CRC incidence rates and trends
+by age (20–49 years and ≥50 years) through diagnosis
+year 2012 or beyond (Australia, Finland, New Zealand,
+Norway, Sweden, USA).
+Results During 2008–2012, age-standardised CRC
+incidence rates in adults <50 ranged from 3.5 per
+100 000 (95% CI 3.2 to 3.9) in India (Chennai) to
+12.9 (95% CI 12.6 to 13.3) in Korea. During the
+most recent decade of available data, incidence in
+adults <50 was stable in 14 of 36 countries; declined
+in Austria, Italy and Lithuania; and increased in 19
+countries, nine of which had stable or declining trends
+in older adults (Australia, Canada, Denmark, Germany,
+New Zealand, Slovenia, Sweden, UK and USA). In
+Cyprus, Netherlands and Norway, inclines in incidence
+in young adults were twice as rapid as those in older
+adults (eg, Norway average annual per cent change
+(AAPC), 1.9 (95% CI 1.4 to 2.5) vs 0.5 (95% CI 0.3 to
+0.7)). Among most high-income countries with longterm data, the uptick in early-onset disease began in
+the mid-1990s. The steepest increases in young adults
+were in Korea (AAPC, 4.2 (95% CI 3.4 to 5.0)) and
+New Zealand (AAPC, 4.0 (95% CI 2.1 to 6.0)).
+Conclusion CRC incidence increased exclusively in
+young adults in nine high-income countries spanning
+three continents, potentially signalling changes
+in early-life exposures that influence large bowel
+carcinogenesis.
+
+Introduction
+
+© Author(s) (or their
+employer(s)) 2019. No
+commercial re-use. See rights
+and permissions. Published
+by BMJ.
+To cite: Siegel RL, Torre LA,
+Soerjomataram I, et al. Gut
+Epub ahead of print: [please
+include Day Month Year].
+doi:10.1136/
+gutjnl-2019-319511
+
+Colorectal cancer (CRC) is the third most
+commonly diagnosed cancer worldwide, with an
+estimated 1.8 million new cases in 2018.1 Global
+patterns vary widely and are strongly linked to
+human development index level, reflecting the
+adoption of western lifestyles that accompany
+economic transition and elevate risk. In general,
+CRC incidence is rising in low-income and
+middle-income countries but beginning to stabilise or decline in high-income countries, especially those that have implemented screening.2
+However, accumulating evidence from studies
+
+Significance of this study
+What is already known on this subject?
+
+►► Colorectal cancer (CRC) incidence rates in
+
+young adults (aged <50 years) are increasing
+in several countries, despite declining rates in
+older adults. The extent to which this pattern is
+occurring on a global scale is unknown.
+
+What are the new findings?
+
+►► CRC incidence rates are uniquely increasing
+
+in young adults in nine high-income countries
+(Germany, USA, Australia, Canada, New
+Zealand, UK, Denmark, Slovenia and Sweden)
+across North America, Europe and Oceania
+where rates in older adults are stable or
+declining. Conversely, CRC declined in young
+adults in only three countries (Italy, Austria and
+Lithuania) compared with 11 countries in adults
+50 and older.
+
+How might it impact on clinical practice in the
+foreseeable future?
+►► Improving awareness of the marked increases
+in young-onset CRC incidence could facilitate
+more diligent assessment of cancer family
+history by primary care clinicians, as well as
+follow-up of symptoms in young individuals,
+many of whom are diagnosed at a late stage.
+These findings also highlight the need for
+research on early-life exposures in relation to
+colorectal carcinogenesis.
+of cancer registry data indicates that favourable overall trends are masking an increase in
+young-onset CRC in the USA,3–6 Australia7 8 and
+Canada.9 Although the absolute risk of CRC in
+adults younger than 50 years is low relative to
+older adults, disease trends in young age groups
+are a key indicator of recent changes in risk factor
+exposures and often foreshadow the future cancer
+burden.10 In addition to country-specific analyses, there are recent reports on early-onset CRC
+occurrence in seven high-income countries,11 in
+Europe12 and in 11 ‘industrialised’ countries (data
+through 2007).13 However, a comprehensive
+examination of contemporary trends on a global
+scale is lacking. We analysed high-quality longterm population-based data on CRC occurrence
+by age at diagnosis for 43 countries covering six
+continents.
+
+Siegel RL, et al. Gut 2019;0:1–7. doi:10.1136/gutjnl-2019-319511
+
+   1
+
+Gut: first published as 10.1136/gutjnl-2019-319511 on 5 September 2019. Downloaded from http://gut.bmj.com/ on September 10, 2019 at Emory Univ Health Science Library. Protected by
+copyright.
+
+GI cancer
+
+Figure 1 Age-standardised incidence rate during 2008–2012
+for colorectal cancer among adults ages 20–49 years. Bar shading
+indicates trend in incidence rates based on 10-year average annual
+per cent change; red: statistically significant increase; blue: statistically
+significant decrease; grey: stable or insufficient number of cases for
+trend analysis (‡). Rate for Finland unavailable.*Rate based on data
+during 2008-2010.†Excludes Nunavut, Quebec, and Yukon.‡Excluded
+from trend analysis due to insufficient number of annual cases.¶Rate
+based on data during 2008-2011.
+
+Methods
+
+We obtained high-quality population-based annual incidence
+data for colon and rectal cancer diagnosed through 2012 from
+the Cancer Incidence in Five Continents (CI5plus) database
+of the International Association of Cancer Registries and the
+International Agency for Research on Cancer (IARC).14 The
+CI5plus database is compiled from cancer registry data worldwide using a process that ensures comparable information that
+meets high quality standards established by IARC. Specifically,
+on submission the data coding is verified, the format is standardised, and an editorial board conducts an evaluation based
+on three dimensions of quality: comparability, completeness and
+validity. (For more information about the database, see c​ i5.​iarc.​
+fr/​CI5-​XI/​Default.​aspx.) The population coverage of registries
+included in CI5 may be national or subnational. If a country
+is represented by one or more registries but without national
+coverage, the registries are specified. National or subnational
+registries with cancer incidence data going back to at least 1998
+were included and multiple datasets from subnational registries
+within a single country were combined, resulting in a total of
+43 countries examined. To take advantage of the availability of
+2
+
+more contemporary incidence, we obtained additional data by
+contacting individual registries or accessing publicly available
+data online. We acquired data through 2015 from Australia (​
+www.​
+aihw.​
+gov.​
+au/); through 2016 from Finland (personal
+communication), New Zealand (personal communication) and
+the USA (​seer.​cancer.​gov/​data/); and through 2017 from Norway
+(personal communication) and Sweden (​sdb.​socialstyrelsen.​se/​
+if_​can/​val.​aspx). Seven countries had fewer than 10 CRC cases
+among ages 20–49 years in any single diagnosis year and were
+excluded from trend analysis.
+Incidence was stratified by age at diagnosis, categorised as
+20–49 years (‘early-onset’) or 50 years or older (‘older adults’).
+Cancer subsite was categorised according to the International
+Classification of Diseases, 10th revision as colon (code C18) or
+rectum (code C19-C20). Given that trends in CRC incidence
+are quite similar in men and women overall2 and for earlyonset disease,6 15 16 the two sexes were combined to improve
+stability. Primary outcome measures were average annual incidence rates during diagnosis years 2008–2012 (42 countries;
+data unavailable for Finland) and time-weighted average annual
+per cent change (AAPC) in incidence rates during the last 10
+years of available data (36 countries) based on joinpoint regression analysis. This method fits joined straight lines (joinpoints)
+to observed annual age-standardised rates on a logarithmic
+scale.17 The maximum number of joinpoints is determined by
+the number of years available for each country/registry and was
+limited to four for countries with ≥24 data years. Trends are
+described as ‘increasing’ or ‘decreasing’ if the AAPC is statistically significantly different from zero (p<0.05) and ‘stable’
+otherwise. All rates are expressed per 100 000 population and
+age-standardised to the 1960 Segi world standard population
+(as modified by Doll and Cook).18 In a sensitivity analysis, we
+assessed the extent to which the inclusion of appendiceal cancer
+(C18.1) in the CI5plus grouping for colon cancer influenced our
+results by calculating rates and trends exclusive of appendix for
+three countries for which these data were available (USA, New
+Zealand and Canada).
+
+Results
+CRC incidence during 2008–2012
+Among 42 countries with high-quality population-based cancer
+registry data, cross-sectional age-standardised CRC incidence
+rates in ages 20–49 years during 2008–2012 were lowest in
+India (Chennai; 3.5 per 100 000 (95% CI 3.2 to 3.9)); Uganda
+(3.8, 95% CI 3.0 to 4.6); and Chile (3.8, 95% CI 2.5 to 5.1)
+and highest in Korea (12.9, 95% CI 12.6 to 13.3); Australia
+(11.2, 95% CI 10.9 to 11.5); the USA (10.0, 95% CI 9.8 to
+10.3); and Slovakia (10.0, 95% CI 9.3 to 10.7; figure 1; online
+supplementary table 1). The pattern in older adults was quite
+similar, with rates ranging from 27.5 (95% CI 25.9 to 29.1)
+in India to 192.5 (95% CI 188.6 to 196.3) in Slovakia (online
+supplementary table 2). Among young adults, incidence was
+generally higher for tumours developing in the colon than in
+the rectum, with a more than twofold difference in rates in
+Iceland, Italy and Cyprus (online supplementary tables 3 and
+4). Exceptions were in Slovenia, where rates were similar, and
+Korea, India and China, where rates were slightly higher for
+rectal cancer. In contrast, incidence rates in older adults were a
+minimum of 7% higher for colon cancer than for rectal cancer
+(India, 14.2 per 100 000 vs 13.3) and commonly twofold
+higher, particularly in high incidence countries (online supplementary tables 5 and 6).
+Siegel RL, et al. Gut 2019;0:1–7. doi:10.1136/gutjnl-2019-319511
+
+Gut: first published as 10.1136/gutjnl-2019-319511 on 5 September 2019. Downloaded from http://gut.bmj.com/ on September 10, 2019 at Emory Univ Health Science Library. Protected by
+copyright.
+
+GI cancer
+
+Figure 2 Average annual per cent change (AAPC) in colorectal cancer incidence by age during the most recent 10 years of available data (A)
+countries with stable or declining trend among adults age 50 and older (B) countries with increasing trend among adults age 50 and older. AAPC
+reflects incidence during 2003–2012 except for Australia (2006–2015); Costa Rica (2002–2011); Finland (2007–2016); New Zealand (2007–2016);
+Norway (2008–2017); Slovakia (2001–2010); Sweden (2008–2017); USA (2007–2016). *AAPC is statistically significantly different from zero (p<0.05)
+using a two-sided test based on the permutation method.
+
+CRC incidence trends
+
+Among 36 countries with a sufficient number of annual cases,
+CRC incidence in adults <50 during the past 10 years was stable
+in 14 countries and decreased in three—Austria, Italy and Lithuania—all by about 1% annually (online supplementary table 1).
+Incidence in adults 50 and older likewise declined in Austria and
+Italy, as well as in nine additional countries (online supplementary table 2). The increasing CRC trend in adults <50 in the
+remaining 19 countries was unique to that age group in nine
+countries (figure 2A). Among these nine countries, rates in older
+adults declined by 1%–2.4% per year in Germany, Canada, New
+Zealand, Australia, and USA, and were stable in UK, Sweden,
+Denmark, and Slovenia. Where data were available prior to
+1990, the uptick in early-onset CRC began during 1992–1996
+and was preceded by declining rates except in Slovenia, where
+there was a continuous increase of 0.8% per year from 1983 to
+2012 (figure 3; online supplementary table 1).
+Early-onset CRC incidence increased most rapidly in Korea
+(AAPC, 4.2 (95% CI 3.4 to 5.0)), where rates rose at a similar
+pace among adults 50 and older (figure 2B). Incidence increased
+in both younger and older age groups in about one-quarter of
+countries examined; among these, the magnitude of the AAPC
+for young adults was notably larger than that for older adults in
+Cyprus, Netherlands and Norway. In Norway, for example, the
+Siegel RL, et al. Gut 2019;0:1–7. doi:10.1136/gutjnl-2019-319511
+
+AAPC was 1.9 (95% CI 1.4 to 2.5) among ages 20–49 versus 0.5
+(95% CI 0.3 to 0.7) among ages 50 and older (figure 2B; online
+supplementary tables 1 and 2). In the Netherlands, the respective
+AAPCs were 2.0 (95% CI 1.6 to 2.4) versus 1.1 (95% CI 0.7 to
+1.6), and the most recent linear (joinpoint) segment (2007–2012)
+was stable in older adults. Incidence in young adults began to
+increase in 1998 in Netherlands and 1996 in Norway according
+to joinpoint analysis, consistent with the timing of the trend in
+other high-income countries.
+
+Subsite-specific incidence trends
+Subsite-specific incidence trends varied with no clear pattern.
+For example, declines in early-onset CRC were confined to
+colon cancer in Italy and Lithuania, but to rectal cancer in Austria
+(online supplementary tables 3–4). In countries with increasing
+rates exclusively for early-onset disease, AAPCs were comparable for colon and rectal tumours in the USA, Sweden and
+Denmark; larger for, or confined to, colon tumours in Australia,
+New Zealand, Germany and UK; and larger for rectal tumours
+in Canada and Slovenia. Notably, rectal cancer incidence in
+the Netherlands increased among adults <50 years (AAPC,
+1.9 (95% CI 1.4 to 2.5)) but not among older adults (AAPC,
+−0.1 (95% CI −0.8 to 0.7)). Importantly, the interpretation of
+3
+
+Gut: first published as 10.1136/gutjnl-2019-319511 on 5 September 2019. Downloaded from http://gut.bmj.com/ on September 10, 2019 at Emory Univ Health Science Library. Protected by
+copyright.
+
+GI cancer
+
+Figure 3 Colorectal cancer incidence trends by age, including the average annual per cent change (AAPC) during the most recent 10 years of
+available data, among countries with a unique increase in early-onset disease, by continent: (A) North America and Oceania (B) Europe. AAPC reflects
+incidence during 2003–2012 except for Australia (2006–2015); New Zealand (2007–2016); Sweden (2008–2017); USA (2007–2016). *AAPC is
+statistically significantly different from zero (p<0.05) using a two-sided test based on the permutation method.
+these subsite-specific differences is limited by the inclusion of
+appendiceal malignancies (C18.1) within the grouping for colon
+cancer (C18) in CI5 data. The AAPC for appendiceal cancer incidence in the USA during 2007–2016 was 15.5 (95% CI 11.5 to
+19.7) in ages 20–49 years.19 We evaluated the extent to which
+the inclusion of appendiceal malignancies influenced our results
+4
+
+by calculating AAPCs for CRC and colon cancer in the absence
+of appendiceal cancer for three countries (USA, New Zealand
+and Canada) for which these data were available. In the USA,
+the AAPC during 2007–2016 in ages 20–49 years excluding
+appendix was 1.7 (95% CI 1.5 to 2.0) for CRC (vs 2.2 (95% CI
+1.9 to 2.5) including appendix) and 1.3 (95% CI 1.0 to 1.7) for
+Siegel RL, et al. Gut 2019;0:1–7. doi:10.1136/gutjnl-2019-319511
+
+Gut: first published as 10.1136/gutjnl-2019-319511 on 5 September 2019. Downloaded from http://gut.bmj.com/ on September 10, 2019 at Emory Univ Health Science Library. Protected by
+copyright.
+
+GI cancer
+
+colon cancer (vs 2.1 (95% CI 1.7 to 2.6) including appendix)
+(online supplementary table 7). Thus, the AAPC for colon cancer
+(excluding appendix) is substantially smaller than that for rectal
+cancer (2.1, 95% CI 1.7 to 2.5) whereas it previously appeared
+identical. Results were similar for New Zealand and Canada.
+
+Discussion
+
+We found that the geographic variation in CRC incidence among
+adults ages 20–49 mirrors that in older adults, with a threefold
+difference between the highest (12.9 per 100 000 in Korea) and
+lowest (3.5 per 100 000 in India) rates. In contrast, age-specific
+temporal trends were variable, with a decline limited to three
+countries (Austria, Italy and Lithuania) for young-onset CRC
+versus 11 for older adults. Conversely, increasing incidence was
+unique to young adults in nine high-income countries (Australia,
+Canada, Denmark, Germany, New Zealand, Slovenia, Sweden,
+UK and USA) spanning three continents, often against a backdrop
+of rapidly declining rates in older adults. Similarly, increasing
+trends in Cyprus, Netherlands and Norway were twice as steep
+in young adults as in older adults. Our findings are consistent
+with previous, mostly country-level studies of age-related differences in temporal trends of CRC.5 7–9 11
+The most rapid increases in early-onset CRC occurred in
+countries where rates are already highest, such as Korea, which
+had the same pattern for older adults. Reasons for the high and
+escalating burden in Korea are unclear, but may be related to the
+rapid dietary transition that took place in the wake of remarkable economic growth following the Korean war.20 Changes
+in the food supply were also initiated by the importation of
+wheat from the USA in response to food shortages in the late
+1960s, which prompted the production of many wheat-derived
+processed foods during the 1970s. Shortly thereafter was the
+introduction of fast-food restaurants especially popular among
+youth. The obesity epidemic may also be a factor, given that East
+Asia has experienced among the largest relative increases in body
+mass index (BMI) worldwide among both adults and children.21
+Asians have disproportionately high levels of visceral adiposity
+compared with Caucasians,22 23 which may more strongly influence CRC risk than BMI or waist circumference.24 25 Another
+potential contributor is the high prevalence of early-life antibiotic use, which has been associated with increased risk of
+colorectal adenoma, especially in the rectum.26 A recent study
+found that among six high-income countries, South Korea had
+the highest rate of paediatric antibiotic consumption, sevenfold
+higher than that in Norway, which had the lowest rate.27 The
+adenoma detection rate among Korean individuals in their 40s
+has been reported at almost 30%,28 three times higher than that
+in Australians.29
+Early-onset CRC also increased rapidly in countries where
+risk in older adults is declining at a similar pace, such as New
+Zealand, Australia, Canada and the USA. Reductions in CRC
+incidence among older adults in some countries are partly
+attributed to changing patterns in risk factors, such as reductions
+in smoking and widespread use of anti-inflammatory drugs.2 30
+Likewise, rising incidence confined to young age groups signals
+changes in early life exposures that adversely influence CRC risk,
+particularly given the strong birth cohort effect apparent in the
+trend.5 9 11 Notably, eight of the nine countries with a unique rise
+in early-onset CRC had declining rates prior to the uptick beginning in the mid-1990s. Reductions in the prevalence of protective
+factors, such as physical activity (for colon cancer) and sufficient
+intake of dietary fibre, dairy, and fruits and vegetables, may
+play a role, as well as increased prevalence of obesity, smoking,
+Siegel RL, et al. Gut 2019;0:1–7. doi:10.1136/gutjnl-2019-319511
+
+red and/or process meat consumption, and/or excess alcohol
+consumption.31
+Obesity was recently found to be associated with a 20%
+excess risk of early-onset CRC,32 and prevalence has risen most
+rapidly in young adults33 and in English-speaking high-income
+countries,34 consistent with early-onset CRC patterns. However,
+increases in BMI are quite similar across Europe, despite varying
+CRC trends. For example, BMI increased from 24 kg/m2 in
+1975 to 27 in 2014 in men in Germany, where early-onset CRC
+increased, as well as in Austria, Croatia, Israel and Italy, where it
+did not.34 BMI increases in women were smaller but also comparable. In addition, there are puzzling variations in the CRC trend
+by subsite,5 11 as well as by race/ethnicity and state within the
+USA,35 36 that suggest a role for risk factors beyond obesity. For
+example, obesity and a sedentary lifestyle are more strongly
+associated with colon tumours,37–40 yet rectal tumours appear to
+be driving the increase based on our findings herein and those
+of other studies.5 9 11 35 If this is true, the rectal epithelium may
+be more exposed and/or susceptible to the carcinogenic mechanisms causing the increase in disease.
+CRC risk is intrinsically linked to diet and its influence on gut
+immune response and inflammation.41 The global food supply
+has changed substantially in recent decades42 and evolving
+research is exploring the carcinogenic potential of relatively new
+food components. For example, associations have been uncovered between CRC and moderate consumption of sugar-sweetened beverages,43 as well as high fructose corn syrup specifically
+in animal studies,44 both in the absence of obesity and metabolic
+syndrome. An inflammatory diet, characterised by high consumption of processed foods and high-glycaemic load carbohydrates,
+creates an environment conducive to colonic proliferation45
+and appears to increase CRC risk.46 What remains uncertain is
+how these dietary elements might influence early-life gut health.
+Importantly, the association between CRC and currently established risk factors is based almost entirely on disease occurrence
+in older aged cohorts.47
+CRC screening programmes have mostly emerged over the
+past two decades and likely contributed to the declines in incidence among older adults in 11 countries. Of the 36 countries
+in our trend analysis, only four (Costa Rica, Cyprus, India and
+Philippines) lack a screening programme according to a recent
+global overview.48 In most countries, screening for CRC (generally with a stool test) is recommended to begin between the
+ages of 50 and 60 years. Exceptions are Italy, where screening
+begins at age 44 years, and China, Japan and Austria, where it
+begins at age 40. Notably, two (Austria and Italy) of the three
+countries where early-onset CRC declined have screened individuals beginning in their fourth decade since the early 1980s.48
+Moreover, the decreasing trend among young adults in both
+Austria and Italy was confined to ages 40–49 years, with rates
+in ages 20–39 years increasing by 3% per year in Austria (data
+not shown). Although some of the rapid increases in early-onset
+CRC are reminiscent of the Korean thyroid cancer ‘epidemic’
+that resulted from widespread ultrasound screening,49 overdetection of early-onset CRC is unlikely because screening before
+age 50 is rare in most countries, and mortality rates have also
+begun to rise.12 50 After an extensive evidence review, the American Cancer Society recently lowered the recommended age to
+begin screening from 50 to 45 because disease risk in individuals under 50 has shifted substantially51 and Cancer Intervention
+and Surveillance Modeling Network modelling studies found a
+greater benefit to burden ratio for initiation at age 45 compared
+with 50.52–54 The US Preventive Services Task Force, the other
+US entity that issues cancer screening guidelines, is currently in
+5
+
+Gut: first published as 10.1136/gutjnl-2019-319511 on 5 September 2019. Downloaded from http://gut.bmj.com/ on September 10, 2019 at Emory Univ Health Science Library. Protected by
+copyright.
+
+GI cancer
+
+the process of conducting an evidence review and expected to
+issue an updated recommendation by 2020–2021.
+Our study is the first to provide a comprehensive global
+assessment of contemporary trends in early-onset CRC based
+on high-quality population-based cancer incidence information.
+However, the interpretation of subsite-specific differences in
+CI5 data is limited by the inclusion of appendiceal malignancies
+within the grouping for colon cancer. Accumulating evidence
+suggests that these tumours differ from those that develop in
+the colon in their biology and other characteristics.55 Inclusion
+of appendix attenuates comparisons of the burden for colon
+versus rectal cancer. Additionally, although appendiceal cancer
+accounts for only about 10% of cases in ages <50 years (data
+for USA, New Zealand and Canada), incidence rates are rising
+rapidly in high-income countries56 57 due to changes in classification and improved detection. This likely hindered our ability
+to detect the steeper rise for rectal than for colon cancer that
+has been reported by numerous studies of early-onset CRC
+trends excluding appendix,5 9 11 but less often by those including
+appendix.12 Similarly, results from our sensitivity analyses that
+excluded appendix found larger increases for rectal than for
+colon tumours in each of the three countries with these data
+available. Incidence trends may also be influenced by temporal
+improvements in the quality of data, case capture, and specificity
+of coding. Other study limitations include incomplete population coverage for long-term incidence data in many countries;
+lack of more contemporary data (eg, since 2012) for most countries; and the absence of high-quality cancer registry data for the
+majority of low-income and middle-income countries.
+In summary, CRC incidence rates uniquely increased in young
+adults over the past two decades in nine high-income countries
+spanning three continents, often in sharp contrast to rapid declines
+in older adults. These patterns potentially signal changes in
+early-age exposures conducive to large bowel carcinogenesis and
+highlight an urgent need for research to explore the potentially
+unique aetiology of young-onset CRC. Beyond awaiting scientific
+discovery, clinicians have an opportunity to help mitigate premature morbidity and mortality from CRC with active documentation of familial cancer history; timely follow-up of symptoms,
+regardless of patient age; and screening when appropriate.
+Acknowledgements The authors gratefully acknowledge all cancer registries and
+their staff for their hard work and diligence in collecting cancer information, without
+which this research could not have been done.
+Contributors Study concept and design: RS, AJ. Analysis and interpretation of
+the data: RS, LT, AJ, IS. Drafting the manuscript: RS, LAT. Critical revision of the
+manuscript for important intellectual content: all authors.
+Funding The authors have not declared a specific grant for this research from any
+funding agency in the public, commercial or not-for-profit sectors.
+Competing interests None declared.
+Patient consent for publication Not required.
+Provenance and peer review Not commissioned; externally peer reviewed.
+Data availability statement Data are available in a public, open access
+repository. Data are available upon reasonable request. All data relevant to the study
+are included in the article or uploaded as supplementary information.
+
+References
+
+1 Bray F, Ferlay J, Soerjomataram I, et al. Global cancer statistics 2018: GLOBOCAN
+estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA
+Cancer J Clin 2018;68:394–424.
+2	Arnold M, Sierra MS, Laversanne M, et al. Global patterns and trends in colorectal
+cancer incidence and mortality. Gut 2016.
+3	Austin H, Henley SJ, King J, et al. Changes in colorectal cancer incidence rates in
+young and older adults in the United States: what does it tell us about screening.
+Cancer Causes Control 2014;25:191–201.
+
+6
+
+4 Bailey CE, Hu C-Y, You YN, et al. Increasing disparities in the age-related incidences
+of colon and rectal cancers in the United States, 1975-2010. JAMA Surg
+2015;150:17–22.
+5 Siegel RL, Fedewa SA, Anderson WF, et al. Colorectal cancer incidence patterns in the
+United States, 1974–2013. J Natl Cancer Inst 2017;109:djw322.
+6 Siegel RL, Jemal A, Ward EM. Increase in incidence of colorectal cancer among
+young men and women in the United States. Cancer Epidemiol Biomark Prev
+2009;18:1695–8.
+7 Young JP, Win AK, Rosty C, et al. Rising incidence of early-onset colorectal
+cancer in Australia over two decades: report and review. J Gastroenterol Hepatol
+2015;30:6–13.
+8 Feletto E, Yu XQ, Lew J-B, et al. Trends in colon and rectal cancer incidence in Australia
+from 1982 to 2014: analysis of data on over 375,000 cases. Cancer Epidemiol
+Biomarkers Prev 2019;28:83–90.
+9 Brenner DR, Ruan Y, Shaw E, et al. Increasing colorectal cancer incidence trends
+among younger adults in Canada. Prev Med 2017;105:345–9.
+10 Doll R. Progress against cancer: an epidemiologic assessment. The 1991 John C.
+Cassel memorial lecture. Am J Epidemiol 1991;134:675–88.
+11	Araghi M, Soerjomataram I, Bardot A, et al. Changes in colorectal cancer incidence in
+seven high-income countries: a population-based study. Lancet Gastroenterol Hepatol
+2019;4:511–8.
+12 Vuik FER, Nieuwenburg SAV, Bardou M, et al. Increasing incidence of colorectal cancer
+in young adults in Europe over the last 25 years. Gut 2019:gutjnl-2018-317592.
+13	Lui RN, Tsoi KKF, Ho JMW, et al. Global increasing incidence of young-onset colorectal
+cancer across 5 continents: a joinpoint regression analysis of 1,922,167 cases. Cancer
+Epidemiol Biomarkers Prev 2019;28:1275–82.
+14 Ferlay J, Colombet M, Bray F. Cancer Incidence in Five Continents, CI5plus: IARC
+CancerBase No. 9. Lyon, France: International Agency for Research on Cancer, 2018.
+15 Patel P, De P. Trends in colorectal cancer incidence and related lifestyle risk factors in
+15-49-year-olds in Canada, 1969-2010. Cancer Epidemiol 2016;42:90–100.
+16	Troeung L, Sodhi-Berry N, Martini A, et al. Increasing incidence of colorectal cancer
+in adolescents and young adults aged 15–39 years in Western Australia 1982–2007:
+examination of colonoscopy history. Front Public Health 2017;5.
+17 Kim H-J, Fay MP, Feuer EJ, et al. Permutation tests for joinpoint regression with
+applications to cancer rates. Stat Med 2000;19:335–51.
+18 Doll R, Cook P. Summarizing indices for comparison of cancer incidence data. Int J
+Cancer 1967;2:269–79.
+19 Surveillance, Epidemiology and End Results Program. SEER*Stat Database:
+Incidence - SEER 9 Regs Research Data with Delay-Adjustment, Malignant Only,
+(1975-2016)<Katrina/Rita Population Adjustment>National Cancer Institute, DCCPS,
+Surveillance Research Program, Surveillance Systems Branch, released April 2019,
+based on the November 2018 submission 2019.
+20 Kim S, Moon S, Popkin BM. The nutrition transition in South Korea. Am J Clin Nutr
+2000;71:44–53.
+21 Sung H, Siegel RL, Torre LA, et al. Global patterns in excess body weight and the
+associated cancer burden. CA Cancer J Clin 2019;69:88–112.
+22 Kadowaki T, Sekikawa A, Murata K, et al. Japanese men have larger areas of visceral
+adipose tissue than Caucasian men in the same levels of waist circumference in a
+population-based study. Int J Obes 2006;30:1163–5.
+23 Park Y-W, Allison DB, Heymsfield SB, et al. Larger amounts of visceral adipose tissue in
+Asian Americans. Obes Res 2001;9:381–7.
+24 Keum N, Lee DH, Kim R, et al. Visceral adiposity and colorectal adenomas: doseresponse meta-analysis of observational studies. Ann Oncol 2015;26:1101–9.
+25	Nam SY, Kim BC, Han KS, et al. Abdominal visceral adipose tissue predicts risk of
+colorectal adenoma in both sexes. Clin Gastroenterol Hepatol 2010;8:443–50.
+26	Cao Y, Wu K, Mehta R, et al. Long-Term use of antibiotics and risk of colorectal
+adenoma. Gut 2018;67:672–8.
+27 Youngster I, Avorn J, Belleudi V, et al. Antibiotic use in children – a cross-national
+analysis of 6 countries. J Pediatr 2017;182:239–44.
+28 Bae T, Ha Y, Kim C, et al. Distribution of the colonoscopic adenoma detection rate
+according to age: is recommending colonoscopy screening for Koreans over the age of
+50 safe? Ann Coloproctol 2015;31:46–51.
+29 Wong S, Lidums I, Rosty C, et al. Findings in young adults at colonoscopy from a
+hospital service database audit. BMC Gastroenterol 2017;17:56.
+30	Edwards BK, Ward E, Kohler BA, et al. Annual report to the nation on the
+status of cancer, 1975-2006, featuring colorectal cancer trends and impact of
+interventions (risk factors, screening, and treatment) to reduce future rates. Cancer
+2010;116:544–73.
+31	Gunter MJ, Alhomoud S, Arnold M, et al. Meeting report from the joint IARC–NCI
+International cancer seminar series: a focus on colorectal cancer. Ann Oncol
+2019;30:510–9.
+32	Liu P-H, Wu K, Ng K, et al. Association of obesity with risk of early-onset colorectal
+cancer among women. JAMA Oncol 2019;5:37–44.
+33	Afshin A, Forouzanfar MH, Reitsma MB, et al. Health effects of overweight and obesity
+in 195 countries over 25 years. N Engl J Med 2017;377:13–27.
+34	Collaboration NCDRF. Trends in adult body-mass index in 200 countries from 1975 to
+2014: a pooled analysis of 1698 population-based measurement studies with 19·2
+million participants. The Lancet 2016;387:1377–96.
+
+Siegel RL, et al. Gut 2019;0:1–7. doi:10.1136/gutjnl-2019-319511
+
+Gut: first published as 10.1136/gutjnl-2019-319511 on 5 September 2019. Downloaded from http://gut.bmj.com/ on September 10, 2019 at Emory Univ Health Science Library. Protected by
+copyright.
+
+GI cancer
+
+35 Siegel RL, Medhanie GA, Fedewa SA, et al. State variation in early-onset colorectal
+cancer in the United States, 1995–2015. J Natl Cancer Inst 2019;25.
+36	Araghi M, Fidler MM, Arnold M, et al. The future burden of colorectal cancer among
+US blacks and whites. J Natl Cancer Inst 2018;110:791–3.
+37 Boyle T, Keegel T, Bull F, et al. Physical activity and risks of proximal and distal
+colon cancers: a systematic review and meta-analysis. J Natl Cancer Inst
+2012;104:1548–61.
+38 Ma Y, Yang Y, Wang F, et al. Obesity and risk of colorectal cancer: a systematic review
+of prospective studies. PLoS One 2013;8:e53916.
+39 Moghaddam AA, Woodward M, Huxley R. Obesity and risk of colorectal cancer: a
+meta-analysis of 31 studies with 70,000 events. Cancer Epidemiol Biomark Prev
+2007;16:2533–47.
+40	Robsahm TE, Aagnes B, Hjartaker A, et al. Body mass index, physical activity, and
+colorectal cancer by anatomical subsites: a systematic review and meta-analysis of
+cohort studies. Eur J Cancer Prev 2013;22:492–505.
+41 O’Keefe SJD, Diet O’Keefe SJ.. Diet, microorganisms and their metabolites, and colon
+cancer. Nat Rev Gastroenterol Hepatol 2016;13:691–706.
+42 Schmidhuber J, Sur P, Fay K, et al. The global nutrient database: availability of
+macronutrients and micronutrients in 195 countries from 1980 to 2013. The Lancet
+Planetary Health 2018;2:e353–68.
+43 Fuchs MA, Sato K, Niedzwiecki D, et al. Sugar-Sweetened beverage intake and cancer
+recurrence and survival in CALGB 89803 (Alliance). PLoS One 2014;9:e99816.
+44	Goncalves MD, Lu C, Tutnauer J, et al. High-Fructose corn syrup enhances intestinal
+tumor growth in mice. Science 2019;363:1345–9.
+45 O’Keefe SJD, Li JV, Lahti L, et al. Fat, fibre and cancer risk in African Americans and
+rural Africans. Nat Commun 2015;6:6342.
+46	Tabung FK, Liu L, Wang W, et al. Association of dietary inflammatory potential with
+colorectal cancer risk in men and women. JAMA Oncol 2018;4:366–73.
+
+Siegel RL, et al. Gut 2019;0:1–7. doi:10.1136/gutjnl-2019-319511
+
+47	Nimptsch K, Wu K. Is timing important? the role of diet and lifestyle during early life
+on colorectal neoplasia. Curr Colorectal Cancer Rep 2018;14:1–11.
+48 Schreuders EH, Ruco A, Rabeneck L, et al. Colorectal cancer screening: a global
+overview of existing programmes. Gut 2015;64:1637–49.
+49 Park S, Oh C-M, Cho H, et al. Association between screening and the thyroid
+cancer “epidemic” in South Korea: evidence from a nationwide study. BMJ
+2016;355.
+50 Siegel RL, Miller KD, Jemal A. Colorectal cancer mortality rates in adults aged 20 to 54
+years in the United States, 1970-2014. JAMA 2017;318:572–4.
+51	Anderson JC, Samadder JN. To screen or not to screen adults 45-49 years of age: that
+is the question. Am J Gastroenterol 2018;113:1750–3.
+52 Knudsen AB, Zauber AG, Rutter CM, et al. Estimation of benefits, burden, and harms
+of colorectal cancer screening strategies: modeling study for the US preventive
+services Task force. JAMA 2016;315.
+53 Wolf AMD, Fontham ETH, Church TR, et al. Colorectal cancer screening for averagerisk adults: 2018 guideline update from the American cancer Society. CA Cancer J Clin
+2018;68:250–81.
+54 Peterse EFP, Meester RGS, Siegel RL, et al. The impact of the rising colorectal cancer
+incidence in young adults on the optimal age to start screening: Microsimulation
+analysis I to inform the American cancer Society colorectal cancer screening guideline.
+Cancer 2018;124:2964–73.
+55	CS-P A, Shen JP, Hardy-Abeloos CJ, et al. Genomic landscape of appendiceal
+neoplasms. JCO Precision Oncology 2018:1–18.
+56 Marmor S, Portschy PR, Tuttle TM, et al. The rise in appendiceal cancer incidence:
+2000-2009. J Gastrointest Surg 2015;19:743–50.
+57 van den Heuvel MGW, Lemmens VEPP, Verhoeven RHA, et al. The incidence of
+mucinous appendiceal malignancies: a population-based study. Int J Colorectal Dis
+2013;28:1307–10.
+
+7
+
+Gut: first published as 10.1136/gutjnl-2019-319511 on 5 September 2019. Downloaded from http://gut.bmj.com/ on September 10, 2019 at Emory Univ Health Science Library. Protected by
+copyright.
+
+GI cancer
+
+

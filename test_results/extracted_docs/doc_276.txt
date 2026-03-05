@@ -1,0 +1,416 @@
+THE AMERICAN LEGAL
+SYSTEM MADE EASY
+Chapter 1 discussed the software of the American lawyer (i.e., in terms of the thinking
+process operating within the minds of U.S.-licensed legal professionals). This chapter,
+in contrast, examines the hardware in terms of the conceptual component parts within
+the software of the American lawyer and legal system. Specifically, the hardware is
+based in part on the black letter law embedded within the American legal infrastructure,
+which this chapter will now briefly overview.
+Common Law Versus Other Domestic Laws
+American law is based on common law from the United Kingdom as one of its core legal
+pillars (which is then buttressed by, among other sources, the U.S. Constitution, court
+cases, statutes, restatements, decrees, treatises, and various other rules and regulations).
+Common law follows the principle of stare decisis (Latin, meaning “stand by your
+decision”). Stare decisis is a legal principle stating that prior court decisions (e.g.,
+holdings, conclusions, rulings) must be recognized as precedent case law. If a case is
+deemed a precedent case, then lower courts are compelled to rule in the same way as
+the precedent case. This applies only if the precedent case is binding or mandatory.
+The rationale for stare decisis and precedent cases is judicial efficiency, fairness to the
+parties, predictability, and a check and balance on arbitrary behavior.
+In common law countries, juries and oral arguments by lawyers often can take a
+greater or more visible role compared to in civil law countries (which may not have
+jury trials), in which the judge can play a more central and prominent role (of course,
+exceptions can exist).
+
+American Law 101
+Examples of jurisdictions that use the common law system include the following:
+• United Kingdom except Scotland
+• United States except Louisiana
+• Ireland
+• Former British colony and/or Commonwealth territories/countries, including India except Goa, Australia, New Zealand, Singapore, and Canada except
+Quebec
+• Pakistan
+• Bangladesh
+In contrast, generally under civil law (derived from the French-German legal tradition), statutes and other similar legal sources represent relatively greater legal authority
+than does case law. Under civil law, neither precedent cases nor stare decisis exist. The
+rationale for this is greater judicial freedom to decide cases on a case-by-case basis.
+Some people argue, however, that this system may come at the cost of less predictability and consistency regarding case law conclusions (with similar legal issues and/or
+facts).
+Examples of jurisdictions that use the civil law system include the following:
+• Most European Union (EU) nations, including Germany and France where civil
+law was derived, but not the United Kingdom, Ireland, or Cyprus
+• Most of continental Latin America except Guyana and Belize
+• Congo
+• Azerbaijan
+• Iraq
+• Russia
+• Turkey
+• Egypt
+• Madagascar
+• Lebanon
+• Switzerland
+• Indonesia
+• Vietnam
+• Thailand
+The factors used in determining whether to apply stare decisis include the following:
+• Similarity of legal issue(s)/legal principle(s)
+• Whether the precedent case was ruled on by a court recognized as a leading one
+in the relevant subject area
+
+The American Legal System Made Easy
+• Whether the precedent case was well-reasoned and articulated (in the court’s
+legal opinion)
+• Whether the precedent case was issued from a court in the same jurisdiction
+• Whether the precedent case was issued from a higher-level court
+Although these factors are often considered to determine whether a case is a precedent case, thus representing a binding and mandatory legal source, a court may not be
+required to follow:
+• Secondary legal sources (i.e., nonprecedent cases, not related to the U.S. Constitution, and the like; see the following paragraph for further specifics)
+• Cases that do not align with these factors to determine the precedential value of
+a case
+Two main types of legal sources exist in American law: primary and secondary.
+1. Primary legal sources include the following:
+• U.S. Constitution
+• Statutes
+• Rules, regulations, and orders
+• Executive orders and proclamations
+• Case law
+2. Secondary legal sources include the following:
+• Treatises
+• Restatements
+• Law review journals
+• American Law Reports
+• Hornbooks
+• Legal encyclopedias
+A general hierarchy also exists in which federal legal sources are weighed more
+heavily than state legal sources:
+A. Federal Legal Sources
+• U.S. Constitution
+• Federal statutes and treaties
+• Federal rules and regulations
+• Federal cases
+B. State Legal Sources
+• State constitutions
+• State statutes
+
+American Law 101
+• State rules and regulations
+• State law cases
+From this list, two interesting points arise: (1) the U.S. Constitution represents the
+supreme law of the land, and (2) a federal supremacy rule applies. This means that
+federal sources are generally higher than state sources in the legal source hierarchy.
+This is important to know for both academics and practitioners to determine what legal
+source should be given greater weight relative to others, which can help in the legal
+strategy process.
+State Law
+Although the United States is one country, from a legal perspective, each individual
+state within it has a certain level of discretion to determine what types of laws best fit
+that particular state’s set of circumstances. The concept of dualism, in which sources
+of law exist dually at both the federal and state level, is based in part on the view that
+decentralization of power is needed. The intent of dualism was to provide greater security that one central source of authority would not become overly powerful—as was the
+case with England at the time of the founding of the United States.
+Furthermore, as Chapter 6 discusses in greater detail regarding Constitutional
+Law, the U.S. Constitution (the nation’s highest legal authority) has embedded in
+it a concept known as the enumerated powers doctrine. In the enumerated powers
+doctrine, the federal government has only those powers expressly conveyed to it
+under the Constitution (under Article I, Section 8), with all other remaining powers
+generally belonging to the states.
+Thus, state laws are actually much more widely encompassing than many people
+from non–common law countries would expect. With this in mind, each specific state’s
+law can vary and be different from other state laws. Although diversity exists, many
+state laws are based on certain standardized laws.
+Examples of standardized laws that state law can be based on include the following:
+• Restatements of law, which are used to provide clarity on certain law matters
+• Prepared by the American Law Institute (ALI)
+• Represents secondary (nonprimary) legal source/authority
+• Uniform acts/Uniform codes, such as the Uniform Commercial Code, or UCC,
+relating to contract law
+• Drafted by the Uniform Law Commissioners
+• Body of lawyers and other legal professionals whose objective is to standardize laws across the various U.S. states
+• Offered as legal models, which each state can ratify in whole or in part
+
+The American Legal System Made Easy
+• Model penal code (MPC), relating to criminal law matters
+• Prepared by the ALI, much like restatements
+• Objective of updating and standardizing penal law across the various U.S.
+states
+• MPC represents what the ALI deems as the best rules for the U.S. penal
+system
+Much like the dual federal-state level of legal sources, a similar dual system of
+federal-state court systems exists. Consistent with the principle of federalism, federal
+courts rank higher in the judicial court hierarchy relative to state courts.
+The Federal Court hierarchy (from highest to lowest) is as follows:
+• U.S. Supreme Court
+• Circuit courts
+• District courts
+Federal courts consider the following legal sources:
+• Federal (nonstate) statutory issues
+Supreme Court of
+the United States
+U.S. Courts of Appeal
+(13 Circuit Courts)
+U.S. District Courts
+(94 Trial Courts)
+State Supreme Courts
+Intermediate Appellate Courts
+(39 of 50 States)
+State Trial Courts
+(Across 50 States)
+
+American Law 101
+• Diversity cases, such as cases involving parties from two different states
+• Cases in which the United States is a party as plaintiff or defendant
+• Other cases as specified by law (e.g., admiralty, antitrust, maritime)
+• Removal jurisdiction cases, in which the defendant requests the case to be heard
+by a federal, rather than a state, court in the same district
+The U.S. Supreme Court (USSC) is the highest court in the United States. The U.S.
+Supreme Court generally hears cases based on appeal (when certiorari—or in plain
+English, review—is granted to review the case). In other words, the USSC is only in
+rare circumstances the court of first instance having original jurisdiction over a case.
+Of course, exceptions exist when an issue is particularly urgent. For instance, the Bush
+v. Gore (2000) case was heard by the USSC at first instance because its ruling could, in
+effect, determine the outcome of the 2000 U.S. presidential election.
+Below the USSC in judicial hierarchy are the federal circuit courts. The circuit
+courts generally hear appeals from the lower district courts. Unlike the USSC, federal
+circuit courts have original jurisdiction (court of first instance) over orders of certain
+federal agencies. The federal circuit courts are divided geographically into 13 circuit
+courts. Circuit courts numbered from 1 to 13 encompass all of the states (including
+Hawaii), with an additional district for Washington D.C. (which is a federal territory,
+not a U.S. state), and a federal circuit for certain specialized matters.
+Many cases begin at the state court level and, if needed, are appealed to the federal level (except for the instances discussed previously), in particular, when a federal
+(rather than a state) issue arises.
+State Courts
+Most state court systems replicate the federal court system. Some state courts have three
+levels of hierarchy, whereas other state courts have two levels of hierarchy. Regardless,
+each state court has its own rules of procedure and set of practices.
+With a three-level state court system, the hierarchy is typically the following:
+• State Supreme Court: Hears appeals from state intermediate court
+• State court of appeals: Hears appeals from lower trial court
+• State trial court: Conducts fact-finding as well as ruling on the legal issue(s)
+presented
+State courts usually can review almost any case, but exceptions exist, such as where
+jurisdiction is precluded by (1) federal statute; (2) the U.S. Constitution; or (3) other
+legal source, expressly (e.g., admiralty, patent, copyright) or implicitly (e.g., antitrust
+damages and injunction).
+
+The American Legal System Made Easy
+American Judicial System
+The United States has three branches of government: (1) the legislative branch (the
+Congress, which is composed of the Senate and House of Representatives); (2) the
+executive branch (including the U.S. President), and (3) the judicial branch (including
+the USSC and other courts). The three branches of government are based on the concept of checks and balances, so that each branch of government does not become too
+powerful relative to the other two branches.
+Related terms are defined as follows:
+• Congress: Bicameral institution that refers to the Senate and the House of Representatives
+• House of Representatives:
+• Referred to as the lower house (because the legislative process typically
+begins here and then proceeds to the Senate).
+• The number of Representatives is based on the population of each state
+(thus, the larger and more populated states—such as California, Texas, and
+New York—generally have more Representatives).
+• House representatives are elected to two-year terms and can be reelected
+continuously.
+• Senate:
+• Referred to as the higher chamber (because the Senate is the second chamber in the legislative process).
+• Two senators are elected from each of the 50 states (regardless of a state’s
+population).
+• Senators are elected to six-year terms with the possibility of reelections.
+• Government lawyers:
+• Prosecutor: A government attorney who prepares and conducts the prosecution of the accused party
+• District Attorney (DA) (or county prosecutor): A government prosecutor
+representing a particular state
+• United States (U.S.) Attorney: A federal prosecutor representing the United
+States for certain federal districts
+An example of checks and balances in practice could involve an impeachment proceeding against the executive branch. An attempt to impeach the U.S. President (executive branch), for instance, would involve the legislative branch placing a check and
+balance on the executive branch by arguing, among other things, that certain actions
+of the presidency allegedly violated the U.S. Constitution. The judicial branch (federal
+
+American Law 101
+courts) can serve as a check and balance if it decides to review the acts of the legislative
+branch in terms of constitutionality (i.e., to determine whether an act by the legislative
+branch allegedly violated the U.S. Constitution, which all three branches must abide
+by). The federal courts can also review the actions of federal administrative agencies.
+At the same time, the legislative branch (Congress) can review and overrule court precedent under its designated Congressional authority.
+The American legal system can appear diverse and complex. With the overview
+provided in this chapter, it is hoped that readers have a better understanding and greater
+clarity regarding the hardware of American law. This understanding of the American
+legal infrastructure will help, as the next chapters will fill in the landscape—section by
+section—that will culminate into a panoramic primer of American law.
+The reading and understanding of cases is important in most, if not all, jurisdictions in the world. The U.S. legal system, which is based on the common law system of
+England, treats case law (law based on the interpretation of cases by the judiciary) as
+especially important. This is based on the previously mentioned concept of stare decisis. Under stare decisis, lower courts often must (as opposed to can) rule and conclude
+the case in a manner consistent with higher courts in the same jurisdiction regarding
+previous cases with similar facts and issues (which links back to the IRAC legal thinking process covered earlier in Chapter 1).
+The American legal system’s main rationale for stare decisis is consistency and
+greater foreseeability of how similar cases may be concluded by the courts. However,
+with benefits come drawbacks. With stare decisis, the drawback is less judicial discretion
+afforded to the courts and judges in an effort to treat each dispute on a case-by-case basis.
+What is considered as the drawback of the common law system under stare decisis is
+often viewed as the benefit of the civil law system, in which stare decisis does not apply.
+This thus gives greater judicial discretion to the courts, at the potential cost of inconsistent judicial conclusions even within the same jurisdiction.
+So which domestic legal system among the two is better: common law or civil law?
+When students and even practitioners pose this question, a common first answer is that
+each system has both benefits and costs (as analyzed here), and it is incumbent upon
+each jurisdiction to determine which system makes the most sense, all things considered.
+The other answer is that an increasing convergent trend is now occurring, whereby legal
+practitioners from both common and civil legal traditions often tend to think more similarly now than in the past, particularly in commercial transactions and dealings. This
+convergence may be in part a result of globalization, technological advancements, and
+students studying internationally—creating a greater exposure and knowledge base of
+the common law tradition (as well as civil law and other domestic legal traditions, such
+as Islamic law). (See the Appendices for further specifics on the American court system.)
+To understand the American legal system, legal cases reflecting case law must
+be understood in great detail. This is especially critical given the importance of stare
+
+The American Legal System Made Easy
+decisis and precedent cases in American law, as discussed earlier. Because of the
+importance of case law and understanding cases, the next section provides a more
+detailed glimpse into the main elements of a case within the American judicial system,
+including a method of how to read and brief a case—a vital skill set for both the study
+and practice of American law.
+How to Read and Brief a Case
+With the high level of importance given to stare decisis and precedent cases underlying
+American law, a fundamental knowledge of how to understand and brief a U.S. case
+is critically important. This is true as a law student as well as a law practitioner who
+aspires to gain a greater understanding of American law.
+To begin, most court decisions are published, both at the federal and state level.
+The court issuing the opinion often has the discretion in deciding whether to publish an
+opinion it has rendered.
+Specific case elements exist in a typical case brief, which include the following:
+• Case Name and its citation to find and/or reference the case
+• Author of the Opinion (the Opinion is the court’s ruling/decision): Generally,
+the person who authors a legal opinion is a judge or arbitrator (the concept and
+role of arbitrators is discussed in greater detail in Chapter 10).
+• Opinion, which generally includes:
+• Case Facts and relevant procedural history of the case, such as past appeals
+and rulings
+• Court Conclusion, also referred to as the case’s holding
+• Reasoning: Detailing the rationale, arguments, and other factors considered
+by the court
+• Disposition: Court action based on the court’s ruling/conclusion (e.g., reversed, affirmed, remanded.)
+The case caption can be thought of as a title for a case. Example: Brown v. Board
+of Education, 347 U.S. 483 (1954). The case caption includes the parties, case citation (court name, law book where the opinion is published), and year of the court’s
+conclusion. In terms of formality of writing for a case caption, the party names to the
+dispute are italicized and/or underlined (the example has the party names italicized).
+The remaining case caption (e.g., citation/reporter details, year that the decision was
+rendered, and other related details) generally is not italicized or underlined.
+Reporters
+Cases that are published are included in publications called reporters. Each reporter has
+a volume number and page numbers. Some reporters are published by the state, while
+
+American Law 101
+some are published by commercial institutions. For the case citation/reporter relating
+to the previous example, the case would be found in volume 347 of the United States
+Reports on page 483.
+Judicial Titles
+The author of the court opinion, as mentioned, is typically a judge. In this case, the
+judge, in his or her capacity as legal opinion author (for the majority or minority opinion), is written at the top of the legal opinion, as follows:
+Example: “Hand, J.” refers to Judge Hand.
+Example: “Holmes J.” is Justice Holmes.
+Some jurisdictions use terms other than “judge,” albeit referring to the same judicial decision-rendering role:
+Example: “Jackson, C.” refers to Chancellor Jackson.
+Example: “Jackson, V.C.” refers to Vice-Chancellor Jackson.
+Example: “Jackson, C.J.” refers to Chief Judge Jackson.
+Party Names
+In a civil (noncriminal) case, the party initiating the lawsuit is the plaintiff, and the
+party defending against the plaintiff’s lawsuit is the defendant (not coincidentally,
+the term “defendant” has the term “defend” embedded in it). In criminal (noncivil)
+cases, the party initiating the lawsuit is referred to as the state (or similar terminology), because the interests of the state (or other relevantly named party initiating the
+lawsuit) are presumed greater than one individual (such as by a plaintiff in a civil
+law case).
+The plaintiffs (or state) are usually the first party listed in the caption. For the previous caption example, Brown is the plaintiff at the initial stage (prior to an appeal, if
+an appeal is rendered). If a case is heard on appeal (in which a case is heard for the
+second time or more), then the party initiating the appeal is called the appellant. The
+party defending against the appellant’s lawsuit on appeal is called the appellee. Thus,
+as an example, if the Board of Education in the previous example appealed, then the
+Board of Education would be the first named party in the caption of the appealed case
+(rather than second, as was the case in the original lawsuit example).
+The court’s conclusion or ruling is the court’s legal opinion and the rationale
+given for reaching a particular judgment, finding, or conclusion. Underneath the
+broad term of legal opinion, several specific subsets of opinions exist. A concurring
+opinion is an opinion rendered by a judge who would have reached the same conclusion as the majority opinion, but for a different reason (i.e., same destination, but
+would have chosen a different route to get to the destination). A plurality opinion is
+
+The American Legal System Made Easy
+an opinion agreed on by less than the majority of the judges (assuming a panel of
+judges), but the opinion agrees with the majority opinion’s conclusion. A dissenting
+opinion is an opinion by one or more judges who disagree with the majority opinion’s
+conclusion.
+The parties to a lawsuit (at the initial trial court level) include the following:
+• Plaintiff: Party initiating the lawsuit
+• Defendant: Party defending against the lawsuit (legal action by plaintiff)
+• Counterclaimant: Defendant’s counterclaim against the plaintiff
+• Cross-claimant: Defendant bringing a lawsuit against a third party, typically
+with a view that the introduced third party was at least partially responsible/
+liable for owed damages to plaintiff
+• Third-party defendant: Party defending against a cross-claim for alleged damages owed to plaintiff
+• Intervenor: Interested party participating in litigation with the court’s permission
+The parties to a lawsuit (at the noninitial appellate court level) include the following:
+• Appellant: Party appealing a lower court’s ruling (usually the unsuccessful party in the previous lawsuit)
+• Appellee: Party defending against the appellant’s actions
+• Petitioner: Party challenging action, usually in an agency context
+• Respondent: Party defending against petitioner’s actions, usually in an agency
+context
+• Intervenor: Same as intervenor at the trial court level
+• Amicus curiae (“friend of the court”): Party given court permission to participate in the case
+• U.S. Solicitor: Government attorney representing the United States
+The parties to a lawsuit (at the highest U.S. Supreme Court level) include the
+following:
+• Petitioner: Party seeking the Supreme Court’s review, arguing for the rejection
+of the lower court’s decision
+• Respondent: Party opposing the Supreme Court’s review, arguing that the lower
+court’s decision does not warrant review, because the lower court’s conclusion
+and rationale are legally valid
+• Intervenor: Same as intervenor at the trial/appellate court level
+• Amicus curiae: Same as at the appeals court level
+• U.S. Solicitor: Government attorney representing the United States
+
+American Law 101
+Court Dispositions—General
+• Order: Court resolution of a motion (filed by one of the parties)
+• Affirmation: Court’s decision to uphold the lower court’s ruling
+• Reversal: Court’s rejection of the lower court’s ruling
+• Remand: Court order to return the case to the lower court (or agency) for further factual findings, or for other resolution in conformity with the appellate
+court’s decision
+• Vacate: Court rejection of the lower court’s ruling, with an order to set aside and
+render the lower court’s ruling as null and void
+• Modification: Court’s affirmation of part of the lower court’s decision, with an
+ordered modification to the opinion
+Court Dispositions—Appellate Courts
+• En Banc Opinion:
+• Represents an opinion by all members of the court, not just a certain number
+(panel) of sitting judges, to hear a particular case
+• Generally represents a rare exception rather than the norm
+• Usually seen in issues of extreme importance
+Court Disposition—Supreme Court
+• Plurality Opinion:
+• An opinion that more judges sign than any concurring opinion
+• Does not constitute a majority opinion
+• Does not have the force of precedent, because it is not a result of a majority
+opinion
+• Certiorari Granted:
+• Grant of discretionary review by the U.S. Supreme Court (often considered
+the exception rather than the norm because the Supreme Court is unable to
+grant certiorari to most cases given its limited time and resources)
+• Does not reverse or directly affect lower court rulings
+• Certiorari Denied:
+• U.S. Supreme Court’s decision to reject discretionary review of a particular
+lower court ruling
+• Does not generally have precedential effect
+In most legal opinions, part of the court’s decision may include analysis and language that may not directly be necessary to reach the court’s resolution of the legal
+issue. This part of the case is referred to as dictum. Dictum is not the court’s holding.
+
+The American Legal System Made Easy
+In other words, dictum is related, but separate from, the court’s holding. Given that
+dictum is not part of a court’s holding, stare decisis does not apply. It may be difficult
+to distinguish a court’s dictum from its holding. Still, dictum may be useful for future
+cases, because it is, at times, a signal or hint of how the court (or at least a judge in the
+court) may view a case in light of different legal issues or facts.
+Summary
+The American judicial system is based on British common law, which is then buttressed by, among other sources, the U.S. Constitution, court cases, statutes, restatements, decrees, treatises, and various other rules and regulations. The American legal
+system is composed of the U.S. Supreme Court, federal courts, and state courts. Within
+both federal and state courts, primary and secondary legal sources are considered. The
+U.S. Supreme Court is the highest land of the law. It can grant certiorari to select cases
+for various reasons, including whether the issue presented is urgent or of vital national
+interest. Generally, however, a lawsuit begins in state courts and then, as needed, is
+heard on appeal by federal (appellate-level) or state courts. Knowledge of the structure
+of the American judicial system is then furthered by understanding how to write and
+brief a law case, which is a vital skill set for law students and practitioners.

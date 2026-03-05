@@ -1,0 +1,146 @@
+**Microsoft Azure SQL Database pricing**
+vCore
+A vCore-based purchase model is best if you are looking for flexibility, control and transparency of individual resource consumption. This model allows you to scale compute, memory and storage based upon your workload needs and provides a straightforward way to translate on-premises workload requirements to the cloud.
+
+Serverless compute
+The SQL Database server-less compute tier optimises price-performance and simplifies performance management for single databases with intermittent, unpredictable usage by auto-scaling compute and billing for compute used per second. For details, see the FAQ section and documentation.
+
+Hyperscale
+Serverless Hyperscale combines the benefits of compute auto-scaling with storage auto-scaling up to 100 TB to help you optimise price-performance of your database resources to meet your workload's needs. If zone redundancy is enabled, the database must have at least one high availability (HA) replica. The pricing below is applicable for both primary and secondary replicas.
+
+Standard-series (Gen 5)
+Standard-series (Gen 5) logical CPUs are based on Intel E5-2673 v4 (Broadwell) 2.3 GHz, Intel SP8160 (Skylake), Intel Xeon Platinum 8272CL 2.5 GHz (Cascade Lake) and Intel(R) Xeon Scalable 2.8 GHz processor (Ice Lake) processors. In the standard-series (Gen 5), 1 vCore = 1 hyper thread. The standard-series (Gen 5) logical CPU is great for most relational database servers.
+
+Primary replica pricing
+Minimum vCores	Maximum vCores	Minimum Memory (GB)	Maximum Memory (GB)	Price
+0.5	80	2.05	240	$0.0001050/vCore-second
+($0.378/vCore-hour)
+High Availability Replica and Named Replica Pricing
+Minimum vCores	Maximum vCores	Minimum Memory (GB)	Maximum Memory (GB)	Price
+0.5	80	2.05	240	$0.0001050/vCore-second
+($0.378/vCore-hour)
+Storage
+In the Hyperscale tier, you are charged for storage for your database based on actual allocation. Storage is dynamically allocated between 10 GB and 100 TB, in 10 GB increments.
+
+Storage	Price
+GB/month	$0.25
+Back up storage (point-in-time restore)
+By default, seven days of backups are stored in RA-GRS Standard blob storage. Any corrupted or deleted database can be restored to any point in time within that period. The storage is used by periodic storage blob snapshots and all generated transaction log. The usage of the backup storage depends on the rate of change of the database and the configured retention period. Back up storage consumption will be charged in GB/month. Learn more about automated backups, and how to monitor and manage backup costs.
+
+Redundancy	Price
+LRS	$0.08/GB/month
+ZRS	$0.10/GB/month
+RA-GRS	$0.20/GB/month
+Provisioned compute
+The SQL Database provisioned compute tier provides a fixed amount of compute resource for a fixed price billed hourly. It optimises price-performance for single databases and elastic pools with more regular usage that cannot afford any delay in compute warm-up after idle usage periods. For details, see the FAQ section and documentation.
+
+Hyperscale
+Build new, highly scalable cloud applications on Azure SQL Database Hyperscale. Hyperscale provides rapid, auto-scaling storage up to 100 TB to help you optimise database resources for your workload's needs. To enable zone redundancy, the database must have at least one secondary high availability replica. The pricing below is applicable for both primary and secondary replicas.
+
+Standard-series (Gen 5)
+Standard-series (Gen 5) logical CPUs are based on Intel E5-2673 v4 (Broadwell) 2.3 GHz, Intel SP8160 (Skylake), Intel Xeon Platinum 8272CL 2.5 GHz (Cascade Lake) and Intel(R) Xeon Scalable 2.8 GHz processor (Ice Lake) processors. In the standard-series (Gen 5), 1 vCore = 1 hyper thread. The standard-series (Gen 5) logical CPU is great for most relational database servers.
+
+vCORE	Memory (GB)	Pay as you go	1-year reserved capacity 1	3 year reserved capacity 1
+2	10.2	$0.366/hour	$0.238/hour
+~35% savings	$0.165/hour
+~55% savings
+4	20.4	$0.731/hour	$0.475/hour
+~35% savings	$0.329/hour
+~55% savings
+6	30.6	$1.096/hour	$0.713/hour
+~35% savings	$0.494/hour
+~55% savings
+8	40.8	$1.462/hour	$0.950/hour
+~35% savings	$0.658/hour
+~55% savings
+10	51	$1.827/hour	$1.188/hour
+~35% savings	$0.822/hour
+~55% savings
+12	61.2	$2.192/hour	$1.425/hour
+~35% savings	$0.987/hour
+~55% savings
+14	71.4	$2.558/hour	$1.663/hour
+~35% savings	$1.151/hour
+~55% savings
+16	81.6	$2.923/hour	$1.900/hour
+~35% savings	$1.316/hour
+~55% savings
+18	91.8	$3.288/hour	$2.137/hour
+~35% savings	$1.480/hour
+~55% savings
+20	102	$3.654/hour	$2.375/hour
+~35% savings	$1.644/hour
+~55% savings
+24	122.4	$4.384/hour	$2.850/hour
+~35% savings	$1.973/hour
+~55% savings
+32	163.2	$5.846/hour	$3.800/hour
+~35% savings	$2.631/hour
+~55% savings
+40	204	$7.307/hour	$4.749/hour
+~35% savings	$3.288/hour
+~55% savings
+80	396	$14.613/hour	$9.498/hour
+~35% savings	$6.576/hour
+~55% savings
+1Learn more about Azure reservations and Azure SQL Database reserved capacity pricing.
+
+Compute is provisioned in virtual cores (vCores) with an option to choose between compute generations.
+
+DC-series
+The DC-series logical CPUs are based on Intel XEON E-2288G processors with Software Guard Extensions (Intel SGX) technology. In the DC-series, 1 vCore = 1 physical core. DC-series supports Always Encrypted with secure enclaves and it is designed to for workloads that process sensitive data and demand confidential query processing capabilities.
+
+vCORE	Memory (GB)	Pay as you go
+2	9	$0.73/hour
+4	18	$1.46/hour
+6	27	$2.19/hour
+8	36	$2.92/hour
+10	45	$3.65/hour
+12	54	$4.38/hour
+14	63	$5.11/hour
+16	72	$5.84/hour
+18	81	$6.57/hour
+20	90	$7.30/hour
+32	144	$11.68/hour
+40	180	$14.60/hour
+This hardware option is subject to regional availability. See our documentation for the latest list of available regions.
+Compute is provisioned in virtual cores (vCores). A vCore represents a logical CPU offered with an option to choose between compute generations.
+Premium-series
+Premium-series logical CPUs are based on the latest Intel(R) Xeon (Ice Lake) and AMD EPYCTM 7763v (Milan) chipsets, 1 vCore = 1 hyper thread. The premium-series logical CPU is a great fit for database workloads that require faster compute and memory performance as well as improved IO and network experience over the standard-series hardware offering.
+
+vCORE	Memory (GB)	Pay as you go	1-year reserved capacity 1
+2	10.4	$0.366/hour	$0.238/hour
+~35% savings
+4	20.8	$0.731/hour	$0.475/hour
+~35% savings
+6	31.1	$1.096/hour	$0.713/hour
+~35% savings
+8	41.5	$1.462/hour	$0.950/hour
+~35% savings
+10	51.9	$1.827/hour	$1.188/hour
+~35% savings
+12	62.3	$2.192/hour	$1.425/hour
+~35% savings
+14	72.7	$2.558/hour	$1.663/hour
+~35% savings
+16	83	$2.923/hour	$1.900/hour
+~35% savings
+18	93.4	$3.288/hour	$2.137/hour
+~35% savings
+20	103.8	$3.654/hour	$2.375/hour
+~35% savings
+24	124.6	$4.384/hour	$2.850/hour
+~35% savings
+32	166.1	$5.846/hour	$3.800/hour
+~35% savings
+40	207.6	$7.307/hour	$4.749/hour
+~35% savings
+64	664.4	$11.691/hour	$7.599/hour
+~35% savings
+80	415.2	$14.613/hour	$9.498/hour
+~35% savings
+128	647.8	$23.381/hour	$15.197/hour
+~35% savings
+1Learn more about Azure reservations and Azure SQL Database reserved capacity pricing.
+
+Compute is provisioned in virtual cores (vCores). A vCore represents a logical CPU offered with an option to choose between compute generations.

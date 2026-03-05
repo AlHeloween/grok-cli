@@ -1,0 +1,35 @@
+5.2 Regulatory models
+Bradford (2023) identifies three primary regulatory models, adopted in the US,
+China and the EU. The “market-driven” regulatory model in the US is characterised
+by a market-based approach that emphasises innovation, self-regulation and scepticism of government intervention. The “state-driven” regulatory model in China
+utilises technology for political objectives, and aims to grow the industry while
+exporting technology infrastructure. The “rights-driven” regulatory model of the
+EU is focused on protecting individual and societal rights and the equitable distribution of digital transformation gains. These regulatory models, while distinct,
+are not mutually exclusive and show a tendency to converge towards the principles
+highlighted above, as well as towards rather similar operationalisations.
+In the United States, the regulation of AI has evolved from voluntary guidance
+to executive actions. Initially, the Blueprint for an AI Bill of Rights in October 2022
+laid foundational ethical considerations. This was followed by voluntary commitments from leading AI firms in July 2023, signalling industry readiness to address
+AI’s societal impacts. The shift towards regulatory oversight was marked by the
+Executive Order on Safe, Secure, and Trustworthy AI in November 2023, which
+mandated over 25 agencies to address AI-related harms, including security, privacy,
+and discrimination. These agencies are now tasked with establishing rules, funding
+research, assessing risks, and enforcing transparency through safety tests and reporting by AI developers. However, there has not been significant legislative action
+on AI regulation.
+China’s AI regulation has evolved from a state-driven approach to more sectorspecific guidance. The 2018 Guiding Opinions for financial institutions mandated
+algorithm filing, risk disclosure, and manual intervention to mitigate pro-cyclicality
+risk in financial markets, highlighting a cautious approach to AI’s systemic impacts.
+The 2022 Deep Synthesis Provisions and the 2023 Generative AI Provisions set the
+stage for regulatory oversight, emphasising the adherence to socialist values, content
+reliability, and discrimination prevention. An AI Law is underway, proposing a
+framework for public-facing generative AI systems, including content standards,
+privacy respect, and a mandatory filing to the algorithm registry.
+The European Union’s AI Act, approved in February 2024, aims to ensure that
+AI technologies are safe and respect fundamental rights while fostering innovation
+and economic growth. This regulatory framework introduces a risk-based approach that categorises AI systems according to the risk they pose to users. For example,
+the act identifies specific applications of AI that pose unacceptable risks and are
+therefore prohibited. These include social scoring, manipulation or exploitation of
+vulnerabilities and certain uses of biometric identification. The EU AI Act also
+introduces governance rules for AI applications that might pose risks to health,
+safety, fundamental rights, the environment, democracy and the rule of law. For
+these high-risk categories, stringent regulatory requirements are set.

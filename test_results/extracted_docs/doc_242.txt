@@ -1,0 +1,81 @@
+Data is the lifeblood of modern business, providing valuable business insight and supporting real-time control over critical business processes and operations. Today's businesses are awash in an ocean of data, and huge amounts of data can be routinely collected from sensors and IoT devices operating in real time from remote locations and inhospitable operating environments almost anywhere in the world.
+ 
+
+ But this virtual flood of data is also changing the way businesses handle computing. The traditional computing paradigm built on a centralized data center and everyday internet isn't well suited to moving endlessly growing rivers of real-world data. Bandwidth limitations, latency issues and unpredictable network disruptions can all conspire to impair such efforts. Businesses are responding to these data challenges through the use of edge computing architecture.
+ 
+
+ In simplest terms, edge computing moves some portion of storage and compute resources out of the central data center and closer to the source of the data itself. Rather than transmitting raw data to a central data center for processing and analysis, that work is instead performed where the data is actually generated -
+ 
+
+ Thus, edge computing is reshaping IT and business computing. Take a comprehensive look at what edge computing is, how it works, the influence of the cloud, edge use cases, tradeoffs and implementation considerations.
+ 
+
+ Edge computing uses
+ Edge computing brings data processing closer to the data source.
+ How does edge computing work?
+ Edge computing is all a matter of location. In traditional enterprise computing, data is produced at a client endpoint, such as a user's computer. 
+ 
+
+ But the number of devices connected to the internet, and the volume of data being produced by those devices and used by businesses, is growing far too quickly for traditional data center infrastructures to accommodate.
+ 
+
+ So IT architects have shifted focus from the central data center to the logical edge of the infrastructure -- taking storage and computing resources from the data center and moving those resources to the point where the data is generated. 
+ 
+
+ Edge computing adoption
+ Although only 27% of respondents have already implemented edge computing technologies, 54% find the idea interesting.
+ Edge computing puts storage and servers where the data is, often requiring little more than a partial rack of gear to operate on the remote LAN to collect and process the data locally. 
+ 
+
+ The idea of business intelligence can vary dramatically. Some examples include retail environments where video surveillance of the showroom floor might be combined with actual sales data to determine the most desirable product configuration or consumer demand.
+ Edge vs. cloud vs. fog computing
+ Edge computing is closely associated with the concepts of cloud computing and fog computing. Although there is some overlap between these concepts, they aren't the same thing, and generally shouldn't be used interchangeably. It's helpful to compare the concepts and understand their differences.
+ 
+
+ One of the easiest ways to understand the differences between edge, cloud and fog computing is to highlight their common theme: All three concepts relate to distributed computing and focus on the physical deployment of compute and storage resources in relation to the data that is being produced. The difference is a matter of where those resources are located.
+ 
+
+ Edge computing vs. cloud
+ Compare edge cloud, cloud computing and edge computing to determine which model is best for you.
+ Edge. Edge computing is the deployment of computing and storage resources at the location where data is produced. This ideally puts compute and storage at the same point as the data source at the network edge. 
+ 
+
+ Cloud. Cloud computing is a huge, highly scalable deployment of compute and storage resources at one of several distributed global locations (regions). Cloud providers also incorporate an assortment of pre-packaged services for IoT operations, making the cloud a preferred centralized platform for IoT deployments. 
+ 
+
+ Edge computing architecture
+ Unlike cloud computing, edge computing allows data to exist closer to the data sources through a network of edge devices.
+ Fog. But the choice of compute and storage deployment isn't limited to the cloud or the edge. 
+ 
+
+ Fog computing environments can produce bewildering amounts of sensor or IoT data generated across expansive physical areas that are just too large to define an edge. Examples include smart buildings, smart cities or even smart utility grids
+ 
+
+ Note: It's important to repeat that fog computing and edge computing share an almost identical definition and architecture, and the terms are sometimes used interchangeably even among technology experts.
+ 
+
+ Why is edge computing important?
+ Computing tasks demand suitable architectures, and the architecture that suits one type of computing task doesn't necessarily fit all types of computing tasks. Edge computing has emerged as a viable and important architecture that supports distributed computing to deploy compute and storage resources closer to -- ideally in the same physical location a
+ 
+
+ But decentralization can be challenging, demanding high levels of monitoring and control that are easily overlooked when moving away from a traditional centralized computing model. Edge computing has become relevant because it offers an effective solution to emerging network problems associated with moving enormous volumes of data that today's organizations produce and consume. It's not just a problem of amount. It's also a matter of time; applications depend on processing and responses that are increasingly time-sensitive.
+ 
+
+ 
+
+ Consider the rise of self-driving cars. They will depend on intelligent traffic control signals. Cars and traffic controls will need to produce, analyze and exchange data in real time. Multiply this requirement by huge numbers of autonomous vehicles, and the scope of the potential problems becomes clearer.
+ 
+
+ Bandwidth. Bandwidth is the amount of data which a network can carry over time, usually expressed in bits per second. All networks have a limited bandwidth, and the limits are more severe for wireless communication.
+ Latency. Latency is the time needed to send data between two points on a networkIn other cases, network outages can exacerbate congestion and even sever communication to some internet users entirely - making the internet of things useless during outages.
+ By deploying servers and storage where the data is generated, edge computing can operate many devices over a much smaller and more efficient LAN where ample bandwidth is used exclusively by local data-generating devices, making latency and congestion virtually nonexistent.
+ 
+
+ Edge computing use cases and examples
+ In principal, edge computing techniques are used to collect, filter, process and analyze data "in-place" at or near the network edge. It's a powerful means of using data that can't be first moved to a centralized location -- usually because the sheer volume of data makes such moves cost-prohibitive, technologically impractical or might otherwise violate compliance obligations, such as data sovereignty. This definition has spawned myriad real-world examples and use cases:
+ 
+
+ Manufacturing. An industrial manufacturer deployed edge computing to monitor manufacturing, enabling real-time analytics and machine learning at the edge to find production errors and improve product manufacturing quality. 
+ Farming. Consider a business that grows crops indoors without sunlight, soil or pesticides. The process reduces grow times by more than 60%. Using sensors enables the business to track water use, nutrient density and determine optimal harvest. Data is collected and analyzed to find the effects of environmental factors and continually improve the crop growing algorithms and ensure that crops are harvested in peak condition.
+ Network optimization. Edge computing can help optimize network performance by measuring performance for users across the internet and then employing analytics to determine the most reliable, low-latency network path for each user's traffic. In effect, edge computing is used to "steer" traffic across the network for optimal time-sensitive traffic performance.
+ Workplace safety. Edge computing can combine and analyze data from on-site cameras, employee safety devices and various other sensors to help businesses oversee workplace conditions or ensure that employees follow established safety protocols -- especially when the workplace is remote or unusually dangerous, such as construction sites or oil rigs.

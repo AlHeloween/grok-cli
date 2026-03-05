@@ -1,0 +1,104 @@
+
+Acquisition of Activision Blizzard
+Microsoft’s proposed acquisition may be considered both a vertical merger, in which one firm is
+the supplier and the other is a customer in the supply chain, and a horizontal merger, in which the
+merging firms are direct competitors, offering similar products or services that are considered
+substitutes. One concern with vertical mergers is that they may lead to foreclosure, a situation in
+which a supplier that competes with the merged firm loses access to a potential customer or a
+buyer that competes with the merged firm is denied access to a supplier. A concern with
+horizontal mergers is that they may significantly increase the market share of the merged firm,
+increasing concentration in the market and reducing competition, thereby enabling the remaining
+firms to raise prices. Microsoft’s proposed acquisition may also raise other concerns that typically
+have not been raised in merger challenges in recent decades, such as dominance in markets that
+may develop in the future and labor market monopsony.36
+
+A key question about Microsoft’s proposed acquisition may be the extent to which Microsoft
+might restrict the availability of Activision Blizzard’s video games to its consoles and its
+streaming and cloud gaming services. Such a restriction would mean that other companies’
+consoles or streaming or cloud gaming services would not be able to offer Activision Blizzard’s
+games to consumers. Microsoft has stated that if the merger is approved, it would continue to
+make Call of Duty and other popular Activision games available on other gaming consoles in
+addition to its Xbox.37 The statement specifies that Activision’s popular content would be
+“available on competing platforms like Sony’s PlayStation.” It is unclear, however, if this
+commitment pertains only to Sony’s consoles or also applies to PlayStation Plus,38 Sony’s version
+of Game Pass. Additionally, it is unclear whether Activision Blizzard’s games would be available
+on other streaming or cloud gaming services.
+Microsoft could also limit the availability of other games that are or will be under development.
+In 2020, after acquiring ZeniMax Media, parent company of the video game developer Bethesda
+Softworks,39 Microsoft stated that it would honor the exclusivity commitments Bethesda made 
+with Sony for certain games for one year,40 but that future Bethesda games would be made
+available for “other consoles on a case by case basis.”
+41 The game Starfield, officially introduced
+by Bethesda in 2018,42 is scheduled to be released in November 2022 exclusively on Microsoft’s
+Xbox Series X and S consoles and Windows PCs; it will not be available on other consoles.43
+
+
+One potential concern may be how Microsoft’s acquisition might affect competition among
+digital stores selling video games for PCs, a market in which both Microsoft and Activision
+Blizzard compete. Following the acquisition, Microsoft could operate both Microsoft Store and
+Battle.net. This may not have a significant effect on competition, however, because Valve Corp.’s
+Steam is considered to be the dominant market player among PC digital stores. In a 2021 lawsuit
+alleging anticompetitive practices by Valve, video game developer Wolfire Games estimated that
+Valve controlled at least 75% of PC desktop game distribution.44
+With respect to subscription or cloud gaming services, Microsoft may be able to increase its
+market share with the acquisition by offering more content than other providers. In addition to
+developing its own games, Microsoft has entered partnerships with various developers and
+publishers. For example, some Game Pass subscribers can access games on Electronic Arts (EA)
+Play for no additional cost,45 and Fortnite is available for free on Xbox Cloud Gaming without a
+Game Pass membership, although users must have a Microsoft account.46 If Microsoft allows
+other subscription or cloud gaming services to distribute Activision Blizzard’s video games, it
+may charge these providers a fee to do so, meaning potential competitors could face an additional
+cost that Microsoft would not.
+Consumers would arguably benefit from having a greater selection of video games offered
+through Microsoft’s subscription and cloud gaming services. However, if other subscription and
+cloud gaming service providers are unable to increase their market shares, Microsoft may be able
+to dominate the market, potentially allowing Microsoft to increase prices in the future. The
+salience of this concern may reflect opinions on whether antitrust enforcement should consider 
+potential effects on the industry that may affect competition in the future or focus exclusively on
+consumer welfare.
+
+Among video game publishers in the United States, Microsoft and Activision Blizzard are
+estimated to have the largest market shares.47 IBISWorld reports, however, that competition
+among publishers and developers is high, even though the success of new entrants, particularly
+among developers, is fairly low.48 Publishers and developers can face high levels of uncertainty
+and risk.49 Furthermore, measuring the market share of Microsoft and Activision Blizzard within
+the United States may not accurately reflect competition in these markets, given that these
+companies compete at a global level. Some industry analysts list Tencent, which is headquartered
+in China, as the largest video game publisher worldwide based on revenue;50 Microsoft and
+Activision Blizzard are listed among the top 10, along with Sony, Nintendo, EA, and Take-Two
+Interactive.51 Microsoft stated that after its acquisition of Activision Blizzard, it would “become
+the world’s third-largest gaming company by revenue, behind Tencent and Sony.”
+52
+
+Microsoft’s acquisition could reduce the number of potential employers in the video game
+industry. At an FTC forum, an Activision Blizzard employee raised concern that consolidation in
+the industry could enable firms to hire employees at lower wages than in a competitive market.58
+During its acquisition of ZeniMax, Microsoft reportedly stated that it did not plan on making
+changes to ZeniMax and that ZeniMax would operate independently following the acquisition.59
+One industry analyst viewed the acquisition as a means to support gaming studios under
+ZeniMax, which had been struggling financially; according to the analyst, without the acquisition,
+ZeniMax would have likely faced layoffs and released fewer games.60 If Microsoft were to utilize
+a similar approach with Activision Blizzard, allowing it to essentially operate as a separate entity
+within Microsoft, the acquisition might not significantly affect the labor market for developers.
+Furthermore, some employees may have skills that would be easily transferrable to firms outside
+of the video game industry, which could limit Microsoft’s ability to control wages. Nevertheless,
+Microsoft’s acquisition would reduce the number of large, established firms in the video game
+industry, which could provide it with greater negotiating power.
+Another concern may be that Microsoft’s proposed acquisition could affect ongoing efforts to
+reach a collective bargaining agreement for Activision Blizzard employees. This concern was
+raised by an Activision Blizzard employee at an FTC forum and by some Senators in a March
+2022 letter to the FTC,61 which cited Microsoft’s dismissal of temporary quality assurance 
+workers two years after they formed a union in 2014.62 However, on June 13, 2022, Microsoft and
+the Communications Workers of America—the union that has been assisting Activision Blizzard
+employees—announced that they had entered a labor neutrality agreement enabling workers “to
+freely and fairly make a choice about union representation,” which would apply beginning 60
+days after Microsoft’s acquisition is completed.63 Furthermore, it is unclear whether working
+conditions would improve if Activision Blizzard were to remain an independent company rather
+than being acquired by Microsoft.
+
+Some antitrust enforcers are reportedly considering some of the concerns discussed in the
+previous section, including the potential effect of Microsoft’s proposed acquisition on competing
+gaming subscription services and the market for game developers.64 In response to the March
+2022 letter from some Senators asking the FTC to consider whether the transaction might
+exacerbate anticompetitive conduct in the labor market,65 FTC Chair Lina Khan stated that she
+shares those Senators’ concerns about monopsony power in labor markets.

@@ -1,0 +1,80 @@
+According to the EPAR for semaglutide, eight completed phase 3 trials and a cardiovascular
+outcomes trial provided safety data relating to approximately 4,800 patients and over 5,600
+patient years of exposure. [12] Additional safety data is also available from the SUSTAIN 7 which
+assessed semaglutide and dulaglutide. [9]
+Adverse events
+The EPAR states that “The safety profile of semaglutide is generally consistent with those
+reported for other drugs in the GLP-1 RA class”. The EMA noted that the rates of gastrointestinal
+adverse events were higher for semaglutide compared to exenatide, sitagliptin and insulin
+glargine. [12] However the open label SUSTAIN 7 study found that the frequency of
+gastrointestinal adverse effects were similar between semaglutide and dulaglutide groups. [9]
+A significantly increased risk of diabetic retinopathy complications was observed with semaglutide
+as compared with placebo. This increased risk was particularly marked in patients with preexisting diabetic retinopathy at baseline and co-use of insulin. Although it is recognised that
+intensified glycaemic control may precipitate early worsening of diabetic retinopathy, clinical trials
+data did not demonstrate a decrease in the risk of diabetic retinopathy over the course of two
+years, and data also suggests that semaglutide was associated with retinopathy in patients with
+only small HbA1c reductions. [12] A specific warning has been included in the SPC for
+semaglutide outlining the increased risk of diabetic retinopathy complications in patients with
+existing diabetic retinopathy treated with insulin. [15]
+The SPC for semaglutide lists the following adverse events [13]:
+
+Table 2. Adverse reactions from long-term controlled phase 3a trials including the cardiovascular 
+7
+Date: December 2018
+outcomes trial.
+MedDRA
+system organ
+class
+Very common Common Uncommon Rare
+Immune system
+disorders
+Anaphylactic
+reaction
+Metabolism and
+nutrition
+disorders
+Hypoglycaemia
+when used with
+insulin or
+sulfonylurea
+Hypoglycaemia
+when used with
+other OADs
+Decreased appetite
+Nervous system
+disorders
+Dizziness Dysgeusia
+Eye disorders Diabetic
+retinopathy
+complications
+Cardiac
+disorders
+Increased heart
+rate
+Gastrointestinal
+disorders
+Nausea
+Diarrhoea
+Vomiting
+Abdominal pain
+Abdominal
+distension
+Constipation
+Dyspepsia
+Gastritis
+Gastrooesophageal
+reflux disease
+Eructation
+Flatulence
+Hepatobiliary
+disorders
+Cholelithiasis
+General
+disorders and
+administration
+site conditions
+Fatigue Injection site
+reactions
+Investigations Increased lipase
+Increased amylase
+Weight decreased

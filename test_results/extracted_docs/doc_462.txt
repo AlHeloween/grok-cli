@@ -1,0 +1,146 @@
+**COVID-19 and Stroke Incidence**
+
+Coronavirus disease 2019 (COVID-19) has been
+declared a pandemic for two years already.1,2 As of July
+2022, more than 575 million people have been infected, of
+which around 6.39 million have died.3 Although its case
+fatality rate of »2% is lower compared to past influenza
+pandemics, its highly transmissible nature strains the
+health care systems leading to significant increases in
+mortalities and unfavorable morbidities even in highly
+urbanized countries.1,4 With the appearance of delta and
+other variants, the devastation induced by COVID-19 is
+not likely to end soon.
+While most COVID-19 patients present in the hospital
+with respiratory symptoms, other organ systems may
+also be affected.5,6 Around 0.8-6% will develop stroke
+among COVID-19 patients, while 2-3% of admitted stroke
+patients will harbor severe acute respiratory syndrome
+coronavirus 2 (SARS-CoV-2) infection.7,8 These COVID-19
+stroke patients have twice the risk of death and they have
+20% more risk of having a moderate disability compared
+to patients with COVID-19 only.9 Nevertheless, COVID19 stroke patients were usually older and had similar risk
+factors as those patients with stroke alone, implying that
+the usual determinants for stroke may be the ones responsible for these increased risks and not COVID-19.1,7,9
+However, in smaller case series and cross-sectional studies, COVID-19 patients with stroke were younger, with a
+cryptogenic type of stroke, and with no identifiable risk
+factors compared to those without COVID-19.9,10 Since
+SARS-CoV-2 infection affects organ systems by inducing
+thrombosis secondary to a hypercoagulable state, the incidence of stroke, especially the ischemic type, may plausibly be increased in COVID-19.1012
+While most large studies about the possible association
+of COVID-19 and stroke were done in high-income countries, only one study with a small sample size have been
+done in low- to middle-income countries (LMIC) like the
+Philippines.13 Developed countries have more organized
+and advanced health care systems and reliable national
+insurance services; hence, the incidence of stroke, its risk
+factors and mortality rate among COVID-19 patients may
+not be comparable to the true situation in LMIC.6,8
+A recently concluded nationwide multicenter, comparative, retrospective cohort study was conducted from February to December 2020 to identify the different
+neurologic manifestations of COVID-19 in the Philippines.6 A total of 10,881 reverse transcriptase-polymerase
+chain reaction (RT-PCR) confirmed COVID-19 cases were
+collected.6 Our main objectives were a) to determine the
+risk factors of stroke among hospitalized COVID19
+patients in the Philippines, b) to determine the possible
+association between these risk factors and stroke among
+the same cohort, and c) to determine if there is an association between mortality and stroke in this same group.
+Methodology
+Study design
+The data analyzed in this study were obtained from a
+previously published nationwide retrospective cohort
+study that identified the different neurologic manifestations of COVID-19 in the Philippines.6
+Inclusion and exclusion criteria
+RT-PCR-confirmed adult COVID-19 patients, more
+than 18 years of age, with final hospital disposition, were
+included in the study. Those with pneumonia caused by
+other etiologies other than SARS-CoV-2 were excluded. A
+complete enumeration of all patients fulfilling these criteria, who were admitted to the hospitals from February
+until December 2020, was performed. The definition of
+neurological symptoms was based on the previously published protocol.6 A patient who developed focal sensory
+or motor deficit confirmed by either cranial computed
+tomography (CT) scan or magnetic resonance imaging
+(MRI) were recorded as a stroke patient, as seen on chart
+review. The imaging was the basis for classifying the
+patient as either infarct or hemorrhagic stroke. COVID-19
+stroke patients comprised the cases while COVID-19 only
+patients constituted the control group.
+Study site
+Data collection was done in 37 referral hospitals for
+COVID-19. Identification of these sites and other information regarding methods for data collection were described
+in the published protocol.6
+Study investigators
+This is a part of the Philippine CORONA Study which
+aimed to determine the incidence of the different neurological diseases and their association with different risk
+factors and outcomes in a large cohort of COVID-19
+patients. This was headed by four steering committee
+members with 37 study site teams, of which the principal
+investigators were all neurologists.6
+2 R.D.G. JAMORA ET AL.
+Data collection
+The method of data collection has already been published.6 In brief, all COVID-19 confirmed admissions with
+disposition (discharged or deceased) at the time of data collection were included in the study. A pre-made detailed
+abstraction form containing the variables of interest was
+filled out by the field physician by chart review. Possible
+risk factors for stroke or increased COVID-19 severity such
+as age, sex, smoking, hypertension, diabetes mellitus (DM),
+heart failure, coronary artery disease, chronic obstructive
+pulmonary disease (COPD), bronchial asthma, chronic kidney disease, liver disease, obesity, malignancy, and human
+immunodeficiency virus infection was obtained. For stroke,
+the neurologic symptoms and final diagnosis during
+admission, and different outcome measures like the severity of the disability, intensive care unit (ICU) admission,
+duration from admission to final disposition, mortality status, and final disposition were included in the form.
+Abstraction forms were then assessed for validity and
+inconsistencies before they were de-identified, encoded,
+and collated per hospital and sent to the Steering Committee of the Philippine CORONA study.
+Data analysis
+Age was presented as mean, while categorical data
+were presented as proportions. Standard deviation was
+used as measure of dispersion. Means and proportions
+were tested for significance using unpaired t-test and test
+of two proportions, respectively. Prevalence ratio, defined
+as the ratio of the proportion of patients with a particular
+risk factor in COVID-19 stroke patients divided by the
+proportion of patients with the same risk factor among
+COVID-19 only patients were computed separately. These
+were used as estimates of relative risks. The incidence of
+stroke among patients with COVID-19 was computed by
+dividing the number of stroke patients by the population
+(n = 10,881). Likewise, the incidence of different outcome
+measures like mortality, disability, and intensive care unit
+(ICU) admission in both COVID-19 stroke patients and
+COVID-19 patients only were obtained by dividing the
+number of each of these outcome measures by the number
+of patients who developed stroke and those who did not,
+respectively. Subsequently, relative risks were computed
+by dividing the incidence of each outcome measure
+among COVID-19 stroke patients by the incidence of outcome measure among those with COVID-19 patients
+only. To determine the association between stroke and
+different risk factors; and the different outcome measures
+and stroke among COVID-19 patients, a univariate logistic regression was done. Stroke and outcome measures
+were used as dependent variables separately, while risk
+factors for stroke, and stroke were used as their independent variables, respectively. An extended Cox proportional hazard survival analysis was also done using
+mortality status as the failure event and the duration from
+admission to either censoring or failure as survival time.
+Significant risk factors identified in the logistic regression
+was used as the predictor variables with presence of
+stroke as the focus. Since the presence of stroke was a
+time dependent variable based on the usage of scaled and
+unscaled Schoenfield residuals, an extended Cox model
+was used. All data were captured and analyzed using
+Stata Pro BE 17, with alpha set at < 0.05 as indicator of
+significance.
+Results
+Baseline characteristics
+There were 10,881 RT-PCR confirmed COVID-19 cases
+included in the Philippine CORONA Study. The patients
+were mostly males (n = 5780, 53.1%), with history of neurological disorder (n = 7560, 69.5%), with hypertension
+(n = 3647, 33.5%), and DM (n = 2191, 20.1%). Only 321
+patients with COVID-19 (3%) had a history of stroke.
+The overall incidence of stroke among COVID-19
+patients was 3.4% (n = 367). Of these, 262 (71.4%) had
+acute ischemic stroke (AIS) and 101 (27.5%) had acute
+hemorrhagic stroke (AHS). The incidence of AIS and AHS
+were 2.4% and 0.9%, respectively.
+A total of 1697 COVID-19 patients (15.6%) died due to
+various etiologies. Most patients who had neurologic
+symptoms were stable but had persistent deficits at discharge (71.7%). Only 1751 patients (16%) were admitted
+to the ICU primarily due to acute respiratory failure.

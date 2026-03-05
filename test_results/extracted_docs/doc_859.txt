@@ -1,0 +1,103 @@
+Silk Road
+In 2013, federal authorities shut down Silk Road, which they alleged was “the most sophisticated
+and extensive criminal marketplace on the Internet,” enabling tens of thousands of users to
+anonymously buy and sell illegal drugs, malicious software, and other illicit goods and services.
+38
+Federal prosecutors charged the site’s creator with, among other things, conspiracy to commit
+money laundering under Section 1956.
+39 The prosecutors alleged that the site’s creator conspired
+to conduct “financial transactions” involving the proceeds of unlawful activity—namely,
+narcotics trafficking and computer hacking—with the intent to promote the carrying on of such
+activity.40 In defending this charge, Silk Road’s creator argued that his alleged conduct—
+facilitating the exchange of Bitcoin for illegal goods and services—did not involve “financial
+transactions” within the meaning of Section 1956, which defines that term to include (among
+other things) transactions “involving one or more monetary instruments.”
+41 Specifically, the site’s
+creator contended that because Bitcoin does not qualify as a “monetary instrument”—which
+Section 1956 defines to mean the currency of a country, personal checks, bank checks, money
+orders, investment securities, or negotiable instruments—transactions involving Bitcoin do not
+represent “financial transactions” under Section 1956.42
+The U.S. District Court for the Southern District of New York rejected this argument, holding that
+transactions involving Bitcoin can qualify as “financial transactions” under Section 1956 because
+they fall under a separate category of transactions identified by the relevant statutory definition:
+transactions involving “the movement of funds.”43 Specifically, the court reasoned that Bitcoin
+transactions involve “the movement of funds” because the term “funds” includes “money,” which
+in turn refers to “an object used to buy things.”
+44 Because Bitcoin can be used to buy things, the
+court reasoned that Bitcoin transactions involve “the movement of funds” and therefore qualify as
+“financial transactions” under Section 1956.45 As a result, the court explained, “[o]ne can money
+launder using Bitcoin.”
+46
+AlphaBay
+Similarly, in 2017, federal prosecutors brought money-laundering conspiracy charges against the
+creator of AlphaBay, another online marketplace that allowed its users to exchange virtual
+currency for illicit goods and services.47 The prosecutors alleged that by facilitating the exchange
+of virtual currencies (including Bitcoin, Monero, and Ether) for illegal narcotics and other illicit
+goods and services, the site’s creator had conspired to conduct “financial transactions” involving
+the proceeds of unlawful activities.
+48 However, the federal government dismissed these charges
+after AlphaBay’s creator died in July 2017.49
+Virtual Currency Payment Systems Used for Illicit Purposes
+Federal prosecutors have also pursued charges against the developers of certain virtual currency
+payment systems allegedly designed to facilitate illicit transactions and launder the proceeds of
+criminal activity.50 Specifically, prosecutors have charged these developers with conspiring to
+commit money laundering and operating unlicensed money transmitting businesses under
+Sections 1956 and 1960, respectively. In adjudicating the second category of charges, courts have
+concluded that the relevant virtual currency payment systems were “unlicensed money
+transmitting businesses” under Section 1960, rejecting the argument that the provision applies
+only to money transmitters that facilitate cash transactions.
+e-Gold
+In 2007, federal prosecutors charged e-Gold—an “alternative payment system” and virtual
+currency purportedly backed by stored physical gold—and its founders and director with money
+laundering and operating an unlicensed money transmitting business.51 The prosecutors alleged
+that e-Gold “was widely accepted as a payment mechanism for transactions involving credit card
+and identification fraud, high yield investment programs and other investment scams, and child
+exploitation” because of the anonymity it offered its users.52
+In charging the defendants for failing to register their business, prosecutors alleged that e-Gold
+operated as an “unlicensed money transmitting business” in each of the three ways identified by
+Section 1960—the provision criminalizing the operation of “unlicensed money transmitting
+businesses.” Specifically, the prosecutors alleged that e-Gold (1) lacked a required state money
+transmitter license, (2) failed to comply with the BSA’s federal registration requirements for
+“money transmitting businesses” (requirements set forth in Section 5330 of Title 31), and (3) was
+involved in the transmission of funds that were “known to have been derived from a criminal
+offense” or that were “intended to be used to promote and support unlawful activity.”
+53
+In defending these charges, the defendants presented an intricate argument for the proposition that
+Section 1960 applies only to businesses that facilitate cash (as opposed to virtual currency) 
+transactions. Specifically, the defendants argued that because Section 1960 does not define the
+term “money transmitting business,” it must “borrow” the definition of that term in Section
+5330—the BSA provision establishing federal registration requirements for “money transmitting
+businesses.”
+54 The defendants further reasoned that (1) Section 5330 provides that an entity is a
+“money transmitting business” only if it must file currency transaction reports (CTRs), and (2)
+businesses that do not facilitate cash transactions need not file CTRs.55 Accordingly, under the
+defendants’ theory, a business like e-Gold that does not facilitate cash transactions does not
+qualify as a “money transmitting business” under Section 5330 and (by extension) Section
+1960.
+56
+The U.S. District Court for the District of Columbia rejected this argument, holding that e-Gold
+was indeed a “money transmitting business” under Section 1960 for two reasons. First, the court
+rejected the defendants’ contention that Section 1960 must “borrow” Section 5330’s definition of
+“money transmitting business.”
+57 The court rejected this argument on the grounds that Section
+1960 contains its own definition of the term “money transmitting” and does not reflect an intent
+to “borrow” the definition of “money transmitting business” from Section 5330.58 The court
+further explained that because e-Gold was a business engaged in “money transmitting” as defined
+by Section 1960—that is, “transferring funds on behalf of the public”—it was a “money
+transmitting business” under Section 1960.59
+Second, the court evaluated whether e-Gold also qualified as a “money transmitting business”
+under Section 5330—an issue that remained relevant because of the federal government’s charge
+that the defendants violated Section 1960 by violating Section 5330’s registration requirements.
+The court concluded that e-Gold was indeed a “money transmitting business” under Section 5330,
+rejecting the defendants’ argument that e-Gold did not fall within that category because it was not
+required to file CTRs.60 Specifically, the court rejected the argument that a business is required to
+file CTRs only if it facilitates cash transactions. Instead, the court explained that because the
+statute imposing CTR obligations imposes such obligations when money transmitting businesses
+facilitate cash transactions (as opposed to if they facilitate such transactions), all money
+transmitting businesses have a continuing obligation to file CTRs “in the eventuality that they
+ever are involved” in a reportable cash transaction.61 The court accordingly concluded that
+because e-Gold was required to file CTRs and satisfied the other elements of the relevant
+statutory definition, e-Gold was a “money transmitting business” under Section 5330 even though
+it did not process cash transactions.62 After the court denied the defendants’ motion to dismiss the
+charges for operating an unlicensed money transmitting business, the defendants pleaded guilty to
+those charges and money laundering.

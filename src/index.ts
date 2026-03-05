@@ -417,30 +417,7 @@ async function processPromptHeadless(
               content: toTextContent(entry.content),
   });
 
-chatHistoryCommand
-  .command("index <sessionId>")
-  .description("Index a chat session into the RAG vector database")
-  .option("-d, --directory <dir>", "working directory", process.cwd())
-  .option("-r, --replace", "replace existing indexed entries for this session", true)
-  .action(async (sessionId, options) => {
-    const persistence = new ChatHistoryPersistence();
-    try {
-      const { entries } = await persistence.loadSessionFull(sessionId, options.directory);
-      if (entries.length === 0) {
-        console.log(`Session '${sessionId}' has no entries to index.`);
-        return;
-      }
-      const result = await indexChatHistory(entries, {
-        cwd: options.directory,
-        sessionId,
-        replace: options.replace,
-      });
-      console.log(`✓ Indexed ${result.chunksIndexed} entries from session '${sessionId}' into RAG vector DB`);
-    } catch (error: unknown) {
-      console.error(`Error indexing session '${sessionId}':`, error instanceof Error ? error.message : String(error));
-      process.exit(1);
-    }
-  });
+
           }
           break;
       }

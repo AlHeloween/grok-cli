@@ -1,0 +1,47 @@
+1 Introduction
+ Cervical squamous intraepithelial lesion (SIL) is a condition characterized by abnormal changes in cervical squamous cells. Although most low-grade squamous intraepithelial lesions (LSILs) can regress naturally within 1–2 years, while high-grade squamous intraepithelial lesions (HSILs) have a higher potential for malignant transformation. Current treatment methods for SIL comprise ablative treatments (such as cryotherapy, radiofrequency, and focused ultrasound treatments) and excision procedures (including cold knife conization, cervical loop electrosurgical excision procedure, and laser conization). In the past few years, there has been an increase in the occurrence of SIL among younger woman. As a result, clinicians and patients are not only concerned about lesion clearance, but also paying attention to cervical wound healing, which has emerged as a new area of interest.
+ 
+
+ SARS-CoV-2, a novel coronavirus, emerged in 2019 and caused a global pandemic of acute respiratory illness named SARS-CoV-2. With the deepening of research, it has been found that SARS-CoV-2 not only affects the respiratory system, but also the digestive system, nervous system, cardiovascular system, endocrine system, reproductive system, and can cause a decrease in the body’s immunity, leading to secondary bacterial infections. However, little is known about the impact of SARS-CoV-2 infection on cervical wound healing after treatment. In this study, we investigated the wound healing status of patients who were infected with SARS-CoV-2 within one month after cervical treatment and compared them with a control group of patients who underwent cervical treatment after the disappearance of infection symptoms. 
+ 
+
+ 2 Materials and methods
+ 2.1 Study population
+ A total of 60 patients, aged 19 to 53 years old, who underwent cervical treatment for SILs at the gynecology cervical clinic of the People’s Hospital of Guangxi Zhuang Autonomous Region from November 2022 to February 2023 were recruited as the study population. Informed consent was obtained from all subjects involved in the study. The inclusion criteria for patients were a diagnosis of SIL using the three-step method of cervical cytology, which including HPV test, colposcopy, and cervical biopsy.
+ 
+
+ The exclusion criteria included: patients with acute or subacute genital infections, genital malignancy, a history of hysterectomy or pelvic radiotherapy, a history of cervical excision, cervical ablation, or medication treatment, pregnant or lactating women, uncontrolled diabetes, hyperthyroidism or hypothyroidism, severe cardiovascular, cerebral, pulmonary, hepatic, or renal dysfunction, or comorbidities of immunological disorders or immunosuppressive drug use.
+ 
+
+ The experimental group consisted of 29 patients who exhibited symptoms (such as fever, sore throat, and cough) and were confirmed to have SARS-CoV-2 infection through antigen testing within one month of receiving cervical treatment. The control group comprised t31 patients who underwent cervical treatment at least one week after their SARS-CoV-2 symptoms had resolved. The study was conducted in accordance with the Declaration of Helsinki and was approved by the Ethics Committee of Guangxi Zhuang Autonomous Region People’s Hospital (no. KY-KJT02023-10) on August 01, 2022.
+ 
+
+ 2.2 Treatment methods
+ All cervical treatments were performed 3–7 days after the end of menstruation, excluding patients who have reached menopause. To assess the extent of the cervical lesion, acetic acid and iodine are applied to stain the junction of the cervical squamous epithelium and columnar epithelium. Local anesthesia with 1% lidocaine is administered at the 4 quadrants of the cervix. The cervical SILs are treated using either loop electrosurgical excision procedure (LEEP) or ablative treatment such as focused ultrasound or radiofrequency ablation. Details regarding the indications for patients undergoing LEEP excision or ablative treatment can be found in the Supplementary materials.
+ 
+
+ The (LEEP) is performed using a triangular-shaped electrosurgical knife with a length of 15–20 mm, The treatment area is set to approximately 5 mm from the outer edge of the lesion, utilizing a cutting-coagulation mode with a power setting of 40 W. Depending on the type of transformation zone, different lengths of lesion tissue are removed (7–10 mm for type 1, 10–15 mm for type 2, and 15–25 mm for type 3). Following excision, a ball-shaped electrode is used to perform electrocoagulation for hemostasis at the surgical site.
+ 
+
+ The power setting for focused ultrasound therapy is between 3.5 and 4.5 W. Treatment is performed in a circular scanning pattern from the lesion area toward the normal area. During the treatment, the focused ultrasound probe is kept in close contact with the treatment area. The treatment should be stopped when local tissues become concave or hardened. The treatment range should extend beyond the edge of the cervical lesion by approximately 2–5 mm. The power for radiofrequency ablation is set to 30 W. The treatment area extends beyond the area that tests positive in acetic acid and iodine tests by 2–5 mm. An auto-coagulator knife is used to ablate the cervical epithelium from the inside out, until the epithelium is thermocoagulated to a light yellow color and the wound has formed a shallow cone shape.
+ 
+
+ 2.3 Cervical wound healing evaluation after treatment
+ Assessing the rate of wound healing is a key factor in evaluating the progress of wound recovery. A comprehensive evaluation of the healing process includes recording the cervical wound condition immediately after treatment and at a specified time-point after treatment. The wound area is measured using Imagine J software (National Institutes of Health, Bethesda, MD). To calculate the wound healing rate, the formula [(treatment wound area - remaining wound area)/treatment wound area] × 100% is applied. This approach enables clinicians to quantitatively assess the healing process and monitor the progress of wound closure over time. Specifically, the calculation is performed on the 30th day after treatment, providing a comprehensive evaluation of healing rate.
+ 
+
+ 2.4 Vaginal discharge test before and one month after treatment
+ Before undergoing cervical treatment, each patient underwent a vaginal discharge examination to rule out vaginal inflammation. During the one-month follow-up vaginal colposcopy after receiving cervical treatment, another examination of vaginal discharge was conducted to assess the vaginal microbiota and inflammatory condition.
+ 
+
+ 4 Results
+ There were no significant differences between the two groups in terms of age, disease severity, treatment methods, or treatment duration. The mean time of SARS-CoV-2 infection in post-treatment infection group is 15.83 ± 9.74 days after cervical treatment, and the mean time of SARS-CoV-2 infection in treatment after infection recovered group is 39.13 ± 9.80 days before cervical treatment.
+ 
+
+ Compared with the control group, the experimental group had a lower wound healing rate 83.77 (62.04, 97.09) % vs. 98.64(97.10, 99.46)%, p < 0.001. The Box and whisker plot of the wound healing rate for the two group was shown in Supplementary Figure 1. Also the experimental group had a higher scab non-shedding rate 24.14% (7/29) on the 30th day after treatment when compared with control group (24.14% vs. 3.22%, p = 0.024).
+ 
+
+ We conducted further analysis to explore the potential correlation between delayed wound healing and the timing of SARS-CoV-2 infection in the experimental group. Out of the 7 patients who experienced delayed wound healing, 5 patients (71.43%) contracted SARS-CoV-2 within 2 weeks after undergoing cervical treatment, only 2 (2/7 or 28.57%) patients infected with delayed wound healing infected SARS-CoV-2 2 weeks after cervical treatment. It is worth noting that in the control group, there was only 1 patient who experienced poor wound healing, and the cervical treatment of this patient was conducted 45 days after SARS-CoV-2 infection.
+ 
+
+ Pre-treatment vaginal discharge tests for all patients exhibited normal levels of white blood cell counts and leukocyte esterase, with no detection of trichomonas vaginalis, pseudohyphae, or budding spores in both pre and post-treatment assessments. We compared the correlation between white blood cell count and leukocyte esterase in vaginal discharge with cervical healing. The results of the chi-square test for contingency table revealed no significant correlation between white blood cell count or leukocyte esterase in vaginal discharge and delayed wound healing of the cervix (defined as the non-shedding of scabs after 1 month of treatment) (p = 0.947 and 0.970, respectively).

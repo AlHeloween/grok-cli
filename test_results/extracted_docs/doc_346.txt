@@ -1,0 +1,97 @@
+Key issues for the Providers:
+1. Most people with hypertension in India are unaware of their condition. To improve
+rates of detection of hypertension, all adults over the age of 18 should undergo
+opportunistic screening for hypertension during visits to non-physician health staff as
+well as health facilities. In addition, community based health workers should also do
+targeted screening of high risk groups under their care – elderly > 60 years, diabetic,
+obese, those with any cardiovascular disease, family history of premature
+cardiovascular disease.
+2. Screening for hypertension should involve measurement of blood pressure using a
+validated device ( mercury or digital) with an appropriate sized cuff, following a
+standardised procedure on a relaxed patient, seated with arm supported at the heart
+level with the legs uncrossed. Diagnosis of hypertension should be based on a
+minimum of 2 sets of readings on 2 different occasions, which are at least 1-4 weeks
+apart, except in the case of hypertensive emergencies and urgencies. Hypertension
+in persons <80 years of age is diagnosed on documentation of persistent elevation
+of systolic BP of > 140 mm and/or 90 mm diastolic.
+3. Patients should be educated about the nature of the disease and its therapy,
+about lifestyle modifications that can reduce BP and cardiovascular risk. Patients
+should undergo assessment for cardiovascular risk factors, target organ damage
+related to hypertension, associated clinical conditions like diabetes, chronic kidney
+disease, and cardiovascular disease ( e.g. coronary artery disease, stroke). Most of
+these assessments which involve history, clinical examination, and examination for
+proteinuria, diabetes, serum creatinine, lipids and ECG will be possible to complete
+at the PHC and CHC levels with the advent of the free diagnostics initiative.
+4. Hypertension is a primary care issue and best managed at the primary care level
+with a team approach involving physicians, and allied staff. .Hypertension should be
+managed using a combination of lifestyle modifications and use of drug therapy with
+ACE inhibitors, Calcium channel blockers and thiazide diuretics, either alone or in
+combination. The benefit of treatment is related to reduction of BP rather than the
+use of a particular drug. All drug classes have equivalent effects but some are
+preferred in the presence of compelling indiccation. Both Calcium channel blockers
+and ACE inhibitors are effective, have few side effects, and have no adverse
+metabolic consequences or high requirements for monitoring.
+5. The target BP should be less than < 140 mm systolic in persons < 80 year old and
+< 150 mm systolic in those over 80 years old, while the target diastolic BP is < 90
+mm Hg. To achieve the target BP especially in those with Grade 2 and Grade 3
+Hypertension may require the use of 2 or even drugs. Grade 1 HT which is
+uncomplicated, may be given a trial of lifestyle modifications alone for 3 months,
+6. Efforts should be made to promote follow up and adherence to long term therapy
+to antihypertensive. In selected patients especially those with associated
+cardiovascular disease, both statin and aspirin may be given along with
+antihypertensive to reduce risk of CV event. In patients with diabetes, statins may be
+indicated. Key issues for the programme: 8Screening, Diagnosis, Assessment, and Management of Primary Hypertension- Full
+Document 
+
+The screening of hypertension should be done by a physician or trained non
+physician staff, using an automated BP instrument or any other validated
+device, and following a standardised BP measurement procedure.
+1.4.Blood pressure should be measured a few (5) minutes after the patient is in a
+relaxed state, is seated with the arm at the level of the heart, with legs
+uncrossed. The cuff should have a bladder whose length is about 80% and
+whose breadth is about 40% of the arm circumference. If the auscultation
+based method is being used, the then the cuff should initially be inflated to at
+least 30 mm Hg beyond the point of disappearance of the radial pulse. It
+should then be deflated at a rate of 2- 3 mm per second. The first and the
+last audible Korotkoff sounds should be taken at the systolic BP and diastolic
+BP respectively. The column should be read to the nearest 2 mm Hg.
+1.5.At least 2 readings should be taken at each visit with an interval of at least 1
+minute between the measurements. If the two readings are substantially
+different a third reading should be taken. The lower of the two readings
+should be taken as the representative SBP and DBP.
+
+Hypertensive emergencies are potentially life-threatening situations
+where hypertension (usually severe and > 180 mm systolic and >120
+mm diastolic associated with the presence of recent onset and
+progressive target organ damage resulting in cardiovascular,
+neurologic, renal and visual dysfunction. These situations may include
+severe hypertension associated with acute coronary syndrome (chest
+pain), acute left ventricular dysfunction (shortness of breath), and
+hypertensive encephalopathy (altered sensorium), stroke (focal
+weakness), and renal failure. It is most often associated with severe
+hypertension, except in children and pregnant women where
+hypertensive emergencies can occur with lower elevations of BP. 
+The induction and orientation session was held on 21st July 2015 in which the
+facilitator (Chair) welcomed all the members of the subgroup, and set up the rules of
+operation based on the STG development manual, on the consistent use of
+terminology and definitions, using the structured power-point presentation provided
+by NHSRC/NICE. None of the members report any conflict of interest in the
+development of this guideline and have all signed their declarations
+2. Search and selection of evidence based guidelines:
+In view of the paucity of time available to develop this guideline, a decision was
+taken by the Task Force for the Development of STGs for the National Health
+Mission that these STGs would be adopted and/or adapted from existing
+evidence based guidelines to make them relevant to our context, resource
+settings and priorities.
+A search was conducted for evidence based guidelines on primary hypertension,
+which had been published within the past 5 years and which had been framed
+using evidence based methodology and using international guideline
+development criteria. The National Guidelines Clearinghouse (NGC) website was
+used since the guidelines have already gone through a rigorous ‘quality’ sifts
+based on international standards (http://www.guideline.gov/). The criteria for
+Inclusion of Clinical Practice Guidelines in NGC are based on the Institute of
+Medicine (IOM) Clinical Guidelines Standards 2011 and IOM systematic review
+standards 2014. The guidelines available on the database have been developed,
+reviewed, or revised within the past five years. The NGC entry criteria are similar
+to the AGREE II Instrument criteria5
+

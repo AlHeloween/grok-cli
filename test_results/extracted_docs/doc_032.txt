@@ -1,0 +1,90 @@
+FDA Approved Indication(s)
+SGLT2 inhibitors are indicated as adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus.
+Dapagliflozin-, canagliflozin-, and empagliflozin-containing products are also indicated in adult patients with type 2 diabetes mellitus and established cardiovascular disease (CV) (or multiple cardiovascular risk factors [dapaglifozin only]) to:
+• Reduce the risk of hospitalization for heart failure (HF) (dapagliflozin)
+• Reduce the risk of major adverse CV events: CV death, nonfatal myocardial infarction, and nonfatal stroke (canagliflozin)
+• Reduce the risk of CV death (empagliflozin)
+Canagliflozin-containing products are additionally indicated to reduce the risk of end-stage kidney disease, doubling of serum creatinine, CV death, and hospitalization for HF in adults with type 2 diabetes mellitus and diabetic nephropathy with albuminuria > 300 mg/day.
+Farxiga is additionally indicated to:
+• Reduce the risk of CV death and hospitalization for HF in adults with heart failure with reduced ejection fraction (HFrEF) (New York Heart Association [NYHA] class II-IV)
+• Reduce the risk of sustained estimated glomerular filtration rate (eGFR) decline, end stage kidney disease cardiovascular death, and hospitalization for heart failure in adults with chronic kidney disease (CKD) at risk of progression
+Jardiance is additionally indicated to:
+• Reduce the risk of CV death plus hospitalization for HF in adults with HFrEF
+Limitation(s) of use:
+• SGLT2 inhibitors should not be used in patients with type 1 diabetes or for the treatment of diabetic ketoacidosis. SGLT2 inhibitors may increase the risk of diabetic ketoacidosis.
+• Qternmet XR initiation is intended only for patients currently taking metformin.
+• Farxiga is not recommended for use to improve glycemic control in adults with type 2 diabetes mellitus with an eGFR less than 45 mL/min/1.73 m2. Farxiga is likely to be ineffective in this setting based upon its mechanism of action.
+• Farxiga is not recommended for the treatment of chronic kidney disease in patients with polycystic kidney disease or patients requiring or with a recent history of immunosuppressive therapy for the treatment of kidney disease. Farxiga is not expected to be effective in these populations.
+CLINICAL POLICY
+Sodium-Glucose Co-Transporter 2 (SGLT2) Inhibitors
+Page 2 of 9
+• Jardiance is not recommended for use to improve glycemic control in adults with type 2 diabetes mellitus with an eGFR less than 30 mL/min/1.73 m2. Jardiance is likely to be ineffective in this setting based upon its mechanism of action.
+Policy/Criteria
+Provider must submit documentation (such as office chart notes, lab results or other clinical information) supporting that member has met all approval criteria.
+Health plan approved formularies should be reviewed for all coverage determinations. Requirements to use preferred alternative agents apply only when such requirements align with the health plan approved formulary.
+It is the policy of health plans affiliated with Envolve Pharmacy Solutions™ that SGLT2 inhibitors are medically necessary when the following criteria are met:
+I. Initial Approval Criteria
+A. Type 2 Diabetes Mellitus (must meet all):
+1. Diagnosis of type 2 diabetes mellitus;
+2. Age ≥ 18 years;
+3. Member meets one of the following (a or b):
+a. Failure of ≥ 3 consecutive months of metformin, unless contraindicated or clinically significant adverse effects are experienced;
+b. For medication-naïve members, requested agent is approvable if intended for concurrent use with metformin due to HbA1c ≥ 8.5% (drawn within the past 3 months);
+4. Failure of ≥ 3 consecutive months of Jardiance or Invokana, unless both are contraindicated or clinically significant adverse effects are experienced;
+5. Dose does not exceed the FDA-approved maximum recommended dose (see Section V).
+Approval duration: 12 months
+B. Heart Failure (must meet all):
+1. Diagnosis of HFrEF of NYHA Class II, III, or IV;
+2. Request is for Farxiga or Jardiance;
+3. Prescribed by or in consultation with a cardiologist;
+4. Age ≥ 18 years;
+5. Left ventricular ejection fraction (LVEF) is ≤ 40%;
+6. Member does not have a diagnosis of type 1 diabetes mellitus;
+7. Member is currently receiving standard HF drug therapy at target doses for ≥ 4 weeks, including both of the following (a and b) unless clinically significant adverse effects are experienced or all are contraindicated:
+a. Angiotensin converting enzyme inhibitor, angiotensin receptor blocker, or Entresto®;
+b. Beta blocker;
+8. Dose does not exceed 10 mg (1 tablet) per day.
+Approval duration: 12 months
+C. Chronic Kidney Disease (must meet all):
+1. Diagnosis of CKD;
+2. Request is for Farxiga;
+3. Age ≥ 18 years;
+4. Both of the following (a and b):
+a. eGFR between 25 and 75 mL/min/1.73 m2;
+b. Urine albumin creatinine ratio (UACR) ≥ 200 mg/g;
+5. Member does not have a diagnosis of type 1 diabetes mellitus or polycystic kidney disease;
+6. Member has not received immunosuppressive therapy for the treatment of kidney disease in the past 6 months;
+CLINICAL POLICY
+Sodium-Glucose Co-Transporter 2 (SGLT2) Inhibitors
+Page 3 of 9
+7. Member is currently receiving standard CKD drug therapy (angiotensin converting enzyme inhibitor or angiotensin receptor blocker) at maximally tolerated doses for ≥ 4 weeks, unless clinically significant adverse effects are experienced or all are contraindicated;
+8. Dose does not exceed 10 mg (1 tablet) per day.
+Approval duration: 12 months
+D. Other diagnoses/indications
+1. Refer to ERX.PA.01 if diagnosis is NOT specifically listed under section III (Diagnoses/Indications for which coverage is NOT authorized).
+II. Continued Therapy
+A. Type 2 Diabetes Mellitus (must meet all):
+1. Currently receiving medication via a health plan affiliated with Envolve Pharmacy Solutions or member has previously met initial approval criteria;
+2. Member is responding positively to therapy;
+3. If request is for a dose increase, new dose does not exceed the FDA-approved maximum recommended dose (see Section V).
+Approval duration: 12 months
+B. Heart Failure (must meet all):
+1. Currently receiving medication via a health plan affiliated with Envolve Pharmacy Solutions, or documentation supports that member is currently receiving Farxiga for HFrEF and has received this medication for at least 30 days;
+2. Request is for Farxiga or Jardiance;
+3. Member is responding positively to therapy;
+4. If request is for a dose increase, new dose does not exceed 10 mg (1 tablet) per day.
+Approval duration: 12 months
+C. Chronic Kidney Disease (must meet all):
+1. Currently receiving medication via a health plan affiliated with Envolve Pharmacy Solutions or member has previously met initial approval criteria;
+2. Request is for Farxiga;
+3. Member is responding positively to therapy;
+4. If request is for a dose increase, new dose does not exceed 10 mg (1 tablet) per day.
+Approval duration: 12 months
+D. Other diagnoses/indications (must meet 1 or 2):
+1. Currently receiving medication via a health plan affiliated with Envolve Pharmacy Solutions and documentation supports positive response to therapy.
+Approval duration: Duration of request or 12 months (whichever is less); or
+2. Refer to ERX.PA.01 if diagnosis is NOT specifically listed under section III (Diagnoses/Indications for which coverage is NOT authorized).
+III. Diagnoses/Indications for which coverage is NOT authorized:
+A. Non-FDA approved indications, which are not addressed in this policy, unless there is sufficient documentation of efficacy and safety according to the off-label use policy – ERX.PA.01 or evidence of coverage documents.
+
+

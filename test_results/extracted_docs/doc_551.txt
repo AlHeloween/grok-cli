@@ -1,0 +1,46 @@
+Fertil Steril. 2024 Jul;122(1):42-51. doi: 10.1016/j.fertnstert.2024.02.030. Epub 2024 Feb 19.
+ 
+
+ A pilot study to investigate the clinically predictive values of copy number variations detected by next-generation sequencing of cell-free deoxyribonucleic acid in spent culture media
+ Gary Nakhuda 1, Sally Rodriguez 2, Sophia Tormasi 2, Catherine Welch 2
+ Affiliations Expand
+ PMID: 38382698 DOI: 10.1016/j.fertnstert.2024.02.030
+ Free article
+ 
+
+ Abstract
+ Objective: To investigate the positive predictive value and false positive risk of copy number variations (CNV's) detected in cell free deoxyribonucleic acid (DNA) from spent culture media for nonviable or aneuploid embryos.
+ 
+
+ Design: Diagnostic/prognostic accuracy study.
+ 
+
+ Patient(s): Patients aged 35 and younger with an indication for IVF-ICSI and elective single frozen embryo transfer at a single, private IVF center.
+ 
+
+ Intervention: Embryo selection was performed according to the conventional grading, blinded to noninvasive preimplantation genetic testing for aneuploidy (niPGT-A) results. After clinical outcomes were established, spent culture media samples were analyzed.
+ 
+
+ Main outcome measures: Prognostic accuracy of CNVs according to niPGT-A results to predict nonviability or clinical aneuploidy.
+ 
+
+ Results: One hundred twenty patients completed the study. Interpretations of next-generation sequencing (NGS) profiles were as follows: 7.5% (n = 9) failed quality control; 62.5% (n = 75) no CNVs detected; and 30% (n = 36) abnormal copy number detected. Stratification of abnormal NGS profiles was as follows: 15% (n = 18) whole chromosome and 15% (n = 18) uncertain reproductive potential. An intermediate CNV was evident in 27.8% (n = 5) of the whole chromosome abnormalities. The negative predictive value for samples with no detected abnormality was 57.3% (43/75). Whole chromosome abnormality was associated with a positive predictive value of 94.4% (17/18), lower sustained implantation rate (5.6%, 1/18), and higher relative risk (RR) for nonviability compared with no detected abnormalities (RR 2.21, 95% CI: 1.66-2.94). No other CNVs were associated with significant differences in the sustained implantation or RRs for nonviability. Unequal sex chromosome proportions suggested that maternal contamination was not uncommon. A secondary descriptive analysis of 705 supernumerary embryos revealed proportions of NGS profile interpretations similar to the transferred cohort. Significant median absolute pairwise differences between certain subcategories of CNV abnormalities were apparent.
+ 
+
+ Conclusion: Whole chromosome abnormalities were associated with a high positive predictive value and significant RR for nonviability. Embryos associated with other CNVs had sustained implantation rates similar to those with no abnormalities detected. Further studies are required to validate the clinical applicability of niPGT-A.
+ 
+
+ Clinical trial registration number: clinicaltrials.gov (NCT04732013).
+ 
+
+ Keywords: Noninvasive PGT-A; PGT-A; cfDNA; niPGT-A; nonselection.
+ 
+
+ Copyright © 2024 The Authors. Published by Elsevier Inc. All rights reserved.
+ 
+
+ PubMed Disclaimer
+ 
+
+ Conflict of interest statement
+ Declaration of Interests G.N. is a shareholder in The Fertility Partners (TFP), the parent company of Olive Fertility Centre. S.R. has minority ownership interests in Sequence46. S.T. has minority ownership interests in Sequence46; C.W. has minority ownership interests in Sequence46. Thermo Fisher Scientific is a vendor to Sequence46 but does not have any other affiliations with the authors. Thermo Fisher provided consumables for the NGS methods required for the study but no direct financial support.

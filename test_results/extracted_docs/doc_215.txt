@@ -1,0 +1,34 @@
+U.S. electric vehicle sales doubled between 2020 and 2021 and account for about 4% of all
+vehicles sold. Infrastructure to charge those vehicles exists along a range, from 120 volt plugs in
+many home garages to more expensive faster chargers with more than 400 volts. Market surveys have shown that consumers
+are concerned about the lack of an extensive charging network across the country, as well as the related concerns that some
+electric vehicles have a limited range before needing to be recharged. The IIJA grant programs were designed to address
+those concerns along major U.S. highways. In addition, the IIJA directs FHWA to develop standards for charging
+infrastructure funded by certain federally programs so charging is secure, provides a range of payment options, and meets
+certain installation requirements.
+The federal government has in the past provided limited financial support for installation of electric vehicle charging stations,
+such as through the alternative fuel infrastructure tax credit—modified by the law commonly referred to as the Inflation
+Reduction Act of 2022 (IRA, P.L. 117-169)—and the Congestion Mitigation Air Quality Improvement program. With just
+over 50,000 charging stations in October 2022—and more than 130,000 ports for charging—electric vehicle charging
+capacity is far below one estimate that 2.4 million charging stations that may be necessary in 2030 to sustain an electric
+vehicle fleet of 26 million vehicles (an estimate from one group of what may be needed to support California and other
+states’ zero-emission vehicle (ZEV) goals).
+The two $7.5 billion grant programs established by IIJA are
+• The National Electric Vehicle Infrastructure (NEVI) Formula Program, which is to provide $5 billion in
+grants, with $1 billion distributed by FHWA in each of FY2022-FY2026. All states, the District of
+Columbia, and Puerto Rico are eligible, and funds must be used for charging along the national highway
+system and primarily along highways already designated as alternative fuel corridors. Under existing
+FHWA guidelines, new charging stations should be spaced a maximum of 50 miles apart. A new FHWA
+rule sets additional standards and requirements. In September 2022, all state plans were approved, opening
+access to FY2022 and FY2023 NEVI funding.
+• The Charging and Fueling Infrastructure (CFI) grant program, which is to provide $2.5 billion over five
+years to strategically deploy alternative fuel infrastructure for vehicles powered by electricity and other
+fuels. Half of the new funding is to be used along FHWA corridors earmarked for those fuels. The other
+half is to be applied to uses in public building parking lots and in similar publicly accessible locations. CFI
+grants differ from NEVI in two ways: (a) grants are to be subject to a competitive process, unlike the
+formula-based NEVI; and (b) priority are to be given to applicants in rural areas, disadvantaged
+communities, and areas with high rates of multi-unit housing. 
+
+Using only the information provided in the above context block, answer the following question: 
+
+Of the money the National Electric Vehicle Infrastructure Formula Program provides, $1 billion is distributed by which agency? 

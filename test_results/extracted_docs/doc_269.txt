@@ -1,0 +1,97 @@
+Lands and interest in lands owned by the United States (i.e., federal lands) have been withdrawn
+from agency management under various public land laws. Federal land withdrawals typically
+seek to preclude lands from being used for certain purposes (i.e., withdraw them)in order to
+dedicate them to other purposes or to maintain other public values. For example, some laws
+established or expanded federal land designations, such as wilderness areas or units of the
+National Park System, and withdrew the lands apparently to foster the primary purposes of these
+designations. Withdrawals affect lands managed by agencies including the four major land
+management agencies: the Bureau of Land Management (BLM), U.S. Fish and Wildlife Service
+(FWS), and National Park Service (NPS), all in the Department of the Interior, and the U.S.
+Forest Service (FS), in the Department of Agriculture.
+
+The first component of the example provision generally would bar third parties from applying to take ownership and
+obtaining possession of the lands or resources on the lands under public land laws. However, the lack of a comprehensive list
+of public land laws—and the lack of a single, consistent definition of the term public land laws itself over time—makes it
+challenging to determine the precise meaning and applicability. The second component generally would prevent the
+withdrawn lands from being available for new mining (e.g., under theGeneral Mining Law of 1872). The third component
+generally would prevent the withdrawn lands from being available for new mineral leasing, sale of mineral materials, and
+geothermal leasing (e.g., under the Mineral Leasing Act of 1920, Materials Act of 1947, and Geothermal Steam Act of 1970).
+Together, the three components primarily would affect BLM and FS, because laws governing lands managed by those
+agencies generally allow for energy and mineral development and provide broader authority to convey lands out of federal
+ownership than laws governing NPS and FWS lands. Typically, the three components would not bar various surface uses that
+otherwise might be allowed, possibly including recreation, hunting, and livestock grazing. However, some uses might be
+limited by Congress or by subsequent agency actions, such as amendments to land management plans, if the uses are
+inconsistent with the withdrawal’s purposes.
+Defining “Valid Existing Rights”
+As used in legislated withdrawals, a “valid existing right” is a third-party (i.e., nonfederal)
+interest in federal land that the relevant federal agency cannot terminate or unduly limit.82 To have
+a valid existing right, the third party must
+ have met the requirements under the relevant law to obtain a property interest in
+the land (i.e., the property interest must be valid);
+ have had a protectable interest before the United States withdraws the land (i.e.,
+the property interest was existing at the time of withdrawal);83 and
+ possess a property interest (or in some cases a possessory interest) in the land that
+constitutes a right for purposes of withdrawals (i.e., it must be a right).84
+Valid
+The validity of the interest depends on whether the third party has met the requirements of the
+law under which it alleges to have secured the property interest. First, the interest itself must be
+legitimate (i.e., supported by evidence of the factual basis required by the relevant statute). For
+example, to secure a mining claim as a valid right under the mining laws, a claimant must
+demonstrate that they have made a “valid discovery” of a valuable mineral deposit that can be
+extracted and marketed.
+
+Existing
+The second requirement for a third party to have a “valid existing right” is that the property
+interest existed at the time of withdrawal.90 Depending on the legal basis for the right, a third
+party obtains an interest in federal land either (1) once they meet the statutory requirements,
+without the federal agency having to act, or (2) when the federal agency exercises its discretion to
+grant the property interest after the third party meets the relevant statutory requirements.
+91 Third
+parties claiming property interests under laws that do not require the federal agency to grant the
+interest have an existing property interest as soon as they meet the law’s requirements.92 For
+example, a claimant under federal mining laws is entitled to the claim once they complete the
+statutory steps described above (discovery and location).93 Whether the Secretary of the Interior
+has issued a land patent to transfer title to the claimant does not affect the claimant’s right to the
+land; once federal mining law requirements are met, the property right “vests” (i.e., ownership is
+transferred to the claimant) and the right exists.
+94 In some cases, the claimant need not complete
+all of the required steps before the withdrawal to obtain an existing right. If the law allows claims
+to relate back to occupancy (i.e., be back-dated to when the claimant first occupied the land),
+claimants may have existing rights if they occupied the land before withdrawal and ultimately
+complete the remaining steps required by law.95
+Other laws provide that a claimant’s interest in federal land only becomes a valid existing right
+once the Secretary has acted to make it valid.
+96 For example, third parties acquire oil and gas
+leases when the Secretary of the Interior approves their application.
+97 Although courts and
+agencies have recognized these leases as valid existing rights in various contexts, they have not
+recognized applications for oil and gas leases or other leasehold interests in federal land.
+
+Courts and agencies have at times concluded that a third party has a valid existing right despite
+not having established an interest by law before the land is withdrawn.
+99 The Solicitor of the
+Department of the Interior has offered “an expansive interpretation of ‘existing valid rights’ in the
+context of withdrawal”
+100 that includes “all prior valid applications for entry, selection, or
+location, which were substantially complete at the date of the withdrawal” and “[c]laims under
+the Color of Title Act of December 22, 1928.”101 A court or agency also may recognize a valid
+existing right, even if the claimant is not legally entitled to it, because it would be equitable (i.e.,
+consistent with the principles of justice).
+102
+Rights
+Not all uses of or interests in federal land qualify as valid existing “rights.” The third party
+usually must have obtained a property interest in the land to have a right; merely using the land
+generally is insufficient to establish a valid existing right.
+103 To determine whether the asserted
+interest qualifies as a right, courts and agencies examine the law authorizing the interest and the
+withdrawal law.104 Courts and agencies have recognized a number of property interests as
+protected rights, such as entitlements to land patents under mining laws and entry-based laws
+such as the Homestead Acts and the Trade and Manufacturing Site Act;105 land grants to states;106
+rights-of-way;107 and mineral leases.108
+Courts and agencies also have deemed certain possessory interests protected, the most common
+example being perfected but unpatented mining claims.
+109 However, they have declined to
+recognize other possessory interests as valid existing rights.110 Courts and agencies have generally
+not recognized permits, such as grazing permits, as protected property rights for purposes of
+interpreting withdrawals, absent a specific provision in the withdrawal law or order.111
+

@@ -1,0 +1,341 @@
+Analysis of the Google Glass Failure and Why Things May Be Different Now
+A Research Paper submitted to the Department of Engineering and Society
+Presented to the Faculty of the School of Engineering and Applied Science
+University of Virginia • Charlottesville, Virginia
+In Partial Fulfillment of the Requirements for the Degree
+Bachelor of Science, School of Engineering
+Tyler Labiak
+Spring, 2021
+On my honor as a University Student, I have neither given nor received
+unauthorized aid on this assignment as defined by the Honor Guidelines
+for Thesis-Related Assignments
+Signature __________________________________________ Date __________
+Tyler Labiak
+Approved __________________________________________ Date __________
+Sharon Tsai-hsuan Ku, Department of Engineering and Society
+5/8/2021
+Introduction
+As technology continues to advance at breakneck speeds into the unknown, humans are
+increasingly defined by their creations. Inventions alter history, mediate human-perception,
+deepen (or obscure) knowledge, and modify socialization. Also, throughout history, technology
+has come to exist through human political, economic, cultural, and social factors (Law, 1987).
+To best understand and guide the development of technology, and consequently humanity, much
+work has been done researching the social means by which technology comes to exist and,
+inversely, the effects of technology on society.
+ Of course, the human drivers behind technology’s development and adoption are not
+static. Social constructs like privacy, data ethics, safety standards, and social norms change over
+time as society changes and, consequently, as technology changes. Therefore, technology must
+be evaluated in the context of its creation and usage. This paper hopes to highlight this temporal
+element in analyzing technology in the context of a dynamic society.
+Google Glass is a device that society rejected not as a bad piece of technology, but rather
+as a socio-technical artifact. The reality of Google Glass is that its engineers did not consciously
+design the human-technological interaction that they were creating and failed to see how the
+product would affect social interactions and perceptions of privacy. As a result, there was
+backlash against the product leading to its failure. However, today’s attitudes surrounding
+technology and privacy have further laxed; technological advances have shaped a sociotechnical
+context where Glass may succeed today or in the future. This paper utilizes Actor Network
+Theory to demonstrate how Google failed to coalesce a human, non-human network in
+developing Glass, expanding on prior work to show how the conditions surrounding Glass have
+evolved with time. To achieve the above conclusions, this paper analyzes media and primary
+sources from the time of release of Glass, academic and retrospective journalism pertaining to
+the failure of Glass, interviews with non-experts and experts about this technology, and current
+Glass enthusiasts via the Google Glass subreddit.
+Literature Review
+In April 2013 Google began accepting applications for the public to purchase a pair of
+smart glasses that Google believed was a major step in the direction of their dream “that
+computers and the Internet will be accessible anywhere and we can ask them to do things without
+lifting a finger” (Miller, 2013). This was the Explorer version of Google Glass, outfitted with a
+small screen and camera, and connected to a smartphone and the internet over Bluetooth or Wifi
+(Miller, 2013). Essentially a beta test for developers, the purpose of the “Explorer program [was]
+to find out how people want to (and will) use Glass” (Topolsky, 2013). The expectations around
+Google Glass were massive, with Business Insider (2013) expecting a $10.5 billion dollar
+opportunity for Google as unit sales would increase and the price would decrease until Glass was
+the next “ubiquitous” technology. However, the glasses failed spectacularly with media citing
+that Google overpromised and underdelivered (Yoon, 2018). Of course, this does not tell the
+entire story.
+ Many people will not know that Google Glass still exists in the form of Glass Enterprise.
+Google rebranded the tech to sell to manufacturing, healthcare, and logistics businesses for a
+workplace hands-off augmented reality computer (“Glass”, 2021). Similarly, Microsoft Hololens
+allows a headset based industrial mixed reality solution (“Hololens”, 2021). So, if these
+technologies have proven themselves in a commercial space, what went wrong in the public
+setting? During Glass’s Explorer phase there was a slew of privacy concerns associated with the
+fact that wearing Glass meant wielding a camera at all times. To some, Google Glass was a rare
+example of people pushing back against big tech regarding privacy. People were kicked out of
+bars because of the recording aspect, the NYT ran a front-page story about privacy concerns,
+activists set up groups to push back against the product, and policies were implemented that
+forbid people from taking pictures without consent (Eveleth, 2018). Kudina and Verbeek (2019)
+explored how Glass mediated the value of privacy by analyzing YouTube comments from the
+time of release. However, there is little consideration given to the temporal aspects of sociotechnical interaction. It is essential that Glass is examined, not only in the context of its release,
+but also with respect to changing norms, human perceptions, and technologies. Without asking
+these questions, we remain unprepared to answer whether a similar technology could succeed
+today or in the future.
+ “Ethics from Within: Google Glass, the Collingridge Dilemma, and the Mediated Value
+of Privacy” by Olya Kudina and Paul-Peter Verbeek (2019) examines online discussions about
+Google Glass, particularly comments on a YouTube video produced by Google, in order to
+understand “how people articulate new meanings of the value of privacy.” This case study serves
+as a demonstration of Verbeek’s own Theory of Technological Mediation, which allows a focus
+on “the dynamics of the interaction between technologies and human values” as a way of
+addressing the Collingridge Dilemma, which applied here says that when a technology is young
+it is unknown how it will affect systems, and that by the time the morality surrounding
+technology is clear, it is difficult to develop the already widespread technology.
+ According to mediation theory, engineers design not just products, but they design
+human-technological interactions in the world. Technology acts as a mediator, shaping personal
+experiences and objects while humans and tech are not separate, but affect each other in their
+relations. Rather than speculating about the future, “it studies the dynamics of technomoral
+change itself.” While Verbeek’s paper serves as a launch point for human perception around the
+time of Glass’s release, and is drawn upon greatly in the below analysis, the data set is of course
+not representative of today’s cultural technological landscape. Therefore, this paper hopes to
+extend on this work in describing not just Glass’s initial rejection given its social context at the
+time, but also inspect perceptions of the technology today.
+Conceptual Frameworks and Research Methods
+ This paper draws mainly on Darryl Cressman’s (2009) overview of Actor Network
+Theory and the following definitions are derived from his work unless otherwise cited. In Actor
+Network Theory everything, both human and non-human can be viewed as both an actor and a
+network. These actor networks are therefore sociotechnical in nature, and they are sometimes
+referred to as heterogenous networks. A network is defined by the associations it describes;
+therefore, power of the network and association are intertwined. Additionally, power and
+meaning are not inherent to any single actor within a network, rather they are associative,
+relational and contextual. When that actor becomes part of another network its associations
+change, and as a result its power or meaning changes. Meaning is ascribed to actors with a
+network contextually rather innately (Cressman, 2009).
+ Engineers in ANT practice heterogeneous engineering, assembling actor networks that
+are both human and technical in nature. To understand how the world works, practitioners of
+ANT must understand how economic, political, social, and technological understanding interact
+with each other. In contrast to other STS theories, ANT is symmetrical in the influence of both
+the technical and nontechnical (Cressman, 2009).
+Technological innovation comes from the process in ANT known as translation. This is
+the process by which both the social and technical actors are recruited into a network. This does
+not happen at once, rather actors are recruited in a gradient as the network gradually becomes
+more robust. In understanding the world through ANT, there is an emphasis on connections
+rather than the individual, and these connections are not all equal (Cressman, 2009).
+The conclusion of Actor Network Theory is that for a network to succeed, an engineer
+must consider all actors human, nonhuman, technical, political, economic, social, etc. Engineers
+are therefore world builders (Law, 1987), and recruiting actors to make a socially robust network
+is the triumph of a network. Neglecting the social aspects, or encountering rogue actors, leads to
+a failed network. It will be shown that this is exactly how Google failed as a network builder;
+thus, the tools of ANT were chosen to explore this dynamic.
+In addition to the academic papers cited and journalistic releases analyzed below, two
+means of research were also applied. In order to gain a sense of how potential users today
+perceive Google Glass or similar technology, interviews were conducted on a group of nonexperts and peers, as well as one industry expert, and enthusiasts of the technology were gauged
+via posts on the Google Glass enthusiast subreddit “r/googleglass”.
+The purpose of the interviews was not to poll a representative set of the opinions
+surrounding Glass, rather to guide research and find some interesting perspectives surrounding
+the technology and privacy today. Subjects were aged 22 to 57 and varied in occupation,
+education and sex. All interviewees could be broadly incorporated in a target audience for
+Google, as all of them consume smart technology already. The interviewees were asked what
+they knew about Google Glass, then asked a set of questions about smart technology, ubiquitous
+recording, privacy, and legality, and finally were asked to give their opinion on the viability of a
+product like Glass coming back in the future. Interviewees’ knowledge regarding Glass ranged
+from having never heard of the product, to familiarity, to an industry insider who markets
+technology products for Apple and has worked with former Glass developers. It is important to
+emphasize that these interviewees were not randomly selected and do not number great enough
+to act as a focus group of sorts for the product, but they guided research and topic discovery as
+well as offer a scope of perspectives in this area.
+The second group considered are users of the subreddit “r/googleglass.” This is an
+enthusiast forum dedicated to the technology. The studied materials consisted of the forum “Top,
+This Year” as of March 2021, meaning that these posts were the most “upvoted,” or received the
+most positive interactions on that forum for the year. These posts were chosen because they
+represent the most popular current opinions and perceptions from the enthusiast community.
+Analysis
+In the case of Glass, Google serves as the network builder in assembling Glass, not just
+the technology but also the human technical interactions. In ANT, technology and society are
+dual, in that they exert influence on and shape each other. This is also articulated by Verbeek
+through his Technological Mediation framework, claiming that Glass mediates privacy itself. In
+the below section, media from the time of Glass’s release will be analyzed to see how the
+associations of Glass with these rogue actors lead to the destabilization of the network all
+together.
+ Moving chronologically, the first article analyzed is from February 2013, nearly two
+months prior to the launch of the explorer version of Glass. A writer from The Verge met with
+Google Glass lead designers for an early test of the product. The author of the article is, as
+expected of a tech magazine writer, very optimistic about Google Glass noting the “tremendous
+value and potential.” He praises the design, appearance, functionality and wearability of the
+device but also posts an early warning sign about the fate of Glass:
+“At one point during my time with Glass, we all went out to navigate to a nearby
+Starbucks — the camera crew I’d brought with me came along. As soon as we got inside
+however, the employees at Starbucks asked us to stop filming. Sure, no problem. But I
+kept the Glass’ video recorder going, all the way through my order and getting my coffee.
+Yes, you can see a light in the prism when the device is recording, but I got the
+impression that most people had no idea what they were looking at. The cashier seemed
+to be on the verge of asking me what I was wearing on my face, but the question never
+came. He certainly never asked me to stop filming.” (Topolsky, 2013)
+ The author is keenly aware of the issues looming for Google Glass, saying in his own
+words, “The privacy issue is going to be a big hurdle for Google with Glass”. When he brought
+this up to the Glass designers he met with (product director Steve Lee and lead industrial
+designer Isabelle Olsson). Their belief was that the explorer program was their way of
+developing an etiquette surrounding Glass. The use and misuse of the program would be
+monitored by Google and feedback would move the product forward. The author then remarks
+“that’s not going to answer questions about what’s right and wrong to do with a camera that
+doesn’t need to be held up to take a photo, and often won’t even be noticed by its owner’s
+subjects. Will people get comfortable with that? Are they supposed to?” (Topolsky, 2013) From
+an ANT perspective, privacy is not just a concept but rather a socio-technical actor existing in
+their network. It is equally important for Google to consider how Glass allows people to record
+the world and affect others notions of privacy. However, there is almost an apathy here in the
+Explorer program. Google acknowledges that through the Explorer program they can develop an
+etiquette around Glass, while recruiting people to their network, but without taking an active role
+in designing a project that is socially harmonious, their network is unstable. As the author stated,
+their tech fails to answer the questions about what people will do with a camera and if that’s
+okay.
+ Google’s technological optimism, or potentially their naivete, comes through perhaps
+strongest in an influential New York Times article from the time of release of Google Glass. This
+article, titled “Google Glass Picks Up Early Signal: Keep Out” details the negative responses that
+Google Glass was getting form various places around the country, and contrasts it with Google’s
+reputation for being cavalier around privacy. The article quotes Google’s former CEO Eric
+Schmidt in 2009 saying, “If you have something that you don’t want anyone to know, maybe you
+shouldn’t be doing it in the first place” (Streitfield, 2013). It is clear that this policy permeates
+through to their implementation of Glass, which potentially immortalizes the public realm
+through ubiquitous recording, thus making potentially everything known to everyone. A
+contributing law expert is quoted as saying “We are all now going to be both the paparazzi and
+the paparazzi’s target” (Streitfield, 2013). Furthermore, the article reports that app developers
+made photography with glass as discrete as simply winking in one application (Streitfield, 2013).
+To many this makes Glass even more intrusive, and although it is unclear if Google would have
+allowed a feature like this in their final release, the Explorer program was essential for gradually
+recruiting public acceptance into the Glass network. Of course, they failed to do so.
+The New York Times article also speaks on a Seattle bar that banned Glass. The owner of
+the bar reported to Geekwire that Glass disrupted the private and seedy culture of his bar:
+“People want to go there and be not known … and definitely don’t want to be secretly filmed or
+videotaped and immediately put on the Internet” (Bishop, 2013). He also notes that “tech geeks”
+from Amazon frequent the bar, and he doesn’t want them using Glass inside. This “tech geek
+backlash” is another overarching theme regarding these reactionary articles. As one writer put it,
+“Google’s core mistake was allowing geeky developers to become the face of Glass” (Constine,
+2017). This made recruitment of a more privacy conscious group difficult for Google, since all of
+a sudden there was an Us vs the “Glassholes” dynamic.
+The Five Point owners, the geeky big tech employees, and its various bargoers represent
+a key factor that must be considered when assembling a socially robust network. The
+associations surrounding actors in a network are entirely variable and context dependent. Where
+Google employees may look favorably on how Glass impacts social dynamics, the same is not
+true of all society. The heterogenous engineer of ANT does engineering outside the lab creating a
+network that is socially robust, while Google perhaps looks only inward on its own norms.
+Kudina and Verbeek’s (2009) paper using Technological Mediation digs deeper into how
+Google approached human behavior and Glass. Google called on the best judgement of its users
+and published a list of dos and don’ts surrounding Glass and sat back to observe. The author
+turns to gauging Glass’s mediation of privacy and social interaction via YouTube comments on
+this list of dos and don’ts during the explorer phase of Glass. One conclusion is that “Glass
+appears as a mediating boundary object between what commenters consider private even in the
+most public places and what is violated when the device is introduced,” and to online
+commenters “the privacy of forgetting [is] at stake with Glass.” As a designer, under
+Technological Mediation, Google creates the mediations, and perhaps for Glass to succeed they
+needed to be aware of what human interactions and perceptions were actually being designed.
+This wraps into actor network theory nicely, since under ANT designers are responsible for
+recruiting the actors that are both human and nonhuman to a sociotechnical network. The
+designers are the builders of society, and Google failed in creating a network that is stable both
+socially and technically. A few years later, SnapChat created the spectacles which were smart
+glasses that allowed users to record footage and post to snapchat. However, without addressing
+the social issues, the same fate occurred and this network too failed as reported by TechCrunch:
+“Google Glass tainted the market with its ‘not sure if you’re recording me’ design. Even though
+Snap put more obvious recording signal lights on Spectacles, people would still question you
+about whether they were on camera. That not only made people uncomfortable being around
+Spectacles, but made you feel like a bit of a creep just wearing them” (Constine, 2017).
+This is not to say that there is no hope for augmented reality. Google Glass still exists in
+the form of Glass Enterprise. Google rebranded the tech to sell to manufacturing and healthcare
+businesses. In this space the context is completely different, and the expectation of privacy
+spoken about by Verbeek does not exist in the same caliber. Privacy, under ANT, can be
+considered an actor-network, since it is defined by humans and technological relations.
+Therefore, it is also subject to the contextuality present in ANT and takes on a different meaning
+in the workplace. There is already perhaps an expectation of being observed at work, at least to
+some extent, and especially in manufacturing settings. Computer surveillance software, security
+cameras, and sensors in manufacturing monitor people’s actions already in a way that would be
+unacceptable in the private space. From an ANT perspective this clearly represents the idea of
+variable meanings of actors in different networks. As a result, Google is able to recruit
+companies and people to their enterprise network, where associations with privacy hold different
+meanings. Strictly speaking, the technology for these products to exist was never the problem;
+rather, Glass, people, and privacy take on different meanings in a business setting and the public
+space.
+While Glass may have been initially deemed unacceptable by society, human perceptions
+are subject to change as a result of the technical landscape that permeates life around us. Much
+has changed since 2013 when Glass was released. The privacy paradox states that individuals
+may desire privacy, but are willing to exchange it for the benefits of technology (Eveleth, 2018).
+What was once considered off limits could potentially now be acceptable, as technology has
+shaped our views of what is wrong and right. Evidence of this lies in the still active Reddit group
+dedicated to Google Glass. Users here are still developing software for Glass including the top
+poster writing about hacking a version of Android onto Glass. There are many posts about
+buying and selling the technology as well as discussing alternative smart glasses. The discussions
+in the community consist of instructions on how to load firmware updates onto Glass as well as
+loading custom apps such as Netflix which is popular among users on the subreddit.
+Additionally, there are troubleshooting posts, guides, blogs and external repositories of apps
+discussed, linked and posted on the forum. In stark contrast to the YouTube comments analyzed
+by Verbeek, these users have embraced Glass and taken on the role of designers in an enthusiast
+ecosystem. The general consensus here is also a longing or even optimism about new Google
+Glass products, and that the original Glass was “ahead of its time”.
+In conducted interviews, while the subjects varied in terms of their individual privacy
+beliefs, no subject so far has said that Glass or a similar device should be banned. More
+importantly, there was consensus that a product like Glass could or will exist in the future. One
+expert who Apple contracts for marketing, said “if Apple released their version of Google Glass
+in two years it will be everywhere.” Others, especially young people, saw no problem
+whatsoever with the technology, even after having experts’ concerns explained. The justification
+was that privacy is already so compromised by technology and governments. Nearly all
+interviewees believed that if a product like this came out in the future, and was a commercial
+success they would see no problem at all. Like the reddit users, these interviewees are a far cry
+from the mainstream privacy worry in 2013.
+In observing both Reddit posters and interviewees, one cannot determine for certain
+whether Google Glass could reclaim success today. However, these examples show that the
+meaning of actor networks can be derived from context that is time dependent as well. Glass is
+not innately moral or immoral. Rather, Society’s expectations for privacy, and their morals
+surrounding the subject, change with time and the influence of technology. In Actor Network
+Theory this is the symmetry of humans affecting technology and technology impacting humans.
+While Google failed to realize how these human factors played into their network originally,
+perhaps today or in the near future privacy, as its own actor network, will evolve in such a way
+that Glass can exist as a socially robust network.
+Conclusion
+Google Glass is an actor-network that dissolved, not as a result of its technology or any
+specific actor, but rather because of the associations and context these human and nonhuman
+actors take on in translating the network. In a public space, from the beginning Glass represented
+a form of ubiquitous and secret recording, because there was the assumption that anybody at any
+time could be caught on the glasses’ camera. Technology mediates human perception, and in this
+case, Glass lends new meaning to what is considered private. In an Actor Network framework,
+this is a demonstration of the symmetry of human and non-human artifacts influencing each
+other, and without these considerations the network was bound to fail. Rather than design a
+product that was both social and technical, Google maintained its cavalier approach to privacy,
+not considering how people may have reacted to digitalizing the world’s eyesight.
+ Google employees and glass users at the time were optimistic about the future of the
+product, believing that the product would come to be socially acceptable. This captures the idea
+of association and context ascribing meaning in ANT. While Glass may have been acceptable in
+Silicon Valley, it did not get the same reception in the main stream. Similarly, while Google
+could not release this product to the public it has faced success in manufacturing, healthcare, and
+logistic settings as have other augmented reality headsets. Again, here privacy and people’s
+expectations take on a new meaning in the Google Glass Enterprise actor-network.
+ Much has changed since the release of Google Glass. It has become an expectation in
+these times that users trade free services for their own personal data. We have all had our ideas
+of privacy mediated by technology in this way. It may be possible then, that in the current year or
+in the future a product like Glass will resurface, as it has done in the manufacturing space. Some
+Reddit users, for example, have put Google Glass to use in their own lives, modifying and
+distributing updated software for the glasses. The consensus on these forums is that Glass was
+ahead of its time, and there is consensus among interviewed potential users that a product like
+this could succeed. From an ANT perspective, again it is clear that the context of associations
+within the network matter, rather than the individual parts, and these are all dynamic with respect
+to time. If a product like Glass was to reach mainstream success, it would not be strictly the
+technology, but rather the recruitment of the technology, the human users, and the social norms
+of today or the future that yield a stable network.
+ While Google Glass as a high-profile product failure has been written about extensively,
+there is little in the vein of an STS perspective, and that work focuses on the lens of society at
+Glasses release date. The efforts of this paper are to provide an example of how the tools of ANT
+can be used to not only analyze the building (and failure) of a technology, but also emphasize
+how associations change with context, specifically time. These considerations are essential for
+understanding not just the deployment of future technologies, but also the transient nature of
+social norms.
+
+References
+Bishop, T. (2013, March 8). No Google Glasses allowed, declares Seattle dive bar. GeekWire.
+https://www.geekwire.com/2013/google-glasses-allowed-declares-seattle-dive-bar/
+Constine, J. (2017, October 28). Why Snapchat Spectacles failed. TechCrunch.
+https://social.techcrunch.com/2017/10/28/why-snapchat-spectacles-failed/
+Cressman, D. (2009). A Brief Overview of Actor-Network Theory: Punctualization, Heterogeneous
+Engineering & Translation. https://summit.sfu.ca/item/13593
+Eveleth, R (2018). Google Glass Wasn’t a Failure. It Raised Crucial Concerns. WIRED. (n.d.).
+Retrieved November 1, 2020, from https://www.wired.com/story/google-glass-reasonableexpectation-of-privacy/
+Glass. (n.d.). Glass. Retrieved November 2, 2020, from https://www.google.com/glass/start/
+Insider, B. (n.d.). BI INTELLIGENCE FORECAST: Google Glass Will Be An $11 Billion Market By
+2018. Business Insider. Retrieved November 1, 2020, from
+https://www.businessinsider.com/google-glass-11-billion-market-by-2018-2013-5
+Kudina, O., & Verbeek, P.-P. (2019). Ethics from Within: Google Glass, the Collingridge Dilemma,
+and the Mediated Value of Privacy. Science, Technology, & Human Values, 44(2), 291–314.
+https://doi.org/10.1177/0162243918793711
+Law, J. (1987). On the Social Explanation of Technical Change: The Case of the Portuguese Maritime
+Expansion. Technology and Culture, 28(2), 227–252. https://doi.org/10.2307/3105566
+Microsoft HoloLens | Mixed Reality Technology for Business. (n.d.). Retrieved March 27, 2021, from
+https://www.microsoft.com/en-us/hololens
+Miller, C. C. (2013, February 21). Google Searches for Style. The New York Times.
+https://www.nytimes.com/2013/02/21/technology/google-looks-to-make-its-computer-glassesstylish.html
+Streitfeld, D. (2013, May 7). Google Glass Picks Up Early Signal: Keep Out. The New York Times.
+https://www.nytimes.com/2013/05/07/technology/personaltech/google-glass-picks-up-earlysignal-keep-out.html
+Topolsky, J. (2013, February 22). I used Google Glass: The future, but with monthly updates. The
+Verge. https://www.theverge.com/2013/2/22/4013406/i-used-google-glass-its-the-future-withmonthly-updates

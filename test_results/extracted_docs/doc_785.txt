@@ -1,0 +1,73 @@
+What Are Patents?
+Patents are a form of intellectual property that give their holders the exclusive right to practice
+their inventions (i.e., make, use, sell, offer to sell, or import them) for a limited period of time.
+The Constitution gives Congress the power to grant patent rights to inventors by authorizing
+Congress to “promote the Progress of Science and useful Arts, by securing for limited Times to . .
+. Inventors the exclusive Right to their respective . . . Discoveries.”13 Since 1790, Congress has
+enacted patent laws granting inventors certain exclusive rights in their inventions for a period of
+time.14 (Currently, patents expire 20 years after the date that the patent application that gave rise
+to the patent was filed.15) Patents represent a “quid pro quo” by which the inventor publicly
+discloses an invention in exchange for time-limited, exclusive rights to practice it.
+16 In the United
+States, USPTO is responsible for evaluating patent applications and granting patents on
+qualifying inventions, as explained below.17
+11 See, e.g., id.; ALLIANCE OF U.S. STARTUPS AND INVENTORS FOR JOBS, Why Patents Matter, https://www.usij.org/whypatents-matter/ (last visited Mar. 28, 2024).
+12 See, e.g., Gene Quinn, A Kinder, Gentler ‘Death Squad’: Ten Years in, Despite Some Reforms, the USPTO Is Still
+Killing U.S. Patents, IP WATCHDOG (Sept. 19, 2021, 12:15 PM), https://ipwatchdog.com/2021/09/19/kinder-gentlerdeath-squad-ten-years-despite-reforms-uspto-still-killing-u-s-patents/id=137765/; Oil States Energy Servs. v. Greene’s
+Energy Grp., 584 U.S. 325, 345–47 (2018) (Gorsuch, J., dissenting).
+13 U.S. CONST. art. I, § 8, cl. 8.
+14 See, e.g., 35 U.S.C. § 271 (setting forth how patents may be infringed).
+15 Id. § 154(a)(2). Patent terms can be extended in some circumstances, such as delays by USPTO in reviewing a patent
+application. See id. §§ 154(b), 156.
+16 J.E.M. Ag Supply, Inc. v. Pioneer Hi-Bred Int’l, Inc., 534 U.S. 124, 142 (2001) (“The disclosure required by the
+Patent Act is ‘the quid pro quo of the right to exclude.’” (quoting Kewanee Oil Co. v. Bicron Corp., 416 U.S. 470, 484
+(1974))); see also Universal Oil Prods. Co. v. Globe Oil & Refin. Co., 322 U.S. 471, 484 (1944) (“As a reward for
+inventions and to encourage their disclosure, the United States offers a . . . monopoly to an inventor who refrains from
+keeping his invention a trade secret. But the quid pro quo is disclosure of a process or device in sufficient detail . . . .”).
+17 See infra “How Do Inventors Obtain a Patent?”.
+
+Once granted, the holder of a valid patent has the exclusive right to make, use, sell, or import the
+invention in the United States until the patent expires.18 Any other person who practices the
+invention without permission from the patent holder infringes the patent and is liable for
+monetary damages, and possibly subject to injunctive relief, if sued by the patentee.
+19 Patents
+have the attributes of personal property, and the patentee may sell or assign the patent to another
+person.20 A patentee may also license other persons to practice the invention, granting them
+permission to make, use, sell, or import the invention, usually in exchange for consideration (such
+as monetary royalties).21
+What Inventions Can Be Patented?
+In order to be patented, an invention must meet four substantive requirements: The invention
+must be (1) directed to patentable (or “eligible”) subject matter, (2) new, (3) nonobvious, and
+(4) useful.22 In addition to these four substantive patentability requirements, the Patent Act
+imposes minimum requirements for the technical disclosure of the invention in the patent
+application, which must adequately describe and distinctly claim the invention.23 As discussed in
+this report, PTAB administers certain proceedings in which petitioners may seek to invalidate a
+patent previously granted by USPTO on the grounds that the patent fails to satisfy certain of these
+requirements. This section briefly surveys these patentability requirements.
+Eligible Subject Matter Requirement
+The Patent Act allows inventors to obtain patents on any new and useful “process, machine,
+manufacture, or composition of matter, or . . . improvement thereof.”24 Examples of technological
+areas for patentable inventions include pharmaceuticals, biotechnology, chemistry, computer
+hardware and software, electrical engineering, mechanical engineering, and manufacturing
+processes.25 By contrast, the Supreme Court has long held that “laws of nature, natural
+phenomena, and abstract ideas” are not patentable.26 The Court has reasoned that to permit a
+monopoly on the “‘basic tools of scientific and technological work’ . . . might tend to impede
+innovation more than it would tend to promote it.”27
+In a series of cases in the 2010s, the Supreme Court established a two-step test for patentable
+subject matter, sometimes called the Alice test or the Alice/Mayo framework.28 The first step
+18 35 U.S.C. § 271(a).
+19 Id. §§ 271, 281, 283–285.
+20 Id. § 261.
+21 License, BLACK’S LAW DICTIONARY (10th ed. 2014); 35 U.S.C. § 271(a).
+22 See 35 U.S.C. §§ 101–103.
+23 Id. § 112; see generally Hickey, supra note 4, at 12–14.
+24 35 U.S.C. § 101.
+25 See USPTO, PATENT TECHNOLOGY CENTERS MANAGEMENT, https://www.uspto.gov/patent/contact-patents/patenttechnology-centers-management (last visited Mar. 28, 2024) (listing technological divisions for USPTO examiners).
+26 Diamond v. Diehr, 450 U.S. 175, 185 (1981); see generally Hickey, supra note 4, at 10–20 (overviewing
+development of the law of patent-eligible subject matter).
+27 Mayo Collaborative Servs. v. Prometheus Lab’ys, Inc., 566 U.S. 66, 71 (2012) (quoting Gottschalk v. Benson, 409
+U.S. 63, 67 (1972)).
+28 See Alice Corp. Pty. Ltd. v. CLS Bank Int’l, 573 U.S. 208 (2014); Ass’n for Molecular Pathology v. Myriad
+Genetics, Inc., 569 U.S. 576 (2013); Mayo Collaborative Servs., 566 U.S. at 66. USPTO has issued guidelines for its
+patent examiners to determine whether a patent application seeks to claim ineligible subject matter. See 2019 Revised
+Patent Subject Matter Eligibility Guidance, 84 Fed. Reg. 50 (Jan. 7, 2019).

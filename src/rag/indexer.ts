@@ -194,6 +194,8 @@ function chunkByLines(
 export async function indexProject(options: RagIndexOptions = {}): Promise<RagIndexResult> {
   const cwd = options.cwd || process.cwd();
   const settings = getSettingsManager();
+  const quantize = options.quantize !== undefined ? options.quantize : settings.getRagQuantize(cwd);
+  const quantizePreload = options.quantizePreload !== undefined ? options.quantizePreload : settings.getRagQuantizePreload(cwd);
   const dbPath = settings.getRagDbPath(cwd);
   const ignoreRules = loadRagIgnore(cwd);
 
@@ -383,9 +385,9 @@ try {
     throw err;
   }
 
-  if (db && options.quantize) {
+  if (db && quantize) {
     try {
-      db.quantize(!!options.quantizePreload);
+      db.quantize(!!quantizePreload);
     } catch {
       // ignore quantize failures (e.g. empty DB)
     }

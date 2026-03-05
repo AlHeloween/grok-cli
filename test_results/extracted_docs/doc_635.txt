@@ -1,0 +1,169 @@
+Consumer Guide to Tenant and Landlord Rights
+Version 1.1. Last updated June 13, 2022. 11
+a claim of housing discrimination based on a protected category.
+V. ENDING A LEASE
+A periodic lease (month-to-month or year-to-year) most often ends in one of three ways:
+• You move out before the end of the term
+• You or the landlord gives notice 15 days before the end of the term that the lease will
+not renew
+• You or the landlord materially breaches the lease
+A lease for a fixed period of time most often ends in one of three ways:
+• You move out before the end of the term
+• The term of the lease expires and the parties do not agree to renew
+• You or the landlord materially breaches the lease
+A. Early Termination
+There is no stand-alone right to terminate a lease early, and many lease agreements do not
+allow a tenant to terminate early. If you voluntarily move out before the end of the lease, the
+lease does not allow for early termination, and the landlord has not breached any of their
+obligations, then you will likely be responsible for paying rent until the lease expires or until the
+landlord rents the unit to a new tenant.
+In Pennsylvania, the landlord has no obligation to locate a new tenant to rent the unit. If you
+move out early, the landlord may be able to make you pay rent for the rest of the lease term.
+B. Security Deposit Refund and Deductions
+To have your security deposit refunded, you must provide the landlord with a forwarding
+address and return the keys to the property. 68 P.S. § 250.512(e). Before leaving, clean the unit
+as thoroughly as possible and take photos to document its condition.
+Within 30 days after you have moved out, the landlord must either return the entire security
+deposit or send you a list of damages, the cost of repairs, and any money remaining from the
+security deposit. 68 P.S. § 250.512(a). Permissible deductions include “actual damages” to the
+rental unit. Id.
+If the landlord does not provide a written list of damages within 30 days, they may not keep any
+part of the security deposit. 68 P.S. § 250.512(b). You may then sue to recover double the
+amount of the deposit minus any actual damages as determined by a court. 68 P.S. §
+250.512(c).
+If, within 30 days, the landlord fails to pay you the difference between the security deposit and
+the actual damages to the property, the landlord is liable for double the amount by which the
+Consumer Guide to Tenant and Landlord Rights
+Version 1.1. Last updated June 13, 2022. 12
+security deposit exceeds the actual damages to the property. 68 P.S. § 250.512(b)-(c).
+If you break the lease, the security deposit may be forfeited. 68 P.S. § 250.512(a).
+C. Eviction
+A landlord may seek to evict you if you fail to pay rent, fail to move out at the end of the lease,
+or violate a term of the lease. 68 P.S. § 250.501(a).
+Landlord “self-help” eviction is prohibited – i.e., landlord may not change your locks or shut off
+your utility service to initiate an eviction. Instead, the landlord must follow the process below.
+Some cities in Pennsylvania, such as Philadelphia, may have eviction diversion or mediation
+programs designed to help you and the landlord come to an agreement without using the court
+process or creating an eviction record.
+1. Notice to Quit
+To begin eviction, the landlord must first give you a written eviction notice known as a Notice
+to Quit.
+• If the eviction is for failure to pay rent or for use of illegal drugs, the Notice to Quit must
+give the tenant 10 days to leave voluntarily. 68 P.S. §§ 250.501(b), 250.505-A.
+• If the eviction is for a breach of any other condition of the lease and the lease is for one
+year or less (or an indeterminate time), the notice to quit must give the tenant 15 days
+to leave voluntarily. 68 P.S. § 250.501(b).
+• If the eviction is for a breach any other condition of the lease and the lease is for more
+than one year, the notice to quit must give the tenant 30 days to leave voluntarily. 68
+P.S. § 250.501(b).
+The landlord must notify you of the notice to quit in one of three ways, 68 P.S. § 250.501(f):
+• Give you the notice personally
+• Leave the notice at the main building of the leased property
+• Post the notice conspicuously on the leased property
+Notice requirements may be and are often waived in the lease under a Waiver of Notice to
+Quit provision. If the notice is validly waived, the landlord is permitted to take you to court (see
+Landlord Tenant Complaint (Part V.C.2) below), without any advance notice. 68 P.S.
+§ 250.501(e).
+The Office of Attorney General encourages all landlords across the Commonwealth to deal fairly
+with tenants by not including Waiver of Notice to Quit provisions in lease agreements and by
+providing tenants with notice before beginning eviction proceedings.
+Consumer Guide to Tenant and Landlord Rights
+Version 1.1. Last updated June 13, 2022. 13
+2. Landlord-Tenant Complaint
+If you do not voluntarily leave the unit within the time period listed in the notice to quit, the
+landlord still cannot evict you themselves. Instead, the landlord must file a legal action in court
+often referred to as a Landlord-Tenant Complaint.
+The complaint will be filed with your county’s Magisterial District Court, or in Philadelphia, the
+Philadelphia Municipal Court, or in Allegheny County, the Housing Court. The complaint will
+ask for possession of the unit and may also ask for back rent or damages. 246 Pa. Code § 503.
+After the complaint is filed, the court will issue a summons to you, which is a copy of the
+complaint and a notice to appear at a hearing on a specific date and time. 246 Pa. Code § 504.
+The court will serve the summons by mailing a copy to you at your last known address by First-
+Class Mail. 246 Pa. Code § 506. A sheriff or certified constable will also serve you with the
+summons personally or by posting it conspicuously on the leased property. Id.
+If you have any claims against the landlord for breach of the lease—for example, a breach of
+the Implied Warranty of Habitability (Part IV.C)—you may file a counterclaim, but you must do
+so before the date of the hearing. 246 Pa. Code § 508.
+Each court will have slightly different rules for how it processes landlord-tenant complaints.
+Make sure to check the local rules (sometimes called local civil rules or rules and procedures)
+for the court where the complaint was filed to make sure you are aware of how the court
+operates. For example, the Philadelphia Municipal Court will continue (i.e., postpone) the
+hearing on a landlord-tenant complaint if the tenant has filed a complaint which has been
+accepted by the Philadelphia Fair Housing Commission prior to the date the landlord filed the
+complaint for eviction.
+3. Hearing & Judgment
+At the hearing, you and the landlord will each have an opportunity to present your case. 246
+Pa. Code § 512. You may bring a lawyer to help you. You may also bring documents, photos,
+emails, records, and other evidence to support your case.
+It is extremely important that you do not miss your hearing date. If you miss or are late to
+your hearing date, the landlord wins by default. If you cannot attend the hearing, contact the
+court and ask if the hearing can be rescheduled.
+At the end of the hearing or within three days, the judge will make a decision, called a Notice of
+Judgment. 246 Pa. Code § 514(C).
+• Judgment in favor of the landlord: If the judge rules in favor of the landlord, then the
+Consumer Guide to Tenant and Landlord Rights
+Version 1.1. Last updated June 13, 2022. 14
+landlord will be granted possession of the unit. 246 Pa. Code § 514. The judge may also
+require you to pay damages and unpaid rent. Id.
+• Judgment in favor of the tenant: If the judge rules in your favor, then the landlord must
+do what the judge orders them to do, such as allowing you to remain in the unit or
+paying you money.
+4. Appeal
+You have 10 days after entry of judgement against you to file an appeal in the court of
+common pleas. 68 P.S. § 250.513; 246 Pa. Code § 1008. The appeal will block an actual eviction
+(in legal terminology, operate as a supersedeas) only if you deposit with the court either three
+months’ rent or the amount the judge ordered you to pay, whichever is less. 246 Pa. Code
+§ 1008(B). If you are low-income, you can file a tenant’s affidavit and deposit one third of your
+monthly rent. 246 Pa. Code § 1008(C). In both situations, you will also have to deposit rent each
+month while the appeal is pending. 246 Pa. Code § 1008(B), (C). The money will be held in
+escrow by the court.
+5. Order of Possession
+Even if judgment is entered in favor of the landlord, the landlord still cannot evict you
+themselves. Instead, the landlord must wait 10 days after entry of judgment and then ask the
+court to issue an order of possession. 246 Pa. Code § 515(B).
+The court will serve the order of possession by mailing a copy to you at your last known address
+by First-Class Mail. 246 Pa. Code § 517. A sheriff or certified constable will also serve you with
+the order of possession personally or by posting it conspicuously on the leased property. Id. The
+order of possession will require you to vacate the residential unit within 10 days after the date
+of service. 246 Pa. Code § 517(2).
+If you remain in the rental unit on the 11th day following service of the order of possession,
+then you can be forcibly evicted. 246 Pa. Code § 519(B).
+If you are forcibly evicted and leave possessions behind, the landlord must notify you by First-
+Class Mail of your right to retrieve the property. 68 P.S. § 250.505a(d), (e). You have 10 days
+from the postmark date of the notice to either retrieve your possessions or ask that your
+landlord store your possessions for up to 30 days. Id. If you ask your landlord to store your
+possessions, you will be responsible for any costs. Id. If you do not contact the landlord or
+retrieve your property, the landlord can dispose of it.
+Consumer Guide to Tenant and Landlord Rights
+Version 1.1. Last updated June 13, 2022. 15
+6. Domestic Violence Survivor
+If you are a victim of domestic violence,13 then you have 30 days to appeal a judgment in favor
+of the landlord. 68 P.S. § 250.513(b). If the landlord obtains an order of possession before the
+30 days have passed, you can file a domestic violence affidavit with the court to stay (i.e.,
+freeze) the order of possession pending an appeal or until the end of the 30 days. 246 Pa. Code
+§ 514.1.
+7. Satisfaction of Judgment for Nonpayment of Rent
+If the eviction is only for failure to pay rent, a tenant can stop the eviction by paying—any point
+before actual eviction—the full amount of unpaid rent and other fees. 246 Pa. Code § 518.
+Once that happens, one more step needs to be taken: the landlord should enter with the court
+that the judgment has been satisfied. 246 Pa. Code § 341. If your landlord does not do so, you
+should file a written request to have the judgment marked satisfied with the court and serve it
+on the landlord. 246 Pa. Code § 341.
+If the landlord does not enter that the judgment has been satisfied within 90 days of a written
+request without good cause, the landlord will be liable to the tenant for 1% of the judgment
+amount, at least $250 and up to $2,500, every month the judgment is not marked satisfied. 42
+Pa. Cons. Stat. § 8104(b).
+8. Eviction Records
+An “eviction record” is an official record—court filings, transcripts and orders, for example—
+that contains information about a past or ongoing lawsuit to evict a tenant.
+There is no uniform requirement across all Pennsylvania courts for what details must be
+included in an eviction record; there is no guarantee that the information contained in eviction
+records tells the whole story.
+An eviction record may also show, incorrectly, that a tenant who was evicted for failure to pay
+rent has not satisfied the judgment just because the landlord has failed to have the judgment
+marked satisfied with the court.
+Pennsylvania does not automatically seal or expunge eviction records, even if the case is
+withdrawn.
+Some cities in Pennsylvania, such as Philadelphia, may have eviction diversion or mediation
+programs designed to help you and the landlord come to an agreement without using the court
+process or creating an eviction record.

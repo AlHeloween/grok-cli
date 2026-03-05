@@ -1,0 +1,138 @@
+ARIZONA PUBLIC SERVICE COMPANY A.C.C. No. 6154
+Phoenix, Arizona Cancelling A.C.C. No. 6122
+Filed by: Jessica E. Hobbick Rate Schedule TOU-E
+Title: Director, Regulation and Pricing Revision No. 3
+Original Effective Date: August 19, 2017 Effective: March 8, 2024 in Decision No. 79293
+Page 1 of 4
+RATE SCHEDULE TOU-E
+RESIDENTIAL TIME-OF-USE SERVICE
+TIME-OF-USE 4PM-7PM WEEKDAYS
+AVAILABILITY
+This rate schedule is available to all residential Customers, including Partial Requirements 
+Customers with an on-site distributed generation system.
+DESCRIPTION
+This rate has two parts: a basic service charge and an energy charge. The energy charge will 
+vary by season (summer or winter) and by the time of day that the energy is used (On-Peak,
+Off-Peak, or Super Off-Peak). This rate does not include a demand charge.
+TIME PERIODS
+The On-Peak time period for residential rate schedules is 4 p.m. to 7 p.m. Monday through 
+Friday year-round. This rate also has a Super Off-Peak period, which is 10 a.m. to 3 p.m. 
+Monday through Friday during the winter season, which is the billing cycles of November 
+through April. All other hours are Off-Peak hours. 
+The following holidays are also included in the Off-Peak hours:
+• New Year’s Day - January 1*
+• Martin Luther King Day - Third Monday in January
+• Presidents Day - Third Monday in February
+• Cesar Chavez Day - March 31*
+• Memorial Day - Last Monday in May
+• Juneteenth – June 19*
+• Independence Day - July 4*
+• Labor Day - First Monday in September
+• Indigenous Peoples’ Day / Columbus Day – Second Monday in October
+• Veterans Day - November 11*
+• Thanksgiving - Fourth Thursday in November
+• Christmas Eve - December 24**
+• Christmas Day - December 25*
+• New Year’s Eve - December 31**
+*If these holidays fall on a Saturday, the preceding Friday will be Off-Peak. If they fall on a 
+Sunday, the following Monday will be Off-Peak.
+**The day on which these holidays fall will be Off-Peak days.
+The rate also varies by summer and winter seasons. The summer season is the May through 
+October billing cycles, and the winter season is the November through April billing cycles.
+ARIZONA PUBLIC SERVICE COMPANY A.C.C. No. 6154
+Phoenix, Arizona Cancelling A.C.C. No. 6122
+Filed by: Jessica E. Hobbick Rate Schedule TOU-E
+Title: Director, Regulation and Pricing Revision No. 3
+Original Effective Date: August 19, 2017 Effective: March 8, 2024 in Decision No. 79293
+Page 2 of 4
+RATE SCHEDULE TOU-E
+RESIDENTIAL TIME-OF-USE SERVICE
+TIME-OF-USE 4PM-7PM WEEKDAYS
+CHARGES
+The monthly bill will consist of the following charges, plus adjustments:
+Bundled Charges
+Basic Service Charge $ 0.458 per day
+Summer Winter
+On-Peak Energy Charge $ 0.34396 $ 0.32543 per kWh
+Off-Peak Energy Charge $ 0.12345 $ 0.12351 per kWh
+Super Off-Peak Energy Charge $ 0.03495 per kWh
+Unbundled Components of the Bundled Charges
+Bundled Charges consist of the components shown below. These are not additional charges.
+Basic Service Charge Components
+Customer Accounts Charge $ 0.078 per day
+Metering Charge $ 0.215 per day
+Meter Reading Charge $ 0.078 per day
+Billing Charge $ 0.087 per day
+Energy Charge Components
+System Benefits Charge $ 0.00361 per kWh
+Transmission Charge $ 0.01097 per kWh
+Summer Winter
+Delivery Charge On-Peak $ 0.03469 $ 0.03469 per kWh
+Delivery Charge Off-Peak $ 0.03469 $ 0.03469 per kWh
+Delivery Charge Super Off-Peak $ 0.01232 per kWh
+Generation On-Peak Charge $ 0.29469 $ 0.27616 per kWh
+Generation Off-Peak Charge $ 0.07418 $ 0.07424 per kWh
+Generation Super Off-Peak Charge $ 0.00805 per kWh
+ARIZONA PUBLIC SERVICE COMPANY A.C.C. No. 6154
+Phoenix, Arizona Cancelling A.C.C. No. 6122
+Filed by: Jessica E. Hobbick Rate Schedule TOU-E
+Title: Director, Regulation and Pricing Revision No. 3
+Original Effective Date: August 19, 2017 Effective: March 8, 2024 in Decision No. 79293
+Page 3 of 4
+RATE SCHEDULE TOU-E
+RESIDENTIAL TIME-OF-USE SERVICE
+TIME-OF-USE 4PM-7PM WEEKDAYS
+CHARGE FOR ON-SITE DISTRIBUTED GENERATION CUSTOMERS
+The monthly bill for Customers on this rate schedule that have an on-site distributed generation 
+system will also include a Grid Access Charge. This charge will apply to the nameplate kW-dc 
+power rating of the Customer’s distributed generation facility:
+Grid Access Charge $ 0.242 per kW-dc of generation
+ADJUSTMENTS
+The bill will include the following adjustments:
+1. The Renewable Energy Adjustment Charge, Adjustment Schedule REAC-1.
+2. The Power Supply Adjustment charge, Adjustment Schedule PSA-1.
+3. The Transmission Cost Adjustment charge, Adjustment Schedule TCA-1. 
+4. The Demand Side Management Adjustment Charge, Adjustment Schedule DSMAC-1.
+5. The Lost Fixed Cost Recovery adjustment charge, Adjustment Schedule LFCR.
+6. The Tax Expense Adjustor Mechanism charge, Adjustment Schedule TEAM.
+7. The Court Resolution Surcharge, Adjustment Schedule CRS-1.
+8. The System Reliability Benefit Adjustment Mechanism charge, Adjustment Schedule
+SRB-1.
+9. Direct Access Customers returning to Standard Offer service may be subject to a 
+Returning Customer Direct Access Charge, Adjustment Schedule RCDAC-1.
+10. Any applicable taxes and governmental fees that are assessed on APS’s revenues, prices, 
+sales volume, or generation volume.
+ARIZONA PUBLIC SERVICE COMPANY A.C.C. No. 6154
+Phoenix, Arizona Cancelling A.C.C. No. 6122
+Filed by: Jessica E. Hobbick Rate Schedule TOU-E
+Title: Director, Regulation and Pricing Revision No. 3
+Original Effective Date: August 19, 2017 Effective: March 8, 2024 in Decision No. 79293
+Page 4 of 4
+RATE SCHEDULE TOU-E
+RESIDENTIAL TIME-OF-USE SERVICE
+TIME-OF-USE 4PM-7PM WEEKDAYS
+RATE RIDERS
+Eligible rate riders for this rate schedule are:
+CPP (RES) Critical Peak Pricing (Residential)
+EPR-2 Partial Requirements
+EPR-6 Partial Requirements – Net Metering (Residential Non-Solar)
+RCP Resource Comparison Proxy
+E-3 Limited income discount
+E-4 Limited income medical discount
+GPS-1, GPS-2, GPS-3 Green Power
+SERVICE DETAILS
+1. Customers that self-provide some of their electrical requirements from on-site generation 
+will be billed according to one of the Partial Requirements Service rate riders.
+2. APS provides electric service under the Company’s Service Schedules. These schedules 
+provide details about how the Company serves its Customers, and they have provisions and 
+charges that may affect the Customer’s bill (for example, service connection charges).
+3. Electric service provided will be single-phase, 60 Hertz at the Company’s standard voltages 
+available at the Customer site. Three-phase service is required for motors of an individual 
+rated capacity of 7½ HP or more.
+4. Electric service is supplied at a single point of delivery and measured through a single meter.
+5. Direct Access Customers who purchase available electric services from a supplier other than 
+APS may take service under this schedule. The bill for these Customers will only include the 
+Unbundled Component charges for Customer Accounts, Delivery, System Benefits, and any 
+applicable Adjustments. If metering and billing services are not available from another 
+supplier, those services will be provided by APS and billed to the Customer at the charges 
+shown above.

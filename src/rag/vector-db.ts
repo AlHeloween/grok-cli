@@ -297,6 +297,17 @@ clearAllChunks(): void {
   this.dirty = true;
 }
 
+  private hasQuantizationTable(): boolean {
+    try {
+      const result = this.db.selectValue(
+        "SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name LIKE 'vector_quantize_%'"
+      );
+      return Number(result) > 0;
+    } catch {
+      return false;
+    }
+  }
+
   getChunkCount(): number {
     const value = this.db.selectValue("SELECT COUNT(*) FROM chunks");
     return typeof value === "number" ? value : Number(value || 0);
@@ -323,17 +334,40 @@ clearAllChunks(): void {
 
   queryTopK(vector: number[], k: number): RagChunkRow[] {
     if (!vector.length || k <= 0) return [];
-    const rows = this.db.selectObjects(
-      `
-      SELECT c.id, c.path, c.text, c.meta, v.distance
-      FROM chunks AS c
-      JOIN vector_quantize_scan('chunks', 'vector', vector_as_f32(?), ?) AS v
-      ON c.id = v.rowid
-      ORDER BY v.distance ASC
-      `,
-      [JSON.stringify(vector), k]
-    );
-    return (rows || []) as RagChunkRow[];
+    
+    // Try quantized scan first (if quantization has been enabled)
+    try {
+      const rows = this.db.selectObjects(
+        `
+        SELECT c.id, c.path, c.text, c.meta, v.distance
+        FROM chunks AS c
+        JOIN vector_quantize_scan('chunks', 'vector', vector_as_f32(?), ?) AS v
+        ON c.id = v.rowid
+        ORDER BY v.distance ASC
+        `,
+        [JSON.stringify(vector), k]
+      );
+      return (rows || []) as RagChunkRow[];
+    } catch (error: any) {
+      // If quantization table not found, fall back to vector_full_scan (exact search)
+      if (error.message?.includes?.("Quantization table not found") || 
+          error.message?.includes?.("vector_quantize() has been called")) {
+        // Use vector_full_scan for exact similarity search
+        const rows = this.db.selectObjects(
+          `
+          SELECT c.id, c.path, c.text, c.meta, v.distance
+          FROM chunks AS c
+          JOIN vector_full_scan('chunks', 'vector', vector_as_f32(?), ?) AS v
+          ON c.id = v.rowid
+          ORDER BY v.distance ASC
+          `,
+          [JSON.stringify(vector), k]
+        );
+        return (rows || []) as RagChunkRow[];
+      }
+      // Other error, re-throw
+      throw error;
+    }
   }
 
   queryTopN(vector: number[], n: number): RagChunkRow[] {
@@ -361,18 +395,42 @@ clearAllChunks(): void {
   }
   queryTopKWithPrefix(vector: number[], k: number, pathPrefix: string): RagChunkRow[] {
     if (!vector.length || k <= 0) return [];
-    const rows = this.db.selectObjects(
-      `
-      SELECT c.id, c.path, c.text, c.meta, v.distance
-      FROM chunks AS c
-      JOIN vector_quantize_scan('chunks', 'vector', vector_as_f32(?), ?) AS v
-      ON c.id = v.rowid
-      WHERE c.path LIKE ?
-      ORDER BY v.distance ASC
-      `,
-      [JSON.stringify(vector), k, `${pathPrefix}%`]
-    );
-    return (rows || []) as RagChunkRow[];
+    
+    // Try quantized scan first (if quantization has been enabled)
+    try {
+      const rows = this.db.selectObjects(
+        `
+        SELECT c.id, c.path, c.text, c.meta, v.distance
+        FROM chunks AS c
+        JOIN vector_quantize_scan('chunks', 'vector', vector_as_f32(?), ?) AS v
+        ON c.id = v.rowid
+        WHERE c.path LIKE ?
+        ORDER BY v.distance ASC
+        `,
+        [JSON.stringify(vector), k, `${pathPrefix}%`]
+      );
+      return (rows || []) as RagChunkRow[];
+    } catch (error: any) {
+      // If quantization table not found, fall back to vector_full_scan (exact search)
+      if (error.message?.includes?.("Quantization table not found") || 
+          error.message?.includes?.("vector_quantize() has been called")) {
+        // Use vector_full_scan for exact similarity search
+        const rows = this.db.selectObjects(
+          `
+          SELECT c.id, c.path, c.text, c.meta, v.distance
+          FROM chunks AS c
+          JOIN vector_full_scan('chunks', 'vector', vector_as_f32(?), ?) AS v
+          ON c.id = v.rowid
+          WHERE c.path LIKE ?
+          ORDER BY v.distance ASC
+          `,
+          [JSON.stringify(vector), k, `${pathPrefix}%`]
+        );
+        return (rows || []) as RagChunkRow[];
+      }
+      // Other error, re-throw
+      throw error;
+    }
   }
 
   deleteChunksByPathPrefix(prefix: string): void {

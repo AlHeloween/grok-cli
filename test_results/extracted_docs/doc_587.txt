@@ -1,0 +1,1320 @@
+         International Journal of
+         Molecular Sciences
+
+Review
+Fibromyalgia: Recent Advances in Diagnosis,
+Classification, Pharmacotherapy and
+Alternative Remedies
+Massimo E. Ma↵ei
+ Department of Life Sciences and Systems Biology, University of Turin, 10135 Turin, Italy;
+ massimo.ma↵eil@unito.it; Tel.: +39-011-670-5967
+                                                                                                  !"#!$%&'(!
+ Received: 6 October 2020; Accepted: 22 October 2020; Published: 23 October 2020                  !"#$%&'
+
+
+ Abstract: Fibromyalgia (FM) is a syndrome that does not present a well-defined underlying
+ organic disease. FM is a condition which has been associated with diseases such as infections,
+ diabetes, psychiatric or neurological disorders, rheumatic pathologies, and is a disorder that rather
+ than diagnosis of exclusion requires positive diagnosis. A multidimensional approach is required for
+ the management of FM, including pain management, pharmacological therapies, behavioral therapy,
+ patient education, and exercise. The purpose of this review is to summarize the recent advances in
+ classification criteria and diagnostic criteria for FM as well as to explore pharmacotherapy and the
+ use of alternative therapies including the use of plant bioactive molecules.
+
+ Keywords: fibromyalgia; diagnosis; pharmacotherapy; alternative therapies; plant extracts;
+ natural products
+
+
+
+
+1. Introduction
+     Fibromyalgia (FM) (earlier considered to be fibrositis, to stress the role of peripheral inflammation
+in the pathogenesis) is a syndrome that does not present a well-defined underlying organic disease.
+The primary driver of FM is sensitization, which includes central sensitivity syndromes generally
+referred to joint sti↵ness, chronic pain at multiple tender points, and systemic symptoms including
+cognitive dysfunction, sleep disturbances, anxiety, fatigue, and depressive episodes [1,2]. FM is a
+heterogeneous condition that is often associated to specific diseases such as infections, psychiatric or
+neurological disorders, diabetes and rheumatic pathologies. FM is more frequent in females, where it
+causes musculoskeletal pain [3] and a↵ects significantly the quality of life, often requiring an unexpected
+healthcare e↵ort and consistent social costs [4,5]. Usually, a patient-tailored approach requires a
+pharmacological treatment by considering the risk-benefit ratio of any medication. Being the third most
+common diagnosis in rheumatology clinics, FM prevalence within the general population appears to
+range from 1.3–8% [2]. To date there are no specific tests specific for FM. FM is currently recognized by
+the widespread pain index (which divides the body into 19 regions and scores how many regions are
+reported as painful) and a symptom severity score (SSS) that assesses cognitive symptoms, unrefreshing
+sleep and severity of fatigue [6]. It is not clear what causes FM and diagnosing assist the patients to
+face polysymptomatic distress, thereby reducing doubt and fear which are main psychological factors
+contributing to this central amplification mechanism [7]. In this review, an update on diagnosis and
+therapy of FM is provided along the discussion on the possibility of using pharmacological drugs,
+bioactive natural substances and alternative therapies to alleviate the symptomatology in combination
+or as alternative remedies to drugs.
+Int. J. Mol. Sci. 2020, 21, 7877                                                                      2 of 27
+
+
+
+2. Diagnosis
+       To date there is still a considerable controversy on the assessment and diagnosis of FM. Despite
+advances in the understanding of the pathologic process, FM remains undiagnosed in as many as 75%
+of people with the condition [8].
+       The first attempt for the FM classification criteria is dated 1990 and is based on studies
+performed in 16 centers in the U.S.A. and Canada in clinical and academic settings, gathering
+the both doubters and proponents [9]. Since then, several alternative methods of diagnosis
+have been proposed.             In general, most of the researchers agree on the need to assess
+multiple domains in FM including pain, sleep, mood, functional status, fatigue, problems with
+concentration/memory (i.e. dyscognition) and tenderness/sti↵ness [5]. Four core areas were
+initially assessed: (1) pain intensity, (2) physical functioning, (3) emotional functioning,
+and (4) overall improvement/well-being [10]. About 70–80% of patients with FM also report having
+sleep disturbances and fatigue. Depressive symptoms, anxiety and mood states have also been
+included in FM diagnosis. An impairment in multiple areas of function, especially physical function
+is often reported by patients with FM [11] with a markedly impaired function and quality of life [8].
+Since the late 19900 s, a top priority was the development of new disease-specific measures for each
+of the relevant domains in FM. Also, much attention was paid to studies supporting the valid use of
+existing instruments specifically in the context of FM [5].
+       Later on, in 2010, the tender point count was abandoned and the American College of
+Rheumatology (ACR) suggested preliminary diagnostic criteria which were considering the number of
+painful body regions evaluating the presence and severity of fatigue, cognitive difficulty, unrefreshed
+sleep and the extent of somatic symptoms. The diagnostic criteria are not based on laboratory or
+radiologic testing to diagnose FM and rely on a 0–12 Symptom Severity Scale (SSS) which is used to
+quantify FM-type symptom severity [12]. Furthermore, the SSS was proposed to be combined with
+the Widespread Pain Index (WPI) into a 0–31 Fibromyalgianess Scale (FS) [13]. With a specificity
+of 96.6% and sensitivity of 91.8%, a score 13 for FS was able to correctly classify 93% of patients
+identified as having FM based on the 1990 criteria [14]. ACR 2010 criteria were also found to be
+more sensitive than the ACR 1990 criteria, allowing underdiagnosed FM patients to be correctly
+identified and giving a treatment opportunity to those who had previously been untreated [15]. It is
+still unclear whether the diagnosis of FM has the same meaning with respect to severity in primary FM
+(PFM, a dominant disorder that occurs in the absence of another clinically important and dominant
+pain disorder) and secondary FM (SFM, which occurs in the presence of another clinically important
+and dominant medical disorder) [16]. Figure 1 shows the ACR 1990 criteria for the classification of
+fibromyalgia, whereas Figure 2 shows a graphical representation of the Symptom Severity Scale (SSS)
+plus the Extent of Somatic Symptoms (ESS).
+
+
+
+
+      Figure 1. Widespread Pain Index from ACR 1990 criteria for the classification of fibromyalgia and
+      related regions.
+Int. J. Mol. Sci. 2020, 21, 7877                                                                    3 of 27
+
+
+
+
+                    Figure 2. Symptom Severity scale (SSS) and Extent of Somatic Symptoms (ESS).
+
+      Table 1 shows a holist approach based on the assumption that a multitude of potential diagnoses
+is fundamental in order to avoid an FM misdiagnosis [17].
+      In 2013, alternative diagnostic criteria have been developed by some clinicians in the USA
+including more pain locations and a large range of symptoms than ACR 2010. A self-reported survey
+was composed of the 28-area pain location inventory and the 10 symptom items from the Symptom
+Impact Questionnaire (SIQ) [18]. However, when compared to the early 2010 criteria, these alternative
+criteria did not significantly contribute in di↵erentiating common chronic pain disorders from FM [1].
+      In 2015, the view of diagnostic criteria was altered by ACR by providing approval only for
+classification criteria and no longer considering endorsement of diagnostic criteria, stressing that
+diagnostic criteria are di↵erent from classification criteria and are beyond the remit of the ACR [19].
+However, the suggestion that diagnostic and classification criteria represent 2 ends of a continuum
+implies that the continuum represents the accuracy of the criteria [20]. Classification criteria
+and diagnostic criteria could intersect; however, according to some authors the terms “diagnosis”
+and “classification criteria” should be considered as qualitatively distinct concepts. The proposed
+concept of “diagnostic criteria” [19] is challenging and may be hardly realizable, while diagnostic
+guidelines based on proper modelling techniques may be helpful for clinicians in particular settings [20].
+      In 2016, based on a generalized pain criterion and clinic usage data, a new revision of the 2010/2011
+FM criteria was developed including the following criteria: 1) generalized pain, defined as pain present
+in at least 4 of 5 regions; 2) symptoms present at a similar level for at least three months; 3) a WPI 7
+and SSS 5 or WPI of 4–6 and SSS 9; 4) a diagnosis of FM is valid irrespective of other diagnoses.
+Another important point is that the presence of other clinically important illnesses does not exclude a
+diagnosis of FM [21].
+      In 2018, considering important but less visible factors that have a profound influence on under-
+or over-diagnosis of FM provided a new gate to a holistic and real understanding of FM diagnosis,
+beyond existing arbitrary and constructional scores [22].
+Int. J. Mol. Sci. 2020, 21, 7877                                                                                                                                                                   4 of 27
+
+
+
+                                                           Table 1. ACR2010 and modified criteria for the diagnosis of fibromyalgia.
+
+                                                                                    Widespread pain index (WPI)
+                                   Areas                                                                                   specification
+        Number of areas in which the patient has had
+                                                                                                                           0–19 points
+                 pain over the past week
+                                                              shoulder girdle, hip (buttock, trochanter), jaw, upper back, lower back, upper arm, upper leg, chest, neck, abdomen, lower arm,
+                      Areas to be considered
+                                                                                                and lower leg (all these areas should be considered bilaterally)
+                                                                                 Symptom Severity Scale (SSS) score
+                              Symptom                                     Level of severity                               Symptom level                                    Score
+                                                              For each of these 3 symptoms, indicate
+                                                              the level of severity over the past week
+                                                                                                                Considering somatic symptoms in
+                                                                      using the following scale:
+                             Fatigue                                                                         general, indicate whether the patient has
+                                                                            0 = no problem
+                      Waking unrefreshed                                                                                   the following:
+                                                               1 = slight or mild problems, generally
+         Cognitive symptoms (e.g., working memory                                                                        0 = no symptoms                        Final score between 0 and 12
+                                                                          mild or intermittent
+       capacity, recognition memory, verbal knowledge,                                                                  1 = few symptoms
+                                                               2 = moderate; considerable problems,
+                    anxiety, and depression)                                                                  2 = a moderate number of symptoms
+                                                              often present and/or at a moderate level
+                                                                                                                  3 = a great deal of symptoms
+                                                                 3 = severe; pervasive, continuous,
+                                                                       life-disturbing problems
+                                                                                                  Criteria
+                            Specification                                                                                   Conditions
+             A patient satisfies diagnostic criteria for                                     (a)WPI 7/19 and SS scale score 5 or WPI 3–6 and SS scale score 9
+            fibromyalgia if the following 3 conditions                                      (b) symptoms have been present as a similar level for at least 3 months
+                              are met                                                  (c) the patient does not have a disorder that would otherwise explain the pain
+                                                                                              Modified criteria
+                            Specification                                    Conditions                                                           Final Score
+                                                                          (a)WPI (as above)
+             A patient satisfies diagnostic criteria for      (b) SS scale score (as above, but without
+                                                                                                              The number of pain sites (WPI), the SS scale score, and the presence of associated
+            fibromyalgia if the following 3 conditions               extent of somatic symptoms)
+                                                                                                                      symptoms are summed to give a final score between 0 and 31
+                              are met                              (c) presence of abdominal pain,
+                                                               depression, headaches (yes = 1, no = 0)
+Int. J. Mol. Sci. 2020, 21, 7877                                                                     5 of 27
+
+
+
+     In 2019, in cooperation with the WHO, an IASP Working Group has developed a classification
+system included in the International Classification of Diseases (ICD-11) where FM has been classified
+as chronic primary pain, to distinguish it from pain which is secondary to an underlying disease [23].
+     More recently, a study of about 500 patients under diagnosis of FM, revealed that 24.3% satisfied
+the FM criteria, while 20.9% received a clinician International Classification of Diseases (ICD) diagnosis
+of FM, with a 79.2% agreement between clinicians and criteria. The conclusions of this study pointed
+out a disagreement between ICD clinical diagnosis and criteria-based diagnosis of FM, calling into
+question meaning of a FM diagnosis, the validity of physician diagnosis and clinician bias [24].
+     FM is a disorder that cannot be based on diagnosis of exclusion, rather needing positive
+diagnosis [6], through a multidimensional FM diagnostic approach making diagnosis encompassing
+psychosocial stressors, subjective belief, psychological factors and somatic complaints [25]. The advent
+of the PSD scale identified a number of problems in FM research [16].
+     Recently, immunophenotyping analysis performed on blood samples of FM patients revealed a
+role of the Mu opioid receptor on B lymphocytes as a specific biomarker for FM [26]. Moreover, a rapid
+biomarker-based method for diagnosing FM has been developed by using vibrational spectroscopy
+to di↵erentiate patients with FM from those with other pain-related diseases. Unique IR and Raman
+spectral signatures were correlated with FM pain severity measured with FM impact questionnaire
+revised version (FIQR) [27]. Overall, these findings provide reliable diagnostic tests for di↵erentiating
+FM from other disorders, for establishing serologic biomarkers of FM-associated pain and were useful
+for the contribution of the legitimacy of FM as a truly painful disease.
+     In summarizing aspects of FM learned through applications of criteria to patients and trials,
+Wolfe [28] identified 7 main concepts: 1) there is no way of objectively testing FM which also has no
+binding definition; 2) prevalence and acceptance of FM depend on factors largely external to the patient;
+3) FM is a continuum and not a categorical disorder; 4) every feeling, symptom, physical finding,
+neuroscience measure, cost and outcome tells one very little about the disorder and its mechanisms
+when fibromyalgia to “normal subjects” is compared; 5) the range and content of symptoms might
+indicate that FM may not truly be a syndrome; 6) “pain and distress” type of FM subject identified in
+the general population [29] might be considered as part of the FM definition and; 7) caution is needed
+when accepting the current reductive neurobiological causal explanations as sufficient, since FM is a
+socially constructed and arbitrarily defined and diagnosed dimensional disorder.
+
+3. Therapy
+
+3.1. Pharmacotherapy of FM
+     Clinical trials have failed to conclusively provide overall benefits of specific therapies to treat FM;
+therefore, current pharmacological treatments for patients su↵ering from FM are mainly directed to
+palliate some symptoms, with relevant clinical benefits experienced only by a minority of individuals
+from any one intervention. In those treated with pharmacotherapy, a 50%reduction in pain intensity is
+generally achieved only by 10% to 25% [30] However, some treatments seem to significantly improve
+the quality of life of certain FM patients [31]. Only a few drugs have been approved for use in the
+treatment of FM by the US FDA, whereas no drug has been approved for this indication by the European
+Medicines Agency. Thus patients with FM frequently need to be treated on an o↵-label basis [32].
+     Currently, only 25% to 40% pain reduction is granted by drugs and meaningful relief occurs
+in only 40% to 60%, in part due to dose-limiting adverse e↵ects and incomplete drug efficacy [33].
+These limitations in clinical practice have led some to hypothesize that a combination of di↵erent
+analgesic drugs acting through di↵erent mechanisms may provide superior outcomes compared to
+monotherapy [34]. Moreover, drugs should be started at low doses and cautiously increased because
+some patients, either do not tolerate or benefit from drug therapy. Because sleep disturbance, pain and
+psychological distress are the most amenable to drug therapy, drugs should be chosen to manage
+the individual’s predominant symptoms [35]. Currently, several drugs are frequently used alone
+Int. J. Mol. Sci. 2020, 21, 7877                                                                    6 of 27
+
+
+
+or in combination to manage FM symptoms; however, the US FDA indicated for FM only three:
+two selective serotonin and norepinephrine reuptake inhibitors (SNRIs), duloxetine and milnacipran,
+and an anticonvulsant, pregabalin [36]. In the next sections, the use of selected drugs aimed to alleviate
+FM will be described.
+
+3.1.1. Cannabinoids in FM Therapy
+      The cannabinoid system is ubiquitous in the animal kingdom and plays multiple functions with
+stabilizing e↵ects for the organism, including modulation of pain and stress, and the management of
+FM may have therapeutic potential by manipulating this system. The cannabinoid system contributes
+in maintaining equilibrium and stabilizing e↵ects on FM [37]. Moreover, the endocannabinoid
+neuromodulatory system is involved in multiple physiological functions, such as inflammation
+and immune recognition, endocrine function, cognition and memory, nausea, antinociception and
+vomiting, [38]. Deficiency in the endocannabinoid system has been correlated to FM [39], but without
+clear clinical evidence in support of this assumption [40].
+      The endocannabinoid system consists of two cannabinoid receptors, the CB1 and CB2
+receptors [41]. In acute and chronic pain models, analgesic e↵ects are associated to CB1
+agonists that act at many sites along pain transmission pathways, including activation of spinal,
+supraspinal and peripheral CB1 receptors, each independently decreasing nociception [42]. Delta
+9-tetrahydrocannabinol (D9-THC or Dronabinol, 1) is the main active constituent of Cannabis sativa var
+indica, with psychoactive and pain-relieving properties. The non-selective binding to G-protein-coupled
+CB receptors is responsible for the pharmacological e↵ects induced by D9-THC. Cannabidiol (CBD,
+2), a non-psychotropic constituent of cannabis, is a high potency antagonist of CB receptor agonists
+and an inverse agonist at the CB2 receptor [43]. CBD displays CB2 receptor inverse agonism,
+an action that appears to be responsible for its antagonism of CP55940 at the human CB2 receptor [44].
+This CB2 receptor inverse agonist ability of CBD may contribute to its documented anti-inflammatory
+properties [44]. The main endocannabinoids are anandamide (N-arachidonoylethanolamine, AEA, 3)
+and 2-arachidonoylglycerol (2-AG, 4), AG), the activity of which is modulated by the hydrolyzing fatty
+acid palmitoylethanolamide (PEA, 5) and the endocannabinoid precursor arachidonic acid (AA, 6) [45].
+AEA and 2-AG are functionally related to D9-THC [46]. It was found that stress induces a rapid
+anandamide release in several CNS regions resulting in stress-induced analgesia via CB1 receptors [47].
+FM patients had significantly higher anandamide plasma levels [39,46]; however, it has been suggested
+that the origin of FM and chronic pain depend on a deficiency in the endocannabinoid signaling [45].
+      Monotherapies of FM based on D9-THC are based on the assumption that this compound acts as
+an analgesic drug; however, although a sub-population of FM patients reported significant benefits
+from the use of D9-THC, this statement cannot be made [48]. When the quality of life of FM patients
+who consumed cannabis was compared with FM subjects who were not cannabis users, a significant
+improvement of symptoms of FM in patients using cannabis was observed, although there was a
+variability of patterns [49].
+      The synthetic cannabinoid nabilone (7) showed of a superiority over placebo to reduce FM
+symptoms, with significant reductions in Visual Analog Scale (VAS) for pain, FM Impact Questionnaire
+(FIQ), and anxiety [42], indicating the efficacy of treating people with FM with nabilone. Nabilone was
+also e↵ective in improving sleep [50]; however, participants taking nabilone experienced more adverse
+events (such as dizziness/drowsiness, dry mouth and vertigo) than did participants taking placebo or
+amitriptyline (see below).
+      The self-medication practice of herbal cannabis was associated with negative psychosocial
+parameters. Therefore, caution should be exercised in recommending the use of cannabinoids pending
+clarification of general health and psychosocial problems [51,52]. Figure 3 illustrates the chemical
+formulas of some cannabinoids and endocannabinoids.
+Int. J. Mol. Sci. 2020, 21, 7877                                                                   7 of 27
+
+
+
+
+      Figure 3. Structure formulae of some cannabinoids and related compounds. Numbers correspond to
+      compound names cited in the text.
+
+3.1.2. Opioids in FM Therapy
+     One of the major natural sources of opioids is the medicinal plant Papaver somniferum.
+Although clinical evidence demonstrating the efficacy or e↵ectiveness of opioids analgesics is scanty,
+these molecules are widely used for the treatment of FM [53]. However, the long-term use of opioids
+in FM has been discouraged by several medical guidelines [54]. The use of opioids is documented in
+studies demonstrating increased endogenous opioid levels in the cerebrospinal fluid of patients with
+FM vs. controls [55]. These results prompted the interesting hypothesis that a more activated opioid
+system can be detected in individuals with FM, reflecting reduced receptor availability and increased
+release of endogenous opioids [54].
+     There is evidence from both single center, prospective, longitudinal and multicenter and
+observational clinical studies of negative e↵ects of the use of opioids in FM on patient outcomes
+compared with other therapies [56,57]. Moreover, opioid user groups showed less improvement in
+the SFM-36 subscale scores of general health perception and in the FIQ subscale scores of job ability,
+fatigue and physical impairment [58]. Furthermore, altered endogenous opioid analgesic activity in
+FM has been demonstrated and suggested as a possible reason for why exogenous opiates appear to
+have reduced efficacy [59]. Despite these facts, opioids have been prescribed for 10% to 60% of patients
+with FM as reported in large database sets [54].
+     When considered, the preference of patients appears towards opioids. In a survey, 75% of patients
+considered hydrocodone (8) plus acetaminophen to be helpful, and 67% considered oxycodone (9) plus
+acetaminophen to be helpful [60]. FM has been associated with preoperative opioid use, including
+hydrocodone [61], whereas there is limited information from randomized controlled trials on the
+benefits or harms of oxycodone when used to treat pain in FM [62].
+     A pilot study showed that naltrexone (10) reduced self-reported symptoms of FM (primarily
+daily pain and fatigue) [63] and further studies showed that low-dose naltrexone had a specific
+and clinically beneficial impact on FM. This opioid, which is widely available and inexpensive,
+Int. J. Mol. Sci. 2020, 21, 7877                                                                      8 of 27
+
+
+
+was found to be safe and well-tolerated. Blocking peripheral opioid receptors with naloxone (11)
+was observed to prevent acute and chronic training-induced analgesia in a rat model of FM [64];
+however, there were no significant e↵ects of naloxone nor nocebo on pressure pain threshold,
+deep tissue pain, temporal summation or conditioned pain modulation in chronic fatigue syndrome/FM
+patients [65].
+      A synthetic opioid receptor agonist that shows serotonin-norepinephrine reuptake inhibitor
+properties is tramadol (12); this compound is often prescribed for painful conditions [66].
+Tramadol has been studied in humans who su↵er from FM [56], suggesting that tramadol may
+be e↵ective in treating FM [67]. The use of tramadol provides change in pain assessed by
+visual analogue scale and FM impact questionnaire; however, the reported side e↵ects include
+dizziness, headache, constipation, addiction, withdrawal, nausea, serotonin syndrome, somnolence,
+pruritus seizures, drug–drug interactions with antimigraine and antidepressants medications [66].
+Therefore, it is recommended that tramadol application should be considered in refractory and more
+treatment-resistant cases of FM.
+      Another weak opioid is codeine (13). In a comparative study, there was a significantly higher
+proportion of patients in the codeine-acetaminophen group reporting somnolence or constipation
+and a larger proportion of patients in the tramadol-acetaminophen group reporting headache.
+The overall results suggested that tramadol-acetaminophen tablets (37.5 mg/325 mg) were as e↵ective
+as codeine-acetaminophen capsules (30 mg/300 mg) in the treatment of chronic pain [68].
+      Fentanyl (14) works primarily by activating µ-opioid receptors and was found to be around 100
+times stronger than morphine (15), although its e↵ects are more localized. Fentanyl injections reduced
+second pain from repeated heat taps in FM patients. Similar to reports of e↵ects of morphine on first
+and second pain, fentanyl had larger inhibitory e↵ects on slow temporal summation of second pain
+than on first pain from a nociceptor stimulation [69]. Since fentanyl can inhibit windup of second pain
+in FM patients, it can prevent the occurrence of intense summated second pain and thereby reduce its
+intensity by a greater extent than first or second pains evoked by single stimuli. Among the 70,237
+drug-related deaths estimated in 2017 in the US, the sharpest increase occurred among those related
+to fentanyl analogs with almost 29,000 overdose deaths which represents more than 45% increase
+from 2016 to 2017 [70]. Because the numbers of overdoses and deaths due to fentanyl will continue to
+increase in the coming years, studies are needed to elucidate the physiological mechanisms underlying
+fentanyl overdose in order to develop e↵ective treatments aimed to reduce the risk of death [71].
+      Glial cell activation is one of the several other possible pathophysiologic mechanisms underlying
+the development of FM by contributing to central nervous system sensitization to nociceptive
+stimuli [72]. Pentoxifylline (16), a xanthine derivative used as a drug to treat muscle pain in people
+with peripheral artery disease, is a nonspecific cytokine inhibitor that has been shown to attenuate glial
+cell activation and to inhibit the synthesis of TNF↵, IL-1 , and IL-6 [73]. In theory, attenuating glial cell
+activation via the administration of pentoxifylline to individuals su↵ering from FM might be efficient
+in ameliorating their symptoms without being a globalist therapeutic approach targeting all possible
+pathophysiologic mechanisms of development of the syndrome [74]. With regards FM pathophysiology,
+serum brain-derived neurotrophic factors (BDNF) were found at higher levels in FM patients while
+BDNF methylation in exon 9 accounted for the regulation of protein expression. These data suggest
+that altered BDNF levels might represent a key mechanism explaining FM pathophysiology [75].
+      Opioid users were also observed to experience a decreased pain and symptom severity when
+ca↵eine (17) was consumed, but this was not observed in opioid nonusers, indicating ca↵eine may act
+as an opioid adjuvant in FM-like chronic pain patients. Therefore the consumption of ca↵eine along
+with the use of opioid analgesics could represent an alternative therapy with respect to opioids or
+ca↵eine alone [76]. Figure 4 shows the chemical formulae of some opioids used in FM therapy.
+Int. J. Mol. Sci. 2020, 21, 7877                                                                   9 of 27
+
+
+
+
+      Figure 4. Structure formulae of some opioids and related compounds. Numbers correspond to
+      molecules cited in the text.
+
+3.1.3. Gabapentinoids in FM Therapy
+      Gabapentinoid drugs are US Food and Drug Administration (FDA) (but not in Europe)
+anticonvulsants approved for treatment of pain syndromes, including FM. However, FDA approved
+pregabalin (18) but not gabapentin (19) for FM treatment; nevertheless, gabapentin is often prescribed
+o↵-label for FM, presumably because it is substantially less expensive [77]. Pregabalin is a
+gamma-aminobutyric acid (GABA) analog and is a ligand for the ↵2 subunit of the calcium channel
+being able of reducing the ability of docked vesicles to fuse and release neurotransmitters [78].
+Pregabalin shows e↵ects on cortical neural networks, particularly when basal neurons are under
+hyperexcitability. The pain measures and pregabalin impact on the cortical excitability was
+observed only in FM patients [79]. Pregabalin was also found to increase norepinephrine levels
+in reserpine-induced myalgia rats [80]. Because of its tolerability when used in combination with
+antidepressants, pregabalin use showed a very good benefit to risk ratio [81]. The starting approved
+dosage for pregabalin is at 150 mg daily [82]; however, the drug shows a higher e↵ectiveness when
+used at a dose of 300 or 600 mg/day. Lower pregabalin doses than those of clinical trials are used in
+clinical practice because higher doses are more likely to be intolerable [83]. A recent systematic review
+shows that a minority of people with moderate to severe pain due to FM treated with a daily dose of
+300 to 600 mg of pregabalin had a reduction of pain intensity over a follow-up period of 12 to 26 weeks,
+with tolerable adverse e↵ects [84]. Thus, pregabalin is one of cardinal drugs used in the treatment of
+FM, and its clinical utility has been comprehensively demonstrated [85,86]. Nevertheless, there is still
+insufficient evidence to support or refute that gabapentin may reduce pain in FM [87]. Figure 5 depicts
+the chemical formulae of some gabapentinoids.
+Int. J. Mol. Sci. 2020, 21, 7877                                                                       10 of 27
+
+
+
+
+      Figure 5. Structure formulae of some gabapentinoids. Numbers correspond to molecules cited in the text.
+
+3.1.4. Serotonin–Norepinephrine Reuptake Inhibitors in FM Therapy
+       There is a wide use of serotonin and noradrenaline reuptake inhibitors (SNRIs). There is no
+unbiased evidence that serotonin selective reuptake inhibitors (SSRIs) are superior to placebo in treating
+depression in people with FM and for treating the key symptoms of FM, namely sleep problems,
+fatigue and pain. However, it should be considered that young adults aged 18 to 24, with major
+depressive disorder, showed an increased suicidal tendency when treated with SSRIs [88]. A recent
+Cochrane review evaluated the use of SNRIs including eighteen studies with a total of 7,903 adults
+diagnosed with FM, by using desvenlafaxine (20) and venlafaxine (21) in addition to duloxetine (22)
+and milnacipran (23), by considering various outcomes for SNRIs including health related quality of
+life, fatigue, sleep problems, pain and patient general impression, as well as safety and tolerability [89].
+Fifty two percent of those receiving duloxetine and milnacipran had a clinically relevant benefit
+over placebo compared to 29% of those on placebo, with much or very much improvements in the
+intervention. On the other hand, reduction of pain intensity was not significantly di↵erent from
+placebo when desvenlafaxine was used. However, pain relief and reduction of fatigue was not clinically
+relevant for duloxetine and milnacipran in 50% or greater and did not improve the quality of life [90].
+Same negative outcomes were found for reducing problems in sleep and the potential general benefits
+of duloxetine and milnacipran were outweighed by their potential harms.
+       The efficacy of venlafaxine in the treatment of FM was studied to a lesser extent. The lack of
+consistency in venlafaxine dosing, placebo control and blinding make difficult to understand whether
+the molecule is e↵ective in treating FM. Nevertheless, tolerability and the lower cost of venlafaxine
+increases its potential use for the treatment of FM, by rendering the molecule a more a↵ordable option
+compared to the other, more expensive SNRIs [91].
+       Mirtazapine (24) promotes the release of noradrenaline and serotonin by blocking ↵2 -adrenergic
+autoreceptors and ↵2 -adrenergic heteroreceptors, respectively. Mirtazapine, by acting through 5-HT1A
+receptors and by blocking postsynaptic 5-HT2A , 5-HT2C , and 5-HT3 receptors is able to enhance
+serotonin neurotransmission [92]. For these properties, mirtazapine is classified as a noradrenergic and
+specific serotonergic antidepressant [93]. Mirtazapine appears to be a promising therapy to improve
+sleep, pain, and quality of life in patients with FM [94]. In Japanese patients with FM, mirtazapine caused
+a significantly greater reduction in the mean numerical rating scale pain score and remained significantly
+greater from week 6 onward, compared with placebo. However, Adverse mirtazapine caused adverse
+events including weight gain, somnolence and increased appetite when compared to placebo [92].
+       Among antidepressants, the tricyclic antidepressant (TCAs) amitriptyline (25) was studied more
+than other antidepressants. It is frequently used to assess comparative efficacy [95] and for many
+years amitriptyline has been a first-line treatment for FM. Although there is no supportive unbiased
+evidence for a beneficial e↵ect, the drug was successful for the treatment in many patients with
+FM. However, amitriptyline achieve satisfactory pain relief only by a minority of FM patients and is
+unlikely that any large randomized trials of amitriptyline will be conducted in FM to establish efficacy
+Int. J. Mol. Sci. 2020, 21, 7877                                                                        11 of 27
+
+
+
+statistically, or measure the size of the e↵ect [96]. Figure 6 depicts the chemical formulae of some SNRIs
+and TCA.
+
+
+
+
+      Figure 6. Chemical structure of some serotonin and noradrenaline reuptake inhibitors and a tricyclic
+      antidepressant. Numbers correspond to molecules cited in the text.
+
+3.2. Alternative Therapies for FM
+      A survey of the European guidelines shows that most of the pharmacological therapies are
+relatively modest providing only weak recommendations for FM [97]. A multidimensional approach
+is therefore required for the management of FM, including pharmacological therapies along with
+behavioral therapy, exercise, patient education and pain management. A multidisciplinary approach
+combines pharmacotherapy with physical or cognitive interventions and natural remedies. Very often,
+patients seek help in alternative therapies due to the limited efficacy of the therapeutic options.
+The following sections discuss some of the most used alternative therapies to treat FM.
+
+3.2.1. Acupunture
+     Acupuncture shows low to moderate-level in improving pain and sti↵ness in people with FM.
+In some cases, acupuncture does not di↵er from sham acupuncture in improving sleep or global
+well-being or reducing pain or fatigue. The mechanisms of acupuncture action in FM treatment
+appears to be correlated to changes in serum serotonin levels [98]. Electro-acupuncture (EA) was more
+e↵ective than manual acupuncture (MA) for improving sleep, global well-being and fatigue and in the
+reduction of pain and sti↵ness. Although e↵ective, the e↵ect of acupuncture is not maintained at six
+months follow-up [99]. Moreover, there is a lack of evidence that real acupuncture significantly di↵ers
+from sham acupuncture with respect to improving the quality of life, both in the short and long term.
+However, acupuncture therapy is a safe treatment for patients with FM [100,101].
+
+3.2.2. Electric Stimulation
+      As we discussed, FM, aside pain, is characterized by anxiety, depression and sleep disturbances,
+and by a complex cognitive dysfunctioning status known as “fibrofog” which is characterized by
+disturbance in working memory, attention and executive functions globally often referred by the
+patients as a sense of slowing down, clumsiness and confusion that have a profound impact on the
+ability to perform and e↵ectively plan daily activities [102,103]. Besides stimulation with acupuncture,
+the e↵ective modulation of brain areas has been obtained through non-invasive brain stimulation by
+Int. J. Mol. Sci. 2020, 21, 7877                                                                  12 of 27
+
+
+
+magnetic or electric currents applied to the scalp like transcranial magnetic and electrical stimulation.
+In many cases, to relieve pain and improve general FM-related function, the use of anodal transcranial
+direct current stimulation over the primary motor cortex was found to be significantly more e↵ective
+than sham transcranial direct current stimulation [104]. If we consider that pharmacological and
+non-pharmacological treatments are often ine↵ective or transitory in their e↵ect on FM, therapeutic
+electrical stimulation appears to have a potential role [105]. Cognitive functions such as memory have
+been enhanced in FM patients by anodal transcranial direct current stimulation over the dorsolateral
+prefrontal cortex and has clinical relevance for top-down treatment approaches in FM [106]. In FM
+patients, modulation of hemodynamic responses by transcutaneous electrical nerve stimulation during
+delivery of nociceptive stimulation was also investigated and shown to be an e↵ective factor in FM
+treatment, although the underlying mechanism for these findings still needs to be clarified [107]. It has
+been recently demonstrated that both transcutaneous electric nerve stimulation and acupuncture
+applications seem to be beneficial in FM patients [108].
+     In a recent Positron Emission Tomography H2 15 O activation study it was shown that occipital
+nerve field stimulation acts through activation of the descending pain inhibitory pathway and the
+lateral pain pathway in FM, while electroencephalogram shows activation of those cortical areas that
+could be responsible for descending inhibition system recruitment [109].
+     Microcirculation is of great concern in patients with FM. Recently low-energy pulsed
+electromagnetic field therapy was found to increase a promising therapy to increase
+microcirlulation [110]; however, neither pain and sti↵ness were reduced nor functioning was improved
+by this therapy in women with FM [111].
+     The European Academy of Neurology, based on the method of GRADE (Grading of
+Recommendations, Assessment, Development, and Evaluation) judged anodal transcranial
+direct currents stimulation of motor cortex as still inconclusive for treatment of FM [112].
+Therefore, further studies are needed to determine optimal treatment protocols and to elucidate
+the mechanisms involved [113].
+
+3.2.3. Vibroacoustic and Rhythmic Sensory Stimulation
+      Stimulation with sensory events such as pulsed or continuous auditory, vibrotactile and visual
+flickering stimuli are referred as rhythmic sensory stimulation [114].
+      Clinical studies have reported the application of vibroacoustic stimulation in the treatment of
+FM. In a clinal study, one group of patients with FM listened to a sequence of Bach’s compositions,
+another was subjected to vibratory stimuli on a combination of acupuncture points on the skin and a
+third group received no stimulation. The results showed that a greater e↵ect on FM symptoms was
+achieved by the combined use of music and vibration [115]. However, in another study, neither music
+nor musically fluctuating vibration had a significant e↵ect on tender point pain in FM patients when
+compared to placebo treatment [116]. Because thalamocortical dysrhythmia is implicated in FM and
+that low-frequency sound stimulation can play a regulatory function by driving neural rhythmic
+oscillatory activity, volunteers with FM were subjected to 23 min of low-frequency sound stimulation
+at 40 Hz, delivered using transducers in a supine position. Although no adverse e↵ects in patients
+receiving the treatment, no statistically and clinically relevant improvement were observed [117].
+On the other hand, gamma-frequency rhythmic vibroacoustic stimulation was found to decrease
+FM symptoms (depression, sleep quality and pain interference) and ease associated comorbidities
+(depression and sleep disturbances), opening new avenues for further investigation of the e↵ects of
+rhythmic sensory stimulation on chronic pain conditions [118].
+
+3.2.4. Thermal Therapies
+    Thermal therapies have been used to treat FM. Two main therapies are currently used:
+body warming and cryotherapy.
+Int. J. Mol. Sci. 2020, 21, 7877                                                                   13 of 27
+
+
+
+     Because FM is strongly linked to rheumatic aches, the application of heat by spa therapy
+(balneotherapy) appears as a natural choice for the treatment of FM [119]. Spa therapy is a popular
+treatment for FM in many European countries, as well as in Japan and Israel. A randomized prospective
+study of a 10-day treatment was done on 48 FM patients improving their quality of life [120] and
+showed that treatment of FM at the Dead Sea was both e↵ective and safe [121]. FM patients who were
+poorly responding to pharmacological therapies were subjected to mud-bath treatment. A cycle of mud
+bath applications showed beneficial e↵ects on FM patients whose evaluation parameters remained
+stable after 16 weeks in comparison to baseline [122]. In patients su↵ering from FM, mud bathing
+was also found to prevent muscle atrophy and inflammation and improve nutritional condition [123].
+Nevertheless, despite positive results, the methodological limitations of available clinical studies,
+such as the lack of placebo double-blinded trials, preclude definitive conclusions on the e↵ect of
+body-warming therapies to treat FM [119,124].
+     A remedy widely used in sports related trauma is the application of cold as a therapeutic agent
+for pain relief. Cryotherapy refers to the use of low temperatures to decrease the inflammatory
+reaction, including oedema [125]. Cryotherapy induces several organism physiological reactions like
+increasing anti-inflammatory cytokines, beta-endorphins, ACTH, white blood cells, catecholamines and
+cortisol, immunostimulation due to noradrenalin response to cold, the increase in the level of plasma
+total antioxidant status and the reduction of pain through the alteration of nerve conduction [126].
+When compared to control FM subjects, cryotherapy-treated FM patients reported a more pronounced
+improvement of the quality of life [127]. Whole body cryotherapy was also found to be a useful
+adjuvant therapy for FM [126].
+
+3.2.5. Hyperbaric Treatment
+      Hyperbaric oxygen therapy (HBOT) has shown beneficial e↵ects for the prevention and treatment
+of pain [128], including migraine, cluster headache [129] and FM [130]. HBOT is supposed to induce
+neuroplasticity that leads to repair of chronically impaired brain functions. HBOT was also found
+to it improve the quality of life in post-stroke patients and mild traumatic brain injury patients [131].
+Therefore, the increased oxygen concentration caused by HBOT is supposed to change the brain
+metabolism and glial function with a potential e↵ect on reducing the FM-associated brain abnormal
+activity [132]. HBOT was found to a↵ect the mitochondrial mechanisms resulting in functional
+brain changes, stimulate nitric oxide production thus alleviating hyperalgesia and promoting the
+NO-dependent release of endogenous opioids which appear to be involved in the antinociception
+prompted by HBOT [133]. In a clinical study, a significant di↵erence between the HBOT and control
+groups was found in the reduction in tender points and VAS scores after the first and fifteenth therapy
+sessions [130]. These results indicate that HBOT may play an important role in managing FM.
+
+3.2.6. Laser Therapy and Phototherapy
+      The use of di↵erent light wavelengths has been found to be an alternative therapy for FM. It is
+known that low-level laser therapy is a therapeutic factor, being able not only to target one event in the
+painful reception, but rather the extend its e↵ectiveness on the whole hierarchy of mechanisms of its
+origin and regulation [134]. Laser photobiomodulation therapy has been reported to be e↵ective in the
+treatment of a variety of myofascial musculoskeletal disorders, including FM [135]. The combination
+of laser therapy and the administration of the drug amitriptyline was found to be e↵ective on clinical
+symptoms and quality of life in FM; furthermore, gallium-arsenide laser therapy was found to be a
+safe and e↵ective treatment which can be used as a monotherapy or as a supplementary treatment to
+other therapeutic procedures in FM [136]. Evidence supported also the use of laser therapy in women
+su↵ering FM to improve pain and upper body range of motion, ultimately reducing the impact of
+FM [137,138]. Finally, a combination of phototherapy and exercise training was evaluated in patients
+with FM in a randomized controlled trial for chronic pain to o↵er valuable clinical evidence for objective
+assessment of the potential benefits and risks of procedures [139].
+Int. J. Mol. Sci. 2020, 21, 7877                                                                     14 of 27
+
+
+
+3.2.7. Exercise and Massage
+     Exercise therapy seems to be an e↵ective component of treatment, yielding improvement in pain
+and other symptoms, as well as decreasing the burden of FM on the quality of life [140]. Exercise is
+generally acceptable by individuals with FM and was found to improve the ability to do daily activities
+and the quality of life and to decrease tiredness and pain [141]. However, it is important to know the
+e↵ects and specificities of di↵erent types of exercise. For instance, two or more types of exercise may
+combine strengthening, aerobic or stretching exercise; however, there is no substantial evidence that
+mixed exercise may improve sti↵ness [142]. Quality of life may be improved by muscle stretching
+exercise, especially with regard to physical functioning and pain, whereas depression is reduced by
+resistance training. A trial including a control group and two intervention groups, both of which
+receiving exercise programs created specifically for patients with FM, showed that both modalities were
+e↵ective in an exercise therapy program for FM [143]. A progressive muscle strengthening activity was
+also found to be a safe and e↵ective mode of exercise for FM patients [144]. Furthermore, strength and
+flexibility exercises in aerobic exercise rehabilitation for FM patients led to improvements in patients’
+shoulder/hip range of motion and handgrip strength [145]. Among women with FM, the association
+between physical activity and daily function is mediated by the intensity of musculoskeletal pain,
+rather than depressive symptoms or body mass [146], with a link between clinical and experimental
+pain relief after the performance of isometric contractions [147].
+     A randomized controlled trial evaluated the e↵ects of yoga intervention on FM symptoms.
+Women performing yoga showed a significant improvement on standardized measures of FM
+symptoms and functioning, including fatigue, mood and pain, and in pain acceptance and other coping
+strategies [148]. Moreover, the combination with massage therapy program during three months
+influenced perceived stress index, cortisol concentrations, intensity of pain and quality of life of patients
+with FM [149].
+     In terms of societal costs and health care costs, quality of life and physical fitness in females with
+FM was improved by aquatic training and subsequent detraining [150,151]. Aquatic physical training
+was e↵ective in promoting increased oxygen uptake at peak cardiopulmonary exercise test in women
+with FM [152]. A systematic evaluation of the harms and benefits of aquatic exercise training in adults
+with FM showed that it may be beneficial for improving wellness, symptoms, and fitness in adults
+with FM [153,154].
+     A safe and clinically efficacious treatment of pain and other FM symptoms was also achieved by the
+combination of osteopathic manipulative medicine and pharmacologic treatment with gabapentin [155].
+     Dancing is a type of aerobic exercise that may be used in FM alternative therapy. Belly dancing
+was found to be e↵ective in improving functional capacity, pain, quality of life and improving body
+image of women with FM [156]. More recently, three months treatment of patients with FM with
+Zumba dancing was found to be e↵ective in improving pain and physical functioning [157].
+     Finally, Tai chi mind-body treatment was found to improve FM symptoms as much as aerobic
+exercise and longer duration of Tai chi showed greater improvement. According to a recent report,
+mind-body approaches may take part of the multidisciplinary management of FM and be considered
+an alternative therapeutic option [158].
+
+3.2.8. Probiotics and FM Therapy
+     A tractable strategy for developing novel therapeutics for complex central nervous system disorders
+could rely on the so called microbiota-gut-brain axis management, because intestinal homeostasis may
+directly a↵ect brain functioning [159,160]. The pain intensity of patients with FM has been reported to
+be correlated with the degree of small intestinal bacterial overgrowth, which is often associated with
+an increased intestinal permeability whose values were significantly increased in the FM patients [161].
+Preclinical trials indicate that the microbiota and its metabolome are likely involved in modulating
+brain processes and behaviors [162]. Therefore, FM patients should show better performance after
+the treatment with probiotics. In a double-blind, placebo-controlled, randomized design probiotic
+Int. J. Mol. Sci. 2020, 21, 7877                                                                  15 of 27
+
+
+
+improved impulsive choice and decision-making in FM patients, but no other e↵ects were observed on
+cognition, quality of life, self-reported pain, FM impact, depressive or anxiety symptoms [163].
+
+3.2.9. Use of Plant Extracts and Natural Products for FM Treatment
+     About 40% of drugs used to treat FM originate from natural products [164]; however, there are a
+few studies that prove the safe and e↵ective use of various plant extracts in FM therapy. Several plant
+extracts are currently used for their antinociceptive properties and potential to treat FM [165].
+     Papaver somniferum is probably the most ancient plant used for its antinociceptive properties [166],
+with chemical components able to interact with opioid receptors; among these morphine (15) which is
+not only the oldest, but is still the most e↵ective drug for the management of severe pain in clinical
+practice [167]. The use of opioids for FM treatment has been discussed above.
+     Another important plant is Cannabis sativa. The major active constituent of Cannabis, D9-THC (1),
+has been shown to possess antinociceptive properties when assessed in several experimental
+models [168] (see also the discussion above on cannabinoids). Although there is still scarce evidence to
+support its role in the treatment of FM, a large consensus indicates that medical cannabis could be
+an e↵ective alternative for the treatment of FM symptoms [169]. The illicit use of herbal cannabis for
+FM treatment has been correlated to the inefficacy of current available medications, but is also linked
+to popular advocacy or familiarity with marijuana from recreational use. Therefore, physicians are
+requested to examine the global psychosocial well-being, and not focus only on the single outcome
+measure of pain [52,170]. Although medical cannabis treatment has a significant favorable e↵ect
+on patients with FM, 30% of patients experience adverse e↵ects [171] and 8% report dependence
+on cannabis [172]. VAS scores measured in 28 FM patients after 2 hours of cannabis use showed
+enhancement of relaxation and feeling of well-being, a reduction of pain and sti↵ness which were
+accompanied by an increase in somnolence. The mental health component summary score of the Short
+Form 36 Health Survey was higher in cannabis users than in non-users [49].
+     Among terpenoids, administration of trans- -caryophyllene (BCP, 26), a bicyclic sesquiterpene
+compound existing in the essential oil of many plants like Copaifera langsdforffii, Cananga odorata,
+Humulus lupulus, Piper nigrum and Syzygium aromaticum, which provide a high percentage of BCP
+along with interesting essential oil yields [173], significantly minimized the pain in both acute
+and chronic pain models [174]. BCP selectively binds to the cannabinoid 2 (CB2 ) receptor and
+is a functional CB2 agonist. Upon binding to the CB2 receptor, BCP inhibits adenylate cylcase,
+leads to intracellular calcium transients and weakly activates the mitogen-activated kinases Erk1/2
+and p38 in primary human monocytes [175]. BCP, a safe compound with toxicity at doses higher
+than 2000 mg/kg body weight [176], was found to reduce the primary and secondary hyperalgesia
+produced by a chronic muscle pain model (which is considered to be an animal model for FM) [177].
+Significant and dose-dependent antinociceptive response was produced by BCP without the presence
+of gastric damage [178]. Antiallodynic actions of BCP are exerted only through activation of local
+peripheral CB2 [179]. In neuropathic pain models, BCP reduced spinal neuroinflammation and
+the oral administration was more e↵ective than the subcutaneously injected synthetic CB2 agonist
+JWH-133 [180]. Recently, BCP was found to exert an analgesic e↵ect in an FM animal model through
+activation of the descending inhibitory pain pathway [181]. Thus, BCP may be highly e↵ective in the
+treatment of long-lasting, debilitating pain states, suggesting the interesting application of BCP in
+FM therapy.
+     The analgesic properties of myrrh (Commiphora myrrha) have been known since ancient times
+and depend on the presence of bioactive sesquiterpenes with furanodiene skeletons which are able
+to interact with the opioid receptors [182,183]. C. myrrha extracts exerted a stronger suppression on
+carrageenan-induced mice paw edema with significant analgesic e↵ects [184] and were e↵ective against
+chronic inflammatory joint disease such as osteoarthritis [185]. In a preclinical trial, pain alleviation
+was obtained with C. myrrha extracts for many pathologies [186], indicating that extracts from this
+plant may have the potential to treat FM.
+Int. J. Mol. Sci. 2020, 21, 7877                                                                       16 of 27
+
+
+
+     Preclinical studies indicate a potential use of Hypericum perforatum (Hypericaceae),
+popularly known as St. John’s wort, in medical pain management [187] due to its phenolic compounds.
+Many phenolic compounds (e.g., flavonoids) from medicinal plants are promising candidates for new
+natural analgesic drugs [188]. Quercetin (27) showed analgesic activity and could reduce neuropathic
+pain by inhibiting mTOR/p70S6K pathway-mediated changes of synaptic morphology and synaptic
+protein levels in spinal dorsal horn neurons of db/db mice [189], while rutin (28) could inhibit the
+writhing response of mice induced by potassium antimony tartrate and showed to be a promising
+pharmacological approach to treat pain [190]. The analgesia potency of hyperin (29) was approximately
+20-fold of morphine, while luteolin (30) presented e↵ective analgesic activities for both acute and
+chronic pain management. Some glycosides of kaempferol (e.g., kaempferol 3-O-sophoroside, 31)
+possess significant analgesic activity in the tail clip, tail flick, tail immersion, and acetic acid-induced
+writhing models, whereas baicalin (32) shows analgesic e↵ects in several kinds of pain [191]. Fisetin (33),
+a plant flavonoid polyphenol, has been reported to possess potent antioxidant, antinociceptive and
+neuroprotective activities. In rats, fisetin acts via modulation of decreased levels of biogenic amines
+and elevatesoxido-nitrosative stress and ROS to ameliorate allodynia, hyperalgesia, and depression in
+experimental reserpine-induced FM [192].
+     In a double-blind parallel-group clinical trial, outpatients with FM were randomized to receive
+either 15 mg of Crocus sativus (sa↵ron) extract or 30 mg duloxetine (22). No significant di↵erence was
+detected for any of the scales neither in terms of score changes from baseline to endpoint between the
+two treatment arms, indicating that sa↵ron and duloxetine had comparable efficacy in treatment of FM
+symptoms [193].
+     It is still unclear the efficacy of natural products extracted from plants in treating FM.
+However, some clinical data show promising results and more studies with adequate methodological
+quality are necessary in order to investigate the efficacy and safety of natural products as a support in
+FM therapy. Figure 7 depicts the chemical formulae of some antinociceptive natural products.
+
+
+
+
+               Figure 7. Chemical structure of some natural compounds with antinociceptive activity.
+Int. J. Mol. Sci. 2020, 21, 7877                                                                     17 of 27
+
+
+
+4. Conclusions
+      Diagnosis of FM is based on clinical feature and criteria that still lack either a gold standard or at
+least supportive laboratory findings. FM diagnostic criteria may include heterogeneous patients also
+in clinical trials and this may impair evaluation of clinically meaningful treatment e↵ect.
+      The review of the literature suggests that a multidisciplinary therapeutic approach, based on the
+combination of pharmacologic and alternative therapy (including thermal, light, electrostimulatory
+and body exercise treatments) could improve the quality of life and reduce pain and other symptoms
+related to FM. However, sometimes the ability of patients to participate to alternative therapies is
+impeded by the level of pain fatigue, poor sleep, and cognitive dysfunction. These patients may need
+to be managed with medications before initiating nonpharmacologic therapies.
+      Although the use of some natural phytochemicals like BCP and phenolic compounds might replace
+other natural products such as D9-THC, because of reduced side e↵ects and higher tolerability, FM self
+medication practice may be ine↵ective and in some cases even detrimental. Therefore, providing FM
+patients with the correct information about their disorders may help monitoring pharmacological
+and alternative therapies. At the same time maintaining information will help patients to receive the
+appropriate medications and therapies [194].
+
+Funding: This research received no external funding.
+Conflicts of Interest: The author declares no conflict of interest
+
+Abbreviations
+2-AG             2-ArachidonoylGlycerol
+AA               Arachidonic Acid
+ACR              American College of Rheumatology
+ACTH             Adrenocorticotropic hormone
+AEA              N-arachidonoylethanolamine
+BDNF             Brain-Derived Neurotrophic Factors
+CB1              Cannabinoid Receptor 1
+CB2              Cannabinoid Receptor 2
+CBD              Cannabidiol
+CNS              Central Nervous System
+EA               Electro-Acupuncture
+ESS              Extent of Somatic Symptoms
+FIQ              FM Impact Questionnaire
+FIQR             FM Impact Questionnaire Revised version
+FM               Fibromyalgia
+FS               Fibromyalgianess Scale
+GABA             Gamma-Aminobutyric Acid
+                 Grading of Recommendations, Assessment,
+GRADE
+                 Development, and Evaluation
+HBOT             Hyperbaric Oxygen Therapy
+ICD-11           International Classification of Diseases
+IL-1             Interleukin 1 beta
+IL-6             Interleukin 6
+MA               Manual Acupuncture
+PEA              Palmitoylethanolamide
+PFM              Primary FM
+ROS              Reactive Oxygen Species
+SIQ              Symptom Impact Questionnaire
+SFM              Secondary FM
+SNRIs            Serotonin and Norepinephrine Reuptake Inhibitors
+SSRIs            Serotonin Selective Reuptake Inhibitors
+SSS              Symptom Severity Scale
+TCAs             Tricyclic Antidepressant
+TNF↵             Tumor necrosis factor alpha
+VAS              Visual Analog Scale
+WPI              Widespread Pain Index
+D9-THC           Delta 9-tetrahydrocannabinol
+Int. J. Mol. Sci. 2020, 21, 7877                                                                                    18 of 27
+
+
+
+References
+1.    Wang, S.M.; Han, C.; Lee, S.J.; Patkar, A.A.; Masand, P.S.; Pae, C.U. Fibromyalgia diagnosis: A review of the
+      past, present and future. Expert Rev. Neurother. 2015, 15, 667–679. [CrossRef] [PubMed]
+2.    Chinn, S.; Caldwell, W.; Gritsenko, K. Fibromyalgia pathogenesis and treatment options update. Curr. Pain
+      Headache Rep. 2016, 20, 25. [CrossRef] [PubMed]
+3.    Blanco, I.; Beritze, N.; Arguelles, M.; Carcaba, V.; Fernandez, F.; Janciauskiene, S.; Oikonomopoulou, K.; de
+      Serres, F.J.; Fernandez-Bustillo, E.; Hollenberg, M.D. Abnormal overexpression of mastocytes in skin biopsies
+      of fibromyalgia patients. Clin. Rheumatol. 2010, 29, 1403–1412. [CrossRef] [PubMed]
+4.    Cabo-Meseguer, A.; Cerda-Olmedo, G.; Trillo-Mata, J.L. Fibromyalgia: Prevalence, epidemiologic profiles
+      and economic costs. Med. Clin. 2017, 149, 441–448. [CrossRef] [PubMed]
+5.    Williams, D.A.; Schilling, S. Advances in the assessment of fibromyalgia. Rheum. Dis. Clin. N. Am. 2009,
+      35, 339–357. [CrossRef] [PubMed]
+6.    Rahman, A.; Underwood, M.; Carnes, D. Fibromyalgia. BMJ Br. Med. J. 2014, 348. [CrossRef] [PubMed]
+7.    McBeth, J.; Mulvey, M.R. Fibromyalgia: Mechanisms and potential impact of the acr 2010 classification criteria.
+      Nat. Rev. Rheumatol. 2012, 8, 108–116. [CrossRef] [PubMed]
+8.    Arnold, L.M.; Clauw, D.J.; McCarberg, B.H.; FibroCollaborative. Improving the recognition and diagnosis of
+      fibromyalgia. Mayo Clin. Proc. 2011, 86, 457–464. [CrossRef]
+9.    Wolfe, F.; Smythe, H.A.; Yunus, M.B.; Bennett, R.M.; Bombardier, C.; Goldenberg, D.L.; Tugwell, P.;
+      Campbell, S.M.; Abeles, M.; Clark, P.; et al. The american-college-of-rheumatology 1990 criteria for
+      the classification of fibromyalgia—Report of the multicenter criteria committee. Arthritis Rheum. 1990,
+      33, 160–172. [CrossRef]
+10.   Dworkin, R.H.; Turk, D.C.; McDermott, M.P.; Peirce-Sandner, S.; Burke, L.B.; Cowan, P.; Farrar, J.T.; Hertz, S.;
+      Raja, S.N.; Rappaport, B.A.; et al. Interpreting the clinical importance of group di↵erences in chronic pain
+      clinical trials: Immpact recommendations. Pain 2009, 146, 238–244. [CrossRef]
+11.   Arnold, L.M.; Cro↵ord, L.J.; Mease, P.J.; Burgess, S.M.; Palmer, S.C.; Abetz, L.; Martin, S.A. Patient perspectives
+      on the impact of fibromyalgia. Patient Educ. Couns. 2008, 73, 114–120. [CrossRef] [PubMed]
+12.   Wolfe, F.; Hauser, W. Fibromyalgia diagnosis and diagnostic criteria. Ann. Med. 2011, 43, 495–502. [CrossRef] [PubMed]
+13.   Wolfe, F. New american college of rheumatology criteria for fibromyalgia: A twenty-year journey.
+      Arthritis Care Res. 2010, 62, 583–584. [CrossRef] [PubMed]
+14.   Wolfe, F.; Clauw, D.J.; Fitzcharles, M.A.; Goldenberg, D.L.; Hauser, W.; Katz, R.S.; Mease, P.; Russell, A.S.;
+      Russell, I.J.; Winfield, J.B. Fibromyalgia criteria and severity scales for clinical and epidemiological
+      studies: A modification of the acr preliminary diagnostic criteria for fibromyalgia. J. Rheumatol. 2011,
+      38, 1113–1122. [CrossRef]
+15.   Oncu, J.; Iliser, R.; Kuran, B. Do new diagnostic criteria for fibromyalgia provide treatment opportunity to
+      those previously untreated? J. Back Musculoskelet. Rehabil. 2013, 26, 437–443. [CrossRef]
+16.   Wolfe, F.; Walitt, B.; Rasker, J.J.; Hauser, W. Primary and secondary fibromyalgia are the same: The universality
+      of polysymptomatic distress. J. Rheumatol. 2019, 46, 204–212. [CrossRef]
+17.   Bellato, E.; Marini, E.; Castoldi, F.; Barbasetti, N.; Mattei, L.; Bonasia, D.E.; Blonna, D. Fibromyalgia syndrome:
+      Etiology, pathogenesis, diagnosis, and treatment. Pain Res. Treat. 2012, 2012, 426130. [CrossRef]
+18.   Bennett, R.M.; Friend, R.; Marcus, D.; Bernstein, C.; Han, B.K.; Yachoui, R.; Deodhar, A.; Kaell, A.; Bonafede, P.;
+      Chino, A.; et al. Criteria for the diagnosis of fibromyalgia: Validation of the modified 2010 preliminary
+      american college of rheumatology criteria and the development of alternative criteria. Arthritis Care Res.
+      2014, 66, 1364–1373. [CrossRef]
+19.   Aggarwal, R.; Ringold, S.; Khanna, D.; Neogi, T.; Johnson, S.R.; Miller, A.; Brunner, H.I.; Ogawa, R.;
+      Felson, D.; Ogdie, A.; et al. Distinctions between diagnostic and classification criteria? Arthritis Care Res.
+      2015, 67, 891–897. [CrossRef]
+20.   Taylor, W.J.; Fransen, J. Distinctions between diagnostic and classification criteria: Comment on the article by
+      Aggarwal et al. Arthritis Care Res. 2016, 68, 149–150. [CrossRef]
+21.   Wolfe, F.; Clauw, D.J.; Fitzcharles, M.A.; Goldenberg, D.L.; Hauser, W.; Katz, R.L.; Mease, P.J.; Russell, A.S.;
+      Russell, I.J.; Walitt, B. 2016 revisions to the 2010/2011 fibromyalgia diagnostic criteria. Semin. Arthritis Rheum.
+      2016, 46, 319–329. [CrossRef] [PubMed]
+Int. J. Mol. Sci. 2020, 21, 7877                                                                                    19 of 27
+
+
+
+22.   Bidari, A.; Parsa, B.G.; Ghalehbaghi, B. Challenges in fibromyalgia diagnosis: From meaning of symptoms to
+      fibromyalgia labeling. Korean J. Pain 2018, 31, 147–154. [CrossRef]
+23.   Treede, R.D.; Rief, W.; Barke, A.; Aziz, Q.; Bennett, M.I.; Benoliel, R.; Cohen, M.; Evers, S.; Finnerup, N.B.;
+      First, M.B.; et al. Chronic pain as a symptom or a disease: The IASP classification of chronic pain for the
+      international classification of diseases (ICD-11). Pain 2019, 160, 19–27. [CrossRef]
+24.   Wolfe, F.; Schmukler, J.; Jamal, S.; Castrejon, I.; Gibson, K.A.; Srinivasan, S.; Hauser, W.; Pincus, T. Diagnosis
+      of fibromyalgia: Disagreement between fibromyalgia criteria and clinician-based fibromyalgia diagnosis in a
+      university clinic. Arthritis Care Res. 2019, 71, 343–351. [CrossRef] [PubMed]
+25.   Eich, W.; Bar, K.J.; Bernateck, M.; Burgmer, M.; Dexl, C.; Petzke, F.; Sommer, C.; Winkelmann, A.; Hauser, W.
+      Definition, classification, clinical diagnosis and prognosis of fibromyalgia syndrome: Updated guidelines
+      2017 and overview of systematic review articles. Schmerz 2017, 31, 231–238. [CrossRef] [PubMed]
+26.   Ra↵aeli, W.; Malafoglia, V.; Bonci, A.; Tenti, M.; Ilari, S.; Gremigni, P.; Iannuccelli, C.; Gioia, C.; Di Franco, M.;
+      Mollace, V.; et al. Identification of mor-positive b cell as possible innovative biomarker (mu lympho-marker)
+      for chronic pain diagnosis in patients with fibromyalgia and osteoarthritis diseases. Int. J. Mol. Sci. 2020,
+      21, 15. [CrossRef] [PubMed]
+27.   Hackshaw, K.V.; Aykas, D.P.; Sigurdson, G.T.; Plans, M.; Madiai, F.; Yu, L.B.; Buffington, C.A.T.; Giusti, M.M.;
+      Rodriguez-Saona, L. Metabolic fingerprinting for diagnosis of fibromyalgia and other rheumatologic disorders.
+      J. Biol. Chem. 2019, 294, 2555–2568. [CrossRef]
+28.   Wolfe, F. Criteria for fibromyalgia? What is fibromyalgia? Limitations to current concepts of fibromyalgia
+      and fibromyalgia criteria. Clin. Exp. Rheumatol. 2017, 35, S3–S5.
+29.   Walitt, B.; Nahin, R.L.; Katz, R.S.; Bergman, M.J.; Wolfe, F. The prevalence and characteristics of fibromyalgia
+      in the 2012 national health interview survey. PLoS ONE 2015, 10, e0138024. [CrossRef]
+30.   Moore, R.A.; Straube, S.; Aldington, D. Pain measures and cut-o↵s—No worse than mild pain as a simple,
+      universal outcome. Anaesthesia 2013, 68, 400–412. [CrossRef]
+31.   Espejo, J.A.; Garcia-Escudero, M.; Oltra, E. Unraveling the molecular determinants of manual
+      therapy: An approach to integrative therapeutics for the treatment of fibromyalgia and chronic fatigue
+      syndrome/myalgic encephalomyelitis. Int. J. Mol. Sci. 2018, 19, 19. [CrossRef] [PubMed]
+32.   Calandre, E.P.; Rico-Villademoros, F.; Slim, M. An update on pharmacotherapy for the treatment of
+      fibromyalgia. Expert Opin. Pharmacother. 2015, 16, 1347–1368. [CrossRef] [PubMed]
+33.   Thorpe, J.; Shum, B.; Moore, R.A.; Wi↵en, P.J.; Gilron, I. Combination pharmacotherapy for the treatment of
+      fibromyalgia in adults. Cochrane Database Syst. Rev. 2018, 2. [CrossRef] [PubMed]
+34.   Mease, P.J.; Seymour, K. Fibromyalgia: Should the treatment paradigm be monotherapy or combination
+      pharmacotherapy? Curr. Pain Headache Rep. 2008, 12, 399–405. [CrossRef]
+35.   Kwiatek, R. Treatment of fibromyalgia. Aust. Prescr. 2017, 40, 179–183. [CrossRef]
+36.   Wright, C.L.; Mist, S.D.; Ross, R.L.; Jones, K.D. Duloxetine for the treatment of fibromyalgia. Expert Rev.
+      Clin. Immunol. 2010, 6, 745–756. [CrossRef]
+37.   Pacher, P.; Batkai, S.; Kunos, G. The endocannabinoid system as an emerging target of pharmacotherapy.
+      Pharmacol. Rev. 2006, 58, 389–462. [CrossRef]
+38.   De Vries, M.; van Rijckevorsel, D.C.M.; Wilder-Smith, O.H.G.; van Goor, H. Dronabinol and chronic pain:
+      Importance of mechanistic considerations. Expert Opin. Pharmacother. 2014, 15, 1525–1534. [CrossRef]
+39.   Russo, E.B. Clinical endocannabinoid deficiency (CECD)—Can this concept explain therapeutic benefits
+      of cannabis in migraine, fibromyalgia, irritable bowel syndrome and other treatment-resistant conditions?
+      Neuroendocr. Lett. 2004, 25. (Reprinted from Neuroendocrinilogy, 2004, 25, 31–39).
+40.   Smith, S.C.; Wagner, M.S. Clinical endocannabinoid deficiency (CECD) revisited: Can this concept
+      explain the therapeutic benefits of cannabis in migraine, fibromyalgia, irritable bowel syndrome and
+      other treatment-resistant conditions? Neuroendocr. Lett. 2014, 35, 198–201.
+41.   Munro, S.; Thomas, K.L.; Abushaar, M. Molecular characterization of a peripheral receptor for cannabinoids.
+      Nature 1993, 365, 61–65. [CrossRef] [PubMed]
+42.   Skrabek, R.Q.; Gallmova, L.; Ethans, K.; Perry, D. Nabilone for the treatment of pain in fibromyalgia. J. Pain
+      2008, 9, 164–173. [CrossRef] [PubMed]
+43.   Walitt, B.; Klose, P.; Fitzcharles, M.A.; Phillips, T.; Hauser, W. Cannabinoids for fibromyalgia. Cochrane Database
+      Syst. Rev. 2016. [CrossRef] [PubMed]
+Int. J. Mol. Sci. 2020, 21, 7877                                                                                  20 of 27
+
+
+
+44.   Thomas, A.; Baillie, G.L.; Phillips, A.M.; Razdan, R.K.; Ross, R.A.; Pertwee, R.G. Cannabidiol displays
+      unexpectedly high potency as an antagonist of cb1 and cb2 receptor agonists in vitro. Br. J. Pharmacol. 2007,
+      150, 613–623. [CrossRef]
+45.   Baumeister, D.; Eich, W.; Lerner, R.; Lutz, B.; Bindila, L.; Tesarz, J. Plasma parameters of the endocannabinoid
+      system are unaltered in fibromyalgia. Psychother. Psychosom. 2018, 87, 377–379. [CrossRef]
+46.   Kaufmann, I.; Schelling, G.; Eisner, C.; Richter, H.P.; Krauseneck, T.; Vogeser, M.; Hauer, D.; Campolongo, P.;
+      Chouker, A.; Beyer, A.; et al. Anandamide and neutrophil function in patients with fibromyalgia.
+      Psychoneuroendocrinology 2008, 33, 676–685. [CrossRef]
+47.   Agarwal, N.; Pacher, P.; Tegeder, I.; Amaya, F.; Constantin, C.E.; Brenner, G.J.; Rubino, T.; Michalski, C.W.;
+      Marsicano, G.; Monory, K.; et al. Cannabinoids mediate analgesia largely via peripheral type 1 cannabinoid
+      receptors in nociceptors. Nat. Neurosci. 2007, 10, 870–879. [CrossRef]
+48.   Schley, M.; Legler, A.; Skopp, G.; Schmelz, M.; Konrad, C.; Rukwied, R. Delta-9-thc based monotherapy in
+      fibromyalgia patients on experimentally induced pain, axon reflex flare, and pain relief. Curr. Med. Res. Opin.
+      2006, 22, 1269–1276. [CrossRef]
+49.   Fiz, J.; Duran, M.; Capella, D.; Carbonell, J.; Farre, M. Cannabis use in patients with fibromyalgia: E↵ect on
+      symptoms relief and health-related quality of life. PLoS ONE 2011, 6, 5. [CrossRef]
+50.   Ware, M.A.; Fitzcharles, M.A.; Joseph, L.; Shir, Y. The e↵ects of nabilone on sleep in fibromyalgia: Results of
+      a randomized controlled trial. Anesth. Analg. 2010, 110, 604–610. [CrossRef]
+51.   Fitzcharles, M.A.; Ste-Marie, P.A.; Goldenberg, D.L.; Pereira, J.X.; Abbey, S.; Choiniere, M.; Ko, G.; Moulin, D.E.;
+      Panopalis, P.; Proulx, J.; et al. 2012 Canadian guidelines for the diagnosis and management of fibromyalgia
+      syndrome: Executive summary. Pain Res. Manag. 2013, 18, 119–126. [CrossRef]
+52.   Ste-Marie, P.A.; Fitzcharles, M.A.; Gamsa, A.; Ware, M.A.; Shir, Y. Association of herbal cannabis
+      use with negative psychosocial parameters in patients with fibromyalgia. Arthritis Care Res. 2012,
+      64, 1202–1208. [CrossRef] [PubMed]
+53.   Painter, J.T.; Cro↵ord, L.J. Chronic opioid use in fibromyalgia syndrome a clinical review. JCR J. Clin. Rheumatol.
+      2013, 19, 72–77. [CrossRef] [PubMed]
+54.   Goldenberg, D.L.; Clauw, D.J.; Palmer, R.E.; Clair, A.G. Opioid use in fibromyalgia: A cautionary tale.
+      Mayo Clin. Proc. 2016, 91, 640–648. [CrossRef] [PubMed]
+55.   Baraniuk, J.N.; Whalen, G.; Cunningham, J.; Clauw, D.J. Cerebrospinal fluid levels of opioid peptides in
+      fibromyalgia and chronic low back pain. BMC Musculoskelet. Disord. 2004, 5, 48. [CrossRef]
+56.   Fitzcharles, M.-A.; Faregh, N.; Ste-Marie, P.A.; Shir, Y. Opioid use in fibromyalgia is associated with negative
+      health related measures in a prospective cohort study. Pain Res. Treat. 2013, 2013, 7. [CrossRef]
+57.   Peng, X.M.; Robinson, R.L.; Mease, P.; Kroenke, K.; Williams, D.A.; Chen, Y.; Faries, D.; Wohlreich, M.;
+      McCarberg, B.; Hann, D. Long-term evaluation of opioid treatment in fibromyalgia. Clin. J. Pain 2015,
+      31, 7–13. [CrossRef]
+58.   Hwang, J.M.; Lee, B.J.; Oh, T.H.; Park, D.; Kim, C.H. Association between initial opioid use and response to a
+      brief interdisciplinary treatment program in fibromyalgia. Medicine 2019, 98, 8. [CrossRef]
+59.   Harris, R.E.; Clauw, D.J.; Scott, D.J.; McLean, S.A.; Gracely, R.H.; Zubieta, J.K. Decreased central mu-opioid
+      receptor availability in fibromyalgia. J. Neurosci. 2007, 27, 10000–10006. [CrossRef]
+60.   Bennett, R.M.; Jones, J.; Turk, D.C.; Russell, I.J.; Matallana, L. An internet survey of 2596 people with
+      fibromyalgia. BMC Musculoskelet. Disord. 2007, 8, 27.
+61.   Hilliard, P.E.; Waljee, J.; Moser, S.; Metz, L.; Mathis, M.; Goesling, J.; Cron, D.; Clauw, D.J.; Englesbe, M.;
+      Abecasis, G.; et al. Prevalence of preoperative opioid use and characteristics associated with opioid
+      use among patients presenting for surgeryprevalence of preoperative opioid use and associated patient
+      characteristicsprevalence of preoperative opioid use and associated patient characteristics. JAMA Surg. 2018,
+      153, 929–937. [PubMed]
+62.   Gaskell, H.; Moore, R.A.; Derry, S.; Stannard, C. Oxycodone for pain in fibromyalgia in adults.
+      Cochrane Database Syst. Rev. 2016, 23. [CrossRef]
+63.   Ruette, P.; Stuyck, J.; Debeer, P. Neuropathic arthropathy of the shoulder and elbow associated with
+      syringomyelia: A report of 3 cases. Acta Orthop. Belg. 2007, 73, 525–529. [PubMed]
+64.   Williams, E.R.; Ford, C.M.; Simonds, J.G.; Leal, A.K. Blocking peripheral opioid receptors with naloxone
+      methiodide prevents acute and chronic training-induced analgesia in a rat model of fibromyalgia. FASEB J.
+      2017, 31, 1.
+Int. J. Mol. Sci. 2020, 21, 7877                                                                                  21 of 27
+
+
+
+65.   Hermans, L.; Nijs, J.; Calders, P.; De Clerck, L.; Moorkens, G.; Hans, G.; Grosemans, S.; De Mettelinge, T.R.;
+      Tuynman, J.; Meeus, M. Influence of morphine and naloxone on pain modulation in rheumatoid arthritis,
+      chronic fatigue syndrome/fibromyalgia, and controls: A double-blind, randomized, placebo-controlled,
+      cross-over study. Pain Pract. 2018, 18, 418–430. [CrossRef]
+66.   MacLean, A.J.B.; Schwartz, T.L. Tramadol for the treatment of fibromyalgia. Expert Rev. Neurother. 2015,
+      15, 469–475. [CrossRef]
+67.   Gur, A.; Calgan, N.; Nas, K.; Cevik, R.; Sarac, A.J. Low dose of tramadol in the treatment of fibromyalgia
+      syndrome: A controlled clinical trial versus placebo. Ann. Rheum. Dis. 2006, 65, 556.
+68.   Mullican, W.S.; Lacy, J.R.; TRAMAP-ANAG-006 Study Group. Tramadol/acetaminophen combination tablets
+      and codeine/acetaminophen combination capsules for the management of chronic pain: A comparative trial.
+      Clin. Ther. 2001, 23, 1429–1445. [CrossRef]
+69.   Price, D.D.; Staud, R.; Robinson, M.E.; Mauderli, A.P.; Cannon, R.; Vierck, C.J. Enhanced temporal summation
+      of second pain and its central modulation in fibromyalgia patients. Pain 2002, 99, 49–59. [CrossRef]
+70.   Larabi, I.A.; Martin, M.; Fabresse, N.; Etting, I.; Edel, Y.; Pfau, G.; Alvarez, J.C. Hair testing for
+      3-fluorofentanyl, furanylfentanyl, methoxyacetylfentanyl, carfentanil, acetylfentanyl and fentanyl by
+      lc-ms/ms after unintentional overdose. Forensic Toxicol. 2020, 38, 277–286. [CrossRef]
+71.   Comer, S.D.; Cahill, C.M. Fentanyl: Receptor pharmacology, abuse potential, and implications for treatment.
+      Neurosci. Biobehav. Rev. 2019, 106, 49–57. [CrossRef] [PubMed]
+72.   Abeles, A.M.; Pillinger, M.H.; Solitar, B.M.; Abeles, M. Narrative review: The pathophysiology of fibromyalgia.
+      Ann. Intern. Med. 2007, 146, 726–734. [CrossRef]
+73.   Watkins, L.R.; Maier, S.F. Immune regulation of central nervous system functions: From sickness responses
+      to pathological pain. J. Intern. Med. 2005, 257, 139–155. [CrossRef]
+74.   Khalil, R.B. Pentoxifylline’s theoretical efficacy in the treatment of fibromyalgia syndrome. Pain Med. 2013,
+      14, 549–550. [CrossRef]
+75.   Polli, A.; Ghosh, M.; Bakusic, J.; Ickmans, K.; Monteyne, D.; Velkeniers, B.; Bekaert, B.; Godderis, L.; Nijs, J.
+      DNA methylation and brain-derived neurotrophic factor expression account for symptoms and widespread
+      hyperalgesia in patients with chronic fatigue syndrome and comorbid fibromyalgia. Arthritis Rheumatol.
+      2020. [CrossRef]
+76.   Scott, J.R.; Hassett, A.L.; Brummett, C.M.; Harris, R.E.; Clauw, D.J.; Harte, S.E. Ca↵eine as an opioid analgesic
+      adjuvant in fibromyalgia. J. Pain Res. 2017, 10, 1801–1809. [CrossRef] [PubMed]
+77.   Goodman, C.W.; Brett, A.S. A clinical overview of o↵-label use of gabapentinoid drugs. JAMA Intern. Med.
+      2019, 179, 695–701. [CrossRef]
+78.   Micheva, K.D.; Buchanan, J.; Holz, R.W.; Smith, S.J. Retrograde regulation of synaptic vesicle endocytosis
+      and recycling. Nat. Neurosci. 2003, 6, 925–932. [CrossRef]
+79.   Deitos, A.; Soldatelli, M.D.; Dussan-Sarria, J.A.; Souza, A.; Torres, I.L.D.; Fregni, F.; Caumo, W. Novel
+      insights of e↵ects of pregabalin on neural mechanisms of intracortical disinhibition in physiopathology
+      of fibromyalgia: An explanatory, randomized, double-blind crossover study. Front. Hum. Neurosci. 2018,
+      12, 14. [CrossRef]
+80.   Kiso, T.; Moriyama, A.; Furutani, M.; Matsuda, R.; Funatsu, Y. E↵ects of pregabalin and duloxetine on
+      neurotransmitters in the dorsal horn of the spinal cord in a rat model of fibromyalgia. Eur. J. Pharmacol. 2018,
+      827, 117–124. [CrossRef]
+81.   Gerardi, M.C.; Atzeni, F.; Batticciotto, A.; Di Franco, M.; Rizzi, M.; Sarzi-Puttini, P. The safety of pregabalin in
+      the treatment of fibromyalgia. Expert Opin. Drug Saf. 2016, 15, 1541–1548. [CrossRef] [PubMed]
+82.   Hirakata, M.; Yoshida, S.; Tanaka-Mizuno, S.; Kuwauchi, A.; Kawakami, K. Pregabalin prescription for
+      neuropathic pain and fibromyalgia: A descriptive study using administrative database in Japan. Pain Res.
+      Manag. 2018, 10. [CrossRef] [PubMed]
+83.   Asomaning, K.; Abramsky, S.; Liu, Q.; Zhou, X.; Sobel, R.E.; Watt, S. Pregabalin prescriptions in the United
+      Kingdom: A drug utilisation study of the health improvement network (thin) primary care database. Int J.
+      Clin. Pr. 2016, 70, 380–388. [CrossRef]
+84.   Ferreira-Dos-Santos, G.; Sousa, D.C.; Costa, J.; Vaz-Carneiro, A. Analysis of the cochrane review: Pregabalin
+      for pain in fibromyalgia in adults. Cochrane database syst rev. 2016; 9: Cd011790 and 2016; 4: Cd009002.
+      Acta Med. Port. 2018, 31, 376–381. [CrossRef]
+Int. J. Mol. Sci. 2020, 21, 7877                                                                                 22 of 27
+
+
+
+85.    Bhusal, S.; Diomampo, S.; Magrey, M.N. Clinical utility, safety, and efficacy of pregabalin in the treatment of
+       fibromyalgia. Drug Healthc. Patient Saf. 2016, 8, 13–23. [CrossRef]
+86.    Arnold, L.M.; Choy, E.; Clauw, D.J.; Oka, H.; Whalen, E.; Semel, D.; Pauer, L.; Knapp, L. An
+       evidence-based review of pregabalin for the treatment of fibromyalgia. Curr. Med. Res. Opin. 2018,
+       34, 1397–1409. [CrossRef] [PubMed]
+87.    Cooper, T.E.; Derry, S.; Wi↵en, P.J.; Moore, R.A. Gabapentin for fibromyalgia pain in adults. Cochrane Database
+       Syst. Rev. 2017. [CrossRef] [PubMed]
+88.    Walitt, B.; Urrutia, G.; Nishishinya, M.B.; Cantrell, S.E.; Hauser, W. Selective serotonin reuptake inhibitors for
+       fibromyalgia syndrome. Cochrane Database Syst. Rev. 2015, 66. [CrossRef]
+89.    Welsch, P.; Uceyler, N.; Klose, P.; Walitt, B.; Hauser, W. Serotonin and noradrenaline reuptake inhibitors
+       (SNRIs) for fibromyalgia. Cochrane Database Syst. Rev. 2018, 111. [CrossRef]
+90.    Grubisic, F. Are serotonin and noradrenaline reuptake inhibitors e↵ective, tolerable, and safe for adults with
+       fibromyalgia? A cochrane review summary with commentary. J. Musculoskelet. Neuronal. Interact. 2018,
+       18, 404–406.
+91.    VanderWeide, L.A.; Smith, S.M.; Trinkley, K.E. A systematic review of the efficacy of venlafaxine for the
+       treatment of fibromyalgia. J. Clin. Pharm. Ther. 2015, 40, 1–6. [CrossRef] [PubMed]
+92.    Miki, K.; Murakami, M.; Oka, H.; Onozawa, K.; Yoshida, S.; Osada, K. Efficacy of mirtazapine for the
+       treatment of fibromyalgia without concomitant depression: A randomized, double-blind, placebo-controlled
+       phase IIa study in Japan. Pain 2016, 157, 2089–2096. [CrossRef]
+93.    Deboer, T. The pharmacologic profile of mirtazapine. J. Clin. Psychiatry 1996, 57, 19–25.
+94.    Ottman, A.A.; Warner, C.B.; Brown, J.N. The role of mirtazapine in patients with fibromyalgia: A systematic
+       review. Rheumatol. Int. 2018, 38, 2217–2224. [CrossRef] [PubMed]
+95.    Rico-Villademoros, F.; Slim, M.; Calandre, E.P. Amitriptyline for the treatment of fibromyalgia:
+       A comprehensive review. Expert Rev. Neurother. 2015, 15, 1123–1150. [CrossRef]
+96.    Moore, R.A.; Derry, S.; Aldington, D.; Cole, P.; Wi↵en, P.J. Amitriptyline for fibromyalgia in adults.
+       Cochrane Database Syst. Rev. 2015. [CrossRef]
+97.    De Tommaso, M.; Delussi, M.; Ricci, K.; D’Angelo, G. Abdominal acupuncture changes cortical responses to
+       nociceptive stimuli in fibromyalgia patients. CNS Neurosci. Ther. 2014, 20, 565–567. [CrossRef]
+98.    Karatay, S.; Okur, S.C.; Uzkeser, H.; Yildirim, K.; Akcay, F. E↵ects of acupuncture treatment on fibromyalgia
+       symptoms, serotonin, and substance p levels: A randomized sham and placebo-controlled clinical trial.
+       Pain Med. 2018, 19, 615–628. [CrossRef]
+99.    Deare, J.C.; Zheng, Z.; Xue, C.C.L.; Liu, J.P.; Shang, J.S.; Scott, S.W.; Littlejohn, G. Acupuncture for treating
+       fibromyalgia. Cochrane Database Syst. Rev. 2013. [CrossRef]
+100.   Cao, H.J.; Li, X.; Han, M.; Liu, J.P. Acupoint stimulation for fibromyalgia: A systematic review of randomized
+       controlled trials. Evid. Based Complementary Altern. Med. 2013, 2013, 1–15. [CrossRef]
+101.   Zhang, X.C.; Chen, H.; Xu, W.T.; Song, Y.Y.; Gu, Y.H.; Ni, G.X. Acupuncture therapy for fibromyalgia:
+       A systematic review and meta-analysis of randomized controlled trials.                      J. Pain Res.    2019,
+       12, 527–542. [CrossRef] [PubMed]
+102.   Tesio, V.; Torta, D.M.E.; Colonna, F.; Leombruni, P.; Ghiggia, A.; Fusaro, E.; Geminiani, G.C.;
+       Torta, R.; Castelli, L. Are fibromyalgia patients cognitively impaired? Objective and subjective
+       neuropsychological evidence. Arthritis Care Res. 2015, 67, 143–150. [CrossRef] [PubMed]
+103.   Gelonch, O.; Garolera, M.; Valls, J.; Rossello, L.; Pifarre, J. Executive function in fibromyalgia:
+       Comparing subjective and objective measures. Compr. Psychiatry 2016, 66, 113–122. [CrossRef] [PubMed]
+104.   Zhu, C.E.; Yu, B.; Zhang, W.; Chen, W.H.; Qi, Q.; Miao, Y. E↵ectiveness and safety of transcranial direct current
+       stimulation in fibromyalgia: A systematic review and meta-analysis. J. Rehabil. Med. 2017, 49, 2–9. [CrossRef]
+105.   Brighina, F.; Curatolo, M.; Cosentino, G.; De Tommaso, M.; Battaglia, G.; Sarzi-Puttini, P.C.; Guggino, G.;
+       Fierro, B. Brain modulation by electric currents in fibromyalgia: A structured review on non-invasive
+       approach with transcranial electrical stimulation. Front. Hum. Neurosci. 2019, 13, 14. [CrossRef]
+106.   Dos Santos, V.S.; Zortea, M.; Alves, R.L.; Naziazeno, C.C.D.; Saldanha, J.S.; de Carvalho, S.D.R.; Leite, A.J.D.;
+       Torres, I.L.D.; de Souza, A.; Calvetti, P.U.; et al. Cognitive e↵ects of transcranial direct current stimulation
+       combined with working memory training in fibromyalgia: A randomized clinical trial. Sci Rep. 2018,
+       8, 11. [CrossRef]
+Int. J. Mol. Sci. 2020, 21, 7877                                                                                   23 of 27
+
+
+
+107. Eken, A.; Kara, M.; Baskak, B.; Baltaci, A.; Gokcay, D. Di↵erential efficiency of transcutaneous electrical
+     nerve stimulation in dominant versus nondominant hands in fibromyalgia: Placebo-controlled functional
+     near-infrared spectroscopy study. Neurophotonics 2018, 5, 15. [CrossRef]
+108. Yuksel, M.; Ayas, S.; Cabioglu, M.T.; Yilmaz, D.; Cabioglu, C. Quantitative data for transcutaneous electrical
+     nerve stimulation and acupuncture e↵ectiveness in treatment of fibromyalgia syndrome. Evid. Based
+     Complementary Altern. Med. 2019, 12, 362831. [CrossRef]
+109. Ahmed, S.; Plazier, M.; Ost, J.; Stassijns, G.; Deleye, S.; Ceyssens, S.; Dupont, P.; Stroobants, S.; Staelens, S.; De
+     Ridder, D.; et al. The e↵ect of occipital nerve field stimulation on the descending pain pathway in patients
+     with fibromyalgia: A water pet and EEG imaging study. BMC Neurol. 2018, 18, 10. [CrossRef]
+110. Sutbeyaz, S.T.; Sezer, N.; Koseoglu, F.; Kibar, S. Low-frequency pulsed electromagnetic field therapy
+     in fibromyalgia a randomized, double-blind, sham-controlled clinical study. Clin. J. Pain 2009,
+     25, 722–728. [CrossRef]
+111. Multanen, J.; Hakkinen, A.; Heikkinen, P.; Kautiainen, H.; Mustalampi, S.; Ylinen, J. Pulsed electromagnetic
+     field therapy in the treatment of pain and other symptoms in fibromyalgia: A randomized controlled study.
+     Bioelectromagnetics 2018, 39, 405–413. [CrossRef]
+112. Cruccu, G.; Garcia-Larrea, L.; Hansson, P.; Keindl, M.; Lefaucheur, J.P.; Paulus, W.; Taylor, R.; Tronnier, V.;
+     Truini, A.; Attal, N. Ean guidelines on central neurostimulation therapy in chronic pain conditions.
+     Eur. J. Neurol. 2016, 23, 1489–1499. [CrossRef]
+113. Knijnik, L.M.; Dussan-Sarria, J.A.; Rozisky, J.R.; Torres, I.L.S.; Brunoni, A.R.; Fregni, F.; Caumo, W. Repetitive
+     transcranial magnetic stimulation for fibromyalgia: Systematic review and meta-analysis. Pain Pract. 2016,
+     16, 294–304. [CrossRef]
+114. Thut, G.; Schyns, P.G.; Gross, J. Entrainment of perceptually relevant brain oscillations by non-invasive
+     rhythmic stimulation of the human brain. Front. Psychol. 2011, 2, 170. [CrossRef]
+115. Weber, A.; Werneck, L.; Paiva, E.; Gans, P. E↵ects of music in combination with vibration in acupuncture
+     points on the treatment of fibromyalgia. J. Altern. Complement. Med. 2015, 21, 77–82. [CrossRef]
+116. Chesky, K.S.; Russell, I.J.; Lopez, Y.; Kondraske, G.V. Fibromyalgia tender point pain: A double-blind,
+     placebo-controlled pilot study of music vibration using the music vibration table. J. Musculoskelet. Pain 1997,
+     5, 33–52. [CrossRef]
+117. Naghdi, L.; Ahonen, H.; Macario, P.; Bartel, L. The e↵ect of low-frequency sound stimulation on patients
+     with fibromyalgia: A clinical study. Pain Res. Manag. 2015, 20, E21–E27. [CrossRef] [PubMed]
+118. Janzen, T.B.; Paneduro, D.; Picard, L.; Gordon, A.; Bartel, L.R. A parallel randomized controlled trial
+     examining the e↵ects of rhythmic sensory stimulation on fibromyalgia symptoms. PLoS ONE 2019,
+     14, 19. [CrossRef] [PubMed]
+119. Ablin, J.N.; Hauser, W.; Buskila, D. Spa Treatment (Balneotherapy) for Fibromyalgia—A Qualitative-Narrative
+     Review and a Historical Perspective.                Evid.      Based Complementary Altern.            Med.       2013,
+     2013, 638050. [CrossRef] [PubMed]
+120. Neumann, L.; Sukenik, S.; Bolotin, A.; Abu-Shakra, M.; Amir, A.; Flusser, D.; Buskila, D. The e↵ect of
+     balneotherapy at the dead sea on the quality of life of patients with fibromyalgia syndrome. Clin. Rheumatol.
+     2001, 20, 15–19. [CrossRef]
+121. Mist, S.D.; Firestone, K.A.; Jones, K.D. Complementary and alternative exercise for fibromyalgia:
+     A meta-analysis. J. Pain Res. 2013, 6, 247–260. [CrossRef]
+122. Fioravanti, A.; Perpignano, G.; Tirri, G.; Cardinale, G.; Gianniti, C.; Lanza, C.E.; Loi, A.; Tirri, E.; Sfriso, P.;
+     Cozzi, F. E↵ects of mud-bath treatment on fibromyalgia patients: A randomized clinical trial. Rheumatol. Int.
+     2007, 27, 1157–1161. [CrossRef]
+123. Maeda, T.; Kudo, Y.; Horiuchi, T.; Makino, N. Clinical and anti-aging e↵ect of mud-bathing therapy for
+     patients with fibromyalgia. Mol. Cell. Biochem. 2018, 444, 87–92. [CrossRef]
+124. Guidelli, G.M.; Tenti, S.; De Nobili, E.; Fioravanti, A. Fibromyalgia syndrome and spa therapy: Myth or
+     reality? Clin. Med. Insights Arthritis Musculoskelet. Disord. 2012, 5, 19–26. [CrossRef]
+125. Ernst, E.; Fialka, V. Ice freezes pain—A review of the clinical e↵ectiveness of analgesic cold therapy. J. Pain
+     Symptom Manag. 1994, 9, 56–59. [CrossRef]
+126. Rivera, J.; Tercero, M.J.; Salas, J.S.; Gimeno, J.H.; Alejo, J.S. The e↵ect of cryotherapy on fibromyalgia: A
+     randomised clinical trial carried out in a cryosauna cabin. Rheumatol. Int. 2018, 38, 2243–2250. [CrossRef]
+Int. J. Mol. Sci. 2020, 21, 7877                                                                                 24 of 27
+
+
+
+127. Bettoni, L.; Bonomi, F.G.; Zani, V.; Manisco, L.; Indelicato, A.; Lanteri, P.; Banfi, G.; Lombardi, G. E↵ects of
+     15 consecutive cryotherapy sessions on the clinical output of fibromyalgic patients. Clin. Rheumatol. 2013,
+     32, 1337–1345. [CrossRef]
+128. Sutherland, A.M.; Clarke, H.A.; Katz, J.; Katznelson, R. Hyperbaric oxygen therapy: A new treatment for
+     chronic pain? Pain Pract. 2016, 16, 620–628. [CrossRef]
+129. Bennett, M.H.; French, C.; Schnabel, A.; Wasiak, J.; Kranke, P.; Weibel, S. Normobaric and hyperbaric oxygen
+     therapy for the treatment and prevention of migraine and cluster headache. Cochrane Database Syst. Rev.
+     2015. [CrossRef]
+130. Yildiz, S.; Kiralp, M.Z.; Akin, A.; Keskin, I.; Ay, H.; Dursun, H.; Cimsit, M. A new treatment modality for
+     fibromyalgia syndrome: Hyperbaric oxygen therapy. J. Int. Med Res. 2004, 32, 263–267. [CrossRef] [PubMed]
+131. Boussi-Gross, R.; Golan, H.; Fishlev, G.; Bechor, Y.; Volkov, O.; Bergan, J.; Friedman, M.; Hoofien, D.;
+     Shlamkovitch, N.; Ben-Jacob, E.; et al. Hyperbaric oxygen therapy can improve post concussion
+     syndrome years after mild traumatic brain injury—Randomized prospective trial. PLoS ONE 2013,
+     8, e79995. [CrossRef] [PubMed]
+132. Efrati, S.; Golan, H.; Bechor, Y.; Faran, Y.; Daphna-Tekoah, S.; Sekler, G.; Fishlev, G.; Ablin, J.N.; Bergan, J.;
+     Volkov, O.; et al. Hyperbaric oxygen therapy can diminish fibromyalgia syndrome—Prospective clinical trial.
+     PLoS ONE 2015, 10, e0127012. [CrossRef] [PubMed]
+133. El-Shewy, K.M.; Kunbaz, A.; Gad, M.M.; Al-Husseini, M.J.; Saad, A.M.; Sammour, Y.M.; Abdel-Daim, M.M.
+     Hyperbaric oxygen and aerobic exercise in the long-term treatment of fibromyalgia: A narrative review.
+     Biomed. Pharmacother. 2019, 109, 629–638. [CrossRef] [PubMed]
+134. Kisselev, S.B.; Moskvin, S.V. The use of laser therapy for patients with fibromyalgia: A critical literary review.
+     J. Lasers Med. Sci. 2019, 10, 12–20. [CrossRef]
+135. White, P.F.; Zafereo, J.; Elvir-Lazo, O.L.; Hernandez, H. Treatment of drug-resistant fibromyalgia symptoms
+     using high-intensity laser therapy: A case-based review. Rheumatol. Int. 2018, 38, 517–523. [CrossRef]
+136. Gur, A.; Karakoc, M.; Nas, K.; Cevik, R.; Sarac, A.J.; Ataoglu, S. E↵ects of low power laser and low
+     dose amitriptyline therapy on clinical symptoms and quality of life in fibromyalgia: A single-blind,
+     placebo-controlled trial. Rheumatol. Int. 2002, 22, 188–193.
+137. Panton, L.; Simonavice, E.; Williams, K.; Mojock, C.; Kim, J.S.; Kingsley, J.D.; McMillan, V.; Mathis, R.
+     E↵ects of class IV laser therapy on fibromyalgia impact and function in women with fibromyalgia. J. Altern.
+     Complement. Med. 2013, 19, 445–452. [CrossRef]
+138. Ruaro, J.A.; Frez, A.R.; Ruaro, M.B.; Nicolau, R.A. Low-level laser therapy to treat fibromyalgia. Lasers Med. Sci.
+     2014, 29, 1815–1819. [CrossRef]
+139. Da Silva, M.M.; Albertini, R.; Leal, E.C.P.; de Carvalho, P.D.C.; Silva, J.A.; Bussadori, S.K.; de Oliveira, L.V.F.;
+     Casarin, C.A.S.; Andrade, E.L.; Bocalini, D.S.; et al. E↵ects of exercise training and photobiomodulation
+     therapy (extraphoto) on pain in women with fibromyalgia and temporomandibular disorder: Study protocol
+     for a randomized controlled trial. Trials 2015, 16, 8. [CrossRef]
+140. Busch, A.J.; Webber, S.C.; Brachaniec, M.; Bidonde, J.; Dal Bello-Haas, V.; Danyliw, A.D.; Overend, T.J.;
+     Richards, R.S.; Sawant, A.; Schachter, C.L. Exercise therapy for fibromyalgia. Curr. Pain Headache Rep. 2011,
+     15, 358–367. [CrossRef]
+141. Jones, K.D.; Adams, D.; Winters-Stone, K.; Burckhardt, C.S. A comprehensive review of 46 exercise treatment
+     studies in fibromyalgia (1988–2005). Health Qual. Life Outcomes 2006, 4, 67. [CrossRef] [PubMed]
+142. Bidonde, J.; Busch, A.J.; Schachter, C.L.; Webber, S.C.; Musselman, K.E.; Overend, T.J.; Goes, S.M.; Dal
+     Bello-Haas, V.; Boden, C. Mixed exercise training for adults with fibromyalgia. Cochrane Database Syst. Rev.
+     2019, 208. [CrossRef]
+143. Assumpção, A.; Matsutani, L.A.; Yuan, S.L.; Santo, A.S.; Sauer, J.; Mango, P.; Marques, A.P. Muscle stretching
+     exercises and resistance training in fibromyalgia: Which is better? A three-arm randomized controlled trial.
+     Eur. J. Phys. Rehabil. Med. 2018, 54, 663–670. [CrossRef]
+144. Nelson, N.L. Muscle strengthening activities and fibromyalgia: A review of pain and strength outcomes.
+     J. Bodyw. Mov. Ther. 2015, 19, 370–376. [CrossRef]
+145. Sanudo, B.; Galiano, D.; Carrasco, L.; Blagojevic, M.; de Hoyo, M.; Saxton, J. Aerobic exercise versus
+     combined exercise therapy in women with fibromyalgia syndrome: A randomized controlled trial. Arch. Phys.
+     Med. Rehabil. 2010, 91, 1838–1843. [CrossRef] [PubMed]
+Int. J. Mol. Sci. 2020, 21, 7877                                                                               25 of 27
+
+
+
+146. Umeda, M.; Corbin, L.W.; Maluf, K.S. Pain mediates the association between physical activity and the impact
+     of fibromyalgia on daily function. Clin. Rheumatol. 2015, 34, 143–149. [CrossRef] [PubMed]
+147. Bement, M.K.H.; Weyer, A.; Hartley, S.; Drewek, B.; Harkins, A.L.; Hunter, S.K. Pain perception after isometric
+     exercise in women with fibromyalgia. Arch. Phys. Med. Rehabil. 2011, 92, 89–95. [CrossRef]
+148. Carson, J.W.; Carson, K.M.; Jones, K.D.; Bennett, R.M.; Wright, C.L.; Mist, S.D. A pilot randomized controlled
+     trial of the yoga of awareness program in the management of fibromyalgia. Pain 2010, 151, 530–539. [CrossRef]
+149. De Oliveira, F.R.; Goncalves, L.C.V.; Borghi, F.; da Silva, L.; Gomes, A.E.; Trevisan, G.; de Souza, A.L.;
+     Grassi-Kassisse, D.M.; Crege, D. Massage therapy in cortisol circadian rhythm, pain intensity, perceived
+     stress index and quality of life of fibromyalgia syndrome patients. Complement. Ther. Clin. Pract. 2018,
+     30, 85–90. [CrossRef]
+150. Tomas-Carus, P.; Hakkinen, A.; Gusi, N.; Leal, A.; Hakkinen, K.; Ortega-Alonso, A. Aquatic training and
+     detraining on fitness and quality of life in fibromyalgia. Med. Sci. Sports Exerc. 2007, 39, 1044–1050. [CrossRef]
+151. Gusi, N.; Tomas-Carus, P. Cost-utility of an 8-month aquatic training for women with fibromyalgia:
+     A randomized controlled trial. Arthritis Res. Ther. 2008, 10, 8. [CrossRef] [PubMed]
+152. Andrade, C.P.; Zamuner, A.R.; Forti, M.; Franca, T.F.; Tamburus, N.Y.; Silva, E. Oxygen uptake and body
+     composition after aquatic physical training in women with fibromyalgia: A randomized controlled trial.
+     Eur. J. Phys. Rehabil. Med. 2017, 53, 751–758.
+153. Bidonde, J.; Busch, A.J.; Schachter, C.L.; Overend, T.J.; Kim, S.Y.; Goes, S.; Boden, C.; Foulds, H.J.A.
+     Aerobic exercise training for adults with fibromyalgia. Cochrane Database Syst. Rev. 2017. [CrossRef]
+154. Bidonde, J.; Busch, A.J.; Webber, S.C.; Schachter, C.L.; Danyliw, A.; Overend, T.J.; Richards, R.S.; Rader, T.
+     Aquatic exercise training for fibromyalgia. Cochrane Database Syst. Rev. 2014, 177. [CrossRef] [PubMed]
+155. Marske, C.; Bernard, N.; Palacios, A.; Wheeler, C.; Preiss, B.; Brown, M.; Bhattacharya, S.; Klapstein, G.
+     Fibromyalgia with gabapentin and osteopathic manipulative medicine: A pilot study. J. Altern.
+     Complement. Med. 2018, 24, 395–402. [CrossRef] [PubMed]
+156. Baptista, A.S.; Villela, A.L.; Jones, A.; Natour, J. E↵ectiveness of dance in patients with fibromyalgia:
+     A randomised, single-blind, controlled study. Clin. Exp. Rheumatol. 2012, 30, S18–S23.
+157. Assunção, J.C.; Silva, H.J.D.; da Silva, J.F.C.; Cruz, R.D.; Lins, C.A.D.; de Souza, M.C. Zumba dancing
+     can improve the pain and functional capacity in women with fibromyalgia. J. Bodyw. Mov. Ther. 2018,
+     22, 455–459. [CrossRef]
+158. Wang, C.C.; Schmid, C.H.; Fielding, R.A.; Harvey, W.F.; Reid, K.F.; Price, L.L.; Driban, J.B.; Kalish, R.;
+     Rones, R.; McAlindon, T. E↵ect of tai chi versus aerobic exercise for fibromyalgia: Comparative e↵ectiveness
+     randomized controlled trial. BMJ Br. Med J. 2018, 360, 14. [CrossRef]
+159. Cryan, J.F.; Dinan, T.G. Mind-altering microorganisms: The impact of the gut microbiota on brain and
+     behaviour. Nat. Rev. Neurosci. 2012, 13, 701–712. [CrossRef]
+160. Galland, L. The gut microbiome and the brain. J. Med. Food 2014, 17, 1261–1272. [CrossRef]
+161. Goebel, A.; Buhner, S.; Schedel, R.; Lochs, H.; Sprotte, G. Altered intestinal permeability in patients
+     with primary fibromyalgia and in patients with complex regional pain syndrome. Rheumatology 2008,
+     47, 1223–1227. [CrossRef]
+162. Mayer, E.A.; Tillisch, K.; Gupta, A. Gut/brain axis and the microbiota. J. Clin. Investig. 2015,
+     125, 926–938. [CrossRef]
+163. Roman, P.; Estevez, A.F.; Mires, A.; Sanchez-Labraca, N.; Canadas, F.; Vivas, A.B.; Cardona, D. A pilot
+     randomized controlled trial to explore cognitive and emotional e↵ects of probiotics in fibromyalgia. Sci Rep.
+     2018, 8, 9. [CrossRef] [PubMed]
+164. Butler, D. Translational research: Crossing the valley of death. Nature 2008, 453, 840–842. [CrossRef]
+165. Nascimento, S.D.; DeSantana, J.M.; Nampo, F.K.; Ribeiro, E.A.N.; da Silva, D.L.; Araujo, J.X.; Almeida, J.;
+     Bonjardim, L.R.; Araujo, A.A.D.; Quintans, L.J. Efficacy and safety of medicinal plants or related
+     natural products for fibromyalgia: A systematic review. Evid. Based Complementary Altern. Med.
+     2013. [CrossRef] [PubMed]
+166. Brownstein, M.J. A brief-history of opiates, opioid-peptides, and opioid receptors. Proc. Natl. Acad. Sci. USA
+     1993, 90, 5391–5393. [CrossRef]
+167. Benyhe, S. Morphine—New aspects in the study of an ancient compound. Life Sci. 1994, 55, 969–979. [CrossRef]
+Int. J. Mol. Sci. 2020, 21, 7877                                                                               26 of 27
+
+
+
+168. Meng, I.D.; Manning, B.H.; Martin, W.J.; Fields, H.L. An analgesia circuit activated by cannabinoids. Nature
+     1998, 395, 381–383. [CrossRef]
+169. Sagy, I.; Schleider, L.B.L.; Abu-Shakra, M.; Novack, V. Safety and efficacy of medical cannabis in fibromyalgia.
+     J. Clin. Med. 2019, 8, 12. [CrossRef]
+170. Van de Donk, T.; Niesters, M.; Kowal, M.A.; Olofsen, E.; Dahan, A.; van Velzen, M. An experimental
+     randomized study on the analgesic e↵ects of pharmaceutical-grade cannabis in chronic pain patients with
+     fibromyalgia. Pain 2019, 160, 860–869. [CrossRef]
+171. Habib, G.; Artul, S. Medical cannabis for the treatment of fibromyalgia. JCR J. Clin. Rheumatol. 2018,
+     24, 255–258. [CrossRef] [PubMed]
+172. Habib, G.; Avisar, I. The consumption of cannabis by fibromyalgia patients in Israel. Pain Res. Treat. 2018,
+     5, 7829427. [CrossRef]
+173. Ma↵ei, M.E. Plant natural sources of the endocannabinoid (e)- -caryophyllene: A systematic quantitative
+     analysis of published literature. Int. J. Mol. Sci. 2020, 21, 6540. [CrossRef] [PubMed]
+174. Paula-Freire, L.I.G.; Andersen, M.L.; Gama, V.S.; Molska, G.R.; Carlini, E.L.A. The oral
+     administration of trans-caryophyllene attenuates acute and chronic pain in mice. Phytomedicine 2014,
+     21, 356–362. [CrossRef] [PubMed]
+175. Gertsch, J.; Leonti, M.; Raduner, S.; Racz, I.; Chen, J.Z.; Xie, X.Q.; Altmann, K.H.; Karsak, M.; Zimmer, A.
+     Beta-caryophyllene is a dietary cannabinoid. Proc. Natl. Acad. Sci. USA 2008, 105, 9099–9104. [CrossRef]
+176. Oliveira, G.L.D.; Machado, K.C.; Machado, K.C.; da Silva, A.; Feitosa, C.M.; Almeida, F.R.D. Non-clinical
+     toxicity of beta-caryophyllene, a dietary cannabinoid: Absence of adverse e↵ects in female swiss mice.
+     Regul. Toxicol. Pharmacol. 2018, 92, 338–346. [CrossRef]
+177. Quintans, L.J.; Araujo, A.A.S.; Brito, R.G.; Santos, P.L.; Quintans, J.S.S.; Menezes, P.P.; Serafini, M.R.;
+     Silva, G.F.; Carvalho, F.M.S.; Brogden, N.K.; et al. Beta-caryophyllene, a dietary cannabinoid, complexed with
+     beta-cyclodextrin produced anti-hyperalgesic e↵ect involving the inhibition of Fos expression in superficial
+     dorsal horn. Life Sci. 2016, 149, 34–41. [CrossRef]
+178. Ibrahim, M.M.; Porreca, F.; Lai, J.; Albrecht, P.J.; Rice, F.L.; Khodorova, A.; Davar, G.; Makriyannis, A.;
+     Vanderah, T.W.; Mata, H.P.; et al. Cb2 cannabinoid receptor activation produces antinociception by stimulating
+     peripheral release of endogenous opioids. Proc. Natl. Acad. Sci. USA 2005, 102, 3093–3098. [CrossRef]
+179. Fidyt, K.; Fiedorowicz, A.; Strzadala, L.; Szumny, A. Beta-caryophyllene and beta-caryophyllene oxide-natural
+     compounds of anticancer and analgesic properties. Cancer Med. 2016, 5, 3007–3017. [CrossRef]
+180. Klauke, A.L.; Racz, I.; Pradier, B.; Markert, A.; Zimmer, A.M.; Gertsch, J.; Zimmer, A. The cannabinoid
+     cb2 receptor-selective phytocannabinoid beta-caryophyllene exerts analgesic e↵ects in mouse models of
+     inflammatory and neuropathic pain. Eur. Neuropsychopharmacol. 2014, 24, 608–620. [CrossRef]
+181. Melo, A.J.D.; Heimarth, L.; Carvalho, A.M.D.; Quintans, J.D.S.; Serafini, M.R.; Araujo, A.A.D.; Alves, P.B.;
+     Ribeiro, A.M.; Shanmugam, S.; Quintans, L.J.; et al. Eplingiella fruticosa (Lamiaceae) Essential Oil Complexed
+     with Beta-Cyclodextrin Improves Its Anti-Hyperalgesic E↵ect in a Chronic Widespread Non-Inflammatory
+     Muscle Pain Animal Model. Food Chem. Toxicol. 2020, 135, 7.
+182. Dolara, P.; Luceri, C.; Ghelardini, C.; Monserrat, C.; Aiolli, S.; Luceri, F.; Lodovici, M.; Menichetti, S.;
+     Romanelli, M.N. Analgesic e↵ects of myrrh. Nature 1996, 379, 29. [CrossRef] [PubMed]
+183. Borchardt, J.K. Myrrh: An analgesic with a 4000-year history. Drug News Perspect. 1996, 9, 554–557.
+184. Su, S.L.; Hua, Y.Q.; Wang, Y.Y.; Gu, W.; Zhou, W.; Duan, J.A.; Jiang, H.F.; Chen, T.; Tang, Y.P. Evaluation of the
+     anti-inflammatory and analgesic properties of individual and combined extracts from Commiphora myrrha,
+     and Boswellia carterii. J. Ethnopharmacol. 2012, 139, 649–656. [CrossRef]
+185. Lee, D.; Ju, M.K.; Kim, H. Commiphora extract mixture ameliorates monosodium iodoacetate-induced
+     osteoarthritis. Nutrients 2020, 12, 17. [CrossRef]
+186. Germano, A.; Occhipinti, A.; Barbero, F.; Ma↵ei, M.E. A pilot study on bioactive constituents and analgesic
+     e↵ects of myrliq® , a Commiphora myrrha extract with a high furanodiene content. Biomed. Res. Int 2017,
+     2017, 3804356. [CrossRef]
+187. Galeotti, N. Hypericum perforatum (St John’s Wort) beyond Depression: A Therapeutic Perspective for Pain
+     Conditions. J. Ethnopharmacol. 2017, 200, 136–146. [CrossRef]
+188. Khan, H.; Pervaiz, A.; Intagliata, S.; Das, N.; Venkata, K.C.N.; Atanasov, A.G.; Najda, A.; Nabavi, S.M.;
+     Wang, D.D.; Pittala, V.; et al. The analgesic potential of glycosides derived from medicinal plants. DARU
+     2020, 28, 387–401. [CrossRef]
+Int. J. Mol. Sci. 2020, 21, 7877                                                                            27 of 27
+
+
+
+189. Wang, R.Y.; Qiu, Z.; Wang, G.Z.; Hu, Q.; Shi, N.H.; Zhang, Z.Q.; Wu, Y.Q.; Zhou, C.H. Quercetin attenuates
+     diabetic neuropathic pain by inhibiting mtor/p70s6k pathway-mediated changes of synaptic morphology
+     and synaptic protein levels in spinal dorsal horn of db/db mice. Eur. J. Pharmacol. 2020, 882, 7. [CrossRef]
+190. Carvalho, T.T.; Mizokami, S.S.; Ferraz, C.R.; Manchope, M.F.; Borghi, S.M.; Fattori, V.; Calixto-Campos, C.;
+     Camilios-Neto, D.; Casagrande, R.; Verri, W.A. The granulopoietic cytokine granulocyte colony-stimulating
+     factor (G-CSF) induces pain: Analgesia by rutin. Inflammopharmacology 2019, 27, 1285–1296. [CrossRef]
+191. Xiao, X.; Wang, X.Y.; Gui, X.; Chen, L.; Huang, B.K. Natural flavonoids as promising analgesic candidates:
+     A systematic review. Chem. Biodivers. 2016, 13, 1427–1440. [CrossRef]
+192. Yao, X.L.; Li, L.; Kandhare, A.D.; Mukherjee-Kandhare, A.A.; Bodhankar, S.L. Attenuation of
+     reserpine-induced fibromyalgia via ros and serotonergic pathway modulation by fisetin, a plant flavonoid
+     polyphenol. Exp. Ther. Med. 2020, 19, 1343–1355. [CrossRef]
+193. Shakiba, M.; Moazen-Zadeh, E.; Noorbala, A.A.; Jafarinia, M.; Divsalar, P.; Kashani, L.; Shahmansouri, N.;
+     Tafakhori, A.; Bayat, H.; Akhondzadeh, S. Sa↵ron (Crocus sativus) versus duloxetine for treatment of patients
+     with fibromyalgia: A randomized double-blind clinical trial. Avicenna J. Phytomedicine 2018, 8, 513–523.
+194. McCarberg, B.H. Clinical overview of fibromyalgia. Am. J. Ther. 2012, 19, 357–368. [CrossRef] [PubMed]
+
+Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional
+affiliations.
+
+                            © 2020 by the author. Licensee MDPI, Basel, Switzerland. This article is an open access
+                            article distributed under the terms and conditions of the Creative Commons Attribution
+                            (CC BY) license (http://creativecommons.org/licenses/by/4.0/).
+

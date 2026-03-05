@@ -55,12 +55,17 @@ async function main() {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
+  // Remove existing output file (if any)
+  if (fs.existsSync(outputPath)) {
+    fs.unlinkSync(outputPath);
+  }
+
   // Load SQLite module
   console.log("Loading SQLite module...");
   const sqlite3 = await loadSqlite3Module();
   
-  // Create in-memory database
-  const db = new sqlite3.oo1.DB(":memory:", "c");
+  // Create file-backed database
+  const db = new sqlite3.oo1.DB(outputPath, "c");
   
   // Create table
   db.exec(`
@@ -77,7 +82,7 @@ async function main() {
   
   // Prepare statement
   const stmt = db.prepare(`
-    INSERT INTO glove (word, dimension, vector, norm)
+    INSERT OR IGNORE INTO glove (word, dimension, vector, norm)
     VALUES (?, ?, ?, ?)
   `);
   
@@ -186,18 +191,14 @@ async function main() {
   db.exec("COMMIT");
   stmt.finalize();
   
-  // Export database to file
-  console.log("Exporting database to file...");
-  const bytes: Uint8Array = sqlite3.capi.sqlite3_js_db_export(db.pointer);
-  fs.writeFileSync(outputPath, bytes);
-  
   // Close database
   db.close();
   
   console.log(`\nConversion complete!`);
   console.log(`Total words: ${count}`);
   console.log(`Dimension: ${dimension}`);
-  console.log(`Output file: ${outputPath} (${bytes.length} bytes)`);
+  const fileSize = fs.statSync(outputPath).size;
+  console.log(`Output file: ${outputPath} (${fileSize} bytes)`);
   
   // Verify the database
   console.log(`\nVerifying database...`);

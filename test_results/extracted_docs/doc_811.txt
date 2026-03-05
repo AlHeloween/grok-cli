@@ -1,0 +1,61 @@
+Eczema, or atopic dermatitis, is a common chronic skin condition that can lead to recurrent infections and poor quality of life if left untreated. Recognized as the "itch that rashes" due to the rash that results from scratching or rubbing, the hallmark of eczema is dry, itchy skin prone to infections. This activity explores the pathogenesis of eczema, acknowledging the intertwined roles of genetic and environmental factors. Learners will gain valuable insights into recognizing eczema across different age brackets, effective evaluation techniques, proactive management of flare-ups, and preventative measures against recurring infections associated with untreated eczema. The course discussion also highlights the role of interprofessional collaboration in improving outcomes for patients with this condition.
+ 
+
+ Objectives:
+ 
+
+ Identify the pathophysiology of eczema.
+ Evaluate the adverse effects of poorly controlled eczema.
+ Implement appropriate treatment options for eczema.
+ Communicate the importance of improving care coordination among the interprofessional team to improve outcomes for patients with eczema.
+ 
+
+ Eczema, or atopic dermatitis, is the most common form of dermatitis.[1] Many factors, including genetic and environmental factors, are thought to play a part in the pathogenesis of eczema. It is most commonly seen in children but can be seen in adults as well. People with eczema tend to have dry, itchy skin prone to infection. The condition is commonly known as the "itch that rashes" because dry, itchy skin leads to a rash due to scratching or rubbing the skin. 
+ 
+
+ The exact etiology of eczema is not entirely understood, but it is believed to be a combination of genetic and environmental factors.[2] 
+ 
+
+ Genetic Factors
+ 
+
+ There is a strong genetic component to eczema, with a family history of eczema, asthma, or allergies commonly found in affected individuals. Several genes associated with eczema have been identified, including those involved in the skin barrier function and the immune system. 
+ 
+
+ Filaggrin Gene
+ 
+
+ One of the most well-known genes associated with eczema is the filaggrin gene (FLG). This gene provides instructions for making a protein called filaggrin, which is important in maintaining the skin barrier function. Mutations in this gene have been linked to eczema and other skin conditions and are thought to increase susceptibility to environmental irritants and allergens.[3][4]
+ 
+
+ Other Skin Barrier Genes
+ 
+
+ In addition to the filaggrin gene, other genes involved in the skin barrier function have been implicated in the development of eczema. These include genes involved in lipid synthesis and transport, such as the ceramide synthase gene and the ABCA12 gene.[5]
+ 
+
+ Immune-related Genes
+ 
+
+ Several genes involved in the immune response have also been associated with eczema, including genes that regulate T-cells, cytokines, and immunoglobulins. These genes include interleukin (IL)-4, IL-13, IL-31, signal transducer and activator of transduction (STAT)3, and Fc fragment of immunoglobulin (Ig)E receptor Ig (FCER1G).
+ 
+
+ Overall, the genetic factors involved in eczema are complex and likely involve multiple genes and genetic pathways. Although genetic testing is not routinely used to diagnose eczema, understanding the disease's genetic basis can help identify individuals at increased risk and guide treatment approaches.
+ 
+
+ Environmental Factors
+ 
+
+ Environmental factors also play a role in the development of eczema. Patients with eczema have a defect in their skin barrier function, leading to increased water loss and susceptibility to environmental irritants and allergens. Common triggers for eczema flares include exposure to irritants such as detergents, soaps, solvents, and allergens such as dust mites, pet dander, and certain foods. Other factors that can exacerbate eczema symptoms include stress, changes in temperature and humidity, and infections.
+ 
+
+ Immune System Activation
+ 
+
+ In addition to genetic and environmental factors, the immune system is also thought to play a role in the development of eczema. Patients with eczema have an overactive immune response to environmental triggers, leading to inflammation and skin damage.
+ 
+
+ Research shows there is a genetic component to eczema. One common mutation has been observed in FLG, a vital gene for skin cell maturity. This gene is responsible for creating the tough, flat corneocytes that form the outermost protective layer of skin. In a patient with normal skin cells, the corneocytes are tightly packed in an organized manner. A patient with an FLG mutation will have a dysfunctional skin barrier due to the haphazard organization of the skin cells.[7] This dysfunction causes a "leaky" skin barrier, allowing water loss and decreased protection from harmful substances.
+ 
+
+ People with eczema also have reduced numbers of β-defensins in the skin. β-defensins are host defense peptides vital for fighting off certain bacteria, viruses, and fungi. A decrease in these peptides leads to increased colonization and infection, especially with Staphylococcus aureus (S. aureus).

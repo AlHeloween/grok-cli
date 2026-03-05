@@ -1,0 +1,16 @@
+Virtual memory is a computer system technique which gives an application program the impression that it has contiguous working memory (an address space), while in fact it may be
+physically fragmented and may even overflow on to disk storage. Systems that use this technique make programming of large applications easier and use real physical memory (e.g.
+RAM) more efficiently than those without virtual memory.
+http://en.wikipedia.org/wiki/Virtual_memory
+Page Fault: A page is a fixed-length block of memory that is used as a unit of transfer between physical memory and external storage like a disk, and a page fault is an interrupt (or
+exception) to the software raised by the hardware, when a program accesses a page that is
+mapped in address space, but not loaded in physical memory.
+http://en.wikipedia.org/wiki/Page_fault
+Thrash is the term used to describe a degenerate situation on a computer where increasing resources are used to do a decreasing amount of work. In this situation the system is
+said to be thrashing. Usually it refers to two or more processes accessing a shared resource
+repeatedly such that serious system performance degradation occurs because the system is
+spending a disproportionate amount of time just accessing the shared resource. Resource
+access time may generally be considered as wasted, since it does not contribute to the advancement of any process. In modern computers, thrashing may occur in the paging system
+(if there is not ‘sufficient’ physical memory or the disk access time is overly long), or in the
+communications system (especially in conflicts over internal bus access), etc.
+http://en.wikipedia.org/wiki/Thrash_(computer_science)

@@ -1,0 +1,81 @@
+1. Amortization: Refers to the process of gradually paying off a debt or loan over a specific period of time
+through regular, scheduled payments. These payments typically consist of both principal and interest.
+2. Backlog: A buildup of work that has not been completed or processed within a specific period. When a
+company receives an order or new contract for a product, undelivered products to fulfill that contract
+become part of the company’s backlog.
+3. Balance Sheet: Financial statement that provides a snapshot of a company's financial position at a specific
+point in time. It is one of the financial statements used by businesses, investors, creditors, and analysts to
+assess the company's financial health and performance. The balance sheet follows the accounting equation
+that assets must equal liabilities plus equity.
+4. Bid & Proposal Costs: Refers to the costs incurred in preparing, submitting, and supporting bids and
+proposals (whether or not solicited) on potential contracts (Government or not). These typically indirect
+costs are allowable to the extent they are allocable, reasonable, and not otherwise unallowable.
+5. Booking (e.g., Orders): Refers to the value of new contracts, modifications, task orders, or options signed
+in an accounting period.
+6. Cash Flow: Refers to the inflows (coming in) and outflows (going out) of cash of a company.
+7. Cash Flow Statement: Financial statement that provides an overview of the cash generated and used
+by a business during a specific period of time. It is one of the key financial statements used by businesses,
+investors, and analysts to assess the financial health and liquidity of a company. The cash flow statement
+is divided into three main sections: 1) Operating Activities: Reports the cash generated or used in the core
+operating activities of the business. 2) Investing Activities: Details cash transactions related to the purchase
+and sale of long-term assets and investments. 3) Financing Activities: Reflects cash transactions related
+to the company's financing activities. It includes activities such as issuing or repurchasing stock, borrowing,
+or repaying debt, and paying dividends.
+8. Common Size Financial Analysis: Method of evaluating and comparing financial statements by
+expressing each line item as a percentage of a base item (e.g., revenue for income statement or assets
+for balance sheet). The purpose of common size analysis is to provide insights into the relative proportions
+of different components within a financial statement, allowing for better comparison of companies of
+different sizes or of the same company over different periods.
+9. Cost of Sales or Cost of Goods Sold: Represents the costs associated with producing or purchasing the
+goods that a company sells during a specific period. It is a crucial metric for businesses, as it is subtracted
+from the total revenue to calculate the gross profit
+10. Current Assets: Any balance sheet accounts owned by a company that can be converted to cash through
+liquidation, sales, or use within one year. Examples may include cash (or equivalent), accounts receivable,
+prepaid expenses, raw materials, inventory (work-in-process or finished goods), short-term investments,
+etc.
+11. Current Liabilities: Any balance sheet accounts that are obligations by a company that are due to be
+paid within one year. Examples may include accounts payable, payroll, taxes, utilities, rental fees, shortterm notes payable, etc.
+12. Debt Ratio: A financial leverage metric based on a company’s total debt to total assets from the Balance
+Sheet. Debt Ratio = Total Liabilities / Total Assets (less Depreciation).
+13. Depreciation: Refers to the decrease in the value of an asset over time due to various factors such as
+wear and tear, obsolescence, or other forms of reduction in its usefulness. It is a common accounting
+concept used to allocate the cost of a tangible asset (like machinery, vehicles, buildings, etc.) over its
+useful life. Often an expense item on the Income Statement.
+14. Discount rate: Refers to the interest rate used to determine the present value of future cash flows.
+The concept is fundamental in the field of discounted cash flow (DCF) analysis, which is a method used
+to value an investment or project by discounting its expected future cash flows back to their present
+value.
+15. Dividends: Payments made by a company to its shareholders, typically in the form of cash or additional
+shares of stock. They represent a portion of the company's profits that is distributed to its owners.
+16. Earnings: Typically refers to the profits or net income of a business during a specific period. Earnings
+represent the financial performance of a company and are a key indicator of its profitability,
+17. Earnings per Share (EPS, ratio): Financial profitability metric that represents the portion of a company's
+profit allocated to each outstanding share of common stock. It is a widely used indicator of a company's
+profitability and is often considered a key measure of financial performance. Calculated as net income
+minus preferred dividends divided by average number of common shares.
+18. Earnings Before Interest and Taxes (EBIT): A measure of a company's operating performance and
+profitability before deducting interest expenses and taxes. EBIT is often used to analyze a company's core
+operating profitability without the influence of financial structure or tax considerations. EBIT provides a
+metric that allows for comparisons of the operating performance of different companies, as it excludes
+the impact of financing and taxation. (See operating income)
+19. Free Cash Flow (FCF): Metric that represents the cash generated by a company's operations that is
+available for distribution to creditors and investors (both equity and debt holders) after all operating
+expenses, capital expenditures, and taxes have been deducted. It means the company has the ability to
+distribute cash to investors, pay down debt, or reinvest in the business. FCF=Operating Cash Flow -
+Capital Expenditures
+20. Gross Profit: Metric represents the difference between revenue and the cost of sales during a specific
+period. While gross profit provides useful insights, it doesn't consider other operating expenses or nonoperating income, so it's often used in conjunction with other financial metrics to get a more
+comprehensive view of a company's overall financial health. Gross Profit = Sales – Cost of Sales.
+21. Gross Profit Margin: Financial metric that measures the percentage of revenue that exceeds the cost of
+sales. It is a key indicator of a company's profitability and efficiency in managing its production and
+supply chain costs.
+22. Income (or Profit): This is a metric that reflects the Income Statement’s bottom line or the amount
+of money a business has left over after all expenses. Gross income is the amount earned before expenses.
+(also known as gross profit). See Net Income.
+23. Income Statement: Financial statement used to summarize company revenue, costs, and expenses
+over a specific period, usually a fiscal quarter or year. The main purpose of an income statement is to provide
+a snapshot of a company's financial performance during a given time frame.
+24. Internal Rate of Return (IRR): Metric in financial analysis to estimate and compare the profitability of
+potential investments. Represents the expected compound annual rate of return that will be earned on
+a project. Typically, investments with higher IRRs are preferred as companies decide which projects to
+invest in.

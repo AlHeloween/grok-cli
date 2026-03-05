@@ -1,0 +1,26 @@
+There are a number of settings to allow you to configure OPTIMA Joystick to your exact requirements. These are all programmed using Learn Mode and are stored in an internal, non-volatile memory so they are automatically recalled each time you use the unit, even if you swap computers.
+To make changes to the settings, you must first go into Learn Mode. Press and hold the middle button until a warbling tone is heard. The unit is now in Learn Mode and is able to accept changes to the settings, as follows:
+Learn Mode
+Features
+• Plug and Play USB and PS/2 operation and requires no drivers.
+• PC, Mac and Chromebook compatible.
+• Switchable to Gaming output for full compatibility
+ with Xbox Adaptive Controller
+• Light touch joystick movement.
+• User-selectable cursor speed settings.
+• Drag lock and double click features.
+• Sockets to operate left and right click from remote switches.
+• Robust construction and ergonomic design.
+• Industry-standard mounting option.
+• Optional left-handed operation.
+Cursor Speed
+To change the speed setting while in Learn Mode, press the middle button briefly. Each time you do so, the unit emits a number of beeps, between 1 and 4. One beep indicates the lowest speed and 4 the highest. The speed of the cursor changes immediately, allowing you to experiment until the best setting is found.
+Left-Handed Operation
+The left and right buttons may be swapped around, which is particularly useful for left-landed users. To change this setting, press the left button while in Learn Mode. One beep indicates the unit is set to standard ‘right-handed’ mode, whereas two beeps indicates ‘left-handed’ operation.
+Double Click
+Right-click may be substituted with Double-Click, which is useful for users who have difficulty in double-clicking quickly enough for the computer to recognise. To change this setting, press the right button briefly while in Learn Mode. One beep indicates the unit is set to standard ‘right-click’ mode, whereas two beeps indicates ‘Double-Click’ operation.
+Buzzer On/Off
+OPTIMA Joystick is fitted with a buzzer which gives an audible indication of operations such as drag lock and unlock, double-click, entering Learn Mode etc. When OPTIMA Joystick is used in a classroom setting, where there may be many units in close proximity, it may be beneficial to turn off the buzzer. To achieve this, press and hold the right button while in Learn Mode, until two long beeps are heard. The buzzer is now disabled, although it will still operate while in Learn Mode. Repeating the above operation will re-enable it.
+All of the above settings may be changed as often as required while in Learn Mode, allowing you to experiment with the settings until the best configuration is found. Once you are happy with the settings, they may be stored in the non-volatile memory by pressing and holding the middle button once again, until the warbling tone is heard. Normal operation then resumes. Note that if both left-handed operation and Double-Click are selected, the buttons will function
+as Double-Click, Drag and Left Click, reading from left to right. Also note that the function of the sockets for external switches reproduces the function of the
+internal buttons, according to the above settings. The unit automatically leaves Learn Mode, and any changes are discarded, if the settings remain unchanged for more than a minute.

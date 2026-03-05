@@ -1,0 +1,142 @@
+Warren Buffett has been at the helm of the Berkshire Hathaway (BRK.A -0.17%) (BRK.B -0.15%) investment company since 1965. During his 59 years of leadership, Berkshire Hathaway stock has delivered a compound annual return of 19.8%, which would have been enough to turn an investment of $1,000 back then into more than $42.5 million today.
+ 
+
+ Buffett's investment strategy is simple. He looks for growing companies with robust profitability and strong management teams, and he especially likes those with shareholder-friendly programs like dividend payments and stock-buyback plans.
+ 
+
+ One thing Buffett doesn't focus on is the latest stock market trend, so you won't find him piling money into artificial intelligence (AI) stocks right now. However, two stocks Berkshire already holds are becoming significant players in the AI industry, and they account for about 29.5% of the total value of the conglomerate's $305.7 billion portfolio of publicly traded stocks and securities.
+ 
+
+ Warren Buffett smiling, surrounded by cameras.
+ Image source: The Motley Fool.
+ 
+
+ 1. Apple: 28.9% of Berkshire Hathaway's portfolio
+ Apple (AAPL -0.36%) is the world's largest company with a $3.3 trillion market capitalization, but it was worth a fraction of that when Buffett started buying the stock in 2016. Between then and 2023, Berkshire spent about $38 billion building its stake in Apple, and thanks to a staggering return, that position had a value of more than $170 billion earlier this year.
+ 
+
+ However, Berkshire has sold more than half of its stake in the iPhone maker during the past few months. Its remaining position is still worth $88.3 billion, so it's still the largest holding in the conglomerate's portfolio, and I think the recent sales reflect Buffett's cautious view on the broader market as opposed to Apple itself. After all, the S&P 500 is trading at a price-to-earnings ratio (P/E) of 27.6 right now, which is significantly more expensive than its average of 18.1 going back to the 1950s.
+ 
+
+ 
+
+ Collapse
+ 
+
+ NASDAQ: AAPL
+ Apple
+ Today's Change
+ (-0.36%) -$0.80
+ Current Price
+ $220.11
+ YTD
+ 1w
+ 1m
+ 3m
+ 6m
+ 1y
+ 5y
+ Price
+ VS S&P
+  AAPL
+ Key Data Points
+ Market Cap
+ $3,359B
+ Day's Range
+ $216.73 - $221.48
+ 52wk Range
+ $164.07 - $237.23
+ Volume
+ 51,528,321
+ Avg Vol
+ 63,493,642
+ Gross Margin
+ 45.96%
+ Dividend Yield
+ 0.44%
+ Besides, Apple is preparing for one of the most important periods in its history. With more than 2.2 billion active devices globally -- including iPhones, iPads, and Mac computers -- Apple could become the world's biggest distributor of AI to consumers.
+ 
+
+ The company unveiled Apple Intelligence earlier this year, which it developed in partnership with ChatGPT creator OpenAI. It's embedded in the new iOS 18 operating system, and it will only be available on the latest iPhone 16 and the previous iPhone 15 Pro models because they are fitted with next-generation chips designed to process AI workloads.
+ 
+
+ Considering Apple Intelligence is going to transform many of the company's existing software applications, it could drive a big upgrade cycle for the iPhone. Apps like Notes, Mail, and iMessage will feature new writing tools capable of instantly summarizing and generating text content on command. Plus, Apple's existing Siri voice assistant is going to be enhanced by ChatGPT, which will bolster its knowledge base and its capabilities.
+ 
+
+ Although Apple's revenue growth has been sluggish in recent quarters, the company still ticks nearly all of Buffett's boxes. It's highly profitable, it has an incredible management team led by Chief Executive Officer Tim Cook, and it's returning truckloads of money to shareholders through dividends and buybacks -- in fact, Apple recently launched a new $110 billion stock buyback program, which is the largest in corporate American history.
+ 
+
+ There is no guarantee Berkshire has finished selling Apple stock, but the rise of AI will likely drive a renewed phase of growth for the company, so that's a good reason to remain bullish no matter what Buffett does next.
+ 
+
+ 2. Amazon: 0.6% of Berkshire Hathaway's portfolio
+ Berkshire bought a relatively small stake in Amazon (AMZN 2.37%) in 2019, which is currently worth $1.7 billion and represents just 0.6% of the conglomerate's portfolio. However, Buffett has often expressed regret for not recognizing the opportunity much sooner, because Amazon has expanded beyond its roots as an e-commerce company and now has a dominant presence in streaming, digital advertising, and cloud computing.
+ 
+
+ Amazon Web Services (AWS) is the largest business-to-business cloud platform in the world, offering hundreds of solutions designed to help organizations operate in the digital era. But AWS also wants to be the go-to provider of AI solutions for businesses, which could be its largest financial opportunity ever.
+ 
+
+ 
+
+ Collapse
+ 
+
+ NASDAQ: AMZN
+ Amazon
+ Today's Change
+ (2.37%) $4.15
+ Current Price
+ $179.55
+ YTD
+ 1w
+ 1m
+ 3m
+ 6m
+ 1y
+ 5y
+ Price
+ VS S&P
+  AMZN
+ Key Data Points
+ Market Cap
+ $1,841B
+ Day's Range
+ $176.79 - $180.50
+ 52wk Range
+ $118.35 - $201.20
+ Volume
+ 36,173,896
+ Avg Vol
+ 42,567,060
+ Gross Margin
+ 48.04%
+ Dividend Yield
+ N/A
+ AWS developed its own data center chips like Trainium, which can offer cost savings of up to 50% compared to competing hardware from suppliers like Nvidia. Plus, the cloud provider also built a family of large language models (LLMs) called Titan, which developers can use if they don't want to create their own. They are accessible through Amazon Bedrock, along with a portfolio of third-party LLMs from leading AI start-ups like Anthropic. LLMs are at the foundation of every AI chat bot application.
+ 
+
+ 
+
+ Finally, AWS now offers its own AI assistant called Q. Amazon Q Business can be trained on an organization's data so employees can instantly find answers to their queries, and it can also generate content to boost productivity. Amazon Q Developer, on the other hand, can debug and generate code to help accelerate the completion of software projects.
+ 
+
+ According to consulting firm PwC, AI could add a whopping $15.7 trillion to the global economy by 2030, and the combination of chips, LLMs, and software apps will help Amazon stake its claim to that enormous pie.
+ 
+
+ Amazon was consistently losing money when Berkshire bought the stock, and it doesn't offer a dividend nor does it have a stock buyback program, so it doesn't tick many of Buffett's boxes (hence the small position). But it might be the most diverse AI stock investors can buy right now, and Berkshire will likely be pleased with its long-term return from here even if Buffett wishes it owned a bigger stake.
+ 
+
+ Where Should You Invest $1,000 Right Now?
+ Before you put a single dollar into the stock market, we think you’ll want to hear this.
+ 
+
+ Our S&P/TSX market beating* Stock Advisor Canada team just released their top 10 starter stocks for 2024 that we believe could supercharge any portfolio.
+ 
+
+ Want to see what made our list? Get started with Stock Advisor Canada today to receive all 10 of our starter stocks, a fully stocked treasure trove of industry reports, two brand-new stock recommendations every month, and much more.
+ 
+
+ Click here to learn more.
+ 
+
+ John Mackey, former CEO of Whole Foods Market, an Amazon subsidiary, is a member of The Motley Fool's board of directors. Anthony Di Pizio has no position in any of the stocks mentioned. The Motley Fool has positions in and recommends Amazon, Apple, Berkshire Hathaway, and Nvidia. The Motley Fool has a disclosure policy.

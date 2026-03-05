@@ -1,0 +1,66 @@
+In the money or out of the money?
+ The buyer ("owner") of an option has the right, but not the obligation, to exercise the option on or before expiration. A call option5 gives the owner the right to buy the underlying security; a put option6 gives the owner the right to sell the underlying security.
+ 
+
+ Conversely, when you sell an option, you may be assigned—at any time regardless of the ITM amount—if the option owner chooses to exercise. The option seller has no control over assignment and no certainty as to when it could happen. Once the assignment notice is delivered, it's too late to close the position and the option seller must fulfill the terms of the options contract:
+ 
+
+ A long call exercise results in buying the underlying stock at the strike price.
+ A short call assignment results in selling the underlying stock at the strike price.
+ A long put exercise results in selling the underlying stock at the strike price.
+ A short put assignment results in buying the underlying stock at the strike price.
+ An option will likely be exercised if it's in the option owner's best interest to do so, meaning it's optimal to take or to close a position in the underlying security at the strike price rather than at the current market price. After the market close on expiration day, ITM options may be automatically exercised, whereas OTM options are not and typically expire worthless (often referred to as being "abandoned"). The table below spells it out.
+ 
+
+ If the underlying stock price is...
+ ...higher than the strike price
+ ...lower than the strike price
+ If the underlying stock price is...
+ A long call is...
+ ...higher than the strike price
+ ...ITM and typically exercised
+ ...lower than the strike price
+ ...OTM and typically abandoned
+ If the underlying stock price is...
+ A short call is...
+ ...higher than the strike price
+ ...ITM and typically assigned
+ ...lower than the strike price
+ ...OTM and typically abandoned
+ If the underlying stock price is...
+ A long put is...
+ ...higher than the strike price
+ ...OTM and typically abandoned
+ ...lower than the strike price
+ ...ITM and typically exercised
+ If the underlying stock price is...
+ A short put is...
+ ...higher than the strike price
+ ...OTM and typically abandoned
+ ...lower than the strike price
+ ...ITM and typically assigned
+ The guidelines in the table assume a position is held all the way through expiration. Of course, you typically don't need to do that. And in many cases, the usual strategy is to close out a position ahead of the expiration date. We'll revisit the close-or-hold decision in the next section and look at ways to do that. But assuming you do carry the options position until the end, there are a few things you need to consider:
+ 
+
+ Know your specs. Each standard equity options contract controls 100 shares of the underlying stock. That's pretty straightforward. Non-standard options may have different deliverables. Non-standard options can represent a different number of shares, shares of more than one company stock, or underlying shares and cash. Other products—such as index options or options on futures—have different contract specs.
+ Stock and options positions will match and close. Suppose you're long 300 shares of XYZ and short one ITM call that's assigned. Because the call is deliverable into 100 shares, you'll be left with 200 shares of XYZ if the option is assigned, plus the cash from selling 100 shares at the strike price.
+ It's automatic, for the most part. If an option is ITM by as little as $0.01 at expiration, it will automatically be exercised for the buyer and assigned to a seller. However, there's something called a do not exercise (DNE) request that a long option holder can submit if they want to abandon an option. In such a case, it's possible that a short ITM position might not be assigned. For more, see the note below on pin risk7?
+ You'd better have enough cash. If an option on XYZ is exercised or assigned and you are "uncovered" (you don't have an existing long or short position in the underlying security), a long or short position in the underlying stock will replace the options. A long call or short put will result in a long position in XYZ; a short call or long put will result in a short position in XYZ. For long stock positions, you need to have enough cash to cover the purchase or else you'll be issued a margin8 call, which you must meet by adding funds to your account. But that timeline may be short, and the broker, at its discretion, has the right to liquidate positions in your account to meet a margin call9. If exercise or assignment involves taking a short stock position, you need a margin account and sufficient funds in the account to cover the margin requirement.
+ Short equity positions are risky business. An uncovered short call or long put, if assigned or exercised, will result in a short stock position. If you're short a stock, you have potentially unlimited risk because there's theoretically no limit to the potential price increase of the underlying stock. There's also no guarantee the brokerage firm can continue to maintain that short position for an unlimited time period. So, if you're a newbie, it's generally inadvisable to carry an options position into expiration if there's a chance you might end up with a short stock position.
+ A note on pin risk: It's not common, but occasionally a stock settles right on a strike price at expiration. So, if you were short the 105-strike calls and XYZ settled at exactly $105, there would be no automatic assignment, but depending on the actions taken by the option holder, you may or may not be assigned—and you may not be able to trade out of any unwanted positions until the next business day.
+ 
+
+ But it goes beyond the exact price issue. What if an option is ITM as of the market close, but news comes out after the close (but before the exercise decision deadline) that sends the stock price up or down through the strike price? Remember: The owner of the option could submit a DNE request.
+ 
+
+ The uncertainty and potential exposure when a stock price and the strike price are the same at expiration is called pin risk. The best way to avoid it is to close the position before expiration.
+ 
+
+ The decision tree: How to approach expiration
+ As expiration approaches, you have three choices. Depending on the circumstances—and your objectives and risk tolerance—any of these might be the best decision for you.
+ 
+
+ 1. Let the chips fall where they may. Some positions may not require as much maintenance. An options position that's deeply OTM will likely go away on its own, but occasionally an option that's been left for dead springs back to life. If it's a long option, the unexpected turn of events might feel like a windfall; if it's a short option that could've been closed out for a penny or two, you might be kicking yourself for not doing so.
+ 
+
+ 2. Close it out. If you've met your objectives for a trade, then it might be time to close it out. Otherwise, you might be exposed to risks that aren't commensurate with any added return potential (like the short option that could've been closed out for next to nothing, then suddenly came back into play). Keep in mind, there is no guarantee that there will be an active market for an options contract, so it is possible to end up stuck and unable to close an options position.

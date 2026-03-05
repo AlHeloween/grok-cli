@@ -1,0 +1,53 @@
+Deficits, Debt, and Interest
+The annual differences between revenue (i.e., taxes and fees) that the government collects and
+outlays (i.e., spending) result in the budget deficit (or surplus). Annual budget deficits or
+surpluses determine, over time, the level of publicly held federal debt and affect the level of
+interest payments to finance the debt.
+Budget Deficits
+Between FY2009 and FY2012, annual budgets as a percentage of GDP were sharply higher than
+deficits in any period since FY1945.27 The unified budget deficit in FY2015 was $439 billion, or
+2.5% of GDP—the lowest level since FY2007. The unified deficit, according to some budget
+experts, gives an incomplete view of the government’s fiscal conditions because it includes off-
+budget surpluses.28 Excluding off-budget items (Social Security benefits paid net of Social 
+Security payroll taxes collected and the U.S. Postal Service’s net balance), the on-budget FY2015
+federal deficit was $466 billion.
+Budget Deficit for FY2016
+The January 2016 CBO baseline estimated the FY2016 budget deficit at $544 billion, or 2.9% of
+GDP. The rise in the estimated budget deficit for FY2016 is the result of increases in spending
+more than offsetting a smaller rise in revenues. FY2016 outlays are projected to increase to
+21.2% of GDP, up from 20.7% of GDP in FY2015; revenues are projected to increase from
+18.2% of GDP to 18.3% of GDP over the same period.
+Federal Debt and Debt Limit
+Gross federal debt is composed of debt held by the public and intragovernmental debt.
+Intragovernmental debt is the amount owed by the federal government to other federal agencies,
+to be paid by the Department of the Treasury, which mostly consists of money contained in trust
+funds. Debt held by the public is the total amount the federal government has borrowed from the
+public and remains outstanding. This measure is generally considered to be the most relevant in
+macroeconomic terms because it is the debt sold in credit markets. Changes in debt held by the
+public generally track the movements of the annual unified deficits and surpluses.29
+Historically, Congress has set a ceiling on federal debt through a legislatively established limit.
+The debt limit also imposes a form of fiscal accountability that compels Congress, in the form of
+a vote authorizing a debt limit increase, and the President, by signing the legislation, to take
+visible action to allow further federal borrowing when nearing the statutory limit.
+The debt limit by itself has no effect on the borrowing needs of the government.30 The debt limit,
+however, can hinder the Treasury’s ability to manage the federal government’s finances when the
+amount of federal debt approaches this ceiling, or when the suspension expires. In those
+instances, the Treasury has had to take extraordinary measures to meet federal obligations,
+leading to inconvenience and uncertainty in Treasury operations at times.31 At the end of CY2015
+(December 31, 2015), federal debt subject to limit was approximately $18.922 trillion, of which
+$13.673 trillion was held by the public.32
+The debt limit is currently suspended until March 15, 2017. Upon reinstatement, the debt limit
+will be modified to exactly accommodate any increases in statutory debt subject to limit above
+the previous limit ($18.1 trillion). At the end of calendar year 2015, total debt subject to limit was
+$18.9 trillion. Barring advanced legislative action, the debt limit will be reached when reinstated,
+so long as federal debt remains above the previous limit and continues to rise.
+Net Interest
+In FY2015, the United States spent $223 billion, or 1.3% of GDP, on net interest payments on the
+debt. What the government pays in interest depends on market interest rates as well as on the size
+and composition of the federal debt. Currently, low interest rates have held net interest payments
+as a percentage of GDP below the historical average despite increases in borrowing to finance the
+debt.33 Some economists, however, have expressed concern that federal interest costs could rise
+once the economy fully recovers, resulting in future strain on the budget. Interest rates are
+projected to gradually rise in the CBO baseline, resulting in net interest payments of $830 billion
+(3.0% of GDP) in FY2026. If interest costs rise to this level, they will be higher than the
+historical average.

@@ -1,0 +1,121 @@
+Due to technological advancement, technology acceptance and adoption became an
+important and distinct topic of this study, especially regarding e-commerce (Rahi et al.,
+2020). The UTAUT 2 model was developed in research by Venkatesh et al. (2012) to
+enhance the explanatory power of the previous UTAUT version (Venkatesh et al., 2003).
+The original UTAUT model which consist of four variables which is effort expectancy
+(EE), performance expectancy (PE) facilitating condition (FC) and social influence (SI),
+was highly used by scholars to predict the intention to use new technology. Despite its’
+popularity, the model was not lacking of criticism due to its incapability to include
+essential determinant of technology usage behaviour (Beh et al., 2019). To overcome
+those criticism, Venkatesh et al. (2012) compensate the limitation of the original UTAUT
+with the additional three variables which is habit (HB), hedonic motivation (HM) and
+price value (PV). On top of that, the UTAUT 2 also focusing to the post usage behaviour.
+Various literature has confirming that the capability of the UTAUT 2 in explaining the
+continuance behaviour of technology usage. Since Spotify Premium is considered a new
+technology in music industry, thus, it suits well with the concept in UTAUT.
+Furthermore, despite having high explanatory power, (Rondan-Cataluña et al., 2015)
+confirmed that UTAUT 2 has better predictive power compared to other technological
+acceptance model. Thus, provide a valid reason why the study relies on this model to
+predict continuance behaviour of subscribing the Spotify Premium among university
+students in Malaysia.
+Unravelling the continue of subscribing Spotify Premium 5
+2.2 BI
+BI can be categorised as intention to use of continue of use of particular services. In the
+context of this study, BI refers to the intention to continue of subscribing the Spotify
+Premium. Continue of use always related to the behavioural of loyalty (Han et al., 2009).
+Since many of music streaming available in the market and each providers are offering
+unique features (Weinberger and Bouhnik, 2020), thus, critical to understand the reason
+behind the continued use of the application so that the service providers can guarantee
+their service remain competitive, for business sustainability and the ability to survive in a
+tough business environment. It is useless for the company to enhance its services if they
+fail to retain current customers or attract new clients. Furthermore, to increase the
+continue of use could be considered as a main goal in the service providers (Batouei
+et al., 2020).
+2.3 EE
+EE is the level of convenience consumers experience when utilising a technology
+(Venkatesh et al., 2012). In this research, EE refers to the convenience of Spotify
+Premium usage among university students in Malaysia. Moreover, convenience refers to
+the ease in application usage; thus, the higher intention to use and continued usage. Also,
+university students classified as Generation Y (Gen. Y) are closely connected with
+technology use and thus experienced ease in utilising the Spotify Premium. Hence, EE is
+expected to produce a positive relationship with BI to continue the Spotify Premium
+subscription. Strengthened by a previous study, which discovered that EE has a positive
+relationship with BI regarding the usage of smartwatch (Beh et al., 2019), mobile
+financial services (Rahman et al., 2020), continued music streaming subscription (Lüders,
+2020) and e-hailing technology. Therefore, this study proposes the following:
+Hypothesis 1 (H1) EE has a positive relationship with BI of Spotify Premium
+subscription.
+2.4 FC
+FC’s refer to a person’s beliefs in the technical support available to advocate new
+technology use (Venkatesh et al., 2012). This study examined the availability of Spotify’s
+support for premium subscribers concerning the application. Paid music services require
+fast and up-to-date technology, namely advanced electronic equipment and an internet
+connection to ensure smooth and seamless music streaming. FC’s such as the skills and
+ability to handle the devices are crucial factors and predictors of BI due to rapid
+technological changes in the music streaming industry, such as computers, smartphones,
+tablets, the internet, online customer support (Pinochet et al., 2019). This research
+examined previous literature in proving the positive relationship between FC and BI,
+such as the study by Beh et al. (2019) and Rahman et al. (2020). University students also
+found that FC and BI was positively related in the context of learning management
+system (Sharif et al., 2019). Hence, this paper proposed that:
+Hypothesis 2 (H2) FC has positive effects on the BI of the Spotify Premium
+subscription.
+6 M.S.M. Suhod et al.
+2.5 Habit
+Habit (HB) is the extent to which an individual believes his behaviour is a result of
+experience; the individual tends to perform that behaviour automatically based on
+learning from past experience (Venkatesh et al., 2012). Habit occurs when one
+consistently performs an activity, such as when they experience joy and happiness while
+performing the activities or when the activity suits the individual. According to Soares
+et al. (2020), habit could be influenced by past behaviour and personal experience in
+applying particular system or products. If past experience produced favourable results,
+there is high tendency to transform the particular behaviour to become a habit. Past
+studies showed that habit produced a positive relationship with BI (Ameri et al., 2020;
+Nikolopoulou et al., 2020; Soares et al., 2020). From that, the study proposed:
+Hypothesis 3 (H3) Habit has positive effects on BI of Spotify Premium subscription
+2.6 HM
+HM is the enjoyment or pleasure from technology usage (Venkatesh et al., 2012). This
+study defined HM as the enjoyment of Spotify Premium usage to enjoy music streaming.
+Based on research by Beh et al. (2019), HM showed a positive relationship with BI in the
+usage of smartwatches. Plus, Greece university students showed that their HM had a
+positive relationship with BI concerning mobile phone usage (Nikolopoulou et al., 2020).
+Hence, this paper suggested:
+Hypothesis 4 (H4) HM produced a positive effect on the BI of the Spotify Premium
+subscription.
+2.7 PE
+PE refers to the competence of applications or new technology to assist users in
+performing certain activities substantially and conveniently (Venkatesh et al., 2012). A
+study by Malik (2017) stated that users are more interested in applications that improve
+their performance and productivity through better content knowledge and thus resulting
+in content awareness and the ability to provide an application that performs well.
+Previous studies on the continued use of technology discovered that PE has a positive
+relationship with BI (Ameri et al., 2020; Nikolopoulou et al., 2020; Rahman et al., 2020).
+With regards to that, the study proposed:
+Hypothesis 5 (H5) PE has a positive effect on the BI of Spotify Premium subscription.
+2.8 PV
+PV refers to the relationship between consumers’ cognitive trade-off between the benefits
+gained versus the amount paid for the services (Venkatesh et al., 2012). Spotify Premium
+users will continue their subscription if the subscription is worth paying based on the
+services provided. Plus, when there is beneficial experience from using the Spotify
+Premium, or the received benefits are greater than the cost. Previously, it was discovered
+that the PV has a positive relationship with the continued subscription of music streaming
+services (Lüders, 2020).
+Unravelling the continue of subscribing Spotify Premium 7
+Additionally, the PV created a positive relationship with the BI on the continued
+subscription to music streaming (Lüders, 2020) and continued use of mobile financial
+services (Rahman et al., 2020). Consequently, the study proposed:
+Hypothesis 6 (H6) PV produced positive effects on the BI of Spotify Premium
+subscription.
+2.9 SI
+According to Venkatesh et al. (2012), SI refers to the extent of family and friend’s
+influence on consumers in terms of the decision to use technology. In this particular
+research, SI is the extent to which a university student perceives the influential person
+can cause them to believe that they should subscribe to Spotify Premium. Since in
+campus life, majority of the students spent their time with their colleague and they tend to
+share the experience with their people around them. Hence, what are their surrounding
+behaviour and thinking will have an impact in their daily life. Family and friend’s
+perception will influence the students’ decision. Furthermore, most students are
+encouraged by trend and peer pressure. SI has a positive relationship with the BI of
+pharmacy students’ continued use of the mobile-based educational application (Ameri
+et al., 2020) and Greece students’ continued use of mobile phones in their study
+(Nikolopoulou et al., 2020). Therefore, the study suggested:

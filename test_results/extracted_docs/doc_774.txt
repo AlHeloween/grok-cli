@@ -1,0 +1,41 @@
+The skyscraper window-washing robots are here
+ Skyline Robotics claims its autonomous robot Ozmo can clean windows three times faster than humans alone.
+ By Mack DeGeurin
+ 
+
+ Posted on Aug 28, 2024 10:06 AM EDT
+ 
+
+ 
+
+ Share
+ Tourists and workers alike jostling their way through New York’s bustling midtown may notice an odd sight next time they look up. Dozens of floors above ground, the world’s first commercial window-cleaning-robot will be thrusting its two white mechanical arms back and forth, soapy squeegees in hand. Skyline Robotics, the New York-based company behind the “Ozmo” cleaning robot, believe machines like theirs are faster and safer than traditional cleaning methods and could help address the potential shortage of human skyscraper window washers in coming years. It’s just the latest example of artificial intelligence and robotics merging together to perform real-word tasks once confined to people. 
+ 
+
+ 
+
+ Caption: The Ozmo robot uses a combination of computer vision, Lidar, and force sensors to determine when and how to clean windows. Credit: Skyline Robotics
+ Starting this week, Skyline’s Ozmo robot will get to work cleaning windows at 1133 Avenue of the Americas, a 45-story Class A skyscraper owned and managed by the Durst Organization near New York’s Bryant Park. Ozmo was previously beta tested across several buildings in the city and Tel Aviv, Israel, but Skyline tells Popular Science this marks the first full-time deployment on an autonomous window-cleaning robot. Early prototypes of window-cleaning robots have been around for years, with some even tested on the original World Trade Center buildings. But those predecessors were imprecise and required a human reviewer to follow up and clean up messy spots the machine missed. Since then, modern skyscrapers have been built with sharper angles and more artistic designs, which can make cleaning them even more skill intensive.
+ 
+
+ Ozmo uses Lidar and computer vision to ‘see’ what it’s cleaning 
+ Ozmo improves on older robot designs thanks to recent advances in robotics and artificial intelligence. The robot cleaner uses a combination of Lidar and computer vision, similar to what’s used in some autonomous vehicles, to scan a building’s surface and its particular curve and edge areas. Onboard force sensors let the robot determine how much pressure it needs to apply to clean a particular window most effectively. AI software, meanwhile, helps Ozmo stabilize itself even when presented with heavy gusts of wind. Since its initial beta tests, a Skyline spokesperson says they have equipped Ozmo with additional ultrasonic sensors and increased its robustness in order to properly handle taller buildings. And while the robot operates autonomously, Skyline says a team of human supervisors located on the building’s roof will still remotely monitor it.
+ 
+
+ “We’re delivering the future of façade maintenance as Ozmo and human window cleaners work in unison to protect the health of buildings faster and safer than existing solutions,” Skyline Robotics CEO Michael Brown said. 
+ 
+
+ A Skyline spokesperson told Popular Science their product is a “robot as a service platform” and that total pricing will depend on the overall size of the surface’s being cleaned. 
+ 
+
+ Robots could make window cleaning even safer 
+ Window washing, especially amongst Manhattan’s concrete behemoths, isn’t for the faint of heart. Cleaners often operate hundreds of feet in the air supported by harness and working in tight corridors. Strong winds and other environmental factors can make an already nerve-racking job even more stress inducing. But even though harrowing videos occasionally surface showing workers dangerously dangling from rooftops or falling, window-washing is actually statistically safer than some might expect. Data compiled by the Occupational Safety and Health Administration (OSHA) lists only 20 fatalities involving window washers nationally between 2019 and 2023. 
+ 
+
+ Still, Skyline argues its robotics solution can make the industry even faster and more efficient. The company claims its human-aided robotic approach can clean windows three times faster than traditional window cleaning methods. Aside from pure speed, robots might one-day need to help fill in gaps in the aging window-asking workforce. A recent analysis of census and Department of Labor data compiled by the online job resource firm Zippia estimates around 70% of US-based window cleaners are over 40 years old. Just 9% of workers were reportedly between the ages of 20 and 30. At the same time, the appetite for new towers doesn’t seem to be subsiding. There are currently five towers over 980 feet currently under construction in Manhattan and many more smaller ones.
+ 
+
+ Ozmo arrives during a time of increased automation nationwide, both in white collar service jobs and physical labor. Advanced large language models like those created by OpenAI and Google are already disrupting work and contributing to layoffs in the tech industry and beyond. Larger humanoid-style robots, though still nascent, may increasingly take on work once left to humans in manufacturing sectors. How human workers and labor groups respond to those impending changes could dictate how advancements in robotics evolve in the coming years. 
+ 
+
+ Skyline isn’t necessarily waiting for the dust to settle. The company says it has plans to expand Ozmo to buildings in Japan, Singapore, and London, moving forward.

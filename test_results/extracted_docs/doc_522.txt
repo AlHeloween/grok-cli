@@ -1,0 +1,101 @@
+What is the Internet?
+The Internet began in 1969 as a project of the U.S. Department of Defense called ARPANET, or
+Advanced Research Projects Agency Network. The goal of this project was to design a
+nationwide computer network that could withstand major disasters. If one part of the network
+was destroyed, the other parts would continue to function due to the decentralized structure of
+the network.
+In the early days of ARPANET, there were four computers in the United States attached to the
+network. Today, there are millions all over the world. Most people define the Internet as a
+collection of computer networks, but what exactly is a network? A network is a group of two or
+more computers connected together with cables that allow the computers to share information.
+Computers that are “on the Internet” all use the same protocols to send information back and
+forth, allowing them to communicate with each other. As long as a computer uses these
+protocols, it doesn't matter what type of hardware or software it uses.
+In the Internet's early days (the 1960s and 1970s), only government, military, and educational
+institutions had computers connected to the Internet. The Internet was originally designed for
+research and scholarly communication. But as it grew, its services became more popular, and
+new ways of using the Internet multiplied. For example, the Internet began to be used for
+informal communication, entertainment, and eventually commerce, as more businesses
+connected to the Internet in the 1990s. According to statistics compiled by Nua Internet Surveys
+Ltd., some 605.60 million people worldwide were connected to the Internet as of September
+2002.
+Today, the Internet remains decentralized, but it is no longer structured entirely around
+government computers. It is comprised of independently owned and managed individual
+networks of all sizes. The larger networks with high-speed connections are sometimes called
+backbone providers.
+Internet Service Providers (ISPs) lease Internet connections from the backbone providers and
+sell connections (also called Internet accounts) to consumers. Most home and small business
+users connect to the Internet with dial-up accounts to ISPs using a modem and special
+communications software.
+Uses for the Internet
+The Internet has a special significance for the library community because it allows patrons --
+both children and adults -- who do not have computers to keep up with the Internet for business
+and academic purposes. Libraries, to a great extent, help bridge what is called the "digital
+divide." The services listed below would be unattainable for many unless they were provided
+free of charge by the community's public library.
+· E-mail allows libraries and patrons to send messages back and forth to individuals or
+groups.
+· Telnet allows libraries and patrons to connect to a remote computer and use it as if you
+were there.
+· File Transfer Protocol (FTP) allows libraries to transfer files to and from other
+computers.
+· Usenet allows libraries and patrons to participate in group discussions on specific topics.
+· Internet Relay Chat (IRC) allows libraries and patrons to chat in real time with one or
+many users.
+· World Wide Web allows libraries and patrons access to literally millions of Web sites
+worldwide.
+What is the World Wide Web?
+One reason for the Internet's growth explosion is the ease of use and popularity of the World
+Wide Web and its graphical, “point-and-click” user interface. The World Wide Web was invented
+in 1989 by Tim Berners-Lee, a scientist at the European Particle Physics Laboratory (CERN) in
+Geneva, Switzerland. Lee wanted to make the information he used for research on the Internet
+more organized and accessible.
+The World Wide Web is based on hypertext, which is a method of linking documents using
+embedded hyperlinks. Hyperlinks can be text, which is usually underlined or a different color
+than the main text, or graphics. World Wide Web documents are created using a special
+computer language called HTML (Hypertext Markup Language). HTML coding embeds clickable
+links in documents and enables simple formatting.
+Documents written in HTML are stored in computers called servers. Any Internet user who has
+a Web browser can retrieve the documents. A Web browser is a computer program that knows
+how to read and display hypertext documents. It also knows how to communicate with servers
+that store HTML files. The protocol used for this kind of communication is called Hypertext
+Transfer Protocol (HTTP). Documents on the World Wide Web are called Web pages. Web
+pages are organized into Web sites. Each Web page has its own address, known formally as a
+Uniform Resource Locator or URL.
+Here is a made-up example of a URL for a page on the CNN site:
+http://www.cnn.com/WEATHER/cities/asiapcf.html.
+· http:// is the protocol used to retrieve the document.
+· www.cnn.com is the domain name for the server where the document is stored.
+· /WEATHER/cities/ is the path to the document in the server's directory structure.
+· asiapcf.html is the name of the actual HTML file.
+When you enter a URL in a Web browser, or if you click a hypertext link, the browser sends a
+message using the HTTP protocol to the computer identified in the URL. This message contains
+a request for the document specified in the URL. The server sends a copy of the document back
+to the browser, and it is displayed on your screen.
+Understanding a few things about URLs and other Internet addresses can make using the Web
+a lot easier. The domain name (the name of the computer) in a URL can be assigned by a large
+number of businesses. Just type "domain name" into your search engine, and you will find
+companies who can register your top level domain name. The Internet Corporation for Assigned
+Names and Numbers (ICANN) Web site at www.icann.org has a long list of accredited domain
+name registrars. There are standard suffixes for domain names, called extensions, which help
+identify what type of organization owns the domain. For example, domain names ending in .com
+indicate a commercial organization.
+Common extensions to domain names include:
+· .net is used for major networks (such as a backbone provider), but is also in general use
+· .edu is used for colleges and universities.
+· .gov is used for U.S. federal government agencies.
+· .mil is used for U.S. military organizations.
+· .org is commonly used for nonprofit and other organizations.
+Because so many domain names were snapped up at a rapid pace, more top level domains
+have been created. In the latter part of 2000, ICANN selected seven new top-level domains
+(TLDs):
+· .aero is used to the air transport industry.
+· .biz is used for all-purpose business sites.
+· .coop is used for cooperatives.
+· .info has unrestricted use.
+· .museum is used for museums.
+· .name is used for individual Web sites.
+· .pro is used for professionals such as doctors, lawyers, accountants, and others.
+Domain names in countries outside the United States usually end with a two-letter code
+representing the country; for example, Canadian Web sites end in .ca. Some state and county
+Web pages, including many belonging to libraries, have domain names ending in .us.

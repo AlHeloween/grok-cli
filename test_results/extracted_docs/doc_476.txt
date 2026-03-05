@@ -1,0 +1,85 @@
+A Cautionary Tale of Drone (Mis)use
+Military-grade drones were a restricted technology until local 
+government agencies saw drones’ potential for search-and-rescue missions 
+and private companies wanted to use drones for labor-intensive tasks, 
+such as inspecting pipelines, delivering goods to remote areas, 
+and spraying pesticides on farms. 22 The exploitation of drones 
+for commercial profit soon created a civilian drone industry wherein 
+the United States alone currently contains some 727,000 commercial 
+drones and 1.69 million recreational small drones, with the numbers 
+forecast to continue growing.23 The drone industry’s growth has taken 
+place in the last few years, as the Federal Aviation Administration, 
+concerned more with air safety than terrorist ambitions, did not issue 
+the first commercial drone permit until 2006, lifting some of the 
+restrictions on flying consumer drones for recreational and business purposes.
+Even then, the authorities were aware that , as Don Rassler has documented, 
+four terrorist groups—the Japanese Aum Shinrikyo, the Colombia-based 
+Revolutionary Armed Forces of Colombia, the Pakistan-based Lashkar-eTaiba, and the Haqqani network—were already exploring the use of unmanned 
+aerial vehicles for terrorist attacks. The Lashkar-e-Taiba case involved 
+a network of US residents who directly acquired sensitive technology 
+from US companies in 2002 to enhance the performance of unmanned 
+airplanes. Lashkar-e-Taiba intended to ship the technologies, 
+which US companies could sell to domestic customers—mainly 
+universities and the US government—without due diligence, for the 
+group’s military use in Kashmir. Several other terrorist groups also had 
+their own drone programs, adapting Iranian models or reverse 
+engineering stolen military drones—initially, for surveillance and the 
+collection of tactical intelligence, external communications, and the 
+smuggling of materiel into denied areas, and then, for use as weapons.24
+Perhaps more interesting are the creative uses of drones individuals 
+with no terrorist intent have found but that may cause harm, nonetheless. 
+In December 2008, an American hobbyist successfully attached a pistol 
+with a digital-camera gunsight to a minicopter and remotely fired 
+the pistol. The hobbyist filmed his stunt and posted the footage online. 
+The video did not attract much media attention, but almost seven years 
+later, another American, a teenager, “upped the ante and the shock 
+value” by mounting a homemade flamethrower to a small commercial drone 
+he had modified and displaying the accuracy of the weapon in an online video.25 Violent actors easily could have replicated both stunts to stage 
+terrorist attacks.
+Even after the hobbyists’ stunts, several influential studies considered 
+terrorists’ use of drones a “niche threat” because few terrorist groups had 
+successfully deployed drones in any meaningful way.26 When the Islamic 
+State of Iraq and Syria began weaponizing civilian drones and filming its 
+attacks for propaganda purposes in 2016, several terrorism experts warned 
+violent extremists could one day use drones as remote-controlled missiles to 
+deliver unconventional weapons, such as deadly nerve agents.27 Meanwhile, the 
+general consensus remained that though drones might complicate conflicts, 
+drones’ broader impact would be limited, given their small payloads, 
+short flight times, and susceptibility to disruption. Additionally, although 
+technological advancements might make civilian drones more capable, 
+“the tools to counter, disable or defeat [drones] will be more capable too,” 
+as will regulatory changes to restrict airspace access and increase export 
+controls to prevent terrorists from acquiring certain technologies.28
+Today, many governments require registrations for consumer drones 
+that are heavier than seven kilograms. In addition, most governments 
+have banned consumer drones from flying in cities, near sensitive installations, 
+and over iconic events and other large gatherings, except with special 
+permits. Since those with malevolent intentions usually do not apply 
+for permits, jamming devices have also proliferated, as have geofencing 
+technologies for disabling drones that are approaching designated no-fly zones. 
+Nonetheless, the Houthis’ recent success in disrupting the Red 
+Sea shipping route will likely inspire copycats. The Strait of Malacca, 
+for instance, is another global trade route with several choke points. 
+Any threat to shipping in this narrow channel bordered by Indonesia, 
+Malaysia, Singapore, and Thailand will severely impact economies 
+in East Asia and cause ripple effects throughout the rest of the world.
+Weaponized drones will be a game changer for Southeast Asian 
+terrorist groups. During the siege of Marawi City, Philippines, in June 2017, 
+pro–Islamic State of Iraq and Syria militants reportedly used consumer-grade 
+quadcopter drones to track, evade, and coordinate attacks 
+on Philippine soldiers, inspiring the Philippine military to use similar 
+drones. 29 But regional authorities apparently judged the drone use 
+in Marawi City to be an outlier, a tactic imported by foreign fighters. 
+The prevailing assessment is Southeast Asian terrorist groups like 
+Jemaah Islamiyah and the various pro–Islamic State of Iraq and Syria offshoots in Indonesia and Malaysia will not expend their limited resources 
+on drones when the supply of suicide bombers is seemingly 
+unlimited. The use of drones for terrorist attacks is nevertheless 
+a growing concern in Southeast Asia. Recent developments indicate 
+Indonesian terrorists are hoping to acquire drone-warfare capability. 
+In May 2023, the Indonesian counterterrorism unit Densus 88 obtained 
+intelligence that Indonesian nationals whom the unit suspected of being 
+affiliated with al-Qaeda in the Arabian Peninsula were undergoing 
+training to fly drones in Yemen. Individuals affiliated with pro–Islamic 
+State of Iraq and Syria militant factions were also sharing tutorials 
+on how to make “drone bombs” with members of their private social-media 
+chat groups.

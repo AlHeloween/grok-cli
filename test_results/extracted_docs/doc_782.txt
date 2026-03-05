@@ -1,0 +1,138 @@
+Abstract
+ Within thirty years, we will have the technological
+ means to create superhuman intelligence. Shortly after,
+ the human era will be ended.
+ Is such progress avoidable? If not to be avoided, can
+ events be guided so that we may survive? These questions
+ are investigated. Some possible answers (and some further
+ dangers) are presented.
+ _What is The Singularity?_
+ The acceleration of technological progress has been the central
+ feature of this century. I argue in this paper that we are on the edge
+ of change comparable to the rise of human life on Earth. The precise
+ cause of this change is the imminent creation by technology of
+ entities with greater than human intelligence. There are several means
+ by which science may achieve this breakthrough (and this is another
+ reason for having confidence that the event will occur):
+ o The development of computers that are "awake" and
+ superhumanly intelligent. (To date, most controversy in the
+ area of AI relates to whether we can create human equivalence
+ in a machine. But if the answer is "yes, we can", then there
+ is little doubt that beings more intelligent can be constructed
+ shortly thereafter.
+ o Large computer networks (and their associated users) may "wake
+ up" as a superhumanly intelligent entity.
+ o Computer/human interfaces may become so intimate that users
+ may reasonably be considered superhumanly intelligent.
+ o Biological science may find ways to improve upon the natural
+ human intellect.
+ The first three possibilities depend in large part on
+ improvements in computer hardware. Progress in computer hardware has
+ followed an amazingly steady curve in the last few decades [16]. Based
+ largely on this trend, I believe that the creation of greater than
+ human intelligence will occur during the next thirty years. (Charles
+ Platt [19] has pointed out the AI enthusiasts have been making claims
+ like this for the last thirty years. Just so I'm not guilty of a
+ relative-time ambiguity, let me more specific: I'll be surprised if
+ this event occurs before 2005 or after 2030.)
+ What are the consequences of this event? When greater-than-human
+ intelligence drives progress, that progress will be much more rapid.
+ In fact, there seems no reason why progress itself would not involve
+ the creation of still more intelligent entities -- on a still-shorter
+ time scale. The best analogy that I see is with the evolutionary past:
+ Animals can adapt to problems and make inventions, but often no faster
+ than natural selection can do its work -- the world acts as its own
+ simulator in the case of natural selection. We humans have the ability
+ to internalize the world and conduct "what if's" in our heads; we can
+ solve many problems thousands of times faster than natural selection.
+ Now, by creating the means to execute those simulations at much higher
+ speeds, we are entering a regime as radically different from our human
+ past as we humans are from the lower animals.
+ From the human point of view this change will be a throwing away
+ of all the previous rules, perhaps in the blink of an eye, an
+ exponential runaway beyond any hope of control. Developments that
+ before were thought might only happen in "a million years" (if ever)
+ will likely happen in the next century. (In [4], Greg Bear paints a
+ picture of the major changes happening in a matter of hours.)
+ I think it's fair to call this event a singularity ("the
+ Singularity" for the purposes of this paper). It is a point where our
+ models must be discarded and a new reality rules. As we move closer
+ and closer to this point, it will loom vaster and vaster over human
+ affairs till the notion becomes a commonplace. Yet when it finally
+ happens it may still be a great surprise and a greater unknown. In
+ the 1950s there were very few who saw it: Stan Ulam [27] paraphrased
+ John von Neumann as saying:
+ One conversation centered on the ever accelerating progress of
+ technology and changes in the mode of human life, which gives the
+ appearance of approaching some essential singularity in the
+ history of the race beyond which human affairs, as we know them,
+ could not continue.
+ Von Neumann even uses the term singularity, though it appears he
+ is still thinking of normal progress, not the creation of superhuman
+ intellect. (For me, the superhumanity is the essence of the
+ Singularity. Without that we would get a glut of technical riches,
+ never properly absorbed (see [24]).)
+ In the 1960s there was recognition of some of the implications of
+ superhuman intelligence. I. J. Good wrote [10]:
+ Let an ultraintelligent machine be defined as a machine
+ that can far surpass all the intellectual activities of any
+ any man however clever. Since the design of machines is one of
+ these intellectual activities, an ultraintelligent machine could
+ design even better machines; there would then unquestionably
+ be an "intelligence explosion," and the intelligence of man
+ would be left far behind. Thus the first ultraintelligent
+ machine is the _last_ invention that man need ever make,
+ provided that the machine is docile enough to tell us how to
+ keep it under control.
+ ...
+ It is more probable than not that, within the twentieth century,
+ an ultraintelligent machine will be built and that it will be
+ the last invention that man need make.
+ Good has captured the essence of the runaway, but does not pursue
+ its most disturbing consequences. Any intelligent machine of the sort
+ he describes would not be humankind's "tool" -- any more than humans
+ are the tools of rabbits or robins or chimpanzees.
+ Through the '60s and '70s and '80s, recognition of the cataclysm
+ spread [28] [1] [30] [4]. Perhaps it was the science-fiction writers
+ who felt the first concrete impact. After all, the "hard"
+ science-fiction writers are the ones who try to write specific stories
+ about all that technology may do for us. More and more, these writers
+ felt an opaque wall across the future. Once, they could put such
+ fantasies millions of years in the future [23]. Now they saw that
+ their most diligent extrapolations resulted in the unknowable ...
+ soon. Once, galactic empires might have seemed a Post-Human domain.
+ Now, sadly, even interplanetary ones are.
+ What about the '90s and the '00s and the '10s, as we slide toward
+ the edge? How will the approach of the Singularity spread across the
+ human world view? For a while yet, the general critics of machine
+ sapience will have good press. After all, till we have hardware as
+ powerful as a human brain it is probably foolish to think we'll be
+ able to create human equivalent (or greater) intelligence. (There is
+ the far-fetched possibility that we could make a human equivalent out
+ of less powerful hardware, if were willing to give up speed, if we
+ were willing to settle for an artificial being who was literally slow
+ [29]. But it's much more likely that devising the software will be a
+ tricky process, involving lots of false starts and experimentation. If
+ so, then the arrival of self-aware machines will not happen till after
+ the development of hardware that is substantially more powerful than
+ humans' natural equipment.)
+ But as time passes, we should see more symptoms. The dilemma felt
+ by science fiction writers will be perceived in other creative
+ endeavors. (I have heard thoughtful comic book writers worry about
+ how to have spectacular effects when everything visible can be
+ produced by the technically commonplace.) We will see automation
+ replacing higher and higher level jobs. We have tools right now
+ (symbolic math programs, cad/cam) that release us from most low-level
+ drudgery. Or put another way: The work that is truly productive is the
+ domain of a steadily smaller and more elite fraction of humanity. In
+ the coming of the Singularity, we are seeing the predictions of _true_
+ technological unemployment finally come true.
+ Another symptom of progress toward the Singularity: ideas
+ themselves should spread ever faster, and even the most radical will
+ quickly become commonplace. When I began writing, it seemed very easy
+ to come up with ideas that took decades to percolate into the cultural
+ consciousness; now the lead time seems more like eighteen months. (Of
+ course, this could just be me losing my imagination as I get old, but
+ I see the effect in others too.) Like the shock in a compressible
+ flow, the Singularity moves closer as we accelerate through the
+ critical speed.

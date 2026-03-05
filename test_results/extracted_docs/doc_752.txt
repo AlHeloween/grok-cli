@@ -1,0 +1,139 @@
+**Homelessness laws in Texas**
+
+When is an individual considered homeless?
+The United State Department of Housing and Urban Development (HUD) provides four broad
+categories of homelessness:
+ Individuals and families who lack a fixed, regular, and adequate nighttime residence,
+which includes a subset for an individual who is exiting an institution where he or she
+resided for 90 days or less and who resided in an emergency shelter or a place not
+meant for human habitation immediately before entering that institution;
+ Individuals and families who will imminently lose their primary nighttime residence;
+ Unaccompanied youth and families with children and youth who are defined as
+homeless under other federal statutes who do not otherwise qualify as homeless under
+this definition; or
+ Individuals and families who are fleeing, or are attempting to flee, domestic violence,
+dating violence, sexual assault, stalking, or other dangerous or life-threatening
+conditions that relate to violence against the individual or a family member.
+What negative effects can a large homeless population have on a city?
+A large homeless population can be draining on a community. Homeless individuals that lack
+access to proper medical care may choose an emergency room at a hospital for medical services
+rather than a primary care medical office. This option is significantly more expensive and
+typically the homeless individual is unable to pay the bill, so the cost is passed on to insurance
+companies and the average customer in a community. Homeless individuals spend more time in
+local jails than the housed population for petty offenses, which increases the costs to run the
+facility. Additionally, a large homeless population can affect a city’s ability to attract tourists.
+What is affordable housing?
+Affordable housing is housing for which the occupant pays less than 30 percent of their income.
+Housing that is considered to be “affordable” will differ between communities, depending on the
+median family income of the area.
+What is Section 8 housing?
+“Section 8” refers to Section 8 of the federal Housing Act of 1937. This section authorizes
+project-based rental assistance programs under which a participating owner, or landlord, is
+required to reserve units in a building for low-income tenants, in return for a federal government
+guarantee to make up the difference between the tenant's contribution and the rent in the owner's
+contract with the government.
+What is a Section 8 voucher?
+Section 8 of the federal Housing Act also authorizes vouchers for low-income individuals. HUD
+manages the Housing Choice Voucher Program, which provides financial assistance directly to
+the landlord for a family that qualifies. The Housing Choice Voucher Program is the federal
+government's major program for assisting very low-income families, the elderly, and the disabled
+to afford decent, safe, and sanitary housing in the private market. Since housing assistance is
+provided on behalf of the family or individual, participants are able to find their own housing,
+including single-family homes, townhouses and apartments, and are free to choose any housing
+option that meets the requirements of the program.
+Housing choice vouchers are administered locally by public housing agencies (PHAs). The
+PHAs receive federal funds from HUD to administer the voucher program. A list of public
+housing authorities in Texas can be found at
+http://portal.hud.gov/hudportal/HUD?src=/program_offices/public_indian_housing/pha/contacts/
+tx
+A housing subsidy is paid to the landlord directly by the PHA on behalf of the participating
+family. The family then pays the difference between the actual rent charged by the landlord and
+the amount subsidized by the program.
+Can a city make being homeless illegal?
+No. Laws that punish status or condition rather than criminal conduct have been struck down by
+courts as constituting cruel and unusual punishment. These types of laws fail to give fair notice
+of prohibited conduct and encourage arbitrary arrests and convictions. Additionally, courts have
+overturned vagrancy laws, or laws that criminalize being homeless, as impermissible restrictions
+on an individual’s right to travel. See Papachristou v. City of Jacksonville, 45 U.S. 156,
+162(1972); Handler v. Denver, 77 P.2d 132, 135 (Colo. 1938); Pottinger v. City of Miami, 810 F.
+Supp. 1551, 1578 (S.D. Fla. 1992).
+Can the city enact a loitering prohibition?
+Maybe. In a 1983 decision in Kolender v. Lawson, the United State Supreme Court invalidated a
+California loitering statute requiring street wanderers to present valid identification when
+stopped by police officers. The Court held that the statute was too vague to satisfy due process
+requirements. The Court followed this decision with its decision in Chicago v. Morales, which
+struck down a Chicago ordinance preventing loitering by gang members on due process grounds.
+An ordinance that is general in nature that criminalizes loitering on a public street would most
+likely be struck down by a court for vagueness. However, if the wording of the ordinance is
+sufficient to set forth guidelines for law enforcement officers narrowly tailoring the restriction to
+those who loiter with a specific illegal purpose, then a loitering ordinance may pass
+constitutional muster. City officials will want to work closely with their local legal counsel if
+they desire to adopt such an ordinance.
+Can a city prevent homeless people from panhandling in all public places?
+No. Litigation related to bans on panhandling has centered on First Amendment free speech
+claims. Courts have ruled that outlawing panhandling in all public places was unconstitutional.
+See generally Young v. New York City Transit Auth., 903 F.2d 146 (2d Cir. 1990); Speet v.
+Schuette, 889 F. Supp. 2d 969 (W.D. Mich. 2012). Instead, any limits on panhandling on public
+sidewalks trigger strict scrutiny, meaning the regulations must be narrowly tailored to serve a
+significant governmental interest and must be the least restrictive means for achieving that
+interest. Courts have found that safety and traffic congestion may be significant interests but
+“mere annoyance” is not a sufficiently compelling reason to absolutely deprive an individual of
+his or her First Amendment rights.
+What strategies have cities used to reduce homelessness?
+ Participating in the “Mayors Challenge to End Veteran Homelessness,” a program
+designed to equip city leaders with tools to combat veteran homelessness. For more
+information on how to participate, you can visit the Department of Housing and Urban
+Development’s Mayors Challenge page at
+http://portal.hud.gov/hudportal/HUD?src=/program_offices/comm_planning/veteran_info
+rmation/mayors_challenge/mayors_and_staff;
+ Seeking state grants awarded by the Texas Department of Housing and Community
+Affairs or federal grants awarded by HUD;
+ Educating law enforcement officers on alternatives to issuing citations and supporting
+police department partnerships with mental health partners;
+ Recruiting landlords in the city to assist in providing housing opportunities for
+individuals and families experiencing homelessness;
+ Educating municipal court personnel on providing referrals to municipal court defendants
+to non-profit groups in the city that provide housing and other services;
+ Issuing general obligation bonds for the purpose of expanding affordable housing in the
+city;
+ Creating a housing authority to assist with providing affordable housing within the city.
+What is a housing authority?
+A housing authority is a public body that is created for clearance, replanning, and reconstruction
+of areas in which unsanitary or unsafe housing exists and for providing safe and sanitary housing
+for persons of low income.
+The housing authority may provide for the construction, improvement, alteration, or repair of a
+housing project, or part of a housing project, in its area of operation. A housing authority may
+also lease or rent housing, land, buildings, structures, or facilities included in a housing project.
+A housing authority is able to borrow money or accept grants or other financial assistance from
+the federal government for a housing project in the authority's area of operation, or form a
+partnership or another entity to raise capital for a housing project to be owned by the partnership
+or other entity.
+How does our city create a housing authority?
+The city council may declare by resolution that there is a need for a housing authority in the city
+if it finds that there is: (1) unsanitary or unsafe inhabited housing in the city; or (2) a shortage of
+safe or sanitary housing in the city available to persons of low income at rentals that they can
+afford. TEX. LOC. GOV’T CODE § 392.011. The council may determine on its own motion if there
+is a need for a housing authority but must determine there is a need upon receiving a petition
+signed by at least 100 qualified voters of the city.
+Who appoints members of a housing authority?
+Each municipal housing authority is governed by either five, seven, nine, or 11 commissioners.
+The mayor of the city appoints the commissioners of the authority, and an appointed
+commissioner of the authority may not be an officer or employee of the city. TEX. LOC. GOV’T
+CODE § 392.031. After the appointment, a certificate of the appointment of a commissioner must
+be filed with the city secretary.
+A city with a municipal housing authority composed of five commissioners must appoint at least
+one commissioner to the authority who is a tenant of a public housing project over which the
+authority has jurisdiction. TEX. LOC. GOV’T CODE § 392.0331. A city with a municipality with a
+municipal housing authority composed of seven or more commissioners must appoint at least
+two commissioners to the authority who are tenants of a public housing project over which the
+authority has jurisdiction.
+What is the term of office for a housing authority commissioner?
+Initially, a housing authority with five commissioners must have two designated to serve oneyear terms and three designated to serve two-year terms. A housing authority with seven
+commissioners must have three designated to serve one-year terms and four designated to serve
+two-year terms. A housing authority with nine commissioners must have four designated to serve
+one-year terms and five designated to serve two-year terms. Finally, a housing authority with 11
+commissioners must have five designated to serve one-year terms and six designated to serve
+two-year terms. Subsequent municipal housing commissioners are appointed for two-year terms.
+If there is a vacancy on the housing authority board, the mayor appoints someone to fill the
+unexpired term. TEX. LOC. GOV’T CODE § 392.034.
+

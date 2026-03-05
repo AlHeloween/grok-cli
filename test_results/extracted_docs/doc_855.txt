@@ -1,0 +1,56 @@
+The first issue is to define the concept of adequate saving, which is surprisingly controversial.3 For pur- poses of this paper, we define adequate saving as sufficient to provide a household with an expected 
+standard of living in retirement that is commensurate with its standard of living during its working years. This definition has the advantage of conforming to people's "common sense" views of how they would like 
+to live their lives. 
+But it comes with an important caveat. Our definition focuses on expected retirement living standards rel- ative to pre-retirement living standards. Many things can go wrong between saving the right amount to 
+maintain living standards on an expected basis and being able to maintain living standards in actuality. Individuals face numerous risks in preparing for retirement. Disability or layoffs may stop people from 
+working as long as they had planned and hence reduce their ability to accumulate wealth. Assets may ac- crue less than the expected rate of return over time. A household may face disproportionate uninsured 
+health care costs, including those associated with long-term care. People may face mental or physical de- clines that require expensive daily assistance. Household members may live longer than expected, which, 
+while generally a good thing, has the side effect of generating higher saving needs to maintain pre-retire- ment living standards. Alternatively, a person may become widowed and thus lose important sources of 
+income in retirement. Children may present unexpected financial burdens. 
+Many of these concerns relate to adequate insurance (for example, against risks associated with disability, 
+rate of return, inflation, health care costs, health status, lifespan, and children's circumstances) as op- 
+posed to adequate saving, but the two issues are related and both are part of retirement preparation. So- 
+cial Security, of course, is intended to cover only a portion of adequate retirement income, not all of it. In the absence of well-functioning insurance markets, people will to some extent need to save more in order 
+to partially self-insure and be in a position to mitigate the negative consequences of adverse outcomes. 
+A definition of adequate saving that allows people to self-insure against all risks is probably an exces- 
+sively high standard for all but the super-rich. But the distinction between saving enough to maintain ex- pected living standards in retirement and saving enough to insure against all risks helps explain why there are different standards for "adequate saving." 
+One approach to measuring whether people are saving adequately is to compare their wealth accumula- 
+tion behavior to that implied by an economic model that prescribes that people save optimally.4 The 
+standard economic approach is to equate the household's discounted marginal utility of consumption in 
+3 For a recent review of the literature on the adequacy of retirement saving, see Mackenzie (forthcoming). 
+4 Engen, Gale, and Uccello (1999); Gale, Scholz, and Seshadri (2009); Scholz, Seshadri, and Khitatrakun (2006). 
+5 
+each period. This approach has the advantage of being fully consistent with economic theory, but it is not 
+always easy for people to translate this approach into practical advice, or to see where their preparations 
+land them relative to the benchmark. And the results are sensitive to model specification, especially in the 
+presence of major changes, such as those that occur in family size, marital status, or work status.5 
+A more common, intuitive, and flexible approach focuses on replacement rates. A replacement rate is a 
+ratio of post-retirement income to pre-retirement income. The target replacement rate that a household 
+should aim for is one that will allow it to replicate its pre-retirement living standards in retirement. It is 
+essential to emphasize that 100 percent is not a natural benchmark for an adequate replacement. The typ- ical advice of financial planners is to target a replacement rate of between 70 and 85 percent and some 
+evidence suggests this is consistent with optimal models of saving.6 
+Table 1 provides an extremely stylized example of how target replacement ratios in this range might come 
+about. Suppose a worker earns $100 in gross wages, and has $62 remaining after work expenses, mort- 
+gage costs, retirement saving contributions, health insurance premiums, payroll taxes, and federal and 
+state income taxes. Suppose the worker reaches age 65, pays off the mortgage, and retires. The payments 
+for work expenses, the mortgage, 401(k) contributions, payroll taxes, and health insurance stop (the last 
+because the worker becomes eligible for Medicare) and let's say taxes fall by one-third (because income 
+declines and because there are currently benefits in the tax code for the elderly). That means the worker 
+would only need $70 per year in retirement to replace the living standard that $100 provided during working years, or a 70 percent replacement rate. 
+This stylized example serves to show that adequate retirement income need not replace 100 percent of 
+pre-retirement income and that there may be a sizable difference between saving enough and saving "a 
+lot." For example, in the scenario above, if Social Security and a defined benefit plan replaced two-thirds of the worker's wages in retirement, very little additional saving would be required to maintain pre-retire- ment living standards in retirement. 
+Several qualifications are crucial. First, it is not clear what the "right" pre-retirement wage should be for 
+purposes of the calculation. Oft-used measures include final earnings, an average of the highest three or 
+five years of earnings, or average lifetime earnings. Empirical measures of the target replacement rate are 
+sensitive to which measure is used as the denominator. Second, different households will have different 
+target replacement rates. Factors such as the presence of children during working years or increased health needs during retirement years will influence how much spending is needed in retirement to main- 
+tain pre-retirement living standards. The target replacement rate would be higher to the extent that pre- retirement expenses on mortgages, health insurance, retirement contributions, and taxes were lower, or 
+to the extent that post-retirement health care needs or bequest motives were stronger. Third, different 
+5 Dushi et al. (2016). 
+6 Scholz and Seshadri (2009); Engen, Gale, and Uccello (1999). 
+6 
+households may want to include varying measures of assets as sources of available retirement income. 
+Some might want to tap housing equity, while others may choose not to do so. For all of these reasons, the 
+replacement rate needed to maintain pre-retirement living standards in retirement will vary across house- 
+holds. 

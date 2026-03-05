@@ -1,0 +1,1610 @@
+User Manual
+Version 1.1
+Table of Contents
+Get started 7
+What's in the box 7
+Charge your watch 8
+Set up Versa 3 9
+Connect to Wi-Fi 9
+See your data in the Fitbit app 10
+Unlock Fitbit Premium 11
+Advanced health metrics 11
+Premium health and wellness reminders 12
+Wear Versa 3 13
+Placement for all-day wear vs. exercise 13
+Fasten the band 14
+Handedness 15
+Wear and care tips 16
+Change the band 16
+Remove a band 16
+Attach a band 17
+Basics 18
+Navigate Versa 3 18
+Basic navigation 18
+Button shortcuts 19
+Widgets 22
+Adjust settings 23
+Display 24
+Vibration & audio 24
+Goal reminders 24
+Quiet modes 24
+Shortcuts 25
+Check battery level 25
+Set up device lock 26
+2
+Adjust always-on display 26
+Turn off the screen 28
+Care for Versa 3 28
+Apps and Clock Faces 29
+Change the clock face 29
+Open apps 30
+Organize apps 30
+Download additional apps 30
+Remove apps 30
+Update apps 31
+Adjust app settings and permissions 31
+Voice Assistant 32
+Set up Amazon Alexa Built-in 32
+Interact with Alexa 32
+Check Alexa alarms, reminders, and timers 34
+Lifestyle 35
+Starbucks 35
+Agenda 35
+Weather 35
+Check the weather 36
+Add or remove a city 36
+Find Phone 36
+Notifications from your phone 38
+Set up notifications 38
+See incoming notifications 38
+Manage notifications 39
+Turn off notifications 39
+Answer or reject phone calls 40
+Respond to messages (Android phones) 41
+Timekeeping 42
+Use the Alarms app 42
+Dismiss or snooze an alarm 42
+3
+Use the Timer app 43
+Activity and Wellness 44
+See your stats 44
+Track a daily activity goal 45
+Choose a goal 45
+Track your hourly activity 45
+Track your sleep 46
+Set a sleep goal 46
+Learn about your sleep habits 46
+Practice guided breathing 47
+Exercise and Heart Health 48
+Track your exercise automatically 48
+Track and analyze exercise with the Exercise app 49
+Track an exercise 49
+Customize your exercise settings 50
+Check your workout summary 51
+Check your heart rate 51
+Custom heart-rate zones 53
+Earn Active Zone Minutes 53
+View your cardio fitness score 53
+Work out with Fitbit Coach 54
+Share your activity 54
+Music 55
+Connect Bluetooth headphones or speakers 55
+Control music with Versa 3 55
+Choose the music source 56
+Control music 56
+Control music with the Spotify - Connect & Control app 56
+Listen to music with the Pandora app (United States only) 57
+Listen to music with the Deezer app 57
+Fitbit Pay 58
+Use credit and debit cards 58
+4
+Set up Fitbit Pay 58
+Make purchases 59
+Change your default card 60
+Pay for transit 60
+Update, Restart, and Erase 62
+Update Versa 3 62
+Restart Versa 3 62
+Shutdown Versa 3 63
+Erase Versa 3 63
+Troubleshooting 64
+Heart-rate signal missing 64
+GPS signal missing 64
+Can't connect to Wi-Fi 65
+Other issues 66
+General Info and Specifications 67
+Sensors and Components 67
+Materials 67
+Wireless technology 68
+Haptic feedback 68
+Battery 68
+Memory 68
+Display 68
+Band size 68
+Environmental conditions 69
+Learn more 69
+Return policy and warranty 69
+Regulatory and Safety Notices 70
+USA: Federal Communications Commission (FCC) statement 70
+Canada: Industry Canada (IC) statement 71
+European Union (EU) 72
+IP Rating 73
+Argentina 74
+5
+Australia and New Zealand 74
+Belarus 74
+Botswana 75
+China 75
+Customs Union 77
+Indonesia 77
+Israel 77
+Japan 77
+Kingdom of Saudi Arabia 78
+Mexico 78
+Moldova 78
+Morocco 79
+Nigeria 79
+Oman 79
+Pakistan 79
+Philippines 80
+Serbia 80
+Singapore 80
+South Korea 80
+Taiwan 82
+United Arab Emirates 84
+Vietnam 85
+Zambia 85
+Safety Statement 85
+6
+Get started
+Meet Fitbit Versa 3, the health and fitness smartwatch with built-in GPS, Active
+Zone Minutes, 20+ exercise modes, and music experiences to keep you motivated
+to move.
+Take a moment to review our complete safety information at fitbit.com/safety.
+Versa 3 is not intended to provide medical or scientific data.
+What's in the box
+Your Versa 3 box includes:
+Watch with small band
+(color and material varies) Charging cable Additional large band
+The detachable bands on Versa 3 come in a variety of colors and materials, sold
+separately.
+7
+Charge your watch
+A fully-charged Versa 3 has a battery life of 6+ days. Battery life and charge cycles
+vary with use and other factors; actual results will vary.
+To charge Versa 3:
+1. Plug the charging cable into the USB port on your computer, a UL-certified
+USB wall charger, or another low-energy charging device.
+2. Hold the other end of the charging cable near the port on the back of the
+watch until it attaches magnetically. Make sure the pins on the charging cable
+align with the port on the back of your watch.
+Charge Versa 3 for 12 minutes for 24 hours of battery life. While the watch charges,
+tap the screen twice or press the button to turn the screen on. The battery level
+appears for several seconds, then disappears so you can use your watch while it
+charges. Charging fully takes about 1-2 hours.
+8
+Set up Versa 3
+Set up Versa 3 with the Fitbit app for iPhones and iPads or Android phones. The
+Fitbit app is compatible with most popular phones and tablets. See
+fitbit.com/devices to check if your phone or tablet is compatible.
+To get started:
+1. Download the Fitbit app:
+l Apple App Store for iPhones and iPads
+l Google Play Store for Android phones
+2. Install the app, and open it.
+l If you already have a Fitbit account, log in to your account > tap the
+Today tab > your profile picture > Set Up a Device.
+l If you don't have a Fitbit account, tap Join Fitbit to be guided through a
+series of questions to create a Fitbit account.
+3. Continue to follow the on-screen instructions to connect Versa 3 to your
+account.
+When you're done with setup, read through the guide to learn more about your
+new watch and then explore the Fitbit app.
+For more information, see help.fitbit.com.
+Connect to Wi-Fi
+During setup, you're prompted to connect Versa 3 to your Wi-Fi network. Versa 3
+uses Wi-Fi to more quickly transfer music from Pandora or Deezer, download apps
+9
+from the Fitbit App Gallery, and for faster, more reliable OS updates.
+Versa 3 can connect to open, WEP, WPA personal, and WPA2 personal Wi-Fi
+networks. Your watch won't connect to 5GHz, WPA enterprise, or public Wi-Fi
+networks that require more than a password to connect—for example, logins,
+subscriptions, or profiles. If you see fields for a username or domain when
+connecting to the Wi-Fi network on a computer, the network isn't supported.
+For best results, connect Versa 3 to your home Wi-Fi network. Make sure you know
+the network password before connecting.
+For more information, see help.fitbit.com.
+See your data in the Fitbit app
+Open the Fitbit app on your phone or tablet to view your activity and sleep data,
+log food and water, participate in challenges, and more.
+10
+Unlock Fitbit Premium
+Fitbit Premium helps you build healthy habits by offering tailored workouts,
+insights into how your behavior impacts your health, and personalized plans to help
+you reach your goals. A Fitbit Premium subscription includes health insights and
+guidance, advanced health metrics, sleep details, customized programs, and 150+
+workouts from fitness brands. New Fitbit Premium customers can redeem a free
+trial.
+For more information, see help.fitbit.com.
+Advanced health metrics
+Know your body better with health metrics in the Fitbit app. This feature helps you
+view key metrics tracked by your Fitbit device over time so that you can see trends
+and assess what’s changed.
+Metrics include:
+l Oxygen saturation (SpO2)
+l Skin temperature variation
+l Heart rate variability
+l Resting heart rate
+l Breathing rate
+Note: This feature is not intended to diagnose or treat any medical condition and
+should not be relied on for any medical purposes. It is intended to provide
+information that can help you manage your well-being. If you have any concerns
+about your health, please talk to a healthcare provider. If you believe you are
+experiencing a medical emergency, call emergency services.
+For more information, see help.fitbit.com.
+11
+Premium health and wellness reminders
+Set up Premium health and wellness reminders in the Fitbit app, and receive
+reminders on your watch that encourage you to form and maintain healthy
+behaviors. For more information, see help.fitbit.com.
+12
+Wear Versa 3
+Wear Versa 3 around your wrist. If you need to attach a different size band, or if you
+purchased another band, see the instructions in "Change the band" on page 16.
+Placement for all-day wear vs. exercise
+When you're not exercising, wear Versa 3 a finger's width above your wrist bone.
+In general, it's always important to give your wrist a break on a regular basis by
+removing your watch for around an hour after extended wear. We recommend
+removing your watch while you shower. Although you can shower while wearing
+your watch, not doing so reduces the potential for exposure to soaps, shampoos,
+and conditioners, which can cause long-term damage to your watch and may cause
+skin irritation.
+For optimized heart-rate tracking while exercising:
+l During workouts, try moving the band higher on your wrist to get a better fit.
+If you experience any discomfort, loosen the band, and if it persists give your
+wrist a break by taking it off.
+13
+l Wear your watch on top of your wrist, and make sure the back of the device is
+in contact with your skin.
+Fasten the band
+1. Place Versa 3 around your wrist.
+2. Slide the bottom band through the first loop in the top band.
+14
+3. Tighten the band until it fits comfortably, and press the peg through one of
+the holes in the band.
+4. Slide the loose end of the band through the second loop until it lies flat on
+your wrist. Make sure the band isn’t too tight. Wear the band loosely enough
+that it can move back and forth on your wrist.
+Handedness
+For greater accuracy, you must specify whether you wear Versa 3 on your dominant
+or non-dominant hand. Your dominant hand is the one you use for writing and
+eating. To start, the Wrist setting is set to non-dominant. If you wear Versa 3 on
+your dominant hand, change the Wrist setting in the Fitbit app:
+From the Today tab in the Fitbit app, tap your profile picture > Versa 3 tile
+> Wrist > Dominant.
+15
+Wear and care tips
+l Clean your band and wrist regularly with a soap-free cleanser.
+l If your watch gets wet, remove and dry it completely after your activity.
+l Take your watch off from time to time.
+l If you notice skin irritation, remove your watch and contact customer support.
+For more information, see fitbit.com/productcare.
+Change the band
+Versa 3 comes with a small band attached and an additional large, bottom band in
+the box. Both the top and bottom bands can be swapped with accessory bands,
+sold separately on fitbit.com. For band measurements, see "Band size" on page 68.
+Fitbit Sense bands are compatible with Versa 3.
+Remove a band
+1. Turn over Versa 3 and find the band latches.
+2. To release the latch, slide the flat button toward the band.
+16
+3. Gently pull the band away from the watch to release it.
+4. Repeat on the other side.
+Attach a band
+To attach a band, press it into the end of the watch until you hear a click and it
+snaps into place. The band with the loops and peg attaches to the top of the watch.
+17
+Basics
+Learn how to manage settings, set a personal PIN code, navigate the screen, and
+care for your watch.
+Navigate Versa 3
+Versa 3 has a color AMOLED touchscreen display and 1 button.
+Navigate Versa 3 by tapping the screen, swiping side to side and up and down, or
+pressing the button. To preserve battery, the watch’s screen turns off when not in
+use, unless you turn on the always-on display setting. For more information, see
+"Adjust always-on display" on page 26.
+Basic navigation
+The home screen is the clock.
+l Swipe down to see notifications.
+l Swipe up to see widgets, such as your daily stats, the weather, and a shortcut
+to start the Relax app.
+l Swipe left to see the apps on your watch.
+l Swipe right to open quick settings or return to the previous screen in an app.
+l Press the button to return to the clock face.
+18
+Button shortcuts
+Use the button to quickly access Fitbit Pay, voice assistant, quick settings, or your
+favorite apps.
+Press and hold the button
+Hold the button for 2 seconds to activate a feature of your choice. The first time you
+use the button shortcut, select which feature it activates. To change which feature
+activates when you hold the button, open the Settings app on your watch and
+tap Shortcuts. Tap Press & hold, and select the app you want.
+19
+Double-press the button
+Double-press the button to open shortcuts to 4 apps or features. To start, the 4
+shortcuts are music controls , quick settings , your voice assistant, and Fitbit
+Pay . To change these shortcuts, open the Settings app on your watch and
+tap Shortcuts. Under Double Press, tap the shortcut you want to change.
+Quick settings
+Swipe right from the clock face on your watch to access quick settings.
+20
+Do Not Disturb When the do not disturb setting is on:
+l Notifications, goal celebrations, and reminders
+are muted.
+l The do not disturb icon illuminates in quick
+settings.
+You can't turn on do not disturb and sleep mode at the same
+time.
+Sleep Mode When the sleep mode setting is on:
+l Notifications, goal celebrations, and reminders
+are muted.
+l The screen's brightness is set to dim.
+l The Always-On Display clock face is turned off.
+l The screen stays dark when you turn your wrist.
+l The sleep mode icon illuminates in quick
+settings.
+Sleep mode turns off automatically when you set a sleep
+schedule. To set a schedule:
+1. Open the Settings app and tap Quiet modes.
+2. Under Sleep mode, tap Schedule mode > Off-
+hours.
+3. Tap the start or stop time to adjust when the
+mode turns on and off. Swipe up or down to
+change the time, and tap the time to select it.
+Sleep mode automatically turns off at the time
+you schedule, even if you manually turned it on.
+You can't turn on do not disturb and sleep mode at the same
+time.
+Screen Wake When you set screen wake to automatic , the screen turns
+on each time you turn your wrist.
+21
+When you set screen wake to manual, press the button or
+tap the screen to turn on the display.
+Brightness Adjust the screen brightness.
+Always-On Display Turn always-on display on or off. For more information, see
+"Adjust always-on display" on page 26.
+Music Volume Adjust the volume of music playing through headphones or
+speakers paired to your watch. For more information, see
+"Connect Bluetooth headphones or speakers" on page 55.
+Widgets
+Add widgets to your watch to see your daily stats, log your water intake or weight,
+check the weather forecast, and start a session in the Relax app, and more. To see
+your widgets, swipe up from the clock face.
+To add a new widget:
+22
+1. From the clock face, swipe up to the bottom of the widgets, and tap Manage.
+2. Under More Widgets, tap the icon next to the widget you want to add.
+3. Swipe up to the bottom of the page, and tap Done.
+To turn off a widget:
+1. From the clock face, swipe up to the bottom of the widgets, and tap Manage.
+2. Tap the > icon next to the widget you want to adjust.
+3. Tap the switch icon next to Show Widget to turn it off.
+4. Swipe up to the bottom of the page, and tap Done.
+To adjust the information you see on a widget:
+1. From the clock face, swipe up to the bottom of the widgets, and tap Manage.
+2. Tap the > icon next to the widget you want to adjust.
+3. Adjust any settings you want to change.
+4. Swipe up to the bottom of the page, and tap Done.
+To change the order of widgets:
+1. From the clock face, swipe up to the bottom of the widgets, and tap Manage.
+2. Press and hold the widget you want to move, and drag it up or down in the
+list of widgets. When it's in the correct new location, lift your finger.
+3. Swipe up to the bottom of the page, and tap Done.
+Adjust settings
+Manage basic settings in the Settings app :
+23
+Display
+Brightness Change the screen's brightness.
+Screen wake Change whether the screen turns on when you turn your wrist.
+Screen
+timeout
+Adjust the amount of time before the screen turns off or switches to the
+always-on display clock face.
+Always-on
+display
+Turn always-on display on or off, and change the type of clock face shown.
+Vibration & audio
+Vibration Adjust your watch's vibration strength.
+Microphone Choose whether your watch can access the microphone.
+Bluetooth Manage connected Bluetooth devices.
+Goal reminders
+Active Zone Minutes goal Turn Active Zone Minutes weekly goal notifications on or off.
+Quiet modes
+Focus mode Turn off notifications while using the Exercise app .
+Do not
+disturb
+Turn off all notifications.
+Sleep mode Adjust sleep mode settings, including setting a schedule for the mode to
+automatically turn on and off.
+Alexa
+notifications
+Turn Amazon Alexa notifications off.
+24
+Shortcuts
+Press
+& hold
+Choose the app or feature you want to open when you press and hold the
+button.
+Double
+Press
+Choose 4 apps or features to appear as shortcuts when you double-press the
+button.
+Tap a setting to adjust it. Swipe up to see the full list of settings.
+Check battery level
+From the clock face, swipe right. The battery level icon is at the top of the screen.
+Wi-Fi won't work on Versa 3 when the battery is 25% or less, and you'll be unable to
+update your device.
+If your watch's battery is low (fewer than 24 hours remaining), a red battery
+indicator appears on the clock face. If your watch's battery is critically low (fewer
+than 4 hours remaining), the battery indicator flashes. When the battery is low:
+l The screen brightness is set to dim
+l The vibration strength is set to light
+l If you’re tracking an exercise with GPS, GPS tracking turns off
+l Always-on display is turned off
+l You can't use the voice assistant feature
+l You can't use quick replies
+25
+l You can't use music controls
+l You won't receive notifications from your phone
+Charge Versa 3 to use or adjust these features.
+Set up device lock
+To help keep your watch secure, turn on device lock in the Fitbit app, which
+prompts you to enter a personal 4-digit PIN code to unlock your watch. If you set
+up Fitbit Pay to make contactless payments from your watch, device lock is turned
+on automatically and you're required to set a code. If you don't use Fitbit Pay,
+device lock is optional.
+Turn on device lock or reset your PIN code in the Fitbit app:
+From the Today tab in the Fitbit app, tap your profile picture > Versa 3 tile
+> Device Lock.
+For more information, see help.fitbit.com.
+Adjust always-on display
+Turn on always-on display to show the time on your watch, even when you're not
+interacting with the screen. Many clock faces and certain apps have an always-on
+display mode.
+26
+To turn always-on display on or off, swipe right from the clock face to open quick
+settings. Tap the always-on display icon .
+Note that turning on this feature impacts your watch's battery life. When always-on
+display is turned on, Versa 3 requires more frequent charging.
+Clock faces without an always-on display mode use a default always-on display
+clock face. Choose between an analog or digital clock face. Open the Settings app
+> Display. In the Always-on display section, tap Analog or Digital.
+Always-on display automatically turns off when your watch's battery is critically
+low.
+For more information, see help.fitbit.com.
+27
+Turn off the screen
+To turn off your watch's screen when not in use, briefly cover the watch face with
+your opposite hand, press the buttons, or turn your wrist away from your body.
+Note that if you turn on the always-on display setting, the screen won't turn off.
+Care for Versa 3
+It's important to clean and dry Versa 3 regularly. For more information, see
+fitbit.com/productcare.
+28
+Apps and Clock Faces
+The Fitbit Gallery offers apps and clock faces to personalize your watch and meet a
+variety of health, fitness, timekeeping, and everyday needs.
+Change the clock face
+The Fitbit Clock Gallery offers a variety of clock faces to personalize your watch.
+1. From the Today tab in the Fitbit app, tap your profile picture > Versa 3
+tile.
+2. Tap Clock Faces > All Clocks.
+3. Browse the available clock faces. Tap a clock face to see a detailed view.
+4. Tap Select to add the clock face to Versa 3.
+Save up to 5 clock faces to switch between them:
+l When you select a new clock face, it’s automatically saved unless you already
+have 5 saved clock faces.
+l To see your saved clock faces from your watch, open the Clocks app and
+swipe to find the clock face you want to use. Tap to select it.
+l To see your saved clock faces in the Fitbit app, tap the Today tab > your
+profile picture > your device image > Clock Faces. See your saved clock faces
+in My Clock Faces.
+29
+l To remove a clock face, tap the clock face > Remove clock face.
+l To switch to a saved clock face, tap the clock face > Select.
+Open apps
+From the clock face, swipe left to see the apps installed on your watch. To open an
+app, tap it.
+Organize apps
+To change the placement of an app on Versa 3, press and hold an app until it's
+selected, and drag it to a new location. The app is selected when the icon increases
+slightly in size and the watch vibrates.
+Download additional apps
+1. From the Today tab in the Fitbit app, tap your profile picture > Versa 3
+tile.
+2. Tap Apps > All Apps.
+3. Browse the available apps. When you find one you want to install, tap it.
+4. Tap Install to add the app to Versa 3.
+For more information, see help.fitbit.com.
+Remove apps
+You can remove most apps installed on Versa 3:
+1. From the Today tab in the Fitbit app, tap your profile picture > Versa 3
+tile.
+2. Tap Apps.
+3. In the My Apps tab, tap the app you want to remove. You may have to swipe
+up to find it.
+4. Tap Remove.
+30
+Update apps
+Apps update over Wi-Fi as needed. Versa 3 searches for updates when plugged
+into the charger and in range of your Wi-Fi network.
+You can also manually update apps:
+1. From the Today tab in the Fitbit app, tap your profile picture > Versa 3
+tile.
+2. Tap Apps.
+3. In the My Apps tab, find the app you want to update. You may have to swipe
+up to find it.
+4. Tap the pink Update button next to the app.
+Adjust app settings and permissions
+Many apps include options to adjust the notifications, allow certain permissions, and
+customize what it displays. Note that turning off any app permissions might cause
+the app to stop functioning.
+To access these settings:
+1. With your watch nearby, in the Fitbit app, tap the Today tab > your
+profile picture > your device image.
+2. Tap Apps or Clock Faces.
+3. Tap the app or clock face whose settings you want to change. You may have
+to swipe up to see some apps.
+4. Tap Settings or Permissions.
+5. Tap Back or Details when you're done making changes.
+31
+Voice Assistant
+Check the weather, set timers and alarms, control your smart home devices, and
+more by speaking to your watch.
+Set up Amazon Alexa Built-in
+1. From the Today tab in the Fitbit app, tap your profile picture > Versa 3
+tile.
+2. Tap Amazon Alexa > Sign in with Amazon.
+3. Tap Get Started.
+4. Log in to your Amazon account or create one if necessary.
+5. Follow the on-screen instructions and read about what Alexa can do, and tap
+Close to return to your device settings in the Fitbit app.
+To change the language Alexa recognizes or disconnect your Amazon account:
+1. From the Today tab in the Fitbit app, tap your profile picture > Versa 3
+tile.
+2. Tap Amazon Alexa.
+3. Tap the current language to change it, or tap Logout to stop using Alexa on
+your watch.
+Interact with Alexa
+1. Open the Alexa app on your watch. Note that the Fitbit app must be
+running in the background on your phone.
+2. Say your request.
+32
+You don't need to say "Alexa" before speaking your request. For example:
+l Set a timer for 10 minutes.
+l Set an alarm for 8:00 a.m.
+l What's the temperature outside?
+l Remind me to make dinner at 6:00 p.m.
+l How much protein is in an egg?
+l Ask Fitbit to start a run.*
+l Start a bike ride with Fitbit.*
+*To ask Alexa to open the Exercise app on your watch, you must first set up the
+Fitbit skill for Alexa. For more information, see help.fitbit.com. These commands are
+currently available in English, German, French, Italian, Spanish, and Japanese.
+Amazon Alexa not available in all countries. For more information, see
+fitbit.com/voice.
+Note that saying “Alexa” doesn’t activate Alexa on your watch—you must open the
+Alexa app on your watch before the microphone turns on. The microphone turns off
+when you close Alexa, or when your watch’s screen turns off.
+For added functionality, install the Amazon Alexa app on your phone. With the app,
+your watch can access additional Alexa skills.
+For more information, see help.fitbit.com.
+33
+Check Alexa alarms, reminders, and timers
+1. Open the Alexa app on your watch.
+2. Tap the alerts icon and swipe up to view your alarms, reminders, and
+timers.
+3. Tap an alarm to turn it on or off. To adjust or cancel a reminder or timer, tap
+the Alexa icon and say your request.
+Note that Alexa's alarms and timers are separate from those you set in the Alarms
+app or Timer app .
+34
+Lifestyle
+Use apps to stay connected to what you care about most. See "Apps and Clock
+Faces" on page 29 for instructions on how to add and delete apps.
+For more information, see help.fitbit.com.
+Starbucks
+Add your Starbucks card or Starbucks Rewards program number in the Fitbit App
+Gallery in the Fitbit app, and then use the Starbucks app to pay from your
+wrist.
+For more information, see help.fitbit.com.
+Agenda
+Connect your phone's calendar in the Fitbit app to see upcoming calendar events
+for today and tomorrow in the Agenda app on your watch.
+For more information, see help.fitbit.com.
+Weather
+See the weather in your current location, as well as 2 additional locations you
+choose, in the Weather app on your watch.
+35
+Check the weather
+Open the Weather app to see conditions in your current location. Swipe up to view
+the weather in other locations you added. Tap a location to see a more detailed
+report.
+You can also add a weather widget to your watch. For more information, see
+"Widgets" on page 22.
+If the weather for your current location doesn't appear, check that you turned on
+location services for the Fitbit app. If you change locations or don't see updated
+data for your current location, sync your watch to see your new location and latest
+data in the Weather app or widget.
+Choose your unit of temperature in the Fitbit app. For more information, see
+help.fitbit.com.
+Add or remove a city
+1. From the Today tab in the Fitbit app, tap your profile picture > Versa 3
+tile.
+2. Tap Apps.
+3. In the My Apps tab, tap the gear icon next to Weather. You may need to
+swipe up to find the app.
+4. Tap Add city to add up to 2 additional locations or tap Edit > the X icon to
+delete a location. Note that you can't delete your current location.
+Find Phone
+Use the Find Phone app to locate your phone.
+Requirements:
+36
+l Your watch must be connected (“paired”) to the phone you want to locate.
+l Your phone must have Bluetooth turned on and be within 30 feet (10m) of
+your Fitbit device.
+l The Fitbit app must be running in the background on your phone.
+l Your phone must be turned on.
+To find your phone:
+l Open the Find Phone app on your watch.
+l Tap Find Phone. Your phone rings loudly.
+l When you locate your phone, tap Cancel to end the ringtone.
+37
+Notifications from your phone
+Versa 3 can show call, text, calendar, and app notifications from your phone to keep
+you informed. Keep your watch within 30 feet of your phone to receive
+notifications.
+Set up notifications
+Check that Bluetooth on your phone is on and that your phone can receive
+notifications (often under Settings > Notifications). Then set up notifications:
+1. From the Today tab in the Fitbit app, tap your profile picture > Versa 3
+tile.
+2. Tap Notifications.
+3. Follow the on-screen instructions to pair your watch if you haven't already.
+Call, text, and calendar notifications are turned on automatically.
+4. To turn on notifications from apps installed on your phone, including Fitbit and
+WhatsApp, tap App Notifications and turn on the notifications you want to
+see.
+Note that if you have an iPhone or iPad, Versa 3 shows notifications from all
+calendars synced to the Calendar app. If you have an Android phone, Versa 3 shows
+calendar notifications from the calendar app you chose during setup.
+For more information, see help.fitbit.com.
+See incoming notifications
+A notification causes your watch to vibrate. If you don't read the notification when it
+arrives, you can check it later by swiping down from the top of the screen.
+38
+If your watch's battery is critically low, notifications won't cause Versa 3 to vibrate
+or the screen to turn on.
+Manage notifications
+Versa 3 stores up to 30 notifications, after which the oldest are replaced as you
+receive new ones.
+To manage notifications:
+l Swipe down from the top of the screen to see your notifications and tap any
+notification to expand it.
+l To delete a notification, tap to expand it, then swipe to the bottom and tap
+Clear.
+l To delete all notifications at once, swipe to the top of your notifications and
+tap Clear All.
+Turn off notifications
+Turn off certain notifications in the Fitbit app, or turn off all notifications in quick
+settings on Versa 3. When you turn off all notifications, your watch won't vibrate
+and the screen won't turn on when your phone receives a notification.
+To turn off certain notifications:
+1. From the Today tab in the Fitbit app on your phone, tap your profile
+picture > Versa 3 tile > Notifications.
+39
+2. Turn off the notifications you no longer want to receive on your watch.
+To turn off all notifications:
+1. From the clock face, swipe right to access quick settings.
+2. Tap the do not disturb icon . All notifications, including goal celebrations
+and reminders, are turned off.
+Note that if you use the do not disturb setting on your phone, you don't receive
+notifications on your watch until you turn off this setting.
+Answer or reject phone calls
+If paired to an iPhone or Android (8.0+) phone, Versa 3 lets you accept or reject
+incoming phone calls. If your phone is running an older version of the Android OS,
+you can reject, but not accept, calls on your watch.
+To accept a call, tap the green phone icon on your watch's screen. Note that you
+can't speak into the watch—accepting a phone call answers the call on your nearby
+phone. To reject a call, tap the red phone icon to send the caller to voicemail.
+The caller's name appears if that person is in your contacts list; otherwise you see a
+phone number.
+40
+Respond to messages (Android phones)
+Respond directly to text messages and notifications from certain apps on your
+watch with preset quick replies or by speaking your reply into Versa 3. Keep your
+phone nearby with the Fitbit app running in the background to respond to
+messages from your watch.
+To respond to a message:
+1. Open the notification you want to respond to.
+2. Choose how to reply to the message:
+l Tap the microphone icon to respond to the message using voice-to-
+text. To change the language recognized by the microphone, tap
+Language. After you speak your reply, tap Send, or tap Retry to try
+again. If you notice a mistake after you send the message, tap Undo
+within 3 seconds to cancel the message.
+l Tap the text icon to respond to a message from a list of quick replies.
+l Tap the emoji icon to respond to the message with an emoji.
+For more information, including how to customize quick replies, see help.fitbit.com.
+41
+Timekeeping
+Alarms vibrate to wake or alert you at a time you set. Set up to 8 alarms to occur
+once or on multiple days of the week. You can also time events with the stopwatch
+or set a countdown timer.
+Note that alarms and timers you set with a voice assistant are separate from the
+ones you set in the Alarms app and Timer app. For more information, see "Voice
+Assistant" on page 32.
+Use the Alarms app
+Set one-time or recurring alarms with the Alarms app . When an alarm goes off,
+your watch vibrates.
+When setting an alarm, turn on Smart Wake to allow your watch to find the best
+time to wake you starting 30 minutes before the alarm time you set. It avoids
+waking you during deep sleep so you're more likely to wake up feeling refreshed. If
+Smart Wake can’t find the best time to wake you, your alarm alerts you at the set
+time.
+For more information, see help.fitbit.com.
+Dismiss or snooze an alarm
+When an alarm goes off, your watch vibrates. To dismiss the alarm, tap the alarm
+icon . To snooze the alarm for 9 minutes, tap the snooze icon .
+Snooze the alarm as many times as you want. Versa 3 automatically goes into
+snooze mode if you ignore the alarm for more than 1 minute.
+42
+Use the Timer app
+Time events with the stopwatch or set a countdown timer with the Timer app
+on your watch. You can run the stopwatch and countdown timer at the same time.
+When the screen turns off, your watch continues to display the stopwatch or
+countdown timer until it ends or you exit the app.
+For more information, see help.fitbit.com.
+43
+Activity and Wellness
+Versa 3 continuously tracks a variety of stats whenever you wear it, including hourly
+activity, heart rate, and sleep. Data automatically syncs with the Fitbit app
+throughout the day.
+See your stats
+Open the Today app or swipe up from the clock face to see your daily stats,
+including:
+Steps Steps taken today and progress toward your daily goal
+Heart rate Current heart rate and either your heart-rate zone or resting heart rate
+(if not in a zone)
+Calories burned Calories burned today and progress toward your daily goal
+Floors Floors climbed today and progress toward your daily goal
+Distance Distance covered today and progress toward your daily goal
+Active Zone
+Minutes
+Active Zone Minutes earned today and the number of Active Zone
+Minutes you're currently earning per minute
+Exercise Number of days you met your exercise goal this week
+Sleep Sleep duration and sleep score
+Hourly activity The number of hours today you met your hourly activity goal
+Food Calories eaten and calories remaining today
+Menstrual health Information on the current stage of your menstrual cycle, if applicable
+Water Water intake logged today and progress toward your daily goal
+Weight Current weight and your progress toward your weight goal
+Core temp Your most recent logged temperature
+44
+Tap a tile to view more details or log an entry (for water, weight, and core
+temperature).
+Find your complete history and other information detected by your watch in the
+Fitbit app.
+Track a daily activity goal
+Versa 3 tracks your progress toward a daily activity goal of your choice. When you
+reach your goal, your watch vibrates and shows a celebration.
+Choose a goal
+Set a goal to help you get started on your health and fitness journey. To begin, your
+goal is to take 10,000 steps per day. Choose to change the number of steps, or pick
+a different activity goal depending on your device.
+For more information, see help.fitbit.com.
+Track progress toward your goal on Versa 3. For more information, see "See your
+stats" on the previous page.
+Track your hourly activity
+Versa 3 helps you stay active throughout the day by keeping track of when you're
+stationary and reminding you to move.
+Reminders nudge you to walk at least 250 steps each hour. You feel a vibration and
+see a reminder on your screen at 10 minutes before the hour if you haven't walked
+250 steps. When you meet the 250-step goal after receiving the reminder, you feel
+a second vibration and see a congratulatory message.
+45
+For more information, see help.fitbit.com.
+Track your sleep
+Wear Versa 3 to bed to automatically track basic stats about your sleep, including
+your time asleep, sleep stages (time spent in REM, light sleep, and deep sleep), and
+sleep score (the quality of your sleep). Versa 3 also tracks your estimated oxygen
+variation throughout the night to help you uncover potential breathing
+disturbances. To see your sleep stats, sync your watch when you wake up and
+check the Fitbit app, or swipe up from the clock face on your watch to see your
+sleep stats.
+For more information, see help.fitbit.com.
+Set a sleep goal
+To start, you have a sleep goal of 8 hours of sleep per night. Customize this goal to
+meet your needs.
+For more information, see help.fitbit.com.
+Learn about your sleep habits
+With a Fitbit Premium subscription, see more details about your sleep score and
+how you compare to your peers, which can help you build a better sleep routine
+and wake up feeling refreshed.
+For more information, see help.fitbit.com.
+46
+Practice guided breathing
+The Relax app on Versa 3 provides personalized guided breathing sessions to
+help you find moments of calm throughout the day. All notifications are
+automatically disabled during the session.
+1. On Versa 3, open the Relax app .
+2. Tap Edit to change the duration of the session or turn off the optional
+vibration.
+3. Tap Start to begin the session. Follow the on-screen instructions.
+4. When the session ends, tap Log It to reflect on how you feel, or tap Skip to
+skip this step.
+5. View your summary, and tap Done to close the app.
+For more information, see help.fitbit.com.
+47
+Exercise and Heart Health
+Track activity with the Exercise app and complete guided workouts with the
+Fitbit Coach app right on your wrist.
+Check the Fitbit app to share your activity with friends and family, see how your
+overall fitness level compares to your peers, and more.
+During a workout, you can play music through the Pandora app or Deezer app
+on your watch, control music playing in Spotify using the Spotify - Connect
+& Control app , or control music playing on your phone.
+1. Start music playing in an app or on your phone.
+2. Open the Exercise or Coach app and start a workout. To control music playing
+while you exercise, double-press the button. Your shortcuts appear.
+3. Tap the music controls icon .
+4. To return to your workout, press the button.
+Note that you need to pair a Bluetooth audio device, such as headphones or a
+speaker, to Versa 3 to hear music stored on your watch.
+For more information, see "Music" on page 55.
+Track your exercise automatically
+Versa 3 automatically recognizes and records many high-movement activities
+which are at least 15 minutes long. See basic stats about your activity in the Fitbit
+app on your phone. From the Today tab , tap the Exercise tile.
+For more information, see help.fitbit.com.
+48
+Track and analyze exercise with the Exercise app
+Track specific exercises with the Exercise app on Versa 3 to see real-time stats,
+including heart-rate data, calories burned, elapsed time, and a post-workout
+summary on your wrist. For complete workout stats, and a workout intensity map if
+you used GPS, tap the Exercise tile in the Fitbit app.
+Track an exercise
+1. On Versa 3, open the Exercise app and swipe to find an exercise.
+2. Tap the exercise to choose it. If the exercise uses GPS, you can wait for the
+signal to connect, or start the exercise and GPS will connect when a signal is
+available. Note that GPS can take a few minutes to connect.
+3. Tap the play icon to begin the exercise, or swipe up to choose an exercise
+goal or adjust the settings. For more information on the settings, see
+"Customize your exercise settings" on the next page.
+4. Tap the large stat to scroll through your real-time stats. To pause your
+workout, swipe up and tap the pause icon .
+5. When you're done with your workout, swipe up and tap the end icon
+> End. Your workout summary appears.
+6. Tap Done to close the summary screen.
+Notes:
+l If you set an exercise goal, your watch alerts you when you’re halfway to your
+goal and when you reach the goal.
+l If the exercise uses GPS, "GPS connecting..." appears at the top of the screen.
+When the screen says "GPS connected" and Versa 3 vibrates, GPS is
+connected.
+49
+Using built-in GPS impacts your watch's battery life. When GPS tracking is turned
+on, Versa 3 can track up to 12 hours of continuous exercise.
+Customize your exercise settings
+Customize settings for each exercise type on your watch. Settings include:
+Heart Zone
+Notifications
+Receive notifications when you hit target heart-rate zones during your
+workout. For more information, see help.fitbit.com
+Laps Receive notifications when you reach certain milestones during your
+workout
+Show Stats Choose what stats you want to see when tracking an exercise
+GPS Track your route using GPS
+Auto-Pause Automatically pause a run or bike ride when you stop moving
+Run Detect Track runs automatically without opening the Exercise app
+Always-on
+Display
+Keep the screen on during exercise
+Pool Length Set the length of your pool
+Interval Adjust the move and rest intervals used during interval training
+1. On Versa 3, open the Exercise app .
+2. Swipe to find an exercise.
+50
+3. Swipe up from the bottom of the screen, then swipe up through the list of
+settings.
+4. Tap a setting to adjust it.
+5. When you're done, swipe down until you see the play icon .
+Check your workout summary
+After you complete a workout, Versa 3 shows a summary of your stats.
+Check the Exercise tile in the Fitbit app to see additional stats and a workout
+intensity map if you used GPS.
+Check your heart rate
+Versa 3 personalizes your heart-rate zones using your heart rate reserve, which is
+the difference between your maximum heart rate and your resting heart rate. To
+help you target the training intensity of your choice, check your heart rate and
+heart-rate zone on your watch during exercise. Versa 3 notifies you when you enter
+a heart-rate zone.
+51
+Icon Zone Calculation Description
+Below
+Zone
+Below
+40% of
+your heart
+rate reserve
+Below the fat burn zone, your heart beats
+at a slower pace.
+Fat Burn
+Zone
+Between
+40% and
+59% of
+your heart
+rate reserve
+In the fat burn zone, you’re likely in a
+moderate activity such as a brisk walk.
+Your heart rate and breathing might be
+elevated, but you can still carry on a
+conversation.
+Cardio
+Zone
+Between
+60% and
+84% of
+your heart
+rate reserve
+In the cardio zone, you’re likely doing a
+vigorous activity such as running or
+spinning.
+Peak
+Zone
+Greater
+than 85%
+of your
+heart rate
+reserve
+In the peak zone, you’re likely doing a
+short, intense activity that improves
+performance and speed, such as sprinting
+or high-intensity interval training.
+52
+Custom heart-rate zones
+Instead of using these heart-rate zones, you can create a custom zone in the Fitbit
+app to target a specific heart-rate range.
+For more information, see help.fitbit.com.
+Earn Active Zone Minutes
+Earn Active Zone Minutes for time spent in the fat burn, cardio, or peak heart-rate
+zones. To help you maximize your time, you earn 2 Active Zone Minutes for each
+minute you’re in the cardio or peak zones.
+1 minute in the fat burn zone = 1 Active Zone Minute
+1 minute in the cardio or peak zones = 2 Active Zone Minutes
+A few moments after you enter a different heart-rate zone during your exercise,
+your watch buzzes so that you know how hard you’re working. The number of times
+your watch vibrates indicates which zone you’re in:
+1 buzz = below zone
+2 buzzes = fat burn zone
+3 buzzes = cardio zone
+4 buzzes = peak zone
+To start, your weekly goal is set to 150 Active Zone Minutes. You’ll receive
+notifications as you reach your goal.
+For more information, see help.fitbit.com.
+View your cardio fitness score
+View your overall cardiovascular fitness in the Fitbit app. See your cardio fitness
+score and cardio fitness level, which shows how you compare to your peers.
+53
+In the Fitbit app, tap the Heart-rate tile and swipe left on your heart-rate graph to
+see your detailed cardio fitness stats.
+For more information, see help.fitbit.com.
+Work out with Fitbit Coach
+The Fitbit Coach app provides guided bodyweight workouts on your wrist to
+help you stay fit anywhere.
+1. On Versa 3, open the Fitbit Coach app .
+2. Swipe to find a workout.
+3. Tap the workout you want. To preview the workout, tap the menu icon .
+Press the button to return to the workout.
+4. Tap Start.
+For more information, see help.fitbit.com.
+Share your activity
+After you complete a workout, open the Fitbit app to share your stats with friends
+and family.
+For more information, see help.fitbit.com.
+54
+Music
+Use apps on your watch to listen to music with Bluetooth headphones or speakers.
+Connect Bluetooth headphones or speakers
+Connect up to 8 Bluetooth audio devices to listen to music from your watch.
+To pair a new Bluetooth audio device:
+1. Activate pairing mode on your Bluetooth headphones or speaker.
+2. On Versa 3, open the Settings app > Vibration & audio.
+3. In the Bluetooth section, tap Manage devices.
+4. Swipe up to see the Other devices section. Versa 3 searches for nearby
+devices.
+5. When Versa 3 finds nearby Bluetooth audio devices, it shows a list on the
+screen. Tap the name of the device you want to pair.
+When pairing is complete, a check mark appears on the screen.
+To listen to music with a different Bluetooth device:
+1. On Versa 3, open the Settings app > Vibration & audio.
+2. In the Bluetooth section, tap the device you want to use, or pair a new device.
+Then wait for a moment for the device to connect.
+For more information, see help.fitbit.com.
+Control music with Versa 3
+Control music playing in an app on Versa 3 or on your phone.
+55
+Choose the music source
+1. Double-press the button on Versa 3. Your shortcuts appear.
+2. Tap the music controls icon .
+3. The icon in the top-left corner shows whether the music source is currently set
+to your phone or your watch . Tap it to change the music source, then
+press the button to return to your music controls.
+Control music
+1. While music is playing, double-press the button. Your shortcuts appear.
+2. Tap the music controls icon .
+3. Play, pause, or tap the arrow icons to skip to the next track or previous track.
+Tap the volume icon to adjust the volume.
+Control music with the Spotify - Connect & Control
+app
+Use the Spotify - Connect & Control app on Versa 3 to control Spotify on your
+phone, computer, or other Spotify Connect device. Navigate between playlists, like
+songs, and switch between devices from your watch. Note that at this time, the
+Spotify - Connect & Control app only controls music playing on your paired device,
+so your device must remain nearby and connected to the internet. You need a
+56
+Spotify Premium subscription to use this app. For more information about Spotify
+Premium, see spotify.com.
+For instructions, see help.fitbit.com.
+Listen to music with the Pandora app (United
+States only)
+With the Pandora app on Versa 3, download up to 3 of your most-played
+Pandora stations or popular curated Workout stations directly to your watch. Note
+that you need a paid subscription to Pandora and a Wi-Fi connection to download
+stations. For more information about Pandora subscriptions, see help.pandora.com.
+For instructions, see help.fitbit.com.
+Listen to music with the Deezer app
+With the Deezer app on Versa 3, download your Deezer playlists and Flow
+directly to your watch. Note that you need a paid subscription to Deezer and a Wi-
+Fi connection to download music. For more information about Deezer subscriptions,
+see support.deezer.com.
+For instructions, see help.fitbit.com.
+57
+Fitbit Pay
+Versa 3 includes a built-in NFC chip, which lets you use your credit and debit cards
+on your watch.
+Use credit and debit cards
+Set up Fitbit Pay in the Wallet section of the Fitbit app, and use your watch to make
+purchases in stores that accept contactless payments.
+We’re always adding new locations and card issuers to our list of partners. To see if
+your payment card works with Fitbit Pay, see fitbit.com/fitbit-pay/banks.
+Set up Fitbit Pay
+To use Fitbit Pay, add at least 1 credit or debit card from a participating bank to the
+Wallet section of the Fitbit app. The Wallet is where you add and remove payment
+cards, set a default card for your watch, edit a payment method, and review recent
+purchases.
+1. From the Today tab in the Fitbit app, tap your profile picture > Versa 3
+tile.
+2. Tap the Wallet tile.
+3. Follow the on-screen instructions to add a payment card. In some cases, your
+bank might require additional verification. If you're adding a card for the first
+time, you might be prompted to set a 4-digit PIN code for your watch. Note
+that you also need passcode protection enabled for your phone.
+4. After you add a card, follow the on-screen instructions to turn on notifications
+for your phone (if you haven't already done so) to complete the setup.
+You can add up to 6 payment cards to the Wallet and choose which card to set as
+the default payment option.
+58
+Make purchases
+Make purchases using Fitbit Pay at any store that accepts contactless payments. To
+determine if the store accepts Fitbit Pay, look for the symbol below on the payment
+terminal:
+1. Open the Wallet app on your watch.
+2. If prompted, enter your 4-digit watch PIN code. Your default card appears on
+the screen.
+3. To pay with your default card, hold your wrist near the payment terminal. To
+pay with a different card, swipe to find the card you want to use, and hold
+your wrist near the payment terminal.
+59
+When the payment succeeds, your watch vibrates and you see a confirmation on
+the screen.
+If the payment terminal doesn't recognize Fitbit Pay, make sure the watch face is
+near the reader and that the cashier knows you're using a contactless payment.
+For added security, you must wear Versa 3 on your wrist to use Fitbit Pay.
+For more information, see help.fitbit.com.
+Change your default card
+1. From the Today tab in the Fitbit app, tap your profile picture > Versa 3
+tile.
+2. Tap the Wallet tile.
+3. Find the card you want to set as the default option.
+4. Tap Set as Default on Versa 3.
+Pay for transit
+Use Fitbit Pay to tap on and off at transit readers that accept contactless credit or
+debit card payments. To pay with your watch, follow the steps listed in "Use credit
+and debit cards" on page 58.
+60
+Pay with the same card on your Fitbit watch when you tap the transit reader at the
+start and end of your trip. Make sure your device is charged before beginning your
+trip.
+61
+Update, Restart, and Erase
+Some troubleshooting steps may require you to restart your watch, while erasing it
+is useful if you want to give Versa 3 to another person. Update your watch to
+receive new Fitbit OS updates.
+Update Versa 3
+Update your watch to get the latest feature enhancements and product updates.
+When an update is available, a notification appears in the Fitbit app. After you start
+the update, follow the progress bars on Versa 3 and in the Fitbit app until the
+update is complete. Keep your watch and phone close to each other during the
+update.
+Updating Versa 3 takes several minutes and may be demanding on the battery. We
+recommend plugging your watch into the charger before starting the update.
+For more information, see help.fitbit.com.
+Restart Versa 3
+If you can’t sync Versa 3 or you have trouble with tracking your stats or receiving
+notifications, restart your watch from your wrist:
+To restart your watch, press and hold the button for 10 seconds until you see the
+Fitbit logo on the screen, and then release the button.
+Restarting your watch reboots the device but doesn't delete any data.
+Versa 3 has small holes on the device for the altimeter, speaker, and microphone.
+Don’t attempt to restart your device by inserting any items, such as paper clips, into
+these holes as you can damage Versa 3.
+62
+Shutdown Versa 3
+To turn off your watch, open the Settings app > Shut down.
+To turn on your watch, press the button.
+For information about how to store Versa 3 long term, see help.fitbit.com.
+Erase Versa 3
+If you want to give Versa 3 to another person or wish to return it, first clear your
+personal data:
+On Versa 3, open the Settings app > About Versa 3 > Factory reset.
+63
+Troubleshooting
+If Versa 3 isn't working properly, see our troubleshooting steps below. Visit
+help.fitbit.com for more information.
+Heart-rate signal missing
+Versa 3 continuously tracks your heart rate while you're exercising and throughout
+the day. If the heart-rate sensor on your watch has difficulty detecting a signal,
+dashed lines appear.
+If your watch doesn't detect a heart-rate signal, make sure you're wearing your
+watch correctly, either by moving it higher or lower on your wrist or by tightening
+or loosening the band. Versa 3 should be in contact with your skin. After holding
+your arm still and straight for a short time, you should see your heart rate again.
+For more information, see help.fitbit.com.
+GPS signal missing
+Environmental factors including tall buildings, dense forest, steep hills, and thick
+cloud cover can interfere with your watch's ability to connect to GPS satellites. If
+your watch is searching for a GPS signal during an exercise, you’ll see “
+GPS connecting ” appear at the top of the screen. If Versa 3 can't connect to a
+64
+GPS satellite, the watch stops trying to connect until the next time you start a
+GPS exercise.
+For best results, wait for Versa 3 to find the signal before you start your workout.
+If Versa 3 loses the GPS signal during your workout, "GPS lost signal" appears at the
+top of the screen. Your watch will attempt to reconnect.
+For more information, see help.fitbit.com.
+Can't connect to Wi-Fi
+If Versa 3 can't connect to Wi-Fi, you might have entered an incorrect password, or
+the password might have changed:
+1. From the Today tab in the Fitbit app, tap your profile picture > Versa 3
+tile.
+2. Tap Wi-Fi Settings > Next.
+3. Tap the network you want to use > Remove.
+65
+4. Tap Add Network and follow the on-screen instructions to reconnect the Wi-
+Fi network.
+To check if your Wi-Fi network is working correctly, connect another device to your
+network; if it connects successfully, try again to connect your watch.
+If Versa 3 still won't connect to Wi-Fi, make sure that you're attempting to connect
+your watch to a compatible network. For best results, use your home Wi-Fi
+network. Versa 3 can't connect to 5GHz Wi-Fi, WPA enterprise, or public networks
+that require logins, subscriptions, or profiles. For a list of compatible network types,
+see "Connect to Wi-Fi" on page 9.
+After you verify the network is compatible, restart your watch and try connecting
+to Wi-Fi again. If you see other networks appear in the list of available networks, but
+not your preferred network, move your watch closer to your router.
+For more information, see help.fitbit.com.
+Other issues
+If you experience any of the following issues, restart your watch:
+l Won't sync
+l Won't respond to taps, swipes, or button press
+l Won't track steps or other data
+l Won't show notifications
+For instructions, see "Restart Versa 3" on page 62.
+For more information, see help.fitbit.com.
+66
+General Info and Specifications
+Sensors and Components
+Fitbit Versa 3 contains the following sensors and motors:
+l 3-axis accelerometer, which tracks motion patterns
+l Altimeter, which tracks altitude changes
+l Built-in GPS receiver + GLONASS, which tracks your location during a workout
+l Optical heart-rate tracker
+l Device temperature sensor (skin temperature variation available through
+Premium only)
+l Ambient light sensor
+l Microphone
+l Speaker
+l Vibration motor
+Materials
+The band that comes with Versa 3 is made of a flexible, durable elastomer material
+similar to that used in many sports watches.
+The housing and buckle on Versa 3 are made of anodized aluminum. While
+anodized aluminum can contain traces of nickel, which can cause an allergic reaction
+in someone with nickel sensitivity, the amount of nickel in all Fitbit products meets
+the European Union's stringent Nickel Directive.
+Our products may contain trace amounts of acrylates and methacrylates from
+adhesives used in those products but we work to ensure our products adhere to
+rigorous design specifications and meet extensive test requirements so as to
+minimum the potential for reaction to these adhesives.
+67
+Wireless technology
+Versa 3 contains a Bluetooth 5.0 radio transceiver, Wi-Fi chip, and NFC chip.
+Haptic feedback
+Versa 3 contains a vibration motor for alarms, goals, notifications, reminders, and
+apps.
+Battery
+Versa 3 contains a rechargeable lithium-polymer battery.
+Memory
+Versa 3 stores your data, including daily stats, sleep information, and exercise
+history, for 7 days. See your historical data in the Fitbit app.
+Display
+Versa 3 has a color AMOLED display.
+Band size
+Band sizes are shown below. Note that accessory bands sold separately may vary
+slightly.
+Small band Fits a wrist between 5.5 - 7.1 inches (140 mm - 180 mm) in circumference
+Large band Fits a wrist between 7.1 - 8.7 inches (180 mm - 220 mm) in circumference
+68
+Environmental conditions
+Operating temperature 14° to 113° F
+(-10° to 45° C)
+Non-operating temperature -4° to 14° F
+(-20° to -10° C)
+113° to 140°F
+(45° to 60° C)
+Charging temperature 32° to 95° F
+(0° to 35° C)
+Water resistance Water resistant up to 50 meters
+Maximum operating altitude 28,000 feet
+(8,534 m)
+Learn more
+To learn more about your watch, how to track your progress in the Fitbit app, and
+how to build healthy habits with Fitbit Premium, visit help.fitbit.com.
+Return policy and warranty
+Find warranty information and the fitbit.com return policy on our website.
+69
+Regulatory and Safety Notices
+Notice to the User: Regulatory content for certain regions can also be viewed on
+your device. To view the content:
+Settings > About Versa 3 > Regulatory info
+USA: Federal Communications Commission (FCC)
+statement
+Model FB511
+FCC ID: XRAFB511
+Notice to the User: The FCC ID can also be viewed on your device. To view the
+content:
+Settings > About Versa 3 > Regulatory info
+Supplier's Declaration of Conformity
+Unique Identifier: FB511
+Responsible Party – U.S. Contact Information
+199 Fremont Street, 14th Floor
+San Francisco, CA
+94105
+United States
+877-623-4997
+FCC Compliance Statement (for products subject to Part 15)
+This device complies with Part 15 of the FCC Rules.
+Operation is subject to the following two conditions:
+70
+1. This device may not cause harmful interference and
+2. This device must accept any interference, including interference that may
+cause undesired operation of the device.
+FCC Warning
+Changes or modifications not expressly approved by the party responsible for
+compliance could void the user’s authority to operate the equipment.
+Note: This equipment has been tested and found to comply with the limits for a
+Class B digital device, pursuant to part 15 of the FCC Rules. These limits are
+designed to provide reasonable protection against harmful interference in a
+residential installation. This equipment generates, uses and can radiate radio
+frequency energy and, if not installed and used in accordance with the instructions,
+may cause harmful interference to radio communications. However, there is no
+guarantee that interference will not occur in a particular installation. If this
+equipment does cause harmful interference to radio or television reception, which
+can be determined by turning the equipment off and on, the user is encouraged to
+try to correct the interference by one or more of the following measures:
+l Reorient or relocate the receiving antenna.
+l Increase the separation between the equipment and receiver.
+l Connect the equipment into an outlet on a circuit different from that to which
+the receiver is connected.
+l Consult the dealer or an experienced radio/TV technician for help.
+This device meets the FCC and IC requirements for RF exposure in public or
+uncontrolled environments.
+Canada: Industry Canada (IC) statement
+Model/Modèle FB511
+IC: 8542A-FB511
+Notice to the User: The IC ID can also be viewed on your device. To view the
+content:
+Settings > About Versa 3 > Regulatory info
+71
+Avis à l'utilisateur: L'ID de l'IC peut également être consulté sur votre appareil.
+Pour voir le contenu:
+Paramètres > À propos de Versa 3 > Mentions légales
+This device meets the IC requirements for RF exposure in public or uncontrolled
+environments.
+Cet appareil est conforme aux conditions de la IC en matière de RF dans des
+environnements publics ou incontrôlée
+IC Notice to Users English/French in accordance with current issue of RSS GEN:
+This device complies with Industry Canada license exempt RSS standard(s).
+Operation is subject to the following two conditions:
+1. this device may not cause interference, and
+2. this device must accept any interference, including interference that may
+cause undesired operation of the device.
+Cet appareil est conforme avec Industrie Canada RSS standard exempts de licence
+(s). Son utilisation est soumise à Les deux conditions suivantes:
+1. cet appareil ne peut pas provoquer d’interférences et
+2. cet appareil doit accepter Toute interférence, y compris les interférences qui
+peuvent causer un mauvais fonctionnement du dispositif
+European Union (EU)
+Simplified EU Declaration of Conformity
+Hereby, Fitbit, Inc. declares that the radio equipment type Model FB511 is in
+compliance with Directive 2014/53/EU. The full text of the EU declaration of
+conformity is available at the following internet address: www.fitbit.com/safety
+Vereinfachte EU-Konformitätserklärung
+72
+Fitbit, Inc. erklärt hiermit, dass die Funkgerättypen Modell FB511 die Richtlinie
+2014/53/EU erfüllen. Der vollständige Wortlaut der EU-Konformitätserklärungen
+kann unter folgender Internetadresse abgerufen werden: www.fitbit.com/safety
+Declaración UE de Conformidad simplificada
+Por la presente, Fitbit, Inc. declara que el tipo de dispositivo de radio Modelo FB511
+cumple con la Directiva 2014/53/UE. El texto completo de la declaración de
+conformidad de la UE está disponible en la siguiente dirección de Internet:
+www.fitbit.com/safety
+Déclaration UE de conformité simplifiée
+Fitbit, Inc. déclare par la présente que les modèles d’appareils radio FB511 sont
+conformes à la Directive 2014/53/UE. Les déclarations UE de conformité sont
+disponibles dans leur intégralité sur le site suivant : www.fitbit.com/safety
+Dichiarazione di conformità UE semplificata
+Fitbit, Inc. dichiara che il tipo di apparecchiatura radio Modello FB511 è conforme
+alla Direttiva 2014/53/UE. Il testo completo della dichiarazione di conformità UE è
+disponibile al seguente indirizzo Internet: www.fitbit.com/safety
+IP Rating
+Model FB511 has a water resistance rating of IPX8 under IEC standard 60529, up to a
+depth of 50 meters.
+Model FB511 has a dust ingress rating of IP6X under IEC standard 60529 which
+indicates the device is dust-tight.
+Please refer to the beginning of this section for instructions on how to access your
+product’s IP rating.
+73
+Argentina
+C-25002
+Australia and New Zealand
+Notice to the User: Regulatory content for this region can also be viewed on your
+device. To view the content:
+Settings > About Versa 3 > Regulatory info
+Belarus
+Notice to the User: Regulatory content for this region can also be viewed on your
+device. To view the content:
+Settings > About Versa 3 > Regulatory info
+74
+Botswana
+Notice to the User: Regulatory content for this region can also be viewed on your
+device. To view the content:
+Settings > About Versa 3 > Regulatory Info
+China
+Notice to the User: Regulatory content for this region can also be viewed on your
+device. To view the content:
+Settings > About Versa 3 > Regulatory Info
+75
+China RoHS
+部件名称
+Part Name
+有毒和危险品
+Toxic and Hazardous Substances or Elements
+Model FB511 铅
+(Pb)
+水银
+(Hg)
+镉
+(Cd)
+六价铬
+(Cr(VI))
+多溴化苯
+(PBB)
+多溴化二苯
+醚
+(PBDE)
+表带和表扣
+(Strap and
+Buckle)
+O O O O O O
+电子
+(Electronics) -- O O O O O
+电池
+(Battery) O O O O O O
+充电线
+(Charging
+Cable)
+O O O O O O
+本表格依据 SJ/T 11364 的规定编制
+O = 表示该有害物质在该部件所有均质材料中的含量均在 GB/T 26572规定的限量要求以下
+(indicates that the content of the toxic and hazardous substance in all the
+Homogeneous Materials of the part is below the concentration limit requirement as
+described in GB/T 26572).
+X = 表示该有害物质至少在该部件的某一均质材料中的含量超出 GB/T 26572规定的限量要
+求 (indicates that the content of the toxic and hazardous substance in at least
+one Homogeneous Material of the part exceeds the concentration limit requirement
+as described in GB/T 26572).
+CMIIT ID 2020DJ7882
+76
+Frequency band: 2400-2483.5 MHz NFC: 13.56MHz
+Transmitted power: Max EIRP, 14.4dBm
+Occupied bandwidth: BLE: BLE: 2MHz, BT: 1MHz, NFC: 2.3 kHz, WiFi:
+20MHz
+Modulation system: BLE: GFSK, BT: GFSK (BDR), n/4-DQPSK (EDR),
+8PSK (EDR), NFC: ASK, WiFi: DSSS, OFDM
+CMIIT ID displayed: On packaging
+Customs Union
+Notice to the User: Regulatory content for this region can also be viewed on your
+device. To view the content:
+Settings > About Versa 3 > Regulatory info
+Indonesia
+69814/SDPPI/2020
+3788
+Israel
+מספראישוראלחוטישלמשרדהתקשורתהוא.74746-51
+אסורלהחליףאתהאנטנההמקוריתשלהמכשירולאלעשותבוכלשינויטכניאחר
+Japan
+Notice to the User: Regulatory content for this region can also be viewed on your
+device. To view the content:
+Settings > About Versa 3 > Regulatory info
+77
+201-200606
+Kingdom of Saudi Arabia
+Notice to the User: Regulatory content for this region can also be viewed on your
+device. To view the content:
+Settings > About Versa 3 > Regulatory info
+Mexico
+Notice to the User: Regulatory content for this region can also be viewed on your
+device. To view the content:
+Settings > About Versa 3 > Regulatory info
+La operación de este equipo está sujeta a las siguientes dos condiciones:
+1. Es posible que este equipo o dispositivo no cause interferencia perjudicial y
+2. Este equipo o dispositivo debe aceptar cualquier interferencia, incluyendo la
+que pueda causar su operación no deseada
+Moldova
+Notice to the User: Regulatory content for this region can also be viewed on your
+device. To view the content:
+Settings > About Versa 3 > Regulatory info
+78
+Morocco
+AGREE PAR L’ANRT MAROC
+Numéro d’agrément: MR00025102ANRT2020
+Date d’agrément: 02/08/2020
+Nigeria
+Connection and use of this communications equipment is permitted by the Nigerian
+Communications Commission.
+Oman
+TRA/TA-R/9745/20
+D090258
+Pakistan
+PTA Approved
+Model No.: FB511
+TAC No.: 9.687/2020
+Device Type: Smart Watch
+79
+Philippines
+Type Accepted
+No: ESD-RCE-2023407
+Serbia
+Singapore
+Notice to the User: Regulatory content for this region can also be viewed on your
+device. To view the content:
+Settings > About Versa 3 > Regulatory info
+South Korea
+Notice to the User: Regulatory content for this region can also be viewed on your
+device. To view the content:
+Settings > About Versa 3 > Regulatory info
+80
+본 제품의 전자파흡수율은 과학기술정보통신부의「전자파 인체보호기준」을 만족합니
+다.
+본 제품은 국립전파연구원의「전자파흡수율 측정기준」에 따라 최대출력 조건에서 머리
+에 근접하여 시험되었으며, 최대 전자파흡수율 측정값은 다음과같습니다.
+모델명 (Model) 머리 전자파흡수율 (Head SAR)
+FB511 0.089 W/kg
+클래스 B 장치 (가정 사용을위한 방송 통신 기기) : EMC 등록 주로 가정용 (B 급)으로하고, 모
+든 지역에서 사용할 수 있습니다 얻을이 장치.
+Translation:
+Class B devices (broadcast communications equipment for home use): EMC
+registration is mainly for household use (B class) and can be used in all areas get this
+device.
+81
+Taiwan
+用戶注意：某些地區的法規內容也可以在您的設備上查看。要查看內容：
+設定 > 關於 Versa 3 > 法規資訊
+Translation:
+Notice to the User: Regulatory content can also be viewed on your device.
+Instructions to view content from your menu:
+Settings > About Versa 3 > Regulatory info
+低功率警語:
+l 取得審驗證明之低功率射頻器材，非經核准，公司、商號或使用者均不得擅自變更
+頻率、加大功率或變更原設計之特性及功能。
+l 低功率射頻器材之使用不得影響飛航安全及干擾合法通信；經發現有干擾現象時，
+應立即停用，並改善至無干擾時方得繼續使用。前述合法通信，指依電信管理法規
+定作業之無線電通信。低功率射頻器材須忍受合法通信或工業、科學及醫療用電波
+輻射性電機設備之干擾。
+Translation:
+Warning Statement for Low Power Radios:
+l Without permission granted by the NCC, no company, enterprise, or user is
+allowed to change the frequency of an approved low power radio-frequency
+device, enhance its transmitting power or alter original characteristics or
+performance.
+l The use of low power RF devices must not affect flight safety or interfere with
+legal communications: when interference is found, it should be immediately
+stopped and ameliorated not to interfere before continuing to use it. The legal
+communications mentioned here refer to radio communications operating in
+accordance with the provisions of the Telecommunication Law. Low power RF
+devices need to bear with interference from legal communications or
+industrial, scientific and medical radio wave radiating equipment
+電池警語：
+82
+此裝置使用鋰電池。
+若未遵照下列準則，則裝置內的鋰離子電池壽命可能會縮短或有損壞裝置、發生火災、化學
+品灼傷、電解液洩漏及／或受傷的風險。
+l 請勿拆解、鑿孔或損壞裝置或電池。
+l 請勿取出或嘗試取出使用者不可自行更換的電池。
+l 請勿將電池曝露於火焰、爆炸或其他危險中。
+l 請勿使用尖銳物品取出電池。
+Translation:
+Battery warning:
+This device uses a lithium-ion battery.
+If the following guidelines are not followed, the life of the lithium-ion battery in the
+device may be shortened or there is a risk of damage to the device, fire, chemical
+burn, electrolyte leakage and / or injury..
+l Do not disassemble, puncture or damage the device or battery.
+l Do not remove or try to remove the battery that the user cannot replace.
+l Do not expose the battery to flames, explosions or other hazards.
+l Do not use sharp objects to remove the battery.
+Vision Warning
+使用過度恐傷害視力
+警語
+• 使用過度恐傷害視力
+注意事項
+• 使用30分鐘請休息10分鐘。未滿2歲幼兒不看螢幕，2歲以上每天看螢幕不要超過1
+小時
+Translation:
+Excessive use may damage vision
+83
+Warning:
+l Excessive use may damage vision
+Attention:
+l Rest for 10 minutes after every 30 minutes.
+l Children under 2 years old should stay away from this product. Children 2
+years old or more should not see the screen for more than 1 hour a day.
+Taiwan RoHS
+United Arab Emirates
+Notice to the User: Regulatory content for this region can also be viewed on your
+device. To view the content:
+Settings > About Versa 3 > Regulatory info
+84
+TRA – United Arab Emirates
+Dealer ID: DA35294/14
+TA RTTE: ER88790/ 20
+Model: FB511
+Type: Smartwatch
+Vietnam
+Zambia
+ZMB / ZICTA / TA / 2020 / 9 / 78
+Safety Statement
+This equipment has been tested to comply with safety certification in accordance
+with the specifications of EN Standard: EN60950-1:2006 + A11:2009 + A1:2010 +
+A12:2011 + A2:2013 & EN62368-1:2014 + A11:2017.
+85
+©2020 Fitbit, Inc. All rights reserved. Fitbit and the Fitbit logo are trademarks
+or registered trademarks of Fitbit in the US and other countries. A more
+complete list of Fitbit trademarks can be found at
+http://www.fitbit.com/legal/trademark-list. Third-party trademarks
+mentioned are the property of their respective owners.

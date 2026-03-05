@@ -1,0 +1,300 @@
+Home > IT applications, infrastructure and operations
+
+FEATURE
+
+~ 20F3
+
+4
+
+P Partof: The CIO's guide to legacy systems
+
+Replacing vs. maintaining legacy systems
+Understanding issues such as which systems hinder organizational performance can help IT leaders decide which legacy systems to replace
+and which to maintain.
+By Mary K. Pratt
+
+Published: 05 Jul 2023
+
+Few CIOs escape the complexity of deciding whether to maintain legacy systems or replace them altogether. The right choice, as with most
+things in life, is: It depends.
+
+IT leaders might want to replace a legacy_system because of outdated hardware, increased
+security risks or a desire to enable a digital transformation initiative. But replacing existing
+systems isn't always in the company's best interest. Legacy systems can remain in place if
+the existing system is reliable.
+vclo”
+
+Q
+
+Prioritize a strategic assessment
+
+One alternative to completely replacing or maintaining legacy systems is to modernize
+them. Modernized systems might be more cost-effective, while increasing efficiency and improving existing processes at the same time.
+Michael Bradshaw is currently working through a multiyear plan to modernize the technology at Kyndryl, a New York-based IT services
+company.
+
+After about two years of planning and execution, the goal is to complete the big moves by November, he said. A strategic assessment of the
+company's existing systems and applications was the first step in the process.
+His modernization plan calls for the digitalization of the company's entire business chain, Bradshaw said. Previously, about 1,800
+applications supported that chain, but the number should drop to 360 by year's end and eventually down to 300.
+His IT team partnered with the business to develop a target, as well as a roadmap on how to get there, he said.
+20f34
+
+P
+
++
+
+The goal of this strategy is to streamline the modernization efforts.
+Up Next
+
+The strategic assessment enabled §Tdasisienliyashaylagaeysysiams laimmeripbiigraationmodriizgtion and which could wait,
+systems
+Bradshaw said.
+Slyingwit i-and-rue logacysysems can el ke Undertanding sses such s which ystr
+e safot vt Byl as 1o wad changes al a izzying
+organizatonal
+perormance can ol " T loax
+Afocus on competitive advantage heiped Steer the roadmap, foo. -~
+el
+peroma
+"Ultimately, all the systems we provide are to support the execution of business, so you start with the business needs, what's most important
+for the business," he said.
+Organizations that want to modernize must choose systems that support their objectives.
+The company considered cybersecurity concerns, maintenance requirements and operational costs to determine which apps to prioritize for
+modernization, Bradshaw said.
+Replacing vs. maintaining legacy systems
+
+Many organizations still rely on legacy systems for some of their workloads, which can limit innovation efforts.
+
+Seventy-two percent of all respondents believe that their organization's digital transformation efforts are lagging due to technical debt, while
+51% cite a complex legacy IT infrastructure as one of their key challenges over the next year, according to the 2023 report "CIO Pulse: 2023
+budgets & priorities” from cloud software provider SoftwareOne, headquartered in Milwaukee.
+Yet, many CIOs don't always have a well-formulated path forward. A good portion of IT leaders are unclear on what they should modernize
+first and what legacy systems are OK to keep running.
+
+Some might end up shedding a legacy system under duress, said Joe Davey, partner at West Monroe, a digital services firm, headquartered
+in Chicago.
+"Often, it takes a catalyzing event," Davey said.
+
+In some cases, CIOs replace legacy technologies without a clear strategy in mind.
+"[The strategy is] technology for technology's sake." he said. “[But] there's a lack of understanding how that technology can help them get
+ahead.”
+
+Although companies eventually need to replace all legacy technology, CIOs don't need to modernize all systems at once - nor is an
+undertaking of that magnitude usually possible. Instead, CIOs must determine what legacy systems need to be replaced sooner and which
+can be replaced later, both Davey and Bradshaw said.
+5 reasons to replace legacy systems
+
+Organizations should carefully evaluate their existing systems before making any changes. IT leaders should understand the following
+reasons why legacy systems should be prioritized for modernization.
+1. The system creates an unacceptable security risk
+Many IT teams can't patch some legacy systems because vendors don't release new patches. Other systems have significant security.
+
+vulnerabilities IT can't address for another reason.
+
+Any such system with "security vulnerabiltties that could bring the [organization] to its knees should be a high priority for replacement,” said
+Dave Powner, executive director of the Center for Data-Driven Policy at Mitre Corp., a nonprofit research and development organization,
+based in McLean, Va., that provides technical and cybersecurity support to U.S. government agencies.
+2. The system hinders the organization’s performance
+Inefficient systems can cause delays and decreased productivity.
+
+20f34
+
+P
+
++
+
+Organizations should prioritize replacing systems that affect efficiency, said Minir Patel, vice president of cloud architecture at Apps
+Associates, a consultancy augl NP, headquartered in Acton, Mass.
+6 reasons legacy systems are stillinuse
+
+Replacing vs. maintaining legac
+
+Systems by modernizing legacy systems, Powner said.
+Enterprises can pursue new opportunities or significantly improve mission cap4Biiieé
+Stying win rec-and-ruo legacy systems can feel ke
+
+Understanding issues uch as whih syster
+
+3. The system doesn't fit into the oR§AHIZHESH
+S ERUFEEsgaoes ot davng
+
+organzatona poromancecanhalp I lac
+
+Alegacy system without immediate problems can still be a priority for modernization if the processes it supports aren't critical for the
+organization's long-term goals.
+
+When developing a modernization strategy, CIOs should focus on where the company wants to be, said Suneel Ghei, principal research
+director at Info-Tech Research Group, an IT services management company, based in London, Ont.
+4. The system costs too much to maintain
+Al systems come with run costs. In some cases, a system’s maintenance costs might exceed its business value, including the cost of
+modernizing the system.
+Excessive run costs draw resources away from pursuing innovation and new opportunities, Patel said.
+
+CIOs need to do that math and know when they're approaching or have gone past that point so they can take appropriate action.
+5. The system is at a high risk of failure
+Systems with no vendor support, that depend on obsolete programming languages or are highly customized with scant documentation and
+no remaining institutional knowledge of its buildout are highly fragile. Organizations could have a difficult time recovering if the system
+should fail.
+For example, some businesses have needed help with IT systems but couldn'tfind IT talent to service the systems. It's best to replace those
+systems before that happens to ensure business continuity.
+3 reasons to maintain legacy systems
+
+Companies can maintain legacy systems under the right circumstances. Here are three reasons to maintain a legacy system that IT leaders
+should understand.
+
+1. The system has an acceptable level of risk
+Asystem no longer supported by a vendor or built on an obsolete programming language does have security vulnerabilities. But it might not
+create unnecessary risks.
+For example, a company might rely on the system for a noncritical back-office function. There would be minimal effects on daily operations if
+the system failed.
+Or the CIO might have or could easily access the talent needed to keep it running at a reasonable cost.
+
+In such cases, the CIO might reasonably opt to make modernizing that system a lower priority.
+2. The system still supports the organization's needs
+Asystem that meets the organization's needs, while not hindering its ability to pursue new competitive opportunities, is a strong candidate to
+stay in place.
+Organizations might do themselves a disservice by replacing legacy systems with modern versions they're not ready to use or optimize,
+Patel said.
+
+For example, replacing an existing system with a modern app featuring Al might seem like a good strategy. Still, a company needs to have
+the maturity required to use the Al component successfully to get ROI that justifies the modernization.
+3. The system's processes can be sunsetted or shifted to other systems
+20f34
+
+P
+
++
+
+CIOs might opt to keep a legacy system in place if they know that the business processes it supports will be sunsetted by the organization
+or shifted to other systems, pinie¥itin Naik, technical fellow at Mitre Corp.
+6 reasons legacy systems are still inuse
+Replacing vs. maintaining legac
+il
+a system that won't't be needed in the future won'te deliver good ROI®
+Replacing
+
+%
+
+Next Steps
+
+Stying win rec-and-ruo legacy systems can el ke
+Ine slest roue. But 3 the wor changes ata dzzying
+
+vstems
+
+Understanding issues such as whih syster
+organizatonalperormance can help I eac
+
+How to modernize apps
+as part of the cloud migration process
+How to perform an application modernization assessment
+
+%
+
+Dig Deeper on IT applications, infrastructure and operations
+bimodal IT (bimodal information technology)
+
+How to modernize legacy applications
+
+By: Linda Tucci
+
+By: Mary Pratt
+
+IT transformation
+
+Defra's tech review reveals legacy IT issues
+across government
+
+By: Brian Holak
+
+By: Cliff Saran
+
+-ADS BY GOOGLE
+
+Latest TechTarget
+resources
+
+Cloud Computing
+[
+
+Top 6 soft skills in IT that cloud teams need
+
+20f34
+
+P
+
++
+
+Softskills play a bigger partin successiul cloud deployments than you might think.
+Technical skill are obviously essential in .
+
+MOBILE COMPUTING
+Up Next
+
+DATACENTER
+
+6 reasons legacy systems a@mﬁ.msandzmef&%dwsgﬁ- cloud
+
+SUSTAINABILITY AND ESG.
+
+Staying with tried-and-lrue legacy systems carStaridieds for ndeeiifiodiirisawes chishgingwith Sheteapid pace of cloud adoption.
+
+certificatioreprograms
+
+he safest route. But as the world changes al EZisW oxpeRERVERISEARS URBBCEHLBRRIT leac
+
+About Us
+
+Contributors
+
+Guides
+
+Editorial Ethics Policy
+
+Reprints
+
+Opinions
+
+Meet The Editors
+
+Answers
+
+Photo Stories
+
+Contact Us
+
+Definitions
+
+Quizzes
+
+Advertisers
+
+E-Products
+
+Tips
+
+Partner with Us
+
+Events
+
+Tutorials
+
+Media Kit
+
+Fealures
+
+Videos
+
+Corporate Site
+AllRights Reserved, Copyright 2007 - 2024, TechTarget
+Privacy Policy
+D0 Not Sel or Share My Persona Information
+
+20f34
+
+P
+
++
+
+

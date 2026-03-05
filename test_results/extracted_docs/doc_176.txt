@@ -1,0 +1,133 @@
+Credit Risk
+For most banks, loans are the largest and most obvious source of credit risk.
+However, there are other pockets of credit risk both on and off the balance
+sheet, such as the investment portfolio, overdrafts, and letters of credit. Many
+products, activities, and services, such as derivatives, foreign exchange, and
+cash management services, also expose a bank to credit risk.
+The risk of repayment, i.e., the possibility that an obligor will fail to perform
+as agreed, is either lessened or increased by a bank’s credit risk management
+practices. A bank’s first defense against excessive credit risk is the initial
+credit-granting process − sound underwriting standards, an efficient, balanced
+Loan Portfolio Management 5 Comptroller’s Handbook
+approval process, and a competent lending staff. Because a bank cannot
+easily overcome borrowers with questionable capacity or character, these
+factors exert a strong influence on credit quality. Borrowers whose financial
+performance is poor or marginal, or whose repayment ability is dependent
+upon unproven projections can quickly become impaired by personal or
+external economic stress. Management of credit risk, however, must continue
+after a loan has been made, for sound initial credit decisions can be
+undermined by improper loan structuring or inadequate monitoring.
+Traditionally, banks have focused on oversight of individual loans in
+managing their overall credit risk. While this focus is important, banks
+should also view credit risk management in terms of portfolio segments and
+the entire portfolio. The focus on managing individual credit risk did not
+avert the credit crises of the 1980s. However, had the portfolio approach to
+risk management augmented these traditional risk management practices,
+banks might have at least reduced their losses.
+Effective management of the loan portfolio’s credit risk requires that the board
+and management understand and control the bank’s risk profile and its credit
+culture. To accomplish this, they must have a thorough knowledge of the
+portfolio’s composition and its inherent risks. They must understand the
+portfolio’s product mix, industry and geographic concentrations, average risk
+ratings, and other aggregate characteristics. They must be sure that the
+policies, processes, and practices implemented to control the risks of
+individual loans and portfolio segments are sound and that lending personnel
+adhere to them.
+Banks engaged in international lending face country risks that domestic
+lenders do not. Country risk encompasses all of the uncertainties arising
+from a nation’s economic, social, and political conditions that may affect the
+payment of foreigners’ debt and equity investments. Country risk includes
+the possibility of political and social upheaval, nationalization and
+expropriation of assets, governmental repudiation of external indebtedness,
+exchange controls, and currency devaluation or depreciation. Unless a
+nation repudiates its external debt, these developments might not make a
+loan uncollectible. However, even a delay in collection could weaken the
+lending bank.
+Loan Portfolio Management 6 Comptroller’s Handbook
+Transfer risk, which is a narrower form of country risk, is the possibility that
+an obligor will not be able to pay because the currency of payment is
+unavailable. This unavailability may be a matter of government policy. For
+example, although an individual borrower may be very successful and have
+sufficient local currency cash flow to pay its foreign (e.g., U.S. dollar) debt,
+the borrower’s country may not have sufficient U.S. dollars available to
+permit repayment of the foreign indebtedness. The transfer risk associated
+with banks’ exposures in foreign countries is evaluated by the Interagency
+Country Exposure Review Committee (ICERC). For examination purposes,
+the transfer risk rating assigned to a country by the ICERC applies to all bank
+assets in that country. However, examiners may classify individual loans and
+other assets more severely for credit risk reasons.
+Strategies for managing country risk will be discussed in “Country Risk
+Management,” a separate booklet in the Comptroller’s Handbook.
+Interest Rate Risk
+The level of interest rate risk attributed to the bank’s lending activities
+depends on the composition of its loan portfolio and the degree to which the
+terms of its loans (e.g., maturity, rate structure, embedded options) expose the
+bank’s revenue stream to changes in rates.
+Pricing and portfolio maturity decisions should be made with an eye to
+funding costs and maturities. When significant individual credits or portfolio
+segments are especially sensitive to interest rate risk, they should be
+periodically stress-tested. If the asset/liability management committee
+(ALCO), which typically is responsible for managing the bank’s interest rate
+risk, is to manage all of the bank’s positions, it must have sufficient reports on
+loan portfolio and pipeline composition and trends. These reports might
+include a maturing loans report, pipeline report, and rate and repricing
+report.
+Banks frequently shift interest rate risk to their borrowers by structuring loans
+with variable interest rates. Borrowers with marginal repayment capacity
+may experience financial difficulty if the interest rates on these loans
+increase. As part of the risk management process, banks should identify
+borrowers whose loans have heightened sensitivity to interest rate changes
+Loan Portfolio Management 7 Comptroller’s Handbook
+and develop strategies to mitigate the risk. One method is to require
+vulnerable borrowers to purchase interest rate protection or otherwise hedge
+the risk.
+The Comptroller’s Handbook booklet “Interest Rate Risk” provides guidance
+on interest rate risk management.
+Liquidity Risk
+Because of the size of the loan portfolio, effective management of liquidity
+risk requires that there be close ties to, and good information flow from, the
+lending function. Obviously, loans are a primary use of funds. And while
+controlling loan growth has always been a large part of liquidity
+management, historically the loan portfolio has not been viewed as a
+significant source of funds for liquidity management. Practices are changing,
+however. Banks can use the loan portfolio as a source of funds by reducing
+the total dollar volume of loans through sales, securitization, and portfolio
+run-off.
+In fact, banks are taking a more active role in managing their loan portfolios.
+While these activities are often initiated to manage credit risk, they have also
+improved liquidity. Banks increasingly are originating loans “for sale” or
+securitization. Consumer loans (mortgages, instalment loans, and credit
+cards) are routinely originated for immediate securitization. Many larger
+banks have been expanding their underwriting for the syndicated loan
+market. Additionally, banks are also expanding the packaging and sale of
+distressed credits and otherwise undesirable loans.
+As part of liquidity planning, a bank’s overall liquidity strategy should include
+the identification of those loans or loan portfolio segments that may be easily
+converted to cash. A loan’s liquidity hinges on such characteristics as its
+quality, pricing, scheduled maturities, and conformity to market standards for
+underwriting. Loans are also a source of liquidity when used as collateral for
+borrowings. The ease with which a bank can participate or sell loans to other
+lenders or investors (and the terms on which the bank can do so) will vary
+with market conditions, the type of loan, and the quality of loan. Information
+provided for liquidity analysis should include an assessment of these
+variables under various scenarios.
+Loan Portfolio Management 8 Comptroller’s Handbook
+Liquidity is also affected by the amount of the bank’s commitments to lend
+and the actual amount that borrowers draw against those commitments. A
+bank should have systems to track commitments and borrower usage.
+Knowledge of the types of commitments, deals in the pipeline, normal usage
+levels, and historically high usage levels are important in assessing whether
+available liquidity will be adequate for normal, seasonal, or emergency
+needs. Management information systems should distinguish between
+commitments that the bank is legally obligated to fund and those (guidance
+or advisory lines) that it is not.
+Any analysis of a bank’s ability to reduce or cut existing commitments must
+consider more than its legal obligation to lend. It should also consider
+reputation risk and the potential for lender-liability actions. The withdrawal
+or reduction of commitments can have significant ramifications for a bank.
+From a strategic perspective, any tightening of commitments may adversely
+affect a bank’s ability to maintain or grow a customer base if it is perceived as
+an unreliable lender in tight credit markets. A bank’s reputation may also
+suffer if it is perceived as unwilling to support community credit needs.
+Given these ancillary risks, bank management must carefully assess
+the implications of curtailing lending lines.

@@ -1,0 +1,111 @@
+Premarket Requirements
+Unlike its authority over drugs and some devices, FDA does not have the authority, either pre- or
+post-MoCRA, to require premarket approval of cosmetics or their ingredients, except for color
+additives.61 Prior to MoCRA, it was FDA’s position that manufacturers were responsible for
+substantiating the safety of their products and ingredients before the products were marketed.62
+With the passage of MoCRA, manufacturers are now statutorily required to substantiate the safety
+of their products. MoCRA also expands upon required recordkeeping by manufacturers, packers,
+and distributors. A “responsible person”63 for a cosmetic product must ensure that it has been
+adequately tested to substantiate safety,64 and that records supporting this substantiation are
+maintained by the same responsible person.65 Certain products and facilities already regulated
+under Chapter V of FFDCA as a drug or device are exempt from MoCRA’s safety substantiation
+and recordkeeping requirements.66 However, if such a facility also manufactures or processes
+cosmetic products not subject to FFDCA Chapter V, the exemption does not apply to those
+particular cosmetic products.67
+Enforcement
+Among various enforcement mechanisms, under MoCRA, FDA may access and copy all records
+related to a cosmetic product that it reasonably believes is likely adulterated and a serious danger
+Modernization of Cosmetics Regulation Act of 2022 (MoCRA)
+Congressional Research Service 9
+to humans. FDA may access and copy all records necessary to determine whether a cosmetic or
+related product is adulterated and a serious threat to human health, barring certain cosmetic
+formula, personnel, research, and financial data records. Accessible records include those related
+to safety substantiation data for cosmetic products and their ingredients.68
+Registration and Listing
+Prior to MoCRA, cosmetic manufacturers were not required to register their establishments or list
+their products with FDA. Instead, according to FDA regulations, owners or operators of
+establishments that manufactured or packaged cosmetics were requested to register with FDA.69
+Likewise, previous to MoCRA, manufacturers, packers, and distributors of cosmetic products
+were requested to file a cosmetic product ingredient statement (CPIS) containing certain
+information on each cosmetic product they marketed.70 Entities could submit registration
+information and CPISs to FDA’s Voluntary Cosmetic Registration Program (VCRP).71
+Under MoCRA, both facility72 registration and product listings are now required.73 Existing and
+new facilities that manufacture or process cosmetic products for distribution in the United States
+must be registered with FDA. These registrations must be renewed every two years and updated
+within 60 days of a content revision.74 Domestic facilities registering with FDA must provide the
+facility’s name, physical address, email address, and phone number, while foreign facilities must
+provide contact information for an agent within the United States and, if available, electronic
+contact information. Additionally, a facility must include its registration number, if one was
+previously assigned, and all brand names associated with cosmetic products sold that were
+manufactured or processed at that facility. The product categories and responsible person for each
+cosmetic product manufactured or processed at the facility must also be provided.75
+Each responsible person must also ensure the submission of a cosmetic product listing with FDA
+that is renewed and updated annually.76 The product listing must contain the manufacturing or
+processing facility’s registration number, the responsible person’s name and contact number, the
+name of the cosmetic product as it appears on the label, the categories the cosmetic product falls
+under, and the product’s listing number. Additionally, the product listing must include a list of the
+cosmetic product’s ingredients, “including any fragrances, flavors, or colors, with each ingredient
+identified by name.”77 FDA will assign private product and facility identification numbers upon
+initial listing submission or registration.78
+With the advent of MoCRA, FDA reported the VCRP had been discontinued and was no longer
+accepting submissions. In a draft guidance released in August 2023, FDA stated it is developing a
+new electronic submission portal for registration and listing information.79 FDA noted that this
+new portal is expected to be available by October 2023.80 In the interim, FDA requests that no
+registration or listing information be sent to the agency, adding that information previously listed
+in the VCRP will not be transferred.81 In September 2023, FDA released for comment draft
+versions of the prospective electronic submission portal, Cosmetics Direct, and paper forms.82
+MoCRA exempts certain small businesses83 from both facility registration and product listing
+requirements.84 However, a small business is not exempt from these requirements if it is engaged
+in the manufacturing or processing of higher-risk cosmetic products that “regularly come into
+contact with [the] mucus membrane of the eye under conditions of use that are customary or
+usual,” “[c]osmetic products that are injected” (see the text box below), “intended for internal
+use,” or that are meant to “alter [one’s] appearance for more than 24 hours under conditions of
+use that are customary or usual and removal by the consumer is not part of such conditions of use
+that are customary or usual.”85
+Additionally, certain products and facilities already regulated under Chapter V of FFDCA as a
+drug or device are exempt from facility registration and product listing requirements.86 However,
+if such a facility also manufactures or processes cosmetic products not subject to FFDCA Chapter
+V, the exemption does not apply.87
+Enforcement
+Under MoCRA, if FDA determines that a cosmetic product has a reasonable probability of
+causing serious harm to human health, and if FDA has a reasonable belief that other products
+manufactured or processed at the same facility may be similarly affected, FDA may suspend the
+registration of the facility connected with such products.88 If a facility’s registration is suspended,
+any cosmetic product from that facility is barred from introduction or delivery for introduction
+into U.S. commerce.89
+Before suspending a facility’s registration, the FDA must provide notice to a responsible person
+for the facility specifying the reason for suspension, as well as an opportunity, within five
+business days of the notice, to present a plan to correct the issue identified.90 FDA must provide
+the responsible person with the opportunity for an informal hearing to review actions required for
+registration reinstatement and why the facility registration should be reinstated.91 If, based upon
+the evidence presented at this informal hearing, FDA determines there are inadequate grounds to
+continue the suspension, the facility registration will be restored.92 However, if there is
+insufficient evidence presented, the suspension may continue, and FDA shall require the
+responsible person to submit a corrective action plan for review.93
+If at any point FDA determines there is inadequate evidence to justify the continued suspension of
+a facility’s registration, the registration shall be promptly reinstated.94
+Mandatory Recall
+Prior to MoCRA, FDA did not have the authority to order mandatory recalls of cosmetic
+products. The agency could, however, request a company to voluntarily recall cosmetic products
+of concern.114 Under MoCRA, a responsible person may still have the opportunity to voluntarily
+recall an adulterated or misbranded cosmetic; however, now FDA also has the authority to issue a
+mandatory recall.115 A mandatory recall may be initiated “[i]f the Secretary determines that there
+is a reasonable probability that a cosmetic is adulterated … or misbranded … and the use of or
+exposure to such cosmetic will cause serious adverse health consequences or death,” and the
+responsible person refuses to comply with a voluntary recall in a timely manner. Upon FDA
+issuing an order for a mandatory recall, the responsible person must immediately stop distributing
+the identified product.116
+If such an order is issued, the responsible person is entitled to an opportunity for a timely
+informal hearing to review the adequacy of evidence for the order.117 Depending on the outcome
+of this review, the order may be vacated, continued until a specified date, or amended to further
+require the recall of the cosmetic product, along with other measures regarding notifications,
+timetables, and updates.118 FDA may require the responsible person to issue a notice of recall or
+ceased distribution to appropriate persons, including manufacturers, distributors, importers, and
+sellers.119 If a product is recalled, FDA must ensure that a press release announcing the action is
+published, as well as appropriate alerts and public notices, to provide consumers and retailers
+with information about the cosmetic product and the circumstances of the recall. If an image of
+the product is available and appropriate, FDA shall also ensure the publication of that image on
+its website.120 Certain products and facilities already regulated under Chapter V of FFDCA as a
+drug or device are exempt from MoCRA’s mandatory recall authority.121 However, if such a
+facility also manufactures or processes cosmetic products not subject to FFDCA Chapter V, the
+exemption does not apply to those particular cosmetic products.122

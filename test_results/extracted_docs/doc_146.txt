@@ -1,0 +1,93 @@
+
+CHAPTER V
+Transfers of personal data to third countries or international organisations
+Article 44
+General principle for transfers
+Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third
+country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the
+conditions laid down in this Chapter are complied with by the controller and processor, including for onward transfers
+of personal data from the third country or an international organisation to another third country or to another international organisation. All provisions in this Chapter shall be applied in order to ensure that the level of protection of
+natural persons guaranteed by this Regulation is not undermined.
+L 119/60 EN Official Journal of the European Union 4.5.2016
+Article 45
+Transfers on the basis of an adequacy decision
+1. A transfer of personal data to a third country or an international organisation may take place where the
+Commission has decided that the third country, a territory or one or more specified sectors within that third country, or
+the international organisation in question ensures an adequate level of protection. Such a transfer shall not require any
+specific authorisation.
+2. When assessing the adequacy of the level of protection, the Commission shall, in particular, take account of the
+following elements:
+(a) the rule of law, respect for human rights and fundamental freedoms, relevant legislation, both general and sectoral,
+including concerning public security, defence, national security and criminal law and the access of public authorities
+to personal data, as well as the implementation of such legislation, data protection rules, professional rules and
+security measures, including rules for the onward transfer of personal data to another third country or international
+organisation which are complied with in that country or international organisation, case-law, as well as effective and
+enforceable data subject rights and effective administrative and judicial redress for the data subjects whose personal
+data are being transferred;
+(b) the existence and effective functioning of one or more independent supervisory authorities in the third country or to
+which an international organisation is subject, with responsibility for ensuring and enforcing compliance with the
+data protection rules, including adequate enforcement powers, for assisting and advising the data subjects in
+exercising their rights and for cooperation with the supervisory authorities of the Member States; and
+(c) the international commitments the third country or international organisation concerned has entered into, or other
+obligations arising from legally binding conventions or instruments as well as from its participation in multilateral
+or regional systems, in particular in relation to the protection of personal data.
+3. The Commission, after assessing the adequacy of the level of protection, may decide, by means of implementing
+act, that a third country, a territory or one or more specified sectors within a third country, or an international
+organisation ensures an adequate level of protection within the meaning of paragraph 2 of this Article. The
+implementing act shall provide for a mechanism for a periodic review, at least every four years, which shall take into
+account all relevant developments in the third country or international organisation. The implementing act shall specify
+its territorial and sectoral application and, where applicable, identify the supervisory authority or authorities referred to
+in point (b) of paragraph 2 of this Article. The implementing act shall be adopted in accordance with the examination
+procedure referred to in Article 93(2).
+4. The Commission shall, on an ongoing basis, monitor developments in third countries and international organisations that could affect the functioning of decisions adopted pursuant to paragraph 3 of this Article and decisions
+adopted on the basis of Article 25(6) of Directive 95/46/EC.
+5. The Commission shall, where available information reveals, in particular following the review referred to in
+paragraph 3 of this Article, that a third country, a territory or one or more specified sectors within a third country, or
+an international organisation no longer ensures an adequate level of protection within the meaning of paragraph 2 of
+this Article, to the extent necessary, repeal, amend or suspend the decision referred to in paragraph 3 of this Article by
+means of implementing acts without retro-active effect. Those implementing acts shall be adopted in accordance with
+the examination procedure referred to in Article 93(2).
+On duly justified imperative grounds of urgency, the Commission shall adopt immediately applicable implementing acts
+in accordance with the procedure referred to in Article 93(3).
+6. The Commission shall enter into consultations with the third country or international organisation with a view to
+remedying the situation giving rise to the decision made pursuant to paragraph 5.
+7. A decision pursuant to paragraph 5 of this Article is without prejudice to transfers of personal data to the third
+country, a territory or one or more specified sectors within that third country, or the international organisation in
+question pursuant to Articles 46 to 49.
+8. The Commission shall publish in the Official Journal of the European Union and on its website a list of the third
+countries, territories and specified sectors within a third country and international organisations for which it has decided
+that an adequate level of protection is or is no longer ensured.
+4.5.2016 EN Official Journal of the European Union L 119/61
+9. Decisions adopted by the Commission on the basis of Article 25(6) of Directive 95/46/EC shall remain in force
+until amended, replaced or repealed by a Commission Decision adopted in accordance with paragraph 3 or 5 of this
+Article.
+Article 46
+Transfers subject to appropriate safeguards
+1. In the absence of a decision pursuant to Article 45(3), a controller or processor may transfer personal data to a
+third country or an international organisation only if the controller or processor has provided appropriate safeguards,
+and on condition that enforceable data subject rights and effective legal remedies for data subjects are available.
+2. The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:
+(a) a legally binding and enforceable instrument between public authorities or bodies;
+(b) binding corporate rules in accordance with Article 47;
+(c) standard data protection clauses adopted by the Commission in accordance with the examination procedure referred
+to in Article 93(2);
+(d) standard data protection clauses adopted by a supervisory authority and approved by the Commission pursuant to
+the examination procedure referred to in Article 93(2);
+(e) an approved code of conduct pursuant to Article 40 together with binding and enforceable commitments of the
+controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects'
+rights; or
+(f) an approved certification mechanism pursuant to Article 42 together with binding and enforceable commitments of
+the controller or processor in the third country to apply the appropriate safeguards, including as regards data
+subjects' rights.
+3. Subject to the authorisation from the competent supervisory authority, the appropriate safeguards referred to in
+paragraph 1 may also be provided for, in particular, by:
+(a) contractual clauses between the controller or processor and the controller, processor or the recipient of the personal
+data in the third country or international organisation; or
+(b) provisions to be inserted into administrative arrangements between public authorities or bodies which include
+enforceable and effective data subject rights.
+4. The supervisory authority shall apply the consistency mechanism referred to in Article 63 in the cases referred to
+in paragraph 3 of this Article.
+5. Authorisations by a Member State or supervisory authority on the basis of Article 26(2) of Directive 95/46/EC
+shall remain valid until amended, replaced or repealed, if necessary, by that supervisory authority. Decisions adopted by
+the Commission on the basis of Article 26(4) of Directive 95/46/EC shall remain in force until amended, replaced or
+repealed, if necessary, by a Commission Decision adopted in accordance with paragraph 2 of this Article. 

@@ -1,0 +1,1386 @@
+E-Sports Broadcasting
+8
+Introduction
+Sportscasters on a Digital Field
+Sitting at a desk underbright lights, two announcerstalk at afast clip. After a weekend
+full of commentating, theirvoices are scratchyandfading, yet theirexcitement never wanes. No
+one watchingcan see the two men, though a camerasitsjust afew feet infront ofthem. Instead,
+the live audience andhome viewers see the Europeanchampions, Fnatic,going head to head
+with SK Gaming on a virtualbattlefield. They're 55 minutes into an absoluteslugfest, the two
+announcers'voices rise andfallwith the action ofthe game. Over the PA, the audience hears
+that this game is mere seconds awayfrom ending. The SK team has Fnaticon the ropes after
+brilliantlydefending their base. Fnatic'sstarplayer, Xpeke stays, attempting to win the game
+singlehandedly.
+The casters initiallydismiss the lastditch effort while the bulk of SK's team move to end
+thegameontheothersideofthemap.However,thecamerastaysonXpeke whoisina
+showdown with one memberofSK. NanosecondsawayfromdefeatXpeke dodgesa deadly
+ability. The casters erupt in nearly unintelligible,frantic excitement as the 25,000 live attendees
+atSpodek Arena in Katowice, Polandcheerat the sudden Fnaticvictory. Back in the realworld,
+theentireFnaticteamjumpsawayfrom theircomputersandpileontoXpeke whilewe hear, "I
+do not believe it! Xpeke's done it!" Over 643,000 online viewers around the world watch the
+camerapan acrossthe SK team, stunnedin theirdefeat. From theirhome computers, these
+viewers have just witnessed e-sports history.
+    
+ E-Sports Broadcasting 9
+The above scene unfolded at the 2014 Intel Extreme Masters World Championships in
+League of Legends, a popular e-sports title. The solo maneuver that Xpeke performed on that
+stage has since made its way into common LeagueofLegends vernacular, being invoked in any
+match, casual or professional, where a player deftly ends a game singlehandedly. E-sports, which
+encompasses many more titles than League of Legends, has become a cultural phenomenon of
+sorts. People may wonder whether the whole scene is just a flash in the pan or something more
+significant.
+I begin this thesis in much the same way that I have begun many conversations over the
+past two years: defining e-sports. In most of those conversations, I simply say "professional
+video-gaming" and move on to other topics. Here, though, I fully elaborate on what e-sports
+means. More than just professional gaming, e-sports is an entire industry created around
+competitive gaming at all levels of play. An e-sport is not a just a sports video game like the title
+might suggest, though some e-sports titles are sports video games. Instead, e-sports titles are
+meticulously balanced, competitive, multiplayer games. Many games would fall into this
+category, but it takes a community of people to take an e-sport to the level of the classics like
+Counter Strike and Starcraft.
+Such communities are core to the identity of e-sports. Indeed, this identity itself is an
+oxymoronic collision of geek and jock culture; a mixture that media would have us believe acts
+like oil and water. Even within e-sports communities lines are hazy and misdrawn. As Taylor
+and Witkowski (2010) show in their study of a mega-LAN event, the e-sports scene is fraught
+with identity issues not only from outside, but within as well. The jock-like first-person-shooter
+(FPS) players competing at the same event as the nerdy, enigmatic World of Warcraft players
+    
+ E-Sports Broadcasting
+10
+shows the conflicting, lived masculinities in e-sports. Players are unsure whether to act like
+superstar athletes or tech-geeks. Can you be both?
+The word e-sports alone evokes such a conflicting image. Electronic sports seems almost
+paradoxical in nature. Have we moved beyond a physical match of skill and extended our
+contests to avatars in a digital world? How can two players sitting at a desk be sporting? As e-
+sports continue to grow not only as a segment of the gaming industry, but as a spectator affair,
+we begin to see the 'sports' side of e-sports both challenged and invoked more frequently. In a
+telling case, Twitter erupted after a Dota 2 tournament made an appearance on ESPN 2 in
+2014. With $10 million at stake, many e-sports fans thought the event warranted the attention of
+the all-sports network. Plenty of viewers took to social media to praise the move made by ESPN.
+Others were shocked: "Espn2 is seriously airing an online gaming championship? Wtf man. This
+is our society now. That is not a sport" (Hernandez 2014). The sports status of e-sports has been
+both defended and attacked by journalists, academics, and fans alike.
+The debate about the status of e-sports has been raging for many years. Witkowski's
+piece, "Probing the Sportiness of E-Sports", presents both sides of the argument pulling from
+games studies scholars and assessing e-sports on their terms. Ultimately though, I believe she
+shelves the debate deftly when she states, "sport is a personal experience... as many a sporting
+scholar has written before - if an individual considers the sporting activity they are engaged in to
+be a sport... then it is a sport" (2009, 56). I do not wish to rehash this debate. I have no stake in
+it. As Witkowski asserts, the attempt would be futile. Instead, I accept the role traditional sports
+have played in the shaping of e-sports.
+In fact, exploring the relationship between e-sports and their traditional counterpart drives
+this work. In what follows, I argue that the sports media industrial complex has fundamentally
+    
+ E-Sports Broadcasting
+11
+shaped the current e-sports industry. Beyond this grounding, e-sports broadcasters constantly
+borrow from traditional televisual broadcasts, using models that they feel to be appropriate for
+their medium. Regardless of whether e-sports qualify as sports or not, they are constantly
+informed by sports broadcasting and follow a trajectory set out by traditional sports models.
+This work comes about at in an interesting moment in e-sports history. E-sports
+audiences have never been larger, Riot games boasted an impressive 27 million viewers for the
+League ofLegends World Championship in 2014 while the 2015 Intel Extreme Masters world
+championship saw over 1 million concurrent viewers across multiple live-streaming platforms
+(Riot Games 2014; ESL 2014). An old classic, CounterStrike, has re-emerged, albeit in a new
+package. The audience it continues to draw proves that some titles have staying power in this
+fickle industry. At the same time, a new title, League ofLegends, consistently pulls in over
+100,000 concurrent viewers for its weekly shows in the U.S. and E.U. As the League ofLegends
+Championship Series moves into its fifth season, it has come to resemble a traditional sports
+broadcast more than it does its fellow e-sports shows. A new addition in Season 5, a segment
+called Prime Time League (PTL) is nearly indistinguishable from ESPN's Pardon the
+Interruption (PTI) at a glance.
+Figure 1-Left Image: Prime Time League; Right Image: Pardon the Interruption
+    
+ E-Sports Broadcasting 12
+Comparing these two images reveals the level of sports emulation found in e-sports broadcasting
+today. From the stats and schedule ticker at the bottom of the screen to the show rundown along
+the edge of the screen, an uninitiated viewer would have difficulty distinguishing between the e-
+sports show and the traditional sports show.
+A steady influx of television producers and directors are starting to shape an industry that
+already has an identity crisis while still investigating how best to harness the new medium of
+live-streaming. These assertions are not meant to give the impression that we stand on the edge
+of wholly untouched land as pioneers in a new frontier. As shown in the e-sports literature
+review to follow, the e-sports industry has a history of evoking the feeling of standing on a
+precipice.
+Organization
+In the introduction, I first provide a brief history of e-sports and take note of the
+directions e-sports scholarship has pursued. Following this review, I introduce the sports media
+industrial complex to better situate e-sports broadcasting within the larger media landscape of
+sports broadcasting: the focus of chapter 1.
+The first chapter begins by looking at the long history of sports and media. By
+introducing the full gamut of sports media, I am better able to investigate how e-sports
+broadcasting stays in conversation with each of its predecessors. As evidenced in the reshuffling
+of sports media through history, we can see that e-sports make use of all of these forms of media
+while creating something new. During this chapter, I look to the transition moments in traditional
+sports broadcasting as the foundation ofthe e-sports industry. Moments of tension and doubt
+within the sports media industry as it shifted from one medium to another provide perfect lessons
+    
+ E-Sports Broadcasting 13
+to be learned by the e-sports industry as they struggle with some of the same issues found in the
+reshuffling of media history. Indeed, while making use of the same media through journalism,
+public relations, and audiovisual broadcasts, the e-sports industry constantly wrangles with the
+use of the newly emerged medium of live-streaming. Television especially influences live-
+streamed broadcasts, which e-sports broadcasts tend to approach with the same framework as
+television.
+Chapter two focuses on e-sportscasters, also known as shoutcasters. I begin the chapter
+with a brief look at the history of shoutcasting. Considering that many of the early shoutcasters
+pull solely from traditional sportscasters, understanding their influences is crucial in
+understanding how e-sports has evolved in the way it has. As, I argue, the single most pointed
+signaling of the sportiness in e-sports, these individuals have pushed the e-sports industry
+towards a sports model. When first time viewers or listeners leave an e-sports broadcast with the
+distinct feeling of a sports broadcast in their mind, it is the shoutcasters doing their job. They rely
+heavily on conventions set by traditional sportscasters. Much like their predecessors when faced
+with something new, shoutcasters borrowed what they could and innovated when there was
+nothing to borrow. Chapter two also focuses on shoutcasters' formulation of their identity within
+the e-sports industry as personalities, professionals, and record-keepers. Shoutcasters are just
+now creating an identity separate from traditional sportscasting. Where veteran shoutcasters
+relied primarily on traditional sports broadcasts, newer casters look instead to other shoutcasters.
+These shoutcasters are reshaping their identity while attempting to fully embrace the new
+medium of live-streaming.
+The third and final chapter tackles the topic of economics in e-sports. As the history and
+trajectory of sports broadcasting has profoundly affected the e-sports industry, many of the
+    
+ E-Sports Broadcasting
+14
+economic models present in traditional sports bled into the e-sports industry as well. The e-sports
+industry in the US and Europe has yet to be analyzed as such. Some work (Taylor 2012) has
+focused on e-sports revenue streams including sponsorships, company models, and team
+ownership, but overall, the subject remains underexplored. Dal Yong Jin's (2010) analysis of the
+political economy of e-sports in South Korea offers a tool set for this chapter. While the South
+Korean e-sports model spawned out of an extremely particular set of circumstances that cannot
+be readily applied to the U.S. or E.U. e-sports scenes, Jin's investigation of the surrounding
+economic systems surrounding e-sports translates well to my own investigation of the U.S. and
+E.U. industries. As staggering prize pools continue to make headlines, it is easy to lose sight of
+the economic system working behind the scenes to keep e-sports financially salable, or in some
+cases not. The third chapter delves into traditional sports economics and their influence on the e-
+sports industry. In some areas, the models translate perfectly. In others, e-sports has been unable
+to tap into the same revenue generators as traditional sports. Unless some developments
+significantly alter the e-sports industry, it may be more tenable to pursue other models instead of
+the sports industry.
+Methods
+This thesis makes use of many qualitative methods including historical analysis,
+interviews, and fieldwork. To grasp the significance and situation of e-sports broadcasting in its
+current state fully, one must analyze the same developments in traditional sports broadcasting.
+As one takes a deeper look into the past of the professional sporting industry, its influences on e-
+sports become clear. A feedback loop has been created between the two. Historical analysis
+offers a glimpse at key moments which defined the incredibly successful global sports industry.
+    
+ E-Sports Broadcasting 15
+Not only are similar situations appearing in e-sports, but e-sports pushes back into each of the
+investigated forms of media. A few of the issues currently facing e-sports could be resolved
+through following the path established by traditional sports, while other issues have been caused
+because so much has been borrowed.
+I also had the pleasure of conducting seven interviews with professional shoutcasters. I
+limited the selection of shoutcasters to full-time professionals, rather than amateurs, to get an
+insight into how these new professionals view their role within the industry. Roughly half the
+participants are veteran shoutcasters of five or more years. The other half have joined the scene
+more recently with one in particular having shoutcasted professionally for less than one year. As
+these informants are a few of only dozens of professional shoutcasters in the world, I have
+attempted to keep their identities anonymous. As professional personas, some of these casters
+may benefit from being associated with this work, but I do not want to run the risk of potentially
+linking these shoutcasters with their statements in the event that this information could somehow
+affect the community's perception of the individual or potentially harm their prospects within the
+e-sports industry. The conversations were all positive, but one can never truly assure their
+informants that information they have provided in confidence will have no repercussion in any
+foreseeable future. With these considerations in mind I decided before conducting the interviews
+that the informants would remain anonymous.
+Finally, I was also able to spend time working within the e-sports industry. My time spent
+working for a prominent e-sports company profoundly shaped this thesis. Working alongside
+industry professionals sparked countless conversations about the current climate of the e-sports
+industry and possible futures. These conversations have both helped and challenged my thinking
+about the e-sports industry. While I often refer to the e-sports industry or community as a
+    
+ E-Sports Broadcasting 16
+homogenous whole, the professionals who live within the space are not all of one mind and it
+would be a mistake to present them that way. Within e-sports, there are many different games
+and communities vying for viewers, players, and attention. What follows is my best attempt at
+wrangling the many paths e-sports has started to follow.
+E-sports Literature Review
+E-sports is still a young industry and an even younger subject of critical inquiry. Most
+entries into e-sports scholarship have emerged within the last five years. E-sports literature tends
+to come from the much older tradition of games studies, but ties into many other fields including
+the social sciences, cultural studies, economics, and law. Professional-gaming literature is a
+veritable hotbed of potential research topics with more articles, theses, and dissertations
+appearing every year. Much of the growing body of e-sports literature focuses on the
+professionalization of gaming (Jin 2010; Mora and Heas 2005; Swalwell 2009; Taylor, Nicholas
+2009; Taylor, T.L. 2012; Witkowski 2012). These histories offer much more than a rundown of
+the events that created the e-sports industry. They also offer insight into our contemporary social
+moment. The arrival of a professionalization of video gaming signals many significant
+developments within both western and non-western culture. The global nature of e-sports and its
+meshing together of complex and often conflicting identities continues to beg investigation.
+E-sports literature primarily resides within the social sciences. Many cultural analyses in
+e-sports (Chee and Smith 2005; Harper 2010 and 2014; Hinnant 2013; Swalwell 2009; Taylor
+2011) have focused on the communities growing within different scenes. Todd Harper, for
+instance, investigates the culture of competitive fighting games, a fascinating community which
+stands both within and at odds with the rest of competitive gaming. Gender studies are also
+    
+ E-Sports Broadcasting 17
+becoming increasingly common within e-sports literature (Chen 2006; Crawford 2005; Leonard
+2008; Taylor 2009 and 2011; Taylor and Witkowski 2010; Witkowski 2013). With the
+fascinating and fraught formulation of masculinity within these spaces as well as the perceived
+absence of femininity, gender studies are incredibly important within e-sports literature. Nicholas
+Taylor (2011) offers insight into the ability of e-sports to create embodied performances of
+masculinity at live events which spread through communities specific to certain titles or genres.
+Taylor and Witkowski (2010) also show the conflicting versions of masculinity that appear in
+different e-sports genres.
+There has also been an increasing focus on e-sports as a spectator activity. Jeff Huang
+and Gifford Cheung (2012) found in a study that many of the e-sports fans they investigated
+prefer watching high-level play rather than playing a match themselves. Kaytou and Raissi
+(2012) also investigate spectatorship in e-sports with a focus on how best to measure live-
+streaming audiences. Others (Bowman 2013; Gommesen 2012; Kow and Young 2013) show that
+the audience in e-sports has a profound effect on performance for the players, akin to a
+traditional sports audience. These scholars also investigate the expertise apparent in e-sports
+players that is passed on through spectating as often as practicing.
+As the professional play of video games fascinates so many, e-sports literature has
+understandably focused primarily on professional players. Notable exceptions include Jin (2012)
+and Taylor (2012) who, while still heeding players, also investigate the surrounding factors
+which allow for play at a professional level. Without these other factors, professional players
+would not exist. It is from the tradition of these two authors, among others, that I base this work.
+This thesis, like many of the works listed above seeks to better understand the phenomenon of e-
+sports while analyzing a particular segment of the scene. With few investigations into the
+    
+ E-Sports Broadcasting 18
+broadcasting of e-sports, I hope to contribute to e-sports literature in a way that is both unique
+and replicable to other systems found within the larger e-sports framework.
+Sports Media Industrial Complex
+As sport and media become increasingly intertwined, it becomes difficult to analyze one
+without at least acknowledging the impact of the other. Pointing to the inextricable link between
+sports and media, sports media scholar K. Lefever (2012) argues, "while sport provides valuable
+content and audiences for media operators, the media is a revenue source and promotional tool
+for sport." As such, the steady professionalization and, in turn, commercialization of sport relies
+heavily on its media counterpart. The subsequent interdependence between media outlets,
+sponsors, and sports leagues creates what is often referred to as the sports/media complex or
+sports media industrial complex (Jhally 1989, Rowe 1999, Maguire 1991). Wenner (1989)
+coined the neologism, MediaSport, to define the deeply rooted relationship between sports and
+media. The two can hardly be considered separate anymore.
+Stein (2013), a Comparative Media Studies alumni, building on the work of these earlier
+scholars created a model which could be applied to new arrivals in the sports media landscape.
+Thankfully, Stein provides a fairly replicable analysis of sports video games within the broader
+sports media landscape. His investigation of the relationship between televisual sports video
+games and sports media largely informs my own work. He notes an almost relentless stream of
+advertising and commercialization rhetoric appearing in sports video games. Building on the
+work of Wenner, Rowe, and Jhally, he argues that the commodification and capitalist trends
+found in traditional sports broadcasting bleed into newer media such as video games. This steady
+influx of advertising and commercialization can be found in e-sports as well.
+    
+ E-Sports Broadcasting 19
+As e-sports broadcasters gain more experience and access to more robust technology,
+they have started to incorporate many of the same commercial opportunities Stein noticed in
+sports video games. Segments of the broadcast are occasionally sponsored, or one might see a
+sponsor make an appearance in an event's title such as the Intel Extreme Masters tournament.
+Where Stein argues that sports video games incorporate these advertisements as a signifier of
+their televisual legitimacy, I argue that e-sports broadcasters make use of the same strategies
+because they are informed by earlier forms of sports media.
+The steady commercialization found in e-sports reveals the influence that the sports
+media industrial complex has had on the e-sports industry. In documenting the dynamics of the
+sports media industrial complex, Jhally (1989) argues that sports are best viewed as
+commodities. Jhally's model focuses on the sporting industry in the US prior to the emergence of
+new media. More readily applicable to e-sports, Lefever's (2012) analysis of the sports media
+complex within new media details a phenomenon which has upended the former relationships
+between stakeholders in the sports media industrial complex. She claims that, "the sports/media
+complex has somehow changed, allowing the different stakeholders to take up new roles"
+(Lefever 2012, 13). The stakeholders, including sports franchises, sponsors, and media outlets,
+have had to adapt to a new media landscape with new roles. These new roles are more transient
+within the high-demand world of new media. Sports organizations and franchises have taken a
+more active role in connecting with fans, media outlets have taken a larger interest in sports
+franchises (often buying sports franchises if it is less expensive than purchasing media rights),
+and sponsors have taken advantage of new, innovative ways to reach consumers (Lefever 2012,
+21). According to sports scholars Haynes and Boyle (2003), television sports viewers are no
+longer expected to just sit back and relax. Instead they are expected to follow their sport through
+    
+ E-Sports Broadcasting 20
+social media, forums, blogs, and other digital outlets. This new, active fan fits well within the e-
+sports industry and live-streaming, but has changed the traditional sports media industrial
+complex. Before delving too far into the role of traditional sports economic models on e-sports,
+however, I will first situate live-streaming and e-sports within the larger sports media industrial
+complex.
+    
+ E-Sports Broadcasting
+21
+Chapter 1
+Sports Media in Transition From Print to Live-Streaming
+Every day, millions of Americans are catching up with the latest sports news through
+print, radio, television, and online. Sports have saturated the entire spectrum of mass media in
+the US. With the emergence of each form of mass media, sports coverage has been at the
+forefront of adoption and innovation (Bryant and Holt 2006, 22). Each major medium shift in the
+US has been accompanied by a massive reshuffling of the sports media landscape. Often, this
+reshuffling opens a space for a particular sport to take up the new medium, create conventions,
+and carve a path for others to follow. These sports were not spawned by mass media, but their
+spike in popularity around the emergence of a new medium indicates very specific social
+moments in the US. Early sports magazines and print coverage of sports focused primarily on
+prize-fighting, radio ushered in the golden era of baseball, and television transformed football
+into a titanic entertainment industry. The rise and stabilization of sports media are as much a
+product of available technology as they are indicative of societal preoccupations of the time. If
+sports and sports media are indicative of our social moment, then what can we glean from the
+arrival of live-streaming and e-sports?
+The co-evolution of sports and media is the coalescence of many factors including
+changes in power structures, modes of production, and available technology. As Bryant and Holt
+argue in their investigation of the history of sports and media, "[e]ach epoch of social evolution
+has witnessed important sports-media developments that were affected by the evolving socio-
+cultural environment" (2006, 22). In what follows, I trace the co-evolution of sports and media
+with particular focus on the relationship between emerging mass media and the media ecology
+    
+ E-Sports Broadcasting 22
+surrounding that emergence. By documenting these moments of turbulence, I establish the
+framework necessary to analyze live-streaming as a new medium with which e-sports has
+emerged as an early adopter and convention creator. Live-streaming did not emerge
+independently from its predecessors, but rather delivers on the preoccupations of our current
+social moment. It has once again started a reshuffling of the roles of media within the sports
+media complex. E-sports, while primarily viewed through live-streaming, relies on all of the
+previous forms of media to varying degrees. With this framework in mind, I argue that the
+feedback between live-streaming, e-sports, and traditional sports has spawned an industry which
+roots itself in traditional sports media while still investigating the full potential of live-streaming.
+I begin by briefly discussing sports media in antiquity with Thomas Scanlon's (2006)
+piece on ancient Mediterranean sports and media. After this introduction to sports media, I move
+to the US in the late eighteenth century with the emergence of the first sports-only publication,
+the sports magazine, as well as early print news coverage of prize fighting during the rise of
+industrialization and nationalism. The next section maps the push towards immediacy in sports
+coverage and the rise of radio. On the heels of radio and the golden age of baseball, I discuss the
+early issues with televised sport before the post-war era. Moving into the 1950s and 1960s, I
+detail the transformation of football into a televisual sport accompanied by a very specific social
+contingency. I then transition into an investigation of live-streaming and e-sports, particularly
+how both are in conversation with sports media history.
+Origins of Sports Media
+As classicist Thomas Scanlon (2006) posits, there is no history of sports without its
+media counterpart. Media in antiquity, he argues, "are a tool of society, a means of transmitting a
+message, primarily one from the rulers to the ruled" (Scanlon 2006, 17). While his definition is
+    
+ E-Sports Broadcasting 23
+quite limited, Scanlon is correct in noting that media are inflected with the power structures of a
+society. Sports as media were classically used by those with power to reinforce the hierarchy.
+Sports events were "represented as a benevolent benefaction from the rich, noble, and
+empowered to those marginalized" (Scanlon 2006, 18). This reinforcement of power structures
+comes through not only in the production of sporting events, but also in the medium itself.
+Scanlon suggests that the most powerful sports 'medium' in classical times was Roman
+architecture. The massive circuses and arenas were meant to "provoke awe, admiration, and
+obedience in the citizens" (Scanlon 2006, 18). Scanlon establishes that the predominant sports
+medium in a given society correlates directly with their notions of power. Within the realm of
+more dispersed authority such as the Ancient Greeks, sports media reflected the high value of an
+individual and his merits. Depictions of athletics in Ancient Greek poetry and pottery, made by
+and for the common people, focus on a particular athlete's prowess more than the event itself. On
+the other hand, societies with incredibly rigid hierarchies and god-kings such as the Ancient
+Egyptians and Persians, tend to represent sports as a demonstration of the ruler's power over
+their people. Ancient Rome, with its centrally focused authority, used architecture to demonstrate
+the power of the nobility as both benefactors and arbiters, diminishing the role of the athlete to
+that of an entertainer. Moving into more recent history with media such as newspapers and radio,
+Scanlon concludes that sports media became an amalgamation of both the Roman and Greek
+styles: large spectacles with massive personalities.
+    
+ E-Sports Broadcasting 24
+Establishing a Media Landscape: Early Sports Media in America
+The importance of the printing press on modem society cannot be overstated. While its
+precise effects are still being debated', the affordances of the printing press allowed individuals
+to produce and disseminate a massive amount of information far more efficiently than ever
+before. With a massive rise in literacy rates and increased access to print brought about by the
+printing press, the reading population of the world shifted (Eisenstein 1983). While early
+readership was restricted to a very small subset of society, the printing press paved the way for
+the coverage of more mundane topics such as sports. In their analysis of sports media in pre-
+industrial America, sports media scholars Jennings Bryant and Andrea Holt point to two major
+developments: first, the appearance of sports in newspapers as 'general news' and second the
+creation of a completely sports-centered publication: the sports magazine (2006, 22). The advent
+and success of sports magazines in the early nineteenth century stands as a marker for some of
+the intellectual shifts of the industrial era. During this time we see a professionalization of sport
+in the form of prize fighters. We also see a shift from sports as a local leisure activity to
+something that one follows from a distance. Sports contests began to take on implications
+beyond a mere matching of athletes.
+Many sports magazines started out as independent, one-person operations that began
+circulation in the 1820s and 1830s (Bryant and Holt 2006, 22). The Spiritof the Times, one of the
+earliest iterations of the sports magazine, actually reached a circulation of over 100,000 readers
+by the 1840s. The success of this initial sports-focused publication displays the roots of the
+American sports media tradition. While they note the significance of sports magazines in the
+overall climate of sports media in America, Bryant and Holt trace the advent of modem sports
+1See Elizabeth Eisenstein. 1983. The Printing Revolution in Early Modern Europe. New York: Cambridge University Press.
+    
+ E-Sports Broadcasting 25
+media to recaps of prize fighting in the Penny Press age of the 1830s. With increased circulation
+to the middle and lower classes, sports coverage increased substantially in the mid-nineteenth
+century. Sports coverage in the Penny Press era focused on creating spectacular depictions of
+sporting events. As McChesney, a media historian points out, James Gordon Bennett, owner of
+the New York Herald,was "one of the first exponents of 'sensationalism' as a means of
+generating circulation, and sport fit comfortably within this rubric" (1989, 51) Out of the
+sensationalism present in these early newspapers, sports began to take on more significant
+cultural meaning.
+There was particular focus on regionalism and nationalism. Sports media scholar J.
+Enriquez explains that sporting events were far more likely to be covered if they featured a
+contest which reflected the social preoccupations of the day such as a northern horse racing
+against a southern horse, or an American boxer fighting a European (2002, 201). Through these
+mediated depictions, sporting events were encoded with much more meaning than a simple
+contest. They reflected the contemporary hopes and anxieties of the people. Sports media built
+up athletes as representatives. Newspaper recaps did much more than simply describe the
+actions; they created dramas (McChesney 1989, 51). The hyped up imagery of athletes and their
+contests created through the Penny Press and sports magazines became the paradigm for sports
+coverage for decades while a new sport caught America's attention.
+Newspaper Sports Writing and the Rise of Team Sports
+The rise of baseball as a national pastime coincide with the period of time just after the
+American Civil War. McChesney explains, "The Civil War introduced baseball to an entire
+generation of Americans, as the troops on both sides played the game when time permitted.
+Indeed, baseball emerged as the preeminent national team sport during this period" (1989, 52).
+    
+ E-Sports Broadcasting 26
+After the Civil War, baseball helped mediate conflict by providing common ground for
+northerners and southerners. This moment was one in which the country was seeking to heal its
+rift, looking for neutral things that could bind the nation together. Baseball filled a political
+agenda by giving people something to focus on without opening old wounds. Sports writing
+changed drastically in the years following baseball's spike in popularity. Sports coverage began
+to receive regular columns and increased coverage throughout the late nineteenth century,
+leading to a new kind of journalistic specialization: the sports-writer (Enriquez 2002, 202). This
+fixation on sport was a result of new socio-cultural environments. Mandelbaum (2004), a sports
+media scholar and historian, argues that the industrial revolution created a new sports landscape
+through several major developments. First, the notion of childhood had expanded. In the
+nineteenth century, the period between birth and entering the workforce increased substantially.
+The new notion of childhood permitted more people to engage with baseball, football, and
+basketball. This increased interest in team sports continued into adulthood. Watching and reading
+about sports in the newspaper or sports magazines became an acceptable way to recapture the
+"carefree years of their lives" (Mandelbaum 2004, 2). Mandelbaum also argues that baseball
+offered a renewed connection to pastoral America, creating a feeling of nostalgia for the new city
+dwellers and factory workers who desperately missed the pace and beauty of rural America.
+Baseball coverage created the first major feedback loop between sports and media in
+America. Bryant and Holt claim that the importance of sport was downplayed significantly in the
+puritan era, but, "regular, routine reporting of sports in newspapers and specialized magazines
+helped shift the cultural attitude towards sports in general" (Bryant and Holt 2006, 25). They
+argue that in the late 1870s through the 1890s, Americans adopted a new stance on sports as
+important for the development of mind, body, and society. This new cultural stance on sports
+    
+ E-Sports Broadcasting 27
+was shaped and fostered by an increased media coverage of sports. As baseball and its media
+coverage became more professionalized, Americans began to consume sports media in
+completely different methods. Sports spectatorship became a regular and acceptable pastime for
+the industrial worker.
+The industrial revolution created the first opportunity in America for sports production
+and spectatorship to be commercially successful endeavors. The growth of cities and the massive
+developments in individual mobility allowed for sporting events to take on new significance
+(Mandelbaum 2004, 3). Cities provided large numbers of sports players as well as spectators to
+fill newly built stadiums and watch newly formed teams. Sports fandom in the U.S. fit neatly
+into the predominant forms of labor and leisure. Zillmann and Paulus (1993), two psychologists
+who wrote on sports spectatorship, explain, "spectatorship, as a significant form of recreation, is
+an outgrowth of the monotony of machine-dictated labor, sports events became the weekend love
+affair of all those whose workday was strictly regulated by production schedules" (601).
+Zillmann and Paulus' article further supports the feedback between sports media consumption
+and societal structures. Live spectatorship in America had previously been seen as a luxury for
+the rich and powerful, but with the increased circulation of newspapers, and in particular sports
+coverage, to the middle and lower classes, sports spectatorship became accessible to an entirely
+new sector of the population (Bryant and Holt 2006, 21). Architecture once again emerged as an
+important medium. Large concrete and steel stadiums were created, replacing the more
+organically created playing fields of the late nineteenth century (Mandelbaum 2004, 52). We see
+here an important transition into the production of sport as a money making opportunity. As I
+discuss in the third chapter, the introduction of investors and producers fundamentally alters
+sports and their media counterparts.
+    
+ E-Sports Broadcasting 28
+The available media shaped the portrayal and perception of athletics in the industrial era
+as well. The idea may sound a bit romantic, but Benjamin Rader (1984), a sports scholar focused
+on the transformation of sports media in America, labels the period of sports media prior to
+television as an era of heroes. Whether speaking of prize-fighters or the Mighty Casey of
+folklore, sports media in the industrial era painted athletes as larger-than-life characters. Rader
+claims, "[t]hose standing on the assembly lines and those sitting at their desks in the
+bureaucracies increasingly found their greatest satisfaction in the athletic hero, who presented an
+image of all-conquering power" (1989, 16). To Rader, sports media before television presented
+the American ideal. Athletes were meritocratic role-models playing for the love of the game.
+Rader's analysis places the impetus on newspapers to depict dramatic stories with characters
+akin to David and Goliath.
+In addition to individual mobility, urbanization, and industrial work, Enriquez attributes
+the rise and legitimacy of sports journalism as the catalyst for the nationalization of sports in
+America (2002, 201). As all forms of communication and nationalization were transforming,
+sports coverage lead the charge. In the early twentieth century, most newspapers had dedicated
+sports writers on staff. These sports writers became famous through their innovative and
+entrancing writing. Writers like W. 0. McGeehan, who worked for many San Francisco papers,
+described athletes as sorrowful sages and their contests as the clashing of titans on a battlefield
+(Nyhistory.org 2015). In this period however, it is difficult to judge the difference between
+journalism and public relations (Bryant and Holt 2006, 30). In fact, the issue of PR penetrating
+journalism in the late nineteenth to early twentieth century is explicitly laid out in Michael
+Schudson's (1981) chapter, "Stories and Information: Two Journalisms in the 1890s". At the turn
+of the century, there existed a dichotomy between news as entertainment and news as
+    
+ E-Sports Broadcasting 29
+information. As papers around the country struggled to define themselves, sports media also
+went through a defining period. Legitimate sports writing became known for its higher literary
+quality, but read more like advertisements with its exaggerated, often hyperbolic, language.
+Public relations soon became as much a part of sports journalism as describing the events
+themselves. Team owners understood the media's role in keeping attendance at sporting events
+up and began catering to sports journalists for coverage (Enriquez 2002, 206). The team owners
+expected sports journalists to act as publicists for their events. The gambit paid off as sports
+writing filled more and more of the daily papers and attendance at live events continued to rise.
+The sports writers added significance to the experience of watching a sporting event. Between
+the shifts in the American middle class, leisure activities, and the flowery language of sports
+journalism, watching a sporting event began to take on the significance of watching history
+unfold. We will see these same issues appear again in e-sports coverage as journalism becomes a
+legitimizing force within the e-sports landscape, torn between deep analysis and hyped-up
+depictions for the sake of generating publicity.
+Liveness continued to assert its role in sports media as new technologies emerged. The
+telegraph especially placed the impetus on news sources to provide timely information. In a
+fascinating illustration of the desire for timely sports news, the ChicagoTribuneran the
+following note on March 17, 1897, the day of the legendary boxing match between Jim Corbett
+and Rob Fitzsimmons: "The Tribune will display bulletins today on the prize fight. It has secured
+a telegraph wire to the ring in Carson City and a competent man will describe the progress of the
+fight, blow by blow, until the test is decided. The bulletins will be posted thirty seconds after
+they are written in the far Western city" (Bryant and Holt 2006, 29). This fixation on live updates
+for sporting events across the nation is another example of how sports media has shaped the
+    
+ E-Sports Broadcasting 30
+media landscape of America. Information began traveling faster than ever via wireless
+transmissions, but it was actually a yacht race which saw one of the very first implementations of
+wireless for live information transmission. Sporting events saw some of the earliest uses of the
+telegraph for news reporting as well (Mott 1950, 597). As the telegraph allowed for a sense of
+liveness even for remote events, it paved the way for the most significant development in sports
+media prior to television: radio.
+A Fixation on Liveness: Radio and Sports Consumption
+Radio delivered on the push towards liveness established by the telegraph. The first
+broadcast of a Major League Baseball game occurred within a year of the commercial release of
+radio (Enriquez 2002, 206). Rader remarks, "Now the fan did not have to await his morning
+newspaper; he instantly shared the drama transpiring on the playing field" (Rader 1984, 23). For
+the first time, sports were perceived as home entertainment. Broadcasters as well as businesses
+capitalized on the shift. Sports coverage was integral to the rise in popularity of radio in the
+interwar period. In Rader's words,
+In the pre-television era, the heroes of sports assisted the public in coping with a rapidly changing society. The sports world made it possible for Americans to continue to believe in the traditional gospel of success: that hard work, frugality, and loyalty paid dividends; that the individual was potent and could play a large role in shaping his own destiny (1984, 15).
+By Rader's account, sports programming on radio delivered a much needed revitalization
+of the American ideals through the transient industrial period and The Great Depression.
+The rise of radio coincides with the golden age of baseball, but there was an awkward
+transitional phase into the new medium while newspapers and radio both tried to define their
+new boundaries. While consumers clearly desired liveness, initial radio broadcasts felt flat and
+emotionless (Bryant and Holt 2006, 27). Some of the greatest blow-by-blow sports writers were
+    
+ E-Sports Broadcasting 31
+terrible at delivering a compelling radio broadcast. Sports writers were extremely adept at
+creating dramas through print, but they failed to capture audiences in the early days of radio.
+Oddly enough, their sports knowledge undermined their sports coverage in the new medium.
+Instead, a new role emerged: the sportscaster.
+In the era of radio, the performance of live sports broadcasts came with significant stakes.
+Adept sportscasters were cherished more for their voices than their sports knowledge. Delivering
+play-by-play depictions of sporting events takes little technical knowledge, instead the
+entertainment comes from the delivery. Mandelbaum writes of early radio sportscasters, "the
+broadcasters were akin to poets and troubadours who preserved and handed down the great tales
+oftheir cultures by committing them to memory and reciting them publicly" (2004, 80). Delivery
+was actually so important that sometimes sportscasters such as Graham McNamee, known
+especially for his baseball broadcasts, were not even present at the event but instead handed
+written play-by-play depictions of the game so that they could add their own dramatic and
+authorial tone to the live event (Mandelbaum 2004).
+Another issue during the emergence of radio was redefining the role of newspaper sports
+coverage. Radio could deliver the liveness desired by sports fans and was incredibly well suited
+for play-by-play commentary. Newspapers had traditionally covered the blow-by-blow report of
+an event, capturing the drama through flowery language and hyperbole. With radio, the
+sportscaster captured the audience's attention through the same means, bringing in even more
+emotion as his voice rose and fell with the action of the contest (Enriquez 2002, 202). Sports
+writers instead decided to focus on an area that radio broadcasters could not: strategy. Early
+sportscasters had to focus so much on the delivery of the action that they could not elaborate on
+the reasons behind certain maneuvers. Sports writers took advantage of this deficiency and began
+    
+ E-Sports Broadcasting 32
+writing articles which focused on everything around the action. From in-depth analysis of
+strategy to the creation of larger than life athlete personalities, newspaper coverage of sports in
+the era of radio completely changed to remain relevant.
+Sports magazines also had to find a new space to occupy during radio's reign.
+Completely unable to keep up with the live coverage by radio and the strategic coverage of
+America's favorite sport, baseball, sports magazines instead began to focus on niche sports such
+as yacht racing. The other innovation of sports magazines in the early 1930s was their addition of
+full page color photographs of athletes, something that neither radio nor newspapers could offer
+(Enriquez 2002, 202). They remained as an important sports medium but had been supplanted by
+both radio and newspapers. Baseball's hold on the American public was so strong that the niche
+sports, which were typically covered in sports magazines, hardly seemed relevant. Football in
+particular rarely saw coverage anywhere other than sports magazines (Bryant and Holt 2006, 32).
+Football had traditionally been seen as a college sport reserved for the wealthy, but with an
+increasing number of college graduates in the U.S. and the rise of a new medium, its niche status
+was about to change (Oriard 2014, vii).
+The Televisual Transformation of Sport
+Television's initial debut into the sports world was a colossal failure. Reaching only a
+few hundred people, the first American televisual sports broadcast was a Columbia-Princeton
+baseball game on May 17, 1939. Just a few years after the commercial release of the television in
+the U.S., RCA's first foray into televised sport flopped. The New York Times' Orrin E. Dunlap Jr.
+recounted on the following Sunday, "The televiewer lacks freedom; seeing baseball on television
+is too confining, for the novelty would not hold up for more than an hour if it were not for the
+commentator" (Rader 1984, 17). He goes on to say, "To see the fresh green of the field as The
+    
+ E-Sports Broadcasting 33
+Mighty Casey advances to the bat, and the dust fly as he defiantly digs in, is a thrill to the eye
+that cannot be electrified and flashed through space on a May day, no matter how clear the air."
+Bryant, Holt, Enriquez, and Rader attribute the failure of early televisual sports to several
+factors. First, television camera technology was rudimentary and receivers were even worse
+(Bryant and Holt 2006, 31; Rader 1984, 18). Viewers could hardly see the player, much less
+follow the ball or action on the field. Second, television was not a commercial success upon its
+release. Sets were expensive and did not offer nearly enough programming to warrant their price:
+an issue that created a sort of negative loop as the television industry needed more viewers to
+warrant more content yet could not supply enough content to attract more viewers. The third
+factor, described by Enriquez, is the failure for broadcasters to adapt to the new medium.
+Sportscasters could not actually see the video feed and casted the game as if they were still on
+radio; recounting every single action that occurred on the field despite what was on viewers'
+screens at home. Inexperienced camera operators had difficulty following the action and the
+image rarely matched what the sportscaster was describing.
+Radio sportscasters also had difficulty transitioning into the new visual medium because
+they could no longer provide the same level of drama through exaggeration and hyperbole.
+Where short infield ground balls could previously be described as laser-fast bullets, the viewers
+at home now saw that the play was just another ordinary event. Situated somewhere in between
+watching the game live at a stadium yet still sounding like radio, televisual sport had a difficult
+time defining itself in the late 1930s and early 1940s. According to Rader, televisual sport
+experimentation stopped completely during the Second World War (1984, 23).
+With the well-established roles of radio, newspapers, and sports magazines, the revival of
+televisual sport seemed to be impossible. The utter failure of televised sports in the late 1930s
+    
+ E-Sports Broadcasting 34
+into the Second World War left televisual sport in a difficult position. Sports radio's popularity
+was at an all-time high in the 1940s. Baseball had captured the hearts and minds of the American
+people, and famous radio broadcasters such as Bill Stern and Jack Armstrong kept them listening
+with bated breath (Rader 1984, 30-3 1).
+Baseball and more generally live event sports spectatorship, however, could not keep the
+nation content for too long. In what has been dubbed the Sports Slump of the 1950s by Rader
+and others (Bryant and Holt 2006, McChesney 1989), spectatorship had finally started to
+dwindle. Television sets were making their way into homes in record numbers after World War
+11. In the post-World War 11 era, pastimes shifted from inner-city, public forms of recreation to
+private, home-centered forms of recreation. Sports revenue was down and change was in the air.
+People could watch baseball on their television sets at home, but not many people wanted
+to. As shown by the earlier quote from The New York Times, television had difficulty containing
+the magic that baseball once held. Football, however, was poised to rise with the new medium. It
+had been long overlooked, but football was incredibly well suited for television broadcasts. The
+large, visually distinct ball and typically slow moving action provided an acceptable subject for
+contemporary television camera technology (Grano 2014, 13). College football had seen a bit of
+success in newspapers, but professional football had a negative reputation as a "perversion ofthe
+college game played for alma mater rather than a lousy paycheck" (Oriard 2014, vii). Radio
+broadcasts of football had never reached the same level of success as baseball.
+Professional football seemed to be a sport without a suitable medium. As sports media
+scholar Michael Oriard explains, "[o]nly television could give the professional game a national
+audience, and Pete Rozelle's defining act as the commissioner who ushered in the modem NFL
+was to market the league through a single television contract, rather than leaving clubs to work
+    
+ E-Sports Broadcasting 35
+out their own deals" (2014, vii). This deal with broadcasting giant, NBC, led to the NFL's great
+breakout story and what would soon become the model for televised sports (Rader 1984, 85).
+With the NBC still losing money on a dwindling sports fanbase, they were ready to pull the plug
+on their deal with the budding NFL until the championship match between the Baltimore Colts
+and the New York Giants of 1958 (Grano 2014, 13). This match, still hailed as the 'Greatest
+Game Ever Played', would become the longstanding origin story of televised football. The game
+went into a second overtime, pushing the broadcast into prime time on the East Coast, a slot in
+which NBC never dared to place professional football. As millions of Americans tuned in for
+their regularly scheduled programming, they instead found John Unitas and his Baltimore Colts
+scoring the game winning touchdown after a long, hard-fought battle. Oriard, Rader, Grano,
+Oates, and Furness all trace the NFL's commercial success to this one defining moment.
+As compelling as origin stories often are, the truth is that many other factors lead to the
+success of football in the new mass medium. New technologies such as video tape were integral
+to the rise of football in America. Hitchcock argues that instant replay in particular helped with
+the rebranding of professional football: "The use of video-tape gave the game of football a whole
+new image... The instant replay changed football from brutal, quick collisions into graceful
+leaps, tumbles and falls. It gave football an aura of art in movement. It made football attractive to
+entirely new segments of the audience" (1989, 2). Where football players had once been seen as
+lethargic brutes, instant replay allowed broadcasters to slow down images, dissect plays, and
+highlight the athleticism of players (Rader 1984, 83-84).
+Sports, with football leading the charge, were once again on the cutting edge of media
+adoption. According to Dylan Mulvin, the first documented use of instant replay for review and
+training purposes was in 1957 during a game between the Los Angeles Rams and the San
+    
+ E-Sports Broadcasting 36
+Francisco 49ers (2014, 49). By 1964, instant replay was a standard broadcasting technique across
+all sports. The NFL's willingness to adapt to the new medium set it apart from other sports at the
+time.
+In addition to these technological and legal advances, Bryant and Holt as well as
+McChesney argue that one particularly innovative producer reinvented sports broadcasting for
+television: Roone Arledge. With ABC's full support, Arledge established television broadcasting
+conventions still present today. After the 1958 Championship game between the Colts and the
+Giants, ABC was scrambling to catch up to the NBC's success in televised sports broadcasting.
+As Enriquez describes, "Television broadcasting affected different sports in different ways. It
+devastated boxing, had mixed effects on baseball, and proved a boon to college and professional
+football" (2002, 202). As NBC began to ride the wave created by the NFL, ABC looked to get in
+on the action.
+Arledge was given free rein to perform a complete overhaul of ABC Sports. Bryant and
+Holt argue that the single most important innovation Arledge brought was the notion that a
+televisual broadcast should be presented "from the perspective of what the typical fan would see
+if he or she attended the game live" (Bryant and Holt 2006, 33). Arledge (2003) believed that the
+broadcast should capture the essence of attending a game, not just the play on the field, but the
+roar of the crowd, the cheerleaders, the marching bands, and the coaches on the sidelines. As
+Enriquez describes, "under Arledge, television assumed every role previously played by print
+media; it served as the primary medium for experiencing events, it provided detailed analysis,
+and it gave human faces to the participants" (2002, 205). Through football, televised sports were
+able to set conventions which separated them from earlier forms of media. This transition lives
+    
+ E-Sports Broadcasting 37
+on in live-streaming today as we will see later with live-streaming's adaptation rather than
+transformation of televised sport.
+The arrival of television meant that sports radio and print media had to redefine their role
+in sports coverage. Television could deliver the liveness of radio and, with the help of
+commentators and technology like instant replay, the drama and dissection of strategy found in
+print media. Newspaper coverage of sports was now relegated to simple recaps. Sports
+magazines on the other hand rode the success of television. As Bryant and Holt assert, "Sports
+Illustratedoffers a classic example of an old medium responding to a new one" (2006, 36).
+Rather than seeking out an area left uncovered by television, Sports Illustratedsupported
+televised sports by providing innovative action photography and updates on the most popular
+athletes and teams at the time.
+Sports broadcasts of the 1960s were infused with the hopes and fears of the Cold War
+era. R. Powers, a television sports scholar, suggests that sports filled a void in the American
+public, "shrugging off the darker morbidities of the Cold War and McCarthyism" (1984, 118).
+The re-found focus on sports as spectacle established by "the youthful theme of ABC, echoed the
+Kennedy idealism of the new frontier, the sporting emphasis echoed Kennedy's image of
+muscular athleticism..." (Whannel 2002, 34). Entertainment sports media, with its art-in-motion
+presentation, delivered a message of newness and regeneration to American.
+Through broadcasting and advertising deals, sports helped build and perpetuate the
+growing conspicuous consumption movement and the capitalist ideals of post-war America.
+Athletes resumed their star status. Sports stars began appearing in advertising everywhere.
+Merchandising became a key part of sports promotion. Anything from replica jerseys of sports
+stars to blankets and flags with team branding can be found almost anywhere in the U.S.
+    
+ E-Sports Broadcasting 38
+Contemporary Sports fandom has come to mean much more than simply following a team. It
+means buying a team's products, playing sports video games, joining fantasy leagues, and
+watching sports entertainment television. Oates, a sports media scholar focused on the NFL,
+writes that fandom has been transformed by the presentation of athletes as commodities to be
+consumed selectively and self-consciously by sports fans (2014, 80). The previously subcultural
+hyper-fandom activities such as fantasy football and sports video games, Oates argues, have
+moved into mainstream prominence and profitability. Fans are invited to interact with athletes as
+vicarious managers in fantasy sports, offering a completely new, personally tailored form of
+interaction with sports organizations. This new drive for constant connection and feedback
+within the sports industry culminates with live-streaming.
+Live-Streaming: Constant Connection
+As Oates suggests, sports fandom has fundamentally changed to reflect an increased
+involvement on the part of the spectator. Athletes and personalities have become commodities
+for fans to interact with. Social media, fantasy sports, and video games have created a connection
+to sports stars that was never before available in other media. At any moment, a spectator can
+catch highlights on ESPN, head over to forums to discuss major sporting events, or load a stream
+of a match on their phone, all while tweeting at their favorite athletes with the expectation that
+their words will be received on the other end.
+Recent trends show a change in the sports media landscape as new platforms begin to vie
+for control over sports broadcasting in the US. The NFL has recently signed a deal with Google
+allowing for the streaming of games over the internet after their current contract with DirecTV
+ends in 2015. This deal reflects the changing media landscape in the internet era. The rise of new
+streaming platforms poses an interesting dilemma to the current media titans and new
+    
+ E-Sports Broadcasting 39
+opportunities for new forms of media sports. Thus far, using the tradition established by
+McChesney, Bryant, Holt, and Rader among others, I have used sports media as a lens through
+which to view particular socio-cultural moments in America. I now turn that lens towards the
+contemporary sports media landscape. What can we learn about our own social moment by
+looking at the use of streaming platforms for traditional sports or the arrival of e-sports as an
+entirely new form of professional competition that makes use of older forms of media, but
+thrives in live-streams and video on demand?
+The MLB offers an early case study into the use of live-streaming for major league sports
+broadcasting. The regular season in the MLB consists of 2,430 games, a staggering number
+compared to the NFL's 256. The sheer number of regular season games held each year causes a
+problem with over-saturation. This inundation of content lowers the value of each individual
+game in the eyes of the major networks (Mondelo 2006, 283). The games that these networks
+choose not to air due to scheduling conflicts previously caused many games to go unseen by fans
+outside of the local media market for the two competing teams. To remedy the situation, the
+MLB streamed over 1,000 regular season games online starting in 2003. The launch of MLB.tv
+in 2002 allowed engaged MLB fans to continue watching content even when they did not have
+access to the games through the major networks. While not initially a huge commercial success,
+MLB.tv still runs today, over a decade later at a monthly subscription of $19.99 and as of 2014
+incorporated both post-season games and the World Series as part of the package (MLB.tv
+2015). While the MLB has not released the official revenue totals for its live-streaming service,
+with 3.7 million subscribers the platform generates well over $400 million per year (MLB.tv
+2013). This little-known use of live-streaming shows a hunger for immediate interaction with
+sports media regardless of the available medium.
+    
+ E-Sports Broadcasting 40
+Early live-streaming fundamentally looks and feels like television, but it filled a role
+which network television could not: all access and constant connection to media. It took form on
+a new platform, but did not truly differ from television. Early live-streaming is more like an
+adaptation of television than a new medium. Rather than creating something new, the early foray
+into live-streaming by the MLB simply adapted the already present broadcasting infrastructure
+and applied it through a different avenue. Television is often invoked in live-streaming. If we
+look at MLB.tv, the .tv signifies its connection to television, but that domain is actually the
+official domain for the country of Tuvalu. Other streaming platforms like ustream.tv, twitch.tv,
+MLG.tv, all based outside of Tuvalu, use the same domain to signal their televisual connection.
+Live-streaming emerged at a very particular moment in the evolution of sports media.
+With air-time limited on the major networks, the internet allows a near infinite amount of content
+to reach sports fans. As Oates would argue, from fantasy sports, to blogs, to live-streaming, the
+internet is, for many, the new space of the sports fan. Live-streaming goes beyond the ability of
+other media to reach viewers wherever and whenever, whether from a home computer or a
+mobile device. Live-streaming delivers on the constant connectedness expected by consumers
+today. At its roots, live-streaming is a televisual medium. So what separates it from television?
+Live-streaming today has created its own niche by blending other forms of media. Most
+live-streams host an internet relay chat (IRC) in addition to the audiovisual component of the
+broadcast. This IRC allows viewers to chat with other audience members and often the
+broadcaster, a functionality not currently available in television. This live audience connection in
+live-streaming is unparalleled in television. Hamilton et al., in their investigation of the
+significance of live-streaming for community creation, situate Twitch streams as an important
+'third place' for community. Building on the work of both Oldenberg and McLuhan, Hamilton et
+    
+ E-Sports Broadcasting 41
+al. (2014) suggest that "By combining hot and cool media, streams enable the sharing of rich
+ephemeral experiences in tandem with open participation through informal social interaction, the
+ingredients for a third place." The third place that the authors point to creates a rich connection
+akin to interpersonal interaction. The ephemeral nature of these interactions creates a deep sense
+of community even in streams with hundreds of thousands of viewers. Live-streaming and in
+turn, the IRC associated with streams creates a shared experience tantamount to the "roar of a
+stadium" (Hamilton et al. 2014). These streams also pull in a global audience, connecting
+isolated audiences into one hyper-connected community. Live-streaming draws on television for
+its look and feel, but delivers not only on the desire for liveness perpetuated in sports media but
+also the hyper-connectivity present in today's globalized world.
+E-sports, Live-streaming, and Sports Media
+Many factors contributed to the success of live-streaming for e-sports. It arrived at a
+moment when television seemed closed to e-sports, it was much less expensive to produce, and
+much easier to cultivate. Television broadcasts are prohibitively expensive to produce. Early
+attempts at airing e-sports on television have typically flopped, rarely surviving past a second
+season. E-sports are difficult to film when compared to traditional sports and conventions had
+not yet been set for the televisual presentation of e-sports (Taylor 2012). The action in traditional
+sports can typically be captured by one shot. E-sports broadcasts, in contrast, must synthesize
+one cohesive narrative out many different player viewpoints with varying levels of information.
+In a game like CounterStrike, broadcasters must wrangle with a large map with ten players in
+first-person perspective. The resulting audiovisual feed is a frantic attempt to capture the most
+relevant information from the players with an outside 'observer' controlling another viewpoint
+    
+ E-Sports Broadcasting 42
+removed from the players' point of view. The observer functionality in the early days of e-sports
+broadcasting created a difficult barrier to overcome for commercial success on television.
+Observer functionality had not yet become a focus for game developers and commentary had not
+reached the level of competency it has in more contemporary broadcasts.
+Instead of finding success on television, e-sports pulls in millions of concurrent viewers
+on live-streaming sites such as Twitch.tv. With television seemingly out of reach and streaming
+requiring significant investment per event in the early 2000's, e-sports broadcasting remained
+relatively stagnant until the arrival of a reliable, and cheap, live-streaming platform. Justin.tv
+(and other similar sites like UStream and Stickam), which launched in 2007, delivered exactly
+what e-sports broadcasters needed to grow. The site allowed users to quickly and easily stream
+content online with the use of some relatively simple software. Both broadband internet reach
+and streaming technology had developed to a point that lowered the barrier of entry for
+broadcasters. Players from around the world streamed games from their bedrooms. E-sports
+broadcasters reached new, massive audiences.
+The success of gaming content on Justin.tv spurred a new streaming site dedicated solely
+to gaming. The games-centered streaming site, Twitch.tv, launched in 2011. Twitch.tv
+revolutionized the e-sports industry. Each of the casters I interviewed spent time detailing the
+importance of Twitch.tv without being prompted. As one explained, Twitch.tv is "the clearest
+driving factor that's grown e-sports over the past 2-3 years." As mentioned in the introduction, e-
+sports audiences have reached previously unheard of levels. Large scale e-sports events regularly
+see concurrent viewer numbers in the hundreds of thousands. These broadcasts still largely
+resemble televised sports however, rarely, if ever, making use of the IRC.
+    
+ E-Sports Broadcasting
+43
+Live-streaming is just one of the forms of media the e-sports industry makes use of. In
+fact, e-sports interacts with most media in the same ways that traditional sports have. The e-
+sports industry pushes back into almost all of the earlier forms of media discussed in this chapter.
+Print and radio typically fill a PR role in e-sports coverage. Large events or developments often
+make their way into publications like The New York Times. Local radio segments will
+occasionally feature summaries of e-sports events occurring nearby. Internet versions of both of
+print and radio sports coverage are fundamental segments of the e-sports media ecosystem.
+Podcasts, digital audio files available on the internet through downloads or streaming, vlogs, and
+video diaries fill essentially the same role for e-sports that radio currently plays for traditional
+sports. Experts weigh in on recent developments and players breakdown certain aspects of a
+game.
+E-sports journalism has also immerged as a legitimizing force within the industry. Sites
+like ongamers.com and esportsheaven.com keep fans abreast of any new developments in the
+professional scene for all of the major e-sports titles. Journalists like Richard Lewis add
+legitimacy to e-sports through their coverage of current events. Their recaps of developments as
+well as summaries of various tournaments and leagues closely resemble their print counterparts
+in sports coverage. It is clear that the e-sports industry is in conversation with many forms of
+media. Many of the forms and techniques are borrowed directly from sports coverage. These
+forms of media did not appear instantly however, they are the result of years of push and pull
+with the larger sports media landscape. Nowhere is this more apparent than in the commentating
+of e-sports live-streams.
+    
+ E-Sports Broadcasting
+44
+Chapter 2
+Shoutcasters Collecting Conventions
+E-sportscasters, often referred to as shoutcasters, both look and sound like professional
+sportscasters. Their attire and cadence both create an instant connection to televisual sports.
+Having never seen a game of Starcraft 2 before, you may watch the flashing lights and
+explosions with a perplexed look on your face. As you continue to watch, you hear two
+commentators provide a narrative, stats fly across the screen, and you start to piece together the
+game in front of you. After a few minutes, you know the two players who are facing off against
+one another, you feel the excitement as they engage each other's armies, and a slight sting as the
+player you were rooting for concedes the match with a polite "GG." The whole presentation feels
+like a variant of Monday Night Football with virtual armies instead of football teams. From the
+stat-tickers to the sound of the commentator's voice, you can almost imagine the ESPN or CBS
+logo gracing the bottom corner of the screen. Shoutcasters have become a staple in e-sports. One
+of the main signifiers of the 'sports' moniker professional gaming has taken on, shoutcasters lend
+an air of professionalism to a scene which often struggles to define itself. By adopting the 'sport'
+title, a precedent has been set for e-sports broadcasters which informs their style and
+conventions.
+Shoutcasters are important to investigate because they form a fundamental grounding for
+e-sports which helps it to create its identity in the face of blistering turnover rates and constant
+field shifts. E-sports stand in a unique position compared to traditional sports. Where players and
+coaches in traditional sports often have careers that last for several years, e-sports personalities
+    
+ E-Sports Broadcasting 45
+suffer from intense turnover rates where professional careers can end within a year. E-sports
+players burn out quickly and coaches rarely make a lasting name in the industry. The
+recognizable personalities in e-sports are the few innovators and commentators who turned their
+passion into a career. In this chapter, I analyze the role of shoutcasters within the larger
+framework of the e-sports industry. I build much of this analysis on the foundation that Taylor
+(2012) established in her investigation of the rise of e-sports. Much of Taylor's analysis still
+holds true today, but some other developments in the field have created new dynamics within
+shoutcasting that were not present during her initial encounters with shoutcasters. Understanding
+how shoutcasters borrow from earlier forms of media, the issues they perceive within the
+industry, and how they cultivate their own identity as shoutcasters while grappling with the
+hyper-connection found in live-streaming as a medium allows us to grasp the relationship e-
+sports broadcasting has with earlier forms of media while still creating its own identity. I begin
+with a very brief look at the history of shoutcasting.
+Shoutcasting History
+One can see that even early attempts at broadcasting competitive gaming borrowed
+heavily from its media contemporaries. Starcade,a 1982 show that ran for two years, marks one
+of the first forays into e-sports broadcasting. Though the term e-sports had not yet emerged, the
+show featured two opponents attempting to outscore each other on various arcade machines. If
+we look to Starcade as an early example of e-sports, then the origins of e-sports commentating
+resemble game show commentary found in Jeapordy! or The Price is Right. Watching Starcade
+for the hosting alone reveals many similarities to other game shows: the host wears typical game-
+show host garb, pleasantly explains every aspect of the competition, and speaks with the
+    
+ E-Sports Broadcasting 46
+broadcast voice we all recognize. Starcadealso shows the constant evolution of competitive
+gaming coverage as it continued to refine its camera angles, presentation, and format over its two
+year run.
+The model which more closely resembles our modern vision of shoutcasting gained
+momentum at the turn of the twenty-first century. The title shoutcaster comes from the early
+streaming software used for e-sports broadcasting, SHOUTcast. While many people familiar
+with e-sports may have no idea where the term comes from, a prominent shoutcaster, djWHEAT
+(2012), claims that the title remains due to its signaling of the history of e-sports. SHOUTcast, a
+media streaming program, arrived in 1998, allowing interested parties to broadcast audio
+recordings to various 'radio' channels for free. SHOUTcast allowed for video streaming, but as
+one early shoutcaster I interviewed lamented, the bandwidth and equipment required for video
+streaming was prohibitively expensive.
+Instead of the audiovisual broadcast we regularly associate with e-sports live-streams
+today, early shoutcasters relied on audio recordings akin to early radio coverage of traditional
+sports. These early broadcasts only streamed audio to a few hundred dedicated fans on internet
+radio. Early shoutcasts follow the form of traditional play-by-play radio broadcasts, focused
+primarily on presenting every development in the game. In interviews, veteran shoutcasters were
+not shy about admitting the influence radio sportscasters had on their own style. One mentioned
+that he spent hours listening to live sports radio to hone his own skills.
+Early shoutcasters also performed many aspects of the production that they are no longer
+required to perform in the more mature e-sports industry. They would attend events, set up their
+own station, typically with their own laptop and microphone. It was a very grassroots affair.
+    
+ E-Sports Broadcasting 47
+With little experience in the technical aspects of broadcasting, the productions emulated as much
+as they could from sports broadcasting to lend an air of professionalism.
+With the arrival of Twitch.tv, and other reliable streaming platforms, much of the onus of
+production was taken off of shoutcasters. Instead of acting as producers, directors, editors, and
+on-air talent all at once as they had in the early audio-only streams, shoutcasters are now more
+able to focus on the portion of their work from which they get their name. Shoutcasting after the
+early days of internet radio has come to not only sound like traditional sportscasting, but also
+look like traditional sportscasting.
+Something Borrowed: Influences from Sportscasting
+Wardrobe
+Many ofthe shoutcasters I interviewed talked about wardrobe as a huge change within
+shoutcasting, one that was spurred entirely by looking at traditional sportscasting. Most
+shoutcasters got their start wearing t-shirts and jeans at various e-sports events. Today, you will
+rarely find a shoutcaster not wearing a shirt with a blazer. Looking at the image below shows the
+incredible shift in shoutcasting just within the last six years. Both images feature the same
+Figure 2-Left: Joe Miller at 2009 Intel Friday Game London; Right: Joe Miller at 2015 Intel Extreme Masters World Championship in Katowice Poland. Image credit: ESL, Philip Soedler and Helena Kristiansson. Flickr.com/eslphotos
+    
+ E-Sports Broadcasting
+48
+shoutcaster: Joe Miller. The left-hand image comes from the 2009 Intel Friday Game London
+while the right-hand image comes from the 2015 Intel Extreme Masters World Championship.
+While the images are quite similar, the professionalism apparent in the right-hand image
+resembles a professional sportscaster. The gamer/geek vibe found in the left-hand image has
+been removed from the shoutcasting image. As a few of the shoutcasters I spoke with admitted,
+the drive to rework the shoutcaster wardrobe came purely from traditional sports. On top of that,
+they pointed to a desire to shed the gamer/geek stereotypes that e-sports had come to inhabit. By
+adopting professional attire, they felt that they could get rid of the old image and emulate the
+professionalism of a sports broadcast. Wardrobe is not the only aspect of traditional sportscasting
+that has made its way into shoutcasting.
+Style
+One of the more elusive aspects borrowed from traditional sports is the actual
+commentary style. I use the term elusive here to signal the difficulty in pinning down exactly
+why shoutcasters remind us so vividly of traditional sportscasters. Early shoutcasters had no
+models outside of traditional sportscasting so they took as much as they could: "So as a
+broadcaster we look at traditional sportscasting. We pull from that and then make sure it fits in
+game casting." As it turns out, many sports commentary conventions translate well into game
+casting. As such, the first generation of casters share many similarities with television
+sportscasters. Most of these early shoutcasters admit to being influenced almost entirely by
+traditional sportscasters. One caster explains, "Television is where we grew up, it's what we
+watched. So clearly that's where we're going to pull from."
+    
+ E-Sports Broadcasting
+49
+Shoutcasters typically have no media training, instead relying on mimicry of earlier
+conventions to get by. As with most positions in e-sports, and similar to early sports writers and
+radio casters, shoutcasters are just passionate fans turned professional. In conversations, they
+each revealed a bit of their own personal history that pushed them towards broadcasting, but only
+one ever mentioned having received any sort of formal training. Years into his shoutcasting
+career, he "went back and did a journalism and broadcasting course for 6-9 months." Of
+particular note, he mentions, "they did one really good project which was 'how to be a news
+presenter'. They taught me the basics of that." The rest, he says, he learned on-air through
+experience. The other shoutcasters I interviewed echoed this story.
+Most of the shoutcasters I interviewed fell into shoutcasting through happenstance and
+had to learn their craft on-air. Shoutcasters are akin to the very early television sportscasters who
+had to reinvent their style during broadcasts like Bob Stanton, a radio sportscaster turned
+television sportscaster who would send his friends to sports bars to gather feedback and
+suggestions from audience members (Rader 1984). Echoing this inexperience and improvisation,
+one shoutcaster I interviewed confided, "the first time I had ever been on camera, I sat down and
+I was like, 'I have no idea how to do this.' I had done two and a half years of audio casting, but I
+had never done video." Another caster recalls of his first show, "All I knew going into my first
+broadcast was that I know this game. I know how it works, I know these players, and I play
+against these kinds of players. I don't know how commentary works, but I can do this." After
+these first, trial broadcasts, both of the above-mentioned shoutcasters admitted to going back and
+watching traditional sportscasters to learn more about their craft.
+Other broadcasting style conventions such as how to handle dead-air, how to end a
+segment, or how to transition into gameplay were lifted directly from sportscasting. Paul
+    
+ E-Sports Broadcasting
+50
+"ReDeYe" Chaloner, a prominent personality within the e-sports industry, addresses each of
+these techniques in his primer on becoming a professional shoutcaster, constantly pointing to various examples from traditional sports broadcasting to illustrate his points. In his section on dead-air, Chaloner writes, "[o]ne of the best pieces of advice I had for TV was from legendary
+sports producer Mike Burks (11 time Emmy award winner for sports production) who told me 'A
+great commentator knows when to shut up and say nothing"' (2009, 9). Chaloner uses traditional
+sports broadcasting as a way to explain shoutcasting, a clear indication of its influence on e-
+sports broadcasting.
+Content Analysis: Play-by-play and Color Commentary in the NFL andLCS
+Another convention lifted directly from traditional sports broadcasts is the arrangement
+of the casting team. Traditional television sportscasters fall into one of two roles: play-by-play or
+color commentary. Shoutcasters use these same two roles. Both sports broadcasts and e-sports
+broadcasts feature one of each type. The play-by-play commentator narrates the action, putting
+together the complicated and unconnected segments of the game into a cohesive narrative. The
+color commentator provides their in-depth analysis of the game, typically from the stance of a professional player.
+Shoutcasters have adopted the two-person team directly from traditional sports
+broadcasts. The path to each role follows the same pattern as well. An ex-professional player
+almost always fills the role of color commentary in both traditional sports and e-sports. Their
+insight is unparalleled. Color commentators attempt to breakdown complex series of events or
+highly technical maneuvers as if they were still a professional player. In the words of one e-
+sports color commentator, "I'm not pretending to be a professional player, but I'm doing my best
+    
+ E-Sports Broadcasting
+51
+to emulate them." He goes on to say, "You can read up on it and study it as much as you like, but unless you've lived it, you can't really comment on it." In comparison, a play-by-play
+commentator does not need to have the technical depth, but relies more on presentation. Even
+though a play-by-play commentator has most likely played hundreds of hours of whichever game
+they cast, they cannot fill the role of the color commentator. This dynamic allows for play-by-
+play commentators to switch games with relative ease whereas color commentators, both in
+traditional sports and e-sports, are locked into one game.
+To illustrate the emulation of sports broadcasting found in e-sports, I now turn to a brief
+content analysis of the commentary found in a regular season NFL game and a regular season
+League of Legends Championship Series game. I start with the commentary from one play in an
+NFL game. After presenting the traditional model, I move to the commentary from one team
+fight in League of Legends to demonstrate how the convention has been adapted for e-sports
+commentary. In both cases, I have removed the names of players, commentators, and teams to
+cut down on jargon and clutter. Each case exhibits the dynamic present in the two man
+commentary team.
+NFL
+With both teams lined up, the play begins and the play-by-play commentator comes in immediately.
+Play-by-play: Here's [player 1] out to midfield, a yard shy of a first down. [player 2] on the tackle.
+After the play has ended, the color commentator takes over.
+Color: It's been [team 1] on both sides of the ball. Whether it be defense and the way that they dominated this ball game and then offensively, the early going had
+the interception, didn't get much going over the next couple of possessions offensively but since that time, [player 3] has been very precise in how he has thrown the football and they just attacked this defense every which way.
+    
+ E-Sports Broadcasting
+52
+LCS
+Three members ofthe Red Team engage Blue Team atRed Team's turret
+Play-by-play: This is going to be dangerous. Doing what he can to hold out. They're going to grab the turret, the fight will continue after the shield onto [player 1] is already broken. He gets hit, the ignite is completely killing the
+ultimate! He gets hit by [player 2] who turns around again and heads back to [player 3].
+With the action overfor the moment, the colorcommentatorbegins to speak
+Color: I thought he finished a camp here too...
+The color commentatoris cut off as two more members ofBlue Team attempt to attack.
+Play-by-Play Heyo, as the top side comes in here too. [player 1], will he hit a good ultimate!? Oh! They were staring right at him but now he's just left to get shredded apart here. They couldn't have thought that this was going to go well for them.
+With thefightconcluded, thecolorcommentatorcontinuesagain.
+Color: Is this just the week of chaos? Because that was a really really uncharacteristic lapse in judgement from [Blue Team]: Not calling everybody into
+position at the right time, and [Red Team] with the advantage make them pay for it. They didn't expect the ignite from Nautilus. I think they expected Nautilus to
+have exhaust instead, but [player 1] pops the ignite, and as we said there is no armor so [player 2] just... and it continues!
+The color commentator is cut off once again as the two teams engage one another for a third time.
+If we look at these examples for their content rather than the specific moment in the game we can
+catch a full illustration of the two-caster dynamic. As we can see by the NFL example, the play-
+by-play commentator provides a running narration of the action in the game. When the action
+ends, the color commentator provides the meta-level analysis of the unfolding events. In the LCS
+example, we see that the same dynamic is present, however, due to the continuous action in the
+game, the transition into color commentary becomes difficult. In the first lull, the LCS color
+    
+ E-Sports Broadcasting
+53
+commentator tries to insert his analysis, but he is cut off by a second engagement. The color
+commentator stops talking immediately and allows the play-by-play commentator to continue
+describing the action. After the engagement ends, we hear the color commentator pick up again, explaining why the fight developed the way it did as well as his insight into why the teams played the way they did.
+Entertainment and Narrative
+Entertainment value was a repeated concept in my interviews with shoutcasters. Some
+went so far as to claim that their role was only to entertain. One stated, "I want to get you
+excited. I want to get you to watch the game as if it was a show on television." Many would
+point to good sportscasters as an example to follow. If we recall the example of the early days of
+radio sportscasting, casters had a difficult time making the transition to the new medium. Their
+broadcasts felt flat when compared with their print counterparts (Bryant and Holt 2006, 27).
+Early sportscasters got locked into the idea that their responsibility was to provide the basic play-
+by-play depiction of a match. The golden age of sports radio was brought in by popular
+sportscasters, such as Graham McNamee, who were so popular that they'd be asked to cast
+games remotely. McNamee, like a live version of his print counterparts, was famous for creating
+florid depictions of the game, athletes became heroes and their play became combat as told by
+McNamee. While the presentation of live and accurate information was still essential, popular
+radio sportscasters shifted sports media from news reports to entertainment. Sportscasters are
+responsible for this shift. Without their expert embellishment, play-by-play depictions lack
+entertainment value.
+    
+ E-Sports Broadcasting
+54
+Even non-sports fans can feel the excitement from a particularly good sportscaster. The
+game they portray is far more intriguing than any actual events happening on the field (Bryant,
+Brown, Comisky, and Zillmann 1982). This disconnect forms one of the primary reasons that the
+transition to casting televised sport was so difficult. The small liberties that sportscasters took
+were no longer acceptable in the visual medium. Once the home viewer could see the game,
+commentary had to shift to accommodate more scrutiny. Radio sportscasters were notorious for
+their embellishment. As Bryant, Comisky, and Zillman note from one of their several
+investigations of sportscasting, roughly forty percent of commentary is dramatic embellishment
+(1977). In 1977, the authors tracked the amount of hyperbole and exaggeration in sports
+broadcasting and found that over half of the speech was dedicated to drama. E-sports
+shoutcasters, by comparison, rarely use dramatic embellishment of action. A few of the
+informants noted that they feel that embellishing actions is not possible due to their audience.
+The e-sports audience as pictured by shoutcasters, includes mostly dedicated players.
+While many sports fans may play their sport casually, e-sports fans engage with the games they
+watch regularly. As one shoutcaster explains, "we've only ever gone out to a hardcore audience."
+He acknowledges that the current audience is in flux, but the primary base of e-sports fans are
+intensely dedicated viewers and players. Because of this dynamic, shoutcasters feel that
+embellishment of the actions on screen would be difficult to slip past a discerning eye. Their
+belief that dramatic embellishment isn't possible may say more about their understanding of
+traditional sports fans than it does about their formulation of their role as commentators. While
+unacknowledged in interviews, the possibility for shoutcasters to add embellishment exists. Their
+choice not to use embellishment speaks more to their formulation of the e-sports audience than it
+    
+ E-Sports Broadcasting
+55
+does to their casting quality. Instead of embellishment of action, shoutscasters rely on another
+convention found in traditional sportscasting: narrative.
+Studies that focus on the media effects of sportscasting suggest that sportscasters
+fundamentally alter the audience perception of the telecast through story-telling and narrative
+(Krein and Martin 2006). Sportscasters take many liberties in their descriptions of the game to
+add a dramatic flair. In several empirical studies, Bryant, Brown, Comisky, and Zillman (1979)
+found that when sportscasters created a narrative of animosity between players, viewers felt an
+increased amount of tension and engagement. They conclude that the narrative scope of the
+sportscaster is critical in the perception of sports broadcasting. This narrative creation has bled
+into shoutcasting as many shoutcasters attempt to amplify the emotional content of their games
+by highlighting underdog stories or hyping up animosity between players. One caster I
+interviewed connected his work to the narrative creation in sports commentary by stating,
+"Emotion is one of the key words in commentary. You need to be able to connect a certain
+emotion to the words you're saying. You need to be able to make someone scared for their
+favorite player or overjoyed when they win. Create greatest enemies. You need to be able to
+make these feelings through what you say or how you say it. Emotion is everything." This caster
+goes to great lengths to dig up statistics from previous matchups to provide a narrative for the
+match he casts. Through this investigation, the shoutcaster is able to contextualize a match with a
+rich history. Perhaps two players have met three times before and each time the result has been
+the same. Will viewers be able to share in the momentous victory of the underdog? As part of
+their preparation, shoutcasters will research all of the previous meetings between two players to
+create a history between them, a tactic which they acknowledge has been used in traditional
+sports for decades.
+    
+ E-Sports Broadcasting
+56
+Production
+Stream production is another realm where e-sports have started to borrow heavily. While
+e-sports producers may have gotten a head start on streaming live events, they often rely on the
+expertise of television producers to put a show together. Multiple shoutcasters pointed to a
+steady influx of television producers making their way into e-sports, "the way we approach a
+production is very much like television. A lot of the production guys that are getting into it are
+from television." In fact, the executive producer of the League of Legends Championship Series, an immensely popular e-sports program, is former emmy-winner Ariel Horn. Horn won his Emmy as an associate producer of the 2004 Olympics for NBC. Likewise, Mike Burks, executive producer for the Championship Gaming Series mentioned in the above quote from Paul Chaloner, had an immense amount of experience in televised sports before migrating to e- sports. These are just two of the many experienced television producers making their way into e- sports. Their style is beginning to show as e-sports events become more polished every year. If we recall the image of Prime Time League in the introduction to this thesis, we can see the influx of television conventions in e-sports from the production side. The shoutcasters benefit from the experience of working with television producers to refine their style. As the field has grown, however, we begin to see minor tweaks in style and delivery. Spending a significant time with e- sports casting, in comparison with sportscasting, reveals several distinctions. Much of this difference comes with the age of the field, but just as Starcadeevolved over its short lifespan, shoutcasters have found ways to make themselves unique. Their understanding of their role within the overall e-sports industry informs us of some of the key differences here.
+    
+ E-Sports Broadcasting
+57
+Something New: Shoutcaster Identity
+Shoutcasters are situated somewhere between fan and professional. As evidenced by the
+above investigation of how shoutcasters are informed by their traditional predecessors, the role
+of shoutcasters is still very much in flux. Shoutcasters are just recently creating their own
+identity separate from their sportscasting roots. In particular, the less experienced shoutcasters I
+spoke with use markedly different models to inform their own casting.
+The Second Generation of Professional Shoutcasters
+A second generation of casters is just now coming into the scene. Instead of looking to
+traditional sportscasters as their models, they emulate veteran shoutcasters: "my influences are
+the streamers that I watched. I watched everyone who casts and commentates...my commentary
+style comes from those guys. I don't know how much is conscious or just mimicry." This new
+caster has been on the scene for only a fraction of the time that the veterans have. In that time he
+has honed his shoutcasting skills not by finding sports commentary and seeing which aspects
+apply to shoutcasting, but by absorbing as much information as he could from other shoutcasters.
+Another fresh shoutcaster offers a fascinating disconnect from the older casters: "I definitely
+bounce off more e-sportscasters than sports. I just watch more e-sports than sports. Sports are so
+different than e-sports, there's so little that I can actually use from them." Where his
+predecessors admit to borrowing primarily from traditional sportscasters, this new generation has
+left the realm of traditional sportscasting behind.
+The professional casters provide material for an amateur level of shoutcasters to pull
+from. The shoutcasters I interviewed were all professionals who typically work on major events
+with massive support and budgets. With a robust network of shoutcasters to pull from, however,
+    
+ E-Sports Broadcasting
+58
+we may see much more support for the grassroots level of e-sports that many early fans are
+accustomed to. Current shoutcasters also provide a model for potential careers. Through the
+hard-fought struggle of years-worth of unpaid events, the shoutcasters I spoke with have created
+a legitimate profession worth pursuing. Most warned me that the path is no longer as easy as they
+once had it. Most of them pursued shoutcasting for the love of e-sports. They had years to
+fumble through persona creation, broadcast techniques, and conventions.
+New, potential shoutcasters are automatically held to a higher standard. A senior caster
+offered the following advice, "With how casting has changed, you need to be open to casting
+multiple games. You have to be willing to learn. There is a lot we can teach a caster, but you
+have to have some skills within you alone. You have to have some camera presence." The
+mention of camera presence signals a significant jump from early shoutcasting. Just a few years
+ago, the shoutcasters I interviewed sat down in front of a camera for the first time armed with
+nothing but game knowledge; camera presence was a foreign word to them.
+Perhaps the most significant change to casters is their overall level of experience. Some
+of the shoutcasters I spoke with have been broadcasting for over a decade. Time has allowed
+these casters to experiment and find their own style. As mentioned earlier, many of the minutia
+involved in running a show take time to learn. Most casters got their start casually. They may
+have been passionate about e-sports and created a role for themselves within the industry. Some
+are former players who made the hard decision to give up on their hopes of winning big to
+instead cultivate a community.
+As new professionals, shoutcasters are just now coming together with the support of e-
+sports companies under legitimate full-time contracts. The professional casters I spoke with all
+acknowledged a significant change in their commentary since making the transition into full-time
+    
+ E-Sports Broadcasting
+59
+casting with other casters around for feedback and training. One explained that he had never
+been sure how to handle dead-air, moments when both casters are silent and there is little action
+in the game. Through feedback sessions with other casters, he learned that there are some
+appropriate times to let the viewer formulate their own opinions on the match. Heeding the
+advice of veteran casters like Paul Chaloner, he went on to explain that one of the problems he
+sees in shoutcasting more generally is that shoutcasters are afraid to just be quiet during a stream.
+Part of the emotional build-up of a game, he explains, is letting the natural flow of a game take
+its course without any input from the casters.
+It will be fascinating to watch as these expert networks inform e-sports broadcasts across
+the world. One informant remarked, "Now that we're all working together, we're learning a lot
+off of one another, which hasn't happened in commentary before." Beyond allowing veteran
+shoutcasters to compare notes, the professional status of shoutcasting provides training to new
+shoutcasters. One veteran claimed, "All the junior people are learning so much faster than we
+ever did. They're taking everything we learned over 5-10 years and doing it in months." These
+veteran casters can now pass on their experience and their style. Techniques like hand-offs at the
+end of a segment or transitions from the desk to gameplay often came up in my interviews as
+issues which take years to learn, but newer shoutcasters are able to pick these cues up from
+earlier shoutcasters instead of taking what they can from a sports show and hoping that
+everything translates well.
+Beyond the expected roles that shoutcasters fill, they also perform many secondary tasks
+which don't typically fall to traditional sportscasters. In the very early days of live-streaming, shoutcasters were often responsible for every aspect of the broadcast from set-up to teardown. Some shoutcasters still regularly assist on production aspects of the broadcast such as graphics
+    
+ E-Sports Broadcasting
+60
+packages, camera set-up, and audio checks, but others leave the production aspects of the stream
+to more experienced hands while focusing instead on updating websites, answering tweets, creating content, or streaming their own play sessionss. No two casters seem to fill exactly the same role within the broadcast team. They do, however, share some similarities which seem to form the shoutcaster identity.
+Record-keepers and Community Managers
+All of the casters pointed to stats-tracking as part of their roles outside of their air-time
+responsibilities. Most of them keep highly detailed databases full of every possible stat they can
+get a hold of from game clients and public databases. These stats can be as simple as wins and
+losses from remote regions or LAN tournaments that do not post their results online. The stats
+can also get as minute as the number of units a particular Starcraft 2 player built in one particular
+match. When the data isn't readily available, shoutcasters go out of their way to curate the
+database themselves. While some keep their database secret to provide a personal flair to their
+casting, others find it important to share this information with their e-sports communities. One
+shoutcaster recalled his surprise when he first worked with a major South Korean e-sports
+company with its own dedicated stats team. He expressed that he had never realized how much
+he needed a dedicated stats team like you find in traditional sports until that moment. It was then
+that he realized how much of his daily routine stats curation filled. While he was grateful for the
+help, he also felt personally responsible for stats collection and did not entirely trust the figures
+from the professional statisticians. This example shows the difficult position e-sports fills,
+constantly stuck between borrowing from traditional sports while not fully able to cope with the
+maturity of the sports media industry.
+    
+ E-Sports Broadcasting
+61
+Another role which tends to fill a shoutcaster's daily routine is community maintenance.
+Whether the caster creates their own content on gaming sites, responds to fans on social media,
+or spends their time streaming and interacting with the community, they all mentioned some
+form of community maintenance as part of their duties as a shoutcaster. This particular focus on
+community maintenance most likely results from the grassroots origins of shoutcasters. These
+casters were a part of an e-sports community long before they became shoutcasters. Whether
+they view it as their professional responsibility or a social responsibility remains unclear. They
+all admit to some level of e-sports advocacy, however. They view PR, and the proliferation of e-
+sports as part of their responsibilities. The most effective way to tackle this issue, many of them
+have decided, is through community engagement. The community aspect of shoutcasting identity
+leads me to a discussion of the affordances of the hyper-connectivity in live-streaming.
+Grappling with the Hyper-Connectivity in Live-streaming and E-sports
+Shoutcaster Connection
+I have yet to meet anyone in the e-sports industry who has not remarked on the unique
+level of connection present in e-sports. Shoutcasters especially, tap into the network created in
+these online communities. In a representative summary of my conversations, one shoutcaster
+explained, "the connectedness is so unique in e-sports. The way that we can interact with fans
+instantly. The players at the end of the day are gamers, they know exactly where to look.
+They've got Twitter, they go on Facebook, they post on Reddit." Audience members connect
+ephemerally in the IRC of a Twitch stream, but they constantly scour the social media outlets of
+their favorite stars, e-sports companies, and shoutcasters, creating a deeply connected
+community. Professional shoutcasters understand that the e-sports communities operate in a
+    
+ E-Sports Broadcasting
+62
+unique way when compared to traditional sports fandom. E-sports fans have an odd connection
+to franchises or teams within their chosen e-sport. As mentioned before, turnover rates and
+general industry growth force entire communities to radically reform from one season to another.
+Where traditional sports fans often follow a team based on geographic loyalty, or
+familial connections, e-sports fans do not have that option. While you will often hear of fans
+cheering for teams in their geographic region (North America, Europe, South-East Asia, etc) if
+they make it to the last few rounds of an international tournament, they may also base their
+fandom off of a team logo, or a particular player instead. Shoutcasters recognize this dynamic
+and use it to cultivate the community.
+Communication, they claim, separates them from traditional sports broadcasts or even
+news anchors: "We communicate more with our audience than you'll see TV news anchors or
+celebrities, but it's part of our job to get more information out there." The focus on
+communication seems to be unique to shoutcasters as the majority of it happens outside of their
+broadcasts. While many shoutcasters define their role on-screen as an educator of sorts, the
+notion of spreading information about e-sports falls outside of their screen time. This double role
+of broadcaster and community manager extends what media scholars have dubbed the
+broadcasting persona beyond the point typically associated with sportscasters or news anchors.
+Shoutcasters and Persona
+Horton and Wohl (1956), two social scientists who study mass media, make the assertion
+that mass media performers make a conscious decision to create and maintain parasocial
+interactions through the creation of a persona. Social scientists have coined the term parasocial
+interaction for the intangible connection which most of us feel to some form of media or another.
+    
+ E-Sports Broadcasting 63
+Standing in contrast to interpersonal interaction, a person to person exchange between two real
+and cognizant human beings, parasocial interaction is instead a unidirectional relationship
+(Miller and Steinberg 1970). The feeling of connection we create with fictional characters, news
+anchors, or sports stars does not fall within the definition of an interpersonal interaction. Whether
+mediated through a screen or the pages of a book, a parasocial interaction does not manifest in an
+exchange of thoughts or words between individuals. Rather, it is embodied and lived through one
+individual. Schiappa et al. (2007) conducted a meta-analysis of parasocial interaction literature to
+better understand how broadcasters 'hook' viewers to a certain show. They concluded that
+parasocial interactions can create and prolong connection to television programming. While
+Schiappa et al. concede that there are a few opportunities for a parasocial interaction to result in
+interpersonal relationships in the physical world, the compelling issue is the establishment of
+intimacy mediated through means well outside of a person to person context.
+Horton and Wohl set out with the goal of creating a term for the relationship between
+performers and their audience in mass media. The authors suggest that the emergence of mass
+media created an illusion of connection to performers which was previously unavailable. They
+argue that the connection people feel to mass media stars is analogous to primary social
+engagement. If this type of engagement takes place in radio and television, where users have no
+opportunity to interact with audience members who are not co-present, it follows that the
+interaction between broadcasters, their audience, and one another in a Twitch stream is a
+particularly deep connection even beyond the level noticed by Horton and Wohl.
+Shoutcasters create a familiar face and personality for audience members to connect with.
+Mark Levy (1979), another proponent of parasocial interaction who focused his work on news
+anchors, suggests that both news anchors and sportscasters help to create and maintain
+    
+ E-Sports Broadcasting 64
+communities through regular scheduling, conversational tones, and the creation of a broadcasting
+persona. Shoutcasters perform this same role to even greater effect due to the constant changes
+surrounding the e-sports industry. The regularity and consistency of shoutcasters' broadcasts
+helps to foster a feeling of genuine connectedness within the community.
+Although difficult to quantify, many conversations with shoutcasters turned to the odd
+feeling of connection that e-sports fans feel towards one another. One shoutcaster attempted to
+explain this connection by stating, "[w]henever I go to an event, I realize that fans are just
+friends I haven't met yet." I found this statement to be particularly poignant. It hints to the sort of
+intangible connection e-sports industry personalities and fans feel to one another through live-
+streams. Anecdotally, this air of friendship permeated e-sports events that I have attended and
+went well beyond what I have felt at traditional sporting events or concerts.
+Previously, persona creation and maintenance occurred on-screen or at events only.
+Social media has forced many media personalities to extend their personas beyond the long-held
+notions of broadcaster-fan interaction. In many ways, shoutcasters must go beyond even these
+extended boundaries into a near constant persona maintenance because of their roles in live-
+streaming and community maintenance. Many shoutcasters give up their personal, off-air time to
+stream their own gameplay or to create video content which necessarily prolongs the amount of
+time they embody their broadcast persona.
+I found that shoutcasters create a variation on the broadcast persona. Rather than a full-
+blown broadcasting personality which they inhabit while on-air, most shoutcasters have found
+that between community management, social media interactions, and broadcasts, they almost
+never get an opportunity to step out of their role as a shoutcaster. Due to this near constant
+connection, most shoutcasters acknowledge that they act differently on air, but they tend to
+    
+ E-Sports Broadcasting 65
+simply invoke a more upbeat and charismatic version of themselves. Echoed in each of the
+interviews, the casters point to the idea of excitement, "you have to get excited for the person out
+there watching." Even if they are not in the mood to shoutcast, or they have had a bad day,
+shoutcasters must leave their personal issues out of the broadcast. This aspect of the
+shoutcaster's personality comes out in all of their interactions on social media as well.
+Most of the shoutcasters I interviewed situated their role in e-sports as somewhere
+between Public Relations, Marketing, and Community Management. One of the casters
+explained the importance of invoking the broadcast persona when speaking about sponsor
+expectations: "We're working in an industry with companies behind us, we can't always say
+exactly what we want to say." Shoutcasters' acknowledgement of their involvement in securing
+sponsorships signals an interesting shift in the e-sports industry: the focus of the broadcast team
+on potential revenue generation. I turn now to an analysis of the revenue streams found in both
+traditional sports and e-sports broadcasting.
+    
+ E-Sports Broadcasting
+66
+Chapter 3
+Revenue
+Funding Professional Play
+After situating e-sports broadcasting within the greater sports media landscape,
+particularly in conventions, casting, and use of medium, it is important to analyze the portions of
+sports media production that have made their way into e-sports broadcasting. If we acknowledge
+the influence that traditional sports broadcasting has had on e-sports broadcasting in the realms
+of conventions and casting, we must also understand the importance of this relationship at the
+production and economic levels. In this chapter I discuss how the history and development of the
+sports media industrial complex in the U.S. has bled into the economics of the e-sports industry.
+In particular, I focus on how sports media models inform the e-sports industry while portions of
+the sports industry's revenue streams remain out of reach for e-sports broadcasters. Despite the
+reshuffling of the sports media industrial complex mentioned in the introduction to this thesis,
+traditional sports broadcasting still relies on the same revenue streams that it had in the past.
+Traditional sports producers have fully capitalized on the commodification of their content. E-
+sports producers, in contrast, are still shaping their revenue streams within live-streaming. The
+commercialization found in the sports media industrial complex has taken hold of the e-sports
+industry in several notable ways. Following in the example set by Stein's thesis work, it is not
+enough to just acknowledge the relationship between e-sports and traditional sports media, we
+must also understand the path which brought e-sports broadcasting to its current state.

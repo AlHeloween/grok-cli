@@ -1,0 +1,117 @@
+[
+  {
+    "questionId": "doc_655",
+    "question": "What are the core differences between fundamental analysis and technical analysis, in what they measure and how they are used? Include criticisms or downsides of each analysis to explain the differences in practice.",
+    "systemInstruction": "[question]\n [user request]\n \n\n =====================\n \n\n [text]\n [context document]\n \n\n =====================\n \n\n [instruction]\n Answer the question using only the information provided in the context. Do not rely on external knowledge or sources.",
+    "retrievedChunksCount": 6,
+    "topChunks": [
+      {
+        "path": "doc_069.txt",
+        "text": "How Banks Can Get Involved in the Cryptocurrency Industry\n To avoid being left behind, banks need to find a way to embrace this technology and treat it as a friend rather than an enemy. Cryptocurrency...",
+        "distance": 0.0001246333122253418
+      },
+      {
+        "path": "doc_567.txt",
+        "text": "packaging material. One of them asked a store employee for help,\nand two pulled out their mobile phones to look online. She then\nwatched a woman go right to a particular shelf, grab a pillow and\nhead ...",
+        "distance": 0.00014483928680419922
+      },
+      {
+        "path": "doc_671.txt",
+        "text": "1.0 out of 5 stars\nWorst customer service ever!!\nPurchased an 85 inch from Best Buy. Worked fine for a month or two then the sound started going\nout I would have to literally turn the TV off and back ...",
+        "distance": 0.00017404556274414062
+      }
+    ]
+  },
+  {
+    "questionId": "doc_115",
+    "question": "Give me a bullet point list of all the categories of personal information that can be legally collected in the state of California. Then, in 200 words or less, explain why this information is taken and why it is sometimes sold.",
+    "systemInstruction": "[question]\n [user request]\n \n\n =====================\n \n\n [text]\n [context document]\n \n\n =====================\n \n\n [instruction]\n Answer the question using only the information provided in the context. Do not rely on external knowledge or sources.",
+    "retrievedChunksCount": 6,
+    "topChunks": [
+      {
+        "path": "doc_777.txt",
+        "text": "2\n\n“Packing Instruments” comprises primary and secondary packing for Merchandise.\n\n“Rheumatoid Arthritis” refers to the indication for which Nitec Pharma initially endeavours to obtain Approval.\n\n“Act...",
+        "distance": 0.000041961669921875
+      },
+      {
+        "path": "doc_476.txt",
+        "text": "In December 2008, an American hobbyist successfully attached a pistol \nwith a digital-camera gunsight to a minicopter and remotely fired \nthe pistol. The hobbyist filmed his stunt and posted the foota...",
+        "distance": 0.00027173757553100586
+      },
+      {
+        "path": "doc_232.txt",
+        "text": "(3) submit to the Committee on the Judiciary of the House of Representatives and the Committee on\nthe Judiciary of the Senate on a semiannual basis a report on the implementation of this subsection\nan...",
+        "distance": 0.0002810955047607422
+      }
+    ]
+  },
+  {
+    "questionId": "doc_026",
+    "question": "What is optimal foraging theory when compared to automotive theft?",
+    "systemInstruction": "Present your answer without any extraneous information.",
+    "retrievedChunksCount": 6,
+    "topChunks": [
+      {
+        "path": "doc_817.txt",
+        "text": "-$575,957,329.13 \n\t-$2,040,513.78 \n\t-$36,955,115.99 \n\t-$614,952,958.90\n\tManagement \n\t$0.00 \n\t-$397,735,328.22 \n\t-$56,187,767.71 \n\t-$453,923,095.93\n\t\n\n\n\n1 \n2 \n3 \n4 \n5 \nSource: The Hunt Institute for Gl...",
+        "distance": 0.000013470649719238281
+      },
+      {
+        "path": "doc_328.txt",
+        "text": "It provides sample language to be used as a starting point; the\nwording is not to be copied without review and thought.\nTo help distinguish sample document language from\nexplanatory text, a straight b...",
+        "distance": 0.0001404285430908203
+      },
+      {
+        "path": "doc_424.txt",
+        "text": "Faculty with emerit status may remain on the committee if they were members when the\nproposal was accepted and were full-time tenured, university graduate faculty. A faculty member\noriginally on a stu...",
+        "distance": 0.00018471479415893555
+      }
+    ]
+  },
+  {
+    "questionId": "doc_760",
+    "question": "According to this report, can someone vote in the Annual Meeting if they bought shares in Tripadvisor for the first time 3 months before the meeting date?",
+    "systemInstruction": "Respond using only the information contained within this prompt.",
+    "retrievedChunksCount": 6,
+    "topChunks": [
+      {
+        "path": "doc_406.txt",
+        "text": "signed- or unsigned-integer format (e.g., a format containing a “I”, or “UI”\nin its token), and samples is not zero, and the implementation doesn’t\nsupport multisampled integer buffers. Finally, if th...",
+        "distance": 0.000012934207916259766
+      },
+      {
+        "path": "doc_039.txt",
+        "text": "LSB10245 · VERSION 5 · UPDATED\nconstitutional issues discussed, oftentimes in succinct terms, by the district court in Brackeen. The\nrelationship between the Supreme Court’s jurisprudence on equal pro...",
+        "distance": 0.00009369850158691406
+      },
+      {
+        "path": "doc_567.txt",
+        "text": "If you are selling to the enterprise, you should also think about the\ndiferent kinds of participants in your sales process. In a classic\nenterprise sale, you will ofen have a strategic buyer (who is e...",
+        "distance": 0.00009953975677490234
+      }
+    ]
+  },
+  {
+    "questionId": "doc_282",
+    "question": "In less than 250 words. Explain what I Bacillus cereus. Provide where the bacteria is found mostly. What temperature does it multiply quickly in and does it form a toxin? If so, what area of the body will contain the illness from the toxin? What are the symptoms of B cereus.",
+    "systemInstruction": "Answer the question based solely on the information provided in the passage. Do not use any external knowledge or resources.\n \n\n [user request]\n \n\n [context document]",
+    "retrievedChunksCount": 6,
+    "topChunks": [
+      {
+        "path": "doc_594.txt",
+        "text": "Mistake #5: Neglecting to transfer unused tax credits\nto other family Mmembers\nAs mentioned above, individuals can transfer some of their tax credits to a spouse if\nthey don’t have enough income or ta...",
+        "distance": 0.002361893653869629
+      },
+      {
+        "path": "doc_698.txt",
+        "text": "401 West Thames Street Southbury Training School\nNorwich, CT 06360\nSouthbury, CT 06488\n860-889-7378\n203-267-7610\n\n1666 Litchfield Turnpike\nWoodbridge, CT 06525\n203-397-2949\n\nSilver & Holmes Street\nMid...",
+        "distance": 0.0038626790046691895
+      },
+      {
+        "path": "doc_546.txt",
+        "text": "The results of viral culture in one of the included studies showed that saliva collected from COVID-19 patients, may contain live viruses which may allow transmission of virus from person to person [9...",
+        "distance": 0.010040342807769775
+      }
+    ]
+  }
+]

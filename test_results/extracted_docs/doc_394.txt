@@ -1,0 +1,32 @@
+Application of HIPAA Requirements to Health Care
+Providers During the COVID-19 Emergency
+Although health care providers must typically comply with HIPAA’s requirements, HHS has said it will
+use its enforcement discretion to provide temporary relief in response to the COVID-19 pandemic. As
+detailed in this Report, federal agencies enjoy discretion in deciding whether to bring enforcement
+actions, and courts generally decline to review such decisions. Given this discretion, the HHS OCR has
+announced that during the COVID-19 public health emergency it is “exercising its enforcement
+discretion” not to enforce the HIPAA rules against health care providers providing telehealth services in
+good faith.
+In its notice of enforcement discretion, OCR explained that health care providers may use “non-public
+facing audio or video communications products” such as “Apple FaceTime, Facebook Messenger video
+chat, Google Hangouts video, Zoom, or Skype” without the risk that OCR will seek a penalty for HIPAA
+Congressional Research Service 4
+LSB10490· VERSION 1 · NEW
+non-compliance. OCR encourages providers to notify patients of the potential privacy risks of these
+platforms, and also to enable all privacy modes and encryption where available. OCR noted, however,
+that health care providers who seek “additional privacy protections” should provide such services through
+technology vendors that are HIPAA compliant and will enter into business associate contracts. It
+identified several vendors—such as Skype for Business, Zoom for Healthcare, and Google G Suite
+Hangouts Meet—who have represented that they are HIPAA compliant and willing to enter into business
+associate contracts, although OCR disclaimed that it was validating any of the vendors’ HIPAA
+compliance. OCR said, however, that health care providers should not use public-facing services such as
+“Facebook Live, Twitch, TikTok,” and similar “public-facing” applications, and it further explained in a
+separate publication that use of these services could be evidence of “bad faith” subject to enforcement.
+OCR’s notice of enforcement discretion does not have an expiration date, and OCR has said that it will
+notify the public when it no longer applies.
+DOJ, unlike OCR, has not declared that it will refrain from exercising its criminal enforcement
+authority during the COVID-19 emergency. Consequently, individuals may still be liable for
+“knowingly” obtaining or disclosing PHI in violation of HIPAA’s requirements. However, while
+OCR did not address criminal liability in its notice of enforcement discretion, it might choose not
+to refer cases to DOJ for criminal prosecution that involve a health care provider relying in good
+faith on OCR’s notice of enforcement discretion.

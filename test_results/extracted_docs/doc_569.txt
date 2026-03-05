@@ -1,0 +1,34 @@
+**WHAT’S NEW WITH SOUNDCLOUD IN FEBRUARY: CARPLAY, 2FA, AND MORE**
+
+As winter is winding down, we’re starting to get hot. Read on for more information about our latest launches and updates to SoundCloud. In case you missed it:
+
+Apple CarPlay is here
+
+Road trips just got better: SoundCloud is available on Apple Carplay for Go, Go+, and Next Pro subscribers. 
+
+Protect your account with 2FA
+We know how much time it took to create that track or curate that perfect playlist. At SoundCloud, we love people who love music and are committed to keeping their data as safe as possible. That’s why your security is such a priority to us, and why we’re encouraging you to up your security game by enabling two-factor authorization (2FA).
+
+After pairing your device with a 2FA app, you will now be asked to enter a quick security code whenever you log in to your account to prove it’s you, not a bot or hacker.
+
+Learn how to enable two-factor authentication here. 
+
+Refreshed music algorithms and recommendations
+
+Most streaming services recommend tracks based on what similar people are listening to. If someone similar to me listens to and likes “Fred Again”, chances are I’ll be recommended “Fred Again”.
+
+That obviously works well for artists who are already being heard. But what about all of the songs that don’t have any plays yet? Well, that’s exactly the problem with most music algorithms. They simply can’t recommend tracks with zero plays. If no one has listened yet, they’ve got no signals.
+
+Next Pro changes the game. Using AI, we can quickly analyze tracks and surface them to listeners who are likely to enjoy them. Even if they were just uploaded and have zero plays. 
+
+If you’re not already on Next Pro, sign up today and get your first 100 plays. 
+
+Bulk edits in Track Manager page
+
+We recently updated the Track Manager to make the creator workflow more intuitive and easy. Now, you can bulk edit multiple tracks at once, add tracks to playlists, and quickly edit a single track. 
+It’s part of a greater revamp to improve our web experience and refresh our product over the coming months, so watch this space.
+
+Removal of Sync with SoundCloud 
+We removed a massive amount of friction and frustration within the “Monetize” tab. Previously artists had to manually push a button to sync the data to see their tracks, resulting in confusion. Now, tracks are automatically synced. 
+
+Stay tuned and make sure to follow us at @SCSupport for the latest.

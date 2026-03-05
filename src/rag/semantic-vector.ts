@@ -61,7 +61,7 @@ export function getGloveLoader(): GloVeLoader {
 /**
  * Tokenize text into lowercase words, removing stopwords and non‑alphabetic characters.
  */
-function tokenize(text: string): string[] {
+export function tokenize(text: string): string[] {
   return text
     .toLowerCase()
     .split(/[^a-z']+/)

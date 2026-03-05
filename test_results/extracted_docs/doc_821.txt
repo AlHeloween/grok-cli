@@ -1,0 +1,37 @@
+Mobile and Portable Devices
+Portable and mobile devices that operate in the Cellular Radiotelephone Service (47 CFR 22
+Subpart H), the Personal Communications Service (PCS) (47 CFR 24), the Satellite
+Communications Service (47 CFR 25), the Wireless Communications Service (47 CFR 27), the
+Maritime Service (ship earth stations only) (47 CFR 80), and Specialized Mobile Radio Service
+(47 CFR 24, 25, 27, 80 (ship earth stations devices only) and 90) at frequencies of 1.5 GHz or
+below and their effective radiated power (ERP) is 1.5 watts or more, or if they operate at
+frequencies above 1.5 GHz and their ERP is 3 watts or more, are subject to RF emissions
+requirements as specified in the rule part that they operate under. All of these portable and
+mobile devices are also subject to the routine environmental evaluation for RF exposure
+requirement of 47 CFR 2.1091 (bottom of page 706) (mobile devices) and/or 47 CFR 2.1093
+(page 708) (portable devices) prior to equipment authorization or use.
+Portable devices operating in the Wireless Medical Telemetry Service (WMTS) (47 CFR Part 95
+Subpart H) and the Medical Device Radio communications Service (MEDRADIO) (47 CFR 95
+Subpart I) are subject to RF emissions limits as specified in the rule part they operate under
+and also to routine environmental evaluation for RF exposure prior to equipment
+authorization or use. Unlicensed PCS (47 CFR Part 15 Subpart D), Unlicensed National
+Information Infrastructure (U-NII) (47 CFR Part 15 Subpart E), and millimeter wave devices (47
+CFR Part 15 Subpart C) are subject to RF emission requirements specified in the rule section
+they operate in and are also subject to routine environmental evaluation for RF exposure
+prior to equipment authorization or use if their ERP is 3 watts or more or if they meet the
+definition of a portable device. All other mobile and portable devices are categorically excluded
+from routine environmental evaluation for RF exposure.
+The FCC differentiates mobile and portable devices by the proximity to the user during use.
+Mobile devices, covered under 47 CFR 2.1091 (page 706), are defined as a transmitting device
+designed to be used in other than fixed locations and generally used in a manner that the
+radiating structure is at least 20 cm from the body of the user or nearby persons. Examples of
+mobile and portable devices include cellular and PCS mobile telephones with vehicle mounted
+antennas and other radio devices that use vehicle mounted antennas. These devices must be
+evaluated for exposure potential with respect to Maximum Permissible Exposure (MPE) limits
+for field strength or power density or with respect to specific absorption rate (SAR) limits,
+whichever is most appropriate for the specific use and operating configuration of the device.
+Portable devices, covered under 47 CFR 2.1093 (page 708), are defined as a transmitting device
+designed to be used so the radiating structure is within 20 cm of the body of the user. These
+devices include handheld cellular phones and PCS mobile phones that incorporate the radiating
+antenna into the hand-piece and wireless transmitters carried close to the body. RF evaluation
+must be based on specific absorption rate (SAR) limits.

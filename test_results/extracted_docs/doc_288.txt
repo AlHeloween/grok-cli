@@ -1,0 +1,129 @@
+Regulatory Powers
+Regulators implement policy using their powers, which vary by agency. Powers, which can also 
+be thought of as tools, can be grouped into a few broad categories:
+• Licensing, chartering, or registration. A starting point for understanding the 
+regulatory system is that most activities cannot be undertaken unless a firm, 
+individual, or market has received the proper credentials from the appropriate 
+state or federal regulator. Each type of charter, license, or registration granted by 
+the respective regulator governs the sets of financial activities that the holder is 
+permitted to engage in. For example, a firm cannot accept federally insured 
+3 U.S. Government Accountability Office (GAO), Financial Regulation, GAO-16-175, February 2016, 
+https://www.gao.gov/assets/680/675400.pdf.
+Who Regulates Whom? An Overview of the U.S. Financial Regulatory Framework
+Congressional Research Service 3
+deposits unless it is chartered as a bank, thrift, or credit union by a depository 
+institution regulator. Likewise, an individual generally cannot buy and sell 
+securities to others unless licensed as a broker-dealer.4 To be granted a license, 
+charter, or registration, the recipient must accept the terms and conditions that 
+accompany it. Depending on the type, those conditions could include regulatory 
+oversight, training requirements, and a requirement to act according to a set of 
+standards or code of ethics. Failure to meet the terms and conditions could result 
+in fines, penalties, remedial actions, license or charter revocation, or criminal 
+charges.
+• Rulemaking. Regulators issue rules (regulations) through the rulemaking 
+process to implement statutory mandates.5 Typically, statutory mandates provide 
+regulators with a policy goal in general terms, and regulations fill in the specifics. 
+Rules lay out the guidelines for how market participants may or may not act to 
+comply with the mandate.
+• Oversight and supervision. Regulators ensure that their rules are adhered to 
+through oversight and supervision. This allows regulators to observe market 
+participants’ behavior and instruct them to modify or cease improper behavior. 
+Supervision may entail active, ongoing monitoring (as for banks) or investigating 
+complaints and allegations ex post (as is common in securities markets). In some 
+cases, such as banking, supervision includes periodic examinations and 
+inspections, whereas in other cases, regulators rely more heavily on selfreporting. Regulators explain supervisory priorities and points of emphasis by 
+issuing supervisory letters and guidance. 
+• Enforcement. Regulators can compel firms to modify their behavior through 
+enforcement powers. Enforcement powers include the ability to issue fines, 
+penalties, and cease-and-desist orders; to undertake criminal or civil actions in 
+court or administrative proceedings or arbitrations; and to revoke licenses and 
+charters. In some cases, regulators initiate legal action at their own prompting or 
+in response to consumer or investor complaints. In other cases, regulators 
+explicitly allow consumers and investors to sue for damages when firms do not 
+comply with regulations, or they provide legal protection to firms that do comply.
+• Resolution. Some regulators have the power to resolve a failing firm by taking 
+control of the firm and initiating conservatorship (i.e., the regulator runs the firm 
+on an ongoing basis) or receivership (i.e., the regulator winds the firm down). 
+Other types of failing financial firms are resolved through bankruptcy, a judicial 
+process separate from the regulators.
+Goals of Regulation
+Financial regulation is primarily intended to achieve the following underlying policy outcomes:6
+• Market efficiency and integrity. Regulators seek to ensure that markets operate 
+efficiently and that market participants have confidence in the market’s integrity. 
+4 One may obtain separate licenses to be a broker or a dealer, but in practice, many obtain both.
+5 For more information, see CRS Report R41546, A Brief Overview of Rulemaking and Judicial Review, by Todd 
+Garvey.
+6 Regulators are also tasked with promoting certain social goals, such as community reinvestment or affordable 
+housing. Because this report focuses on regulation, it will not discuss social goals.
+Who Regulates Whom? An Overview of the U.S. Financial Regulatory Framework
+Congressional Research Service 4
+Liquidity, low costs, the presence of many buyers and sellers, the availability of 
+information, and a lack of excessive volatility are examples of the characteristics 
+of an efficient market. Regulation can also improve market efficiency by 
+addressing market failures, such as principal-agent problems,7
+asymmetric 
+information,8
+and moral hazard.9 Regulators contribute to market integrity by 
+ensuring that activities are transparent, contracts can be enforced, and the “rules 
+of the game” they set are enforced. Integrity generally leads to greater efficiency.
+• Consumer and investor protection. Regulators seek to ensure that consumers or 
+investors do not suffer from fraud, discrimination, manipulation, and theft. 
+Regulators try to prevent exploitative or abusive practices intended to take 
+advantage of unwitting consumers or investors. In some cases, protection is 
+limited to enabling consumers and investors to understand the inherent risks 
+when they enter into a transaction. In other cases, protection is based on the 
+principle of suitability—efforts to ensure that more risky products or product 
+features are accessible only to financially sophisticated or secure consumers or 
+investors.
+• Capital formation and access to credit. Regulators seek to ensure that firms 
+and consumers are able to access credit and capital to meet their needs such that 
+credit and economic activity can grow at a healthy rate. Regulators try to ensure 
+that capital and credit are available to all worthy borrowers, regardless of 
+personal characteristics, such as race, gender, and location. Examples are fair 
+lending laws and fair housing goals.
+• Illicit activity prevention. Regulators seek to ensure that the financial system 
+cannot be used to support criminal and terrorist activity. Examples are policies to 
+prevent money laundering, tax evasion, terrorism financing, and the 
+contravention of financial sanctions.
+• Taxpayer protection. Regulators seek to ensure that losses or failures in 
+financial markets do not result in federal government payouts or the assumption 
+of liabilities that are ultimately borne by taxpayers. Only certain types of 
+financial activity are explicitly backed by the federal government or by regulatorrun insurance schemes that are backed by the federal government, such as the 
+Deposit Insurance Fund (DIF) run by the FDIC. Such schemes are self-financed 
+by the insured firms through premium payments unless the losses exceed the 
+insurance fund, in which case taxpayer money is used temporarily or 
+permanently to fill the gap. In the case of a financial crisis, the government may 
+decide that the “least bad” option is to provide funds in ways not explicitly 
+promised or previously contemplated to restore stability. “Bailouts” of large 
+failing firms in 2008 are the most well-known examples. In this sense,  there may 
+be implicit taxpayer backing of parts or all of the financial system.
+• Financial stability. Financial regulation seeks to maintain financial stability 
+through preventive and palliative measures that mitigate systemic risk. At times, 
+financial markets stop functioning well—markets freeze, participants panic, 
+7 For example, financial agents may have incentives to make decisions that are not in the best interests of their clients, 
+and clients may not be able to adequately monitor their behavior.
+8 For example, firms issuing securities know more about their financial prospects than do investors purchasing those 
+securities, which can result in a “lemons” problem in which low-quality firms drive high-quality firms out of the 
+marketplace.
+9 For example, individuals may act more imprudently if they are insured against a risk.
+Who Regulates Whom? An Overview of the U.S. Financial Regulatory Framework
+Congressional Research Service 5
+credit becomes unavailable, and multiple firms fail. Financial instability can be 
+localized (to a specific market or activity) or more general. Sometimes instability 
+can be contained and quelled through market actions or policy intervention; at 
+other times, instability metastasizes and does broader damage to the real 
+economy. The most recent example of the latter was the financial crisis of 2007-
+2009. Traditionally, financial stability concerns have centered on banking, but the 
+recent crisis illustrates the potential for systemic risk to arise in other parts of the 
+financial system as well.
+These regulatory goals are sometimes complementary but at other times conflict with each other. 
+For example, without an adequate level of consumer and investor protections, fewer individuals 
+may be willing to participate in financial markets, and efficiency and capital formation could 
+suffer. But, at some point, too many consumer and investor safeguards and protections could 
+make credit and capital prohibitively expensive, reducing market efficiency and capital formation. 
+Regulation generally aims to seek a middle ground between these two extremes in which 
+regulatory burden is as small as possible and regulatory benefits are as large as possible. Because 
+some firms can cope with regulatory burden better than others can, sometimes regulation is 
+tailored so that smaller firms, for example, are exempted from a regulation or face a streamlined 
+version of a regulation. As a result, when taking any action, regulators balance the tradeoffs 
+between their various goals.

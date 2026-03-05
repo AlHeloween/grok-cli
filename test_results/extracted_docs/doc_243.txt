@@ -1,0 +1,105 @@
+The DOJ’s Complaint
+The DOJ’s complaint alleges that Apple has monopolized markets for “performance smartphones” and
+smartphones generally by impeding the development of technologies that threaten to undermine the
+iPhone platform. Some of the DOJ’s allegations involve Apple’s control of iPhone app distribution.
+Specifically, the complaint asserts that Apple wields its power over app approval to block or marginalize
+technologies that may reduce consumers’ dependence on the iPhone. The DOJ also contends that Apple
+maintains its monopoly by denying application programming interfaces (APIs) and other access points to
+third-party services that would reduce the costs of switching from an iPhone to another smartphone.
+The complaint highlights five technologies that Apple has allegedly suppressed using the tactics described
+above. These allegations are summarized below.
+• Super Apps. The DOJ argues that Apple has thwarted the development of “super apps”—
+programs that can serve as platforms for other apps. Super apps are popular in Asian
+markets, offering users a suite of services like payments, messaging, and e-commerce
+within a single app. The DOJ claims that, by offering a range of services that can be
+accessed on different types of devices, super apps threaten to disintermediate the iPhone
+and commoditize device hardware. The DOJ alleges that Apple strategically changed its
+App Store Guidelines to suppress this threat, effectively preventing apps from hosting the
+types of “mini programs” offered by super apps. In particular, the complaint asserts that
+Apple imposes restrictions that make it difficult for users to find mini programs. The DOJ
+also contends that Apple prevents mini programs from accessing APIs needed to
+Congressional Research Service
+https://crsreports.congress.gov
+LSB11154
+Congressional Research Service 2
+implement Apple’s in-app payment system, functionally precluding developers from
+monetizing such programs.
+• Cloud Streaming Apps. The complaint claims that Apple has also suppressed the
+development of cloud streaming apps, which allow users to run computationally intensive
+programs without storing the programs on their smartphones. By leveraging the
+computing power of remote servers, cloud streaming apps facilitate complex programs
+like gaming and artificial intelligence services, even if consumers purchase smartphones
+with less sophisticated hardware than an iPhone. The DOJ says that Apple is highly
+attuned to this threat, quoting an executive’s concern that consumers might buy an
+Android device “for 25 bux at a garage sale and . . . have a solid cloud computing device”
+that “works fine.”
+Apple has allegedly taken several steps to avert this outcome. The complaint contends
+that Apple requires developers to submit any cloud streaming game or update as a
+standalone app for approval by Apple. Because advanced games often require daily or
+hourly updates, the DOJ claims that this requirement presents developers with the
+untenable choice of delaying software updates for non-iOS versions of their games or
+making the iOS versions incompatible with non-iOS versions. The lawsuit also alleges
+that Apple undermines cloud gaming apps in other ways—for example, by requiring
+“game overhauls and payment redesigns” that effectively force developers to create
+iOS-specific versions of their games instead of a single cross-platform version. As a
+result of Apple’s conduct, the DOJ says, no developer has designed a cloud streaming app
+for the iPhone.
+• Messaging. The complaint alleges that Apple degrades cross-platform messaging in
+several ways, which discourages the use of other smartphones. For example, the DOJ
+claims that Apple prevents third-party messaging apps from accessing APIs that allow for
+the combination of “text to anyone” functionality and the advanced features of “over the
+top” (OTT) messaging protocols (e.g., encryption, typing indicators, read receipts, and
+the ability to share rich media). As a result, use of a third-party messaging app requires
+both the sender and recipient of a message to download the same third-party app. Apple
+Messages, by contrast, incorporates “text to anyone” functionality and advanced OTT
+features, allowing users to send messages with such features by typing a phone number in
+the messaging app’s “To:” field.
+The DOJ also alleges that Apple undermines the messaging quality of rival smartphones:
+if an iPhone user messages a non-iPhone user via Apple Messages, the text appears in a
+green bubble and offers limited functionality. Specifically, these conversations are not
+encrypted, videos are lower quality, and users cannot edit messages or see typing
+indicators. The complaint claims that Apple takes steps to preserve these disadvantages
+for competing smartphones—for example, by refusing to make Apple Messages available
+to other smartphones and blocking developers from providing end-to-end encryption for
+texts from Apple Messages to Android users.
+• Smartwatches. The DOJ also alleges that Apple has suppressed the development of
+cross-platform smartwatches, steering consumers to Apple’s smartwatch and thereby
+locking them into the iPhone ecosystem. The complaint contends that Apple degrades the
+functionality of third-party smartwatches by preventing them from responding to iPhone
+notifications, inhibiting them from maintaining reliable connections with iPhones, and
+undermining the performance of third-party smartwatches that connect directly with a
+cellular network. In doing so, the DOJ says, Apple bolsters its own smartwatch—Apple
+Watch—which does not face these disadvantages. Because Apple Watch is not
+Congressional Research Service 3
+compatible with other smartphones, purchases of Apple Watch raise the costs of
+switching from an iPhone to another smartphone. Thus, by favoring Apple Watch and
+degrading rival smartwatches, the DOJ claims, Apple helps solidify its smartphone
+monopoly.
+• Digital Wallets. The DOJ argues that Apple has implemented a similar strategy vis-á-vis
+digital wallets, which allow for the storage and use of passes and credentials such as
+credit cards, movie tickets, and car keys. The complaint alleges that Apple’s digital
+wallet—Apple Wallet—is the only iPhone app that is allowed to access the technology
+needed for tap-to-pay functionality, which the DOJ characterizes as the “most important
+function for attracting users to a digital wallet.” The DOJ also claims that Apple prevents
+rival digital wallets from authenticating digital payment options on online checkout pages
+and from serving as alternatives to Apple’s in-app payment tool, further reducing the
+attractiveness of rival wallets to consumers. By stifling the emergence of cross-platform
+wallets, the lawsuit contends, Apple has suppressed the development of technology that
+could reduce the costs of switching from an iPhone to another smartphone.
+The complaint asserts that Apple’s conduct amounts to monopolization or, in the alternative, attempted
+monopolization of two markets: the U.S. market for “performance smartphones” and a broader U.S.
+market for all smartphones. The DOJ argues that “performance smartphones” represent a distinct market
+because “entry-level smartphones” made with lower-quality materials and performance components are
+not reasonable substitutes for “higher-end” smartphones like the iPhone.
+In support of its allegations of monopoly power, the DOJ contends that Apple occupies more than 70% of
+the market for “performance smartphones” and more than 65% of the market for smartphones generally,
+benefits from substantial barriers to entry and expansion, foregoes innovation without fear of losing
+customers, and achieves profit margins that significantly exceed those of rivals.
+In alleging anticompetitive effects, the DOJ claims that the conduct described above results in less choice
+for smartphone users, harms the quality of the iPhone and rival smartphones, and allows Apple to extract
+higher profits from iPhone users and app developers. The complaint rejects the notion that these harms
+can be justified on the basis of privacy, security, or other procompetitive benefits. Here, the DOJ argues
+that many of the technologies Apple suppresses—for example, apps that would allow Apple Messages to
+send encrypted texts to Android devices—would themselves enhance privacy and security. The lawsuit
+contends that Apple’s selective invocation of privacy and security underscores the pretextual nature of
+those defenses.

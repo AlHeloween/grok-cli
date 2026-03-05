@@ -1,0 +1,33 @@
+Montana’s TikTok legislation prompted substantial public commentary. According to the law’s preamble,
+SB 419 supports the “health and safety of Montanans” by preventing TikTok’s operation in the state and
+also expresses concerns about TikTok’s parent company being subject to control by the People’s Republic
+of China (PRC), gathering of user information, and “dangerous content.” (The broader policy issues
+related to the legislation are beyond the scope of this Sidebar.)
+TikTok and several of its users filed suit in federal district court following passage of the law. TikTok’s
+complaint asserted violations of several constitutional rights and provisions (the prohibition against bills
+of attainder, the Commerce Clause, the First Amendment, and the Supremacy Clause). Other challengers,
+comprising TikTok creators and users, made similar arguments. The court found the plaintiffs’ arguments
+compelling, concluding they likely would succeed on the merits. The court determined that the plaintiffs
+established irreparable harm to their business interests and granted the preliminary injunction, which
+prevented SB 419 from taking effect until the court’s final resolution of the case.
+
+Issues Presented to the Ninth Circuit on Appeal
+Attorneys for Montana unsuccessfully argued to the district court that the law represents a valid exercise
+of Montana’s police power, that it does not violate any of the claimed constitutional provisions, that
+federal law does not preempt the ban, and that the ban would have only an indirect, and thus permissible,
+effect on interstate commerce. Montana then appealed the district court’s order granting the preliminary
+injunction to the Ninth Circuit.
+In its opening brief, Montana asserts that SB 419 has a “common sense consumer protection purpose” and
+that the district court erred in concluding that TikTok and its users would win their constitutional
+arguments. Montana also argues that the district court erred in its application of the remaining preliminary
+injunction factors. A selection of Montana’s various arguments, ordered as they appear in the brief,
+follows:
+• Police Powers. Montana asserts that protecting consumers is an exercise of police power,
+under which states have significant discretion.
+• Data Access. Montana asserts that, based on news reports, the U.S. user data that TikTok
+collects likely is available to the PRC at will, underscoring that the Montana legislature
+enacted SB 419 to protect Montana consumers’ data privacy, not to impact the editorial
+control of the platform.
+• Burden Shifting. Montana asserts that the district court, in concluding that TikTok and
+its users would prevail on their constitutional claims, erroneously shifted the evidentiary
+burden for proving those claims to Montana.

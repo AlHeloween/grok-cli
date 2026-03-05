@@ -1,0 +1,97 @@
+Recent research has identified the major motivations and constraints around vegetarian and vegan
+diets [30 ]. The main motivations to move towards a vegetarian or vegan diet are animal welfare,
+the environment and personal health, whilst the major barriers are sensory enjoyment of animal
+Sustainability 2019, 11, 6844 3 of 17
+products, convenience and financial cost [ 30 ]. Mullee et al. [31 ] found that, when asked about
+possible reasons for eating a more vegetarian diet, the most popular option chosen by omnivores
+and semivegetarians was their health. The environment and animal welfare were chosen by fewer
+participants, and for omnivores, these reasons ranked below ‘to discover new tastes’, ‘to reduce
+weight’, and ‘no reason’. This finding has been replicated elsewhere [32 ,33 ] and implies that, for those
+not currently reducing their meat consumption, potential personal benefits are more important than
+environmental or ethical benefits. More specifically, consumers often recognise health benefits such as
+decreased saturated fat intake, increased fruit and vegetable intake and disease prevention [ 32, 34].
+On the other hand, some worry about not getting enough protein or iron from a vegetarian diet [35].
+Interestingly, this prioritisation of health motives appears to be reversed for vegetarians and
+vegans. According to a survey published by Humane League Labs [36], whilst health and nutrition
+reasons for reducing animal product consumption are the most commonly cited by omnivores and
+semivegetarians, animal welfare is the most common reason given by vegetarians and vegans. This is
+logical, because improving one’s health or reducing one’s environmental impact can be achieved by
+consuming incrementally fewer animal products; viewing animal products as the product of animal
+suffering and exploitation, however, is more conducive to eschewing them altogether.
+In a systematic review of consumer perceptions of sustainable protein consumption, Hartmann
+and Siegrist [37 ] found that it is common for consumers to underestimate the ecological impact of meat
+consumption. This has been observed in many different studies [33 ,38 – 40 ] and may imply a lack
+of knowledge about the environmental impact of meat consumption. Alternatively, this could reflect
+that consumers are generally unwilling to reduce their meat consumption [40 ] and are subsequently
+motivated to minimise their perceptions of the negative consequences of their choices [41].
+Indeed, such motivated reasoning appears to be evident with respect to animal welfare issues.
+Most people eat meat but disapprove of harming animals, a conflict that has been dubbed ‘the meat
+paradox’ [42 ]. Rothgerber [ 43] identified a number of ways in which dissonance around harming
+animals arises in meat-eaters, and a number of strategies which are used to reduce this dissonance.
+Dissonance-reducing strategies include denial of animal mind, denial of animals’ ability to feel pain
+and dissociating meat from its animal origin [ 43 ]. This motivated reasoning results in a number of odd
+conclusions, such as lower mental capacity being ascribed to food animals compared to nonfood
+animals and increased denial of animal mind when one anticipates immediate meat consumption [ 44].
+One can understand the motivation to continue eating animal products; the literature has identified
+several considerable constraints to adopting a vegetarian or vegan diet. Studies have consistently
+found that the strongest of these is simply enjoyment of eating meat [34 , 45, 46]. This was by far the
+number one reason for not being vegetarian in a recent UK survey [ 47 ] and was the biggest constraint
+for online survey respondents who indicated that they do not want to go vegetarian or vegan [ 36].
+Despite the many potential benefits, the taste of meat and animal products is enough of a barrier
+to prevent dietary change for most people.
+The second most important barrier is convenience, with many consumers saying vegetarian
+dishes are difficult to prepare and that there is a lack of options when eating out [ 33 ,38 ,48 ]. Humane
+League Labs [36 ] found that a lack of options when eating out was the most common factor that people
+said made it difficult to eat meat-free meals, whilst Schenk, Rössel and Scholz [30 ] have argued that
+the additional time, knowledge and effort required to buy and prepare vegetarian or vegan food is
+especially a barrier to those newly transitioning diets.
+Finally, for some, there is a financial barrier [49], although there is considerably less consensus on
+this in the literature [30]. A UK survey found that the high cost of meat substitutes was a barrier for
+58% of consumers, though this survey conducted by VoucherCodesPro [ 47 ] may have been inclined
+to focus on financial considerations. Another study found that a vegetarian diet is actually cheaper
+than one containing meat, but that a vegan diet is most expensive of all [ 22 ]. This may be due to the
+relatively high cost of plant-based milks and other specialist products.
+Sustainability 2019, 11, 6844 4 of 17
+The present study investigates UK meat-eaters’ views of various aspects of vegetarianism and
+veganism. Whilst the common motivators and constraints to vegetarian and vegan diets are well
+documented, there is a paucity of open data assessing how meat-eaters evaluate the relevant aspects
+of each of these diets. This study seeks to address this gap by providing quantitative evaluations
+of the relevant aspects of vegetarian and vegan diets. Additionally, there is currently no quantitative
+comparison of these factors with respect to vegetarianism versus veganism. Therefore, this study
+compares ratings of common motivators and barriers between vegetarian and vegan diets. Finally,
+little is known about how these evaluations of vegetarian and vegan diets vary amongst different
+demographic groups. Therefore, this study examines the overall mean ratings of each of these factors
+and investigates how these views vary between different demographics.
+2. Methods
+2.1. Participants
+Meat-eaters living in the UK aged 18 and over were recruited (n = 1000). Participants were
+recruited through the online research platform, Prolific, and each participant was paid £0.45 for a 5
+min survey. Recruiting participants through this type of online platform has its limitations, including
+the possibility of recruiting an unrepresentative sample, and asking questions in a contrived setting
+which may not be ecologically valid [ 50]. Nonetheless, this sampling technique does offer low cost
+and fast recruitment of specifiable samples, and the use of Prolific as a recruitment tool in academic
+research is therefore increasingly common and generally considered acceptable [51 –53 ]. Although
+recruitment was for meat-eaters only, there was a small number of vegetarians in the original dataset
+(n = 25); these participants were removed, and their responses were replaced with more meat-eaters.
+The final sample was 49.8% male and 49.8% female (0.3% did not disclose gender, 0.1% ‘other’), and
+the mean age was 34.02 (SD = 11.67).
+2.2. Procedure
+This study received ethical approval from the University of Bath’s Department of Psychology Ethics
+Committee (PREC 18-219). The full anonymised dataset is available via OSF (see Supplementary Materials).
+First, participants read some brief information about the study and gave their consent to take part.
+They were then given definitions of vegetarianism and veganism and asked to give their opinions about
+11 different aspects of vegetarian and vegan diets using 7-point bipolar scales. The order of these scales
+and the order in which participants were asked about vegetarianism and veganism were randomised
+to control for order effects. Next, participants answered questions about their intended consumption
+of meat and their intended consumption of animal products ‘one month from today’. On 6-point scales,
+participants could indicate that they would eliminate, greatly reduce, slightly reduce, maintain about
+the same, slightly increase or greatly increase their consumption of both meat, and animal products
+generally. Similar scales have been used in previous research [54,55].
+It is worth noting that this measure is conservative. Compared to asking about intentions to reduce
+consumption in general, defining a specific action and a specific, short time period is likely to make
+participants reflect critically about their own likely behaviour. Additionally, as participants answered
+this question, they saw the phrase ‘Thank you for being honest!’ which was intended to mitigate the
+social desirability effect (i.e., over-reporting of intentions to reduce animal product consumption).
+Finally, participants gave demographic information, including their age, gender, political
+orientation, education and income. They also indicated whether they ate ‘at least occasionally’
+beef, lamb, pork, chicken, fish, eggs and dairy. Participants were then debriefed and compensated.

@@ -1,0 +1,22 @@
+Higher APR margin has fueled the profitability of revolving balances.
+ Typically, card issuers set an APR margin to generate a profit that is at least commensurate with the risk of lending money to consumers. In the eight years after the Great Recession, the average APR margin stayed around 10 percent, as issuers adapted to reforms in the Credit Card Accountability Responsibility and Disclosure Act of 2009 (CARD Act) that restricted harmful back-end and hidden pricing practices. But issuers began to gradually increase APR margin in 2016. The trend accelerated in 2018, and it continued through the pandemic.
+ 
+
+ Over the past decade, card issuers increased APR margin despite lower charge-off rates and a relatively stable share of cardholders with subprime credit scores. The average APR margin increased 4.3 percentage points from 2013 to 2023 (while the prime rate was nearly 5 percentage points higher). As such, the profitability of revolving balances excluding loan loss provisions (the money that banks set aside for expected charge-offs) has been increasing over this time period.
+ 
+
+ Figure 2: Average APR Margin and Charge-Off Rate (Federal Reserve)
+ Figure 2 is a line graph that shows the quarterly average APR margin and charge off rate from 1995 through 2023. Since 2013, the APR margin has generally increased while the charge off rate decreased.
+ Source: Federal Reserve
+ Excess APR margin costs consumers billions of dollars a year.
+ In 2023, major credit card issuers, with around $590 billion in revolving balances, charged an estimated $25 billion in additional interest fees by raising the average APR margin by 4.3 percentage points over the last ten years. For an average consumer with a $5,300 balance across credit cards, the excess APR margin cost them over $250 in 2023. Since finance charges are typically part of the minimum amount due, this additional interest burden may push consumers into persistent debt, accruing more in interest and fees than they pay towards the principal each year — or even delinquency.
+ 
+
+ The increase in APR margin has occurred across all credit tiers. Even consumers with the highest credit scores are incurring higher costs. The average APR margin for accounts with credit scores at 800 or above grew 1.6 percentage points from 2015 to 2022 without a corresponding increase in late payments.
+ 
+
+ Credit card interest rates are a core driver of profits.
+ Credit card issuers are reliant on revenue from interest charged to borrowers who revolve on their balances to drive overall profits, as reflected in increasing APR margins. The return on assets on general purpose cards, one measure of profitability, was higher in 2022 (at 5.9 percent) than in 2019 (at 4.5 percent), and far greater than the returns banks received on other lines of business. Even when excluding the impact of loan loss provisions, the profitability of credit cards has been increasing.
+ 
+
+ CFPB research has found high levels of concentration in the consumer credit card market and evidence of practices that inhibit consumers’ ability to find alternatives to expensive credit card products. These practices may help explain why credit card issuers have been able to prop up high interest rates to fuel profits. Our recent research has shown that while the top credit card companies dominate the market, smaller issuers many times offer credit cards with significantly lower APRs. The CFPB will continue to take steps to ensure that the consumer credit card market is fair, competitive, and transparent and to help consumers avoid debt spirals that can be difficult to escape.

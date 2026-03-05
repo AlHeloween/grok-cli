@@ -1,0 +1,93 @@
+2.1 Overarching principles of tax policy
+In a context where many governments have to cope with less revenue, 
+increasing expenditures and resulting fiscal constraints, raising revenue 
+remains the most important function of taxes, which serve as the primary 
+means for financing public goods such as maintenance of law and order and 
+public infrastructure. Assuming a certain level of revenue that needs to be 
+raised, which depends on the broader economic and fiscal policies of the 
+country concerned, there are a number of broad tax policy considerations 
+that have traditionally guided the development of taxation systems. These 
+include neutrality, efficiency, certainty and simplicity, effectiveness and 
+fairness, as well as flexibility. In the context of work leading up to the Report 
+on the Taxation of Electronic Commerce (see Annex A for further detail), 
+these overarching principles were the basis for the 1998 Ottawa Ministerial 
+Conference, and are since then referred to as the Ottawa Taxation Framework 
+Conditions. At the time, these principles were deemed appropriate for an 
+evaluation of the taxation issues related to e-commerce. Although most of 
+the new business models identified in Chapter 4 did not exist yet at the time, 
+these principles, with modification, continue to be relevant in the digital 
+economy, as discussed in Chapter 8. In addition to these well-recognised 
+principles, equity is an important consideration for the design of tax policy.
+• Neutrality: Taxation should seek to be neutral and equitable 
+between forms of business activities. A neutral tax will contribute 
+to efficiency by ensuring that optimal allocation of the means 
+of production is achieved. A distortion, and the corresponding 
+deadweight loss, will occur when changes in price trigger different 
+changes in supply and demand than would occur in the absence of 
+tax. In this sense, neutrality also entails that the tax system raises 
+revenue while minimising discrimination in favour of, or against, 
+any particular economic choice. This implies that the same principles 
+of taxation should apply to all forms of business, while addressing 
+specific features that may otherwise undermine an equal and neutral 
+application of those principles.
+• Efficiency: Compliance costs to business and administration costs 
+for governments should be minimised as far as possible.
+• Certainty and simplicity: Tax rules should be clear and simple to 
+understand, so that taxpayers know where they stand. A simple tax 
+system makes it easier for individuals and businesses to understand 
+their obligations and entitlements. As a result, businesses are more 
+likely to make optimal decisions and respond to intended policy 
+choices. Complexity also favours aggressive tax planning, which may 
+trigger deadweight losses for the economy.
+ADDRESSING THE TAX CHALLENGES OF THE DIGITAL ECONOMY © OECD 2014
+2. FUNDAMENTAL PRINCIPLES OF TAXATION – 31
+• Effectiveness and fairness: Taxation should produce the right 
+amount of tax at the right time, while avoiding both double taxation 
+and unintentional non-taxation. In addition, the potential for 
+evasion and avoidance should be minimised. Prior discussions in 
+the Technical Advisory Groups (TAGs) considered that if there is 
+a class of taxpayers that are technically subject to a tax, but are 
+never required to pay the tax due to inability to enforce it, then the 
+taxpaying public may view the tax as unfair and ineffective. As 
+a result, the practical enforceability of tax rules is an important 
+consideration for policy makers. In addition, because it influences 
+the collectability and the administerability of taxes, enforceability is 
+crucial to ensure efficiency of the tax system.
+• Flexibility: Taxation systems should be flexible and dynamic 
+enough to ensure they keep pace with technological and commercial 
+developments. It is important that a tax system is dynamic and 
+flexible enough to meet the current revenue needs of governments 
+while adapting to changing needs on an ongoing basis. This means 
+that the structural features of the system should be durable in a 
+changing policy context, yet flexible and dynamic enough to allow 
+governments to respond as required to keep pace with technological 
+and commercial developments, taking into account that future 
+developments will often be difficult to predict.
+Equity is also an important consideration within a tax policy framework. 
+Equity has two main elements; horizontal equity and vertical equity. 
+Horizontal equity suggests that taxpayers in similar circumstances should 
+bear a similar tax burden. Vertical equity is a normative concept, whose 
+definition can differ from one user to another. According to some, it suggests 
+that taxpayers in better circumstances should bear a larger part of the tax 
+burden as a proportion of their income. In practice, the interpretation of 
+vertical equity depends on the extent to which countries want to diminish 
+income variation and whether it should be applied to income earned in 
+a specific period or to lifetime income. Equity is traditionally delivered 
+through the design of the personal tax and transfer systems.
+Equity may also refer to inter-nation equity. As a theory, inter-nation 
+equity is concerned with the allocation of national gain and loss in the 
+international context and aims to ensure that each country receives an 
+equitable share of tax revenues from cross-border transactions (OECD, 
+2001). The tax policy principle of inter-nation equity has been an important 
+consideration in the debate on the division of taxing rights between source 
+and residence countries. At the time of the Ottawa work on the taxation of 
+electronic commerce, this important concern was recognised by stating that 
+“any adaptation of the existing international taxation principles should be 
+ADDRESSING THE TAX CHALLENGES OF THE DIGITAL ECONOMY © OECD 2014
+32 – 2. FUNDAMENTAL PRINCIPLES OF TAXATION
+structured to maintain fiscal sovereignty of countries, […] to achieve a fair 
+sharing of the tax base from electronic commerce between countries…” 
+(OECD, 2001: 228).
+Tax policy choices often reflect decisions by policy makers on the relative 
+importance of each of these principles and will also reflect wider economic 
+and social policy considerations outside the field of tax.

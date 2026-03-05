@@ -1,0 +1,41 @@
+In recent years, the Administration and Congress have been increasingly engaged in supporting 
+artificial intelligence R&D and working to address policy concerns arising from AI development 
+and use. Congressional activities focused on AI increased substantially in the 116th and 117th 
+Congresses, including multiple committee hearings in the House and Senate, the introduction of 
+numerous AI-focused bills, and the passage of AI provisions in legislation. Enacted legislation 
+has included the National AI Initiative Act of 2020 within the William M. (Mac) Thornberry 
+National Defense Authorization Act for Fiscal Year 2021 (P.L. 116-283); the AI in Government 
+Act of 2020 within the Consolidated Appropriations Act, 2021 (P.L. 116-260); and provisions 
+focused on AI activities at NSF, DOE, and NIST within P.L. 117-167, the CHIPS and Science 
+Act. 
+AI holds potential benefits and opportunities, such as through augmenting human decisionmaking 
+and optimizing performance for complex tasks. It also presents challenges and pitfalls, such as 
+through perpetuating or amplifying bias and failing in unexpected ways. The ready availability in 
+2022 of software (i.e., ChatGPT) that can intelligently (1) respond to questions, and (2) draft 
+prose documents may represent a sentinel event in popular use of AI. 
+There are several broad concerns related to AI, spanning multiple sectors, that could be 
+considered in the 118th Congress. These include 
+Congressional Research Service   
+45 
+Science and Technology Issues for the 118th Congress 
+• the impact of AI and AI-driven automation on the workforce, including potential 
+job losses and the need for worker retraining; 
+• the challenges of educating students in AI, from teaching foundational concepts 
+at the K-12 level to supporting doctoral-level training to meet increasing demand 
+for AI expertise; 
+• the balance of federal and private sector funding for AI; 
+• whether and how to increase access to public datasets to train AI systems for use 
+in the public and private sectors; 
+• the development of standards and testing protocols and algorithmic auditing 
+capabilities for AI systems; 
+• the need for and effectiveness of federal and international coordination efforts in 
+AI, as well as concerns over international competition in AI R&D and 
+deployment; and 
+• the incorporation of ethics, privacy, security, transparency, and accountability 
+considerations in AI systems, including such applications as facial recognition 
+technologies. 
+There are additional national security concerns about the potential use of AI technologies that 
+Congress could address, such as the potential for “deep fakes” to influence elections and erode 
+public trust, the balance of human and automated decisionmaking in military operations, and 
+concerns about the dissemination of U.S.-developed AI technologies and federally funded AI 
+research results to potential competitors or adversaries.

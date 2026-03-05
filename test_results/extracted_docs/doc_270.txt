@@ -1,0 +1,70 @@
+Aortic Regurgitation 
+Essentials of Diagnosis
+• Causes include congenital bicuspid valve, endocarditis, rheumatic
+heart disease, Marfan’s syndrome, aortic dissection, ankylosing
+spondylitis, reactive arthritis, and syphilis
+• Acute aortic regurgitation: Abrupt onset of pulmonary edema
+• Chronic aortic regurgitation: Asymptomatic until middle age,
+when symptoms of left heart failure develop insidiously
+• Soft, high-pitched, decrescendo holodiastolic murmur in chronic
+aortic regurgitation; occasionally, an accompanying apical lowpitched diastolic rumble (Austin Flint murmur) in nonrheumatic
+patients; in acute aortic regurgitation, the diastolic murmur can be
+short (or not even heard) and harsh
+• Acute aortic regurgitation: Reduced S1 and an S3; rales
+• Chronic aortic regurgitation: Reduced S1, wide pulse pressure, waterhammer pulse, subungual capillary pulsations (Quincke’s sign),
+rapid rise and fall of pulse (Corrigan’s pulse), and a diastolic murmur
+over a partially compressed femoral artery (Duroziez’s sign)
+• ECG shows left ventricular hypertrophy
+• Echo Doppler confirms diagnosis, estimates severity
+■ Differential Diagnosis
+• Pulmonary hypertension with Graham Steell murmur
+• Mitral, or rarely, tricuspid stenosis
+• Left ventricular failure due to other cause
+• Dock’s murmur of left anterior descending artery stenosis
+■ Treatment
+• Vasodilators (eg, nifedipine and ACE inhibitors) do not delay the
+progression to valve replacement in patients with mild to moderate aortic regurgitation
+• In chronic aortic regurgitation, surgery reserved for patients with
+symptoms or ejection function < 50% on echocardiography
+• Acute regurgitation caused by aortic dissection or endocarditis
+requires surgical replacement of the valve 
+■ Pearl
+The Hodgkin-Key murmur of aortic regurgitation is harsh and raspy,
+caused by leaflet eventration typical of luetic aortopathy.
+Reference
+Kamath AR, Varadarajan P, Turk R, Sampat U, Patel R, Khandhar S, Pai RG.
+Survival in patients with severe aortic regurgitation and severe left ventricular dysfunction is improved by aortic valve replacement. Circulation 2009;
+120(suppl):S134. [PMID: 19752358]
+Aortic Stenosis
+■ Essentials of Diagnosis
+• Causes include congenital bicuspid valve and progressive calcification with aging of a normal three-leaflet valve; rheumatic fever
+rarely, if ever, causes isolated aortic stenosis
+• Dyspnea, angina, and syncope singly or in any combination;
+sudden death in less than 1% of asymptomatic patients
+• Weak and delayed carotid pulses (pulsus parvus et tardus); a soft,
+absent, or paradoxically split S2; a harsh diamond-shaped systolic ejection murmur to the right of the sternum, often radiating
+to the neck, but on occasion heard apically (Gallavardin’s phenomenon)
+• Left ventricular hypertrophy by ECG and chest x-ray may show
+calcification in the aortic valve
+• Echo confirms diagnosis and estimates valve area and gradient;
+cardiac catheterization confirms severity if there is discrepancy
+between physical exam and echo; concomitant coronary atherosclerotic disease present in 50%
+■ Differential Diagnosis
+• Mitral regurgitation
+• Hypertrophic obstructive or dilated cardiomyopathy
+• Atrial or ventricular septal defect
+• Syncope due to other causes
+• Ischemic heart disease without valvular abnormality
+■ Treatment
+• Surgery is indicated for all patients with severe aortic stenosis
+(mean aortic valve gradient > 40 mm Hg or valve area ≤ 1.0 cm2
+)
+and the presence of symptoms or ejection fraction < 50%
+• Percutaneous balloon valvuloplasty for temporary (6 months)
+relief of symptoms in poor surgical candidates
+■ Pearl
+In many cases, the softer the murmur, the worse the stenosis.
+Reference
+Dal-Bianco JP, Khandheria BK, Mookadam F, Gentile F, Sengupta PP.
+Management of asymptomatic severe aortic stenosis. J Am Coll Cardiol
+2008;52:1279. [PMID: 18929238]

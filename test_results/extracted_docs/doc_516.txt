@@ -1,0 +1,107 @@
+With dedicated on-device AI chipsets, mobile devices will have better knowledge of the user's 
+needs, being able to deliver personalized services that will make smartphones more intelligent. 
+Beyond speed and efficiency, on-device AI offers greater security by providing real-time malware 
+detection, recognizing if the device is being misused by identifying user behavior, and spam 
+detection over emails and other apps. 
+Among the applications and features that will benefit first from on-device AI are: 
+ Virtual digital assistants. By being less dependent on cloud AI and connectivity, virtual 
+assistants can become the main method for users to interact with the devices. 
+ Augmented reality. Augmented reality will also see similar benefits, as it requires 
+computation to take place in the cloud. 
+ Cameras. Having an on-device processor that constantly analyzes what the camera "sees" 
+as users take photos or adjust the brightness, ISO sensitivity, color temperature, and 
+exposure duration every time they press the shutter button, and accurately selecting the 
+right scene mode automatically, will have an impact on the user experience. 
+ Well-being and healthcare. By delivering faster performance — regardless of the quality of 
+the network, while providing optimal protection of user data — many apps will be able to 
+send notifications to the user (and his or her doctor) in response to real-time analysis of 
+patient data and data collected from wearable devices. This will predict health events, 
+enabling users to seek medical advice and for doctors to assist patients when a medical 
+condition or threat is detected by an AI algorithm. 
+Bringing Intelligent Mobile Devices Into Our Lives 
+AI will disrupt the way users interact with smartphones in the future, making it work for us. Going to 
+the cinema, for example, will be a completely different experience from the one we have today: 
+1. Someone with an intelligent phone is walking down the street and sees an ad for the latest 
+blockbuster movie. On pointing the phone at the ad, the camera recognizes the movie, 
+suggests how likely they are to enjoy it, how much it matches their preferences, and 
+prompting them to ask if it should buy tickets. 
+2. The phone checks the calendar and suggests when to get the tickets, based on the 
+commitments and appointments for the week, as well as the best theater based on the 
+predicted location for the day. The phone then sends a message to the person who usually 
+goes along, suggesting the movie and asking if they want to come. 
+3. The phone buys the tickets and stores them in its digital wallet. 
+4. On the day, the phone confirms availability and suggests having dinner before the movie, 
+at a nearby restaurant bookmarked on the maps app, reminding the user about the type of 
+food served. After confirmation by the user, the phone makes reservations on their behalf. 
+5. Based on the traffic, the phone sends a reminder when it is time to leave and, if late, it 
+sends an email to the restaurant with an estimated time of arrival. It automatically provides 
+directions to the restaurant from the car park. 
+6. At the theater the phone automatically displays the ticket on the home screen for faster 
+scan. 
+One single action triggered from the camera will create a chain of actions that will help people 
+manage their lives. AI will make technology work for everyone, rather than people having to adapt 
+to the technology's limitations. Smartphones will learn who the users are, what they do and what 
+they want to do, and deliver a new user experience, one that is not yet available, effortlessly. 
+AI will enable phones to become intelligent and truly personal digital assistants, and it is on-device 
+AI that will be the engine to make this happen. 
+Benefits of Mobile AI 
+The opportunities for always-on devices that do most of their intelligent computing on the device 
+are enormous. Running AI on the device rather than in the cloud offers different benefits too: 
+ No latency. In many cases, running AI entirely in the cloud will have an impact for 
+applications that need to work in real time and are latency-sensitive, such as missioncritical applications and driverless cars. Such applications need to rely on instantaneous 
+responses and cannot afford the roundtrip time or operate when there is variable network 
+coverage. 
+ Increased security and privacy. AI algorithms look for patterns in the data at an 
+unprecedented scale. The data collected by the phone will require a roundtrip to the cloud 
+if no AI capability is available on the device. Being able to perform AI algorithms on the 
+device will provide better security due to the low volumes of data exchanged over the 
+network. But it will also provide better privacy, as the AI algorithms will not have to process 
+and store the information in the cloud. The cloud is used only to train the algorithms. This 
+is paramount in today's environment with new European legislation (GDPR) that aims to 
+provide a set of standardized data protection laws across member countries, but also to 
+reinforce the data protection rights of individuals. 
+ On-device learning. Although most of the training will happen in the cloud, and the 
+smartphone has inference capabilities, it still needs to learn the user's behavior so it can 
+deliver automated, personalized experiences. On-device learning enables training 
+capabilities on the mobile device, so the data does not need to travel to the cloud or be 
+stored outside the device. This process can be triggered while the device is idle, which 
+allows power saving and ensures no interruptions of other features. 
+ Efficiency. Running AI on the device reduces network traffic, as less data is transferred via 
+the network to the cloud, and improves performance as apps that need to run in real time 
+can achieve lower latency levels on the device. 
+ Power saving. Power consumption will be reduced, as the device does not need to 
+constantly upload and download AI-related data to be able to process AI algorithms. This 
+will have a positive effect on battery life and, by extending it, will improve user experience. 
+Challenges of Delivering Mobile AI 
+Bringing machine learning and deep learning algorithms to the edge is essential to lower their data 
+computation requirements, while enabling mobile devices with chipsets that can process some of 
+those algorithms on the device. AI workloads are very compute-intensive. Optimizing AI algorithms 
+for use on mobile is a huge challenge, as is the impact on battery life of the intensive 
+computational AI algorithms on a real-time and always-on environment. 
+Another important challenge with on-device AI is the need to train the algorithms. This requires 
+vast amounts of data. The quality and quantity of data is key to successful machine learning. 
+Depending on the complexity of the model and the amount of data, training can take place in the 
+device or in the cloud. Large models tend to require a lot of processing, which is only available in 
+cloud platforms. Some of the predictions needed from AI algorithms require data that is already 
+available on the user's device and no other sources are needed to be trained. However, to train 
+and run large, complicated neural-network models on mobile devices with less capabilities than 
+large servers is a challenge. 
+A fundamental challenge of offering on-device AI is related to the nature of the smartphone. 
+Designing a chipset that delivers the performance required by highly demanding AI algorithms with 
+the restrictions of smartphones in terms of size, power supply, power consumption, and heat 
+management is a major challenge. "Mobile SoCs have to deliver the best possible performance, 
+while ensuring the highest possible density of core functions with optimal use of energy. The 
+[Huawei] Kirin 970's development team introduced a new, innovative HiAI mobile computing 
+architecture with a dedicated NPU," said Victor Dragnea from Huawei. 
+Developing an AI Ecosystem 
+AI platforms provide developer toolkits to build applications using AI algorithms. They combine a 
+variety of algorithms with data that can be used directly by developers, without having to build them 
+from scratch. Some of the functionality includes image recognition, natural language processing, 
+voice recognition, predictive analytics, and other machine learning and deep learning capabilities. 
+An important part of bringing AI to smartphones is the creation of an AI ecosystem. This is vital to 
+expand the capabilities of the dedicated AI chipsets from a few features on the phone to third-party 
+apps. By providing SDKs and APIs, phone makers will enable developers and partners to find new 
+uses for AI computing capabilities. 
+Huawei is positioning the Kirin 970 as an "open platform for mobile AI." The company emphasizes 
+that the chipset will work with any AI framework, such as Caffe2 and TensorFlow, in order for any 
+app to access the capabilities of the NPU and AI features.

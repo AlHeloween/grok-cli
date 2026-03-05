@@ -1,0 +1,27 @@
+[
+  {
+    "id": "doc_655",
+    "question": "What are the core differences between fundamental analysis and technical analysis, in what they measure and how they are used? Include criticisms or downsides of each analysis to explain the differences in practice.",
+    "system_instruction": "Answer the question using only the information provided in the context. Do not rely on external knowledge or sources."
+  },
+  {
+    "id": "doc_115",
+    "question": "Give me a bullet point list of all the categories of personal information that can be legally collected in the state of California. Then, in 200 words or less, explain why this information is taken and why it is sometimes sold.",
+    "system_instruction": "Answer the question using only the information provided in the context. Do not rely on external knowledge or sources."
+  },
+  {
+    "id": "doc_026",
+    "question": "What is optimal foraging theory when compared to automotive theft?",
+    "system_instruction": "Present your answer without any extraneous information."
+  },
+  {
+    "id": "doc_760",
+    "question": "According to this report, can someone vote in the Annual Meeting if they bought shares in Tripadvisor for the first time 3 months before the meeting date?",
+    "system_instruction": "Respond using only the information contained within this prompt."
+  },
+  {
+    "id": "doc_282",
+    "question": "In less than 250 words. Explain what I Bacillus cereus. Provide where the bacteria is found mostly. What temperature does it multiply quickly in and does it form a toxin? If so, what area of the body will contain the illness from the toxin? What are the symptoms of B cereus.",
+    "system_instruction": "Answer the question based solely on the information provided in the passage. Do not use any external knowledge or resources."
+  }
+]

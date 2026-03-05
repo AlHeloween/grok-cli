@@ -1,0 +1,1998 @@
+
+
+Preface
+A cooperative is a business. As such, it must operate in
+a manner compatible with all the laws that apply to a business,
+with cooperative principles, and with the needs and desires of
+its member-patrons in mind.
+To comply with each of these limitations on its operations, a cooperative must have a set of organizational documents
+that is uniquely crafted to its particular situation. Drafting new,
+and updating old, legal documents of cooperatives takes both
+time and expertise. This report is intended to assist persons
+organizing new cooperatives, managers and directors of existing
+cooperatives, and their professional advisers to develop and
+update the important legal documents of cooperatives. It
+explains issues to be considered and options that are available.
+It provides sample language to be used as a starting point; the
+wording is not to be copied without review and thought.
+To help distinguish sample document language from
+explanatory text, a straight black line has been drawn along the
+left-hand margin of the sample document language.
+Contents
+ORGANIZATION AGREEMENT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+Statement of Purposes ...................................................... 2
+Organization Committee ................................................... 3
+Patronage Commitment ..................................................... 3
+Financial Commitment ...................................................... 4
+Calling of Membership Meeting ....................................... 6
+Accounting .......................................................................... 7
+SELECTING THE PROPER STATE
+INCORPORATION STATUTE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+ARTICLES OF INCORPORATION ..*...................,..*.*.............t. 11
+Heading ............................................................................ 1 1
+Name ................................................................................. 1 2
+Principal Place of Business ............................................. 12
+Purposes ............................................................................ 1 2
+Powers ............................................................................... 13
+Duration ............................................................................ 15
+Directors ........................................................................... 15
+Capital Structure ............................................................... 16
+Amendment ..................................................................... 20
+Signatures ......................................................................... 20
+BYLAWS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .21
+Membership ...................................................................... 21
+Meetings of Members ...................................................... 24
+Directors and Officers ....................................................... 26
+Duties of Directors ........................................................... 32
+ii
+Duties of Officers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+Operation at Cost and Members’ Capital . . . . . . . . . . . . . . . . . . . . . . . . . 36
+Equity Redemption . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ..I....... 39
+Consent . . . . . . . . . ..f................................................................ 4 0
+Nonmember Business . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+Nonpatronage Income . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 2
+Handling of Losses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+Dissolution . . . . . . . . ..f............................................................ 4 5
+Indemnification . . . . . . . . . ..I....................................I.............. 45
+Amendment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+MARKETING AGREEMENT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ..*................. 4 7
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . ..I...........................................4 6
+Sales Terms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ..I...........................4 9
+Enforcement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+Termination and Renewal ..****...*.**.*.........................*...... 55
+Miscellaneous Provisions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+MEMBERSHIP APPLICATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .59
+DIRECTOR HANDBOOK . . . . . . ..a.. a . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+APPENDIX A. ELECTION OF DIRECTORS
+BY DISTRICTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62
+APPENDIX B. ALTERNATIVE EQUITY
+REDEMPTION BYLAWS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+APPENDIX C. BASE CAPITAL PLAN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+. . . 111
+Sample Legal Documents
+for Cooperatives
+Donald A. Frederick, Attorney-Adviser
+One of the axioms of business planning is that a strong
+foundation is essential if an organization is to have a strong
+structure. An important component of a strong cooperative
+foundation is a set of basic legal documents that conforms to
+Federal, State, and local law and facilitates conducting the business affairs of the association to enhance the mutual well-being
+of the members.
+This report explains the role each document plays in building the organization and the various issues treated in each document. It discusses options available to members in handling
+many of the issues. It also presents sample language as an aid in
+preparing initial documents, or in revising existing ones, to
+make sure they promote the objectives of the cooperative venture.
+Most of the sample language in this report is suitable for
+virtually any type of cooperative. Where the language must be
+tailored to reflect specific functions of the association, wording
+appropriate for an agricultural marketing cooperative is used.
+Counsel can help make the necessary modifications to cover
+supply and related service organizations and nonagricultural
+activities.
+One point cannot be stressed too much! Cooperative organizers, advisers, and leaders should not just sit down and copy
+these, or any other set, of legal documents and declare them as
+their own. These foundation documents should only be adopted
+after review by a competent attorney, one who understands the
+unique characteristics of cooperatives and the industry in which
+the association does business. This will maximize the likelihood
+that the documents will conform to applicable law and meet the
+specific needs of the association and its members.
+One problem in drafting organizational papers is they can
+be thorough or simple, but not both. This report contains many
+“compromises” between these two objectives. This only reinforces the need for cooperative founders and leaders, and their
+professional advisers, to avoid adopting any sample set of documents verbatim and to review existing documents on a regular
+basis.
+1
+The idea of forming a cooperative is usually conceived and
+nurtured by a few individuals who foresee coordinated group
+action as a solution to a problem confronting themselves and
+similarly situated persons. This organizing group often has to
+formulate a development plan, arrange for or provide seed
+money, and contribute sweat equity to get the association up and
+running.
+The organization period involves considerable discussion
+and data collection. While these efforts provide a good forecast
+for the level of support the cooperative is likely to attract, before
+launching the venture it is a good idea to have those persons
+who say they want the services of the cooperative formally commit to use those services.
+The organization agreement secures both a patronage and a
+financial commitment from prospective members. It is also a
+vehicle for educating prospective members about the cooperative form of business and the objectives of the proposed association.
+Statement of Purposes
+This first provision in a typical organization agreement sets
+out the services the proposed organization will perform. The
+services can be described in broad terms, such as to “process”
+and “market” certain farm commodities and “furnish” certain
+farm supplies.
+The language should refer only to services the cooperative
+will provide from its inception. This minimizes member pressure to expand the scope of operations too rapidly. For example,
+it is usually best not to mention furnishing supplies in the organizational agreement if the new organization will limit its initial
+activity to marketing fresh vegetables.
+1. The undersigned, a producer of agricultural products, hereinafter referred to as “Producer,”
+together with other signers of agreements similar
+hereto, propose to organize a cooperative association
+2
+under the laws of the State of
+for the purpose of
+.
+Organization Committee
+Although the association has not yet been incorporated, a
+decision making process should be formalized. The organizers
+will usually appoint some or all of their group to an official
+organization committee that will serve as the initial policy body
+for the association. This provision lists the committee members
+and sets out the committee’s authority.
+2. (a) The association shall be organized with
+suitable articles of incorporation and bylaws as
+determined by an organizational committee consisting of the following persons:
+Name Address
+2. (b) This committee may, by vote of a majority of its members, increase its membership, fill any
+vacancy therein, and appoint any subcommittees
+deemed necessary to conduct its affairs. The committee, or any subcommittee designated by it, may
+prescribe an organization fee to be paid by each person signing an organization agreement and may
+incur necessary obligations, make necessary expenditures, and take any such action as may, in its discretion, be deemed advisable to further the organization of the association.
+3
+Patronage Commitment
+Most cooperatives, especially those involved in marketing
+agricultural commodities, need a minimum level of product to
+be successful and the best possible projections of anticipated
+volumes to plan effectively. Their organization agreements
+should spell out the extent of the prospective members’ commitment: usually all production, a defined volume of product,. or
+production from a set number of acres. If either all production
+or production from a set number of acres is used, a projection of
+likely volume delivered should also be secured. Sample language is provided for each type of commitment:
+Full Production.
+3. Producer agrees to sign a marketing agreement committing all (product) produced by
+Producer, on land owned or leased by Producer, to
+the cooperative for direct marketing, processing, or
+other disposition as the cooperative sees fit.
+Producer estimates such production will total
+(units) in (year). ***********
+Defined Volume.
+3. Producer agrees to sign a marketing agreement to commit (units) of (product), produced by Producer, to the cooperative for
+direct marketing, processing, or other disposition as
+the cooperative sees fit.
+***********
+Set Acreage.
+3. Producer agrees to sign a marketing agreement to commit all (product) produced by
+Producer on acres of land, owned or leased by
+Producer, to the cooperative for direct marketing,
+processing, or other disposition as the cooperative
+sees fit. Producer estimates such production will
+total -(units) in _ (year).
+4
+If the cooperative is likely to have a minimum quality standard that must be met before product will be accepted, that standard should also be explained and the person or entity judging
+quality should be named.
+Financial Commitment
+Every new business must have equity capital. In a cooperative, the members supply that capital. In this provision the
+prospective member agrees to provide initial financial support
+for the cooperative.
+Each prospective member should commit to purchase one
+share of common voting stock (or, in a nonstock cooperative, pay
+a membership fee) for a fixed dollar amount, perhaps $1,000.
+This investment gives the member the right to vote on issues
+submitted to the membership.
+Often the initial investment tied to membership status does
+not raise enough equity to fund the association. Additional capital is needed. Usually the organizers have substantial leeway in
+collecting and recognizing this investment. Each prospective
+member may be asked to make an equal contribution, or the
+level can vary with anticipated patronage. While this investment is classified as preferred stock in this report, it can also be
+structured as equity credits, revolving fund credits, or any similar term satisfactory to the organizers.
+Organizers should avoid using any term usually associated
+with debt capital, such as “note” or “bond,” and should also
+avoid creating a second class of common stock, which is sure to
+be confused with regular voting common stock.
+The agreement should expressly state that this financial
+commitment is irrevocable unless the organization effort is terminated. Initial development of the cooperative is totally
+dependent on promised financial support being forthcoming.
+Leaders must have the tools to force compliance with this commitment, by legal action if necessary.
+I
+4. Producer agrees to purchase one share of
+voting common stock of the association, par value
+$ payable on demand following a favorable
+vozihe signees of agreements similar hereto to
+5
+incorporate the association.
+Producer further agrees to purchase
+shares of nonvoting preferred stock of the association, par value $ each, and agrees to pay for
+same as follows:
+S- cash on demand following incorporation of the association,
+g-on or before . 19 -9
+and,
+$--- on or before ,19_.
+Producer expressly understands that this stock
+subscription agreement is an irrevocable legally binding obligation which will be relied upon by the association, other producers who subscribe to its stock,
+and lending institutions from which the association
+will seek financing to implement its cooperative purposes.
+If a cooperative is organized as a nonstock corporation, the
+sample language might be altered to call for payment of a membership fee, rather than purchase of a share of common stock,
+and payment of an additional sum into an equity account, rather
+than purchase of nonvoting preferred stock.
+Calling of Membership Meeting
+One of the principal responsibilities of the organization committee is to determine if enough firm interest exists to justify forming the cooperative. It is advisable to put a time limit on member
+solicitation. An open-ended solicitation period may exceed the
+patience of early signees to get started or abort the effort.
+If the committee decides there is enough interest, the agreement usually calls for a meeting of the signees to make the final
+decision to complete formation and begin operation of the cooperative. While the typical agreement provides that the affirmative vote of a simple majority of signees approves formation, the
+committee should move cautiously if substantial resistance
+6
+develops. Few associations overcome internal strife during the
+formation period to become useful and viable cooperative enterprises.
+5. If, on or before 9 19-t the organization committee is of the opinion that sufficient
+signup has been obtained to enable the association to
+operate efficiently, the committee shall set a time
+and place for a meeting of those persons who have
+signed this agreement to determine, by majority vote,
+whether to proceed with the formation and operation of the association, and to consider such other
+business as may be deemed appropriate.
+Not less than ten days before the meeting,
+notice of the time and place of the meeting shall be
+sent to all signees by first-class mail, and an appropriate notice shall be published in one or more
+newspapers of general circulation in the area in
+which those who signed agreements like this one
+reside.
+,
+Sometimes the agreement will set minimum levels of support that must be committed before the prospective members
+will vote to begin the venture, If the organizers decide to adopt
+that option, the first paragraph of this provision might begin:
+5. If, on or before 9 19-t bona fide
+producers of agricultural products otherwise eligible
+to become members in the association agree to execute marketing agreements covering (units)
+of (product) and subscribe to provide equity to the association equal to the sum of at least
+I dollars, ($ ), the organization committee shall
+set a time and place for a meeting . . . (continue as
+above).
+Accounting
+There should be a clearly stated obligation placed on the
+organization committee to keep good records and make the
+7
+appropriate disposition of any funds remaining after the vote on
+formation of the cooperative is conducted.
+6. The organization committee shall keep
+detailed, accurate accounts of all receipts and of all
+expenditures of every kind. It shall have such accounts
+audited and render a written report thereof to the
+board of directors of the association when organized.
+And it shall thereupon turn over to the association any
+balance remaining in its hands free of obligation. If
+the association is not organized, such unexpended balance shall be prorated among, and returned to, those
+who contributed to the organization fund.
+The agreement should conclude with spaces for the
+prospective member to sign the agreement, and provide his or
+her address, and for the chairperson of the organizing committee
+to sign the agreement as an acceptance.
+SELECTING THE PROPER STATE
+INCORPORATION STATUTE
+While no drafting is involved, and thus no sample language
+is provided in this section, an important step in the development of a successful cooperative is selection of the proper statutory foundation for the association.
+To operate effectively in today’s business world, a cooperative must be a unique legal entity, separate from its members.
+The best way to create this unique entity is to form a cooperative
+corporation.
+A cooperative becomes a corporation when its organizers
+follow the steps set out in a law authorizing the formation of
+corporations. There is no Federal incorporation statute.
+Cooperatives incorporate under an appropriate State law.
+Incorporation offers several advantages over alternative
+structures, such as partnerships and unincorporated associations:
+l Incorporation facilitates the orderly succession of ownership. The entity has a perpetual life. As some members resign and
+new people join, redemption and issuance of a share of common
+stock or a membership certificate is a relatively simple means of
+clarifying each person’s status and rights in the association.
+l A corporation conveys to members and outsiders the
+image of a solid, longlasting venture.
+l If a cooperative is incorporated, the personal liability of
+each individual member, for losses suffered by the cooperative,
+is limited to the member’s equity in the cooperative.
+The organization of a cooperative as a business corporation
+has some important implications for how it conducts its affairs:
+l A corporation derives all of its legal authority from the
+State. It is a “person” in the eyes of the law, just like a natural
+person. It can do many things natural persons can, such as sign
+contracts, borrow money, own property, and sue and be sued.
+l While its powers are broad, those powers are limited to
+the ones granted by the State. For example, when the State agricultural cooperative law says only agricultural producers can
+vote in farmer cooperative affairs, no one else has the right to
+participate in policy decisions made by the membership.
+l The cooperative must obey business laws. Since managers and directors make the decisions for the corporation, they
+have an obligation to know and make sure the association follows all applicable laws.
+Persons who organize a cooperative have several incorporation statutes to choose from:
+l All States have special cooperative incorporation
+statutes. Some are broad, permitting the incorporation of virtually any business as a cooperative. Other are limited in scope.
+Many States have an Agricultural Cooperative Associations Act
+specially written to authorize incorporation of associations of
+producers of agricultural products.
+9
+l Every State has a general business corporation statute. A
+cooperative can be incorporated under this law and have its
+cooperative character established through proper drafting of the
+articles of incorporation and bylaws.
+l While most cooperatives are incorporated under a law of
+the State where the principle office is located, a few are organized under the laws of a different State.
+.It is usually best to organize under a cooperative incorporation statute of the State where the association’s headquarters is
+located. But it’s very important that the statute authorizing the
+cooperative permits a structure that meets the needs and desires
+of the members. The General Business Corporation Act and outof-State incorporation laws should be considered if the applicable cooperative law doesn’t permit the necessary organizational
+structure.
+A few so-called cooperatives are organized under a general
+not-for-profit corporation statute. Usually this is done to make it
+easier to obtain grant money. There are some potential adverse
+legal consequences of this type of incorporation that should be
+reviewed before following this path:
+l Most not-for-profit corporation laws expressly forbid the
+distribution of any earnings to members, trustees, officers, or
+other private persons. This means an association organized
+under such a statute can’t pay patronage refunds, one of the
+main reasons for operating a business as a cooperative.
+0 In many States, if a nonprofit corporation goes out of
+business, members are prohibited from sharing in any assets left
+after the debts are paid.
+l Nonprofit corporations sometimes have had more trouble than cooperative corporations enforcing marketing agreements with their members. Cooperative statutes frequently provide specific authority for enforcement of marketing agreements.
+Not-for-profit acts have no such provision.
+If the leadership determines a cooperative is not organized
+10
+under the appropriate State statute, it is usually possible to reincorporate without seriously disrupting the ongoing business of
+the association. This will ordinarily involve redrafting the organization papers to conform to the new law and paying a modest
+fee to the appropriate State agency.
+ARTICLES OF INCORPORATION
+Once the leadership has determined the statute to use as
+the legal authority for a cooperative, the first document prepared
+is the articles of incorporation (articles). It is the acceptance of
+the articles by the State that establishes the cooperative as a
+unique “person” under the law.
+Most incorporation laws require a fairly common set of
+provisions to be included in the articles. These are discussed
+below.
+The statute will also require that before the articles are official they must be recorded in the office of a designated State
+officer. Failure to properly file the articles makes any business
+activity vulnerable to legal challenge.
+It is usually permissible to include information in the articles beyond that required by the incorporation statute.
+However, this is ordinarily not done because it is frequently
+more difficult to amend the articles than it is with other documents that may contain the same information.
+The articles are not a piece of paper to be prepared and
+then forgotten. The articles are routinely given the same respect
+by the courts as a statute. Therefore, the articles are binding on
+the directors, officers, and manager of a cooperative. Conduct
+beyond that authorized in the articles can subject the cooperative and its leaders to potential legal liability.
+The following are the elements common to most cooperative articles of incorporation.
+Heading
+The heading sets out the title of the document, the name of
+the cooperative, and the title of the authorization statute.
+1 1
+ARTICLES OF INCORPORATION
+(Name of Cooperative)
+We, the undersigned, all of whom are engaged in the
+production of agricultural products, do hereby voluntarily associate ourselves together for the purpose
+of forming a cooperative association, with (or without) capital stock, under the provisions of the
+Act of the State of
+Name
+The official name of the cooperative must be stated in the
+body of the articles and is usually the first provision:
+ARTICLE I. NAME
+The name of the association shall be
+Principal Place of Business
+This is a simple statement of the general location of the
+cooperative’s office:
+ARTICLE II. PRINCIPAL PLACE
+OF BUSINESS
+The association shall have its principal place
+of business in the city of
+County of , Stateof ’ .
+Purposes
+The purposes for which the cooperative is being organized
+are specifically set out. While the purposes clause of the organizational agreement is limited to immediate objectives, the pur12
+poses are usually stated as broadly as possible in the articles of
+incorporation. Any service the cooperative may someday provide is frequently authorized, at least in a general way. This
+reduces the likelihood the articles will have to be amended
+whenever the association is asked by the members to provide
+additional services.
+Powers
+ARTICLE III. PURPOSES
+The association is formed for the following
+purposes: To market for its members and other producers any and all agricultural products or any products derived therefrom: to engage in any activity in
+connection with the picking, gathering, harvesting,
+receiving, assembling, handling, grading, cleaning,
+shelling, standardizing, packing, preserving, drying,
+processing, transporting, storing, financing, advertising, selling, marketing, or distribution of any such
+agricultural products or any products derived therefrom: to purchase for its members and others farm
+supplies and equipment: to manufacture, process,
+sell, store, handle, ship, distribute, furnish, supply,
+and procure any and all such farm supplies and
+equipment; and to exercise all such powers in any
+capacity and on any cooperative basis that may be
+agreed upon.
+The State statute authorizing formation of a cooperative
+will set out in detail the activities the cooperative may engage
+in. As a general rule, the statutory language is copied virtually
+verbatim into the articles. The following is an example of a typical statutory provision restated as an article of incorporation:
+ARTICLE IV. POWERS
+I
+This association shall have the following powers:
+13
+(a) To borrow money without limitation as to
+amount of corporate indebtedness or liability: to give
+a lien on any of its property as security therefore in
+any manner permitted by law: and to make advance
+payments and advances to members and other producers.
+(b) To act as the agent or representative of any
+member or members in any of the activities mentioned in Article III hereof.
+(cl To buy, lease, hold, and exercise all privileges of ownership over such real or personal property as may be necessary or convenient for the conduct and operation of the business of the association,
+or incidental thereto.
+(d) To draw, make, accept, endorse, guarantee, execute, and issue promissory notes, bills of
+exchange, drafts, warrants, certificates, and all kinds
+of obligations and negotiable or transferable instruments for any purpose that is deemed to further the
+objects for which this association is formed, and to
+give a lien on any of its property as security therefor.
+(e) To acquire, own, and develop any interest
+in patents, trademarks, and copyrights connected
+with, or incidental to, the business of the association.
+(fl To cooperate with other similar associations in creating central, regional, or national cooperative agencies, for any of the purposes for which
+this association is formed, and to become a member
+or stockholder of such agencies as now are or hereinafter may be in existence.
+(g) To have and exercise, in addition to the
+foregoing, all powers, privileges, and rights conferred on ordinary corporations and cooperative
+14
+marketing associations by the laws of this State and
+all powers and rights incidental or conducive to carrying out the purpose for which this association is
+formed, except such as are inconsistent with the
+express provisions of the act under which this association is incorporated, and to do any such thing
+anywhere; and the enumeration of the foregoing
+powers shall not be held to limit or restrict in any
+manner the general powers which may by law be
+possessed by this association, all of which are hereby expressly claimed.
+Duration
+The articles will say how long the cooperative is authorized to exist. Virtually all modern laws permit perpetual existence. Some laws in effect at the time longstanding cooperatives
+were organized limited the permissible life of a cooperative to a
+set period of time, such as 50 years. Associations that have been
+active for several decades should check to make sure their duration clause provides for perpetual operation.
+I
+ARTICLE V. PERIOD OF DURATION
+This association shall have perpetual existence.
+Directors
+Most statutes require the articles to name the initial policymakers of the cooperative. A majority of the incorporation
+statutes ask for the number of directors and names and addresses of the initial board. The articles often require “at least” the
+minimum number of directors required by statute: the precise
+number is set in the bylaws. Some statutes ask for the names
+and addresses of incorporators, in which case the appropriate
+title and references to incorporators would be substituted for
+“directors” in the example. If the law asks for both. then this
+draft provision is essentially inserted a second time and appro15
+priately worded in each instance.
+ARTICLE VI. DIRECTORS
+This association shall have at least_ directors.
+The names and addresses of those who are to
+serve as the initial directors are:
+NAME ADDRESS
+Capital Structure
+The articles usually contain a description of the capital
+structure of the cooperative. If stock is issued, the number of
+shares authorized and the par value of each share of each class
+of stock (common, preferred) are set forth. The rights granted
+owners of each class of stock, the restrictions on owners of each
+class, and the dividends to which each class is entitled are also
+explained.
+If stock is not issued, a description must be included of
+how the rights and interests of the members will be determined.
+Sample language for both a stock and a nonstock association is
+provided below.
+The capital stock example provides for both voting common and nonvoting preferred stock. Nonvoting preferred stock
+is a useful way to account for additional nonpatronage investments by members. It has also been used as a way of raising
+equity from nonmembers, such as other members of the community interested in supporting the cooperative. If any interest in
+the cooperative is being sold to nonmembers, counsel must be
+retained to advise the association on applicable securities law
+requirements.
+The sample language also assumes that the organization
+16
+limits each member to one vote. If proportional voting based on
+patronage is utilized, counsel will have to prepare a description
+of how votes will be accumulated and any limit on the number
+of votes any one member can amass.
+All of the information in the example below is important
+and should be included somewhere in the organizational documents. However, not all incorporation laws require that all of it
+be in the articles. It may be possible to place some of these provisions in the bylaws.
+ARTICLE VII. CAPITAL STOCK (stock cooperative)
+Section 1. Classes and Authorized Amounts.
+The capital stock of the association shall consist of
+shares of common stock with a par value of $
+per share, and shares of preferred stock with a
+par value of $ per share.
+Section 2. Common Stock. The common stock
+of this association may be purchased, owned, or held
+only by agricultural producers who (1) patronize the
+association in accordance with uniform terms and
+conditions prescribed by it, and (2) have been
+approved by the board of directors.
+‘Producer’ shall mean and include persons
+(natural or corporate) engaged in the production of
+(product), or other agricultural products,
+including tenants of land used for the production of
+any such product, and lessors of such land who
+receive as rent therefore part of any such product of
+such land, and cooperative associations (corporate or
+otherwise) of such producers.
+Each member shall hold only one share of
+common stock and each eligible holder of common
+stock shall be entitled to only one vote in any meeting of the stockholders upon each matter submitted
+to vote at a meeting of the stockholders.
+In the event the board of directors of the association shall find, following a hearing, that any of
+17
+the common stock of this association has come into
+the hands of any person who is not eligible for membership, or that the holder thereof has ceased to be
+an eligible member, such holder shall have no rights
+or privileges on account of such stock, or vote or
+voice in the management or affairs of the association
+other than the right to participate in accordance with
+law in case of dissolution, The association shall
+repurchase such stock for par value. If such holder
+fails to deliver any certificate evidencing the stock,
+the association may cancel such certificate on its
+books and records, and the certificate is thereby null
+and void.
+The common stock of this association may be
+transferred only with the consent of the board of
+directors of the association and on the books of the
+association, and then only to persons eligible to hold
+it. No purported assignment or transfer of common
+stock shall pass to any person not eligible to hold it,
+nor the rights or privileges on account of such stock,
+nor a vote or voice in the management of the affairs
+of the association.
+This association shall have a lien .on all of its
+issued common stock for all indebtedness of the
+holders thereof to the association.
+No dividends shall be paid on the common
+stock.
+Section 3. Preferred Stock. The preferred
+stock of this association may be issued to any person, association, partnership, or corporation.
+Preferred stock shall carry no voting rights.
+Noncumulative dividends not to exceed
+percent (_%) per year may be paid on preferred
+stock at the absolute discretion of the board of directors.
+Preferred stock may be transferred only on the
+books of the association. It may be redeemed in
+whole or in part on a pro rata basis at par, plus any
+dividends declared and unpaid, at any time on thirty
+18
+(30) days’ notice by the association, provided said
+stock is redeemed in the same order as originally
+issued by years. If the owner fails to deliver any certificate evidencing such stock, the association may
+cancel the stock on its books.
+This association shall have a lien on all of its
+issued preferred stock for all indebtedness of the
+holders thereof to the association.
+Upon dissolution or distribution of the assets
+of the association, the holders of all preferred stock
+shall be entitled to receive the par value of their
+stock, plus any dividend declared and unpaid, before
+any distribution is made on the common stock.
+*ii*********
+ARTICLE VII. MENBERSHIP
+(nonstock cooperative)
+The association shall not have capital stock
+but shall admit applicants to membership in the
+association upon such uniform conditions as may be
+prescribed in its bylaws. This association shall be
+operated on a cooperative basis for the mutual benefit of its members as producers. Membership in the
+association shall be restricted to producers and associations of producers who shall patronize the association,
+The voting rights of the members of the association shall be equal, and no member shall have
+more than one vote upon each matter submitted to a
+vote at a meeting of the members.
+The property rights and interests of each
+member in the association shall be unequal and shall
+be determined and fixed on a patronage basis, and
+the net proceeds from the business of the association
+shall be allocated to member-patrons in the proportion that the patronage of each member bears to the
+total patronage of all the members of the association.
+19
+Amendment
+The articles may be changed whenever the appropriate percentage of the membership (and, if required by statute, the directors), as set out in the incorporation statute, votes to amend
+them. While the percentage is established by law, it is a good
+idea to include that requirement in the articles to remind people
+that the articles can be changed and to eliminate doubt as to the
+supp,ort required when the issue of possible amendment arises.
+While a majority of the statutes set the requirement at a
+simple or two-thirds majority of the members voting, several
+statutes require approval of a majority of the total membership.
+If turnout for member meetings is light, this poses a serious
+obstacle to changing the articles.
+ARTICLE VIII. Amendment
+These articles may be amended upon the affirmative vote of two-thirds of the members actually
+voting on the proposed amendment.
+Signatures
+Those persons who ask the State to authorize the cooperative, often called incorporators, complete the document by signing it.
+Signed this day of ,19__, by the
+undersigned incorporators, all of whom are engaged
+in agriculture as bona fide producers of agricultural
+products.
+I
+20
+BYLAWS
+Shortly after the cooperative is incorporated, the members
+adopt a set of bylaws. Bylaws provide a detailed description of
+the structure and method of operation of the cooperative.
+Bylaws are a working plan for how the association should function.
+Most incorporation laws give members flexibility to structure their cooperative as they see fit. Most references to bylaws
+are permissive, giving members the authority to write their own
+rules on how to handle a particular issue.
+Bylaws normally are not filed with the State. But like the
+articles, they are treated in a manner similar to statutes by the
+courts. Failure of the leadership to follow the bylaws can also
+lead to legal liability.
+Numerous provisions are usually found in cooperative
+bylaws. Some are similar to those included in bylaws of forprofit corporations, others are unique to cooperation. The most
+common provisions are discussed in this report. But a cooperative is free to place virtually any rule on the conduct of its affairs
+in the bylaws, provided the provision doesn’t conflict with an
+applicable law or the articles of incorporation.
+While almost any activity can be covered by a bylaw, only
+broad issues of long-term significance to members should be the
+subject of a bylaw. Operating decisions should not be covered in
+the bylaws, but rather in board policy resolutions. Board policies are directives to the management, issued by the board in its
+role as policymaker for the cooperative, that can be changed to
+reflect changing conditions at any time by the board. For example, whether the cooperative will do business with nonmembers
+is a general, long-term decision that should be covered in the
+bylaws. How nonmembers will be charged to insure that they
+pay their fair share of cooperative expenses is a short-term decision requiring the flexibility possible under a policy statement.
+Membership
+The first bylaw usually states the qualifications to be a
+member of the cooperative. Membership should be limited to
+21
+persons who will patronize the cooperative. For an agricultural
+cooperative, this means membership should be limited to producers of agricultural products and other farmer cooperative
+associations. Limiting the membership to producers and producer cooperatives is essential if the association wants to qualify
+for the limited antitrust protection of the Capper-Volstead Act,
+or for tax treatment under section 521 of the Internal Revenue
+Code, or if the cooperative is incorporated under a State law that
+requires that members be agricultural producers.
+This bylaw may also include other reasonable prerequisites
+to membership, such as agreeing to purchase a share of stock,
+sign a marketing agreement, and patronize the association on a
+regular basis.
+This bylaw should also provide for the orderly termination
+of a membership. This can be particularly important for an agricultural cooperative. The significant legal privileges listed
+above are only available to associations of producers. This
+requirement is only met if the membership of anyone who stops
+farming is revoked.
+When a membership is terminated, it is a good practice to
+return the purchase price of the voting share of common stock,
+or the membership fee in a nonstock cooperative (but not necessarily the retained patronage investments). This makes it clear
+to the former member that the termination was more than a symbolic gesture and that he or she no longer has the right to participate in the policymaking of the association.
+This sample language is written for a stock cooperative. In
+a nonstock cooperative, appropriate references to membership
+certificates and fees would be substituted for the terms common
+stock and purchase price.
+I
+ARTICLE I. MEMBERSHIP
+Section 1. Qualifications. Any person, firm,
+partnership, corporation or association, including
+both landlord and tenant in share tenancies, who is a
+bona fide producer of agricultural products in the
+territory in which the association is engaged in business, and who agrees to be a patron of the associa22
+tion, signs a marketing agreement with the association, purchases one share of common stock, and
+meets such other conditions as may be prescribed by
+the board of directors, may become a member of the
+association.
+All applications for membership must be
+approved by the board of directors. Member status
+is effective as of the time the board approves the
+application for membership.
+Section 2. Suspension or Termination. In the
+event the board of directors of the association shall
+find, following a hearing, that any of the common
+stock of this association has come into the hands of
+any person who is not eligible for membership, or
+that the holder thereof has ceased to be an eligible
+member, or that such holder has not marketed
+through the association the products covered by a
+marketing agreement with the association, or not
+otherwise patronized the association for a period of
+(_) year(s), or otherwise violated the articles of incorporation, bylaws, or other agreements made with the
+association, the association may suspend such holder’s rights as a member and terminate the membership.
+When a membership is terminated, the association shall repurchase the member’s share of common stock for par value. The holder shall return to
+the association the certificate evidencing the holder’s
+share of stock. If such holder fails to deliver the certificate, the association may cancel such certificate
+on its books and records, and the certificate is then
+null and void.
+A suspended or terminated member shall
+have no rights or privileges on account of any stock
+held, nor vote or voice in the management or affairs
+of the association other than the right to participate
+in accordance with law in case of dissolution.
+23
+Meetings of Members
+A cooperative is owned and controlled by its members. A
+bylaw sets out the ground rules for convening the members to
+exercise their control function.
+An annual meeting is held each year to elect directors,
+review past performance and future plans, and conduct other
+business as needed.
+It is often a good idea to set the time of the annual meeting
+as promptly as possible after the end of the fiscal year. This
+encourages management to close the books for the year in a
+timely fashion and the auditor to review financial results and
+issue the audit report without delay. Also, the members are still
+focusing on last year’s performance. If the annual meeting is
+delayed too long, the members are often into another production
+cycle and not able to properly exercise their control over the
+cooperative.
+This bylaw should also authorize special member meetings
+to handle any business that can’t wait until the next annual
+meeting.
+Members should receive sufficient advance notice so they
+can plan to attend meetings. Many incorporation statutes have
+specific minimum notice requirements, both in terms of lead
+time (often 10 days or 2 weeks) and method (direct mail, publication in local newspaper). Associations incorporated under
+such a law must make sure the bylaw provides at least as much
+notice as the statute requires, and that appropriate notice is actually given. Otherwise any action taken at the meeting may be
+open to legal challenge.
+A statement on how voting will be conducted is also appropriate in this bylaw. How many votes each member will have is
+only one aspect of this issue. The draft language limits each
+member to one vote. If proportional voting is used, a description of how members will qualify for multiple votes, and a limit,
+if any, on the number of votes any one member can accumulate,
+should be substituted in the applicable place.
+Language on voting on behalf of members organized as
+partnerships and corporations can avoid an embarrassing dispute right before or even during a membership meeting over
+how such a member will vote on an issue. Many cooperatives
+24
+have members organized as partnerships or corporations designate, in writing, who will cast the member’s vote, and that person alone can vote for the member until the member provides a
+valid written notice of a change in the designee.
+Other topics that should be addressed include proxy voting, voting by mail, and cumulative voting. There is no “right”
+way to handle these matters, although cumulative voting is usually prohibited. Sometimes the incorporation statute discusses
+proxy voting and voting by mail. Many cooperatives that permit
+proxy voting limit the number of proxies a member can vote,
+often to only one. If voting by mail is allowed, it is often limited
+to issues discussed in the meeting notice.
+Finally, the minimum number of members that need be
+present to conduct business, called a quorum, should be specified. If the statute permits, quorum requirements are frequently
+set low (e.g., 10 members or 10 percent of the membership,
+whichever is greater) so meetings will not have to be adjourned
+for lack of a quorum. While this exposes the association to control by an active minority, it is sometimes necessary in order to
+make sure that any business is conducted at all.
+ARTICLE II. MEETINGS OF MEMBERS
+Section 1. Annual Meeting. The annual meeting of the members of this association shall be held
+in the State of , during the month of
+-9at such time and in such place as the board of
+directors shall designate.
+Section 2. Special Meetings. Special meetings of the members of the association may be called
+at any time by order of the board of directors and
+shall be called upon written request of at least
+members, or at least _ percent (__%) of the membership, whichever is a greater number.
+Section 3. Notice of Meetings. Written notice of
+every regular and special meeting of members shall
+be prepared and mailed to the last known post office
+25
+address of each member not less than -0 days
+before such meeting. Such notice shall state the
+nature of the business expected to be conducted and
+the time and place of the meeting. No business shall
+be transacted at any special meeting other than that
+referred to in the notice.
+Section 4. Voting. Unless otherwise stated in
+the articles of incorporation, or these bylaws, or
+required by applicable law, all questions shall be
+decided by a vote of a majority of the members voting thereon.
+Each member shall be entitled to only one
+vote, Voting by mail shall not be permitted. Proxy
+voting shall be allowed. Each proxy shall be in writing, and no member shall vote more than one proxy.
+Cumulative voting is not permitted.
+If a membership is held by a partnership, corporation, or other legal entity, the member shall designate in writing the person who shall vote on behalf
+of the member. That designation shall remain in
+effect until written notice of a properly authorized
+change in the designated voter shall be received by
+the association.
+Section 5. Quorum.( members or
+percent I%) of the membership, whichever is a
+larger number, shall constitute a quorum at any
+properly called annual or special membership meeting.
+Directors and Officers
+While the members own and control the cooperative, the
+responsibility for continuous supervision of the association is
+usually delegated to a small group of democratically elected
+leaders referred to as the board of directors, who in turn select
+officers to carry out specific leadership duties. Many cooperative experts consider the selection of directors as the most
+important governance decision made by the membership.
+26
+This bylaw covers the administrative rules for the selection
+of directors and officers and for the conduct of their meetings.
+Many important issues are discussed in this provision.
+Number and Qualification of Directors. The specific number and qualifications of directors must be established. The
+incorporation law will usually prescribe a minimum number of
+directors. There is no legal maximum on the size of a board, but
+experience suggests that if more than about nine people are on a
+local cooperative board, efficiency is reduced substantially.
+Many State statutes require that all directors be members of
+the cooperative. Some permit, or even require, one or more outside directors. The sample bylaw requires directors to be association members. If outside directors are to be authorized, the
+number and manner of selection should be included in the
+bylaw.
+Directors have access to pricing and other marketing plans
+that could be used by a competitor to take business from the
+cooperative. Thus, many cooperatives bar persons affiliated
+with competitors of the association from being directors.
+Cooperatives usually do not, however, bar such persons from
+membership. For example, a farmer who sells produce directly
+to a grocery chain may belong to and market some produce
+through a cooperative that also sells wholesale, but that farmer
+is frequently denied access to a seat on the cooperative board.
+A few cooperatives guarantee board turnover by limiting
+the number of consecutive terms a director can serve.
+Director and Officer Selection. The rules for election of
+directors by the members, and officers by the directors, are set
+out in the bylaws. In many cooperatives the directors are elected for three-year terms on a staggered basis. While directors are
+usually elected from the membership at large, some cooperatives
+elect directors on the basis of geographic regions, usually called
+districts. Sample language authorizing the election of directors
+by districts is set out in Appendix A.
+Officers are usually elected for one-year terms. Even many
+statutes that require all directors to be association members permit some officers, notably the secretary and treasurer, to be nonmembers of the association. This allows staff employees who
+normally keep association records and books to have both the
+appropriate title and attendant responsibilities.
+27
+Sometimes directors and officers are not able to serve their
+full term. The bylaws should provide for a method to fill vacant
+director and officer positions, Usually the remaining directors
+select an interim director to fill a board vacancy until the next
+membership meeting. Directors can usually select a replacement officer at any properly called board meeting.
+Meetings. The bylaws frequently provide much of the
+same information for director meetings as for member meetings
+-
+regular and special meetings are authorized, notice and quorum requirements are set out.
+Compensation . Another issue that should be addressed is
+director compensation. Many directors spend innumerable
+hours each year overseeing and promoting the cooperative. It
+seems reasonable for the association to at least cover out-ofpocket expenses incurred on behalf of the association.
+Some cooperatives also pay a modest fee for each meeting
+directors attend, or time they spend on cooperative affairs.
+While reimbursement of reasonable expenses is usually covered
+with a blanket authorization, fees should be handled more delicately. Directors should not have the right to set their own compensation. Both the decision to pay any fee, and the level of any
+fee authorized, should be made by the members.
+Nepotism. Many cooperatives also have a bylaw provision
+preventing directors and members of their immediate families
+from holding salaried positions with the cooperative. This
+antinepotism language eliminates the chance some members
+might view the awarding of the position as the result of undue
+influence of the director, rather than selection on the basis of
+merit.
+Removal of Directors. Finally, it may be necessary at some
+time to remove a director from that position. Sometimes termination is automatic, e.g., failure to maintain member status or
+missing too many board meetings. The ultimate authority in a
+cooperative is vested in the members, and they should be able to
+remove a director at will.
+As this is often a severe and divisive undertaking, it is best
+to provide a procedure in the bylaws that affords due process for
+the director under attack and conforms closely to any procedural
+requirements set out in the incorporation statute.
+28
+ARTICLE III. DIRECTORS
+AND OFFICERS
+Section 1. Number and Qualification of
+Directors. The association shall have a board of
+directors of _(_) members. Each director elected
+shall be a member of this association in good standing.
+No person shall be eligible to be a director if
+that person is in competition with, or is affiliated
+with any enterprise that is in competition with, the
+association. If a majority of the board of directors of
+the association finds at any time following a hearing
+that any director is so engaged or affiliated that person shall thereupon cease to be a director.
+No director after having served for I ) consecutive full term(s) shall be eligible to succeed himself or herself, but after a lapse of _ I_) yed4 d-d
+again be eligible.
+Section 2. Election of Directors. At the first
+annual meeting of the members of this association,
+directors shall be elected to succeed the incorporating directors. _ director(s) shall be elected for one
+(1) year: _ directors for two (2) years and _directors for three (3) years. At each annual meeting
+thereafter, new directors shall be elected, for a term
+of three (3) years each, to succeed those directors
+whose terms are expiring.
+All directors shall be elected by secret ballot,
+and the nominee(s) receiving the greatest number of
+votes shall be elected.
+Section 3. Election of Officers. The board of
+directors shall meet within seven (7) days after the
+first election and within seven (7) days after each
+annual election and shall elect by ballot a president,
+vice president, secretary, and treasurer, each of
+whom shall hold office until the election and qualifi29
+cation of a successor, unless earlier removed., by
+death, resignation, or for cause.
+The president and vice president shall be
+members of the board of directors. The secretary
+and treasurer need not be directors or members of
+the association.
+Section 4. Vacancies. Whenever a vacancy
+occurs in the board of directors, other than from the
+expiration of a term of office, the remaining directors
+shall appoint a member to fill the vacancy until the
+next regular meeting of the members. If the term of
+the vacating director does not expire at that regular
+member meeting, a special election shall be held to
+select a director to fill the year or years remaining in
+that term.
+If one or more officer positions become
+vacant, such offices shall be filled by the board of
+directors, through election by ballot, at either a regular or special meeting of the board.
+Section 5. Regular Board Meetings. In addition to the meetings mentioned above, regular meetings of the board of directors shall be held monthly,
+or at such other times and at such places as the
+board may determine.
+Section 6. Special Board Meetings. A special
+meeting of the board of directors shall be held whenever called by the president or by a majority of the
+directors. Only the business specified in the written
+notice shall be transacted at a special meeting. Each
+call for a special meeting shall be in writing, shall be
+I signed by the person or persons calling the meeting,
+shall be addressed and delivered to the secretary,
+and shall state the time and place of such meeting.
+Section 7. Notice of Board Meetings. Oral or
+written notice of each meeting of the board of directors shall be given each director by, or under the
+30
+supervision of, the secretary of the association not
+less than _ hours prior to the time of meeting. But
+such notice may be waived by all the directors, and
+their appearance at a meeting shall constitute a
+waiver of notice.
+Section 8. Quorum. A majority of the board
+of directors shall constitute a quorum at any meeting
+of the board.
+Section 9 . Reimbursement and
+Compensation. The association shall reimburse
+directors for all reasonable expenses incurred in carrying out their duties and responsibilities.
+The compensation, if any, of the members of
+the board of directors shall be determined by the
+members of the association at any annual or special
+meeting of the association.
+No member of the board of directors, or member of the immediate family of any board member,
+shall occupy any position in the association on regular salary.
+Section 10. Removal of Directors. Whenever
+any director shall fail to meet the qualifications as
+described in Section I of this Article, or fails to
+attend three (3) consecutive board meetings, either
+regular or special, without just cause and provided
+that notice of such meetings has been given in accordance with these bylaws, then it shall be the duty of
+the board to remove said director and to fill the
+vacancy in accordance with Section 4 of this Article.
+Members, through petition noting the charges
+and signed by at least _(J members or _ percent (_%) of the membership, whichever is a greater
+number, may request the removal of any member of
+the board. Such director shall be notified in writing
+of the charges and given an opportunity to be heard
+at a membership meeting of the association.
+Removal of a director shall require a vote of of
+31
+I
+members voting. Any vacancy resulting from such
+action shall be filled by nomination and vote of
+members at such meeting.
+Duties of Directors
+The directors are responsible for the ongoing operations of
+the cooperative. They set policy and oversee the staff operations
+that implement that policy. Cooperative bylaws often contain
+language placing a legally binding obligation on the directors to
+carry out their most important duties.
+This bylaw often establishes the general relationship
+between the directors and the manager. An important responsibility of the board is to hire and supervise the manager. The
+board sets manager compensation and benefits. The manager,
+not the board, runs the day-to-day business operations of the
+cooperative. This includes hiring and firing other employees. If
+the board is dissatisfied with the way the cooperative is conducting its affairs, it should exercise its authority to replace the
+manager, but it should not take on the manager’s responsibilities.
+The bylaw should also recognize another important board
+responsibility-protecting member assets-by providing for
+appropriate bonds and insurance, an accounting and auditing
+system, and board control of association funds.
+Finally, the board should have the authority to appoint
+committees so its work load can be handled efficiently.
+Sometimes specific reference is made to an executive committee. An executive committee with broad powers can be useful,
+especially when the membership is spread over a large geographic area and some directors have to travel some distance to
+attend meetings. But the other directors must be careful not to
+abdicate all board responsibility to the executive committee.
+ARTI&E IV. DUTIES OF DIRECTORS
+Section 1. Management of Business. The
+board of directors shall have general supervision and
+control of the business and the affairs of the associa32
+tion and shall make all rules and regulations not
+inconsistent with law, the articles of incorporation,
+or bylaws for the management of the business and
+the guidance of the members, officers, employees, I
+and agents of the association.
+Section 2. Employment of Manager. The
+board of directors shall have power to employ,
+define duties, fix compensation, and dismiss a manager with or without cause at any time. The board
+shall authorize the employment of such other
+employees, agents, and counsel as it from time to
+time deems necessary or advisable in the interest of
+the association. The manager shall have charge of
+the business of the association under the direction of
+the board of directors.
+Section 3. Bonds and Insurance. The board
+of directors shall require the manager and all other
+officers, agents, and employees charged by the association with responsibility for the custody of any of
+its funds or negotiable instruments to give adequate
+bonds. Such bonds, unless cash security is given,
+shall be furnished by a responsible bonding company and approved by the board of directors, and the
+cost thereof shall be paid by the association.
+The board of directors shall provide for the
+adequate insurance of the property of the association, or property which may be in the possession of
+the association, or stored by it, and not otherwise
+adequately insured, and, in addition, adequate insurance covering liability for accidents to all employees
+and the public.
+Section 4. Accounting System and Audits.
+The board of directors shall have installed an
+accounting system which shall be adequate to meet
+the requirements of the business and shall require
+proper records to be kept of all business transactions.
+33
+Duti
+34
+At least once in each year the board of directors shall secure the services of a competent and disinterested public auditor or accountant, who shall
+make a careful audit of the books and accounts of the
+association and render a report in writing thereon,
+which report shall be submitted to the directors and
+the manager of the association and made available to
+the members of the association.
+This report shall include at least a balance
+sheet showing the true assets and liabilities of the
+association, and an operating statement for the fiscal
+period under review.
+Section 5. Depository. The board of directors
+shall select one or more banks to act as depositories
+of the funds of the association and determine the
+manner of receiving, depositing, and disbursing the
+funds of the association and the form of checks and
+the person or persons by whom they shall be signed,
+with the power to change such banks and the person
+or persons signing such checks and the form thereof
+at will.
+Section 6. Committees. The board may, at its
+discretion, appoint from its own membership an
+executive committee of _members, and determine
+their tenure of office and their powers and duties.
+The board may delegate to the executive committee
+all or any stated portion of the functions and powers
+of the board, subject to the general direction,
+approval, and control of the board. Copies of the
+minutes of any meeting of the executive committee
+shall be mailed to all directors within seven (7) days
+following such meeting.
+The board of directors may, at its discretion,
+appoint such other committees as it deems appropriate.
+5 of Officers
+Nhile the tasks that go with each major office of a corpora-
+tion are generally well understood, it is still important to have
+those duties spelled out in the bylaws. This will minimize any
+uncertainty over the roles each plays in leading the association.
+ARTICLE V. DUTIES OF OFFICERS
+Section 1. Duties of President. The president
+shall (1) preside over all meetings of the association
+and of the board of directors: (2) call special meetings of the board of directors; (3) appoint such committees as the board of directors may deem advisable
+for the proper conduct of the cooperative: and (4)
+perform all acts and duties usually performed by a
+presiding officer.
+Section 2. Duties of Vice President. In the
+absence or disability of the president, the vice president shall perform the duties of the president, provided, however, that in case of death, resignation, or
+disability of the president, the board of directors
+may declare the office vacant and elect any eligible
+person president.
+Section 3. Duties of Secretary. The secretary
+shall keep a complete record of all meetings of the
+association and of the board of directors and shall
+have general charge and supervision of the books
+and records of the association. The secretary shall
+sign papers pertaining to the association as authorized or directed by the board of directors. The secretary shall serve all notices required by law and by
+these bylaws and shall make a full report of all matters and business pertaining to the office to the members at the annual meeting. The secretary shall keep
+the corporate seal and all books of blank certificates,
+complete and countersign all certificates issued, and
+affix the corporate seal to all papers requiring a seal:
+shall keep complete stock ownership records: shall
+make all reports required by law: and shall perform
+35
+such other duties as may be required by the association or the board of directors. Upon the election of a
+successor, the secretary shall turn over all books and
+other property belonging to the association.
+Section 4. Duties of Treasurer. The treasurer
+shah be responsible for the keeping and disbursing
+of all monies of the association, and shall keep accurate books of accounts of all transactions of the association. The treasurer shall perform such duties
+with respect to the finances of the association as may
+be prescribed by the board of directors. At the expiration of his term of office, the treasurer shall
+promptly turn over to his successor all monies, property, books, records, and documents pertaining to his
+office or belonging to the association.
+Operation at Cost and Members’ Capital
+Many of the unique aspects of the bylaws of a cooperative
+pertain to the association’s financial affairs. Tax law plays an
+important part in structuring these provisions. This report does
+not attempt to explain cooperative taxation but only makes passing references to tax terms when explaining the importance of
+certain bylaw provisions.
+Since the overall objective of a cooperative is to maximize
+the income of its members, leaders must have flexibility to
+acquire capital and minimize taxes. The next several provisions, up to and including dissolution, authorize business and
+tax planning options compatible with doing business on a cooperative basis.
+This section often starts with a straightforward statement
+that the association will operate on a service-at-cost basis for the
+mutual benefit of the members as patrons and then covers specific issues to implement that statement.
+Language is usually included to allocate margins on a
+patronage basis. Allocation can be based on the volume or the
+value of business conducted on a patronage basis. Cooperatives
+dealing in one commodity, or in similar commodities, usually
+use the volume method. Those that handle several products
+3s
+with divergent values often use the dollar-value-of-business
+method. The sample language assumes that the association is a
+marketing cooperative using the volume method. Appropriate
+wording for supply cooperatives and those using the value
+method is provided in parentheses.
+Marketing cooperatives have an alternative method of raising equity capital, the collection of per-unit retains. Language
+authorizing this option should be included in their bylaws.
+The term “capital credits” is used in the sample language
+to distinguish the retained margins and per-unit retains from
+direct member investments in stock. This distinction simplifies
+establishing an equity redemption program for patronage-based
+investments apart from any redemption of direct investments.
+The bylaw should specify whether dividends will be paid
+on this patronage capital.
+Since the completeness and accuracy of each patron’s
+account is vital to assigning financial obligations and benefits in
+the appropriate manner, a provision obligating the association to
+keep the required records is an important protection for the
+members.
+A statement requiring the timely distribution of written
+notices of allocation and per-unit retain certificate is both good
+business practice and a requirement for favorable tax treatment
+under the Internal Revenue Code. That statement should authorize the board to issue those notices and certificates, in either
+qualified or nonqualified form, so as to maximize the tax planning alternatives available.
+ARTICLE VI. OPERATION AT COST
+AND MEMBERS’ CAPITAL
+Section 1. Operation at Cost. The association
+shall at all times be operated on a cooperative service-at-cost basis for the mutual benefit of its member patrons.
+Section 2. Margin Allocation. In order to
+induce patronage and to assure that this association
+37
+will operate on a service-at-cost basis in all its transactions with its members, the association is obligated to account on a patronage basis to all member
+patrons on an annual basis for all amounts received
+from business conducted with members on a patronage basis, over and above the cost of providing such
+services and making reasonable additions to
+reserves. Such allocation shall be on the basis on
+the volume (dollar value) of product marketed
+through (purchased from) the association.
+The association is hereby obligated to pay all
+such amounts to the patrons in cash or by credits to
+a capital account of each member patron.
+Section 3. Per-Unit Retains. Each member
+also agrees to provide capital in such amounts as
+determined by the board of directors based on physical units of product marketed through the association. Such per-unit retains shall be allocated to the
+member’s capital credit account,
+Section 4. Dividends. No dividends shall be
+paid on any capital credits.
+Section 5. Records and Documentation. The
+books and records of the association shall be set up
+and kept in such a manner that at the end of each fiscal year, the amount of capital, if any, so furnished
+by each member is clearly reflected and credited in
+an appropriate record to the capital account of each
+member.
+The association shall, within 8-l/2 months
+after the close of each fiscal year, notify each member of the capital so credited to the member’s
+account. The notice shall be in the form of a written
+notice of allocation or per-unit retain certificate (as
+those terms are used in Subchapter T of the Internal
+Revenue Code) or other appropriate written document. The board shall have discretion to issue such
+38
+notices and certificates in either “qualified” or “nonqualified” form as permitted by the Internal Revenue
+Code and other applicable law.
+Section 6. Fiscal Year. The fiscal year of this
+association shall commence on the first day of
+(month) and end on the last day of
+(preceding month).
+Equity redemption
+A bylaw authorizing redemption of patronage capital and
+explaining the method to be used helps insure that, to the extent
+possible, current patrons finance the cooperative.
+There are three types of equity redemption plans. Most
+cooperatives that have an equity redemption program use a
+revolving fund plan whereby equities are redeemed in the order
+in which they were allocated. The first paragraph of the sample
+bylaw presents this approach.
+A limited number of cooperatives redeem a percentage of
+all outstanding equities each year. Sample language to implement this plan is found in section 1 of the Alternative Equity
+Redemption Bylaw (Appendix B).
+A few cooperatives have adopted a base capital plan.
+Under a base capital plan each member is assigned responsibility for providing a pro rata share of needed capital based on proportional use of the cooperative during a base period. A sample
+bylaw authorizing a Base Capital Plan is presented in Appendix
+C. Associations interested in such a plan should contact a professional adviser who can draft a scheme tailored to the association’s unique needs.
+Some cooperatives grant the board discretion to retire outstanding member equity “out of order” as it deems in the best
+interests of the association. Sample language for implementation of the discretionary approach appears in the second paragraph of the sample bylaw below.
+Other cooperatives provide a specific redemption preference for equity of the estates of deceased members and/or retired
+members who have reached a certain age. An event-specific
+preferences clause can be complex, particularly if it attempts to
+39
+deal with the special problems created by members organized as
+legal entities and thus do not regularly retire or die. Sample language covering this situation is provided in section 2 of the sample bylaw in Appendix B.
+New associations are not going to be in a position to redeem
+equity for several years. But an early commitment to develop a
+regular equity redemption program and agreement on the rules for
+its implementation will strengthen an association’s cooperative
+character and give early supporters some assurance that they will
+get their investment back at some time in the future.
+Consent
+ARTICLE VII. EQUITY REDEMPTION
+Section I. Regular Redemption, Revolving
+Fund. If at any time the board of directors determines
+that the financial condition of the association will not
+be impaired thereby, capital credited to members’
+accounts may be redeemed in full or in part. Any
+such redemption of capital shall be made in order of
+priority according to the year in which the capital was
+furnished and credited, the capital first received by
+the association being the first redeemed.
+Section 2. Discretionary Special Redemptions.
+Notwithstanding any other provision of these bylaws,
+the board, at its absolute discretion, shall have the
+power to retire any capital credited to members’
+accounts on such terms and conditions as may be
+agreed upon by the parties in any instance in which the
+interests of the association and its members are deemed
+to be furthered thereby and funds are determined by
+the board to be available for such purposes.
+If the cooperative is to deduct the face value of written
+notices of allocation and per-unit retain certificates from taxable
+income in the year issued, the Internal Revenue Code requires
+patrons to consent to include those amounts in taxable income
+40
+in the year they receive a notice or certificate, even though the
+cooperative retains the funds. The simplest way to obtain consent from members is to include a bylaw making consent a condition for membership. The Internal Revenue Service has published a model consent bylaw which should be adopted.
+Another paragraph is inserted making it clear that the
+cooperative must explain the meaning of consent to members
+and prospective members: this reminds leaders that such an
+explanation is also a tax law requirement.
+ARTICLE VIII. CONSENT
+Each person who hereafter applies for and is
+accepted to membership in this association, and
+each member of this association on the effective date
+of this bylaw who continues as a member after such
+date, shall, by such act alone, consent that the
+amount of any distributions with respect to his
+patronage occurring after the effective date of this
+bylaw, which are made in qualified written notices
+of allocation or qualified per-unit retain certificates
+(as defined in 26 U.S.C. 1388), and which are
+received by him from the cooperative, will be taken
+into account by him at their stated dollar amounts in
+the manner provided in 26 U.S.C. 1385(a) in the taxable year in which such written notices of allocation
+and per-unit retain certificates are received by him.
+Written notification of the adoption of this
+Article, a statement of its significance, and a copy of
+the provision shall be given separately to each member and prospective member before membership in
+the association.
+Nonmember Business
+The bylaws should make it clear whether the association
+may or may not do business with nonmembers. The sample
+bylaw assumes that the association will want the option to conduct nonmember business.
+41
+If the association does nonmember business, the CapperVolstead Act and many State incorporation laws require that a
+majority of the association business be done with or for members. The first three sentences of the sample bylaw are thus
+found in most cooperative bylaws.
+If an association wishes to qualify for tax treatment under
+section 521 of the Internal Revenue Code, it may not do more
+than 15 percent of its farm supply business with persons who
+are neither members nor producers (business with the Federal
+government can be disregarded in making this computation).
+The last two sentences in the example cover this situation.
+ARTICLE IX. NONMEMBER BUSINESS
+This association may conduct business with
+nonmembers on either a patronage or nonpatronage
+basis. However, this association shall not market the
+products of nonmembers in an amount the value of
+which exceeds the value of the products marketed
+for members. Itshall not purchase supplies and
+equipment for nonmembers in an amount the value
+of which exceeds the value of the supplies and
+equipment purchased for members. It shall not purchase supplies and equipment for persons who are
+neither members nor producers of agricultural products in an amount the value of which exceeds fifteen
+percent (15%) of all its purchases. Business done for
+the United States or any of its agencies shall be disregarded in determining the limitations imposed by
+this section.
+Nonpatronage Income
+Several factors are combining to increase the proportion of
+cooperatives that have taxable earnings from nonpatronage
+sourced. These factors include a growing reliance on nonmember business to sustain the cooperative, more forceful positions
+by IRS auditors to classify investment income as nonpatronage
+sources, and less use of section 521. The bylaws should recog42
+nize this as special income and provide the board discretion to
+add it to a capital reserve, distribute it to members, or put it to
+any other lawful use.
+I ARTICLE X. NONPAlXONAGE INCOME
+The nonpatronage income of the association
+shall be its gross receipts derived from all sources
+which under law do not qualify as patronage
+income, less all expenses properly attributable to the
+production of such nonpatronage sources income
+and all income taxes payable on such receipts by the
+association, Nonpatronage income shall be used in
+behalf of the association and its members in accordance with such lawful purposes, including assignment to an unallocated reserve account and allocation in whole or in part to members, as may be
+determined by the board of directors.
+Handling of Losses
+While cooperatives operate at cost over the long term, the
+financial world operates for accounting and tax purposes in single-year segments. Sometimes cooperatives have a loss in that
+relatively short framework. The bylaws should anticipate the
+possibility of a loss year. They should explain how decisions
+will be made to allocate the loss on an equitable basis.
+The proper treatment of losses by cooperatives for tax purposes has long been a contentious issue between cooperatives
+and the Internal Revenue Service. The sample bylaw reflects a
+moderate position that financial results on patronage and nonpatronage business should be separated: gains and losses within
+each category can be combined, or “netted,” for tax purposes;
+and losses under either category can be carried back or forward
+to offset earnings in other years under the applicable provisions
+of the tax code for businesses in general. As the rules for handling losses are subject to change from time to time, counsel
+should be asked to keep informed on this issue and advise the
+association when this bylaw may need revision.
+43
+It may also be prudent to include a prohibition on directors
+voting a direct assessment on the members. This will prevent
+outside interests from pressuring the directors into an action
+likely to have a negative impact on member relations.
+ARTICLE XI. LOSSES
+Section z . Patronage Losses. In the event the association suffers a loss during any year on business conducted with or for patrons, such loss may be apportioned among the patrons during the year of loss so
+that such loss will, to the extent practicable, be
+borne by the patrons of the loss year on an equitable
+basis. The board shall have full authority to prescribe the basis on which capital furnished by
+patrons may be reduced or such loss otherwise equitably apportioned among the patrons. In the event of
+a patronage loss in one or more departments or divisions of the operation of this association, but not so
+much as to cause an overall loss for the fiscal year,
+such loss or losses may be prorated against each of
+the remaining profitable departments on the basis of
+their respective percentage of the net margins during
+such fiscal year.
+Section 2. Nonpatronage Losses. If in any fiscal year the association shall incur a loss other than
+on patronage operations, such loss may be charged
+against any reserve accumulated from nonpatronage
+earnings in prior years.
+Section 3. General Provisions. The board
+shall have no authority to make assessments against
+members.
+This section shall not be construed to deprive
+the association of the right to carry backward or forward losses from any source whatsoever in accordance with the Internal Revenue Code or state taxing
+statutes.
+44
+Dissolution
+Many of the rules to dissolve a cooperative are contained in
+various statutes and are too complex to reproduce in the bylaws.
+One issue that should be addressed is how any assets that might
+remain after all liabilities are met should be distributed. In a
+noncooperative corporation this is usually done on the basis of
+stock ownership and, if the bylaws are silent on this issue, this
+may be the rule imposed on cooperative members by a court. It
+is a good idea to consider language in the bylaws of a cooperative making clear that such a distribution will be on the basis on
+patronage.
+I
+ARTICLE XII. DISSOLUTION AND PROPERTY
+INTEREST OF MEMBERS
+Upon dissolution, after all debts and liabilities
+of the association shall have been paid, all shares of
+preferred stock and common stock redeemed, and all
+capital furnished through patronage shall have been
+retired without priority on a pro rata basis, the
+remaining property and assets of the association
+shall be distributed among the members and former
+members in the proportion which the aggregate
+patronage of each member bears to the total patronage of all such members insofar as practicable,
+unless otherwise provided by law.
+Indemnification
+As the trend toward litigating to test the validity of various
+decisions by corporate leaders has grown, so has the possibility
+that directors, officers and employees may be found personally
+liable for the adverse consequences of their decisions. This has
+made some people understandably reluctant to assume leadership positions, particularly as unpaid or minimally compensated directors and officers.
+State governments, recognizing the valuable role directors
+and officers play in corporate affairs, have adopted a variety of
+45
+laws limiting liability of corporate leaders and permitting corporations to shield leaders from direct personal loss for decisions
+they make on behalf of the corporation.
+In many States this is a developing area of the law, and the
+extent of permissible indemnification changes frequently. To
+encourage members to serve as directors, and to make sure leaders don’t shy away from innovative ideas, cooperatives should
+consider a bylaw accepting the maximum amount of responsibility for indemnification permitted by State law.
+Prudent risk management usually includes the purchase of
+liability insurance to protect against an indemnification claim
+that might otherwise lead to significant exposure for the association. This coverage can seem quite expensive, so the sample
+language uses the permissive term “may” rather than the mandatory term “shall.” But whenever possible, this insurance should
+be obtained to avoid exposing member assets to unacceptable
+risk.
+I
+ARTICLE XIII. INDl3MNIFICATION
+The association shall indemnify its officers,
+directors, employees, and agents to the fullest extent
+possible under the provisions of the
+(applicable State law), as it may be amended from
+time to time.
+The association may purchase liability insurance coverage for any person serving as an officer,
+director, employee or agent to the extent permitted
+by applicable State law.
+Amendment
+It is important for cooperative leaders to remember that
+bylaws are not set in stone. They can, and should, be changed
+whenever they stand as a barrier to cooperative activity desired
+by the member-owners and permissible under the law.
+While the incorporation statute will include language permitting amendment of the bylaws and setting out how this can
+be accomplished, a bylaw on amendment is usually included to
+46
+remind leaders that change is possible and to call attention to
+any unusual legal requirement, such as a higher than normal
+positive voting requirement, that may be applicable.
+ARTICLE XIV. AMEXWMENTS
+If notice of the character of the amendment
+proposed has been given in the notice of meeting,
+these bylaws may be altered or amended at any regular or special meeting of the members by the affirmative vote of (_) of the members present or voting by proxy.
+Again, these are only examples of the provisions common
+to most cooperative bylaws. Virtually any other rule can be
+included that is permissible under law. It is up to the leaders
+and members of a cooperative to craft a set of bylaws that guides
+the association to serving members’ needs.
+MARKETING AGREEMENT
+Cooperatives that market farm products and other goods of
+their members will usually want a separate contract with each
+member establishing the terms upon which they will conduct
+their business transactions. This contract is commonly called a
+marketing agreement.
+If the members only want the cooperative to serve as a
+home-of-last-resort for product that can’t be sold elsewhere, then
+a marketing agreement is not necessary. But if the members
+want an organization that will enhance the return they earn on
+all of their production, then a marketing agreement is an important marketing tool.
+The marketing agreement is a unique contract in that,
+because the members own ,and control the cooperative, the
+members are entering into a contract with themselves. But it is
+more accurate to picture the agreement as a contract between
+each individual member and the membership as a whole.
+An important key to making the system work is for everyone to remember that the cooperative is democratically con47
+trolled by the members. No individual member has a right to
+unilaterally cancel or change the marketing agreement, and the
+leadership should not insist on arrangements that are contrary to
+the wishes of a majority of the membership.
+The marketing agreement builds on the patronage commitment section of the organizational agreement. Each individual
+member’s obligation to the organization committee is transferred
+to the new cooperative entity.
+While the basic content of the articles and bylaws is standardized throughout the cooperative community, the substantive
+provisions of the marketing agreement are influenced by the custom and trade of the market for the commodity covered by the
+agreement. Thus the sample language may need substantial
+modification to meet member needs.
+As with the articles and bylaws, the terms of the marketing
+agreement are binding until changed, but they are not etched in
+stone. The association-represented by its officers and directors-and the members are free to adopt an approach to any
+issue different than the approach set out in the organization
+agreement or in previously adopted marketing agreements.
+Introduction
+These initial provisions identify the parties to the contract,
+the cooperative and the producer, and usually establish any
+other requirements that the producer must meet, including any
+initial equity investment obligation, to be a member of the cooperative.
+I
+MARKEUINGAGREEMENT
+THIS AGREEMENT, made as of this _ day of
+x9_, by and between , herein referred to as “Producer,” and
+t an agricultural cooperative
+having an office at
+, herein referred to as “Association”.
+RECITALS
+A. Association is an agricultural cooperative
+organized under the laws of the State of .
+B. Producer is a member of the Association
+who produces .
+C. Producer has purchased one share of common voting stock and paid to Association the sum of
+dollars ($), calculated at the rate of $
+per -(unit) of (product) as specified in
+Producer’s membership application, receipt of which
+is acknowledged as an equity investment in the
+Association. This entitles Producer to all the benefits of membership in the Association as long as
+Producer complies with the articles of incorporation
+and bylaws of the Association and the provisions of
+this agreement.
+In consideration of the mutual covenants and
+obligations contained herein, the parties agree as follows:
+sales Terms
+This provision outlines how the association will sell the
+products and pay the member-patrons. The first paragraph normally defines the obligation of the producer to deliver product
+to the association. The same three options outlined in the
+patronage commitment examples for the organization agreement-full production, defined volume, and set acreage-are
+available for use in setting the delivery commitment once operation begins, The defined volume option is utilized in this example, so if another type of obligation is adopted, appropriate modification of the first paragraph should be made.
+The second paragraph explains how the association will
+distribute the proceeds of resale to the member. Two ways of
+accounting for these proceeds are common. One is sometimes
+referred to as a gross margin operation. The association agrees
+49
+to pay the member the going market price for the product, less
+deductions for operating expenses. After the end of the fiscal
+year, any margin is returned to the producers as a patronage
+refund.
+The other is called the pooling method. In this arrangement all proceeds above expenses are returned to the producers
+on the basis of patronage. Such associations do not generate
+margins, as such, and thus lack access to retained patronage
+refunds to obtain equity.
+Pooling cooperatives must rely on per-unit retains and
+other means of raising capital. An example of draft language for
+each option is set forth below.
+Other terms of sale should also be included in the agreement. Sample language on several areas commonly covered are
+provided: responsibilities for delivery and for inspection and
+grading of the product; authorization for the association to pledge
+the product and sales proceeds as collateral for loans and otherwise exercise the rights of ownership: authorization for the association to withhold fees to cover operating expenses and capital
+retains from checks to growers; and an explanation of how the
+parties to the contract will deal with liens against the product.
+Section 1. Sale of (product).
+Association agrees to buy and Producer agrees to sell
+to Association (number) (units) of
+(product) as defined by USDA standards and grown
+by Producer. This agreement is intended by the parties to pass an absolute title to (number)
+_ (units) of (product) grown by Producer
+as soon as they have a potential existence but such
+(product) shall be at the risk of Producer until delivery.
+* * * * * * OPTION - Gross Margin Operation * * * * l l
+Section 2. Payment to Producer. Association
+shall market Producer’s (product) and
+Producer shall accept as payment for Producer’s
+(product) a price based on the current market price
+in the area for (product) of like grade and
+50
+quality.
+Association shall pay the amount due
+Producer, less deductions authorized in Section 6 of
+this agreement, not more than _ days after delivery of [product) to Association or Association’s
+prescribed buying location.
+l * * l l * OPTION - Pooling Operation l l * * * *
+Section 2. Payment to Producer. The
+Association may at any time pool any or all
+(product) of Producer with any other
+(product) of a similar kind and grade. Producer shall
+receive, for (product) pooled, a unit price
+equal to the average net unit price obtained for the
+pooled (product), less deductions authorized
+in Section 6 of this agreement.
+Association shall make an advance payment to
+Producer of percent of the current market price in
+the area for (product) of like grade and quality
+not more than _ days after delivery of (product) to Association or Association’s prescribed buying
+location.
+Section 3. Delivery. All (product) shall
+be delivered by Producer at Producer’s expense at
+the earliest reasonable time after harvesting, or at
+such time as called for by Association, to
+Association’s principal place of business or to one of
+Association’s authorized buying locations as prescribed by Association. The Association will use its
+best efforts to locate buying locations within a reasonable distance from Producer’s farm.
+Section 4. Inspection and Grading. Prior to
+acceptance by Association, all (product) shall
+be inspected and graded by the USDA in accordance
+with USDA standard rules and regulations.
+All purchases and/or marketings of
+(product) received by Association from Producer
+51
+shall be based upon USDA grade, and Producer
+agrees to accept the grading established by USDA.
+Section 5. Loans and Security. Association
+shall have the power to borrow money for any purpose on the security of the (product) delivered to Association, the products derived thereupon,
+and evidence of such products or by-products, or
+cash or accounts arising from the sale thereof, and to
+give a lien, either legal or equitable, thereon as the
+absolute owner and/or marketing agent thereof.
+Association may commingle such products and byproducts with other products and by-products of like
+grade and variety and shall exercise all other rights
+of ownership without limitation.
+Section 6. Deductions. Association agrees to
+purchase from and/or market for Producer the
+(product) set forth in Section 1 and to pay to
+Producer for said (product) the price set forth
+in Section 2, less the following deductions authorized by Producer:
+a. An amount to be determined annually
+by the board of directors, in the sole discretion of the board, to meet the general contingencies of the business of the Association
+including operating expenses.
+b.A$ . per___ (unit) capital retain
+deduction by the Association on the purchase
+price of each _(unit) of (product)
+received from Producer.
+Section 7. Liens. Producer shall notify the
+Association of any lien on any (product) covered by this agreement. Producer shall obtain permission from the lien holder for Association to market such (product) and to retain any
+deductions from the payments to Producer autho52
+rized hereunder and under the articles of incorporation and bylaws of the Association. After any such
+deductions, Producer authorizes the Association to
+apply the balance of the sale proceeds, or so much
+thereof as necessary, for payment of the lien.
+Enforcement
+As a member owned and controlled entity, one of the most
+sensitive areas of management and leadership in a cooperative is
+the disciplining of members who violate their agreements with
+the association. But unless each member honors his or her obligations to the association, the collective strength of the venture
+is weakened and the entity’s chance of success is diminished.
+This is especially true where a marketing agreement is in
+effect. Management has to be able to anticipate the amount of
+product that will be delivered so it can plan for its processing
+and resale. Disruptions in anticipated delivery by natural causes, such as drought, are usually excused under a so-called “Act
+of God” clause in the cooperative’s contracts with buyers. But if
+members simply do not deliver product to the association as
+promised, management may be forced to buy product on the
+open market to meet association commitments or even default
+on its own contractual obligations.
+Usually a member knowingly violates the marketing agreement because the member thinks he or she can get a better price
+somewhere else.
+In the short term, this may indeed be the case. No firm
+always has the best price in a competitive market. But a cooperative must view itself as a long-term undertaking. If some members are allowed to forsake the cooperative for personal shortterm gain, they do so at the expense of those members who
+honor their agreement. Because the marketing agreement is a
+contract between each individual member and the membership
+as a whole, the leadership has the responsibility to protect the
+interest of the group as a whole. That means taking steps,
+including legal action if necessary, to enforce the marketing
+agreement.
+Most State cooperative incorporation statutes permit contractual provisions to facilitate enforcement of marketing agree53
+ments. One is the inclusion of language providing for liquidated
+damages. In general corporate law, an injured party must prove
+the extent of the loss with great specificity to be eligible for compensation. This can be very difficult to do when agricultural commodities are involved. Their value changes by the day, or even by
+the minute. So in this instance, the parties can agree through contract on a specific level of damages, called liquidated damages,
+that will be the penalty for violating the contract. The level must
+be high enough to truly discourage breaches of the contract and to
+compensate the other members for their loss. A frequently used
+rule-of-thumb is 25 percent of the estimated market value of the
+commodity if it had been delivered under the contract.
+Marketing agreements also usually authorize the association to go to court and seek a restraining order against either
+actual or anticipated breach of the contract.
+The agreement may also make the offending party liable for
+legal fees incurred by the association in defending the agreement.
+Section 8. Liquidated Damages. The remedy
+at law would be inadequate and it would be impracticable and difficult to determine the actual damages
+to the Association should Producer fail to deliver the
+(product] covered by this agreement. Therefore,
+regardless of the cause of such failure, Producer
+agrees to pay to the Association for all such
+(product) delivered or disposed of by Producer, other
+than in accordance with the terms of this agreement,
+a sum equal to _ % of the fair market value of the
+product at the close of business on the day the product should have been delivered to the Association,
+as liquidated damages for the breach of this agreement.
+All parties agree that this agreement is one of
+a series dependent for its true value on the adherence of all the contracting parties to all of the agreements, but the cancellation of any other similar
+agreement or the failure of any of the parties thereto
+to comply therewith shall not affect the validity of
+this agreement.
+Failure to deliver the (product) commit54
+ted herein due to ACTS OF GOD shall not constitute
+a breach of this agreement.
+Section 9. Specific Performance. Producer
+agrees that in the event of a breach or threatened
+breach by Producer of any provisions of this marketing agreement regarding delivery of (pmduct),
+the Association shall be entitled to a preliminary
+restraining order and an injunction to prevent breach
+or further breach hereof and to a decree of specific
+performance hereof. The parties agree that this is a
+contract for the purchase and sale of personal property under special circumstances and conditions and
+that the Association may, but shall not be obligated
+to, go into the open markets and buy -(product)
+to replace any that Producer may fail to deliver.
+Section 20. Legal Costs and Expenses. If the
+Association brings any action whatsoever by reason
+of a breach or threatened breach of this agreement,
+Producer shall pay to the Association all court costs,
+costs for bonds, travel expenses and all other
+expenses arising out of or caused by the litigation,
+including reasonable attorney’s fees expended or
+incurred by Association in such proceedings, and all
+such costs and expenses shall be included in the
+judgment.
+Termination and Renewal
+Management doesn’t want to have to get every member to
+sign a new agreement each year, and the producers aren’t going
+to want to be obligated to continue to patronize the cooperative
+if it isn’t meeting their needs. A provision providing that the
+contract automatically renews itself for another year unless
+either the cooperative or the member provides notice during a
+specific period of time-usually about a month during a slow
+period in production and cooperative activity-that it wants to
+terminate the agreement gives adequate flexibility and stability
+to the relationship.
+55
+Section 2 1. Termination and Renewal. After
+this agreement has been in effect one year from the
+date of execution, either party may terminate it in
+any year by notifying the other party in writing
+between (date) and (date). It is mutually agreed that failure to so terminate in any year
+shall constitute conclusive evidence that the parties
+have renewed this agreement for another year.
+Miscellaneous Provisions
+Individual cooperatives have adopted numerous additional
+provisions to tailor their marketing agreements to their individual needs. Examples of some of the more common, but by no
+means all, of these types of provisions are provided.
+Nonconforming agreements. From time to time, the association may want to alter the terms of its marketing agreement.
+This may occur when numerous agreements are in effect, and it
+is a good cooperative practice to treat all member equitably.
+Therefore, a provision permitting nonconforming contracts, but
+offering persons with ongoing agreements the option to change
+to the new agreement, often called a “most favored nation
+clause,” can be useful. If the association wants to bring all
+agreements back to uniformity, it can do so during the next time
+period for terminating existing agreements.
+Section 12. Nonconforming Agreements.
+Association may enter into agreements with other
+growers differing in terms from those contained herein, consistent with the bylaws of the Association,
+without invalidating this agreement, provided that
+Producer at Producer’s request may sign a similar
+agreement as a substitute for this agreement.
+No contrary agreements. One of the most difficult legal situations to untangle involves the member who signs more than
+one contract for the sale of the same commodity. A clause forbidding such activity helps place the responsibility for injuries
+suffered by the cooperative on the member.
+Section 13. No Contrary Agreements. Producer warrants that Producer has not contracted to sell, market, consign, or deliver and will not contract to sell,
+market, consign, or deliver any (product) during the term of this agreement to any person, firm or
+corporation, contrary to this agreement.
+Forfeiture of membership. If a member is going to disregard the terms of the marketing agreement, the cooperative is
+usually better off without that person as a member. A provision
+giving the board authority to revoke the membership of a member who violates the agreement gives appropriate discretion to
+the directors in dealing with a breach of the contract.
+Section 14. Forfeiture of Membership.
+Violation of this agreement in any material respect
+by Producer shall be grounds for the board of directors to terminate Producer’s membership in the
+Association.
+Abide by articles and bylaws. A similar provision requiring members to abide by the articles and bylaws, as written at
+the time the agreement is signed or subsequently a&nded,
+makes it clear that a member can’t abrogate the agreement if the
+membership approves a change in the cooperative organizational documents the individual member doesn’t like. That member
+must honor the agreement until the annual period for orderly
+termination arrives.
+I
+Section 15. Articles and Bylaws. Producer
+agrees to conform to and observe the articles of
+incorporation and bylaws of the Association now in
+force and as they may be amended hereafter.
+Assignment. Sometimes reorganizations occur during the
+year at either the association or the member level. The right of a
+new entity replacing one of the parties to enforce the contract
+can be clarified in the agreement itself. Because the association
+is the members as a whole, it can usually assign its rights at will.
+However, to protect against one member assigning rights to an
+5 7
+unqualified person, usually a member must have board approval
+to assign contract rights.
+Section 26. Assignment. This agreement may
+be assigned by the Association in its sole discretion.
+Producer may assign this agreement, but only upon
+written authorization granted by the board of directors of the Association.
+Entire agreement. A major cause of disputes over business
+contracts is the unwritten exception. One party to the contract
+will say, “I know the contract says that, but you told me you
+would do this.”
+Marketing agreements will frequently include language
+stating that the organizational documents and the agreement
+itself are the only contracts between the parties and no oral or
+other types of agreements will be honored. The manager, in particular, needs to be reminded of this rule. Special unauthorized
+promises or “deals” for selected members can do serious harm to
+the cohesiveness of the association.
+~ Section 17. Entire Agreement. It is agreed that
+the articles of incorporation and the bylaws of the
+Association, now or hereafter in effect, and this marketing agreement constitute the entire agreement
+between the Association and Producer, and that there
+are no oral or other conditions, promises, covenants,
+representations, or inducements in addition to, or at
+variance with, any terms of this agreement.
+Governing law. Even if an association intends to limit its
+activity to a single State, disputes that involve the marketing
+agreement can arise from transactions that cross State lines in
+any number of ways. To avoid arguments over which State’s law
+shall be applied, the contract might have a clause naming the
+State. This can be particularly important if the association is
+incorporated under a statute of a State different from the one
+where its headquarters are located.
+I
+Section 18. Governing Law.
+This agreement shall be governed by the laws of the
+State of ,
+Signatures. To make the contracts official, they must be
+signed by both parties. If the producer is a business and not a
+real person, the association should check to make sure the
+signee for the business is authorized to enter into such agreements for the business.
+IN WITNESS WHEREOF, these parties have executed
+this agreement as of the day, month and year first
+above written:
+Producer
+(Cooperative name)
+BY
+President
+ATTEST
+I Secretary
+MEMBERSHIP APPLICATION
+When a person applies for membership in a cooperative, it
+is a good idea to have a simple document that ties the loose ends
+together and, when approved, serves as official notice that the
+applicant is a bona fide member of the association. If the articles, bylaws, and marketing agreement are well drafted, this
+need be little more than a summary of the commitments made.
+Applicant certifies that the requirements of membership have
+been met, and the appropriate cooperative officers, usually the
+president and secretary, acknowledge board approval of the
+applicant.
+5 9
+MEMBERSHIP APPLICATION
+Applicant’s Statement. I hereby apply for membership in and agree to
+abide by the articles of incorporation and bylaws of
+the association, now and hereafter in effect, copies of
+which have been presented to me for inspection. I
+certify that I am a producer of , have tendered the purchase price of one share of common
+voting stock, have signed a marketing agreement,
+and met such other qualifications for membership as
+have been explained to me.
+After my membership shall have been in
+effect for one year from the date of its acceptance by
+the association, either party may terminate it by notifying the other party in writing of this intention
+between (date) and (date) of any
+year. If neither of the parties to this agreement so
+notifies the other, it is mutually agreed that this shall
+constitute conclusive evidence that the parties have
+renewed this agreement for another year.
+Date ,199_.
+Applicant’s: name
+address
+telephone number
+social security number
+Applicant’s signature
+Acceptance. This certifies that
+is a member of and is
+entitled to all of the rights, benefits, and privileges of
+membership in the association.
+Date , 199_.
+President:
+Secretary:
+As mentioned earlier, familiarity with the documents
+reviewed in this report is an ongoing responsibility of each
+cooperative leader, particularly members of the board of directors. The same is true for other important cooperative papers:
+e.g., audit reports and current financial statements, board policies, loan agreements, the manager’s job description, and minutes of board and membership meetings.
+As the manager’s job is to run the day-to-day operations of
+the cooperative, the manager acquires the necessary familiarity
+with these items as part of his or her ongoing duties.
+Directors usually don’t have the continuous contact with
+the business that the manager does. They need to have the documents available so they can look up information and ask
+informed questions when necessary. A good director handbook
+meets this need.
+The director handbook can be nothing more than a solid
+three-ring binder that contains up-to-date copies of all documents the directors need to set cooperative policy. Every new
+director should get a current handbook as soon as he or she is
+elected to the board. At each board meeting the manager or the
+president should distribute minutes of the previous meeting and
+new versions of any documents that have been modified or
+adopted since the last meeting. Time should be taken to make
+sure the directors place the new pages in the proper place in the
+book and to let the directors review and ask questions about the
+additions and replacements.
+The director handbook will get the important cooperative
+papers out of the file cabinet and into the mainstream of the
+decision-making process. It will minimize the likelihood leaders will innocently violate a provision of the articles and bylaws,
+contracts, or other written guidelines. It will provide ready
+answers to questions about the limitations on managerial discretion imposed by these documents. And it will facilitate the conduct of business meetings in a professional and efficient manner.
+In summary, it will soon become a valuable tool for cooperative
+management and planning.
+61
+Appendix A. Election of Directors
+by Districts (bylaw provision)
+ARTICLE III. DIRECTORS AND OFFICERS
+Section 2. Election of Directors by Districts.
+(Two paragraphs as in sample language on page 29,
+main text. Next, add the following:)
+The territory in which the association has
+members shall be divided into _ (same number as
+number of directors) districts. The respective districts and their boundaries shall be established by
+resolution of the board of directors.
+The board of directors may from time to time
+change the boundaries of one or more districts by
+adding territory not included within any district, by
+adding to one district territory previously included
+in another district, or by excluding from a district a
+part of its territory.
+There shall be as many directors as there are
+districts, one director to be elected by the members
+of each district. However, when the number of districts is an even number, there shall be one additional director to be known as a director-at-large and to
+be elected by all members of the association. A district director must be a resident of, or be a producer
+of agricultural products in, the district for which
+such director is elected or appointed.
+Any questions as to the effect of any changes
+made in district boundaries, or the number or identity or districts, shall be conclusively determined by
+the board of directors.
+Nominations for directors, either for a district
+or at large, shall be made by petition addressed to
+the secretary of the association requesting placement
+on the ballot of the name of the person so nominated. Such a petition nominating a district director
+shall be signed by not less than _ members of that
+district. Such a petition nominating a director-atlarge shall be signed by not less than _ members of
+the association.
+62
+Appendix B. Equity Redemption
+(alternative bylaw)
+ARTICLE VII. EQUITY REDEMPTION
+Section I. Regular Redemption, Percent of
+All Equities. It shall be the policy of the association,
+when other redemption priorities set forth herein
+have been met, and when funds are available, to
+redeem in cash a percentage of each member
+patron’s capital credits, rather than ratably by year.
+The time and method of any such redemption shall
+be determined by the board of directors.
+Section 2. Specified Special Redemptions.
+The association shall give priority to redemption of
+members’ capital credits held by deceased persons
+for the settlement of their estate. The association
+shall thereafter grant priority redemption to capital
+credits of former members who have attained their
+65th birthday and are no longer actively engaged in
+agricultural production as actual producers or landlords in share tenancy. The time and method of
+such redemption shall be determined solely by the
+board of directors, dependent upon the financial
+condition of the association. In the case of redemption of the equities of those persons who have
+attained age 65 and retired from farming, preference
+may be given to the oldest retirees in establishing the
+order of priority among those eligible.
+In the case of a corporation or partnership
+holder of members’ capital credits, such corporation
+or partnership shall be considered eligible for priority treatment to the same extent as the individual
+stockholders of such corporation or partners of the
+partnership would have qualified, if each individual
+stockholder or partner were an individual memberpatron of this association. Any redemption shall be
+made to the corporation or partnership, and not to
+the individual stockholder or partner thereof.
+Each corporation or partnership shall report to
+the association the percentage of ownership interest
+63
+in the corporation or partnership of each of its stockholders or partners. Failure to report accurately the
+percentage of individual ownership interest shall
+disqualify any allocations made to the corporation or
+partnership by this association from redemption priority. If a corporation or partnership should dissolve, its capital credits in this association shall be
+prorated among, and transferred to, the individual
+stockholders or partners and considered for redemp
+tion on an individual ownership basis. The amount
+of any redemption or prorate related to a corporate
+or partnership member shall be determined by the
+percentage of ownership interest as reported by the
+corporation or partnership.
+When two or more persons are holders of capital credits as tenants in common, without a designation of rights of survivorship, they shall be deemed
+by this association to be acting as partners and shall
+be subject to the same requirements as a partnership.
+Capital credits held in joint tenancy with
+rights of survivorship shall be considered for priority
+of redemption according to the qualifying status of
+the youngest member of the joint tenancy or, in the
+event of death of one of the joint tenants, of the survivor.
+Appendix C. Base Capital Plan
+(bylaw provision)
+ARTICLE VII. EQUITY REDEMPTION
+Section 1. Members’ Equity Requirements.
+Each year the board of directors shall determine the
+amount of equity capital necessary for successful
+operation of the cooperative.
+The total amount of member volume and the
+volume each member has marketed through the association during the past _( ) years shall be calculated.
+Each member’s equity requirement is equal to
+the amount of equity, determined necessary by the
+board of directors, multiplied by the member’s proportion of the association’s total member volume
+during the base _ year period.
+Section 2. Member Investment. Members can
+invest equity to meet their requirements by direct
+cash investment, allocated patronage refunds, and
+per-unit capital retains.
+Section 3. Member Account Adjustments. At
+the end of each fiscal year the association shall recalculate each member’s capital credits account to
+include all per-unit retains for the year and each
+member’s share of patronage refunds for the year.
+(a) If a member’s total capital credits are less
+than the member’s equity requirement for that year,
+cash returns on business done with the association
+will be limited to those required by the Internal
+Revenue Code or other applicable law.
+(b) If the member’s capital credits, less any
+cash that must be refunded to comply with the
+Internal Revenue Code or other applicable law, are
+greater than the member’s equity requirement for
+that year, the excess shall be redeemed in cash within g-112 months after the close of the association’s
+fiscal year.
+65

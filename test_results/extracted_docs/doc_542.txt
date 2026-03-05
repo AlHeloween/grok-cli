@@ -1,0 +1,860 @@
+Introduction 
+In many respects, the notion that owning a home is an effective means of accumulating wealth 
+among low-income and minority households has been the keystone underlying efforts to support 
+homeownership in recent decades. The renewed emphasis on boosting homeownership rates as a policy 
+goal that arose in the early 1990s can be traced in no small part to the seminal work by Oliver and 
+Shapiro (1990) and Sherraden (1991) highlighting the importance of assets as a fundamental 
+determinant of the long-run well-being of families and individuals. The efforts of these scholars led to a 
+heightened awareness of the importance of assets in determining life's opportunities, enabling 
+investments in education and businesses, providing economic security in times of lost jobs or poor 
+health, and passing on advantages to children. Assessments of differences in asset ownership placed 
+particularly emphasis on the tremendous gaps in homeownership rates by race/ethnicity and income 
+and the importance of these gaps in explaining differences in wealth. In announcing their own initiatives 
+to close these homeownership gaps, both President Clinton and President Bush gave prominent 
+attention to the foundational role that homeownership plays in providing financial security (Herbert and 
+Belsky, 2006). 
+But while faith in homeownership's financial benefits are widely subscribed to, there have long 
+been challenges to the view that owning a home is necessarily an effective means of producing wealth 
+for lower-income and minority households. In 2001 the Joint Center for Housing Studies hosted a 
+symposium with the goal of "examining the unexamined goal" of boosting low-income homeownership 
+(Retsinas and Belsky, 2002a). The general conclusion that emerged from this collection of papers was 
+that lower-income households do benefit from owning homes, although this conclusion was subject to a 
+variety of "caveats and codicils" (Retsinas and Belsky, 2002b, page 11). A few of these caveats related to 
+whether financial benefits were likely to materialize, with papers finding that all too commonly 
+homebuyers sold their homes for real losses while alternative investments offered higher returns 
+(Belsky and Duda, 2002; Goetzmann and Speigel, 2002). In perhaps the most comprehensive critique of 
+the policy emphasis of fostering low-income homeownership, Shlay (2006) reviewed existing scholarly 
+evidence to cast doubt on the likelihood that either the financial or social benefits of owning would be 
+realized. 
+These criticisms have only grown louder in the aftermath of the housing bust, as trillions of 
+dollars in wealth evaporated leaving more than 10 million homeowners owing more than their homes 
+are worth and leading to more than 4 million owners losing their homes to foreclosure (Joint Center for 
+Housing Studies, 2012; Kiviat, 2010; Li and Yang, 2010; Davis, 2012). Many of the criticisms raised about 
+1 
+the financial risks of homeownership are not new, but the experience of the last five years has certainly 
+given new impetus to these arguments. But there are also concerns that changes in the mortgage 
+market and in consumer behavior may have exacerbated these risks, increasing the odds that owners 
+will, at best, be less likely to realize any financial gains from owning and, at worse, face a heightened risk 
+of foreclosure. 
+The goal of this paper is to reassess in the light of recent experience whether homeownership is 
+likely to be an effective means of wealth creation for low-income and minority households. Has the 
+experience of the last decade proven the arguments of earlier critics of homeownership? Have changes 
+in the market affected whether these benefits are likely to be realized? The paper takes three 
+approaches to address these questions. We begin by presenting a conceptualization of the risks and 
+rewards of homeownership as a financial choice, with a particular eye toward whether the odds of a 
+beneficial outcome are lower for lower-income and minority owners. This review also assesses whether 
+recent experience has altered this calculus-as opposed to just raising our awareness of the proper 
+weighting of the likelihood of realizing the benefits while sidestepping the risks. Next, we review the 
+existing literature examining the financial benefits of owning a home, including both studies simulating 
+the returns to owning and renting as well as studies using panel surveys to track actual wealth 
+accumulation among owners and renters. Finally, we examine data from the Survey of Consumer 
+Finance (SCF) and the Panel Study of Income Dynamics (PSID) covering the last decade to assess how 
+owning a home has been associated with changes in household financial balance sheets over this period. 
+To preview our conclusions, we find that while there is no doubt that homeownership entails 
+real financial risks, there continues to be strong support for the association between owning a home and 
+accumulating wealth. This relationship held even during the tumultuous period from 1999 to 2009, 
+under less than ideal conditions. Importantly, while homeownership is associated with somewhat lower 
+gains in wealth among minorities and lower-income households, these gains are on average still positive 
+and substantial. In contrast, renters generally do not see any gains in wealth. Those who buy homes but 
+do not sustain this ownership also do not experience any gains in wealth, but are generally left no worse 
+off in wealth terms than they were prior to buying a home-although of course there may still be 
+substantial costs from these failed attempts at owning in terms of physical and mental health as well as 
+future costs of credit. 
+We conclude that homeownership continues to represent an important opportunity for 
+individuals and families of limited means to accumulate wealth. As such, policies to support 
+homeownership can be justified as a means of alleviating wealth disparities by extending this 
+2 
+opportunity to those who are in a position to succeed as owners under the right conditions. The key, of 
+course, is to identify the conditions where lower-income and minority households are most likely to 
+succeed as owners and so realize this potential while avoiding the significant costs of failure. 
+Assessing the Financial Risks and Rewards of Homeownership 
+Before turning to evidence about the financial returns to homeownership, it is helpful to start by 
+framing the arguments about why homeownership is thought to be an effective means of generating 
+wealth as well as the counter arguments about why these benefits may not materialize, particularly for 
+lower-income and minority homeowners. We then consider how changes in mortgage markets and 
+consumer behavior may have altered the likelihood that owning will lead to financial gains. This framing 
+helps provide a basis for interpreting the findings from the following two sections of the paper that 
+examine evidence about the association between homeowning and wealth accumulation. 
+The Potential Financial Benefits of Owning 
+The belief that homeownership can be an important means of creating wealth has its roots in 
+five factors. First, the widespread use of amortizing mortgages to finance the acquisition of the home 
+results in forced savings as a portion of the financing cost each month goes toward principal reduction. 
+While modest in the early years of repayment, the share of the payment going toward principal 
+increases over time. For example, assuming a 30-year loan with a 5 percent interest rate, a homeowner 
+will have paid off about 8 percent of the mortgage after 5 years, 19 percent after 10 years, and nearly a 
+third after 15 years. Assuming a household purchases a home in their early 30s and keeps on a path to 
+pay off the mortgage over a thirty-year period, these forced savings will represent a sizable nest egg 
+when they reach retirement age. In addition, an often overlooked aspect of forced savings associated 
+with homeownership is the accumulation of the downpayment itself, which often entails a committed 
+effort to accumulate savings in a short period. 
+Second, homes are generally assumed to experience some degree of real appreciation over 
+time, reflecting increased overall demand for housing due to growth in both population and incomes 
+against a backdrop of a fixed supply of land located near centers of economic activity. Shiller (2005) has 
+been the most notable critic of this point of view, arguing that over the very long-run real house prices 
+have only barely exceeded inflation. Lawler (2012), however, has argued that Shiller's house price 
+estimates and measures of inflation result in an underestimate of real house price growth. Analysis of 
+trends in real house prices across a range of market areas support the conclusion that these trends 
+3 
+reflect a complex interaction of supply and demand factors in local markets that defy simple 
+categorization (Capozza et al. 2002, Gallin, 2006). At a national level the Federal Housing Finance 
+Agency house price index indicates that between 1975 and 2012 the compound annual growth rate in 
+house prices has exceed inflation by 0.8 percentage points. Even at a modest rate of increase, the 
+compounding of these returns over a longer period of time can be produce substantial increase in real 
+home values. Assuming just a 0.8 percent annual real increase in house values over 30 years an owner 
+will experience a real gain of about 26 percent in the overall house value. 
+The use of financing can further leverage these returns. A homebuyer with a modest 
+downpayment gets the benefit of increases in the overall asset value despite their small equity stake. 
+While the cost of financing can create a situation of negative leverage if the increase in house values is 
+lower than the cost of financing (so that the financing costs exceed the increase in the asset value), this 
+risk diminishes over time as the value of the house compounds while the debt payment is fixed. 
+Through leverage, the rate of return on an investment in a home can be substantial even when the 
+increase in house values is modest. Consider the case where a buyer puts down 5 percent and the 
+house appreciates at 4 percent annually. After 5 years the home will have increased in value by nearly 
+22 percent or more than 4 times the initial 5 percent downpayment. Even allowing for selling costs of 
+6 percent, this would represent an annualized return of 31 percent on the owner's initial investment. 
+Due to leverage, even nominal increases in home values that do not exceed inflation can result in real 
+returns. In the above example, if inflation matched the 4 percent growth in home prices, the owner 
+would still have earned a substantial real return on their initial investment. 
+Federal income tax benefits from owning a home can also be substantial. The ability to deduct 
+mortgage interest and property taxes is the most apparent of these benefits. Taxpayers who are able to 
+make full use of these deductions receive a discount on these portions of ongoing housing costs at the 
+taxpayer's marginal tax rate, ranging from 15 percent for moderate income households up to 39 percent 
+for the highest tax bracket. In addition, capital gains on the sale of a principal residence up to $250,000 
+for single persons and $500,000 for married couples are also excluded from capital gains taxation, which 
+is currently 15 percent for most households and 20 percent for the highest income bracket.1 
+1 
+An additional tax benefit that is often overlooked is the fact that while owner occupants benefit from the use of their home as a residence they do not have to pay any tax on these benefits, referred to as the implicit rental income from the property (that is, the rent one would have to pay to occupy the home) (Ozanne, 2012). The loss of revenue to the U.S. Treasury from this exclusion is substantial, outweighing the costs of the mortgage interest deduction. 
+4 
+Finally, owning a home provides a hedge against inflation in rents over time. Sinai and Souleles 
+(2005) find that homeownership rates and housing values are both higher in markets where rents are 
+more volatile, indicating the value placed on being able to protect against rent fluctuations. Under most 
+circumstances, mortgage payments also decline in real terms over time, reducing housing costs as a 
+share of income. For long-term owners, this can result in fairly substantial savings in the out of pocket 
+costs for required for housing. Assuming a fixed rate mortgage, inflation of 3 percent, 1 percent growth 
+in both real house prices and the costs of property taxes, insurance and maintenance, real monthly 
+housing costs would decline by about 10 percent after 5 years, 15 percent after 10 years, and 30 percent 
+by the last year of the mortgage. Once the mortgage is paid off, the out of pocket costs of owning in real 
+terms are less than half the payments made at the time of purchase. Housing costs for renters, in 
+contrast, would be expected to keep pace with inflation in housing prices. 
+The Potential Financial Risks of Owning 
+Combined, the financial benefits outlined above can fuel significant wealth accumulation. But as 
+the last few years have made painfully clear, the financial benefits associated with owning a home are 
+not without risk. To begin with, house prices can be volatile. That was certainly the case in the wake of 
+the housing bust, as nominal prices fell nationally by some 25 percent or more (depending upon the 
+specific price index used), with the hardest hit markets experiencing declines of more than 40 percent. 
+Almost no area of the country was spared from some degree of decline. According to the FHFA index, 
+nominal prices fell in every state with the exception of North Dakota. But while recent experience is 
+notable for the breadth and depth of price declines, there are other examples of fairly significant price 
+declines over the last few decades, including declines of between 10 and 20 percent in some Oil Patch 
+states in the 1980s and in New England, California and Hawaii in the early 1990s. 
+There are also a number of markets where house prices trends have historically been more 
+stable, but in these areas long-run real price increases have either not kept pace with inflation or have 
+been modest. House price growth has been particularly weak in a number of markets in the Midwest 
+and South where population and income growth have been low. Based on long-run state level indexes 
+from FHFA, between 1975 and 2012 there were 10 states in these regions where the compound annual 
+growth in house prices did not exceed general price inflation. Even before the bust, homeowners in 
+these markets did not have the benefit of real growth in house prices over the long term. In nine other 
+states house price growth did beat inflation, but by less than 0.25 percent on an annual basis. Thus, in 
+about two-fifths of states real house price growth was either non-existent or trivial. At the other 
+5 
+extreme there were 17 states, mostly along the Pacific coast and in the Northeast that experienced real 
+house price growth of more than 1 percent, including 5 states that exceeded 2 percent. 
+There are also peculiar aspects of owning a home that further exacerbate the financial risks of 
+these investments. Homeowners make a significant investment in a specific location and cannot 
+diversify the risk of home price declines by spreading this investment across assets or across markets. 
+Homes values are also high relative to incomes and so account for a large share of household wealth. 
+Wolff (2012) reports that in 2010 the value of the principal residence accounted for two-thirds of total 
+wealth among households in the middle three quintiles of the wealth distribution. With so much wealth 
+tied up in one asset, homeowners are particularly vulnerable to changes in home values. The use of 
+debt financing for a large share of the purchase further magnifies these risks, with even small drops in 
+prices wiping out substantial shares of homeowner equity. Indeed, at the height of the housing bust the 
+number of households underwater on their mortgages was estimated by CoreLogic to have exceeded 11 
+million while Zillow placed the number closer to 15 million. 
+When assessed purely on the basis of real growth in values over time, housing also compares 
+poorly to the returns offered by investments in diversified portfolios of stock or bonds. Geotzmann and 
+Speigel (2002) compare the change in home prices in 12 market areas between 1980 and 1999 to a 
+range of alternative investments and find that housing was consistently dominated as an investment 
+asset by all of the financial alternatives considered, leading them to conclude that it is "surprising that 
+housing continues to represent a significant portion of American household portfolios" (page 260). 
+However, Flavin and Yamashita (2002) take a more expansive view of the returns on housing 
+investments by including the value derived from occupying the unit, the use of financial leverage, and 
+the ability to claim income tax deductions. This fuller treatment of housing's returns finds that the 
+average rate of return was slightly below returns for investments in stocks, but the variance of these 
+returns were also lower and so somewhat less risky. Still, even if the returns to housing are deemed to 
+be competitive with alternative investments the concern remains that it accounts for an excessive share 
+of low-wealth household's portfolios. 
+Housing investments are also handicapped by high transaction costs associated with buying and 
+selling these assets. Home buyers face fees for mortgage origination, title search and insurance, state 
+and local taxes, home inspections, and legal fees, all of which can add up to several percentage points of 
+the home value. Real estate broker commissions typically also command 6 percent of the sales price. 
+These high transaction costs can absorb a significant share of home price appreciation from the first few 
+years of occupancy. Given these high costs, home owners who are forced by circumstances to move 
+6 
+within a few years of buying will face the risk of loss of at least some share of their initial investment 
+even if home values have risen modestly. 
+The need to maintain the home also imposes financial risks on owners. While routine 
+maintenance can keep both the physical structure and the home's major systems in good working order, 
+major investments are periodically needed, such as painting the exterior or replacing the roof or heating 
+system. These projects incur high costs that may be difficult for owners to afford. While owners may 
+have the opportunity to plan for these investments over time, in some cases a system will fail with little 
+warning and produce an unexpected cost that the owner cannot afford, creating a financial strain that in 
+the most extreme cases can jeopardize the ability to maintain ownership. 
+Finally, the financial costs of failing to sustain homeownership are high-in addition to the 
+traumatic impacts that foreclosures can have on the health and psychic well-being of the owner (Carr 
+and Anacker, 2012). Owners who default on their mortgage will not only lose whatever equity stake 
+they had in the home, they are also likely to deplete their savings in a bid to maintain ownership and 
+suffer significant damage to their credit history making it difficult and costly to obtain credit for several 
+years to come. 
+Factors Contributing to Wealth Accumulation Through Homeownership 
+Whether and to what extent a homebuyer will realize the potential benefits of owning while 
+avoiding succumbing to the risks depends on a complex set of factors. Herbert and Belsky (2006) 
+present a detailed conceptual model of the factors that contribute to whether homeownership 
+produces wealth over the life course, which is briefly summarized here. The most obvious factor is the 
+timing of purchase relative to housing price cycles. The recent boom and bust in house prices presents a 
+prime example. Homebuyers who bought in the early 2000s were poised to benefit from the massive 
+run-up in prices that occurred in many markets, while those that bought in the mid 2000s entered just in 
+time for the historic freefall in prices that followed. While other price cycles in recent decades may not 
+have been as dramatic, the consequences of buying near troughs or peaks on wealth accumulation 
+would have been similar. Belsky and Duda (2002) examined data on repeat sales in four market areas 
+between 1982 and 1999 and found that roughly half of owners who bought and sold their homes within 
+this time period failed to realize gains that beat inflation after assuming a 6 percent sales cost (although 
+most did earn a return in nominal terms). Whether owners realized a positive return depended 
+strongly on where in the housing price cycle they bought and sold their homes. 
+7 
+Belsky and Duda (2002) conclude that "although the golden rule of real estate is often cited as 
+location, location, location, an equally golden rule is timing, timing, timing" (Page 223). Their conclusion 
+points to another critical factor in how likely a home is to appreciate in value - in what market and in 
+which specific neighborhood the home is located. As noted above, there have been sizeable differences 
+across market areas in long-term house price trends, with areas along the coasts experiencing real gains 
+of one percent or more over the last several decades while areas in the Midwest and South have had 
+little or no gains. But there are also substantial variations in price trends across neighborhoods within a 
+single market (for reviews of this literature see Herbert and Belsky, 2006; Dietz and Haurin, 2003; and 
+McCarthy, Van Zandt and Rohe, 2001). Whether a household bought a home in Boston or Cleveland is 
+an important factor in the returns realized, but so is whether the home was in a desirable area or a 
+declining neighborhood. 
+The terms of financing used to buy the home also matter. Higher interest rates lower the share 
+of payments that are devoted to principal reduction in the early years of repayment, slowing wealth 
+accumulation. The higher monthly costs of the mortgage also erode the ability of the household to meet 
+other expenses and to save on an ongoing basis as additional interest payments over the life of the 
+mortgage can be substantial. For example, over a thirty-year term a loan for $150,000 at 7 percent 
+interest will require $69,000 more in interest payments than a 5 percent loan. Higher origination fees 
+also sap savings, reducing the quality and size of home that is affordable and lowering the rate of return 
+on housing investments. 
+Choices about refinancing over time can also exert a strong influence on wealth accumulation. 
+Taking advantage of declines in mortgage interest rates to reduce financing costs can save owners 
+hundreds of dollars each month, and tens of thousands over the life of a mortgage-although 
+continually resetting the term of the mortgage will reduce opportunities for forced savings. On the 
+other hand, refinancing to take cash out of the property can erode wealth accumulation, particularly if 
+the extracted funds are used to finance consumption rather than investments in the home, education, 
+business or financial opportunities. Wealth accumulation will be further undermined if the new loan 
+comes with high fees and higher interest rates. Of course, the ability to tap housing wealth as a buffer 
+against income shocks is one of the virtues of developing this cushion, but using home equity to finance 
+an unaffordable lifestyle is an unsustainable path. 
+A host of other factors come into play in determining how much housing wealth is realized over 
+the span of a lifetime. For example, buying higher valued homes-if successful-can produce more 
+wealth both through forced savings and by earning returns on a higher valued asset. By the same 
+8 
+means, those who trade up to more expensive homes over time may also accrue greater housing 
+wealth. The age at which a first home is purchased can also be significant, giving the household a longer 
+period to accumulate wealth. Of course, the quality of the home purchased and the owner's ability to 
+maintain it will also affect both ongoing maintenance costs and how much the home appreciates over 
+time. 
+But arguably the most fundamental factor-the true golden rule of how to accumulate wealth. 
+through homeownership-is whether ownership is sustained over the long term. Housing booms aside, 
+many of the financial benefits are slow to accumulate, including the slow build up of forced savings, the 
+compounding of values at low appreciation rates, and the decline in monthly housing costs in real terms 
+over time. The expression "time heals all wounds" may also be applicable to many of homeownerships 
+most critical risks. The losses associated with buying near the peak of a price cycle will diminish over 
+time as owners benefit from the next upswing in prices. And even in areas whether real growth in 
+house prices does not occur or is limited, over the long term owners will still amass some degree of 
+wealth through paying off the mortgage and as a result of savings from lower housing costs. On the flip 
+side, a failure to sustain homeownership-particularly when the end result is a foreclosure-will wipe 
+out any accrued wealth and bring additional costs in the form a damaged credit history that will incur 
+further costs over time and limit opportunities to buy another home in the near term. 
+To some degree whether ownership is sustained will depend on choices that owners make over 
+time - including whether the home they buy is affordable, whether they make prudent choices about 
+refinancing, and whether they maintain the home to avoid larger home repair bills. But whether owning 
+is sustained also will depend on whether the household can weather any number of significant events 
+that can fundamentally alter their financial circumstances, such as loss of a job, a serious health 
+problem, or change in the family composition due to the birth of a child, death, divorce, or the need to 
+care for a parent or relative. Over the course of a lifetime, these events are likely to befall most 
+everyone. Whether homeownership can be sustained in the wake of these events will depend on the 
+ability of the household to adjust to their changed circumstances and whether they have enough 
+available savings to cushion the blow. 
+Impediments to Wealth Creation among Lower-Income and Minority Homeowners 
+Up to this point the discussion presented has considered homeownership's financial risks and 
+rewards in a general sense. But the concern of this paper is specifically with the potential for 
+homeownership to serve as an effective means of wealth accumulation for lower-income and minority 
+9 
+households. How are the odds of generating wealth as a homeowner likely to differ for these 
+households?? 
+In keeping with the fundamental importance of sustained homeownership to accumulate 
+wealth, the chief concern is that these groups of homebuyers face a more difficult time in maintaining 
+ownership. Studies analyzing panel data to document homeownership spells among first-time buyers 
+consistently find that low-income and minority owners have a lower probability of maintaining 
+homeownership for at least five years. In an analysis of the National Longitudinal Survey of Youth (NLSY) 
+from 1979 through 2000 Haurin and Rosenthal (2004) find that ownership is less likely to be sustained 
+among both these groups. Specifically, only 57 percent of low-income buyers were found to still own 
+their first home five years later, compared to 70 percent of high-income owners (with income categories 
+defined by income quartiles at age 25). First homeownership spells were also found to be much shorter 
+for minorities, averaging 6.5 years among whites, compared to 4.4 years for blacks and 5.4 years for 
+Hispanics. In an analysis of the PSID covering the period from 1976 through 1993 Reid (2004) had 
+similar results, with only 47 percent of low-income owners still owning their first homes 5 years later 
+compared to 77 percent of high income owners (with incomes here defined based on average income in 
+the years prior to homeownership compared to area median incomes). Reid further found that 
+minorities had a harder time staying in their first home, with 42 percent of low-income non-whites still 
+owning after five years compared to 54 percent of low-income whites. 
+While these results raise clear concerns about the high risk of failed homeownership among 
+these groups, the focus on a single homeownership spell may overstate the extent to which 
+homeowning is not sustained in the long run. Haurin and Rosenthal (2004) also examine subsequent 
+tenure experience in their panel and find that the share of households that return to owning a second 
+time is very high for both whites and minorities. Over the 21 year period in their panel, 86 percent of 
+whites who ever bought a home either never returned to renting or regained owning after a subsequent 
+spell as a renter, with only slightly lower rates for blacks (81 percent) and Hispanics (84 percent). 
+However, they do find that minorities spend more years in their intervening spells as renters, which 
+reduces the overall amount of time they can accumulate benefits from owning. 
+Another critical difference in the financial returns to owning for low-income households is that 
+the ability to deduct mortgage interest and property taxes from federal taxable income may be of little 
+or no value. In order to benefit from these tax provisions, the amount of available deductions must 
+2 
+Galster and Santiago (2008) provide a useful framing of this issues and a comprehensive review of the relevant literature. 
+10 
+exceed the standard deduction, which stood at $5,950 for individuals and $11,900 for married couples in 
+2012. For taxpayers with lower valued homes, particularly married couples, the costs of mortgage 
+interest and property taxes even when added to other deductions for state taxes and charitable 
+contributions, may not greatly exceed the standard deduction. In addition, the value of these deductions 
+depends on the taxpayer's marginal tax rate, which will lower for low- and moderate-income 
+households. In fact the share of the total value of the mortgage interest deduction going to moderate 
+income households is fairly small. According to estimates from the Joint Committee on Taxation (2013), 
+only 3 percent of the total deductions went to filers with incomes under $50,000, 9 percent to those 
+with incomes between $50,000 and $75,000, and 11 percent to those with income between $75,000 
+and $100,000, leaving 77 percent of the benefit going to those earning above $100,000. To the extent 
+that these tax benefits swing the financial scales in favor homeownership, this tilting of the calculus is 
+not very evident for low- and moderate-income tax filers. 
+There are also systematic differences in mortgage terms and characteristics by income and 
+race/ethnicity that can also affect the financial returns to owning. The development of the nonprime 
+lending industry that began in the 1990s and came to full blossom during the housing boom produced 
+much greater variation in mortgage terms and pricing than had previously been evident. A fairly 
+extensive literature has documented the greater prevalence of subprime lending among minorities and, 
+to a lesser extent, low-income borrowers and communities (see, for example, Bradford, 2002; Calem, 
+Gillen and Wachter, 2004; Apgar and Calder, 2005; Avery, Brevort, and Canner, 2007; Belsky and 
+Richardson, 2010). As described above, higher costs of financing can significantly reduce the financial 
+benefits of owning. While the expansion of financing options beyond a "one size fits all who qualify" 
+approach to lending has the potential to extend homeownership opportunities to a greater range of 
+households, there is significant evidence that the cost of credit was often higher than risk alone would 
+warrant. Bocian, Ernst and Li (2008) present perhaps the most compelling evidence through an analysis 
+of a large data set on nonprime loans that documents a wide range of risk measures, including credit 
+scores as well as income and race/ethnicity. They find that even after controlling for observable 
+differences in credit quality both blacks and Hispanics were significantly more likely to obtain high- 
+priced mortgages for home purchase, while blacks were also more likely to obtain higher-priced 
+refinance loans. These higher costs of borrowing not only limit the wealth producing capacity of 
+homeownership, they also increase the risk of failing to sustain homeownership. In fact, Haurin and 
+Rosenthal (2004) find that a 1 percentage point increase in the mortgage interest rate increases the rate 
+of homeownership termination by 30 percent. 
+11 
+Low-income and minority borrowers are also less likely to refinance when interest rates decline. 
+In an analysis of loans guaranteed by Freddie Mac during the 1990s Van Order and Zorn (2002) find that 
+low-income and minority borrowers were less likely to refinance as interest rates fell. Their analysis also 
+found that once borrower risk measures and loan characteristics were taken into account there were no 
+remaining differences in refinance rates by income-although this just indicates that refinancing may be 
+constrained by credit factors. Minorities, on the other hand, still had lower rates of refinancing even 
+after controlling for these factors, suggesting that there were impediments to refinancing by these 
+borrowers that were in addition to measurable credit factors. Nothaft and Chang (2005) analyze data 
+from the American Housing Survey (AHS) from the late 1980s through 2001 and also find that minority 
+and low-income owners were less likely to refinance when interest rates declined. These authors use 
+their results to estimate the foregone savings from missed refinance opportunities, which are more than 
+$20 billion each for black and low-income homeowners. 
+To the extent that low-income and minority homebuyers may be more likely to purchase homes 
+in poor condition they are also exposed to greater risks of high costs of maintenance and repair. 
+Herbert and Belsky (2006) find that compared to whites, black and Hispanic first-time homebuyers were 
+more likely to buy homes that were moderately or severely inadequate as characterized by the AHS- 
+6.5 percent for blacks and 8.8 percent for Hispanics compared to 4.3 percent among whites. A similar 
+gap was also evident between low- and high-income households. While there has been little study of 
+the incidence of unexpected home repair needs, a study by Rohe and his colleagues (2003) of 
+participants in homeownership counseling programs found a fairly significant incidence of the need for 
+unexpected repairs. Roughly half of 343 recent homebuyers reported that they had experienced a 
+major unexpected cost in the first few years after buying their home, with the most common problem 
+being a repair to one of the home's major systems. 
+Finally, there are also concerns that lower-income households and minorities may be more likely 
+to purchase homes in neighborhoods with less potential for house price appreciation. This is a 
+particularly salient issue for minorities given the high degree of residential segregation by race and 
+ethnicity that continues to be evident in the US. However, Herbert and Belsky (2006) present a detailed 
+review of this literature and conclude that "taken as a whole the literature indicates that there is no 
+reason to believe that low-value segments of the housing market will necessarily experience less 
+appreciation than higher-valued homes. In fact, at different points in time and in different market areas, 
+low-valued homes and neighborhoods have experienced greater appreciation rates. Although the 
+opposite is also true." (Page 76) The evidence about differences in appreciation rates by neighborhood 
+12 
+racial composition is less definitive. Here Herbert and Belsky (2006) conclude that "it does appear that 
+homes in mostly black areas may be less likely to experience appreciation, but this conclusion is 
+tempered by the small number of studies and the fact that they mostly analyzed trends from the 1970s. 
+and 1980s, which may no longer be relevant" (page 77). 
+Findings by Boehm and Schlottmann (2004) regarding differences in wealth gains from 
+homeownership by race and income are instructive in this regard. They find that over the period from 
+1984 to 1992 there was little difference in appreciation rates in the specific neighborhoods where 
+minorities and low-income households lived. Instead, they found that differences in housing equity 
+accumulation were tied to the lower valued homes and the shorter duration of ownership for lower- 
+income and minority households. Thus, differences in appreciation rates may be less of a concern in 
+whether housing leads to wealth accumulation than these other considerations. 
+Re-assessing the Calculus of Wealth Accumulation through Homeownership 
+As the above review has shown, there were significant concerns about the risks of 
+homeownership as an investment well before the housing bubble burst. For critics of homeownership as 
+a wealth building tool the experience of the housing bust was in many respects a confirmation of their 
+fears. Still, there were several markets developments during the boom years that magnified these 
+preexisting risks. Most notably there was a marked increase in the prevalence of riskier mortgages, 
+including those calling for little or no documentation of income, adjustable rate loans that exposed 
+borrowers to payment shocks from the expiration of initial teaser rates or reduced payment options, 
+allowances for higher debt to income ratios, and greater availability of loans for borrowers with very low 
+credit scores. Downpayment requirements also eased as loan-to-value ratios (LTVs) of 95 percent or 
+more became more common and borrowers also used "piggyback" second mortgages to finance much 
+of the difference between the homes' value and a conforming first mortgage at an 80-percent LTV. 
+Not unrelated to the greater availability of mortgage credit, house prices also exhibited much 
+greater volatility than in the past, with a dramatic increase in prices that greatly outpaced trends in both 
+incomes and rents and belied an unsustainable bubble. The greater availability of credit also increased 
+the opportunity for lower-income households to miss-time the market. Belsky and Duda (2002) found 
+that during the 1980s and 1990s lower-valued homes were less likely to be transacted around market 
+peaks, so buyers of these homes were less likely to buy high and sell low. They speculated that this was 
+due to the natural affordability constraints that took hold as markets peaked. But during the boom of 
+13 
+the 2000s lower-valued homes experienced greater volatility in prices, arguably reflecting much greater 
+credit availability at the peak than was true in past cycles (Joint Center for Housing Studies, 2011). 
+However, there are good reasons to believe-or certainly to hope-that the conditions that 
+gave rise to this excessive risk taking and associated housing bubble will not be repeated any time soon. 
+The Dodd-Frank Act includes a number of provisions to reduce the degree of risk for both borrowers and 
+investors in the mortgage market. The Qualified Mortgage (QM) is aimed at ensuring that borrowers 
+have the ability to repay mortgages by requiring full documentation of income and assets, setting tighter 
+debt to income standards, and excluding a variety of mortgage terms that expose borrowers to payment 
+shocks. The Qualified Residential Mortgage (QRM) is aimed at ensuring greater protections for investors 
+in mortgage backed securities by requiring the creators of these securities to retain an interest in these 
+investments if the loans included in the loan pool do not conform to certain risk standards that 
+essentially mirror those of the Qualified Mortgage. Dodd-Frank also established the Consumer Financial 
+Protection Bureau to fill a gap in the regulatory structure by creating an agency charged with looking out 
+for consumers' interests in financial transactions. Beyond these regulatory changes, there is also a 
+heightened awareness of the risks of mortgage investments on the part of private sector actors who 
+have suffered significant financial losses with the bursting of the housing bubble. Regulatory changes 
+aside, these private actors are unlikely to embrace riskier lending any time soon. The Federal Reserve 
+and other federal regulators are certainly more attuned to the possibility of a bubble in housing prices 
+and so are more likely to act in the event that signs of a bubble re-emerge. 
+But even in the absence of the excessive risks of the last decade, homeownership will remain a 
+risky proposition. Thus, at best, we may return to the market conditions that existed prior to the boom 
+and the real risks that these conditions posed for investments in owner-occupied housing. In that 
+regard, an assessment of experience in wealth creation through homeownership prior to the boom is 
+relevant for what we might expect in the future. 
+On the other hand it does seem likely-and arguably even desirable given how tight credit has 
+become-that some greater degree of risk taking will emerge to make credit available to the many 
+lower-income and lower-wealth households that would like to own a home. In fact, the QM standard of 
+a total debt-to-income ratio of up to 43 percent does curtail the higher levels that became evident 
+during the boom, but this cutoff still represents a liberalization from standards for conventional 
+mortgages that prevailed in the 1990s. There may also have been a shift in consumer attitudes toward 
+mortgage debt, with fewer households seeking to pay off mortgages over time and thus exposing 
+themselves for longer periods to the risks associated with these leveraged investments. Over time, as 
+14 
+conditions return to normal and the market adjusts to new regulatory structures, we are likely to see 
+mortgages originated outside of the QM and QRM boxes. In that regard, an assessment of the 
+experience of homeowners through the boom and bust is instructive as a stress test of how likely 
+homeownership is to build wealth under more extreme market conditions. 
+The next two sections of the paper look to assess homeownership's potential for wealth building 
+from these two perspectives. First by presenting a review of the literature assessing homeownerships' 
+association with wealth building prior to the 2000s and then by analyzing data from the last decade to 
+examine how homeownership was associated with changes in wealth through the turbulent conditions 
+of the 2000s. 
+Review of Previous Studies Assessing the Financial Returns to Homeownership 
+As the discussion up to this point has intended to illustrate, whether owning a home will lead to 
+the accumulation of wealth is the result of complex set of factors related to the choices that households 
+make in buying their home and how these choices interact with market conditions both at the time of 
+purchase and over time. This complexity makes it quite difficult to assess whether in practice owning is 
+likely to be an effective means of increasing a household's wealth. A further complicating factor is that 
+there is a substantial selection bias in who becomes a homeowner, as there is reason to believe that 
+those who are most secure in their financial condition and most inclined to save are more likely to 
+become owners. For this reason, comparisons of the wealth profiles of owners and renters may not be 
+able to attribute any observed differences solely to the influence of homeownership on the ability to 
+accrue wealth. 
+There are two broad classes of studies that have attempted to assess the financial benefits of 
+homeownership in light of these challenges. One group relies on simulations that compare the 
+theoretical costs and benefits of owning and renting under a variety of assumptions about market 
+conditions and household choices. A key appeal of these studies is that they essentially remove concerns 
+about selection bias by assuming otherwise identical households operate under a consistent set of 
+decision rules. They can also isolate the influence of specific factors to shed light on the paths that are 
+most likely to make owning or renting financially beneficial. But while these studies highlight the 
+potential financial returns to owning and renting, they do not capture how households are likely to 
+actually behave in these situations and so leave open the question of whether the potential returns of 
+these tenure choices are likely to be realized in practice. 
+15 
+Another group of studies rely on panel studies that track households over time to examine how 
+choices about owning and renting are correlated with changes in wealth. The findings from this type of 
+analysis provide evidence of whether in practice owners are more likely to accrue wealth than renters 
+and how this experience differs by income and race/ethnicity. Where the theoretical comparisons of 
+owning and renting also generally focus on a single spell of homeownership - that is, the financial 
+outcome associated with the period between buying and selling a single home - panel studies can track 
+households through multiple transitions in and out of owning to assess outcomes from a series of tenure 
+choices over time. The main drawback of these studies is the lingering concern that owners may be 
+inherently different from renters in ways that observable household characteristics cannot capture. 
+Some of these studies employ statistical methods to try to control for this selection bias, although it is 
+doubtful that these controls can fully account for these differences. 
+Both classes of studies provide important insights into the opportunities and drawbacks of 
+homeownership as a means of increasing household wealth. When viewed as a whole the findings from 
+both streams of research help paint a clearer picture of whether and how homeownership may help 
+foster wealth creation. The sections that follow highlight key findings from each of these literature 
+strands. 
+Simulations of the Financial Returns to Owning and Renting 
+Beginning with Mills (1990) there have been a number of studies that have simulated the 
+financial returns to owning and renting under a variety of assumptions to identify whether and under 
+what circumstances owning or renting is likely to be more financially beneficial (Capone, 1995; Belsky, 
+Retsinas, and Duda, 2007; Rappaport, 2010; Beracha and Johnson, 2012). While the studies differ in 
+important respects, the general approach is to compare the "all-in" costs of owning - including 
+mortgage interest, property taxes, insurance, maintenance, and transaction costs along with offsetting 
+gains in property value - to the costs of renting a comparable housing unit. Either implicit or explicit in 
+these comparisons is that renters save and invest both the initial investment that owners make in 
+buying their homes as well as any annual savings in housing costs. 
+There are a host of assumptions that underlie these calculations, but among the most influential 
+factors are the estimate of rents as a share of house value, the length of time the home is owned, the 
+basis for simulating trends in house prices and rents over time, and the treatment of income tax 
+benefits. The studies differ in fundamental ways related to the range of assumptions tested and the 
+method for comparing returns to owning and renting and, as a result, individually reach somewhat 
+16 
+different conclusions about which tenure choice is likely to be preferred. But collectively the studies 
+lead to some general conclusions about the relative financial merits of owning and renting. 
+Perhaps the most fundamental conclusion from these studies that runs counter to the prevailing 
+sense that homeownership is a powerful source of wealth is that under a variety of conditions renting is 
+often more likely to be a better financial choice than owning. Belsky, Retsinas and Duda (2007) compare 
+owning and renting in four different market areas chosen to represent different degrees of price 
+appreciation and volatility over the period studied from 1983 through 2001. They focus on holding 
+periods of 3, 5 and 7 years during their window of study and report the share of different holding 
+periods where owning results in higher financial returns than renting. Overall they find that in only 53 
+percent of the 3-year holding periods would owning be preferred to renting. Increasing the holding 
+period to 7 years-which allows for more time to work off the high transaction costs of buying and 
+selling a home-only increases this proportion to 63 percent. Rappaport (2010) reaches a similar 
+conclusion based on an analysis of national trends in market conditions between 1970 and 1999 and an 
+assumed 10-year period of owning a home. He finds that owning a home unambiguously built more 
+wealth in about half of the possible 10-year periods, renting was clearly better in another quarter and 
+likely, but not unambiguously, preferred in the remaining periods. Finally, Beracha and Johnson (2012) 
+come to a similar conclusion in an analysis of all possible 8-year holding periods given actual market 
+conditions at both the national and regional level between 1978 and 2009. They find that between 65 
+and 75 percent of cases renting offered greater opportunities for accruing wealth than owning, 
+depending on whether renters employing a more conservative or aggressive investment approach. 
+In parsing the findings of these studies, there are several factors that are the critical drivers of 
+the results. Perhaps the most obvious is the importance of the timing of home purchase relative to 
+market cycles in prices and interest rates. Depending on the future course of prices, rents and interest 
+rates one or the other tenure would be strongly preferred at different points in time. The importance of 
+timing may be most clearly demonstrated in Belsky, Retsinas and Duda (2007) when they consider 
+different holding periods among owners. In general, it would be expected that longer holding periods 
+should favor owning as more time is allowed to overcome high transaction costs, pay down additional 
+principal, and ride out price cycles. Instead, they find that in most markets the likelihood of owning 
+being preferred to renting was little changed by the holding period as short holding periods offered the 
+possibility of catching only the upswing in prices while longer holds made it more likely that owners 
+would share in some portion of a downturn. Only in Chicago, which did not experience such dramatic 
+swings in prices, were longer holding periods found to be much more likely to benefit owning. 
+17 
+Still, the issue of holding period is an important consideration. The analysis by both Mills and 
+Capone solved for the holding period that was needed for owning to yield a higher return than renting 
+on the assumption that longer holding periods would always favor homeownership. In his base case 
+scenario Mills found a holding period of slightly longer than 7 years was needed for owning to be 
+preferred. The more recent studies that have showed the importance of market timing either assumed 
+a single fixed holding period of 8 to 10 years (as in Beracha and Johnson and Rappaport) or a range of 
+relative short holding periods (as in Belsky, Retsinas and Duda). If owning does become more favorable 
+over a longer period of time - for example, slightly longer than 8 to 10 years - these assessments would 
+not capture this. In fact, many households move in and out of homeownership over time so a more 
+complete assessment of the financial implications of tenure choice would take into account multiple 
+homeownership spells. While one spell of owning may yield low returns, if homeowning is sustained or 
+resumed then the household may yet benefit from the next upswing. 
+Another important factor driving the findings are assumptions made about rents as a share of 
+house value. This ratio is difficult to estimate both because of systematic differences in the nature of the 
+owner and renter occupied stock and because market values and rents are hard to observe 
+simultaneously. How much renters have to pay to rent a comparable home is obviously a key driver of 
+financial outcomes as it determines how much they can save annually by renting, thereby adding to 
+their wealth. 
+Mills (1990) found that among the variables used in his simulation, his results were most 
+sensitive to the ratio of rents to house values as a single percentage point change up or down leading to 
+fluctuations in the required holding period from 3 to 23 years. Capone (1995) built on Mills study to 
+examine the rent-versus-buy decision specifically for lower income households. He makes note of the 
+importance of the rent-to-price ratio assumption and argues that Mills assumption of 7 percent was well 
+below the ratios observed in low-cost segments of the market, where ratios of 10 to 12 percent were 
+more reasonable. Under Capone's assumption that renters faced much higher rents he found that 
+owners only needed to hold onto their homes for about 3 years for owning to be preferred. 
+In contrast, Belsky, Retsinas and Duda rely on rent to price ratios is in the range of 5 to 7 
+percent, while the series used by Beracha and Johnson derived by Davis, Lehnert, and Martin (2008) 
+appears to average about 5 percent. In both cases these assumptions are more favorable to renting than 
+the assumptions used by either Mills or Capone. In recognition of the importance of this assumption, 
+Rappaport structures his analysis to estimate the rent-to-price ratio that is the breakeven point between 
+owning and renting. He then compares this estimate to what he feels is a plausible range for this ratio of 
+18 
+between 5 and 10 percent based on analysis of different market areas over time. At the higher end of 
+this range owning would almost always be preferred, while the lower end leads to his conclusion that 
+owning is clearly preferred to renting in only about half of the holding periods considered. In short, high 
+or low values of this ratio can swamp other considerations, yet, as Rappaport demonstrates, pinning 
+down actual values for this ratio is not an easy task. 
+Several of the studies have examined the issue of whether tax benefits are important to 
+whether owning makes more financial sense than renting. Mills assumes that owners can take full 
+advantage of tax benefits at a 28 percent marginal rate. When he reduces the marginal rate to 15 
+percent he finds that owning is never preferred. Capone, though, demonstrates, that this knife edge 
+does not hold if a higher rent to price ratio is assumed. In his base case analysis, owners are only 
+assumed to benefit from tax benefits if they exceed the standard deduction and since he assumes a 
+much more modest house in keeping with his focus on lower-income households, the tax benefits are 
+essentially non-existent. As a result, reducing the tax benefits in his analysis does not change his 
+conclusion that owning is a better financial choice even after only a few years. Belsky, Retsinas and 
+Duda also examine the importance of tax benefits for lower-income owners. Like Capone, they adjust 
+the value of tax deductions to account for the size of the home purchased and the amount of the 
+standard deduction. They also find that tax benefits by themselves generally do not change the calculus 
+of whether owning beats renting financially. So while tax benefits are an important factor among higher 
+income households, as Mills found, it has little effect on the calculus for lower-income households. 
+Despite getting limited benefits from tax breaks under a variety of circumstances Capone and Belsky, 
+Retsinas and Duda find that lower-income households can fare better financially by owning. 
+Belsky, Retsinas and Duda also make a unique contribution by examining how the returns to 
+homeownership are affected by higher mortgage costs. They examine two scenarios: one where owners 
+face interest rates that are 2 percentage points higher than prime rates and another where they are 5 
+percentage points higher. Under the first scenario, the likelihood that owning would be preferred to 
+renting is decreased by moderate amounts (between 6 and 17 percentage points), while under the later 
+scenario owning is rarely a better financial choice than renting. In short, they find that higher interest 
+rates do reduce the financial appeal of homeownership, although the impact is most pronounced at 
+extremely high levels. 
+Lastly, and in some ways most critically, the finding that renting offers the potential for higher 
+returns than owners depends in large part on renters taking steps to invest the annual savings in 
+housing costs compared to renting. Building on Beracha and Johnson (2012), Beracha, Skiba, and 
+19 
+Johnson (2012) examine how variations in key assumptions regarding trends in prices, rents, interest 
+rates, downpayment shares, and the returns available from alternative investments affect the buy 
+versus rent financial calculus. They find that modifying most factors in isolation have only a moderate 
+effect on whether renting is favored over owning. However, when they drop the assumption that 
+renters actual invest any annual savings in housing costs on top of the initial downpayment they find 
+that renting rarely results in higher wealth than owning. Thus, they find that the forced savings aspect 
+of homeownership is of fundamental importance in determining whether owning will lead to greater 
+wealth. 
+This finding is echoed in the results of Boehm and Schlottmann (2004) who employ a somewhat 
+unique approach to simulating the impact of homeownership on wealth accumulation. This study uses 
+the Panel Study of Income Dynamics (PSID) to model the probability of moving in and out of 
+homeownership on an annual basis over the period from 1984 through 1992. These same data are also 
+used to estimate the house value that a household would opt for if a home were purchased in a given 
+year. The estimated house value is then inflated based on house price trends in the census tract where 
+the household resided to yield each household's expected gain in wealth from homeownership. This 
+analysis finds that while minorities and low-income households do accrue wealth from homeownership, 
+the amounts are much less than for higher income whites both because they own for fewer years and 
+because they buy lower valued homes. But importantly, while the expected wealth accumulation among 
+these households is less than that earned by higher income whites it is still positive. The authors also use 
+the PSID to document that these same low-income and minority households essentially had no growth. 
+in non-housing wealth over the same period. So in that regard the estimates of potential wealth created 
+through homeownership were all the more important. 
+Evidence from Panel Surveys about Wealth Accumulation through Homeownership 
+As the findings from Beracha and Johnson (2012) and Boehm and Schlottmann (2004) suggest, 
+the theoretical advantages of renting may not be realized if in practice renters do not take advantage of 
+the opportunities afforded to them for saving and investing derived from the lower cost of renting. In 
+contrast, studies making use of panel surveys that track households over time provide insights into the 
+wealth accumulation associated with actual choices about renting and owning. These studies universally 
+find that owning a home is associated with higher levels of wealth accumulation even after controlling 
+for a range of household characteristics. While the gains are also consistently smaller in magnitude for 
+lower-income and minority households, these studies also find that in contrast to owners similar renters 
+20 
+experience little or no gains in wealth. These findings hold even when steps are taken to account for 
+selection bias in who becomes a homeowner. Although these methods may not fully account for the 
+differences between owners and renters, there remains a strong case that homeowning does make a 
+positive contribution to household balance sheets regardless of income or race/ethnicity. 
+Haurin, Hendershott and Wachter (1996) was among the first studies to use panel survey data 
+to track wealth trajectories associated with homeownership. The primary focus of this study was on the 
+accumulation of wealth in anticipation of becoming an owner rather than how owning a home over time 
+contributes to wealth accumulation, but their findings provide important insights into one way in which 
+homeownership adds to wealth. They use the National Longitudinal Survey of Youth (NLSY) to track 
+young renters age 20 to 28 in 1985 through 1990 and observe both their annual wealth levels and the 
+timing of any transitions into homeownership. They find that household wealth goes up markedly during 
+the transition to homeownership, increasing by 33 percent on average in the year prior to buying a 
+home and then more than doubling in the year they first own. When they examine factors that 
+contribute to this jump in wealth they find that marrying makes a significant contribution along with an 
+increase in hours worked and a slightly higher incidence of inheritance and gifts. Their results suggest 
+that an important mechanism by which homeownership adds to wealth is through the incentive to save 
+in anticipation of buying a home. Even before realizing any returns on the investment in the home itself, 
+the drive to become an owner results in substantially higher wealth than those who remain renters. 
+Adding to this effect Haurin and his colleagues also find that wealth increases more rapidly in the years 
+after becoming a homeowner-by 17 percent on average annually among their sample. 
+Reid (2004) uses panel data from the PSID for the period 1976 through 1994 to examine the 
+financial outcomes of homeownership among low-income households who bought their first home at 
+some point during this period (with low-income defined as those with incomes consistently below 80 
+percent of area median income before first buying a home). She takes two approaches to examining the 
+returns to homeownership for this group. First, she estimates the change in home values for both low- 
+income and minority homeowners compared to higher-income and white owners. She finds that the 
+rate of increase in home values for these groups was fairly modest, failing to beat the returns that would 
+have been earned on an investment in Treasury bills over the same time. Reid then examines wealth 
+holdings of households by tenure status at the end of her period of observation. She finds that while 
+low-income and minority owners generally built much less wealth than higher-income and white 
+households, the amount of their housing wealth was non-trivial and was many times larger than their 
+other forms of wealth. Like Boehm and Schlottmann, she also finds that those who were renters at the 
+21 
+end of the period essentially held no wealth of any kind. Reid, however, does not undertake a 
+multivariate analysis to control for other factors that may account for the differences between owners 
+and renters. Nor does she factor in the impact of failed efforts at homeownership on wealth. But the 
+fact that home equity accounts for such a large share of wealth among low-income and minority 
+households points to the important role that owning a home played in fostering wealth accumulation. 
+Di, Belsky and Liu (2007) was the first study to directly assess the relationship between 
+homeownership and wealth accumulation over time while attempting to account for household 
+characteristics and to include some measure of potential selection bias in who becomes an owner. The 
+study uses the PSID to track households who were renters in 1989 through 2001 to observe transitions 
+into and out of homeownership. The change in household wealth over time is then modeled as a 
+function of starting wealth, a range of household characteristics thought to influence wealth, and, their 
+principal measure of interest, the amount of time spent as an owner. In order to take into account a 
+household's propensity to save, the study uses the PSID from 1984 through 1989 to estimate the share 
+of income that was saved as an indication of savings behavior prior to the period when tenure 
+transitions are observed as a means of controlling for this tendency in assessing differences in savings 
+behavior after buying a home. Their principal finding is a positive and statistically significant association 
+between additional years of homeownership and changes in wealth. The authors include a square term 
+for the number of years owned to take into account anticipated impacts of the timing of moves into 
+homeownership over the period as there was an initial decline in house values during the first years of 
+their panel followed by more robust increases in later years. This square term is negative and significant 
+indicating those who bought earlier in the period had lower cumulative gains in wealth. The largest 
+estimated gains in wealth of $13,000 per year of ownership occurred among those who owned for 8 
+years. But for those who owned for the maximum possible period of 12 years the gains were only 
+$3,333 per year. Prior savings tendency was positively associated with increases in wealth as expected, 
+but was not statistically significant and so did not appear to capture any important difference in 
+household behavior that was not already accounted for by other explanatory variables. 
+Turner and Luea (2009) undertake a very similar analysis using the PSID sample for the period 
+from 1987 to 2001. In contrast to Di, Belsky and Liu who only include initial renters, their study sample 
+includes all households in the sample as of 2001 that were age 65 or younger regardless of whether they 
+were renters at the start of the period. The study pools observations for the sample on household 
+wealth from three points in time: 1994, 1999, and 2001. For each observation they include a count of 
+the number of years the household has owned a home since 1988 as their explanatory variable of 
+22 
+interest. The approach used in this study attempts to control for selection bias into homeownership by 
+estimating a random effects model that includes a household specific constant term. Turner and Luea 
+also separate the sample into two income classes to see whether the association between 
+homeownership and wealth growth differs by income. Low- and moderate-income (LMI) households 
+were those who had incomes below 120 percent of area median income in all three periods when 
+wealth was observed. The results indicate that each year of homeownership is associated with nearly 
+$14,000 in additional wealth, perhaps not surprisingly quite similar to the amount found by Di, Belsky 
+and Liu using the same survey over a nearly identical period (although with a somewhat different 
+sample). When controls are included for LMI status, Turner and Luea find that these households have 
+somewhat lower wealth accumulation of between $6,000 and $10,000 per year. But they note that since 
+the average wealth holding of LMI households in 2001 was about $89,000 this annual rate of increase 
+accounts for a fairly sizeable share of total wealth. 
+In an unpublished dissertation, Mamgain (2011) extends the work of Turner and Luea by 
+employing a two-stage model to add stronger controls for selection into homeownership. Like most of 
+the other studies, Mamgain also uses the PSID, but his period of observation is from 1999 through 2007. 
+Despite the different time period examined, when he replicates Turner and Luea his analysis yields 
+similar results regarding the magnitude of the association between homeownership and wealth 
+(although by ending the study period in 2007 it does not include the sharp loss of both housing and 
+financial wealth that followed 2007). When Mamgain adds additional controls to his model to capture 
+the intention to move, the respondent's health status, their ownership of other real estate and an 
+estimate of current LTV he finds a somewhat lower impact of additional years of owning, but the 
+estimate is still significant and positive. Importantly, when he employs his two-stage approach to include 
+both a selection term and an instrumental measure of current tenure his estimate of the impact of each. 
+additional year on owning does not change. He also estimates separate models by income level and 
+finds that there is no difference in the impact of owning across income classes—all are positive and 
+significant. In short, like other studies he does not find a significant impact of selection bias on his 
+findings and he also finds that low-income owners are also likely to benefit from owning homes. 
+3 
+3 He does differ from previous studies in how he estimates the contribution of owning to wealth gains, by focusing on impacts at much lower household wealth levels. He finds that assuming wealth of about $2,500 for the lowest income group (at or below 150 percent of the poverty level) owning a home only adds a few hundred dollars a year to the household's bottom line. But with total wealth set a level well below the median among owners in this income class this result seems implausible. 
+23 
+None of the studies estimating statistical models to assess the contribution of homeownership 
+to wealth accumulation analyzed whether there were differences in this experience by race and 
+ethnicity. As discussed above, there are significant racial and ethnic differences in residential location, 
+size of home, and characteristics of financing used, all of which could contribute to differences in wealth 
+outcomes. Shapiro, Meschede, and Osoro (2013) use the PSID from 1984 through 2009 specifically to 
+examine the factors associated with more rapid growth in wealth among whites over this period 
+compared to blacks. Tracking the same set of households over this period they find that gains in median 
+wealth among whites exceeded those among blacks by $152,000. Based on the results of a multivariate 
+analysis they found that the single largest driver of this divergence in wealth was the additional time 
+whites spend as homeowners, which they estimate accounted for 27 percent of the additional white 
+gains. The next most significant factors were differences in income (20 percent), unemployment spells (9 
+percent), lower shares with a college education (5 percent), and differences in inheritance and financial 
+support from family (5 percent). They also find that years of homeownership exerted a stronger 
+influence on gains in wealth for blacks than it did for whites. While the authors do not attempt to 
+control for any selection bias to control for who becomes a homeowner, none of the previous studies 
+that have taken these steps have found these controls to change their findings. 
+Conclusions Drawn from the Previous Literature 
+Studies presenting simulations of the financial returns to renting and owning make a convincing 
+case that in many markets over many periods of time and under a variety of assumptions renting ought 
+to support greater wealth accumulation than owning. However, as virtually all of the panel studies 
+document, in practice owning has consistently been found to be associated with greater increases in 
+wealth even after controlling for differences in household income, education, marital status, starting 
+wealth, inheritances, and other factors. Importantly, these same studies also consistently find that 
+owning has a positive effect on wealth accumulation among both lower-income households and 
+minorities, although the gains are smaller than for higher-income households and whites generally. 
+Housing wealth among lower-income and minority households also often accounts a substantial share of 
+total wealth for these groups. On the other hand, renters in these same demographic groups are 
+consistently found to accrue little to no wealth over time. 
+How can we reconcile the findings from simulation studies that renting should often be more 
+financially advantageous than owning with the findings from the analysis of panel surveys that 
+unambiguously find owning to be more favorable? One explanation may be that behavioral issues play 
+24 
+a key role. Efforts to save for a downpayment lead to a large jump in wealth that is then further 
+supported by at least modest appreciation and some pay down of principal over time. Renters may have 
+the opportunity to accrue savings and invest them in higher yielding opportunities but lack strong 
+incentives and effective mechanisms for carrying through on this opportunity. There is also likely some 
+degree of selection bias at work in who becomes a homeowner. While studies do control for income, 
+education, marital status and other factors that would contribute in differences in the ability to save, 
+there are likely differences in motivation and personal attributes that are related to both savings 
+practices and whether someone becomes an owner. While controls included in studies to capture this 
+effect have not diluted the association between homeownership and increases in wealth, this may 
+simply reflect the challenge of capturing these difficult to measure factors. 
+Studies using panel surveys may also make the benefits of homeownership appear more assured 
+than they actually are by not fully capturing the impact of failed attempts at owning on changes in 
+wealth. Studies to date have focused on measuring homeownership as the number of years spent as a 
+homeowner, which does not distinguish between short sustained spells of owning from similar periods 
+of owning that end in foreclosure or other financial distress. So while homeownership on average may 
+increase wealth, it is undoubtedly the case that for some share of households owning a home had a 
+negative impact on their balance sheet. 
+Finally, the studies reviewed here may also not fully reflect changes that have occurred over 
+time in both market conditions and household behavior. Most of the studies cited reflect experiences as 
+owners during the 1980s and 1990s and so do not capture the market dynamics that began in the late 
+1990s but came to full bloom during the boom years of the 2000s, including the much greater 
+availability of and appetite for high loan-to-value loans, higher cost loans, sharp swings in house prices, 
+and much higher risks of default even before the national foreclosure crisis began. The next section 
+turns to an analysis of data from the 2000s to examine whether findings about homeownership's 
+positive association with wealth accumulation held over this period, particularly for low-income and 
+minority households who were most likely to have used high cost mortgage products. 
+Experience with Homeownership and Wealth Accumulation through the Boom and Bust 
+Given the substantial changes in the availability, cost and terms of mortgage financing that 
+began in the 1990s and accelerated through the mid-2000s and the accompanying boom and bust in 
+home prices, there is good reason to believe that the experience of homeowners in accumulating wealth 
+over the last decade has been substantially different from what is documented in much of the existing 
+25 
+literature for earlier periods. In this section of the paper we present information on wealth 
+accumulation through homeownership during the housing market boom and bust of the 2000s. 
+In the first section, we present findings from the tri-annual Survey of Consumer Finance (SCF) to 
+present a high level picture of the contribution of homeownership to household balance sheets over 
+time. The SCF also provides insights into how a greater tendency both to use high loan-to-value (LTV) 
+loans to purchase homes and to take cash out through refinancing may have reduced wealth associated 
+with homeownership. While the SCF does document the substantial decline in housing wealth following 
+the bust, it also shows that, despite these losses, average homeownership wealth is generally higher 
+than it was in the mid-1990s and continues to represent a substantial portion of household wealth for 
+minorities and lower-income households. The SCF also shows that while the degree of leverage in the 
+housing market showed a marked increase in the years following the Tax Reform Act of 1986, the 
+distribution of LTVs did not change a great deal between the mid 1990s and the housing boom years. 
+However, the crash in housing prices did push LTVs to historic highs. 
+We then turn to an analysis of the PSID for the period from 1999 to 2009 to examine how 
+homeownership spells contributed to trends in household wealth over this period. While house prices 
+grew substantially for much of this period, it also captures most of the decline in prices as well. Whereas 
+previous studies have focused solely on how each additional year of homeownership contributes to 
+household wealth, we are also interested in assessing how failed attempts at homeownership affect 
+wealth to assess the downside risks of owning as well. We find that on average homeownership's 
+contribution to household wealth over this period was remarkably similar to that found in earlier 
+periods. The results also confirm previous findings that while lower-income households and minorities 
+realized lower wealth gains from owning, on average these gains were positive and significant. The 
+results also show that a failure to sustain homeownership is associated with a substantial loss of wealth 
+for established owners, although those who made a failed transition from owning to renting are no 
+worse off financially than those who remained renters over the whole period. Thus, despite the many 
+ways in which market conditions over this period might have been expected to undermine 
+homeownership's wealth building potential, our analysis of the PSID finds that owning maintained a 
+strong association with improvements in wealth over the decade from 1999 to 2009. 
+Long-Run Trends in Housing Wealth and Mortgage Debt 
+The sharp rise in home prices in many parts of the country is reflected in the substantial increase 
+in average real housing equity among homeowners, roughly doubling (a gain of 96 percent) between 
+26 
+1995 and 2007 among all homeowners (Table 1). The gains were nearly as large among African- 
+Americans (88 percent) and even larger among Hispanics (123 percent), although generally lower among 
+households in the bottom two income quartiles where home equity increased by only 56 and 42 
+percent, respectively. The loss in housing equity between 2007 and 2010 was substantial, erasing 26 
+percent of home equity on average for all homeowners and taking back much of the gains made since 
+2001 for most groups. Mirroring their larger gains during the boom, Hispanics suffered the greatest loss 
+of housing wealth, dropping by nearly half. Across income groups the declines were more moderate 
+among those in the bottom half of the income distribution. 
+But despite these substantial losses, average real home equity in 2010 was still higher on 
+average than in 1995 for all of the groups shown, and in many cases considerably higher. Whites and 
+those in the highest income quartile had the largest gains, with average home equity up by 51 percent 
+and 78 percent respectively. African-Americans and the lowest income quartile also maintained 
+substantial gains of 39 percent and 35 percent, respectively. Hispanics and those in the middle income 
+quartiles made the least progress, with average home equity up by only 12 to 18 percent. 
+Throughout this period the share of net wealth accounted for by home equity among all 
+homeowners fluctuated between 22 and 29 percent, with much of the movement due to changes in 
+non-housing net wealth. Between 1989 and 1998 home equity's share of average wealth fell from 29 to 
+22 percent as the stock market boomed while home values languished. Between 1998 and 2007 home 
+equity's share of net wealth rose to 25 percent as the stock market absorbed the dot com bust while 
+housing prices soared. Between 2007 and 2010 losses in housing wealth outpaced losses in other 
+financial assets so housing's share of wealth fell back to 22 percent. Thus, despite the significant growth 
+in housing equity in the first half of the 2000s it never came to account for an outsized portion of 
+household net wealth among all homeowners. 

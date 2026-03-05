@@ -1,0 +1,44 @@
+A core factor in fueling the widespread adoption of analytics in sports is
+the integration of technology. Although it is fairly straightforward to track
+all the action in a computer game, as they are ultimately mediated by lines
+of code and actions within the video game can be dumped into spreadsheets and databases for analysis, sports happen within a framework where
+the data must be collected before it can be assessed. In line with James’s
+early concerns about the poor state of play-by-play data in baseball, major
+sports leagues have invested greatly in the integration of technology to
+assess players and how they interact in games. Baseball pitches are tracked
+and the results compared with the strike zone to rate umpires. A company called Second Spectrum uses technology originally designed to track missiles to map how players move on basketball courts and soccer pitches,
+enabling comparative analysis about how players defend, run, and generally play the game. Catapult developed a wearable system that tracks how
+players stress their bodies during practice and games, aiding the ability to
+determine when players need a rest and when they are likely at the peak of
+their ability to perform.
+Technology has also become a means by which players, teams, and analysts can “directly engage in an active exploration to understand why and
+how such information may have emerged.”2
+ The combination of technologies to track sports makes them a bit more like a video game, where every
+data point is ready to be pulled into analysis. Increasing the data available to analysts creates a feedback loop, where the data can increase understanding to lead to new questions and new technological development in
+order to continue to refine the meta. Although there is likely to be a point
+of diminishing returns for both the technology and the analysis, that point
+will probably come when a sport is solved, which will make it far less interesting to watch and play. Baseball offers up an example of a sport that
+stands as a largely solved game, as analytics are widely accepted and their
+lessons frame strategy and play.
+Along the road toward solving a sport, data analysis leads to insights that
+change how certain teams play the game. When those teams overperform,
+their tactics are copied, frequently changing how the game is played and
+often upending decades of tradition in establishing a new “best” way to
+play. In baseball this shows up in defensive shifts where instead of dividing
+the field equally, defenders align themselves in a manner matched to where
+the hitter typically strikes the ball. In basketball, the three-point revolution
+took over as teams recognized that shots worth three points are expected to
+generate more points than long two-pointers and basically every shot other
+than those very close to the basket.3
+ In soccer, pressing dominates as elite
+teams noted that being able to win the ball high up the field makes them
+more likely to score and renders the opposition less likely to get a shot off.
+Football analytics found what Madden players had known for years, which
+is that going for it more often on fourth down increases offensive production (and is generally more fun). Throughout these changes, there is a back and forth as analytics debuts
+some new insight and established norms within the game resist. A strategy that is proven to be more effective in the long run does not take hold unless
+a coach or manager makes it to the long run in the first place by not getting
+fired. Short-run struggles, especially for those with novel approaches, can
+quickly leads to questions from the media and fans, potentially ending a
+career. For a new meta to really get established, it not only has to work, but
+it has to do so fairly quickly, and then as it spreads, it can become the new
+set of norms the next insight will have to overcome.

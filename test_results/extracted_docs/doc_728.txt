@@ -1,0 +1,75 @@
+Credit Requirements
+ (A) General Credit Requirements FHA’s general credit policy requires Lenders to analyze the Borrower’s credit history, liabilities, and debts to determine creditworthiness. The Lender must obtain a merged credit report from an independent consumer reporting agency. The Lender must obtain a credit report for each Borrower who will be obligated on the loan Note. The Lender may obtain a joint report for individuals with joint accounts. Before making a determination on the creditworthiness of an applicant, a Lender must conduct an interview to resolve any material discrepancies between the information on the loan application and information on the credit report to determine accurate and complete information. The Lender is not required to obtain a credit report for non-credit qualifying Streamline Refinance transactions.
+ (B) Types of Credit History
+ (1) Traditional Credit Lenders must pull a credit report that draws and merges information from three national credit bureaus. Lenders are prohibited from developing non-traditional credit history to use in place of a traditional credit report. If the credit report generates a credit score, the Lender must utilize traditional credit history.
+ (a) Requirements for the Credit Report Credit reports must obtain all information from three credit repositories pertaining to credit, residence history, and public records information; be in an easy to read and understandable format; and not require code translations. The credit report may not contain whiteouts, erasures, or alterations. The Lender must retain copies of all credit reports. The credit report must include:
+ 
+
+  the name of the Lender ordering the report;
+  the name, address, and telephone number of the consumer reporting agency;
+  the name and SSN of each Borrower; and
+  the primary repository from which any particular information was pulled, for each account listed.
+ 
+
+ A truncated SSN is acceptable for FHA loan insurance purposes provided that the loan application captures the full nine-digit SSN.
+ 
+
+ The credit report must also include:
+ 
+
+  all inquiries made within the last 90 Days;
+  all credit and legal information not considered obsolete under the FCRA, including information for the last seven years regarding:
+  bankruptcies;
+  Judgments;
+  lawsuits;
+  foreclosures; and
+  tax liens; and
+  for each Borrower debt listed:
+  the date the account was opened;
+  high credit amount;
+  required monthly payment amount;
+  unpaid balance; and
+  payment history.
+ 
+
+ (b) Updated Credit Report or Supplement to the Credit Report The Lender must obtain an updated credit report or supplement if the underwriter identifies material inconsistencies between any information in the case binder and the original credit report.
+ (2) Non-traditional Credit For Borrowers without a credit score, the Lender must independently develop the Borrower’s credit history using the requirements outlined below.
+ (a) Independent Verification of Non-traditional Credit Providers The Lender may independently verify the Borrower’s credit references by documenting the existence of the credit provider and that the provider extended credit to the Borrower. To verify the existence of each credit provider, the Lender must review public records from the state, county, or city or other documents providing a similar level of objective information. To verify credit information, the Lender must:
+ 
+
+  use a published address or telephone number for the credit provider and not rely solely on information provided by the applicant; and
+  obtain the most recent 12 months of canceled checks, or equivalent proof of payment, demonstrating the timing of payment to the credit provider.
+ 
+
+ To verify the Borrower’s rental payment history, the Lender must obtain a rental reference from the appropriate rental management company or landlord, demonstrating the timing of payment for the most recent 12 months in lieu of 12 months of canceled checks or equivalent proof of payment.
+ (b) Sufficiency of Non-traditional Credit References To be sufficient to establish the Borrower’s credit, the non-traditional credit history must include three credit references, including at least one of the following:
+ 
+
+  rental housing payments (subject to independent verification if the Borrower is a renter);
+  telephone service; or
+  utility company reference (if not included in the rental housing payment), including:
+  gas;
+  electricity;
+  water;
+  television service; or
+  Internet service.
+ 
+
+ If the Lender cannot obtain all three credit references from the list above, the Lender may use the following sources of unreported recurring debt:
+ 
+
+  insurance premiums not payroll deducted (e.g., medical, auto, life, renter’s insurance);
+  payment to child care providers made to businesses that provide such services;
+  school tuition;
+  retail store credit cards (e.g., from department, furniture, or appliance stores, or specialty stores);
+  rent-to-own (e.g., furniture, appliances);
+  payment of that part of medical bills not covered by insurance;
+  a documented 12-month history of savings evidenced by regular deposits resulting in an increased balance to the account that:
+  were made at least quarterly;
+  were not payroll deducted; and
+  caused no Insufficient Funds (NSF) checks;
+ 
+
+  an automobile lease;
+  a personal loan from an individual with repayment terms in writing and supported by canceled checks to document the payments; or
+  a documented 12-month history of payment by the Borrower on an account for which the Borrower is an authorized user.

@@ -1,0 +1,85 @@
+OVERVIEW
+The following overview is a high-level discussion of our operating results, as well as some of the trends and drivers that affect
+our business. Management believes that an understanding of these trends and drivers provides important context for our results
+for the fiscal year ended March 31, 2024, as well as our future prospects. This summary is not intended to be exhaustive, nor is
+it intended to be a substitute for the detailed discussion and analysis provided elsewhere in this Form 10-K, including in the
+“Business” section and the “Risk Factors” above, the remainder of “Management’s Discussion and Analysis of Financial
+Condition and Results of Operations (“MD&A”)” or the Consolidated Financial Statements and related Notes.
+About Electronic Arts
+Electronic Arts is a global leader in digital interactive entertainment. We develop, market, publish and deliver games, content
+and services that can be experienced on game consoles, PCs, mobile phones and tablets. At our core is a portfolio of intellectual
+property from which we create innovative games and experiences that deliver high-quality entertainment and drive engagement
+across our network of hundreds of millions of unique active accounts. Our portfolio includes brands that we either wholly own
+(such as Apex Legends, Battlefield, and The Sims) or license from others (such as the licenses within EA SPORTS FC and EA
+SPORTS Madden NFL). Through our live services offerings, we offer high-quality experiences designed to provide value to
+players, and extend and enhance gameplay. These live services include extra content, subscription offerings and other revenue
+generated in addition to the sale of our full games. We are focusing on building games and experiences that grow the global
+online communities around our key franchises; deepening engagement through connecting interactive storytelling to key
+intellectual property; and building re-occurring revenue from scaling our live services and growth in our annualized sports
+franchises, our console, PC and mobile catalog titles.
+Financial Results
+Our key financial results for our fiscal year ended March 31, 2024 were as follows:
+• Total net revenue was $7,562 million, up 2 percent year-over-year.
+• Live services and other net revenue was $5,547 million, up 1 percent year-over-year.
+• Gross margin was 77.4 percent, up 2 percentage points year-over-year.
+• Operating expenses were $4,334 million, up 1 percent year-over-year.
+• Operating income was $1,518 million, up 14 percent year-over-year.
+• Net income was $1,273 million with diluted earnings per share of $4.68.
+• Net cash provided by operating activities was $2,315 million, up 49 percent year-over-year.
+• Total cash, cash equivalents and short-term investments were $3,262 million.
+• We repurchased 10.0 million shares of our common stock for $1,300 million.
+• We paid cash dividends of $205 million during the fiscal year ended March 31, 2024.
+Trends in Our Business
+Live Services Business. We offer our players high-quality experiences designed to provide value to players and to extend and
+enhance gameplay. These live services include extra content, subscription offerings and other revenue generated in addition to
+the sale of our full games and free-to-play games. Our net revenue attributable to live services and other was $5,547 million,
+$5,489 million, and $4,998 million for fiscal years 2024, 2023, and 2022, respectively, and we expect that live services net
+revenue will continue to be material to our business. Within live services and other, net revenue attributable to extra content
+was $4,463 million, $4,277 million, and $3,910 million for fiscal years 2024, 2023, and 2022, respectively. Extra content net
+revenue has increased as more players engage with our games and services, and purchase additional content designed to provide
+value to players and extend and enhance gameplay. Our most popular live services are the extra content purchased for the
+Ultimate Team mode associated with our sports franchises, that allows players to collect current and former professional players
+in order to build and compete as a personalized team, and extra content purchased for our Apex Legends franchise. Live services
+net revenue generated from extra content purchased within the Ultimate Team mode associated with our sports franchises, a
+substantial portion of which is derived from Ultimate Team within our global football franchise and from our Apex Legends
+franchise, is material to our business.
+20
+Digital Delivery of Games. In our industry, players increasingly purchase games digitally as opposed to purchasing physical
+discs. While this trend, as applied to our business, may not be linear due to a mix of products during a fiscal year, consumer
+buying patterns and other factors, over time we expect players to purchase an increasingly higher proportion of our games
+digitally. As a result, we expect net revenue attributable to digital full game downloads to increase over time and net revenue
+attributable to sales of packaged goods to decrease.
+Our net revenue attributable to digital full game downloads was $1,343 million, $1,262 million, and $1,282 million during
+fiscal years 2024, 2023, and 2022, respectively; while our net revenue attributable to packaged goods sales was $672 million,
+$675 million, and $711 million in fiscal years 2024, 2023, and 2022, respectively. In addition, as measured based on total units
+sold on Microsoft’s Xbox One and Xbox Series X and Sony’s PlayStation 4 and 5 rather than by net revenue, we estimate that
+73 percent, 68 percent, and 65 percent of our total units sold during fiscal years 2024, 2023, and 2022, were sold digitally.
+Digital full game units are based on sales information provided by Microsoft and Sony; packaged goods units sold through are
+estimated by obtaining data from significant retail and distribution partners in North America, Europe and Asia, and applying
+internal sales estimates with respect to retail partners from which we do not obtain data. We believe that these percentages are
+reasonable estimates of the proportion of our games that are digitally downloaded in relation to our total number of units sold
+for the applicable period of measurement.
+Increases in consumer adoption of digital purchase of games combined with increases in our live services revenue generally
+results in expansion of our gross margin, as costs associated with selling a game digitally is generally less than selling the same
+game through traditional retail and distribution channels.
+Increased Competition. Competition in our business is intense. Our competitors range from established interactive
+entertainment companies to emerging start-ups. In addition, the gaming, technology/internet, and entertainment industries are
+converging, and we compete with large, diversified technology companies in those industries. Their greater financial or other
+resources may provide larger budgets to develop and market tools, technologies, products and services that gain consumer
+success and shift player time and engagement away from our products and services. In addition, our leading position within the
+interactive entertainment industry makes us a prime target for recruiting our executives, as well as key creative and technical
+talent, resulting in retention challenges and increased cost to retain and incentivize our key people.
+Concentration of Sales Among the Most Popular Games. In our industry, we see a large portion of games sales concentrated on
+the most popular titles. Similarly, a significant portion of our revenue historically has been derived from games based on a few
+popular franchises, such as EA SPORTS FC, EA SPORTS Madden NFL, Apex Legends, Battlefield, and The Sims. In
+particular, we have historically derived a significant portion of our net revenue from our global football franchise, the
+annualized version of which is consistently one of the best-selling games in the marketplace. We transitioned our global football
+franchise to a new EA SPORTS FC brand in the second quarter of fiscal 2024. Our continued vision for the future of EA
+SPORTS FC is to create and innovate across platforms, geographies, and business models to expand our global football
+experiences and entertain even more fans around the world.
+Re-occurring Revenue Sources. Our business model includes revenue that we deem re-occurring in nature, such as revenue
+from our live services, annualized sports franchises (e.g., EA SPORTS FC, EA SPORTS Madden NFL), and our console, PC
+and mobile catalog titles (i.e., titles that did not launch in the current fiscal year). We have been able to forecast revenue from
+these areas of our business with greater relative confidence than for new games, services and business models. As we continue
+to incorporate new business models and modalities of play into our games, our goal is to continue to look for opportunities to
+expand the re-occurring portion of our business.

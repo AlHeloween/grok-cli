@@ -1,0 +1,52 @@
+Quantum Computing: What It Is, Why We Want It, and How We're Trying to Get It
+ 
+
+ Quantum mechanics emerged as a branch of physics in the early 1900s to explain nature on the scale of atoms and led to advances such as transistors, lasers, and magnetic resonance imaging. The idea to merge quantum mechanics and information theory arose in the 1970s but garnered little attention until 1982, when physicist Richard Feynman gave a talk in which he reasoned that computing based on classical logic could not tractably process calculations describing quantum phenomena. Computing based on quantum phenomena configured to simulate other quantum phenomena, however, would not be subject to the same bottlenecks. Although this application eventually became the field of quantum simulation, it didn't spark much research activity at the time.
+ 
+
+ In 1994, however, interest in quantum computing rose dramatically when mathematician Peter Shor developed a quantum algorithm, which could find the prime factors of large numbers efficiently. Here, “efficiently” means in a time of practical relevance, which is beyond the capability of state-of-the-art classical algorithms. Although this may seem simply like an oddity, it is impossible to overstate the importance of Shor's insight. The security of nearly every online transaction today relies on an RSA cryptosystem that hinges on the intractability of the factoring problem to classical algorithms.
+ 
+
+ WHAT IS QUANTUM COMPUTING?
+ 
+
+ Quantum and classical computers both try to solve problems, but the way they manipulate data to get answers is fundamentally different. This section provides an explanation of what makes quantum computers unique by introducing two principles of quantum mechanics crucial for their operation, superposition and entanglement.
+ 
+
+ Superposition is the counterintuitive ability of a quantum object, like an electron, to simultaneously exist in multiple “states.” With an electron, one of these states may be the lowest energy level in an atom while another may be the first excited level. If an electron is prepared in a superposition of these two states it has some probability of being in the lower state and some probability of being in the upper. A measurement will destroy this superposition, and only then can it be said that it is in the lower or upper state.
+ 
+
+ Understanding superposition makes it possible to understand the basic component of information in quantum computing, the qubit. In classical computing, bits are transistors that can be off or on, corresponding to the states 0 and 1. In qubits such as electrons, 0 and 1 simply correspond to states like the lower and upper energy levels discussed above. Qubits are distinguished from classical bits, which must always be in the 0 or 1 state, by their ability to be in superpositions with varying probabilities that can be manipulated by quantum operations during computations.
+ 
+
+ Entanglement is a phenomenon in which quantum entities are created and/or manipulated such that none of them can be described without referencing the others. Individual identities are lost. This concept is exceedingly difficult to conceptualize when one considers how entanglement can persist over long distances. A measurement on one member of an entangled pair will immediately determine measurements on its partner, making it appear as if information can travel faster than the speed of light. This apparent action at a distance was so disturbing that even Einstein dubbed it “spooky” (Born 1971, p. 158).
+ 
+
+ The popular press often writes that quantum computers obtain their speedup by trying every possible answer to a problem in parallel. In reality a quantum computer leverages entanglement between qubits and the probabilities associated with superpositions to carry out a series of operations (a quantum algorithm) such that certain probabilities are enhanced (i.e., those of the right answers) and others depressed, even to zero (i.e., those of the wrong answers). When a measurement is made at the end of a computation, the probability of measuring the correct answer should be maximized. The way quantum computers leverage probabilities and entanglement is what makes them so different from classical computers.
+ 
+
+ WHY DO WE WANT IT?
+ 
+
+ The promise of developing a quantum computer sophisticated enough to execute Shor's algorithm for large numbers has been a primary motivator for advancing the field of quantum computation. To develop a broader view of quantum computers, however, it is important to understand that they will likely deliver tremendous speed-ups for only specific types of problems. Researchers are working to both understand which problems are suited for quantum speed-ups and develop algorithms to demonstrate them. In general, it is believed that quantum computers will help immensely with problems related to optimization, which play key roles in everything from defense to financial trading.
+ 
+
+ Multiple additional applications for qubit systems that are not related to computing or simulation also exist and are active areas of research, but they are beyond the scope of this overview. Two of the most prominent areas are (1) quantum sensing and metrology, which leverage the extreme sensitivity of qubits to the environment to realize sensing beyond the classical shot noise limit, and (2) quantum networks and communications, which may lead to revolutionary ways to share information.
+ 
+
+ HOW ARE WE TRYING TO GET IT?
+ 
+
+ Building quantum computers is incredibly difficult. Many candidate qubit systems exist on the scale of single atoms, and the physicists, engineers, and materials scientists who are trying to execute quantum operations on these systems constantly deal with two competing requirements. First, qubits need to be protected from the environment because it can destroy the delicate quantum states needed for computation. The longer a qubit survives in its desired state the longer its “coherence time.” From this perspective, isolation is prized. Second, however, for algorithm execution qubits need to be entangled, shuffled around physical architectures, and controllable on demand. The better these operations can be carried out the higher their “fidelity.” Balancing the required isolation and interaction is difficult, but after decades of research a few systems are emerging as top candidates for large-scale quantum information processing.
+ 
+
+ Superconducting systems, trapped atomic ions, and semiconductors are some of the leading platforms for building a quantum computer. Each has advantages and disadvantages related to coherence, fidelity, and ultimate scalability to large systems. It is clear, however, that all of these platforms will need some type of error correction protocols to be robust enough to carry out meaningful calculations, and how to design and implement these protocols is itself a large area of research. For an overview of quantum computing, with more detail regarding experimental implementations, see Ladd et al. (2010).
+ 
+
+ In this article, “quantum computing” has so far been used as a blanket term describing all computations that utilize quantum phenomena. There are actually multiple types of operational frameworks. Logical, gate-based quantum computing is probably the best recognized. In it, qubits are prepared in initial states and then subject to a series of “gate operations,” like current or laser pulses depending on qubit type. Through these gates the qubits are put in superpositions, entangled, and subjected to logic operations like the AND, OR, and NOT gates of traditional computation. The qubits are then measured and a result obtained.
+ 
+
+ Another framework is measurement-based computation, in which highly entangled qubits serve as the starting point. Then, instead of performing manipulation operations on qubits, single qubit measurements are performed, leaving the targeted single qubit in a definitive state. Based on the result, further measurements are carried out on other qubits and eventually an answer is reached.
+ 
+
+ A third framework is topological computation, in which qubits and operations are based on quasiparticles and their braiding operations. While nascent implementations of the components of topological quantum computers have yet to be demonstrated, the approach is attractive because these systems are theoretically protected against noise, which destroys the coherence of other qubits.

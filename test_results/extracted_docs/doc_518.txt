@@ -1,0 +1,53 @@
+1. Introduction
+This step-by-step guide helps you select the best cameras for your operational requirements and
+surveillance scenarios.
+Lack of industry standards and the complexity of the matter cause many integrators to lose sight of a
+key prerequisite in any installation: the operational requirements or the true purpose of the surveillance.
+In this guide, we present the Pixel Density Model – a method that allows you to relate the operational
+requirements of your system to modern surveillance video and IP cameras.
+2. Moving into IP
+Selecting the appropriate surveillance camera to fulfill operational requirements has always been
+a challenge.
+With the introduction of IP cameras, and especially through the development of megapixel and HDTV
+cameras, the need has emerged for a new way to determine how to meet operational requirements. In
+these six steps, we describe a model to relate operational requirements to modern video and IP cameras.
+When recommending cameras and discussing what is the “best” camera on the market, it is easy to
+focus on datasheets and technical specifications. This causes many integrators to lose sight of a key
+prerequisite in any installation, namely the operational requirements or the actual purpose of the surveillance.
+Previously when surveillance was all analog, selecting a camera to match an operational requirement
+was mostly about selecting the appropriate lens since there wasn’t a wide variety of resolutions to
+choose from. Most CCTV systems are designed to monitor human behavior, so the human body was used
+as a yardstick. In order to differentiate between diverse types of scenarios, various categories were established based on percentage representation of the height of a human body within the field of view.
+While not a global standard in any way, it became quite common to distinguish between the need for
+detection, recognition, and identification.
+As correct as the percentages in Figure 1 might be for a standard analog resolution, they pose a few
+challenges when moving into the diverse resolutions of IP cameras. To bridge the gap, attempts have
+been made to translate from TV lines to pixels to produce tables like the one shown in Figure 2, where
+the way of thinking about analog operational requirements in terms of percentages has been translated
+for IP. This might be correct, but it is difficult – if not impossible – to work with complexity such as this
+in a real-life context. Surely there must be a better way
+3. Pixel density
+The growth of IP surveillance forces us to a make paradigm shift in the way we define our operational requirements.
+Advancements in camera technology have resulted in a multitude of resolutions and formats. Instead of
+using vertical height and percentage, we should focus on pixel density in the horizontal dimension. The
+term pixel density in this context refers to the number of pixels representing the object of our operational requirement – commonly a human, or more specifically, a human face.
+One reason why we have chosen to use the face is its distinct identifying features. Furthermore, the
+variances in face widths are less than those of body lengths or widths, which results in a smaller margin
+of error. The average human face is 16 centimeters wide (= 6.3 inches wide). Following suggested operational requirements from SKL, the Swedish National Laboratory of Forensic Science, and supported
+by our own test results at Axis Communications, we have chosen to use 80 pixels as the requirement for
+facial identification for challenging conditions . (see Figure 3).
+To some, this number might sound high, and in fact some vendors or independent sources recommend
+40 pixels for a face or 100 pixels per foot for recognition. The argument behind the higher number is that
+for identification, there are limited other telltale signs. For recognition, previous knowledge adds factors
+such as how a person moves – a property easy to observe and recognize, but difficult to identify and
+describe accurately. To ensure sufficient video quality even if the object isn’t facing the camera straight
+on, or if the lighting is not optimal, the higher number provides an adequate safety margin.
+1
+Challenging conditions: Situations with very varying or weak lighting. People, objects and vehicles are seen from an angle where details are in
+shade, or facing away from the camera. It could also occur in situations where people, objects and vehicles are moving at very high speed through
+an area. More often occurring in outdoor situations without additional lighting, or indoor situations during very dark conditions.
+2
+See European Standard EN 50132-7:2012 by CENELEC www.cenelec.eu
+3
+Good conditions: Situations with decent lighting. People, objects and vehicles are moving at reasonable speed, and seen from an angle where
+sufficient details are visible. More often occurring in indoor situations where lighting is even, or outdoor situations with additional lighting.

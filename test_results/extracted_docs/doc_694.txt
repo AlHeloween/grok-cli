@@ -1,0 +1,73 @@
+ **Texas last will and testament requirements**
+Here are the requirements for a valid will in Texas:
+Your will must be “in writing,” meaning it exists in a physical form. For example, a will “in writing” can be one you’ve written by hand, or one you’ve typed on a computer and printed. A digital copy, like a PDF of your will saved on your computer, isn’t considered valid.
+You must be at least 18 years old. This rule doesn’t apply if you’re married or serve in the military.
+You must be of sound mind and memory. This means that you:
+Understand what it means to make a will
+Understand the nature and extent of your property and relationships
+Are capable of making reasonable judgments about the matters your will controls (for example, naming a guardian for your minor children)
+You must make your will freely and voluntarily. This means you shouldn’t be under improper pressure to write your will by someone who has power over you, like a caretaker or family member. This is known as “undue influence.”
+You must sign your will in the presence of at least two credible witnesses, who also sign. According to the Texas Estates Code, your witnesses must be at least 14 years old. A witness is “credible” when they don’t receive any financial benefit under your will. In other words, your witnesses should be people who aren’t receiving anything from your will.
+ 
+Do you need to notarize your will in Texas?
+No — in Texas, you don’t need to notarize your will to make it valid. However, a notary is required if you want to make your will self-proving. When a will is self-proving, the court can accept your will without needing to contact your witnesses to prove its validity. This can speed up the probate process.
+To make your will self-proving, you must include a self-proving affidavit. In it, you and your witnesses state that your will was signed by you in the witnesses’ presence, and that you’ve declared it to be your will. Your self-proving affidavit must be signed (or acknowledged) by both you and your witnesses in front of a notary, who will then notarize the affidavit.
+ 
+Are holographic wills legal in Texas?
+Holographic wills, also called handwritten wills, are accepted in Texas. To be valid, a holographic will must be written entirely in your handwriting and signed by you. As long as you follow these two requirements, you don’t need witnesses to make your holographic will valid. However, if you think someone could challenge the validity of your will, it’s a good idea to have them anyway.
+Estate attorneys generally don’t recommend making a holographic will. They can be difficult to prove legally valid in court, and they may contain errors or unclear wishes. Learn more about the pitfalls of holographic wills, and alternative options you can use instead.
+ 
+Texas will executor requirements
+Your executor is the person responsible for managing your probate estate and carrying out the wishes described in your will. They will work with the probate court to pay your debts and distribute your assets to the beneficiaries of your will.
+You can use your will to name the person (or people) you’d like to be your executor, but not everyone is qualified to serve.
+For a person to be accepted by the Texas court as your executor, they must:
+Be at least 18 years old
+Be capable of performing their duties as executor
+Have never been convicted of a felony
+Be deemed “suitable” by the court
+It’s often more practical to choose an executor that lives in Texas, and close to you. If you decide to nominate someone who lives out of state, they can only serve as your executor if they appoint a resident agent and notify the court. A resident agent is someone who lives in the state of Texas and accepts legal documentation on behalf of your executor and your estate.
+ 
+Revoking or changing your will in Texas
+ 
+Revoking your will
+You can generally revoke, or nullify, your will in Texas at any time before your death, unless you’ve committed to an agreement stating you wouldn’t (for example, a joint will). There are a few ways you can nullify your will:
+Intentionally destroy it. You can burn it, tear it, shred it, or throw it away.
+Ask someone to destroy it for you in your presence.
+Create a new one. Generally, a more recent will overrides any previous wills you’ve written. Be sure to include language stating explicitly that your new will is intended to revoke your prior will, and destroy all previous wills and codicils to avoid confusion.
+ 
+Change your will with a codicil
+If you’d like to make a few changes to your will, rather than revoking it altogether, you may consider writing a codicil. A codicil is a legal document that revises your existing will. To be legally effective, codicils must be executed and witnessed just like a will. In Texas, this means you must be of sound mind to make a codicil, and it must be signed by you and two witnesses.
+Estate attorneys generally don’t recommend creating a codicil. It can be difficult to keep track of multiple documents, and codicils could make it more difficult to determine the will-maker’s wishes. In most cases, it may be safer to simply create a new will.
+ 
+Probate in Texas
+Probate is the legal process of gathering the assets of a deceased person and distributing them to that person’s beneficiaries. During probate, your executor will be responsible for preparing an inventory of your estate’s assets and managing those assets until they can be distributed. A court typically oversees the process to resolve any questions and disputes that might arise, make sure your remaining debts are paid, and ensure that your property is passed on to the right people or organizations.
+Here’s a high-level overview of what happens during the probate process:
+Someone, usually your executor or a family member, files your will (if you had one). In Texas, they have four years from the date of death to file your will.
+The court validates your will.
+The court appoints a representative, or executor, to oversee your estate.
+Your executor identifies your assets and debts, and contacts your beneficiaries and creditors to notify them of your passing.
+Your executor pays any of your debts, usually with money from your estate.
+Your executor distributes assets to your beneficiaries, according to the wishes outlined in your will. If you didn’t have a will, your assets are distributed based on Texas’s intestate laws.
+ 
+Independent administration vs. court-supervised administration
+Texas’s probate process is known for being quick and simple due to a process called “independent administration.” Independent administration allows executors to take steps to settle the estate — like paying debts, selling property, and distributing assets — with minimal court supervision.
+Court-supervised administration is also an option, although less common. The probate court is more involved during a court-supervised administration. Its approval is required for more of the proposed actions the executor may wish to take. Although this process takes longer and can be more expensive than an independent administration, it may be useful if the estate is particularly complicated, or if the estate’s beneficiaries don’t get along. In your will, you can indicate which type of administration your estate will receive.
+ 
+Disinheriting an heir
+In Texas, you can use your will to disinherit an heir, like an adult child or grandchild. This means you can prevent them from having the legal right to your property after you die. However, this doesn’t apply to your spouse. In Texas (and many states), there are laws in place that protect spouses from being disinherited without their consent. You can read more about these laws in the community property section below.
+ 
+Is Texas a community property state?
+Yes, Texas is a community property state. Community property states consider almost all assets acquired by either spouse during their marriage to belong to both spouses equally. In community property states like Texas, the surviving spouse is entitled to at least half of any community property, even if the deceased spouse wrote something different in their will.
+To better understand Texas community property laws, it helps to understand the difference between personal and community property.
+ 
+Personal property
+Personal property is property that belongs to only one spouse. This can include:
+Any assets or debts you acquire before your marriage
+Any inheritance you receive during your marriage
+Any assets specified in a prenuptial or postnuptial agreement
+Personal property isn’t considered community property. This means you can use your will to leave it to anyone you want.
+ 
+Community property
+With few exceptions, any assets and debts that either you or your spouse acquire during your marriage are community property under Texas law. For example, this could be a vehicle your spouse purchased that has their name on the title, or the money you earned in your career during the years you were married. Each of you will have a one-half interest in each item of community property, and you will generally only be able to use your will to control who receives your one-half interest in that property — the other one-half interest remains the property of your spouse.
+Many people choose to leave the majority of their estate to their spouse, regardless of whether they live in a community property state. If you want to leave a significant portion of your estate to someone other than your spouse for any reason, you should consider working with an estate attorney to discuss your situation and create an estate plan to meet your needs.
+ 

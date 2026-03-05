@@ -1,0 +1,56 @@
+Set-up
+The deck is supplied partially disassembled and carefully packaged for safe transport. Carefully remove all
+parts from the transport packaging.
+Make sure the surface you wish to use the turntable on is level (use a spirit level) before placing the turntable on it.
+Fit the drive belt (22) around the platter (3) and the smaller diameter part of the motor pulley (2) for playback
+of 33 r.p.m. records. To reach 45 r.p.m. put the belt over the larger diameter part of the motor pulley. Avoid
+getting sweat or grease on the belt as these will deteriorate the performance and reduce the belt's lifespan. Use
+absorbent kitchen paper to remove any oil or grease from the outer edge of the platter and the belt.
+Fit the felt mat over the spindle of the platter (3). Remove the transport lock (66) from the tonearm tube.
+Store the transport lock in the original packaging so they are available for any future transportation.
+Cartridge downforce adjustment
+The counterweight (6) supplied is suitable for cartridges weighing between 3,5 - 5,5g (weight no. 00). An
+alternative counterweight for cartridges weighing between 6 - 9g (weight no. 01) is available as an accessory part.
+Pushing carefully, turn the counterweight (4) onto the rear end of the tonearm tube (7), so that the downforce
+scale (4a) shows towards the front of the player. Lower the armlift and position the cartridge in the space
+between arm rest and platter. Carefully rotate the counterweight (4) until the armtube balances out. The arm
+should return to the balanced position if it is moved up or down. This adjustment must be done carefully. Do
+not forget to remove the cartridge protection cap if fitted.
+Once the arm is correctly balanced return it to the rest (6). Hold the counterweight (4) without moving it, and
+gently revolve the downforce scale ring (4a) until the zero is in line with the anti-skating stub (8). Check whether
+the arm still balances out.
+Rotate the counterweight counter clockwise (seen from the front) to adjust the downforce according to the cartridge
+manufacturer's recommendations. One mark on the scale represents 1 mN (= 0,1g / 0,1 Pond) of downforce.
+Please note: Adjust the downforce prior to installing the anti-skating weight.
+The recommended downforce for the factory fitted cartridge Ortofon OM10 is 15mN.
+© Pro-Ject Audio Systems · Pro-Ject Essential III · Revision 2017.01.03 5
+Anti-skating force adjustment
+Hang the loop of the thread of the anti-skating weight in the groove of the anti-skating stub (8) corresponding
+to the downforce applied to your cartridge and feed the thread through the loop of the wire support (9).
+The anti-skating force must be adjusted corresponding to the downforce as follows:
+Downforce Groove in the stub (8)
+10 - 14mN 1st
+ from bearing rings
+15 - 19mN 2nd " " "
+20mN and bigger 3rd " " " 8
+Connection to the amplifier
+The record player has a captive tonearm signal lead (12) for connection to the amplifier. Use the Phono input
+(sometimes labelled gram, disc or RIAA) on your amplifier. Make sure that the phono input offers correct matching
+and amplification for the type of cartridge used. Line inputs (such as CD, Tuner, Tape or Video) are not suitable.
+Take care to connect the left and right channels correctly. The right channel is usually marked red, the left
+channel black or white. Check the manual supplied with your amplifier for relevant information. The earthing
+wire of the tonearm lead should be connected to the earth terminal on your amplifier (if provided).
+If your amplifier does not have an input suitable for phono cartridges you will require a separate phono
+amplifier stage for MM or MC cartridges which is then connected between the record player and a free line
+level input of the amplifier.
+For detailed product information regarding Pro-Ject Audio phono amplifiers please refer to the Pro-Ject web
+site www.project-audio.com.
+The recommended load impedance for the factory fitted cartridge is: 47kohms/MM-input
+Mains power connection
+The turntable is supplied with a power supply suitable for your country's mains supply. Check the label before
+connecting to ensure compliance with the mains rating in your house.
+ Connect the low voltage plug from the power supply to the socket (20) on the rear of the record
+player before connecting the power supply to the mains.
+Fitting the lid
+Fit the lid (dust cover) carefully over the hinge prongs and adjust the screws (14) until the lid stays open
+where you want it to without being too stiff to open or close.

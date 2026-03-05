@@ -1,0 +1,88 @@
+Tax Revenue versus Tax Rates: A Discussion of the Laffer Curve
+ Named for economist Arthur Laffer, the Laffer curve is one of the few macroeconomic
+ concepts with which the general public has at least a passing familiarity. However, it also is not
+ well understood even by many who reference it. Economist Hal Varian once noted, “It has been
+ said that the popularity of the Laffer curve is due to the fact that you can explain it to a
+ Congressman in six minutes and he can talk about it for six months.”
+ 1 This brief explains what
+ the Laffer curve is and its implications for economic policy.
+ In its most general form, the Laffer curve depicts the relationship between tax rates and
+ the revenue the government receives–that is, a single tax rate exists that maximizes the
+ amount of revenue the government obtains from taxation. Figure 1 below represents a
+ graphical depiction of a Laffer curve.
+ Figure 1. General form of a Laffer curve.
+ The vertical axis of Figure 1 depicts the tax rate as a percentage, while the horizontal axis
+ depicts revenues received in dollars. At both a tax rate of 0 percent and 100 percent total tax
+ revenues equal zero. Point E represents the tax rate at which total revenues are maximized.2
+ The horizontal line through point E that bisects the curve represents two ranges of tax rates in
+ terms of their relationship to revenues. Tax rates below this line indicate the normal range of
+ rates, in which an increase in the tax rate corresponds to an increase in total revenues. Tax
+ rates above this line correspond to the prohibitive range, in which an increase in tax rates
+ results in a decrease in total revenues. Thus, any tax rate other than the rate corresponding to
+ point E results in less revenue collected from the tax. Point E, notably, only represents the rate
+ at which total tax revenues are maximized, not the optimal tax rate in terms of the rate that
+ 
+
+ 1 Varian, H.R. (1989) “What Use is Economic Theory?” Available online at
+ http://people.ischool.berkeley.edu/~hal/Papers/theory.pdf. Accessed 1 May 2017.
+ 2 While point E in Figure 1 may appear to represent the midpoint between tax rates of 0 and 100 percent, it does
+ not necessarily indicate a tax rate of 50 percent maximizes total revenues.
+ [2]
+ creates the fewest distortions in the economy. The vertical line through the curve marked by
+ points A and B demonstrates how, because of the symmetric nature of the curve, two different
+ tax rates can result in the same amount of total revenue. Point A represents a relatively high tax
+ rate, slightly below 100 percent. Point B, conversely, represents a relatively low tax rate, slightly
+ above 0 percent. Yet as the vertical line indicates the total tax revenue collected under these
+ two rates is the same according to the Laffer curve. Points A and B, respectively, indicate that in
+ theory, a high rate on a relatively small tax base generates the same revenue as a low tax rate
+ on a relatively large tax base.
+ The general form of the Laffer curve in Figure 1 does not specify the type of tax rates the
+ government levies. While economists have studied numerous applications, the Laffer curve is
+ usually used to describe the behavior of individual income tax rates levied either by the federal
+ or a state government. In many analyses, economists use the Laffer curve to specifically refer to
+ marginal income tax rates–the rate of tax paid on an additional dollar of income.
+ Laffer describes the curve as illustrating two effects of tax rates on tax revenues.3 The first
+ effect is the arithmetic effect, the increase (decrease) in tax revenues that results from an
+ increase (decrease) in the tax rate. The second–and much more controversial–effect is the
+ economic effect, the increase (decrease) in tax revenues resulting from a decrease (increase) in
+ tax rates because of the incentives (disincentives) created to increase (decrease) work, output,
+ and employment. Essentially the economic effect of the Laffer curve holds that reducing tax
+ rates will motivate people to work more and produce more, leading to more revenue; raising
+ tax rates produces the opposite effect. Laffer notes that the two effects are always in the
+ opposite direction, so that the impact of a change in tax rates on revenues is not necessarily
+ immediately clear. In order for a decrease in tax rates to increase revenues, for example, the
+ rate must lie within the prohibitive range of tax rates as illustrated in Figure 1. In this range the
+ economic effect is positive and larger than the arithmetic effect.
+ Significantly, Laffer states that the curve “. . . does not say whether a tax cut will raise or lower
+ revenues.” He maintains that what happens to revenues as a result of a tax rate change
+ depends on a number of factors, such as “. . . the tax system in place, the time period being
+ considered, the ease of movement into underground activities, the level of tax rates already in
+ place,” and “the prevalence of legal and accounting-driven tax loopholes. . .” Thus, individuals
+ who argue the Laffer curve always holds that a tax cut leads to an increase in tax revenues–
+ whether for good or for ill–misrepresent what it hypothesizes.
+ The Laffer curve has been controversial throughout its forty-year-plus history. One of the chief
+ criticisms inflicted against it is determining where a current tax system lies on the curve; i.e.,
+ where the tax rate is in relation to point E in Figure 1. Some economists developed a formula
+ that uses income elasticities and other parameters to determine the rate at which point E
+ occurs. This formula finds that the rate equals around 70 percent.4 Other economists also
+ 
+
+ 3
+ Laffer, A.B. (2004) “The Laffer Curve: Past, Present, and Future.” Executive Summary Backgrounder No. 1765. The
+ Heritage Foundation.
+ 4 Matthews, D. (2010) “Where does the Laffer curve bend?” The Washington Post. 9 August. Available online at
+ http://voices.washingtonpost.com/ezra-klein/2010/08/where_does_the_laffer_curve_be.html. Accessed 2 May
+ 2017.
+ [3]
+ venture the rate corresponding to point E lies in the range of 70 percent; however, other
+ economists contend the rate is considerably lower. Another criticism of the Laffer curve is a
+ lack of empirical evidence. Arthur Laffer cites several instances in U.S. history and in other
+ countries as examples of “Laffer curve effects.” However, the inherent complexities of most
+ systems of taxation as well as other complicating factors make isolating the impacts of specific
+ rate changes difficult in practice. This situation leads to another criticism of the Laffer curve,
+ which is because it focuses on a single rate, it oversimplifies the analysis of tax rate changes.
+ In conclusion, the Laffer curve continues to influence policymakers at the state and national
+ level both in and outside of the U.S. It is an economic concept with ardent defenders and
+ equally ardent detractors. However, the Laffer curve’s most significant contribution may be
+ how it serves as a jumping off point for serious economic policy discussions involving the
+ structure of income tax systems and how individuals respond to these different structures.

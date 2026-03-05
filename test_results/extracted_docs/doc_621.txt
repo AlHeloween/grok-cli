@@ -1,0 +1,187 @@
+Introduction 
+ In May 2021, a group of hackers attacked a VPN that required only a single authentication password and gained access to the organizational network. They then demanded $4.4 million in ransom to return control of the network. In response, the company shut down its operations, which led to a fuel shortage across the east coast of the United States. The Colonial Pipeline ransomware attack was underway, and the cybersecurity industry would never be the same.
+ 
+
+ Ransomware attacks have grown increasingly common (and expensive) in recent years, but organizations like yours are not doomed to become victims.
+ 
+
+ Zero trust is a modern and innovative security model designed to severely limit the damage that ransomware and other cyberattacks can cause.
+ By never inherently trusting users or devices and instead continuously verifying them before granting access, the zero trust framework:
+ 
+
+ Prevents attackers from gaining easy access to critical applications
+ 
+
+ And severely curtails their ability to cause damage if they do get in.
+ 
+
+ In this white paper, we will examine what zero trust is and outline how to implement zero trust access in order to prevent costly and damaging ransomware attacks.
+ 
+
+ Topics that we'll cover include:
+ 
+
+ Zero Trust and Ransomware
+ 
+
+ The current state of ransomware attacks
+ 
+
+ What is Zero Trust
+ 
+
+ Introducing Zero Trust to the Organization
+ 
+
+ How Zero Trust mitigates ransomware attacks
+ 
+
+ Securing the organization with zero trust
+ 
+
+ ZTNA vs. VPNs
+ 
+
+ Choosing a ZTNA provider
+ 
+
+ Implementing Zero Trust in the Organization
+ 
+
+ A phased approach to Zero Trust adoption
+ 
+
+ Zero Trust and Ransomware
+ Ransomware Attacks: A Costly and Worrying Reality
+ In 2021, the number of ransomware attacks significantly increased compared to 2020, which itself saw a 150% ransomware increase compared to 2019. The number of attacks is expected to grow even more in 2022.
+ 
+
+ Every month, hundreds of thousands of ransomware attacks will take place, targeting enterprises, businesses and people.
+ 
+
+ Between 2019 and 2020, the amount paid by ransomware victims rose by 300%.
+ The actual ransom demands made by attackers have also grown in recent years. Between 2019 and 2020, the amount paid by victims rose by 300%. In the first six months of 2021, ransomware payments reported by banks and other financial institutions totaled $590 million. 2021 also saw the largest ransomware demands ever per attack, with attackers demanding tens of millions of dollars following a single breach.
+ 
+
+ It is clear that existing security controls, designed largely for yesterday’s legacy systems, are no longer sufficient in a world of global networks and complex cloud architectures. To prevent ransomware attacks, a new forward-looking approach is needed: zero trust.
+ 
+
+ It is clear that existing security controls, designed largely for yesterday’s legacy systems, are no longer sufficient in a world of global networks and complex cloud architectures.
+ 
+
+ To prevent ransomware attacks, a new forward-looking approach is needed: Zero trust.
+ 
+
+ What is Zero Trust?
+ Zero trust is a modern security architecture and model that can help mitigate ransomware attacks.
+ 
+
+ Zero trust is based on the premise “Never trust, always verify,” which means that no user or machine is granted access (trust) until they are authorized.
+ 
+
+ The three main principles of Zero Trust are:
+ 
+
+ How Does Zero Trust Work?
+ Zero trust is founded on the principle that no person or device should be granted system access based on inherent trust.
+ 
+
+ Instead, zero trust assumes that the network has already been compromised. Therefore, no user or device can access systems or assets without first being authorized via strong authentication methods like MFA (multi-factor authentication).
+ 
+
+ As an added security measure, users are continuously verified even after their initial authorization.
+ 
+
+ How Zero Trust Helps Mitigate Ransomware
+ Ransomware perpetrators attack networks and critical applications and threaten to leak or destroy valuable data unless a hefty ransom is paid. Zero trust access policies prevent the spread of ransomware.
+ 
+
+ When zero trust is implemented:
+ 
+
+ Ransomware attackers are blocked from accessing critical applications.
+ 
+
+ Ransomware attackers are prevented from moving laterally, mitigating their ability to access and leak data.
+ 
+
+ Ransomware attackers cannot see the different system components, target them and gain a foothold.see
+ 
+
+ Auditing and recording capabilities help detect breaches and prevent further damage.
+ 
+
+ The network is hidden, preventing attack methods like IP scanning.
+ 
+
+ Potentially vulnerable VPNs are enhanced by adding an extra layer of security.
+ 
+
+ Introducing Zero Trust to the Organization
+ Securing the Organization with Zero Trust
+ To operationally execute zero trust, it’s important to implement a technology that can secure the following domains:
+ 
+
+ Data
+ 
+
+ People
+ 
+
+ Devices
+ 
+
+ Networks
+ 
+
+ Workloads
+ 
+
+ The zero trust technology used to secure these domains is called ZTNA (zero trust network access).
+ 
+
+ ZTNA is a software perimeter that applies the zero trust principles when authorizing users and services.
+ 
+
+ ZTNA vs. VPNs
+ Many organizations use VPNs to secure their critical applications, especially when providing access for remote users and third parties like partners and contractors.
+ 
+
+ However, VPNs are not secure. First, VPNs provide external users with too much access. Any authenticated user has access to the entire network, including databases and infrastructure. In addition, VPNs providers often have major security vulnerabilities - as recent security incidents such as the Solar Winds cyberattack have demonstrated.
+ 
+
+ Choosing a ZTNA Provider
+ The zero trust tenet of “never trust, always verify” also relates to the vendors that provide zero trust access solutions.
+ 
+
+ Quite paradoxically, most ZTNA providers actually demand inherent trust from their customers by requiring those customers to place their most sensitive assets, including encrypted content, passwords, and user data, in the provider’s cloud.
+ 
+
+ Think of a parking valet, who holds the keys to all the cars in the lot. Rather than attacking individual car owners, a thief’s best bet would clearly be to attack the valet with his many keys.
+ 
+
+ In this same way, security vendors are a tempting target for cybercriminals. This includes ZTNA providers who have access to the crown jewels of all their customers. In light of this reality, it is recommended to choose a ZTNA vendor whose architecture cannot potentially compromise your organization.
+ 
+
+ Ask these 7 questions when selecting a ZTNA provider to ensure you don’t have to trust anyone – even the provider themselves:
+ 
+
+ Is the users’ data exposed?
+ 
+
+ Who has control of the access rules?
+ 
+
+ Where are our secrets (passwords, tokens, private keys) kept?
+ 
+
+ How is the risk of internal threats mitigated?
+ 
+
+ What is the scope of secure access? Does it include users, networks, apps, etc.?
+ 
+
+ What is the ZTNA provider’s infrastructure? Are the servers located in the cloud or in a data center? Who can access it?
+ 
+
+ What happens if the ZTNA

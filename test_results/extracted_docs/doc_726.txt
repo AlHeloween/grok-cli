@@ -1,0 +1,121 @@
+Chapter 4: Batteries for Grid Applications
+Overview
+Batteries are devices that store energy chemically. This report focuses on “secondary” batteries,
+which must be charged before use and which can be discharged and recharged (cycled) many
+times before the end of their useful life. For electric power grid applications, there are four main
+battery types of interest:
+ Lead-acid
+ High temperature “sodium-beta”
+ Liquid electrolyte “flow” batteries
+ Other emerging chemistries84
+Lead-acid batteries have been used for more than a century in grid applications and in
+conventional vehicles for starting, lighting, and ignition (SLI). They continue to be the
+technology of choice for vehicle SLI applications due to their low cost. Consequently, they are
+manufactured on a mass scale. In 2010, approximately 120 million lead-acid batteries were
+shipped in North America alone.85 Lead-acid batteries are commonly used by utilities to serve as
+uninterruptible power supplies in substations, and have been used at utility scale in several
+demonstration projects to provide grid support.86 Use of lead acid batteries for grid applications is
+limited by relatively short cycle life. R&D efforts are focused on improved cycle-life, which
+could result in greater use in utility-scale applications.
+Sodium-beta batteries include sodium-sulfur (NaS) units, first developed in the 1960s,87 and
+commercially available from a single vendor (NGK Insulators, Ltd.) in Japan with over 270 MW
+deployed worldwide.88 A NaS battery was first deployed in the United States in 2002.
+89 There are
+now a number of U.S. demonstration projects, including several listed in Table 3. The focus of
+NaS deployments in the United States has been in electric distribution deferral projects, acting to
+reduce peak demand on distribution systems, but they also can serve multiple grid support
+services. An alternative high-temperature battery, sodium-nickel-chloride, is in the early stages of commercialization.
+
+“Flow” batteries, in which a liquid electrolyte flows through a chemical cell to produce
+electricity, are in the early stages of commercialization. In grid applications there has been some
+deployment of two types of flow battery: vanadium redox and zinc-bromide. There are a number
+of international installations of vanadium redox units, including a 250 kW installation in the
+United States to relieve a congested transmission line.
+91 There are also a number of zinc-bromine
+demonstration projects.92 Several other flow battery chemistries have been pursued or are under
+development, but are less mature.
+In addition to the three battery types discussed above, there are several emerging technologies
+based on new battery chemistries which may also have potential in grid applications. Several of
+these emerging technologies are being supported by DOE efforts such as ARPA-E and are
+discussed briefly in the R&D section of this chapter.
+
+Technology
+Description and Performance
+Lead-Acid
+The lead-acid battery consists of a lead dioxide positive electrode (cathode), a lead negative
+electrode (anode), and an aqueous sulfuric acid electrolyte which carries the charge between the
+two. During discharge, each electrode is converted to lead sulfate, consuming sulfuric acid from
+the electrolyte. When recharging, the lead sulfate is converted back to sulfuric acid, leaving a layer of lead dioxide on the cathode and pure lead on the anode. In such conventional “wet”
+(flooded) cells, water in the electrolyte is broken down to hydrogen and oxygen during the
+charging process. In a vented wet cell design, these gases escape into the atmosphere, requiring
+the occasional addition of water to the system. In sealed wet cell designs, the loss of these gases is
+prevented and their conversion back to water is possible, reducing maintenance requirements.
+However, if the battery is overcharged or charged too quickly, the rate of gas generation can
+surpass that of water recombination, which can cause an explosion.
+In “valve regulated gel” designs, silica is added to the electrolyte to cause it to gel. In “absorbed
+glass mat” designs, the electrolyte is suspended in a fiberglass mat. The latter are sometimes
+referred to as “dry” because the fiberglass mat is not completely saturated with acid and there is
+no excess liquid. Both designs operate under slight constant pressure. Both also eliminate the risk
+of electrolyte leakage and offer improved safety by using valves to regulate internal pressure due
+to gas build up, but at significantly higher cost than wet cells described above.93
+Lead-acid is currently the lowest-cost battery chemistry on a dollar-per-kWh basis. However, it
+also has relatively low specific energy (energy per unit mass) on the order of 35 Wh/kg and
+relatively poor “cycle life,” which is the number of charge-discharge cycles it can provide before
+its capacity falls too far below a certain percentage (e.g., 80%) of its initial capacity. While the
+low energy density of lead-acid will likely limit its use in transportation applications, increase in
+cycle life could make lead-acid cost-effective in grid applications.
+The cycle life of lead-acid batteries is highly dependent on both the rate and depth of discharge
+due to corrosion and material shedding off of electrode plates inside the battery. High depth of
+discharge (DoD) operation intensifies both issues. At 100% DoD (discharging the battery
+completely) cycle life can be less than 100 full cycles for some lead-acid technologies. During
+high rate, partial state-of-charge operation, lead sulfate accumulation on the anode can be the
+primary cause of degradation. These processes are also sensitive to high temperature, where the
+rule of thumb is to reduce battery life by half for every 8°C (14°F) increase in temperature above
+ambient.
+94 Manufacturers’ warrantees provide some indication of minimum performance
+expectations, with service life of three to five years for deep cycle batteries, designed to be mostly
+discharged time after time. SLI batteries in cars have expected service lives of five to seven years,
+with up to 30 discharges per year depending on the rate of discharge. Temperature also affects
+capacity, with a battery at -4°C (25°F) having between roughly 70% and 80% of the capacity of a
+battery at 24°C (75°F).95
+For many applications of lead-acid batteries, including SLI and uninterruptible power supply
+(UPS), efficiency of the batteries is relatively unimportant. One estimate for the DC-DC (direct
+current) efficiency of utility-scale lead acid battery is 81%, and AC-AC (alternating current)
+efficiency of 70%-72%.9
+
+High Temperature Sodium-Beta
+Sodium-beta batteries use molten (liquid) sodium for the anode, with sodium ions transporting the
+electric charge. The two main types of sodium-beta batteries are distinguished by the type of
+cathode they use. The sodium-sulfur (Na-S) type employs a liquid sulfur cathode, while the sodium-nickel chloride (Na-NiCl2) type employs a solid metal chloride cathode. Both types
+include a beta-alumina solid electrolyte material separating the cathode and anode. This ceramic
+material offers ionic conductivity similar to that of typical aqueous electrolytes, but only at high
+temperature. Consequently, sodium-beta batteries ordinarily must operate at temperatures around
+300°C (572°F).
+97 The impermeability of the solid electrolyte to liquid electrodes and its minimal
+electrical conductivity eliminates self discharge and allows high efficiency.98
+Technical challenges associated with sodium-beta battery chemistry generally stem from the high
+temperature requirements. To maintain a 300°C operating point the battery must have insulation
+and active heating. If it is not maintained at such a temperature, the resulting freeze-thaw cycles
+and thermal expansion can lead to mechanical stresses, damaging seals and other cell
+components, including the electrolyte.
+99 The fragile nature of the electrolyte is also a concern,
+particularly for Na-S cells. In the event of damage to the solid electrolyte, a breach could allow
+the two liquid electrodes to mix, possibly causing an explosion and fire.
+100
+Na-S batteries are manufactured commercially for a variety of grid services ranging from shortterm rapid discharge services to long-term energy management services.101 The DC-DC efficiency
+is about 85%. Calculation of the AC-AC efficiency is complicated by the need for additional
+heating. The standby heat loss for each 50 kW module is between 2.2 and 3.4 kW. As a result of
+this heat loss, plus losses in the power conversion equipment, the AC-AC efficiency for loadleveling services is estimated in the range of 75%-80%.102 Expected service life is 15 years at
+90% DoD and 4500 cycles.103
+The primary sodium-beta alternative to the Na-S chemistry, the Na-NiCl2 cell (typically called
+the ZEBRA cell).104 Although ZEBRA batteries have been under development for over 20 years,
+they are only in the early stages of commercialization.
+105 Nickel chloride cathodes offer several
+potential advantages including higher operating voltage, increased operational temperature range
+(due in part to the lower melting point of the secondary electrolyte), a slightly less corrosive
+cathode, and somewhat safer cell construction, since handling of metallic sodium—which is
+potentially explosive—can be avoided.
+106 They are likely to offer a slightly reduced energy
+density.107
+
+

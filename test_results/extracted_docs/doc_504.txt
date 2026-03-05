@@ -1,0 +1,350 @@
+﻿Articles © The authors   |   Journal compilation © J Clin Gynecol Obstet and Elmer Press Inc™   |   www.jcgo.org
+This article is distributed under the terms of the Creative Commons Attribution Non-Commercial 4.0 International License, which permits 
+unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited
+23
+Review
+J Clin Gynecol Obstet. 2022;11(2):23-26
+Recurrent First Trimester Miscarriage: A Typical  
+Case Presentation and Evidence-Based  
+Management Review
+Vikram Talaulikar
+Abstract
+Recurrent miscarriage (RM), also known as recurrent pregnancy loss, 
+is a distressing condition which affects about 1% of couples trying 
+to achieve a pregnancy. It can be challenging for both patients and 
+clinicians as the cause remains unexplained in at least 50% of cou-
+ples despite multiple investigations. A systematic and evidence-based 
+approach  to  testing  and  management  is  important  to  avoid  tests  or 
+treatments which are unnecessary or of unproven benefit. Access to 
+specialist RM clinic services and psychological support forms a key 
+part of the management of couples with RM.
+Keywords: Recurrent miscarriage; Treatment; Progesterone
+Introduction
+It is estimated that up to one in four natural pregnancies end 
+up in a miscarriage which is defined as loss of pregnancy prior 
+to  viability  (24  weeks’  gestation)  [1].  Recurrent  miscarriage 
+(RM) is traditionally defined in the United Kingdom (UK) as 
+three or more consecutive miscarriages and it can affect about 
+1% of couples trying for a pregnancy [2]. The definition of RM 
+varies between countries with some clinical guidelines recom-
+mending investigations and treatment following two or more 
+miscarriages.
+The  Royal  College  of  Obstetricians  and  Gynecologists 
+(RCOG)  has  issued  guidance  on  management  of  RM  in  the 
+UK [2]. An updated version of this guideline is currently under 
+consultation and will be released shortly.
+This  article  describes  an  illustrative  typical  clinical  sce-
+nario related to RM and reviews the current best practice rec-
+ommendations for management of RM.
+Clinical Case
+The patient, 37 years old, has attended her general practition-
+er’s clinic following a recent pregnancy loss. She and her part-
+ner have been trying for a pregnancy for past 18 months but
+ 
+have suffered from three miscarriages between 6 and 8 weeks’
+ 
+gestation.  Her  last  miscarriage  happened  2  months  ago,  and
+ 
+she  has  resumed  her  periods  2  weeks  back. All  the  miscar-
+riages were managed conservatively without any medical or
+ 
+surgical interventions. She has regular menstrual cycles (25 -
+ 
+26 days long) and does not report any dysmenorrhea or menor-
+rhagia. She is upset about the pregnancy losses, wondering if
+ 
+it was her fault and whether something can be done in the next
+ 
+pregnancy to change the outcome.
+History
+Consultations referring to RM should be performed in a sensi-
+tive manner. When discussing previous miscarriages, it is im-
+portant to enquire about the gestation at which pregnancy loss
+ 
+occurred. Pregnancy loss before 9 - 10 weeks usually (but not
+ 
+always) indicates a pre-placental cause, which may be either
+ 
+fetal (chromosomal) or endometrial (implantation disorder) in
+ 
+origin while that after this gestation could indicate problems
+ 
+such as thrombophilia, placental disorders, or problems with
+ 
+uterine structure. History of pregnancy loss after 12 weeks as-
+sociated with painless cervical dilatation and rupture of mem-
+branes suggests cervical weakness.
+Information should be obtained about how the previous
+ 
+miscarriages were managed: was the miscarriage completed
+ 
+naturally or whether medical or surgical management was
+ 
+required?  Any  possibility  of  uterine  infection  following
+ 
+miscarriage should be explored. Changes in the menstrual
+ 
+flow  (hypomenorrhea)  following  possible  infection  of  re-
+tained products of conception or uterine curettage could in-
+dicate the possibility of intrauterine adhesions. History of
+ 
+excess alcohol consumption or smoking should be obtained
+ 
+to offer advice on reducing risk of future miscarriage. Medi-
+cal  and  relevant  family  history  should  be  obtained  as  un-
+controlled  maternal  medical  conditions  such  as  diabetes,
+ 
+thyroid or rheumatological disorders can impact the risk of
+ 
+miscarriage  in  future  pregnancies. All  miscarriages  which
+ 
+the  patient  suffered  from  happened  before  8  weeks  gesta-
+Manuscript submitted February 11, 2022, accepted March 29, 2022
+Published online April 12, 2022
+University College London Hospital, London NW1 2BU, UK. 
+Email: vikram.talaulikar@nhs.net
+doi: https://doi.org/10.14740/jcgo797
+24                                    Articles © The authors   |   Journal compilation © J Clin Gynecol Obstet and Elmer Press Inc™   |   www.jcgo.org
+Management of Recurrent Miscarriage
+J Clin Gynecol Obstet. 2022;11(2):23-26
+tion  and  she  bled  naturally  on  all  occasions  suggesting  a 
+likely pre-placental fetal or endometrial cause for her preg-
+nancy loss.
+Examination
+On examination, patient’s body mass index (BMI) was within 
+a normal range (23). Pelvic or speculum examination, guided 
+by clinical history, can be useful as part of initial assessment 
+especially if the woman has presented with irregular bleeding 
+or  abnormal  vaginal  discharge  in  which  case  cervix  should 
+be visualized to rule out other gynecological pathology such 
+as ectropion/polyp and triple swabs should be obtained. The 
+patient did not report any changes to her menstrual cycles or 
+abnormal discharge following miscarriage.
+Risk factors and investigations
+The patient and her partner should be referred to and cared for 
+in a dedicated RM clinic [2]. Psychological support and com-
+munication in a sensitive manner are extremely important. A 
+discussion about potential risk factors for future miscarriage 
+and testing should cover the following.
+Age
+Increasing female age increases the chances of a genetically 
+abnormal  pregnancy  as  the  number  and  quality  of  oocytes 
+decrease [1]. Women between 20 and 35 years old have the 
+lowest risk of miscarriage while women above the age of 40 
+years  have  at  least  a  50%  chance  of  miscarriage  with  every 
+pregnancy [3, 4].
+BMI
+High BMI (> 30) increases the risk of miscarriage [5].
+Other risk factors
+Other risk factors include previous miscarriages, smoking and 
+excess alcohol consumption.
+The patient is 37 years old and has already had three mis-
+carriages which increase her risk of future miscarriage to about
+ 
+40% [6].
+Causes of RM investigations
+The patient should be offered investigations for the causes of
+ 
+RM as listed in Table 1.
+Antiphospholipid syndrome (APS)
+This  is  an  acquired  thrombophilia  which  affects  15%  of
+ 
+women with RM [2] and is diagnosed based on high levels
+ 
+of anticardiolipin antibodies and/or lupus anticoagulant along
+ 
+with evidence of adverse pregnancy outcomes (RM before 10
+ 
+weeks or loss of one genetically normal pregnancy after 10
+ 
+weeks or one or more preterm births before 34 weeks due to
+ 
+placental dysfunction) or unprovoked thrombosis. APS causes
+ 
+inhibition of trophoblast function, activation of complement
+ 
+system  and  thrombosis  at  the  uteroplacental  interface  and
+ 
+is  treated  with  a  combination  of  aspirin  and  low  molecular
+ 
+weight  heparin  in  pregnancy  [1].  Inherited  thrombophilias
+ 
+such  as  factor  V  Leiden  mutation,  prothrombin  mutation,
+ 
+protein C, protein S and antithrombin III deficiency have an
+ 
+uncertain role in first trimester RM and currently such tests
+ 
+should only be offered in the context of research. The patient
+ 
+had a negative APS screen.
+Genetic
+Parental   balanced   structural   chromosomal   anomalies   can
+ 
+cause RM (2-5% of couples with RM). The risk of miscar-
+riage is influenced by the size and the genetic content of the
+ 
+rearranged chromosomal segments. Karyotyping of products
+ 
+of conception should be offered at the time of any future mis-
+carriage  and  parental  karyotyping  should  follow  if  analysis
+ 
+of products of conception indicates that a genetic abnormal-
+ity  may  have  resulted  from  an  unbalanced  translocation  [2,
+ 
+3].  Parental  karyotyping  is  not  recommended  routinely  due
+ 
+to low incidence of translocations and relatively high cost as-
+sociated with testing.
+Table 1.  Causes and Relevant Investigations for Recurrent First Trimester Miscarriage
+Cause                                                                      Test
+Genetic-balanced chromosomal translocations      Karyotyping of products of conception (if abnormal result detected - parental karyotyping)
+Antiphospholipid syndrome                                    Blood test for anticardiolipin antibodies and/or lupus anticoagulant (blood tests should 
+be performed at least 6 weeks after any pregnancy loss and a repeat confirmatory 
+test should be arranged at least 12 weeks after an initial positive screen)
+Endocrine (if evidence of clinical disorder 
+or risk factors): thyroid, diabetes
+Thyroid function test (serum free T4 and thyroid-stimulating 
+hormone levels); thyroid peroxidase antibodies; HbA1c
+Uterine abnormalities such as septate 
+uterus or intracavitary lesions
+Transvaginal ultrasound scan
+Articles © The authors   |   Journal compilation © J Clin Gynecol Obstet and Elmer Press Inc™   |   www.jcgo.org                                              25
+Talaulikar
+J Clin Gynecol Obstet. 2022;11(2):23-26
+Endocrine
+If  there  is  clinical  evidence  of  poorly  controlled  diabetes  or 
+thyroid  dysfunction,  appropriate  blood  tests  should  be  per-
+formed [2]. The patient did not have any symptoms or signs 
+suggestive of endocrine problems and had had a thyroid hor-
+mone profile at the time of her last miscarriage which revealed 
+normal results.
+Uterine abnormalities
+Uterine abnormalities such as septate uterus or any other uter-
+ine cavity pathology such as intrauterine adhesions (especially 
+following an episode of uterine instrumentation and infection), 
+submucous fibroids or polyps should be ruled out by offering 
+a pelvic ultrasound as these may be amenable to treatment by 
+surgery (hysteroscopy +/- laparoscopy) [2, 7].
+The patient was offered a transvaginal scan which showed 
+a regular uterine cavity.
+The  evidence  regarding  the  effects  of  male  partners  on 
+RM is weak and no specific testing can be recommended as 
+part of investigations [1].
+Advice
+Lifestyle advice should always be offered to couples with RM. 
+The patient should be advised to maintain a normal BMI, avoid 
+excess alcohol/smoking, and take pre-conception folic acid [2, 3].
+Currently, there is lack of evidence that preimplantation 
+genetic testing for aneuploidy screening (PGT-A) is superior 
+to expectant management in RM patients [3]. If chromosomal 
+translocation was identified at the time of future miscarriage, 
+genetic  counselling  should  be  offered  to  the  patient.  Repro-
+ductive options following genetic counselling would include 
+proceeding  to  a  further  natural  pregnancy  with  or  without  a 
+prenatal diagnosis test, gamete donation and adoption [2].
+As in this case, despite thorough investigations, no clear 
+underlying  pathology  is  identifiable  in  at  least  50%  of  cou-
+ples with RM (often labelled as “unexplained RM”) [7, 8]. The 
+couple  should  be  reassured  about  good  prognosis  for  a  live 
+birth in future pregnancies and offered supportive care in dedi-
+cated  early  pregnancy  unit.  Many  RM  units  offer  empirical 
+treatment with low dose oral aspirin (75 mg daily) and vaginal 
+natural progesterone (400 mg once/twice daily) from positive 
+pregnancy  test  until  12  -  14  weeks  of  pregnancy  on  a  “low 
+harm, possible benefit” basis for unexplained RM. The use of 
+aspirin is not recommended in current clinical guidelines due 
+to debate over its clinical effectiveness.
+Based  on  the  evidence  so  far,  it  appears  that  the  use  of 
+progesterone supplements is beneficial particularly in women 
+with previous miscarriages who bleed in early pregnancy [9, 
+10]. The patient conceived again 5 months following her third 
+miscarriage and had a successful pregnancy and live birth. She 
+was prescribed vaginal progesterone pessaries from 7 weeks 
+until 14 weeks of pregnancy following one episode of vaginal 
+bleeding.
+Conclusions
+Couples with RM should be offered psychological support and
+ 
+be referred to a dedicated RM service for investigations. Most
+ 
+couples will have no identifiable pathology, and in such cases,
+ 
+there is good prognosis for future successful pregnancy.
+Learning points
+RM affects about 1% of couples trying for a pregnancy and
+ 
+no clear underlying pathology is identifiable despite investiga-
+tions in at least 50% of couples.
+Refer couples with RM to a dedicated RM service for in-
+vestigations and plan for future pregnancies.
+Offer psychological support and reassure couples with no
+ 
+identifiable pathology about good prognosis for future preg-
+nancy without pharmacological intervention.
+Acknowledgments
+None to declare.
+Financial Disclosure
+No funding was received for preparation of this manuscript.
+Conflict of Interest
+There is no conflict of interest to declare.
+Author Contributions
+VT wrote and finalized the manuscript.
+Data Availability
+The author declares that data supporting the findings of this
+ 
+study are available within the article.
+References
+1.     Shields R, Hawkes A, Quenby S. Clinical approach to
+ 
+recurrent  pregnancy  loss.  Review,  Obstetrics,  Gynae-
+cology  and  Reproductive  Medicine.  2020:30(11):331-
+336.
+2.     The investigation and treatment of couples with recurrent
+ 
+first  trimester  and  second-trimester  miscarriage.  2011.
+ 
+Green-top Guideline No. 17 April. https://www.rcog.org.
+uk/globalassets/documents/guidelines/gtg_17.pdf.
+3.     Homer  HA.  Modern  management  of  recurrent  miscar-
+26                                    Articles © The authors   |   Journal compilation © J Clin Gynecol Obstet and Elmer Press Inc™   |   www.jcgo.org
+Management of Recurrent Miscarriage
+J Clin Gynecol Obstet. 2022;11(2):23-26
+riage. Aust N Z J Obstet Gynaecol. 2019;59(1):36-44.
+4. 
+Nybo Andersen AM, Wohlfahrt J, Christens P, Olsen J, 
+Melbye M. Maternal age and fetal loss: population based 
+register linkage study. BMJ. 2000;320(7251):1708-1712.
+5. 
+Boots C, Stephenson MD. Does obesity increase the risk 
+of  miscarriage  in  spontaneous  conception:  a  systematic 
+review. Semin Reprod Med. 2011;29(6):507-513.
+6. 
+Regan L, Braude PR, Trembath PL. Influence of past re-
+productive performance on risk of spontaneous abortion. 
+BMJ. 1989;299(6698):541-545.
+7. 
+Jaslow  CR,  Carney  JL,  Kutteh WH.  Diagnostic  factors 
+identified in 1020 women with two versus three or more 
+recurrent pregnancy losses. Fertil Steril. 2010;93(4):1234-
+1243.
+8. 
+Stirrat    GM.    Recurrent    miscarriage.    Lancet.    1990;
+ 
+336(8716):673-675.
+9. 
+Coomarasamy A, Devall AJ, Cheed V, Harb H, Middleton
+ 
+LJ, Gallos ID, Williams H, et al. A randomized trial of
+ 
+progesterone in women with bleeding in early pregnancy.
+ 
+N Engl J Med. 2019;380(19):1815-1824.
+10. 
+Coomarasamy A, Williams H, Truchanowicz E, Seed PT,
+ 
+Small  R,  Quenby  S,  Gupta  P,  et  al. A  randomized  trial
+ 
+of  progesterone  in  women  with  recurrent  miscarriages.
+ 
+N Engl J Med. 2015;373(22):2141-2148.

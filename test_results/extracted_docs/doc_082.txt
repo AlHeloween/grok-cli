@@ -1,0 +1,57 @@
+WEB PAGES
+Web pages are what make up the World Wide Web. These documents are written in
+HTML (Hypertext Markup Language) and are translated by your Web browser. Web pages can
+either be static or dynamic. Static pages show the same content each time they are viewed.
+Dynamic pages have content that can change each time they are accessed. These pages are
+typically written in scripting languages such as PHP, Perl, ASP, or JSP. The scripts in the pages
+run functions on the server that return things like the date and time, and database information.
+All the information is returned as HTML code, so when the page gets to your browser, all the
+browser has to do is translate the HTML.
+Electronic (digital) document created with HTML and, therefore, accessible with a
+browser. In addition to text and graphics, web pages may also contain downloadable data files,
+audio and video files, and hyperlinks to other pages or sites. A website is usually a collection of
+web pages. A web page is a document that's created in html that shows up on the internet when
+you type in or go to the web page's address.
+Web Page
+A web page is a document commonly written in HyperText Markup Language (HTML)
+that is accessible through the Internet or other network using a browser. A web page is accessed
+by entering a URL address and may contain text, graphics, and hyperlinks to other web pages
+and files.
+Web pages are created using HTML which stands for HyperText Markup Language. All
+web pages, whether big or small, have to be developed in HTML to be displayed in web
+browsers. HTML, contrary to its name, is not a language. Rather, it consists of tags that specify
+the purpose of what they enclose. For instance, by surrounding a block of text on a web page
+with the <p> tag (the paragraph tag) tells the browser that all that text is to be placed as
+paragraph or using the <em> around a phrase will give emphasis to it.
+7
+Types of Web Pages
+Advocacy Web pages established for political candidates, called “e-campaigning,” has
+become an important part of politics. Surveys show that more than 50 percent of Internet users
+turn to the Web for information about political topics.
+Business/marketing Web pages used for shopping on the Internet are increasingly
+popular. In 1999, 17 million households shopped online. This figure is expected to grow to 49
+million by 2004. A survey of back-to-school shoppers 34 years old and younger showed that 17
+percent planned to shop online for their children’s school needs. Perhaps more significant, only 6
+percent of surveyed shoppers reported being uncomfortable with buying on the Internet.
+Educational institutions frequently publish informational Web pages. Today, most colleges have
+web sites that offer course descriptions, information about the student population, and
+registration costs and deadlines. When shopping for college, surveys show that high school
+seniors use the Web more than catalogs or guidebooks; about 80 percent of college-bound
+students start looking at college Web sites as sophomores.
+News Web pages are the most popular Web sites among Americans with access to the
+Internet. Although these Web sites often are associated with newspapers, magazines, television
+stations, or radio stations, some are published only online, without a related print or broadcast
+media.
+Portal Web pages often offer the following free services: search engine, news, sports and
+weather, free personal Web pages, reference tools, shopping malls, e-mail, instant messaging,
+newsgroups, and chat rooms. The dictionary defines a “portal” as a door or gateway. Portal Web
+pages are gateways to a host of services.
+INTERNET CHAT
+On the Internet, chatting is talking to other people who are using the Internet at the same
+time you are. Usually, this "talking" is the exchange of typed-in messages requiring one site as
+the repository for the messages (or "chat site") and a group of users who take part from anywhere
+on the Internet.
+In some cases, a private chat can be arranged between two parties who meet initially in a
+group chat. Chats can be ongoing or scheduled for a particular time and duration. Most chats are
+focused on a particular topic of interest and some involve guest experts or famous people who
+"talk" to anyone joining the chat.

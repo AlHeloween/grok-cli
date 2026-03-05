@@ -1,0 +1,76 @@
+Recent advances in generative AI systems, which are trained on large volumes of data to generate new
+content that may mimic likenesses, voices, or other aspects of real people’s identities, have stimulated
+congressional interest. Like the above-noted uses of AI to imitate Tom Hanks and George Carlin, the
+examples below illustrate that some AI uses raise concerns under both ROP laws and myriad other laws.
+One example of AI’s capability to imitate voices was an AI-generated song called “Heart on My Sleeve,”
+which sounded like it was sung by the artist Drake and was heard by millions of listeners in 2023.
+Simulating an artist’s voice in this manner could make one liable under ROP laws, although these laws
+Congressional Research Service 4
+differ as to whether they cover voice imitations or vocal styles as opposed to the artist’s actual voice.
+Voice imitations are not, however, prohibited by copyright laws. For example, the alleged copyright
+violation that caused YouTube to remove “Heart on My Sleeve”—namely, that it sampled another
+recording without permission—was unrelated to the Drake voice imitation. In August 2023, Google and
+Universal Music were in discussions to license artists’ melodies and voices for AI-generated songs.
+The potential for AI to replicate both voices and likenesses was also a point of contention in last year’s
+negotiations for a collective bargaining agreement between the Screen Actors Guild-American Federation
+of Television and Radio Artists (SAG-AFTRA)—a union that represents movie, television, and radio
+actors—and television and movie studios, including streaming services. SAG-AFTRA expressed concern
+that AI could be used to alter or replace actors’ performances without their permission, such as by using
+real film recordings to train AI to create “digital replicas” of actors and voice actors. The Memorandum of
+Agreement between SAG-AFTRA and studios approved in December 2023 requires studios to obtain
+“clear and conspicuous” consent from an actor or background actor to create or use a digital replica of the
+actor or to digitally alter the actor’s performance, with certain exceptions. It also requires that the actor’s
+consent for use of a digital replica or digital alterations be based on a “reasonably specific description” of
+the intended use or alteration. The agreement provides that consent continues after the actor’s death
+unless “explicitly limited,” while consent for additional postmortem uses must be obtained from the
+actor’s authorized representative or—if a representative cannot be identified or located—from the union.
+In January 2024, SAG-AFTRA announced it had also reached an agreement with a voice technology
+company regarding voice replicas for video games, while a negotiation to update SAG-AFTRA’s
+agreement with video game publishers is reportedly ongoing.
+Commentators have also raised concern with deceptive AI-generated or AI-altered content known as
+“deepfakes,” including some videos with sexually explicit content and others meant to denigrate public
+officials. To the extent this content includes real people’s NIL and is used commercially, ROP laws might
+provide a remedy. Where deepfakes are used to promote products or services—such as the AI replica of
+Tom Hanks used in a dental plan ad—they may also constitute false endorsement under the Lanham Act.
+In addition to these laws, some states have enacted laws prohibiting sexually explicit deepfakes, with
+California and New York giving victims a civil claim and Georgia and Virginia imposing criminal
+liability. In addition, Section 1309 of the federal Violence Against Women Act Reauthorization Act of
+2022 (VAWA 2022) provides a civil claim for nonconsensual disclosure of “intimate visual depictions,”
+which might be interpreted to prohibit intimate deepfakes—as might some states’ “revenge porn” laws. A
+bill introduced in the House of Representatives in May 2023, the Preventing Deepfakes of Intimate
+Images Act, H.R. 3106, would amend VAWA 2022 by creating a separate civil claim for disclosing certain
+“intimate digital depictions” without the written consent of the depicted individual, as well as providing
+criminal liability for certain actual or threatened disclosures. Deepfakes may also give rise to liability
+under state defamation laws where a party uses them to communicate reputation-damaging falsehoods
+about a person with a requisite degree of fault.
+Regarding the use of AI in political advertisements, some proposed legislation would prohibit deepfakes
+or require disclaimers for them in federal campaigns, although such proposals may raise First Amendment
+concerns. The Protect Elections from Deceptive AI Act, S. 2770 (118th Cong.), for instance, would ban
+the use of AI to generate materially deceptive content falsely depicting federal candidates in political ads
+to influence federal elections, while excluding news, commentary, satires, and parodies from liability.
+Google announced that, as of mid-November 2023, verified election advertisers on its platform “must
+prominently disclose when their ads contain synthetic content that inauthentically depicts real or realisticlooking people or events.”
+Another concern some commentators raise is that AI-generated material might be falsely attributed to real
+persons without their permission. One writer who focuses on the publishing industry, for instance, found
+that books apparently generated by AI were being sold under her name on Amazon. Although the
+Congressional Research Service 5
+company ultimately removed these titles, the writer claimed that her “initial infringement claim with
+Amazon went nowhere,” since her name was not trademarked and the books did not infringe existing
+copyrights. As she noted, however, this scenario might give rise to claims under state ROP laws as well as
+the Lanham Act. In addition, the Federal Trade Commission (FTC) states that “books sold as if authored
+by humans but in fact reflecting the output of [AI]” violate the FTC Act and may result in civil fines.
+It is unclear how Section 230 of the Communications Act of 1934 might apply when ROP-infringing
+content from a third party, including content made with AI, is disseminated through social media and
+other interactive computer services. Although the law generally bars any lawsuits that would hold online
+service providers and users liable for third party content, there is an exception allowing lawsuits under
+“any law pertaining to intellectual property.” Courts differ as to whether state ROP laws and the Lanham
+Act’s prohibition on false endorsement are laws “pertaining to” IP within the meaning of Section 230.
+Another Legal Sidebar discusses the application of Section 230 to generative AI more broadly.
+Considerations for Congress
+Some commentators have called for federal ROP legislation to provide more uniform and predictable
+protection for the ROP in the United States. Others have argued that Congress should leave ROP
+protection to the states on federalism grounds. If Congress decides to craft federal ROP legislation, it
+might consider the scope of the ROP protections it seeks to enact, the effect of those enactments on state
+ROP laws, and constitutional authorities and limitations on Congress’s power to enact ROP protections.
+As noted below, some Members have proposed legislation that would prohibit certain unauthorized uses
+of digital replicas or depictions of individuals while leaving state ROP laws in place. 

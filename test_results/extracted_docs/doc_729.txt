@@ -1,0 +1,103 @@
+Compound interest is a powerful force for consumers looking to build their savings. It creates a multiplier effect on your money that can help it grow more over time. Knowing how it works and how often your bank compounds interest can help you make smarter decisions about where to put your money.
+ 
+
+ The definition of compound interest
+ In simple terms, the compound interest definition is the interest you earn on interest. With a savings account, money market account or CD that earns compound interest, you earn interest on the principal (the initial amount deposited) plus on the interest that accumulates over time. That’s much more valuable than simple interest, which only pays interest on the deposit.
+ 
+
+ How does compound interest work?
+ Many savings accounts and money market accounts, as well as investments, pay compound interest. As a saver or investor, you receive the interest payments on a set schedule: daily, monthly, quarterly or annually. A basic savings account, for example, might compound interest daily, weekly or monthly.
+ 
+
+ When you add money to a savings account or a similar account, you receive interest based on the amount that you deposited. For example, if you deposit $1,000 in an account that pays 1 percent annual interest, you’d earn $10 in interest after a year.
+ 
+
+ Thanks to compound interest, in the second year you’d earn 1 percent on $1,010 — the principal plus the interest, or $10.10 in interest payouts for the year. Compound interest accelerates your interest earnings, helping your savings grow more quickly. Over time, you’ll earn interest on ever-larger account balances that have grown with the help of interest earned in prior years, and therefore steadily increase earnings.
+ 
+
+ To get a deeper understanding of how compounding impacts your savings, the formula for compound interest is:
+ 
+
+ Initial balance × ( 1 + ( interest rate / number of compoundings per period )number of compoundings per period multiplied by number of periods
+ 
+
+ To see how the formula works, consider this example:
+ 
+
+ You have $100,000 in two savings accounts, each paying 2 percent interest. One account compounds interest annually while the other compounds the interest daily. You wait one year and withdraw your money from both accounts.
+ 
+
+ From the first account, which compounds interest just once a year, you’ll receive:
+ 
+
+ $100,000 × ( 1 + ( .02 / 1 )1 × 1 = $102,000
+ 
+
+ From the second account, which compounds interest each day, you’ll receive:
+ 
+
+ $100,000 × ( 1 + ( .02 / 365 )365 × 1 = $102,020.08
+ 
+
+ Because the interest you earn each day in the second example also earns interest on the days that follow, you earn an extra $20.08 compared with the account that compounds interest annually.
+ 
+
+ Over the long term, the impacts of compound interest become greater because you’re earning interest on larger account balances that resulted from years of earning interest on previous interest earnings. If you left your money in the account for 30 years, for example, the ending balances would look like this.
+ 
+
+ For annual compounding:
+ 
+
+ $100,000 × ( 1 + ( .02 / 1 )1 × 30 = $181,136.16
+ 
+
+ For daily compounding:
+ 
+
+ $100,000 × ( 1 + ( .02 / 365 )365 × 30 = $182,208.88
+ 
+
+ Over the 30-year period, compound interest did all the work for you. That initial $100,000 deposit nearly doubled. Depending on how frequently your money was compounding, your account balance grew to more than $181,000 or $182,000. And daily compounding earned you an extra $1,072.72, or more than $35 a year.
+ 
+
+ The interest rate you earn on your money also has a major impact on the power of compounding. If the savings account paid 5 percent annually instead of 2 percent, the ending balances would look like:
+ 
+
+ 1 year 30 years
+ Annual compounding $105,000.00 $432,194.24
+ Daily compounding $105,126.75 $448,122.87
+ The higher the interest rate, the greater the difference between ending balances based on the frequency of compounding.
+ 
+
+ Bankrate’s compound interest calculator can help you calculate how much interest you’ll earn from different accounts.
+ 
+
+ How to take advantage of compound interest
+ There are two simple ways that consumers can take advantage of compound interest.
+ 
+
+ 1. Save early
+ The power of compounding interest comes from time. The longer you leave your money in a savings account or invested in the market, the more interest it can accrue. The more time your money stays in the account, the more compounding can occur, meaning you get to earn additional interest on the earned interest.
+ 
+
+ Consider an example of someone who saves $10,000 a year for 10 years, and then stops saving, compared to someone who saves $2,500 a year for 40 years. Assuming both savers earn 7 percent annual returns, compounded daily, here’s how much they will have at the end of 40 years.
+ 
+
+ Saves $10,000 a year for 10 years, then nothing for 30 years Saves $2,500 a year for 40 years
+ $1,388,623 $612,116
+ Both people put away the same $100,000 overall amount, but the person who saved more earlier winds up with far more at the end of the 40 years. Even someone who saves $200,000, or twice as much over the full 40 years, winds up with less — $1,224,232 — because a smaller amount was saved initially.
+ 
+
+ 2. Check the APY
+ When you’re shopping around for places to save, focus on looking at the APY. APY shows the effective interest rate of an account, including all of the compounding. If you put $1,000 in an account that pays 1 percent interest a year, you might wind up with more than $1,010 in the account after a year if the interest compounds more frequently than annually.
+ 
+
+ Comparing the APY rather than the interest rate of two accounts will show which truly pays more interest. Some banks may offer only 0.01 percent compared to others that can offer 5 percent or more. This would be a significant difference in earnings over time.
+ 
+
+ 3. Check the frequency of compounding
+ When comparing accounts, don’t just look at APY. Also consider how frequently each compounds interest. The more often interest is compounded, the better. When comparing two accounts with the same interest rate, the one with more frequent compounding may have a higher yield, meaning it can pay more interest on the same account balance.
+ 
+
+ Bottom line
+ The advantage of compound interest lies in its ability to supplement savings over time. By understanding how it operates and considering factors like the interest rate, frequency of compounding and timeline of investments, savers can make the most of compound interest and look for the highest-earning accounts.

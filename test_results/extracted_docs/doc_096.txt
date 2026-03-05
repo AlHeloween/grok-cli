@@ -1,0 +1,88 @@
+An Insight into IoT
+ IoT or the Internet of Things is a networked digital system of various electronic devices like sensors, activators, receivers, nodes that compute data, etc. By eliminating human involvement, IoT devices have transformed the data collecting and processing system. From top to bottom, IoT devices enhance the development of concepts like smart home, smart vehicle, smart agriculture (Pranto et al. 2021), smart health care, communication, cybersecurity and many more systems (Haque et al. 2021a). They have been used to conduct, monitor, and produce reactions based on the information gathered. People have been thinking of connecting devices to the Internet for a long time. The Internet of Things, on the other hand, enhances and extends network technology based on existing internet technology, allowing computing and smart objects to connect and communicate with one another. The IoT can be broadly defined as any object that communicates, produces, and interchanges data with other objects via the Internet to perform orientation tracing, tracking, intelligent recognition, and management. This process is conducted by various sensors or peripherals such as GPS, thermal sensors, RFID, etc. (Yang et al. 2011).
+ 
+
+ Characteristics of IoT
+ There are many functional and non-functional IoT needs for creating the infrastructure. We will discuss some of the most valuable characteristics of IoT here.
+ 
+
+ Availability
+ To provide customers with facilities wherever and whenever they need them, IoT availability must be implemented at the hardware and software levels. The capacity of IoT systems to give functionality to anybody in any location is referred to as software availability (Mistry et al. 2020a). The nature of computers that are always compatible with IoT features and protocols is referred to as hardware availability. To allow IoT capabilities, protocols like IPv6, 6LoWPAN, RPL, CoAP, and others need to be implemented inside the restricted devices of the single board resource. One technique for achieving high IoT service availability is to ensure the availability of critical hardware and facilities (Bahalul Haque 2019).
+ 
+
+ Mobility
+ Although most utilities are designed to be delivered via Smartphone devices, IoT implementation is hampered by accessibility. A key IoT premise is to keep customers connected to their preferred resources when moving. When mobile devices are relocated from one gateway to another, service interruptions may occur. Caching and tunneling for service continuity allow apps to access IoT data even if the internet is down for a short time. The vast number of smart devices available in IoT systems is usually included in any solid framework for mobility control.
+ 
+
+ Scalability
+ Scalability in the Internet of Things refers to the ability to accept new client equipment, software, and capabilities without compromising the efficiency of existing systems. It is not straightforward to add new processes and manage extra devices, especially when there are several hardware platforms and communication protocols to contend with. IoT applications must be built from the ground up to enable extendable services and operations.
+ 
+
+ Security and Privacy
+ On diverse networks, such as the Internet of Things, ensuring user security and privacy is strict. The fundamental functioning of the Internet of Things is built on data transmission between billions, if not trillions, of Internet-connected items. One great problem in IoT security left out of the standards is the key distribution between devices. The growing number of intelligent objects around us with sensitive data necessitates transparent and simple access control management, such as enabling one vendor to view the data. In contrast, another controls the device 
+ 
+
+ Performance
+ The performance of IoT services is difficult to evaluate since it is based on the performance of many components and the underlying technology. The Internet of Things, like other programs, must constantly develop and expand its offerings in order to meet user expectations. 
+ 
+
+ IoT also needs to manage the larger amount of information or data created in the ecosystem, ensuring the interoperability and quality of service.
+ 
+
+ Layered Architecture of IoT
+ Various designs have been suggested for IoT worlds. In general, such structures are divided into three categories. There are three types of architecture: three-layer architecture, four-layer architecture, and five-layer architecture. In this chapter, we will look at the three-layered architecture. It is organized keeping mid some specific tasks to accomplish by the system like executing service functions, transmitting data, and connection among service devices. It results in three layers, Application layer, Network/Transmission layer, and Perception/Edge layer.
+ 
+
+ Application Layer
+ In different implementations, this layer may include various services. Smart grids, healthcare, and autonomous automobiles are examples of IoT deployment in smart cities and homes. Because the application layer might serve as a service support middleware, a networking standard, or a cloud computing platform, security considerations vary depending on the application's environment and industry.
+ 
+
+ Network Layer
+ Acting as a bridge, the network layer controls data transfer to subsequent layers. This layer connects to the visual layer. Different smart devices are connected to the network layer following control function protocol (IEEE 802.x) and authentication standards (GPS, and Near-Field Connectivity (NFC)). The transmission of data is highly prone to cyber-attacks. Intelligent intrusion detection key encryption with secured management-based IoT security framework is the most popular along with the latest adoption of blockchain technology.
+ 
+
+ Edge Layer
+ Edge layer manages the IoT devices or sensors like RFID, different actuators, cameras, intensity detectors, moisture and pressure sensors, etc., using gateways in a coordinating function to connect with Researchers have proposed security solutions for this layer based on machine learning, multi-stepped authorization, secure channeling through anti-malware, etc.
+ 
+
+ Requirements for 5G Integrated IoT Architecture
+ 5G-enabled IoT needs special attention for its heterogeneity, advancement, and application. However, there are some requirements that all the architecture should follow (Li et al. 2018b):
+ 
+
+ 5G IoT must ensure a low latency of 1 ms considering the sensitive internet system and medical perspective.
+ 
+
+ The architecture must ensure low energy consumption for low-battery life IoT devices but enough for 5G to transfer data.
+ 
+
+ An advanced application like Virtual Reality or Augmented Reality needs a high speed of 25 Mbps, so the architecture must follow with the future needs.
+ 
+
+ Security must be top-notch, considering massive data transmission at a very high speed.
+ 
+
+ The devices with mobility factors will get priority for the 5G IoT infrastructure.
+ 
+
+ The fundamental 5G IoT architecture consists of five steps in general: sensors, IoT Gateway, 5G-based station, cloud storage, and application (Arsh et al. 2021). These steps can be comprised in IoT layers to bring up a general 5G IoT architecture.
+ 
+
+ Edge Layer of 5G IoT
+ The sensors and gateway of IoT can be comprised of 5G in this layer. For example, sensors for wearable ECG, temperature, smart manufacturing etc. will use this layer to transmit and process information using 5G technology (Shdefat et al. 2021).
+ 
+
+ Network Layer of 5G IoT
+ The network layer will hold the 5G base station and cloud storage to process data using IoT devices.
+ 
+
+ Application Layer of 5G IoT
+ The application layer will provide all the support for the end system like smart home, smart supply chain, etc. (Haque et al. 2021b).
+ 
+
+ Following the above-mentioned general architecture, 5G IoT can support millimeter-wave (Rahimi et al. 2018), D2D communication, nano-chip, wireless software (Huang et al. 2020), mobile edge computing, data analytics cloud computing (Mudigonda et al. 2020), and many more technologies and application. In Fig. 11.1, we have shown a generalized architecture for the 5G integrated IoT ecosystem.
+ 
+
+ 
+
+ Blockchain-Based 5G IoT
+ Blockchain (Haque and Bhushan 2021b) can bring trust and improved security to 5G IoT. It can accelerate data exchange at a lower cost by implementing a cryptographic encryption system to the architecture. The immutability and accountability that blockchain can ensure for the system are marvelous (Hewa et al. 2020). Blockchain integrated 5G IoT can bring revolution to industrial IoT, UnThese layers work together using cloud storage and a 5G network to provide services like education, fire station, transportation, factories, etc.

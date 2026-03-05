@@ -1,0 +1,48 @@
+AR applications for physicians and healthcare professionals cover by far the largest user group [6]. 
+However, especially for AR-supported image guidance and navigation, very high accuracy and reliability 
+may be needed [9]. Applications, for which sub-millimeter precision is not necessary, are, for example, 
+ablations, ventriculostomy [10-14] or certain orthopedic interventions [15]. Here, the HoloLens is with its 
+inside-out tracking already a promising tool, but for applications that need, for example, sub-millimeter 
+precision, it cannot be used reliably yet. An example is the deep brain stimulation (DBS) procedure used 
+for treating essential tremor and Parkinson’s disease, where millimeter-to-submillimeter accuracy in DBS 
+targeting (an electrode placement inside the brain) can be important [16]. Another study exploring the 
+clinical accuracy of the HoloLens for neuronavigation concludes also that it is currently not within clinically 
+acceptable levels [17]. The same holds true for some application scenarios in orthopedic surgery [18], like 
+screw placement, where there is still room for improvement [19]. We expect the Vision Pro to move the 
+needle in terms of accuracy, because of its strong inside-out tracking through 12 built-in cameras and 
+LiDAR (Light Detection and Ranging) sensing method, which is the key aspect for increasing the accuracy
+of AR. We do not see the often-criticized end-user price of $3,499 (without tax) for the Vision Pro as an 
+issue for this user group. The price is similar to the HoloLens and much cheaper at a fraction of the costs 
+compared to existing, and clinically used conventional medical navigation systems, e.g., from Brainlab or 
+Medtronic. In this context, it is important to mention that the use of AR head-mounted displays (HMDs)
+with direct patient reference (and outside of research in the context of feasibility studies) requires an 
+appropriate regulatory approval and a certification/classification as medical device. The Magic Leap 2, for 
+example, received certification for usage in an operating room in January of this year (2023). Moreover, 
+and especially in a medical context, the display may also require an image focus in surgical table distance
+[20].
+Students are the second most common intended user group [6] with applications, for example, in 
+educational training, like the HoloPointer, a virtual AR pointer for laparoscopic surgery training [21]. 
+Another example is the usage of MR to teach medical students catheter placement [22] or a phantom 
+experiment to study the effectiveness of learning using AR in the access of the central venous [23]. We 
+found that the effects of HoloLens-based learning compared to conventional learning, e.g., by using 
+cadavers or other computerized methods, seem to be rather small. A reason for this is that the learning 
+tools usually used are relatively simple, conventional 3D models and more innovative visualizations, 
+including interactive, dynamic content, which cannot be easily delivered by regular computerized 
+methods, have not been explored in depth yet [6]. Here, we believe that the Vision Pro can raise the bar, 
+because of its high-resolution visualization (consisting of two micro-OLED displays with a total of 23 
+megapixels) that uses eye-tracking to make the headset also usable as a desktop screen with its fine 
+textual details. In addition, the 3D user interface, using precise and intuitive finger tracking, can be a game 
+changer. Despite these advances, it remains to be seen if an AR headset has a major advantage over a 
+conventional screen. The cost of the Vision Pro is also a concern, especially for students with a limited 
+financial budget, but the “Pro” might indicate that there will also be a “regular” version released.
+Patients are currently the least frequented target user group with AR devices[6]. An example is MemHolo, 
+which provides MR experiences for subjects with Alzheimer’s disease [24]. Other examples in this area
+include the usage of the HoloLens as an assistant and monitoring tool for medication adherence [25] and 
+the usage of a HoloLens-based system for functional mobility assessment [26]. However, many interesting 
+assistance and monitoring applications are limited by the restricted possible usage time of untethered AR 
+headsets primarily due to battery life, and this problem seems to remain with the Vision Pro, which has a 
+similar battery life of approximately two hours, like the HoloLens. The only consolation is the “external” 
+battery pack that can be swapped for the Vision Pro. Finally, the Apple M2 and the new R1 chip of the 
+Vision Pro could potentially boost the relatively small number of applications that have been explored so 
+far, e.g., by reducing motion sickness, especially for elderly patients, which are more susceptible to MR
+sickness than younger users.

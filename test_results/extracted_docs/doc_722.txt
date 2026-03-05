@@ -1,0 +1,27 @@
+What is technology?1 In the narrowest sense, technology consists of manufactured objects like tools (axes, arrowheads, and their modern equivalents)
+and containers (pots, water reservoirs, buildings). Their purpose is either to
+enhance human capabilities (e.g., with a hammer you can apply a stronger
+force to an object) or to enable humans to perform tasks they could not
+perform otherwise (with a pot you can transport larger amounts of water;
+with your hands you cannot). Engineers call such objects “hardware”. Anthropologists speak of “artifacts”.
+But technology does not end there. Artifacts have to be produced. They
+have to be invented, designed, and manufactured. This requires a larger
+system including hardware (such as machinery or a manufacturing plant),
+factor inputs (labor, energy, raw materials, capital), and finally “software”
+(know-how, human knowledge and skills). The latter, for which the French
+use the term technique, represents the disembodied nature of technology, its
+knowledge base. Thus, technology includes both what things are made and
+how things are made.
+Finally, knowledge, or technique, is required not only for the production
+of artifacts, but also for their use. Knowledge is needed to drive a car or use
+a bank account. Knowledge is needed both at the level of the individual,
+in complex organizations, and at the level of society. A typewriter, without
+a user who knows how to type, let alone how to read, is simply a useless,
+heavy piece of equipment.
+Technological hardware varies in size and complexity, as does the “software” required to produce and use hardware. The two are interrelated and
+require both tangible and intangible settings in the form of spatial structures and social organizations. Institutions, including governments, firms,
+and markets, and social norms and attitudes, are especially important in
+determining how systems for producing and using artifacts emerge and function. They determine how particular artifacts and combinations of artifacts
+originate, which ones are rejected or which ones become successful, and, if
+successful, how quickly they are incorporated in the economy and the society.
+The latter step is referred to as technology diffusion.

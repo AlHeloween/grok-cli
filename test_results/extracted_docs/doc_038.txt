@@ -1,0 +1,66 @@
+**Overview of Corporate Bonds**
+The stock market crash of the late 2000s taught many investors a painful lesson about the importance of diversifying their investments. They remain committed to low- to moderate-risk investment vehicles that provide a compromise between security and return on investment.
+Corporate bonds are one such vehicle. They can provide predictable interest payments for income-seeking investors at manageable risk levels. They occupy a middle ground between low-interest, low-risk government bonds and stocks, which may offer higher returns but are much riskier overall.
+But corporate bonds are not perfect. Individual corporate bonds have significant drawbacks you should carefully consider before investing. 
+What Is a Corporate Bond?
+Both private and public companies sell corporate bonds to raise money for business operations. In exchange, they pay you interest on the amount you purchased.
+Like other assets that pay interest, companies most often use corporate bonds to fund capital projects. This term encompasses just about any investment a company can make, such as:
+•	Construction of a new warehouse or manufacturing facility
+•	Purchasing or leasing new property
+•	Purchasing or leasing new equipment
+•	Buying inventory
+They typically come in units that carry a face value of $1,000. Also known as “par value,” it’s the amount the company, known as the bond issuer, must pay the holder on the bond’s maturity date. Some bonds require investors to buy more than one unit, so they may have a minimum purchase amount, such as $3,000 or $5,000.
+Corporate Bonds Structure
+A corporate bond makes regular interest payments to its investors. It’s popular among income-seeking investors, from financial institutions looking to offset higher-risk investments to retirement investors trying to earn interest income over a set period.
+Maturity Period & Call Date
+Like a U.S. Treasury bond, a corporate bond has a specific maturity date. That’s the day you get the original amount of your investment back. Maturity terms on corporate bonds — the period between their issue date and maturity date — range from as short as one year to as long as 30 years. 
+Corporate bonds with less than one year maturity periods are known as “corporate paper” or “short-term financing.” The most common investors in these bonds are likely to be larger financial entities, including banks, mutual funds, and hedge funds rather than individual investors. 
+Many corporate bonds also have call dates. Call dates are the first date the issuing company can legally buy the bond back from investors if it no longer needs the money. 
+Prospectus
+Before it issues a new bond to the general public, the company must release a prospectus that outlines the intended use of the money. This requirement applies even to private companies not listed on any stock exchange. 
+The prospectus describes the bond’s term, including its final maturity date and call date. It also outlines the bond’s initial interest rate and describes how and when the bond pays interest quarterly, semiannually, annually, or in a lump sum when the issuer buys the bond back. 
+Finally, the prospectus outlines the bondholder’s right of repayment if the issuing company defaults or declares bankruptcy. It includes the order in which investors receive repayment based on their investor type, which depends on whether the bond is secured or unsecured.
+Secured vs. Unsecured Corporate Bonds
+Corporate bonds can be secured or unsecured. 
+Secured bonds are guaranteed by some form of collateral, such as inventory, real property, or monetary assets. When a corporate bond issuer declares bankruptcy, secured bondholders have a legal right to seize the collateral. 
+Unsecured bonds, also known as debentures, are only guaranteed by the company’s promise to repay. Unsecured bondholders have no right to seize property. In the event of bankruptcy, they may be forced to forfeit future interest payments as well as a significant fraction of their principal payments. 
+Some bond types are always unsecured, such as convertible notes (which you can convert into shares of company stock). Others, such as fixed-rate and variable-rate bonds, may be either. You can find the bond’s secured status in the prospectus.
+Because unsecured bonds are considered riskier for investors, they have higher interest rates than secured bonds. However, convertible bonds tend to come with lower interest rates because you can convert them into equity.
+Corporate Bonds vs. Preferred Stocks
+Corporate bonds share some features with preferred stock, such as regular payments to investors. These similarities are enough to create confusion for inexperienced investors. 
+But there are some important differences between the two as well:
+•	Debt vs. Equity. A corporate bond is a debt instrument that provides no ownership stake in its issuer. In contrast, a preferred stock is an equity vehicle that does confer ownership in the underlying company. 
+•	Liquidity. You can trade both corporate bonds and preferred stock on secondary markets. But preferred stock often trades on stock exchanges, increasing the potential market size and making it easier for investors to buy and sell them.
+•	Repayment Order. In bankruptcy, preferred stockholders are entitled to repayment before common stockholders but after corporate bondholders.
+•	Exchange for Common Stock. You can exchange convertible corporate bonds for the issuers’ common shares under certain circumstances. Otherwise, it’s difficult or impossible for bondholders to exchange their holdings for stock. In contrast, you can always exchange preferred stocks for common stocks at an agreed-upon ratio.
+Types of Corporate Bonds
+Corporate bonds come in several different forms. A given bond can fall into more than one of these categories.
+Fixed-Rate Bonds
+This type of bond carries a fixed interest rate for its entire life. The rate is determined by its issuer’s credit rating on the bond’s issue date. Companies with higher credit ratings pay lower interest rates on their bonds, while companies with lower credit ratings pay higher interest rates.
+Fixed-rate bonds typically make semiannual interest payments. They’re currently the most common type of corporate bond.
+Variable-Rate Bonds
+Variable-rate bonds’ interest rates change in response to fluctuations in long-term benchmark rates, with most bonds changing once per year. Their yield is generally determined by the company’s credit rating on the date of each interest payment.
+Floating-Rate Bonds
+Floating-rate bonds’ interest rates fluctuate with market benchmarks like Libor or the Federal Reserve’s federal funds rate and the company’s credit rating on the date of each readjustment. Unlike variable-rate bonds’ annual readjustments, changes in floating-rate bond rates usually occur after each quarterly interest payment.
+Zero-Coupon Bonds
+Zero-coupon bonds don’t pay interest. Instead, they trade at deep discounts to par value (face value). At maturity, the investor can redeem their zero-coupon bond for par value, realizing a profit over what they originally paid. 
+Callable Bonds
+Issuers of callable bonds have the right to buy them back after an initial lockup period ends but before maturity. The first date the issuer can buy back the bond is known as the call date. 
+The buyback is always voluntary. For example, a company that issues a callable bond with a final maturity date of Jan. 31, 2030, and a call date of Jan. 31, 2024, can buy it back after the earlier of the two dates, but it doesn’t have to. 
+If a bond is called, its issuer typically pays par value and any unpaid accrued interest. Callable bonds can have fixed, variable, or floating rates.
+A company may call bonds for various reasons. But most often, it’s because prevailing interest rates have fallen and the issuer’s credit allows it to secure lower rates on new debt issues. 
+Since called bonds are usually replaced with lower-yield bonds, an investor whose bond is called may have to settle for lower yields on future bond purchases that offer comparable levels of risk. They also miss out on future interest payments on the called bond. Both factors reduce their overall yield.
+Putable Bond 
+Putable bonds, also called put bonds or retractable bonds, are the reverse of callable bonds. After a set date, holders of putable bonds are entitled to ask the issuer for repayment of their principal plus all accumulated interest. 
+It often occurs when a bondholder dies. Heirs of deceased bondholders may have a “survivor’s option” that entitles them to sell inherited bonds back to their issuers.
+Bondholders may also exercise the put in inflationary environments. As prevailing interest rates rise, bonds with lower interest rates become less attractive, and their market value falls. It makes sense for bondholders to exercise the put sooner rather than later and use the proceeds to invest in bonds paying higher rates.
+Because they give bondholders the right to early repayment, put bonds are less risky, more attractive investments. They typically have lower interest rates as a result.
+Convertible
+You can convert a convertible bond into a set amount of its issuer’s common stock. It allows a company’s creditor to secure an actual equity stake in it. 
+Like callable and putable bonds, convertible bonds come with restrictions on how and when you can convert to stock. They’re also more susceptible to issuers’ stock price fluctuations than other types of bonds.
+Corporate Bond Ratings
+Every corporate bond is rated by at least one of the major U.S. rating agencies — Fitch, Standard & Poor’s, or Moody’s. Each agency has its own letter-grade scale, but the most important distinction is between the two broad risk categories: investment grade and noninvestment grade. 
+Noninvestment-grade bonds are popularly known as “junk,” as in “junk bonds.” In more polite circles, they’re known as “high-yield bonds.” On S&P’s scale, which is the most commonly used measurement in the United States, all bonds rated below BBB- are considered noninvestment grade. 
+A bond’s yield is inversely proportional to its issuer’s credit rating. The higher the rating, the lower the yield. 
+Lower-rated bonds come with a higher risk of default. However, they also have high interest rates — far higher than investors could get in a savings account or CD. That’s worth the risk to some people.
+Corporate bondholders do enjoy greater security than stockholders. Whereas a publicly traded company may suspend dividends on common or preferred stock at any time, any company that issues a corporate bond has a legal obligation to issue regular interest payments. The only ways out of it are to default on its bonds or declare bankruptcy.

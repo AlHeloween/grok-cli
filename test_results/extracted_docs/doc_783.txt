@@ -1,0 +1,46 @@
+The Glass-Steagall Act was passed under FDR as a response to the stock market crash of 1929. It effected a wall between commercial banking and investment banking, only to be partially repealed in 1999. While there exists consensus around what the Glass-Steagall Act pertains to, there’s disagreement around its influence on the financial markets. In particular, the debate has centered around the repeal’s effects on the 2008 financial crisis and whether it was a principal cause of the crisis. Notably, it remains relevant despite the introduction of recent legislation. In 2010, the Obama administration enacted the Dodd-Frank Act in response to the financial crisis. Similar to Glass-Steagall, it attempted to promote financial stability and protect the consumer, but Dodd-Frank did not reinstate the repealed provisions of Glass-Steagall.
+ 
+
+ In the aftermath of the 1929 stock market crash, the Pecora Commission was tasked with investigating its causes. The Commission identified issues including risky securities investments that endangered bank deposits, unsound loans made to companies in which banks were invested, and conflicts of interest. Other issues included a blurring of the distinction between uninsured and insured practices, or an abusive practice of requiring joint purchases of multiple products. Congress attempted to address these issues with the Banking Act of 1933 and other legislation.
+ 
+
+ While the effects of the Glass-Steagall Act were wide-ranging, it is equally important to note what the Glass-Steagall Act did not do. Beyond limiting the scope of activities for commercial and investment banks, the Act was not intended to limit the size or volume of such activities. Therefore, returning to the example of J.P. Morgan & Co., while the Act prohibited the bank from conducting all the same activities within a single organization, it did not prohibit the same activities (type and volume) if carried out separately through JPMorgan and Morgan Stanley.
+ 
+
+ So when was the Glass-Steagall Act repealed? By the late 1990s, the Glass-Steagall Act had essentially become ineffective. In November 1999, then-President Bill Clinton signed the Gramm-Leach-Bliley Act (GLBA) into effect. GLBA repealed Sections 20 and 32 of the Glass-Steagall Act, which had prohibited the interlocking of commercial and investment activities. The partial repeal allowed for universal banking, which combines commercial and investment banking services under one roof.
+ 
+
+ Many experts view GLBA as “ratifying, rather than revolutionizing” in that it simply formalized a change that was already ongoing. However, GLBA left intact Sections 16 and 21, which are still in place today. These continue to have practical effects on the industry today. For instance, they limit investment management firms such as Bridgewater Associates from offering checking accounts and prohibit commercial banks such as Wells Fargo from dealing in risky securities such as cattle futures.
+ 
+
+ Between 1998 and 2006, the housing market and housing prices rose to previously unseen highs. As many readers already know, the market’s later crash was a primary cause of the Financial Crisis. A major determinant of the housing boom was the utilization of imprudent lending standards and subsequent growth of subprime mortgage loans. Most of these loans were made to homebuyers with factors that prevented them from qualifying for a prime loan. Many subprime loans also included tricky features that kept the initial payments low but subjected borrowers to risk if interest rates rose or house prices declined. Unfortunately, when housing prices started to fall, many borrowers found that they owed more on their houses than they were worth.
+ 
+
+ According to the Financial Crisis Inquiry Commission (FCIC), which conducted the official government investigation into the crisis, the percentage of borrowers who defaulted on their mortgages months after the loan nearly doubled from 2006 to late 2007. Suspicious activity reports related to mortgage fraud grew 20-fold between 1996 and 2005, more than doubling between 2005 and 2009 (Chart 4). The losses from this fraud have been estimated at $112 billion.
+ 
+
+ Did the Glass-Steagall Act’s repeal contribute to the deterioration in underwriting standards that fueled the housing boom and eventual collapse? Predictably, opinions are divided.
+ 
+
+ On the one hand, those who believe the absence of Glass-Steagall did not cause the crisis highlight that offering mortgages has always been a core business for commercial banks, and so the banking system has always been exposed to high default rates in residential mortgages. Glass-Steagall was never intended to address or regulate loan qualification standards.
+ 
+
+ In addition, while the Glass-Steagall Act limited the investment activities of commercial banks, it did not prevent non-depositories from extending mortgages that competed with commercial banks, or from selling these mortgages to investment banks. It also did not prevent investment banks from securitizing the mortgages to then sell to institutional investors. Nor did it address the incentives of the institutions that originated mortgages or sold mortgage-related securities. Because it did not directly address these issues, it’s unlikely the Glass-Steagall Act could have prevented the decline in mortgage underwriting standards that led to the housing boom of the 2000s.
+ 
+
+ On the other hand, those who argue that the absence of Glass-Steagall did cause the crisis believe that the decline in underwriting standards was in fact partially, or indirectly, caused by the Act’s absence. Readers will recall from the beginning of the article that Glass-Steagall’s provisions addressed the conflicts of interest and other potential abuses of universal banks. After Glass-Steagall’s repeal, it is feasible that universal banks aimed to establish an initial market share in the securities market by lowering underwriting standards. Separately, universal banks might also self-deal and favor their own interests over those of their customers. Both of these incentives could have led to or exacerbated the decline in underwriting standards.
+ 
+
+ While these results are not entirely conclusive, it does suggest that Glass-Steagall’s absence could have worsened underwriting standards. Had Glass-Steagall been in place, these universal banking institutions would not have been created. Nevertheless, the regulation would not have prevented new, investment-only entrants also looking to gain market share. And as we’ve already mentioned, the Glass-Steagall Act never directly addressed loan qualification standards or prevented non-depositors from extending, repackaging, and selling mortgages. It’s therefore unlikely that the Glass-Steagall Act could have prevented the decline in mortgage underwriting standards, but its absence could have aggravated the situation.
+ 
+
+ The second major topic of discussion related to Glass-Steagall and the financial crisis surrounds the issue of “too big to fail” and systemic risks. When the failure of an institution could result in systemic risks, whereby there would be contagious, widespread harm to financial institutions, it was deemed too big to fail (TBTF). TBTF institutions are so large, interconnected, and important that their failure would be disastrous to the greater economic system. Should they fail, the associated costs are absorbed by government and taxpayers.
+ 
+
+ If one accepts that systemic risk and TBTF institutions were major contributors to the 2008 crisis, then the debate turns to whether the absence of Glass-Steagall contributed to the creation of TBTF institutions and their disastrous effects. After all, the repeal of Glass-Steagall in 1999 set in motion the wave of mega-mergers that created huge financial conglomerates, many of which fall firmly within the TBTF camp.
+ 
+
+ Ironically, Glass-Steagall’s repeal actually allowed for the rescue of many large institutions after the crisis: After all, JPMorgan Chase rescued Bear Stearns and Bank of America rescued Merrill Lynch, which would have been impermissible prior to the 1999 repeal. Both were already involved in commercial and investment banking when they saved the two failing investment banks. On balance, therefore, the evidence does not seem to support the view that Glass-Steagall’s absence was a cause of the financial crisis.
+ 
+
+ Overall, while the general consensus is that Glass-Steagall's absence was not a principal cause of the crisis, the underlying culture of excessive risk-taking and short-term profit was real.

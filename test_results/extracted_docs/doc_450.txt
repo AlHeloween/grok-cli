@@ -1,0 +1,117 @@
+Levels of Scrutiny and Key Concepts
+Most often, a court adjudicating a free speech challenge will analyze the constitutionality of a law
+or government action by applying a level of scrutiny derived from the Supreme Court’s First
+Amendment precedents. The two most common levels of scrutiny in free speech analysis are
+strict and intermediate scrutiny.35 Strict scrutiny generally applies to laws that regulate speech on
+the basis of its content or message.
+36 It is a “demanding standard” that the government is rarely 
+able to meet.37 Intermediate scrutiny has several different formulations but generally applies to
+content-neutral laws and commercial speech restrictions.
+38 Intermediate scrutiny too presents a
+high bar for the government, but regulations of speech are more likely to survive intermediate
+than strict scrutiny. To varying degrees, each level of scrutiny requires the government to prove
+that it has a sufficiently important interest in regulating the speech at issue and that the law
+directly advances and is narrowly tailored to that interest.
+While laws that fail strict or intermediate
+scrutiny often do so on lack-of-tailoring
+grounds, the government sometimes fails to
+show that its interests are “real” and “not
+merely conjectural.”39 For example, it may be
+insufficient for the government to cite an
+interest that is significant in the abstract if the
+government lacks evidence of a concrete harm
+threatening that interest.40 For “prophylactic”
+speech restrictions in particular, the
+government must “demonstrate that it is
+regulating speech in order to address what is
+in fact a serious problem and that the
+preventative measure it proposes will
+contribute in a material way to solving that
+problem.”41
+For more information on the levels of scrutiny
+and other key First Amendment concepts,
+readers of this report’s HTML and PDF
+formats can click on a term or phrase in the
+text box titled “Free Speech Terminology” to
+navigate to a discussion of that concept.
+Strict Scrutiny
+Strict scrutiny generally applies to content-based laws—laws that regulate speech on the basis of
+its subject matter, topic, or substantive message.42 A law can be content based on its face or in its
+design or purpose.43 The Supreme Court considers viewpoint discrimination—distinctions based 
+on a “specific motivating ideology,” opinion, or perspective—to be “an egregious form of content
+discrimination.”44 For this reason, courts sometimes invalidate viewpoint-based laws summarily,
+without undertaking a strict scrutiny analysis.45
+Under strict scrutiny, the government must prove that its law is narrowly tailored to advance a
+compelling governmental interest and that the law is the least restrictive means of serving that
+interest.46 While not an exhaustive list, the Supreme Court has identified the following interests as
+compelling, at least in certain contexts:
+• “national security”;
+47
+• “public confidence in judicial integrity”;
+48
+• “protecting the physical and psychological well-being of minors”;
+49
+• “ensur[ing] the basic human rights of members of groups that have historically
+been subjected to discrimination”;
+50
+• “eradicating discrimination against [a state’s] female citizens”;
+51 and
+• “depriving criminals of the profits of their crimes, and in using these funds to
+compensate victims.”
+52
+Both strict and intermediate scrutiny require narrow tailoring,
+53 meaning that the government
+must “pursue its legitimate interests through ‘means that are neither seriously underinclusive nor
+seriously overinclusive.’”
+54 The precise degree of tailoring required under each standard differs.
+Under strict scrutiny, the challenged law or action must be the “least restrictive means” of
+satisfying the government’s compelling interest. In other words, “[i]f a less restrictive alternative
+would serve the Government’s purpose, the legislature must use that alternative.”55
+Intermediate Scrutiny
+Intermediate scrutiny typically applies to content-neutral laws and commercial speech
+restrictions, albeit following different lines of Supreme Court precedent.
+56 A law is content
+neutral if it “serves purposes unrelated to the content of expression”57 and does not, on its face,
+regulate speech on the basis of its subject matter, topic, or viewpoint.58
+The Supreme Court has established an intermediate scrutiny standard for content-neutral time,
+place, or manner regulations.59 Specifically, the Court has held that “[e]xpression, whether oral or
+written or symbolized by conduct, is subject to reasonable time, place, or manner restrictions,”
+60
+such as a regulation to control the volume of music played at a bandshell in a public park.61 Time,
+place, or manner restrictions “are valid provided that they are justified without reference to the
+content of the regulated speech, that they are narrowly tailored to serve a significant
+governmental interest, and that they leave open ample alternative channels for communication of
+the information.”
+62
+A similar test set out in United States v. O’Brien is used to evaluate restrictions on certain types of
+expressive conduct, such as “when ‘speech’ and ‘nonspeech’ elements are combined in the same
+course of conduct.”63
+Intermediate scrutiny is also the standard applied to commercial speech restrictions. Commercial
+speech is (1) speech that “does no more than propose a commercial transaction” (e.g., an
+advertisement for a product or service);
+64 or (2) “expression related solely to the economic
+interests of the speaker and its audience.”65 To sustain a restriction on lawful, nonmisleading
+commercial speech, the government must meet the standard set out in Central Hudson Gas and
+Electric Corp. v. Public Service Commission.
+66 Specifically, the government must show that its
+law “directly advances” a “substantial” governmental interest and is narrowly tailored—that is,
+“not more extensive than necessary”—to serve that interest.
+67
+Examples of substantial or important governmental interests include
+• protecting the public from deceptive and misleading trade practices;68
+• “maintaining standards of ethical conduct in the licensed professions”;
+69
+• “energy conservation”;
+70
+• preventing “quid pro quo” corruption or its appearance in election campaigns;71
+and
+“promoting fair competition in the market for television programming.”
+72
+The tailoring requirement for intermediate scrutiny is less rigorous than for strict scrutiny. Under
+intermediate scrutiny, a law “need not be the least restrictive or least intrusive means” of
+advancing the government’s interest.73 Nevertheless, the government “still ‘may not regulate
+expression in such a manner that a substantial portion of the burden on speech does not serve to
+advance its goals.’”
+74 Narrow tailoring for commercial speech restrictions, for example, requires
+“a fit that is not necessarily perfect, but reasonable; that represents not necessarily the single best
+disposition but one whose scope is in proportion to the interest served.”

@@ -1,0 +1,92 @@
+In the 2016 case United States v. McIntosh, the U.S. Court of Appeals for the Ninth Circuit considered the
+circumstances in which the appropriations rider bars CSA prosecution of marijuana-related activities. The
+court held that the rider
+prohibits the federal government only from preventing the implementation of those specific rules of
+state law that authorize the use, distribution, possession, or cultivation of medical marijuana. DOJ
+does not prevent the implementation of [such rules] when it prosecutes individuals who engage in
+conduct unauthorized under state medical marijuana laws. Individuals who do not strictly comply
+with all state-law conditions regarding the use, distribution, possession, and cultivation of medical
+marijuana have engaged in conduct that is unauthorized, and prosecuting such individuals does not
+violate [the rider].
+Relying on McIntosh, the Ninth Circuit has issued several decisions allowing federal prosecution of
+individuals who did not “strictly comply” with state medical marijuana laws, notwithstanding the
+appropriations rider, and several district courts have followed that reasoning. As one example, in United
+States v. Evans, the Ninth Circuit upheld the prosecution of two individuals involved in the production of
+medical marijuana who smoked marijuana as they processed plants for sale. Although state law permitted
+medical marijuana use by “qualifying patients,” the court concluded that the defendants failed to show
+they were qualifying patients, and thus they could be prosecuted because their personal marijuana use did
+not strictly comply with state medical marijuana law.
+In the 2022 case United States v. Bilodeau, the U.S. Court of Appeals for the First Circuit also considered
+the scope of the appropriations rider. The defendants in Bilodeau were registered with the State of Maine
+to produce medical marijuana, but DOJ alleged that they distributed large quantities of marijuana to
+individuals who were not qualifying patients under Maine law, including recipients in other states.
+Following indictment for criminal CSA violations, the defendants sought to invoke the appropriations
+rider to bar their prosecutions. They argued that the rider “must be read to preclude the DOJ, under most
+circumstances, from prosecuting persons who possess state licenses to partake in medical marijuana
+activity.” DOJ instead urged the court to apply the Ninth Circuit’s standard, allowing prosecution unless
+the defendants could show that they acted in strict compliance with state medical marijuana laws.
+The First Circuit declined to adopt either of the proposed tests. As an initial matter, the court agreed with
+the Ninth Circuit that the rider means “DOJ may not spend funds to bring prosecutions if doing so
+prevents a state from giving practical effect to its medical marijuana laws.” However, the panel declined
+to adopt the Ninth Circuit’s holding that the rider bars prosecution only in cases where defendants strictly
+complied with state law. The court noted that the text of the rider does not explicitly require strict
+compliance with state law and that, given the complexity of state marijuana regulations, “the potential for
+technical noncompliance [with state law] is real enough that no person through any reasonable effort
+could always assure strict compliance.” Thus, the First Circuit concluded that requiring strict compliance
+with state law would likely chill state-legal medical marijuana activities and prevent the states from
+giving effect to their medical marijuana laws. On the other hand, the court also rejected the defendants’
+more expansive reading of the rider, reasoning that “Congress surely did not intend for the rider to
+provide a safe harbor to all caregivers with facially valid documents without regard for blatantly
+illegitimate activity.”
+Ultimately, while the First Circuit held that the rider bars CSA prosecution in at least some cases where
+the defendant has committed minor technical violations of state medical marijuana laws, it declined to
+Congressional Research Service 4
+“fully define [the] precise boundaries” of its alternative standard. On the record before it, the court
+concluded that “the defendants’ cultivation, possession, and distribution of marijuana aimed at supplying
+persons whom no defendant ever thought were qualifying patients under Maine law” and that a CSA
+conviction in those circumstances would not “prevent Maine’s medical marijuana laws from having their
+intended practical effect.”
+Considerations for Congress
+It remains to be seen whether and how the difference in reasoning between the Ninth Circuit and the First
+Circuit will make a practical difference in federal marijuana prosecutions. In theory, the First Circuit’s
+analysis could make it easier for defendants to invoke the appropriations rider to bar federal prosecutions,
+because they could do so even if they had not been in strict compliance with state law. In practice,
+however, resource limitations and enforcement priorities have historically meant that federal marijuana
+prosecutions target only individuals and organizations that have clearly not complied with state law. Thus,
+one of the First Circuit judges who considered Bilodeau agreed with the panel’s interpretation of the rider
+but wrote a concurrence noting that, in practice, the First Circuit’s standard might not be “materially
+different from the one that the Ninth Circuit applied.”
+While the medical marijuana appropriations rider restricts DOJ’s ability to bring some marijuana
+prosecutions, its effect is limited in several ways. First, marijuana-related activities that fall outside the
+scope of the appropriations rider remain subject to prosecution under the CSA. By its terms, the rider
+applies only to state laws related to medical marijuana; it does not bar prosecution of any activities related
+to recreational marijuana, even if those activities are permitted under state law. Second, as the Ninth
+Circuit has explained, even where the rider does apply, it “does not provide immunity from prosecution
+for federal marijuana offenses”—it simply restricts DOJ’s ability to expend funds to enforce federal law
+for as long as it remains in effect. If Congress instead opted to repeal the rider or allow it to lapse, DOJ
+would be able to prosecute future CSA violations as well as past violations that occurred while the rider
+was in effect, subject to the applicable statute of limitations. Third, participants in the cannabis industry
+may face numerous collateral consequences arising from the federal prohibition of marijuana in areas
+including bankruptcy, taxation, and immigration. Many of those legal consequences attach regardless of
+whether a person is charged with or convicted of a CSA offense, meaning the rider would not affect them.
+Because the medical marijuana appropriations rider applies to marijuana specifically, regardless of how
+the substance is classified under the CSA, rescheduling marijuana would not affect the rider.
+Congress has the authority to enact legislation to clarify or alter the scope of the appropriations rider,
+repeal the rider, or decline to include it in future appropriations laws. For instance, Congress could amend
+the rider to specify whether strict compliance with state medical marijuana law is required in order to bar
+prosecution under the CSA or provide a different standard that DOJ and the courts should apply. Congress
+could also expand the scope of the rider to bar the expenditure of funds on prosecutions related to
+recreational marijuana or other controlled substances.
+Beyond the appropriations context, Congress could also consider other changes to federal marijuana law
+that would affect its interaction with state law. Such changes could take the form of more stringent
+marijuana regulation—for instance, through increased DOJ funding to prosecute CSA violations or
+limiting federal funds for states that legalize marijuana. In contrast, most recent proposals before
+Congress seek to relax federal restrictions on marijuana or mitigate the disparity between federal and state
+marijuana regulation. Some proposals would remove marijuana from regulation under the CSA entirely or
+move it to a less restrictive schedule. Other proposed legislation would limit enforcement of federal
+marijuana law in states that elect to legalize marijuana. Additional proposals from the past few years
+would seek to address specific legal consequences of marijuana’s Schedule I status by, for example,
+Congressional Research Service 5
+LSB10694 · VERSION 4 · UPDATED
+enabling marijuana businesses to access banking services or removing collateral consequences for
+individuals in areas such as immigration, federally assisted housing, and gun ownership.

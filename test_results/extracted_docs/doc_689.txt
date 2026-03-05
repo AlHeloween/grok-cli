@@ -1,0 +1,114 @@
+18 While commentators
+generally agree that maturity transformation is socially valuable,19 the process makes financial nstitutions vulnerable to liquidity “runs.”
+20 That is, when a financial institution’s short-term
+creditors become concerned about its solvency or liquidity, they have incentives to demand
+immediate conversion of their claims into cash,21 or to reduce their exposure in other ways that
+force the institution to sell its illiquid assets at significantly discounted prices.22
+A “run” on one financial institution can spread to other institutions that do business with it.23
+Small banks typically hold deposit balances at larger banks, and large banks, securities firms, and
+insurance companies often face significant exposure to one another through their over-the-counter
+derivatives portfolios.24 Accordingly, troubles at one financial institution can spread to others,
+resulting in additional “runs” and a “contagious panic throughout the financial system that causes
+otherwise solvent financial institutions to become insolvent.”
+25 This type of financial “contagion”
+can cause asset price implosions as institutions liquidate assets in order to meet creditor demands,
+further impairing their ability to lend and the ability of businesses to raise capital.26 Faced with a
+choice between bailouts and economic collapse, policymakers have generally opted for bailouts,27
+70 Among other things, Dodd-Frank reformed certain aspects of securities and
+derivatives markets,71 imposed a variety of requirements related to mortgage standards,
+72 and
+created a new federal agency tasked with consumer financial protection (the Consumer Financial
+Protection Bureau).73 Other portions of Dodd-Frank are specifically directed at the systemic risk
+created by TBTF financial institutions. In order to minimize the risks that large financial
+institutions like Lehman and AIG fail, Title I of Dodd-Frank establishes an enhanced prudential
+regulatory regime for certain large bank holding companies and non-bank financial companies.74
+And in order to resolve systemically important financial institutions in the event that they
+nevertheless experience financial distress, Title II establishes a new resolution regime available
+for such institutions outside of the Bankruptcy Code.75 The remaining sections of this report
+discuss the legal issues raised by Titles I and II, their implementation by federal regulatory
+agencies, and proposals to reform them.
+
+Regulators have traditionally relied upon a variety of tools to minimize the risks of financial
+institution failures. In order to reduce the risk of insolvency, regulators have imposed capital
+requirements on commercial and investment banks.76 In order to reduce depositors’ incentives to “run,” regulators require all commercial banks to obtain minimum levels of deposit insurance
+from the Federal Deposit Insurance Corporation (FDIC).77 In order to address liquidity problems,
+the Federal Reserve has the authority to serve as a “lender of last resort” by making “discount
+window” loans to commercial banks.78 Moreover, the Federal Reserve can lend to non-banks in
+“unusual and exigent circumstances” pursuant to its authority under Section 13(3) of the Federal
+Reserve Act.79 However, as the 2007-2009 financial crisis arguably demonstrated, sometimes
+these measures have proven insufficient to prevent financial institution failures.
+In response to these concerns, Title I of Dodd-Frank establishes an enhanced prudential
+regulatory regime for certain large financial institutions.80 Specifically, the Title I regime applies
+to (1) all bank holding companies with total consolidated assets of $50 billion or more, and (2)
+any non-bank financial companies81 that the Financial Stability Oversight Council (FSOC)82
+
+designates as systemically important.83 Section 165 of Dodd-Frank directs the Federal Reserve to
+impose prudential standards on these institutions that “are more stringent than” those applicable
+to other bank holding companies and non-bank financial companies, and that “increase in
+stringency” based on certain statutorily-prescribed considerations.84 These enhanced standards
+include
+1. risk-based capital requirements and leverage limits;
+85
+2. liquidity requirements;
+86
+3. overall risk management requirements;
+87
+4. a requirement that the relevant companies develop resolution plans (so-called
+“living wills”) describing how they can be rapidly resolved in the event of
+material distress or failure;
+88 and
+5. credit exposure reporting requirements.89
+Congress is currently considering whether to change the first basis for imposition of enhanced
+prudential regulations on financial institutions—the automatic $50 billion threshold for bank
+holding companies.90 That policy question is addressed in another recent Congressional Research
+Service report.91 This section of the report accordingly provides a legal overview of (1) FSOC’s
+process for designating non-banks as systemically important and FSOC’s designations to date, (2)
+criticisms of FSOC’s designation process and responses, and (3) proposals to reform FSOC’s
+designation process.
+
+Proposed Legislation
+A number of bills that would alter FSOC’s authority to designate non-banks for enhanced
+regulation have been introduced in the 115th Congress. The Financial CHOICE Act of 2017, as
+passed by the House of Representatives in June 2017, would repeal FSOC’s authority to
+designate non-banks for enhanced regulation altogether.167 H.R. 4061, the Financial Stability
+Oversight Council Improvement Act of 2017, which was reported out of the House Committee on
+Financial Services in March 2018, proposes more limited changes to FSOC’s authority.168
+Specifically, H.R. 4061 would require FSOC to consider “the appropriateness of the imposition of
+prudential standards as opposed to other forms of regulation to mitigate the identified risks” in
+determining whether to designate a non-bank as systemically important.169 The bill would further
+require that FSOC provide designated companies with the opportunity to submit written materials
+contesting their designation during FSOC’s annual reevaluation process.170 If FSOC determines
+during a re-evaluation that a designation should not be rescinded, the bill would require it to
+provide notice to the designated company “address[ing] with specificity” how it assessed the
+relevant statutory factors in light of the company’s written submissions.171
+The Trump Administration’s Views
+In November 2017, the Trump Administration’s Treasury Department released a report outlining
+four general recommendations for reforming FSOC’s process for designating non-banks as
+systemically important.172 First, the report recommended that FSOC adopt an “activities-based” or “industry-wide” approach to assessing potential risks posed by non-banks.173 Under this
+approach, FSOC would prioritize identifying specific financial activities and products that could
+pose risks to financial stability, work with the primary financial regulatory agencies to address
+those specific risks, and consider individual firms for designation as systemically important only
+as a matter of last resort if more limited actions aimed at mitigating discrete risks are insufficient
+to safeguard financial stability.174
+Second, the Treasury Department recommended that FSOC “increas[e] the analytical rigor” of its
+designation analyses.175 Specifically, the Report recommended that FSOC: (1) consider any
+factors that might mitigate the exposure of a firm’s creditors and counterparties to its financial
+distress; (2) focus on “plausible” (and not merely “possible”) asset liquidation risks; (3) evaluate
+the likelihood that a firm will experience financial distress before evaluating how that distress
+could be transmitted to other firms; (4) consider the benefits and costs of designations; and
+(5) collapse its three-stage review process into two steps, notifying companies that they are under
+active review during Stage 1 and voting on proposed designations after the completion of Stage
+2.176
+Third, the Treasury Department recommended enhancing engagement between FSOC and
+companies under review, and improving the designation process’s transparency.177 Specifically,
+the report recommended that FSOC: (1) engage earlier with companies under review and “explain
+... the key risks” that FSOC has identified, (2) “undertake greater engagement” with companies’
+primary financial regulators, and (3) publicly release explanations of its designation decisions.178
+Fourth, the Treasury Department recommended that FSOC provide “a clear off-ramp” for nonbanks designated as systemically important.179 The report recommended that FSOC: (1) highlight
+the key risks that led to a company’s designation, (2) “adopt a more robust and transparent
+process for its annual reevaluations” that “make[s] clear how companies can engage with FSOC
+... and what information companies should submit during a reevaluation,” (3) “develop a process
+to enable a designated company to discuss potential changes it could make to address the risks it
+could pose to financial stability,” and (4) “make clear that the standard it applies in its annual
+reevaluations is the same as the standard for an initial designation of a nonbank financial
+company.”

@@ -1,0 +1,223 @@
+
+Diffuse Esophageal Spasm
+■ Essentials of Diagnosis
+• Dysphagia, noncardiac chest pain, hypersalivation, reflux of
+recently ingested food
+• May be precipitated by ingestion of hot or cold foods
+• Endoscopic, radiographic, and manometric demonstration of nonpropulsive hyperperistalsis; lower esophageal sphincter relaxes
+normally
+• “Nutcracker esophagus” variant with prolonged, high-pressure
+(> 175 mm Hg) propulsive contractions
+■ Differential Diagnosis
+• Angina pectoris
+• Esophageal or mediastinal tumors
+• Aperistalsis
+• Achalasia
+• Psychiatric disease
+■ Treatment
+• Trial of acid suppression.
+• Calcium channel blockers such as nifedipine or diltiazem in combination with nitrates often effective. For patient failing to respond,
+possible role for sildenafil, botulinum toxin.
+• Trazodone or tricyclic antidepressants for substernal pain
+■ Pearl
+This condition may be indistinguishable from myocardial ischemia;
+exclude that possibility before investigating the esophagus.
+Reference
+Grübel C, Borovicka J, Schwizer W, Fox M, Hebbard G. Diffuse esophageal
+spasm. Am J Gastroenterol 2008;103:450. [PMID: 18005367]
+Chapter 3 Gastrointestinal Diseases 77
+3
+Disaccharidase (Lactase) Deficiency
+■ Essentials of Diagnosis
+• Common in Asians and blacks, in whom lactase enzyme deficiency is nearly ubiquitous and begins in childhood; can also be
+acquired temporarily after gastroenteritis of other causes
+• Symptoms vary from abdominal bloating, distention, cramps, and flatulence to explosive diarrhea in response to disaccharide ingestion
+• Stool pH < 5.5; reducing substances present in stool
+• Abnormal lactose hydrogen breath test, resolution of symptoms
+on lactose-free diet, or flat glucose response to disaccharide loading suggests the diagnosis
+■ Differential Diagnosis
+• Chronic mucosal malabsorptive disorders
+• Irritable bowel syndrome
+• Celiac sprue
+• Small intestinal bacterial overgrowth
+• Inflammatory bowel disease
+• Pancreatic insufficiency
+• Giardiasis
+• Excess artificial sweetener use
+■ Treatment
+• Restriction of dietary lactose; usually happens by experience in
+affected minorities from early life
+• Lactase enzyme supplementation
+• Maintenance of adequate nutritional and calcium intake
+■ Pearl
+Consider this in undiagnosed diarrhea; the patient may not be aware
+of ingesting lactose-containing foods.
+Foreign Bodies in the Esophagus
+■ Essentials of Diagnosis
+• Most common in children, edentulous older patients, and the
+severely mentally impaired
+• Occurs at physiologic areas of narrowing (upper esophageal
+sphincter, the level of the aortic arch, or the diaphragmatic hiatus)
+• Other predisposing factors favoring impaction include Zenker’s
+diverticulum, webs, achalasia, peptic strictures, or malignancy
+• Recent ingestion of food or foreign material (coins most commonly in children, meat bolus most common in adults), but the
+history may be missing
+• Vague discomfort in chest or neck, dysphagia, inability to handle
+secretions, odynophagia, hypersalivation, and stridor or dyspnea
+in children
+• Radiographic or endoscopic evidence of esophageal obstruction
+by foreign body
+■ Differential Diagnosis
+• Esophageal stricture
+• Eosinophilic esophagitis
+• Esophageal or mediastinal tumor
+• Angina pectoris
+■ Treatment
+• Endoscopic removal with airway protection as needed and the
+use of an overtube if sharp objects are present
+• Emergent endoscopy should be used for sharp objects, disk batteries (secondary to risk of perforation due to their caustic nature),
+or evidence of the inability to handle secretions; objects retained
+in the esophagus should be removed within 24 hours of ingestion
+• Endoscopy is successful in > 90% of cases; avoid barium studies
+before endoscopy, as they impair visualization
+■ Pearl
+Treatment is ordinarily straightforward; diagnosis may not be, especially
+in the very young and very old.
+Reference
+Eisen GM, Baron TH, Dominitz JA, et al; American Society for Gastrointestinal
+Endoscopy. Guideline for the management of ingested foreign bodies.
+Gastrointest Endosc 2002;55:802. [PMID: 12024131]
+Gastritis
+■ Essentials of Diagnosis
+• May be acute (erosive) or indolent (atrophic); multiple varied causes
+• Symptoms often vague and include nausea, vomiting, anorexia,
+nondescript upper abdominal distress
+• Mild epigastric tenderness to palpation; in some, physical signs
+absent
+• Iron deficiency anemia not unusual
+• Endoscopy with gastric biopsy for definitive diagnosis
+• Multiple associations include stress and diminished mucosal blood
+flow (burns, sepsis, critical illness), drugs (NSAIDs, salicylates),
+atrophic states (aging, pernicious anemia), previous surgery (gastrectomy, Billroth II), H. pylori infection, acute or chronic alcoholism
+■ Differential Diagnosis
+• Peptic ulcer
+• Hiatal hernia
+• Malignancy of stomach or pancreas
+• Cholecystitis
+• Ischemic cardiac disease
+■ Treatment
+• Avoidance of alcohol, caffeine, salicylates, tobacco, and NSAIDs
+• Investigate for presence of H. pylori; eradicate if present
+• Proton pump inhibitors in patients receiving oral feedings,
+H2 inhibitors, or sucralfate
+• Prevention in high-risk patients (eg, intensive care setting) using
+these same agents
+■ Pearl
+Ninety-five percent of gastroenterologists and a high proportion of other
+health care workers carry H. pylori.
+Reference
+El-Zimaity H. Gastritis and gastric atrophy. Curr Opin Gastroenterol 2008;24:682.
+[PMID: 19122515]
+84 Current Essentials of Medicine
+3
+Gastroesophageal Reflux Disease (GERD)
+■ Essentials of Diagnosis
+• Substernal burning (pyrosis) or pressure, aggravated by recumbency and relieved with sitting; can cause dysphagia, odynophagia,
+atypical chest pain; proton pump inhibitor may be diagnostic and
+therapeutic; further testing when diagnosis unclear, symptoms
+refractory
+• Reflux, hiatal hernia may be found at barium study
+• Incompetent lower esophageal sphincter (LES); endoscopy with
+biopsy may be necessary to exclude other diagnoses
+• Esophageal pH helpful during symptoms
+• Diminished LES tone also seen in obesity, pregnancy, hiatal
+hernia, nasogastric tube
+■ Differential Diagnosis
+• Peptic ulcer disease
+• Angina pectoris
+• Achalasia, esophageal spasm, pill esophagitis
+■ Treatment
+• Weight loss, avoidance of late-night meals, elevation of head of bed
+• Avoid chocolate, caffeine, tobacco, alcohol
+• High-dose H2 blockers or proton pump inhibitors
+• Surgical fundoplication for patients intolerant or allergic to medical therapy or refractory cases with predominantly regurgitation
+or nonacid reflux; use caution in patients whose primary complaint
+is heartburn and who are found to have nonerosive GER, as these
+patients likely have a component of visceral hypersensitivity that
+may be exacerbated by surgery.
+■ Pearl
+Eradication of H. pylori may actually worsen GERD; the gastric acid
+secretion increases upon eradication of the bacterium.
+Reference
+Fass R. Proton pump inhibitor failure: what are the therapeutic options? Am J
+Gastroenterol 2009;104(suppl):S33. [PMID: 19262545]
+Chapter 3 Gastrointestinal Diseases 85
+3
+Intestinal Tuberculosis
+■ Essentials of Diagnosis
+• Chronic abdominal pain, anorexia, bloating; weight loss, fever,
+diarrhea, new-onset ascites in many
+• Mild right lower quadrant tenderness, as ileocecal area is the most
+commonly involved intestinal site; fistula-in-ano sometimes seen
+• Barium study may reveal mucosal ulcerations or scarring and
+fibrosis with narrowing of the small or large intestine
+• In peritonitis, ascitic fluid has high protein and mononuclear pleocytosis; peritoneal biopsy with granulomas is more sensitive than
+ascites AFB culture; high adenosine deaminase levels in ascitic
+fluid may suggest the diagnosis; TB peritonitis more common in
+those with immune compromise
+• Complications include intestinal obstruction, hemorrhage, fistula
+formation, and bacterial overgrowth with malabsorption
+■ Differential Diagnosis
+• Carcinoma of the colon or small bowel
+• Inflammatory bowel disease: Crohn’s disease
+• Ameboma or Yersinia infection
+• Intestinal lymphoma or amyloidosis
+• Ovarian or peritoneal carcinomatosis
+• Mycobacterium avium-intracellulare infection
+■ Treatment
+• Standard therapy for tuberculosis; as infection heals, the affected
+bowel may develop stricture
+■ Pearl
+Seen uncommonly in the developed world, but experienced clinicians
+have long noted that exploratory laparotomy for suspected small bowel
+obstruction relieves symptoms without antituberculous therapy.
+Reference
+Donoghue HD, Holton J. Intestinal tuberculosis. Curr Opin Infect Dis
+2009;22:490. [PMID: 19623062]
+Carpal Tunnel Syndrome
+■ Essentials of Diagnosis
+• The most common entrapment neuropathy, caused by compression of the median nerve (which innervates the flexor muscles of
+the wrist and fingers)
+• Middle-aged women and those with a history of repetitive use of
+the hands commonly affected
+• Pain classically worse at night (sleep with hands curled into the
+body) and exacerbated by hand movement
+• Initial symptoms of pain or paresthesias in thumb, index, middle, and
+lateral part of ring finger; progression to thenar eminence wasting
+• Pain radiation to forearm, shoulder, neck, chest, or other fingers
+of the hand not uncommon
+• Positive Tinel’s sign
+• Usually idiopathic; in bilateral onset consider secondary causes
+including rheumatoid arthritis, amyloidosis, sarcoidosis, hypothyroidism, diabetes, pregnancy, acromegaly, gout
+• Diagnosis is primarily clinical; detection of deficits by electrodiagnostic testing (assessing nerve conduction velocity) very helpful to guide referral for surgical release
+■ Differential Diagnosis
+• C6 or C7 cervical radiculopathy
+• Thoracic outlet syndrome leading to brachial plexus neuropathy
+• Mononeuritis multiplex
+• Syringomyelia
+• Multiple sclerosis
+• Angina pectoris, especially when left-sided
+■ Treatment
+• Conservative measures initially, including hand rest, nocturnal
+splinting of wrists, anti-inflammatory medications
+• Steroid injection into the carpal tunnel occasionally
+• Surgical decompression in a few who have nerve conduction
+abnormalities; best done before development of thenar atrophy
+■ Pearl
+Carpal tunnel affects the radial three and one-half fingers, myocardial
+ischemia the ulnar one and one-half; remember this in evaluating arm
+pain—and hope it’s the right arm.
+Reference
+Dahlin LB, Salö M, Thomsen N, Stütz N. Carpal tunnel syndrome and treatment
+of recurrent symptoms. Scand J Plast Reconstr Surg Hand Surg 2010;44:4.
+[PMID: 20136467]

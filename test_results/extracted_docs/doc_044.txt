@@ -1,0 +1,109 @@
+**Customer Relationship Management Systems**
+What is a CRM system?
+A CRM system gathers, links, and analyses all collected customer data, including contact information, interactions with company representatives, purchases, service requests, assets, and quotes/proposals. The system then lets users access that data and understand what happened at each touchpoint. Through this understanding, a complete customer profile is developed, and a solid customer relationship is built.
+
+Customer data can also be aggregated to populate incentive compensation modelling, sales forecasting, territory segmentation, campaign design, product innovation, and other sales, marketing, and customer service activities. CRM tools and software help you streamline the customer engagement process, close more sales deals, establish strong customer relationships, build customer loyalty, and ultimately increase sales and profits.
+
+Learn more about Oracle's comprehensive CRM sales solution
+
+Who should use a CRM?
+CRM tools have almost always been seen as sales tools. However, over time, these solutions have extended their reach and become integral to marketing, ecommerce, and customer service functions.
+
+The power of customer relationship management is derived by constantly gathering customer data, analysing that data, and then using those insights to deepen relationships and improve business results. It allows any customer-facing employee to convey, "We know you, and we value you."
+
+A set of data-driven CRM tools supports you beyond the sales process, which is crucial to business performance. With the in-depth knowledge of your customers, you can:
+
+Offer and sell new, add-on products—at the right time in the right way at the right price
+Help customer service teams resolve issues faster
+Help development teams create better products and services
+CRM: What is the goal?
+CRM software supports strong, productive, loyal customer relationships through informed and superior customer experiences. The goal? To improve customer acquisition and retention by providing experiences that keep your customers coming back. Customer relationship management is both a strategy and a tool that supports those experiences in five key ways.
+
+1
+Answer the most basic customer questions
+Customer relationship management helps you find new customers, sell to them, and develop a loyal customer relationship with them. These systems collect many different types of customer data and organize it so you understand your customers/prospects better and can answer (or even anticipate) their questions.
+
+2
+Manage customer data
+Bad decisions come from a lack of access to and inability to interpret customer data. Being able to store, track, and validate customer data within an automated system will allow sales and marketing teams to optimize customer engagement strategies and build better relationships.
+
+3
+Automate the sales process
+Sales force automation makes selling more efficient, helping you sell more quickly. The best CRM systems use artificial intelligence (AI) and unified customer data to automate the sales process by prompting sellers with recommended next-best actions.
+
+4
+Personalize marketing campaigns
+Customers and potential customers arrive through various channels, including websites, social media, email, online/offline events, etc. Unfortunately, many businesses struggle to connect marketing efforts across all these channels. Marketing teams can improve conversions, strengthen customer relationships, and align messaging across their digital customer channels by leveraging CRM systems.
+
+5
+Align sales and marketing
+With customer relationship management, marketing and sales work better together to drive sales and increase revenue. When sales and marketing are in sync, sales productivity goes up along with marketing ROI.
+
+CRM features and benefits
+Customer relationship management solutions are one of the largest and fastest-growing enterprise application software categories. The CRM market size was valued at $41.93 billion in 2019 and is projected to reach $96.39 billion by 2027, growing at a CAGR of 11.1% from 2020 to 2027.
+
+More and more companies are using CRM solutions to acquire more sales leads, improve the sales pipeline, boost productivity, and improve customer satisfaction. However, many have encountered problems ranging from cost overruns and CRM integration challenges to system limitations. These are avoidable problems, and you can help ensure success by focusing on a customer-first strategy.
+
+It's critical for businesses to have integrated, customizable, and comprehensive views into their customers’ and potential customers’ solution/product interests, customer service needs, and purchase history. A good CRM system should provide that view. All data is in a single location, viewable through optimized dashboards.
+
+Additionally, your marketing team can leverage CRM solutions to orchestrate personalized marketing and lead generation campaigns. These systems can help track all cross-channel interactions—from engagement to purchase. Mature cloud CRM solutions do more. They are fully integrated with back-office solutions to successfully support the entire customer journey.
+
+Because it manages prospect and customer engagement points across all channels, your CRM system can inform all your communications and marketing activities, delivering the 360-degree customer view needed for a truly connected omnichannel experience.
+
+Many different vendors have many different types of solutions. However, a few capabilities are must-haves.
+
+Be easy to use, or people won't use it
+Fit within your budget and provide an acceptable ROI
+Integrate well with your other software systems
+Provide accurate, consistent data for that much-needed, complete customer 360-degree view
+Types of CRM
+CRM software solutions, at their core, are used to manage customer relationships and sales interactions. Still, many businesses leverage these systems simply as a sales force automation tool. But these solutions, such as Oracle's, offer many more valuable capabilities that span a wide range of marketing and sales functions, including marketing, customer service, sales, and partner channel management.
+
+Today’s CRM software can support the entire customer journey. But what one company may need from a CRM system can be vastly different from what another company might require. To help you select the right CRM for your organization, it’s helpful to know that there are three main types of CRM solutions: collaborative, operational, and analytical.
+
+CRM and data
+Data is the most critical part of any CRM software solution. In fact, customer data is the starting point for all marketing and sales activities. Successful customer engagement and relationship strategies hinge on accurate, complete, and accessible customer profiles. Bad data comes from several places, including:
+
+Fraudulently entered data
+Keystroke errors
+Duplicate customer information
+Natural changes (company bankruptcy, job changes)
+Incomplete and inaccurate data can increase quickly to degrade the value of your CRM tools, resulting in unnecessary expenses. Conversely, when customer data is complete and accurate, businesses stand a better chance of reaching their target customers and prospects. In short, your data is a valuable asset. So it’s important to focus on collecting and optimizing these four CRM data types:
+
+Identity data
+Identity data includes descriptive details to identify customers, leads, and contacts. This data should be used for marketing segmentation.
+
+Descriptive data
+Descriptive data includes lifestyle details relevant to your contacts. It is what completes that all-important 360-degree view of leads and contacts.
+
+Quantitative data
+Quantitative data includes measurable data points that can help you interpret how your leads and contacts have interacted with you.
+
+Qualitative data
+Qualitative data can help you better understand your contacts’ intent, including search behaviours related to buying decisions.
+
+CRM vs. marketing automation
+Both CRM and marketing automation systems are data-driven. They focus on gathering, storing, and using data. For example, marketing automation systems gather leads by communicating with potential and current customers.
+
+Specifically, marketing automation looks to gather enough customer data points to show intent and then hands that person off to the sales team as a marketing-qualified lead (MQL). A CRM solution picks up where the marketing automation solution left off and works to convert those marketing-qualified leads into contacts.
+
+AI in CRM
+
+Discover the next generation of CRM (0:38)
+The best CRM systems offer robust analytics coupled with AI and machine learning. AI is the future of customer relationship management, going beyond contact management and sales force automation to truly helping you sell.
+
+AI in CRM can guide you toward the next-best actions and provide smart talking points—specific to each customer opportunity. AI also delivers timely customer intelligence that helps you optimize customer experience (CX) across marketing, sales, and customer service.
+
+CRM vs. CX
+When customer relationship management first arrived on the scene, businesses would capture data but not know what to do with it. Today, CRM systems are integrated with AI, which helps interpret and predict what that data means.
+
+CRM AI capabilities are the foundation to using a 360-degree view of the customer that will start them on their way to becoming your customer. As these AI enhancements continue to evolve, CX will continue to improve—and in turn, customer expectations will continue to increase.
+
+Your business needs to fully understand your customers (and how they buy) to not only meet their expectations but to provide them with compelling experiences. This is the future of CX and should serve as your guide to selecting the best CRM solution.
+
+How CRM improves customer experience
+A complete customer view is necessary for business success and growth. Without a CRM system, you'll struggle to develop that much-needed 360-degree view of the customer that you need to:
+
+Personalize customer interactions
+Automate business processes (with appropriate CX integrations)
+Track all customer interactions

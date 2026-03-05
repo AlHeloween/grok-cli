@@ -1,0 +1,214 @@
+Skip to content
+Tech Time With Timmy logo
+Home
+Videos
+Articles
+About Us
+Contact Us
+SearchSearch
+Search...
+How To Create A Text File On A Chromebook
+August 9, 2022
+This Article May Contain Affiliate Links
+how to create a text file on chromebook
+Table of Contents
+How To Create A TXT file On A Chromebook
+How To Save The TXT File
+How To Open The TXT File
+Text files (or .txt files) are useful files that contain plain, unformatted text. And if you ever want to create a new .txt file on your Chromebook, you’re in luck. Because that’s exactly what I’m going to show you how to do in this article.
+
+Prefer to watch a video about how to create a text file on a Chromebook? Click here.
+
+
+Before we begin, I’d just like to point out that a .txt file is a very basic file that contains only unformatted plain text. And if you want to create a file with nicer looking formatted text on a Chromebook, I would recommend something like Google Docs. But if you do want to create a .txt file, let’s proceed with the tutorial.
+
+How To Create A TXT file On A Chromebook
+Chrome OS comes with a built in app for creating, saving, opening, and editing .txt files. So to create a text on your Chromebook, you’ll just need to open an app called “Text” which should already be preinstalled on your Chromebook.
+
+So just click on the circle in the bottom left hand corner to view all your apps…
+
+txt chromebook
+
+And you should find the “Text” app somewhere in here.
+
+how to create a text file on a chromebook
+
+Now you’ll be in the “Text” app, and if you’ve never used the text app before, it will automatically create a new .txt file for you, and you’ll be ready to start typing!
+
+how to create a txt file on a chromebook
+
+However, if you’ve opened a different .txt file on your Chromebook in the past, it would have opened in the Text app, and now whenever you open the Text app you’ll just be looking at that old file.
+
+how to create a txt file on chromebook
+
+But don’t worry, if this happens, just click “New” at the top of the left hand menu and it will create a new blank .txt file just like it would if you opened the app for the first time.
+
+how to create text file on chromebook
+
+But once you’ve got a blank text file like this, you’re ready to type whatever you want in it.
+
+how to create txt file on chromebook
+
+
+How To Save The TXT File
+Once you’ve typed your text into your new text file, all that’s left to do is save it. In the future, when you’re saving changes to an existing text file, you’ll do that by clicking the “Save” button. But, when you’re saving a brand new text file like this one, you’ll need to click “Save As” instead.
+
+how to create text file on a chromebook
+
+Now, a files window will appear, and you’ll need to name your .txt file, and choose a location for it.
+
+how to create txt file on a chromebook
+
+By default, the name of the text file will be whatever you typed in the first line of the file, which in my case is “Hello”. If you’re happy with that name, you don’t have to change it, but if you do want to give the file a propper name, you can do that here.
+
+(Just make sure you leave .txt on the end of it so that your computer knows it’s a .txt file).
+
+how to make a text file on a chromebook
+
+And you can also choose where you want the file to be saved. I’m just going to save mine in the “My files” folder to keep things simple, but if you wanted to save your file in Google Drive, or perhaps in a specific folder inside the “My Files” folder, you could do that now by double clicking the folder you want to save it in.
+
+But, once you’re happy with both the file name and the location, you can go ahead and click the “Save” button and your .txt file will be saved!
+
+how to make a txt file on a chromebook
+
+Now that your .txt file is saved, you can safely close the Text app if you want to. And if you open the files app and open the folder where you saved your .txt file, you will see it somewhere there!
+
+how to make text file on chromebook
+
+
+How To Open The TXT File
+Now that you’ve created your text file, if you want to open it in the future, you’ll just need to find it in the files app in the folder you saved it to, and double click on it…
+
+how to make text file on chromebook
+
+And the file will open up in the Text app.
+
+how to make a txt file on chromebook
+
+Just remember, if you make any changes to the file while it’s open, you’ll need to click “Save” before you close the Text app to save the changes.
+
+how to make text file on a chromebook
+
+And because you clicked the “Save” button instead of “Save As”, you won’t have to choose the name and location or anything, it will just update the existing file with the new changes.
+
+And that’s all there is to creating and using text files on a Chromebook! But if you want more Chromebook tutorials, you’ll find them all here.
+
+Prev
+Previous
+How To Crop A Picture On A Chromebook
+Don't Miss an Episode
+Email
+Your Email Address
+
+Subscribe
+Leave a Comment
+Your email address will not be published. Required fields are marked *
+
+Type here..
+Type here..
+Name*
+Name*
+Email*
+Email*
+Subscribe On Youtube!
+Subscribe!
+
+Popular Posts
+How To Delete Files On A Chromebook
+How To Delete Files On A Chromebook
+If you have files on your Chromebook that you want to delete, you’re in the right place! Because in this article, I’m going to show
+
+Read More »
+How To Open Zip File In Android
+How To Unzip Files On An Android Phone
+If you have a zip file on your Android phone that you want to unzip, you’re in the right place. Because in this article, I’m
+
+Read More »
+google photos change date
+How To Change The Date Of Photos In Google Photos
+Google Photos is very useful for storing and organizing all your photos. But if some of your photos say they were taken on the wrong
+
+Read More »
+How To Create A Folder On A Chromebook
+How To Create A Folder On A Chromebook
+If you want to create a folder on your Chromebook to keep your files organized, you’re in the right place, because today, that’s exactly what
+
+Read More »
+how to change wallpaper on chromebook
+How To Change Your Wallpaper On A Chromebook
+If you want to change the wallpaper on your Chromebook to give it a bit of a different look and feel, you’re in the right
+
+Read More »
+How To Delete Files From Google Drive On Android
+How To Delete Files From Google Drive On Android
+If you have files on Google Drive that you want to delete using your Android phone, you’re in the right place, because in this article,
+
+Read More »
+how to open rar files on chromebook
+How To Open RAR Files On A Chromebook
+RAR files are a type of file similar to zip files that can store multiple files inside them. They’re quite handy for uploading, downloading, and
+
+Read More »
+How To Change All Caps To Lowercase In Google Docs
+How To Change All Caps To Lowercase In Google Docs
+We’ve all been there, you type out an entire sentence in Google docs, and then look up at the screen only to discover that caps
+
+Read More »
+how to open rar file in google drive
+How To Open A Rar File In Google Drive
+A RAR file is a cool file that can store multiple files inside it. But if you have a RAR file stored in Google Drive,
+
+Read More »
+
+Categories
+All Articles
+Google Docs Tips
+Google Drive Tutorials
+Chrome OS
+Other Tech Tips And Tutorials
+
+Latest Videos
+How To Log Other Devices Out Of Your Google Account
+How To Log Other Devices Out Of Your Google Account
+In this video, Timmy shows you how to log other devices out of your Google account. Whether you’ve logged in to your Google account on a borrowed device…
+
+Watch Video »
+How To Use Floating Windows On A Chromebook
+How To Use Floating Windows On A Chromebook
+In this video, Timmy shows you how to use a really handy multitasking feature in Chrome OS called Floating Windows. This allows you to have one…
+
+Watch Video »
+How To Transfer Google Drive Files From One Account To Another
+How To Transfer Google Drive Files From One Account To Another
+In this video, Timmy shows you how to move files from one Google Drive to another without having to download and re-upload them! If you have files…
+
+Watch Video »
+how to make chromebook sleep
+How To Make Your Chromebook Sleep
+In this video, Timmy shows you all four of the different ways to make your Chromebook go to sleep. So whatever your situation, if you want your…
+
+Watch Video »
+How To Close All Tabs In Chrome
+How To Close All Tabs In Chrome
+In this video, Timmy shows you how to easily close all of your open tabs in Google Chrome. Without having to manually click the cross icon on each of them…
+
+Watch Video »
+
+Tech Time With Timmy logo
+We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn fees by linking to Amazon.com and affiliated sites.
+
+Twitter
+Facebook
+Youtube
+Instagram
+Search
+Search...
+Search
+Sitemap
+Privacy Policy
+Terms And Conditions
+Affiliate Disclosure
+Work With Us
+© Tech Time With Timmy 2016 – 2022
+
+ 

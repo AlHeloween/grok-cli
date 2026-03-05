@@ -1,0 +1,76 @@
+The Orphan Drug Act and FDA Regulations:
+Setting the Stage for Ensuing Litigation
+The cost and availability of prescription drugs have been of congressional interest, and
+expenditures related to the research and development of new drugs are a significant driver of drug
+costs.1 A 2016 report by the Tufts Center for Drug Development estimated the pretax and
+preapproval cost of developing a Food and Drug Administration (FDA)-approved prescription
+drug was $2.6 billion, while a 2016 Department of Health and Human Services (HHS) report
+estimated a range from $1.2 billion to $2.6 billion.2 Given the extraordinary cost associated with
+development and marketing of a new drug, manufacturers aim to recover much of their research
+and development costs through drug sales.
+Historically, drugs designed to treat rare diseases and conditions received little attention from
+U.S. drug manufacturers, given the high cost of development and lack of widespread use.3 These
+drugs became known as “orphan drugs.”4
+In the 1970s, there was growing concern about the need
+for drugs to treat rare diseases; at that time, FDA established two committees to study the
+“inadequate motivation, and resources, for the development and distribution of drugs for rare
+diseases.”
+5
+Congress began investigating and holding hearings on the development of drugs for rare diseases
+in June 1980.6 As part of this effort, the House Subcommittee on Health and the Environment
+surveyed a number of federal agencies, universities, and pharmaceutical companies to gather
+information about various drug products used to treat rare diseases in the United States.7 The
+results of the survey, published in 1982, showed that so-called orphan drugs were generally not
+profitable, many were not patentable, and it was difficult for drug sponsors to conduct clinical
+trials to demonstrate their safety and effectiveness—in part because of the small patient
+populations they were developed to treat.8
+Given the high cost of drug development and approval in the United States, Congress found that
+“it is not financially feasible, except as a public service, for a pharmaceutical manufacturer to
+expend research and development funds” on orphan drugs, which are typically used only to treat
+small subsets of the population.9 So in 1983, Congress enacted the Orphan Drug Act (ODA) as a
+way to “facilitate the development of drugs for rare diseases or conditions,”
+10 primarily by establishing financial incentives—including tax credits, grant funding, and market exclusivity—
+to encourage pharmaceutical companies to develop and market orphan drugs in the United
+States.11
+The FDA, a division of HHS, administers the ODA. The statute does not explicitly define
+“orphan drug,” but FDA has issued regulations to define the term as a drug “intended for use in a
+rare disease or condition,” which is consistent with the statute’s phrasing.12 The ODA contains
+two main components: (1) orphan-drug designation, as described in Section 360bb, and (2)
+orphan-drug market exclusivity, as described in Section 360cc.
+13 Drug manufacturers may apply
+to obtain an orphan-drug designation for drugs in development. If granted, orphan-drug
+designation enables a drug manufacturer to access financial assistance for drug research and
+development, including tax credits for clinical testing of the drug, grant funding to cover research
+costs, and a waiver of FDA’s Prescription Drug User Fee if it ultimately submits an application
+for FDA approval of the drug.
+14 If a drug manufacturer receives FDA approval to market a drug
+designated as an orphan drug, the manufacturer is generally entitled to a seven-year exclusivity
+period. During the seven-year orphan-drug exclusivity period, the FDA cannot approve an
+application from a different drug manufacturer for approval15 to market the same drug for the
+same disease or condition.16 These statutory mechanisms of designation, approval, and
+exclusivity are intended to work together to promote the research and development of orphan
+drugs.17
+Orphan-Drug Designation
+Orphan-drug designation allows drug manufacturers18 and sponsors19 to access financial benefits
+and incentives early in the drug development process, and it also assures orphan-drug exclusivity
+for a successfully marketed drug, which aids in the recoupment of the sizable upfront investment in drug development.20 A manufacturer or sponsor may apply for an orphan-drug designation at
+any time during the drug development process, so long as the request is submitted before
+submitting the application for FDA approval of the drug.21 FDA regulations spell out the specific
+requirements for the content and format of orphan-drug designation requests,22 discuss how the
+FDA verifies orphan-drug status23 and alerts drug sponsors of deficiencies,
+24 and stipulate the
+conditions under which the FDA may refuse to grant25 or revoke a designation request.
+26
+Manufacturers and sponsors may seek an orphan-drug designation if the drug is currently being
+investigated or will be investigated for a rare disease or condition and the approval or licensing of
+the drug would be for the “use for such disease or condition.”
+27 For purposes of orphan-drug
+designation, a “rare disease or condition” is one that either (1) affects fewer than 200,000 people
+in the United States; or (2) affects more than 200,000 people in the United States but for which a
+manufacturer does not have a “reasonable expectation” of recovering its development costs from
+sales.28 A manufacturer may seek orphan-drug designation for either a previously unapproved
+drug, or for a new use of a drug that is already FDA-approved.29 Additionally, if the FDA has
+already designated and approved an orphan drug for a particular rare disease or condition, a
+sponsor may receive a subsequent designation for the same drug for the same disease or condition
+if it can present a “plausible hypothesis” that the second drug is clinically superior to the
+original.30

@@ -1,0 +1,1498 @@
+Taxes in the United States:
+History, Fairness, and
+Current Political Issues
+by Brian Roach
+
+A GDAE Teaching Module
+on Social and Environmental
+Issues in Economics
+
+Global Development And Environment Institute
+Tufts University
+Medford, MA 02155
+http://ase.tufts.edu/gdae
+
+Copyright © 2010 Global Development And Environment Institute, Tufts University.
+Copyright release is hereby granted for instructors to copy this module for instructional purposes.
+Students may also download the module directly from http://ase.tufts.edu/gdae.
+Comments and feedback from course use are welcomed:
+
+Tufts University Global Development And Environment Institute
+Tufts University
+Medford, MA 02155
+http://ase.tufts.edu/gdae
+E-mail: gdae@tufts.edu
+
+I. INTRODUCTION
+“The hardest thing in the world to understand is income tax!” – Albert Einstein
+
+Taxes are complicated. The U.S. federal tax code contains over three million words –
+about 6,000 pages. A casual browsing of the tax code’s table of contents offers a glimpse
+into the vast complexity of federal taxation. Entire sections of the tax code apply
+specifically to the taxation of vaccines (Sec. 4131-4132), shipowners' mutual protection
+and indemnity associations (Sec. 526), specially sweetened natural wines (Sec. 5385),
+and life insurance companies (Sec. 801-818). Annual changes to the tax code imply that
+taxes will continue to become more complex even as politicians tout tax simplification.
+Taxes levied by other jurisdictions, such as states and cities, add further complexity to
+taxation in the U.S. Americans spend billions of hours each year working on their taxes,
+not to mention the costs of accountants and tax preparers.
+Fortunately, one needn’t comprehend the imposing complexity of the tax code to
+understand the crucial role of taxes in American society. Taxation is an important, but
+commonly neglected, topic for students of economics, political science, and other
+disciplines. Tax policy has important economic consequences, both for the national
+economy and for particular groups within the economy. Tax policies are often designed
+with the intention of stimulating economic growth – although economists differ
+drastically about which policies are most effective at fostering growth. Taxes can create
+incentives promoting desirable behavior and disincentives for unwanted behavior.
+Taxation provides a means to redistribute economic resources towards those with low
+incomes or special needs. Taxes provide the revenue needed for critical public services
+such as social security, health care, national defense, and education.
+Taxation is as much of a political issue as an economic issue. Political leaders have used
+tax policy to promote their agendas by initiating various tax reforms: decreasing (or
+increasing) tax rates, changing the definition of taxable income, creating new taxes on
+specific products, etc. Of course, no one particularly wants to pay taxes. Specific
+groups, such as small-business owners, farmers, or retired individuals, exert significant
+political effort to reduce their share of the tax burden. The voluminous tax code is
+packed with rules that benefit a certain group of taxpayers while inevitably shifting more
+of the burden to others. Tax policy clearly reflects the expression of power in the U.S. –
+those without power or favor are left paying more in taxes while others reap the benefits
+of lower taxes because of their political influence. Broad attempts to reform the tax
+system have produced dramatic and sudden shifts in tax policy, generally motivated by
+political factors rather than sound economic theory. For example, the top marginal
+federal tax bracket on individual income in the U.S. dropped precipitously from 70% to
+28% during the 1980s. Tax policy has clearly been used to promote political, as well as
+economic, agendas.
+This module is intended to provide a basic understanding of the economic, political, and
+social context of the entire U.S. tax system. When most people think about taxes, they
+1
+
+tend to think only of the federal income tax. However, looking solely at the federal
+income tax would miss several important issues. Perhaps most importantly, the federal
+income tax is not the largest tax bill to most Americans. We’ll see that the largest tax for
+most Americans is federal social insurance taxation. Also, the federal income tax is one
+of the most progressive taxes in the U.S. system. When all taxes are considered, the U.S.
+tax system is much less progressive. You may be surprised to find out how many taxes in
+the U.S. are actually regressive – hitting low-income households at a disproportionately
+high rate.
+This module is divided into three major sections. First, some basic terms will be defined
+and discussed, including tax progressivity and the differences between several types of
+taxes. Second, a brief overview of tax history in the United States will be presented.
+Third, data on tax trends will be used to illustrate the changing nature of taxation with a
+focus on the overall progressivity of the entire tax system.
+
+II. THE STRUCTURE OF TAXATION IN THE UNITED STATES
+Tax Progressivity
+The overall system of taxation in the United States is progressive. By a progressive tax
+system, we mean that the percentage of income an individual (or household) pays in taxes
+tends to increase with increasing income. Not only do those with higher incomes pay
+more in total taxes, they pay a higher rate of taxes. This is the essence of a progressive
+tax system. For example, a person making $100,000 in a year might pay 25% of their
+income in taxes ($25,000 in taxes), while someone with an income of $30,000 might only
+pay a 10% tax rate ($3,000 in taxes).
+A tax system may also be regressive or proportional. A regressive tax system is one
+where the proportion of income paid in taxes tends to decrease as one’s income increases.
+A proportional tax system simply means that everyone pays the same tax rate regardless
+of income. A particular tax system may display elements of more than one approach.
+Consider a hypothetical tax system where one pays a proportional, or flat 1 , rate on
+income below a certain dollar amount and then progressively increasing rates above that
+dollar amount. Also, within an overall tax system, some particular taxes might be
+progressive while other taxes are regressive. We’ll see later on that this the case in the
+United States.
+The Reasons for Progressive Taxation
+The overall tax system of the United States, and in most other countries, is progressive
+for a number of reasons. A progressive tax embodies the concept that those with high
+incomes should pay more of their income in taxes because of their greater ability to pay
+1
+
+This is not exactly the same concept embodied in current proposals for a “flat tax” in the U.S. These
+proposals would set just one tax rate but would exclude a given amount of income from taxation. Thus, the
+flat tax proposals would retain a small degree of progressivity.
+
+2
+
+without critical sacrifices. By paying a tax, any household must forego an equivalent
+amount of spending on goods, services, or investments. For a high-income household,
+these foregone opportunities might include a second home, an expensive vehicle, or a
+purchase of corporate stock. A low-income household, by comparison, might have to
+forego basic medical care, post-secondary education, or vehicle safety repairs. As
+income increases, the opportunity costs of paying taxes tend to be associated more with
+luxuries rather than basic necessities. The ability-to-pay principle recognizes that a flat
+(or regressive) tax rate would impose a larger burden, in terms of foregone necessities, on
+low-income households as compared to high-income households.
+A progressive tax system is also a mechanism to addresses economic inequalities in a
+society. To evaluate a tax system’s impact on inequality, one must consider both the
+distribution of taxes paid and the distribution of the benefits derived from tax revenue. If
+the benefits of programs funded by taxation primarily benefit low-income households
+while high-income households pay the majority of taxes, then the tax system effectively
+operates as a transfer mechanism. Increasing the progressivity of the tax system or
+altering the distribution of benefits allows greater redistribution of economic resources.
+We’ll mainly focus on tax payments in this module but you should also be aware that the
+benefits of public expenditures are not evenly distributed throughout society. 2
+There is also an economic argument for a progressive tax system – it may yield a given
+level of public revenue with the least economic impact. To see why, consider how
+households with different levels of income would respond to a $100 tax cut. A lowincome household would tend to quickly spend the entire amount on needed goods and
+services – injecting $100 of increased demand into the economy. By comparison, a highincome household might only spend a fraction on goods and services, choosing to save or
+invest a portion of the money. The money that a high-income household saves or invests
+does not add to the overall level of effective demand in an economy. 3 In economic
+terms, we say that the marginal propensity to consume tends to decrease as income
+increases. So, by collecting proportionally more taxes from high-income households we
+tend to maintain a higher level of effective demand and more economic activity.
+Of course, one can posit that a tax system can become too progressive. Extremely high
+tax rates at high-income levels might create a significant disincentive that reduces the
+productive capacity of society. Very high taxes might limit the risks taken by
+entrepreneurs, stifling innovations and technological advances. The desire to “soak the
+rich” through an extremely progressive tax system might be viewed as unfair, and not just
+by the rich. In fact, this was a concern of the Constitutional framers – that a democratic
+majority would eventually impose unduly burdensome taxes on the wealthy minority.
+We’ll see that their concerns have proved groundless. Many critics of the current tax
+2
+
+The distribution of the benefits derived from public expenditures is, of course, more difficult to determine
+that the distribution of tax payments. The distribution of public assistance programs can be easily
+measured. However, the distribution of the benefits of scientific research support, business subsidies,
+public works, national defense, and other expenditures is a difficult research task.
+3
+Money saved or invested may, however, provide the financial capital necessary to increase the productive
+capacity of the economy. “Supply-side” economists stress the importance of investment by the wealthy as
+the key to economic growth.
+
+3
+
+system point to the contrary position – that the powerful minority have used their might
+to shift the tax burden away from themselves onto an immobilized and misinformed
+majority.
+Even if one could devise a tax system that is economically optimal (i.e., producing the
+highest overall level of economic growth), the topic of taxation encompasses ideals about
+equity and fairness. A society may be willing to sacrifice some degree of economic
+growth in exchange for a more equitable distribution of economic resources. This is not
+to say that economic growth must always be sacrificed with redistribution. In fact,
+analysis of the U.S. historical data finds that high levels of economic growth tend to be
+associated with periods of relatively equitable distribution of economic resources
+(Krugman, 2002).
+We now turn to differentiating between the different types of taxes levied in the U.S.
+We’ll first discuss several forms of federal taxation, roughly in order of the revenue they
+generate, and then consider taxation at the state and local levels. A final section will
+consider taxes that are generally not used in the U.S. but are important in other nations.
+Federal Income Taxes
+The federal income tax is the most visible, complicated, and debated tax in the U.S. The
+federal income tax was established with the ratification of the 16th Amendment to the
+U.S. Constitution in 1913. It is levied on wages and salaries as well as income from
+many other sources including interest, dividends, capital gains, self-employment income,
+alimony, and prizes. To understand the basic workings of federal income taxes, you need
+to comprehend only two major issues. First, all income is not taxable – there are
+important differences between “total income,” “adjusted gross income,” and “taxable
+income.” Second, you need to know the distinction between a person’s “effective tax
+rate” and “marginal tax rate.”
+Total income is simply the sum of income an individual or couple 4 receives from all
+sources. For most people, the largest portion of total income comes from wages or
+salaries. Many people also receive investment income from the three standard sources:
+interest, capital gains, and dividends. Self-employment income is also included in total
+income, along with other types of income such as alimony, farm income, and gambling
+winnings.
+The amount of federal taxes a person owes is not calculated based on total income.
+Instead, once total income is calculated, tax filers are allowed to subtract some expenses
+as non-taxable. To obtain adjusted gross income (AGI), certain out-of-pocket expenses
+made by a tax filer are subtracted from total income. These expenses include individual
+retirement account contributions, allowable moving expenses, student loan interest,
+tuition, and a few other expenses. AGI is important because much of the tax data
+presented by the IRS are sorted by AGI.
+4
+
+Married couples have the option of filing their federal taxes either jointly or separately. Children aged 14
+or over with sufficient income ($7,700 in 2002) have to file their own federal income tax returns.
+
+4
+
+However, taxes are not calculated based on AGI either. Taxable income is basically
+AGI less deductions and exemptions. Deductions are either standard or itemized. The
+standard deduction is a fixed amount excluded from taxation – for the 2009 tax year the
+standard deduction was $5,700 for single individuals and $11,400 for married couples.
+Tax filers have the option of itemizing their deductions. To itemize, a tax filer adds up
+certain expenses made during the year including state taxes, real estate taxes, mortgage
+interest, gifts to charity, and major medical expenses. 5 If the itemized deductions
+exceed the standard deduction, then the itemized total is deducted instead. Exemptions
+are calculated based on the number of tax filers and dependents. A single tax filer with
+no dependent children can claim one exemption. A married couple with no children can
+claim two exemptions. Each dependent child counts as one more exemption. Additional
+exemptions are given for being age 65 or over or blind. In 2009, each exemption
+excluded a further $3,650 from taxation. 6
+Taxable income is obtained by subtracting the deduction and exemption amounts from
+AGI. This is the amount a taxpayer actually pays taxes on. However, the amount of tax
+owed is not simply a multiple of taxable income and a single tax rate. The federal
+income tax system in the U.S. uses increasing marginal tax rates. This means that
+different tax rates apply on different portions of a person’s income. The concept is best
+illustrated with an example using the 2009 tax rates. For a single filer, the first $8,350 of
+taxable income (not total income or AGI) is taxed at a rate of 10%. Taxable income
+above $8,350 but less than $33,950 is taxed at a rate of 15%. Taxable income above
+$33,950 but less than $82,250 is taxed at a rate of 25%. Income above $82,250 is taxed
+at higher marginal rates – 28%, 33%, and 35%.
+Consider how we would calculate the taxes due for a single tax filer (let’s call her Susan)
+with no children and a total income of $35,000. Assume Susan contributed $3,000 to an
+individual retirement account and that this is her only allowable adjustment expense.
+Thus, her AGI is $32,000. She claims one exemption (herself) in the amount of $3,650
+and the standard deduction of $5,700. Thus, Susan’s taxable income is $22,650. On the
+first $8,350 of taxable income she owes 10% in taxes, or $835. The tax rate on the rest of
+her income is 15% for a tax of $2,145, (($22,650 - $8,350) × 0.15). So, her total federal
+income tax bill is $2,980, ($835 + $2,145). Note that Susan’s taxable income is $12,350
+less than her total income.
+While Susan paid a maximum tax rate of 15%, we can see that her effective tax rate is
+much lower. An effective tax rate can be calculated based on total income, AGI, or
+taxable income. Suppose we wish to calculate Susan’s effective tax rate based on her
+total income of $35,000. Given that her federal income tax is $2,980, her effective tax
+rate is only 8.5%, (($2,980/$35,000) × 100). If we based her effective tax rate on her
+AGI, it would be 9.3%, (($2,980/$32,000) × 100).
+
+5
+
+Note that some expenses, such as moving costs, are subtracted from total income to obtain AGI while
+other expenses, such as mortgage interest, are classified as deductions from AGI to obtain taxable income.
+6
+Those with high incomes (more than $125,100 for an individual) either have their exemption allowance
+either reduced or eliminated.
+
+5
+
+Social Insurance Taxes
+Taxes for federal social insurance programs, including Social Security, Medicaid, and
+Medicare, are taxed separately from income. Social insurance taxes are levied on
+salaries and wages, as well as income from self-employment. For those employed by
+others, these taxes are generally deducted directly from their paycheck. These deductions
+commonly appear as “FICA” taxes – a reference to the Federal Insurance Contributions
+Act. Self-employed individuals must pay their social insurance taxes when they file their
+federal income tax returns.
+Social insurance taxes are actually two separate taxes. The first is a tax of 12.4% of
+wages, which is primarily used to fund Social Security. Half of this tax is deducted from
+an employee’s paycheck while the employer is responsible for matching this contribution.
+The other is a tax of 2.9% for the Medicare program. Again, the employee and employer
+each pay half. Thus, social insurance taxes normally amount to a 7.65% deduction from
+an employee’s wage (6.2% + 1.45%). Self-employed individuals are responsible for
+paying the entire share, 15.3%, themselves.
+There is a very important difference between these two taxes. The Social Security tax is
+due only on the first $106,800 (in 2009) of income. On income above $106,800, no
+additional Social Security tax is paid. In other words, the maximum Social Security tax
+in 2009 that would be deducted from total wages is $6,622 ($106,800 × 0.062). The
+Medicare tax, however, is paid on all wages. Thus, the Medicare tax is truly a flat tax
+while the Social Security tax is a flat tax on the first $106,800 of income but then
+becomes a regressive tax when we consider income above this limit.
+Consider the impact of social insurance taxes on two individuals, one making a typical
+salary of $45,000 and another making $300,000. The typical worker would pay 7.65%
+on all income, or $3,443, in federal social insurance taxes. The high-income worker
+would pay the maximum Social Security contribution of $6,622 plus $4,350 for Medicare
+(1.45% of $300,000) for a total bill of $10,972. This works out to a 3.7% overall tax rate,
+or less than half the tax rate paid by the typical worker. As the high-income individual
+pays a lower rate of taxation, we see that social insurance taxes are regressive.
+Federal Corporate Taxes
+Corporations must file federal tax forms that are in many ways similar to the forms
+individuals complete. Corporate taxable income is defined as total revenues minus the
+cost of goods sold, wages and salaries, depreciation, repairs, interest paid, and other
+deductions. Thus corporations, like individuals, can take advantage of many deductions
+to reduce their taxable income. In fact, a corporation may have so many deductions that
+it actually ends up paying no tax at all or even receives a rebate check from the federal
+government. We’ll discuss this issue further later in the module.
+Corporate tax rates, like personal income tax rates, are progressive and calculated on a
+marginal basis. In 2009, the lowest corporate tax rate, applied to profits lower than
+
+6
+
+$50,000 was 15%. The highest marginal corporate tax rate, applied to profits between
+$100,000 and $335,000 was 39%. 7 As with individuals, the effective tax rate
+corporations pay is lower than their marginal tax rate.
+Federal Excise Taxes
+An excise tax is a tax on the production, sale, or use of a particular commodity. The
+federal government collects excise taxes from manufacturers and retailers for the
+production or sale of a surprising number of products including tires, telephone services,
+air travel, transportation fuels, alcohol, tobacco, and firearms.
+Unlike a sales tax, which is evident as an addition to the selling price of a product, excise
+taxes are normally incorporated into the price of a product. In most cases, consumers are
+not directly aware of the federal excise taxes they pay. However, every time you buy
+gas, make a phone call, fly in a commercial plane, or buy tobacco products, you are
+paying a federal excise tax. For example, the federal excise tax on gasoline as of 2009
+was about 18 cents per gallon.
+Federal excise taxes are another example of a regressive tax. Lower-income households
+tend to spend a greater portion of their income on goods that are subject to federal excise
+taxes. This is particularly true for gasoline, tobacco, and alcohol products.
+Federal Estate and Gift Taxes
+The vast majority of Americans will never be affected by the federal estate or gift taxes.
+These taxes apply only to the wealthiest Americans. The estate tax is applied to transfers
+of large estates to beneficiaries. Similar to the federal income tax, there is an exemption
+amount that is not taxed. Only estates valued above the exemption amount are subject to
+the estate tax, and the tax only applies to the value of the estate above the exemption. For
+example, if the tax rate were 45% of the exemption amount was $2 million, then the tax
+on an estate valued at $3.5 million would be $675,000, ((3,500,000-2,000,000)*0.45).
+As of Fall 2010, the future of the estate tax is in limbo. Under the Economic Growth and
+Tax Relief Act of 2001, estate taxes rates were gradually reduced, and exemption rates
+gradually increased, over the period 2001-2009. In 2001, the exemption amount was
+$675,000 million and the tax rate was 55%. For the 2009 tax year, the exemption amount
+was $3.5 million and the tax rate was 45%. But for 2010, there is no estate tax at all!
+Then, in 2011, the tax is scheduled to be reinstated with an exemption of $1 million and a
+tax rate of 55%. The ongoing debate over the estate tax will be covered in more detail
+later in this module.
+The transfer of large gifts is also subject to federal taxation. The estate tax and gift tax
+are complementary because the gift tax essentially prevents people from giving away
+their estate to beneficiaries tax-free while they are still alive. In 2009, gifts under
+7
+
+For the highest profit bracket – profits above $18,333,333 – the marginal rate was 35%.
+
+7
+
+$13,000 were excluded from the tax. Similar to the federal income tax, the gift tax rates
+are marginal and progressive, with a maximum tax rate of 45%.
+The estate and gift taxes are the most progressive element of federal taxation. The estate
+tax is paid exclusively by those with considerable assets. Even further, the majority of all
+estate taxes are paid by a very small number of wealthy taxpayers. According to the Tax
+Policy Center, in 2009 the richest 0.1% of those subject to the estate tax pay 42% of the
+total estate tax revenue. (Tax Policy Center, 2010).
+State and Local Taxes
+Like the federal government, state governments also rely on tax revenues to fund public
+expenditures and transfer programs. Like the federal government, state governments rely
+on several different tax mechanisms including income taxes, excise taxes, and corporate
+taxes. Thus, much of the above discussion applies to the tax structures in place in most
+states. However, there are some important differences that deserve mention.
+First, nearly all states (45 as of 2010) have instituted some type of general sales tax.
+State sales tax rates range from 2.9% (Colorado) to 8.25% (California 8 ). A few states
+reduce the tax rate on certain goods considered to be necessities, such as food and
+prescription drugs. For example, the general sales tax in Illinois is 6.25% but most food
+and drug sales are taxed at only 1%. Other states with sales taxes exempt some
+necessities from taxation entirely. In most states, localities can charge a separate sales
+tax. While local sales taxes are generally lower than state sales taxes, there are
+exceptions. In New York the state sales tax is 4% but local sales taxes are often higher
+than 4%.
+Unlike income taxes, sales taxes tend to be quite regressive. The reason is that lowincome households tend to spend a larger share of their income on taxable items than
+high-income households. Consider gasoline – an item that tends to be a smaller share of
+total expenditures as income rises. An increase in the state taxes on gasoline impacts
+low-income households more than high-income households. Some states, such as Idaho
+and Kansas, offer low-income households a tax credit to compensate for the regressive
+nature of state sales taxes.
+Forty-one states levy an income tax. 9 Most of these states have several progressive tax
+brackets (up to 12 rates) similar to the federal income tax. However, state income taxes
+tend to be much less progressive than the federal income tax. Six states have only one
+income tax rate, meaning that their income tax approaches a flat tax. Several more states
+approach a flat tax because the top rate applies at a low income or the rates are relatively
+constant. For example, Maine’s two tax rates are 6.50% and 6.85%.
+
+8
+
+Local sales taxes are also levied in some municipalities in California, which can raise the total sales tax to
+as high as 10.75%.
+9
+Two other states, Tennessee and New Hampshire, levy no state income tax but do tax dividends and
+interest.
+
+8
+
+Another important distinction between the federal system of taxation and the taxes levied
+at state and local levels is use of property taxes. In fact, property taxes tend to be the
+largest revenue source for state and local governments. The primary property tax levied
+in the U.S. is a tax on real estate, including land, private residences, and commercial
+properties. Generally, the tax is an annual assessment calculated as a proportion of the
+value of the property, although the formulas used by localities differ significantly.
+Property taxes are commonly collected at a local level, but a share of property taxes is
+allocated for state purposes. Property taxes tend to be regressive, although less regressive
+than excise and sales taxes. The reason is that high-income households tend to have a
+lower proportion of their assets subjected to property taxes. While renters do not directly
+pay property taxes, most economists conclude that the costs of property taxes are largely
+passed on to renters in the form of higher rents.
+Composition of Tax Collections in the U.S.
+Table 1 presents government tax receipts, by tax source, for 2008 (the most recent year
+for which complete data were available). The table shows that federal taxes dominate the
+nation’s tax system with nearly 65% of all receipts. The largest federal tax is the income
+tax, followed closely by social insurance taxes. State and local tax systems are primarily
+dependent on sales, income, and property taxation. The data in Table 1 cover the major
+taxes utilized in the United States. To gain a broader perspective on taxation, see Box 1
+for a summary of tax mechanisms that are major revenue sources for some countries but
+are currently non-existent or insignificant in the U.S.
+Table 1. 2008 U.S. Tax Receipts, by Source
+Source
+Federal Taxes
+Income Taxes
+Social Insurance Taxes
+Corporate Taxes
+Excise Taxes
+Estate Taxes
+Total, Federal Taxes
+State Taxes
+Sales Taxes
+Property Taxes
+Income Taxes
+Corporate Taxes
+Excise and Other Taxes
+Total, State Taxes
+Total, All Taxes
+
+Amount (Millions $)
+
+Percent of All Taxes
+
+1,145,700
+900,200
+304,300
+67,300
+23,000
+2,440,500
+
+30.4%
+23.9%
+8.1%
+1.8%
+0.6%
+64.7%
+
+304,400
+409,700
+304,600
+57,800
+253,900
+1,330,400
+3,770,900
+
+8.1%
+10.9%
+8.1%
+1.5%
+6.7%
+35.3%
+100.0%
+
+Source: U.S. Census Bureau (2010), except for federal estate tax data from Tax Policy Center
+(2008).
+
+9
+
+BOX 1. TAX ALTERNATIVES
+It is worthwhile to briefly consider tax types that are not currently important in the U.S.
+because these mechanisms are used in other countries or are central in various proposals
+to reform the U.S. tax system. We summarize five tax types here:
+1. National sales tax. This would function similar to a state sales tax – as an
+addition to the retail price of certain products. A national sales tax would clearly
+be simpler and cheaper to administer than the current federal income tax. It would
+also encourage savings because, under most proposals, income that is not spent on
+taxable goods and services is not taxed. There are, however, two significant
+disadvantages to a national sales tax. First, it would create an incentive for black
+market exchanges to evade the tax. Second, it can be highly regressive – similar
+to the regressivity of state sales taxes. A national sales tax could be made less
+regressive, or even progressive, by providing rebates for low-income households.
+2. National consumption tax. This is slightly different from a national sales tax. A
+household would pay the tax at the end of the year based on the value of its annual
+consumption of goods and services. Consumption can be calculated as total
+income less money not spent on goods and services (i.e., invested or saved).
+Again, a consumption tax would promote savings by exempting it from taxation.
+A consumption tax could also be designed to be progressive by taxing different
+levels of consumption at different marginal rates.
+3. Value added tax. Most developed countries levy some form of value added tax
+(VAT). A VAT is levied at each stage in the production process of a product,
+collected from manufacturers according to the value added at each stage. Thus,
+the tax is not added to the retail price but incorporated into prices, similar to the
+way excise taxes become embedded into the price of products. Compared to a
+national sales tax, a VAT reduces the likelihood of black markets.
+4. Wealth taxes. While the U.S. tax system includes local property taxes and, at
+least for a while, estate taxes, there is no tax on holdings of other assets such as
+corporate stocks, bonds, and personal property. Several European countries,
+including Sweden, Spain, and Switzerland, have instituted an annual wealth tax.
+A wealth tax could be very progressive by setting high rates and becoming
+effective only at significant wealth levels.
+5. Environmental taxes. These are levied on goods and services in proportion to
+their environmental impact. One example is a carbon tax, which taxes products
+based on the emissions of carbon attributable to their production or consumption.
+The rationale of environmental taxation is that it encourages the use and
+development of goods and services with reduced environmental impacts. Like
+other taxes on goods and services, environmental taxes can be regressive –
+suggesting that environmental taxes need to be combined with other progressive
+taxes or rebates for low-income households. Among developed countries, the U.S.
+collects the smallest share of tax revenues from environmental taxes (OECD,
+2010).
+
+10
+
+III. A BRIEF HISTORY OF TAXATION IN THE U.S. 10
+Before the Federal Income Tax
+The tax mechanisms used during first 150 years or so of U.S. tax history bears little
+resemblance to the current system of taxation. First, the U.S. Constitution restricted
+“direct” taxation by the federal government – meaning taxes directly on individuals.
+Instead, the federal government relied on indirect taxes including taxes on imports
+(tariffs) and excise taxes. Tariffs were the major source of U.S. government receipts
+from the beginning of the nation up to the early 1900’s. For example, in 1800 custom
+duties comprised about 84% of government receipts (U.S. Census Bureau, 1960).
+Internal federal revenue collections (which exclude tariffs on imports) as recently as the
+early 20th century were primarily derived from excise taxes on alcohol. In 1900 over
+60% of internal revenue collections came from alcohol excise taxes with another 20%
+from tobacco excise taxes.
+Another important difference is the scale of government taxation and expenditures
+relative to the entire economy. Government spending is currently a major portion of the
+total U.S. economy – in 2010 government expenditures and investment at all levels
+comprised about 20% of total economic output. In the late 1800s government
+expenditures were responsible for only about 2% of national output (earlier data on
+national output are not available). The role of government has become more prominent
+as a result of expansion of military activity and an increase in the provision of public
+services. Consequently an overall trend of increasing taxation is evident, although we’ll
+see that this trend has recently stabilized or reversed.
+The Constitutional framers were wary of a government’s power to tax. Taxation of the
+American Colonies by a distant and corrupt England was a driving force behind the
+American Revolution. Consequently, they believed in decentralized taxation and
+delegated most public revenue collection to localities, which relied primarily on property
+taxes. During peacetime the federal government was able to meet its expenses through
+relatively modest excise taxes and tariffs. During times of war, such as the War of 1812,
+federal taxes were temporarily raised to finance the war or pay down the ensuing debts.
+Once the financial crisis passed, taxes were reduced in response to public opposition to
+high tax rates.
+Like previous wars, the Civil War initiated an increase in both excise tax and tariff rates.
+Government revenue collections increased by a factor of seven between 1863 and 1866.
+Perhaps the most significant tax policy enacted during the Civil War was the institution
+of the first national income tax. Concerns about the legality of the tax, considering the
+Constitution’s prohibition of direct taxation, were muted during the national emergency.
+The income tax rates were low by modern standards – a maximum rate of 10% along
+with generous exemptions meant that only about 10% of households were subject to any
+income tax. Still, the income tax generated over 20% of federal revenues in 1865. After
+10
+
+The history of taxation is primarily derived from Brownlee (1996).
+
+11
+
+the war, few politicians favored the continuation of the income tax, and in 1872 it was
+allowed to expire.
+The impetus for the modern federal income tax rests not with a wartime emergency but
+with the Populist movement of the late 1800s. The internal tax system in place at the
+time, based primarily on excise taxes on alcohol and tobacco, was largely regressive.
+The Populists revived interest in an income tax as a means to introduce a progressive tax
+based on ability to pay. They saw it as a response to excessive monopoly profits and the
+concentration of wealth and power. In other words, the tax was not envisioned as a
+means to generate significant additional public revenue but as a vehicle of social justice.
+A federal income tax, with a large exemption of $4,000, was instituted in 1894 but the
+Supreme Court ruled it unconstitutional in 1895. Over the next couple of decades
+proposals were made for a constitutional amendment to establish a federal income tax.
+While these attempts were defeated, support for federal income taxation gradually
+increased. Eventually, in 1913 the 16th Amendment was ratified creating the legal basis
+for the federal income tax.
+While the initial income tax was progressive, it was less radical than many desired. In
+fact, many conservatives expressed guarded support for the measure to prevent a more
+significant tax. While the income tax was targeted towards the wealthy – in the first few
+years only about 2% of households paid any income tax – tax rates of only 1%-7%
+prevented it from generating significant revenues.
+“...virtually none of the income tax proponents within the government believed
+that the income tax would become a major, yet alone the dominant, permanent
+source of revenue within the consumption-based federal tax system.” (Brownlee,
+1996, p. 45)
+These views were to quickly change as the nation required a dramatic increase in
+revenues to finance World War I.
+The Growth of Direct Taxation
+Rather than relying on increases in excise taxes and tariffs to finance World War I, the
+administration of Woodrow Wilson transformed the income tax framework laid down
+just a few years previously. Desiring both to raise additional revenue and enforce social
+justice, the top marginal rate increased dramatically from 7% in 1915 to 67% in 1917
+(IRS, 2002). Corporate taxes also became an important revenue source, accounting for
+over one-quarter of internal revenue collections in 1917. In 1916 the estate tax was
+created, not necessarily to generate large revenues but as another instrument of
+progressive taxation.
+Unlike previous wars, much of the tax system laid down during World War I remained in
+place after the war. In the period from 1910 to 1925 tariffs fell from about half of
+government receipts to less than 15%. Meanwhile the new corporate and individual
+
+12
+
+income taxes made up nearly half of government receipts in the mid 1920s. The level of
+excise tax collections dropped significantly, especially during the years of Prohibition
+when alcohol excise taxes virtually disappeared.
+The Great Depression, of course, caused a significant decline in federal receipts. In 1932
+tax rates were increased in an attempt to boost federal revenue. Franklin Roosevelt, in
+the years leading up to World War II, presented progressive taxation as a key element of
+the New Deal. However, the most significant measure enacted during this period was the
+creation of old-age insurance.
+Prior to national social insurance programs, poverty was the common state of the elderly
+(Skidmore, 1999). By the 1930s, several European countries had already instituted
+programs of social insurance. Germany was the first to establish old-age and survivors
+pensions in 1889 (Peterson, 1999). The Great Depression finally motivated policy
+makers in the U.S. to enact similar legislation. Rather than funding Social Security
+programs through increases in income, or other, taxes, the funding mechanism was a
+separate tax, split equally between employers and employees. All employees covered by
+the system 11 contributed and received benefits regardless of their income. This design
+was intended to protect the system from political attack. As everyone who pays into the
+system receives benefits, Social Security is not considered “welfare” that is allocated to
+only a segment of the population. Also, because Social Security is a separate tax,
+contributors view their old-age payments as entitlements and oppose attempts to weaken
+the program. This design has so far proved very successful – Social Security is often
+called the “third rail” of American politics (i.e., touch it and you die).
+World War II created yet another emergency situation requiring additional revenues.
+Similar to Woodrow Wilson during World War I, President Franklin Roosevelt sought to
+raise revenues primarily from higher taxes on corporations and high-income households.
+Roosevelt went so far as to state that:
+“In this time of grave national danger, when all excess income should go to win
+the war, no American citizen ought to have a net income, after he has paid his
+taxes, of more than $25,000.” (Brownlee, 1996, p. 91)
+Roosevelt was unable to obtain enough Congressional support to enact his most
+progressive proposals. The ensuing compromise did produce a more progressive federal
+income tax but it also became levied on more households. Personal exemptions were
+reduced by half between 1939 and 1942 – meaning the income tax reached well into the
+middle class for the first time. The taxable income subject to the highest marginal rate
+dropped from $5 million in 1941 down to $200,000 in 1942. Also, the top marginal tax
+rate reached a record high of 94% in 1944. Another change during World War II was
+withholding federal taxes from an employee’s paycheck rather than requiring payment of
+
+11
+
+While Social Security has expanded over the years to cover more employees, all workers are not
+currently covered by the system. For example, about one-quarter of state and local government employees
+are not included in the system (Peterson, 1999).
+
+13
+
+taxes due at the end of the year. These, as well as other, changes produced a dramatic
+shift in the structure of federal taxation:
+“Under the new tax system, the number of individual taxpayers grew from 3.9
+million in 1939 to 42.6 million in 1945, and federal income tax collections over
+the period leaped from $2.2 billion to $35.1 billion. By the end of the war nearly
+90 percent of the members of the labor force submitted income-tax returns, and
+about 60 percent of the labor force paid income taxes. … At the same time, the
+federal government came to dominate the nation’s revenue system. In 1940,
+federal income tax had accounted for only 16 percent of the taxes collected by all
+levels of government; by 1950 the federal income tax produced more than 51
+percent of all collections. Installation of the new regime was the most dramatic
+shift in the nation’s tax policies since 1916.” (Brownlee, 1996, p. 96-97)
+As in the period after World War I, much of the new tax structure instituted during World
+War II remained in place after the war. Both major political parties expressed support for
+a progressive but broad income tax, relatively flat tax rates on corporate profits, and
+social insurance taxes that were basically regressive. Public support for the existing tax
+system was boosted by patriotic feelings and broad-based economic growth after the war.
+Changes to the tax system between the end of World War II and the 1980’s were
+generally minor. The Social Security tax occasionally increased as more people were
+receiving benefits. The initial tax rate of 2% (1% each for employers and employees) had
+increased to 6.13% by 1979. The Medicare and Medicaid programs were established in
+the 1960s. Across-the-board tax cuts in 1964 reduced marginal rates for both low- and
+high-income households (the top marginal rate fell from 91% in 1963 to 70% in 1965).
+Still, government continued to become a more significant portion of the entire economy
+in the decades after World War II. Total government expenditure and investment
+increased gradually from less than 18% of GDP in 1946 to over 22% by the mid 1970s.
+From the “Reagan Revolution” to the Bush Tax Cuts
+The general stasis of the federal tax system ended in the 1980s with the passage of
+several important tax reforms. Ronald Reagan was elected president in 1980 on a
+platform of smaller government and lower taxes. The Economic Recovery Tax Act of
+1981 (ERTA) enacted the largest tax cut in American history 12 and inspired tax cutting
+by many other nations in the 1980s. The supply-side rationale behind ERTA’s sharp
+reduction in tax rates, particularly on high-income households and capital, was that
+greater incentives would motivate increased investment and economic activity. The
+ensuing economic growth and consequent tax revenue growth would, in theory, more
+than offset the revenue reductions as a result of the tax cuts. Thus, the theory was that tax
+cuts could actually produce an increase in federal revenues and address the growing
+federal budget deficit as well. ERTA phased in a reduction in the top tax rate from 70%
+to 50%, enacted several corporate tax cuts, and indexed many tax parameters to inflation
+(such as personal exemptions and deductions).
+12
+
+When measured in constant dollars (adjusted for inflation).
+
+14
+
+Analysis suggests that, in reality, ERTA resulted in the largest reduction in federal
+revenues of any tax bill since World War II (Tempalski, 1998). The federal budget
+deficit continued to grow. The very next year, in 1982, the largest peacetime tax increase
+was passed (Martin, 1991). The act repealed some of the more revenue-reducing
+provisions of ERTA, such as accelerated depreciation reductions for corporations, and
+closed several corporate loopholes in the tax code. Social Security reforms were enacted
+in 1983 that increased Social Security tax rates and initiated taxation of some benefits.
+Reagan continued to push for further tax reforms, leading to the Tax Reform Act of 1986
+– considered to be the most comprehensive revision of the tax code since the 1950s
+(Petska and Strudler, 1999). This act reduced top income tax rates even further – from
+50% in 1986 to 28% in 1988. Among many other changes, it also lowered the top
+corporate tax rate from 46% to 34%.
+Clearly, the “Reagan revolution” is an important era in U.S. tax history, but many people
+misinterpret it as a period where the size of the federal government was drastically
+reduced and taxes cut significantly. Despite the two major tax cuts during Reagan’s
+terms, federal revenue collections increased at nearly the same pace as national output
+(total federal revenues increased about 76% from 1980-1988 while GDP increased 83%).
+The actual changes were more evident in the distribution of federal revenues than their
+total level. The share of revenues from both individual and corporate taxation fell (by 9%
+and 16% respectively) while the portion from social insurance taxes increased by 38%.
+As the individual and corporate taxes are progressive, while social insurance taxes are
+regressive, the outcome was a decrease in the overall progressivity of the federal tax
+system. Specific changes within the individual income tax code exacerbated the decline
+in progressivity.
+The Reagan era failed to control the growing federal deficit. The annual budget deficits
+of the federal government tripled during the 1980s 13 (OMB, 2003). Partly to raise
+additional revenue to try to reduce deficits, the first President Bush reneged on his
+campaign promise of “no new taxes” and agreed to a compromise tax proposal in 1990
+that raised the top marginal tax bracket to 31%. President Clinton reinstated additional
+progressivity in 1993 by creating the 36% and 39.6% individual tax brackets. In 1993,
+the corporate tax rate was increased slightly to 35%. These changes produced an increase
+in the progressivity of federal taxes.
+The most recent important tax legislation was the $1.35 trillion Bush tax cut passed in
+2001. The major provisions of this act include lowering individual income tax rates
+across-the-board, scheduling repeal of the estate tax in 2010, and increasing the amount
+employees can contribute under various programs for retirement purposes. Many of the
+bill’s provisions are “back-loaded,” meaning the tax reductions are phased in over time
+with most of the tax reduction occurring in the future. For example, the top marginal
+bracket fell from 39.6% in 2001 to 38.6% in 2002 but eventually fell to 35.0% in 2006.
+
+13
+
+This is based on the “on-budget” calculations. The on-budget accounting excludes the Social Security
+trust fund as well as other minor balances.
+
+15
+
+The Bush tax cut reduced the overall progressiveness of the federal income tax as highincome taxpayers received a disproportionate share of the total cuts (CTJ, 2001).
+A somewhat smaller tax cut was passed in 2003 that, among other changes, accelerated
+scheduled tax rate decreases and lowered the maximum tax rate on capital gains and
+dividends. Most recently, the 2009 American Recovery and Reinvestment Act of 2009
+instituted or expanded various tax credits such as a payroll tax credit of $400 per worker
+and an expanded tax credit for college tuition.
+
+IV. Summary Data of U.S. Tax History
+Until quite recently, tax collections have tended to increase over time; paralleling the
+increase in the size of the federal government. We see in Figure 1 that federal tax
+revenues have grown considerably during the 20th century, even after adjusting for
+inflation. A large increase in federal tax collections occurred during World War II, with
+relatively consistent growth after about 1960. However, notice occasional declines in
+federal tax revenues, due either to recessions or to major tax code changes. The growth
+Figure 1. Tax Collections, 1913-2009 (All values in 2009 dollars) 14
+
+14
+
+Data on state and local taxes are incomplete and/or inconsistent prior to 1932. All data from various
+editions of the Statistical Abstract of the United States and U.S. Census Bureau (1960).
+
+16
+
+of state and local tax collections, by comparison, has been steadier with less fluctuation.
+The reason is that state and local tax revenues are derived primarily from property and
+sales taxes, which vary less than income (particularly corporate income) during business
+cycles.
+Another way to illustrate the growth of federal taxation is to measure it relative to
+national economic output. In Figure 2 we plot federal and state and local tax collections
+as a share of GDP. Three facts are evident from Figure 2. First, total tax collections have
+generally grown as a percentage of GDP over the 20th century. Again, the largest leap
+occurred during World War II, but some additional growth is evident after the war as
+well. The second fact is that federal tax revenues now substantially exceed state and
+local tax revenues. While World War II solidified the federal government as the primary
+tax collector in the U.S., note that this trend began prior to the war. Finally, note the
+decline in federal taxes as a percentage of GDP since 2000. This is a result of both
+economic recessions and declines in federal tax rates. In fact, federal taxes as a
+percentage of GDP were lower in 2009 than in any year since the 1940s.
+Figure 2. Tax Collections as a Percentage of GDP, 1913-2009 15
+
+As federal revenues grew during the 20th century, the composition of taxation has
+changed considerably. We see in Figure 3 that at the beginning of the century federal
+taxation was dominated by excise taxes. Except for a revival of excise taxes during the
+Depression Era, their importance has generally diminished over time. Corporate taxes
+became the most significant source of federal revenues for the period 1918-1932. After a
+period of higher corporate taxes during World War II, corporate taxes have generally
+diminished in significance relative to other forms of federal taxation. Personal income
+15
+
+Data on state and local taxes are incomplete and/or inconsistent prior to 1932.
+
+17
+
+taxes became the largest source of federal revenues in 1944 and have remained so. Since
+World War II, income taxes have consistently supplied between 40-50% of federal
+revenues. Since about 1950, social insurance taxes have increased their share of federal
+revenues from about 10% up to nearly 40%. In fact, social insurance taxes may soon
+exceed personal income taxes as the largest source of federal revenues.
+
+Figure 3. Composition of Federal Taxes, 1913-2009
+
+The composition of state and local taxes, with its increased reliance on sales and property
+taxes, differs from the composition of federal taxes. Of course, each state has a different
+tax system – some states have no income and/or sales taxes, and tax rates can differ
+significantly across states. In this module, we combine tax data for all states rather than
+presenting a state-by-state analysis. Figure 4 presents the composition of state and local
+taxes over the period 1945-2009. The two major trends that are evident are a decline in
+the importance of property taxes and an increase in the importance of personal income
+taxes except for a recent reversal of these trends in the last few years. While property
+taxes were the primary source of state and local revenues until the 1970s, sales taxes
+became the major source of revenues until 2008, when property taxes again became the
+major revenue source.
+
+18
+
+Figure 4. Composition of State and Local Taxation, 1945-2009
+
+V. THE DISTRIBUTION OF TAXES IN THE UNITED STATES
+Tax Incidence Analysis
+There are basically two ways to analyze how the tax burden is distributed. The easiest
+way is to measure the taxes directly paid by entities, such as households or businesses,
+classified according to criteria such as household income, business profit levels, etc.
+These data can be obtained directly from aggregate tax return data published by the IRS
+and from reports from other government agencies. This approach considers only who
+actually pays the tax to the government. Thus, it would allocate corporate taxes to
+corporations, excise taxes to manufacturers, sales taxes to consumers, etc.
+The second approach, called tax incidence analysis, is more complex yet more
+meaningful. While taxes are paid by various entities other than individuals, such as
+corporations, partnerships, and public service organizations, the burden of all taxes
+ultimately fall on people. The final incidence of taxation is contingent upon how a
+specific tax translates into changes in prices and changes in economic behavior among
+consumers and businesses:
+“Tax incidence is the study of who bears the economic burden of a tax. More
+generally, it is the positive analysis of the impact of taxes on the distribution of
+welfare within a society. It begins with the very basic insight that the person who
+
+19
+
+has the legal obligation to make a tax payment may not be the person whose
+welfare is reduced by the existence of the tax. The statutory incidence of a tax
+refers to the distribution of those legal tax payments – based on the statutory
+obligation to remit taxes to the government. ...
+Economic incidence differs from statutory incidence because of changes in
+behavior and consequent changes in equilibrium prices. Consumers buy less of a
+taxed product, so firms produce less and buy fewer inputs – which changes the net
+price or return to each input. Thus the job of the incidence analyst is to determine
+how those other prices change, and how those price changes affect different
+groups of individuals.” (Metcalf and Fullerton, 2002, p. 1)
+Tax incidence analysis has produced a number of generally accepted conclusions
+regarding the burden of different tax mechanisms. Remember, for example, that the
+payroll tax on paper is split equally between employer and employee:
+“So, who really pays the payroll tax? Is the payroll tax reflected in reduced
+profits for the employer or in reduced wages for the worker? ... there is generally
+universal agreement that the real burden of the tax falls almost entirely on the
+worker. Basically, an employer will only hire a worker if the cost to the employer
+of hiring that worker is no more than the value that worker can add. So, a worker
+is paid roughly what he or she adds to the value of production, minus the payroll
+tax; in effect, the whole tax is deducted from wages. ... to repeat, this is not a
+controversial view; it is the view of the vast majority of analysts...” (Krugman,
+2001, p. 43)
+The most common assumption made regarding the allocation of corporate taxes is that
+the burden of these taxes falls almost exclusively on the owners of capital investments.
+Given the mobility of capital, the burden is not limited to owners of corporate capital but
+extends to owners of all capital. 16 This result is primarily a theoretical finding – in reality
+some portion of the corporate tax burden likely falls on workers (through lower wages)
+and consumers (through higher prices).
+Excise taxes, although directly paid by manufacturers, are generally attributed entirely to
+consumers according to their consumption patterns. 17 This result is based on an
+assumption of perfect competition in the affected industries. Real-world markets,
+however, are not perfectly competitive. The actual incidence of excise taxes will depend
+on the degree of competition in an industry. For example, imperfectly competitive
+industries with upward-sloping supply curves imply that prices increase by less than the
+tax and that a portion of excise taxes is borne by businesses. 18
+
+16
+
+See summary in Metcalf and Fullerton (2002).
+See CBO (2008).
+18
+See Fullerton and Metcalf (2002) for a summary of incidence assumptions and analyses for different
+types of taxes.
+17
+
+20
+
+The burden of sales taxes is generally assumed to fall directly on consumers who buy the
+taxed goods and services. Again, this is a simplifying assumption – in reality some
+portion of sales taxes filters to corporate owners, other capital owners, and workers.
+Personal income taxes paid by households are directly attributed to those households
+paying the tax. Estate tax burdens fall on the heirs paying the tax. Finally, property tax
+burdens are generally assumed to fall on property owners although the burden can be
+passed on renters (some analysts attribute property taxes more broadly to owners of
+capital).
+So, for several types of tax mechanisms (personal income, sales, excise, and estate taxes),
+data on direct tax payments is analogous to tax incidence. However, for other taxes
+(payroll, corporate, and to a lesser extent property taxes) the direct data on tax payments
+will differ from the ultimate burden of the tax.
+Using Effective Tax Rate Data to Determine Tax Progressivity
+As mentioned before, a tax is progressive if the percentage of income a person pays for
+the tax increases as income increases. Thus, we can determine whether a tax is
+progressive or regressive by looking at a table showing the effective tax rates for a
+particular tax for people in different income categories. If effective tax rates increase
+(decrease) with increasing income, then the tax is progressive (regressive). Table 2
+shows the percentage of income people in each adjusted gross income (AGI) category
+paid in federal income taxes in 2008, the most recent data available. We see that
+effective tax rates for the federal income tax tend to increase with increasing income
+(although not always). For taxpayers making less than $100,000 AGI per year, the
+Table 2. Distribution of Federal Income Taxes, 2008
+
+AGI Category
+
+Percent of
+Returns
+16.7
+
+Average
+AGI
+$5,099
+
+Average
+Income Taxes
+$177
+
+Effective Income
+Tax Rate
+3.5%
+
+16.0
+
+$14,927
+
+$513
+
+3.4%
+
+13.0
+
+$24,798
+
+$1,421
+
+5.7%
+
+18.0
+
+$39,126
+
+$2,808
+
+7.2%
+
+13.5
+
+$61,470
+
+$5,246
+
+8.5%
+
+8.2
+9.7
+2.4
+0.4
+
+$86,421
+$133,208
+$285,735
+$679,576
+
+$8,037
+$16,903
+$55,984
+$163,513
+
+9.3%
+12.7%
+19.6%
+24.1%
+
+0.2
+
+$3,349,101
+
+$780,550
+
+23.3%
+
+$1-$10,000
+$10,000-$20,000
+$20,000-$30,000
+$30,000-$50,000
+$50,000-$75,000
+$75,000 - $100,000
+$100,000-$200,000
+$200,000-$500,000
+$500,000$1,000,000
+More than
+$1,000,000
+
+21
+
+effective federal income tax rate averages less than 10% of income. For those making
+more than $200,000 per year, the federal income tax averages more than 20% of income.
+The federal income tax is clearly progressive because those with higher incomes
+generally pay a larger share of their income for the tax. For a regressive tax, effective tax
+rates tend to decrease as income increases. If effective tax rates are constant at different
+income levels, then a tax is proportional.
+Looking at effective tax rates by income categories can normally determine whether a tax
+is progressive or regressive. However, there may be some cases where effective tax rates
+do not follow a consistent pattern across income levels. For example, suppose that
+effective taxes first increase but then decrease as we move up the income spectrum.
+Another limitation with data on effective tax rates is that this approach does not tell us the
+degree of progressivity or regressivity. We might not be able to determine whether one
+tax is more progressive than another or whether a particular tax becomes more or less
+progressive over time.
+Researchers have come up with several tax indices that measure the progressivity of a tax
+as a single number. These indices allow direct comparisons across different tax types and
+across time. The most common tax progressivity index is discussed in Box 2.
+Effective Tax Rates in the United States
+Data on the distribution of taxes in the U.S. are available from several sources. The
+government sources that publish data on tax distribution include the Internal Revenue
+Service (IRS), the Joint Committee on Taxation (JCT), the Congressional Budget Office
+(CBO), and the Office of Tax Analysis within the U.S. Treasury. The IRS data are the
+most detailed but focus on federal income and estate taxes. The IRS publishes data on
+corporate taxes but does not conduct tax incidence analysis. The JCT occasionally
+conducts tax incidence analyses but only on the federal income tax, payroll taxes, and
+federal excise taxes. The CBO adds the incidence of federal corporate taxes to their
+analyses but still omits the federal estate tax and all state and local taxes.
+The only source for tax incidence data for all taxes in the U.S. is Citizens for Tax Justice
+(CTJ), a non-profit organization. CTJ uses data from government sources but has
+developed its own models of tax incidence. Comparison of tax progressivity data from
+CTJ with data from the federal sources listed above indicates that their results are
+generally similar to the government’s results and not biased in either direction (Roach,
+2003).
+
+22
+
+BOX 2. MEASURING TAX PROGRESSIVITY – THE SUITS INDEX
+The Suits Index, developed by Daniel Suits in the 1970s (Suits, 1977), calculates a single
+number that measures tax progressivity. The approach basically compares the cumulative
+share of income received by taxpayers, order from lowest to highest, to their cumulative
+share of taxes paid. For a progressive (regressive) tax, the share of taxes paid will tend to
+be less (more) than the share of income as we move up the income spectrum. Other tax
+progressivity indices have been developed but the Suits Index remains the most widely
+used approach (Anderson, et al., 2003).
+While the calculation details are not presented here, the Suits Index is a number ranging
+between –1 and +1. A negative Suits Index means that the tax is regressive while a
+positive index indicates a progressive tax (with a value of zero for a proportional tax).
+The Suits Index can be used to compare the degree of progressivity of different tax types
+as well as determine whether a tax becomes more or less progressive over time.
+The Suits Index has been used to estimate the progressivity of different tax types in the
+U.S. for 2007 (Roach, 2010). Table 2.1 shows that the U.S. tax system contains a mixture
+of progressive and regressive taxes. The federal estate tax is the most progressive tax
+while the federal corporate and income taxes are also progressive. On the other hand,
+federal excise taxes are the most regressive. Federal social insurance taxes and overall
+state and local taxes are also regressive. When all federal taxes are considered, the Suits
+Index of +0.18 indicates that federal taxation is progressive. The entire U.S. tax system is
+also progressive, but the recent Suits Indices of +0.05 and +0.06 are closer to a value of
+zero (a proportional tax) than just the federal tax system.
+Table 2.1. Suits Index Estimates of the U.S. Tax System, 2007, by Tax Type1
+Tax Type
+Federal Income
+Federal Social Insurance
+Federal Excise
+Federal Corporate
+Federal Estate and Gift
+State and Local
+Total Federal
+All U.S. Taxes (2001 data)
+All U.S. Taxes (2004 data)
+All U.S. Taxes (2009 data)
+
+Suits Index
++0.42
+-0.20
+-0.31
++0.51
++0.63
+-0.12
++0.18
++0.09
++0.05
++0.06
+
+__________________
+1 – The Suits Index for the federal estate and gift tax is based upon 2008 data.
+
+23
+
+Table 3 presents the tax distribution data from CTJ for 2009. We see that while the
+federal tax system is progressive, the state and local tax system is, on average, regressive.
+Overall, the tax system in the U.S. is progressive, although the rate of progressivity levels
+off at upper income levels and actually reverses at the highest income level in Table 3.
+Table 3. Effective Tax Rates, 2009 19
+Effective Tax Rates
+Income
+Group
+
+Average
+Income
+Lowest 20%
+$12,400
+Second 20%
+$25,000
+Third 20%
+$40,000
+Fourth 20%
+$66,000
+Next 10%
+$100,000
+Next 5%
+$141,000
+Next 4%
+$245,000
+Top 1%
+$1,328,000
+ALL
+$68,900
+
+Federal Taxes
+3.6%
+8.7%
+13.9%
+17.2%
+19.0%
+20.4%
+21.3%
+22.3%
+18.0%
+
+State & Local Taxes
+
+12.4%
+11.8%
+11.3%
+11.3%
+11.1%
+10.8%
+10.2%
+8.4%
+10.6%
+
+All Taxes
+16.9%
+20.5%
+25.3%
+28.5%
+30.2%
+31.2%
+31.6%
+30.8%
+28.6%
+
+Tax Progressivity over Time
+Consistent data are generally not available to determine how the entire tax burden in the
+U.S. has shifted over time. Most analyses are limited to one, or a few, tax types. Further,
+interest groups can interpret the available data to support their particular agendas. For an
+illustration about how the same tax data can be used to support different claims, see Box
+3.
+Analysis of tax progressivity over time indicates that the federal tax system is about as
+progressive now as it was in the late 1970s (Roach, 2010). The progressivity of the
+federal tax system declined during the early 1980s, rose in 1987 (the year following the
+passage of the Tax Reform Act of 1986), either remained stable or rose slightly up to the
+mid-200s, and decreased slightly since the mid-200s.
+Complete data on the distribution of state and local taxes are available from Citizens for
+Tax Justice for 1995, 2002, 2007, and 2009, with Suits Indices of -0.11, -0.07, -0.12, and
+-0.07 respectively. Thus the available data suggest no obvious overall trend in the
+regressivity of state and local taxes. The unavailability of consistent data on the
+distribution of state and local taxes makes determination of the trends in the overall U.S.
+
+19
+
+Data from CTJ, 2010.
+
+24
+
+tax system difficult to determine. As Table 2.1 indicated, total taxes declined in
+progressivity from 2001 to 2004, and then stayed about the same from 2004 to 2009.
+
+BOX 3. INTERPRETING TAX PROGRESSIVITY DATA
+Has the federal income tax burden on the very wealthy been increasing or decreasing in
+recent decades? Data published by the CBO reveals that the percent of federal income
+taxes paid by the highest-income taxpayers has increased steady over the past few
+decades. In 1979, the top 1% of taxpayers paid about 18.3% of all federal income taxes.
+In 2007, the top 1% of taxpayers paid over 39.5%. Clearly, these data suggest that the
+federal income tax has become much more progressive since 1979.
+However, these statistics represent an incomplete analysis. Specifically, it fails to
+consider how the proportion of income accruing to the top 1% has changed over the same
+time period. The increasing tax share paid by high-income taxpayers may be a function of
+an increase in income, rather than a change in the tax system. In other words, if the share
+of all income received by the top 1% increased, we would naturally expect that their share
+of taxes paid would also increase without any changes in the underlying progressivity of
+the tax system. Income statistics indicate that the share of income going to the top 1% of
+taxpayers has also increased significantly since 1979. The top 1% of taxpayers received
+less than 9.2% of income in 1979 but more than 19.4% in 2007. Based on this fact alone,
+we would expect the top 1% to be paying a greater share of all federal income taxes.
+So, has the federal income tax burden on the top 1% increased or decreased since 1979?
+We can combine the tax and income data for a more complete analysis. The share of
+income going to the top 1% increased by a factor of 2.1 between 1979 and 2007.
+Meanwhile, their share of taxes paid has increased by a factor of 2.2. This suggests that
+the share of taxes paid by the top 1% has risen by about as much as much as their share of
+income – indicating a relatively stable degree of tax progressivity in the federal income
+tax – a dramatically different conclusion had we only considered data on tax shares!
+
+25
+
+References
+Brownlee, W. Elliot. 1996. Federal Taxation in America. University of Cambridge Press:
+Cambridge.
+Chaptman, Dennis. 2003 “States' Budget Troubles Worsening, Report Finds,” Milwaukee
+Journal Sentinel, Feb. 5, 2003.
+Citizens for Tax Justice, Institute on Taxation & Economic Policy. 2003a. “Who Pays? A
+Distributional Analysis of the Tax Systems in All 50 States, 2nd Edition,” January 2003,
+http://www.itepnet.org/wp2000/text.pdf.
+Citizens for Tax Justice. 2010. “All Americans Pay Taxes,” April 15, 2010.
+http://www.ctj.org/pdf/taxday2010.pdf.
+Citizens for Tax Justice. 2003b. “Final Tax Plan Tilts Even More Towards Richest,”
+June 5, 2003 press release, http://www.ctj.org/pdf/sen0522.pdf.
+Citizens for Tax Justice. 2002. “White House Reveals Nation’s Biggest Problems: The
+Very Rich Don’t Have Enough Money & Workers Don’t Pay Enough in Taxes,”
+December 16, 2002 press release, http://www.ctj.org/pdf/flat1202.pdf.
+Citizens for Tax Justice. 2001. “Final Version of Bush Tax Plan Keeps High-End Tax
+Cuts, Adds to Long-Term Cost,” May 26, 2001 press release,
+http://www.ctj.org/html/gwbfinal.htm.
+Congressional Budget Office, “Effective Federal Tax Rates, 2005,” December 2008.
+Fullerton, Don, and Gilbert E. Metcalf, 2002. “Tax Incidence,” National Bureau of
+Economic Research Working Paper 8829.
+IRS (Internal Revenue Service). Various Years. Statistics of Income, Individual Income
+Tax Returns. Washington, D.C.
+IRS (Internal Revenue Service). 2002. “Personal Exemptions and Individual Income Tax
+Rates, 1913-2002.” Statistics of Income Bulletin Data Release, June 2002.
+Johnson, Charles M. 2002. “Finding their Balance?” Missoulian, December 8, 2002.Joint
+Committee on Taxation. 2001. “Updated Distribution of Certain Federal Tax Liabilities
+by Income Class for Calendar Year 2001,” JCX-65-01.Krugman, Paul. 2002. “For
+Richer,” The New York Times, October 20, 2002, section 6, page 62.
+Krugman, Paul. 2001. Fuzzy Math: The Essential Guide to the Bush Tax Cut Plan, W.W.
+Norton & Company: New York.
+
+26
+
+Martin, Cathie J. 1991. Shifting the Burden: The Struggle over Growth and Corporate
+Taxation. The University of Chicago Press: Chicago.
+Metcalf, Gilbert E. and Don Fullerton. 2002. “The Distribution of Tax Burdens: An
+Introduction,” National Bureau of Economic Research Working Paper 8978.
+OECD (Organisation for Economic Co-operation and Development). 2010. “More
+Information on Environmentally Related Taxes, Fees and Charges,”
+http://www2.oecd.org/ecoinst/queries/index.htm.
+OMB (Office of Management and Budget). 2003. “Historical Tables, Budget of the
+United States Government, Fiscal Year 2004.” Washington, D.C.
+Peterson, Wallace C. 1999. The Social Security Primer: What Every Citizen Should
+Know. M.E. Sharpe: Armonk, NY.
+Petska, Tom, and Mike Strudler. 1999. “The Distribution of Individual Income and
+Taxes: A New Look at an Old Issue.” Paper presented at the 1999 American Economics
+Association conference, January 3-5, 1999, New York,
+http://www.irs.gov/taxstats/article/0,,id=112309,00.html.
+Roach, Brian. 2010. “Progressive and Regressive Taxation in the United States: Who’s
+Really Paying (and Not Paying) their Fair Share?” Global Development And
+Environment working paper 10-07, December 2010.
+Roach, Brian. 2003. “Progressive and Regressive Taxation in the United States: Who’s
+Really Paying (and Not Paying) their Fair Share?” Global Development And
+Environment working paper 03-10, October 2003.
+Skidmore, Max J. 1999. Social Security and Its Enemies. Westview Press: Boulder, CO.
+Tax Policy Center. 2010. “Wealth Transfer Taxes: Who Pays the Estate Tax?” The Tax
+Policy Briefing Book, http://www.taxpolicycenter.org/briefing-book/keyelements/estate/who.cfm.
+Tax Policy Center. 2008. “Estate Tax Returns and Liability Under Current Law and
+Various Reform Proposals, 2008-2018,” Table T08-0264, October 20, 2008.
+Tempalski, Jerry. 1998. “Revenue Effects of Major Tax Bills.” Office of Tax Analysis
+Working Paper 81, December 1998.
+U.S. Census Bureau. 2003. “Historical Income Tables - Income Equality, Table IE-1,”
+http://www.census.gov/hhes/income/histinc/ie1.html.
+U.S. Census Bureau. 2010. The 2010 Statistical Abstract of the United States.
+Washington, D.C.
+
+27
+
+U.S. Census Bureau. Various Years. Statistical Abstract of the United States.
+Washington, D.C.
+U.S. Census Bureau. 1960. Historical Statistics of the United States, Colonial Times to
+1957. Washington, D.C.
+
+28
+
+MODULE SUMMARY
+•
+
+The overall tax system in the United States is progressive, meaning that effective
+tax rates tend to increase as income increases. Progressive taxation is based on
+the view that higher-income taxpayers can pay higher tax rates without having to
+forego life’s basic necessities. Progressive taxation can also redress economic
+inequalities and collect a given level of revenue while maintaining the maximum
+level of economic growth.
+
+•
+
+The federal income tax is the most complicated and debated tax in the U.S. tax
+system. The federal income tax is progressive, with increasing marginal tax rates.
+Federal income taxes are calculated based on taxable income, which is less than
+total income because various exemptions and deductions are allowed.
+
+•
+
+The federal tax system in the U.S. also includes social insurance, corporate,
+excise, estate, and gifts taxes. Social insurance and excise taxes are regressive
+while corporate, estate, and gift taxes are progressive. The U.S. tax system also
+includes state and local taxes, primarily sales, income, and property taxes.
+
+•
+
+Nearly 70% of the taxes levied in the U.S. are collected at the federal level. The
+largest federal tax is the income tax, closely followed by social insurance taxes.
+The most significant non-federal tax is property taxes, followed by sales and
+income taxes.
+
+•
+
+Up until the early 1900s, the U.S. tax system primarily relied on excise taxes and
+tariffs for public revenues. The 16th Amendment, ratified in 1913, created the
+legal basis for federal income taxation, which up to that point had been prohibited
+under the Constitution.
+
+•
+
+Both World Wars led to significant changes in the structure and overall magnitude
+of taxes in the U.S. By the end of World War II, U.S. taxes were broad-based but
+progressive and dominated by federal-level taxation.
+
+•
+
+Tax cuts passed during the Reagan Administration in the 1980s were based on the
+theory that lower tax rates would spur economic growth, leading to a net increase
+in tax revenues. This theory was not supported by the evidence, eventually
+leading to tax increases in the early 1990s. The Bush tax cuts passed in 2001 and
+2003 have made federal taxes less progressive.
+
+•
+
+Tax revenues in the U.S. increased dramatically during the 20th century, even after
+adjusting for inflation. When measured as a percentage of GDP, tax revenues
+grew significantly during World War II, grew at a slower pace afterwards, and
+leveled off recently at around 30% of GDP.
+
+29
+
+•
+
+Measuring the distribution of taxes requires tax incidence analysis, which
+determines the ultimate burden of a tax on taxpayers. Tax incidence analysis
+generally concludes that social insurance taxes fall on workers, corporate taxes
+fall on the owners of capital, excise taxes fall on consumers, and property taxes
+are passed on to renters.
+
+•
+
+Effective tax rates measured by income level can be used to determine whether a
+particular tax is progressive or regressive. While the U.S. tax system contains
+both progressive and regressive taxes, the overall system is progressive. Recent
+data suggest that federal taxes are becoming less progressive while state and local
+taxes are becoming more regressive.
+
+30
+
+DISCUSSION QUESTIONS
+
+1. Comment on the following statement: “The fairest type of tax system is one in
+which everyone pays the same rate of taxation, regardless of income.” Do you
+agree or disagree with the statement? Why?
+2. Suppose you could set the overall effective tax rates across different levels of
+income. What do you think should be the appropriate effective tax rates for a
+household of four (two adults and two children) with an income of $25,000? An
+income of $60,000? An income of $100,000? An income of $500,000? Is the
+system you devise more or less progressive than the tax system currently in place
+in the U.S.? How does your system compare with others in your class?
+3. The U.S. tax system is currently comprised of many different types of taxes
+(income, social insurance, corporate, sales, property, etc.). What reasons could be
+given to support the use of many different tax types in a nation? Do you think
+that a nation’s tax system should be comprised of many different types of taxes or
+just one type of tax? If you had to choose just one type of tax to levy in a nation,
+what type of tax would you choose? Why?
+4. Comment on the following statement: “As long as a tax cut reduces taxes for
+everyone, then everyone will be better off as a result of the tax cut.” Do you
+agree with this statement? Why or why not?
+5. Using the Internet or other sources, look up information about basic structure of
+the tax system in place in a country other than the United States. What
+differences are evident in that country’s tax system? Do you think that country
+has a more or less progressive tax system? Which nation’s tax system is
+preferable to you? Why?
+6. Locate a recent news story about a proposal for a change to the tax system, either
+at the federal or state level. Summarize the proposed change. Would the change
+increase or decrease tax progressivity? Who would benefit most from the
+proposal? Who would be hurt the most from the proposal? Do you support the
+proposal? Why or why not?
+
+31
+
+ADDITIONAL RESOURCES
+•
+
+All the federal government agencies that work on tax issues maintain web sites that
+provide tax data and reports. The IRS’s Statistics of Income Bulletins, published four
+times a year, can be found dating back to 1998 at
+http://www.irs.gov/taxstats/article/0,,id=117514,00.html. The SOI Bulletins provide
+data analysis of primarily individual and corporate taxes. Publications produced by
+the Joint Committee on Taxation can be found at
+http://www.jct.gov/publications.html. Publications by the Congressional Budget
+Office related to tax issues, going as far back as the 1970s, are available at
+http://www.cbo.gov/publications/bysubject.cfm?cat=33. Finally, tax analysis by the U.S.
+Treasury Department, only dating back to 2001, can be found at
+http://www.treasury.gov/resource-center/tax-policy/Pages/default.aspx.
+
+•
+
+A large amount of tax-related data is published annually in the Statistical Abstract of
+the United States. Each year’s edition includes a chapter on state and local
+government finances and another chapter on federal government finances. The
+Census Bureau has recently added select historical editions of the Statistical Abstract
+dating as far back as 1878, although online availability is more complete for the first
+half of the 20th century than the latter half of the century (see
+http://www.census.gov/compendia/statab).
+
+•
+
+Citizens for Tax Justice publishes many other tax analyses besides those referenced in
+this module. Their web site is www.ctj.org. Two other non-profit organizations that
+conduct tax analysis are the Tax Policy Center, a joint venture of the Urban Institute
+and Brookings Institution, and the Center for Budget and Policy Priorities. The Tax
+Policy Center (www.taxpolicycenter.org) publishes several reports each month on a
+wide range of tax issues, including distributional impacts and public budget
+implications. The CBPP (www.cbpp.org) research focuses on “fiscal policy and
+public programs that affect low- and moderate-income families and individuals.”
+Similar to the Tax Policy Center, the CBPP conducts distributional analyses of
+current tax proposals.
+
+•
+
+For an opposing view on tax issues, the Tax Foundation (www.taxfoundation.org)
+publishes tax analyses that generally support lower overall taxes and conclude that the
+distributional impacts of recent tax cuts are fair. A similar organization, with a more
+activist agenda, is Americans for Tax Reform (www.atr.org).
+
+32
+
+KEY TERMS AND CONCEPTS
+Ability-to-pay principle: the idea that higher-income households and individuals should
+pay higher tax rates than lower-income taxpayers because they are more able to bear the
+tax without foregoing life’s basic necessities.
+Adjusted gross income (AGI): the total income of a household or individual minus
+certain out-of-pocket expenses such as retirement account contributions, student loan
+interest, tuition, and other allowable subtractions. AGI is calculated on one’s federal tax
+return.
+Effective tax rate: one’s total taxes paid divided by some measure of income, such as
+total income, adjusted gross income, or taxable income.
+Environmental taxes: taxes levied on a good or service based on the environmental
+impact of its production or consumption.
+Estate taxes: taxes on the transfer of large estates to beneficiaries.
+Excise taxes: taxes on the production, sale, or use of a particular commodity.
+Exemptions: an amount excluded from taxation based on the number of tax filers and
+dependents.
+Gift taxes: taxes levied on large gifts; gift taxes are designed to prevent taxpayers from
+avoiding estate taxes by giving away their assets while alive.
+Itemized deductions: certain expenses excluded from federal taxation, including
+mortgage interest, state taxes, gifts to charity, real estate taxes, and major medical
+expenses. A taxpayer is allowed to deduct either the standard or itemized deduction,
+whichever is larger.
+Marginal propensity to consume: the proportion of a marginal income increase that is
+spent on consumption goods and services, as opposed to invested or saved.
+Marginal tax rates: a tax system where a single taxpayer can pay different tax rates on
+successive portions of income.
+National consumption tax: a federal-level tax paid on the dollar amount a household or
+individual spends each year on goods and services, calculated using either a single tax
+rate or marginal tax rates.
+National sales tax: a federal-level tax paid on the purchase of certain goods and services,
+calculated as a percentage of the selling price.
+
+33
+
+Perfect competition: an idealized market structure characterized by many informed
+small firms with no market power selling undifferentiated products and with complete
+freedom to enter or exit the market.
+Progressive tax: a tax in which the percentage of income one pays for the tax increases
+as one’s income increases.
+Proportional tax: a tax in which the percentage of income one pays for the tax is
+constant regardless of income level.
+Regressive tax: a tax in which the percentage of income one pays for the tax decreases as
+one’s income increases.
+Social insurance taxes: taxes paid to support social insurance programs such as Social
+Security, Medicare, and Medicaid.
+Standard deduction: a fixed amount of income excluded from federal taxation based on
+filing status (single, married, etc.). A taxpayer is allowed to deduct either the standard or
+itemized deduction, whichever is larger.
+Suits index: an index developed by Daniel Suits in the 1970s to measure the overall
+progressivity or regressivity of a tax.
+Tariffs: taxes levied on imported goods and services.
+Tax incidence analysis: estimating the ultimate financial burden of various taxes on
+different categories of households by tracing a tax’s impact on market prices and the
+economic behavior of consumers and businesses.
+Taxable income: the amount of income used as the basis for determine one’s income
+taxes. For federal income taxes, taxable income is equal to adjusted gross income (AGI)
+minus allowable deductions and exemptions.
+Total income: the total income a household or individual receives from all sources
+Value-added tax: a tax levied at each stage in the production process of a good or
+service.
+Wealth taxes: taxes levied on the value of one’s assets such as real estate, investments,
+cash, and other personal property.
+
+34
+
+

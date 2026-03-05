@@ -1,0 +1,85 @@
+Can adversaries of the
+ United States easily imitate its most advanced weapon systems and thus erode
+ its military-technological superiority? Do reverse engineering, industrial espi-
+ onage, and, in particular, cyber espionage facilitate and accelerate this process?
+ China’s decades-long economic boom, military modernization program, mas-
+ sive reliance on cyber espionage, and assertive foreign policy have made these
+ questions increasingly salient. Yet, almost everything known about this topic
+ draws from the past. As we explain in this article, the conclusions that the ex-
+ isting literature has reached by studying prior eras have no applicability to the
+ current day.
+ Scholarship in international relations theory generally assumes that ris-
+ ing states beneªt from the “advantage of backwardness,” as described by Alexander Gerschenkron.1 By free riding on the research and technology of
+ the most advanced countries, less developed states can allegedly close the
+ military-technological gap with their rivals relatively easily and quickly.2 More
+ recent works maintain that globalization, the emergence of dual-use compo-
+ nents, and advances in communications (including the opportunity for cyber
+ espionage) have facilitated this process.3 This literature is built on shaky theo-
+ retical foundations, and its claims lack empirical support.
+ The international relations literature largely ignores one of the most impor-
+ tant changes to have occurred in the realm of weapons development since the
+ second industrial revolution (1870–1914): the exponential increase in the com-
+ plexity of military technology. We argue that this increase in complexity
+ has promoted a change in the system of production that has made the imita-
+ tion and replication of the performance of state-of-the-art weapon systems
+ harder—so much so as to offset the diffusing effects of globalization and ad-
+ vances in communications. On the one hand, the increase in complexity has
+ signiªcantly raised the entry barriers for the production of advanced wea-
+ pon systems: countries must now possess an extremely advanced industrial,
+ scientiªc, and technological base in weapons production before they can copy
+ foreign military technology. On the other hand, the knowledge to design, de-
+ velop, and produce advanced weapon systems is less likely to diffuse, given
+ its increasingly tacit and organizational nature. As a result, the advantage of
+ backwardness has shrunk signiªcantly, and know-how and experience in the
+ production of advanced weapon systems have become an important source of
+ power for those who master them. We employ two case studies to test this ar-
+ gument: Imperial Germany’s rapid success in closing the technological gap
+ with the British Dreadnought battleship, despite signiªcant inhibiting factors;
+ and China’s struggle to imitate the U.S. F-22/A Raptor jet ªghter, despite sev-
+ eral facilitating conditions.
+ Our research contributes to key theoretical and policy debates. First, the ability to imitate state-of-the-art military hardware plays a central role in theo-
+ ries that seek to explain patterns of internal balancing and the rise and fall of
+ great powers. Yet, the mainstream international relations literature has not in-
+ vestigated this process.4 Because imitating military technology was relatively
+ easy in the past, scholars and policymakers assume that it also is today, as fre-
+ quent analogies between Wilhelmine Germany and contemporary China epit-
+ omize.5 In this article, we investigate the conditions under which the imitation
+ of state-of-the-art weapon systems such as attack submarines and combat air-
+ craft is more or less likely to succeed.
+ Second, we develop the ªrst systematic theoretical explanation of why U.S.
+ superiority in military technology remains largely unrivaled almost thirty
+ years after the end of the Cold War, despite globalization and the information
+ and communication technology revolution. Some scholars have argued that
+ developing modern weapon systems has become dramatically more demand-
+ ing, which in turn has made internal balancing against the United States more
+ difªcult.6 This literature, however, cannot explain why in the age of globaliza-
+ tion and instant communications—with cyber espionage permitting the theft
+ of massive amount of digital data—U.S. know-how in advanced weapon sys-
+ tems has not already diffused to other states. Other contributors to the debate
+ on unipolarity have either pointed to the relative inferiority of Chinese mili-
+ tary technology without providing a theoretical explanation, or they have ar-
+ gued that developing the military capabilities to challenge the status quo is, in
+ the long run, a function of political will—an argument that cannot account
+ for the failure of the Soviet Union to cope with U.S. military technology from
+ the late 1970s onward.7 We argue that in the transition from the second industrial revolution to the information age, the imitation of state-of-the-art mili-
+ tary technology has become more difªcult, so much so that today rising
+ powers or even peer competitors cannot easily copy foreign weapon systems.8
+ Our ªndings address existing concerns that China’s use of cyber espionage
+ and the increasing globalization of arms production will allow Beijing to rap-
+ idly close the military-technological gap with the United States.9
+ Third, the international relations literature accepts the claim that globali-
+ zation and advances in communications have made the imitation of military
+ technology easier; yet no one has empirically tested this proposition.10 This
+ failing is particularly concerning in light of the opportunities opened by cyber
+ espionage—a practice that, according to many observers, could erode the U.S.
+ advantage in military technology. Richard Clark, a former U.S. senior govern-
+ ment ofªcial, believes that Chinese cyber espionage could result in the United
+ States “hav[ing] all of [its] research and development stolen”; Gen. Keith
+ Alexander, a former director of the National Security Agency, worries that
+ cyber espionage could lead to “the greatest transfer of wealth in history.”11
+ With a few notable exceptions, however, international relations scholars have
+ paid little attention to the advantages and limits of cyber espionage for copy-
+ ing foreign military technology.12 Our research ªlls this gap and tests the con-
+ ventional wisdom using the case of China, one of the states that has beneªted
+ the most from globalization and that has employed cyber espionage more ex-
+ tensively than any other country.

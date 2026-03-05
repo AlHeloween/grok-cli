@@ -1,0 +1,79 @@
+Item 1C. Cybersecurity
+We recognize the critical importance of maintaining the safety and security of our systems and data and have a
+holistic process for overseeing and managing cybersecurity and related risks. This process is supported by both
+management and our Board of Directors.
+The Chief Information Office, which maintains our cybersecurity function, is led by our Chief Information Officer
+(CIO), who reports to our CEO. The Chief Information Security Officer (CISO) reports to the CIO and generally is
+responsible for management of cybersecurity risk and the protection and defense of our networks and systems. The
+CISO manages a team of cybersecurity professionals with broad experience and expertise, including in cybersecurity
+threat assessments and detection, mitigation technologies, cybersecurity training, incident response, cyber forensics,
+insider threats and regulatory compliance.
+Our Board of Directors is responsible for overseeing our enterprise risk management activities in general, and each
+of our Board committees assists the Board in the role of risk oversight. The full Board receives an update on the
+Company’s risk management process and the risk trends related to cybersecurity at least annually. The Audit and
+Risk Committee specifically assists the Board in its oversight of risks related to cybersecurity. To help ensure
+effective oversight, the Audit and Risk Committee receives reports on information security and cybersecurity from
+the CISO at least four times a year.
+In addition, the Company’s Enterprise Risk Management Council (ERMC) considers risks relating to cybersecurity,
+among other significant risks, and applicable mitigation plans to address such risks. The ERMC is comprised of the
+Executive Leadership Team, as well as the Chief Accounting Officer, Chief Compliance Officer, Corporate
+Secretary, Chief Sustainability Officer, Treasurer and Vice President, Internal Audit. The CIO and CISO attend each
+ERMC meeting. The ERMC meets during the year and receives periodic updates on cybersecurity risks from the
+CIO and CISO. We have an established process and playbook led by our CISO governing our assessment, response
+and notifications internally and externally upon the occurrence of a cybersecurity incident. Depending on the nature
+and severity of an incident, this process provides for escalating notification to our CEO and the Board (including our
+Lead Independent Director and the Audit and Risk Committee chair).
+NORTHROP GRUMMAN CORPORATION
+-22-
+Our approach to cybersecurity risk management includes the following key elements:
+• Multi-Layered Defense and Continuous Monitoring – We work to protect our computing environments and
+products from cybersecurity threats through multi-layered defenses and apply lessons learned from our
+defense and monitoring efforts to help prevent future attacks. We utilize data analytics to detect anomalies
+and search for cyber threats. Our Cybersecurity Operations Center provides comprehensive cyber threat
+detection and response capabilities and maintains a 24x7 monitoring system which complements the
+technology, processes and threat detection techniques we use to monitor, manage and mitigate
+cybersecurity threats. From time to time, we engage third party consultants or other advisors to assist in
+assessing, identifying and/or managing cybersecurity threats. We also periodically use our Internal Audit
+function to conduct additional reviews and assessments.
+• Insider Threats – We maintain an insider threat program designed to identify, assess, and address potential
+risks from within our Company. Our program evaluates potential risks consistent with industry practices,
+customer requirements and applicable law, including privacy and other considerations.
+• Information Sharing and Collaboration – We work with government, customer, industry and/or supplier
+partners, such as the National Defense Information Sharing and Analysis Center and other governmentindustry partnerships, to gather and develop best practices and share information to address cyber threats.
+These relationships enable the rapid sharing of threat and vulnerability mitigation information across the
+defense industrial base and supply chain.
+• Third Party Risk Assessments – We conduct information security assessments before sharing or allowing
+the hosting of sensitive data in computing environments managed by third parties, and our standard terms
+and conditions contain contractual provisions requiring certain security protections.
+• Training and Awareness – We provide awareness training to our employees to help identify, avoid and
+mitigate cybersecurity threats. Our employees with network access participate annually in required training,
+including spear phishing and other awareness training. We also periodically host tabletop exercises with
+management and other employees to practice rapid cyber incident response.
+• Supplier Engagement – We provide training and other resources to our suppliers to support cybersecurity
+resiliency in our supply chain. We also require our suppliers to comply with our standard information
+security terms and conditions, in addition to any requirements from our customers, as a condition of doing
+business with us, and require them to complete information security questionnaires to review and assess
+any potential cyber-related risks depending on the nature of the services being provided.
+While we have experienced cybersecurity incidents in the past, to date none have materially affected the Company
+or our financial position, results of operations and/or cash flows. We continue to invest in the cybersecurity and
+resiliency of our networks and to enhance our internal controls and processes, which are designed to help protect our
+systems and infrastructure, and the information they contain. For more information regarding the risks we face from
+cybersecurity threats, please see “Risk Factors.”
+FORWARD-LOOKING STATEMENTS AND PROJECTIONS
+This Annual Report on Form 10-K and the information we are incorporating by reference contain statements that
+constitute “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995.
+Words such as “will,” “expect,” “anticipate,” “intend,” “may,” “could,” “should,” “plan,” “project,” “forecast,”
+“believe,” “estimate,” “guidance,” “outlook,” “trends,” “goals” and similar expressions generally identify these
+forward-looking statements. Forward-looking statements include, among other things, statements relating to our
+future financial condition, results of operations and/or cash flows. Forward-looking statements are based upon
+assumptions, expectations, plans and projections that we believe to be reasonable when made, but which may
+change over time. These statements are not guarantees of future performance and inherently involve a wide range of
+risks and uncertainties that are difficult to predict. Specific risks that could cause actual results to differ materially
+from those expressed or implied in these forward-looking statements include, but are not limited to, those identified
+under “Risk Factors” and other important factors disclosed in this report and from time to time in our other SEC
+filings. These risks and uncertainties are amplified by the global macroeconomic, security and political
+environments, including inflationary pressures, labor and supply chain challenges, which have caused and will
+continue to cause significant challenges, instability and uncertainty. They include:
+Industry and Economic Risks
+• our dependence on the U.S. government for a substantial portion of our business
+NORTHROP GRUMMAN CORPORATION

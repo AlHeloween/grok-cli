@@ -1,0 +1,63 @@
+The primary concern with this type of conduct involves monopoly leveraging.542 As discussed,
+leveraging theories of harm can take two forms. Offensive leveraging occurs when a firm
+attempts to use monopoly power in a primary market to extract additional profits from a
+secondary market.543 By contrast, defensive leveraging involves the use of monopoly power to
+gain an advantage in a secondary market so as to preserve a primary market monopoly—for
+example, by eliminating competitive threats that might emerge from the secondary market.544
+Defensive leveraging may be a viable theory of harm under existing monopolization law.545
+Offensive-leveraging claims, however, cannot succeed under Section 2 absent evidence that a
+defendant had a dangerous probability of monopolizing a secondary market; mere harm to
+competition in the secondary market is not sufficient.546
+For some of the self-preferencing allegations against Big Tech firms, these limitations may
+preclude antitrust claims.547 It may be unlikely, for example, that Amazon will achieve monopoly
+power over most of the products that it sells on its marketplace. As a result, it would be difficult
+to challenge the preferential display of those products under an offensive-leveraging theory.548
+This type of alleged favoritism may also be a weak foundation for a defensive-leveraging or
+monopoly-maintenance case; it is not clear that Amazon’s elevation of allegedly inferior products
+would help it maintain a putative e-commerce monopoly.
+Similarly, the case law governing refusals to deal may serve as an impediment to antitrust claims
+challenging platform self-preferencing. A platform operator’s favorable treatment of its own
+verticals relative to rivals that use its platform is typically less harmful to rivals than an outright
+refusal of access.549 Because antitrust imposes access duties only in a narrow set of
+circumstances, courts would likely find many forms of self-preferencing to be permissible if such
+conduct is evaluated as a refusal to deal.550
+In the 118th Congress, the American Innovation and Choice Online Act (AICOA) would respond
+to these doctrinal difficulties by prohibiting covered platform operators from preferencing their
+own products and services “in a manner that would materially harm competition.”551
+Given the ubiquity of self-preferencing by vertically integrated firms, the meaning of the
+“materially harm competition” standard is key to assessing the prohibition’s scope. However,
+many argue the meaning of that language is not clear.552 The bill does not by its terms clarify
+whether the “materially harm competition” standard embodies a consumer-welfare test or one of
+the alternative standards for assessing competitive harm urged by proponents of antitrust
+reform.553 As a result, it is unclear whether the AICOA would permit defendants to justify
+challenged conduct on the ground that it benefits consumers.
+If the AICOA becomes law, this may be a dispositive issue in many litigated cases. A wide range
+of platform self-preferencing may harm a firm’s rivals while also offering consumer benefits. For
+example, when Google displays a Google Maps result in response to a search query, it may
+disadvantage rival map services, but benefit consumers.554 Apple’s preinstallation of its own apps
+on iPhones, Microsoft’s inclusion of certain apps with its Windows operating system, and
+Amazon’s free provision of its video-streaming service to Amazon Prime members may have
+similar effects.555
+It is not clear how the “materially harm competition” standard would apply to such practices. In
+cases that do not involve per se offenses, Sherman Act defendants typically have the opportunity
+to defend challenged conduct on the ground that it benefits consumers.556 To the extent that the
+“materially harm competition” standard is intended to incorporate prevailing concepts of
+competitive harm from the antitrust case law, then, consumer-welfare arguments would likely be
+cognizable
+In interpreting other industry-specific competition statutes, however, some courts and
+commentators have taken the view that “harm to competition” encompasses types of harm
+beyond those proscribed by the antitrust laws.557 Additionally, some of the AICOA’s proponents
+have rejected suggestions to amend the bill to adopt a consumer-welfare test.558
+An interpretation that eschewed consumer-welfare justifications would also be consistent with the
+normative vision articulated by many advocates of antitrust reform. As discussed, the role that
+consumer welfare is meant to play in non-welfarist conceptions of “competition” is not clear.559
+Much of the reformist literature, though, appears to reject the idea that courts and enforcers
+should balance different antitrust goals against one another.560 This context, along with the bill’s
+omission of other traditional antitrust concepts like market power, may cut against the argument
+that consumer-welfare arguments would be cognizable under the “materially harm competition”
+standard.561
+The DCPCA appears to be more explicit about this issue. That legislation would make it
+presumptively unlawful for covered platforms to preference their own products and services,
+“regardless of any alleged procompetitive benefits or efficiencies.”562 Defendants could rebut an
+allegation of unlawful self-preferencing only by establishing by clear and convincing evidence
+that their conduct “did not result in any harm to the relevant aggrieved party.”563

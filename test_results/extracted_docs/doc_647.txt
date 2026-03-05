@@ -1,0 +1,39 @@
+The Supreme Court has held that “officers of the State ... performing official duties,” including public 
+safety officials, act “under color of ... law” for purposes of Section 242. As DOJ has explained, law 
+enforcement officers may violate Section 242 through “excessive force, sexual assault, intentional false 
+arrests, theft, or the intentional fabrication of evidence resulting in a loss of liberty to another.” DOJ 
+enforces Sections 241 and 242 by bringing criminal charges against officers accused of violating those 
+statutes. People who believe their rights have been infringed may report such violations to DOJ, but 
+Sections 241 and 242 do not authorize suits by individuals. If DOJ elects to pursue criminal charges under 
+Section 241 or 242, it faces a high standard of proof. Under the cases Screws v. United States and United 
+States v. Guest, the prosecution must prove the defendant had “a specific intent to deprive a person of a 
+federal right made definite by decision or other rule of law.” Specific intent means that the defendant must 
+not intend only to, for example, assault a victim but must also intend to violate a federal right by doing so. 
+This results in what some view as a significant hurdle to bringing Section 241 and 242 claims.
+DOJ brought charges under Section 242 against the officers involved in the deaths of George Floyd and 
+Breonna Taylor. The officers involved in Mr. Floyd’s killing pled guilty or were convicted by a jury. As of 
+February 2023, charges against the officers involved in Ms. Taylor’s death remain pending.
+DOJ Civil Enforcement
+Another section of the U.S. Code, 34 U.S.C. § 12601 (Section 12601, formerly codified at 42 U.S.C. 
+§ 14141) renders it “unlawful for any governmental authority, or any agent thereof, ... to engage in a 
+pattern or practice of conduct by law enforcement officers or by officials ... that deprives persons of 
+rights, privileges, or immunities secured or protected by the Constitution or laws of the United States.”
+Another CRS Legal Sidebar discusses this statute in more detail. According to DOJ, potential violations
+of the provision include “excessive force, discriminatory harassment, false arrests, coercive sexual 
+conduct, and unlawful stops, searches or arrests.” DOJ enforces the provision by filing civil complaints 
+against allegedly offending law enforcement agencies. The statute does not create a private right for 
+individuals harmed by violations to sue. Moreover, because the law applies only to a “pattern or practice 
+of conduct,” it cannot remedy isolated instances of misconduct. Finally, the statute does not provide for 
+monetary penalties. If DOJ successfully sues under the provision, it may “obtain appropriate equitable 
+and declaratory relief to eliminate the pattern or practice.”
+Private Civil Rights Litigation
+Federal law also allows individuals to seek civil redress for violations of their legal rights. The applicable 
+statute, 42 U.S.C. § 1983 (Section 1983), provides in relevant part:
+Every person who, under color of any statute, ordinance, regulation, custom, or usage, of any State 
+. . . subjects, or causes to be subjected, any citizen of the United States or other person within the 
+jurisdiction thereof to the deprivation of any rights, privileges, or immunities secured by the 
+Constitution and laws, shall be liable to the party injured[.]
+Unlike the other statutory provisions discussed above, Section 1983 creates a private right of action, 
+meaning that anyone suffering a covered deprivation of rights may sue the persons responsible. Moreover, 
+unlike Sections 241 and 242, courts have interpreted Section 1983 not to contain a specific intent 
+requirement, making it easier for plaintiffs to prove violations of the statute.

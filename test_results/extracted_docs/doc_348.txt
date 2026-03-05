@@ -1,0 +1,88 @@
+Renal Impairment
+After multiple-dose administration of buspirone to renally impaired (Clcr = 10–
+70 mL/min/1.73 m2) patients, steady-state AUC of buspirone increased 4-fold compared
+with healthy (Clcr ≥80 mL/min/1.73 m2) subjects (see PRECAUTIONS).
+Race Effects
+The effects of race on the pharmacokinetics of buspirone have not been studied.
+INDICATIONS AND USAGE
+BuSpar is indicated for the management of anxiety disorders or the short-term relief of
+the symptoms of anxiety. Anxiety or tension associated with the stress of everyday life
+usually does not require treatment with an anxiolytic.
+The efficacy of BuSpar has been demonstrated in controlled clinical trials of outpatients
+whose diagnosis roughly corresponds to Generalized Anxiety Disorder (GAD). Many of
+the patients enrolled in these studies also had coexisting depressive symptoms and
+BuSpar relieved anxiety in the presence of these coexisting depressive symptoms. The
+patients evaluated in these studies had experienced symptoms for periods of 1 month to
+over 1 year prior to the study, with an average symptom duration of 6 months.
+Generalized Anxiety Disorder (300.02) is described in the American Psychiatric
+Association's Diagnostic and Statistical Manual, III1 as follows:
+Generalized, persistent anxiety (of at least 1 month continual duration), manifested by
+symptoms from three of the four following categories:
+1. Motor tension: shakiness, jitteriness, jumpiness, trembling, tension, muscle aches,
+fatigability, inability to relax, eyelid twitch, furrowed brow, strained face, fidgeting,
+restlessness, easy startle.
+2. Autonomic hyperactivity: sweating, heart pounding or racing, cold, clammy hands,
+dry mouth, dizziness, lightheadedness, paresthesias (tingling in hands or feet), upset
+stomach, hot or cold spells, frequent urination, diarrhea, discomfort in the pit of the
+stomach, lump in the throat, flushing, pallor, high resting pulse and respiration rate.
+4
+Reference ID: 2867200
+3. Apprehensive expectation: anxiety, worry, fear, rumination, and anticipation of
+misfortune to self or others.
+4. Vigilance and scanning: hyperattentiveness resulting in distractibility, difficulty in
+concentrating, insomnia, feeling "on edge," irritability, impatience.
+The above symptoms would not be due to another mental disorder, such as a depressive
+disorder or schizophrenia. However, mild depressive symptoms are common in GAD.
+The effectiveness of BuSpar in long-term use, that is, for more than 3 to 4 weeks, has not
+been demonstrated in controlled trials. There is no body of evidence available that
+systematically addresses the appropriate duration of treatment for GAD. However, in a
+study of long-term use, 264 patients were treated with BuSpar for 1 year without ill effect.
+Therefore, the physician who elects to use BuSpar for extended periods should
+periodically reassess the usefulness of the drug for the individual patient.
+CONTRAINDICATIONS
+BuSpar is contraindicated in patients hypersensitive to buspirone hydrochloride.
+WARNINGS
+The administration of BuSpar to a patient taking a monoamine oxidase inhibitor
+(MAOI) may pose a hazard. There have been reports of the occurrence of elevated
+blood pressure when BuSpar (buspirone hydrochloride) has been added to a regimen
+including an MAOI. Therefore, it is recommended that BuSpar not be used concomitantly
+with an MAOI.
+Because BuSpar has no established antipsychotic activity, it should not be employed in
+lieu of appropriate antipsychotic treatment.
+PRECAUTIONS
+General
+Interference with Cognitive and Motor Performance
+Studies indicate that BuSpar is less sedating than other anxiolytics and that it does not
+produce significant functional impairment. However, its CNS effects in any individual
+patient may not be predictable. Therefore, patients should be cautioned about operating an
+5
+Reference ID: 2867200
+automobile or using complex machinery until they are reasonably certain that buspirone
+treatment does not affect them adversely.
+While formal studies of the interaction of BuSpar (buspirone hydrochloride) with alcohol
+indicate that buspirone does not increase alcohol-induced impairment in motor and
+mental performance, it is prudent to avoid concomitant use of alcohol and buspirone.
+Potential for Withdrawal Reactions in Sedative/Hypnotic/Anxiolytic Drug-
+Dependent Patients
+Because BuSpar does not exhibit cross-tolerance with benzodiazepines and other
+common sedative/hypnotic drugs, it will not block the withdrawal syndrome often seen
+with cessation of therapy with these drugs. Therefore, before starting therapy with
+BuSpar, it is advisable to withdraw patients gradually, especially patients who have been
+using a CNS-depressant drug chronically, from their prior treatment. Rebound or
+withdrawal symptoms may occur over varying time periods, depending in part on the type
+of drug, and its effective half-life of elimination.
+The syndrome of withdrawal from sedative/hypnotic/anxiolytic drugs can appear as any
+combination of irritability, anxiety, agitation, insomnia, tremor, abdominal cramps,
+muscle cramps, vomiting, sweating, flu-like symptoms without fever, and occasionally,
+even as seizures.
+Possible Concerns Related to Buspirone's Binding to Dopamine Receptors
+Because buspirone can bind to central dopamine receptors, a question has been raised
+about its potential to cause acute and chronic changes in dopamine-mediated neurological
+function (eg, dystonia, pseudo-parkinsonism, akathisia, and tardive dyskinesia). Clinical
+experience in controlled trials has failed to identify any significant neuroleptic-like
+activity; however, a syndrome of restlessness, appearing shortly after initiation of
+treatment, has been reported in some small fraction of buspirone-treated patients. The
+syndrome may be explained in several ways. For example, buspirone may increase central
+noradrenergic activity; alternatively, the effect may be attributable to dopaminergic
+effects (ie, represent akathisia). See ADVERSE REACTIONS: Postmarketing
+Experience.

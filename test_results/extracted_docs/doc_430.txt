@@ -1,0 +1,115 @@
+**Spot Bitcoin ETFs: What Are They, And How Do They Work?**
+
+Bitcoin has been one of the best-performing assets over the last decade, rising from a relatively obscure peer-to-peer payment network to a global phenomenon. As the original cryptocurrency, bitcoin has spurred an entirely new asset class that now has over $1 trillion in market capitalization. With the approval of 11 spot bitcoin ETFs in January 2024, traditional investors have an even easier way to invest in bitcoin.
+
+What Is a Spot Bitcoin ETF?
+On January 10, 2024, the SEC approved 11 new spot bitcoin ETFs.
+
+ETFs, or exchange-traded funds, are a type of security that tracks the underlying performance of a collection of assets or commodities. A spot bitcoin ETF is an exchange-traded fund that tracks the spot, or current price of bitcoin. By holding an equivalent amount of bitcoin to back every share of the ETF that is sold, the fund is actually backed by bitcoin itself.
+
+Considering the hoops you have to jump through to own bitcoin—exchange accounts, digital wallets, private keys, network transfers, etc.—a spot bitcoin ETF is one of the easiest ways to add bitcoin exposure to your portfolio.
+
+Spot ETFs, such as the new spot bitcoin ETFs, allow for shares of the fund to be created or redeemed based on market demand.
+
+In this way, a spot bitcoin ETF allows investors to gain exposure to the current price of bitcoin without having to hold the asset itself.
+
+This is in contrast to bitcoin futures ETFs, which were approved for trading by the U.S. Securities and Exchange Commission in October 2021 and can only trade bitcoin futures.
+
+Futures are complex derivatives instruments that track potential future prices of the underlying asset.
+
+How Do Spot Bitcoin ETFs Work?
+Spot bitcoin ETFs purchase a select amount of bitcoins that are held in a secure digital wallet by a custodian. These custodians offer bitcoin storage in a secure vault. Most of these vaults are—as crypto insiders call—air gapped in “cold storage,” which means the bitcoins’ keys are stored offline and cannot be accessed through the internet.
+
+The ETFs then issue shares that represent the bitcoins held by the fund. These shares are priced to reflect the current spot price of bitcoin and can be traded on traditional stock exchanges.
+
+Spot bitcoin ETFs make it easier for retail investors and traders to buy and sell an asset tied to the current value of bitcoin without needing to hold bitcoin itself. They also allow investors seeking exposure to bitcoin in retirement accounts to have a much simpler option than opening a self-directed IRA that could hold bitcoin directly.
+
+How Does a Spot ETF Maintain Its Price?
+
+The price of a spot ETF can depart from the actual value of the underlying asset.
+
+To bring the fund back in line with the asset’s actual value, authorized participants, otherwise known as APs, are allowed to create or redeem large blocks of shares. APs are typically large financial institutions that profit from the arbitrage opportunity presented when an ETF’s price is higher or lower than the underlying asset’s value.
+
+11 Spot Bitcoin ETFs
+Here are the 11 SEC-approved Spot Bitcoin ETFs as of January 31, 2024:
+
+Spot Bitcoin ETF	Expense Ratio	Fee Waiver
+ARK 21Shares Bitcoin ETF (ARKB)
+0.21%
+0% fee for six months (or until $1 billion in assets)
+Bitwise Bitcoin ETF (BITB)
+0.20%
+0% fee for six months (or until $1 billion in assets)
+Fidelity Wise Origin Bitcoin Trust (FBTC)
+0.25%
+Fees waived until July 31, 2024
+Franklin Bitcoin ETF (EZBC)
+0.19%
+0% fee until August 2, 2024 (or until $10 billion in assets)
+Grayscale Bitcoin Trust (GBTC)
+1.50%
+No fee waiver
+Hashdex Bitcoin ETF (DEFI)*
+0.90%
+No fee waiver
+Invesco Galaxy Bitcoin ETF (BTCO)
+0.25%
+0% fee for six months (or until $5 billion in assets)
+iShares Bitcoin Trust (IBIT)
+0.25%
+0.12% fee for 12 months (or until $5 billion in assets)
+Valkyrie Bitcoin Fund (BRRR)
+0.25%
+0% fee for three months
+VanEck Bitcoin Trust (HODL)
+0.25%
+No fee waiver
+See More
+* The Hashdex Bitcoin Futures ETF (DEFI) will convert to a spot bitcoin ETF at a later date.
+
+Now That They’re Here, What’s the Future of Spot Bitcoin ETFs?
+For years, the SEC had rejected all applications for a spot bitcoin ETF, with over 20 thumbs down between 2018 and 2023.
+
+The SEC’s approval of 11 spot bitcoin ETFs on January 10 marks a shift in how regulators treat cryptocurrencies. A flurry of new applications has been sent to the SEC for approval, suggesting even more spot bitcoin ETFs may be coming.
+
+It’s important to note that just because spot bitcoin ETFs have been approved, that does not mean the SEC is certain to approve additional crypto ETFs.
+
+Gary Gensler, chairman of the SEC, said in the SEC’s announcement of the approval of spot bitcoin ETFs, “Importantly, today’s Commission action is cabined to ETPs holding one non-security commodity, bitcoin. It should in no way signal the Commission’s willingness to approve listing standards for crypto asset securities.”
+
+Will Spot Bitcoin ETFs Affect the Price of Bitcoin?
+In the short term, more investors will find it easier to invest in bitcoin through these spot ETFs. This could mean more demand for bitcoin, as funds purchase from crypto exchanges to meet the demand of the spot ETFs.
+
+Bitcoin’s price was already rising in the weeks leading up to the spot bitcoin ETF announcement—and a “sell the news” moment happened in the wake of the approval. Many bitcoin holders became sellers, with the price of bitcoin dropping over 10% in just a few weeks.
+
+Over the long term, however, demand could increase for Bitcoin, as retirement plans, 401(k) plans and financial advisors start offering spot bitcoin ETFs as a way to diversify portfolios into “alternative assets.”
+
+“I personally believe that it will positively impact Bitcoin’s price because of increased adoption, easier access to ‘normies’ and increased liquidity in the marketplace,” says Marko Zlatic, founder of Whiteboard Finance. “Since the Bitcoin protocol dictates a finite supply of 21 million bitcoin ever, this should drive prices up over time, as long as there is adequate demand.”
+
+Risks of Investing in Spot Bitcoin ETFs
+Investors should understand the risk of investing in a spot bitcoin ETF before allocating any funds toward one.
+
+“Investors should approach cautiously and look at previous price movements of bitcoin to make sure they can stomach the volatility before they dive in,” says Christopher Johns, founder and wealth advisor at Spark Wealth Advisors, LLC.
+
+Gold had a similar trajectory when spot gold ETFs were introduced. The assets under management, or AUM, of spot gold ETFs quickly rose to about $1 billion. Since then, total holdings have grown to over $50 billion.
+
+This—along with other macroeconomic factors—has helped push the price of gold up to new highs.
+
+Spot Bitcoin ETFs: Pros And Cons
+
+Pros
+Bitcoin legitimacy. With the approval of spot bitcoin ETFs, the original cryptocurrency is now seen as a more legitimate asset class. Investors from all walks of life can gain exposure to bitcoin in almost any type of investment account they own, including individual retirement accounts, or IRAs, and 401(k)s.
+More liquidity. With ETFs buying and selling large blocks of bitcoin based on demand, this could increase liquidity and help stabilize prices over the long term.
+Increase prices. While a spot bitcoin ETF does not directly affect the price of bitcoin, the increased demand and purchasing of bitcoin by these ETFs could boost the price over time.
+Lower trading fees. With more adoption and ease of access through a spot ETF, investors may be able to access bitcoin with lower trading fees than some crypto exchanges.
+
+Cons
+More regulation. Spot bitcoin ETFs are highly-regulated securities that are now tied to the price of bitcoin. Any regulatory actions against bitcoin could affect the price of spot bitcoin ETFs—and bitcoin itself—as well.
+Investors don’t take custody of bitcoin. While investing in a spot bitcoin ETF gives you exposure to the price of bitcoin, you can’t take custody of the asset itself. “[You’re] trusting a third party custodian to ‘HODL’ your bitcoin. Not your keys, not your bitcoin,” Zlatic says.
+Annual fees. While trading spot bitcoin ETFs might cost less in the short term, the annual expense ratios may make it more expensive to own versus purchasing and storing bitcoin yourself.
+Volatility. While spot bitcoin ETFs will help increase bitcoin adoption, it is still a volatile asset that wildly fluctuates in price, which can hurt investors who aren’t prepared for the risk involved in owning bitcoin.
+Alternatives to Spot Bitcoin ETFs
+While investing in a spot bitcoin ETF can give you direct exposure to the price of bitcoin, it’s not the only way to invest in bitcoin. Here are a few alternatives to consider:
+
+Purchase bitcoin directly. If you want to own the actual asset yourself, you can purchase bitcoin from an online exchange. This gives you the ability to own bitcoin—or at least a portion of bitcoin—and take it into custody. There is a higher barrier to entry to owning bitcoin, as you’ll need to create a crypto exchange account, open a digital wallet and perhaps even transfer your bitcoin keys to a hardware wallet for safekeeping.
+Bitcoin futures ETF. Bitcoin futures ETFs have been around for a while, although they operate a bit differently than a spot ETF. These ETFs do not hold any bitcoin and only hold futures contracts based on the future price of bitcoin. This makes them potentially even more volatile than bitcoin itself.
+Bitcoin mining stocks. Bitcoin mining is a real business in which companies own and operate large data centers used for mining bitcoin. Some of these companies are publicly traded, allowing you to invest in the operation of mining bitcoin and the profit mining companies make in the process.

@@ -1,0 +1,84 @@
+Future Possibilities of Big Tech in Finance
+This report generally provides an overview of Big Tech’s current financial offerings, how the
+existing regulatory framework applies to these operations, and related policy implications.
+However, should Big Tech seek to expand its offerings, as its actions have sometimes suggested
+and some observers have speculated, the relevant concerns may change considerably. At the same
+time, regulatory treatment may change irrespective of Big Tech’s activities, as policymakers and
+lawmakers continue to assess various Big Tech financial-services-related activities, such as data
+practices, and potential antitrust issues. For policymakers concerned about the potential
+implications of becoming dominant in financial markets, financial products where Big Tech could
+expand is also relevant for current policy.
+This section considers the potential evolution of financial services offered by Big Tech and the
+attendant policy implications. While it considers possible alternatives and issues that may arise
+from possible paths, the report does not assume that any one is more or less likely or that the
+companies are considering pursuing any particular strategy.
+Investment Advisory Services
+Investment advisory services refer to professionals that provide advice on securities to investors
+and include asset, portfolio, and wealth managers.156 More than 90% of wealth managers believe
+Big Tech companies will enter the market, with greater than 50% expecting significant disruption
+if it happens, according to a November 2021 survey.157 Over the past decade, fintechs have
+entered the investment management area, using machine learning to offer services such as robo-
+advising and retail stock trading. If Big Tech companies were to consider this approach, they
+would have to register as investment advisors with the Securities and Exchange Commission.
+They may also be required to register with the Financial Industry Regulatory Authority if they
+plan to offer brokerage services.
+Insurance
+According to one major management consulting firm, “[o]utside tech-powered giants … are
+shaping the insurance market.”158 Both Amazon and Google have partnered with insurance
+companies, much like they did banks, to offer various insurance products.159 Any intention to
+push further without relying on a partner would invite regulation at the state level,160 where most of the regulation of insurance occurs:
+
+The role of the federal government in regulating private insurance is relatively limited
+compared with its role in banking and securities. Insurance companies, unlike banks and
+securities firms, have been chartered and regulated solely by the states for the past 150
+years. There are no federal regulators of insurance akin to those for securities or banks,
+such as the Securities and Exchange Commission (SEC) or the Office of the Comptroller
+of the Currency (OCC), respectively.161
+Banking
+There are few issues at the nexus of technology and finance that generate greater interest and
+speculation than the prospect of Big Tech’s entry into banking. As it stands, some have pursued
+nonbank lending. The “Plex” project (see “Google “Plex” textbox), which Google abandoned in
+late 2021, was the most direct step to date by the industry, seeming to confirm collective and
+long-held suspicions that Big Techs were interested in becoming banks. However, if any of the
+companies were to consider an expansion into more bank-like activities, such as accepting
+deposits, their only option would likely be to pursue an industrial loan company charter, which
+has a complex framework and history.
+Legislative Framework
+Generally, U.S. law prohibits commercial enterprises (i.e., nonfinancial firms) from operating
+banks. Since at least as far back as the Glass-Steagall Act (Sections 20, 21, 26, and 32 of the
+Banking Act of 1933; P.L. 73-66), and then in the Bank Holding Company Act, Congress has
+sought to separate banking enterprises that take deposits and make loans from commercial
+enterprises producing and selling goods and services.162 In short, the separation aims to prevent
+one company from both offering a product and the loan to purchase that product funded with
+deposits publicly guaranteed by FDIC insurance.
+One exception to this general separation of commerce and banking is the role of industrial loan
+companies (ILCs). ILCs are financial institutions charted in six states163 that function much like
+typical banks. Unlike other banks, ILCs can be owned by nonfinancial, commercial firms. Under
+the Bank Holding Company Act (12 U.S.C. 1841 (c)(2)(h)), ILCs, provided they meet certain
+criteria, are exempt from the definition of bank. Pursuant to that exemption, a company that owns
+a bank is not a bank holding company and as such is not subject to oversight by the Federal
+Reserve. However, ILCs are considered state banks for the purposes of the FDIC Act (12 U.S.C.
+1813 (a)(2)). Under that law, they are defined as banks and thus eligible for deposit insurance.
+Thus, this patchwork legal framework creates the opportunity for a company with other
+commercial interests to offer banking services, obtain deposit insurance, and operate nationally without being subject to consolidated supervision by the Federal Reserve System.
+
+Relevant History
+Historically, nonfinancial companies interested in a banking license have taken the ILC approach.
+In the mid-2000s, both Walmart and Home Depot began unsuccessful attempts to establish or
+acquire ILCs.165 Both ultimately dropped their attempts in the face of public opposition, after
+which the FDIC imposed an official moratorium on considering new insurance applications from
+ILCs between July 2006 and January 2008, and Section 603 of the Dodd-Frank Act imposed
+another temporary statutory moratorium between July 2010 and July 2013. Though the official
+moratoria had ended, the FDIC did not grant an ILC insurance application again until March
+2020, when it approved two ILCs—Nelnet and Square166—for deposit insurance. Square offers
+many of the same services as the Big Techs in this report, including mobile wallet with payment
+and peer-to-peer transfer functions.167
+Also relevant is an outstanding application for an ILC charter by Japanese e-commerce company
+Rakuten. Rakuten filed its most recent ILC application on January 15, 2021, following two
+previous applications that it withdrew before rulings. Rakuten is sometimes referred to as the
+“Amazon of Japan”168 and has a similar business model to U.S. Big Tech companies. As such,
+any decision by the FDIC will have regulatory arbitrage considerations (see “Systemic Risk”
+above) and is likely to be interpreted by others with similar models considering entering banking.
+Theoretically, a Big Tech with an ILC charter could benefit from access to deposits and deposit
+insurance without the increased regulatory burden and costs of consolidated financial oversight
+by the Federal Reserve System

@@ -1,0 +1,77 @@
+CHAPTER ONE
+INFECTIOUS DISEASES
+1. Introduction to infectious diseases
+Generally infectious diseases result from bacteria, viruses, fungi, and parasites. Despite decades of
+dramatic progress in their treatment and prevention, infectious diseases remain a major cause of
+death and are responsible for worsening the living conditions of many millions of people around the
+world especially in the developing countries. Infections frequently challenge the clinician’s diagnostic
+skill and must be considered in the differential diagnosis of syndromes affecting a multitude of organ
+systems. Infectious diseases often do not occur in isolated cases; rather they spread through a group
+exposed from a point source (e.g. a water supply contaminated with cholera) or from individual to
+individual (e.g. via respiratory droplets spreading tuberculosis). Many factors affect the likelihood of
+acquiring infections which include, host, environmental microbial factors.
+Host and Environmental Factors
+For any infectious process to occur, the parasite and the host must first encounter each other. Factors
+such as geography (e.g. altitude and malaria), environment (e.g. mosquito breeding site and malaria),
+disease vectors and host behavior (e.g. sexual behavior and sexually transmitted diseases) thus
+influence the likelihood of infection. Many Host Factors such as age, immunization, prior illness,
+nutritional status, pregnancy, coexisting illnesses and emotional status all have some impact on the
+risk of infection after exposure to a particular pathogen.
+Medical care itself can increase the patient’s risk of acquiring an infection. This can occur in several
+ways: through contact with the pathogens during hospitalization, through injections, surgical incisions,
+via mucosal surfaces by end tracheal tubes and bladder catheters, through the introduction of foreign bodies, through alteration of the natural flora with antibiotics, and through treatment with suppressive
+drugs such as steroids.
+Microbial Factors
+Infection involves complicated interaction of parasites and host and inevitably affects both. In most
+cases a pathogenic process consisting of several steps is required for the development of infections. 
+Internal Medicine
+2
+Since the competent host has a complex series of defense mechanisms in place to prevent infection,
+the successful parasite must utilize specific strategies at each of these steps. The specific strategies
+used by bacteria, viruses, and parasites have some similarities, but the details are unique not only for
+each class of organism but also for individual species within a class;
+Invasion;
+Microorganisms attached to mucosal surface use specific mechanisms to invade deeper structures.
+For example, meningococci and gonococci penetrate and traverse mucosal epithelial cells by
+transcytotic mechanism.
+Tropism;
+In order to infect a host successfully, many pathogens occupy highly specific place within the host and
+thus are tropic to a particular body site or cell type. For example, malaria sporozoites are rapidly
+cleared from the blood into the hepatocyts, where they undergo maturation and release into the circulation; trophozoites in turn can infect only the erythrocytes.
+Microbial virulence strategies;
+Microbes have developed a variety of strategies for escaping the immunity. For example, some
+pathogenic organisms elaborate toxins and enzymes that facilitate the invasion of the host and are
+often responsible for the disease state and many bacteria are encapsulated with polysaccharides that
+allow them to invade and deposit in the absence of specific antibodies.
+Immune response:
+Is a defense mechanism developed by the host for recognizing and responding to microorganisms. It
+is divided I to two major classes. Innate and Acquired Immunity.
+Innate immunity (Natural Immunity):
+Is first line of defense and serves to protect the host with out prior exposure to the infectious agent.
+This immune response is nonspecific and has no memory. Examples of Innate immunity include skin
+and mucous mebrane, phagocytoses by macrophages and nutrophils, complement system etc
+Acquired (Adaptive) Immunity:
+Is specific immune mechanism developed against a particular organism. It takes time to develop and it has long standing memory.
+It has two major arms: 
+Internal Medicine
+3
+• Cellular immunity: comprising T- lymphocytes, NK cells
+• Humeral Immunity: comprises of B-Lymphocytes and antibodies produced by plasma cells.
+Laboratory diagnosis
+The lab diagnosis of infections requires the demonstration, either
+1. Direct microscopic visualization of pathogens in clinical material (e.g. Plasmodium species in
+blood films) or the growth of microorganisms in the laboratory (e.g. culture) or
+2. Indirect (e.g. antibody / serology test for HIV), of viral, bacterial, mycotic, or parasitic agents in
+tissues, fluids, or excreta of the host.
+Treatment;
+Optimal therapy for infectious diseases requires a broad knowledge of medicine and careful clinical
+judgment. Life threatening infections such as bacterial meningitis and sepsis require urgent initiation
+of therapy often before a specific infective organism is identified. Antimicrobial agents must be chosen
+empirically and must be against the range of potential infectious agents consistent with the clinical
+condition. In contrast, good clinical judgment sometimes dictates withholding of antimicrobials in a self
+limited process or until a specific diagnosis is made. Certain infections (e.g. peritonitis, necrotizing
+fascitis, and abscess) require surgery as a primary means of cure; in these conditions, antibiotics play
+only as an adjunctive role.
+References:
+1. Kasper L., Braunwald E., Harrison’s principles of Internal medicine, 16th Edition, Intruducion to
+infectious diseases, pages 695-700. 

@@ -1,0 +1,61 @@
+Week 1, Day 1
+What you will see first is the Adventure Screen. This is where you will spend a great deal of
+time while playing Heroes III. The main window provides you with a close view around your
+heroes and cities, while the world map (located in the upper-right corner of the screen) shows
+you a small view of the entire world. Notice that most of the world map is black – that is
+because until you send a hero to explore an area you won’t know what is there. Don’t worry
+about any of the other buttons below the World Map, these will be described in greater detail
+later.
+Your first hero, Lord Haart, should already be selected (he’s sitting on his horse, waiting for
+instructions). The first thing we’ll want him to do is visit the town, so place your mouse cursor
+over the entrance to the town (between the two flag poles). Notice how the horse icon rears up
+on its hind legs – this means that by traveling to that location, your hero will interact with
+whatever is there. Also, the name and a short description of the location appears in the Rollover
+Bar at the bottom of the screen (the rollover bar appears on nearly every screen in Heroes III and
+gives useful, context sensitive information). When you click on a location, a set of green arrows
+show the path your hero will take to reach the large green X. It is this X that marks your hero’s
+destination. Click again on the same location and your hero will move to the castle (a fast way to
+move is to simply double click on an intended destination – the first click selects the path, the
+second click sends the hero). When the hero arrives at the entrance to the town, the view will
+change to the Town Screen.
+Town Screen
+This is the Town Screen for the Castle town type (there are eight different town types in Heroes
+III, each with its own unique creatures and buildings). Most of this screen is taken up by the
+town view. Any structures or upgrades you build in this town will appear here. As you can see,
+several structures have already been constructed. Specific information about the town is
+displayed in the bottom-left corner of the screen, including town income (per day) and troop
+production (per week). To the right of the town info are two rows of boxes. The top row is for
+any troops that are currently in the town’s garrison, the bottom row is for any troops currently
+visiting a town with a hero.
+The first thing you will want to do is build a Fort. To do so, click on the larger of the two
+buildings on the left side of the town view – the Town Hall – to enter the Hall Screen.
+The Hall Screen is where you make all your construction decisions. Any building you can
+currently build is shown with its name in a green bar. Any building that you can not build, but
+can be built later is shown with its name in a red bar. If a building has been disabled or can
+never be built, its name will appear in a gray bar. Once you have completely built or upgraded a
+structure as high as it will go, its name will be displayed in gold.
+Click on the picture of the Fort. You will be shown a description of what the Fort does, as well
+as what resources are required to build it. Click on the Build button (in the lower left hand
+corner of the popup window) and the Fort will be constructed.
+Now that you have a Fort, click on it to view the Castle Window. This window shows you
+information about all seven units that can be produced by this town. Any troop-producing
+structures (usually referred to as Creature Generators) that are already constructed will show a
+number of Available units (currently the Guardhouse, Archers’ Tower, and Barracks show units
+available – the other structures have not been built yet). Click the Exit button (lower right) to
+return to the Town Screen.
+The round tower on the right side of the screen is your Mage Guild. It is here that heroes go to
+learn the spells that they will cast while adventuring. Click on the Mage Guild, then choose to
+buy a spell book. Since Lord Haart is a Knight, he does not begin with a spell book. All heroes
+must have a spell book before they can learn or cast spells. Once you agree to purchase a spell
+book, you are shown the Mage Guild Screen. Each of the spells the Mage Guild offers is listed
+on scrolls on the various shelves in the guild. Left or right clicking on any spell scroll will show
+you a description of that spell. When you are ready to leave, click on the Exit button (lower
+right).
+Your hero starts with troops, but it’s really just a token force, so you should buy any available
+troops and add them to his army. Along the hill at the back of your town are three towers. Click
+on the large central tower. The Recruit Pikemen window is displayed. Using the scroll bar you
+can select how many troops you wish to purchase, and the total cost is calculated to the right.
+However, the fastest way to buy troops is to use the Maximum button (the four up arrows at the
+bottom of the popup window) which will automatically calculate the maximum number of troops
+available that you can currently afford. Click the Maximum button, then click the Recruit button
+(bottom center). Notice how there are now Pikemen in the garrison row of your town.

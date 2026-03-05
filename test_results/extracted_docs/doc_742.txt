@@ -1,0 +1,99 @@
+AI for Cybersecurity 
+Many attacks target relatively simple errors, such as misconfigurations of systems, that are hidden in a 
+vast amount of correct data. Logic-based AI systems are exceptionally good at noticing these kinds of 
+inconsistencies and knowing how to repair them. 
+Other attacks may show up as departures from standard usage patterns. These patterns may not be 
+obviously anomalous, can be hidden deep within data streams, and are unlikely to be visible to humans. 
+Though often indescribable by humans, these patterns can be learned by machines and noticed at scale. 
+It is understood that significant leverage is gained from having a small team of highly skilled cyber 
+defenders protecting networks used by thousands. Using AI could enable similar levels of protection to 
+become ubiquitous while providing the domain experience necessary to address other aspects, such as 
+quality-of-service constraints and degradation-of-system behaviors.  
+ 
+AI can also play a role in securely deploying and operating software systems. Once code is developed, AI 
+techniques can automatically explore for low-level attack vectors, or where appropriate, domain and 
+application configuration or logic errors. Similarly, AI can also advise IT professionals on best practices for 
+the secure operation and monitoring of critical systems. Automated configuration advice can secure 
+systems against unsophisticated adversaries, whereas AI-based network monitoring can detect patterns 
+of attack that are associated with more sophisticated nation-state adversaries. 
+Open-source software development offers a unique setting to apply these AI-based software assurance 
+techniques. With its widespread use by commercial and government organizations, open-source security 
+improvements would be extremely high impact (e.g., an automated system that continually proposes 
+security patches for open source software). At the same time, the public nature of open source 
+development adds new challenges concerning the malicious introduction of functionality and corruption 
+of data by an AI-based agent. This requires further exploration. 
+AI for Identity Management 
+Identity management and access control are central to securing modern communication systems and data 
+stores. However, an adversary can compromise many of these systems by stealing relatively small 
+authorization tokens. AI-based identity management can make access-control decisions based on a 
+history of interactions, and it is difficult to circumvent. By characterizing expected behavior, AI techniques 
+can provide protection with more lightweight and transparent mechanisms than current approaches (e.g., 
+two-person authorization requirements for certain actions). AI also can enhance accuracy and reduce 
+threats against biometric authentication systems.  
+However, there is a downside to using AI for identify management. AI monitoring of behavioral patterns 
+to provide authorization and detect insider threats could enable ongoing privacy violations in the system. 
+Research is needed to push monitoring and decision-making procedures closer to where they are needed, 
+and to use techniques such as differential privacy to limit the scope of privacy violations. These efforts 
+should include both the ethical and technical aspects of identity management and examine the potential 
+for abuse. 
+
+AI techniques are likely to be used by attackers as well as defenders. Traditional defensive strategy sought 
+to eliminate vulnerabilities or to increase the costs of an attack. The use of AI could dramatically alter the 
+attack risk and cost equations. Automated systems will need to plan for worst cases and anticipate, 
+respond, and analyze potential and actual threat occurrences. Research is needed to understand how AI 
+changes the attacker and defender balance of capabilities, and how it alters attack economics.  
+There are multiple stakeholders involved in cyber defensive scenarios, including data owners, service 
+providers, system operators, and those affected by AI-based decisions. How stakeholders are consulted 
+and informed about autonomous operations and how decision-making is delegated and constrained are 
+important considerations. 
+Two areas of specific interest are autonomous attacks and mission-specific resilience.  
+Autonomous Attacks 
+Cyber defenders will face attacks created and orchestrated by AI systems. At the most basic level, where 
+there is a stable cyber environment, attacks could be constructed using classic deterministic planning. At 
+the next level, where the environment is uncertain, attacks may involve planning under uncertainty.  
+In the extreme case where minimal information about the environment and defenses is available, the 
+attacker could use autonomous techniques to discover information and learn how to attack and execute 
+plans for cyber reconnaissance. The attacker’s challenges include the need to remain stealthy and avoid 
+any deception mechanisms.  
+The attacker may use AI to develop strategies that include building a model of the victim network or 
+system (i.e., AI-enabled program synthesis). An adversary can systematically generate programs that have 
+a fixed behavior to learn about a cybersecurity product—using it as an oracle. At a high level, the attacker 
+can generate code examples and predict whether the defense technology would detect the attacker’s 
+presence as malicious. Using the answers, the attacker can build a model of the cybersecurity product. 
+Methods and techniques are needed to make deployed systems resistant to automated analysis and 
+attack, by either increasing the cost or continuing to close system loopholes. One promising technique is 
+automated isolation (e.g., behavioral restrictions). Attacks can exploit the universality of program 
+execution because most software components are designed to have limited behavior. Sandboxes have 
+proven effective in protecting software from memory corruption attacks, but more precise methods are 
+needed. There is value in exploring AI systems that learn the scope of valid behaviors and limit 
+components to those behaviors.  
+Another method is to strategically study defensive agility. How and when should plans and systems be 
+updated? Can results from simulation environments be applied to real systems? What are the principles 
+behind simulating? What is possible, and what is useful? 
+Mission-Specific Resilience 
+Many cybersecurity techniques are designed to be broadly applicable. While often beneficial, applying 
+techniques without accounting for the objectives of the enterprise can lead to problems, including failure 
+to meet the mission (whether social, industrial, or military). Domain experts must team with the AI experts 
+to categorize system attacks and model responses in the context of the primary mission of the 
+organization. 
+
+Conflict between security measures designed for distinct computing resources, whether they are run 
+concurrently or in sequence, is a challenge. For example, one autonomous agent may be working to lay a 
+cyber deception trail to confuse a cyber attacker while another agent may be trying to simplify the 
+network structure to reduce the attack surface.  
+Autonomous Cyber Defense 
+As adversaries use AI to identify vulnerable systems, amplify points of attack, coordinate resources, and 
+stage attacks at scale, defenders need to respond accordingly. 
+Current practice is often focused on the detection of individual exploits, but sophisticated attacks can 
+involve multiple stages—including penetration, lateral motion, privilege escalation, malware staging, 
+and/or persistence establishment—before the ultimate target is compromised. Although modern ML 
+techniques can detect the individual events that constitute this “cyber kill chain,” a bottom-up approach 
+that sequentially addresses the various stages of attack is inadequate. Progress requires integration 
+activity at the tactical level into a top-down strategic view that reveals the attacker’s goals and current 
+status, and helps coordinate, focus, and manage available defensive resources. 
+Consider the scenario of an attack on a power distribution system. Initial penetration is accomplished 
+through a phishing email and the initial foothold is on a normal workstation. A larger malware package is 
+downloaded that includes a key logger and a “kill disk” that consumes all the space on the workstation disk. 
+The credentials of a system administrator who logs in to repair the workstation are exfiltrated to the 
+attacker, and the attacker moves to the power grid’s operator console, able then to disable the entire 
+distribution network. 

@@ -3,6 +3,9 @@ import type { GrokMessage, UserContentPart } from '../grok/client.js';
 
 export class TokenCounter {
   private encoder: Tiktoken;
+  private cache: Map<string, number> = new Map();
+  private readonly MAX_CACHE_SIZE = 1000;
+  private readonly MAX_CACHE_TEXT_LENGTH = 2000;
 
   constructor(model: string = 'gpt-4') {
     if (model && model.toLowerCase().includes('grok')) {
@@ -25,7 +28,28 @@ export class TokenCounter {
    */
   countTokens(text: string): number {
     if (!text) return 0;
-    return this.encoder.encode(text).length;
+
+    // Check cache for short strings that are likely to be repeated
+    if (text.length <= this.MAX_CACHE_TEXT_LENGTH) {
+      const cached = this.cache.get(text);
+      if (cached !== undefined) return cached;
+    }
+
+    const count = this.encoder.encode(text).length;
+
+    // Cache the result if text is not too long
+    if (text.length <= this.MAX_CACHE_TEXT_LENGTH) {
+      if (this.cache.size >= this.MAX_CACHE_SIZE) {
+        // Simple FIFO eviction: delete the first entry
+        const firstKey = this.cache.keys().next().value;
+        if (firstKey !== undefined) {
+          this.cache.delete(firstKey);
+        }
+      }
+      this.cache.set(text, count);
+    }
+
+    return count;
   }
 
   /**
@@ -80,6 +104,7 @@ export class TokenCounter {
    */
   dispose(): void {
     this.encoder.free();
+    this.cache.clear();
   }
 }
 

@@ -3,6 +3,11 @@
  * Reference implementation – optimized for typical embedding ranges.
  */
 
+// Shared buffers to eliminate per-call allocations and GC pressure
+const convBuf = new ArrayBuffer(4);
+const convF32 = new Float32Array(convBuf);
+const convU32 = new Uint32Array(convBuf);
+
 /**
  * Convert FP32 to FP16 using integer arithmetic (no DataView per element).
  * Optimized for values in typical embedding range [-1, 1].
@@ -13,12 +18,8 @@ export function f32ToFp16Fast(value: number): number {
     if (isNaN(value)) return 0x7e00; // NaN
     if (!isFinite(value)) return value > 0 ? 0x7c00 : 0xfc00; // ±Inf
 
-    // Extract bits using typed array (faster than DataView for single value)
-    const buf = new ArrayBuffer(4);
-    const f32 = new Float32Array(buf);
-    f32[0] = value;
-    const view = new Uint32Array(buf);
-    const bits = view[0];
+    convF32[0] = value;
+    const bits = convU32[0];
 
     const sign = (bits >> 31) & 0x1;
     const exponent = (bits >> 23) & 0xff;
@@ -94,11 +95,8 @@ export function fp16ToF32Fast(fp16: number): number {
 
     // Combine bits
     const bits = (sign << 31) | ((exp32 & 0xff) << 23) | (mant32 & 0x7fffff);
-    const buf = new ArrayBuffer(4);
-    const view = new Uint32Array(buf);
-    view[0] = bits;
-    const f32 = new Float32Array(buf);
-    return f32[0];
+    convU32[0] = bits;
+    return convF32[0];
 }
 
 /**

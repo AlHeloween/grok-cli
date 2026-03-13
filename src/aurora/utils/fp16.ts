@@ -8,6 +8,11 @@
  * - Mantissa: 10 bits
  */
 
+// Shared buffers to eliminate per-call allocations and GC pressure
+const convBuf = new ArrayBuffer(4);
+const convF32 = new Float32Array(convBuf);
+const convU32 = new Uint32Array(convBuf);
+
 /**
  * Convert a single FP32 number to FP16 bits (Uint16).
  */
@@ -16,10 +21,8 @@ export function f32ToFp16(value: number): number {
   if (value === Infinity) return 0x7c00;
   if (value === -Infinity) return 0xfc00;
 
-  const buf = new ArrayBuffer(4);
-  const view = new DataView(buf);
-  view.setFloat32(0, value, true); // little-endian
-  const bits = view.getUint32(0, true);
+  convF32[0] = value;
+  const bits = convU32[0];
 
   const sign = (bits >> 31) & 0x1;
   const exponent = (bits >> 23) & 0xff;
@@ -95,10 +98,8 @@ export function fp16ToF32(fp16: number): number {
 
   // Combine bits
   const bits = (sign << 31) | ((exp32 & 0xff) << 23) | (mant32 & 0x7fffff);
-  const buf = new ArrayBuffer(4);
-  const view = new DataView(buf);
-  view.setUint32(0, bits, true);
-  return view.getFloat32(0, true);
+  convU32[0] = bits;
+  return convF32[0];
 }
 
 /**
@@ -199,12 +200,8 @@ export function f32ToFp16Fast(value: number): number {
   if (isNaN(value)) return 0x7e00;
   if (!isFinite(value)) return value > 0 ? 0x7c00 : 0xfc00;
   
-  // Extract bits using typed array (faster than DataView for single value)
-  const buf = new ArrayBuffer(4);
-  const f32 = new Float32Array(buf);
-  f32[0] = value;
-  const view = new Uint32Array(buf);
-  const bits = view[0];
+  convF32[0] = value;
+  const bits = convU32[0];
   
   const sign = (bits >> 31) & 0x1;
   const exponent = (bits >> 23) & 0xff;
@@ -280,11 +277,8 @@ export function fp16ToF32Fast(fp16: number): number {
   
   // Combine bits
   const bits = (sign << 31) | ((exp32 & 0xff) << 23) | (mant32 & 0x7fffff);
-  const buf = new ArrayBuffer(4);
-  const view = new Uint32Array(buf);
-  view[0] = bits;
-  const f32 = new Float32Array(buf);
-  return f32[0];
+  convU32[0] = bits;
+  return convF32[0];
 }
 export function dotProductFp16Unrolled(aFp16: Uint16Array, bFp16: Uint16Array): number {
   const len = aFp16.length;

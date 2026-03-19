@@ -1,22 +1,43 @@
 import { get_encoding, encoding_for_model, Tiktoken, type TiktokenModel } from 'tiktoken';
 import type { GrokMessage, UserContentPart } from '../grok/client.js';
 
+// Global cache for Tiktoken encoders to avoid expensive re-initialization (~100ms)
+const encoderCache = new Map<string, Tiktoken>();
+
 export class TokenCounter {
   private encoder: Tiktoken;
 
   constructor(model: string = 'gpt-4') {
-    if (model && model.toLowerCase().includes('grok')) {
-      // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
-      this.encoder = get_encoding('cl100k_base');
+    const isGrok = model && model.toLowerCase().includes('grok');
+    const cacheKey = isGrok ? 'cl100k_base' : model;
+
+    const cached = encoderCache.get(cacheKey);
+    if (cached) {
+      this.encoder = cached;
       return;
     }
 
-    try {
-      // Try to get encoding for specific model
-      this.encoder = encoding_for_model(model as TiktokenModel);
-    } catch {
-      // Fallback to cl100k_base (used by GPT-4 and most modern models)
+    if (isGrok) {
+      // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
       this.encoder = get_encoding('cl100k_base');
+      encoderCache.set('cl100k_base', this.encoder);
+    } else {
+      try {
+        // Try to get encoding for specific model
+        this.encoder = encoding_for_model(model as TiktokenModel);
+        encoderCache.set(model, this.encoder);
+      } catch {
+        // Fallback to cl100k_base (used by GPT-4 and most modern models)
+        const fallback = encoderCache.get('cl100k_base');
+        if (fallback) {
+          this.encoder = fallback;
+        } else {
+          this.encoder = get_encoding('cl100k_base');
+          encoderCache.set('cl100k_base', this.encoder);
+        }
+        // Also cache under the requested model name to avoid future try/catch overhead
+        encoderCache.set(model, this.encoder);
+      }
     }
   }
 
@@ -77,9 +98,11 @@ export class TokenCounter {
 
   /**
    * Clean up resources
+   * Note: In this optimized version, encoders are cached globally and not freed
+   * to avoid expensive re-initialization on subsequent turns.
    */
   dispose(): void {
-    this.encoder.free();
+    // No-op: encoders are shared via global cache
   }
 }
 

@@ -3,21 +3,36 @@ import type { GrokMessage, UserContentPart } from '../grok/client.js';
 
 export class TokenCounter {
   private encoder: Tiktoken;
+  private static encoderCache: Map<string, Tiktoken> = new Map();
 
   constructor(model: string = 'gpt-4') {
-    if (model && model.toLowerCase().includes('grok')) {
-      // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
-      this.encoder = get_encoding('cl100k_base');
-      return;
-    }
+    const encodingName = this.getEncodingName(model);
 
-    try {
-      // Try to get encoding for specific model
-      this.encoder = encoding_for_model(model as TiktokenModel);
-    } catch {
-      // Fallback to cl100k_base (used by GPT-4 and most modern models)
-      this.encoder = get_encoding('cl100k_base');
+    // Check cache first - initializing Tiktoken is expensive (~100ms)
+    let cached = TokenCounter.encoderCache.get(encodingName);
+    if (!cached) {
+      try {
+        if (model && !model.toLowerCase().includes('grok')) {
+          cached = encoding_for_model(model as TiktokenModel);
+        } else {
+          cached = get_encoding('cl100k_base');
+        }
+      } catch {
+        cached = get_encoding('cl100k_base');
+      }
+      TokenCounter.encoderCache.set(encodingName, cached);
     }
+    this.encoder = cached;
+  }
+
+  private getEncodingName(model: string): string {
+    if (!model || model.toLowerCase().includes('grok')) {
+      return 'cl100k_base';
+    }
+    // This is a bit of a hack because tiktoken doesn't expose a direct
+    // model-to-encoding-name mapping without instantiating, but for
+    // caching purposes we just need a stable key.
+    return model;
   }
 
   /**
@@ -76,10 +91,13 @@ export class TokenCounter {
   }
 
   /**
-   * Clean up resources
+   * Clean up resources.
+   * Since we use a shared cache, we no longer free the encoder here
+   * to keep it available for other instances. Encoders will persist
+   * for the lifetime of the process.
    */
   dispose(): void {
-    this.encoder.free();
+    // No-op: encoders are managed by the static cache
   }
 }
 

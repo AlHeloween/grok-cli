@@ -2,22 +2,43 @@ import { get_encoding, encoding_for_model, Tiktoken, type TiktokenModel } from '
 import type { GrokMessage, UserContentPart } from '../grok/client.js';
 
 export class TokenCounter {
+  // Global cache for encoders to avoid expensive ~100ms initialization per instance
+  private static cache = new Map<string, Tiktoken>();
   private encoder: Tiktoken;
 
   constructor(model: string = 'gpt-4') {
-    if (model && model.toLowerCase().includes('grok')) {
-      // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
-      this.encoder = get_encoding('cl100k_base');
+    const encodingName = this.resolveEncodingName(model);
+
+    // Return cached encoder if available
+    if (TokenCounter.cache.has(encodingName)) {
+      this.encoder = TokenCounter.cache.get(encodingName)!;
       return;
     }
 
     try {
-      // Try to get encoding for specific model
-      this.encoder = encoding_for_model(model as TiktokenModel);
+      if (encodingName === 'cl100k_base') {
+        this.encoder = get_encoding('cl100k_base');
+      } else {
+        this.encoder = encoding_for_model(encodingName as TiktokenModel);
+      }
     } catch {
-      // Fallback to cl100k_base (used by GPT-4 and most modern models)
+      // Fallback to cl100k_base
       this.encoder = get_encoding('cl100k_base');
     }
+
+    // Cache the encoder for future use
+    TokenCounter.cache.set(encodingName, this.encoder);
+  }
+
+  /**
+   * Resolve the appropriate encoding name for a given model
+   */
+  private resolveEncodingName(model: string): string {
+    if (model && model.toLowerCase().includes('grok')) {
+      // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
+      return 'cl100k_base';
+    }
+    return model;
   }
 
   /**
@@ -76,10 +97,11 @@ export class TokenCounter {
   }
 
   /**
-   * Clean up resources
+   * Clean up resources.
+   * Since we're using a global cache, we don't free the encoder here.
    */
   dispose(): void {
-    this.encoder.free();
+    // No-op for cached encoders to persist for process lifetime
   }
 }
 

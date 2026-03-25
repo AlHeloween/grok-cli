@@ -164,6 +164,56 @@ export class SqliteGloVeLoader {
   }
 
   /**
+   * Get vectors for multiple words in batch.
+   * Returns a Map of word to Float32Array vector.
+   */
+  getVectorsBatch(words: string[]): Map<string, Float32Array> {
+    const result = new Map<string, Float32Array>();
+    const toFetch: string[] = [];
+
+    for (const word of words) {
+      const normalizedWord = word.toLowerCase();
+      if (this.wordCache.has(normalizedWord)) {
+        result.set(normalizedWord, this.wordCache.get(normalizedWord)!);
+      } else {
+        toFetch.push(normalizedWord);
+      }
+    }
+
+    if (toFetch.length === 0) return result;
+
+    if (!this.db) {
+      throw new Error("Database not opened");
+    }
+
+    // SQLite has a limit on the number of host parameters (typically 999 or 32766)
+    // We'll process in chunks of 500 to be safe.
+    const CHUNK_SIZE = 500;
+    for (let i = 0; i < toFetch.length; i += CHUNK_SIZE) {
+      const chunk = toFetch.slice(i, i + CHUNK_SIZE);
+      const placeholders = chunk.map(() => "?").join(",");
+      const rows = this.db.selectArrays(
+        `SELECT word, vector FROM glove WHERE word IN (${placeholders})`,
+        chunk
+      );
+
+      for (const row of rows) {
+        const word = row[0] as string;
+        const blob = row[1] as Uint8Array;
+        const float32Array = new Float32Array(
+          blob.buffer,
+          blob.byteOffset,
+          blob.byteLength / 4
+        );
+        this.wordCache.set(word, float32Array);
+        result.set(word, float32Array);
+      }
+    }
+
+    return result;
+  }
+
+  /**
    * Get norm for a word.
    */
   getNorm(word: string): number {

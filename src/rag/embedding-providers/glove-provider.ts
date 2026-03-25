@@ -104,11 +104,59 @@ export class GloveEmbeddingProvider implements IEmbeddingProvider {
 
   async embedBatch(texts: string[]): Promise<number[][]> {
     await this.ensureLoader();
-    
-    const embeddings: number[][] = [];
-    for (const text of texts) {
-      embeddings.push(await this.embed(text));
+
+    // 1. Tokenize all texts and collect unique words
+    const textsTokens = texts.map((text) => tokenize(text));
+    const uniqueWords = new Set<string>();
+    for (const tokens of textsTokens) {
+      for (const token of tokens) {
+        uniqueWords.add(token);
+      }
     }
+
+    // 2. Fetch all unique words in one batch
+    const wordVectors = this.loader!.getVectorsBatch(Array.from(uniqueWords));
+
+    // 3. Compute embeddings for each text using the fetched vectors
+    const embeddings: number[][] = [];
+    for (const tokens of textsTokens) {
+      if (tokens.length === 0) {
+        embeddings.push(new Array(this.dimension).fill(0));
+        continue;
+      }
+
+      let sumVector: number[] | null = null;
+      let validWordCount = 0;
+
+      for (const token of tokens) {
+        const vector = wordVectors.get(token.toLowerCase());
+        if (vector && vector.length === this.dimension) {
+          if (sumVector === null) {
+            sumVector = Array.from(vector);
+          } else {
+            for (let i = 0; i < this.dimension; i++) {
+              sumVector[i] += vector[i];
+            }
+          }
+          validWordCount++;
+        }
+      }
+
+      if (sumVector === null || validWordCount === 0) {
+        embeddings.push(new Array(this.dimension).fill(0));
+        continue;
+      }
+
+      const avgVector = sumVector.map((v) => v / validWordCount);
+      const norm = Math.sqrt(avgVector.reduce((sum, v) => sum + v * v, 0));
+
+      if (norm > 0) {
+        embeddings.push(avgVector.map((v) => v / norm));
+      } else {
+        embeddings.push(avgVector);
+      }
+    }
+
     return embeddings;
   }
 }

@@ -259,14 +259,14 @@ getPath(): string {
     }
   }
 
-  insertChunk(row: { path: string; text: string; meta?: string | null; vector: number[] }): void {
+  insertChunk(row: { path: string; text: string; meta?: string | null; vector: number[] | Float32Array }): void {
   this.db.exec({
     sql: "INSERT INTO chunks(path, text, meta, vector) VALUES(?, ?, ?, vector_as_f32(?))",
     bind: [
       row.path,
       row.text,
       row.meta ?? null,
-      JSON.stringify(row.vector),
+      vectorToUint8Array(row.vector),
     ],
   });
   this.dirty = true;
@@ -332,8 +332,8 @@ clearAllChunks(): void {
     }));
   }
 
-  queryTopK(vector: number[], k: number): RagChunkRow[] {
-    if (!vector.length || k <= 0) return [];
+  queryTopK(vector: number[] | Float32Array, k: number): RagChunkRow[] {
+    if (vector.length === 0 || k <= 0) return [];
     
     // Try quantized scan first (if quantization has been enabled)
     try {
@@ -345,13 +345,14 @@ clearAllChunks(): void {
         ON c.id = v.rowid
         ORDER BY v.distance ASC
         `,
-        [JSON.stringify(vector), k]
+        [vectorToUint8Array(vector), k]
       );
       return (rows || []) as RagChunkRow[];
-    } catch (error: any) {
+    } catch (error: unknown) {
+      const msg = error instanceof Error ? error.message : String(error);
       // If quantization table not found, fall back to vector_full_scan (exact search)
-      if (error.message?.includes?.("Quantization table not found") || 
-          error.message?.includes?.("vector_quantize() has been called")) {
+      if (msg.includes("Quantization table not found") ||
+          msg.includes("vector_quantize() has been called")) {
         // Use vector_full_scan for exact similarity search
         const rows = this.db.selectObjects(
           `
@@ -361,7 +362,7 @@ clearAllChunks(): void {
           ON c.id = v.rowid
           ORDER BY v.distance ASC
           `,
-          [JSON.stringify(vector), k]
+          [vectorToUint8Array(vector), k]
         );
         return (rows || []) as RagChunkRow[];
       }
@@ -393,8 +394,8 @@ clearAllChunks(): void {
     }
     return out;
   }
-  queryTopKWithPrefix(vector: number[], k: number, pathPrefix: string): RagChunkRow[] {
-    if (!vector.length || k <= 0) return [];
+  queryTopKWithPrefix(vector: number[] | Float32Array, k: number, pathPrefix: string): RagChunkRow[] {
+    if (vector.length === 0 || k <= 0) return [];
     
     // Try quantized scan first (if quantization has been enabled)
     try {
@@ -407,13 +408,14 @@ clearAllChunks(): void {
         WHERE c.path LIKE ?
         ORDER BY v.distance ASC
         `,
-        [JSON.stringify(vector), k, `${pathPrefix}%`]
+        [vectorToUint8Array(vector), k, `${pathPrefix}%`]
       );
       return (rows || []) as RagChunkRow[];
-    } catch (error: any) {
+    } catch (error: unknown) {
+      const msg = error instanceof Error ? error.message : String(error);
       // If quantization table not found, fall back to vector_full_scan (exact search)
-      if (error.message?.includes?.("Quantization table not found") || 
-          error.message?.includes?.("vector_quantize() has been called")) {
+      if (msg.includes("Quantization table not found") ||
+          msg.includes("vector_quantize() has been called")) {
         // Use vector_full_scan for exact similarity search
         const rows = this.db.selectObjects(
           `
@@ -424,7 +426,7 @@ clearAllChunks(): void {
           WHERE c.path LIKE ?
           ORDER BY v.distance ASC
           `,
-          [JSON.stringify(vector), k, `${pathPrefix}%`]
+          [vectorToUint8Array(vector), k, `${pathPrefix}%`]
         );
         return (rows || []) as RagChunkRow[];
       }
@@ -440,6 +442,19 @@ clearAllChunks(): void {
     });
     this.dirty = true;
   }
+}
+
+/**
+ * Converts a numeric array or Float32Array into a Uint8Array representing
+ * the raw IEEE 754 floating point bytes. This is used for high-performance
+ * BLOB binding in sqlite-vector.
+ */
+function vectorToUint8Array(vector: number[] | Float32Array): Uint8Array {
+  if (vector instanceof Float32Array) {
+    return new Uint8Array(vector.buffer, vector.byteOffset, vector.byteLength);
+  }
+  const f32 = new Float32Array(vector);
+  return new Uint8Array(f32.buffer, f32.byteOffset, f32.byteLength);
 }
 
 function decodeFloat32Blob(blob: unknown): Float32Array | null {

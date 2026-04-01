@@ -18,6 +18,7 @@ import { createGloveCommand } from "./commands/glove.js";
 import { UserContentPart } from "./grok/client.js";
 import { isThemeId, listThemes } from "./ui/utils/theme.js";
 import { indexProject } from "./rag/indexer.js";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { indexChatHistory } from "./rag/chat-indexer.js";
 import { VectorDb } from "./rag/vector-db.js";
 

@@ -65,14 +65,19 @@ describe("chat-indexer", () => {
     ];
 
     // Helper to create a mock embedding client
-    const createMockEmbeddingClient = (embedResult: number[]) => ({
-      client: {},
-      model: "text-embedding-3-small",
-      getModel: vi.fn(() => "text-embedding-3-small"),
-      embed: vi.fn().mockResolvedValue(embedResult),
-      embedBatch: vi.fn(),
-
-    }) as any /* eslint-disable-line @typescript-eslint/no-explicit-any */  
+    const createMockEmbeddingClient = (embedResult: number[]) => {
+      const mock = {
+        client: {},
+        model: "text-embedding-3-small",
+        getModel: vi.fn(() => "text-embedding-3-small"),
+        embed: vi.fn().mockResolvedValue(embedResult),
+        embedBatch: vi.fn(),
+      };
+      mock.embedBatch.mockImplementation(async (texts: string[]) => {
+        return Promise.all(texts.map(() => mock.embed("")));
+      });
+      return mock as any /* eslint-disable-line @typescript-eslint/no-explicit-any */;
+    };
 
     const mockDbInstance = {
       beginTransaction: vi.fn(),

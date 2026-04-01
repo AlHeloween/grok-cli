@@ -54,8 +54,22 @@ export class OpenAiEmbeddingProvider implements IEmbeddingProvider {
   }
 
   async embedBatch(texts: string[]): Promise<number[][]> {
-    const inputs = texts.map((t) => t.trim()).filter(Boolean);
-    if (inputs.length === 0) return [];
+    if (texts.length === 0) return [];
+
+    // Filter out empty/whitespace strings for the API call, but maintain index mapping
+    const nonEmptyIndices: number[] = [];
+    const inputs = texts.map((text, i) => {
+      const t = text.trim();
+      if (t) {
+        nonEmptyIndices.push(i);
+        return t;
+      }
+      return null;
+    }).filter((t): t is string => t !== null);
+
+    if (inputs.length === 0) {
+      return texts.map(() => []);
+    }
 
     const response = await this.client.embeddings.create({
       model: this.model,
@@ -63,9 +77,15 @@ export class OpenAiEmbeddingProvider implements IEmbeddingProvider {
     });
 
     const vectors = (response.data || []).map((d) => d.embedding);
-    if (!vectors.every((v) => Array.isArray(v))) {
+    if (vectors.length !== inputs.length || !vectors.every((v) => Array.isArray(v))) {
       throw new Error("Embeddings API returned invalid vectors");
     }
-    return vectors as number[][];
+
+    // Map vectors back to original indices, preserving 1:1 mapping
+    const result: number[][] = texts.map(() => []);
+    for (let i = 0; i < nonEmptyIndices.length; i++) {
+      result[nonEmptyIndices[i]] = vectors[i] as number[];
+    }
+    return result;
   }
 }

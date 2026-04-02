@@ -4,13 +4,38 @@ import { GloveEmbeddingProvider } from "./embedding-providers/glove-provider.js"
 import { HashEmbeddingProvider } from "./embedding-providers/hash-provider.js";
 import { OpenAiEmbeddingProvider } from "./embedding-providers/openai-provider.js";
 
-// Mock the loader to avoid real SQLite dependency
-vi.mock("../../aurora/glove/sqlite-loader.js", () => ({
-  createSqliteGloVeLoader: vi.fn(() => ({
-    getDimension: () => 3,
-    getVectorAsArray: (word: string) => word === "test" ? [1, 2, 3] : null,
-  })),
-}));
+// Mock the entire module to avoid real SQLite dependency and fs checks
+vi.mock("../aurora/glove/sqlite-loader.js", () => {
+  return {
+    SqliteGloVeLoader: class {
+      public dimension = 3;
+      async open() {}
+      close() {}
+      getDimension() { return 3; }
+      getVectorAsArray(word: string) { return word === "test" ? [1, 2, 3] : null; }
+      getVectorAsFloat32(word: string) { return word === "test" ? new Float32Array([1, 2, 3]) : null; }
+      getVectorsBatch(words: string[]) {
+        const m = new Map();
+        if (words.includes("test")) m.set("test", new Float32Array([1, 2, 3]));
+        return m;
+      }
+    },
+    createSqliteGloVeLoader: vi.fn().mockImplementation(async () => {
+      return {
+        getDimension: () => 3,
+        getVectorAsArray: (word: string) => word === "test" ? [1, 2, 3] : null,
+        getVectorAsFloat32: (word: string) => word === "test" ? new Float32Array([1, 2, 3]) : null,
+        getVectorsBatch: (words: string[]) => {
+          const m = new Map();
+          if (words.includes("test")) m.set("test", new Float32Array([1, 2, 3]));
+          return m;
+        },
+        open: async () => {},
+        close: () => {},
+      };
+    }),
+  };
+});
 
 describe("createEmbeddingProvider", () => {
   it("should create GloVe provider with valid model path", () => {

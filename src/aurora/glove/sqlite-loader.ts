@@ -124,6 +124,20 @@ export class SqliteGloVeLoader {
    * Get vector for a word as Float32Array.
    * Returns null if word not found.
    */
+  /**
+   * Safely create a Float32Array from a Uint8Array, handling alignment.
+   */
+  private blobToFloat32Array(blob: Uint8Array): Float32Array {
+    // If aligned to 4 bytes, we can use a direct view on the buffer
+    if (blob.byteOffset % 4 === 0) {
+      return new Float32Array(blob.buffer, blob.byteOffset, blob.byteLength / 4);
+    }
+    // Otherwise, we must copy the data to ensure alignment
+    const copy = new Uint8Array(blob.byteLength);
+    copy.set(blob);
+    return new Float32Array(copy.buffer, 0, copy.byteLength / 4);
+  }
+
   getVectorAsFloat32(word: string): Float32Array | null {
     const normalizedWord = word.toLowerCase();
     
@@ -139,12 +153,58 @@ export class SqliteGloVeLoader {
     const rows = this.db.selectArrays("SELECT vector FROM glove WHERE word = ?", [normalizedWord]);
     if (rows.length > 0) {
       const blob = rows[0][0] as Uint8Array;
-      const float32Array = new Float32Array(blob.buffer, blob.byteOffset, blob.byteLength / 4);
+      const float32Array = this.blobToFloat32Array(blob);
       this.wordCache.set(normalizedWord, float32Array);
       return float32Array;
     }
     
     return null;
+  }
+
+  /**
+   * Get vectors for multiple words efficiently using a batch query.
+   */
+  getVectorsBatch(words: string[]): Map<string, Float32Array> {
+    if (!this.db) {
+      throw new Error("Database not opened");
+    }
+
+    const result = new Map<string, Float32Array>();
+    const missingWords: string[] = [];
+
+    for (const word of words) {
+      const normalizedWord = word.toLowerCase();
+      if (this.wordCache.has(normalizedWord)) {
+        result.set(normalizedWord, this.wordCache.get(normalizedWord)!);
+      } else {
+        missingWords.push(normalizedWord);
+      }
+    }
+
+    if (missingWords.length === 0) {
+      return result;
+    }
+
+    // Process missing words in chunks to avoid SQLite parameter limits
+    const chunkSize = 500;
+    for (let i = 0; i < missingWords.length; i += chunkSize) {
+      const chunk = missingWords.slice(i, i + chunkSize);
+      const placeholders = chunk.map(() => "?").join(",");
+      const rows = this.db.selectArrays(
+        `SELECT word, vector FROM glove WHERE word IN (${placeholders})`,
+        chunk
+      );
+
+      for (const row of rows) {
+        const word = row[0] as string;
+        const blob = row[1] as Uint8Array;
+        const float32Array = this.blobToFloat32Array(blob);
+        this.wordCache.set(word, float32Array);
+        result.set(word, float32Array);
+      }
+    }
+
+    return result;
   }
 
   /**
@@ -221,7 +281,7 @@ export class SqliteGloVeLoader {
     for (const row of rows) {
       const word = row[0] as string;
       const blob = row[1] as Uint8Array;
-      const vector = new Float32Array(blob.buffer, blob.byteOffset, blob.byteLength / 4);
+      const vector = this.blobToFloat32Array(blob);
       
       const dot = dotProduct(floatVector, vector);
       results.push({ word, score: dot });

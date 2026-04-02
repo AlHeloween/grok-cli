@@ -57,58 +57,76 @@ export class GloveEmbeddingProvider implements IEmbeddingProvider {
   }
 
   /**
-   * Compute embedding for a text by averaging word vectors.
-   * Words not in vocabulary are skipped.
+   * Compute document embedding from a list of tokens and a vector map.
    */
-  async embed(text: string): Promise<number[]> {
-    await this.ensureLoader();
-    
-    const tokens = tokenize(text);
+  private computeAverageEmbedding(tokens: string[], vectorLookup: (token: string) => Float32Array | null | undefined): number[] {
     if (tokens.length === 0) {
-      // Return zero vector if no valid tokens
       return new Array(this.dimension).fill(0);
     }
 
-    let sumVector: number[] | null = null;
+    const sumVector = new Float32Array(this.dimension);
     let validWordCount = 0;
 
     for (const token of tokens) {
-      const vector = this.loader!.getVectorAsArray(token);
+      const vector = vectorLookup(token);
       if (vector && vector.length === this.dimension) {
-        if (sumVector === null) {
-          sumVector = [...vector];
-        } else {
-          for (let i = 0; i < this.dimension; i++) {
-            sumVector[i] += vector[i];
-          }
+        for (let i = 0; i < this.dimension; i++) {
+          sumVector[i] += vector[i];
         }
         validWordCount++;
       }
     }
 
-    if (sumVector === null || validWordCount === 0) {
-      // No words in vocabulary, return zero vector
+    if (validWordCount === 0) {
       return new Array(this.dimension).fill(0);
     }
 
     // Average and normalize
-    const avgVector = sumVector.map(v => v / validWordCount);
-    const norm = Math.sqrt(avgVector.reduce((sum, v) => sum + v * v, 0));
-    
+    const result = new Float32Array(this.dimension);
+    let normSq = 0;
+    for (let i = 0; i < this.dimension; i++) {
+      const avg = sumVector[i] / validWordCount;
+      result[i] = avg;
+      normSq += avg * avg;
+    }
+
+    const norm = Math.sqrt(normSq);
     if (norm > 0) {
-      return avgVector.map(v => v / norm);
+      for (let i = 0; i < this.dimension; i++) {
+        result[i] /= norm;
+      }
     }
     
-    return avgVector;
+    return Array.from(result);
+  }
+
+  /**
+   * Compute embedding for a text by averaging word vectors.
+   * Words not in vocabulary are skipped.
+   */
+  async embed(text: string): Promise<number[]> {
+    await this.ensureLoader();
+
+    const tokens = tokenize(text);
+    return this.computeAverageEmbedding(tokens, (token) => this.loader!.getVectorAsFloat32(token));
   }
 
   async embedBatch(texts: string[]): Promise<number[][]> {
     await this.ensureLoader();
     
-    const embeddings: number[][] = [];
-    for (const text of texts) {
-      embeddings.push(await this.embed(text));
+    // 1. Tokenize all texts and collect unique tokens
+    const textTokens = texts.map(text => tokenize(text));
+    const allUniqueTokens = new Set<string>();
+    for (const tokens of textTokens) {
+      for (const token of tokens) {
+        allUniqueTokens.add(token);
+      }
     }
-    return embeddings;
+
+    // 2. Fetch all required vectors in a single batch
+    const vectorMap = this.loader!.getVectorsBatch(Array.from(allUniqueTokens));
+
+    // 3. Compute embedding for each text using the fetched vectors
+    return textTokens.map(tokens => this.computeAverageEmbedding(tokens, (token) => vectorMap.get(token)));
   }
 }

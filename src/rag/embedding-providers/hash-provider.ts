@@ -59,10 +59,6 @@ export class HashEmbeddingProvider implements IEmbeddingProvider {
   }
 
   async embedBatch(texts: string[]): Promise<number[][]> {
-    const embeddings: number[][] = [];
-    for (const text of texts) {
-      embeddings.push(await this.embed(text));
-    }
-    return embeddings;
+    return Promise.all(texts.map(text => this.embed(text)));
   }
 }

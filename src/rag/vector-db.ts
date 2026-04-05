@@ -259,14 +259,14 @@ getPath(): string {
     }
   }
 
-  insertChunk(row: { path: string; text: string; meta?: string | null; vector: number[] }): void {
+  insertChunk(row: { path: string; text: string; meta?: string | null; vector: number[] | Float32Array }): void {
   this.db.exec({
-    sql: "INSERT INTO chunks(path, text, meta, vector) VALUES(?, ?, ?, vector_as_f32(?))",
+    sql: "INSERT INTO chunks(path, text, meta, vector) VALUES(?, ?, ?, ?)",
     bind: [
       row.path,
       row.text,
       row.meta ?? null,
-      JSON.stringify(row.vector),
+      vectorToUint8Array(row.vector),
     ],
   });
   this.dirty = true;
@@ -332,8 +332,9 @@ clearAllChunks(): void {
     }));
   }
 
-  queryTopK(vector: number[], k: number): RagChunkRow[] {
-    if (!vector.length || k <= 0) return [];
+  queryTopK(vector: number[] | Float32Array, k: number): RagChunkRow[] {
+    const vBin = vectorToUint8Array(vector);
+    if (!vBin.length || k <= 0) return [];
     
     // Try quantized scan first (if quantization has been enabled)
     try {
@@ -341,27 +342,28 @@ clearAllChunks(): void {
         `
         SELECT c.id, c.path, c.text, c.meta, v.distance
         FROM chunks AS c
-        JOIN vector_quantize_scan('chunks', 'vector', vector_as_f32(?), ?) AS v
+        JOIN vector_quantize_scan('chunks', 'vector', ?, ?) AS v
         ON c.id = v.rowid
         ORDER BY v.distance ASC
         `,
-        [JSON.stringify(vector), k]
+        [vBin, k]
       );
       return (rows || []) as RagChunkRow[];
-    } catch (error: any) {
+    } catch (error) {
+      const err = error as any;
       // If quantization table not found, fall back to vector_full_scan (exact search)
-      if (error.message?.includes?.("Quantization table not found") || 
-          error.message?.includes?.("vector_quantize() has been called")) {
+      if (err.message?.includes?.("Quantization table not found") ||
+          err.message?.includes?.("vector_quantize() has been called")) {
         // Use vector_full_scan for exact similarity search
         const rows = this.db.selectObjects(
           `
           SELECT c.id, c.path, c.text, c.meta, v.distance
           FROM chunks AS c
-          JOIN vector_full_scan('chunks', 'vector', vector_as_f32(?), ?) AS v
+          JOIN vector_full_scan('chunks', 'vector', ?, ?) AS v
           ON c.id = v.rowid
           ORDER BY v.distance ASC
           `,
-          [JSON.stringify(vector), k]
+          [vBin, k]
         );
         return (rows || []) as RagChunkRow[];
       }
@@ -370,7 +372,7 @@ clearAllChunks(): void {
     }
   }
 
-  queryTopN(vector: number[], n: number): RagChunkRow[] {
+  queryTopN(vector: number[] | Float32Array, n: number): RagChunkRow[] {
     return this.queryTopK(vector, n);
   }
 
@@ -393,8 +395,9 @@ clearAllChunks(): void {
     }
     return out;
   }
-  queryTopKWithPrefix(vector: number[], k: number, pathPrefix: string): RagChunkRow[] {
-    if (!vector.length || k <= 0) return [];
+  queryTopKWithPrefix(vector: number[] | Float32Array, k: number, pathPrefix: string): RagChunkRow[] {
+    const vBin = vectorToUint8Array(vector);
+    if (!vBin.length || k <= 0) return [];
     
     // Try quantized scan first (if quantization has been enabled)
     try {
@@ -402,29 +405,30 @@ clearAllChunks(): void {
         `
         SELECT c.id, c.path, c.text, c.meta, v.distance
         FROM chunks AS c
-        JOIN vector_quantize_scan('chunks', 'vector', vector_as_f32(?), ?) AS v
+        JOIN vector_quantize_scan('chunks', 'vector', ?, ?) AS v
         ON c.id = v.rowid
         WHERE c.path LIKE ?
         ORDER BY v.distance ASC
         `,
-        [JSON.stringify(vector), k, `${pathPrefix}%`]
+        [vBin, k, `${pathPrefix}%`]
       );
       return (rows || []) as RagChunkRow[];
-    } catch (error: any) {
+    } catch (error) {
+      const err = error as any;
       // If quantization table not found, fall back to vector_full_scan (exact search)
-      if (error.message?.includes?.("Quantization table not found") || 
-          error.message?.includes?.("vector_quantize() has been called")) {
+      if (err.message?.includes?.("Quantization table not found") ||
+          err.message?.includes?.("vector_quantize() has been called")) {
         // Use vector_full_scan for exact similarity search
         const rows = this.db.selectObjects(
           `
           SELECT c.id, c.path, c.text, c.meta, v.distance
           FROM chunks AS c
-          JOIN vector_full_scan('chunks', 'vector', vector_as_f32(?), ?) AS v
+          JOIN vector_full_scan('chunks', 'vector', ?, ?) AS v
           ON c.id = v.rowid
           WHERE c.path LIKE ?
           ORDER BY v.distance ASC
           `,
-          [JSON.stringify(vector), k, `${pathPrefix}%`]
+          [vBin, k, `${pathPrefix}%`]
         );
         return (rows || []) as RagChunkRow[];
       }
@@ -440,6 +444,17 @@ clearAllChunks(): void {
     });
     this.dirty = true;
   }
+}
+
+/**
+ * Convert number[] or Float32Array to Uint8Array for binary BLOB binding.
+ * sqlite-vector accepts raw Float32 bytes for its vector functions.
+ */
+function vectorToUint8Array(vector: number[] | Float32Array): Uint8Array {
+  if (vector instanceof Float32Array) {
+    return new Uint8Array(vector.buffer, vector.byteOffset, vector.byteLength);
+  }
+  return new Uint8Array(new Float32Array(vector).buffer);
 }
 
 function decodeFloat32Blob(blob: unknown): Float32Array | null {
@@ -477,17 +492,3 @@ function decodeFloat32Blob(blob: unknown): Float32Array | null {
 
   return null;
 }
-
-// ADID_ROLLBACK (from adm.exe)
-// SDID_ROLLBACK {
-//   "target_file": "D:\\zPython\\grok-cli\\src/rag/vector-db.ts"
-//   "update_script": "adm.exe"
-//   "backup_path": "D:\\zPython\\grok-cli\\src/rag/vector-db.ts.backup_20260301T143147_221550"
-//   "created_at": "2026-03-01T06:31:47.243392+00:00"
-//   "backup_hash": "ff02fd2a65778e39c30f2867efbc73b6"
-//   "new_hash": "91404d0c226abed3d3d1429ae5647fe9"
-//   "goal_id": "text_insert_before_anchor"
-//   "semantics": "Add chat-specific query and delete methods to VectorDb class"
-//   "update_attrs": {"relative_path": "src/rag/vector-db.ts", "update_type": "text", "mode": "insert", "encoding": "utf-8", "find_pattern": null, "find_text": "}\n\nfunction decodeFloat32Blob", "replace_present": true}
-//   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/rag/vector-db.ts\""
-// }

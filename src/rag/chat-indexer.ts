@@ -25,17 +25,13 @@ export async function indexChatHistory(
   const dbPath = settings.getRagDbPath(cwd);
   const embeddingClient = createEmbeddingClientFromSettings();
 
-  // Embed all entries first, collect vectors
-  const vectors: number[][] = [];
-  const texts: string[] = [];
-  for (const entry of entries) {
-    const text = typeof entry.content === "string" 
+  // Embed all entries in a single batch to reduce network roundtrips.
+  const texts = entries.map((entry) =>
+    typeof entry.content === "string"
       ? `[${entry.type}] ${entry.content}`
-      : `[${entry.type}] ${JSON.stringify(entry.content)}`;
-    texts.push(text);
-    const vector = await embeddingClient.embed(text);
-    vectors.push(vector);
-  }
+      : `[${entry.type}] ${JSON.stringify(entry.content)}`
+  );
+  const vectors = await embeddingClient.embedBatch(texts);
 
   // Find first non‑empty vector to determine embedding dimension
   const validIdx = vectors.findIndex(v => v.length > 0);

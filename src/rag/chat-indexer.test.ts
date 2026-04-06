@@ -70,9 +70,8 @@ describe("chat-indexer", () => {
       model: "text-embedding-3-small",
       getModel: vi.fn(() => "text-embedding-3-small"),
       embed: vi.fn().mockResolvedValue(embedResult),
-      embedBatch: vi.fn(),
-
-    }) as any /* eslint-disable-line @typescript-eslint/no-explicit-any */  
+      embedBatch: vi.fn(async (texts: string[]) => texts.map(() => embedResult)),
+    }) as any /* eslint-disable-line @typescript-eslint/no-explicit-any */
 
     const mockDbInstance = {
       beginTransaction: vi.fn(),
@@ -86,9 +85,10 @@ describe("chat-indexer", () => {
     it("should index entries and return chunksIndexed", async () => {
       // Arrange
       const mockEmbeddingClient = createMockEmbeddingClient([0.1, 0.2, 0.3]);
-      mockEmbeddingClient.embed
-        .mockResolvedValueOnce([0.4, 0.5, 0.6]) // first entry
-        .mockResolvedValueOnce([0.7, 0.8, 0.9]); // second entry
+      mockEmbeddingClient.embedBatch.mockResolvedValueOnce([
+        [0.4, 0.5, 0.6], // first entry
+        [0.7, 0.8, 0.9], // second entry
+      ]);
       mockCreateEmbeddingClient.mockReturnValue(mockEmbeddingClient);
       mockVectorDbOpen.mockResolvedValue(mockDbInstance as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
 
@@ -100,6 +100,10 @@ describe("chat-indexer", () => {
       // Assert
       expect(mockGetSettingsManager).toHaveBeenCalled();
       expect(mockCreateEmbeddingClient).toHaveBeenCalled();
+      expect(mockEmbeddingClient.embedBatch).toHaveBeenCalledWith([
+        "[user] Hello, world",
+        "[assistant] Hi there!",
+      ]);
       expect(mockVectorDbOpen).toHaveBeenCalledWith(`/.grok/rag.db`, {
         dimension: 3,
         distance: "COSINE",
@@ -117,9 +121,10 @@ describe("chat-indexer", () => {
     it("should skip entries with empty embedding vector", async () => {
       // Arrange
       const mockEmbeddingClient = createMockEmbeddingClient([0.1, 0.2, 0.3]);
-      mockEmbeddingClient.embed
-        .mockResolvedValueOnce([]) // first entry empty
-        .mockResolvedValueOnce([0.7, 0.8, 0.9]); // second entry ok
+      mockEmbeddingClient.embedBatch.mockResolvedValueOnce([
+        [], // first entry empty
+        [0.7, 0.8, 0.9], // second entry ok
+      ]);
       mockCreateEmbeddingClient.mockReturnValue(mockEmbeddingClient);
       mockVectorDbOpen.mockResolvedValue(mockDbInstance as any /* eslint-disable-line @typescript-eslint/no-explicit-any */);
 

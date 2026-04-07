@@ -259,18 +259,19 @@ getPath(): string {
     }
   }
 
-  insertChunk(row: { path: string; text: string; meta?: string | null; vector: number[] }): void {
-  this.db.exec({
-    sql: "INSERT INTO chunks(path, text, meta, vector) VALUES(?, ?, ?, vector_as_f32(?))",
-    bind: [
-      row.path,
-      row.text,
-      row.meta ?? null,
-      JSON.stringify(row.vector),
-    ],
-  });
-  this.dirty = true;
-}
+  insertChunk(row: { path: string; text: string; meta?: string | null; vector: number[] | Float32Array }): void {
+    const vec = row.vector instanceof Float32Array ? row.vector : new Float32Array(row.vector);
+    this.db.exec({
+      sql: "INSERT INTO chunks(path, text, meta, vector) VALUES(?, ?, ?, vector_as_f32(?))",
+      bind: [
+        row.path,
+        row.text,
+        row.meta ?? null,
+        new Uint8Array(vec.buffer, vec.byteOffset, vec.byteLength),
+      ],
+    });
+    this.dirty = true;
+  }
 
   deleteChunksByPath(filePath: string): void {
   this.db.exec({
@@ -332,9 +333,11 @@ clearAllChunks(): void {
     }));
   }
 
-  queryTopK(vector: number[], k: number): RagChunkRow[] {
-    if (!vector.length || k <= 0) return [];
-    
+  queryTopK(vector: number[] | Float32Array, k: number): RagChunkRow[] {
+    if (vector.length === 0 || k <= 0) return [];
+    const vec = vector instanceof Float32Array ? vector : new Float32Array(vector);
+    const blob = new Uint8Array(vec.buffer, vec.byteOffset, vec.byteLength);
+
     // Try quantized scan first (if quantization has been enabled)
     try {
       const rows = this.db.selectObjects(
@@ -345,13 +348,13 @@ clearAllChunks(): void {
         ON c.id = v.rowid
         ORDER BY v.distance ASC
         `,
-        [JSON.stringify(vector), k]
+        [blob, k]
       );
       return (rows || []) as RagChunkRow[];
     } catch (error: any) {
       // If quantization table not found, fall back to vector_full_scan (exact search)
-      if (error.message?.includes?.("Quantization table not found") || 
-          error.message?.includes?.("vector_quantize() has been called")) {
+      if (error.message?.includes?.("Quantization table not found") ||
+        error.message?.includes?.("vector_quantize() has been called")) {
         // Use vector_full_scan for exact similarity search
         const rows = this.db.selectObjects(
           `
@@ -361,7 +364,7 @@ clearAllChunks(): void {
           ON c.id = v.rowid
           ORDER BY v.distance ASC
           `,
-          [JSON.stringify(vector), k]
+          [blob, k]
         );
         return (rows || []) as RagChunkRow[];
       }
@@ -370,7 +373,7 @@ clearAllChunks(): void {
     }
   }
 
-  queryTopN(vector: number[], n: number): RagChunkRow[] {
+  queryTopN(vector: number[] | Float32Array, n: number): RagChunkRow[] {
     return this.queryTopK(vector, n);
   }
 
@@ -393,9 +396,11 @@ clearAllChunks(): void {
     }
     return out;
   }
-  queryTopKWithPrefix(vector: number[], k: number, pathPrefix: string): RagChunkRow[] {
-    if (!vector.length || k <= 0) return [];
-    
+  queryTopKWithPrefix(vector: number[] | Float32Array, k: number, pathPrefix: string): RagChunkRow[] {
+    if (vector.length === 0 || k <= 0) return [];
+    const vec = vector instanceof Float32Array ? vector : new Float32Array(vector);
+    const blob = new Uint8Array(vec.buffer, vec.byteOffset, vec.byteLength);
+
     // Try quantized scan first (if quantization has been enabled)
     try {
       const rows = this.db.selectObjects(
@@ -407,13 +412,13 @@ clearAllChunks(): void {
         WHERE c.path LIKE ?
         ORDER BY v.distance ASC
         `,
-        [JSON.stringify(vector), k, `${pathPrefix}%`]
+        [blob, k, `${pathPrefix}%`]
       );
       return (rows || []) as RagChunkRow[];
     } catch (error: any) {
       // If quantization table not found, fall back to vector_full_scan (exact search)
-      if (error.message?.includes?.("Quantization table not found") || 
-          error.message?.includes?.("vector_quantize() has been called")) {
+      if (error.message?.includes?.("Quantization table not found") ||
+        error.message?.includes?.("vector_quantize() has been called")) {
         // Use vector_full_scan for exact similarity search
         const rows = this.db.selectObjects(
           `
@@ -424,7 +429,7 @@ clearAllChunks(): void {
           WHERE c.path LIKE ?
           ORDER BY v.distance ASC
           `,
-          [JSON.stringify(vector), k, `${pathPrefix}%`]
+          [blob, k, `${pathPrefix}%`]
         );
         return (rows || []) as RagChunkRow[];
       }

@@ -62,53 +62,70 @@ export class GloveEmbeddingProvider implements IEmbeddingProvider {
    */
   async embed(text: string): Promise<number[]> {
     await this.ensureLoader();
-    
     const tokens = tokenize(text);
+    return this.embedTokens(tokens);
+  }
+
+  /**
+   * Internal method to compute embedding from tokens.
+   */
+  private embedTokens(tokens: string[]): number[] {
     if (tokens.length === 0) {
-      // Return zero vector if no valid tokens
       return new Array(this.dimension).fill(0);
     }
 
-    let sumVector: number[] | null = null;
+    const sumVector = new Float32Array(this.dimension);
     let validWordCount = 0;
 
     for (const token of tokens) {
-      const vector = this.loader!.getVectorAsArray(token);
+      const vector = this.loader!.getVectorAsFloat32(token);
       if (vector && vector.length === this.dimension) {
-        if (sumVector === null) {
-          sumVector = [...vector];
-        } else {
-          for (let i = 0; i < this.dimension; i++) {
-            sumVector[i] += vector[i];
-          }
+        for (let i = 0; i < this.dimension; i++) {
+          sumVector[i] += vector[i];
         }
         validWordCount++;
       }
     }
 
-    if (sumVector === null || validWordCount === 0) {
-      // No words in vocabulary, return zero vector
+    if (validWordCount === 0) {
       return new Array(this.dimension).fill(0);
     }
 
     // Average and normalize
-    const avgVector = sumVector.map(v => v / validWordCount);
-    const norm = Math.sqrt(avgVector.reduce((sum, v) => sum + v * v, 0));
-    
-    if (norm > 0) {
-      return avgVector.map(v => v / norm);
+    const result = new Array(this.dimension);
+    let normSq = 0;
+    for (let i = 0; i < this.dimension; i++) {
+      const val = sumVector[i] / validWordCount;
+      result[i] = val;
+      normSq += val * val;
     }
     
-    return avgVector;
+    const norm = Math.sqrt(normSq);
+    if (norm > 0) {
+      for (let i = 0; i < this.dimension; i++) {
+        result[i] /= norm;
+      }
+    }
+    
+    return result;
   }
 
   async embedBatch(texts: string[]): Promise<number[][]> {
     await this.ensureLoader();
     
-    const embeddings: number[][] = [];
-    for (const text of texts) {
-      embeddings.push(await this.embed(text));
+    // 1. Tokenize all texts and collect unique tokens
+    const batchTokens = texts.map(text => tokenize(text));
+    const allUniqueTokens = new Set<string>();
+    for (const tokens of batchTokens) {
+      for (const token of tokens) {
+        allUniqueTokens.add(token);
+      }
     }
-    return embeddings;
+
+    // 2. Prefetch all vectors in bulk
+    this.loader!.prefetch(Array.from(allUniqueTokens));
+
+    // 3. Compute embeddings for each text
+    return batchTokens.map(tokens => this.embedTokens(tokens));
   }
 }

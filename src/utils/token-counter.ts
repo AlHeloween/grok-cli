@@ -1,23 +1,35 @@
 import { get_encoding, encoding_for_model, Tiktoken, type TiktokenModel } from 'tiktoken';
 import type { GrokMessage, UserContentPart } from '../grok/client.js';
 
+// Global cache for encoders to avoid expensive re-initialization (~80-100ms per call).
+const ENCODER_CACHE = new Map<string, Tiktoken>();
+
 export class TokenCounter {
   private encoder: Tiktoken;
 
   constructor(model: string = 'gpt-4') {
-    if (model && model.toLowerCase().includes('grok')) {
-      // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
-      this.encoder = get_encoding('cl100k_base');
+    const cacheKey = model && model.toLowerCase().includes('grok') ? 'cl100k_base' : model;
+
+    const cached = ENCODER_CACHE.get(cacheKey);
+    if (cached) {
+      this.encoder = cached;
       return;
     }
 
-    try {
-      // Try to get encoding for specific model
-      this.encoder = encoding_for_model(model as TiktokenModel);
-    } catch {
-      // Fallback to cl100k_base (used by GPT-4 and most modern models)
+    if (model && model.toLowerCase().includes('grok')) {
+      // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
       this.encoder = get_encoding('cl100k_base');
+    } else {
+      try {
+        // Try to get encoding for specific model
+        this.encoder = encoding_for_model(model as TiktokenModel);
+      } catch {
+        // Fallback to cl100k_base (used by GPT-4 and most modern models)
+        this.encoder = get_encoding('cl100k_base');
+      }
     }
+
+    ENCODER_CACHE.set(cacheKey, this.encoder);
   }
 
   /**
@@ -76,10 +88,11 @@ export class TokenCounter {
   }
 
   /**
-   * Clean up resources
+   * Clean up resources.
+   * Note: This is now a no-op because encoders are shared in a global cache.
    */
   dispose(): void {
-    this.encoder.free();
+    // Shared encoders are kept alive for the process lifetime to maximize performance.
   }
 }
 

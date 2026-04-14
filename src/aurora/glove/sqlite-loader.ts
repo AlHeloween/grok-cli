@@ -26,7 +26,7 @@ export class SqliteGloVeLoader {
   private sqlite3: Sqlite3Module | null = null;
   private db: Oo1Db | null = null;
   public dimension: number = 0;
-  private wordCache: Map<string, Float32Array> = new Map();
+  private wordCache: Map<string, Float32Array | null> = new Map();
   private normCache: Map<string, number> = new Map();
   public vectors: Map<string, number[]> = new Map();
   public norms: Map<string, number> = new Map();
@@ -127,9 +127,9 @@ export class SqliteGloVeLoader {
   getVectorAsFloat32(word: string): Float32Array | null {
     const normalizedWord = word.toLowerCase();
     
-    // Check cache first
+    // Check cache first (including null for negative caching)
     if (this.wordCache.has(normalizedWord)) {
-      return this.wordCache.get(normalizedWord)!;
+      return this.wordCache.get(normalizedWord) || null;
     }
     
     if (!this.db) {
@@ -144,6 +144,8 @@ export class SqliteGloVeLoader {
       return float32Array;
     }
     
+    // Negative caching
+    this.wordCache.set(normalizedWord, null);
     return null;
   }
 
@@ -189,6 +191,51 @@ export class SqliteGloVeLoader {
 
   hasWord(word: string): boolean {
     return this.getVectorAsFloat32(word) !== null;
+  }
+
+  /**
+   * Batch-fetch vectors for multiple words to populate the cache.
+   * Reduces the number of database queries.
+   */
+  prefetch(words: string[]): void {
+    if (!this.db) return;
+
+    const toFetch = words
+      .map(w => w.toLowerCase())
+      .filter(w => !this.wordCache.has(w));
+
+    if (toFetch.length === 0) return;
+
+    // Remove duplicates
+    const uniqueToFetch = Array.from(new Set(toFetch));
+
+    // SQLite has a limit on the number of parameters in a query.
+    // Batch the IN clause in chunks of 500.
+    const CHUNK_SIZE = 500;
+    for (let i = 0; i < uniqueToFetch.length; i += CHUNK_SIZE) {
+      const chunk = uniqueToFetch.slice(i, i + CHUNK_SIZE);
+      const placeholders = chunk.map(() => "?").join(",");
+      const rows = this.db.selectArrays(
+        `SELECT word, vector FROM glove WHERE word IN (${placeholders})`,
+        chunk
+      );
+
+      const foundWords = new Set<string>();
+      for (const row of rows) {
+        const word = row[0] as string;
+        const blob = row[1] as Uint8Array;
+        const float32Array = new Float32Array(blob.buffer, blob.byteOffset, blob.byteLength / 4);
+        this.wordCache.set(word, float32Array);
+        foundWords.add(word);
+      }
+
+      // Negative caching for words not found in this chunk
+      for (const word of chunk) {
+        if (!foundWords.has(word)) {
+          this.wordCache.set(word, null);
+        }
+      }
+    }
   }
 
   /**

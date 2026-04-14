@@ -69,14 +69,16 @@ export class GloveEmbeddingProvider implements IEmbeddingProvider {
       return new Array(this.dimension).fill(0);
     }
 
-    let sumVector: number[] | null = null;
+    // Use Float32Array for accumulation to reduce GC pressure and improve speed
+    let sumVector: Float32Array | null = null;
     let validWordCount = 0;
 
     for (const token of tokens) {
-      const vector = this.loader!.getVectorAsArray(token);
+      // Use getVectorAsFloat32 to avoid intermediate array copies
+      const vector = this.loader!.getVectorAsFloat32(token);
       if (vector && vector.length === this.dimension) {
         if (sumVector === null) {
-          sumVector = [...vector];
+          sumVector = new Float32Array(vector);
         } else {
           for (let i = 0; i < this.dimension; i++) {
             sumVector[i] += vector[i];
@@ -91,23 +93,37 @@ export class GloveEmbeddingProvider implements IEmbeddingProvider {
       return new Array(this.dimension).fill(0);
     }
 
-    // Average and normalize
-    const avgVector = sumVector.map(v => v / validWordCount);
-    const norm = Math.sqrt(avgVector.reduce((sum, v) => sum + v * v, 0));
-    
-    if (norm > 0) {
-      return avgVector.map(v => v / norm);
+    // Average and normalize directly on the Float32Array
+    let squaredSum = 0;
+    for (let i = 0; i < this.dimension; i++) {
+      sumVector[i] /= validWordCount;
+      squaredSum += sumVector[i] * sumVector[i];
     }
     
-    return avgVector;
+    const norm = Math.sqrt(squaredSum);
+    if (norm > 1e-9) {
+      for (let i = 0; i < this.dimension; i++) {
+        sumVector[i] /= norm;
+      }
+    }
+    
+    return Array.from(sumVector);
   }
 
   async embedBatch(texts: string[]): Promise<number[][]> {
     await this.ensureLoader();
+
+    // Prefetch all unique tokens across all texts to solve the N+1 query problem
+    const allTokens = texts.map(t => tokenize(t));
+    const uniqueTokens = Array.from(new Set(allTokens.flat()));
+    this.loader!.prefetch(uniqueTokens);
     
     const embeddings: number[][] = [];
-    for (const text of texts) {
-      embeddings.push(await this.embed(text));
+    for (let i = 0; i < texts.length; i++) {
+      // Use the pre-tokenized version to skip re-tokenizing in embed()
+      // Since embed() currently re-tokenizes, we'll just call it normally,
+      // but it will hit the warmed-up cache.
+      embeddings.push(await this.embed(texts[i]));
     }
     return embeddings;
   }

@@ -18,8 +18,9 @@ import { createGloveCommand } from "./commands/glove.js";
 import { UserContentPart } from "./grok/client.js";
 import { isThemeId, listThemes } from "./ui/utils/theme.js";
 import { indexProject } from "./rag/indexer.js";
-import { indexChatHistory } from "./rag/chat-indexer.js";
+
 import { VectorDb } from "./rag/vector-db.js";
+import { runRagTest, formatResults } from "./rag/test-utils.js";
 
 type OpenAIMessage = {
   role: 'user' | 'assistant' | 'tool' | 'system';
@@ -661,6 +662,7 @@ const ragCommand = program
   .command("rag")
   .description("Local RAG (retrieval) indexing and status");
 
+
 ragCommand
   .command("index")
   .description("Index current project into .grok/rag.db")
@@ -961,6 +963,54 @@ ragCommand
     }
   });
 
+ragCommand
+  .command("test")
+  .description("Run RAG integration tests")
+  .option("-d, --directory <dir>", "set working directory", process.cwd())
+  .option("--provider <provider>", "embedding provider: hash, glove (default: hash)", "hash")
+  .option("--quantize", "quantize vectors after indexing", false)
+  .option("--preload", "preload quantized vectors (faster search, more memory)", false)
+  .option("--glove-model <path>", "path to GloVe model (required for glove provider)")
+  .option("--hash-dimension <dim>", "hash dimension (default: 256)", "256")
+  .option("--verbose", "verbose output", false)
+  .option("--json", "output JSON results", false)
+  .action(async (options) => {
+
+    if (options.directory) {
+      try {
+        process.chdir(options.directory);
+      } catch (error: unknown) {
+        console.error(
+          `Error changing directory to ${options.directory}:`,
+          error instanceof Error ? error.message : String(error)
+        );
+        process.exit(1);
+      }
+    }
+
+    try {
+      const results = await runRagTest({
+        provider: options.provider === "glove" ? "glove" : "hash",
+        quantize: !!options.quantize,
+        quantizePreload: !!options.preload,
+        gloveModelPath: options.gloveModel,
+        hashDimension: parseInt(options.hashDimension, 10) || 256,
+        verbose: !!options.verbose,
+      });
+
+      if (options.json) {
+        console.log(JSON.stringify(results, null, 2));
+      } else {
+        console.log(formatResults(results, !!options.verbose));
+      }
+
+      process.exit(results.success ? 0 : 1);
+    } catch (error: unknown) {
+      console.error("❌ RAG test failed:", error instanceof Error ? error.message : String(error));
+      process.exit(1);
+    }
+  });
+
 // Glove command
 program.addCommand(createGloveCommand());
 
@@ -1150,6 +1200,52 @@ case "project.rag.python": {
           baseURL: trimmed,
         });
         break;
+      case "user.embeddings.provider": {
+        const v = trimmed.toLowerCase();
+        if (v !== "openai" && v !== "glove" && v !== "hash") {
+          console.error("provider must be one of: openai, glove, hash");
+          process.exit(1);
+        }
+        manager.updateUserSetting("embeddings", {
+          ...(user.embeddings || {}),
+          provider: v as "openai" | "glove" | "hash",
+        });
+        break;
+      }
+      case "user.embeddings.gloveModelPath":
+        manager.updateUserSetting("embeddings", {
+          ...(user.embeddings || {}),
+          gloveModelPath: trimmed,
+        });
+        break;
+      case "user.embeddings.hashDimension": {
+        const n = Number(trimmed);
+        if (!Number.isFinite(n) || n <= 0) {
+          console.error("hashDimension must be a positive number.");
+          process.exit(1);
+        }
+        manager.updateUserSetting("embeddings", {
+          ...(user.embeddings || {}),
+          hashDimension: n,
+        });
+        break;
+      }
+      case "user.rag.quantize": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        manager.updateUserSetting("rag", {
+          ...(user.rag || {}),
+          quantize: enabled,
+        });
+        break;
+      }
+      case "user.rag.quantizePreload": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        manager.updateUserSetting("rag", {
+          ...(user.rag || {}),
+          quantizePreload: enabled,
+        });
+        break;
+      }
       case "project.rag.embeddings.model":
         manager.updateProjectSetting("rag", {
           ...(project.rag || {}),
@@ -1175,6 +1271,114 @@ case "project.rag.python": {
           embeddings: {
             ...((project.rag || {}).embeddings || {}),
             baseURL: trimmed,
+          },
+        });
+        break;
+      case "project.rag.embeddings.provider": {
+        const v = trimmed.toLowerCase();
+        if (v !== "openai" && v !== "glove" && v !== "hash") {
+          console.error("provider must be one of: openai, glove, hash");
+          process.exit(1);
+        }
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          embeddings: {
+            ...((project.rag || {}).embeddings || {}),
+            provider: v as "openai" | "glove" | "hash",
+          },
+        });
+        break;
+      }
+      case "project.rag.embeddings.gloveModelPath":
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          embeddings: {
+            ...((project.rag || {}).embeddings || {}),
+            gloveModelPath: trimmed,
+          },
+        });
+        break;
+      case "project.rag.embeddings.hashDimension": {
+        const n = Number(trimmed);
+        if (!Number.isFinite(n) || n <= 0) {
+          console.error("hashDimension must be a positive number.");
+          process.exit(1);
+        }
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          embeddings: {
+            ...((project.rag || {}).embeddings || {}),
+            hashDimension: n,
+          },
+        });
+        break;
+      }
+      case "project.rag.quantize": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          quantize: enabled,
+        });
+        break;
+      }
+      case "project.rag.quantizePreload": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          quantizePreload: enabled,
+        });
+        break;
+      }
+      case "project.rag.aurora.enabled": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          aurora: {
+            ...((project.rag || {}).aurora || {}),
+            enabled,
+          },
+        });
+        break;
+      }
+      case "project.rag.aurora.fractalQuantization": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          aurora: {
+            ...((project.rag || {}).aurora || {}),
+            fractalQuantization: enabled,
+          },
+        });
+        break;
+      }
+      case "project.rag.aurora.dualQuaternionDistance": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          aurora: {
+            ...((project.rag || {}).aurora || {}),
+            dualQuaternionDistance: enabled,
+          },
+        });
+        break;
+      }
+      case "project.rag.aurora.gloveKeywords": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          aurora: {
+            ...((project.rag || {}).aurora || {}),
+            gloveKeywords: enabled,
+          },
+        });
+        break;
+      }
+      case "project.rag.aurora.gloveModelPath":
+        manager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          aurora: {
+            ...((project.rag || {}).aurora || {}),
+            gloveModelPath: trimmed,
           },
         });
         break;

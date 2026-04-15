@@ -12,9 +12,9 @@ Provide a repeatable Windows CLI workflow for building Delphi `.dproj` projects 
 ## Commands added to `adm`
 
 - `tools/adm.exe --init-msvc [out.cmd]`
-  - Generates `tools/init_msvc.cmd` (default) that calls Visual Studio `VsDevCmd.bat` and validates `cl` + `msbuild`.
+  - Generates `tools/init_msvc.cmd` (default) that first respects an already-initialized `cl` + `msbuild` environment, otherwise calls Visual Studio `VsDevCmd.bat`.
 - `tools/adm.exe --init-delphi [out.cmd]`
-  - Generates `tools/init_delphi.cmd` (default) that calls Delphi `rsvars.bat` and prints example `msbuild` invocations.
+  - Generates `tools/init_delphi.cmd` (default) that resolves Delphi from `adm.json` (`delphi.bds`) or from `where dcc64` / `where dcc32`, then calls `rsvars.bat` / `rsvars64.bat`.
 
 ## Typical build flow (Windows)
 

@@ -19,7 +19,7 @@ cross-conflicts and ambiguous provenance.
 ## Rules
 
 1. Make changes only via the `apply_patch` tool (atomic, reviewable diffs).
-2. Do not edit receiver copies under `.codex/`, `.cursor/`, `.opencode/` directly.
+2. Do not edit receiver copies under `.codex/`, `~/.codex/`, `.cursor/`, `.opencode/` directly.
 3. After editing canonical assets, sync receivers so installs and tooling stay consistent:
 
 ~~~bash
@@ -32,4 +32,3 @@ If you changed only canonical skills and want a faster sync of receiver skill fo
 ~~~bash
 uv run scripts/sync_skills_from_artefacts.py --prune
 ~~~
-

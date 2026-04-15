@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_bb8def72ba704052bd218fdfa1245628 name="fix_gguf_array_skip" md5="bb8def72ba704052bd218fdfa1245628" size="1710">
+    <file>src/rag/embedding-providers/bitnet/gguf.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>      case GGUFValueType.ARRAY: {
+        let { value: elemType, nextOff: off1 } = await this.readUint32(off);
+        let { value: n, nextOff: off2 } = await this.readUint64(off1);
+        console.log(`skipValue ARRAY: elemType=${elemType}, n=${n}, off2=${off2}`);
+        if (elemType === GGUFValueType.STRING) {
+          console.log(`skipValue ARRAY STRING: skipping ${n} strings`);
+          if (n &gt; 1000) {
+            // batch read all length fields
+            const totalLengths = n * 8;
+            console.log(`skipValue ARRAY STRING: totalLengths=${totalLengths}, off2=${off2}`);
+            const buf = Buffer.alloc(totalLengths);
+            await read(this.fd, buf, 0, totalLengths, off2);
+            let totalBytes = 0n;
+            // log first few lengths
+            for (let i = 0; i &lt; Math.min(5, n); ++i) {
+              const len = buf.readBigUInt64LE(i * 8);
+              console.log(`  length[${i}]=${len}`);
+              totalBytes += len;
+            }
+            // sum remaining
+            for (let i = 5; i &lt; n; ++i) {
+              totalBytes += buf.readBigUInt64LE(i * 8);
+            }
+            console.log(`skipValue ARRAY STRING: totalBytes=${totalBytes}, totalLengths=${totalLengths}`);
+            const newOff = off2 + totalLengths + Number(totalBytes);
+            console.log(`skipValue ARRAY STRING: batch skipped, newOff=${newOff}`);
+            return newOff;
+          } else {
+            for (let i = 0; i &lt; n; ++i) {
+              if (i % 10000 === 0) console.log(`skipValue ARRAY STRING: progress ${i}/${n}`);
+              off2 = await this.skipString(off2);
+            }
+            console.log(`skipValue ARRAY STRING: done, off2=${off2}`);
+            return off2;
+          }
+        }
+        const elemSizes: Record&lt;number, number&gt; = {
+          [GGUFValueType.UINT8]: 1,
+          [GGUFValueType.INT8]: 1,
+          [GGUFValueType.UINT16]: 2,
+          [GGUFValueType.INT16]: 2,
+          [GGUFValueType.UINT32]: 4,
+          [GGUFValueType.INT32]: 4,
+          [GGUFValueType.FLOAT32]: 4,
+          [GGUFValueType.BOOL]: 1,
+          [GGUFValueType.UINT64]: 8,
+          [GGUFValueType.INT64]: 8,
+          [GGUFValueType.FLOAT64]: 8,
+        };
+        if (!(elemType in elemSizes)) {
+          throw new Error(`Unsupported GGUF array elem_type: ${elemType}`);
+        }
+        return off2 + n * elemSizes[elemType];
+      }</find_text>
+    <semantics>Fix batch length reading by using readUint64 for each length and adding proper hex debug</semantics>
+    <content_md5_bb8def72ba704052bd218fdfa1245628>
+      case GGUFValueType.ARRAY: {
+        let { value: elemType, nextOff: off1 } = await this.readUint32(off);
+        let { value: n, nextOff: off2 } = await this.readUint64(off1);
+        console.log(`skipValue ARRAY: elemType=${elemType}, n=${n}, off2=${off2}`);
+        if (elemType === GGUFValueType.STRING) {
+          console.log(`skipValue ARRAY STRING: skipping ${n} strings`);
+          if (n &gt; 1000) {
+            // batch read all length fields
+            const totalLengths = n * 8;
+            console.log(`skipValue ARRAY STRING: totalLengths=${totalLengths}, off2=${off2}`);
+            const buf = Buffer.alloc(totalLengths);
+            await read(this.fd, buf, 0, totalLengths, off2);
+            // Debug first 16 bytes
+            console.log(`  first 16 bytes hex: ${buf.slice(0, 16).toString('hex')}`);
+            let totalBytes = 0n;
+            // log first few lengths using both methods
+            for (let i = 0; i &lt; Math.min(5, n); ++i) {
+              const len = buf.readBigUInt64LE(i * 8);
+              console.log(`  length[${i}]=${len} (0x${len.toString(16)})`);
+              totalBytes += len;
+            }
+            // sum remaining
+            for (let i = 5; i &lt; n; ++i) {
+              totalBytes += buf.readBigUInt64LE(i * 8);
+            }
+            console.log(`skipValue ARRAY STRING: totalBytes=${totalBytes}, totalLengths=${totalLengths}`);
+            const newOff = off2 + totalLengths + Number(totalBytes);
+            console.log(`skipValue ARRAY STRING: batch skipped, newOff=${newOff}`);
+            return newOff;
+          } else {
+            for (let i = 0; i &lt; n; ++i) {
+              if (i % 10000 === 0) console.log(`skipValue ARRAY STRING: progress ${i}/${n}`);
+              off2 = await this.skipString(off2);
+            }
+            console.log(`skipValue ARRAY STRING: done, off2=${off2}`);
+            return off2;
+          }
+        }
+        const elemSizes: Record&lt;number, number&gt; = {
+          [GGUFValueType.UINT8]: 1,
+          [GGUFValueType.INT8]: 1,
+          [GGUFValueType.UINT16]: 2,
+          [GGUFValueType.INT16]: 2,
+          [GGUFValueType.UINT32]: 4,
+          [GGUFValueType.INT32]: 4,
+          [GGUFValueType.FLOAT32]: 4,
+          [GGUFValueType.BOOL]: 1,
+          [GGUFValueType.UINT64]: 8,
+          [GGUFValueType.INT64]: 8,
+          [GGUFValueType.FLOAT64]: 8,
+        };
+        if (!(elemType in elemSizes)) {
+          throw new Error(`Unsupported GGUF array elem_type: ${elemType}`);
+        }
+        return off2 + n * elemSizes[elemType];
+      }
+    </content_md5_bb8def72ba704052bd218fdfa1245628>
+  </update_md5_bb8def72ba704052bd218fdfa1245628>
+</updates>

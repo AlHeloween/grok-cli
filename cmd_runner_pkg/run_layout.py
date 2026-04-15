@@ -124,16 +124,3 @@ def write_state(
         state["notes"] = notes
     write_json_atomic(paths.state_json, state)
 
-# ADID_ROLLBACK (from adm.exe)
-# SDID_ROLLBACK {
-#   "target_file": "D:\\zPython\\ADID_Python\\cmd_runner_pkg/run_layout.py"
-#   "update_script": "adm.exe"
-#   "backup_path": "D:\\zPython\\ADID_Python\\cmd_runner_pkg/run_layout.py.backup_20260226T114402_412275"
-#   "created_at": "2026-02-26T03:44:02.421742+00:00"
-#   "backup_hash": "6c9b2b92a84ea9f15592c98bbbea1b9d"
-#   "new_hash": "05d1e08d71dcfe0cc6bd7ad27e090cb5"
-#   "goal_id": "cmd_runner_runs_root_project_root"
-#   "semantics": "Use strict root-only policy: logs/cmd_runner under project-root cwd."
-#   "update_attrs": {"relative_path": "cmd_runner_pkg/run_layout.py", "update_type": "text", "mode": "overwrite", "encoding": "utf-8", "find_pattern": null, "find_text": "", "replace_present": true}
-#   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\ADID_Python\\cmd_runner_pkg/run_layout.py\""
-# }

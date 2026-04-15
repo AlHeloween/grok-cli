@@ -1,0 +1,22 @@
+{
+  "name": "grok-cli",
+  "description": "",
+  "model": "",
+  "dim": 3,
+  "data": [
+    {
+      "data": [
+        0,
+        0,
+        0
+      ],
+      "text": "hi",
+      "json": {
+        "id": 1,
+        "path": "x",
+        "meta": null
+      },
+      "orden": 1
+    }
+  ]
+}

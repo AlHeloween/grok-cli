@@ -14,46 +14,52 @@ Use this skill when a command may be:
 
 - Windows-only, ConPTY-only, serverless (no background server, no TCP control plane).
 - Root-only policy:
-  - Repo checkout: must be launched from the repo root (cwd contains `cmd_runner.py` and `cmd_runner_pkg/`).
+  - Repo checkout: `cmd_runner.exe` at repo root (Delphi binary).
   - Release bundle: run from the bundle root (cwd contains `cmd_runner.exe`).
 - Logs are written to: `logs/cmd_runner/<run_id>/`
 - Programmatic input bridge: append JSONL messages to `logs/cmd_runner/<run_id>/inbox.jsonl`.
 
 ## How to run it (recommended)
 
-- Repo/dev (any shell; deterministic file entrypoint):
-  - `uv run cmd_runner.py ...`
+- Repo/dev:
+  - `.\cmd_runner.exe ...` (Delphi binary at repo root)
 - Release bundle:
   - `cmd_runner.exe ...` (preferred; no `uv` required)
 - Via adm (integration; keeps a single progress-log cycle):
   - `tools/adm.exe --cmd-runner <cmd_runner args...>`
-  - Example: `tools/adm.exe --cmd-runner start --terminal conhost -- <command ...>`
+  - Example: `tools/adm.exe --cmd-runner start -- <command ...>`
 
 ## Core workflow
 
 1) Start an interactive run (spawns a new window; interactive session is hosted there):
-- `uv run cmd_runner.py start --terminal conhost -- <command ...>`
+- `.\cmd_runner.exe start -- <command ...>`
   - Prints `run_id` and `inbox=` path in the *current* terminal.
 
-2) List / status (from the current terminal):
-- `uv run cmd_runner.py list`
-- `uv run cmd_runner.py status <run_id>`
+2) Check status first (from the current terminal):
+- `.\cmd_runner.exe list`
+- `.\cmd_runner.exe status <run_id>`
+  - Use `status` first to confirm the program is still alive and did not crash before reading output.
 
 3) Tail output (from the current terminal):
-- Repo checkout: `uv run cmd_runner.py tail <run_id>` (repo root)
+- Repo checkout: `.\cmd_runner.exe tail <run_id>` (repo root)
 - Release bundle: `cmd_runner.exe tail <run_id>` (bundle root)
+  - Start with non-follow `tail` for a compact snapshot.
+  - Add `--follow` only when live streaming is needed.
+  - Prefer repeated `status`/non-follow `tail` checks over ad hoc shell sleeps; keep delay/wait handling inside the cmd_runner workflow.
 
 4) Inject input programmatically (bridge):
 - Append JSONL to: `logs/cmd_runner/<run_id>/inbox.jsonl`
 - Built-in (preferred):
-  - `uv run cmd_runner.py send <run_id> --keys "TEXT:/exit,ENTER"`
-- Helper (legacy but still available):
-  - `uv run scripts/cmd_runner_inbox_send.py --run-id <run_id> --keys "TEXT:/exit,ENTER"`
+  - `.\cmd_runner.exe send <run_id> --keys "TEXT:/exit,ENTER"`
+- Built-in bridge command (preferred in all supported modes):
+  - `.\cmd_runner.exe send <run_id> --keys "TEXT:/exit,ENTER"`
 
 5) Stop (serverless terminate):
-- `uv run cmd_runner.py stop <run_id> --reason "done"`
+- `.\cmd_runner.exe stop <run_id> --reason "done"`
   - Writes `logs/cmd_runner/<run_id>/stop_request.json`; the hosting cmd_runner watches for it and terminates the Job Object.
 
 Notes:
 - `add_crlf` defaults to `false` (no implicit Enter). Use `ENTER` in `keys` or `--crlf` in the helper.
-- For stable key input/editing, prefer `--terminal conhost`.
+- Supported terminal hosts are `conhost` and `wt`.
+- Omit `--terminal` unless you explicitly need to force a host.
+

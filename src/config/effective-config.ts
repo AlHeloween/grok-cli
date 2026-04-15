@@ -67,6 +67,40 @@ export function getEffectiveConfig(): EffectiveConfigItem[] {
     user.embeddings?.apiKey ??
     apiKey;
 
+  const embeddingsProvider =
+    project.rag?.embeddings?.provider ??
+    user.embeddings?.provider ??
+    "hash";
+  const embeddingsGloveModelPath =
+    project.rag?.embeddings?.gloveModelPath ??
+    user.embeddings?.gloveModelPath ??
+    "data/glove/glove_50d.db";
+  const embeddingsHashDimension =
+    project.rag?.embeddings?.hashDimension ??
+    user.embeddings?.hashDimension ??
+    256;
+  const userEmbeddingsProvider = user.embeddings?.provider ?? "hash";
+  const userEmbeddingsGloveModelPath = user.embeddings?.gloveModelPath ?? "data/glove/glove_50d.db";
+  const userEmbeddingsHashDimension = user.embeddings?.hashDimension ?? 256;
+  const projectQuantize =
+    project.rag?.quantize ?? false;
+  const projectQuantizePreload =
+    project.rag?.quantizePreload ?? false;
+  const userQuantize =
+    user.rag?.quantize ?? false;
+  const userQuantizePreload =
+    user.rag?.quantizePreload ?? false;
+  const auroraEnabled =
+    project.rag?.aurora?.enabled ?? false;
+  const auroraFractalQuantization =
+    project.rag?.aurora?.fractalQuantization ?? false;
+  const auroraDualQuaternionDistance =
+    project.rag?.aurora?.dualQuaternionDistance ?? false;
+  const auroraGloveKeywords =
+    project.rag?.aurora?.gloveKeywords ?? false;
+  const auroraGloveModelPath =
+    project.rag?.aurora?.gloveModelPath ?? "data/glove/glove_50d.db";
+
   const items: EffectiveConfigItem[] = [
     {
       key: "user.apiKey",
@@ -180,6 +214,81 @@ export function getEffectiveConfig(): EffectiveConfigItem[] {
       value: morphApiKey,
       source: morphEnv ? "env" : user.morphApiKey ? "user" : "default",
       note: morphApiKey ? "stored/loaded" : "not set",
+    },
+    {
+      key: "project.rag.embeddings.provider",
+      value: embeddingsProvider,
+      source: project.rag?.embeddings?.provider ? "project" : user.embeddings?.provider ? "user" : "default",
+    },
+    {
+      key: "project.rag.embeddings.gloveModelPath",
+      value: embeddingsGloveModelPath,
+      source: project.rag?.embeddings?.gloveModelPath ? "project" : user.embeddings?.gloveModelPath ? "user" : "default",
+    },
+    {
+      key: "project.rag.embeddings.hashDimension",
+      value: embeddingsHashDimension,
+      source: project.rag?.embeddings?.hashDimension ? "project" : user.embeddings?.hashDimension ? "user" : "default",
+    },
+    {
+      key: "project.rag.quantize",
+      value: projectQuantize,
+      source: typeof project.rag?.quantize === "boolean" ? "project" : "default",
+    },
+    {
+      key: "project.rag.quantizePreload",
+      value: projectQuantizePreload,
+      source: typeof project.rag?.quantizePreload === "boolean" ? "project" : "default",
+    },
+    {
+      key: "user.embeddings.provider",
+      value: userEmbeddingsProvider,
+      source: user.embeddings?.provider ? "user" : "default",
+    },
+    {
+      key: "user.embeddings.gloveModelPath",
+      value: userEmbeddingsGloveModelPath,
+      source: user.embeddings?.gloveModelPath ? "user" : "default",
+    },
+    {
+      key: "user.embeddings.hashDimension",
+      value: userEmbeddingsHashDimension,
+      source: user.embeddings?.hashDimension ? "user" : "default",
+    },
+    {
+      key: "user.rag.quantize",
+      value: userQuantize,
+      source: typeof user.rag?.quantize === "boolean" ? "user" : "default",
+    },
+    {
+      key: "user.rag.quantizePreload",
+      value: userQuantizePreload,
+      source: typeof user.rag?.quantizePreload === "boolean" ? "user" : "default",
+    },
+    {
+      key: "project.rag.aurora.enabled",
+      value: auroraEnabled,
+      source: typeof project.rag?.aurora?.enabled === "boolean" ? "project" : "default",
+    },
+    {
+      key: "project.rag.aurora.fractalQuantization",
+      value: auroraFractalQuantization,
+      source: typeof project.rag?.aurora?.fractalQuantization === "boolean" ? "project" : "default",
+    },
+    {
+      key: "project.rag.aurora.dualQuaternionDistance",
+      value: auroraDualQuaternionDistance,
+      source: typeof project.rag?.aurora?.dualQuaternionDistance === "boolean" ? "project" : "default",
+    },
+    {
+      key: "project.rag.aurora.gloveKeywords",
+      value: auroraGloveKeywords,
+      source: typeof project.rag?.aurora?.gloveKeywords === "boolean" ? "project" : "default",
+    },
+    {
+      key: "project.rag.aurora.gloveModelPath",
+      value: auroraGloveModelPath,
+      source: project.rag?.aurora?.gloveModelPath ? "project" : "default",
     },
   ];
 

@@ -22,25 +22,43 @@ from .util import die, new_run_id, parse_key_value
 _CHILD_ENV = "CMD_RUNNER__CHILD"
 
 
-def _require_project_root_cwd() -> None:
+def _is_repo_root_cwd(cwd: Path) -> bool:
+    return (cwd / "cmd_runner.py").is_file() and (cwd / "cmd_runner_pkg").is_dir()
+
+
+def _is_release_bundle_cwd(cwd: Path) -> bool:
+    cwd_exe = cwd / "cmd_runner.exe"
+    if os.name != "nt" or not cwd_exe.is_file():
+        return False
+    try:
+        exe = Path(sys.executable).resolve()
+        return exe.name.lower() == "cmd_runner.exe" and exe == cwd_exe.resolve()
+    except Exception:
+        return False
+
+
+def _is_installed_package_mode() -> bool:
+    try:
+        here = Path(__file__).resolve()
+    except Exception:
+        return False
+    return any(part.lower() in ("site-packages", "dist-packages") for part in here.parts)
+
+
+def _require_supported_cwd() -> None:
     cwd = Path.cwd()
-    if (cwd / "cmd_runner.py").is_file() and (cwd / "cmd_runner_pkg").is_dir():
+    if _is_repo_root_cwd(cwd):
+        return
+    if _is_release_bundle_cwd(cwd):
+        return
+    if _is_installed_package_mode():
         return
 
-    # Allow running the standalone cmd_runner.exe from its containing folder (release bundle root).
-    cwd_exe = cwd / "cmd_runner.exe"
-    if os.name == "nt" and cwd_exe.is_file():
-        try:
-            exe = Path(sys.executable).resolve()
-            if exe.name.lower() == "cmd_runner.exe" and exe == cwd_exe.resolve():
-                return
-        except Exception:
-            pass
-
     raise RuntimeError(
-        "cmd_runner must be launched from the project root directory "
+        "cmd_runner must be launched from a supported working directory "
         "(repo root: cwd must contain cmd_runner.py and cmd_runner_pkg/; "
-        "release bundle: cwd must contain cmd_runner.exe)."
+        "release bundle: cwd must contain cmd_runner.exe; "
+        "installed package mode: run the pipx/package console script from the target project directory)."
     )
 
 
@@ -58,7 +76,7 @@ COMMANDS
 USAGE (repo root; recommended)
   uv run cmd_runner.py start [--cwd PATH] [--env KEY=VALUE ...] [--cols N] [--rows N]
                                    [--timeout-s N] [--max-log-mb N] [--run-id ID]
-                                   [--terminal conhost|wt|conemu]
+                                   [--terminal conhost|wt]
                                    [--keep-open]
                                    [--] <command ...>
 
@@ -71,7 +89,7 @@ USAGE (repo root; recommended)
 USAGE (release bundle root)
   cmd_runner.exe start [--cwd PATH] [--env KEY=VALUE ...] [--cols N] [--rows N]
                        [--timeout-s N] [--max-log-mb N] [--run-id ID]
-                       [--terminal conhost|wt|conemu]
+                       [--terminal conhost|wt]
                        [--keep-open]
                        [--] <command ...>
 
@@ -81,10 +99,25 @@ USAGE (release bundle root)
   cmd_runner.exe send <run_id> (--text TEXT | --keys TOKENS | --hex HEX | --b64 B64) [--crlf]
   cmd_runner.exe stop <run_id> [--reason TEXT]
 
+USAGE (installed package / pipx)
+  cmd_runner start [--cwd PATH] [--env KEY=VALUE ...] [--cols N] [--rows N]
+                   [--timeout-s N] [--max-log-mb N] [--run-id ID]
+                   [--terminal conhost|wt]
+                   [--keep-open]
+                   [--] <command ...>
+
+  cmd_runner tail <run_id> [--follow] [--text|--stdout]
+  cmd_runner list [--limit N] [--json]
+  cmd_runner status <run_id> [--json]
+  cmd_runner send <run_id> (--text TEXT | --keys TOKENS | --hex HEX | --b64 B64) [--crlf]
+  cmd_runner stop <run_id> [--reason TEXT]
+
 NOTES
   - Windows-only (requires ConPTY: Windows 10 1809+).
   - No background server, no detached workers, no TCP control plane.
-  - Must be launched from the project root (repo root: cmd_runner.py + cmd_runner_pkg/; release: cmd_runner.exe).
+  - Repo wrapper mode must be launched from the project root (cwd contains cmd_runner.py + cmd_runner_pkg/).
+  - Release bundle mode must be launched from the bundle root (cwd contains cmd_runner.exe).
+  - Installed package / pipx mode uses the current working directory as the run root.
   - Run logs are written under: logs/cmd_runner/<run_id>/
   - Bridge: append JSONL commands to logs/cmd_runner/<run_id>/inbox.jsonl during the run.
   - `start` opens a separate terminal window and runs cmd_runner there (so the new window is interactive).
@@ -95,7 +128,6 @@ NOTES
 TERMINALS
   - `--terminal conhost` (default) is the most reliable for key input/editing.
   - `--terminal wt` forces a new Windows Terminal window (`wt -w new ...`).
-  - `--terminal conemu` runs via ConEmu if installed or vendored under ./ConEmu/.
 
 INBOX BRIDGE (JSONL)
   - One JSON object per line in: logs/cmd_runner/<run_id>/inbox.jsonl
@@ -250,10 +282,10 @@ def _parse_terminal_opt(pre: List[str]) -> Tuple[str, List[str]]:
         if tok == "--terminal":
             i += 1
             if i >= len(pre):
-                raise RuntimeError("--terminal requires: conhost|wt|conemu")
+                raise RuntimeError("--terminal requires: conhost|wt")
             terminal = str(pre[i]).lower().strip()
-            if terminal not in ("conhost", "wt", "conemu"):
-                raise RuntimeError("--terminal requires: conhost|wt|conemu")
+            if terminal not in ("conhost", "wt"):
+                raise RuntimeError("--terminal requires: conhost|wt")
         else:
             rest.append(tok)
         i += 1
@@ -611,7 +643,7 @@ def _resize_loop(session: RunSession, stop_evt: threading.Event) -> None:
 
 
 def _cmd_tail(argv: List[str]) -> int:
-    _require_project_root_cwd()
+    _require_supported_cwd()
     if not argv:
         raise RuntimeError("tail requires <run_id>")
     run_id = argv[0]
@@ -647,7 +679,7 @@ def _cmd_tail(argv: List[str]) -> int:
 
 
 def _cmd_list(argv: List[str]) -> int:
-    _require_project_root_cwd()
+    _require_supported_cwd()
     limit = 50
     as_json = False
     i = 0
@@ -716,7 +748,7 @@ def _cmd_list(argv: List[str]) -> int:
 
 
 def _cmd_status(argv: List[str]) -> int:
-    _require_project_root_cwd()
+    _require_supported_cwd()
     if not argv:
         raise RuntimeError("status requires <run_id>")
     run_id = argv[0]
@@ -766,7 +798,7 @@ def _cmd_status(argv: List[str]) -> int:
 
 
 def _cmd_send(argv: List[str]) -> int:
-    _require_project_root_cwd()
+    _require_supported_cwd()
     if len(argv) < 3:
         raise RuntimeError("send requires: send <run_id> (--text TEXT | --keys TOKENS | --hex HEX | --b64 B64) [--crlf]")
     run_id = argv[0]
@@ -821,7 +853,7 @@ def _cmd_send(argv: List[str]) -> int:
 
 
 def _cmd_stop(argv: List[str]) -> int:
-    _require_project_root_cwd()
+    _require_supported_cwd()
     if not argv:
         raise RuntimeError("stop requires <run_id>")
     run_id = argv[0]
@@ -851,7 +883,7 @@ def _cmd_stop(argv: List[str]) -> int:
 def _cmd_host(pre: List[str], payload: List[str], *, had_double_dash: bool) -> int:
     if os.name != "nt":
         return die("cmd_runner is Windows-only (ConPTY).", 2)
-    _require_project_root_cwd()
+    _require_supported_cwd()
     if not payload:
         raise RuntimeError("start requires a command argv")
 
@@ -1024,21 +1056,6 @@ def _spawn_new_window(argv: List[str], *, cwd: Path, terminal: str, env: Optiona
         subprocess.Popen(cmd, cwd=str(cwd), env=env)
         return
 
-    if terminal == "conemu":
-        candidates = [
-            cwd / "ConEmu" / "Release" / "ConEmu64.exe",
-            cwd / "ConEmu" / "ConEmu64.exe",
-        ]
-        conemu = next((p for p in candidates if p.is_file()), None)
-        if conemu is None:
-            found = shutil.which("ConEmu64.exe")
-            conemu = Path(found) if found else None
-        if conemu is None or not conemu.is_file():
-            raise RuntimeError("Requested --terminal conemu but ConEmu64.exe was not found (build/install ConEmu)")
-        cmd = [str(conemu), "-basic", "-nocascade", "-run"] + argv
-        subprocess.Popen(cmd, cwd=str(cwd), env=env)
-        return
-
     # conhost/default: spawn a new console window minimized (no cmd.exe wrapping; avoids cmd parsing issues).
     creationflags = getattr(subprocess, "CREATE_NEW_CONSOLE", 0)
     startupinfo = None
@@ -1064,7 +1081,7 @@ def _spawn_new_window(argv: List[str], *, cwd: Path, terminal: str, env: Optiona
 def _cmd_start(pre: List[str], payload: List[str], *, had_double_dash: bool) -> int:
     if os.name != "nt":
         return die("cmd_runner start is Windows-only.", 2)
-    _require_project_root_cwd()
+    _require_supported_cwd()
     if not payload:
         raise RuntimeError("start requires a command argv")
 
@@ -1086,6 +1103,10 @@ def _cmd_start(pre: List[str], payload: List[str], *, had_double_dash: bool) -> 
 
     if Path(sys.executable).name.lower() == "cmd_runner.exe":
         argv: List[str] = [str(Path(sys.executable)), "start"]
+    elif _is_repo_root_cwd(root):
+        argv = [str(Path(sys.executable)), str(root / "cmd_runner.py"), "start"]
+    elif _is_installed_package_mode():
+        argv = [str(Path(sys.executable)), "-m", "cmd_runner_pkg", "start"]
     else:
         argv = [str(Path(sys.executable)), str(root / "cmd_runner.py"), "start"]
 

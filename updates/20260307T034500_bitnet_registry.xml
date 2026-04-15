@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_b0bca996cfaf4402f222d84fbd49dd03 name="text_anchor_replace" md5="b0bca996cfaf4402f222d84fbd49dd03" size="264">
+    <file>src/config/registry.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>      options: () =&gt; [
+        { value: "openai", label: "openai (default) - Use OpenAI-compatible API" },
+        { value: "glove", label: "glove - Use local GloVe word vectors" },
+        { value: "hash", label: "hash - Use deterministic hash embeddings" },
+      ],</find_text>
+    <semantics>Add bitnet option to project.rag.embeddings.provider.</semantics>
+    <content_md5_b0bca996cfaf4402f222d84fbd49dd03>
+      options: () =&gt; [
+        { value: "openai", label: "openai (default) - Use OpenAI-compatible API" },
+        { value: "glove", label: "glove - Use local GloVe word vectors" },
+        { value: "hash", label: "hash - Use deterministic hash embeddings" },
+        { value: "bitnet", label: "bitnet - Use BitNet model embeddings (WebAssembly)" },
+      ],
+    </content_md5_b0bca996cfaf4402f222d84fbd49dd03>
+  </update_md5_b0bca996cfaf4402f222d84fbd49dd03>
+  <update_md5_b0bca996cfaf4402f222d84fbd49dd03 name="text_anchor_replace" md5="b0bca996cfaf4402f222d84fbd49dd03" size="264">
+    <file>src/config/registry.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>      options: () =&gt; [
+        { value: "openai", label: "openai (default) - Use OpenAI-compatible API" },
+        { value: "glove", label: "glove - Use local GloVe word vectors" },
+        { value: "hash", label: "hash - Use deterministic hash embeddings" },
+      ],</find_text>
+    <semantics>Add bitnet option to user.embeddings.provider.</semantics>
+    <content_md5_b0bca996cfaf4402f222d84fbd49dd03>
+      options: () =&gt; [
+        { value: "openai", label: "openai (default) - Use OpenAI-compatible API" },
+        { value: "glove", label: "glove - Use local GloVe word vectors" },
+        { value: "hash", label: "hash - Use deterministic hash embeddings" },
+        { value: "bitnet", label: "bitnet - Use BitNet model embeddings (WebAssembly)" },
+      ],
+    </content_md5_b0bca996cfaf4402f222d84fbd49dd03>
+  </update_md5_b0bca996cfaf4402f222d84fbd49dd03>
+  <update_md5_7c5217c765a973217505dea10e31c03c name="text_insert_before_anchor" md5="7c5217c765a973217505dea10e31c03c" size="662">
+    <file>src/config/registry.ts</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>      key: "project.rag.embeddings.hashDimension",</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Insert bitnet configuration keys after hashDimension.</semantics>
+    <content_md5_7c5217c765a973217505dea10e31c03c>
+      },
+      {
+        key: "project.rag.embeddings.bitnetModelPath",
+        scope: "project",
+        type: "string",
+        category: "RAG",
+        description: "Path to BitNet GGUF model file (relative to project root).",
+        template: "data/bitnet-model.gguf",
+      },
+      {
+        key: "project.rag.embeddings.bitnetLayer",
+        scope: "project",
+        type: "number",
+        category: "RAG",
+        description: "Transformer layer to extract Q vectors from (default 0).",
+        template: "0",
+      },
+      {
+        key: "project.rag.embeddings.bitnetTailSkip",
+        scope: "project",
+        type: "number",
+        category: "RAG",
+        description: "Number of trailing tokens to skip (default 0).",
+        template: "0",
+      },
+      {
+        key: "project.rag.embeddings.bitnetPoolN",
+        scope: "project",
+        type: "number",
+        category: "RAG",
+        description: "Pooling window size (default 1).",
+        template: "1",
+      },
+    </content_md5_7c5217c765a973217505dea10e31c03c>
+  </update_md5_7c5217c765a973217505dea10e31c03c>
+  <update_md5_45951b17ca5a2aae68e7ca4bab2e6a4f name="text_insert_before_anchor" md5="45951b17ca5a2aae68e7ca4bab2e6a4f" size="622">
+    <file>src/config/registry.ts</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>      key: "user.embeddings.hashDimension",</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Insert bitnet configuration keys after hashDimension.</semantics>
+    <content_md5_45951b17ca5a2aae68e7ca4bab2e6a4f>
+      },
+      {
+        key: "user.embeddings.bitnetModelPath",
+        scope: "user",
+        type: "string",
+        category: "RAG",
+        description: "Path to BitNet GGUF model file (relative to project root).",
+        template: "data/bitnet-model.gguf",
+      },
+      {
+        key: "user.embeddings.bitnetLayer",
+        scope: "user",
+        type: "number",
+        category: "RAG",
+        description: "Transformer layer to extract Q vectors from (default 0).",
+        template: "0",
+      },
+      {
+        key: "user.embeddings.bitnetTailSkip",
+        scope: "user",
+        type: "number",
+        category: "RAG",
+        description: "Number of trailing tokens to skip (default 0).",
+        template: "0",
+      },
+      {
+        key: "user.embeddings.bitnetPoolN",
+        scope: "user",
+        type: "number",
+        category: "RAG",
+        description: "Pooling window size (default 1).",
+        template: "1",
+      },
+    </content_md5_45951b17ca5a2aae68e7ca4bab2e6a4f>
+  </update_md5_45951b17ca5a2aae68e7ca4bab2e6a4f>
+</updates>

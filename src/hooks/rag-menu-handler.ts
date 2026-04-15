@@ -65,6 +65,14 @@ export function createRagHandler(deps: RagHandlerDependencies) {
           const extractor = manager.getRagExtractor();
           const python = manager.getRagPython();
           const dbPath = manager.getRagDbPath();
+          const embeddings = manager.getEmbeddingsSettings();
+          const quantize = manager.getRagQuantize();
+          const quantizePreload = manager.getRagQuantizePreload();
+          const auroraEnabled = manager.getRagAuroraEnabled();
+          const auroraFractalQuantization = manager.getRagAuroraFractalQuantization();
+          const auroraDualQuaternionDistance = manager.getRagAuroraDualQuaternionDistance();
+          const auroraGloveKeywords = manager.getRagAuroraGloveKeywords();
+          const auroraGloveModelPath = manager.getRagAuroraGloveModelPath();
           let chunks = 0;
           if (existsSync(dbPath)) {
             try {
@@ -75,7 +83,12 @@ export function createRagHandler(deps: RagHandlerDependencies) {
               // ignore
             }
           }
-          push(`RAG enabled: ${enabled ? "yes" : "no"}\nRAG topK: ${topK}\nRAG extractor: ${extractor}${extractor === "sqlite-rag" ? `\nRAG python: ${python || "(auto-detect)"}` : ""}\nRAG db: ${dbPath}\nIndexed chunks: ${chunks}`);
+          let status = `RAG enabled: ${enabled ? "yes" : "no"}\nRAG topK: ${topK}\nRAG extractor: ${extractor}${extractor === "sqlite-rag" ? `\nRAG python: ${python || "(auto-detect)"}` : ""}\nEmbeddings provider: ${embeddings.provider || "hash"}\nEmbeddings model: ${embeddings.model || "text-embedding-3-small"}\nQuantization: ${quantize ? "enabled" : "disabled"}${quantize ? ` (preload: ${quantizePreload ? "yes" : "no"})` : ""}\nAurora enhancements: ${auroraEnabled ? "enabled" : "disabled"}`;
+          if (auroraEnabled) {
+            status += `\n  - Fractal quantization: ${auroraFractalQuantization ? "yes" : "no"}\n  - Dual-quaternion distance: ${auroraDualQuaternionDistance ? "yes" : "no"}\n  - GloVe keywords: ${auroraGloveKeywords ? "yes" : "no"}\n  - GloVe model path: ${auroraGloveModelPath}`;
+          }
+          status += `\nRAG db: ${dbPath}\nIndexed chunks: ${chunks}`;
+          push(status);
           break;
         }
         case "index": {

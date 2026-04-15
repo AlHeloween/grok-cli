@@ -348,10 +348,11 @@ clearAllChunks(): void {
         [JSON.stringify(vector), k]
       );
       return (rows || []) as RagChunkRow[];
-    } catch (error: any) {
+    } catch (error: unknown) {
       // If quantization table not found, fall back to vector_full_scan (exact search)
-      if (error.message?.includes?.("Quantization table not found") || 
-          error.message?.includes?.("vector_quantize() has been called")) {
+      const err = error as Error;
+      if (err.message?.includes?.("Quantization table not found") || 
+          err.message?.includes?.("vector_quantize() has been called")) {
         // Use vector_full_scan for exact similarity search
         const rows = this.db.selectObjects(
           `
@@ -410,10 +411,11 @@ clearAllChunks(): void {
         [JSON.stringify(vector), k, `${pathPrefix}%`]
       );
       return (rows || []) as RagChunkRow[];
-    } catch (error: any) {
+    } catch (error: unknown) {
       // If quantization table not found, fall back to vector_full_scan (exact search)
-      if (error.message?.includes?.("Quantization table not found") || 
-          error.message?.includes?.("vector_quantize() has been called")) {
+      const err = error as Error;
+      if (err.message?.includes?.("Quantization table not found") || 
+          err.message?.includes?.("vector_quantize() has been called")) {
         // Use vector_full_scan for exact similarity search
         const rows = this.db.selectObjects(
           `

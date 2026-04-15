@@ -1,6 +1,6 @@
 ---
 name: agent-assets
-description: Maintain canonical artefacts and install agent receiver scaffolds (.cursor/.codex/.opencode).
+description: Maintain canonical artefacts and install agent receiver scaffolds (.cursor/.codex/~/.codex/.opencode).
 ---
 
 # agent-assets
@@ -10,7 +10,7 @@ description: Maintain canonical artefacts and install agent receiver scaffolds (
 - Rules: `artefacts/rules/`
 - Skills: `artefacts/skills/`
 
-Agent folders are receivers (safe to delete): `.cursor/`, `.codex/`, `.opencode/`.
+Agent folders are receivers (safe to delete): `.cursor/`, `.codex/`, `~/.codex/`, `.opencode/`.
 
 ## Workflow
 

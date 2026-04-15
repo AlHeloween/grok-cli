@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_a547f48753d16a66e0905890ad2ab403 name="agents_safety_add_cmd_runner_rule" md5="a547f48753d16a66e0905890ad2ab403" size="1130">
+    <file>AGENTS.md</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>## Agent Safety (Critical)
+
+- **Never restore from git** over local work. Use backups and rollbacks: `tools/adm --list-backups &lt;file&gt;`, `tools/adm --rollback &lt;file&gt;` (or `uv run adm ...` when tools/adm not present). Verify after rollback: `tools/adm --verify-all src tests` (see [Verification](#verification)).
+- Treat adm core as immutable when present; make changes via XML descriptors and CLI; extend by copying the tool.
+- Always pass `--log-progress _progress_log.md` (or chosen path) to record actions and outcomes when using adm.
+- **Shortcut / test-skip policy:** If you want to skip the standard operation flow, skip tests, or take shortcuts, you must: (1) Re-read the newest `docs/ADID_Framework_*.md` fully. (2) Perform reverse search over the entire dialog message history. (3) Perform fractal task decomposition followed by k-medoids clustering and propose at least **5** solution options, then wait for the user decision before executing.
+- Prefer Semgrep-first refactors via adm where applicable; use `--rg`/`--sed` via adm to retain backups and ledgers. Mirror ignores: `tools/adm --sync-semgrepignore` (see [Semgrep strategy](#semgrep-strategy-refactors)).</find_text>
+    <semantics>Add cmd_runner rule for unknown tools with unknown output</semantics>
+    <content_md5_a547f48753d16a66e0905890ad2ab403>
+      ## Agent Safety (Critical)
+      
+      - **Never restore from git** over local work. Use backups and rollbacks: `tools/adm --list-backups &lt;file&gt;`, `tools/adm --rollback &lt;file&gt;` (or `uv run adm ...` when tools/adm not present). Verify after rollback: `tools/adm --verify-all src tests` (see [Verification](#verification)).
+      - Treat adm core as immutable when present; make changes via XML descriptors and CLI; extend by copying the tool.
+      - Always pass `--log-progress _progress_log.md` (or chosen path) to record actions and outcomes when using adm.
+      - **Shortcut / test-skip policy:** If you want to skip the standard operation flow, skip tests, or take shortcuts, you must: (1) Re-read the newest `docs/ADID_Framework_*.md` fully. (2) Perform reverse search over the entire dialog message history. (3) Perform fractal task decomposition followed by k-medoids clustering and propose at least **5** solution options, then wait for the user decision before executing.
+      - Prefer Semgrep-first refactors via adm where applicable; use `--rg`/`--sed` via adm to retain backups and ledgers. Mirror ignores: `tools/adm --sync-semgrepignore` (see [Semgrep strategy](#semgrep-strategy-refactors)).
+      - **Unknown tools with unknown output:** Always execute with `cmd_runner`. Reason: Previous command execution crashed the opencode TUI.
+    </content_md5_a547f48753d16a66e0905890ad2ab403>
+  </update_md5_a547f48753d16a66e0905890ad2ab403>
+</updates>

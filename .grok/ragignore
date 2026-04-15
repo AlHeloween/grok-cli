@@ -1,0 +1,6 @@
+# .grok/ragignore
+# One rule per line. v1 semantics: simple substring match on relative paths.
+node_modules/
+dist/
+build/
+.git/

@@ -2,6 +2,7 @@ import { IEmbeddingProvider, EmbeddingProviderOptions } from "./embedding-provid
 import { OpenAiEmbeddingProvider } from "./embedding-providers/openai-provider.js";
 import { GloveEmbeddingProvider } from "./embedding-providers/glove-provider.js";
 import { HashEmbeddingProvider } from "./embedding-providers/hash-provider.js";
+import { BitNetEmbeddingProvider } from "./embedding-providers/bitnet-provider.js";
 import { getSettingsManager } from "../utils/settings-manager.js";
 
 /**
@@ -35,6 +36,17 @@ export function createEmbeddingProvider(options: EmbeddingProviderOptions): IEmb
       
     case 'hash':
       return new HashEmbeddingProvider(options.hashDimension || 256);
+      
+    case 'bitnet':
+      if (!options.bitnetModelPath) {
+        throw new Error('bitnetModelPath is required for bitnet provider');
+      }
+      return new BitNetEmbeddingProvider({
+        modelPath: options.bitnetModelPath,
+        layer: options.bitnetLayer,
+        tailSkip: options.bitnetTailSkip,
+        poolN: options.bitnetPoolN,
+      });
       
     default:
       throw new Error(`Unsupported embedding provider: ${options.provider}`);

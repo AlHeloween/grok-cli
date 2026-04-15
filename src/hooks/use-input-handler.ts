@@ -391,6 +391,193 @@ const handleRagAction = async (action: string): Promise<void> => {
         push("✓ Morph API key saved. Morph editing is now available (if supported by your model/tools).");
         return;
       }
+      case "project.rag.extractor": {
+        if (!trimmed) return;
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          extractor: trimmed as "native" | "sqlite-rag",
+        });
+        push(`✓ RAG extractor saved: ${trimmed}`);
+        return;
+      }
+      case "project.rag.python": {
+        if (!trimmed) return;
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          python: trimmed,
+        });
+        push(`✓ RAG python command saved: ${trimmed}`);
+        return;
+      }
+      case "project.rag.embeddings.provider": {
+        if (!trimmed) return;
+        const provider = trimmed as 'openai' | 'glove' | 'hash';
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          embeddings: {
+            ...((project.rag || {}).embeddings || {}),
+            provider,
+          },
+        });
+        push(`✓ Project embeddings provider saved: ${provider}`);
+        return;
+      }
+      case "project.rag.embeddings.gloveModelPath": {
+        if (!trimmed) return;
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          embeddings: {
+            ...((project.rag || {}).embeddings || {}),
+            gloveModelPath: trimmed,
+          },
+        });
+        push(`✓ Project embeddings glove model path saved: ${trimmed}`);
+        return;
+      }
+      case "project.rag.embeddings.hashDimension": {
+        const n = Number(trimmed);
+        if (!Number.isFinite(n) || n <= 0) {
+          push("✗ hashDimension must be a positive number.");
+          return;
+        }
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          embeddings: {
+            ...((project.rag || {}).embeddings || {}),
+            hashDimension: Math.floor(n),
+          },
+        });
+        push(`✓ Project embeddings hash dimension saved: ${Math.floor(n)}`);
+        return;
+      }
+      case "project.rag.quantize": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          quantize: enabled,
+        });
+        push(`✓ RAG quantization is now ${enabled ? "enabled" : "disabled"} for this project.`);
+        return;
+      }
+      case "project.rag.quantizePreload": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          quantizePreload: enabled,
+        });
+        push(`✓ RAG quantization preload is now ${enabled ? "enabled" : "disabled"} for this project.`);
+        return;
+      }
+      case "project.rag.aurora.enabled": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          aurora: {
+            ...((project.rag || {}).aurora || {}),
+            enabled,
+          },
+        });
+        push(`✓ Aurora enhancements are now ${enabled ? "enabled" : "disabled"} for this project.`);
+        return;
+      }
+      case "project.rag.aurora.fractalQuantization": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          aurora: {
+            ...((project.rag || {}).aurora || {}),
+            fractalQuantization: enabled,
+          },
+        });
+        push(`✓ Aurora fractal quantization is now ${enabled ? "enabled" : "disabled"} for this project.`);
+        return;
+      }
+      case "project.rag.aurora.dualQuaternionDistance": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          aurora: {
+            ...((project.rag || {}).aurora || {}),
+            dualQuaternionDistance: enabled,
+          },
+        });
+        push(`✓ Aurora dual-quaternion distance is now ${enabled ? "enabled" : "disabled"} for this project.`);
+        return;
+      }
+      case "project.rag.aurora.gloveKeywords": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          aurora: {
+            ...((project.rag || {}).aurora || {}),
+            gloveKeywords: enabled,
+          },
+        });
+        push(`✓ Aurora GloVe keywords are now ${enabled ? "enabled" : "disabled"} for this project.`);
+        return;
+      }
+      case "project.rag.aurora.gloveModelPath": {
+        if (!trimmed) return;
+        settingsManager.updateProjectSetting("rag", {
+          ...(project.rag || {}),
+          aurora: {
+            ...((project.rag || {}).aurora || {}),
+            gloveModelPath: trimmed,
+          },
+        });
+        push(`✓ Aurora GloVe model path saved: ${trimmed}`);
+        return;
+      }
+      case "user.embeddings.provider": {
+        if (!trimmed) return;
+        const provider = trimmed as 'openai' | 'glove' | 'hash';
+        settingsManager.updateUserSetting("embeddings", {
+          ...(user.embeddings || {}),
+          provider,
+        });
+        push(`✓ User embeddings provider saved: ${provider}`);
+        return;
+      }
+      case "user.embeddings.gloveModelPath": {
+        if (!trimmed) return;
+        settingsManager.updateUserSetting("embeddings", {
+          ...(user.embeddings || {}),
+          gloveModelPath: trimmed,
+        });
+        push(`✓ User embeddings glove model path saved: ${trimmed}`);
+        return;
+      }
+      case "user.embeddings.hashDimension": {
+        const n = Number(trimmed);
+        if (!Number.isFinite(n) || n <= 0) {
+          push("✗ hashDimension must be a positive number.");
+          return;
+        }
+        settingsManager.updateUserSetting("embeddings", {
+          ...(user.embeddings || {}),
+          hashDimension: Math.floor(n),
+        });
+        push(`✓ User embeddings hash dimension saved: ${Math.floor(n)}`);
+        return;
+      }
+      case "user.rag.quantize": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        settingsManager.updateUserSetting("rag", {
+          ...(user.rag || {}),
+          quantize: enabled,
+        });
+        push(`✓ User-level RAG quantization is now ${enabled ? "enabled" : "disabled"}.`);
+        return;
+      }
+      case "user.rag.quantizePreload": {
+        const enabled = trimmed.toLowerCase() === "true" || trimmed === "1";
+        settingsManager.updateUserSetting("rag", {
+          ...(user.rag || {}),
+          quantizePreload: enabled,
+        });
+        push(`✓ User-level RAG quantization preload is now ${enabled ? "enabled" : "disabled"}.`);
+        return;
+      }
       default:
         push(`✗ Unknown config key: ${key}`);
     }

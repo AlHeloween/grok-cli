@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_9ccc5d96ba7a3e10c294750b47324728 name="add_rg_nuc_note" md5="9ccc5d96ba7a3e10c294750b47324728" size="96">
+    <file>AGENTS.md</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>- **Filtering command output:** `grep` is allowed for pipes (e.g. `winget list | grep Node`).</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Insert rg -nuc note after filtering command output line</semantics>
+    <content_md5_9ccc5d96ba7a3e10c294750b47324728>
+      - **Search through .gitignore:** Use `rg -nuc -- "pattern"` to search ignoring .gitignore patterns when needed.
+    </content_md5_9ccc5d96ba7a3e10c294750b47324728>
+  </update_md5_9ccc5d96ba7a3e10c294750b47324728>
+</updates>

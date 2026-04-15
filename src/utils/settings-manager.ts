@@ -21,6 +21,7 @@ export interface UserSettings {
   theme?: string; // Preferred UI theme id
   maxTokens?: number; // Max output tokens for chat.completions
   embeddings?: EmbeddingsSettings; // Embeddings settings (used by local RAG)
+  rag?: RagSettings; // User-level RAG settings (quantization etc.)
   morphApiKey?: string; // Morph API key (enables Morph Fast Apply)
   settingsVersion?: number; // Version for migration tracking
 }
@@ -39,9 +40,13 @@ export interface EmbeddingsSettings {
   baseURL?: string;
   model?: string;
   apiKey?: string;
-  provider?: 'openai' | 'glove' | 'hash';
+  provider?: 'openai' | 'glove' | 'hash' | 'bitnet';
   gloveModelPath?: string;
   hashDimension?: number;
+  bitnetModelPath?: string;
+  bitnetLayer?: number;
+  bitnetTailSkip?: number;
+  bitnetPoolN?: number;
 }
 
 export interface AuroraRagSettings {
@@ -92,8 +97,12 @@ const DEFAULT_USER_SETTINGS: Partial<UserSettings> = {
   theme: "vscode-dark-plus",
   embeddings: {
     model: "text-embedding-3-small",
-    provider: "openai",
+    provider: "hash",
     hashDimension: 256,
+  },
+  rag: {
+    quantize: false,
+    quantizePreload: false,
   },
   // Models from official xAI docs (docs.x.ai/docs/models); aliases -latest/-fast follow docs
   models: [
@@ -129,7 +138,7 @@ const DEFAULT_PROJECT_SETTINGS: Partial<ProjectSettings> = {
     quantize: false,
     quantizePreload: false,
     embeddings: {
-      provider: "openai",
+      provider: "hash",
       hashDimension: 256,
     },
     aurora: {
@@ -248,6 +257,10 @@ export class SettingsManager {
         ...(DEFAULT_USER_SETTINGS.embeddings || {}),
         ...(settings.embeddings || {}),
       };
+      result.rag = {
+        ...(DEFAULT_USER_SETTINGS.rag || {}),
+        ...(settings.rag || {}),
+      };
       this.userSettingsCache = { settings: result, mtimeMs };
       return result;
     } catch (error) {
@@ -310,6 +323,10 @@ export class SettingsManager {
             ...(DEFAULT_USER_SETTINGS.embeddings || {}),
             ...(parsed.embeddings || {}),
           };
+          existingSettings.rag = {
+            ...(DEFAULT_USER_SETTINGS.rag || {}),
+            ...(parsed.rag || {}),
+          };
         } catch {
           // If file is corrupted, use defaults
           console.warn("Corrupted user settings file, using defaults");
@@ -321,6 +338,12 @@ export class SettingsManager {
         mergedSettings.embeddings = {
           ...(existingSettings.embeddings || {}),
           ...(settings.embeddings || {}),
+        };
+      }
+      if (settings.rag) {
+        mergedSettings.rag = {
+          ...(existingSettings.rag || {}),
+          ...(settings.rag || {}),
         };
       }
 
@@ -776,16 +799,16 @@ export function getSettingsManager(): SettingsManager {
   return SettingsManager.getInstance();
 }
 
-// ADID_ROLLBACK (from adm)
+// ADID_ROLLBACK (from adm.exe)
 // SDID_ROLLBACK {
 //   "target_file": "D:\\zPython\\grok-cli\\src/utils/settings-manager.ts"
-//   "update_script": "adm"
-//   "backup_path": "D:\\zPython\\grok-cli\\src/utils/settings-manager.ts.backup_20260302T153053_486316"
-//   "created_at": "2026-03-02T07:30:53.504017+00:00"
-//   "backup_hash": "ca816f4e31f8487096388ebfd8512dfc"
-//   "new_hash": "b4e2a7c9c8cf1a9c420cd2ffcca5f88b"
-//   "goal_id": "aurora_getter_fp16"
-//   "semantics": "Add getRagAuroraUseFp16Storage getter method"
-//   "update_attrs": {"relative_path": "src/utils/settings-manager.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "public getRagAuroraDualQuatTranslationWeight(cwd: string = process.cwd()): number {\n    const settings = this.loadProjectSettings(cwd);\n    return settings.rag?.aurora?.dualQuatTranslationWeight ?? 1.0;\n  }\n\n  /**\n   * Set the current model for the project", "replace_present": true}
+//   "update_script": "adm.exe"
+//   "backup_path": "D:\\zPython\\grok-cli\\src/utils/settings-manager.ts.backup_20260307T114208_943528"
+//   "created_at": "2026-03-07T03:42:08.965596+00:00"
+//   "backup_hash": "29fcd9c3302b397c8ad54a926e6ef121"
+//   "new_hash": "7913659437b430b9c72e7eec3dcc0e10"
+//   "goal_id": "text_anchor_replace"
+//   "semantics": "Add bitnet provider type and options to EmbeddingsSettings."
+//   "update_attrs": {"relative_path": "src/utils/settings-manager.ts", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "export interface EmbeddingsSettings {\n  baseURL?: string;\n  model?: string;\n  apiKey?: string;\n  provider?: 'openai' | 'glove' | 'hash';\n  gloveModelPath?: string;\n  hashDimension?: number;\n}", "replace_present": true}
 //   "restore_cmd": "uv run adm --rollback \"D:\\zPython\\grok-cli\\src/utils/settings-manager.ts\""
 // }

@@ -35,6 +35,14 @@ vi.mock("../utils/settings-manager.js", () => ({
     getRagExtractor: vi.fn(),
     getRagPython: vi.fn(),
     getRagDbPath: vi.fn(),
+    getEmbeddingsSettings: vi.fn(),
+    getRagQuantize: vi.fn(),
+    getRagQuantizePreload: vi.fn(),
+    getRagAuroraEnabled: vi.fn(),
+    getRagAuroraFractalQuantization: vi.fn(),
+    getRagAuroraDualQuaternionDistance: vi.fn(),
+    getRagAuroraGloveKeywords: vi.fn(),
+    getRagAuroraGloveModelPath: vi.fn(),
   })),
 }));
 
@@ -105,6 +113,17 @@ describe("createRagHandler", () => {
         getRagExtractor: vi.fn().mockReturnValue("sqlite-rag"),
         getRagPython: vi.fn().mockReturnValue("python3"),
         getRagDbPath: vi.fn().mockReturnValue("/test/.grok/rag.db"),
+        getEmbeddingsSettings: vi.fn().mockReturnValue({
+          provider: "hash",
+          model: "text-embedding-3-small",
+        }),
+        getRagQuantize: vi.fn().mockReturnValue(false),
+        getRagQuantizePreload: vi.fn().mockReturnValue(false),
+        getRagAuroraEnabled: vi.fn().mockReturnValue(false),
+        getRagAuroraFractalQuantization: vi.fn().mockReturnValue(false),
+        getRagAuroraDualQuaternionDistance: vi.fn().mockReturnValue(false),
+        getRagAuroraGloveKeywords: vi.fn().mockReturnValue(false),
+        getRagAuroraGloveModelPath: vi.fn().mockReturnValue("data/glove/glove_50d.db"),
       };
       mockGetSettingsManager.mockReturnValue(mockManager);
       vi.mocked(fsMod.existsSync).mockReturnValue(false);

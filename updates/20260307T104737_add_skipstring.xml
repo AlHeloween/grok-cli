@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_93dba0457d512706a95bc06551cd15b1 name="add_skipstring_method" md5="93dba0457d512706a95bc06551cd15b1" size="123">
+    <file>src/rag/embedding-providers/bitnet/gguf.ts</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>  private async skipValue(off: number, vtype: GGUFValueType): Promise&lt;number&gt; {</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Insert skipString method before skipValue</semantics>
+    <content_md5_93dba0457d512706a95bc06551cd15b1>
+      private async skipString(off: number): Promise&lt;number&gt; {
+        const { value: len, nextOff: off1 } = await this.readUint64(off);
+        return off1 + len;
+      }
+    </content_md5_93dba0457d512706a95bc06551cd15b1>
+  </update_md5_93dba0457d512706a95bc06551cd15b1>
+</updates>

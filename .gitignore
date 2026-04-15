@@ -1,4 +1,5 @@
 # Dependencies
+
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -15,8 +16,6 @@ lib/
 build/
 docs/
 *.tsbuildinfo
-
-data/
 
 # Environment variables
 .env
@@ -55,79 +54,99 @@ __pycache__/
 # Logs
 logs/
 *.log
+results/
 
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
+# Local agent/runtime scaffolds (may contain MCP keys)
+.codex/config.toml
+.codex/config.local.toml
+.codex/*secrets*
+.codex/**/mcp*.json
+.codex/**/mcp*.toml
+.codex/**/mcp*.yaml
+.codex/**/mcp*.yml
 
-# Coverage directory used by tools like istanbul
-coverage/
-.nyc_output/
+.opencode/node_modules/
+.opencode/**/mcp*.json
+.opencode/**/mcp*.toml
+.opencode/**/mcp*.yaml
+.opencode/**/mcp*.yml
 
-# TypeScript cache
-*.tsbuildinfo
+.cursor/**/mcp*.json
+.cursor/**/mcp*.toml
+.cursor/**/mcp*.yaml
+.cursor/**/mcp*.yml
 
-# Optional npm cache directory
-.npm
+# Common secret/env patterns
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
 
-# Bun cache
-.bun/
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyd
 
-# Optional eslint cache
-.eslintcache
+# Virtual environments
+.venv/
+venv/
+env/
 
-# Microbundle cache
-.rpt2_cache/
-.rts2_cache_cjs/
-.rts2_cache_es/
-.rts2_cache_umd/
+# Build artifacts
+build/
+dist/
+releases/
+*.egg-info/
 
-# Optional REPL history
-.node_repl_history
+# Test / tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+.litert-lm/
 
-# Output of 'npm pack' and 'bun pack'
-*.tgz
+# Notebooks
+.ipynb_checkpoints/
 
-# Yarn Integrity file
-.yarn-integrity
+# OS / editor
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*~
 
-# parcel-bundler cache (https://parceljs.org/)
-.cache
-.parcel-cache
 
-# Temporary folders
-tmp/
-temp/
-*.tmp
-*.temp
+# Cursor IDE runtime (do not commit—local paths, session IDs, exit codes)
+.cursor/debug.log
+.cursor/*.log
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Git metadata (ignore nested clones/worktrees)
+.git/
+**/.git/
+**/.git
 
-# Coding agents
-.claude/
-.grok/
+gpu_games/rust/target/*
+# Exception: Track external files we explicitly modify for Aurora integration
+
+.cache/wiki_rag_index/
 
 # ADID/adm artifacts
 *.baseline
 *.backup_*
-*.adid.log.jsonl
+*.jsonl
 _progress_log.md
 
 # -------------------------------------------
 # Delphi & C++Builder - Build and IDE files
 # -------------------------------------------
 
-# Compilados
 *.dcu
 *.dcp
 *.dcpil
@@ -146,7 +165,7 @@ _progress_log.md
 *.o
 *.ocx
 
-# Archivos temporales del IDE
+# Delphi Project Artefacts
 *.local
 *.identcache
 *.tvsconfig
@@ -165,7 +184,6 @@ _progress_log.md
 *.~*
 
 # Backups
-*.orig
 *.dfm.bak
 *.pas.bak
 *.inc.bak
@@ -173,9 +191,6 @@ Backup/
 backup/
 bak/
 
-# -------------------------------------------
-# Directorios de compilación
-# -------------------------------------------
 Win32/
 Win64/
 OSX32/
@@ -190,43 +205,21 @@ __history/
 __recovery/
 __debug_info/
 
-# -------------------------------------------
-# Archivos generados por FastMM, Logs, etc.
-# -------------------------------------------
-*.log
 *.elc
 
-# -------------------------------------------
-# Archivos de base de datos (opcional)
-# -------------------------------------------
 *.db
 *.fdb
 *.gdb
 *.ib
 
-# -------------------------------------------
-# Archivos del sistema operativo
-# -------------------------------------------
-Thumbs.db
-Desktop.ini
-ehthumbs.db
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-*~
-
-# -------------------------------------------
-# Carpetas de IDEs / entornos
-# -------------------------------------------
+# Environments
 .vscode/
 .idea/
 .env/
 node_modules/
 
 # -------------------------------------------
-# Archivos comprimidos o empaquetados
+# Archives
 # -------------------------------------------
 *.zip
 *.rar
@@ -236,7 +229,7 @@ node_modules/
 *.gz
 
 # -------------------------------------------
-# Archivos específicos de versiones Delphi
+# Archives
 # -------------------------------------------
 *.dproj.2007
 *.dproj.2009
@@ -248,13 +241,14 @@ node_modules/
 *.dproj.13
 
 # -------------------------------------------
-# Evitar incluir control de versiones dentro
+# Versioning
 # -------------------------------------------
 .svn/
 .hg/
 
-# ⚠️ Git folder should not be ignored globally
-# .git/
- 
 Source/Packages/hpp/
 
+#External
+*/llama.orig/models/*
+data/
+CMakeFiles

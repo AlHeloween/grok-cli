@@ -27,6 +27,7 @@ Notes
   - Input is read via ReadConsoleInputW (KEY_EVENT) when stdin is a real console; if stdin is a pipe (common in Windows Terminal), raw VT bytes are read and forwarded.
   - Resize is best-effort (uses ResizePseudoConsole when available).
   - `start` spawns the hosting window minimized by default. If you want the most reliable input/editing, omit `--terminal` (defaults to `conhost`).
+  - Supported terminal hosts are `conhost` and `wt`.
   - On exit, cmd_runner writes a small terminal reset sequence (show cursor, reset attributes, exit alt-screen) and flushes console input buffer best-effort.
   - At runtime, cmd_runner prints the chosen input strategy to stderr (ReadConsoleInputW vs stdin pipe vs msvcrt fallback).
   - Management output is hardware-grounded where possible:

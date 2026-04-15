@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_f04ed233f8d240d2d7b69f6f3a179891 name="add_search_rule_to_agents" md5="f04ed233f8d240d2d7b69f6f3a179891" size="222">
+    <file>AGENTS.md</file>
+    <update_type>text</update_type>
+    <mode>insert</mode>
+    <encoding>utf-8</encoding>
+    <find_text>---# Quick-Start</find_text>
+    <expected_matches>1</expected_matches>
+    <semantics>Insert search rule after frontmatter</semantics>
+    <content_md5_f04ed233f8d240d2d7b69f6f3a179891>
+      **Search Policy Rule:** Before running any search commands, use global search within the project directory first. Ensure the final path used is within the project range. Never access files outside the project directory unless explicitly required and verified.
+    </content_md5_f04ed233f8d240d2d7b69f6f3a179891>
+  </update_md5_f04ed233f8d240d2d7b69f6f3a179891>
+</updates>

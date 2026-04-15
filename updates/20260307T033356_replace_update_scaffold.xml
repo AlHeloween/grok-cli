@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_abc7adef892a576b95fe0771156f9620 name="text_anchor_replace" md5="abc7adef892a576b95fe0771156f9620" size="753">
+    <file>src/rag/embedding-provider-base.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>export interface EmbeddingProviderOptions {
+  /** Provider type */
+  provider: 'openai' | 'glove' | 'hash';
+  /** OpenAI-compatible API base URL (for openai provider) */
+  baseURL?: string;
+  /** Model name (for openai provider) */
+  model?: string;
+  /** API key (for openai provider) */
+  apiKey?: string;
+  /** Path to GloVe SQLite database (for glove provider) */
+  gloveModelPath?: string;
+  /** Dimension for hash embeddings (for hash provider) */
+  hashDimension?: number;
+  /** Timeout in milliseconds (for openai provider) */
+  timeoutMs?: number;
+}</find_text>
+    <semantics>Add bitnet provider type and options.</semantics>
+    <content_md5_abc7adef892a576b95fe0771156f9620>
+      export interface EmbeddingProviderOptions {
+        /** Provider type */
+        provider: 'openai' | 'glove' | 'hash' | 'bitnet';
+        /** OpenAI-compatible API base URL (for openai provider) */
+        baseURL?: string;
+        /** Model name (for openai provider) */
+        model?: string;
+        /** API key (for openai provider) */
+        apiKey?: string;
+        /** Path to GloVe SQLite database (for glove provider) */
+        gloveModelPath?: string;
+        /** Dimension for hash embeddings (for hash provider) */
+        hashDimension?: number;
+        /** Path to BitNet GGUF model file (for bitnet provider) */
+        bitnetModelPath?: string;
+        /** Transformer layer to extract Q vectors from (for bitnet provider) */
+        bitnetLayer?: number;
+        /** Number of trailing tokens to skip (for bitnet provider) */
+        bitnetTailSkip?: number;
+        /** Pooling window size (for bitnet provider) */
+        bitnetPoolN?: number;
+        /** Timeout in milliseconds (for openai provider) */
+        timeoutMs?: number;
+      }
+    </content_md5_abc7adef892a576b95fe0771156f9620>
+  </update_md5_abc7adef892a576b95fe0771156f9620>
+</updates>

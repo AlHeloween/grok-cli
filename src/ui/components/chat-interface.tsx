@@ -10,6 +10,7 @@ import { ConfigMenu } from "./config-menu.js";
 import { ChatHistory } from "./chat-history.js";
 import { ChatInput } from "./chat-input.js";
 import { MCPStatus } from "./mcp-status.js";
+import { getSettingsManager } from "../../utils/settings-manager.js";
 import ConfirmationDialog from "./confirmation-dialog.js";
 import {
   ConfirmationService,
@@ -359,6 +360,11 @@ function ChatInterfaceWithAgent({
             </Box>
             <Box marginRight={2}>
               <Text color={colors.warning}>≋ {agent.getCurrentModel()}</Text>
+            </Box>
+            <Box marginRight={2}>
+              <Text color={colors.info}>
+                RAG: {getSettingsManager().isRagEnabled() ? "on" : "off"} ({getSettingsManager().getEmbeddingsSettings().provider || "hash"})
+              </Text>
             </Box>
             <MCPStatus />
           </Box>

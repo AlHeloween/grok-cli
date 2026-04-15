@@ -1,0 +1,31 @@
+{
+  "model": "grok-4-latest",
+  "rag": {
+    "enabled": true,
+    "topK": 6,
+    "useKMedoids": false,
+    "candidateCount": 18,
+    "searchChatFirst": true,
+    "chatPrefix": "chat://",
+    "autoIndexChat": false,
+    "quantize": false,
+    "quantizePreload": false,
+    "embeddings": {
+      "provider": "glove",
+      "hashDimension": 256,
+      "gloveModelPath": "D:/zPython/grok-cli/data/glove/glove_50d.db"
+    },
+    "aurora": {
+      "enabled": false,
+      "fractalQuantization": false,
+      "dualQuaternionDistance": false,
+      "gloveKeywords": false,
+      "gloveModelPath": "D:/zPython/grok-cli/data/glove/glove_50d.db",
+      "fractalDimension": 8,
+      "fractalDepth": 3,
+      "dualQuatRotationWeight": 1,
+      "dualQuatTranslationWeight": 1,
+      "useFp16Storage": false
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_f7fd2cc6f23159adce1db33b1088d8d8 name="text_anchor_replace" md5="f7fd2cc6f23159adce1db33b1088d8d8" size="255">
+    <file>src/utils/settings-manager.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>export interface EmbeddingsSettings {
+  baseURL?: string;
+  model?: string;
+  apiKey?: string;
+  provider?: 'openai' | 'glove' | 'hash';
+  gloveModelPath?: string;
+  hashDimension?: number;
+}</find_text>
+    <semantics>Add bitnet provider type and options to EmbeddingsSettings.</semantics>
+    <content_md5_f7fd2cc6f23159adce1db33b1088d8d8>
+      export interface EmbeddingsSettings {
+        baseURL?: string;
+        model?: string;
+        apiKey?: string;
+        provider?: 'openai' | 'glove' | 'hash' | 'bitnet';
+        gloveModelPath?: string;
+        hashDimension?: number;
+        bitnetModelPath?: string;
+        bitnetLayer?: number;
+        bitnetTailSkip?: number;
+        bitnetPoolN?: number;
+      }
+    </content_md5_f7fd2cc6f23159adce1db33b1088d8d8>
+  </update_md5_f7fd2cc6f23159adce1db33b1088d8d8>
+</updates>

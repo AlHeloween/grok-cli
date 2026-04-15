@@ -20,7 +20,7 @@ reproduce:
     - "AGENTS.md@sha256:5e1cb26eac3a8ed17c126104563400eead7d96323aa666de70944d9f878ea3d7"
   expected_outputs:
     - "AGENTS.md contains 'Quick-Start' header"
----# Quick-Start
+**Search Policy Rule:** Before running any search commands, use global search within the project directory first. Ensure the final path used is within the project range. Never access files outside the project directory unless explicitly required and verified.---# Quick-Start
 
 **Contents:** [Before any activity](#before-any-activity) · [Skills](#skills) · [Response & traceability](#response--traceability) · [Project structure](#project-structure) · [Search policy](#search-policy) · [Declarative workflow (adm)](#declarative-workflow-adm) · [Verification](#verification) · [Agent Safety](#agent-safety-critical) · [Recovery](#recovery-playbook-when-things-go-sideways) · [Execution (Bun)](#execution-bun) · [Code quality](#-code-quality--standards) · [References](#-references) · [Why ADID and adm for this project](#why-adid-and-adm-for-this-project)
 
@@ -87,7 +87,7 @@ Source: [docs/APPLICATION-SCHEME.md](docs/APPLICATION-SCHEME.md) sections 2.1–
 
 - **In-file content search:** `rg -n -- "pattern" path/`.
 - **File name/path search:** `fd name path/` (add `-H` for hidden; add `-uu` to include ignored/untracked when needed).
-- **Filtering command output:** `grep` is allowed for pipes (e.g. `winget list | grep Node`).
+- **Search through .gitignore:** Use `rg -nuc -- "pattern"` to search ignoring .gitignore patterns when needed.- **Filtering command output:** `grep` is allowed for pipes (e.g. `winget list | grep Node`).
 
 Use `tools/adm` (or `tools/adm.exe` on Windows) when making declarative changes or refactors (e.g. Semgrep strategy via adm).
 
@@ -157,6 +157,7 @@ Use `uv run adm` only as fallback when `tools/adm` is not present (e.g. before a
 - Always pass `--log-progress _progress_log.md` (or chosen path) to record actions and outcomes when using adm.
 - **Shortcut / test-skip policy:** If you want to skip the standard operation flow, skip tests, or take shortcuts, you must: (1) Re-read the newest `docs/ADID_Framework_*.md` fully. (2) Perform reverse search over the entire dialog message history. (3) Perform fractal task decomposition followed by k-medoids clustering and propose at least **5** solution options, then wait for the user decision before executing.
 - Prefer Semgrep-first refactors via adm where applicable; use `--rg`/`--sed` via adm to retain backups and ledgers. Mirror ignores: `tools/adm --sync-semgrepignore` (see [Semgrep strategy](#semgrep-strategy-refactors)).
+- **Unknown tools with unknown output:** Always execute with `cmd_runner`. Reason: Previous command execution crashed the opencode TUI.
 
 ---
 
@@ -216,13 +217,13 @@ Use `uv run adm` only as fallback when `tools/adm` is not present (e.g. before a
   SDID_ROLLBACK {
     "target_file": "D:\\zPython\\grok-cli\\AGENTS.md"
     "update_script": "adm.exe"
-    "backup_path": "D:\\zPython\\grok-cli\\AGENTS.md.backup_20260302T224412_203632"
-    "created_at": "2026-03-02T14:44:12.217719+00:00"
-    "backup_hash": "a82a94ac488ada3cc23ad6742e0bf619"
-    "new_hash": "ae3ee8a6665edf4876993ace1c6aff22"
-    "goal_id": "agents_md_hash_update"
-    "semantics": "Replace placeholder SHA256 hash with actual hash"
-    "update_attrs": {"relative_path": "AGENTS.md", "update_type": "text", "mode": "replace", "encoding": "utf-8", "find_pattern": null, "find_text": "- \"AGENTS.md@sha256:TO_BE_FILLED\"", "replace_present": true}
+    "backup_path": "D:\\zPython\\grok-cli\\AGENTS.md.backup_20260307T220943_058418"
+    "created_at": "2026-03-07T14:09:43.080428+00:00"
+    "backup_hash": "b9ad46f22757ebe298a7a747bf77e65d"
+    "new_hash": "d53c152a5edd35ba47896d77b8773d89"
+    "goal_id": "add_rg_nuc_note"
+    "semantics": "Insert rg -nuc note after filtering command output line"
+    "update_attrs": {"relative_path": "AGENTS.md", "update_type": "text", "mode": "insert", "encoding": "utf-8", "find_pattern": null, "find_text": "- **Filtering command output:** `grep` is allowed for pipes (e.g. `winget list | grep Node`).", "replace_present": true}
     "restore_cmd": "uv run adm \u002d\u002drollback \"D:\\zPython\\grok-cli\\AGENTS.md\""
   }
 -->

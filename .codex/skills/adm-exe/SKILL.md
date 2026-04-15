@@ -57,12 +57,12 @@ Invoke as: `tools/adm <command>` (or `tools/adm.exe <command>` on Windows; or `u
 | `--patch-tool <patch_file>` | Applies an `apply_patch`-format patch file with backups + per-file ledger entries. | When you want apply_patch-style edits but still want ADID backups and ledgers. |
 | `--move <src> <dst> [--execute] [--no-fix-updates] [--no-fix-refs] [--updates-dir DIR] [roots...]` | Move/rename a file and rewrite occurrences of the old path in `updates/` and other roots (literal, handles both `/` and `\\`). | When you rename/move a file and want to keep `updates/` descriptors + docs/code references consistent. **Dry-run by default**; pass `--execute` to perform writes. |
 | `--cmd-runner <args...>` | Pass-through helper to execute `cmd_runner` with the given args (Windows-only). | When you need to start/list/status/tail cmd_runner runs but want it recorded in the same adm progress-log cycle. |
-| `--rag settings|list|index|docs|status|delete ...` | Manage local RAG indexes (sqlite) using `adm_config.json`. | When you want indexed querying of code/docs with an embeddings HTTP endpoint. |
-| `--query <index_name> <request...>` | Query a RAG index and print top hits (file + line ranges). | When you want an exact, line-referenced retrieval result. |
-| `--mcp` / `--mcp-http [host] [port]` | Run adm as an MCP server (stdio or HTTP). | When you want to expose RAG tools to an MCP-capable client or run it as a local service. |
+| `--rag settings|list|index|docs|status|delete ...` | Manage local RAG indexes (sqlite) using `adm.json`. | When you want indexed querying of code/docs with the local `sentence_transformers` + `BAAI/bge-m3` embedder. In bundled installs, `adm.exe` forwards this to `adm-rag.exe`. |
+| `--query <index_name> <request...>` | Query a RAG index and print top hits (file + line ranges). | When you want an exact, line-referenced retrieval result. In bundled installs, `adm.exe` forwards this to `adm-rag.exe`. |
+| `--mcp` / `--mcp-http [host] [port]` | Run adm as an MCP server (stdio or HTTP). Startup validates local embedder readiness; `initialize` reports the resolved RAG DB path and configured embedding backend/model/device. | When you want to expose RAG tools to an MCP-capable client or run it as a local service. In bundled installs, `adm.exe` forwards this to `adm-rag.exe`. |
 | `--log-insight <message>` | Appends a timestamped entry to `insights.md`. | Optional logging of a decision or finding. |
-| `--check-tools` | Checks that rg, sed, semgrep, tree-sitter are available. | To diagnose missing tools. |
-| `--sync-semgrepignore` | Mirrors `.gitignore` into `.semgrepignore`. | When .gitignore changed and you want Semgrep to match. |
+| `--check-tools` | Checks that rg, sed, astgrep, tree-sitter are available. | To diagnose missing tools. |
+| `--sync-astgrepignore` | Mirrors `.gitignore` into `.astgrepignore`. | When .gitignore changed and you want astgrep to match. |
 | `--log-progress [path]` | Appends progress entries (default `_progress_log.md`). | To record that a command ran and its outcome. |
 | `--dry-run` | Simulates actions without writing to disk. | With `--apply` or other mutating commands to preview. |
 
@@ -84,4 +84,46 @@ To **replay history** (inspect descriptors in order): run `tools/adm --replay-up
 All mutations create backups and ledger entries; use `--rollback <file>` to undo a single file. Do not use git restore for one bad edit—use rollback.
 
 **From now on, use this toolset:** template → edit the descriptor file → apply. **Use `tools/adm`** (or `tools/adm.exe` on Windows) when the project has it—same as AGENTS.md; stable executable, toolchain stays intact if you edit the tool with adm and hit an error. Multiple backups per file are intentional and beneficial (rollback, traceability); the project stays manageable while saving time and giving a clear, testable way to use the tool across different areas.
+
+Bundled binary split note:
+- `adm.exe` is now the lightweight base CLI.
+- `adm-rag.exe` carries the local RAG/MCP runtime.
+- Operators can still use `tools/adm.exe --rag ...` / `--query` / `--mcp*`; the base binary forwards those commands to `tools/adm-rag.exe`.
+
+## Building Executables
+
+To build standalone executables from the repo:
+
+~~~bash
+# Build all executables with Nuitka (recommended)
+uv run scripts/_build.py
+
+# Build specific components
+uv run scripts/_build.py --adm                    # Only adm.exe
+uv run scripts/_build.py --adm --adm-rag          # adm.exe + adm-rag.exe
+
+# Build modes
+uv run scripts/_build.py --fast                   # Quick build (faster)
+uv run scripts/_build.py --release                # Release build (optimized)
+
+# Legacy PyInstaller (bundles torch, ~200MB+)
+uv run scripts/_build.py --backend=pyinstaller
+
+# Get help
+uv run scripts/_build.py --help
+~~~
+
+**Build backends:**
+- **Nuitka** (default): Smaller executables (~10-20MB), PyTorch detected at runtime
+- **PyInstaller** (legacy): Larger executables (~200MB+), torch bundled
+
+**RAG Prerequisites (Nuitka builds):**
+Nuitka executables do not bundle PyTorch. Install it separately:
+~~~bash
+# CPU version
+uv pip install torch sentence-transformers
+
+# CUDA version (for GPU acceleration)
+uv pip install torch sentence-transformers --index-url https://download.pytorch.org/whl/cu121
+~~~
 

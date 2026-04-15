@@ -12,6 +12,11 @@ from .run_layout import RunPaths, create_run_dir_and_files, write_meta, write_st
 from .util import is_windows, new_run_id, utc_now_iso
 from .vt_mode import VtModeSnapshot, VtModeTracker
 
+_INTERNAL_ENV_KEYS = (
+    "CMD_RUNNER__CHILD",
+    "CMD_RUNNER__LAUNCH_TERMINAL",
+)
+
 
 @dataclass(frozen=True)
 class StartParams:
@@ -99,8 +104,10 @@ class RunSession:
 
 
     def start(self) -> None:
-        # Merge environment overrides with the server's environment.
+        # Do not leak cmd_runner control env vars into the payload process tree.
         env = dict(os.environ)
+        for key in _INTERNAL_ENV_KEYS:
+            env.pop(key, None)
         env.update(self._params.env_overrides)
 
         if not is_windows():

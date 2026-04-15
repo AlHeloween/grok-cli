@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update_md5_ae4a463088488d71f9461821c4bb0705 name="fix_gguf_kv_loop" md5="ae4a463088488d71f9461821c4bb0705" size="406">
+    <file>src/rag/embedding-providers/bitnet/gguf.ts</file>
+    <update_type>text</update_type>
+    <mode>replace</mode>
+    <encoding>utf-8</encoding>
+    <find_text>    // key-value pairs
+    for (let i = 0; i &lt; nKv; ++i) {
+      const { value: key, nextOff: off5 } = await this.readString(off4);
+      off = off5;
+      const { value: vtype, nextOff: off6 } = await this.readUint32(off);
+      off = off6;
+      if (!DEFAULT_KV_INTEREST.has(key)) {
+        off = await this.skipValue(off, vtype);
+        continue;
+      }
+      const { value, nextOff } = await this.readValue(off, vtype);
+      off = nextOff;
+      if (key === 'general.alignment') {
+        this.alignment = Number(value);
+      }
+      this.kv.set(key, value);
+    }</find_text>
+    <semantics>Fix offset variable: initialize off = off4 before loop and use off instead of off4 for readString</semantics>
+    <content_md5_ae4a463088488d71f9461821c4bb0705>
+      // key-value pairs
+      off = off4;
+      for (let i = 0; i &lt; nKv; ++i) {
+        const { value: key, nextOff: off5 } = await this.readString(off);
+        off = off5;
+        const { value: vtype, nextOff: off6 } = await this.readUint32(off);
+        off = off6;
+        if (!DEFAULT_KV_INTEREST.has(key)) {
+          off = await this.skipValue(off, vtype);
+          continue;
+        }
+        const { value, nextOff } = await this.readValue(off, vtype);
+        off = nextOff;
+        if (key === 'general.alignment') {
+          this.alignment = Number(value);
+        }
+        this.kv.set(key, value);
+      }
+    </content_md5_ae4a463088488d71f9461821c4bb0705>
+  </update_md5_ae4a463088488d71f9461821c4bb0705>
+</updates>

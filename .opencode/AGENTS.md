@@ -22,6 +22,8 @@ reproduce:
     - "AGENTS.md contains 'Quick-Start' header"
 ---# Quick-Start
 
+**Search Policy Rule:** Before running any search commands, use global search within the project directory first. Ensure the final path used is within the project range. Never access files outside the project directory unless explicitly required and verified.
+
 **Contents:** [Before any activity](#before-any-activity) · [Skills](#skills) · [Response & traceability](#response--traceability) · [Project structure](#project-structure) · [Search policy](#search-policy) · [Declarative workflow (adm)](#declarative-workflow-adm) · [Verification](#verification) · [Agent Safety](#agent-safety-critical) · [Recovery](#recovery-playbook-when-things-go-sideways) · [Execution (Bun)](#execution-bun) · [Code quality](#-code-quality--standards) · [References](#-references) · [Why ADID and adm for this project](#why-adid-and-adm-for-this-project)
 
 ---
@@ -82,6 +84,7 @@ Source: [docs/APPLICATION-SCHEME.md](docs/APPLICATION-SCHEME.md) sections 2.1–
 
 - **In-file content search:** `rg -n -- "pattern" path/`.
 - **File name/path search:** `fd name path/` (add `-H` for hidden; add `-uu` to include ignored/untracked when needed).
+- **Search through .gitignore:** Use `rg -nuc -- "pattern"` to search ignoring .gitignore patterns when needed.
 - **Filtering command output:** `grep` is allowed for pipes (e.g. `winget list | grep Node`).
 
 Use `tools/adm` (or `tools/adm.exe` on Windows) when making declarative changes or refactors (e.g. Semgrep strategy via adm).

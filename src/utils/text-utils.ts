@@ -125,32 +125,42 @@ export function deleteWordAfter(text: string, position: number): { text: string;
 
 /**
  * Get the current line and column from text position
+ * Optimized to avoid large string allocations and array creations
  */
 export function getTextPosition(text: string, index: number): TextPosition {
-  const lines = text.slice(0, index).split('\n');
+  let line = 0;
+  let lastNewlineIndex = -1;
+  let nextNewlineIndex = text.indexOf('\n');
+
+  while (nextNewlineIndex !== -1 && nextNewlineIndex < index) {
+    line++;
+    lastNewlineIndex = nextNewlineIndex;
+    nextNewlineIndex = text.indexOf('\n', nextNewlineIndex + 1);
+  }
+
   return {
     index,
-    line: lines.length - 1,
-    column: lines[lines.length - 1].length,
+    line,
+    column: index - (lastNewlineIndex + 1),
   };
 }
 
 /**
  * Move to the beginning of the current line
+ * Optimized to use native lastIndexOf with position argument to avoid slicing
  */
 export function moveToLineStart(text: string, position: number): number {
-  const beforeCursor = text.slice(0, position);
-  const lastNewlineIndex = beforeCursor.lastIndexOf('\n');
+  const lastNewlineIndex = text.lastIndexOf('\n', position - 1);
   return lastNewlineIndex === -1 ? 0 : lastNewlineIndex + 1;
 }
 
 /**
  * Move to the end of the current line
+ * Optimized to use native indexOf with position argument to avoid slicing
  */
 export function moveToLineEnd(text: string, position: number): number {
-  const afterCursor = text.slice(position);
-  const nextNewlineIndex = afterCursor.indexOf('\n');
-  return nextNewlineIndex === -1 ? text.length : position + nextNewlineIndex;
+  const nextNewlineIndex = text.indexOf('\n', position);
+  return nextNewlineIndex === -1 ? text.length : nextNewlineIndex;
 }
 
 /**

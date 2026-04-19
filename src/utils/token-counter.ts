@@ -1,23 +1,48 @@
 import { get_encoding, encoding_for_model, Tiktoken, type TiktokenModel } from 'tiktoken';
 import type { GrokMessage, UserContentPart } from '../grok/client.js';
 
+// Global cache for Tiktoken encoders to avoid expensive re-initialization (~100ms per instantiation).
+const ENCODER_CACHE = new Map<string, Tiktoken>();
+
 export class TokenCounter {
   private encoder: Tiktoken;
 
   constructor(model: string = 'gpt-4') {
+    let encodingName: string;
+    let tiktokenModel: TiktokenModel | undefined;
+
     if (model && model.toLowerCase().includes('grok')) {
       // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
-      this.encoder = get_encoding('cl100k_base');
+      encodingName = 'cl100k_base';
+    } else {
+      try {
+        // Try to determine the encoding name for the specific model
+        tiktokenModel = model as TiktokenModel;
+        encodingName = 'cl100k_base'; // Default if encoding_for_model doesn't work directly
+      } catch {
+        encodingName = 'cl100k_base';
+      }
+    }
+
+    // Check cache first
+    const cacheKey = tiktokenModel || encodingName;
+    const cached = ENCODER_CACHE.get(cacheKey);
+    if (cached) {
+      this.encoder = cached;
       return;
     }
 
+    // Initialize and cache
     try {
-      // Try to get encoding for specific model
-      this.encoder = encoding_for_model(model as TiktokenModel);
+      if (tiktokenModel) {
+        this.encoder = encoding_for_model(tiktokenModel);
+      } else {
+        this.encoder = get_encoding(encodingName as 'cl100k_base');
+      }
     } catch {
-      // Fallback to cl100k_base (used by GPT-4 and most modern models)
       this.encoder = get_encoding('cl100k_base');
     }
+    ENCODER_CACHE.set(cacheKey, this.encoder);
   }
 
   /**
@@ -76,10 +101,11 @@ export class TokenCounter {
   }
 
   /**
-   * Clean up resources
+   * Clean up resources. Since encoders are now cached globally,
+   * this is a no-op to prevent freeing the shared instance.
    */
   dispose(): void {
-    this.encoder.free();
+    // No-op for cached encoders
   }
 }
 

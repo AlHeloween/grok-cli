@@ -12,7 +12,37 @@ import {
   findWordStart,
   findWordEnd,
   isWordBoundary,
+  getTextPosition,
 } from "./text-utils.js";
+
+describe("getTextPosition", () => {
+  it("returns correct line and column for various positions", () => {
+    const text = "line1\nline2\nline3";
+    expect(getTextPosition(text, 0)).toEqual({ index: 0, line: 0, column: 0 });
+    expect(getTextPosition(text, 5)).toEqual({ index: 5, line: 0, column: 5 });
+    expect(getTextPosition(text, 6)).toEqual({ index: 6, line: 1, column: 0 });
+    expect(getTextPosition(text, 11)).toEqual({ index: 11, line: 1, column: 5 });
+    expect(getTextPosition(text, 12)).toEqual({ index: 12, line: 2, column: 0 });
+    expect(getTextPosition(text, 17)).toEqual({ index: 17, line: 2, column: 5 });
+  });
+
+  it("handles empty string", () => {
+    expect(getTextPosition("", 0)).toEqual({ index: 0, line: 0, column: 0 });
+  });
+
+  it("handles multiple newlines", () => {
+    const text = "\n\n";
+    expect(getTextPosition(text, 0)).toEqual({ index: 0, line: 0, column: 0 });
+    expect(getTextPosition(text, 1)).toEqual({ index: 1, line: 1, column: 0 });
+    expect(getTextPosition(text, 2)).toEqual({ index: 2, line: 2, column: 0 });
+  });
+
+  it("handles out of bounds indices", () => {
+    const text = "abc";
+    expect(getTextPosition(text, -1)).toEqual({ index: 0, line: 0, column: 0 });
+    expect(getTextPosition(text, 10)).toEqual({ index: 3, line: 0, column: 3 });
+  });
+});
 
 describe("insertText", () => {
   it("inserts at position and returns new position", () => {
@@ -82,6 +112,10 @@ describe("moveToLineStart", () => {
   it("returns start of current line", () => {
     expect(moveToLineStart("a\nbc\nd", 4)).toBe(2);
     expect(moveToLineStart("abc", 2)).toBe(0);
+  });
+
+  it("handles start of file with newline correctly", () => {
+    expect(moveToLineStart("\nabc", 0)).toBe(0);
   });
 });
 

@@ -10,6 +10,39 @@ Use this skill when a command may be:
 - interactive (prompts, TUIs),
 - crash-prone or likely to destabilize the agent when run directly.
 
+## When to use cmd_runner
+
+**Use cmd_runner for:**
+- Long-running builds: `cargo build --release`, `msbuild`, `make`, `gradle build`
+- Package installs: `npm install`, `pip install -r requirements.txt`, `uv sync`
+- Test suites: `pytest`, `cargo test`, `npm test`, `mvn test`
+- Interactive TUIs: `htop`, `ncurses` apps, installers with prompts
+- Crash-prone or unstable commands
+- Commands that produce thousands of lines of output
+
+**Do NOT use cmd_runner for:**
+- Quick checks: `ls`, `dir`, `git status`, `echo`, `cat`
+- Simple file operations: `cp`, `mv`, `rm` (for small operations)
+- Commands that complete in <1 second
+- Commands you need to see output from immediately
+
+## Why use cmd_runner?
+
+1. **Prevents context flooding** — Long output doesn't consume your agent context window
+2. **Isolates crashes** — If the subprocess crashes, your agent session stays stable
+3. **Visible window control** — Subprocess opens in a minimized window (SW_SHOWMINNOACTIVE); you can always find it in the taskbar and close it if needed
+4. **Cross-shell safety** — Paths are normalized to survive bash → cmd → PowerShell → Python transformations
+5. **Programmatic input** — Send keystrokes/text via the inbox bridge without terminal hacks
+
+## Process window behavior
+
+All subprocesses created by cmd_runner open with `SW_SHOWMINNOACTIVE`:
+- Window is minimized (not visible on screen initially)
+- Window appears in the taskbar
+- Window is NOT activated (doesn't steal focus)
+- You can always find and close the window if the process hangs
+- This is safer than hidden/headless processes (which can't be interacted with)
+
 ## What cmd_runner is (current)
 
 - Windows-only, ConPTY-only, serverless (no background server, no TCP control plane).
@@ -62,4 +95,3 @@ Notes:
 - `add_crlf` defaults to `false` (no implicit Enter). Use `ENTER` in `keys` or `--crlf` in the helper.
 - Supported terminal hosts are `conhost` and `wt`.
 - Omit `--terminal` unless you explicitly need to force a host.
-

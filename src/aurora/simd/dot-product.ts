@@ -224,14 +224,39 @@ export function batchDotProductFlat(
     throw new Error(`vectorsData too small: ${vectorsData.length} < ${totalLength}`);
   }
   
-  // Use scalar loop for simplicity (can be optimized later)
+  const limit8 = dim - (dim % 8);
+
   for (let i = 0; i < n; i++) {
-    let sum = 0;
+    let sum0 = 0;
+    let sum1 = 0;
+    let sum2 = 0;
+    let sum3 = 0;
+    let sum4 = 0;
+    let sum5 = 0;
+    let sum6 = 0;
+    let sum7 = 0;
+
     const offset = i * dim;
-    for (let d = 0; d < dim; d++) {
-      sum += target[d] * vectorsData[offset + d];
+    let d = 0;
+
+    // Unrolled loop for better performance (instruction-level parallelism)
+    for (; d < limit8; d += 8) {
+      sum0 += target[d] * vectorsData[offset + d];
+      sum1 += target[d + 1] * vectorsData[offset + d + 1];
+      sum2 += target[d + 2] * vectorsData[offset + d + 2];
+      sum3 += target[d + 3] * vectorsData[offset + d + 3];
+      sum4 += target[d + 4] * vectorsData[offset + d + 4];
+      sum5 += target[d + 5] * vectorsData[offset + d + 5];
+      sum6 += target[d + 6] * vectorsData[offset + d + 6];
+      sum7 += target[d + 7] * vectorsData[offset + d + 7];
     }
-    scores[i] = sum;
+
+    // Handle remainder
+    for (; d < dim; d++) {
+      sum0 += target[d] * vectorsData[offset + d];
+    }
+
+    scores[i] = sum0 + sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7;
   }
 }
 

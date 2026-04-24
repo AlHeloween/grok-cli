@@ -127,11 +127,28 @@ export function deleteWordAfter(text: string, position: number): { text: string;
  * Get the current line and column from text position
  */
 export function getTextPosition(text: string, index: number): TextPosition {
-  const lines = text.slice(0, index).split('\n');
+  let line = 0;
+  let lastNewlineIndex = -1;
+
+  // Optimized line counting avoiding large string allocations from slice/split.
+  // We use lastIndexOf first to find the latest newline before index,
+  // which helps us avoid scanning the entire string if index is small.
+  const lastBeforeIndex = text.lastIndexOf('\n', index - 1);
+
+  if (lastBeforeIndex !== -1) {
+    let currentPos = text.indexOf('\n');
+    while (currentPos !== -1 && currentPos <= lastBeforeIndex) {
+      line++;
+      lastNewlineIndex = currentPos;
+      if (currentPos === lastBeforeIndex) break;
+      currentPos = text.indexOf('\n', currentPos + 1);
+    }
+  }
+
   return {
     index,
-    line: lines.length - 1,
-    column: lines[lines.length - 1].length,
+    line,
+    column: index - (lastNewlineIndex + 1),
   };
 }
 
@@ -139,8 +156,9 @@ export function getTextPosition(text: string, index: number): TextPosition {
  * Move to the beginning of the current line
  */
 export function moveToLineStart(text: string, position: number): number {
-  const beforeCursor = text.slice(0, position);
-  const lastNewlineIndex = beforeCursor.lastIndexOf('\n');
+  if (position <= 0) return 0;
+  // Use native lastIndexOf with position to avoid slicing large strings
+  const lastNewlineIndex = text.lastIndexOf('\n', position - 1);
   return lastNewlineIndex === -1 ? 0 : lastNewlineIndex + 1;
 }
 
@@ -148,9 +166,9 @@ export function moveToLineStart(text: string, position: number): number {
  * Move to the end of the current line
  */
 export function moveToLineEnd(text: string, position: number): number {
-  const afterCursor = text.slice(position);
-  const nextNewlineIndex = afterCursor.indexOf('\n');
-  return nextNewlineIndex === -1 ? text.length : position + nextNewlineIndex;
+  // Use native indexOf with position to avoid slicing large strings
+  const nextNewlineIndex = text.indexOf('\n', position);
+  return nextNewlineIndex === -1 ? text.length : nextNewlineIndex;
 }
 
 /**

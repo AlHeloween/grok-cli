@@ -1,23 +1,46 @@
 import { get_encoding, encoding_for_model, Tiktoken, type TiktokenModel } from 'tiktoken';
 import type { GrokMessage, UserContentPart } from '../grok/client.js';
 
+/**
+ * Global cache for Tiktoken encoders to avoid expensive re-initialization (WASM/vocabulary loading).
+ */
+const ENCODER_CACHE = new Map<string, Tiktoken>();
+
+function getCachedEncoding(encodingName: string): Tiktoken {
+  let encoder = ENCODER_CACHE.get(encodingName);
+  if (!encoder) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    encoder = get_encoding(encodingName as any);
+    ENCODER_CACHE.set(encodingName, encoder);
+  }
+  return encoder;
+}
+
+function getCachedEncodingForModel(model: string): Tiktoken {
+  let encoder = ENCODER_CACHE.get(model);
+  if (!encoder) {
+    try {
+      encoder = encoding_for_model(model as TiktokenModel);
+      ENCODER_CACHE.set(model, encoder);
+    } catch {
+      // Fallback to cl100k_base (used by GPT-4 and most modern models)
+      return getCachedEncoding('cl100k_base');
+    }
+  }
+  return encoder;
+}
+
 export class TokenCounter {
   private encoder: Tiktoken;
 
   constructor(model: string = 'gpt-4') {
     if (model && model.toLowerCase().includes('grok')) {
       // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
-      this.encoder = get_encoding('cl100k_base');
+      this.encoder = getCachedEncoding('cl100k_base');
       return;
     }
 
-    try {
-      // Try to get encoding for specific model
-      this.encoder = encoding_for_model(model as TiktokenModel);
-    } catch {
-      // Fallback to cl100k_base (used by GPT-4 and most modern models)
-      this.encoder = get_encoding('cl100k_base');
-    }
+    this.encoder = getCachedEncodingForModel(model);
   }
 
   /**
@@ -79,7 +102,8 @@ export class TokenCounter {
    * Clean up resources
    */
   dispose(): void {
-    this.encoder.free();
+    // No-op because encoders are shared in the global cache and
+    // should persist for the lifetime of the process.
   }
 }
 

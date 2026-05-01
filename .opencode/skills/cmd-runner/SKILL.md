@@ -67,6 +67,13 @@ All subprocesses created by cmd_runner open with `SW_SHOWMINNOACTIVE`:
 1) Start an interactive run (spawns a new window; interactive session is hosted there):
 - `.\cmd_runner.exe start -- <command ...>`
   - Prints `run_id` and `inbox=` path in the *current* terminal.
+- `.\cmd_runner.exe start --shell cmd -- <command ...>`
+  - Explicitly wrap all args in a cmd.exe batch file.
+- `.\cmd_runner.exe start --shell pwsh -- <command ...>`
+  - Explicitly wrap all args in a PowerShell script.
+- `.\cmd_runner.exe start --shell bash -- <command ...>`
+  - Explicitly wrap all args in a bash/sh script (bash must be on PATH or use full path).
+  Without `--shell`, the tool auto-detects `cmd /c`, `powershell -c`, `python -c`, and `bash -c` from the command argv.
 
 2) Check status first (from the current terminal):
 - `.\cmd_runner.exe list`
@@ -83,13 +90,21 @@ All subprocesses created by cmd_runner open with `SW_SHOWMINNOACTIVE`:
 4) Inject input programmatically (bridge):
 - Append JSONL to: `logs/cmd_runner/<run_id>/inbox.jsonl`
 - Built-in (preferred):
-  - `.\cmd_runner.exe send <run_id> --keys "TEXT:/exit,ENTER"`
-- Built-in bridge command (preferred in all supported modes):
-  - `.\cmd_runner.exe send <run_id> --keys "TEXT:/exit,ENTER"`
+  - `.\cmd_runner.exe send <run_id> --keys "ctrl+c,ctrl+d,ENTER"`
+  - `.\cmd_runner.exe send <run_id> --hex 03` (raw byte: Ctrl+C)
+  - `.\cmd_runner.exe send <run_id> --text "whoami" --crlf` (text + CRLF)
+  - `--keys` tokens: `LEFT`, `RIGHT`, `UP`, `DOWN`, `HOME`, `END`, `INSERT`, `DELETE`, `TAB`, `ESC`, `ENTER`, `BACKSPACE`, `ctrl+a`..`ctrl+z`, `ctrl+[`, `ctrl+\`, `TEXT:<text>`, `CHAR:<char>`, `HEX:<hex>`.
 
 5) Stop (serverless terminate):
 - `.\cmd_runner.exe stop <run_id> --reason "done"`
   - Writes `logs/cmd_runner/<run_id>/stop_request.json`; the hosting cmd_runner watches for it and terminates the Job Object.
+
+### SSH session example
+
+- Start: `.\cmd_runner.exe start -- ssh root@host` (interactive, enter password manually)
+- Send command: `.\cmd_runner.exe send <run_id> --text "uptime; df -h" --crlf`
+- Interrupt (Ctrl+C): `.\cmd_runner.exe send <run_id> --keys ctrl+c`
+- End session (Ctrl+D): `.\cmd_runner.exe send <run_id> --keys ctrl+d`
 
 Notes:
 - `add_crlf` defaults to `false` (no implicit Enter). Use `ENTER` in `keys` or `--crlf` in the helper.

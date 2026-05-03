@@ -1,23 +1,45 @@
 import { get_encoding, encoding_for_model, Tiktoken, type TiktokenModel } from 'tiktoken';
 import type { GrokMessage, UserContentPart } from '../grok/client.js';
 
+// Global cache for encoders to avoid expensive re-initialization (WASM load + vocab)
+const ENCODER_CACHE: Map<string, Tiktoken> = new Map();
+
 export class TokenCounter {
   private encoder: Tiktoken;
 
   constructor(model: string = 'gpt-4') {
-    if (model && model.toLowerCase().includes('grok')) {
-      // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
-      this.encoder = get_encoding('cl100k_base');
+    const normalizedModel = model.toLowerCase();
+    let cacheKey = normalizedModel;
+
+    if (normalizedModel.includes('grok')) {
+      // Grok model names are not mapped by tiktoken; use cl100k_base.
+      cacheKey = 'cl100k_base';
+    }
+
+    const cached = ENCODER_CACHE.get(cacheKey);
+    if (cached) {
+      this.encoder = cached;
       return;
     }
 
-    try {
-      // Try to get encoding for specific model
-      this.encoder = encoding_for_model(model as TiktokenModel);
-    } catch {
-      // Fallback to cl100k_base (used by GPT-4 and most modern models)
+    if (cacheKey === 'cl100k_base') {
       this.encoder = get_encoding('cl100k_base');
+    } else {
+      try {
+        this.encoder = encoding_for_model(cacheKey as TiktokenModel);
+      } catch {
+        // Fallback to cl100k_base (used by GPT-4 and most modern models)
+        cacheKey = 'cl100k_base';
+        const cl100k = ENCODER_CACHE.get(cacheKey);
+        if (cl100k) {
+          this.encoder = cl100k;
+        } else {
+          this.encoder = get_encoding('cl100k_base');
+        }
+      }
     }
+
+    ENCODER_CACHE.set(cacheKey, this.encoder);
   }
 
   /**
@@ -76,10 +98,12 @@ export class TokenCounter {
   }
 
   /**
-   * Clean up resources
+   * Clean up resources.
+   * Since encoders are now shared via ENCODER_CACHE, dispose is a no-op to prevent
+   * freeing the shared WASM instance while other counters are still using it.
    */
   dispose(): void {
-    this.encoder.free();
+    // No-op for shared encoder
   }
 }
 

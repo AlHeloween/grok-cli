@@ -2,21 +2,37 @@ import { get_encoding, encoding_for_model, Tiktoken, type TiktokenModel } from '
 import type { GrokMessage, UserContentPart } from '../grok/client.js';
 
 export class TokenCounter {
+  private static readonly ENCODER_CACHE: Map<string, Tiktoken> = new Map();
   private encoder: Tiktoken;
 
   constructor(model: string = 'gpt-4') {
-    if (model && model.toLowerCase().includes('grok')) {
-      // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
-      this.encoder = get_encoding('cl100k_base');
-      return;
+    const normalizedModel = model.toLowerCase();
+    let encoderKey = 'cl100k_base';
+
+    if (!normalizedModel.includes('grok')) {
+      try {
+        // Tiktoken encoding_for_model is relatively fast if we just want the encoding name,
+        // but unfortunately it returns the Tiktoken object itself in this JS binding.
+        // So we use it to get the encoder and cache it. Use lowercase key for normalization.
+        if (TokenCounter.ENCODER_CACHE.has(normalizedModel)) {
+          this.encoder = TokenCounter.ENCODER_CACHE.get(normalizedModel)!;
+          return;
+        }
+        this.encoder = encoding_for_model(model as TiktokenModel);
+        TokenCounter.ENCODER_CACHE.set(normalizedModel, this.encoder);
+        return;
+      } catch {
+        // Fallback to cl100k_base
+        encoderKey = 'cl100k_base';
+      }
     }
 
-    try {
-      // Try to get encoding for specific model
-      this.encoder = encoding_for_model(model as TiktokenModel);
-    } catch {
-      // Fallback to cl100k_base (used by GPT-4 and most modern models)
-      this.encoder = get_encoding('cl100k_base');
+    if (TokenCounter.ENCODER_CACHE.has(encoderKey)) {
+      this.encoder = TokenCounter.ENCODER_CACHE.get(encoderKey)!;
+    } else {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      this.encoder = get_encoding(encoderKey as any);
+      TokenCounter.ENCODER_CACHE.set(encoderKey, this.encoder);
     }
   }
 
@@ -79,7 +95,8 @@ export class TokenCounter {
    * Clean up resources
    */
   dispose(): void {
-    this.encoder.free();
+    // No-op: encoders are shared in a global cache and should not be freed
+    // while other instances might still be using them.
   }
 }
 

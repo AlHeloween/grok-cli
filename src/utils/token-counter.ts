@@ -2,22 +2,51 @@ import { get_encoding, encoding_for_model, Tiktoken, type TiktokenModel } from '
 import type { GrokMessage, UserContentPart } from '../grok/client.js';
 
 export class TokenCounter {
+  /**
+   * Global cache for Tiktoken encoders to avoid expensive re-initialization (~180ms per load).
+   */
+  private static readonly ENCODER_CACHE = new Map<string, Tiktoken>();
+
   private encoder: Tiktoken;
 
   constructor(model: string = 'gpt-4') {
-    if (model && model.toLowerCase().includes('grok')) {
-      // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
-      this.encoder = get_encoding('cl100k_base');
+    const normalizedModel = model.toLowerCase();
+
+    // 1. Check if it's a Grok model (always cl100k_base)
+    if (normalizedModel.includes('grok')) {
+      this.encoder = this.getOrCreateCachedEncoder('cl100k_base');
       return;
     }
 
-    try {
-      // Try to get encoding for specific model
-      this.encoder = encoding_for_model(model as TiktokenModel);
-    } catch {
-      // Fallback to cl100k_base (used by GPT-4 and most modern models)
-      this.encoder = get_encoding('cl100k_base');
+    // 2. Check cache by model name
+    const cached = TokenCounter.ENCODER_CACHE.get(normalizedModel);
+    if (cached) {
+      this.encoder = cached;
+      return;
     }
+
+    // 3. Try to load by model name
+    try {
+      this.encoder = encoding_for_model(model as TiktokenModel);
+      TokenCounter.ENCODER_CACHE.set(normalizedModel, this.encoder);
+    } catch {
+      // 4. Fallback to cl100k_base
+      this.encoder = this.getOrCreateCachedEncoder('cl100k_base');
+      // Also cache this model name as pointing to the fallback encoder to avoid future catch blocks
+      TokenCounter.ENCODER_CACHE.set(normalizedModel, this.encoder);
+    }
+  }
+
+  /**
+   * Get an encoder from the cache or create it if it doesn't exist.
+   */
+  private getOrCreateCachedEncoder(encoding: 'cl100k_base'): Tiktoken {
+    let cached = TokenCounter.ENCODER_CACHE.get(encoding);
+    if (!cached) {
+      cached = get_encoding(encoding);
+      TokenCounter.ENCODER_CACHE.set(encoding, cached);
+    }
+    return cached;
   }
 
   /**
@@ -76,10 +105,13 @@ export class TokenCounter {
   }
 
   /**
-   * Clean up resources
+   * Clean up resources.
+   * Note: In this optimized version, encoders are shared in a global cache and
+   * persist for the lifetime of the process. Dispose is now a no-op to prevent
+   * freeing shared encoders.
    */
   dispose(): void {
-    this.encoder.free();
+    // No-op: encoders are managed by the global ENCODER_CACHE
   }
 }
 

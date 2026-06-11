@@ -124,33 +124,45 @@ export function deleteWordAfter(text: string, position: number): { text: string;
 }
 
 /**
- * Get the current line and column from text position
+ * Get the current line and column from text position.
+ * Optimized to use iterative indexOf to avoid large string allocations and array splits.
  */
 export function getTextPosition(text: string, index: number): TextPosition {
-  const lines = text.slice(0, index).split('\n');
+  const normalizedIndex = Math.max(0, Math.min(index, text.length));
+  let line = 0;
+  let lastNewlineIndex = -1;
+  let nextNewlineIndex = text.indexOf('\n');
+
+  while (nextNewlineIndex !== -1 && nextNewlineIndex < normalizedIndex) {
+    line++;
+    lastNewlineIndex = nextNewlineIndex;
+    nextNewlineIndex = text.indexOf('\n', nextNewlineIndex + 1);
+  }
+
   return {
-    index,
-    line: lines.length - 1,
-    column: lines[lines.length - 1].length,
+    index: normalizedIndex,
+    line,
+    column: normalizedIndex - (lastNewlineIndex + 1),
   };
 }
 
 /**
- * Move to the beginning of the current line
+ * Move to the beginning of the current line.
+ * Optimized to use lastIndexOf with position to avoid string slicing.
  */
 export function moveToLineStart(text: string, position: number): number {
-  const beforeCursor = text.slice(0, position);
-  const lastNewlineIndex = beforeCursor.lastIndexOf('\n');
+  if (position <= 0) return 0;
+  const lastNewlineIndex = text.lastIndexOf('\n', position - 1);
   return lastNewlineIndex === -1 ? 0 : lastNewlineIndex + 1;
 }
 
 /**
- * Move to the end of the current line
+ * Move to the end of the current line.
+ * Optimized to use indexOf with position to avoid string slicing.
  */
 export function moveToLineEnd(text: string, position: number): number {
-  const afterCursor = text.slice(position);
-  const nextNewlineIndex = afterCursor.indexOf('\n');
-  return nextNewlineIndex === -1 ? text.length : position + nextNewlineIndex;
+  const nextNewlineIndex = text.indexOf('\n', position);
+  return nextNewlineIndex === -1 ? text.length : nextNewlineIndex;
 }
 
 /**

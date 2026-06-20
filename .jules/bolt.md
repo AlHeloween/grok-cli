@@ -1,3 +1,7 @@
 ## 2025-05-15 - [Batching RAG Embeddings Across Files]
 **Learning:** In RAG systems, processing files one by one can lead to many small embedding API calls, which is inefficient due to network latency. Batching chunks across *multiple* files before calling the embedding API can significantly reduce the number of network roundtrips. Additionally, using transactions for SQLite (even in-memory ones that are persisted later) ensures atomicity and can slightly improve insertion throughput.
 **Action:** Always look for opportunities to batch network-bound or IO-bound operations across logical boundaries (like files) when the API supports batch processing.
+
+## 2025-05-16 - [Optimizing Text Utilities for Large Strings]
+**Learning:** Common string operations like `slice().split('\n')` or `slice().indexOf()` can be extremely expensive on large strings because they create new string copies and arrays on every call. Using the native `indexOf` and `lastIndexOf` with the second `position` argument allows searching within the existing string buffer without allocations.
+**Action:** Avoid `slice()` before searching in strings. Use the built-in position parameters of `indexOf`, `lastIndexOf`, etc., to perform searches efficiently.

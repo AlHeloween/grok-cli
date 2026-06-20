@@ -26,7 +26,7 @@ export class SqliteGloVeLoader {
   private sqlite3: Sqlite3Module | null = null;
   private db: Oo1Db | null = null;
   public dimension: number = 0;
-  private wordCache: Map<string, Float32Array> = new Map();
+  private wordCache: Map<string, Float32Array | null> = new Map();
   private normCache: Map<string, number> = new Map();
   public vectors: Map<string, number[]> = new Map();
   public norms: Map<string, number> = new Map();
@@ -128,8 +128,9 @@ export class SqliteGloVeLoader {
     const normalizedWord = word.toLowerCase();
     
     // Check cache first
-    if (this.wordCache.has(normalizedWord)) {
-      return this.wordCache.get(normalizedWord)!;
+    const cached = this.wordCache.get(normalizedWord);
+    if (cached !== undefined) {
+      return cached;
     }
     
     if (!this.db) {
@@ -144,6 +145,7 @@ export class SqliteGloVeLoader {
       return float32Array;
     }
     
+    this.wordCache.set(normalizedWord, null);
     return null;
   }
 
@@ -189,6 +191,46 @@ export class SqliteGloVeLoader {
 
   hasWord(word: string): boolean {
     return this.getVectorAsFloat32(word) !== null;
+  }
+
+  /**
+   * Prefetch vectors for multiple words to avoid sequential lookups.
+   */
+  prefetch(words: string[]): void {
+    if (!this.db) {
+      throw new Error("Database not opened");
+    }
+
+    const uniqueWords = Array.from(new Set(words.map(w => w.toLowerCase())))
+      .filter(w => !this.wordCache.has(w));
+
+    if (uniqueWords.length === 0) return;
+
+    // Chunk size for IN clause to avoid hitting SQLite parameter limits
+    const CHUNK_SIZE = 500;
+    for (let i = 0; i < uniqueWords.length; i += CHUNK_SIZE) {
+      const chunk = uniqueWords.slice(i, i + CHUNK_SIZE);
+      const placeholders = chunk.map(() => "?").join(",");
+      const query = `SELECT word, vector FROM glove WHERE word IN (${placeholders})`;
+
+      const rows = this.db.selectArrays(query, chunk);
+      const foundWords = new Set<string>();
+
+      for (const row of rows) {
+        const word = (row[0] as string).toLowerCase();
+        const blob = row[1] as Uint8Array;
+        const float32Array = new Float32Array(blob.buffer, blob.byteOffset, blob.byteLength / 4);
+        this.wordCache.set(word, float32Array);
+        foundWords.add(word);
+      }
+
+      // Mark words not found as null in cache to avoid re-querying
+      for (const word of chunk) {
+        if (!foundWords.has(word)) {
+          this.wordCache.set(word, null);
+        }
+      }
+    }
   }
 
   /**

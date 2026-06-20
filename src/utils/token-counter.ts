@@ -3,6 +3,8 @@ import type { GrokMessage, UserContentPart } from '../grok/client.js';
 
 export class TokenCounter {
   private encoder: Tiktoken;
+  private cache: Map<string, number> = new Map();
+  private static readonly MAX_CACHE_SIZE = 1000;
 
   constructor(model: string = 'gpt-4') {
     if (model && model.toLowerCase().includes('grok')) {
@@ -25,7 +27,26 @@ export class TokenCounter {
    */
   countTokens(text: string): number {
     if (!text) return 0;
-    return this.encoder.encode(text).length;
+
+    // Don't cache very large strings to avoid memory bloat
+    if (text.length > 2000) {
+      return this.encoder.encode(text).length;
+    }
+
+    const cached = this.cache.get(text);
+    if (cached !== undefined) {
+      return cached;
+    }
+
+    const count = this.encoder.encode(text).length;
+
+    // Basic LRU-like eviction: clear if it gets too big
+    if (this.cache.size >= TokenCounter.MAX_CACHE_SIZE) {
+      this.cache.clear();
+    }
+
+    this.cache.set(text, count);
+    return count;
   }
 
   /**

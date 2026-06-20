@@ -1,23 +1,43 @@
 import { get_encoding, encoding_for_model, Tiktoken, type TiktokenModel } from 'tiktoken';
 import type { GrokMessage, UserContentPart } from '../grok/client.js';
 
+/**
+ * Global cache for Tiktoken encoders to avoid expensive re-initialization.
+ * Initializing an encoder takes ~100ms due to WASM loading and dictionary parsing.
+ */
+const ENCODER_CACHE = new Map<string, Tiktoken>();
+
 export class TokenCounter {
   private encoder: Tiktoken;
 
   constructor(model: string = 'gpt-4') {
-    if (model && model.toLowerCase().includes('grok')) {
-      // Grok model names are not mapped by tiktoken; use a stable fallback encoding.
-      this.encoder = get_encoding('cl100k_base');
+    // Normalize Grok models to cl100k_base since they aren't natively supported by tiktoken
+    const cacheKey = (model && model.toLowerCase().includes('grok')) ? 'cl100k_base' : model;
+
+    const cached = ENCODER_CACHE.get(cacheKey);
+    if (cached) {
+      this.encoder = cached;
       return;
     }
 
     try {
-      // Try to get encoding for specific model
-      this.encoder = encoding_for_model(model as TiktokenModel);
+      if (cacheKey === 'cl100k_base') {
+        this.encoder = get_encoding('cl100k_base');
+      } else {
+        this.encoder = encoding_for_model(cacheKey as TiktokenModel);
+      }
     } catch {
-      // Fallback to cl100k_base (used by GPT-4 and most modern models)
-      this.encoder = get_encoding('cl100k_base');
+      // Fallback to cl100k_base
+      const fallback = ENCODER_CACHE.get('cl100k_base');
+      if (fallback) {
+        this.encoder = fallback;
+      } else {
+        this.encoder = get_encoding('cl100k_base');
+        ENCODER_CACHE.set('cl100k_base', this.encoder);
+      }
     }
+
+    ENCODER_CACHE.set(cacheKey, this.encoder);
   }
 
   /**
@@ -76,10 +96,14 @@ export class TokenCounter {
   }
 
   /**
-   * Clean up resources
+   * Clean up resources.
+   *
+   * Note: In this optimized implementation, encoders are shared via a global cache
+   * and are not freed to avoid re-initialization latency. They persist for the
+   * lifetime of the process, which is appropriate for a CLI.
    */
   dispose(): void {
-    this.encoder.free();
+    // No-op to preserve shared encoder in cache
   }
 }
 
